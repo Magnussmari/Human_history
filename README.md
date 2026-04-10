@@ -42,6 +42,7 @@ This is not a textbook. It is a **structured knowledge corpus** designed for gra
 | **Total years** | 5,226 (2025 CE — ~3200 BCE) |
 | **Agents per cycle** | 5 parallel |
 | **Cycle interval** | 20 minutes |
+| **Schedule** | Weekdays 17:00–06:00, weekends 24h (Reykjavik/UTC) |
 | **Estimated runtime** | ~70 days |
 | **Output per year** | 20-50KB structured JSON |
 | **Projected corpus** | ~200MB, 100K+ events |

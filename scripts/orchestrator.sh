@@ -42,23 +42,33 @@ get_next_years() {
   done
 }
 
-write_ledger_entry() {
-  local cycle=$1 completed=$2 failed=$3 total=$4 timestamp=$5
+# Track last sync milestone (persisted to survive restarts)
+SYNC_STATE="${BASE}/state/last_sync_count"
+LAST_SYNC=$(cat "$SYNC_STATE" 2>/dev/null || echo 0)
 
-  # Every 4 cycles (= ~20 years)
-  if [ $((cycle % 4)) -eq 0 ] && [ "$cycle" -gt 0 ]; then
+maybe_sync() {
+  local completed=$1 failed=$2 total=$3 timestamp=$4
+
+  # Sync every 20 completed years (based on absolute count, not cycle number)
+  local next_milestone=$(( (LAST_SYNC / 20 + 1) * 20 ))
+  if [ "$completed" -ge "$next_milestone" ]; then
+    # Write ledger entry
     local earliest latest
     earliest=$(jq -r '[.completed[]] | sort | first // "none"' "$PROGRESS" 2>/dev/null || echo "?")
     latest=$(jq -r '[.completed[]] | sort | last // "none"' "$PROGRESS" 2>/dev/null || echo "?")
 
-    printf '\n## Cycle %d — %s\n\n' "$cycle" "$timestamp" >> "$LEDGER"
+    printf '\n## %d years — %s\n\n' "$completed" "$timestamp" >> "$LEDGER"
     printf '- **Progress:** %d/%d completed (%d failed)\n' "$completed" "$total" "$failed" >> "$LEDGER"
     printf '- **Year range covered:** %s → %s\n' "$latest" "$earliest" >> "$LEDGER"
     printf '- **Status:** Running nominally\n\n---\n' >> "$LEDGER"
-    echo "  [LEDGER] Wrote summary at cycle ${cycle}"
+    echo "  [LEDGER] Wrote summary at ${completed} years."
 
     # Git sync (non-fatal)
     bash "$GIT_SYNC" 2>&1 || echo "  [GIT SYNC] Failed (non-fatal)"
+
+    # Persist sync point
+    echo "$completed" > "$SYNC_STATE"
+    LAST_SYNC=$completed
   fi
 }
 
@@ -69,8 +79,39 @@ fi
 
 CYCLE=0
 CONSECUTIVE_ZERO_PROGRESS=0
+RETRY_STATE="${BASE}/state/last_retry_count"
+LAST_RETRY=$(cat "$RETRY_STATE" 2>/dev/null || echo 0)
+
+# --- Schedule: weekdays 17:00–06:00 only, weekends 24h ---
+# Uses Atlantic/Reykjavik (GMT/UTC) to match the Max subscription reset
+is_within_schedule() {
+  local hour day_of_week
+  hour=$(TZ=Atlantic/Reykjavik date +%H | sed 's/^0//')
+  day_of_week=$(TZ=Atlantic/Reykjavik date +%u)  # 1=Mon ... 7=Sun
+
+  # Weekends (Sat=6, Sun=7): always run
+  if [ "$day_of_week" -ge 6 ]; then
+    return 0
+  fi
+
+  # Weekdays: only 17:00–23:59 and 00:00–05:59
+  if [ "$hour" -ge 17 ] || [ "$hour" -lt 6 ]; then
+    return 0
+  fi
+
+  return 1
+}
 
 while true; do
+  # Check schedule before each cycle
+  if ! is_within_schedule; then
+    NEXT_WINDOW=$(TZ=Atlantic/Reykjavik date +%H:%M)
+    echo ""
+    echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] Outside schedule (weekdays 06:00–17:00). Current: ${NEXT_WINDOW} Reykjavik. Sleeping 15m..."
+    sleep 900
+    continue
+  fi
+
   CYCLE=$((CYCLE + 1))
   TIMESTAMP=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 
@@ -143,11 +184,25 @@ while true; do
     echo "  Cycle completed: +${CYCLE_PROGRESS} years."
   fi
 
-  # Re-read for ledger
+  # Re-read for sync check
   COMPLETED=$(jq '.completed | length' "$PROGRESS")
   FAILED=$(jq '.failed | length' "$PROGRESS")
 
-  write_ledger_entry "$CYCLE" "$COMPLETED" "$FAILED" "$TOTAL" "$TIMESTAMP"
+  maybe_sync "$COMPLETED" "$FAILED" "$TOTAL" "$TIMESTAMP"
+
+  # Auto-retry failed years every 100 completions
+  if [ "$FAILED" -gt 0 ]; then
+    local_retry_milestone=$(( (LAST_RETRY / 100 + 1) * 100 ))
+    if [ "$COMPLETED" -ge "$local_retry_milestone" ]; then
+      echo "  Clearing ${FAILED} failed years for retry (milestone ${COMPLETED})."
+      {
+        flock -w 5 200 || true
+        jq '.failed = []' "$PROGRESS" > "${PROGRESS}.tmp" && mv "${PROGRESS}.tmp" "$PROGRESS"
+      } 200>"${PROGRESS}.lock"
+      echo "$COMPLETED" > "$RETRY_STATE"
+      LAST_RETRY=$COMPLETED
+    fi
+  fi
 
   echo "  Sleeping ${INTERVAL}s before next cycle."
   sleep "$INTERVAL"
