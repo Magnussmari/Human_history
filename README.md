@@ -27,11 +27,11 @@ Last updated: 2026-04-10T22:04:38Z
 
 **Every year of recorded human civilization. Structured. Sourced. Machine-readable.**
 
-An autonomous AI research daemon is writing the history of the world â one year at a time, from 2025 CE backward to the dawn of writing (~3200 BCE). Five parallel agents run around the clock, producing structured JSON with events, primary sources, confidence levels, geographic coordinates, anti-sycophancy checks, and graph edges linking cause to consequence across millennia.
+An autonomous AI research daemon is writing the history of the world — one year at a time, from 2025 CE backward to the dawn of writing (~3200 BCE). Five parallel agents run around the clock, producing structured JSON with events, primary sources, confidence levels, geographic coordinates, anti-sycophancy checks, and graph edges linking cause to consequence across millennia.
 
 This is not a textbook. It is a **structured knowledge corpus** designed for graph databases, timelines, adversarial review, and further AI reasoning. Every claim names its source. Every confidence level is justified. Every gap is declared, not hidden.
 
-> **Live status:** Check [`state/progress.json`](state/progress.json) â the daemon updates it after every year.
+> **Live status:** Check [`state/progress.json`](state/progress.json) — the daemon updates it after every year.
 
 ---
 
@@ -39,7 +39,7 @@ This is not a textbook. It is a **structured knowledge corpus** designed for gra
 
 | Metric | Value |
 |--------|-------|
-| **Total years** | 5,226 (2025 CE â ~3200 BCE) |
+| **Total years** | 5,226 (2025 CE — ~3200 BCE) |
 | **Agents per cycle** | 5 parallel |
 | **Cycle interval** | 20 minutes |
 | **Estimated runtime** | ~70 days |
@@ -87,7 +87,7 @@ Every year produces a single JSON file following the **ICCRA schema** (see [`RES
 - **No fabrication.** If nothing is known for a year, the events array is empty and the era_context explains why.
 - **Anti-sycophancy protocol.** Every year must surface evidence that contradicts its own narrative.
 - **No anachronism.** A Bronze Age palace fire is described as a palace fire, not an "economic crisis."
-- **Global coverage.** Asia, Africa, the Americas, Oceania â not just Europe. Gaps are declared, not hidden.
+- **Global coverage.** Asia, Africa, the Americas, Oceania — not just Europe. Gaps are declared, not hidden.
 - **Source typing.** Every event names whether its evidence is a primary text, archaeology, a later chronicle, or oral tradition.
 
 ---
@@ -109,7 +109,7 @@ claude -p "$(cat RESEARCH_PROMPT.md | sed 's/{{YEAR}}/1453/g; s/{{YEAR_LABEL}}/1
 
 ### The Meta-Prompt
 
-Copy this entire block into any AI agent. It is self-contained â no dependencies, no setup.
+Copy this entire block into any AI agent. It is self-contained — no dependencies, no setup.
 
 ~~~
 You are a historical research agent. Your task is to produce a structured JSON
@@ -118,15 +118,15 @@ document for a single year of human history. Follow these rules exactly:
 YEAR TO RESEARCH: [INSERT YEAR HERE, e.g., 1453 or -3200]
 
 INSTRUCTIONS:
-1. If the year is negative, format as BCE (e.g., -3200 â "3200 BCE"). Otherwise CE.
+1. If the year is negative, format as BCE (e.g., -3200 — "3200 BCE"). Otherwise CE.
 2. Research the most significant events for this year across ALL regions of the world.
 3. For well-documented years (modern era): 15-25 events.
    For poorly documented years (ancient): 0-5 events. Zero is acceptable.
-4. Every event MUST name its source â "general knowledge" is not acceptable.
+4. Every event MUST name its source — "general knowledge" is not acceptable.
 5. Every event MUST have a certainty level: confirmed, probable, approximate, traditional, or legendary.
-6. You MUST include a "disconfirming_evidence" section â what commonly held beliefs
+6. You MUST include a "disconfirming_evidence" section — what commonly held beliefs
    about this year are disputed? If none, state that explicitly.
-7. You MUST include "geographic_coverage_gaps" â which regions are you likely missing?
+7. You MUST include "geographic_coverage_gaps" — which regions are you likely missing?
 8. Do NOT fabricate. An empty events array with honest era_context is infinitely
    more valuable than hallucinated entries.
 9. Do NOT project modern categories onto pre-modern events.
@@ -250,10 +250,10 @@ Open an Issue tagged `adversarial` or submit a review document.
 ### Contribution Rules
 
 - All JSON must validate against the ICCRA schema (see `RESEARCH_PROMPT.md`)
-- Every event must have named sources â no "general knowledge"
+- Every event must have named sources — no "general knowledge"
 - PRs to `outputs/json/` require at least one review
 - Don't modify `RESEARCH_PROMPT.md` (the canonical prompt is locked)
-- Be honest about uncertainty â empty events with good era_context > fabricated events
+- Be honest about uncertainty — empty events with good era_context > fabricated events
 
 ---
 
@@ -261,25 +261,25 @@ Open an Issue tagged `adversarial` or submit a review document.
 
 ```
 Human_history/
-âââ RESEARCH_PROMPT.md        # The ICCRA prompt template (DO NOT MODIFY)
-âââ LEDGER.md                 # Append-only daemon progress log
-âââ scripts/
-â   âââ orchestrator.sh       # Main daemon loop (5 agents, 20-min cycles)
-â   âââ run_year.sh           # Single-year agent runner
-â   âââ generate_prompt.sh    # {{YEAR}} / {{YEAR_LABEL}} substitution
-â   âââ git_sync.sh           # Auto-push to GitHub every 20 years
-â   âââ health_check.sh       # Quick status check
-âââ docker/
-â   âââ Dockerfile            # Ubuntu 24.04 + Claude Code
-â   âââ docker-compose.yml    # Reboot-persistent container
-â   âââ entrypoint.sh         # Init + launch orchestrator
-âââ outputs/
-â   âââ json/                 # One file per year: 2025.json â -3200.json
-â   âââ failed/               # Failed attempts with error context
-â   âââ logs/                 # Per-year agent logs
-âââ state/
-â   âââ progress.json         # Completed / failed / in-progress tracking
-âââ synthesis/                # Post-completion: merged corpus, graph edges
+——— RESEARCH_PROMPT.md        # The ICCRA prompt template (DO NOT MODIFY)
+——— LEDGER.md                 # Append-only daemon progress log
+——— scripts/
+—   ——— orchestrator.sh       # Main daemon loop (5 agents, 20-min cycles)
+—   ——— run_year.sh           # Single-year agent runner
+—   ——— generate_prompt.sh    # {{YEAR}} / {{YEAR_LABEL}} substitution
+—   ——— git_sync.sh           # Auto-push to GitHub every 20 years
+—   ——— health_check.sh       # Quick status check
+——— docker/
+—   ——— Dockerfile            # Ubuntu 24.04 + Claude Code
+—   ——— docker-compose.yml    # Reboot-persistent container
+—   ——— entrypoint.sh         # Init + launch orchestrator
+——— outputs/
+—   ——— json/                 # One file per year: 2025.json — -3200.json
+—   ——— failed/               # Failed attempts with error context
+—   ——— logs/                 # Per-year agent logs
+——— state/
+—   ——— progress.json         # Completed / failed / in-progress tracking
+——— synthesis/                # Post-completion: merged corpus, graph edges
 ```
 
 The daemon is **crash-safe and idempotent**:
@@ -295,14 +295,14 @@ The daemon is **crash-safe and idempotent**:
 
 When the daemon finishes all 5,226 years:
 
-1. **Validate** â Schema check every JSON file
-2. **Merge** â Single unified timeline (`synthesis/human_history_complete.json`)
-3. **Graph** â Extract all edges into Neo4j for relationship traversal
-4. **Adversarial review** â AI red-team pass for bias, gaps, and hallucination
-5. **Interactive timeline** â Web visualization of the full corpus
-6. **Academic review** â Open for domain expert correction and enrichment
+1. **Validate** — Schema check every JSON file
+2. **Merge** — Single unified timeline (`synthesis/human_history_complete.json`)
+3. **Graph** — Extract all edges into Neo4j for relationship traversal
+4. **Adversarial review** — AI red-team pass for bias, gaps, and hallucination
+5. **Interactive timeline** — Web visualization of the full corpus
+6. **Academic review** — Open for domain expert correction and enrichment
 
-The end state is a **structured, sourced, machine-readable history of human civilization** â not a replacement for scholarship, but a scaffold for it.
+The end state is a **structured, sourced, machine-readable history of human civilization** — not a replacement for scholarship, but a scaffold for it.
 
 ---
 
@@ -310,13 +310,13 @@ The end state is a **structured, sourced, machine-readable history of human civi
 
 A custom research workflow developed by Magnus, built on the ICCRA schema:
 
-- **ICCRA schema** â Intent, Context, Constraints, Reporting, Authority
-- **Anti-sycophancy protocol** â Mandatory disconfirming evidence
-- **Source typing** â Primary, archaeological, epigraphic, numismatic, chronicle, oral tradition
-- **Certainty calibration** â Five-level confidence with justification
-- **Geographic equity** â Explicit gap declaration for underrepresented regions
-- **Graph-native** â Every event has edges connecting it to causes and consequences
+- **ICCRA schema** — Intent, Context, Constraints, Reporting, Authority
+- **Anti-sycophancy protocol** — Mandatory disconfirming evidence
+- **Source typing** — Primary, archaeological, epigraphic, numismatic, chronicle, oral tradition
+- **Certainty calibration** — Five-level confidence with justification
+- **Geographic equity** — Explicit gap declaration for underrepresented regions
+- **Graph-native** — Every event has edges connecting it to causes and consequences
 
 ---
 
-*Built by [Magnus SmÃ¡rason](https://smarason.is) â one daemon, 5,226 years, zero fabrication.*
+*Built by [Magnus SmÃ¡rason](https://smarason.is) — one daemon, 5,226 years, zero fabrication.*
