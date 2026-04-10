@@ -1,30 +1,41 @@
 #!/bin/bash
 # Main daemon loop. Picks next N years, launches parallel agents, waits, repeats.
+# Designed for 70-day unattended operation.
 
-set -euo pipefail
+set -eu
 
 PARALLEL=${PARALLEL_AGENTS:-5}
 INTERVAL=${CYCLE_INTERVAL_SECONDS:-1200}
 START=${START_YEAR:-2025}
 END=${END_YEAR:--3200}
-PROGRESS="/workspace/state/progress.json"
-LEDGER="/workspace/LEDGER.md"
-GIT_SYNC="/workspace/scripts/git_sync.sh"
 
-# Fallback for non-Docker runs
-if [ ! -f "$PROGRESS" ]; then
-  PROGRESS="$HOME/Human_history/state/progress.json"
-  LEDGER="$HOME/Human_history/LEDGER.md"
-  GIT_SYNC="$HOME/Human_history/scripts/git_sync.sh"
-fi
+BASE="/workspace"
+[ ! -d "$BASE/state" ] && BASE="$HOME/Human_history"
+
+PROGRESS="${BASE}/state/progress.json"
+LEDGER="${BASE}/LEDGER.md"
+GIT_SYNC="${BASE}/scripts/git_sync.sh"
+SCRIPT="${BASE}/scripts/run_year.sh"
+
+# --- Startup: clean stale state ---
+# Remove stale locks (older than 15 min)
+find "${BASE}/state/lock" -name "*.lock" -mmin +15 -delete 2>/dev/null || true
+
+# Clear in_progress (anything there on startup is from a crash)
+{
+  flock -w 5 200 || true
+  jq '.in_progress = []' "$PROGRESS" > "${PROGRESS}.tmp" && mv "${PROGRESS}.tmp" "$PROGRESS"
+} 200>"${PROGRESS}.lock"
+
+echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] Orchestrator starting clean."
 
 get_next_years() {
   local count=0
   local year=$START
 
-  while [ $year -ge $END ] && [ $count -lt $PARALLEL ]; do
+  while [ "$year" -ge "$END" ] && [ "$count" -lt "$PARALLEL" ]; do
     if ! jq -e "(.completed + .failed) | index(${year})" "$PROGRESS" > /dev/null 2>&1; then
-      echo $year
+      echo "$year"
       count=$((count + 1))
     fi
     year=$((year - 1))
@@ -32,38 +43,32 @@ get_next_years() {
 }
 
 write_ledger_entry() {
-  local cycle=$1
-  local completed=$2
-  local failed=$3
-  local total=$4
-  local timestamp=$5
+  local cycle=$1 completed=$2 failed=$3 total=$4 timestamp=$5
 
-  # Write ledger entry every 4 cycles (= 20 years of 5-year batches)
-  if [ $((cycle % 4)) -eq 0 ] && [ $cycle -gt 0 ]; then
-    local earliest=$(jq -r '[.completed[]] | sort | first // "none"' "$PROGRESS" 2>/dev/null)
-    local latest=$(jq -r '[.completed[]] | sort | last // "none"' "$PROGRESS" 2>/dev/null)
+  # Every 4 cycles (= ~20 years)
+  if [ $((cycle % 4)) -eq 0 ] && [ "$cycle" -gt 0 ]; then
+    local earliest latest
+    earliest=$(jq -r '[.completed[]] | sort | first // "none"' "$PROGRESS" 2>/dev/null || echo "?")
+    latest=$(jq -r '[.completed[]] | sort | last // "none"' "$PROGRESS" 2>/dev/null || echo "?")
 
     printf '\n## Cycle %d — %s\n\n' "$cycle" "$timestamp" >> "$LEDGER"
     printf '- **Progress:** %d/%d completed (%d failed)\n' "$completed" "$total" "$failed" >> "$LEDGER"
     printf '- **Year range covered:** %s → %s\n' "$latest" "$earliest" >> "$LEDGER"
-    printf '- **Years processed so far:** %d\n' "$completed" >> "$LEDGER"
     printf '- **Status:** Running nominally\n\n---\n' >> "$LEDGER"
-    echo "  [LEDGER] Wrote 20-year summary at cycle ${cycle}"
+    echo "  [LEDGER] Wrote summary at cycle ${cycle}"
 
-    # Push to GitHub every 20 years
+    # Git sync (non-fatal)
     bash "$GIT_SYNC" 2>&1 || echo "  [GIT SYNC] Failed (non-fatal)"
   fi
 }
 
 # Initialize ledger if missing
 if [ ! -f "$LEDGER" ]; then
-  printf '# Human History Daemon — Ledger\n\n' > "$LEDGER"
-  printf '> Append-only log. One entry every ~20 years of progress.\n' >> "$LEDGER"
-  printf '> Started: %s\n\n---\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$LEDGER"
-  echo "[LEDGER] Initialized"
+  printf '# Human History Daemon — Ledger\n\n> Append-only log.\n> Started: %s\n\n---\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" > "$LEDGER"
 fi
 
 CYCLE=0
+CONSECUTIVE_ZERO_PROGRESS=0
 
 while true; do
   CYCLE=$((CYCLE + 1))
@@ -80,54 +85,70 @@ while true; do
   echo "  Progress: ${COMPLETED}/${TOTAL} completed, ${FAILED} failed, ${REMAINING} remaining"
   echo "========================================"
 
-  if [ $REMAINING -le 0 ]; then
+  # All done?
+  if [ "$REMAINING" -le 0 ]; then
     echo "All years processed. Daemon complete."
-    printf '{"status":"complete","completed":%d,"failed":%d,"timestamp":"%s"}' "$COMPLETED" "$FAILED" "$TIMESTAMP" > /workspace/state/final_status.json 2>/dev/null || true
-    # Final git push
+    printf '{"status":"complete","completed":%d,"failed":%d,"timestamp":"%s"}\n' "$COMPLETED" "$FAILED" "$TIMESTAMP" > "${BASE}/state/final_status.json" 2>/dev/null || true
     bash "$GIT_SYNC" 2>&1 || true
     exit 0
   fi
 
+  # Get next batch
   YEARS=$(get_next_years)
 
   if [ -z "$YEARS" ]; then
-    echo "No years available to process. Waiting..."
+    # All years are either completed, failed, or in-progress
+    # If nothing is in-progress, clear failed to allow retries
+    IN_PROGRESS=$(jq '.in_progress | length' "$PROGRESS")
+    if [ "$IN_PROGRESS" -eq 0 ] && [ "$FAILED" -gt 0 ]; then
+      echo "  All remaining years have failed. Clearing failed list for retry."
+      {
+        flock -w 5 200 || true
+        jq '.failed = []' "$PROGRESS" > "${PROGRESS}.tmp" && mv "${PROGRESS}.tmp" "$PROGRESS"
+      } 200>"${PROGRESS}.lock"
+    else
+      echo "  No years available. Waiting..."
+    fi
     sleep "$INTERVAL"
     continue
   fi
 
   echo "  Launching agents for years: $(echo $YEARS | tr '\n' ' ')"
 
+  # Launch agents in parallel
   PIDS=()
-  SCRIPT="/workspace/scripts/run_year.sh"
-  [ ! -f "$SCRIPT" ] && SCRIPT="$HOME/Human_history/scripts/run_year.sh"
-
   for year in $YEARS; do
     bash "$SCRIPT" "$year" &
     PIDS+=("$!")
-    sleep 2
+    sleep 2  # Stagger to avoid API burst
   done
 
+  # Wait for all agents
   for pid in "${PIDS[@]}"; do
     wait "$pid" 2>/dev/null || true
   done
 
-  # Check if this cycle made progress — if not, we may be rate-limited
+  # Check progress
   NEW_COMPLETED=$(jq '.completed | length' "$PROGRESS")
-  if [ "$NEW_COMPLETED" -eq "$COMPLETED" ]; then
-    # No new completions — likely rate limited. Back off longer.
-    BACKOFF=600  # 10 minutes
-    echo "  WARNING: No progress this cycle (rate limited?). Backing off ${BACKOFF}s."
+  CYCLE_PROGRESS=$((NEW_COMPLETED - COMPLETED))
+
+  if [ "$CYCLE_PROGRESS" -eq 0 ]; then
+    CONSECUTIVE_ZERO_PROGRESS=$((CONSECUTIVE_ZERO_PROGRESS + 1))
+    BACKOFF=$((INTERVAL + CONSECUTIVE_ZERO_PROGRESS * 300))  # Escalating backoff
+    [ "$BACKOFF" -gt 3600 ] && BACKOFF=3600  # Cap at 1 hour
+    echo "  WARNING: No progress (${CONSECUTIVE_ZERO_PROGRESS} consecutive). Backing off ${BACKOFF}s."
     sleep "$BACKOFF"
+  else
+    CONSECUTIVE_ZERO_PROGRESS=0
+    echo "  Cycle completed: +${CYCLE_PROGRESS} years."
   fi
 
-  # Re-read after cycle for accurate ledger
+  # Re-read for ledger
   COMPLETED=$(jq '.completed | length' "$PROGRESS")
   FAILED=$(jq '.failed | length' "$PROGRESS")
 
-  # Write ledger + git sync every 20 years
   write_ledger_entry "$CYCLE" "$COMPLETED" "$FAILED" "$TOTAL" "$TIMESTAMP"
 
-  echo "  Batch complete. Sleeping ${INTERVAL}s before next cycle."
+  echo "  Sleeping ${INTERVAL}s before next cycle."
   sleep "$INTERVAL"
 done

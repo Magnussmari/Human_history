@@ -1,29 +1,37 @@
 #!/bin/bash
-# Pushes current progress to GitHub every 20 completed years
-# Called by orchestrator.sh
+# Pushes current progress to GitHub.
+# Called by orchestrator.sh every ~20 years of progress.
 
-set -euo pipefail
+set -eu
 
 BASE="/workspace"
 [ ! -d "$BASE/.git" ] && BASE="$HOME/Human_history"
 
 cd "$BASE"
 
-COMPLETED=$(jq '.completed | length' state/progress.json)
-FAILED=$(jq '.failed | length' state/progress.json)
+COMPLETED=$(jq '.completed | length' state/progress.json 2>/dev/null || echo "?")
+FAILED=$(jq '.failed | length' state/progress.json 2>/dev/null || echo "?")
 TOTAL=5226
 
 # Stage outputs and state
 git add outputs/json/*.json state/progress.json LEDGER.md 2>/dev/null || true
-git add outputs/failed/ 2>/dev/null || true
 
-# Check if there are changes to commit
+# Check if there are changes
 if git diff --cached --quiet 2>/dev/null; then
   echo "[GIT SYNC] No changes to commit."
-  return 0 2>/dev/null || exit 0
+  exit 0
 fi
 
-git commit -m "Progress: ${COMPLETED}/${TOTAL} years completed (${FAILED} failed)" 2>/dev/null || true
-git push origin main 2>/dev/null || echo "[GIT SYNC] Push failed (will retry next sync)"
+git commit -m "Progress: ${COMPLETED}/${TOTAL} years completed (${FAILED} failed)" 2>/dev/null || {
+  echo "[GIT SYNC] Commit failed."
+  exit 1
+}
 
-echo "[GIT SYNC] Pushed ${COMPLETED} completed years to GitHub"
+# Try pushing — if main is protected, push to a data branch and log it
+if git push origin main 2>/dev/null; then
+  echo "[GIT SYNC] Pushed to main: ${COMPLETED} completed years."
+else
+  echo "[GIT SYNC] Main is protected. Pushing to data branch."
+  BRANCH="data/progress-$(date +%Y%m%d)"
+  git push origin "main:${BRANCH}" 2>/dev/null || echo "[GIT SYNC] Push failed entirely (will retry)."
+fi
