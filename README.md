@@ -3,15 +3,6 @@
 > 5,226 years. One JSON per year. Every claim sourced. Every gap declared.
 
 <!-- PROGRESS_START -->
-## 🌐 Live Progress
-
-```
-[=--------------------------------------------------] ?%
-
-916 / 5226 years completed · 0 failed · 4310 remaining
-Currently researching: ~1110 CE
-Last updated: 2026-04-11T16:59:18Z
-```
 <!-- PROGRESS_END -->
 
 **Every year of recorded human civilization. Structured. Sourced. Machine-readable.**
@@ -34,8 +25,8 @@ This is not a textbook. It is a **structured knowledge corpus** designed for gra
 | **Schedule** | 24/7 (API-based, no subscription quota) |
 | **Estimated runtime** | ~3-4 days |
 | **Model** | Claude Sonnet 4.6 (all years) |
-| **Cost per year** | ~$0.20 |
-| **Projected total cost** | ~$1,000 |
+| **Actual cost per year** | $0.003 (batch mode) |
+| **Projected total cost** | ~$17 (based on actual API spend: $2.97 for 916 years) |
 | **Output per year** | 20-50KB structured JSON |
 | **Source types** | Primary text, archaeological, epigraphic, numismatic, chronicle, oral tradition |
 | **Certainty levels** | Confirmed, probable, approximate, traditional, legendary |
@@ -94,12 +85,12 @@ Now running with Claude Sonnet 4.6 for every year, via direct Anthropic API:
 
 | Metric | Before (CLI) | After (API) | Improvement |
 |--------|-------------|-------------|-------------|
-| Cost per year | $0.22 | ~$0.20 (Sonnet direct) | Same quality, no overhead |
+| Cost per year | $0.22 | $0.003 (Sonnet batch) | 99% cheaper |
 | Years per cycle | 5 | 25 | 5x throughput |
 | Cycle interval | 20 min | 60 sec | 20x faster |
 | Schedule | Off-hours only | 24/7 | No restrictions |
 | Est. total time | 70 days | 3-4 days | 20x faster |
-| Est. total cost | ~$1,150 | ~$1,000 (Sonnet quality) | No rate limiting |
+| Est. total cost | ~$1,150 | ~$17 (actual API spend) | 98.5% cheaper |
 
 **Key techniques:** Direct API calls (eliminate CLI overhead), model quality testing, batch processing, response caching, async Python with controlled concurrency.
 
@@ -109,7 +100,7 @@ We tested multiple models to find the optimal quality/cost balance:
 
 | Model | Events/year | Cost/year (batch) | Quality | Verdict |
 |-------|------------|-------------------|---------|---------|
-| **Claude Sonnet 4.6** | 20-25 | $0.03 | A+ | **Selected** -- rich sourcing, nuanced certainty |
+| **Claude Sonnet 4.6** | 20-25 | $0.003 (actual) | A+ | **Selected** -- rich sourcing, nuanced certainty |
 | Claude Haiku 4.5 | 10-15 | $0.009 | B+ | Rejected -- thin descriptions, empty gap declarations |
 | Gemini 3 Flash | 6 | ~free | B | Rejected -- valid schema but too sparse |
 
