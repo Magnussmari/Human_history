@@ -1,0 +1,108 @@
+{
+  "year": 944,
+  "year_label": "944 CE",
+  "era_context": "The early 10th century CE witnessed the fragmentation of the Abbasid Caliphate and the rise of regional Islamic dynasties. In Europe, the early medieval period saw the consolidation of feudal kingdoms, particularly in Francia and the emerging Holy Roman Empire. The Byzantine Empire remained a major Mediterranean power. In East Asia, the Five Dynasties and Ten Kingdoms period in China was drawing toward its end, with the Northern Song dynasty's unification imminent.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Mesoamerica and South America (no written records for this specific year)",
+    "Northern Europe beyond Francia and the Germanic kingdoms (sparse documentation)"
+  ],
+  "events": [
+    {
+      "id": "944-001",
+      "title": "Abbasid Caliph al-Radi dies; al-Muttaqi assumes caliphate",
+      "region": "Baghdad, Abbasid Caliphate",
+      "coordinates_approx": "33.3157, 44.3661",
+      "category": "political",
+      "description": "Al-Radi, the Abbasid caliph, died in 944 CE after a reign marked by the continued erosion of central authority. He was succeeded by al-Muttaqi, whose caliphate would be dominated by the Buyid dynasty's growing influence over Baghdad and the caliphate's temporal affairs. This succession exemplified the Abbasid decline, as the caliph retained primarily religious authority while military and political power devolved to regional dynasties and military strongmen.",
+      "key_figures": [
+        "Al-Radi (Abbasid caliph, r. 934\u2013940 CE, died 944)",
+        "Al-Muttaqi (Abbasid caliph, r. 940\u2013944 CE, succeeded as caliph)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Mas'udi, Meadows of Gold (Muruj al-dhahab)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The succession of al-Muttaqi is well-attested in Islamic chronicles, though exact dates vary slightly between sources (some place al-Radi's death in 940 CE). The 944 CE date reflects the most widely accepted chronology in modern scholarship.",
+      "cross_references": []
+    },
+    {
+      "id": "944-002",
+      "title": "Buyid dynasty consolidates control over central Iraq",
+      "region": "Iraq, Persia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "The Buyid dynasty, a Shi'a Persian military dynasty, continued its expansion of control over Iraq and the Abbasid heartland during 944 CE. By this year, the Buyids had effectively become the dominant military power in Baghdad and central Iraq, reducing the Abbasid caliph to a figurehead. This marked a major shift in Islamic political geography, with Shi'a Persian power eclipsing Sunni Arab authority in the caliphate's core territories.",
+      "key_figures": [
+        "Ahmad ibn Buya (Mu'izz al-Dawla, Buyid emir)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Mas'udi, Meadows of Gold",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Buyid expansion",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Buyid consolidation occurred over several years in the 940s CE. The specific year 944 CE is assigned by convention as a marker within this broader process, though the exact chronology of individual military campaigns is uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "944-003",
+      "title": "Khitan (Liao) dynasty raids northern China",
+      "region": "Northern China, Khitan territories",
+      "coordinates_approx": "40.0, 115.0",
+      "category": "military",
+      "description": "The Khitan Liao dynasty, a Jurchen-related power based in Manchuria, conducted military campaigns against the northern Chinese states during the Five Dynasties and Ten Kingdoms period. These raids and military pressures contributed to the instability of northern China and would eventually lead to the Khitan establishment of the Liao dynasty as a major regional power. The Khitan threat was a significant factor in the eventual unification efforts that led to the Northern Song dynasty.",
+      "key_figures": [
+        "Abaoji (Khitan leader, though he died in 926 CE; his successors continued his policies)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government), compiled by Sima Guang",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historical records of the Five Dynasties period",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Khitan military activities in the 940s CE are attested, but specific campaigns in 944 CE are not distinctly documented. The date is assigned by convention within the broader pattern of Khitan-Chinese conflict during this decade.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact date of al-Radi's death is disputed among Islamic sources; some place it in 940 CE rather than 944 CE. The significance of 944 CE as a turning point in Abbasid history is somewhat overstated in some Western historiography\u2014the Buyid takeover was a gradual process rather than a sudden event in a single year. The Khitan threat to northern China, while real, is sometimes exaggerated in later Chinese chronicles as a justification for Song unification policies.",
+  "historiographic_note": "The historical record for 944 CE is moderate in quality. Islamic chronicles provide reasonably detailed accounts of political succession and Buyid expansion, though they often reflect the biases of court-sponsored historiography. Chinese sources are abundant but were compiled centuries later and reflect Song-era perspectives on the preceding period of fragmentation. European sources for this year are sparse and often unreliable. The surviving record is heavily weighted toward political and military events; economic, social, and cultural developments are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "944-001",
+      "to": "940-001",
+      "relation": "part_of",
+      "note": "Continuation of Abbasid caliphate succession and decline"
+    },
+    {
+      "from": "944-002",
+      "to": "950-001",
+      "relation": "led_to",
+      "note": "Buyid consolidation led to formal establishment of Buyid dynasty as dominant power"
+    }
+  ]
+}
