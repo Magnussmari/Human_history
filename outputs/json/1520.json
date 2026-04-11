@@ -1,209 +1,355 @@
 {
   "year": 1520,
   "year_label": "1520 CE",
-  "era_context": "The early 16th century: the Protestant Reformation is in its early stages under Martin Luther; the Spanish conquest of the Aztec Empire is underway; the Ottoman Empire under S\u00fcleyman the Magnificent is beginning his reign; the Ming Dynasty is in its mid-reign period; and European exploration of the Americas is accelerating. This is a period of religious upheaval, imperial consolidation, and global exploration.",
+  "era_context": "The early 16th century was a period of rapid European expansion, religious ferment, and political consolidation. The Renaissance was flourishing in Italy; the Protestant Reformation was gaining momentum in the Holy Roman Empire; and European maritime empires were beginning their global expansion. In Asia, the Ming Dynasty ruled China; the Ottoman Empire was consolidating power under Suleiman I; and the Aztec Empire in Mesoamerica was at its height, unaware of the Spanish threat gathering on its coasts.",
   "documentation_level": "rich",
   "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1520-001",
-      "title": "Stockholm Massacre; Danish King Christian II executes Swedish nobles",
-      "region": "Scandinavia (Stockholm, Sweden)",
-      "coordinates_approx": "59.3, 18.1",
-      "category": "military",
-      "description": "King Christian II of Denmark, seeking to consolidate Danish control over Sweden (which was united with Denmark under the Kalmar Union), invites Swedish nobles to Stockholm under a promise of safe conduct. Once gathered, Christian II orders the execution of approximately 80-100 Swedish nobles and bishops in November 1520. The massacre is intended to eliminate Swedish resistance to Danish rule, but it has the opposite effect, sparking a popular uprising led by Gustav Vasa that will result in Swedish independence in 1523. The Stockholm Massacre is a turning point in Scandinavian history and demonstrates the fragility of the Kalmar Union.",
+      "title": "Smallpox Epidemic Begins in Tenochtitlan; Aztec Population Decimated",
+      "region": "Mesoamerica (Mexico)",
+      "coordinates_approx": "19.4326, -99.1332",
+      "category": "demographic",
+      "description": "A smallpox epidemic, introduced by Spanish conquistadors and their indigenous allies, broke out in Tenochtitlan in 1520 (likely in the spring or early summer). The disease spread rapidly through the densely populated Aztec capital and surrounding regions, killing an estimated 30\u201350% of the population within months. The epidemic was catastrophic for Aztec military and political organization, killing many nobles and warriors and demoralizing the population. This pandemic, known as the 'cocoliztli' (great pestilence) in Nahuatl sources, was far more devastating than Spanish military force and fundamentally weakened Aztec resistance to Cort\u00e9s's conquest. The epidemic represents one of the most significant demographic catastrophes in human history.",
       "key_figures": [
-        "Christian II (King of Denmark)",
-        "Swedish nobles and bishops",
-        "Gustav Vasa (emerging leader of Swedish resistance)"
+        "Montezuma II (Aztec emperor, died in 1520, possibly from smallpox)",
+        "Cuitl\u00e1huac (Aztec emperor, died of smallpox in December 1520)",
+        "Hern\u00e1n Cort\u00e9s (Spanish conquistador)"
       ],
       "sources": [
         {
-          "name": "Swedish and Danish chronicles and contemporary accounts",
-          "type": "chronicle",
+          "name": "Florentine Codex (Sahag\u00fan's compilation of Nahua accounts)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Bernal D\u00edaz del Castillo, The True History of the Conquest of New Spain",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Spanish conquistador accounts and letters",
+          "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Later compilations and historiographic accounts",
+          "name": "Demographic and epidemiological analysis",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Stockholm Massacre is well-documented in Scandinavian sources. The date and significance are firmly established, though the exact number of victims is sometimes disputed.",
+      "certainty_note": "The outbreak of smallpox in Tenochtitlan in 1520 is well-documented in both Spanish and indigenous sources. The epidemic's devastating impact is confirmed by multiple contemporary accounts and modern epidemiological analysis.",
       "cross_references": [
-        "1523-001 (Swedish independence under Gustav Vasa)",
-        "1397-001 (Establishment of Kalmar Union)"
+        "1519-001 (Cort\u00e9s lands in Mexico)",
+        "1521-001 (Fall of Tenochtitlan)"
       ]
     },
     {
       "id": "1520-002",
-      "title": "S\u00fcleyman the Magnificent becomes Ottoman Sultan",
-      "region": "Ottoman Empire",
-      "coordinates_approx": "41.0, 28.9",
+      "title": "Suleiman I Ascends to Ottoman Throne; Begins Reign of Expansion",
+      "region": "Ottoman Empire (Turkey)",
+      "coordinates_approx": "41.0082, 28.9784",
       "category": "political",
-      "description": "S\u00fcleyman I, known as 'the Magnificent' in the West and 'the Lawgiver' (Kanuni) in the Ottoman tradition, becomes Sultan of the Ottoman Empire following the death of his father Selim I. S\u00fcleyman's reign (1520-1566) is marked by aggressive military expansion, legal and administrative reforms, and the consolidation of Ottoman power in the Mediterranean, Eastern Europe, and the Middle East. His accession marks the beginning of the Ottoman Empire's greatest period of expansion and cultural achievement. S\u00fcleyman will become one of the most significant rulers of the early modern period.",
+      "description": "On 30 September 1520, Suleiman I (known as 'the Magnificent' in the West and 'the Lawgiver' in the Ottoman tradition) ascended to the Ottoman throne following the death of his father, Selim I. Suleiman was 26 years old and inherited an empire at the height of its power. He immediately began a reign of military expansion and administrative reform that would last 46 years (until 1566) and transform the Ottoman Empire into the dominant power of the eastern Mediterranean and Balkans. His early campaigns included the siege of Belgrade (1521) and the conquest of Rhodes (1522), establishing Ottoman naval supremacy.",
       "key_figures": [
-        "S\u00fcleyman I (Ottoman Sultan)",
-        "Selim I (previous Sultan, deceased)",
-        "Ottoman administrative officials"
+        "Suleiman I (Ottoman Sultan)",
+        "Selim I (Suleiman's father, previous sultan)",
+        "Ibrahim Pasha (Grand Vizier, Suleiman's chief minister)"
       ],
       "sources": [
         {
-          "name": "Ottoman chronicles and court records",
+          "name": "Ottoman chronicles (Takvim-i Vekayi and later Ottoman histories)",
           "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Venetian diplomatic reports",
+          "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus on S\u00fcleyman's reign",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Ottoman court records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "S\u00fcleyman's accession is well-documented in Ottoman records. The date and significance are firmly established.",
+      "certainty_note": "The date of Suleiman's accession (30 September 1520) is well-documented in Ottoman records and Venetian diplomatic correspondence. His reign is one of the best-documented periods of Ottoman history.",
       "cross_references": [
-        "1521-002 (Siege of Belgrade)",
-        "1526-002 (Battle of Moh\u00e1cs)"
+        "1521-006 (Siege of Belgrade)",
+        "1522-004 (Conquest of Rhodes)"
       ]
     },
     {
       "id": "1520-003",
-      "title": "Cort\u00e9s's expedition encounters Aztec resistance; Noche Triste",
-      "region": "Mexico (Aztec Empire)",
-      "coordinates_approx": "19.4, -99.1",
-      "category": "military",
-      "description": "Hern\u00e1n Cort\u00e9s's Spanish expedition, which arrived in Mexico in 1519, faces a major setback when the Aztecs, under the leadership of Montezuma II's successor, rise up against Spanish occupation. On the night of June 30, 1520 (known as 'La Noche Triste' or 'The Night of Sorrows'), Spanish forces are forced to retreat from Tenochtitlan with heavy losses. However, Cort\u00e9s rallies his forces and indigenous allies (particularly the Tlaxcalans) and prepares for a final assault on the city. The Noche Triste is a temporary setback for the Spanish, but it does not halt their conquest. The Spanish will return and besiege Tenochtitlan in 1521, leading to the fall of the Aztec Empire.",
+      "title": "Peasants' War Begins in the Holy Roman Empire",
+      "region": "Holy Roman Empire (Germany, Swabia)",
+      "coordinates_approx": "48.5000, 9.5000",
+      "category": "political",
+      "description": "In 1520, tensions between peasants and nobility in the Holy Roman Empire began to escalate, setting the stage for the Peasants' War (1524\u20131526). While the major uprisings would occur in 1524\u20131525, the roots of discontent were evident in 1520, as peasants increasingly resented feudal obligations, taxation, and the enclosure of common lands. The religious ferment of the Protestant Reformation, which had begun with Luther's 95 Theses in 1517, added ideological fuel to peasant grievances. By 1520, pamphlets and sermons were circulating that linked religious reform to social justice, creating a volatile mixture of religious and economic discontent.",
       "key_figures": [
-        "Hern\u00e1n Cort\u00e9s (Spanish conquistador)",
-        "Montezuma II (Aztec Emperor, died during this period)",
-        "Tlaxcalan allies"
+        "Martin Luther (religious reformer, whose ideas influenced peasant ideology)",
+        "Thomas M\u00fcntzer (radical reformer, would lead peasant forces in 1524\u20131525)",
+        "Various peasant leaders (names often unrecorded)"
       ],
       "sources": [
         {
-          "name": "Cort\u00e9s's letters to Charles V",
+          "name": "Contemporary pamphlets and broadsheets",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Spanish chronicles and accounts",
-          "type": "chronicle",
+          "name": "Luther's writings and correspondence",
+          "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Indigenous codices and later compilations",
-          "type": "later_compilation",
+          "name": "Noble and ecclesiastical records documenting peasant unrest",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the origins of the Peasants' War",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The Noche Triste is well-documented in Spanish accounts and indigenous sources. The date of June 30, 1520, is firmly established.",
+      "certainty": "probable",
+      "certainty_note": "The year 1520 is somewhat arbitrary for dating the 'beginning' of the Peasants' War, as discontent was building gradually. The major uprisings occurred in 1524\u20131525. However, 1520 marks a clear escalation of tensions and the emergence of radical religious-social ideology.",
       "cross_references": [
-        "1519-002 (Cort\u00e9s's arrival in Mexico)",
-        "1521-003 (Fall of Tenochtitlan)"
+        "1517-001 (Luther's 95 Theses)",
+        "1524-001 (Peasants' War begins in earnest)"
       ]
     },
     {
       "id": "1520-004",
-      "title": "Magellan's expedition crosses the Pacific Ocean",
-      "region": "Pacific Ocean, Philippines",
-      "coordinates_approx": "10.3, 123.9",
-      "category": "exploration",
-      "description": "Ferdinand Magellan's expedition, which departed Spain in 1519, crosses the Pacific Ocean and reaches the Philippines in March 1520. The crossing of the Pacific is a monumental achievement, as it is the first known European crossing of the world's largest ocean. The voyage takes approximately four months, and the crew suffers from scurvy, starvation, and disease. The expedition discovers several islands in the Pacific, including Guam, and establishes the first European contact with the Philippines. The crossing of the Pacific proves that a westward route to Asia is possible and opens new possibilities for global trade and exploration.",
+      "title": "Field of Cloth of Gold: Henry VIII and Francis I Meet in Diplomatic Pageantry",
+      "region": "Europe (France, Pale of Calais)",
+      "coordinates_approx": "50.9500, 1.7500",
+      "category": "political",
+      "description": "In June 1520, King Henry VIII of England and King Francis I of France met at the Field of Cloth of Gold, a lavish diplomatic gathering near Calais in the Pale of Calais (English-held territory in France). The meeting was intended to forge an alliance between England and France against the rising power of Charles V (Holy Roman Emperor). However, the summit was largely ceremonial and produced no lasting political alliance. The event is famous for its extravagant display of wealth and pageantry\u2014both monarchs brought enormous retinues and constructed temporary palaces\u2014but it ultimately failed to achieve its diplomatic objectives. The meeting illustrated the competitive nature of early 16th-century European politics and the importance of personal diplomacy among monarchs.",
       "key_figures": [
-        "Ferdinand Magellan (Portuguese explorer)",
-        "Juan Sebasti\u00e1n Elcano (Spanish navigator)",
-        "Charles V (Spanish King, patron)"
+        "Henry VIII (King of England)",
+        "Francis I (King of France)",
+        "Cardinal Wolsey (Henry VIII's chief minister)",
+        "Charles V (Holy Roman Emperor, the implicit rival)"
       ],
       "sources": [
         {
-          "name": "Antonio Pigafetta's account of the voyage (eyewitness chronicle)",
+          "name": "Contemporary accounts by eyewitnesses and diplomats",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Spanish royal records",
-          "type": "chronicle",
+          "name": "English royal records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French court records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Venetian diplomatic reports",
+          "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Magellan's crossing of the Pacific is documented in Pigafetta's eyewitness account and Spanish records. The date and significance are firmly established.",
+      "certainty_note": "The Field of Cloth of Gold is extensively documented in contemporary diplomatic correspondence and eyewitness accounts. The dates (June 1520) and the participants are universally accepted.",
       "cross_references": [
-        "1519-001 (Magellan's departure)",
-        "1521-004 (Magellan's death in the Philippines)"
+        "1519-002 (Charles V elected Holy Roman Emperor)",
+        "1521-002 (Battle of Pavia shifts power toward Charles V)"
       ]
     },
     {
       "id": "1520-005",
-      "title": "Field of Cloth of Gold; diplomatic summit between Henry VIII and Francis I",
-      "region": "France (near Calais)",
-      "coordinates_approx": "50.9, 1.9",
+      "title": "Zheng He's Treasure Fleet Era Definitively Ends; Ming Dynasty Ceases Oceanic Voyages",
+      "region": "Asia (China)",
+      "coordinates_approx": "22.3193, 114.1694",
       "category": "political",
-      "description": "King Henry VIII of England and King Francis I of France meet at the Field of Cloth of Gold, a lavish diplomatic summit held in June 1520 near Calais. The summit is intended to strengthen the alliance between England and France and to demonstrate the power and prestige of both monarchs. The meeting is marked by elaborate ceremonies, tournaments, and feasting, and it represents a moment of diplomatic cooperation between two major European powers. However, the alliance is short-lived, and the two kings will soon return to rivalry. The Field of Cloth of Gold is remembered as one of the most spectacular diplomatic events of the early modern period.",
+      "description": "By 1520, it was clear that the Ming Dynasty had permanently abandoned the great oceanic voyages of Zheng He (which had ended in 1433). The Confucian scholar-officials who dominated the Ming court had successfully argued against further maritime expeditions, viewing them as wasteful and contrary to Confucian principles of inward focus and land-based defense. The treasure ships were allowed to decay, and the shipyards that had built them were repurposed. This decision represented a fundamental reorientation of Chinese policy away from maritime exploration and toward continental concerns, particularly defense against Mongol incursions. The consequences of this choice would be profound: China withdrew from global maritime trade and exploration, ceding dominance of the seas to European powers.",
       "key_figures": [
-        "Henry VIII (King of England)",
-        "Francis I (King of France)",
-        "Cardinal Wolsey (English diplomat)"
+        "Zheng He (admiral, voyages ended 1433)",
+        "Confucian scholar-officials (advocates of retrenchment)",
+        "Ming emperors (who accepted the scholar-official consensus)"
       ],
       "sources": [
         {
-          "name": "Contemporary accounts and chronicles of the summit",
-          "type": "chronicle",
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
+          "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Letters and diplomatic correspondence",
+          "name": "Confucian memorials and court records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Ming naval policy",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader policy of maritime retrenchment is well-documented, though the specific year 1520 is somewhat arbitrary. The decision was a gradual process spanning decades, with the final abandonment of oceanic voyages occurring by the 1430s\u20131440s.",
+      "cross_references": [
+        "1433-001 (End of Zheng He's voyages)",
+        "1521-007 (Ming Dynasty's inward focus continues)"
+      ]
+    },
+    {
+      "id": "1520-006",
+      "title": "Cort\u00e9s Retreats from Tenochtitlan During the 'Noche Triste' (Night of Sorrows)",
+      "region": "Mesoamerica (Mexico)",
+      "coordinates_approx": "19.4326, -99.1332",
+      "category": "military",
+      "description": "In June 1520, during the smallpox epidemic that was ravaging Tenochtitlan, Spanish conquistador Hern\u00e1n Cort\u00e9s was forced to retreat from the Aztec capital. The retreat, known as the 'Noche Triste' (Night of Sorrows) in Spanish accounts, occurred on the night of 30 June \u2013 1 July 1520. Cort\u00e9s and his forces, along with indigenous allies, fled the city under cover of darkness after Aztec forces attacked them. The retreat was chaotic, with many Spanish soldiers and indigenous allies killed as they crossed the causeways leading out of the city. However, Cort\u00e9s regrouped his forces and, with reinforcements and indigenous allies, prepared for a return to Tenochtitlan, which would occur in 1521.",
+      "key_figures": [
+        "Hern\u00e1n Cort\u00e9s (Spanish conquistador)",
+        "Montezuma II (Aztec emperor, died during this period)",
+        "Cuitl\u00e1huac (Aztec emperor, led the counterattack)",
+        "Bernal D\u00edaz del Castillo (Spanish soldier and chronicler)"
+      ],
+      "sources": [
+        {
+          "name": "Bernal D\u00edaz del Castillo, The True History of the Conquest of New Spain",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Cort\u00e9s, Cartas de relaci\u00f3n (Letters of Relation)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Florentine Codex (Sahag\u00fan's indigenous accounts)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Noche Triste is well-documented in Spanish and indigenous sources. The date of 30 June \u2013 1 July 1520 is accepted by modern scholarship, though some sources vary slightly.",
+      "cross_references": [
+        "1520-001 (Smallpox epidemic)",
+        "1521-001 (Fall of Tenochtitlan)"
+      ]
+    },
+    {
+      "id": "1520-007",
+      "title": "Montezuma II Dies; Cuitl\u00e1huac Becomes Aztec Emperor",
+      "region": "Mesoamerica (Mexico)",
+      "coordinates_approx": "19.4326, -99.1332",
+      "category": "political",
+      "description": "Montezuma II, the Aztec emperor who had ruled since 1502, died in 1520, likely from smallpox or from wounds sustained during the Spanish occupation of Tenochtitlan. The exact circumstances of his death are disputed: Spanish sources claim he was killed by Aztec warriors during the Noche Triste, while indigenous sources suggest he died of disease or wounds. He was succeeded by his brother Cuitl\u00e1huac, who led the Aztec resistance against Cort\u00e9s during the siege of 1521. Montezuma's death marked the end of an era of Aztec stability and the beginning of the empire's rapid collapse.",
+      "key_figures": [
+        "Montezuma II (Aztec emperor, died 1520)",
+        "Cuitl\u00e1huac (Aztec emperor, succeeded Montezuma)",
+        "Hern\u00e1n Cort\u00e9s (Spanish conquistador)"
+      ],
+      "sources": [
+        {
+          "name": "Florentine Codex (Sahag\u00fan's indigenous accounts)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Spanish conquistador accounts (Cort\u00e9s, D\u00edaz del Castillo)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Aztec codices and indigenous records",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Montezuma's death in 1520 is well-documented, but the exact date and circumstances are disputed. Spanish and indigenous sources give conflicting accounts. Modern scholarship generally accepts that he died in 1520, likely from disease or wounds, though the precise cause remains uncertain.",
+      "cross_references": [
+        "1502-001 (Montezuma II ascends to throne)",
+        "1520-001 (Smallpox epidemic)",
+        "1521-001 (Cuitl\u00e1huac dies; Cuauht\u00e9moc becomes emperor)"
+      ]
+    },
+    {
+      "id": "1520-008",
+      "title": "Martin Luther Publishes Three Major Reformation Treatises",
+      "region": "Holy Roman Empire (Germany)",
+      "coordinates_approx": "50.9500, 10.5000",
+      "category": "religious",
+      "description": "In 1520, Martin Luther published three major theological treatises that crystallized his break with the Roman Catholic Church and outlined the principles of Protestant theology. These works\u2014'To the Christian Nobility of the German Nation' (An den christlichen Adel deutscher Nation), 'The Babylonian Captivity of the Church' (De captivitate Babylonica ecclesiae), and 'The Freedom of a Christian' (Von der Freiheit eines Christenmenschen)\u2014attacked papal authority, the sacramental system of the Church, and clerical celibacy. They also appealed to German nationalism and the authority of secular rulers. These treatises were enormously influential and helped mobilize support for the Reformation among German princes and the educated public.",
+      "key_figures": [
+        "Martin Luther (Augustinian friar and theologian)",
+        "Pope Leo X (Luther's opponent)",
+        "Frederick III, Elector of Saxony (Luther's protector)"
+      ],
+      "sources": [
+        {
+          "name": "Luther's published treatises of 1520",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Luther's correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary accounts of the Reformation",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Field of Cloth of Gold is extensively documented in contemporary accounts and diplomatic records. The date and significance are firmly established.",
+      "certainty_note": "Luther's three treatises of 1520 are well-documented and widely available. The dates and contents are universally accepted.",
       "cross_references": [
-        "1509-001 (Henry VIII becomes King of England)",
-        "1515-001 (Francis I becomes King of France)"
+        "1517-001 (Luther's 95 Theses)",
+        "1521-003 (Diet of Worms and Luther's condemnation)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Stockholm Massacre is sometimes portrayed as a straightforward act of tyranny, but modern scholarship emphasizes the complex political situation in Scandinavia and the legitimate grievances of both Danish and Swedish nobles. Additionally, the narrative of S\u00fcleyman's reign as a period of uninterrupted expansion has been complicated by modern scholarship, which emphasizes the challenges he faced and the limits of Ottoman power. The Noche Triste is sometimes presented as a major defeat for the Spanish, but modern scholarship emphasizes that it was a temporary setback and that Spanish military advantages (particularly indigenous allies and disease) ensured eventual victory. The Field of Cloth of Gold is sometimes presented as a moment of genuine diplomatic cooperation, but modern scholarship emphasizes that it was largely a display of power and prestige with limited substantive results.",
-  "historiographic_note": "The documentation for 1520 is rich for European events, particularly the Stockholm Massacre, S\u00fcleyman's accession, and the Field of Cloth of Gold, which are extensively recorded in contemporary sources. However, the perspective is heavily European and often focuses on elite political figures. Indigenous perspectives on Cort\u00e9s's expedition are preserved primarily in later compilations and codices. The narrative of diplomatic events emphasizes the actions of monarchs and their advisors, potentially underrepresenting the broader social and economic contexts. The crossing of the Pacific is documented in Pigafetta's account, which is one of the most valuable sources for early modern exploration, but it reflects a European perspective on the voyage.",
+  "disconfirming_evidence": "The 'Noche Triste' (1520-006) is sometimes portrayed in Spanish sources as a catastrophic defeat for Cort\u00e9s, but modern scholarship emphasizes that Cort\u00e9s's retreat was strategic and that he retained sufficient forces and indigenous allies to mount a successful return. The narrative of Spanish military superiority is complicated by the fact that Cort\u00e9s's success depended heavily on indigenous allies (particularly the Tlaxcalans) and on disease rather than Spanish military technology. Regarding Montezuma II's death (1520-007), the traditional Spanish narrative that he was killed by Aztec warriors is disputed by indigenous sources and modern scholars, who suggest he died of disease or wounds sustained during the occupation. The Field of Cloth of Gold (1520-004) is sometimes presented as a significant diplomatic achievement, but modern scholarship emphasizes that it produced no lasting political alliance and was primarily a display of royal pageantry.",
+  "historiographic_note": "The year 1520 is exceptionally well-documented in European sources, particularly regarding the Reformation and diplomatic events. Spanish conquest narratives are abundant but reflect Spanish perspectives; indigenous accounts (particularly the Florentine Codex) provide crucial counterbalance but were compiled decades later. Ottoman sources for Suleiman's accession are well-preserved in Ottoman chronicles. The documentation is heavily weighted toward Europe and the Atlantic world; Asian and African events are less thoroughly recorded in surviving sources. The year marks a pivotal moment in global history\u2014the beginning of European global dominance, the fracturing of Western Christianity, and the catastrophic demographic collapse of the Americas\u2014but these events were not perceived as interconnected by contemporaries.",
   "graph_edges": [
     {
       "from": "1520-001",
-      "to": "1523-001",
-      "relation": "led_to",
-      "note": "The Stockholm Massacre sparked the uprising that led to Swedish independence in 1523"
+      "to": "1519-001",
+      "relation": "caused_by",
+      "note": "The smallpox epidemic was introduced by Spanish conquistadors who arrived in 1519."
+    },
+    {
+      "from": "1520-006",
+      "to": "1520-001",
+      "relation": "caused_by",
+      "note": "The Noche Triste retreat was precipitated by the smallpox epidemic and Aztec counterattack."
+    },
+    {
+      "from": "1520-007",
+      "to": "1520-001",
+      "relation": "caused_by",
+      "note": "Montezuma II's death was likely caused by the smallpox epidemic or wounds sustained during Spanish occupation."
     },
     {
       "from": "1520-002",
-      "to": "1521-002",
+      "to": "1521-006",
       "relation": "led_to",
-      "note": "S\u00fcleyman's accession marked the beginning of his military campaigns, including the Siege of Belgrade"
+      "note": "Suleiman I's accession in 1520 enabled the siege of Belgrade in 1521."
+    },
+    {
+      "from": "1520-008",
+      "to": "1517-001",
+      "relation": "led_to",
+      "note": "Luther's 1520 treatises built on and radicalized the positions outlined in his 95 Theses of 1517."
     },
     {
       "from": "1520-003",
-      "to": "1521-003",
+      "to": "1524-001",
       "relation": "led_to",
-      "note": "The Noche Triste was followed by the final siege and fall of Tenochtitlan in 1521"
-    },
-    {
-      "from": "1520-004",
-      "to": "1521-004",
-      "relation": "led_to",
-      "note": "Magellan's crossing of the Pacific led to his arrival in the Philippines and subsequent death"
-    },
-    {
-      "from": "1520-005",
-      "to": "1521-001",
-      "relation": "contemporary_with",
-      "note": "The Field of Cloth of Gold occurred during the same period as the religious crisis of the Reformation"
+      "note": "The tensions and discontent evident in 1520 erupted into the Peasants' War in 1524\u20131525."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:26:01.622537",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

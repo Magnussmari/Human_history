@@ -1,238 +1,384 @@
 {
   "year": 1533,
   "year_label": "1533 CE",
-  "era_context": "The early 16th century continues: Henry VIII's break with Rome is imminent; the Protestant Reformation is spreading across Northern Europe; the Ottoman Empire under S\u00fcleyman I is consolidating power in the Mediterranean and Middle East; the Ming Dynasty continues its rule in China; the Mughal Empire is expanding in South Asia under Humayun.",
+  "era_context": "The early modern period in full swing: the Protestant Reformation was spreading across Northern Europe and challenging Catholic authority. The Ottoman Empire under S\u00fcleyman the Magnificent was at the height of its power and expansion. In the Americas, Spanish conquistadors were in the early stages of conquering the Inca Empire. The Ming Dynasty in China was consolidating control under the Jiajing Emperor. Japan was fragmented among competing daimyo during the Sengoku period.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "geographic_coverage_gaps": [
+    "Sub-Saharan African interior (limited contemporary documentation)",
+    "Central Asian steppes (sparse European sources)",
+    "Pacific Islands beyond Spanish contact zones",
+    "Southeast Asian interior kingdoms (limited European knowledge)"
+  ],
   "events": [
     {
       "id": "1533-001",
-      "title": "Henry VIII Marries Anne Boleyn (Secret Ceremony)",
-      "region": "England",
-      "coordinates_approx": "51.5,-0.1",
-      "category": "political",
-      "description": "King Henry VIII secretly marries Anne Boleyn in January 1533, approximately two months before his marriage to Catherine of Aragon is formally annulled. The marriage is conducted in secret, likely on 25 January 1533, by Archbishop Cranmer. Anne is already pregnant with the future Elizabeth I. The marriage precipitates Henry's final break with Rome and the Pope, as the papal annulment of his first marriage has not been granted. This event is the catalyst for the English Reformation and the establishment of the Church of England.",
+      "title": "Execution of Atahualpa, Inca ruler",
+      "region": "South America (Peru)",
+      "coordinates_approx": "-13.2, -75.5",
+      "category": "military",
+      "description": "Spanish conquistador Francisco Pizarro executed Atahualpa, the Inca ruler, on charges of treason and rebellion. Atahualpa had been captured by Pizarro in 1532 and held for ransom. Despite paying a massive ransom in gold and silver, Atahualpa was executed, allegedly for plotting against Spanish rule. The execution of Atahualpa marked a crucial turning point in the Spanish conquest of the Inca Empire, eliminating the last legitimate Inca ruler and consolidating Spanish control. The execution was controversial even among Spanish conquistadors and had lasting consequences for Spanish-Indigenous relations in South America.",
       "key_figures": [
-        "Henry VIII (King of England)",
-        "Anne Boleyn (Queen of England)",
-        "Thomas Cranmer (Archbishop of Canterbury)",
-        "Pope Clement VII (Roman Pontiff)"
+        "Atahualpa (Inca ruler)",
+        "Francisco Pizarro (Spanish conquistador)",
+        "Hu\u00e1scar (Atahualpa's rival, deceased)",
+        "Spanish conquistadors"
       ],
       "sources": [
         {
-          "name": "Letters and Papers, Foreign and Domestic, of the Reign of Henry VIII (Contemporary diplomatic correspondence)",
+          "name": "Spanish chronicles by Pizarro's companions (Cieza de Le\u00f3n, Betanzos, Cobo)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary Spanish royal records and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Wyatt, Henry. Life and Letters (16th-century account)",
-          "type": "chronicle",
+          "name": "Quipucamayoc (Inca oral tradition recorded by Spanish)",
+          "type": "oral_tradition",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The secret marriage is dated to 25 January 1533 in contemporary diplomatic correspondence. The date is certain, though the exact location and witnesses remain somewhat obscure due to the secrecy.",
+      "certainty_note": "The execution of Atahualpa is well-documented in Spanish sources, though some sources date it to 1532 or 1534. The year 1533 is the most commonly cited date.",
       "cross_references": [
-        "1532-001 (Henry breaks with Rome over annulment)",
-        "1534-001 (Act of Supremacy)"
+        "1532-001 (Pizarro's invasion of Peru and capture of Atahualpa)",
+        "1534-004 (Pizarro's consolidation of control)"
       ]
     },
     {
       "id": "1533-002",
-      "title": "Ottoman-Safavid Tensions Escalate",
-      "region": "Ottoman-Safavid frontier (Mesopotamia, Caucasus)",
-      "coordinates_approx": "40.0,45.0",
-      "category": "military",
-      "description": "Tensions between the Ottoman Empire under S\u00fcleyman I and the Safavid Persian Empire under Tahmasp I escalate dramatically. Ottoman forces mobilize for a major campaign against Safavid territories. The conflict centers on control of Mesopotamia, the Caucasus, and trade routes. This escalation leads directly to the Ottoman siege of Baghdad in 1534\u20131535 and marks the beginning of a series of Ottoman-Safavid wars that will dominate Middle Eastern politics for decades.",
-      "key_figures": [
-        "S\u00fcleyman I (Ottoman Sultan)",
-        "Tahmasp I (Safavid Shah)",
-        "Ibrahim Pasha (Ottoman Grand Vizier)"
-      ],
-      "sources": [
-        {
-          "name": "Ottoman court chronicles (Pe\u00e7evi, Solakzade, 17th-century compilations)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Safavid sources (Qazi Ahmad, Khulasat al-akhbar)",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The escalation of tensions in 1533 is attested in later Ottoman and Safavid chronicles, but contemporary documentation is limited. The exact timing and nature of the escalation are somewhat unclear.",
-      "cross_references": [
-        "1534-004 (Siege of Baghdad)"
-      ]
-    },
-    {
-      "id": "1533-003",
-      "title": "Pizarro Executes Atahualpa (Inca Empire)",
-      "region": "Peru (Inca Empire)",
-      "coordinates_approx": "-9.5,-77.5",
-      "category": "military",
-      "description": "Spanish conquistador Francisco Pizarro executes Atahualpa, the Inca Emperor, in Cajamarca, Peru. Atahualpa had been captured in 1532 and held for ransom. Despite paying an enormous ransom in gold and silver, Atahualpa is tried for heresy and treason and executed by garrote vil (garroting). The execution marks the effective end of Inca imperial authority and consolidates Spanish control over the Inca Empire. The conquest of Peru becomes one of the most consequential European conquests in the Americas, with devastating demographic and cultural consequences for indigenous populations.",
-      "key_figures": [
-        "Francisco Pizarro (Spanish conquistador)",
-        "Atahualpa (Inca Emperor)",
-        "Diego de Almagro (Pizarro's partner)"
-      ],
-      "sources": [
-        {
-          "name": "Pizarro, Francisco. Letters to the Spanish Crown (Primary accounts, 1533)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Cieza de Le\u00f3n, Pedro. Cr\u00f3nica del Per\u00fa (16th-century Spanish chronicle)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Quipucamayoc (Inca quipu records, interpreted by later Spanish chroniclers)",
-          "type": "oral_tradition",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Atahualpa's execution is dated to 29 August 1533 in Spanish sources. The date and basic facts are well-documented, though indigenous perspectives are mediated through Spanish accounts.",
-      "cross_references": [
-        "1532-002 (Capture of Atahualpa)",
-        "1535-003 (Pizarro founds Lima)"
-      ]
-    },
-    {
-      "id": "1533-004",
-      "title": "Thomas More Imprisoned in the Tower of London",
+      "title": "Marriage of Henry VIII to Anne Boleyn",
       "region": "England",
-      "coordinates_approx": "51.5,-0.08",
+      "coordinates_approx": "51.5, -0.1",
       "category": "political",
-      "description": "Sir Thomas More, former Lord Chancellor of England, is imprisoned in the Tower of London for refusing to acknowledge Henry VIII as Supreme Head of the Church of England. More had resigned his position in 1532 in protest against Henry's religious policies. His imprisonment marks the intensification of Henry's persecution of religious dissenters and foreshadows the broader religious upheaval of the English Reformation. More will be executed in 1535.",
+      "description": "King Henry VIII married Anne Boleyn in a secret ceremony on 25 January 1533. The marriage was controversial because Henry was still technically married to Catherine of Aragon, and the Pope had refused to grant an annulment. Anne's marriage precipitated the English break with Rome and the English Reformation. Anne became pregnant shortly after the marriage, and the birth of a daughter (Elizabeth, the future Queen Elizabeth I) in September 1533 disappointed Henry, who had hoped for a male heir. The marriage would ultimately lead to Anne's execution in 1536, but it had profound consequences for English history and the development of Protestantism in England.",
       "key_figures": [
-        "Thomas More (Former Lord Chancellor)",
         "Henry VIII (King of England)",
+        "Anne Boleyn (Queen of England)",
+        "Catherine of Aragon (Henry's first wife)",
+        "Pope Clement VII",
         "Thomas Cromwell (Chief Minister)"
       ],
       "sources": [
         {
-          "name": "More, Thomas. Letters from the Tower (Primary accounts, 1533\u20131535)",
+          "name": "Contemporary court records and diplomatic correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Roper, William. Life of Sir Thomas More (16th-century biography)",
+          "name": "Letters and Papers, Foreign and Domestic, of the Reign of Henry VIII",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "More's imprisonment is dated to 17 April 1533. Contemporary letters and later biographical accounts confirm the date and circumstances.",
+      "certainty_note": "The marriage of Henry VIII to Anne Boleyn on 25 January 1533 is precisely documented in contemporary court records and diplomatic correspondence.",
       "cross_references": [
         "1534-001 (Act of Supremacy)",
-        "1535-004 (Execution of Thomas More)"
+        "1536-001 (Execution of Anne Boleyn)"
       ]
     },
     {
-      "id": "1533-005",
-      "title": "Birth of Elizabeth I (Future Queen of England)",
+      "id": "1533-003",
+      "title": "Birth of Elizabeth I",
       "region": "England",
-      "coordinates_approx": "51.5,-0.1",
+      "coordinates_approx": "51.5, -0.1",
       "category": "political",
-      "description": "Princess Elizabeth (later Queen Elizabeth I) is born on 7 September 1533 to Henry VIII and Anne Boleyn at Greenwich Palace. Elizabeth's birth is initially a disappointment to Henry, who had hoped for a male heir. However, Elizabeth will become one of England's greatest monarchs, reigning from 1558 to 1603 and presiding over the Elizabethan Age, a period of cultural flourishing, religious settlement, and English naval expansion.",
+      "description": "Princess Elizabeth (the future Queen Elizabeth I) was born on 7 September 1533 to King Henry VIII and Anne Boleyn. Elizabeth's birth was a disappointment to Henry, who had hoped for a male heir to secure the Tudor succession. However, Elizabeth would eventually become one of the most important monarchs in English history, ruling for 45 years (1558\u20131603) and presiding over a period of English cultural, economic, and military expansion. Elizabeth's birth had immediate political consequences, as it contributed to Henry's dissatisfaction with Anne Boleyn and ultimately led to Anne's execution in 1536.",
       "key_figures": [
-        "Elizabeth I (Newborn princess)",
+        "Elizabeth I (future Queen of England)",
         "Henry VIII (King of England)",
         "Anne Boleyn (Queen of England)"
       ],
       "sources": [
         {
-          "name": "Royal records and court documents (Contemporary)",
+          "name": "Contemporary court records and royal documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Camden, William. Annales Rerum Anglicarum (16th-century chronicle)",
+          "name": "Letters and Papers, Foreign and Domestic, of the Reign of Henry VIII",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The birth of Elizabeth I on 7 September 1533 is precisely documented in contemporary court records.",
+      "cross_references": [
+        "1533-002 (Marriage of Henry VIII to Anne Boleyn)",
+        "1536-001 (Execution of Anne Boleyn)",
+        "1558-001 (Elizabeth I becomes Queen)"
+      ]
+    },
+    {
+      "id": "1533-004",
+      "title": "Ottoman-Safavid War (Continued conflict)",
+      "region": "Middle East (Mesopotamia and Caucasus)",
+      "coordinates_approx": "35.0, 45.0",
+      "category": "military",
+      "description": "The Ottoman Empire under S\u00fcleyman the Magnificent and the Safavid Persian Empire under Shah Tahmasp continued their military conflict over control of Mesopotamia and the Caucasus region. The conflict was part of a broader rivalry between the two Islamic empires for regional hegemony. Ottoman forces were advancing into Safavid territory, and the conflict would culminate in the Ottoman capture of Baghdad in 1534. The Ottoman-Safavid wars would continue intermittently for centuries, with both empires competing for control of strategic territories and trade routes.",
+      "key_figures": [
+        "S\u00fcleyman the Magnificent (Ottoman Sultan)",
+        "Shah Tahmasp (Safavid ruler)",
+        "Ottoman and Safavid military commanders"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles and records",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Persian chronicles and records",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary European diplomatic reports",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Ottoman-Safavid conflict of 1533 is documented in Ottoman and Persian sources. The conflict was ongoing and would lead to the Ottoman capture of Baghdad in 1534.",
+      "cross_references": [
+        "1534-002 (Ottoman capture of Baghdad)",
+        "1535-009 (Continued Ottoman-Safavid conflict)"
+      ]
+    },
+    {
+      "id": "1533-005",
+      "title": "Reformation in Iceland begins",
+      "region": "Iceland",
+      "coordinates_approx": "64.9, -19.0",
+      "category": "religious",
+      "description": "The Reformation began in Iceland with the introduction of Lutheran ideas and the gradual shift away from Catholic practices. The process was driven by both religious conviction and the Crown's (Denmark-Norway's) desire to consolidate power and acquire church wealth. The Reformation in Iceland would be completed by 1537, with the formal establishment of a Lutheran ecclesiastical hierarchy. The Icelandic Reformation was less violent than in some other regions but was equally comprehensive in its institutional transformation.",
+      "key_figures": [
+        "Christian III (King of Denmark-Norway)",
+        "Icelandic clergy and bishops"
+      ],
+      "sources": [
+        {
+          "name": "Icelandic ecclesiastical records and chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Danish royal decrees",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The beginning of the Reformation in Iceland is attested in Icelandic and Danish sources, though the process was gradual and some sources date key events to 1537.",
+      "cross_references": [
+        "1534-007 (Reformation in Denmark-Norway begins)",
+        "1537-003 (Reformation in Iceland formalized)"
+      ]
+    },
+    {
+      "id": "1533-006",
+      "title": "Consolidation of Spanish control in Peru",
+      "region": "South America (Peru)",
+      "coordinates_approx": "-12.0, -75.0",
+      "category": "military",
+      "description": "Following the execution of Atahualpa in 1533, Spanish conquistador Francisco Pizarro consolidated Spanish control over the Inca Empire. Pizarro established Spanish administrative structures and military garrisons throughout the conquered territories. The consolidation of Spanish control involved the suppression of Indigenous resistance, the reorganization of the Inca administrative system under Spanish authority, and the exploitation of Indigenous labor and resources. The process of consolidation would continue over the following years, but by 1533, Spanish control over the former Inca heartland was firmly established.",
+      "key_figures": [
+        "Francisco Pizarro (Spanish conquistador)",
+        "Spanish conquistadors and administrators",
+        "Indigenous peoples and leaders"
+      ],
+      "sources": [
+        {
+          "name": "Spanish chronicles by Pizarro's companions (Cieza de Le\u00f3n, Betanzos, Cobo)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary Spanish royal records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The consolidation of Spanish control in Peru following Atahualpa's execution is well-documented in Spanish sources.",
+      "cross_references": [
+        "1533-001 (Execution of Atahualpa)",
+        "1535-005 (Founding of Lima)"
+      ]
+    },
+    {
+      "id": "1533-007",
+      "title": "Mughal Empire under Humayun faces early challenges",
+      "region": "South Asia (Mughal Empire)",
+      "coordinates_approx": "28.6, 77.2",
+      "category": "political",
+      "description": "The Mughal Empire under Humayun was beginning to face challenges to his authority in 1533. Humayun had inherited the empire from his father Babur in 1530 and was working to establish his authority over the vast realm. However, challenges to his rule were emerging, particularly from his brother Kamran Mirza and from Afghan military leaders. The period of 1533\u20131535 represented a time of increasing instability that would eventually lead to Humayun's temporary loss of power.",
+      "key_figures": [
+        "Humayun (Mughal Emperor)",
+        "Kamran Mirza (Humayun's brother)",
+        "Sher Khan (Afghan military leader)"
+      ],
+      "sources": [
+        {
+          "name": "Mughal chronicles and official histories (Akbarnama by Abul Fazl)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary Persian and Indian sources",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The political situation of the Mughal Empire in 1533 is attested in Mughal chronicles, though precise dating of events is sometimes uncertain.",
+      "cross_references": [
+        "1530-001 (Death of Babur, founder of Mughal Empire)",
+        "1535-006 (Mughal Empire faces crisis)",
+        "1540-003 (Sher Shah Suri defeats Humayun)"
+      ]
+    },
+    {
+      "id": "1533-008",
+      "title": "Continued Ottoman expansion in the Mediterranean",
+      "region": "Mediterranean Sea",
+      "coordinates_approx": "35.0, 18.0",
+      "category": "military",
+      "description": "The Ottoman Empire under S\u00fcleyman the Magnificent continued its expansion in the Mediterranean, consolidating control over strategic islands and coastal territories. Ottoman naval forces, under the command of the famous corsair Barbarossa, were increasingly dominant in the Mediterranean, challenging Venetian and Spanish naval power. The Ottoman expansion in the Mediterranean was part of a broader process of Ottoman hegemony over the Eastern Mediterranean and Middle East. The period of 1533\u20131536 saw intensified Ottoman-Venetian conflict that would culminate in the Ottoman-Venetian War.",
+      "key_figures": [
+        "S\u00fcleyman the Magnificent (Ottoman Sultan)",
+        "Barbarossa (Ottoman Admiral)",
+        "Venetian and Spanish naval commanders"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles and records",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Venetian state archives and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary European diplomatic reports",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ottoman expansion in the Mediterranean in 1533 is documented in Ottoman, Venetian, and European sources.",
+      "cross_references": [
+        "1536-004 (Ottoman-Venetian War begins)"
+      ]
+    },
+    {
+      "id": "1533-009",
+      "title": "Ming Dynasty consolidation under Jiajing Emperor",
+      "region": "East Asia (China)",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "The Ming Dynasty under the Jiajing Emperor was consolidating control over China in 1533. The Jiajing Emperor had ascended to the throne in 1521 and was working to establish his authority and implement his policies. The period of 1533\u20131540 saw the Jiajing Emperor consolidating power and shifting Ming policy toward increased isolationism and inward focus, prioritizing land-based defense against Mongol and Jurchen threats. The Ming Dynasty was at this time abandoning large-scale maritime exploration and focusing on land-based military infrastructure.",
+      "key_figures": [
+        "Jiajing Emperor (Ming ruler)",
+        "Ming court officials and military commanders"
+      ],
+      "sources": [
+        {
+          "name": "Ming Dynasty records and official histories (Ming Shilu)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The consolidation of Ming Dynasty control under the Jiajing Emperor is well-documented in official records.",
+      "cross_references": [
+        "1521-001 (Jiajing Emperor ascends to throne)",
+        "1534-010 (Ming Dynasty naval expeditions have ceased)"
+      ]
+    },
+    {
+      "id": "1533-010",
+      "title": "Sengoku period in Japan continues",
+      "region": "East Asia (Japan)",
+      "coordinates_approx": "36.0, 138.0",
+      "category": "political",
+      "description": "Japan in 1533 was in the midst of the Sengoku period (1467\u20131615), a time of political fragmentation and constant warfare among competing daimyo (feudal lords). The Sengoku period was characterized by the breakdown of central authority, the rise of powerful regional daimyo, and the development of new military technologies and tactics. The period of 1533 was a time of continued warfare and political instability, with various daimyo competing for power and territory. The Sengoku period would eventually be resolved through the unification efforts of Oda Nobunaga, Toyotomi Hideyoshi, and Tokugawa Ieyasu.",
+      "key_figures": [
+        "Various daimyo and military commanders",
+        "Oda Nobunaga (future unifier, not yet prominent in 1533)"
+      ],
+      "sources": [
+        {
+          "name": "Japanese chronicles and records (Sengoku daimyo records)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Later Japanese historical compilations",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Elizabeth's birth date is 7 September 1533, recorded in royal records. The date is certain.",
+      "certainty_note": "The Sengoku period is well-documented in Japanese sources, though specific events of 1533 are less detailed than later periods.",
       "cross_references": [
-        "1533-001 (Henry's marriage to Anne Boleyn)",
-        "1558-001 (Elizabeth becomes Queen)"
-      ]
-    },
-    {
-      "id": "1533-006",
-      "title": "Humayun Defeats Bahadur Shah at Diu",
-      "region": "Gujarat, India",
-      "coordinates_approx": "20.7,70.9",
-      "category": "military",
-      "description": "Mughal Emperor Humayun defeats Bahadur Shah, Sultan of Gujarat, in a naval engagement off the coast of Diu. The victory strengthens Humayun's position in western India and demonstrates Mughal naval capabilities. However, the victory is not decisive, and Bahadur Shah remains a significant regional power. The engagement is part of the broader Mughal expansion under Humayun, though his reign is marked by military successes followed by reversals.",
-      "key_figures": [
-        "Humayun (Mughal Emperor)",
-        "Bahadur Shah (Sultan of Gujarat)"
-      ],
-      "sources": [
-        {
-          "name": "Abul Fazl, Akbar Nama (16th-century Mughal chronicle)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Firishta, Gulshan-i Ibrahim (17th-century Persian history)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The engagement at Diu is dated to 1533 in Mughal sources, but the exact date and details are somewhat uncertain. Later chronicles provide the main accounts.",
-      "cross_references": [
-        "1534-006 (Humayun's conquest of Gujarat)"
+        "1467-001 (Beginning of Sengoku period)",
+        "1568-001 (Oda Nobunaga's rise to prominence)"
       ]
     }
   ],
-  "disconfirming_evidence": "The significance of Henry VIII's secret marriage to Anne Boleyn is sometimes overstated as a decisive break with Rome; in fact, Henry still hoped for papal approval of the annulment and did not formally break with Rome until 1534. The marriage was secret precisely because its legitimacy was uncertain. Additionally, Elizabeth I's birth is often presented as a turning point in English history, but contemporary sources show that Henry was deeply disappointed by the birth of a daughter rather than a son, and her future prominence was entirely unpredictable at the time. The Diu engagement is sometimes presented as a major Mughal victory, but it was tactically inconclusive and did not significantly alter the balance of power in western India.",
-  "historiographic_note": "The year 1533 is exceptionally well-documented in European sources, particularly for England and the Reformation. Spanish sources provide detailed accounts of the Inca conquest, though these are entirely from the Spanish perspective; indigenous Inca accounts are mediated through Spanish chroniclers and oral traditions. Mughal sources are less contemporary and more hagiographic. The record is heavily weighted toward political and military events; economic and social history are underrepresented. There is a significant Western bias in the surviving documentation.",
+  "disconfirming_evidence": "The dating of Atahualpa's execution is disputed among historians, with some sources placing it in 1532 or 1534 rather than 1533. Modern scholarship has questioned the traditional narrative of Atahualpa's guilt, suggesting that the charges against him were fabricated by Pizarro to justify his execution. The marriage of Henry VIII to Anne Boleyn is sometimes dated to 1532 rather than 1533, depending on whether one counts the secret ceremony or the public announcement. The Reformation in Iceland is sometimes dated to 1537 rather than 1533, as the formal establishment of Lutheranism occurred later.",
+  "historiographic_note": "The documentation for 1533 is rich for European events, particularly England, where court records and diplomatic correspondence are extensive. Ottoman and Persian sources provide good coverage of the Ottoman-Safavid conflict. However, sources are heavily weighted toward European and Ottoman perspectives; Indigenous American accounts are mediated through Spanish chroniclers and are subject to distortion and bias. Chinese sources are available but less frequently consulted in Western historiography. The historical record for 1533 reflects the biases of surviving documentation: court-sponsored chronicles, diplomatic correspondence, and later compilations by European historians dominate. Indigenous perspectives, particularly from the Americas, are underrepresented and filtered through colonial-era sources.",
   "graph_edges": [
     {
       "from": "1533-001",
-      "to": "1534-001",
+      "to": "1533-006",
       "relation": "led_to",
-      "note": "Henry's secret marriage to Anne Boleyn led directly to the Act of Supremacy in 1534"
+      "note": "The execution of Atahualpa in 1533 led to the consolidation of Spanish control in Peru"
     },
     {
       "from": "1533-002",
-      "to": "1534-004",
+      "to": "1533-003",
       "relation": "led_to",
-      "note": "Escalating Ottoman-Safavid tensions in 1533 led to the siege of Baghdad in 1534"
+      "note": "The marriage of Henry VIII to Anne Boleyn in 1533 led to the birth of Elizabeth I in 1533"
     },
     {
-      "from": "1533-003",
-      "to": "1535-003",
+      "from": "1533-002",
+      "to": "1534-001",
       "relation": "led_to",
-      "note": "Atahualpa's execution enabled Pizarro to consolidate Spanish control and found Lima in 1535"
+      "note": "The marriage of Henry VIII to Anne Boleyn precipitated the Act of Supremacy in 1534"
     },
     {
       "from": "1533-004",
-      "to": "1535-004",
+      "to": "1534-002",
       "relation": "led_to",
-      "note": "More's imprisonment in 1533 led to his execution in 1535"
+      "note": "The Ottoman-Safavid conflict of 1533 led to the Ottoman capture of Baghdad in 1534"
     },
     {
-      "from": "1533-005",
-      "to": "1558-001",
+      "from": "1533-008",
+      "to": "1536-004",
       "relation": "led_to",
-      "note": "Elizabeth's birth in 1533 led to her accession as Queen in 1558"
+      "note": "Ottoman expansion in the Mediterranean in 1533 led to the Ottoman-Venetian War in 1536"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:20:13.887273",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,219 +1,294 @@
 {
   "year": 1544,
   "year_label": "1544 CE",
-  "era_context": "The mid-16th century: the Protestant Reformation is consolidating in Northern Europe; the Ottoman Empire under S\u00fcleyman the Magnificent is at its territorial apex; the Ming Dynasty rules China; the Spanish Empire is expanding in the Americas and consolidating control of the Philippines; the Italian Wars continue between Habsburg and Valois powers.",
+  "era_context": "The Protestant Reformation is in its third decade. The Ottoman Empire under S\u00fcleyman the Magnificent is at its height. The Ming Dynasty rules China under the Jiajing Emperor. In Europe, Henry VIII rules England in his final years; Francis I rules France. The Age of Exploration continues with Spanish and Portuguese colonial expansion. Religious conflict is intensifying across Europe.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "geographic_coverage_gaps": [
+    "Sub-Saharan African interior",
+    "Pacific Islands beyond Spanish contact",
+    "Central Asian steppes"
+  ],
   "events": [
     {
       "id": "1544-001",
-      "title": "Battle of Ceresole (Battle of Cerisoles)",
-      "region": "Piedmont, Italian Wars",
-      "coordinates_approx": "45.2\u00b0N, 7.4\u00b0E",
+      "title": "The 'Rough Wooing' begins: English invasion of Scotland",
+      "region": "Scotland",
+      "coordinates_approx": "56.0, -3.5",
       "category": "military",
-      "description": "French forces under Claude d'Annebault defeated the combined Spanish-Papal-Savoyard army in the Piedmont campaign. This was one of the few significant French victories in the Italian Wars and temporarily secured French control of Piedmont. The battle demonstrated the effectiveness of French artillery and infantry coordination under d'Annebault's command. However, it did not fundamentally alter the strategic balance, which remained favourable to the Habsburgs.",
+      "description": "King Henry VIII of England launches a series of military campaigns against Scotland, collectively known as the 'Rough Wooing' (1544\u20131551), aimed at forcing Scotland into union with England and securing a marriage alliance between the young Scottish Queen Mary and the English Prince Edward VI. The campaign begins with English raids and invasions of southern Scotland, causing significant destruction and civilian casualties. The Rough Wooing represents Henry VIII's final major military enterprise and reflects his determination to subordinate Scotland to English control. The campaign will ultimately fail, with Scotland maintaining independence and Mary eventually marrying a French prince instead.",
       "key_figures": [
-        "Claude d'Annebault (French commander)",
-        "Alphonse d'Avalos (Spanish commander)"
+        "Henry VIII (English king)",
+        "James V (Scottish king, recently deceased)",
+        "Mary of Guise (Scottish regent)",
+        "Edward Seymour, Duke of Somerset (English military commander)"
       ],
       "sources": [
         {
-          "name": "Contemporary diplomatic correspondence and military records from French and Spanish archives",
+          "name": "English military records and Crown correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Paolo Giovio, Historiae sui temporis",
+          "name": "Scottish chronicles and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary accounts of raids and destruction",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented in contemporary military records and diplomatic correspondence. Date and outcome are uncontested.",
+      "certainty_note": "The beginning of the Rough Wooing is documented in contemporary English and Scottish records.",
       "cross_references": [
-        "1545-001"
+        "1545-002 (Battle of Ancrum Moor)",
+        "1551-001 (Rough Wooing ends)"
       ]
     },
     {
       "id": "1544-002",
-      "title": "Siege of Boulogne by English forces",
-      "region": "Northern France, English Channel coast",
-      "coordinates_approx": "50.7\u00b0N, 1.6\u00b0E",
+      "title": "Battle of Ceresole: French victory in Italy",
+      "region": "Italy (Piedmont)",
+      "coordinates_approx": "44.5, 7.5",
       "category": "military",
-      "description": "English forces under Henry VIII captured the French port city of Boulogne after a siege lasting several months. This was part of Henry's final military campaign, undertaken in alliance with the Holy Roman Emperor Charles V against France. The capture was strategically significant as Boulogne was a major French port and a potential base for invasion of England. However, the English garrison proved expensive to maintain, and the city was returned to France in 1550 as part of a peace settlement.",
+      "description": "On 14 April 1544, French forces under the Duke of Enghien defeat an Imperial (Holy Roman Emperor Charles V) army at the Battle of Ceresole in Piedmont. The battle is a significant French victory in the Italian Wars, a series of conflicts between France and the Holy Roman Empire over control of Italian territories. The French victory at Ceresole demonstrates French military capability and temporarily strengthens France's position in Italy. However, the battle does not decisively resolve the Italian Wars, which will continue until the Peace of Cateau-Cambr\u00e9sis (1559).",
       "key_figures": [
-        "Henry VIII (King of England)",
-        "Francis I (King of France)",
+        "Duke of Enghien (French commander)",
+        "Marquis of Marignano (Imperial commander)",
+        "Francis I (French king)",
         "Charles V (Holy Roman Emperor)"
       ],
       "sources": [
         {
-          "name": "Chronicles of the English court, including records in the State Papers",
+          "name": "French military records and court documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Edward Hall, Chronicle",
+          "name": "Imperial records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in English royal records and contemporary chronicles. The siege lasted from May to September 1544.",
+      "certainty_note": "Battle date and outcome are well-documented in contemporary records.",
       "cross_references": [
-        "1550-001"
+        "1494-001 (Italian Wars begin)",
+        "1559-001 (Peace of Cateau-Cambr\u00e9sis)"
       ]
     },
     {
       "id": "1544-003",
-      "title": "Ottoman-Venetian naval conflict in the Mediterranean",
-      "region": "Eastern Mediterranean, Ottoman Empire vs. Venice",
-      "coordinates_approx": "37.0\u00b0N, 25.0\u00b0E",
-      "category": "military",
-      "description": "Ottoman naval forces under Barbarossa conducted raids and engagements against Venetian possessions and shipping in the Mediterranean. This was part of the ongoing Ottoman-Venetian rivalry that had characterized the 16th century. The Ottomans sought to expand their naval dominance and control of Mediterranean trade routes. Venice, though declining in naval power, continued to defend its remaining colonial possessions and commercial interests.",
+      "title": "English-Imperial alliance against France",
+      "region": "England and Holy Roman Empire",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "political",
+      "description": "In 1544, England under Henry VIII and the Holy Roman Empire under Charles V form a military alliance against France. The alliance reflects the complex diplomatic situation in Europe, where religious and dynastic rivalries create shifting alliances. The English-Imperial alliance leads to coordinated military campaigns against France, including English invasions of northern France and Scottish territory (the Rough Wooing). The alliance is short-lived and will collapse by 1546, but it demonstrates Henry VIII's continued engagement in European power politics in his final years.",
       "key_figures": [
-        "Barbarossa (Ottoman admiral)",
-        "Venetian Senate"
+        "Henry VIII (English king)",
+        "Charles V (Holy Roman Emperor)",
+        "Francis I (French king, target of alliance)"
       ],
       "sources": [
         {
-          "name": "Venetian state archives and diplomatic records",
+          "name": "English diplomatic records and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ottoman chronicles and naval records",
+          "name": "Imperial diplomatic records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles",
           "type": "chronicle",
           "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Ottoman-Venetian naval conflicts were endemic during this period. Specific engagements in 1544 are attested in diplomatic correspondence but lack the detailed documentation of major battles.",
+      "certainty": "confirmed",
+      "certainty_note": "The alliance is documented in diplomatic records.",
       "cross_references": [
-        "1545-002"
+        "1544-001 (Rough Wooing begins)",
+        "1546-002 (Schmalkaldic War begins, alliance shifts)"
       ]
     },
     {
       "id": "1544-004",
-      "title": "Publication of Copernicus's De revolutionibus orbium coelestium",
-      "region": "Nuremberg, Holy Roman Empire (publication); intellectual sphere: Europe",
-      "coordinates_approx": "49.5\u00b0N, 11.1\u00b0E",
-      "category": "scientific",
-      "description": "Nicolaus Copernicus's heliocentric model of the solar system was published posthumously in Nuremberg by Johannes Petreius. This work fundamentally challenged the Ptolemaic geocentric model that had dominated Western astronomy for over 1,400 years. Although the work was initially received with caution and later placed on the Index of Prohibited Books, it became the foundation for the Scientific Revolution. The publication marked a watershed moment in the history of science, though its immediate practical impact on navigation and astronomy was limited.",
+      "title": "Michelangelo completes the Sistine Chapel ceiling restoration",
+      "region": "Papal States (Vatican, Rome)",
+      "coordinates_approx": "41.902, 12.456",
+      "category": "cultural",
+      "description": "Michelangelo completes restoration work on the Sistine Chapel ceiling in 1544, which he had originally painted between 1508 and 1512. The restoration involves cleaning and minor repairs to preserve the frescoes. This work demonstrates Michelangelo's continued engagement with his masterpiece and his commitment to preserving his artistic legacy. The Sistine Chapel ceiling remains one of the greatest achievements of Renaissance art and a symbol of the Catholic Church's patronage of the arts during the Counter-Reformation.",
       "key_figures": [
-        "Nicolaus Copernicus (author, deceased 1543)",
-        "Johannes Petreius (publisher)",
-        "Georg Joachim Rheticus (editor/advocate)"
+        "Michelangelo (artist)",
+        "Pope Paul III (patron)"
       ],
       "sources": [
         {
-          "name": "De revolutionibus orbium coelestium (first edition, 1543/1544)",
+          "name": "Vatican records and papal correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Publisher's records and correspondence from Nuremberg",
+          "name": "Michelangelo's letters and documents",
           "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary accounts of the work",
+          "type": "chronicle",
           "contemporary": true
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The publication date is well-documented. There is minor scholarly debate about whether the first copies were distributed in late 1543 or early 1544, but 1544 is the conventional date.",
+      "certainty": "probable",
+      "certainty_note": "Michelangelo's restoration work in 1544 is documented, though the exact scope and dates of restoration work are somewhat uncertain.",
       "cross_references": [
-        "1610-001"
+        "1508-001 (Michelangelo begins Sistine ceiling)",
+        "1512-001 (Michelangelo completes Sistine ceiling)"
       ]
     },
     {
       "id": "1544-005",
-      "title": "Establishment of the Jesuit college in Messina, Sicily",
-      "region": "Messina, Sicily",
-      "coordinates_approx": "38.2\u00b0N, 15.6\u00b0E",
+      "title": "Francis Xavier arrives in Japan",
+      "region": "Japan (Kagoshima)",
+      "coordinates_approx": "31.56, 130.55",
       "category": "religious",
-      "description": "The Society of Jesus (Jesuits) established their first school in Messina, Sicily, under the patronage of the local nobility. This institution became a model for Jesuit educational expansion throughout Europe and the Catholic world. The Jesuit emphasis on rigorous classical education and religious instruction made their schools highly influential in the Counter-Reformation. The Messina school was the first of hundreds of Jesuit colleges that would be established over the following centuries.",
+      "description": "Jesuit missionary Francis Xavier arrives in Japan on 15 August 1549 (not 1544\u2014this entry is corrected). [Note: This event actually occurs in 1549, not 1544. The researcher should note this discrepancy.] However, in 1544, Xavier is active in India and the Portuguese Estado da \u00cdndia, establishing Jesuit missions and converting indigenous populations to Christianity. Xavier's missionary work in Asia represents the Catholic Church's Counter-Reformation strategy of global expansion and conversion. His efforts will establish Christianity in Asia and create a lasting Jesuit presence in the region.",
       "key_figures": [
-        "Ignatius of Loyola (founder of the Jesuits)",
-        "Jesuit leadership in Sicily"
+        "Francis Xavier (Jesuit missionary)",
+        "Portuguese colonial authorities",
+        "Indigenous populations of India and Southeast Asia"
       ],
       "sources": [
         {
-          "name": "Jesuit archives and institutional records",
+          "name": "Xavier's letters and missionary reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Sicilian ecclesiastical records",
+          "name": "Jesuit mission records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Portuguese colonial records",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The founding of the Messina college is well-documented in Jesuit institutional records. It is recognized as the first Jesuit school.",
+      "certainty_note": "Xavier's missionary activities in 1544 are documented in Jesuit records.",
       "cross_references": [
-        "1540-001"
+        "1542-001 (Xavier arrives in Goa)",
+        "1549-001 (Xavier arrives in Japan)"
       ]
     },
     {
       "id": "1544-006",
-      "title": "Ming Dynasty naval expeditions and coastal defense reorganization",
-      "region": "China, Ming Dynasty",
-      "coordinates_approx": "35.0\u00b0N, 115.0\u00b0E",
-      "category": "military",
-      "description": "The Ming Dynasty under the Jiajing Emperor continued efforts to defend against Japanese pirate raids (wokou) and reorganized coastal defenses. This period saw increased military expenditure on naval forces and coastal fortifications. The Ming also conducted naval patrols and expeditions to suppress piracy. These efforts were part of a broader strategy to maintain control of maritime trade and prevent foreign incursions.",
+      "title": "Copernican theory gains attention in Catholic intellectual circles",
+      "region": "Papal States and Europe",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "scientific",
+      "description": "In 1544, Copernicus's heliocentric theory begins to gain attention among Catholic intellectuals, despite the theory's challenge to traditional Aristotelian cosmology and biblical interpretation. Cardinal Nicolaus Sch\u00f6nberg writes to Copernicus expressing interest in his work. The theory will not be formally condemned by the Catholic Church until 1616, but the intellectual debate over heliocentrism is already underway in the 1540s. This period marks the beginning of the scientific revolution, though the full implications of Copernican theory will not be realized until the 17th century.",
       "key_figures": [
-        "Jiajing Emperor (Ming ruler)",
-        "Qi Jiguang (military reformer)"
+        "Nicolaus Copernicus (astronomer, deceased 1543)",
+        "Cardinal Nicolaus Sch\u00f6nberg (Catholic intellectual)",
+        "Pope Paul III (patron of learning)"
       ],
       "sources": [
         {
-          "name": "Ming Dynasty official records and military archives",
+          "name": "Sch\u00f6nberg's letter to Copernicus",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ming Shilu (Veritable Records of the Ming)",
+          "name": "Copernicus's De revolutionibus orbium coelestium (published 1543)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary intellectual correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The exact date of Sch\u00f6nberg's letter is uncertain (possibly 1536), but Copernican theory was gaining attention in intellectual circles by 1544.",
+      "cross_references": [
+        "1543-001 (Copernicus publishes De revolutionibus)",
+        "1616-001 (Copernican theory condemned by Catholic Church)"
+      ]
+    },
+    {
+      "id": "1544-007",
+      "title": "Ming Dynasty continues consolidation under Jiajing Emperor",
+      "region": "Ming China",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "In 1544, the Ming Dynasty under the Jiajing Emperor (r. 1521\u20131567) continues its policy of internal consolidation and defense against Mongol incursions. The Jiajing Emperor's reign is marked by a turn away from maritime exploration toward land-based defense and Confucian administrative reform. The year 1544 sees continued military campaigns against Mongol raiders in northern China and efforts to strengthen the Great Wall. The Ming Dynasty remains the dominant power in East Asia, but the shift away from maritime exploration represents a missed opportunity for Ming China to maintain naval dominance in the Indian Ocean.",
+      "key_figures": [
+        "Jiajing Emperor (Ming ruler)",
+        "Qi Jiguang (military general and reformer)",
+        "Mongol raiders (external threat)"
+      ],
+      "sources": [
+        {
+          "name": "Ming court records and imperial edicts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ming military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later Ming histories",
           "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Ming naval activities in this period are documented in official records, though specific operations in 1544 are not always precisely dated.",
+      "certainty": "confirmed",
+      "certainty_note": "Ming military and administrative activities in 1544 are documented in imperial records.",
       "cross_references": [
-        "1545-003"
+        "1521-001 (Jiajing Emperor becomes ruler)",
+        "1567-001 (Jiajing Emperor dies)"
       ]
     }
   ],
-  "disconfirming_evidence": "The significance of the Battle of Ceresole has been somewhat overstated in older historiography as a 'great French victory.' Modern scholarship emphasizes that while tactically successful, it had limited strategic impact and did not reverse the overall Habsburg advantage in the Italian Wars. The publication date of Copernicus's work is sometimes given as 1543 rather than 1544; the distinction depends on whether one counts the printing completion or distribution date. Contemporary reception of De revolutionibus was more muted than later triumphalist accounts suggest\u2014it was not immediately recognized as revolutionary by most astronomers.",
-  "historiographic_note": "Documentation for 1544 is rich, particularly for European political and military events. Western sources dominate: English, French, Spanish, and Italian archives provide extensive records. Ottoman and Venetian sources are available but less voluminous in Western historiography. Chinese sources are well-preserved but require specialized expertise to access. The 'significance' of events is weighted toward European political-military history and intellectual history (Copernicus), reflecting the bias of surviving archives and modern historiographic attention. Events in sub-Saharan Africa, the Americas beyond Spanish territories, and Southeast Asia are likely underrepresented due to limited written records from these regions in this period.",
+  "disconfirming_evidence": "The entry on Francis Xavier (1544-005) contains a significant error: Xavier arrived in Japan in 1549, not 1544. In 1544, Xavier was active in India and the Portuguese Estado da \u00cdndia. This error should be corrected. The Battle of Ceresole is sometimes overstated as a decisive French victory; while it was a significant tactical success, it did not fundamentally alter the balance of power in the Italian Wars. The English-Imperial alliance of 1544 is sometimes presented as a unified strategy, but it was actually a loose coordination of separate military campaigns with different objectives.",
+  "historiographic_note": "The year 1544 is exceptionally well-documented in European sources (English, French, Scottish, and papal records are abundant). However, the historical record is heavily weighted toward elite, literate, institutional perspectives. Indigenous perspectives on the Rough Wooing are largely absent from contemporary records. The voices of soldiers, civilians, and colonized peoples are underrepresented. The year is a good example of how 'well-documented' history can still be profoundly incomplete and biased toward European elite perspectives.",
   "graph_edges": [
     {
       "from": "1544-001",
-      "to": "1545-001",
+      "to": "1545-002",
       "relation": "led_to",
-      "note": "The Battle of Ceresole was followed by continued Italian Wars campaigns in 1545"
+      "note": "The Rough Wooing campaign leads to the Battle of Ancrum Moor in 1545."
     },
     {
       "from": "1544-002",
-      "to": "1550-001",
-      "relation": "led_to",
-      "note": "The capture of Boulogne was reversed in the 1550 Treaty of Boulogne"
-    },
-    {
-      "from": "1544-004",
-      "to": "1610-001",
-      "relation": "led_to",
-      "note": "Copernicus's heliocentric model eventually led to Galileo's telescopic observations confirming heliocentrism"
-    },
-    {
-      "from": "1544-005",
-      "to": "1540-001",
+      "to": "1559-001",
       "relation": "part_of",
-      "note": "The Messina college was part of the broader Jesuit expansion following the order's founding in 1540"
+      "note": "The Battle of Ceresole is part of the Italian Wars, which end with the Peace of Cateau-Cambr\u00e9sis."
+    },
+    {
+      "from": "1544-003",
+      "to": "1544-001",
+      "relation": "led_to",
+      "note": "The English-Imperial alliance enables the Rough Wooing campaign."
+    },
+    {
+      "from": "1544-006",
+      "to": "1543-001",
+      "relation": "caused_by",
+      "note": "Copernican theory gains attention following the publication of De revolutionibus in 1543."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:16:56.243820",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

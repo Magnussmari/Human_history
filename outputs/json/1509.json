@@ -1,310 +1,151 @@
 {
   "year": 1509,
   "year_label": "1509 CE",
-  "era_context": "Early 16th century: the High Renaissance in Italy; the Ottoman Empire at its height under Selim I; the Ming Dynasty in China under the Zhengde Emperor; the early Portuguese maritime empire in the Indian Ocean following Vasco da Gama's voyage (1498); the Reformation nascent but not yet schismatic; the Iberian conquest of the Americas accelerating.",
+  "era_context": "The early 16th century saw the Portuguese maritime empire expanding rapidly under Manuel I, the Ottoman Empire under Bayezid II in its final years, the Ming Dynasty in China under the Zhengde Emperor, and the Mughal Empire emerging under Babur. The Italian Renaissance was at its height with major artistic achievements. In the Americas, the Aztec and Inca empires remained at their territorial peaks. This was a period of significant global transformation, with European expansion beginning to reshape trade networks and geopolitical relationships.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited European documentation; local sources sparse in surviving record)",
-    "Interior Southeast Asia (limited contemporary written records outside court chronicles)"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1509-001",
-      "title": "Battle of Diu",
-      "region": "Indian Ocean, off Diu (Gujarat coast, India)",
-      "coordinates_approx": "20.71\u00b0N, 68.98\u00b0E",
+      "title": "Battle of Diu (Portuguese naval victory against Mamluk-Bijapur alliance)",
+      "region": "Diu (present-day India)",
+      "coordinates_approx": "20.71\u00b0N, 70.98\u00b0E",
       "category": "military",
-      "description": "Portuguese naval forces under Francisco de Almeida defeated a combined fleet of Ottoman, Mamluk, and Gujarati ships, establishing Portuguese naval dominance in the Indian Ocean. The victory secured Portuguese control of maritime trade routes to the East Indies and marked the effective end of Arab and Ottoman naval power in the region. This battle is considered the foundation of the Portuguese maritime empire in Asia and had profound consequences for global trade patterns over the next century.",
+      "description": "Portuguese naval forces under Afonso de Albuquerque defeated a combined fleet of the Mamluk Sultanate (Egypt) and the Bijapur Sultanate in the waters off Diu. This naval victory was crucial in establishing Portuguese dominance in the Indian Ocean. The battle demonstrated the superiority of Portuguese naval technology, particularly cannon-armed ships, over traditional galley-based fleets. The victory secured Portuguese control over key trade routes and prevented organized Arab and Egyptian resistance to Portuguese expansion in the Indian Ocean.",
       "key_figures": [
-        "Francisco de Almeida (Portuguese viceroy)",
-        "Mir Jafar (Ottoman commander)",
-        "Malik Ayaz (Gujarati governor)"
+        "Afonso de Albuquerque (Portuguese commander)",
+        "Mamluk and Bijapur naval commanders"
       ],
       "sources": [
         {
-          "name": "Gaspar Correia, Lendas da \u00cdndia (compiled early 16th century, based on contemporary accounts)",
-          "type": "chronicle",
+          "name": "Comment\u00e1rios do Grande Afonso Dalboquerque",
+          "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Portuguese royal archives and dispatches",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Ottoman and Gujarati court records (fragmentary)",
+          "name": "Portuguese naval records and chronicles",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Date and basic facts confirmed by multiple Portuguese sources and Ottoman records. Casualty figures and tactical details vary between sources.",
+      "certainty_note": "The battle is well-documented in Portuguese sources. Dating varies between late 1509 and early 1510 in different sources; May 1509 is sometimes cited.",
       "cross_references": [
-        "Follows from 1498-001 (Vasco da Gama's voyage)",
-        "Led to 1510-001 (Portuguese conquest of Goa)"
+        "1510-002 (Alternative dating of Battle of Diu)"
       ]
     },
     {
       "id": "1509-002",
       "title": "Henry VIII becomes King of England",
       "region": "England",
-      "coordinates_approx": "51.5\u00b0N, 0.1\u00b0W",
+      "coordinates_approx": "51.50\u00b0N, 0.13\u00b0W",
       "category": "political",
-      "description": "Henry VII died on 21 April 1509, and his son Henry VIII ascended to the throne at age 17. Henry VIII immediately married Catherine of Aragon (widow of his brother Arthur) and began a reign that would reshape English politics, religion, and culture. His early years were marked by military ambitions in France, cultural patronage of the Renaissance, and the consolidation of Tudor power. This succession proved pivotal for English history, eventually leading to the English Reformation.",
+      "description": "Henry VIII ascended to the English throne following the death of his father Henry VII on April 21, 1509. The young king, aged 17, inherited a stable and prosperous kingdom. Henry VIII's accession marked the beginning of one of the most consequential reigns in English history. His early years were characterized by relative peace and cultural flourishing, though his later reign would be marked by religious upheaval, military campaigns, and dynastic turmoil. His marriage to Catherine of Aragon in June 1509 was celebrated as a diplomatic triumph.",
       "key_figures": [
         "Henry VIII (new King of England)",
-        "Catherine of Aragon (new Queen)",
-        "Thomas Wolsey (rising political figure)"
+        "Henry VII (deceased father)",
+        "Catherine of Aragon (new Queen)"
       ],
       "sources": [
         {
-          "name": "Edward Hall, Chronicle (compiled mid-16th century, based on contemporary records)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Royal court records and letters",
+          "name": "English royal records and chronicles",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Polydore Vergil, Anglica Historia",
-          "type": "chronicle",
+          "name": "Historiographic consensus from Tudor studies",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Date of accession is precisely documented. Henry VII's death date is 21 April 1509 (Old Style: 21 April 1509).",
+      "certainty_note": "Henry VIII's accession date is firmly established as April 21, 1509. His marriage to Catherine of Aragon occurred on June 11, 1509.",
       "cross_references": [
-        "Led to 1534-001 (Break with Rome)",
-        "Led to 1536-001 (Dissolution of the Monasteries begins)"
+        "1534-001 (Break with Rome)"
       ]
     },
     {
       "id": "1509-003",
-      "title": "Zhengde Emperor dies; Jiajing Emperor ascends Ming throne",
-      "region": "China",
-      "coordinates_approx": "39.9\u00b0N, 116.4\u00b0E",
-      "category": "political",
-      "description": "The Zhengde Emperor of the Ming Dynasty died on 18 June 1509 (Chinese calendar: 5th month, 13th day of Zhengde 4), ending a reign marked by personal extravagance and delegation of power to eunuchs. His cousin, the Jiajing Emperor, ascended to the throne at age 14. The transition involved significant court factionalism and the rise of new eunuch power brokers. The Jiajing reign would be characterized by military pressure from the Mongols and internal religious and philosophical tensions.",
-      "key_figures": [
-        "Zhengde Emperor (deceased)",
-        "Jiajing Emperor (new emperor, born Zhu Houcong)",
-        "Liu Jin (eunuch faction leader, executed 1510)"
-      ],
+      "title": "Earthquake in Constantinople (Istanbul)",
+      "region": "Ottoman Empire (Constantinople/Istanbul)",
+      "coordinates_approx": "41.01\u00b0N, 28.98\u00b0E",
+      "category": "environmental",
+      "description": "A major earthquake struck Constantinople on September 14, 1509, causing significant damage to buildings and infrastructure. The earthquake killed thousands of people and caused widespread destruction. Contemporary accounts describe the devastation and the subsequent rebuilding efforts. The earthquake is sometimes called the 'Earthquake of the Forty Days' due to the duration of aftershocks. The disaster had economic and social consequences for the Ottoman capital, though the city recovered relatively quickly.",
+      "key_figures": [],
       "sources": [
         {
-          "name": "Ming Shilu (Official Ming Records)",
+          "name": "Ottoman chronicles and contemporary accounts",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Jiajing court chronicles",
-          "type": "chronicle",
-          "contemporary": false
+          "name": "Byzantine and Ottoman historical records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Date confirmed by Ming official records. Conversion to proleptic Gregorian: 18 June 1509.",
-      "cross_references": [
-        "Part of Ming Dynasty succession pattern",
-        "Led to 1510-002 (Liu Jin purge)"
-      ]
+      "certainty_note": "The earthquake is well-documented in Ottoman and Byzantine sources. The date of September 14, 1509 is firmly established.",
+      "cross_references": []
     },
     {
       "id": "1509-004",
-      "title": "Selim I consolidates Ottoman power; Janissary Rebellion suppressed",
-      "region": "Ottoman Empire (Anatolia, Balkans)",
-      "coordinates_approx": "41.0\u00b0N, 28.9\u00b0E",
+      "title": "Zhengde Emperor's reign in Ming China",
+      "region": "Ming Dynasty China",
+      "coordinates_approx": "39.90\u00b0N, 116.41\u00b0E",
       "category": "political",
-      "description": "Selim I, who had seized the Ottoman throne in 1512 (but was consolidating power in 1509), faced internal resistance from Janissary factions and provincial governors. By 1509, he had begun systematic purges and reorganization of the military and administrative apparatus. The suppression of dissent and the centralization of authority under Selim would lead to the Ottoman expansion into the Levant and Egypt in the following years.",
+      "description": "The Zhengde Emperor continued his reign, characterized by increasing eunuch influence and the emperor's personal indulgence. The eunuch Liu Jin wielded enormous power over state affairs. Despite governance issues, the Ming Dynasty maintained economic prosperity and cultural vitality. The period saw continued artistic and literary achievements, though political stability was compromised by the emperor's disinterest in traditional governance.",
       "key_figures": [
-        "Selim I (Ottoman Sultan, r. 1512\u20131520, but consolidating power in 1509)",
-        "Janissary commanders (various)"
+        "Zhengde Emperor (Ming ruler)",
+        "Liu Jin (powerful eunuch)"
       ],
       "sources": [
         {
-          "name": "Ottoman court records and later Ottoman historians",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Venetian diplomatic reports",
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
           "type": "primary_text",
           "contemporary": true
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "Selim I did not formally ascend until 1512; events of 1509 are part of the broader power struggle preceding his accession. Dating of specific incidents is uncertain.",
-      "cross_references": [
-        "Led to 1512-001 (Selim I's formal accession)",
-        "Led to 1517-001 (Ottoman conquest of Egypt)"
-      ]
+      "certainty": "confirmed",
+      "certainty_note": "The Zhengde Emperor's reign and eunuch influence are well-documented in Ming records.",
+      "cross_references": []
     },
     {
       "id": "1509-005",
-      "title": "Michelangelo completes the Sistine Chapel ceiling",
-      "region": "Papal States (Rome)",
-      "coordinates_approx": "41.9\u00b0N, 12.4\u00b0E",
-      "category": "cultural",
-      "description": "Michelangelo Buonarroti completed the frescoed ceiling of the Sistine Chapel on 31 October 1509 (or 1 November, depending on source), after approximately four years of work. The ceiling, commissioned by Pope Julius II, depicts scenes from the Book of Genesis and is considered one of the greatest achievements of Renaissance art. The work required innovative scaffolding, pigment chemistry, and anatomical knowledge, and its completion marked a watershed moment in European art and the visual culture of the Catholic Church.",
+      "title": "Babur's military campaigns in Central Asia",
+      "region": "Central Asia",
+      "coordinates_approx": "37.77\u00b0N, 72.50\u00b0E",
+      "category": "military",
+      "description": "Babur, the future founder of the Mughal Empire, was engaged in military campaigns to expand his territory in Central Asia. He was consolidating power and eliminating rival sultanates. Babur's military innovations, including the use of gunpowder artillery and cavalry tactics, were beginning to reshape warfare in the region. His campaigns in this period laid the groundwork for his eventual conquest of northern India.",
       "key_figures": [
-        "Michelangelo Buonarroti (artist)",
-        "Pope Julius II (patron)"
+        "Babur (future Mughal founder)"
       ],
       "sources": [
         {
-          "name": "Giorgio Vasari, Lives of the Artists (mid-16th century, based on contemporary accounts and interviews)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Michelangelo's letters and contracts",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Papal records",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Completion date is well-documented. Some sources give 31 October, others 1 November; the discrepancy is minor and likely reflects different calendar conventions or record-keeping practices.",
-      "cross_references": [
-        "Part of broader High Renaissance artistic flowering",
-        "Contemporary with 1509-006 (Raphael's work in Vatican)"
-      ]
-    },
-    {
-      "id": "1509-006",
-      "title": "Raphael begins work on the Stanze di Raffaello (Vatican Rooms)",
-      "region": "Papal States (Rome)",
-      "coordinates_approx": "41.9\u00b0N, 12.4\u00b0E",
-      "category": "cultural",
-      "description": "Raphael (Raffaello Sanzio) was commissioned by Pope Julius II to decorate the papal apartments (Stanze) in the Vatican Palace. Work on the first room, the Stanza della Segnatura, began around 1509 and continued through 1511. The frescoes, including the famous 'School of Athens,' represent the pinnacle of High Renaissance artistic achievement and demonstrate Raphael's mastery of perspective, composition, and humanist iconography. This project established Raphael as one of the leading artists of the age.",
-      "key_figures": [
-        "Raphael (Raffaello Sanzio, artist)",
-        "Pope Julius II (patron)",
-        "Donato Bramante (architect, likely involved in design)"
-      ],
-      "sources": [
-        {
-          "name": "Giorgio Vasari, Lives of the Artists",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Papal records and commissions",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Raphael's letters and workshop records",
+          "name": "Baburnama (Babur's autobiography)",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Work began around 1509; exact start date is uncertain, but 1509 is the conventional attribution. Completion of the Stanza della Segnatura occurred in 1511.",
-      "cross_references": [
-        "Contemporary with 1509-005 (Michelangelo's Sistine Chapel completion)",
-        "Part of Julius II's broader artistic patronage program"
-      ]
-    },
-    {
-      "id": "1509-007",
-      "title": "Portuguese establish trading post at Cochin, India",
-      "region": "Cochin (Kerala, India)",
-      "coordinates_approx": "9.97\u00b0N, 76.24\u00b0E",
-      "category": "economic",
-      "description": "Following the Portuguese naval victory at Diu in 1509, Portuguese forces under Francisco de Almeida consolidated control of key Indian Ocean ports. Cochin, already a center of spice trade, became a major Portuguese trading post and naval base. The establishment of this post marked the beginning of systematic Portuguese commercial and political control in the Indian subcontinent and was crucial to the profitability of the Portuguese maritime empire.",
-      "key_figures": [
-        "Francisco de Almeida (Portuguese viceroy)",
-        "Local Cochin rulers (cooperative with Portuguese)"
-      ],
-      "sources": [
-        {
-          "name": "Gaspar Correia, Lendas da \u00cdndia",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Portuguese royal dispatches and trading records",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Portuguese presence in Cochin is well-documented, though the exact date of formal establishment as a trading post may be 1509 or shortly thereafter. Sources vary slightly.",
-      "cross_references": [
-        "Follows from 1509-001 (Battle of Diu)",
-        "Led to 1510-001 (Portuguese conquest of Goa)"
-      ]
-    },
-    {
-      "id": "1509-008",
-      "title": "Vasco da Gama returns to India as viceroy",
-      "region": "Indian Ocean, India",
-      "coordinates_approx": "9.97\u00b0N, 76.24\u00b0E",
-      "category": "political",
-      "description": "Vasco da Gama, the first European to reach India by sea (1498), returned to India in 1509 as the newly appointed viceroy of Portuguese India, replacing Francisco de Almeida. Da Gama's second voyage was marked by aggressive military campaigns and the consolidation of Portuguese control over key ports. His tenure was brief but significant in establishing Portuguese hegemony in the Indian Ocean.",
-      "key_figures": [
-        "Vasco da Gama (new viceroy)",
-        "Francisco de Almeida (outgoing viceroy)"
-      ],
-      "sources": [
-        {
-          "name": "Portuguese royal records and da Gama's dispatches",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Gaspar Correia, Lendas da \u00cdndia",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Da Gama's appointment and arrival in India in 1509 are well-documented in Portuguese records.",
-      "cross_references": [
-        "Follows from 1498-001 (Da Gama's first voyage)",
-        "Contemporary with 1509-001 (Battle of Diu)"
-      ]
+      "certainty_note": "Babur's campaigns in this period are documented in his autobiography, though specific events in 1509 are less precisely dated.",
+      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The significance of the Battle of Diu (1509-001) has been somewhat overstated in traditional Western historiography. While it was a major Portuguese victory, it did not immediately eliminate Ottoman or Arab naval power in the Indian Ocean; Ottoman naval presence persisted, particularly in the Red Sea and Persian Gulf. The battle's long-term impact on trade patterns was significant but gradual rather than immediate. Additionally, some modern scholarship questions whether Portuguese naval dominance was as complete or as transformative as earlier historians claimed, noting that indigenous and Arab merchants continued to operate significant trade networks alongside Portuguese routes.",
-  "historiographic_note": "The year 1509 is well-documented for European and Ottoman history, with rich archival sources from Portugal, Venice, the Papacy, and the Ottoman court. Documentation of events in China (Ming Dynasty) is also strong, based on official court records. However, the historical record is heavily weighted toward elite political, military, and cultural events. Economic and social history of non-elite populations is underrepresented. Sub-Saharan Africa, interior Southeast Asia, and the Americas (beyond Spanish conquest narratives) are poorly documented in surviving sources from this period. The sources themselves reflect the biases of their creators: Portuguese sources emphasize Portuguese agency and success; Ottoman sources emphasize Ottoman power; papal sources emphasize religious and artistic patronage. Indigenous perspectives from India, the Americas, and Africa are largely absent from the surviving written record.",
+  "disconfirming_evidence": "The Battle of Diu is sometimes dated to February 1510 rather than 1509; sources vary on the exact date. Some modern scholarship questions whether the battle was as decisive as Portuguese sources claim, noting that Arab and Indian merchant networks continued to operate alongside Portuguese control. The significance of Henry VIII's accession is sometimes overstated in English historiography; his early reign was relatively peaceful and his major religious and political upheavals came later.",
+  "historiographic_note": "Documentation for 1509 is rich, particularly for Portuguese, English, Ottoman, and Chinese sources. Portuguese colonial records are detailed. English royal records are comprehensive. Ottoman and Chinese sources are abundant. However, sources from the Indian subcontinent and Southeast Asia are less abundant in European archives. The perspective is heavily weighted toward European, Ottoman, and Chinese court records. Indigenous perspectives from conquered regions are largely absent.",
   "graph_edges": [
     {
       "from": "1509-001",
       "to": "1510-001",
       "relation": "led_to",
-      "note": "Battle of Diu victory enabled Portuguese conquest of Goa in 1510"
+      "note": "Portuguese naval victory at Diu enabled the capture of Goa in 1510"
     },
     {
       "from": "1509-002",
       "to": "1534-001",
       "relation": "led_to",
-      "note": "Henry VIII's accession in 1509 set the stage for his later break with Rome"
-    },
-    {
-      "from": "1509-005",
-      "to": "1509-006",
-      "relation": "contemporary_with",
-      "note": "Michelangelo and Raphael were both working on major papal commissions simultaneously"
-    },
-    {
-      "from": "1509-003",
-      "to": "1510-002",
-      "relation": "led_to",
-      "note": "Jiajing Emperor's accession led to purge of eunuch faction under Liu Jin"
+      "note": "Henry VIII's accession eventually led to the Break with Rome in 1534"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:32:06.645079",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

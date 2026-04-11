@@ -1,225 +1,173 @@
 {
   "year": 1541,
   "year_label": "1541 CE",
-  "era_context": "Mid-16th century: the Protestant Reformation is consolidating in Northern Europe; the Ottoman Empire under S\u00fcleyman the Magnificent is at its territorial apex; the Ming Dynasty rules China; the Spanish Empire is expanding in the Americas; the Italian Wars continue between Habsburg and Valois powers.",
+  "era_context": "The early modern period: European Renaissance and Reformation in full swing; Ottoman Empire at its height under S\u00fcleyman the Magnificent; Ming Dynasty in China; Inca Empire in final collapse following Spanish conquest; Age of Exploration and global maritime trade networks expanding rapidly.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "geographic_coverage_gaps": [
+    "Sub-Saharan African interior (limited written records; Portuguese coastal trade documented but inland kingdoms poorly attested)",
+    "Southeast Asian kingdoms beyond Portuguese/Spanish contact zones",
+    "Pacific Islander societies (no written records; oral traditions not systematically recorded until centuries later)"
+  ],
   "events": [
     {
       "id": "1541-001",
-      "title": "Ottoman conquest of Buda and consolidation of Hungary",
-      "region": "Buda, Hungary",
-      "coordinates_approx": "47.5\u00b0N, 19.0\u00b0E",
-      "category": "military",
-      "description": "The Ottoman Empire under S\u00fcleyman the Magnificent consolidated control of central Hungary following the Ottoman conquest of Buda in 1541. This marked the effective end of the independent Kingdom of Hungary, which was now divided between Ottoman occupation and Habsburg control. The conquest of Buda was a major strategic victory for the Ottomans and represented the apex of Ottoman expansion in Europe. Hungary would remain divided between Ottoman and Habsburg control for over 150 years.",
+      "title": "Death of Paracelsus",
+      "region": "Salzburg, Holy Roman Empire",
+      "coordinates_approx": "47.81, 13.05",
+      "category": "scientific",
+      "description": "Theophrastus Bombastus von Hohenheim, known as Paracelsus, died in Salzburg on 24 September 1541. A Swiss physician, alchemist, and occultist, Paracelsus revolutionized medical theory by rejecting Galenic humoral medicine and emphasizing chemical remedies and empirical observation. His work bridged alchemy and early modern chemistry, influencing pharmaceutical development and challenging medical orthodoxy across Europe. His death marked the end of a career that had profoundly unsettled medical establishments while laying groundwork for modern pharmacology.",
       "key_figures": [
-        "S\u00fcleyman the Magnificent (Ottoman Sultan)",
-        "Ferdinand I (Holy Roman Emperor and King of Hungary)"
+        "Paracelsus (physician, alchemist, reformer)"
       ],
       "sources": [
         {
-          "name": "Ottoman imperial records and military chronicles",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Paracelsus biographical records and contemporary accounts; later compiled in Paracelsus: His Life and Teachings by Franz Hartmann (1896)",
+          "type": "later_compilation",
+          "contemporary": false
         },
         {
-          "name": "Habsburg diplomatic and military correspondence",
+          "name": "Paracelsus's own published works (Archidoxies, Paragranum, etc.)",
           "type": "primary_text",
           "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Death date of 24 September 1541 is well-documented in biographical sources and contemporary records.",
+      "cross_references": []
+    },
+    {
+      "id": "1541-002",
+      "title": "Hernando de Soto's Expedition Reaches the Mississippi River",
+      "region": "North America (present-day Mississippi)",
+      "coordinates_approx": "32.5, -91.0",
+      "category": "exploration",
+      "description": "Spanish conquistador Hernando de Soto's expedition, which had been traversing the southeastern North American interior since 1539, reached the Mississippi River in May 1541. De Soto died shortly after (21 May 1542), but this expedition was the first documented European contact with the Mississippi and its valley peoples. The expedition's passage devastated indigenous populations through disease and violence, though the Spanish failed to establish permanent settlements. The journey provided early European knowledge of North American geography and indigenous societies, though at catastrophic cost to native peoples.",
+      "key_figures": [
+        "Hernando de Soto (Spanish conquistador)",
+        "Luis de Moscoso de Alvarado (successor to de Soto's command)"
+      ],
+      "sources": [
+        {
+          "name": "Garcilaso de la Vega, La Florida del Inca (1605) \u2014 account by son of Spanish conquistador, based on participant narratives",
+          "type": "later_compilation",
+          "contemporary": false
         },
         {
-          "name": "Hungarian chronicles and records",
+          "name": "Rodrigo Ranjel, account of de Soto's expedition (contemporary chronicle, published later)",
           "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Ottoman conquest of Buda in 1541 is well-documented in Ottoman, Habsburg, and Hungarian sources. This is a pivotal moment in Hungarian history.",
+      "certainty_note": "Multiple Spanish sources confirm the expedition's arrival at the Mississippi in May 1541; de Soto's death in May 1542 is well-attested.",
       "cross_references": [
-        "1526-001"
-      ]
-    },
-    {
-      "id": "1541-002",
-      "title": "Hernando de Soto's expedition in North America",
-      "region": "North America (present-day southeastern United States)",
-      "coordinates_approx": "32.0\u00b0N, -85.0\u00b0E",
-      "category": "exploration",
-      "description": "Spanish conquistador Hernando de Soto continued his expedition through North America, exploring territories in present-day Mississippi, Louisiana, and Arkansas. De Soto's expedition (1539-1542) was one of the largest European expeditions into the interior of North America. The expedition resulted in significant contact with Native American peoples, including the Mississippian culture. De Soto died in 1542 during the expedition, and the surviving members eventually reached Spanish settlements in Mexico. The expedition had limited immediate impact but provided valuable geographical and ethnographic information about North America.",
-      "key_figures": [
-        "Hernando de Soto (Spanish conquistador)",
-        "Native American leaders and peoples"
-      ],
-      "sources": [
-        {
-          "name": "Spanish expedition records and accounts by participants",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Garcilaso de la Vega, La Florida del Inca",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "De Soto's expedition is well-documented in Spanish records and accounts by participants. Specific locations and dates in 1541 are approximate, as the expedition's route is not always precisely known.",
-      "cross_references": [
-        "1542-001"
+        "1539-001 (de Soto's expedition begins)"
       ]
     },
     {
       "id": "1541-003",
-      "title": "Ignatius of Loyola elected Superior General of the Jesuits",
-      "region": "Rome, Papal States",
-      "coordinates_approx": "41.9\u00b0N, 12.5\u00b0E",
-      "category": "religious",
-      "description": "Ignatius of Loyola was elected Superior General of the Society of Jesus (Jesuits) in 1541. This formalized his leadership of the order, which he had founded in 1540. Under Ignatius's leadership, the Jesuits became one of the most influential religious orders in the Catholic Church and played a central role in the Counter-Reformation. The Jesuits would become known for their educational institutions, missionary work, and intellectual rigor.",
+      "title": "Establishment of Santiago de Chile",
+      "region": "Chile (Central Valley)",
+      "coordinates_approx": "-33.45, -70.67",
+      "category": "political",
+      "description": "Pedro de Valdivia, Spanish conquistador, founded Santiago de Chile on 12 February 1541 as a Spanish settlement in the Mapocho Valley. This marked the beginning of sustained Spanish colonial presence in Chile, though indigenous Mapuche resistance would persist for centuries. The city served as the administrative center for Spanish colonial Chile and became a crucial hub for Spanish expansion southward in South America. The founding was part of the broader Spanish conquest and colonization of the Americas following the collapse of the Inca Empire.",
       "key_figures": [
-        "Ignatius of Loyola (founder and Superior General of the Jesuits)",
-        "Pope Paul III"
+        "Pedro de Valdivia (Spanish conquistador, founder)",
+        "In\u00e9s de Su\u00e1rez (Spanish settler, Valdivia's partner)"
       ],
       "sources": [
         {
-          "name": "Jesuit archives and institutional records",
+          "name": "Pedro de Valdivia, letters to Spanish Crown (contemporary primary documents)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Papal records and correspondence",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Alonso de G\u00f3ngora Marmolejo, Historia de todas las cosas que han acaecido en el Per\u00fa (1575)",
+          "type": "later_compilation",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Ignatius of Loyola's election as Superior General in 1541 is well-documented in Jesuit and papal records.",
-      "cross_references": [
-        "1540-001"
-      ]
+      "certainty_note": "Founding date of 12 February 1541 is well-documented in Spanish colonial records and Valdivia's correspondence.",
+      "cross_references": []
     },
     {
       "id": "1541-004",
-      "title": "Council of Regensburg (Colloquy of Regensburg)",
-      "region": "Regensburg, Holy Roman Empire",
-      "coordinates_approx": "48.8\u00b0N, 12.1\u00b0E",
-      "category": "religious",
-      "description": "The Council of Regensburg (also called the Colloquy of Regensburg) was held from April to May 1541 as an attempt to reconcile Catholic and Protestant positions. The council was sponsored by the Holy Roman Emperor Charles V and included prominent theologians from both sides, including Johannes Eck (Catholic) and Philipp Melanchthon (Protestant). Although the council achieved some theological agreement on certain points, it ultimately failed to reconcile the fundamental differences between Catholicism and Protestantism. The failure of the council marked the end of serious attempts at reconciliation and solidified the religious division of Europe.",
-      "key_figures": [
-        "Charles V (Holy Roman Emperor)",
-        "Johannes Eck (Catholic theologian)",
-        "Philipp Melanchthon (Protestant theologian)",
-        "Pope Paul III"
-      ],
-      "sources": [
-        {
-          "name": "Council records and theological documents",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Correspondence of participants",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Council of Regensburg in April-May 1541 is well-documented in contemporary records and theological literature.",
-      "cross_references": [
-        "1545-005"
-      ]
-    },
-    {
-      "id": "1541-005",
-      "title": "Ottoman-Venetian naval operations in the Mediterranean",
-      "region": "Eastern Mediterranean",
-      "coordinates_approx": "37.0\u00b0N, 25.0\u00b0E",
+      "title": "Ottoman Conquest of Buda and Consolidation of Hungary",
+      "region": "Hungary (Buda)",
+      "coordinates_approx": "47.50, 19.04",
       "category": "military",
-      "description": "Ottoman naval forces under Barbarossa continued operations against Venetian possessions and shipping in the Mediterranean. Venice, facing declining naval power, was increasingly forced to accommodate Ottoman interests. These naval conflicts were part of the broader shift in Mediterranean power dynamics, with the Ottoman Empire increasingly dominant and Venice's power declining.",
+      "description": "Following the death of King John I of Hungary in 1540, the Ottoman Empire under S\u00fcleyman the Magnificent consolidated control over central Hungary, including Buda. The Ottoman occupation of Buda (which had begun in 1526 after the Battle of Moh\u00e1cs) became permanent, with the city serving as the capital of the Ottoman Eyalet of Buda. This marked the effective end of independent Hungarian rule in the region and the establishment of Ottoman administrative structures that would persist for over 150 years. The partition of Hungary between Ottoman, Habsburg, and Transylvanian powers became the defining geopolitical reality of the region.",
       "key_figures": [
-        "Barbarossa (Ottoman admiral)",
-        "Venetian Senate",
-        "S\u00fcleyman the Magnificent (Ottoman Sultan)"
+        "S\u00fcleyman the Magnificent (Ottoman Sultan)",
+        "John I Z\u00e1polya (Hungarian King, died 1540)"
       ],
       "sources": [
         {
-          "name": "Venetian state archives and diplomatic records",
+          "name": "Ottoman administrative records and chronicles (Takvim-i Vekayi and similar sources)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ottoman chronicles and naval records",
+          "name": "Contemporary Hungarian and Habsburg sources documenting the partition",
           "type": "chronicle",
           "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Ottoman-Venetian naval conflicts were endemic during this period. Specific engagements in 1541 are attested in diplomatic correspondence but lack detailed documentation.",
+      "certainty": "confirmed",
+      "certainty_note": "Ottoman consolidation of Hungary in 1541 is well-documented in both Ottoman and European sources.",
       "cross_references": [
-        "1542-004"
+        "1526-001 (Battle of Moh\u00e1cs)"
       ]
     },
     {
-      "id": "1541-006",
-      "title": "Ming Dynasty administrative reforms and military consolidation",
-      "region": "China, Ming Dynasty",
-      "coordinates_approx": "35.0\u00b0N, 115.0\u00b0E",
-      "category": "political",
-      "description": "The Jiajing Emperor continued administrative reforms and military consolidation during his reign. The Jiajing period was characterized by significant military expenditures, particularly on coastal defense against Japanese pirates (wokou) and Mongol threats from the north. The emperor also pursued Daoist religious interests and made significant changes to the imperial bureaucracy. These reforms were part of a broader effort to strengthen Ming central authority.",
+      "id": "1541-005",
+      "title": "Establishment of the Jesuit Order's First Missions in India",
+      "region": "India (Goa and surrounding regions)",
+      "coordinates_approx": "15.30, 73.83",
+      "category": "religious",
+      "description": "Francis Xavier, a founding member of the Society of Jesus (Jesuits), arrived in Goa in May 1542 (note: some sources date initial Jesuit missionary work to 1541). Xavier's mission marked the beginning of systematic Jesuit evangelization in India and Asia, establishing educational institutions and converting populations to Catholicism. The Jesuits' arrival represented a new phase of European religious expansion in Asia, distinct from earlier Portuguese trading posts. Xavier's work in India, Japan, and the East Indies would make him one of the most influential Christian missionaries of the early modern period.",
       "key_figures": [
-        "Jiajing Emperor (Ming ruler)",
-        "Yan Song (chief minister)"
+        "Francis Xavier (Jesuit missionary)",
+        "Ignatius of Loyola (Founder of the Society of Jesus)"
       ],
       "sources": [
         {
-          "name": "Ming Dynasty official records and imperial edicts",
+          "name": "Francis Xavier, letters and reports to Ignatius of Loyola (primary texts, 1542 onwards)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ming Shilu (Veritable Records of the Ming)",
+          "name": "Jesuit records and hagiographies of Xavier",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The Jiajing Emperor's reign is well-documented in Ming records, though specific administrative reforms in 1541 are not always precisely dated.",
-      "cross_references": [
-        "1544-006"
-      ]
+      "certainty_note": "Xavier's arrival in Goa is dated to May 1542 in most sources, though some Jesuit missionary activity may have begun in 1541. Dating is secure within \u00b11 year.",
+      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The Ottoman conquest of Buda in 1541 is sometimes portrayed as a sudden military victory, but modern scholarship emphasizes that it was the culmination of a long process of Ottoman expansion that had begun with the Battle of Moh\u00e1cs in 1526. The Council of Regensburg is sometimes presented as a genuine attempt at reconciliation, but modern historians note that both sides had already largely abandoned hopes for reconciliation by 1541. De Soto's expedition is sometimes romanticized as a great exploration, but modern scholarship emphasizes the devastating impact on Native American populations through disease and violence.",
-  "historiographic_note": "Documentation for 1541 is rich for European political and military events. Ottoman, Habsburg, and Hungarian sources provide detailed records of the conquest of Buda. Spanish expedition records provide documentation of de Soto's expedition, though Native American perspectives are largely absent. Religious sources are abundant for the Council of Regensburg. Chinese sources are well-preserved but require specialized expertise. The 'significance' of events is weighted toward European political history and religious conflict, reflecting the bias of surviving archives. Events in sub-Saharan Africa, the Americas beyond Spanish territories, and Southeast Asia are likely underrepresented.",
+  "disconfirming_evidence": "The significance of Paracelsus's death in 1541 is sometimes overstated in popular histories as a watershed moment for modern medicine; in reality, his influence was gradual and contested, with many of his alchemical theories being rejected by subsequent generations. The Jesuit mission dating is ambiguous: while Francis Xavier arrived in 1542, some sources attribute initial Jesuit missionary planning to 1541, making the exact year of 'establishment' debatable. De Soto's expedition is often romanticized as a great exploration; modern scholarship emphasizes the catastrophic demographic impact on indigenous populations and the expedition's failure to establish lasting Spanish presence in the Mississippi valley.",
+  "historiographic_note": "1541 is well-documented in European sources (Spanish, Portuguese, Ottoman, and Central European records are rich). Asian sources (Chinese, Indian, Japanese) exist but are less frequently consulted in Western historiography. Sub-Saharan African events are largely absent from surviving written records; Portuguese coastal trading posts are documented, but interior African kingdoms are poorly attested. The bias toward European and Mediterranean history is pronounced in available sources. Indigenous American perspectives on Spanish conquest are largely absent from contemporary written records, surviving mainly in later oral traditions and archaeological evidence.",
   "graph_edges": [
-    {
-      "from": "1541-001",
-      "to": "1526-001",
-      "relation": "part_of",
-      "note": "The Ottoman conquest of Buda in 1541 was the culmination of Ottoman expansion that began with the Battle of Moh\u00e1cs in 1526"
-    },
     {
       "from": "1541-002",
       "to": "1542-001",
       "relation": "led_to",
-      "note": "De Soto's expedition in 1541 continued into 1542, where he died"
+      "note": "De Soto's death in 1542 ended the expedition; survivors returned to Spanish territories"
     },
     {
       "from": "1541-003",
-      "to": "1540-001",
-      "relation": "part_of",
-      "note": "Ignatius's election as Superior General in 1541 was part of the Jesuit order's founding and consolidation in 1540"
+      "to": "1541-004",
+      "relation": "contemporary_with",
+      "note": "Both represent Spanish and Ottoman expansion in their respective regions during the same period"
     },
     {
-      "from": "1541-004",
-      "to": "1545-005",
+      "from": "1541-005",
+      "to": "1542-002",
       "relation": "led_to",
-      "note": "The failure of the Council of Regensburg in 1541 led to the Council of Trent in 1545"
+      "note": "Xavier's arrival in 1542 initiated sustained Jesuit missionary networks in Asia"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:16:56.244271",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

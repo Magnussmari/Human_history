@@ -1,227 +1,223 @@
 {
   "year": 1503,
   "year_label": "1503 CE",
-  "era_context": "The early 16th century continues to be marked by the Renaissance in Italy, the consolidation of European nation-states, the early phase of European global exploration, and the Ottoman rise in the Eastern Mediterranean. In Asia, the Ming Dynasty rules China, the Safavid Empire is consolidating power in Persia, and Indian sultanates dominate the subcontinent. This year falls within the Italian Wars, a period of intense conflict over Italian territories among European powers.",
+  "era_context": "Early 16th century: the High Renaissance in Italy; the Portuguese maritime empire expanding under King Manuel I; the Ottoman Empire consolidating power under Bayezid II; the Ming Dynasty in China under the Hongwu Emperor's successors; the Safavid Empire in Persia under Ismail I; the Spanish Reconquista completed, with Spain consolidating colonial holdings.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; Portuguese coastal contacts beginning)",
+    "Interior of the Americas (Aztec and Inca records fragmentary; Spanish conquest narratives dominate)"
+  ],
   "events": [
     {
       "id": "1503-001",
-      "title": "Battle of Garigliano and end of the First Italian War",
-      "region": "Garigliano River, Kingdom of Naples, Italy",
-      "coordinates_approx": "41.2167, 13.8333",
-      "category": "military",
-      "description": "The Battle of Garigliano, fought on 29 December 1503, marked the decisive Spanish victory in the First Italian War (1494\u20131503). Spanish forces under Gonzalo Fern\u00e1ndez de C\u00f3rdoba (the 'Great Captain') defeated French forces, securing Spanish control of the Kingdom of Naples and ending French dominion in southern Italy. The battle demonstrated the effectiveness of Spanish military innovations, particularly the integration of pikemen and musketeers, which would become the model for European warfare for the next century. The victory consolidated Spanish power in Italy and established Spain as the dominant European military force. The Treaty of Lyon (1504) formally recognised Spanish control of Naples, making this battle a watershed in the balance of European power.",
+      "title": "Death of Pope Alexander VI; election of Pope Pius III",
+      "region": "Papal States, Italy",
+      "coordinates_approx": "41.9028, 12.4534",
+      "category": "religious | political",
+      "description": "Pope Alexander VI (Rodrigo Borgia) died on 18 August 1503 after a 12-year papacy marked by political intrigue, nepotism, and military campaigns. His death was sudden and unexpected, possibly from malaria or poisoning (the cause remains debated by historians). He was succeeded by Pope Pius III (Francesco Todeschini Piccolomini), who was elected on 22 September 1503 but died after only 26 days in office on 18 October 1503. Pius III was then succeeded by Pope Julius II (Giuliano della Rovere), elected on 31 October 1503. This rapid succession of popes marked a period of significant change in papal politics and the beginning of Julius II's ambitious agenda for the papacy.",
       "key_figures": [
-        "Gonzalo Fern\u00e1ndez de C\u00f3rdoba (Spanish commander)",
-        "Louis XII (King of France)",
-        "Ferdinand II (King of Aragon)"
+        "Pope Alexander VI (Rodrigo Borgia)",
+        "Pope Pius III (Francesco Todeschini Piccolomini)",
+        "Pope Julius II (Giuliano della Rovere)",
+        "Cesare Borgia (son of Alexander VI)"
       ],
       "sources": [
         {
-          "name": "Contemporary Spanish and French military chronicles and accounts",
+          "name": "Papal records and contemporary chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Vasari, Lives of the Artists",
           "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Gonzalo Fern\u00e1ndez de C\u00f3rdoba's own dispatches and letters",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Papal records and diplomatic correspondence",
-          "type": "primary_text",
-          "contemporary": true
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The battle date and outcome are precisely documented in multiple contemporary sources. The significance of the battle in establishing Spanish dominance is universally accepted.",
+      "certainty_note": "The dates of Alexander VI's death and the papal elections are precisely documented in papal records.",
       "cross_references": [
-        "1494-001 (Italian Wars begin)",
-        "1504-003 (Treaty of Blois)"
+        "1506-001 (Julius II lays foundation stone of St. Peter's)"
       ]
     },
     {
       "id": "1503-002",
-      "title": "Leonardo da Vinci begins painting the Mona Lisa",
-      "region": "Florence, Italian Renaissance",
-      "coordinates_approx": "43.7696, 11.2558",
-      "category": "cultural",
-      "description": "Leonardo da Vinci began work on the portrait of Lisa Gherardini (the Mona Lisa) in 1503, a work that would become one of the most iconic paintings in Western art. The painting exemplifies Leonardo's mastery of sfumato (the subtle blending of colours and tones), his understanding of human psychology, and his integration of Renaissance ideals of beauty and proportion. The work was likely commissioned by Francesco del Giocondo, a Florentine merchant, and remained in Leonardo's possession for much of his life, suggesting his personal attachment to it. The Mona Lisa represents the culmination of Renaissance portraiture and demonstrates Leonardo's revolutionary approach to capturing not merely physical likeness but psychological presence. The painting's fame is partly a product of later centuries, but its technical and artistic significance was recognised even in Leonardo's lifetime.",
+      "title": "Election of Pope Julius II; beginning of his ambitious papacy",
+      "region": "Papal States, Italy",
+      "coordinates_approx": "41.9028, 12.4534",
+      "category": "religious | political",
+      "description": "Pope Julius II (Giuliano della Rovere) was elected on 31 October 1503, following the brief papacy of Pius III. Julius II was a strong-willed and ambitious pope who would dominate European politics for the next 11 years (r. 1503\u20131513). He immediately began to consolidate papal power, recover papal territories lost to secular rulers, and initiate major artistic and architectural projects. His election marked the beginning of a new era in papal history, characterized by aggressive political and military action, extensive patronage of the arts, and the beginning of the financial pressures that would eventually trigger the Protestant Reformation.",
       "key_figures": [
-        "Leonardo da Vinci (artist)",
-        "Lisa Gherardini (subject)",
-        "Francesco del Giocondo (likely patron)"
+        "Pope Julius II (Giuliano della Rovere)",
+        "Michelangelo Buonarroti (artist patronized by Julius II)",
+        "Raphael (artist patronized by Julius II)"
       ],
       "sources": [
         {
-          "name": "Giorgio Vasari, Lives of the Most Excellent Painters, Sculptors, and Architects (1550, 1568)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Leonardo's own notebooks and sketches (Codex Atlanticus, etc.)",
+          "name": "Papal records and contemporary chronicles",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary Florentine records and accounts",
+          "name": "Vasari, Lives of the Artists",
           "type": "chronicle",
-          "contemporary": true
+          "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The start date of 1503 is widely accepted based on Vasari's account and Leonardo's own notes, though the exact date is not documented with precision. Leonardo continued working on the painting for years, possibly until his death in 1519.",
+      "certainty": "confirmed",
+      "certainty_note": "Julius II's election date is precisely documented in papal records.",
       "cross_references": [
-        "1504-002 (Michelangelo completes David)",
-        "1519-001 (Leonardo's death)"
+        "1506-001 (Julius II lays foundation stone of St. Peter's)",
+        "1509-001 (Julius II commissions Raphael for Vatican frescoes)"
       ]
     },
     {
       "id": "1503-003",
-      "title": "Safavid Dynasty consolidates control of Persia",
-      "region": "Safavid Empire, Persia (modern-day Iran)",
-      "coordinates_approx": "32.6546, 51.6680",
-      "category": "political",
-      "description": "The Safavid Dynasty, under Shah Ismail I (r. 1501\u20131524), continued to consolidate control over Persia in 1503, establishing Twelver Shi'ism as the state religion and centralising authority over previously fragmented Persian territories. The Safavids defeated the Aq Qoyunlu (White Sheep Turkomen) confederation and other rival powers, unifying Persia under a single dynasty for the first time in centuries. This process involved both military conquest and religious conversion, as Ismail promoted Shi'ism as a unifying ideology distinct from the Sunni Ottoman Empire to the west. The consolidation of Safavid power in 1503 marked the beginning of a new era in Persian history and established the religious and political foundations that would define Iran for centuries. The Safavid rise also intensified Ottoman-Safavid rivalry, which would dominate Eastern Mediterranean and Middle Eastern politics for the next two centuries.",
+      "title": "Michelangelo begins work on the marble statue of David",
+      "region": "Florence, Italy",
+      "coordinates_approx": "43.7696, 11.2558",
+      "category": "cultural | artistic",
+      "description": "Michelangelo Buonarroti began work on the marble statue of David in 1501 (not 1503; see disconfirming evidence). However, by 1503, the statue was nearing completion. Michelangelo had been commissioned by the Opera del Duomo (Florence Cathedral workshop) to carve a statue from a large block of Carrara marble that had been abandoned by previous sculptors. The work would be completed and unveiled in 1504. The statue represents one of the greatest achievements of the Renaissance and a masterpiece of human anatomical representation.",
       "key_figures": [
-        "Shah Ismail I (Safavid ruler)",
-        "Aq Qoyunlu confederation (defeated rivals)"
+        "Michelangelo Buonarroti (sculptor)",
+        "The Opera del Duomo (Florence Cathedral workshop)"
       ],
       "sources": [
         {
-          "name": "Safavid court chronicles and administrative records",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Ottoman and Venetian diplomatic records and accounts",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Later Persian historiography, including works by Iskandar Beg Munshi",
-          "type": "later_compilation",
+          "name": "Vasari, Lives of the Artists",
+          "type": "chronicle",
           "contemporary": false
+        },
+        {
+          "name": "Michelangelo's letters and contemporary Florentine records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The consolidation of Safavid power occurred gradually over several years (1501\u20131510). The year 1503 marks a significant phase in this process, though the exact chronology of individual campaigns is sometimes uncertain in sources.",
+      "certainty": "confirmed",
+      "certainty_note": "Michelangelo began work on David in 1501 and completed it in 1504. By 1503, the statue was nearing completion.",
       "cross_references": [
-        "1501-001 (Safavid Dynasty founded)",
-        "1514-001 (Battle of Chaldiran, Ottoman-Safavid conflict)"
+        "1501-001 (Michelangelo begins work on David)",
+        "1504-001 (Michelangelo completes and unveils David)"
       ]
     },
     {
       "id": "1503-004",
-      "title": "Portuguese naval expedition under Vasco da Gama returns from India",
-      "region": "Indian Ocean, Portugal, India",
-      "coordinates_approx": "38.7223, -9.1393",
-      "category": "exploration",
-      "description": "Vasco da Gama's second expedition to India returned to Portugal in 1503, having established Portuguese trading posts and demonstrated the viability of the sea route to Asia. Da Gama's return voyage brought back spices and other valuable goods, proving the commercial potential of the direct sea route around Africa. The success of this expedition encouraged further Portuguese expansion in the Indian Ocean and led to the establishment of a permanent Portuguese presence in Asia. The expedition's return in 1503 marked a turning point in European-Asian relations and initiated the Portuguese Estado da \u00cdndia (Portuguese India), which would dominate European trade with Asia for the next century. The voyage demonstrated Portuguese naval superiority and technological innovation, establishing Portugal as the leading European maritime power.",
+      "title": "Battle of Flodden Field (1513) foreshadowed by Anglo-Scottish tensions; James IV of Scotland consolidates power",
+      "region": "Scotland",
+      "coordinates_approx": "55.5000, -2.0000",
+      "category": "political | military",
+      "description": "In 1503, King James IV of Scotland (r. 1488\u20131513) was consolidating his power and expanding Scottish influence. He married Margaret Tudor, daughter of King Henry VII of England, in 1503, which was intended to cement peace between Scotland and England. However, this marriage would not prevent the catastrophic Battle of Flodden Field in 1513, where James IV would be killed. In 1503, James IV was at the height of his power, having strengthened the Scottish navy and military, and was recognized as one of the most cultured and capable monarchs of the era.",
       "key_figures": [
-        "Vasco da Gama (Portuguese navigator)",
-        "King Manuel I (Portuguese patron)"
+        "King James IV of Scotland",
+        "Margaret Tudor (daughter of Henry VII of England)",
+        "King Henry VII of England"
       ],
       "sources": [
         {
-          "name": "Portuguese royal records and expedition accounts",
+          "name": "Scottish royal records and contemporary chronicles",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Gaspar Correia, Lendas da \u00cdndia (compiled in 16th century)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Contemporary Portuguese chronicles",
-          "type": "chronicle",
+          "name": "English royal records",
+          "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Da Gama's return in 1503 is well-documented in Portuguese records. The exact date of return (September 1503) is established in multiple sources.",
+      "certainty_note": "James IV's marriage to Margaret Tudor in 1503 is well-documented in Scottish and English royal records.",
       "cross_references": [
-        "1497-001 (Vasco da Gama's first voyage begins)",
-        "1504-004 (Portuguese establish Cochin trading post)"
+        "1513-001 (Battle of Flodden Field)"
       ]
     },
     {
       "id": "1503-005",
-      "title": "Cesare Borgia's military campaigns in the Romagna",
-      "region": "Romagna, Papal States, Italy",
-      "coordinates_approx": "44.0857, 12.5674",
-      "category": "military",
-      "description": "Cesare Borgia, Duke of Valentinois and son of Pope Alexander VI, conducted military campaigns in the Romagna region of the Papal States in 1503, consolidating his control over the region and establishing himself as one of Italy's most formidable military commanders. Borgia's campaigns were characterised by ruthless efficiency and innovative military tactics, earning him admiration from contemporaries including Niccol\u00f2 Machiavelli, who later cited Borgia as a model for his treatise The Prince. However, Borgia's power was built on his father's papal authority; when Pope Alexander VI died in August 1503, Borgia's position weakened considerably. The death of Alexander VI and the election of Pope Julius II (who was hostile to Borgia) marked the beginning of Borgia's decline. The year 1503 thus represents both the apex of Borgia's power and the beginning of his downfall.",
+      "title": "Columbus's fourth voyage continues; exploration of Central American coast",
+      "region": "Caribbean, Central America",
+      "coordinates_approx": "14.0735, -87.1921",
+      "category": "exploration",
+      "description": "Christopher Columbus was in the midst of his fourth and final voyage to the Americas (1502\u20131504), exploring the coasts of present-day Honduras, Nicaragua, Costa Rica, and Panama. In 1503, Columbus was dealing with severe weather, shipworm damage to his vessels, and increasing conflict with indigenous peoples. The voyage was marked by hardship and disease, and Columbus's health was deteriorating. This voyage would end in 1504 with Columbus's return to Spain in poor condition.",
       "key_figures": [
-        "Cesare Borgia (Duke of Valentinois)",
-        "Pope Alexander VI (father, died August 1503)",
-        "Pope Julius II (successor, hostile to Borgia)"
+        "Christopher Columbus",
+        "Indigenous peoples of Central America"
       ],
       "sources": [
         {
-          "name": "Contemporary Florentine and Venetian diplomatic records",
+          "name": "Columbus's letters and journals",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Papal records and chronicles",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Niccol\u00f2 Machiavelli, The Prince (written 1513, published 1532)",
+          "name": "Ferdinand Columbus, Life of the Admiral",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Borgia's campaigns in 1503 are well-documented in contemporary diplomatic and papal records. The significance of Alexander VI's death in August 1503 as a turning point in Borgia's fortunes is universally accepted.",
+      "certainty_note": "Columbus's fourth voyage is well-documented in his own writings and those of his son Ferdinand.",
       "cross_references": [
-        "1502-001 (Borgia's earlier campaigns)",
-        "1507-001 (Borgia's death in exile)"
+        "1502-001 (Columbus's fourth voyage begins)",
+        "1504-004 (Columbus's fourth voyage ends)"
+      ]
+    },
+    {
+      "id": "1503-006",
+      "title": "Portuguese naval expansion in Indian Ocean; establishment of trading posts",
+      "region": "Indian Ocean, East Africa, India",
+      "coordinates_approx": "0.0000, 70.0000",
+      "category": "economic | military | exploration",
+      "description": "Portuguese naval forces under the command of Vasco da Gama and other commanders continued their expansion in the Indian Ocean in 1503. Following da Gama's first voyage to India in 1498, the Portuguese were establishing trading posts and fortified settlements along the coasts of East Africa and India. These efforts were part of King Manuel I's strategy to monopolize the spice trade and establish Portuguese hegemony in the Indian Ocean. By 1503, the Portuguese had established a presence at several key ports, including Cochin and Cannanore in India, and were beginning to displace Arab and Swahili merchant networks.",
+      "key_figures": [
+        "Vasco da Gama (Portuguese explorer and commander)",
+        "King Manuel I of Portugal",
+        "Portuguese naval commanders"
+      ],
+      "sources": [
+        {
+          "name": "Portuguese royal archives and contemporary dispatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Gaspar Correia, Lendas da \u00cdndia",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Portuguese naval expansion in 1503 is attested in Portuguese sources, though the exact chronology of individual trading post establishments is sometimes uncertain.",
+      "cross_references": [
+        "1498-001 (Vasco da Gama's first voyage to India)",
+        "1505-002 (Vasco da Gama appointed viceroy)"
       ]
     }
   ],
-  "disconfirming_evidence": "The significance of the Battle of Garigliano (1503-001) in establishing Spanish military dominance is sometimes overstated; while the battle was decisive, Spanish military innovations were not fully developed until later in the 16th century. The Mona Lisa's fame is largely a product of 19th and 20th-century art history; contemporary accounts suggest it was valued but not uniquely celebrated in Leonardo's lifetime. The Safavid consolidation (1503-003) was not as complete as sometimes portrayed; rival powers and internal factions continued to challenge Safavid authority for years. Cesare Borgia's reputation as a military genius, partly derived from Machiavelli's admiration, has been questioned by modern historians who note that his successes were often achieved through betrayal and assassination rather than military skill.",
-  "historiographic_note": "The year 1503 is exceptionally well-documented in European sources, particularly regarding Italian politics, the Renaissance, and Portuguese exploration. However, sources are heavily skewed toward European perspectives. The Safavid consolidation is documented primarily through later Persian chronicles and Ottoman accounts, which may reflect biases. Portuguese sources on exploration are rich but often overstate Portuguese agency and underrepresent indigenous Asian maritime networks. Chinese and Indian sources for this year are underrepresented in Western historiography. The death of Pope Alexander VI is extensively documented, but its impact on broader European politics is sometimes overstated relative to other contemporary events.",
+  "disconfirming_evidence": "1. Michelangelo began work on David in 1501, not 1503. By 1503, the statue was nearing completion. The statue was completed and unveiled in 1504. 2. The Battle of Flodden Field occurred in 1513, not 1503. James IV's marriage to Margaret Tudor in 1503 was intended to cement peace, but it did not prevent the battle. 3. The exact dates of Portuguese trading post establishments in India are sometimes uncertain, with sources varying on whether specific posts were established in 1503, 1504, or 1505.",
+  "historiographic_note": "The year 1503 is well-documented in European sources (Italian Renaissance, papal politics, Portuguese maritime expansion, Scottish royal affairs) and Chinese sources (Ming court records). Ottoman and Safavid sources are less detailed for this specific year. Sub-Saharan African and interior American sources are minimal; Portuguese and Spanish colonial narratives dominate. The historical record is heavily weighted toward elite political and cultural events in Europe, the Mediterranean, and Asia; economic and social history of non-elite populations is underrepresented.",
   "graph_edges": [
     {
       "from": "1503-001",
-      "to": "1504-003",
+      "to": "1503-002",
       "relation": "led_to",
-      "note": "The Spanish victory at Garigliano led to the Treaty of Blois, which formalised Spanish control of Naples"
+      "note": "Alexander VI's death led to the election of Julius II, who would dominate European politics for the next 11 years."
     },
     {
       "from": "1503-002",
-      "to": "1519-001",
+      "to": "1506-001",
       "relation": "led_to",
-      "note": "Leonardo's work on the Mona Lisa continued until his death in 1519"
+      "note": "Julius II's election in 1503 led to his ambitious patronage of the arts and the foundation stone of St. Peter's in 1506."
     },
     {
       "from": "1503-003",
-      "to": "1514-001",
+      "to": "1504-001",
       "relation": "led_to",
-      "note": "Safavid consolidation of power led to conflict with the Ottoman Empire"
+      "note": "Michelangelo's work on David in 1503 led to its completion and unveiling in 1504."
     },
     {
       "from": "1503-004",
-      "to": "1504-004",
+      "to": "1513-001",
       "relation": "led_to",
-      "note": "Da Gama's successful return encouraged the establishment of permanent Portuguese trading posts in India"
-    },
-    {
-      "from": "1503-005",
-      "to": "1507-001",
-      "relation": "led_to",
-      "note": "The death of Alexander VI in 1503 led to Borgia's decline and eventual exile"
+      "note": "James IV's consolidation of power in 1503 led to his military campaigns that culminated in the Battle of Flodden Field in 1513."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:34:09.232085",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

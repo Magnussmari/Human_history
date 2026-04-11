@@ -1,225 +1,355 @@
 {
   "year": 1521,
   "year_label": "1521 CE",
-  "era_context": "The early 16th century: the Protestant Reformation is in its early stages under Martin Luther; the Spanish conquest of the Aztec Empire is reaching its climax; the Ottoman Empire under S\u00fcleyman the Magnificent is expanding aggressively; the Ming Dynasty is in its mid-reign period; and European exploration of the Americas is accelerating. This is a period of religious upheaval, imperial consolidation, and global exploration.",
+  "era_context": "The early 16th century saw the height of European Renaissance humanism, the consolidation of early modern nation-states (Spain, France, England, Portugal), and the global expansion of European maritime empires. In Mesoamerica, the Aztec Empire was collapsing under Spanish conquest. In Asia, the Ottoman Empire dominated the eastern Mediterranean and Balkans; the Ming Dynasty ruled China; and the Zhenghe voyages had ended a generation prior. The Protestant Reformation was in its infancy, having begun with Luther's 95 Theses in 1517.",
   "documentation_level": "rich",
   "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1521-001",
-      "title": "Martin Luther is excommunicated by Pope Leo X",
-      "region": "Holy Roman Empire, Papal States",
-      "coordinates_approx": "51.9, 12.6",
-      "category": "religious",
-      "description": "Pope Leo X formally excommunicates Martin Luther on January 3, 1521, following Luther's refusal to recant his theological positions at the Diet of Worms in April 1521. The excommunication is the culmination of a conflict that began with Luther's posting of the 95 Theses in 1517. Luther's excommunication marks a decisive break between the Protestant reformers and the Roman Catholic Church and establishes Luther as the leader of a new religious movement. The excommunication also has political implications, as it involves the Holy Roman Emperor and various German princes who must decide whether to support Luther or the Pope.",
+      "title": "Fall of Tenochtitlan and Collapse of the Aztec Empire",
+      "region": "Mesoamerica (Mexico)",
+      "coordinates_approx": "19.4326, -99.1332",
+      "category": "military",
+      "description": "After a 93-day siege beginning in May 1521, Spanish conquistador Hern\u00e1n Cort\u00e9s and his indigenous allies (primarily Tlaxcalans) captured the Aztec capital Tenochtitlan. The last Aztec emperor, Cuauht\u00e9moc, surrendered on 13 August 1521. The city was systematically destroyed and its population decimated by warfare, siege conditions, and disease (smallpox had ravaged the city since 1520). This conquest marked the effective end of the Aztec Empire and initiated Spanish colonial rule over Mesoamerica, fundamentally reshaping the political, demographic, and cultural landscape of the region.",
       "key_figures": [
-        "Martin Luther (Protestant reformer)",
-        "Pope Leo X (Catholic Pope)",
-        "Holy Roman Emperor Charles V"
+        "Hern\u00e1n Cort\u00e9s (Spanish conquistador)",
+        "Cuauht\u00e9moc (Aztec emperor)",
+        "Tlaxcaltecatl (Tlaxcalan leader)",
+        "Bernal D\u00edaz del Castillo (Spanish soldier and chronicler)"
       ],
       "sources": [
         {
-          "name": "Papal bull of excommunication (Decet Romanum Pontificem)",
+          "name": "Bernal D\u00edaz del Castillo, The True History of the Conquest of New Spain (Historia verdadera de la conquista de la Nueva Espa\u00f1a)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Cort\u00e9s, Cartas de relaci\u00f3n (Letters of Relation to Charles V)",
           "type": "primary_text",
           "contemporary": true
         },
+        {
+          "name": "Florentine Codex (Sahag\u00fan's compilation of Nahua accounts)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Mexico City excavations",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The siege dates and surrender are well-documented in multiple contemporary Spanish sources and later indigenous codices. The date of 13 August 1521 is established by Spanish chronicles and accepted by modern scholarship.",
+      "cross_references": [
+        "1520-001 (Smallpox epidemic in Tenochtitlan)",
+        "1519-001 (Cort\u00e9s lands in Mexico)"
+      ]
+    },
+    {
+      "id": "1521-002",
+      "title": "Battle of Pavia and Capture of Francis I",
+      "region": "Europe (Italy/Lombardy)",
+      "coordinates_approx": "45.1852, 9.1597",
+      "category": "military",
+      "description": "On 24 February 1521, the Holy Roman Emperor Charles V's forces, commanded by the Marquis of Pescara, decisively defeated the French army under King Francis I at the Battle of Pavia in northern Italy. Francis I was captured and held for ransom, a humiliation that shifted the balance of power in European politics decisively toward the Habsburgs. The battle ended French hopes of controlling Milan and demonstrated the military superiority of imperial forces, establishing Charles V as the dominant European power for the next two decades.",
+      "key_figures": [
+        "Charles V (Holy Roman Emperor)",
+        "Francis I (King of France)",
+        "Fernando d'\u00c1valos, Marquis of Pescara (Imperial commander)",
+        "Louise of Savoy (Francis I's mother, regent during his captivity)"
+      ],
+      "sources": [
+        {
+          "name": "Guicciardini, History of Italy (Storia d'Italia)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary Spanish and Imperial dispatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "French court records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle date, participants, and outcome are extensively documented in contemporary diplomatic correspondence and near-contemporary chronicles. The date of 24 February 1521 is universally accepted.",
+      "cross_references": [
+        "1519-002 (Charles V elected Holy Roman Emperor)"
+      ]
+    },
+    {
+      "id": "1521-003",
+      "title": "Diet of Worms and Condemnation of Martin Luther",
+      "region": "Europe (Holy Roman Empire, Worms)",
+      "coordinates_approx": "49.6316, 8.3597",
+      "category": "religious",
+      "description": "Martin Luther appeared before the Diet of Worms (a formal assembly of the Holy Roman Empire) on 17\u201318 April 1521 to defend his theological writings against charges of heresy. When asked to recant, Luther famously refused, declaring 'Here I stand, I can do no other.' On 25 May 1521, Emperor Charles V issued the Edict of Worms, which declared Luther a heretic and an outlaw of the Empire, banning his writings and ordering his arrest. However, Luther was secretly protected by Frederick III, Elector of Saxony, and spirited away to Wartburg Castle, where he remained in hiding. This event crystallized the Protestant Reformation and made Luther's break with Rome irreversible, fundamentally fracturing Western Christendom.",
+      "key_figures": [
+        "Martin Luther (Augustinian friar and theologian)",
+        "Charles V (Holy Roman Emperor)",
+        "Frederick III, Elector of Saxony (Luther's protector)",
+        "Johann Eck (papal theologian opposing Luther)"
+      ],
+      "sources": [
         {
           "name": "Luther's own accounts and letters",
           "type": "primary_text",
           "contemporary": true
         },
-        {
-          "name": "Contemporary chronicles and records of the Diet of Worms",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Luther's excommunication is one of the most well-documented events of the Reformation. The date and significance are firmly established.",
-      "cross_references": [
-        "1517-001 (Luther's 95 Theses)",
-        "1523-002 (Luther's translation of the New Testament)"
-      ]
-    },
-    {
-      "id": "1521-002",
-      "title": "Siege of Belgrade by Ottoman forces under S\u00fcleyman the Magnificent",
-      "region": "Ottoman Empire, Serbia (Belgrade)",
-      "coordinates_approx": "44.8, 20.5",
-      "category": "military",
-      "description": "Ottoman forces under Sultan S\u00fcleyman I besiege and capture the fortress city of Belgrade (Beograd) in August 1521. The siege lasts approximately two months, and the city falls to Ottoman forces after a fierce defense by Hungarian and Serbian troops. The capture of Belgrade is a major Ottoman victory and marks the beginning of S\u00fcleyman's expansion into Central Europe. The fall of Belgrade opens the way for Ottoman advances into Hungary and the Balkans, and it is followed by the Battle of Moh\u00e1cs in 1526, which will establish Ottoman dominance in the region.",
-      "key_figures": [
-        "S\u00fcleyman I (Ottoman Sultan)",
-        "Hungarian and Serbian defenders"
-      ],
-      "sources": [
-        {
-          "name": "Ottoman chronicles and records",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "European accounts of the siege",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Siege of Belgrade is extensively documented in both Ottoman and European sources. The date and outcome are firmly established.",
-      "cross_references": [
-        "1526-002 (Battle of Moh\u00e1cs)",
-        "1522-003 (Loss of Rhodes)"
-      ]
-    },
-    {
-      "id": "1521-003",
-      "title": "Fall of Tenochtitlan; conquest of the Aztec Empire by Spanish forces",
-      "region": "Mexico (Aztec Empire)",
-      "coordinates_approx": "19.4, -99.1",
-      "category": "military",
-      "description": "After a three-month siege, the Aztec capital of Tenochtitlan falls to Spanish forces under Hern\u00e1n Cort\u00e9s on August 13, 1521. The siege is one of the most significant military events of the early modern period, resulting in the destruction of the Aztec Empire and the establishment of Spanish colonial rule in Mexico. The fall of Tenochtitlan is facilitated by Spanish military technology (firearms, horses), indigenous allies (particularly the Tlaxcalans), and the devastating impact of European diseases (particularly smallpox) on the indigenous population. The conquest results in the death of hundreds of thousands of indigenous people and the destruction of Aztec civilization. The fall of Tenochtitlan marks the beginning of Spanish colonial rule in Mexico and the transformation of the Americas.",
-      "key_figures": [
-        "Hern\u00e1n Cort\u00e9s (Spanish conquistador)",
-        "Montezuma II (Aztec Emperor, died 1520)",
-        "Cuauht\u00e9moc (last Aztec Emperor)",
-        "Tlaxcalan allies"
-      ],
-      "sources": [
-        {
-          "name": "Cort\u00e9s's letters to Charles V (primary accounts of the conquest)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Spanish chronicles and accounts",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Indigenous codices and later compilations (e.g., Florentine Codex by Sahag\u00fan)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The fall of Tenochtitlan is extensively documented in Spanish accounts and indigenous sources. The date of August 13, 1521, is firmly established.",
-      "cross_references": [
-        "1519-002 (Cort\u00e9s's arrival in Mexico)",
-        "1522-004 (Establishment of Mexico City)"
-      ]
-    },
-    {
-      "id": "1521-004",
-      "title": "Death of Ferdinand Magellan in the Philippines",
-      "region": "Philippines (Cebu)",
-      "coordinates_approx": "10.3, 123.9",
-      "category": "exploration",
-      "description": "Ferdinand Magellan, the Portuguese explorer leading an expedition to circumnavigate the globe, is killed in the Battle of Mactan on April 27, 1521, in the Philippines. Magellan is killed while fighting indigenous forces led by Chief Lapulapu. Although Magellan does not survive to complete the circumnavigation, his expedition continues under the command of Juan Sebasti\u00e1n Elcano and returns to Spain in 1522. Magellan's death marks the end of his personal involvement in the expedition, but the voyage continues and ultimately proves the feasibility of a westward route to Asia.",
-      "key_figures": [
-        "Ferdinand Magellan (Portuguese explorer)",
-        "Juan Sebasti\u00e1n Elcano (Spanish navigator, takes command)",
-        "Chief Lapulapu (indigenous leader)"
-      ],
-      "sources": [
-        {
-          "name": "Antonio Pigafetta's account of the voyage (eyewitness chronicle)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Spanish royal records",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Magellan's death is documented in Pigafetta's eyewitness account and Spanish records. The date of April 27, 1521, is firmly established.",
-      "cross_references": [
-        "1519-001 (Magellan's departure)",
-        "1522-001 (Expedition's return to Spain)"
-      ]
-    },
-    {
-      "id": "1521-005",
-      "title": "Diet of Worms; Charles V confronts Martin Luther",
-      "region": "Holy Roman Empire (Worms, Germany)",
-      "coordinates_approx": "49.6, 8.4",
-      "category": "religious",
-      "description": "The Diet of Worms, a formal assembly of the Holy Roman Empire, convenes in January 1521 to address the religious crisis posed by Martin Luther's Reformation. Luther is summoned to appear before the Diet and is asked to recant his theological positions. Luther refuses to recant, declaring that his conscience is bound by scripture and that he cannot be forced to abandon his beliefs. The Diet issues the Edict of Worms in May 1521, which declares Luther a heretic and an outlaw of the Empire. However, Luther is protected by Frederick the Wise, the Elector of Saxony, who shelters him in Wartburg Castle. The Diet of Worms marks a decisive moment in the Reformation, as it establishes Luther's defiance of both the Pope and the Emperor and demonstrates the political divisions within the Empire over religious reform.",
-      "key_figures": [
-        "Martin Luther (Protestant reformer)",
-        "Holy Roman Emperor Charles V",
-        "Frederick the Wise (Elector of Saxony)"
-      ],
-      "sources": [
         {
           "name": "Official records of the Diet of Worms",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Luther's own accounts and letters",
+          "name": "Edict of Worms (Edictum Wormatiense)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary chronicles",
-          "type": "chronicle",
+          "name": "Contemporary accounts by eyewitnesses and diplomats",
+          "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Diet of Worms is extensively documented in official records and contemporary accounts. The dates and significance are firmly established.",
+      "certainty_note": "The dates, Luther's statements, and the Edict are all documented in official imperial records and Luther's own writings. The famous phrase 'Here I stand' is attested in multiple contemporary accounts, though the exact wording may vary slightly.",
       "cross_references": [
         "1517-001 (Luther's 95 Theses)",
-        "1521-001 (Luther's excommunication)"
+        "1521-004 (Luther's translation of the New Testament)"
+      ]
+    },
+    {
+      "id": "1521-004",
+      "title": "Luther Begins Translation of the New Testament at Wartburg Castle",
+      "region": "Europe (Holy Roman Empire, Saxony)",
+      "coordinates_approx": "50.9556, 10.2289",
+      "category": "cultural",
+      "description": "While in hiding at Wartburg Castle following his condemnation at the Diet of Worms, Martin Luther began his translation of the New Testament from Greek into German. Working under the assumed name 'Junker J\u00f6rg,' Luther completed the translation in approximately 11 weeks (by September 1521), though he continued to refine it over subsequent years. This translation was revolutionary: it made Scripture accessible to ordinary German speakers in their own vernacular, rather than the Latin Vulgate used by the Church. The translation became enormously influential, shaping the German language itself and enabling lay Bible reading, a cornerstone of Protestant theology.",
+      "key_figures": [
+        "Martin Luther (translator)",
+        "Philipp Melanchthon (consulted on Greek)",
+        "Frederick III, Elector of Saxony (Luther's host)"
+      ],
+      "sources": [
+        {
+          "name": "Luther's letters and prefaces to the translation",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "The September Testament (Septembertestament), first printed edition 1522",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Luther's later accounts of his time at Wartburg",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Luther's work at Wartburg and the completion of the New Testament translation by September 1521 are well-documented in his correspondence and later accounts. The translation was first printed in 1522 (the 'September Testament').",
+      "cross_references": [
+        "1521-003 (Diet of Worms)",
+        "1522-001 (Publication of Luther's New Testament)"
+      ]
+    },
+    {
+      "id": "1521-005",
+      "title": "Portuguese Expedition of Ferdinand Magellan Reaches the Philippines",
+      "region": "Southeast Asia (Philippines)",
+      "coordinates_approx": "10.3157, 123.8854",
+      "category": "exploration",
+      "description": "Ferdinand Magellan's Spanish-sponsored expedition, sailing westward from Spain in search of a route to the Spice Islands, reached the Philippines on 16 March 1521 after crossing the Pacific Ocean. Magellan named the islands 'Las Islas de San L\u00e1zaro' (the Islands of Saint Lazarus). On 27 April 1521, Magellan was killed in the Battle of Mactan while attempting to subdue local chief Lapu-Lapu. Despite Magellan's death, the expedition continued under Juan Sebasti\u00e1n Elcano and eventually returned to Spain in 1522, completing the first circumnavigation of the globe. This voyage demonstrated the vast extent of the Pacific Ocean and opened the Philippines to Spanish colonization.",
+      "key_figures": [
+        "Ferdinand Magellan (Portuguese explorer in Spanish service)",
+        "Juan Sebasti\u00e1n Elcano (Spanish navigator, took command after Magellan's death)",
+        "Lapu-Lapu (Visayan chief)",
+        "Charles V (Spanish king who sponsored the expedition)"
+      ],
+      "sources": [
+        {
+          "name": "Antonio Pigafetta, First Voyage Around the World (Primo viaggio intorno al mondo)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Spanish royal records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Philippine oral traditions and later Spanish colonial records",
+          "type": "oral_tradition",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Magellan's arrival in the Philippines on 16 March 1521 and his death on 27 April 1521 are well-documented in Pigafetta's eyewitness account and Spanish records. The dates are universally accepted.",
+      "cross_references": [
+        "1519-003 (Magellan's expedition departs Spain)",
+        "1522-002 (Elcano returns to Spain, completing circumnavigation)"
+      ]
+    },
+    {
+      "id": "1521-006",
+      "title": "Ottoman Siege of Belgrade Fails; Suleiman I Consolidates Power",
+      "region": "Europe (Ottoman Empire, Serbia)",
+      "coordinates_approx": "44.8176, 20.4633",
+      "category": "military",
+      "description": "In the summer of 1521, Ottoman Sultan Suleiman I (who had ascended to the throne in 1520) launched a major siege of Belgrade, the key fortress controlling the Danube and the gateway to Hungary. After a siege lasting from 29 May to 29 August 1521, the Ottoman forces under Suleiman captured the city from Hungarian defenders. The fall of Belgrade removed a major obstacle to Ottoman expansion into Central Europe and demonstrated Suleiman's military prowess early in his reign. This victory consolidated his authority and initiated a period of Ottoman expansion that would dominate the eastern Mediterranean and Balkans for the next century.",
+      "key_figures": [
+        "Suleiman I (Ottoman Sultan)",
+        "John Z\u00e1polya (Hungarian nobleman)",
+        "Nicholas II, Count of Salm (Habsburg commander)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (Takvim-i Vekayi and later Ottoman histories)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Hungarian and Habsburg records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Venetian diplomatic reports",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The siege dates (29 May \u2013 29 August 1521) and the Ottoman capture of Belgrade are well-documented in Ottoman, Hungarian, and Venetian sources. The event is universally accepted by modern scholarship.",
+      "cross_references": [
+        "1520-002 (Suleiman I ascends to Ottoman throne)",
+        "1526-001 (Battle of Moh\u00e1cs, further Ottoman expansion)"
+      ]
+    },
+    {
+      "id": "1521-007",
+      "title": "Zheng He's Treasure Fleet Era Ends; Ming Dynasty Turns Inward",
+      "region": "Asia (China, Indian Ocean)",
+      "coordinates_approx": "22.3193, 114.1694",
+      "category": "political",
+      "description": "By 1521, the era of Zheng He's great maritime expeditions (which had ended in 1433) had given way to a Ming Dynasty policy of naval retrenchment and inward focus. The Yongle Emperor's successors, particularly under the influence of Confucian scholars and eunuch factions, had ceased funding large-scale oceanic voyages. Instead, the Ming focused on land-based defense against Mongol incursions and internal consolidation. This shift represented a fundamental reorientation of Chinese policy away from maritime expansion and toward continental concerns, a decision that would have profound long-term consequences for global trade and exploration.",
+      "key_figures": [
+        "Zheng He (admiral, voyages ended 1433)",
+        "Jiajing Emperor (reigned 1521\u20131567, though he ascended in 1522)",
+        "Confucian scholar-officials (advocates of retrenchment)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji and other Chinese historical chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Ming naval policy",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader policy shift away from maritime exploration is well-documented in Ming records, though the specific year 1521 is somewhat arbitrary\u2014the retrenchment was a gradual process spanning decades. The Jiajing Emperor did not ascend until 1522, so this entry describes the state of policy under his predecessor.",
+      "cross_references": [
+        "1433-001 (End of Zheng He's voyages)",
+        "1522-003 (Jiajing Emperor ascends)"
+      ]
+    },
+    {
+      "id": "1521-008",
+      "title": "Smallpox Continues to Ravage Mesoamerica; Population Collapse Accelerates",
+      "region": "Mesoamerica",
+      "coordinates_approx": "15.0000, -90.0000",
+      "category": "demographic",
+      "description": "The smallpox epidemic that had begun in 1520 continued to devastate indigenous populations throughout Mesoamerica in 1521. The disease, introduced by Spanish conquistadors, spread rapidly through densely populated Aztec and Maya cities, killing an estimated 30\u201350% of the population in affected areas. The epidemic weakened Aztec military resistance during the siege of Tenochtitlan and contributed significantly to the rapid collapse of indigenous political structures. This pandemic represents one of the most catastrophic demographic events in human history, with mortality rates far exceeding those of the Black Death in Europe.",
+      "key_figures": [
+        "Unnamed indigenous victims",
+        "Spanish conquistadors (unintentional vectors)"
+      ],
+      "sources": [
+        {
+          "name": "Florentine Codex (Sahag\u00fan's indigenous accounts)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Spanish conquistador accounts (Cort\u00e9s, D\u00edaz del Castillo)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Demographic and epidemiological analysis",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The presence and impact of smallpox in 1521 are well-documented in Spanish and indigenous sources. Modern epidemiological analysis confirms the scale of the pandemic.",
+      "cross_references": [
+        "1520-001 (Smallpox epidemic begins)",
+        "1521-001 (Fall of Tenochtitlan)"
       ]
     }
   ],
-  "disconfirming_evidence": "The narrative of Luther's excommunication as a decisive break between Protestantism and Catholicism has been complicated by modern scholarship, which emphasizes the gradual nature of the split and the continued efforts at reconciliation in the 1520s and 1530s. Additionally, the fall of Tenochtitlan is sometimes portrayed as a triumph of Spanish military superiority, but modern scholarship emphasizes the role of indigenous allies, disease, and indigenous political divisions in the conquest. The significance of Magellan's death is sometimes minimized, but modern scholarship recognizes that his death marked the end of his personal involvement in a voyage that was ultimately completed by others. The Diet of Worms is sometimes presented as a decisive confrontation, but modern scholarship emphasizes the political complexities and the continued negotiations between Luther, the Emperor, and various German princes.",
-  "historiographic_note": "The documentation for 1521 is rich for European events, particularly the Reformation and the Diet of Worms, which are extensively recorded in contemporary sources. However, the perspective is heavily European and often focuses on elite political and religious figures. Indigenous perspectives on the fall of Tenochtitlan are preserved primarily in later compilations and codices, which may reflect post-conquest reinterpretations. The narrative of the Reformation emphasizes religious and intellectual history, potentially underrepresenting economic and social factors. The fall of Tenochtitlan is sometimes presented as a straightforward military victory, but modern scholarship emphasizes the complexity of the conquest and the agency of indigenous peoples.",
+  "disconfirming_evidence": "The significance of the Battle of Pavia (1521-002) is sometimes overstated in older historiography as a decisive turning point in European politics. Modern scholarship emphasizes that while the battle was a major imperial victory, the Franco-Habsburg rivalry continued for decades, and French power recovered relatively quickly. Additionally, some scholars argue that the 'capture' of Francis I was less humiliating than traditional narratives suggest, as he was treated as a royal prisoner and ransomed rather than executed. Regarding the fall of Tenochtitlan (1521-001), recent scholarship has complicated the narrative of Spanish military superiority, emphasizing the crucial role of indigenous allies (particularly the Tlaxcalans) and the impact of disease over Spanish weaponry. The 'conquest' was less a Spanish victory than a coalition effort exploiting pre-existing Aztec vulnerabilities.",
+  "historiographic_note": "The year 1521 is exceptionally well-documented in European sources, particularly regarding the Diet of Worms, the Battle of Pavia, and Magellan's expedition. Spanish conquest narratives are abundant but often reflect Spanish perspectives and biases; indigenous accounts (particularly the Florentine Codex) provide crucial counterbalance but were compiled decades later. Ottoman sources for the Belgrade siege are less detailed in European archives but are well-preserved in Ottoman chronicles. The documentation is heavily weighted toward Europe and the Atlantic world; Asian and African events are less thoroughly recorded in surviving sources. The year marks a pivotal moment in global history\u2014the beginning of European global dominance, the fracturing of Western Christianity, and the catastrophic demographic collapse of the Americas\u2014but these events were not perceived as interconnected by contemporaries.",
   "graph_edges": [
     {
       "from": "1521-001",
-      "to": "1517-001",
-      "relation": "led_to",
-      "note": "Luther's excommunication was the culmination of the conflict that began with the 95 Theses"
-    },
-    {
-      "from": "1521-005",
-      "to": "1517-001",
-      "relation": "led_to",
-      "note": "The Diet of Worms was a direct response to Luther's Reformation"
+      "to": "1520-001",
+      "relation": "caused_by",
+      "note": "The smallpox epidemic of 1520 weakened Aztec resistance and contributed to the fall of Tenochtitlan in 1521."
     },
     {
       "from": "1521-001",
-      "to": "1521-005",
-      "relation": "contemporary_with",
-      "note": "Luther's excommunication and the Diet of Worms were part of the same religious crisis"
-    },
-    {
-      "from": "1521-002",
-      "to": "1526-002",
+      "to": "1519-001",
       "relation": "led_to",
-      "note": "The Siege of Belgrade opened the way for Ottoman expansion that culminated in the Battle of Moh\u00e1cs"
+      "note": "Cort\u00e9s's initial landing in 1519 set in motion the events leading to the conquest of Tenochtitlan in 1521."
     },
     {
       "from": "1521-003",
-      "to": "1519-002",
+      "to": "1517-001",
       "relation": "led_to",
-      "note": "The fall of Tenochtitlan completed the conquest that began with Cort\u00e9s's arrival in 1519"
+      "note": "Luther's condemnation at Worms in 1521 was the direct consequence of his 95 Theses in 1517."
     },
     {
       "from": "1521-004",
-      "to": "1522-001",
+      "to": "1521-003",
+      "relation": "caused_by",
+      "note": "Luther's hiding at Wartburg Castle was a direct result of his condemnation at the Diet of Worms."
+    },
+    {
+      "from": "1521-005",
+      "to": "1519-003",
       "relation": "led_to",
-      "note": "Magellan's death led to the continuation of the expedition under Elcano, which returned in 1522"
+      "note": "Magellan's expedition, which departed in 1519, reached the Philippines in 1521."
+    },
+    {
+      "from": "1521-006",
+      "to": "1520-002",
+      "relation": "led_to",
+      "note": "Suleiman I's consolidation of power in 1520 enabled the successful siege of Belgrade in 1521."
+    },
+    {
+      "from": "1521-002",
+      "to": "1519-002",
+      "relation": "led_to",
+      "note": "Charles V's election as Holy Roman Emperor in 1519 provided the authority and resources for the victory at Pavia in 1521."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:26:01.621589",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

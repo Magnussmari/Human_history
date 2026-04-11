@@ -1,230 +1,381 @@
 {
   "year": 1534,
   "year_label": "1534 CE",
-  "era_context": "The early 16th century: the Protestant Reformation is consolidating in Northern Europe; the Ottoman Empire under S\u00fcleyman I is at its height; the Ming Dynasty rules China; the Mughal Empire under Humayun is expanding in South Asia. European exploration of the Americas is intensifying, with competing colonial claims. The Catholic Church faces institutional crisis and reform movements.",
+  "era_context": "The early modern period in full swing: the Protestant Reformation was spreading across Northern Europe and challenging Catholic authority. The Ottoman Empire under S\u00fcleyman the Magnificent was at the height of its power and expansion. In the Americas, Spanish conquistadors were in the early stages of conquering the Inca Empire and establishing colonial settlements. The Ming Dynasty in China was consolidating control under the Jiajing Emperor. Japan was fragmented among competing daimyo during the Sengoku period.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "geographic_coverage_gaps": [
+    "Sub-Saharan African interior (limited contemporary documentation)",
+    "Central Asian steppes (sparse European sources)",
+    "Pacific Islands beyond Spanish contact zones",
+    "Southeast Asian interior kingdoms (limited European knowledge)"
+  ],
   "events": [
     {
       "id": "1534-001",
-      "title": "Act of Supremacy (England)",
+      "title": "Act of Supremacy (preliminary); Henry VIII declared Supreme Head of Church of England",
       "region": "England",
-      "coordinates_approx": "52.0,-1.5",
-      "category": "legal",
-      "description": "Parliament passes the Act of Supremacy, establishing Henry VIII as Supreme Head of the Church of England, severing the English church from papal authority. This formalizes the break initiated by Henry's marriage to Anne Boleyn and rejection of papal authority over the annulment of his first marriage. The act marks a watershed in English religious and political history, subordinating ecclesiastical power to royal prerogative and enabling the subsequent dissolution of the monasteries.",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "religious",
+      "description": "King Henry VIII was declared Supreme Head of the Church of England by Parliament, formally breaking with the Roman Catholic Church. This act was the culmination of Henry's conflict with Pope Clement VII over the annulment of his marriage to Catherine of Aragon. The declaration of supremacy established the monarch as the ultimate authority over the English church, replacing papal authority. This religious and political transformation had profound consequences for English society and marked a crucial step in the English Reformation. The act was formalized and strengthened in 1535.",
       "key_figures": [
         "Henry VIII (King of England)",
         "Thomas Cromwell (Chief Minister)",
-        "Pope Paul III (Roman Pontiff)"
+        "Archbishop Cranmer (Primate of England)",
+        "Pope Clement VII"
       ],
       "sources": [
         {
-          "name": "Act of Supremacy, 1534 (Parliamentary statute, England)",
+          "name": "Parliamentary records and statutes",
           "type": "primary_text",
           "contemporary": true
         },
         {
           "name": "Letters and Papers, Foreign and Domestic, of the Reign of Henry VIII",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles and correspondence",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Exact date is 3 November 1534. Parliamentary records are contemporary and unambiguous.",
+      "certainty_note": "The declaration of Henry VIII as Supreme Head of the Church of England is precisely dated to 1534 in parliamentary records. The formal act is extensively documented.",
       "cross_references": [
-        "1533-001 (Henry's marriage to Anne Boleyn)",
-        "1536-001 (Dissolution of the Monasteries begins)"
+        "1533-001 (Anne Boleyn's marriage to Henry VIII)",
+        "1535-002 (Act of Supremacy formalized)"
       ]
     },
     {
       "id": "1534-002",
-      "title": "Founding of the Society of Jesus (Jesuits)",
-      "region": "Papal States / Rome",
-      "coordinates_approx": "41.9,12.5",
-      "category": "religious",
-      "description": "Ignatius of Loyola and six companions take vows in Montmartre, Paris, formally establishing the Society of Jesus (Societas Iesu). Approved by Pope Paul III in 1540, the Jesuits become the vanguard of the Catholic Counter-Reformation, emphasizing education, missionary work, and absolute obedience to papal authority. The order will become one of the most influential religious institutions in early modern history, establishing schools and missions across Europe, Asia, and the Americas.",
+      "title": "Ottoman capture of Baghdad",
+      "region": "Middle East (Mesopotamia)",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "military",
+      "description": "Ottoman forces under S\u00fcleyman the Magnificent captured the city of Baghdad from the Safavid Persian Empire. The capture was a major military achievement and represented a significant shift in the balance of power in the Middle East. Baghdad, one of the most important cities in the Islamic world, became an Ottoman possession and remained under Ottoman control for nearly 400 years. The conquest of Baghdad gave the Ottomans control over crucial trade routes and enhanced their prestige as the leading Islamic power. The capture was part of a broader Ottoman campaign to expand control over Mesopotamia and the Levant.",
       "key_figures": [
-        "Ignatius of Loyola (Founder)",
-        "Francis Xavier (Co-founder)",
-        "Pope Paul III (Papal approval, 1540)"
+        "S\u00fcleyman the Magnificent (Ottoman Sultan)",
+        "Shah Tahmasp (Safavid ruler)",
+        "Ottoman military commanders"
       ],
       "sources": [
         {
-          "name": "Ignatius of Loyola, Spiritual Exercises (written 1522\u20131541, compiled later)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Vita Ignatii Loyolae by Juan Alfonso de Polanco (Jesuit chronicle, 16th century)",
+          "name": "Ottoman chronicles and records (Pe\u00e7evi, Solakzade)",
           "type": "chronicle",
           "contemporary": false
+        },
+        {
+          "name": "Persian chronicles and records",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary European diplomatic reports",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The vows were taken on 15 August 1534 in Paris. Papal approval came in 1540. The founding moment is well-documented in Jesuit sources.",
+      "certainty_note": "The Ottoman capture of Baghdad in 1534 is well-documented in Ottoman, Persian, and European sources. The date is firmly established.",
       "cross_references": [
-        "1540-001 (Papal approval of the Society of Jesus)"
+        "1535-009 (Continued Ottoman-Safavid conflict)",
+        "1638-001 (Ottoman recapture of Baghdad from Safavids)"
       ]
     },
     {
       "id": "1534-003",
-      "title": "Jacques Cartier's Second Voyage to North America",
-      "region": "North America (St. Lawrence River region, modern Canada)",
-      "coordinates_approx": "46.8,-71.2",
-      "category": "exploration",
-      "description": "French explorer Jacques Cartier undertakes his second voyage to North America, sailing up the St. Lawrence River and establishing contact with Iroquoian peoples. He winters at Stadacona (modern Quebec City) and explores further inland, claiming the territory for France. The voyage yields detailed observations of indigenous peoples and geography, strengthening French claims to North American territory and laying groundwork for future French colonial expansion in Canada.",
+      "title": "Anabaptist Kingdom of M\u00fcnster",
+      "region": "Northern Europe (Westphalia, present-day Germany)",
+      "coordinates_approx": "51.96, 7.63",
+      "category": "religious",
+      "description": "Radical Anabaptists, led by Jan van Leiden and other charismatic preachers, took control of the city of M\u00fcnster in Westphalia. The Anabaptists established a theocratic community based on their radical religious beliefs, including communal property, adult baptism, and apocalyptic expectations. The Anabaptist Kingdom of M\u00fcnster became a symbol of radical religious enthusiasm and social upheaval. The movement was violently suppressed by Catholic and Protestant authorities in 1535, with the city besieged and the Anabaptist leaders executed. The episode had lasting consequences for the perception of Anabaptism and radical Protestantism in Europe.",
       "key_figures": [
-        "Jacques Cartier (Explorer)",
-        "Donnacona (Iroquoian chief)"
+        "Jan van Leiden (Anabaptist leader)",
+        "Jan Beukelsz (Anabaptist leader)",
+        "Catholic and Protestant authorities (suppressors)"
       ],
       "sources": [
         {
-          "name": "Cartier, Jacques. Relation originale du voyage de Jacques Cartier au Canada en 1534 (Primary account, published 1598)",
-          "type": "primary_text",
+          "name": "Contemporary chronicles and accounts of the Anabaptist movement",
+          "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Hakluyt, Richard. Principal Navigations (16th-century compilation)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Catholic and Protestant polemical writings",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Cartier's voyage is dated 1534\u20131535. Contemporary accounts and later compilations confirm the dates and major events.",
+      "certainty_note": "The Anabaptist takeover of M\u00fcnster in 1534 is well-documented in contemporary sources. The date and major events are firmly established.",
       "cross_references": [
-        "1535-001 (Cartier's third voyage begins)"
+        "1535-007 (Menno Simons founds Anabaptist movement)",
+        "1535-001 (Suppression of Anabaptist Kingdom of M\u00fcnster)"
       ]
     },
     {
       "id": "1534-004",
-      "title": "Ottoman-Safavid War: Siege of Baghdad",
-      "region": "Mesopotamia (Ottoman-Safavid frontier)",
-      "coordinates_approx": "33.3,44.4",
+      "title": "Pizarro's invasion of Peru begins",
+      "region": "South America (Peru)",
+      "coordinates_approx": "-12.0, -75.0",
       "category": "military",
-      "description": "Ottoman forces under S\u00fcleyman I besiege and capture Baghdad from Safavid control, establishing Ottoman dominance over Mesopotamia. The siege lasts from November 1534 to April 1535. The conquest consolidates Ottoman power in the eastern Mediterranean and Middle East, shifting the balance of power decisively against the Safavid Persian Empire and establishing Ottoman control over key trade routes and religious sites (including the Shia shrine cities).",
+      "description": "Spanish conquistador Francisco Pizarro launched his invasion of the Inca Empire with a small force of Spanish soldiers and Indigenous allies. Pizarro's expedition, which had been authorized by the Spanish Crown, began in 1532 and continued through 1534 as Pizarro advanced into the Inca heartland. By 1534, Pizarro had captured the Inca capital of Cusco and was consolidating Spanish control over the empire. The conquest of the Inca Empire was one of the most significant military achievements of the Spanish conquistadors and had profound consequences for the Indigenous peoples of South America. The conquest resulted in the deaths of hundreds of thousands of Indigenous people through warfare, disease, and exploitation.",
       "key_figures": [
-        "S\u00fcleyman I (Ottoman Sultan)",
-        "Tahmasp I (Safavid Shah)",
-        "Ibrahim Pasha (Ottoman Grand Vizier)"
+        "Francisco Pizarro (Spanish conquistador)",
+        "Atahualpa (Inca ruler)",
+        "Hu\u00e1scar (Inca ruler, defeated)",
+        "Indigenous allies and enemies"
       ],
       "sources": [
         {
-          "name": "Ottoman court chronicles (Pe\u00e7evi, Solakzade, 17th-century compilations of earlier records)",
+          "name": "Spanish chronicles by Pizarro's companions (Cieza de Le\u00f3n, Betanzos, Cobo)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Safavid sources (Qazi Ahmad, Khulasat al-akhbar)",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The siege is dated November 1534\u2013April 1535 in Ottoman and Safavid sources. The outcome is unambiguous.",
-      "cross_references": [
-        "1533-002 (Ottoman-Safavid tensions)",
-        "1555-001 (Treaty of Amasya ends Ottoman-Safavid wars)"
-      ]
-    },
-    {
-      "id": "1534-005",
-      "title": "Anabaptist Kingdom of M\u00fcnster (Radical Reformation)",
-      "region": "Westphalia (Holy Roman Empire)",
-      "coordinates_approx": "51.96,7.62",
-      "category": "religious",
-      "description": "Radical Anabaptist preachers, including Jan van Leiden and Jan Beukelsz, seize control of the city of M\u00fcnster in Westphalia, establishing a theocratic commune based on radical Christian principles including communal property and polygamy. The movement attracts thousands of followers and provokes fierce opposition from Catholic and Lutheran authorities. The kingdom lasts until 1535, when it is besieged and destroyed, but it becomes a defining moment in the Radical Reformation and a cautionary tale for both Protestant and Catholic establishments.",
-      "key_figures": [
-        "Jan van Leiden (Anabaptist leader)",
-        "Jan Beukelsz (Anabaptist preacher)",
-        "Bishop Franz von Waldeck (Catholic opponent)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary accounts by Catholic and Lutheran observers (e.g., Heinrich Gresbeck, eyewitness account)",
+          "name": "Contemporary Spanish royal records and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Kerssenbroick, Hermann von. Anabaptistica (16th-century chronicle)",
-          "type": "chronicle",
+          "name": "Quipucamayoc (Inca oral tradition recorded by Spanish)",
+          "type": "oral_tradition",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The takeover occurred in early 1534. Contemporary accounts from both supporters and opponents confirm the basic facts, though interpretations vary.",
+      "certainty_note": "Pizarro's invasion of Peru is well-documented in Spanish sources and is a well-established date in colonial history. The major events of the conquest are firmly established.",
       "cross_references": [
-        "1535-002 (Siege and destruction of M\u00fcnster)"
+        "1532-001 (Pizarro's invasion begins)",
+        "1533-001 (Execution of Atahualpa)",
+        "1535-005 (Founding of Lima)"
+      ]
+    },
+    {
+      "id": "1534-005",
+      "title": "Jacques Cartier's first voyage to North America",
+      "region": "North America (Atlantic coast)",
+      "coordinates_approx": "47.0, -52.0",
+      "category": "exploration",
+      "description": "French explorer Jacques Cartier undertook his first voyage to North America, sailing along the coast of present-day Newfoundland, Labrador, and the Gulf of St. Lawrence. Cartier made contact with Indigenous peoples, including the Mi'kmaq and Iroquoian-speaking groups, and established French territorial claims in North America. The voyage resulted in the kidnapping of two Indigenous youths, Domagaia and Taignoagny, who would serve as interpreters on Cartier's subsequent voyages. Cartier's explorations provided France with detailed geographical knowledge and established the foundation for French colonial claims in North America.",
+      "key_figures": [
+        "Jacques Cartier (French explorer)",
+        "Domagaia and Taignoagny (Indigenous interpreters, kidnapped)",
+        "Francis I (King of France)"
+      ],
+      "sources": [
+        {
+          "name": "Cartier's own account of the voyage (Brief recit et succincte narration)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary French royal records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Cartier's first voyage is documented in his own detailed account and French royal records. The dates and major events are well-established.",
+      "cross_references": [
+        "1535-004 (Cartier's first voyage, alternative dating)",
+        "1536-005 (Cartier's second voyage)"
       ]
     },
     {
       "id": "1534-006",
-      "title": "Mughal Conquest of Gujarat",
-      "region": "Gujarat, India",
-      "coordinates_approx": "22.3,72.6",
-      "category": "military",
-      "description": "Mughal Emperor Humayun, with assistance from his brother Askari, conquers the sultanate of Gujarat from the Gujarati Sultan Bahadur Shah. The conquest expands Mughal territory westward and consolidates control over western India. However, Humayun's hold on Gujarat proves temporary; Bahadur Shah recovers the territory in 1536, and Mughal control remains contested until later campaigns.",
+      "title": "Founding of the Society of Jesus (Jesuits)",
+      "region": "Europe (Spain/Rome)",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "religious",
+      "description": "Ignatius of Loyola and a group of companions founded the Society of Jesus (Jesuits) in Rome. The order was formally approved by Pope Paul III in 1540, but its founding principles and organization were established in 1534. The Jesuits became one of the most important religious orders of the Catholic Counter-Reformation, playing a crucial role in missionary work, education, and the defense of Catholic orthodoxy. The order's emphasis on education, obedience, and missionary zeal made it highly effective in spreading Catholicism and combating Protestantism. The Jesuits would become one of the most influential religious organizations in the world.",
       "key_figures": [
-        "Humayun (Mughal Emperor)",
-        "Bahadur Shah (Sultan of Gujarat)",
-        "Askari (Humayun's brother)"
+        "Ignatius of Loyola (Founder)",
+        "Francis Xavier (Early Jesuit missionary)",
+        "Pope Paul III (Papal approval)"
       ],
       "sources": [
         {
-          "name": "Abul Fazl, Akbar Nama (16th-century Mughal chronicle, written after Humayun's reign)",
+          "name": "Ignatius of Loyola's writings and the Spiritual Exercises",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Papal bulls and ecclesiastical records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles and correspondence",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The founding of the Society of Jesus in 1534 is documented in Ignatius of Loyola's writings and papal records. The date is firmly established, though formal papal approval came in 1540.",
+      "cross_references": [
+        "1540-004 (Papal approval of the Society of Jesus)",
+        "1556-001 (Death of Ignatius of Loyola)"
+      ]
+    },
+    {
+      "id": "1534-007",
+      "title": "Reformation in Denmark-Norway begins",
+      "region": "Denmark and Norway",
+      "coordinates_approx": "56.0, 10.0",
+      "category": "religious",
+      "description": "King Christian III of Denmark-Norway began the process of establishing Lutheranism as the state religion. The Reformation in Denmark-Norway was driven by both religious conviction and the Crown's desire to consolidate power and acquire church wealth. The process would be completed by 1536, with the formal establishment of a Lutheran ecclesiastical hierarchy and the suppression of Catholic practices. The Danish-Norwegian Reformation was less violent than in some other regions but was equally comprehensive in its institutional transformation.",
+      "key_figures": [
+        "Christian III (King of Denmark-Norway)",
+        "Johannes Bugenhagen (Lutheran reformer)",
+        "Catholic bishops and clergy"
+      ],
+      "sources": [
+        {
+          "name": "Danish royal decrees and ecclesiastical records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles and correspondence",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The beginning of the Reformation in Denmark-Norway is attested in Danish sources, though the process was gradual and some sources date key events to 1536. The year 1534 represents the beginning of formal royal action.",
+      "cross_references": [
+        "1535-003 (Reformation in Sweden)",
+        "1536-006 (Reformation in Denmark-Norway formalized)"
+      ]
+    },
+    {
+      "id": "1534-008",
+      "title": "Mughal Empire consolidation under Humayun",
+      "region": "South Asia (Mughal Empire)",
+      "coordinates_approx": "28.6, 77.2",
+      "category": "political",
+      "description": "The Mughal Empire under Humayun was in a period of relative stability and consolidation in 1534. Humayun had inherited the empire from his father Babur and was working to establish his authority over the vast realm. However, challenges to his rule were emerging, particularly from his brother Kamran Mirza and from Afghan military leaders like Sher Khan. The period of 1534\u20131535 represented a brief window of stability before the empire faced serious internal and external threats that would lead to Humayun's temporary loss of power.",
+      "key_figures": [
+        "Humayun (Mughal Emperor)",
+        "Babur (deceased founder of Mughal Empire)",
+        "Kamran Mirza (Humayun's brother)",
+        "Sher Khan (Afghan military leader)"
+      ],
+      "sources": [
+        {
+          "name": "Mughal chronicles and official histories (Akbarnama by Abul Fazl)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Firishta, Gulshan-i Ibrahim (17th-century Persian history of India)",
-          "type": "later_compilation",
+          "name": "Contemporary Persian and Indian sources",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Mughal sources date the conquest to 1534, but the chronology of Humayun's early campaigns is somewhat uncertain. The conquest was temporary, which complicates its historical significance.",
+      "certainty_note": "The political situation of the Mughal Empire in 1534 is attested in Mughal chronicles, though precise dating of events is sometimes uncertain.",
       "cross_references": [
-        "1536-002 (Bahadur Shah recovers Gujarat)"
+        "1530-001 (Death of Babur, founder of Mughal Empire)",
+        "1535-006 (Mughal Empire faces crisis)",
+        "1540-003 (Sher Shah Suri defeats Humayun)"
+      ]
+    },
+    {
+      "id": "1534-009",
+      "title": "Consolidation of Ottoman control in the Levant",
+      "region": "Middle East (Levant)",
+      "coordinates_approx": "34.0, 36.0",
+      "category": "military",
+      "description": "The Ottoman Empire under S\u00fcleyman the Magnificent consolidated its control over the Levant (present-day Syria, Lebanon, Palestine, and Jordan) following earlier conquests. Ottoman administrative and military structures were established throughout the region, integrating it into the Ottoman Empire. The consolidation of Ottoman control in the Levant was part of a broader process of Ottoman expansion and the establishment of Ottoman hegemony over the Eastern Mediterranean and Middle East. The region would remain under Ottoman control for nearly 400 years.",
+      "key_figures": [
+        "S\u00fcleyman the Magnificent (Ottoman Sultan)",
+        "Ottoman military and administrative officials"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles and records",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary European diplomatic reports",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation of Ottoman control in the Levant is attested in Ottoman and European sources, though the process was gradual and precise dating is sometimes uncertain.",
+      "cross_references": [
+        "1516-001 (Ottoman conquest of the Levant)",
+        "1534-002 (Ottoman capture of Baghdad)"
+      ]
+    },
+    {
+      "id": "1534-010",
+      "title": "Ming Dynasty naval expeditions have ceased",
+      "region": "East Asia (China)",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "By 1534, the Ming Dynasty had effectively abandoned large-scale maritime exploration and trade expeditions. The great voyages of Zheng He (1405\u20131433) had long since ended, and the Ming court had shifted focus to land-based defense against Mongol and Jurchen threats. The cessation of naval expeditions reflected a broader Ming policy of isolationism and inward focus, prioritizing the construction and maintenance of the Great Wall and land-based military infrastructure. This decision had profound consequences for Chinese maritime power and allowed European powers to dominate oceanic trade routes in subsequent centuries.",
+      "key_figures": [
+        "Jiajing Emperor (Ming ruler)",
+        "Ming court officials and military commanders"
+      ],
+      "sources": [
+        {
+          "name": "Ming Dynasty records and official histories (Ming Shilu)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Ming Dynasty's shift away from maritime exploration is well-documented in official records. By 1534, large-scale expeditions had long ceased.",
+      "cross_references": [
+        "1405-001 (Zheng He's first voyage)",
+        "1433-001 (End of Zheng He's voyages)"
       ]
     }
   ],
-  "disconfirming_evidence": "The significance of Humayun's Gujarat conquest is often overstated in Mughal historiography. While presented as a major victory, the conquest was short-lived and Bahadur Shah recovered the territory within two years, suggesting Humayun's military position was weaker than court chronicles imply. Additionally, some modern scholars question whether the Anabaptist Kingdom of M\u00fcnster should be characterized as a 'kingdom' at all, given its brief duration and limited territorial control; it may be better understood as a radical urban commune that was quickly suppressed.",
-  "historiographic_note": "The year 1534 is exceptionally well-documented in European sources, particularly for England and the Reformation. Ottoman and Safavid sources provide good coverage of the Baghdad campaign, though with expected bias toward their respective sides. Indigenous American perspectives on Cartier's voyage are absent from surviving records; knowledge of this encounter comes entirely from European sources. Mughal sources are less contemporary and more hagiographic regarding Humayun's early campaigns. The record is heavily weighted toward political and religious events; economic and social history are underrepresented.",
+  "disconfirming_evidence": "The dating of the Act of Supremacy is sometimes given as 1534 or 1535, depending on the source and whether one counts the parliamentary session or the formal enactment. Modern scholarship has questioned the traditional narrative of Henry VIII's religious motivations, suggesting that political and dynastic concerns were more important than genuine theological conviction. The Anabaptist Kingdom of M\u00fcnster is sometimes dated to 1533 or 1535 rather than 1534, depending on the source. The dating of Pizarro's invasion of Peru is complex, with some sources dating the beginning to 1532 and others to 1534; the conquest was a multi-year process rather than a single event.",
+  "historiographic_note": "The documentation for 1534 is rich for European events, particularly England, where government records and diplomatic correspondence are extensive. Ottoman and Persian sources provide good coverage of the Ottoman capture of Baghdad and Ottoman-Safavid conflict. However, sources are heavily weighted toward European and Ottoman perspectives; Indigenous American accounts are mediated through Spanish chroniclers. The founding of the Society of Jesus is well-documented in Ignatius of Loyola's writings and papal records. The historical record for 1534 reflects the biases of surviving documentation: court-sponsored records, diplomatic correspondence, and later compilations dominate. Indigenous perspectives, particularly from the Americas, are underrepresented and filtered through colonial-era sources.",
   "graph_edges": [
     {
       "from": "1534-001",
-      "to": "1536-001",
+      "to": "1535-002",
       "relation": "led_to",
-      "note": "The Act of Supremacy enabled the Dissolution of the Monasteries"
+      "note": "The declaration of Henry VIII as Supreme Head of the Church in 1534 was formalized and strengthened in 1535"
     },
     {
       "from": "1534-002",
-      "to": "1540-001",
-      "relation": "led_to",
-      "note": "The Jesuit vows of 1534 led to papal approval and formal establishment in 1540"
+      "to": "1535-009",
+      "relation": "part_of",
+      "note": "The Ottoman capture of Baghdad in 1534 was part of the broader Ottoman-Safavid conflict"
     },
     {
       "from": "1534-003",
       "to": "1535-001",
       "relation": "led_to",
-      "note": "Cartier's second voyage led directly to his third voyage in 1535"
+      "note": "The Anabaptist Kingdom of M\u00fcnster in 1534 was suppressed in 1535"
     },
     {
       "from": "1534-004",
-      "to": "1555-001",
-      "relation": "part_of",
-      "note": "The Baghdad siege was part of the broader Ottoman-Safavid conflict resolved by the Treaty of Amasya"
+      "to": "1535-005",
+      "relation": "led_to",
+      "note": "Pizarro's invasion of Peru in 1534 led to the founding of Lima in 1535"
     },
     {
-      "from": "1534-005",
-      "to": "1535-002",
+      "from": "1534-006",
+      "to": "1540-004",
       "relation": "led_to",
-      "note": "The Anabaptist takeover of M\u00fcnster led directly to its siege and destruction in 1535"
+      "note": "The founding of the Society of Jesus in 1534 was formally approved by the Pope in 1540"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:20:13.886533",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

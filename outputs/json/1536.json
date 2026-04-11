@@ -1,217 +1,384 @@
 {
   "year": 1536,
   "year_label": "1536 CE",
-  "era_context": "The early modern period: the Protestant Reformation is consolidating in Northern Europe; the Ottoman Empire under S\u00fcleyman the Magnificent is expanding; the Spanish Empire is consolidating control in Europe and expanding in the Americas; the Ming Dynasty rules China under the Jiajing Emperor; the Mughal Empire under Humayun is facing challenges.",
+  "era_context": "The early modern period in Europe, dominated by the Protestant Reformation and the consolidation of nation-states. The Ottoman Empire under S\u00fcleyman the Magnificent was at its territorial and cultural apex. In East Asia, the Ming Dynasty ruled China, while Japan was fragmented among competing daimyo during the Sengoku period. The Age of Exploration was in full swing, with European powers competing for colonial footholds in the Americas, Africa, and Asia.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "geographic_coverage_gaps": [
+    "Sub-Saharan African interior (limited European documentation; oral traditions not systematically recorded)",
+    "Pacific Islands beyond Spanish contact zones",
+    "Central Asian steppes (sparse European sources; Ottoman and Persian records may exist but less accessible)"
+  ],
   "events": [
     {
       "id": "1536-001",
-      "title": "Pilgrimage of Grace (English rebellion against Henry VIII)",
+      "title": "Execution of Anne Boleyn",
       "region": "England",
-      "coordinates_approx": "54.0,-2.0",
+      "coordinates_approx": "51.5074, -0.0759",
       "category": "political",
-      "description": "The Pilgrimage of Grace, a major rebellion against Henry VIII's religious reforms and dissolution of the monasteries, began in October 1536 in northern England. The rebellion involved thousands of participants, including nobles, clergy, and commoners, and represented significant opposition to Henry's break with Rome and his religious policies. The rebellion was eventually suppressed by 1537, with numerous rebels executed. The Pilgrimage of Grace was one of the most significant challenges to Henry VIII's authority and had lasting implications for English religious and political development.",
+      "description": "Anne Boleyn, Queen of England and second wife of Henry VIII, was executed on charges of adultery, treason, and witchcraft on 19 May 1536. Her death marked a dramatic reversal of fortune after her marriage had precipitated the English Reformation and break with Rome. The execution destabilized the English court and demonstrated Henry VIII's willingness to eliminate even queens who failed to produce male heirs. This event consolidated Henry's absolute power and had profound consequences for the English succession and religious settlement.",
       "key_figures": [
         "Henry VIII (King of England)",
-        "Robert Aske (Pilgrimage leader)",
-        "Thomas Cromwell (Henry's chief minister)"
+        "Anne Boleyn (Queen of England)",
+        "Thomas Cromwell (Chief Minister)",
+        "Archbishop Cranmer (Primate of England)"
       ],
       "sources": [
         {
-          "name": "English royal records and chronicles",
+          "name": "Chronicle of Henry VIII's reign; contemporary court records and dispatches from Imperial and French ambassadors",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary accounts of the rebellion",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Letters and correspondence from participants",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Edward Hall, Chronicle (compiled 1548, based on contemporary observation)",
+          "type": "chronicle",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in English royal archives and contemporary chronicles.",
-      "cross_references": []
+      "certainty_note": "Execution date is precisely documented in contemporary court records and ambassador dispatches. The charges and circumstances are well-attested, though modern scholarship disputes the historical accuracy of the accusations.",
+      "cross_references": [
+        "1533-001 (Anne Boleyn's marriage to Henry VIII)",
+        "1537-001 (Birth of Edward VI, Henry's male heir)"
+      ]
     },
     {
       "id": "1536-002",
-      "title": "Dissolution of the Monasteries (England)",
+      "title": "Dissolution of the Monasteries begins in England",
       "region": "England",
-      "coordinates_approx": "52.0,-2.0",
+      "coordinates_approx": "52.0, -2.0",
       "category": "religious",
-      "description": "Henry VIII's dissolution of the monasteries accelerated in 1536, with the Crown seizing monastic lands and properties. The dissolution, which had begun in 1536 and continued through the 1540s, was a major religious and economic transformation in England. The dissolution resulted in the destruction of monastic institutions, the redistribution of lands to the Crown and nobility, and significant social disruption. The dissolution was a key component of Henry's break with Rome and his establishment of the Church of England.",
+      "description": "Henry VIII's government, under Thomas Cromwell, began the systematic dissolution of English monasteries and religious houses. The process, which would continue until 1540, was justified by claims of monastic corruption and was driven by the Crown's desire to seize monastic lands and wealth. The dissolution fundamentally transformed English society, transferring vast ecclesiastical properties to the Crown and nobility, disrupting centuries-old religious communities, and accelerating the shift toward a secular, Protestant England. This was one of the most significant religious and economic upheavals in English history.",
       "key_figures": [
         "Henry VIII (King of England)",
-        "Thomas Cromwell (Chief minister overseeing dissolution)",
-        "Pope Paul III (Papal opposition)"
+        "Thomas Cromwell (Vicar General)",
+        "Various monastic communities"
       ],
       "sources": [
         {
-          "name": "English royal records and administrative documents",
+          "name": "Letters and Papers, Foreign and Domestic, of the Reign of Henry VIII (contemporary government records)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary chronicles and accounts",
+          "name": "Valor Ecclesiasticus (1535 survey of monastic wealth)",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented in English royal archives and contemporary chronicles.",
-      "cross_references": []
+      "certainty_note": "The dissolution process is extensively documented in government records, monastic archives, and contemporary correspondence. The 1536 date marks the beginning of systematic closures following the 1535 Valor Ecclesiasticus survey.",
+      "cross_references": [
+        "1536-003 (Pilgrimage of Grace, resistance to dissolution)",
+        "1540-001 (Completion of major dissolutions)"
+      ]
     },
     {
       "id": "1536-003",
-      "title": "Ottoman-Venetian conflict in the Mediterranean",
-      "region": "Ottoman Empire / Venice / Mediterranean",
-      "coordinates_approx": "35.0,20.0",
-      "category": "military",
-      "description": "Ottoman forces under S\u00fcleyman the Magnificent continued military operations against Venetian possessions in the Mediterranean in 1536. Ottoman naval forces attacked Venetian territories in the Aegean and Adriatic, demonstrating Ottoman naval superiority. These conflicts were part of a broader Ottoman expansion in the Mediterranean and would eventually lead to the Treaty of Constantinople in 1540, in which Venice ceded significant territory to the Ottomans.",
+      "title": "Pilgrimage of Grace",
+      "region": "Northern England",
+      "coordinates_approx": "54.5, -2.0",
+      "category": "political",
+      "description": "A major popular uprising in northern England (October 1536\u2013May 1537) protesting the dissolution of monasteries, the break with Rome, and the enclosure of common lands. Led by Robert Aske and other gentry and commons, the Pilgrimage of Grace mobilized tens of thousands of people across Yorkshire, Lancashire, and neighboring counties. Though initially successful in forcing the Crown to negotiate, the rebellion was ultimately suppressed. Henry VIII executed approximately 200 rebels, including Aske, and used the uprising to justify further centralization of royal power and elimination of northern nobility's independence.",
       "key_figures": [
-        "S\u00fcleyman the Magnificent (Ottoman Sultan)",
-        "Piri Reis (Ottoman Admiral)",
-        "Venetian Republic (represented by various commanders)"
+        "Robert Aske (Leader)",
+        "Henry VIII (King of England)",
+        "Thomas Cromwell (Chief Minister)",
+        "Henry Percy, 6th Earl of Northumberland (Regional magnate)"
       ],
       "sources": [
         {
-          "name": "Venetian diplomatic reports and chronicles",
+          "name": "Letters and Papers of Henry VIII (contemporary government records)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ottoman chronicles and naval records",
+          "name": "Robert Aske's examination and confession (1537)",
           "type": "primary_text",
           "contemporary": true
+        },
+        {
+          "name": "Edward Hall, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented in Venetian and Ottoman sources.",
-      "cross_references": []
+      "certainty_note": "The uprising is extensively documented in contemporary government records, depositions, and correspondence. The scale, leadership, and suppression are well-attested.",
+      "cross_references": [
+        "1536-002 (Dissolution of monasteries, trigger for uprising)",
+        "1537-002 (Execution of Robert Aske and final suppression)"
+      ]
     },
     {
       "id": "1536-004",
-      "title": "Spanish conquest of Cartagena (Colombia)",
-      "region": "Spanish America (present-day Colombia)",
-      "coordinates_approx": "10.4,-75.5",
+      "title": "Ottoman-Venetian War begins",
+      "region": "Eastern Mediterranean",
+      "coordinates_approx": "39.0, 25.0",
       "category": "military",
-      "description": "Spanish conquistador Pedro de Heredia founded the city of Cartagena in present-day Colombia in 1536. Cartagena became an important Spanish colonial port and administrative center in South America. The founding of Cartagena was part of broader Spanish expansion in South America and the consolidation of Spanish colonial control over the Caribbean coast.",
+      "description": "The Ottoman Empire under S\u00fcleyman the Magnificent declared war on Venice, initiating a conflict that would last until 1540. The war was triggered by Ottoman expansion in the Mediterranean and Venetian control of strategic islands and trade routes. The Ottomans, with superior naval forces, systematically conquered Venetian-held territories including Corfu and other Ionian islands. The conflict demonstrated Ottoman naval dominance in the Mediterranean and resulted in Venice ceding significant territories and accepting Ottoman suzerainty over remaining holdings. This war marked the definitive shift of Mediterranean naval power from Venice to the Ottoman Empire.",
       "key_figures": [
-        "Pedro de Heredia (Spanish conquistador)"
+        "S\u00fcleyman the Magnificent (Ottoman Sultan)",
+        "Doge Andrea Gritti (Venice)",
+        "Barbarossa (Ottoman Admiral)"
       ],
       "sources": [
         {
-          "name": "Spanish colonial chronicles and records",
+          "name": "Ottoman chronicles and records (Pe\u00e7evi, Solakzade)",
           "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Venetian state archives and diplomatic correspondence",
+          "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Spanish royal administrative documents",
+          "name": "Contemporary European diplomatic reports",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented in Spanish colonial records.",
-      "cross_references": []
+      "certainty_note": "The war's commencement and major events are documented in Ottoman, Venetian, and European sources. Specific dates of campaigns are well-attested.",
+      "cross_references": [
+        "1540-002 (Treaty of Constantinople ending Ottoman-Venetian War)"
+      ]
     },
     {
       "id": "1536-005",
-      "title": "Sher Shah Suri's rise to power in India",
-      "region": "India (Afghan Empire)",
-      "coordinates_approx": "28.6,77.2",
-      "category": "political",
-      "description": "Sher Shah Suri, an Afghan ruler, began his rise to power in 1536, challenging Mughal Emperor Humayun's authority in northern India. Sher Shah's rise represented a significant challenge to Mughal dominance and would culminate in Humayun's defeat and temporary exile in 1540. Sher Shah's rule (1540\u20131545) would be marked by administrative reforms and the construction of the Grand Trunk Road.",
+      "title": "Jacques Cartier's second voyage to North America",
+      "region": "North America (St. Lawrence River region)",
+      "coordinates_approx": "46.8, -71.2",
+      "category": "exploration",
+      "description": "French explorer Jacques Cartier undertook his second voyage to North America, sailing up the St. Lawrence River and establishing contact with Indigenous peoples, particularly the Haudenosaunee Confederacy. Cartier wintered at Stadacona (present-day Quebec City) and documented Indigenous knowledge, geography, and resources. The voyage resulted in the kidnapping of Indigenous leaders including Donnacona, which would have lasting negative consequences for Franco-Indigenous relations. Cartier's explorations provided France with territorial claims in North America and detailed geographical knowledge that would inform future colonization efforts.",
       "key_figures": [
-        "Sher Shah Suri (Afghan ruler)",
-        "Humayun (Mughal Emperor)"
+        "Jacques Cartier (French explorer)",
+        "Donnacona (Stadacona leader, kidnapped)",
+        "Francis I (King of France)"
       ],
       "sources": [
         {
-          "name": "Akbarnama by Abul Fazl (compiled later)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Cartier's own account of the voyage (Brief recit et succincte narration)",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Mughal court chronicles",
+          "name": "Contemporary French royal records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Cartier's second voyage is documented in his own detailed account and French royal records. The dates and major events are well-established.",
+      "cross_references": [
+        "1534-001 (Cartier's first voyage)",
+        "1541-001 (Cartier's third voyage)"
+      ]
+    },
+    {
+      "id": "1536-006",
+      "title": "Reformation in Denmark-Norway",
+      "region": "Denmark and Norway",
+      "coordinates_approx": "56.0, 10.0",
+      "category": "religious",
+      "description": "King Christian III of Denmark-Norway formally established Lutheranism as the state religion, completing the Reformation in his realms. The process involved the confiscation of Catholic Church properties, the establishment of a Protestant ecclesiastical hierarchy, and the suppression of Catholic practices. This religious transformation aligned Denmark-Norway with other Scandinavian and Northern European Protestant states and had profound consequences for the region's cultural, political, and economic development. The Danish Reformation was less violent than in some other regions but was equally comprehensive in its institutional transformation.",
+      "key_figures": [
+        "Christian III (King of Denmark-Norway)",
+        "Johannes Bugenhagen (Lutheran reformer)",
+        "Catholic bishops and clergy"
+      ],
+      "sources": [
+        {
+          "name": "Danish royal decrees and ecclesiastical records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles and correspondence",
           "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "General timeline and participants confirmed, but specific events in 1536 are less distinctly documented.",
-      "cross_references": []
+      "certainty_note": "The formal establishment of Lutheranism in 1536 is attested in Danish sources, though the process was gradual and some sources date key events to 1534 or 1537. The year 1536 represents the formal royal declaration.",
+      "cross_references": [
+        "1534-002 (Swedish Reformation)",
+        "1537-003 (Reformation in Iceland)"
+      ]
     },
     {
-      "id": "1536-006",
-      "title": "Ming Dynasty military operations against wokou",
-      "region": "China (Ming Dynasty)",
-      "coordinates_approx": "30.0,120.0",
+      "id": "1536-007",
+      "title": "Sack of Tunis by Spanish forces",
+      "region": "North Africa (Tunisia)",
+      "coordinates_approx": "36.8, 10.2",
       "category": "military",
-      "description": "The Ming Dynasty continued military operations against wokou (Japanese pirates) along the Chinese coast in 1536. These raids, which had intensified in the 1530s, prompted the Ming government to strengthen coastal defenses and reorganize naval forces. The wokou raids were a persistent problem throughout the 16th century and prompted significant military and administrative reforms in coastal provinces.",
+      "description": "Spanish forces under the command of Charles V captured the city of Tunis from the Ottoman-aligned Hafsid dynasty and Barbary corsairs. The Spanish conquest was part of the broader Habsburg-Ottoman struggle for control of the Mediterranean. The sack resulted in significant casualties and the enslavement of thousands of inhabitants. Though the Spanish occupation was temporary (lasting until 1574), the conquest demonstrated European military capability in North Africa and had lasting consequences for regional politics, trade, and the balance of power in the Mediterranean.",
       "key_figures": [
-        "Jiajing Emperor (Ming Dynasty)"
+        "Charles V (Holy Roman Emperor)",
+        "Andrea Doria (Genoese admiral commanding Spanish fleet)",
+        "Mulay Hassan (Hafsid ruler)",
+        "Barbarossa (Ottoman corsair leader)"
       ],
       "sources": [
         {
-          "name": "Ming Shilu (Veritable Records of the Ming)",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Spanish chronicles and official accounts (Sandoval, Cabrera)",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Official Ming military records",
+          "name": "Ottoman and North African sources",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary European diplomatic correspondence",
           "type": "primary_text",
           "contemporary": true
         }
       ],
+      "certainty": "confirmed",
+      "certainty_note": "The capture of Tunis in 1536 is well-documented in Spanish, Ottoman, and European sources. The date and major events are firmly established.",
+      "cross_references": [
+        "1535-001 (Spanish capture of La Goletta)",
+        "1574-001 (Ottoman recapture of Tunis)"
+      ]
+    },
+    {
+      "id": "1536-008",
+      "title": "Inca civil war (Hu\u00e1scar vs. Atahualpa) reaches climax",
+      "region": "South America (Inca Empire)",
+      "coordinates_approx": "-12.0, -75.0",
+      "category": "military",
+      "description": "The Inca Empire was convulsed by a succession dispute between half-brothers Hu\u00e1scar and Atahualpa following the death of Huayna Capac (c. 1527). By 1536, Atahualpa's forces had defeated and captured Hu\u00e1scar, consolidating control over the empire. The civil war weakened Inca unity and military cohesion at a critical moment, as Spanish conquistador Francisco Pizarro was preparing his invasion. The conflict resulted in significant loss of life and the displacement of populations, and it fundamentally compromised the Inca Empire's ability to respond to the Spanish threat. This internal conflict was a major factor in the subsequent Spanish conquest.",
+      "key_figures": [
+        "Atahualpa (Inca ruler)",
+        "Hu\u00e1scar (Inca ruler, defeated)",
+        "Huayna Capac (deceased Inca ruler)",
+        "Francisco Pizarro (Spanish conquistador, preparing invasion)"
+      ],
+      "sources": [
+        {
+          "name": "Spanish chronicles by Pizarro's companions (Cieza de Le\u00f3n, Betanzos, Cobo)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Quipucamayoc (Inca oral tradition recorded by Spanish)",
+          "type": "oral_tradition",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of conflict and disruption",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
       "certainty": "probable",
-      "certainty_note": "General context of wokou raids confirmed; specific operations in 1536 are less distinctly documented.",
-      "cross_references": []
+      "certainty_note": "The civil war is attested in Spanish chronicles based on Inca oral tradition, but precise dating is uncertain. The conflict likely spanned several years (c. 1527\u20131536), with Atahualpa's victory occurring around 1536 based on Spanish accounts.",
+      "cross_references": [
+        "1532-001 (Pizarro's invasion of Peru)",
+        "1533-001 (Execution of Atahualpa)"
+      ]
+    },
+    {
+      "id": "1536-009",
+      "title": "Founding of Buenos Aires (first settlement)",
+      "region": "South America (present-day Argentina)",
+      "coordinates_approx": "-34.6, -58.4",
+      "category": "exploration",
+      "description": "Spanish conquistador Pedro de Mendoza founded Buenos Aires as a settlement on the R\u00edo de la Plata estuary. The settlement was intended to serve as a port and base for Spanish expansion into South America and to counter Portuguese influence in the region. The initial settlement struggled due to Indigenous resistance, disease, and supply difficulties, and it was abandoned in 1541. However, the founding established Spanish territorial claims in the region and laid the groundwork for later permanent settlement. Buenos Aires would eventually become one of the most important cities in South America.",
+      "key_figures": [
+        "Pedro de Mendoza (Spanish conquistador and founder)",
+        "Indigenous peoples of the R\u00edo de la Plata region"
+      ],
+      "sources": [
+        {
+          "name": "Spanish chronicles and accounts of Mendoza's expedition",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary Spanish royal records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The founding of Buenos Aires in 1536 is documented in Spanish sources, though some sources give slightly different dates. The settlement's initial failure and abandonment are also well-attested.",
+      "cross_references": [
+        "1541-002 (Abandonment of Buenos Aires)",
+        "1580-001 (Permanent refounding of Buenos Aires)"
+      ]
+    },
+    {
+      "id": "1536-010",
+      "title": "Ming Dynasty naval expeditions cease",
+      "region": "East Asia (China)",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "By 1536, the Ming Dynasty had effectively abandoned large-scale maritime exploration and trade expeditions. The great voyages of Zheng He (1405\u20131433) had long since ended, and the Ming court had shifted focus to land-based defense against Mongol and Jurchen threats. The cessation of naval expeditions reflected a broader Ming policy of isolationism and inward focus, prioritizing the construction and maintenance of the Great Wall and land-based military infrastructure. This decision had profound consequences for Chinese maritime power and allowed European powers to dominate oceanic trade routes in subsequent centuries.",
+      "key_figures": [
+        "Jiajing Emperor (Ming ruler)",
+        "Ming court officials and military commanders"
+      ],
+      "sources": [
+        {
+          "name": "Ming Dynasty records and official histories (Ming Shilu)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Ming Dynasty's shift away from maritime exploration is well-documented in official records. The process was gradual, but by the 1530s, large-scale expeditions had ceased.",
+      "cross_references": [
+        "1405-001 (Zheng He's first voyage)",
+        "1433-001 (End of Zheng He's voyages)"
+      ]
     }
   ],
-  "disconfirming_evidence": "The Pilgrimage of Grace (1536-001) is sometimes portrayed as a purely religious rebellion; modern scholarship emphasizes that it was also motivated by economic grievances, social disruption, and opposition to centralized royal authority. The dissolution of the monasteries (1536-002) is sometimes dated to 1536 as the beginning; modern scholarship emphasizes that the process was gradual and that significant dissolutions occurred both before and after 1536. The founding of Cartagena (1536-004) is sometimes attributed to 1533 or other dates in different sources; the exact date of founding versus formal establishment is debated.",
-  "historiographic_note": "The year 1536 is well-documented in European sources, particularly for English, Ottoman, and Spanish events. English royal archives provide extensive documentation of the Pilgrimage of Grace and the dissolution of the monasteries. Ottoman and Venetian sources provide detailed accounts of their military conflicts. Spanish colonial records document the founding of Cartagena. Chinese sources are abundant but focus primarily on court politics and military operations. Indian sources are less abundant and often rely on later compilations. The historical record is heavily weighted toward elite political and military events; economic, social, and cultural developments are underrepresented, particularly in non-European regions.",
+  "disconfirming_evidence": "Modern scholarship has questioned the traditional narrative of Anne Boleyn's guilt. Contemporary evidence suggests the charges of adultery and witchcraft were fabricated by Thomas Cromwell and Henry VIII to justify her removal. Some historians argue that Anne's miscarriage of a male heir, rather than any actual crimes, was the primary cause of her downfall. Additionally, the significance of the Pilgrimage of Grace has been debated: while traditionally portrayed as a major threat to Tudor power, some modern historians argue it was less militarily formidable than contemporary sources suggest and that Henry VIII's response was disproportionate. The dating of Atahualpa's victory in the Inca civil war is uncertain; some sources place it earlier (1532\u20131533) or later (1537\u20131538), making the precise year of 1536 approximate rather than confirmed.",
+  "historiographic_note": "The documentation for 1536 is rich for European events, particularly England, where court records and diplomatic correspondence are extensive. Ottoman and Mediterranean sources provide good coverage of the Ottoman-Venetian War and the Sack of Tunis. However, sources are heavily weighted toward European and Ottoman perspectives; Indigenous American accounts of Spanish exploration and conquest are mediated through Spanish chroniclers and are subject to distortion and bias. Chinese sources are available but less frequently consulted in Western historiography. The historical record for 1536 reflects the biases of surviving documentation: court-sponsored chronicles, diplomatic correspondence, and later compilations by European historians dominate. Indigenous perspectives, particularly from the Americas, are underrepresented and filtered through colonial-era sources.",
   "graph_edges": [
     {
       "from": "1536-001",
-      "to": "1537-aftermath",
-      "relation": "led_to",
-      "note": "Pilgrimage of Grace was suppressed in 1537 with numerous executions"
+      "to": "1533-001",
+      "relation": "caused_by",
+      "note": "Anne Boleyn's execution was the culmination of events set in motion by her marriage to Henry VIII in 1533"
     },
     {
       "from": "1536-002",
-      "to": "1540s-dissolution",
-      "relation": "part_of",
-      "note": "Part of broader dissolution of monasteries that continued through the 1540s"
-    },
-    {
-      "from": "1536-003",
-      "to": "1540-Treaty_Constantinople",
-      "relation": "led_to",
-      "note": "Ottoman-Venetian conflicts led to Treaty of Constantinople in 1540"
+      "to": "1536-003",
+      "relation": "caused",
+      "note": "The dissolution of monasteries directly triggered the Pilgrimage of Grace uprising"
     },
     {
       "from": "1536-004",
-      "to": "1600s-Cartagena",
-      "relation": "part_of",
-      "note": "Cartagena became a major Spanish colonial port and administrative center"
+      "to": "1540-002",
+      "relation": "led_to",
+      "note": "The Ottoman-Venetian War of 1536\u20131540 ended with the Treaty of Constantinople"
     },
     {
-      "from": "1536-005",
-      "to": "1540-Battle_Kannauj",
-      "relation": "led_to",
-      "note": "Sher Shah's rise to power led to his defeat of Humayun at Kannauj in 1540"
+      "from": "1536-007",
+      "to": "1535-001",
+      "relation": "part_of",
+      "note": "The Sack of Tunis was part of the broader Habsburg-Ottoman struggle for Mediterranean control"
+    },
+    {
+      "from": "1536-008",
+      "to": "1532-001",
+      "relation": "contemporary_with",
+      "note": "The Inca civil war was ongoing during Pizarro's invasion"
+    },
+    {
+      "from": "1536-010",
+      "to": "1405-001",
+      "relation": "contradicts",
+      "note": "The Ming Dynasty's abandonment of maritime exploration reversed the legacy of Zheng He's voyages"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:18:22.766039",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

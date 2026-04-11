@@ -1,54 +1,35 @@
 {
   "year": 1542,
   "year_label": "1542 CE",
-  "era_context": "Mid-16th century: the Protestant Reformation is consolidating in Northern Europe; the Ottoman Empire under S\u00fcleyman the Magnificent is at its territorial apex; the Ming Dynasty rules China; the Spanish Empire is expanding in the Americas and consolidating control of the Philippines; the Italian Wars continue between Habsburg and Valois powers.",
+  "era_context": "The Protestant Reformation is in its third decade. The Ottoman Empire under S\u00fcleyman the Magnificent is at its height. The Ming Dynasty rules China under the Jiajing Emperor. In Europe, Henry VIII rules England; Francis I rules France. The Age of Exploration continues with Spanish and Portuguese colonial expansion. The Catholic Counter-Reformation is accelerating.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "geographic_coverage_gaps": [
+    "Sub-Saharan African interior",
+    "Pacific Islands beyond Spanish contact",
+    "Central Asian steppes"
+  ],
   "events": [
     {
       "id": "1542-001",
-      "title": "Battle of Gheldren (Guelders War)",
-      "region": "Guelders, Low Countries",
-      "coordinates_approx": "52.0\u00b0N, 6.0\u00b0E",
-      "category": "military",
-      "description": "Military conflict continued in Guelders between the Duchy of Guelders and the Holy Roman Empire. The Guelders War (1537-1543) was a conflict over control of the strategically important Duchy of Guelders in the Low Countries. The Holy Roman Emperor Charles V sought to incorporate Guelders into his territories. This conflict was part of the broader Habsburg consolidation of power in the Low Countries.",
+      "title": "Francis Xavier arrives in Goa",
+      "region": "Portuguese Estado da \u00cdndia (Goa)",
+      "coordinates_approx": "15.3, 73.8",
+      "category": "religious",
+      "description": "Francis Xavier, a Jesuit missionary, arrives in Goa on 6 May 1542 as part of the Catholic Church's Counter-Reformation strategy of global expansion and conversion. Xavier is sent by the Portuguese Crown and the Jesuit order to establish missions in Asia and convert indigenous populations to Christianity. His arrival marks the beginning of a remarkable missionary career that will take him to India, Southeast Asia, and Japan. Xavier's work in Goa establishes the foundation for Jesuit missionary activity in Asia and represents the Catholic Church's response to the Protestant Reformation through global expansion rather than military conquest alone.",
       "key_figures": [
-        "Charles V (Holy Roman Emperor)",
-        "William of Cleves (Duke of Guelders)"
+        "Francis Xavier (Jesuit missionary)",
+        "Portuguese colonial authorities",
+        "Ignatius of Loyola (Jesuit founder)",
+        "Indigenous populations of India"
       ],
       "sources": [
         {
-          "name": "Habsburg military records and diplomatic correspondence",
+          "name": "Xavier's letters and missionary reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Low Countries chronicles and records",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The Guelders War is well-documented, though specific battles in 1542 are not always precisely dated. The war ended in 1543 with the Treaty of Venlo.",
-      "cross_references": [
-        "1543-003"
-      ]
-    },
-    {
-      "id": "1542-002",
-      "title": "Francis Xavier arrives in India as Jesuit missionary",
-      "region": "Goa, Portuguese India",
-      "coordinates_approx": "15.3\u00b0N, 73.8\u00b0E",
-      "category": "religious",
-      "description": "Francis Xavier, a Jesuit missionary, arrived in Goa in May 1542 as part of the Portuguese colonial establishment. Xavier had been sent by Ignatius of Loyola to undertake missionary work in Portuguese India. He would spend the next decade conducting missionary activities throughout Asia, eventually reaching Japan in 1549. Xavier's missionary work was instrumental in establishing the Jesuit presence in Asia and represented the Catholic Church's response to the Protestant Reformation through missionary expansion.",
-      "key_figures": [
-        "Francis Xavier (Jesuit missionary)",
-        "Ignatius of Loyola (founder of the Jesuits)",
-        "Portuguese colonial authorities in Goa"
-      ],
-      "sources": [
-        {
-          "name": "Jesuit archives and Xavier's correspondence",
+          "name": "Jesuit mission records",
           "type": "primary_text",
           "contemporary": true
         },
@@ -59,191 +40,273 @@
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Xavier's arrival in Goa in May 1542 is well-documented in Jesuit records and Portuguese colonial archives.",
+      "certainty_note": "Xavier's arrival date in Goa is precisely documented in Jesuit and Portuguese records.",
       "cross_references": [
-        "1549-001"
+        "1534-001 (Jesuit order founded)",
+        "1549-001 (Xavier arrives in Japan)",
+        "1552-001 (Xavier dies)"
+      ]
+    },
+    {
+      "id": "1542-002",
+      "title": "Pope Paul III establishes the Roman Inquisition",
+      "region": "Papal States (Rome)",
+      "coordinates_approx": "41.902, 12.456",
+      "category": "religious",
+      "description": "Pope Paul III establishes the Roman Inquisition (Inquisitio Romana) on 21 July 1542 as an institutional response to the Protestant Reformation and perceived heresy within the Catholic Church. The Roman Inquisition is a centralized ecclesiastical court designed to investigate and punish heresy, witchcraft, and other religious offenses. The establishment of the Roman Inquisition represents the Catholic Church's shift from passive defense against Protestantism to active institutional reform and enforcement of orthodoxy. The Inquisition will become a powerful instrument of religious control and will operate for centuries, with significant impact on intellectual freedom and religious minorities in Catholic territories.",
+      "key_figures": [
+        "Pope Paul III (founder)",
+        "Cardinal Giovanni Pietro Carafa (first Inquisitor General, later Pope Paul IV)",
+        "Ignatius of Loyola (Jesuit founder, supporter of Inquisition)"
+      ],
+      "sources": [
+        {
+          "name": "Papal bull Licet ab initio",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Vatican records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary ecclesiastical records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The establishment of the Roman Inquisition is precisely documented in papal records.",
+      "cross_references": [
+        "1517-001 (95 Theses)",
+        "1545-001 (Council of Trent opens)",
+        "1633-001 (Galileo tried by Inquisition)"
       ]
     },
     {
       "id": "1542-003",
-      "title": "Spanish New Laws (Leyes Nuevas) issued by Charles V",
-      "region": "Spain and Spanish America",
-      "coordinates_approx": "40.4\u00b0N, -3.7\u00b0E",
-      "category": "legal",
-      "description": "Charles V issued the New Laws (Leyes Nuevas) in November 1542, which were intended to regulate the treatment of indigenous peoples in Spanish America and limit the power of Spanish colonists. The laws prohibited the enslavement of indigenous peoples and attempted to establish more direct royal control over colonial administration. However, the laws were widely resisted by Spanish colonists in America and were only partially enforced. The New Laws represented an attempt by the Spanish Crown to assert moral and legal authority over colonial practices, though their practical impact was limited.",
-      "key_figures": [
-        "Charles V (Holy Roman Emperor and King of Spain)",
-        "Bartolom\u00e9 de las Casas (advocate for indigenous rights)"
-      ],
-      "sources": [
-        {
-          "name": "Spanish royal decrees and official records",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Colonial administrative records",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The issuance of the New Laws in November 1542 is well-documented in Spanish royal records. The date is uncontested.",
-      "cross_references": [
-        "1545-004"
-      ]
-    },
-    {
-      "id": "1542-004",
-      "title": "Ottoman-Venetian naval conflict and treaty negotiations",
-      "region": "Eastern Mediterranean",
-      "coordinates_approx": "37.0\u00b0N, 25.0\u00b0E",
-      "category": "military",
-      "description": "Ottoman naval forces under Barbarossa continued operations against Venetian possessions and shipping in the Mediterranean. Venice, facing declining naval power and economic pressure, was forced to negotiate with the Ottoman Empire. These negotiations would eventually lead to the Treaty of Constantinople in 1545. The Ottoman-Venetian conflict reflected the broader shift in Mediterranean power dynamics, with the Ottoman Empire increasingly dominant.",
-      "key_figures": [
-        "Barbarossa (Ottoman admiral)",
-        "Venetian Senate",
-        "S\u00fcleyman the Magnificent (Ottoman Sultan)"
-      ],
-      "sources": [
-        {
-          "name": "Venetian state archives and diplomatic records",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Ottoman chronicles and naval records",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Ottoman-Venetian naval conflicts were endemic during this period. Specific engagements in 1542 are attested in diplomatic correspondence but lack detailed documentation.",
-      "cross_references": [
-        "1545-002"
-      ]
-    },
-    {
-      "id": "1542-005",
-      "title": "Death of Catherine Howard, fifth wife of Henry VIII",
+      "title": "Catherine Howard executed; Henry VIII marries Catherine Parr",
       "region": "England",
-      "coordinates_approx": "51.5\u00b0N, -0.1\u00b0E",
+      "coordinates_approx": "51.5, -0.1",
       "category": "political",
-      "description": "Catherine Howard, the fifth wife of King Henry VIII, was executed on February 13, 1542, on charges of adultery and treason. Her execution was the second of Henry's wives to be executed (the first being Anne Boleyn in 1536). Catherine's death marked another dramatic episode in Henry's matrimonial history and reflected the political instability of the English court. Henry would marry his sixth and final wife, Catherine Parr, later in 1542.",
+      "description": "On 13 February 1542, Catherine Howard, the fifth wife of King Henry VIII, is executed on charges of adultery and treason. Catherine Howard's execution marks the end of Henry's fifth marriage and reflects the king's increasing paranoia and instability in his final years. Just days after Catherine Howard's execution, on 17 July 1542, Henry marries Catherine Parr, his sixth and final wife. Catherine Parr will outlive Henry and become a significant figure in her own right, serving as regent for Edward VI after Henry's death. The rapid succession of marriages and executions demonstrates Henry's desperation for a male heir and his willingness to use state power to eliminate perceived threats.",
       "key_figures": [
-        "Henry VIII (King of England)",
-        "Catherine Howard (fifth queen)",
+        "Henry VIII (English king)",
+        "Catherine Howard (executed queen)",
+        "Catherine Parr (new queen)",
         "Thomas Cranmer (Archbishop of Canterbury)"
       ],
       "sources": [
         {
-          "name": "English royal records and court documents",
+          "name": "English court records and royal documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Edward Hall, Chronicle",
+          "name": "Contemporary chronicles",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
+        },
+        {
+          "name": "Diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Catherine Howard's execution on February 13, 1542 is well-documented in English royal records. The date is uncontested.",
+      "certainty_note": "Execution and marriage dates are precisely documented in English records.",
       "cross_references": [
-        "1536-001"
+        "1509-001 (Henry VIII becomes king)",
+        "1547-001 (Henry VIII dies)"
+      ]
+    },
+    {
+      "id": "1542-004",
+      "title": "Battle of Solway Moss: English victory over Scotland",
+      "region": "Scotland (Solway Moss, Scottish Borders)",
+      "coordinates_approx": "54.95, -3.45",
+      "category": "military",
+      "description": "On 24 November 1542, English forces under the Duke of Norfolk defeat a Scottish army at the Battle of Solway Moss in the Scottish Borders. The battle is a significant English victory and demonstrates English military superiority over Scotland. The Scottish defeat at Solway Moss has profound political consequences: King James V of Scotland dies just days after the battle (14 December 1542), reportedly from despair over the defeat. The death of James V leaves Scotland with an infant queen (Mary, Queen of Scots, born 8 December 1542) and a regency under Mary of Guise. The battle and its aftermath set the stage for the 'Rough Wooing'\u2014a series of English military campaigns aimed at forcing Scotland into union with England.",
+      "key_figures": [
+        "Duke of Norfolk (English commander)",
+        "James V (Scottish king, dies shortly after)",
+        "Mary of Guise (Scottish regent)"
+      ],
+      "sources": [
+        {
+          "name": "English military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Scottish chronicles and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary accounts",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Battle date and outcome are well-documented in contemporary records.",
+      "cross_references": [
+        "1545-003 (Mary, Queen of Scots born)",
+        "1545-004 (James V dies)",
+        "1544-001 (Rough Wooing begins)"
+      ]
+    },
+    {
+      "id": "1542-005",
+      "title": "Ottoman-Safavid War: Battle of \u00c7ald\u0131ran aftermath and continued conflict",
+      "region": "Ottoman Empire and Safavid Persia",
+      "coordinates_approx": "37.0, 45.0",
+      "category": "military",
+      "description": "In 1542, the Ottoman Empire under S\u00fcleyman the Magnificent continues military campaigns against the Safavid Persian Empire, seeking to consolidate control over Mesopotamia and the Caucasus. The campaigns are part of the ongoing Ottoman-Safavid conflict that has persisted since the Battle of \u00c7ald\u0131ran (1514). The Ottoman military campaigns in 1542 demonstrate the continued rivalry between the two Islamic empires and the strategic importance of the regions they contest. The conflict will persist until the Treaty of Zuhab (1639).",
+      "key_figures": [
+        "S\u00fcleyman the Magnificent (Ottoman Sultan)",
+        "Tahmasp I (Safavid Shah)",
+        "Ibrahim Pasha (Ottoman Grand Vizier, executed 1536 but his legacy shapes policy)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman court records and military chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Safavid court records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary European diplomatic reports",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ottoman-Safavid military campaigns in 1542 are documented in contemporary records.",
+      "cross_references": [
+        "1514-001 (Battle of \u00c7ald\u0131ran)",
+        "1520-001 (S\u00fcleyman becomes Sultan)",
+        "1555-001 (Peace of Amasya)"
       ]
     },
     {
       "id": "1542-006",
-      "title": "Henry VIII marries Catherine Parr",
-      "region": "England",
-      "coordinates_approx": "51.5\u00b0N, -0.1\u00b0E",
-      "category": "political",
-      "description": "King Henry VIII married Catherine Parr in July 1542, just months after the execution of his fifth wife, Catherine Howard. Catherine Parr was a widow with previous marriages and would be Henry's sixth and final wife. She would outlive Henry and marry three times after his death. Catherine Parr was known for her education and piety, and she played a significant role in Henry's final years.",
+      "title": "Spanish colonial expansion in the Americas: New Laws of 1542",
+      "region": "Spanish America",
+      "coordinates_approx": "0.0, -75.0",
+      "category": "legal",
+      "description": "In 1542, the Spanish Crown issues the New Laws (Leyes Nuevas) aimed at reforming the treatment of indigenous peoples in Spanish America. The laws, issued by King Charles V, attempt to limit the encomienda system (forced labor of indigenous peoples) and protect indigenous rights. However, the New Laws are widely resisted by Spanish colonists in America and are only partially enforced. The laws represent the Spanish Crown's attempt to balance colonial exploitation with Christian moral concerns about indigenous welfare. The New Laws are significant as an early attempt at colonial reform, though their impact is limited by colonial resistance and the Crown's dependence on colonial revenues.",
       "key_figures": [
-        "Henry VIII (King of England)",
-        "Catherine Parr (sixth queen)"
+        "Charles V (Spanish king)",
+        "Bartolom\u00e9 de las Casas (Dominican friar, advocate for indigenous rights)",
+        "Spanish colonial administrators"
       ],
       "sources": [
         {
-          "name": "English royal records and court documents",
+          "name": "Spanish Crown decrees and royal documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Edward Hall, Chronicle",
+          "name": "Bartolom\u00e9 de las Casas's writings",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Colonial records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The New Laws of 1542 are precisely documented in Spanish Crown records.",
+      "cross_references": [
+        "1492-001 (Columbus reaches Americas)",
+        "1521-001 (Fall of Tenochtitlan)",
+        "1545-005 (Potos\u00ed silver mining accelerates)"
+      ]
+    },
+    {
+      "id": "1542-007",
+      "title": "Ming Dynasty continues consolidation under Jiajing Emperor",
+      "region": "Ming China",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "In 1542, the Ming Dynasty under the Jiajing Emperor (r. 1521\u20131567) continues its policy of internal consolidation and defense against Mongol incursions. The Jiajing Emperor's reign is marked by a turn away from maritime exploration toward land-based defense and Confucian administrative reform. The year 1542 sees continued military campaigns against Mongol raiders in northern China and efforts to strengthen the Great Wall. The Ming Dynasty remains the dominant power in East Asia, but the shift away from maritime exploration represents a missed opportunity for Ming China to maintain naval dominance in the Indian Ocean.",
+      "key_figures": [
+        "Jiajing Emperor (Ming ruler)",
+        "Qi Jiguang (military general and reformer)",
+        "Mongol raiders (external threat)"
+      ],
+      "sources": [
+        {
+          "name": "Ming court records and imperial edicts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ming military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later Ming histories",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Henry VIII's marriage to Catherine Parr in July 1542 is well-documented in English royal records.",
+      "certainty_note": "Ming military and administrative activities in 1542 are documented in imperial records.",
       "cross_references": [
-        "1542-005"
-      ]
-    },
-    {
-      "id": "1542-007",
-      "title": "Ming Dynasty military operations against Japanese pirates (wokou)",
-      "region": "China, Ming Dynasty coastal regions",
-      "coordinates_approx": "30.0\u00b0N, 120.0\u00b0E",
-      "category": "military",
-      "description": "The Ming Dynasty continued military operations against Japanese pirate raids (wokou) along the Chinese coast. These raids, conducted by Japanese pirates and renegade merchants, were a persistent threat to Ming coastal security and trade. The Ming government invested significant resources in naval patrols and coastal fortifications to combat piracy. These efforts were part of a broader strategy to maintain control of maritime trade and prevent foreign incursions.",
-      "key_figures": [
-        "Jiajing Emperor (Ming ruler)",
-        "Ming military commanders"
-      ],
-      "sources": [
-        {
-          "name": "Ming Dynasty official records and military archives",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Ming Shilu (Veritable Records of the Ming)",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Ming military operations against wokou are documented in official records, though specific operations in 1542 are not always precisely dated.",
-      "cross_references": [
-        "1544-006"
+        "1521-001 (Jiajing Emperor becomes ruler)",
+        "1567-001 (Jiajing Emperor dies)"
       ]
     }
   ],
-  "disconfirming_evidence": "The New Laws of 1542 are sometimes portrayed as a major humanitarian achievement, but modern scholarship emphasizes their limited practical impact. Spanish colonists widely resisted the laws, and enforcement was weak. The laws did not significantly improve the condition of indigenous peoples in the short term. Catherine Howard's guilt has been questioned by some modern historians, who suggest that her execution may have been politically motivated rather than based on solid evidence of adultery.",
-  "historiographic_note": "Documentation for 1542 is rich for European political and military events. English royal records are particularly detailed. Spanish colonial records provide documentation of the New Laws, though indigenous perspectives are largely absent from surviving sources. Ottoman and Venetian sources are available but less voluminous in Western historiography. Chinese sources are well-preserved but require specialized expertise. The 'significance' of events is weighted toward European political history and religious expansion, reflecting the bias of surviving archives. Events in sub-Saharan Africa, the Americas beyond Spanish territories, and Southeast Asia are likely underrepresented.",
+  "disconfirming_evidence": "The significance of the New Laws of 1542 is sometimes overstated as a major reform of colonial practice; in reality, the laws were widely resisted and only partially enforced, and the encomienda system continued largely unchanged. The Battle of Solway Moss is sometimes presented as a decisive turning point in Anglo-Scottish relations, but it was primarily a tactical victory with limited strategic impact; the real turning point comes with the 'Rough Wooing' campaigns that begin in 1544. The claim that James V died of despair over the Solway Moss defeat is a later romantic interpretation not supported by contemporary medical evidence; he likely died of illness or infection.",
+  "historiographic_note": "The year 1542 is exceptionally well-documented in European sources (English, Scottish, Spanish, and papal records are abundant). However, the historical record is heavily weighted toward elite, literate, institutional perspectives. Indigenous American perspectives on the New Laws are largely absent from contemporary records; the voices of enslaved and exploited peoples are silenced. The year is a good example of how 'well-documented' history can still be profoundly incomplete and biased toward European elite perspectives. The establishment of the Roman Inquisition is well-documented in papal records, but the experiences of those persecuted by the Inquisition are largely absent from surviving sources.",
   "graph_edges": [
     {
       "from": "1542-001",
-      "to": "1543-003",
-      "relation": "part_of",
-      "note": "The Guelders War was part of broader Habsburg-Ottoman conflicts in this period"
+      "to": "1549-001",
+      "relation": "led_to",
+      "note": "Xavier's arrival in Goa in 1542 leads to his later mission to Japan in 1549."
     },
     {
       "from": "1542-002",
-      "to": "1549-001",
-      "relation": "led_to",
-      "note": "Xavier's arrival in India in 1542 led to his missionary work in Japan in 1549"
+      "to": "1545-001",
+      "relation": "contemporary_with",
+      "note": "The establishment of the Roman Inquisition in 1542 is part of the broader Counter-Reformation, which includes the Council of Trent opening in 1545."
     },
     {
       "from": "1542-003",
-      "to": "1545-004",
+      "to": "1547-001",
       "relation": "led_to",
-      "note": "The New Laws of 1542 led to further colonial disputes and modifications in 1545"
+      "note": "Catherine Parr's marriage to Henry VIII in 1542 leads to her role as regent after Henry's death in 1547."
     },
     {
-      "from": "1542-005",
-      "to": "1542-006",
+      "from": "1542-004",
+      "to": "1545-003",
       "relation": "led_to",
-      "note": "Catherine Howard's execution was followed by Henry VIII's marriage to Catherine Parr"
+      "note": "The Battle of Solway Moss and James V's death in 1542 lead to Mary, Queen of Scots becoming queen and the regency of Mary of Guise."
+    },
+    {
+      "from": "1542-004",
+      "to": "1544-001",
+      "relation": "led_to",
+      "note": "The Battle of Solway Moss and the death of James V set the stage for the Rough Wooing campaigns beginning in 1544."
+    },
+    {
+      "from": "1542-006",
+      "to": "1545-005",
+      "relation": "contemporary_with",
+      "note": "The New Laws of 1542 attempt to regulate colonial labor practices, while Potos\u00ed silver mining accelerates in 1545, creating massive demand for indigenous labor."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:16:56.244143",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

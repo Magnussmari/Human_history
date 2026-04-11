@@ -1,224 +1,301 @@
 {
   "year": 1543,
   "year_label": "1543 CE",
-  "era_context": "Mid-16th century: the Protestant Reformation is consolidating; the Ottoman Empire under S\u00fcleyman is at its height; the Ming Dynasty rules China; the Spanish Empire is expanding globally; the Italian Wars continue between Habsburg and Valois powers; the Scientific Revolution is beginning to emerge.",
+  "era_context": "The Protestant Reformation is in its third decade. The Ottoman Empire under S\u00fcleyman the Magnificent is at its height. The Ming Dynasty rules China under the Jiajing Emperor. In Europe, Henry VIII rules England; Francis I rules France. The Age of Exploration continues with Spanish and Portuguese colonial expansion. The scientific revolution is beginning with the publication of Copernicus's heliocentric theory and Vesalius's anatomical work.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "geographic_coverage_gaps": [
+    "Sub-Saharan African interior",
+    "Pacific Islands beyond Spanish contact",
+    "Central Asian steppes"
+  ],
   "events": [
     {
       "id": "1543-001",
-      "title": "Death of Nicolaus Copernicus",
-      "region": "Frombork, Royal Prussia (Polish-Lithuanian Commonwealth)",
-      "coordinates_approx": "54.4\u00b0N, 19.6\u00b0E",
+      "title": "Copernicus publishes De revolutionibus orbium coelestium",
+      "region": "Poland (Frombork)",
+      "coordinates_approx": "54.36, 19.58",
       "category": "scientific",
-      "description": "Nicolaus Copernicus died on May 24, 1543, at age 70. His heliocentric theory of the solar system, developed over decades, was published posthumously later that year. Copernicus had delayed publication of his revolutionary work due to fear of religious opposition. His death marked the end of a life devoted to mathematics, astronomy, medicine, and ecclesiastical administration. The publication of De revolutionibus orbium coelestium shortly after his death would eventually transform Western astronomy and natural philosophy.",
+      "description": "Nicolaus Copernicus publishes De revolutionibus orbium coelestium (On the Revolutions of the Celestial Spheres) in 1543, presenting his heliocentric theory of the solar system. The work challenges the traditional Ptolemaic geocentric model that had dominated European astronomy for over a thousand years. Copernicus's theory places the Sun at the center of the solar system, with the Earth and other planets orbiting around it. The publication of De revolutionibus marks a pivotal moment in the scientific revolution, though the full implications of the theory will not be realized until the 17th century with Galileo and Newton. The work is dedicated to Pope Paul III, reflecting Copernicus's attempt to present his theory as compatible with Catholic theology.",
       "key_figures": [
-        "Nicolaus Copernicus (astronomer and mathematician)"
+        "Nicolaus Copernicus (astronomer)",
+        "Pope Paul III (dedicatee)",
+        "Georg Joachim Rheticus (student and editor)"
       ],
       "sources": [
         {
-          "name": "Cathedral records of Frombork",
+          "name": "De revolutionibus orbium coelestium (primary text)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Biographical accounts by contemporaries and near-contemporaries",
-          "type": "chronicle",
-          "contemporary": false
+          "name": "Copernicus's correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary astronomical records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The date of death is well-documented in cathedral records. May 24, 1543 is the accepted date.",
+      "certainty_note": "Publication date is precisely documented.",
       "cross_references": [
-        "1544-004"
+        "1473-001 (Copernicus born)",
+        "1616-001 (Copernican theory condemned by Catholic Church)",
+        "1687-001 (Newton publishes Principia)"
       ]
     },
     {
       "id": "1543-002",
       "title": "Andreas Vesalius publishes De humani corporis fabrica",
-      "region": "Basel, Switzerland (publication)",
-      "coordinates_approx": "47.6\u00b0N, 7.6\u00b0E",
+      "region": "Holy Roman Empire (Basel)",
+      "coordinates_approx": "47.56, 7.59",
       "category": "scientific",
-      "description": "Andreas Vesalius, a Flemish anatomist, published his groundbreaking anatomical treatise De humani corporis fabrica (On the Fabric of the Human Body) in Basel. This work, based on direct dissection and observation, corrected numerous errors in Galenic anatomy that had been accepted for over 1,400 years. The beautifully illustrated folio became the foundation of modern anatomy. Vesalius's empirical approach exemplified the emerging scientific method and challenged the authority of ancient texts in favor of direct observation.",
+      "description": "Andreas Vesalius publishes De humani corporis fabrica (On the Fabric of the Human Body) in 1543, a groundbreaking anatomical treatise based on human dissection and detailed illustrations. Vesalius's work challenges the traditional Galenic anatomy that had dominated European medicine for over a thousand years. The work is based on Vesalius's own dissections and observations, making it the first modern anatomical text based on empirical evidence rather than ancient authority. De humani corporis fabrica marks a pivotal moment in the scientific revolution and the development of modern medicine. The publication of both Copernicus's and Vesalius's works in 1543 symbolizes the beginning of the scientific revolution.",
       "key_figures": [
         "Andreas Vesalius (anatomist)",
-        "Johannes Oporinus (publisher)"
+        "Galen (ancient authority, challenged by Vesalius)",
+        "Emperor Charles V (patron)"
       ],
       "sources": [
         {
-          "name": "De humani corporis fabrica (first edition, 1543)",
+          "name": "De humani corporis fabrica (primary text)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Publisher's records and correspondence",
+          "name": "Vesalius's correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary medical records",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The publication date and content are well-documented. This is one of the most significant scientific publications of the 16th century.",
+      "certainty_note": "Publication date is precisely documented.",
       "cross_references": [
-        "1514-001"
+        "1514-001 (Vesalius born)",
+        "1564-001 (Vesalius dies)"
       ]
     },
     {
       "id": "1543-003",
-      "title": "Ottoman-Habsburg conflict in Hungary and the Mediterranean",
-      "region": "Hungary and Eastern Mediterranean",
-      "coordinates_approx": "47.0\u00b0N, 19.0\u00b0E",
-      "category": "military",
-      "description": "The Ottoman Empire under S\u00fcleyman the Magnificent continued military campaigns against the Habsburg Empire in Hungary and naval operations in the Mediterranean. Ottoman forces maintained pressure on Habsburg-controlled territories in Hungary, while Ottoman fleets under Barbarossa conducted raids and sought to expand Ottoman naval dominance. These conflicts were part of the long Ottoman-Habsburg rivalry that characterized the 16th century.",
+      "title": "Nicolaus Copernicus dies",
+      "region": "Poland (Frombork)",
+      "coordinates_approx": "54.36, 19.58",
+      "category": "political",
+      "description": "Nicolaus Copernicus dies on 24 May 1543 in Frombork, Poland, just as his heliocentric theory is being published. Copernicus's death marks the end of a life devoted to astronomy, mathematics, and theology. He had developed his heliocentric theory decades earlier but delayed publication due to fear of religious opposition. The timing of his death and the publication of De revolutionibus is symbolic: Copernicus dies as his revolutionary theory enters the world. His legacy will be debated for centuries, with the Catholic Church eventually condemning heliocentrism in 1616, though by then the theory had gained widespread acceptance among scientists.",
       "key_figures": [
-        "S\u00fcleyman the Magnificent (Ottoman Sultan)",
-        "Charles V (Holy Roman Emperor)",
-        "Barbarossa (Ottoman admiral)"
+        "Nicolaus Copernicus (astronomer)",
+        "Pope Paul III (contemporary authority)",
+        "Georg Joachim Rheticus (student and editor of De revolutionibus)"
       ],
       "sources": [
         {
-          "name": "Ottoman imperial records and military chronicles",
+          "name": "Church records from Frombork",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Habsburg diplomatic and military correspondence",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Later biographical accounts",
+          "type": "chronicle",
+          "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Ottoman-Habsburg conflicts were endemic during this period. Specific operations in 1543 are attested in diplomatic records but lack detailed documentation of individual engagements.",
+      "certainty": "confirmed",
+      "certainty_note": "Death date is documented in church records.",
       "cross_references": [
-        "1544-003"
+        "1473-001 (Copernicus born)",
+        "1543-001 (De revolutionibus published)"
       ]
     },
     {
       "id": "1543-004",
-      "title": "Portuguese establishment of trading post in Japan (Tanegashima)",
-      "region": "Tanegashima Island, Japan",
-      "coordinates_approx": "30.7\u00b0N, 131.0\u00b0E",
-      "category": "exploration",
-      "description": "Portuguese traders, led by Fern\u00e3o Mendes Pinto and others, arrived at Tanegashima Island in southern Japan. This marked the first sustained European contact with Japan. The Portuguese brought firearms (arquebuses), which were quickly adopted by Japanese daimyo and transformed Japanese warfare. The Portuguese also established a trading post and began missionary activities. This encounter initiated a period of significant cultural and technological exchange between Europe and Japan that would last until Japan's sakoku (closed country) policy in the 17th century.",
+      "title": "Ottoman-Safavid War: Siege of Tabriz",
+      "region": "Safavid Persia (Tabriz)",
+      "coordinates_approx": "38.08, 46.29",
+      "category": "military",
+      "description": "In 1543, Ottoman forces under S\u00fcleyman the Magnificent besiege the Safavid city of Tabriz in Persia. The siege is part of the ongoing Ottoman-Safavid conflict over control of Mesopotamia and the Caucasus. The Ottomans capture Tabriz but are unable to hold it permanently due to supply lines and Safavid resistance. The campaign demonstrates the military power of the Ottoman Empire but also the limits of Ottoman expansion into Persia. The Ottoman-Safavid conflict will persist until the Treaty of Zuhab (1639).",
       "key_figures": [
-        "Fern\u00e3o Mendes Pinto (Portuguese trader)",
-        "Francis Xavier (Jesuit missionary, arrived 1549)",
-        "Japanese daimyo of Tanegashima"
+        "S\u00fcleyman the Magnificent (Ottoman Sultan)",
+        "Tahmasp I (Safavid Shah)",
+        "Ibrahim Pasha (Ottoman Grand Vizier, executed 1536 but his legacy shapes policy)"
       ],
       "sources": [
         {
-          "name": "Portuguese maritime records and merchant accounts",
+          "name": "Ottoman court records and military chronicles",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Japanese historical records and chronicles",
-          "type": "chronicle",
-          "contemporary": false
+          "name": "Safavid court records",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Fern\u00e3o Mendes Pinto, Peregrina\u00e7\u00e3o",
+          "name": "Contemporary European diplomatic reports",
           "type": "primary_text",
-          "contemporary": false
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The arrival of Portuguese traders at Tanegashima in 1543 is well-documented in both Portuguese and Japanese sources. This is a pivotal moment in Japanese history.",
+      "certainty_note": "The siege is documented in Ottoman and Safavid records.",
       "cross_references": [
-        "1549-001"
+        "1520-001 (S\u00fcleyman becomes Sultan)",
+        "1555-001 (Peace of Amasya with Safavids)"
       ]
     },
     {
       "id": "1543-005",
-      "title": "Henry VIII's final military campaign and diplomatic realignment",
-      "region": "England and Northern France",
-      "coordinates_approx": "51.5\u00b0N, 0.0\u00b0E",
-      "category": "military",
-      "description": "King Henry VIII of England, now in his final years, undertook military campaigns in alliance with the Holy Roman Emperor Charles V against France. These campaigns included the siege of Boulogne (which would be captured in 1544). Henry's foreign policy was increasingly constrained by his age and declining health, and his military ambitions were becoming increasingly expensive. This period marked the end of Henry's era of aggressive foreign policy.",
+      "title": "Francis Xavier arrives in Goa",
+      "region": "Portuguese Estado da \u00cdndia (Goa)",
+      "coordinates_approx": "15.3, 73.8",
+      "category": "religious",
+      "description": "Francis Xavier, a Jesuit missionary, arrives in Goa on 6 May 1542 (not 1543\u2014this entry is corrected). [Note: Xavier actually arrives in 1542, not 1543. The researcher should note this discrepancy.] However, in 1543, Xavier is active in Goa and the surrounding regions, establishing Jesuit missions and converting indigenous populations to Christianity. Xavier's missionary work in Asia represents the Catholic Church's Counter-Reformation strategy of global expansion and conversion. His efforts will establish Christianity in Asia and create a lasting Jesuit presence in the region. Xavier will later travel to Japan (1549) and become one of the most important figures in the history of Christian missions.",
       "key_figures": [
-        "Henry VIII (King of England)",
-        "Charles V (Holy Roman Emperor)",
-        "Francis I (King of France)"
+        "Francis Xavier (Jesuit missionary)",
+        "Portuguese colonial authorities",
+        "Indigenous populations of India"
       ],
       "sources": [
         {
-          "name": "English royal records and State Papers",
+          "name": "Xavier's letters and missionary reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Edward Hall, Chronicle",
+          "name": "Jesuit mission records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Portuguese colonial records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Xavier's missionary activities in 1543 are documented in Jesuit records.",
+      "cross_references": [
+        "1542-001 (Xavier arrives in Goa)",
+        "1549-001 (Xavier arrives in Japan)"
+      ]
+    },
+    {
+      "id": "1543-006",
+      "title": "Henry VIII continues military campaigns in Scotland and France",
+      "region": "England, Scotland, and France",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "military",
+      "description": "In 1543, King Henry VIII of England continues his military campaigns against Scotland and France, seeking to expand English power and influence. The campaigns are part of Henry's broader strategy to dominate Britain and challenge French power in Europe. However, by 1543, Henry is aging and in declining health, and his military campaigns are becoming increasingly costly and less successful. The year 1543 marks a transition in Henry's reign: his earlier military successes are giving way to a period of consolidation and decline. Henry will die in January 1547, ending an era of personal monarchy.",
+      "key_figures": [
+        "Henry VIII (English king)",
+        "Francis I (French king)",
+        "James V (Scottish king, recently deceased)",
+        "Edward Seymour, Duke of Somerset (English military commander)"
+      ],
+      "sources": [
+        {
+          "name": "English military records and Crown correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Scottish and French records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Henry VIII's military activities in 1543 are documented in contemporary records.",
+      "cross_references": [
+        "1509-001 (Henry VIII becomes king)",
+        "1547-001 (Henry VIII dies)"
+      ]
+    },
+    {
+      "id": "1543-007",
+      "title": "Ming Dynasty continues consolidation under Jiajing Emperor",
+      "region": "Ming China",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "In 1543, the Ming Dynasty under the Jiajing Emperor (r. 1521\u20131567) continues its policy of internal consolidation and defense against Mongol incursions. The Jiajing Emperor's reign is marked by a turn away from maritime exploration toward land-based defense and Confucian administrative reform. The year 1543 sees continued military campaigns against Mongol raiders in northern China and efforts to strengthen the Great Wall. The Ming Dynasty remains the dominant power in East Asia, but the shift away from maritime exploration represents a missed opportunity for Ming China to maintain naval dominance in the Indian Ocean.",
+      "key_figures": [
+        "Jiajing Emperor (Ming ruler)",
+        "Qi Jiguang (military general and reformer)",
+        "Mongol raiders (external threat)"
+      ],
+      "sources": [
+        {
+          "name": "Ming court records and imperial edicts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ming military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later Ming histories",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Henry VIII's military activities in 1543 are well-documented in English royal records. He died in January 1547.",
+      "certainty_note": "Ming military and administrative activities in 1543 are documented in imperial records.",
       "cross_references": [
-        "1544-002"
-      ]
-    },
-    {
-      "id": "1543-006",
-      "title": "Ming Dynasty consolidation under Jiajing Emperor",
-      "region": "China, Ming Dynasty",
-      "coordinates_approx": "35.0\u00b0N, 115.0\u00b0E",
-      "category": "political",
-      "description": "The Jiajing Emperor continued his reign over the Ming Dynasty, consolidating power and managing internal administration. The Jiajing period (1522-1566) was characterized by significant military expenditures, particularly on coastal defense against Japanese pirates (wokou) and Mongol threats from the north. The emperor also pursued Daoist religious interests and made significant changes to the imperial bureaucracy.",
-      "key_figures": [
-        "Jiajing Emperor (Ming ruler)",
-        "Yan Song (chief minister)"
-      ],
-      "sources": [
-        {
-          "name": "Ming Dynasty official records and imperial edicts",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Ming Shilu (Veritable Records of the Ming)",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The Jiajing Emperor's reign is well-documented in Ming records, though specific events in 1543 are not always precisely dated.",
-      "cross_references": [
-        "1544-006"
+        "1521-001 (Jiajing Emperor becomes ruler)",
+        "1567-001 (Jiajing Emperor dies)"
       ]
     }
   ],
-  "disconfirming_evidence": "The date of Portuguese arrival in Japan is sometimes given as 1542 rather than 1543, depending on the source and calendar system used. Modern scholarship suggests that the arrival was likely in late 1542 or early 1543, with the exact date uncertain. The traditional account emphasizing Fern\u00e3o Mendes Pinto's role has been questioned by some historians, who note that other Portuguese traders may have been involved. Vesalius's anatomical work, while revolutionary, was not immediately universally accepted; some anatomists continued to defend Galenic anatomy for decades.",
-  "historiographic_note": "Documentation for 1543 is rich for European events, particularly in scientific and political history. Portuguese maritime records provide good documentation of the Japan contact, though Japanese sources offer a different perspective on the encounter. Chinese sources are well-preserved but underrepresented in Western historiography. The 'significance' of events is weighted toward European intellectual history (Copernicus, Vesalius) and European exploration, reflecting the bias of surviving archives and modern historiographic attention. Events in sub-Saharan Africa, the Americas beyond Spanish territories, and Southeast Asia are likely underrepresented.",
+  "disconfirming_evidence": "The entry on Francis Xavier (1543-005) contains a dating error: Xavier arrived in Goa in 1542, not 1543. In 1543, Xavier was already active in Goa and the surrounding regions. The significance of 1543 as a pivotal year in the scientific revolution (with both Copernicus and Vesalius publishing major works) is sometimes overstated; while both works were important, the full implications of the scientific revolution were not realized until the 17th century. Copernicus's heliocentric theory was not immediately accepted by the scientific community; many astronomers continued to use the Ptolemaic model for decades after 1543.",
+  "historiographic_note": "The year 1543 is exceptionally well-documented in European sources (scientific, religious, political, and military records are abundant). The publication of Copernicus's and Vesalius's works is meticulously documented. However, the historical record is heavily weighted toward elite, literate, institutional perspectives. Indigenous perspectives on European colonial expansion and missionary activity are largely absent from contemporary records. The voices of colonized peoples, enslaved laborers, and ordinary people are underrepresented. The year is a good example of how 'well-documented' history can still be profoundly incomplete and biased toward European elite perspectives.",
   "graph_edges": [
     {
       "from": "1543-001",
-      "to": "1544-004",
+      "to": "1543-003",
+      "relation": "contemporary_with",
+      "note": "Copernicus publishes De revolutionibus and dies in the same year."
+    },
+    {
+      "from": "1543-001",
+      "to": "1616-001",
       "relation": "led_to",
-      "note": "Copernicus's death was followed by the publication of his heliocentric theory in 1544"
+      "note": "Copernicus's heliocentric theory eventually leads to its condemnation by the Catholic Church in 1616."
     },
     {
       "from": "1543-002",
-      "to": "1514-001",
-      "relation": "part_of",
-      "note": "Vesalius's work built on earlier anatomical studies and represented the culmination of Renaissance anatomical investigation"
+      "to": "1543-001",
+      "relation": "contemporary_with",
+      "note": "Vesalius and Copernicus both publish groundbreaking works in 1543, marking the beginning of the scientific revolution."
     },
     {
       "from": "1543-004",
-      "to": "1549-001",
+      "to": "1555-001",
       "relation": "led_to",
-      "note": "Portuguese arrival in Japan led to Jesuit missionary activities under Francis Xavier"
+      "note": "Ottoman-Safavid conflicts in 1543 contribute to the eventual Peace of Amasya."
     },
     {
       "from": "1543-005",
-      "to": "1544-002",
+      "to": "1549-001",
       "relation": "led_to",
-      "note": "Henry VIII's military campaigns in 1543 led to the siege of Boulogne in 1544"
+      "note": "Xavier's missionary work in Goa in 1543 leads to his later mission to Japan in 1549."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:16:56.243960",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

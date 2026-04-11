@@ -1,200 +1,162 @@
 {
   "year": 1510,
   "year_label": "1510 CE",
-  "era_context": "1510 falls within the early 16th century, a period of European Renaissance, Ottoman expansion, and European global exploration. The Ming Dynasty ruled China under the Zhengde Emperor; the Mamluk Sultanate controlled Egypt and the Levant; and the Aztec and Inca empires dominated the Americas. The War of the League of Cambrai was ongoing in Europe, and Portuguese expansion in Asia was accelerating under Afonso de Albuquerque.",
-  "documentation_level": "moderate",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records)",
-    "Southeast Asia (fragmentary sources outside Portuguese contact)",
-    "Pacific Islands and Oceania (no written records)",
-    "Indigenous Americas (records largely oral or destroyed)"
-  ],
+  "era_context": "The early 16th century continued with the Portuguese maritime expansion accelerating under Manuel I, the Ottoman Empire under Bayezid II in its final years, the Ming Dynasty in China under the Zhengde Emperor, and the Mughal Empire emerging as a major power in India under Babur. The Italian Renaissance was flourishing with figures like Michelangelo and Raphael at their creative peaks. In the Americas, the Aztec and Inca empires remained at their territorial zenith, unaware of European contact.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1510-001",
-      "title": "Portuguese capture of Goa",
-      "region": "India (Malabar Coast)",
-      "coordinates_approx": "15.30, 73.83",
+      "title": "Portuguese capture of Goa from Bijapur Sultanate",
+      "region": "Goa (present-day India)",
+      "coordinates_approx": "15.30\u00b0N, 73.83\u00b0E",
       "category": "military",
-      "description": "Portuguese forces under Afonso de Albuquerque captured the city of Goa from the Bijapur Sultanate. The capture was achieved after a siege and involved significant naval and land forces. Goa became the capital of the Portuguese Estado da \u00cdndia (Portuguese State of India) and served as the administrative and military center of Portuguese expansion in Asia. The conquest of Goa was a major strategic victory, as it provided the Portuguese with a secure base for their operations in the Indian Ocean and the spice trade. The city was heavily fortified and became a major center of Portuguese colonial power.",
+      "description": "Afonso de Albuquerque led a Portuguese naval expedition to capture the strategic port city of Goa from the Bijapur Sultanate in November 1510. The conquest involved naval bombardment and assault on the city's fortifications. Goa's capture was significant because it provided the Portuguese with a major base on the Indian coast, facilitating control of Indian Ocean trade routes and serving as a springboard for further expansion. However, the Portuguese would lose the city in 1511 before recapturing it definitively later that year.",
       "key_figures": [
-        "Afonso de Albuquerque (Portuguese Governor-General of India)",
+        "Afonso de Albuquerque (Portuguese Governor-General)",
         "Yusuf Adil Shah (Bijapur Sultanate)"
       ],
       "sources": [
         {
-          "name": "Portuguese chronicles (Gaspar Correia, Lendas da \u00cdndia; Tom\u00e1s Lopes)",
-          "type": "chronicle",
+          "name": "Comment\u00e1rios do Grande Afonso Dalboquerque",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Portuguese colonial records",
+          "type": "primary_text",
           "contemporary": true
-        },
-        {
-          "name": "Indian sources (fragmentary)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus on Portuguese expansion",
-          "type": "historiographic_consensus",
-          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The capture of Goa is well-documented in Portuguese sources. The date of November 1510 is firmly established in contemporary accounts.",
+      "certainty_note": "The capture of Goa in November 1510 is well-documented in Portuguese sources. The date is firmly established.",
       "cross_references": [
-        "1514-002 (Portuguese consolidation of Indian Ocean trade)",
-        "1498-001 (Vasco da Gama's arrival in India)"
+        "1511-003 (Recapture of Goa)"
       ]
     },
     {
       "id": "1510-002",
-      "title": "Battle of Diu (Portuguese-Mamluk naval conflict)",
-      "region": "India (Gujarat coast)",
-      "coordinates_approx": "20.72, 70.99",
+      "title": "Battle of Diu (Portuguese naval victory)",
+      "region": "Diu (present-day India)",
+      "coordinates_approx": "20.71\u00b0N, 70.98\u00b0E",
       "category": "military",
-      "description": "Portuguese naval forces under Afonso de Albuquerque defeated a combined Mamluk and Gujarati fleet at the Battle of Diu. The battle was a significant naval engagement that demonstrated Portuguese naval superiority in the Indian Ocean. The victory secured Portuguese control of the western Indian coast and prevented Mamluk attempts to challenge Portuguese dominance. The battle was fought off the coast of Diu, a strategic location on the Gujarat coast. The Portuguese victory was a turning point in the struggle for control of Indian Ocean trade.",
+      "description": "Portuguese naval forces under Afonso de Albuquerque defeated a combined fleet of the Mamluk Sultanate (Egypt) and the Bijapur Sultanate in the waters off Diu. This naval victory was crucial in establishing Portuguese dominance in the Indian Ocean and preventing Arab and Egyptian interference with Portuguese expansion. The battle demonstrated the superiority of Portuguese naval technology and tactics, particularly the use of cannon-armed ships. The victory secured Portuguese control over key trade routes and discouraged organized resistance to Portuguese expansion in the region.",
       "key_figures": [
         "Afonso de Albuquerque (Portuguese commander)",
-        "Mamluk and Gujarati naval forces"
+        "Mamluk and Bijapur naval commanders"
       ],
       "sources": [
         {
-          "name": "Portuguese chronicles (Gaspar Correia, Tom\u00e1s Lopes)",
-          "type": "chronicle",
-          "contemporary": true
+          "name": "Comment\u00e1rios do Grande Afonso Dalboquerque",
+          "type": "primary_text",
+          "contemporary": false
         },
         {
-          "name": "Historiographic consensus on Portuguese expansion",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The Battle of Diu is documented in Portuguese sources, but the exact date is sometimes disputed. Some sources place it in 1509, others in 1510 or 1511. The battle is confirmed to have occurred, but the precise dating is uncertain.",
-      "cross_references": [
-        "1510-001 (Portuguese capture of Goa)"
-      ]
-    },
-    {
-      "id": "1510-003",
-      "title": "War of the League of Cambrai continues",
-      "region": "Italy and Europe",
-      "coordinates_approx": "43.0, 12.0",
-      "category": "military",
-      "description": "The War of the League of Cambrai (1508\u20131516) continued in 1510 with ongoing campaigns in Italy. The conflict involved the Papal States, Venice, France, Spain, and the Holy Roman Empire in a complex series of alliances and conflicts. In 1510, the Papacy and Venice formed an alliance against France, marking a shift in the balance of power. The war was fundamentally about control of Italian territories and the balance of power in Europe.",
-      "key_figures": [
-        "Pope Julius II (papal forces)",
-        "Louis XII (King of France)",
-        "Venice (Republic)",
-        "Maximilian I (Holy Roman Emperor)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary chronicles and diplomatic correspondence",
+          "name": "Portuguese naval records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Later European historiography",
+          "name": "Mamluk chronicles (later compilations)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle is well-documented in Portuguese sources. The date of February 1510 is firmly established, though some sources place it in late 1509.",
+      "cross_references": [
+        "1511-001 (Malacca conquest)"
+      ]
+    },
+    {
+      "id": "1510-003",
+      "title": "Bayezid II's reign continues in Ottoman Empire",
+      "region": "Ottoman Empire",
+      "coordinates_approx": "41.01\u00b0N, 28.98\u00b0E",
+      "category": "political",
+      "description": "Bayezid II continued his reign as Ottoman Sultan, though his power was beginning to wane due to age and the rising influence of his son Selim. Bayezid II was known for his administrative reforms, cultural patronage, and relative tolerance toward religious minorities, including Sephardic Jews fleeing Spain. However, by 1510, his authority was being challenged by his sons, and the empire was experiencing internal instability. His reign would end in 1512 with his abdication in favor of Selim I.",
+      "key_figures": [
+        "Bayezid II (Ottoman Sultan)",
+        "Selim I (his son, future Sultan)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman court records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from Ottoman studies",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The War of the League of Cambrai is well-documented in contemporary diplomatic and military records. The papal-Venetian alliance of 1510 is firmly dated.",
+      "certainty_note": "Bayezid II's reign dates and the succession crisis are well-documented in Ottoman administrative records.",
       "cross_references": [
-        "1508-002 (War of the League of Cambrai begins)",
-        "1511-004 (War of the League of Cambrai continues)"
+        "1511-002 (Selim I's accession)"
       ]
     },
     {
       "id": "1510-004",
-      "title": "Zhengde Emperor's reign continues with eunuch influence",
-      "region": "China (Ming Dynasty)",
-      "coordinates_approx": "30.0, 115.0",
+      "title": "Zhengde Emperor's reign in Ming China",
+      "region": "Ming Dynasty China",
+      "coordinates_approx": "39.90\u00b0N, 116.41\u00b0E",
       "category": "political",
-      "description": "The Zhengde Emperor (r. 1505\u20131521) continued his reign in China, marked by increasing eunuch influence at court and unconventional imperial behaviour. The eunuch Liu Jin wielded considerable power, and the emperor was known for his personal military campaigns and unorthodox conduct. This period saw continued factional struggles at court between eunuchs and Confucian officials. The Zhengde Emperor's reign was later criticized by Confucian historians for its departure from traditional imperial conduct.",
+      "description": "The Zhengde Emperor continued his reign, characterized by increasing eunuch influence and the emperor's personal indulgence. The eunuch Liu Jin wielded enormous power over state affairs, leading to corruption and institutional decay. Despite these governance issues, the Ming Dynasty maintained economic prosperity and cultural vitality. The period saw continued artistic and literary achievements, though political stability was compromised by the emperor's disinterest in traditional governance.",
       "key_figures": [
-        "Zhengde Emperor (Ming Dynasty)",
-        "Liu Jin (eunuch, powerful court figure)"
+        "Zhengde Emperor (Ming ruler)",
+        "Liu Jin (powerful eunuch)"
       ],
       "sources": [
         {
           "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
           "type": "primary_text",
           "contemporary": true
-        },
-        {
-          "name": "Later Ming historiography",
-          "type": "chronicle",
-          "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Ming records are detailed, but the Zhengde Emperor's reign was later subject to Confucian moral critique. The general pattern of eunuch influence is confirmed; specific 1510 events are less precisely documented.",
-      "cross_references": [
-        "1505-001 (Zhengde Emperor's accession)"
-      ]
+      "certainty": "confirmed",
+      "certainty_note": "The Zhengde Emperor's reign and eunuch influence are well-documented in Ming records.",
+      "cross_references": []
     },
     {
       "id": "1510-005",
-      "title": "Montezuma II rules the Aztec Empire",
-      "region": "Mesoamerica (Aztec Empire)",
-      "coordinates_approx": "19.43, -99.13",
-      "category": "political",
-      "description": "Montezuma II (r. 1502\u20131520) continued his rule over the Aztec Empire. Montezuma II was one of the most famous Aztec emperors, known for his military campaigns, expansion of the empire, and later his encounter with Spanish conquistadors. In 1510, the Aztec Empire was at the height of its power, controlling much of Mesoamerica through a system of tribute and military dominance. Montezuma II was known for his elaborate court, his patronage of the arts, and his religious devotion. His reign would be cut short by the arrival of Spanish conquistadors in 1519.",
+      "title": "Babur's campaigns in Central Asia and India",
+      "region": "Central Asia and northern India",
+      "coordinates_approx": "37.77\u00b0N, 72.50\u00b0E",
+      "category": "military",
+      "description": "Babur, the future founder of the Mughal Empire, was engaged in military campaigns to expand his territory in Central Asia and northern India. He was consolidating power and eliminating rival sultanates. Babur's military innovations, including the use of gunpowder artillery and cavalry tactics, were beginning to reshape warfare in the region. His campaigns in this period laid the groundwork for his eventual conquest of northern India and the establishment of the Mughal Empire.",
       "key_figures": [
-        "Montezuma II (Aztec Emperor)"
+        "Babur (future Mughal founder)"
       ],
       "sources": [
         {
-          "name": "Spanish chronicles (Bernal D\u00edaz del Castillo, Historia verdadera de la conquista de la Nueva Espa\u00f1a)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Nahua sources (Florentine Codex, compiled by Sahag\u00fan)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus on the Aztec Empire",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Baburnama (Babur's autobiography)",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Montezuma II's rule is documented in both Spanish and indigenous sources, but these sources were compiled after the Spanish conquest. The specific events of 1510 are not precisely documented; the general context of his reign is confirmed.",
+      "certainty_note": "Babur's campaigns in this period are documented in his autobiography, though specific events in 1510 are less precisely dated.",
       "cross_references": [
-        "1519-002 (Arrival of Hern\u00e1n Cort\u00e9s and Spanish conquistadors)"
+        "1511-005 (Babur's consolidation)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Battle of Diu is sometimes dated to 1509 rather than 1510; the exact date is disputed in different sources. Some scholars argue that the battle's significance has been overstated in Portuguese historiography. The War of the League of Cambrai is complex and its significance is sometimes overstated in narratives focused on Italian history. Montezuma II's rule is often portrayed as a period of Aztec decline, but modern scholarship suggests the empire remained powerful and stable in 1510; the decline came only with the arrival of Spanish conquistadors.",
-  "historiographic_note": "Documentation for 1510 is good for European events, particularly military and political history. Portuguese expansion in Asia is well-recorded in Portuguese sources but less well-documented in indigenous Asian sources. Chinese Ming records are comprehensive. The Aztec Empire is documented in both Spanish and indigenous sources, but these sources were compiled after the Spanish conquest and may reflect post-conquest biases. Sub-Saharan Africa and Southeast Asia (outside Portuguese contact zones) are largely absent from surviving written records.",
+  "disconfirming_evidence": "The Battle of Diu is sometimes dated to February 1510 or late 1509; sources vary slightly on the exact date. The significance of the battle in preventing Arab/Mamluk expansion is sometimes overstated\u2014the Mamluks were already in decline and did not mount sustained resistance to Portuguese expansion. The capture of Goa in 1510 was temporary; the Portuguese loss of the city in 1511 is sometimes downplayed in triumphalist Portuguese narratives.",
+  "historiographic_note": "Documentation for 1510 is rich, particularly for Portuguese, Ottoman, and Chinese sources. Portuguese colonial records are detailed and abundant. However, sources from the Indian subcontinent and Southeast Asia are less abundant in European archives. The perspective is heavily weighted toward European and Ottoman court records. Indigenous perspectives from conquered regions are largely absent. Modern scholarship has questioned the 'triumphalist' narrative of Portuguese conquest, noting the resilience of local trading networks.",
   "graph_edges": [
     {
       "from": "1510-001",
-      "to": "1514-002",
-      "relation": "led_to",
-      "note": "The Portuguese capture of Goa enabled the consolidation of Portuguese control over Indian Ocean trade."
+      "to": "1510-002",
+      "relation": "contemporary_with",
+      "note": "Both events represent Portuguese expansion in India under Albuquerque in the same year"
     },
     {
       "from": "1510-002",
-      "to": "1510-001",
-      "relation": "contemporary_with",
-      "note": "The Battle of Diu and the capture of Goa were part of the same Portuguese expansion campaign in India."
-    },
-    {
-      "from": "1510-005",
-      "to": "1519-002",
+      "to": "1511-001",
       "relation": "led_to",
-      "note": "Montezuma II's rule of the Aztec Empire ended with the arrival of Spanish conquistadors in 1519."
+      "note": "Portuguese naval victory at Diu enabled the conquest of Malacca in 1511"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:30:07.904652",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }
