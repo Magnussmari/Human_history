@@ -1,0 +1,105 @@
+{
+  "year": 1161,
+  "year_label": "1161 CE",
+  "era_context": "The High Middle Ages in Europe; the Crusader States are in a period of relative stability under Amalric I. Nur ad-Din Zengi controls Syria and coordinates with Egyptian forces against the Crusaders. The Byzantine Empire under Manuel I maintains its diplomatic and military presence. In East Asia, the Jin Dynasty controls northern China; the Southern Song Dynasty rules the south. Islamic scholarship and trade networks are at their height.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Pre-Columbian Americas (no Old World written records)",
+    "Northern Europe and Scandinavia (sparse sources)",
+    "Central Asia and the Steppe (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "1161-001",
+      "title": "Fire at Canterbury Cathedral",
+      "region": "England",
+      "coordinates_approx": "51.28, 1.08",
+      "category": "environmental",
+      "description": "A major fire destroyed much of Canterbury Cathedral, including the choir and parts of the nave. The fire necessitated a major reconstruction effort that would occupy the cathedral for years. The rebuilding was part of the broader Romanesque architectural flourishing in 12th-century England and reflected the cathedral's importance as the seat of the Archbishop of Canterbury.",
+      "key_figures": [
+        "Archbishop of Canterbury (position vacant or recently filled)"
+      ],
+      "sources": [
+        {
+          "name": "Gervase of Canterbury, Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Gervase of Canterbury provides a detailed contemporary account of the fire. The date is well established in his chronicle, though some sources give 1162.",
+      "cross_references": [
+        "1164-003 (Consecration of Canterbury Cathedral's new choir)"
+      ]
+    },
+    {
+      "id": "1161-002",
+      "title": "Amalric I crowned King of Jerusalem",
+      "region": "Crusader States",
+      "coordinates_approx": "31.78, 35.23",
+      "category": "political",
+      "description": "Amalric I was crowned King of Jerusalem, succeeding his brother Baldwin III. Amalric's reign (1163\u20131174) was marked by ambitious military campaigns into Egypt and efforts to consolidate Crusader power in the Levant. His reign also saw significant diplomatic engagement with the Byzantine Empire and internal conflicts within the Crusader States.",
+      "key_figures": [
+        "Amalric I (King of Jerusalem)",
+        "Baldwin III (his predecessor)",
+        "Manuel I Komnenos (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "William of Tyre, Historia",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "William of Tyre provides detailed accounts of Amalric's reign. The date of his coronation is well established, though some sources give 1163.",
+      "cross_references": [
+        "1174-002 (Death of Amalric I)"
+      ]
+    },
+    {
+      "id": "1161-003",
+      "title": "Byzantine-Hungarian conflict in the Balkans",
+      "region": "Balkans / Byzantine Empire",
+      "coordinates_approx": "43.0, 21.0",
+      "category": "military",
+      "description": "Tensions between the Byzantine Empire under Manuel I Komnenos and the Kingdom of Hungary escalated into military conflict. Manuel I sought to extend Byzantine influence into the Balkans and Hungary, while Hungarian kings resisted Byzantine hegemony. These conflicts were part of the broader struggle for dominance in the eastern Mediterranean and Balkans during the 12th century.",
+      "key_figures": [
+        "Manuel I Komnenos (Byzantine Emperor)",
+        "Bela III (King of Hungary)"
+      ],
+      "sources": [
+        {
+          "name": "Historiographic consensus (modern scholarship)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine and Hungarian chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Byzantine-Hungarian conflicts occurred across the 1160s\u20131180s. The year 1161 is conventional; specific events of this year are not well documented in surviving sources.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The fire at Canterbury Cathedral is sometimes dated to 1162 rather than 1161; Gervase of Canterbury's account is the primary source, and scholars debate the exact year. Additionally, Amalric I's coronation is sometimes dated to 1163 rather than 1161; sources vary on the exact year and the distinction between his succession and formal coronation.",
+  "historiographic_note": "The year 1161 is moderately well documented in European sources, particularly regarding England and the Crusader States. Byzantine and Hungarian sources provide parallel accounts of Balkan politics. However, most accounts were written decades or centuries after the events. The record is heavily weighted toward political, military, and ecclesiastical events; economic and social developments are underrepresented. Archaeological evidence is limited to architectural remains and numismatic evidence.",
+  "graph_edges": [
+    {
+      "from": "1161-001",
+      "to": "1164-003",
+      "relation": "led_to",
+      "note": "The fire at Canterbury Cathedral in 1161 necessitated the reconstruction whose consecration occurred in 1164."
+    },
+    {
+      "from": "1161-002",
+      "to": "1174-002",
+      "relation": "led_to",
+      "note": "Amalric I's coronation in 1161 marked the beginning of his reign, which lasted until his death in 1174."
+    }
+  ]
+}

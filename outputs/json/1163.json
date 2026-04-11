@@ -1,0 +1,107 @@
+{
+  "year": 1163,
+  "year_label": "1163 CE",
+  "era_context": "The High Middle Ages; the Crusader States are consolidating after the Second Crusade (1147\u20131149). Nur ad-Din Zengi rules Syria and coordinates with Egyptian forces against the Crusaders. The Byzantine Empire under Manuel I maintains its diplomatic and military presence. In East Asia, the Jin Dynasty controls northern China; the Southern Song Dynasty rules the south. Islamic scholarship and trade networks are at their height.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Pre-Columbian Americas (no Old World written records)",
+    "Northern Europe and Scandinavia (sparse sources)"
+  ],
+  "events": [
+    {
+      "id": "1163-001",
+      "title": "Amalric I's first Egyptian campaign",
+      "region": "Egypt / Crusader States",
+      "coordinates_approx": "30.0, 31.2",
+      "category": "military",
+      "description": "King Amalric I of Jerusalem launched the first of several campaigns into Egypt, seeking to exploit the power struggle between the Fatimid Caliphate and the rising Zengid/Ayyubid forces. The campaign achieved some territorial gains but failed to establish permanent Crusader control. This marked the beginning of a decade-long struggle for dominance in Egypt that would ultimately result in Saladin's consolidation of power.",
+      "key_figures": [
+        "Amalric I (King of Jerusalem)",
+        "Shawar (Vizier of Egypt)",
+        "Nur ad-Din Zengi (Zengid ruler of Syria)"
+      ],
+      "sources": [
+        {
+          "name": "William of Tyre, Historia",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "William of Tyre provides detailed accounts of Amalric's Egyptian campaigns. The dating of individual campaigns across 1163\u20131169 is somewhat uncertain; sources sometimes conflate or reorder them.",
+      "cross_references": [
+        "1164-004 (Amalric's continued Egyptian campaigns)"
+      ]
+    },
+    {
+      "id": "1163-002",
+      "title": "Construction of Notre-Dame de Chartres begins",
+      "region": "France",
+      "coordinates_approx": "48.45, 1.49",
+      "category": "cultural",
+      "description": "The construction of the Gothic cathedral of Notre-Dame de Chartres began, replacing an earlier Romanesque structure. The cathedral would become one of the masterpieces of Gothic architecture and a major pilgrimage site dedicated to the Virgin Mary. The project reflected the wealth and piety of the French nobility and the Church during the High Middle Ages.",
+      "key_figures": [
+        "Bishop Renaud de Mou\u00e7on (Bishop of Chartres)"
+      ],
+      "sources": [
+        {
+          "name": "Historiographic consensus (architectural and archaeological evidence)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Later medieval chronicles and records",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The start date of construction is traditionally given as 1163, based on later medieval records and architectural analysis. Some sources suggest construction began after a fire in 1194, but the consensus places the Gothic reconstruction beginning in 1163.",
+      "cross_references": []
+    },
+    {
+      "id": "1163-003",
+      "title": "Council of Tours",
+      "region": "France",
+      "coordinates_approx": "47.39, 0.69",
+      "category": "religious",
+      "description": "A church council was held at Tours, addressing ecclesiastical discipline and heresy. The council reflected the Church's ongoing efforts to combat heterodox movements and maintain doctrinal unity during a period of religious ferment in Western Europe. The council's decrees were part of the broader ecclesiastical reform movement of the 12th century.",
+      "key_figures": [
+        "Pope Alexander III (Papacy)",
+        "French bishops and clergy"
+      ],
+      "sources": [
+        {
+          "name": "Conciliar records and later compilations",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Council of Tours is attested in later ecclesiastical records, but contemporary documentation is sparse. The exact year and significance are somewhat uncertain.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The start date of Notre-Dame de Chartres is disputed. While 1163 is the traditional date, some modern scholarship suggests that the major Gothic reconstruction began after a fire in 1194, with earlier construction being Romanesque. The distinction matters for understanding the development of Gothic architecture. Additionally, the Council of Tours in 1163 is attested in later sources but may be confused with other councils of the same period.",
+  "historiographic_note": "The year 1163 is moderately well documented in European sources, particularly regarding the Crusader States and the French Church. Islamic sources provide parallel accounts of Egyptian and Syrian politics. However, most accounts were written decades or centuries after the events. The record is heavily weighted toward political, military, and ecclesiastical events; economic and social developments are underrepresented. Archaeological evidence is limited to architectural remains.",
+  "graph_edges": [
+    {
+      "from": "1163-001",
+      "to": "1164-004",
+      "relation": "contemporary_with",
+      "note": "Amalric's Egyptian campaigns continued across 1163\u20131169 as part of a sustained effort to control Egypt."
+    },
+    {
+      "from": "1163-002",
+      "to": "1220-001",
+      "relation": "led_to",
+      "note": "The construction of Notre-Dame de Chartres, begun in 1163, continued for decades and became a masterpiece of Gothic architecture."
+    }
+  ]
+}
