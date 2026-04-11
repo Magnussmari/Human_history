@@ -84,7 +84,7 @@
   --sidebar-ring: oklch(0.55 0.12 50);
 
   /* Eternal Codex custom tokens */
-  --gold: #d4af77;
+  --gold: #c9a66b;
   --crimson: #8b2252;
   --cyan-glow: #4ecdc4;
   --noise-opacity: 0.025;
@@ -93,44 +93,47 @@
   --font-scale: 1;
 }
 
-/* ─── Eternal Codex: Dark Mode (Near-Black Manuscript) ─── */
+/* ─── Eternal Codex: Dark Mode (Ultra-Dark Cosmic Void) ─── */
 .dark {
-  --background: oklch(0.05 0.005 50);
-  --foreground: oklch(0.88 0.03 70);
-  --card: oklch(0.09 0.005 50);
-  --card-foreground: oklch(0.88 0.03 70);
-  --popover: oklch(0.09 0.005 50);
-  --popover-foreground: oklch(0.88 0.03 70);
-  --primary: oklch(0.78 0.1 70);
-  --primary-foreground: oklch(0.08 0.005 50);
-  --secondary: oklch(0.15 0.005 50);
-  --secondary-foreground: oklch(0.88 0.03 70);
-  --muted: oklch(0.15 0.005 50);
-  --muted-foreground: oklch(0.5 0.03 60);
-  --accent: oklch(0.78 0.1 70);
-  --accent-foreground: oklch(0.08 0.005 50);
+  --background: #050505;
+  --foreground: #f4e9d8;
+  --card: #111111;
+  --card-foreground: #f4e9d8;
+  --popover: #111111;
+  --popover-foreground: #f4e9d8;
+  --primary: #e8c88a;
+  --primary-foreground: #050505;
+  --secondary: #1a1a1a;
+  --secondary-foreground: #d1c2a8;
+  --muted: #1a1a1a;
+  --muted-foreground: #8a7d6b;
+  --accent: #e8c88a;
+  --accent-foreground: #050505;
   --destructive: oklch(0.6 0.22 25);
-  --border: oklch(0.2 0.02 60);
-  --input: oklch(0.15 0.01 60);
-  --ring: oklch(0.78 0.1 70);
-  --chart-1: oklch(0.78 0.1 70);
+  --border: #222222;
+  --input: #1a1a1a;
+  --ring: #e8c88a;
+  --chart-1: #e8c88a;
   --chart-2: oklch(0.6 0.1 250);
   --chart-3: oklch(0.65 0.15 350);
   --chart-4: oklch(0.7 0.12 150);
   --chart-5: oklch(0.55 0.08 30);
-  --sidebar: oklch(0.08 0.005 50);
-  --sidebar-foreground: oklch(0.88 0.03 70);
-  --sidebar-primary: oklch(0.78 0.1 70);
-  --sidebar-primary-foreground: oklch(0.08 0.005 50);
-  --sidebar-accent: oklch(0.15 0.005 50);
-  --sidebar-accent-foreground: oklch(0.88 0.03 70);
-  --sidebar-border: oklch(0.2 0.02 60);
-  --sidebar-ring: oklch(0.78 0.1 70);
+  --sidebar: #0a0a0a;
+  --sidebar-foreground: #f4e9d8;
+  --sidebar-primary: #e8c88a;
+  --sidebar-primary-foreground: #050505;
+  --sidebar-accent: #1a1a1a;
+  --sidebar-accent-foreground: #f4e9d8;
+  --sidebar-border: #222222;
+  --sidebar-ring: #e8c88a;
 
-  /* Eternal Codex dark custom tokens */
-  --noise-opacity: 0.04;
-  --card-glass-bg: rgba(20, 18, 15, 0.8);
-  --card-glass-border: rgba(212, 175, 119, 0.15);
+  /* Refined Codex tokens */
+  --gold: #e8c88a;
+  --crimson: #8b2252;
+  --cyan-glow: #4ecdc4;
+  --noise-opacity: 0.03;
+  --card-glass-bg: rgba(17, 17, 17, 0.85);
+  --card-glass-border: rgba(232, 200, 138, 0.12);
 }
 
 /* ─── Base Styles ─── */
@@ -147,7 +150,8 @@
 
   body {
     @apply bg-background text-foreground;
-    font-size: calc(1rem * var(--font-scale));
+    font-size: calc(1.0625rem * var(--font-scale));
+    line-height: 1.7;
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -175,17 +179,17 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(212, 175, 119, 0.3);
+  background: rgba(232, 200, 138, 0.3);
   border-radius: 99px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(212, 175, 119, 0.55);
+  background: rgba(232, 200, 138, 0.55);
 }
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(212, 175, 119, 0.3) transparent;
+  scrollbar-color: rgba(232, 200, 138, 0.3) transparent;
 }
 
 /* ─── Scrollbar Hide Utility ─── */
@@ -201,28 +205,28 @@
 @keyframes glow-pulse {
   0%, 100% {
     text-shadow:
-      0 0 20px rgba(212, 175, 119, 0.3),
-      0 0 40px rgba(212, 175, 119, 0.1),
-      0 0 80px rgba(212, 175, 119, 0.05);
+      0 0 20px rgba(232, 200, 138, 0.3),
+      0 0 40px rgba(232, 200, 138, 0.1),
+      0 0 80px rgba(232, 200, 138, 0.05);
   }
   50% {
     text-shadow:
-      0 0 30px rgba(212, 175, 119, 0.55),
-      0 0 60px rgba(212, 175, 119, 0.25),
-      0 0 120px rgba(212, 175, 119, 0.1);
+      0 0 30px rgba(232, 200, 138, 0.55),
+      0 0 60px rgba(232, 200, 138, 0.25),
+      0 0 120px rgba(232, 200, 138, 0.1);
   }
 }
 
 @keyframes glow-border-pulse {
   0%, 100% {
     box-shadow:
-      0 0 0 1px rgba(212, 175, 119, 0.15),
-      0 0 20px rgba(212, 175, 119, 0.05);
+      0 0 0 1px rgba(232, 200, 138, 0.15),
+      0 0 20px rgba(232, 200, 138, 0.05);
   }
   50% {
     box-shadow:
-      0 0 0 1px rgba(212, 175, 119, 0.35),
-      0 0 30px rgba(212, 175, 119, 0.15);
+      0 0 0 1px rgba(232, 200, 138, 0.35),
+      0 0 30px rgba(232, 200, 138, 0.15);
   }
 }
 
@@ -296,29 +300,25 @@
   animation: fade-in 0.4s ease both;
 }
 
-/* ─── Glass Card Utilities ─── */
+/* ─── Glass Card Utilities (Refined: minimal, breathable) ─── */
 .glass-card {
-  background: var(--card-glass-bg);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid var(--card-glass-border);
-  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.2s ease;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px 32px;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .glass-card:hover {
-  border-color: rgba(212, 175, 119, 0.35);
-  box-shadow:
-    0 0 0 1px rgba(212, 175, 119, 0.2),
-    0 8px 32px rgba(0, 0, 0, 0.3),
-    0 0 40px rgba(212, 175, 119, 0.06);
-  transform: translateY(-1px);
+  border-color: rgba(232, 200, 138, 0.25);
+  box-shadow: 0 4px 20px -4px rgba(232, 200, 138, 0.08);
 }
 
 .glass-panel {
   background: rgba(10, 8, 6, 0.6);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
-  border: 1px solid rgba(212, 175, 119, 0.12);
+  border: 1px solid rgba(232, 200, 138, 0.12);
 }
 
 .light .glass-panel {
@@ -331,7 +331,7 @@
   position: relative;
   background: transparent;
   color: var(--gold);
-  border: 1px solid rgba(212, 175, 119, 0.5);
+  border: 1px solid rgba(232, 200, 138, 0.5);
   transition: all 0.25s ease;
   overflow: hidden;
 }
@@ -340,16 +340,16 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(212, 175, 119, 0.1), transparent);
+  background: linear-gradient(135deg, rgba(232, 200, 138, 0.1), transparent);
   opacity: 0;
   transition: opacity 0.25s ease;
 }
 
 .gold-button:hover {
-  border-color: rgba(212, 175, 119, 0.85);
+  border-color: rgba(232, 200, 138, 0.85);
   box-shadow:
-    0 0 20px rgba(212, 175, 119, 0.25),
-    inset 0 0 20px rgba(212, 175, 119, 0.05);
+    0 0 20px rgba(232, 200, 138, 0.25),
+    inset 0 0 20px rgba(232, 200, 138, 0.05);
   color: #f5e0b5;
 }
 
@@ -363,7 +363,7 @@
   height: 10px;
   border-radius: 50%;
   background: var(--gold);
-  box-shadow: 0 0 8px rgba(212, 175, 119, 0.6);
+  box-shadow: 0 0 8px rgba(232, 200, 138, 0.6);
   flex-shrink: 0;
 }
 
