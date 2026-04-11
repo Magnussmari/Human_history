@@ -2,16 +2,9 @@
 
 > 5,226 years. One JSON per year. Every claim sourced. Every gap declared.
 
+**[View the Interactive Timeline](https://human-history-acording-to-ai.vercel.app)** | [GitHub](https://github.com/Magnussmari/Human_history_Acording_to_AI)
+
 <!-- PROGRESS_START -->
-## 🌐 Live Progress
-
-```
-[=--------------------------------------------------] ?%
-
-1136 / 5226 years completed · 0 failed · 4090 remaining
-Currently researching: ~890 CE
-Last updated: 2026-04-11T18:15:44Z
-```
 <!-- PROGRESS_END -->
 
 **Every year of recorded human civilization. Structured. Sourced. Machine-readable.**
@@ -223,6 +216,51 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ---
 
+## Interactive Frontend
+
+A Next.js 16 timeline app lives in [`/frontend`](frontend/) -- built with shadcn/ui, TanStack Virtual (handles 5,226 years smoothly), and a dark ancient-history aesthetic.
+
+**Features:**
+- Virtualized timeline with year cards, era navigation, category/certainty filters
+- Full year detail pages with events, sources, disconfirming evidence, graph edges
+- Search (Cmd+K) across all events, figures, and descriptions
+- Live progress banner from `state/progress.json`
+- GitHub Actions auto-aggregates data into 100-year chunks on every push
+
+**Data flow:** The daemon produces individual JSON files -> `scripts/aggregate-data.mjs` chunks them into 100-year blocks -> the frontend loads chunks on demand.
+
+**Deploy:** Import the repo on Vercel, set root directory to `frontend`.
+
+---
+
+## Quality Assurance
+
+The corpus is validated continuously with Python scripts:
+
+```bash
+# Full ICCRA schema validation (categories, certainties, sources, structure)
+python3 scripts/validate_corpus.py
+
+# Fix compound categories ("political | military" -> "political")
+python3 scripts/fix_categories.py
+
+# Backfill _meta on files missing model/cost tracking
+python3 scripts/backfill_meta.py
+```
+
+**Latest validation pass: 100% valid** (1,140 files, 11,283 events, 0 errors).
+
+| Check | Result |
+|-------|--------|
+| JSON structure | All files parse cleanly |
+| Required fields | year, year_label, era_context, events, disconfirming_evidence -- all present |
+| Category values | 11 valid categories, compound categories auto-fixed |
+| Certainty values | 5 valid levels: confirmed (80.6%), probable (15.7%), approximate (3.5%) |
+| Source attribution | 99.98% of events have named sources |
+| Model tracking | `_meta` field on every file with model, method, timestamp |
+
+---
+
 ## Architecture
 
 ```
@@ -235,12 +273,22 @@ Human_history/
     run_optimized.py          # Single-year runner
     batch_processor.py        # 5 years per API call
     token_monitor.py          # Real-time cost dashboard
-    git_sync.sh               # Auto-push to GitHub
+    validate_corpus.py        # ICCRA schema validator
+    fix_categories.py         # Auto-fix compound categories
+    backfill_meta.py          # Backfill _meta on old files
+    git_sync.sh               # Auto-push to GitHub every 20 years
     health_check.sh           # Quick status
+  frontend/                   # Next.js 16 interactive timeline
+    src/app/                  # App Router pages
+    src/components/           # Timeline, filters, search, event cards
+    scripts/aggregate-data.mjs # Chunk JSON into 100-year blocks
+    .github/workflows/        # Auto-aggregate on push
   docker/
     Dockerfile                # Python 3.11 slim
     docker-compose.yml        # Reboot-persistent
-  outputs/json/               # One file per year
+  outputs/json/               # One file per year (2025.json -> -3200.json)
+  outputs/haiku_experiment/   # Archived Haiku test outputs
+  outputs/gemini_experiment/  # Archived Gemini Flash test output
   state/
     progress.json             # Completed / failed / in-progress
     token_usage.json          # Per-request cost tracking
