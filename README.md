@@ -6,11 +6,11 @@
 ## 🌐 Live Progress
 
 ```
-[===-----------------------------------------------] 6.7%
+[=--------------------------------------------------] ?%
 
-351 / 5226 years completed · 0 failed · 4875 remaining
-Currently researching: ~1675 CE
-Last updated: 2026-04-11T12:56:09Z
+376 / 5226 years completed · 0 failed · 4850 remaining
+Currently researching: ~1650 CE
+Last updated: 2026-04-11T13:04:15Z
 ```
 <!-- PROGRESS_END -->
 
