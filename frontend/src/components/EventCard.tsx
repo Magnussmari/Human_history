@@ -44,13 +44,18 @@ export function EventCard({ event }: EventCardProps) {
 
   return (
     <motion.div
-      className="parchment-card rounded-xl overflow-hidden transition-all"
+      className="overflow-hidden transition-all"
+      style={{
+        background: "#111111",
+        border: "1px solid #222222",
+        borderRadius: "16px",
+      }}
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.3, type: "spring", stiffness: 250, damping: 28 }}
-      whileHover={{ y: -1 }}
+      transition={{ duration: 0.3, type: "spring" as const, stiffness: 250, damping: 28 }}
+      whileHover={{ boxShadow: "0 4px 20px -4px rgba(232,200,138,0.08)" }}
     >
-      <div className="p-5">
+      <div style={{ padding: "28px 32px" }}>
         {/* Header row */}
         <div className="flex flex-wrap items-center gap-2 mb-3">
           <span className={cn("inline-flex items-center gap-1.5 rounded-md px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider", catConfig.color)}>
@@ -73,14 +78,14 @@ export function EventCard({ event }: EventCardProps) {
 
         {/* Title */}
         <h3
-          className="text-lg font-semibold text-foreground mb-2 leading-snug"
-          style={{ fontFamily: "var(--font-heading), serif" }}
+          className="font-semibold mb-3 leading-snug"
+          style={{ fontFamily: "var(--font-heading), serif", fontSize: "1.75rem", color: "#f4e9d8", letterSpacing: "-0.02em" }}
         >
           {event.title}
         </h3>
 
         {/* Description */}
-        <p className="text-sm text-foreground/70 leading-relaxed">{event.description}</p>
+        <p style={{ color: "#d1c2a8", fontSize: "17px", lineHeight: 1.7 }}>{event.description}</p>
 
         {/* Key figures */}
         {event.key_figures.length > 0 && (
@@ -92,7 +97,8 @@ export function EventCard({ event }: EventCardProps) {
               {event.key_figures.map((fig) => (
                 <span
                   key={fig}
-                  className="rounded-full bg-muted/60 border border-border/40 px-2.5 py-0.5 text-[11px] font-medium text-foreground/80"
+                  className="rounded-full border px-3 py-1 font-medium"
+                  style={{ background: "#1a1a1a", borderColor: "#222222", fontSize: "0.95rem", color: "#d1c2a8" }}
                 >
                   {fig}
                 </span>

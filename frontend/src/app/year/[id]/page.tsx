@@ -163,37 +163,32 @@ export default function YearPage() {
           </h1>
 
           <p
-            className="text-lg sm:text-xl text-foreground/75 leading-relaxed max-w-3xl italic"
-            style={{ fontFamily: "var(--font-heading), serif" }}
+            className="text-xl sm:text-2xl leading-relaxed max-w-3xl italic"
+            style={{ fontFamily: "var(--font-heading), serif", color: "#d1c2a8", lineHeight: 1.7 }}
           >
             {year.era_context}
           </p>
         </motion.div>
 
-        {/* Geographic Gaps */}
+        {/* Geographic Gaps — subtle horizontal banner */}
         {year.geographic_coverage_gaps.length > 0 && (
           <motion.div
             variants={stagger.item}
-            className="mb-6 rounded-xl p-5"
+            className="mb-10 flex flex-wrap items-center gap-2 px-4 py-3 rounded-full"
             style={{
-              background: "rgba(212, 150, 30, 0.06)",
-              border: "1px solid rgba(212, 150, 30, 0.2)",
+              background: "rgba(232, 200, 138, 0.04)",
+              border: "1px solid rgba(232, 200, 138, 0.1)",
             }}
           >
-            <h3
-              className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] mb-3"
-              style={{ color: "#d4961e" }}
-            >
-              <MapPin size={13} />
-              Geographic Coverage Gaps
-            </h3>
-            <ul className="space-y-1">
-              {year.geographic_coverage_gaps.map((gap, i) => (
-                <li key={i} className="text-sm leading-relaxed" style={{ color: "rgba(212,150,30,0.8)" }}>
-                  <span className="mr-2 opacity-50">—</span>{gap}
-                </li>
-              ))}
-            </ul>
+            <MapPin size={12} style={{ color: "#e8c88a", opacity: 0.6 }} />
+            <span className="text-[11px] font-medium uppercase tracking-wider" style={{ color: "rgba(232,200,138,0.5)" }}>
+              Coverage gaps:
+            </span>
+            {year.geographic_coverage_gaps.map((gap, i) => (
+              <span key={i} className="text-[12px]" style={{ color: "rgba(232,200,138,0.45)" }}>
+                {gap}{i < year.geographic_coverage_gaps.length - 1 ? " /" : ""}
+              </span>
+            ))}
           </motion.div>
         )}
 
@@ -229,7 +224,7 @@ export default function YearPage() {
             </div>
           )}
 
-          <div className="space-y-4">
+          <div className="space-y-6">
             {year.events.map((event) => (
               <EventCard key={event.id} event={event} />
             ))}
@@ -240,20 +235,20 @@ export default function YearPage() {
         {year.disconfirming_evidence && (
           <motion.div
             variants={stagger.item}
-            className="mb-6 rounded-xl p-5"
+            className="mb-8 rounded-2xl p-7"
             style={{
-              background: "rgba(139, 34, 82, 0.08)",
-              border: "1px solid rgba(139, 34, 82, 0.25)",
+              background: "#111111",
+              border: "1px solid #222222",
             }}
           >
             <h3
-              className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] mb-3"
+              className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] mb-4"
               style={{ color: "#c44b7a" }}
             >
               <AlertTriangle size={13} />
               Disconfirming Evidence
             </h3>
-            <p className="text-sm leading-relaxed" style={{ color: "rgba(220,150,180,0.85)" }}>
+            <p style={{ color: "#f4e9d8", fontSize: "17px", lineHeight: 1.7 }}>
               {year.disconfirming_evidence}
             </p>
           </motion.div>
@@ -263,17 +258,17 @@ export default function YearPage() {
         {year.historiographic_note && (
           <motion.div
             variants={stagger.item}
-            className="mb-6 rounded-xl p-5"
+            className="mb-8 rounded-2xl p-7"
             style={{
-              background: "rgba(212,175,119,0.04)",
-              border: "1px solid rgba(212,175,119,0.12)",
+              background: "#111111",
+              border: "1px solid #222222",
             }}
           >
-            <h3 className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] mb-3 text-muted-foreground">
+            <h3 className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] mb-4 text-muted-foreground">
               <BookOpen size={13} />
               Historiographic Note
             </h3>
-            <p className="text-sm text-muted-foreground leading-relaxed italic">
+            <p className="italic" style={{ color: "#d1c2a8", fontSize: "17px", lineHeight: 1.7 }}>
               {year.historiographic_note}
             </p>
           </motion.div>
