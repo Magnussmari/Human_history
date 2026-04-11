@@ -3,15 +3,6 @@
 > 5,226 years. One JSON per year. Every claim sourced. Every gap declared.
 
 <!-- PROGRESS_START -->
-## 🌐 Live Progress
-
-```
-[=--------------------------------------------------] ?%
-
-376 / 5226 years completed · 0 failed · 4850 remaining
-Currently researching: ~1650 CE
-Last updated: 2026-04-11T13:04:15Z
-```
 <!-- PROGRESS_END -->
 
 **Every year of recorded human civilization. Structured. Sourced. Machine-readable.**
@@ -33,8 +24,9 @@ This is not a textbook. It is a **structured knowledge corpus** designed for gra
 | **Cycle interval** | 60 seconds |
 | **Schedule** | 24/7 (API-based, no subscription quota) |
 | **Estimated runtime** | ~3-4 days |
-| **Cost per year** | ~$0.009 (batch mode with Haiku) |
-| **Projected total cost** | ~$50 |
+| **Model** | Claude Sonnet 4.6 (all years) |
+| **Cost per year** | ~$0.20 |
+| **Projected total cost** | ~$1,000 |
 | **Output per year** | 20-50KB structured JSON |
 | **Source types** | Primary text, archaeological, epigraphic, numismatic, chronicle, oral tradition |
 | **Certainty levels** | Confirmed, probable, approximate, traditional, legendary |
@@ -71,29 +63,50 @@ Fed the Kimi optimization spec into Claude Code, which:
 4. Deployed and tested on the remote server via SSH
 5. Validated with single-year and parallel batch tests before switching over
 
-### Phase 4: Direct Anthropic API (Current)
+### Phase 4: Haiku Experiment (Failed)
 
-Now running with direct API calls:
-- **Cost model:** Pay-per-token via Anthropic API
-- **Tiered models:** Haiku for modern years (1950+), Sonnet for middle (0-1949), Opus for ancient
-- **Batch processing:** 5 years per API call
-- **Cost per year:** $0.009 (batch Haiku) vs. $0.22 (CLI Sonnet) -- **96% reduction**
+Initial API migration used tiered models with Haiku for batch processing. Quality comparison revealed:
+- Haiku produced **thinner output** -- shorter descriptions, fewer cross-references, empty geographic_coverage_gaps
+- Sonnet (both CLI and API) produced **A+ quality** -- rich sourcing, nuanced certainty notes, proper gap declarations
+- **Decision:** Haiku not up to the task for historical research. All Haiku outputs moved to `outputs/haiku_experiment/` and those years queued for Sonnet re-research.
+
+### Phase 5: Sonnet 4.6 for All (Current)
+
+Now running with Claude Sonnet 4.6 for every year, via direct Anthropic API:
+- **Model:** Claude Sonnet 4.6 exclusively (quality over cost)
+- **Cost per year:** ~$0.20 via direct API
+- **Batch processing:** 5 years per API call for throughput
 - **Speed:** 25 years per 60-second cycle (vs. 5 years per 20 minutes)
 - **Schedule:** Runs 24/7 -- no subscription quota limits
-- **Estimated completion:** ~3-4 days (vs. 70 days originally)
+- **Estimated completion:** ~4-5 days (vs. 70 days originally)
+- **Every output has `_meta`:** Model, cost, method, and timestamp tracked per year
 
 ### The Takeaway
 
 | Metric | Before (CLI) | After (API) | Improvement |
 |--------|-------------|-------------|-------------|
-| Cost per year | $0.22 | $0.009 | 96% cheaper |
+| Cost per year | $0.22 | ~$0.20 (Sonnet direct) | Same quality, no overhead |
 | Years per cycle | 5 | 25 | 5x throughput |
 | Cycle interval | 20 min | 60 sec | 20x faster |
 | Schedule | Off-hours only | 24/7 | No restrictions |
 | Est. total time | 70 days | 3-4 days | 20x faster |
-| Est. total cost | ~$1,150 | ~$50 | 96% cheaper |
+| Est. total cost | ~$1,150 | ~$1,000 (Sonnet quality) | No rate limiting |
 
-**Key techniques:** Direct API calls (eliminate CLI overhead), tiered model selection, batch processing, response caching, async Python with controlled concurrency.
+**Key techniques:** Direct API calls (eliminate CLI overhead), model quality testing, batch processing, response caching, async Python with controlled concurrency.
+
+### Model Experiments
+
+We tested multiple models to find the optimal quality/cost balance:
+
+| Model | Events/year | Cost/year (batch) | Quality | Verdict |
+|-------|------------|-------------------|---------|---------|
+| **Claude Sonnet 4.6** | 20-25 | $0.03 | A+ | **Selected** -- rich sourcing, nuanced certainty |
+| Claude Haiku 4.5 | 10-15 | $0.009 | B+ | Rejected -- thin descriptions, empty gap declarations |
+| Gemini 3 Flash | 6 | ~free | B | Rejected -- valid schema but too sparse |
+
+Haiku outputs are preserved in `outputs/haiku_experiment/` and Gemini in `outputs/gemini_experiment/` for comparison.
+
+**Future candidates worth testing:** GPT-4.1 batch (~$0.016/year, 1M context), DeepSeek R1 (~$0.009/year, reasoning chains), Qwen3-235B (~$0.004/year, strong APAC coverage). See the [model research notes](https://github.com/Magnussmari/Human_history_Acording_to_AI) for the full April 2026 model landscape analysis.
 
 ---
 
