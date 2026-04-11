@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#050505"/>
+  <rect x="16" y="16" width="480" height="480" rx="80" fill="none" stroke="#e8c88a" stroke-width="2" opacity="0.15"/>
+  <!-- Open book / codex -->
+  <g transform="translate(256,240)">
+    <!-- Left page -->
+    <path d="M-20,-80 L-20,80 Q-100,70 -140,20 L-140,-60 Q-100,-80 -20,-80Z" fill="none" stroke="#e8c88a" stroke-width="6" opacity="0.9"/>
+    <!-- Right page -->
+    <path d="M20,-80 L20,80 Q100,70 140,20 L140,-60 Q100,-80 20,-80Z" fill="none" stroke="#e8c88a" stroke-width="6" opacity="0.9"/>
+    <!-- Spine -->
+    <line x1="0" y1="-85" x2="0" y2="85" stroke="#e8c88a" stroke-width="3" opacity="0.6"/>
+    <!-- Text lines left -->
+    <line x1="-100" y1="-40" x2="-40" y2="-40" stroke="#e8c88a" stroke-width="2.5" opacity="0.25"/>
+    <line x1="-110" y1="-20" x2="-35" y2="-20" stroke="#e8c88a" stroke-width="2.5" opacity="0.2"/>
+    <line x1="-105" y1="0" x2="-38" y2="0" stroke="#e8c88a" stroke-width="2.5" opacity="0.15"/>
+    <line x1="-95" y1="20" x2="-42" y2="20" stroke="#e8c88a" stroke-width="2.5" opacity="0.12"/>
+    <!-- Text lines right -->
+    <line x1="40" y1="-40" x2="100" y2="-40" stroke="#e8c88a" stroke-width="2.5" opacity="0.25"/>
+    <line x1="35" y1="-20" x2="110" y2="-20" stroke="#e8c88a" stroke-width="2.5" opacity="0.2"/>
+    <line x1="38" y1="0" x2="105" y2="0" stroke="#e8c88a" stroke-width="2.5" opacity="0.15"/>
+    <line x1="42" y1="20" x2="95" y2="20" stroke="#e8c88a" stroke-width="2.5" opacity="0.12"/>
+  </g>
+  <!-- Small glow dot at center top -->
+  <circle cx="256" cy="148" r="4" fill="#e8c88a" opacity="0.5"/>
+  <!-- EC monogram below -->
+  <text x="256" y="420" text-anchor="middle" font-family="Georgia,serif" font-size="48" font-weight="700" fill="#e8c88a" opacity="0.35" letter-spacing="8">EC</text>
+</svg>
