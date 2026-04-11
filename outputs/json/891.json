@@ -1,0 +1,105 @@
+{
+  "year": 891,
+  "year_label": "891 CE",
+  "era_context": "The late 9th century CE: Western Europe was fragmented into competing Frankish kingdoms; the Abbasid Caliphate was in a period of transition; China was in the final decades of Tang Dynasty rule with warlords rising to power; the Viking Age continued to reshape Northern Europe; India saw competition between major dynasties.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Mesoamerica and North America (no written records)",
+    "Southeast Asia (sparse documentation)",
+    "Eastern Europe and the Steppe (limited contemporary sources)"
+  ],
+  "events": [
+    {
+      "id": "891-001",
+      "title": "Council of Reims convened by Arnulf of Carinthia",
+      "region": "Frankish Kingdom (Reims, modern France)",
+      "coordinates_approx": "49.3, 4.0",
+      "category": "religious",
+      "description": "Arnulf of Carinthia convened a church council at Reims to address ecclesiastical and political issues within the Frankish kingdom. The council dealt with matters of church discipline and the relationship between secular and ecclesiastical authority. This event reflects the continued importance of the church in Frankish politics and Arnulf's efforts to consolidate his authority through religious legitimacy.",
+      "key_figures": [
+        "Arnulf of Carinthia (King of the Franks)",
+        "Church leaders and bishops at Reims"
+      ],
+      "sources": [
+        {
+          "name": "Annales Fuldenses (Fulda Annals)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Regino of Pr\u00fcm, Chronicon",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Church councils are documented in Frankish annals, though specific details about the Council of Reims in 891 are sparse. The date is assigned by historiographic convention.",
+      "cross_references": []
+    },
+    {
+      "id": "891-002",
+      "title": "Tang Dynasty in terminal decline; warlords consolidate power",
+      "region": "China (multiple regions)",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "political",
+      "description": "By 891, the Tang Dynasty was in its final years, with central authority effectively collapsed. Regional warlords, including Zhu Wen in the north and others in the south, were consolidating power and establishing semi-independent kingdoms. The year 891 marks a point in the ongoing fragmentation that would lead to the formal end of the Tang Dynasty in 907 and the beginning of the Five Dynasties and Ten Kingdoms period.",
+      "key_figures": [
+        "Tang Emperor Zhaozong (nominal authority)",
+        "Zhu Wen (Northern warlord)",
+        "Other regional warlords (unnamed in general sources)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Old History of the Five Dynasties",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general chronology of Tang Dynasty decline is well-established; specific events in 891 are not always clearly dated in surviving sources.",
+      "cross_references": [
+        "907-001 (formal end of Tang Dynasty)"
+      ]
+    },
+    {
+      "id": "891-003",
+      "title": "Viking raids on England and the Continent",
+      "region": "Western Europe (England, Frankish territories)",
+      "coordinates_approx": "52.0, 0.0",
+      "category": "military",
+      "description": "Viking raids continued throughout Western Europe in 891, with Norse raiders targeting coastal and riverine settlements in England and the Frankish territories. The ongoing Viking threat shaped the military and political strategies of Western European rulers. While no single major battle is documented for this year, the Viking Age was in full swing, with long-term consequences for the political and cultural development of Northern Europe.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Annales Fuldenses (Fulda Annals)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Viking raids are well-documented as a general phenomenon in this period, though specific events in 891 are not always clearly dated in surviving sources.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The Council of Reims in 891 is sometimes cited as evidence of Arnulf's strong authority, but modern scholarship notes that Arnulf's power was contested and that church councils were often convened by multiple parties with competing interests. The council did not result in lasting ecclesiastical or political reforms.",
+  "historiographic_note": "Documentation for 891 relies on Western European chronicles (Frankish annals, Anglo-Saxon Chronicle) and later Chinese compilations. Contemporary sources are limited to Western Europe. Islamic sources are sparse for this specific year. The record is biased toward political and military events; economic, social, and cultural developments are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "891-002",
+      "to": "907-001",
+      "relation": "led_to",
+      "note": "The Tang Dynasty's terminal decline in 891 led directly to the formal establishment of the Later Liang dynasty in 907"
+    }
+  ]
+}

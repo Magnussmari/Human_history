@@ -1,0 +1,105 @@
+{
+  "year": 893,
+  "year_label": "893 CE",
+  "era_context": "The late 9th century CE: Western Europe fragmented into competing Frankish kingdoms; the Islamic world was dominated by the Abbasid Caliphate and its regional successor states; China was in the final decades of Tang Dynasty rule with warlords rising to power; India saw competition between the Pratihara, Pala, and Chola dynasties; the Viking Age continued to reshape Northern Europe and the Atlantic world.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Mesoamerica and North America (no written records)",
+    "Southeast Asia (sparse documentation)",
+    "Eastern Europe and the Steppe (limited contemporary sources)"
+  ],
+  "events": [
+    {
+      "id": "893-001",
+      "title": "Arnulf of Carinthia crowned Emperor",
+      "region": "Frankish Kingdom (Carolingian successor states)",
+      "coordinates_approx": "48.2, 16.4",
+      "category": "political",
+      "description": "Arnulf of Carinthia was crowned Holy Roman Emperor by Pope Formosus, legitimizing his rule over the fragmented Frankish territories. This coronation represented an attempt to restore imperial authority in Western Europe, though Arnulf's power was contested by other Frankish kings and his reign was marked by constant military campaigns. The coronation is significant as a symbolic reassertion of Carolingian imperial ideology in the post-Charlemagne era.",
+      "key_figures": [
+        "Arnulf of Carinthia (King and newly crowned Emperor)",
+        "Pope Formosus (Papal authority)"
+      ],
+      "sources": [
+        {
+          "name": "Annales Fuldenses (Fulda Annals)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Liber Pontificalis (Book of the Popes)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Multiple contemporary and near-contemporary sources confirm Arnulf's coronation in 893. The date is well-established in Frankish and papal records.",
+      "cross_references": []
+    },
+    {
+      "id": "893-002",
+      "title": "Zhu Wen defeats the Khitan threat",
+      "region": "North China (Later Liang territory)",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "military",
+      "description": "Zhu Wen's forces repelled a Khitan incursion from the north, securing the Later Liang state's northern frontier. This military success strengthened Zhu Wen's position as the dominant warlord in North China and demonstrated his ability to defend against both internal rivals and external threats. The victory contributed to his consolidation of power in the region.",
+      "key_figures": [
+        "Zhu Wen (Later Liang military strongman)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Old History of the Five Dynasties",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general chronology of Zhu Wen's military campaigns is established, but specific dating of individual engagements is uncertain. The year 893 is assigned by historiographic convention.",
+      "cross_references": [
+        "894-002 (Zhu Wen's broader consolidation)"
+      ]
+    },
+    {
+      "id": "893-003",
+      "title": "Al-Mu'tadid consolidates Abbasid authority",
+      "region": "Abbasid Caliphate (Iraq and surrounding regions)",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "The Abbasid Caliph al-Mu'tadid (r. 892\u2013902) continued his efforts to restore central authority after decades of fragmentation. In 893, he was consolidating control over Iraq and the Levant, reducing the power of regional governors and military factions. This period marks a brief resurgence of Abbasid power before the dynasty's final decline in the 10th century.",
+      "key_figures": [
+        "Al-Mu'tadid (Abbasid Caliph)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Mas'udi, Meadows of Gold",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Abbasid history",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad political situation is well-established; no specific event in 893 is documented. The year is included for era context.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Arnulf's coronation as Emperor in 893 is sometimes presented as a restoration of Charlemagne's empire, but modern scholarship emphasizes that Arnulf's authority was limited and contested. His imperial title was largely symbolic; real power remained fragmented among regional Frankish kings. The coronation did not reverse the political fragmentation of the Frankish world.",
+  "historiographic_note": "Documentation for 893 relies heavily on Western European chronicles (Frankish annals) and later Chinese compilations. Contemporary sources are limited to Western Europe. Islamic sources are sparse for this specific year. The record is biased toward political and military events; economic, social, and cultural developments are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "893-001",
+      "to": "899-001",
+      "relation": "led_to",
+      "note": "Arnulf's coronation as Emperor in 893 preceded his military campaigns in Italy and his eventual decline in power by the end of the decade"
+    }
+  ]
+}

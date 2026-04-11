@@ -1,0 +1,95 @@
+{
+  "year": 908,
+  "year_label": "908 CE",
+  "era_context": "The early 10th century continues the fragmentation of major empires. The Abbasid Caliphate is in decline; the Fatimid movement is organizing in North Africa (proclamation in 909 CE is imminent). In Europe, the Carolingian successor states are consolidating into feudal kingdoms. In East Asia, the Five Dynasties and Ten Kingdoms period has just begun following the Tang Dynasty's fall in 907 CE. The Byzantine Empire remains stable and militarily active in the Mediterranean.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (virtually no written sources for specific events)",
+    "Pre-Columbian Americas (no written records)",
+    "Northern and Eastern Europe beyond Frankish sphere",
+    "Central Asia and the Steppe (fragmentary sources)",
+    "South Asia (limited sources for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "908-001",
+      "title": "Later Liang Dynasty consolidates control in northern China",
+      "region": "Northern China, Later Liang state",
+      "coordinates_approx": "34.5\u00b0N, 114.5\u00b0E",
+      "category": "political | military",
+      "description": "Zhu Wen (Emperor Taizu of Later Liang), founder of the Later Liang Dynasty, continues consolidation of power in northern China following the collapse of the Tang Dynasty in 907 CE. By 908 CE, Later Liang controls the Yellow River valley and much of northern China, establishing itself as the dominant power in the Five Dynasties period. Zhu Wen's military campaigns and administrative reforms aim to restore centralized authority after decades of Tang decline and warlord fragmentation. This represents the beginning of a century-long period of regional division before reunification under the Song Dynasty.",
+      "key_figures": [
+        "Zhu Wen / Emperor Taizu of Later Liang (r. 907\u2013912)",
+        "Li Cunxu (rival warlord, Later Tang)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government), compiled by Sima Guang, 11th century",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Official histories of the Five Dynasties (compiled during Song Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The chronology of Later Liang consolidation is well-documented in Chinese historical sources, though these were compiled centuries later. The year 908 CE falls within the period of Zhu Wen's active consolidation (907\u2013912 CE).",
+      "cross_references": [
+        "Follows from 907-001 (Fall of Tang Dynasty)",
+        "Part of broader Five Dynasties and Ten Kingdoms period (907\u2013960 CE)"
+      ]
+    },
+    {
+      "id": "908-002",
+      "title": "Byzantine military campaign in Sicily and southern Italy",
+      "region": "Sicily and southern Italy, Byzantine Empire",
+      "coordinates_approx": "37.5\u00b0N, 14.0\u00b0E",
+      "category": "military",
+      "description": "The Byzantine Empire, under Emperor Leo VI (r. 886\u2013912), continues military operations in Sicily and southern Italy against Arab raiders and local powers. Byzantine control of these regions is contested and fragmented. Naval and military campaigns aim to maintain Byzantine presence and prevent Arab expansion. These efforts are part of the broader Byzantine-Arab conflict that has characterized the Mediterranean for centuries. The Byzantine military presence in southern Italy will eventually be displaced by Norman conquest in the 11th century.",
+      "key_figures": [
+        "Leo VI 'the Wise' (Byzantine Emperor, r. 886\u2013912)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes Continuatus (continuation of Theophanes' chronicle), 10th century",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Constantine VII Porphyrogennetus, De Administrando Imperio (10th century)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Byzantine military activity in southern Italy during Leo VI's reign is confirmed, but specific campaigns in 908 CE are not precisely dated in surviving sources. The year is assigned by convention within the broader period of Leo VI's reign.",
+      "cross_references": [
+        "Part of ongoing Byzantine-Arab conflict (7th\u201311th centuries)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The extent of Later Liang's actual control in 908 CE is debated by modern scholars. While Zhu Wen is credited with founding Later Liang in 907 CE, the consolidation of power was gradual and contested. Rival warlords, particularly Li Cunxu (who would found Later Tang), maintained significant power in the northeast. The traditional narrative of Later Liang as the dominant power may overstate centralization. Byzantine military activity in southern Italy is attested but often poorly dated; the specific significance of 908 CE is unclear.",
+  "historiographic_note": "Documentation for 908 CE is sparse. Chinese sources are relatively abundant but were compiled centuries after the events described, introducing potential distortions. Byzantine sources are fragmentary for this period. European sources are minimal. The year 908 CE falls in a period of significant historical transition but lacks the dramatic events (like the Fatimid proclamation in 909 CE) that generate detailed contemporary or near-contemporary documentation. This year is likely underrepresented in historical narratives due to the absence of major, well-documented events.",
+  "graph_edges": [
+    {
+      "from": "908-001",
+      "to": "907-001",
+      "relation": "led_to",
+      "note": "Later Liang consolidation is a direct consequence of Tang Dynasty collapse"
+    },
+    {
+      "from": "908-001",
+      "to": "960-001",
+      "relation": "led_to",
+      "note": "Five Dynasties fragmentation (including Later Liang) eventually leads to Song Dynasty reunification (960 CE)"
+    },
+    {
+      "from": "908-002",
+      "to": "1091-001",
+      "relation": "led_to",
+      "note": "Byzantine military presence in southern Italy is eventually displaced by Norman conquest (11th century)"
+    }
+  ]
+}

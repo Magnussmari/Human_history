@@ -1,0 +1,91 @@
+{
+  "year": 906,
+  "year_label": "906 CE",
+  "era_context": "The early 10th century is a period of transition and fragmentation across Eurasia. The Tang Dynasty in China is in its final years of decline (collapse in 907 CE). The Abbasid Caliphate is fragmenting, with provincial governors asserting independence. In Europe, the Carolingian Empire has long since collapsed into feudal kingdoms; the Viking Age continues. The Byzantine Empire remains stable. This year falls in the twilight of the Tang Dynasty and the height of the Viking Age.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written sources)",
+    "Pre-Columbian Americas (no written records)",
+    "Northern and Eastern Europe beyond Frankish sphere",
+    "Central Asia and the Steppe (fragmentary sources)",
+    "South Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "906-001",
+      "title": "Tang Dynasty in terminal decline; warlord fragmentation accelerates",
+      "region": "China",
+      "coordinates_approx": "34.5\u00b0N, 114.5\u00b0E",
+      "category": "political | military",
+      "description": "By 906 CE, the Tang Dynasty is in its final year of effective rule. Central authority has collapsed; warlords control regional territories; the imperial court is weak and manipulated by military strongmen. Zhu Wen, a military commander, is consolidating power in northern China and will depose the Tang emperor in 907 CE to found the Later Liang Dynasty. The year 906 CE represents the nadir of Tang power, with the dynasty on the verge of formal collapse. This period of fragmentation will last until the Song Dynasty's reunification in 960 CE. The decline of Tang is marked by military defeats, loss of Silk Road trade, and the rise of regional warlords.",
+      "key_figures": [
+        "Zhu Wen (military strongman, future Emperor Taizu of Later Liang)",
+        "Tang Aizong (Tang emperor, soon to be deposed)",
+        "Li Keyong (rival warlord)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government), compiled by Sima Guang, 11th century",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Official histories of the Five Dynasties (compiled during Song Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general state of Tang decline in 906 CE is well-documented in Chinese sources. The specific events of 906 CE are not precisely dated; the year is assigned by convention within the broader period of Tang collapse (900\u2013907 CE).",
+      "cross_references": [
+        "Precedes Tang Dynasty fall (907 CE)",
+        "Part of broader Five Dynasties and Ten Kingdoms period (907\u2013960 CE)"
+      ]
+    },
+    {
+      "id": "906-002",
+      "title": "Abbasid Caliphate continues fragmentation; provincial autonomy increases",
+      "region": "Islamic world",
+      "coordinates_approx": "30.0\u00b0N, 10.0\u00b0E",
+      "category": "political",
+      "description": "The Abbasid Caliphate continues its decline in 906 CE. Provincial governors throughout the Islamic world act with increasing independence; the Caliph's authority is nominal. North Africa is dominated by independent dynasties; Spain is ruled by the Umayyad Emirate of C\u00f3rdoba; Egypt is contested. The Fatimid movement is organizing in North Africa and will proclaim a rival Caliphate in 909 CE. The Abbasid Caliphate retains religious prestige but little political power. This fragmentation is a defining feature of the early 10th century Islamic world.",
+      "key_figures": [
+        "Al-Muktafi bi-Allah (Abbasid Caliph, r. 902\u2013909)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Mas'udi, Meadows of Gold",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Islamic history scholarship",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general state of Abbasid fragmentation in 906 CE is well-documented. Specific events of 906 CE are not precisely dated.",
+      "cross_references": [
+        "Precedes Fatimid proclamation (909 CE)",
+        "Part of broader Abbasid decline"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Tang Dynasty decline as a linear, inevitable process is questioned by modern scholars, who point to periods of attempted recovery and reform. The year 906 CE is not marked by any specific, documented event; it is assigned significance primarily by its proximity to the 907 CE collapse. The extent of Abbasid fragmentation by 906 CE is sometimes overstated; the Caliphate retained some administrative capacity and religious authority.",
+  "historiographic_note": "Documentation for 906 CE is sparse. Chinese sources provide general context for Tang decline but do not record specific events for this year. Islamic sources are similarly general. European sources are minimal. The year 906 CE is historically significant primarily as a precursor to the Tang Dynasty's fall in 907 CE, but it lacks distinctive events of its own. This year is likely underrepresented in historical narratives due to the absence of major, well-documented events.",
+  "graph_edges": [
+    {
+      "from": "906-001",
+      "to": "907-001",
+      "relation": "led_to",
+      "note": "Tang decline in 906 CE leads directly to dynasty's fall in 907 CE"
+    },
+    {
+      "from": "906-002",
+      "to": "909-001",
+      "relation": "led_to",
+      "note": "Abbasid fragmentation in 906 CE leads to Fatimid proclamation (909 CE)"
+    }
+  ]
+}

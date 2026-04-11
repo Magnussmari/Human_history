@@ -1,0 +1,111 @@
+{
+  "year": 894,
+  "year_label": "894 CE",
+  "era_context": "The late 9th century CE witnessed the fragmentation of the Carolingian Empire in Western Europe, the consolidation of the Abbasid Caliphate in the Islamic world, and the rise of powerful regional kingdoms in East Asia. The Viking Age was in full swing, with Norse raiders and settlers reshaping the political landscape of Northern Europe. In China, the Tang Dynasty was in terminal decline, with regional warlords asserting autonomy. In India, the Pratihara, Pala, and Chola dynasties competed for dominance.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; archaeological record underexplored)",
+    "Mesoamerica and North America (no written records for this period)",
+    "Southeast Asia (sparse contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "894-001",
+      "title": "Battle of the Dyle",
+      "region": "Frankish Kingdom (modern Belgium/Netherlands)",
+      "coordinates_approx": "50.8, 4.5",
+      "category": "military",
+      "description": "King Arnulf of Carinthia defeated a major Viking fleet on the Dyle River, a tributary of the Meuse. This victory temporarily halted Viking incursions into the Frankish heartland and demonstrated the military capability of the Carolingian successor states. The battle is significant as one of the few documented defeats of Viking forces in this period, though its long-term strategic impact was limited.",
+      "key_figures": [
+        "Arnulf of Carinthia (King of the Franks)",
+        "Viking fleet commanders (unnamed in sources)"
+      ],
+      "sources": [
+        {
+          "name": "Annales Fuldenses (Fulda Annals)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Regino of Pr\u00fcm, Chronicon",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Multiple near-contemporary chronicles record this event with consistent dating. The battle is well-attested in Frankish annalistic tradition.",
+      "cross_references": []
+    },
+    {
+      "id": "894-002",
+      "title": "Zhu Wen consolidates power in North China",
+      "region": "Later Liang (North China)",
+      "coordinates_approx": "34.5, 114.5",
+      "category": "political",
+      "description": "Zhu Wen, a former bandit and Tang military officer, solidified his control over the North China Plain by eliminating rival warlords and establishing the Later Liang dynasty (which would formally be declared in 907). By 894, he had secured the strategic Kaifeng region and was the dominant military power in northern China. This consolidation marked a critical step toward the fragmentation of the Tang Dynasty and the beginning of the Five Dynasties and Ten Kingdoms period.",
+      "key_figures": [
+        "Zhu Wen (Later Liang founder, then military strongman)",
+        "Tang Emperor Zhaozong (nominal authority)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government) by Sima Guang",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Old History of the Five Dynasties (Jiu Wudai Shi)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation process occurred over several years (880s\u2013890s). The year 894 is assigned by historiographic convention as a marker of Zhu Wen's dominant position, though no single dated event in 894 is definitively documented.",
+      "cross_references": [
+        "907-001 (formal establishment of Later Liang)"
+      ]
+    },
+    {
+      "id": "894-003",
+      "title": "Abbasid Caliphate under al-Muktafi",
+      "region": "Abbasid Caliphate (Iraq, Levant, Persia, North Africa)",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "The Abbasid Caliph al-Muktafi (r. 902\u2013908) was not yet in power in 894, but his predecessor al-Mu'tadid (r. 892\u2013902) was consolidating Abbasid authority after decades of fragmentation. In 894, the Caliphate was recovering administrative control and military strength, though regional dynasties (Tulunids in Egypt, Samanids in Central Asia) remained semi-autonomous. This period marks the beginning of a brief Abbasid resurgence before final decline.",
+      "key_figures": [
+        "Al-Mu'tadid (Abbasid Caliph, r. 892\u2013902)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Mas'udi, Meadows of Gold (Muruj al-dhahab)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Abbasid chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad political situation is well-established; no specific event in 894 is documented. The year is included for era context.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The Battle of the Dyle is sometimes cited as a turning point in Viking-Frankish relations, but modern scholarship notes that Viking raids continued unabated after 894 and that Arnulf's victory had limited strategic consequence. The significance of the battle may be overstated in medieval chronicles due to their focus on Frankish military successes.",
+  "historiographic_note": "Documentation for 894 is heavily weighted toward Western European and Chinese sources. The Frankish annals are contemporary and reliable for events in the Carolingian successor states. Chinese sources are later compilations but based on earlier records. Islamic sources are sparse for this specific year. Sub-Saharan Africa, the Americas, and much of Southeast Asia have no written documentation for this period.",
+  "graph_edges": [
+    {
+      "from": "894-001",
+      "to": "911-001",
+      "relation": "part_of",
+      "note": "Battle of the Dyle is part of the broader Viking Age conflict in Northern Europe, culminating in the Treaty of Saint-Clair-sur-Epte (911)"
+    },
+    {
+      "from": "894-002",
+      "to": "907-001",
+      "relation": "led_to",
+      "note": "Zhu Wen's consolidation of power in 894 directly led to the formal establishment of Later Liang in 907"
+    }
+  ]
+}
