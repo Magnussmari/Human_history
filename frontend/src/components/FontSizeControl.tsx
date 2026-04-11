@@ -4,8 +4,8 @@ import { useEffect, useState } from "react";
 import { motion } from "motion/react";
 
 const MIN_SCALE = 0.85;
-const MAX_SCALE = 1.3;
-const STEP = 0.05;
+const MAX_SCALE = 1.4;
+const STEP = 0.075;
 const STORAGE_KEY = "font-scale";
 const DEFAULT_SCALE = 1.0;
 
@@ -19,14 +19,17 @@ export function FontSizeControl() {
       if (!isNaN(val) && val >= MIN_SCALE && val <= MAX_SCALE) {
         setScale(val);
         document.documentElement.style.setProperty("--font-scale", String(val));
+        document.documentElement.style.fontSize = `${val * 100}%`;
       }
     }
   }, []);
 
   const applyScale = (next: number) => {
-    const clamped = Math.max(MIN_SCALE, Math.min(MAX_SCALE, next));
+    const clamped = Math.max(MIN_SCALE, Math.min(MAX_SCALE, Math.round(next * 100) / 100));
     setScale(clamped);
     document.documentElement.style.setProperty("--font-scale", String(clamped));
+    // Scale the root font-size so ALL rem-based sizes respond
+    document.documentElement.style.fontSize = `${clamped * 100}%`;
     localStorage.setItem(STORAGE_KEY, String(clamped));
   };
 

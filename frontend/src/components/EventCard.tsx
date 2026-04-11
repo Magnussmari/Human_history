@@ -55,7 +55,7 @@ export function EventCard({ event }: EventCardProps) {
       transition={{ duration: 0.3, type: "spring" as const, stiffness: 250, damping: 28 }}
       whileHover={{ boxShadow: "0 4px 20px -4px rgba(232,200,138,0.08)" }}
     >
-      <div style={{ padding: "28px 32px" }}>
+      <div className="p-5 sm:p-7" style={{ paddingLeft: "clamp(20px, 5vw, 32px)", paddingRight: "clamp(20px, 5vw, 32px)" }}>
         {/* Header row */}
         <div className="flex flex-wrap items-center gap-2 mb-4">
           <span

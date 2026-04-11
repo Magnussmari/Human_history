@@ -60,7 +60,7 @@ export default function HomePage() {
       <HeroSection onExplore={handleExplore} />
 
       {/* Timeline section */}
-      <section ref={timelineSectionRef} className="mx-auto max-w-4xl px-4 py-10">
+      <section ref={timelineSectionRef} className="mx-auto max-w-4xl px-3 sm:px-4 py-6 sm:py-10">
         {/* Section heading */}
         <div className="mb-8 text-center">
           <h2

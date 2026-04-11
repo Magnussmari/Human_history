@@ -79,9 +79,9 @@ export default function RootLayout({
               </Link>
 
               {/* Nav */}
-              <nav className="flex items-center gap-2">
-                <FontSizeControl />
-                <div className="w-px h-4 bg-border/50 mx-1" />
+              <nav className="flex items-center gap-1 sm:gap-2">
+                <span className="hidden sm:flex"><FontSizeControl /></span>
+                <span className="hidden sm:block w-px h-4 bg-border/50 mx-1" />
                 <ThemeToggle />
                 <a
                   href="https://github.com/Magnussmari/Human_history_Acording_to_AI"

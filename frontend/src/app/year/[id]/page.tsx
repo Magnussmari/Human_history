@@ -116,7 +116,7 @@ export default function YearPage() {
 
   return (
     <motion.div
-      className="mx-auto max-w-4xl px-4 py-10"
+      className="mx-auto max-w-4xl px-4 sm:px-6 py-6 sm:py-10"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.3 }}
@@ -156,14 +156,14 @@ export default function YearPage() {
           </div>
 
           <h1
-            className="glow-title text-7xl sm:text-9xl font-bold leading-none mb-4 tabular-nums"
+            className="glow-title text-5xl sm:text-7xl lg:text-9xl font-bold leading-none mb-4 tabular-nums"
             style={{ fontFamily: "var(--font-heading), serif", color: "var(--gold)" }}
           >
             {year.year_label}
           </h1>
 
           <p
-            className="text-xl sm:text-2xl leading-relaxed max-w-3xl italic"
+            className="text-base sm:text-xl lg:text-2xl leading-relaxed max-w-3xl italic"
             style={{ fontFamily: "var(--font-heading), serif", color: "#d1c2a8", lineHeight: 1.7 }}
           >
             {year.era_context}

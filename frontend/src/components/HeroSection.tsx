@@ -72,7 +72,7 @@ export function HeroSection({ onExplore }: HeroSectionProps) {
         {/* Main heading */}
         <motion.h1
           variants={stagger.item}
-          className="glow-title text-6xl sm:text-8xl lg:text-9xl font-bold tracking-[-0.02em] leading-none mb-3"
+          className="glow-title text-4xl sm:text-7xl lg:text-9xl font-bold tracking-[-0.02em] leading-none mb-3"
           style={{
             fontFamily: "var(--font-heading), Georgia, serif",
             color: "var(--gold)",
@@ -82,7 +82,7 @@ export function HeroSection({ onExplore }: HeroSectionProps) {
         </motion.h1>
         <motion.h1
           variants={stagger.item}
-          className="text-6xl sm:text-8xl lg:text-9xl font-bold tracking-[-0.02em] leading-none mb-6"
+          className="text-4xl sm:text-7xl lg:text-9xl font-bold tracking-[-0.02em] leading-none mb-6"
           style={{
             fontFamily: "var(--font-heading), Georgia, serif",
             color: "var(--foreground)",
@@ -122,9 +122,9 @@ export function HeroSection({ onExplore }: HeroSectionProps) {
           variants={stagger.item}
           className="flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-12 mb-10"
         >
-          <ProgressRing size={130} strokeWidth={7} />
+          <ProgressRing size={100} strokeWidth={6} />
 
-          <div className="grid grid-cols-3 gap-6 text-center">
+          <div className="grid grid-cols-3 gap-4 sm:gap-6 text-center">
             <div>
               <div
                 className="text-3xl sm:text-4xl font-bold tabular-nums mb-1"

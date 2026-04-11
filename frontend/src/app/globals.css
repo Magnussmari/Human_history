@@ -305,8 +305,14 @@
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 16px;
-  padding: 28px 32px;
+  padding: 16px 18px;
   transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+@media (min-width: 640px) {
+  .glass-card {
+    padding: 24px 28px;
+  }
 }
 
 .glass-card:hover {
