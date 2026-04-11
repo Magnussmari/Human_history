@@ -1,0 +1,129 @@
+{
+  "year": 1317,
+  "year_label": "1317 CE",
+  "era_context": "The early 14th century continues with the Yuan Dynasty in China under Emperor Renzong (r. 1311\u20131320), a period of relative stability. In Europe, the Avignon Papacy under Pope John XXII consolidates authority. The Great Famine (1315\u20131317) reaches its peak in northern Europe. The Hundred Years' War between England and France is in its early phase.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Oceania (minimal documentation)",
+    "Interior Americas (sparse records)"
+  ],
+  "events": [
+    {
+      "id": "1317-001",
+      "title": "Peak of the Great Famine in Northern Europe",
+      "region": "Northern Europe (England, Scotland, Scandinavia, Low Countries)",
+      "coordinates_approx": "55.0, 5.0",
+      "category": "environmental",
+      "description": "The Great Famine of 1315\u20131317 reached its peak in 1317. Successive crop failures due to poor weather (excessive rain, cold temperatures) had depleted grain stores across northern Europe. Famine conditions led to widespread malnutrition, disease, and mortality. In some regions, mortality rates reached 5\u201310% of the population. The famine had profound effects on social stability, economy, and demographics. Prices for grain and other foodstuffs reached unprecedented levels, and social unrest increased.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Contemporary chronicles (Langtoft, Murimuth, Froissart, Scottish chronicles)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Modern historiographic consensus based on climate data and documentary evidence",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Great Famine is extensively documented in contemporary sources and confirmed by modern climate and demographic research.",
+      "cross_references": []
+    },
+    {
+      "id": "1317-002",
+      "title": "Execution of the Last Templars",
+      "region": "France",
+      "coordinates_approx": "48.8, 2.3",
+      "category": "political",
+      "description": "The last surviving leaders of the Knights Templar were executed in France in 1317 (or 1318, sources vary slightly). The Templar Order had been suppressed by Pope Clement V and King Philip IV of France in 1312. The final executions marked the end of the order as an organized military and religious institution. The Templars' vast wealth and lands were seized by the French crown and the Church, making the suppression a significant political and economic event.",
+      "key_figures": [
+        "Philip IV of France (King)",
+        "Pope Clement V (Pope)",
+        "Jacques de Molay (Last Grand Master of the Templars, executed 1314)"
+      ],
+      "sources": [
+        {
+          "name": "French royal records and chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Papal records",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The suppression of the Templars is well-documented, though the exact dates of final executions vary slightly in sources (1314\u20131318).",
+      "cross_references": []
+    },
+    {
+      "id": "1317-003",
+      "title": "Continued Consolidation of Ottoman Power in Anatolia",
+      "region": "Anatolia (modern Turkey)",
+      "coordinates_approx": "39.0, 35.0",
+      "category": "political",
+      "description": "Under Osman I, the Ottoman beylik continued its expansion and consolidation of power in northwestern Anatolia. By 1317, Ottoman forces had captured several important fortified towns and were establishing themselves as a major regional power. This period marks the transition from a small beylik to a more substantial state.",
+      "key_figures": [
+        "Osman I (Ottoman founder and leader)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (later compilations)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine sources",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ottoman expansion is well-attested, though specific events for 1317 are not always precisely dated.",
+      "cross_references": []
+    },
+    {
+      "id": "1317-004",
+      "title": "Renewal of Hostilities in the Hundred Years' War",
+      "region": "England and France",
+      "coordinates_approx": "49.0, 0.0",
+      "category": "military",
+      "description": "The Hundred Years' War between England and France, which had begun in 1337 (or 1340, depending on dating), had its roots in earlier conflicts and disputes over succession and territorial claims. In 1317, tensions between England and France were high, and military skirmishes occurred. The formal declaration of war would come later, but the underlying conflicts were already manifest.",
+      "key_figures": [
+        "Edward II of England (King)",
+        "Philip V of France (King)"
+      ],
+      "sources": [
+        {
+          "name": "English and French chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The dating of specific military events in 1317 is uncertain. The broader conflict is well-attested, but specific events for this year are not always clearly documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The Great Famine's impact is sometimes portrayed as uniformly catastrophic across all of northern Europe, but recent scholarship suggests regional variation. Some areas were more severely affected than others, and recovery began at different times in different regions. The mortality rates, while significant, may have been somewhat lower than older estimates suggested. The execution of the last Templars is sometimes dated to 1314 (Jacques de Molay) or 1318, with 1317 being an approximate date for other executions.",
+  "historiographic_note": "The historical record for 1317 is dominated by Western European sources, particularly chronicles from England and France. The Great Famine is extensively documented because of its dramatic impact on populations and economies. Chinese sources are well-preserved but less detailed about events in 1317 specifically. Islamic and African sources are underrepresented. The reliability of dating for specific military events is lower than for major famines or political upheavals.",
+  "graph_edges": [
+    {
+      "from": "1317-001",
+      "to": "1318-004",
+      "relation": "led_to",
+      "note": "Peak famine conditions in 1317 led to continued hardship in 1318"
+    },
+    {
+      "from": "1317-002",
+      "to": "1312-001",
+      "relation": "part_of",
+      "note": "Final executions were part of the broader suppression of the Templars that began in 1312"
+    }
+  ]
+}

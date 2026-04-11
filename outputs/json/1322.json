@@ -1,0 +1,123 @@
+{
+  "year": 1322,
+  "year_label": "1322 CE",
+  "era_context": "The early 14th century CE spans the late Medieval period in Europe, the height of the Mali Empire in West Africa, the Yuan Dynasty in China under Mongol rule, and the Ottoman Empire's early expansion in Anatolia. This is an era of long-distance trade (Silk Road, trans-Saharan routes), religious ferment (Islamic expansion, Christian Crusades waning, Avignon Papacy), and significant technological diffusion (gunpowder weapons spreading westward, maritime innovations in the Mediterranean and Indian Ocean).",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa beyond Mali",
+    "Southeast Asia and the Pacific",
+    "Northern Europe and Scandinavia",
+    "Americas",
+    "Central Asia and the Steppe (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "1322-001",
+      "title": "Battle of M\u00fchldorf (Holy Roman Empire)",
+      "region": "Bavaria, Holy Roman Empire",
+      "coordinates_approx": "48.75,12.5 (M\u00fchldorf, Bavaria)",
+      "category": "military",
+      "description": "On 28 September 1322, the Battle of M\u00fchldorf was fought between Louis IV of Bavaria (later Holy Roman Emperor) and Frederick III of Austria over succession to the Holy Roman throne. Louis IV defeated Frederick III, establishing Louis's claim to the imperial crown. This battle was significant in the fragmentation of imperial authority in the Holy Roman Empire and reflected the rising power of territorial princes over the emperor. The battle is well-documented in contemporary German chronicles.",
+      "key_figures": [
+        "Louis IV of Bavaria (later Holy Roman Emperor)",
+        "Frederick III of Austria",
+        "Pope John XXII (who opposed Louis IV)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary German chronicles (e.g., Bavarian chronicles)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Papal records (John XXII opposed Louis IV)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Battle of M\u00fchldorf is well-documented in contemporary sources with a precise date (28 September 1322).",
+      "cross_references": [
+        "Part of Holy Roman Empire succession disputes",
+        "Led to Louis IV's eventual coronation as Holy Roman Emperor (1328)"
+      ]
+    },
+    {
+      "id": "1322-002",
+      "title": "Peasant Revolt in Flanders",
+      "region": "Flanders (modern Belgium/France)",
+      "coordinates_approx": "50.8,3.0 (Flanders)",
+      "category": "political",
+      "description": "In 1322, peasants and urban workers in Flanders rose in revolt against feudal lords and urban patricians. The revolt was triggered by economic hardship, heavy taxation, and social tensions. The uprising was eventually suppressed, but it reflected broader social tensions in medieval Europe. The Flemish Revolt of 1322-1323 was one of several peasant uprisings in this period, including the Jacquerie in France (1358) and the Peasants' Revolt in England (1381).",
+      "key_figures": [
+        "Flemish peasants and urban workers",
+        "Count Louis I of Flanders",
+        "Urban patricians and feudal lords"
+      ],
+      "sources": [
+        {
+          "name": "Flemish and French chronicles (e.g., Jean Froissart, Chroniques)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Municipal records from Flanders",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Flemish Revolt is documented in contemporary municipal records and later chronicles, though details vary.",
+      "cross_references": [
+        "Part of broader medieval peasant uprisings",
+        "Precedes Jacquerie (1358) and Peasants' Revolt (1381)"
+      ]
+    },
+    {
+      "id": "1322-003",
+      "title": "Yuan Dynasty Maritime Expeditions and Trade",
+      "region": "China; Indian Ocean; Southeast Asia",
+      "coordinates_approx": "39.9,116.4 (Beijing)",
+      "category": "exploration",
+      "description": "The Yuan Dynasty under Toghon Tem\u00fcr continued to maintain and expand maritime trade networks in the Indian Ocean and Southeast Asia. Yuan fleets were active in protecting trade routes and collecting customs duties. However, no specific major expedition is documented for 1322. This entry reflects the broader context of Yuan maritime activity rather than a discrete event.",
+      "key_figures": [
+        "Toghon Tem\u00fcr (Huizong, Yuan Emperor)",
+        "Yuan maritime administrators"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Yuan maritime activity",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Yuan maritime activity is documented generally, but specific events in 1322 are not well-attested in surviving sources.",
+      "cross_references": [
+        "Part of Yuan Dynasty's maritime expansion",
+        "Precedes Ming Dynasty's treasure voyages (1405-1433)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Battle of M\u00fchldorf is the only major event with strong contemporary documentation for 1322. The Flemish Revolt is documented but details are sparse and later chronicles may have embellished or distorted accounts. No scientific, technological, or cultural breakthroughs are definitively attributed to 1322 in global records. The year is poorly documented overall.",
+  "historiographic_note": "1322 CE is a sparsely documented year in global history. European sources provide some coverage (Battle of M\u00fchldorf, Flemish Revolt), but these are regional events. Islamic, Chinese, and African sources are minimal for this specific year. The historical record is heavily biased toward Western Europe and toward military/political events. Economic, social, and cultural developments are underrepresented. Archaeological evidence for 1322 is negligible.",
+  "graph_edges": [
+    {
+      "from": "1322-001",
+      "to": "1328-Louis IV coronation",
+      "relation": "led_to",
+      "note": "Battle of M\u00fchldorf established Louis IV's claim to the Holy Roman throne, leading to his coronation in 1328"
+    },
+    {
+      "from": "1322-002",
+      "to": "1358-Jacquerie",
+      "relation": "part_of",
+      "note": "Flemish Revolt was part of broader medieval peasant uprisings"
+    }
+  ]
+}
