@@ -1,0 +1,122 @@
+{
+  "year": 1413,
+  "year_label": "1413 CE",
+  "era_context": "The early 15th century continues with the Council of Constance in session (1414\u20131418), the Ming Dynasty under the Yongle Emperor consolidating power, the Ottoman Empire expanding in Anatolia and the Balkans, and the Hussite movement gaining momentum in Bohemia. In Europe, the Renaissance is beginning in Italy; in China, the Forbidden City is under construction (completed 1420). In Africa, the Songhai Empire is rising; in the Americas, the Aztec Empire is consolidating.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal contemporary European documentation)",
+    "Oceania and Pacific islands",
+    "Interior of the Americas",
+    "Central Asia and the Steppe (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "1413-001",
+      "title": "Forbidden City construction continues under Yongle Emperor",
+      "region": "Beijing, Ming China",
+      "coordinates_approx": "39.92, 116.41",
+      "category": "cultural",
+      "description": "The Forbidden City, the imperial palace complex in Beijing, is under active construction. Work began in 1406 and continued until 1420. The project involved hundreds of thousands of workers and represents one of the largest architectural undertakings of the Ming Dynasty. The Forbidden City served as the residence of Chinese emperors for nearly 500 years and symbolized imperial power and the hierarchical order of the cosmos. The construction required vast resources and demonstrated Ming technological and organizational capabilities.",
+      "key_figures": [
+        "Yongle Emperor (Ming Emperor, sponsor)",
+        "Cai Xin (chief architect, traditional attribution)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Official Ming Dynasty Records, contemporary)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological and architectural evidence from the Forbidden City",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The construction period (1406\u20131420) is well-documented in Ming records. Specific events within 1413 are not individually recorded but are part of the confirmed ongoing project.",
+      "cross_references": [
+        "1406-001 (Forbidden City construction begins)",
+        "1420-001 (Forbidden City completed)"
+      ]
+    },
+    {
+      "id": "1413-002",
+      "title": "Council of Constance continues deliberations on Church reform",
+      "region": "Constance, Holy Roman Empire",
+      "coordinates_approx": "47.66, 9.17",
+      "category": "religious",
+      "description": "The Council of Constance, which opened in November 1414, continues its work in 1413 (using proleptic Gregorian calendar; the council was in session from late 1414 through 1418). The council addresses heresy, papal authority, and Church reform. In 1415, Jan Hus will be executed; the council's decisions will reshape European religious and political structures. The council represents the Church's attempt to reassert authority during a period of schism and reform movements.",
+      "key_figures": [
+        "Emperor Sigismund",
+        "Antipope John XXIII",
+        "Cardinal Pierre d'Ailly (theologian)"
+      ],
+      "sources": [
+        {
+          "name": "Council of Constance records (contemporary)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The council's ongoing sessions are well-documented, though specific events within 1413 are not individually highlighted in surviving records.",
+      "cross_references": [
+        "1414-001 (Council of Constance convenes)",
+        "1415-001 (Execution of Jan Hus)"
+      ]
+    },
+    {
+      "id": "1413-003",
+      "title": "Ottoman Empire consolidates control in the Balkans",
+      "region": "Ottoman Empire, Balkans",
+      "coordinates_approx": "41.0, 25.0",
+      "category": "political",
+      "description": "The Ottoman Empire, under Mehmed I (r. 1413\u20131421), is consolidating control over Anatolia and the Balkans. Mehmed I ascended to the throne in 1413 after a period of civil conflict (the Interregnum, 1402\u20131413). His reign stabilizes Ottoman rule and expands territorial control. The Ottomans are gradually encroaching on Byzantine territory and establishing themselves as a major regional power. This period marks the Ottoman transition from a regional principality to an empire.",
+      "key_figures": [
+        "Mehmed I (Ottoman Sultan, r. 1413\u20131421)",
+        "Murad II (Mehmed's successor, born 1404)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (later compilations, e.g., Ashikpashazade)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine sources (contemporary accounts of Ottoman expansion)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Mehmed I's accession in 1413 is confirmed; the broader consolidation is documented, though specific events within 1413 are not detailed in surviving sources.",
+      "cross_references": [
+        "1402-001 (Ottoman Interregnum begins)",
+        "1421-001 (Mehmed I dies; Murad II becomes sultan)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific events are well-documented for 1413 in most regions. The Council of Constance's dating is sometimes confused; it opened in November 1414, not 1413. The claim that Mehmed I's accession in 1413 was a major consolidation event is somewhat overstated\u2014the Interregnum (1402\u20131413) was a period of fragmentation, and Mehmed I's reign was marked by continued instability and rebellions, particularly the Sheikh Bedreddin revolt (1416) and the False Mustafa crisis.",
+  "historiographic_note": "Documentation for 1413 is sparse. Most surviving records are from Europe (Council of Constance, Ottoman-Byzantine interactions) and China (Ming official records). African, American, and Oceanic events are essentially undocumented in contemporary sources. The historical record is heavily biased toward elite political and religious events; economic, social, and cultural developments are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "1413-001",
+      "to": "1420-001",
+      "relation": "led_to",
+      "note": "Forbidden City construction in 1413 was part of the project completed in 1420"
+    },
+    {
+      "from": "1413-002",
+      "to": "1415-001",
+      "relation": "led_to",
+      "note": "Council of Constance's deliberations in 1413 led to the execution of Jan Hus in 1415"
+    },
+    {
+      "from": "1413-003",
+      "to": "1453-001",
+      "relation": "led_to",
+      "note": "Mehmed I's consolidation of Ottoman power in 1413 set the stage for the conquest of Constantinople in 1453"
+    }
+  ]
+}

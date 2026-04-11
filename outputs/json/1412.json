@@ -1,0 +1,114 @@
+{
+  "year": 1412,
+  "year_label": "1412 CE",
+  "era_context": "The early 15th century is marked by the Council of Constance's preparation (convening in 1414), the Ming Dynasty's consolidation under the Yongle Emperor, the Ottoman Empire's recovery from the Interregnum, and the Hussite movement's growth in Bohemia. The Renaissance is emerging in Italy; the Forbidden City is under construction in Beijing. In Africa, the Songhai Empire is consolidating; in the Americas, the Aztec Empire is expanding.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Oceania and Pacific islands",
+    "Interior of the Americas",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "1412-001",
+      "title": "Joan of Arc born (traditional date)",
+      "region": "Domr\u00e9my, Kingdom of France",
+      "coordinates_approx": "48.35, 5.65",
+      "category": "cultural",
+      "description": "Joan of Arc (Jeanne d'Arc) is traditionally dated to have been born in 1412 in the village of Domr\u00e9my in northeastern France. However, her exact birth date is uncertain; some sources place it as late as 1413 or 1414. Joan would later become a military leader during the Hundred Years' War, claiming divine inspiration. She was captured, tried for heresy, and executed in 1431. Her life and death became central to French national identity and Catholic hagiography.",
+      "key_figures": [
+        "Joan of Arc (future military leader and saint)"
+      ],
+      "sources": [
+        {
+          "name": "Trial records of Joan of Arc (1431, contemporary to her trial)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Later hagiographies and biographical accounts (16th century onward)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Joan's birth date is not precisely documented. The year 1412 is traditional but uncertain; sources vary between 1412 and 1414. Her trial records (1431) do not specify her exact birth date.",
+      "cross_references": [
+        "1429-001 (Joan of Arc's military campaigns begin)",
+        "1431-001 (Joan of Arc executed)"
+      ]
+    },
+    {
+      "id": "1412-002",
+      "title": "Ming Dynasty consolidates administrative control",
+      "region": "Ming China",
+      "coordinates_approx": "35.0, 110.0",
+      "category": "political",
+      "description": "The Ming Dynasty under the Yongle Emperor (r. 1402\u20131424) continues consolidating administrative control over China. The Yongle Emperor has moved the capital from Nanjing to Beijing (1421) and is undertaking major construction projects, including the Forbidden City. The Ming state is centralizing power, reforming the bureaucracy, and expanding military capabilities. This period represents the height of Ming power and cultural achievement.",
+      "key_figures": [
+        "Yongle Emperor (Ming Emperor)",
+        "Zheng He (Admiral, explorer)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Official Ming Dynasty Records, contemporary)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader consolidation is confirmed; specific events within 1412 are not individually documented in surviving sources.",
+      "cross_references": [
+        "1402-001 (Yongle Emperor ascends)",
+        "1421-001 (Capital moved to Beijing)"
+      ]
+    },
+    {
+      "id": "1412-003",
+      "title": "Ottoman Empire under Mehmed I stabilizes after Interregnum",
+      "region": "Ottoman Empire, Anatolia and Balkans",
+      "coordinates_approx": "39.0, 35.0",
+      "category": "political",
+      "description": "The Ottoman Empire is in the process of stabilizing after the Interregnum (1402\u20131413), a period of civil conflict following Timur's invasion. Mehmed I ascends to the throne in 1413, but the transition is not yet complete in 1412. The Ottoman state is rebuilding its military and administrative structures. This period marks the beginning of Ottoman recovery and expansion.",
+      "key_figures": [
+        "Mehmed I (future Ottoman Sultan, ascends 1413)"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman chronicles (later compilations)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Ottoman Interregnum is confirmed to have ended in 1413; 1412 marks the final year of instability before Mehmed I's accession.",
+      "cross_references": [
+        "1402-001 (Ottoman Interregnum begins)",
+        "1413-001 (Mehmed I ascends)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Joan of Arc's birth date of 1412 is traditional but not confirmed by contemporary documentation. Her trial records do not specify her birth year, and later hagiographies may have imposed a conventional date. The claim that the Ottoman Empire was 'stabilizing' in 1412 is somewhat misleading\u2014the Interregnum did not formally end until 1413, and even Mehmed I's reign was marked by continued instability and rebellions.",
+  "historiographic_note": "Documentation for 1412 is very sparse. Most surviving records are from China (Ming official records) and fragmentary European sources. Joan of Arc's birth is known only through later tradition, not contemporary documentation. African, American, and Oceanic events are entirely undocumented. The historical record is heavily biased toward elite political events and major construction projects; everyday life and social developments are invisible.",
+  "graph_edges": [
+    {
+      "from": "1412-001",
+      "to": "1431-001",
+      "relation": "led_to",
+      "note": "Joan of Arc's birth in 1412 (traditional date) led to her execution in 1431"
+    },
+    {
+      "from": "1412-002",
+      "to": "1421-001",
+      "relation": "led_to",
+      "note": "Ming consolidation in 1412 led to the capital's move to Beijing in 1421"
+    },
+    {
+      "from": "1412-003",
+      "to": "1413-001",
+      "relation": "led_to",
+      "note": "Ottoman instability in 1412 ended with Mehmed I's accession in 1413"
+    }
+  ]
+}

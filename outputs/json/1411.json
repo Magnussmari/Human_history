@@ -1,0 +1,109 @@
+{
+  "year": 1411,
+  "year_label": "1411 CE",
+  "era_context": "The early 15th century is characterized by the late Medieval period in Europe, the Ming Dynasty's consolidation in China, the Ottoman Empire's recovery from the Interregnum, and the Hussite movement's growth in Bohemia. The Renaissance is emerging in Italy; major construction projects are underway in Beijing. In Africa, the Songhai Empire is consolidating; in the Americas, the Aztec Empire is expanding.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Oceania and Pacific islands",
+    "Interior of the Americas",
+    "Central Asia and the Steppe",
+    "Most of Europe outside major political centers"
+  ],
+  "events": [
+    {
+      "id": "1411-001",
+      "title": "Ming Dynasty continues Forbidden City construction",
+      "region": "Beijing, Ming China",
+      "coordinates_approx": "39.92, 116.41",
+      "category": "cultural",
+      "description": "The Forbidden City construction project continues under the Yongle Emperor. Work began in 1406 and will continue until 1420. The project represents one of the largest architectural undertakings of the Ming Dynasty, involving hundreds of thousands of workers. The construction demonstrates Ming technological capabilities and the centralization of imperial power. The Forbidden City will serve as the imperial residence for nearly 500 years.",
+      "key_figures": [
+        "Yongle Emperor (Ming Emperor, sponsor)"
+      ],
+      "sources": [
+        {
+          "name": "Ming Shilu (Official Ming Dynasty Records, contemporary)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The construction period (1406\u20131420) is well-documented; 1411 falls within this confirmed period.",
+      "cross_references": [
+        "1406-001 (Forbidden City construction begins)",
+        "1420-001 (Forbidden City completed)"
+      ]
+    },
+    {
+      "id": "1411-002",
+      "title": "Hussite movement gains momentum in Bohemia",
+      "region": "Bohemia (modern-day Czech Republic)",
+      "coordinates_approx": "49.8, 15.5",
+      "category": "religious",
+      "description": "The Hussite movement, inspired by the teachings of Jan Hus, is gaining momentum in Bohemia. Hus is still alive in 1411 (he will be executed in 1415 at the Council of Constance). The movement challenges papal authority and advocates for Church reform, including communion in both kinds (bread and wine) for laypeople. The movement is gaining support among the Bohemian nobility and common people, setting the stage for the Hussite Wars (1419\u20131434).",
+      "key_figures": [
+        "Jan Hus (Bohemian reformer, still alive)",
+        "Bohemian nobility supporting reform"
+      ],
+      "sources": [
+        {
+          "name": "Hussite manifestos and correspondence (contemporary)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later Hussite chronicles (1420s\u20131430s)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Hussite movement's growth is confirmed for the broader period; specific events within 1411 are not individually documented.",
+      "cross_references": [
+        "1415-001 (Execution of Jan Hus)",
+        "1419-001 (Formal outbreak of Hussite Wars)"
+      ]
+    },
+    {
+      "id": "1411-003",
+      "title": "Portuguese exploration of the African coast continues",
+      "region": "West Africa, Atlantic coast",
+      "coordinates_approx": "15.0, -15.0",
+      "category": "exploration",
+      "description": "Portuguese explorers, sponsored by Prince Henry the Navigator, continue systematic exploration of the West African coast. By 1411, Portuguese ships have established trading posts and are gathering information on African geography, peoples, and resources. The exploration is motivated by trade, religious conversion, and geographic curiosity. These voyages lay the groundwork for the Portuguese slave trade and colonial expansion.",
+      "key_figures": [
+        "Prince Henry the Navigator (Portuguese sponsor)"
+      ],
+      "sources": [
+        {
+          "name": "Gomes Eanes de Zurara, Chronicle of the Discovery of Guinea (written 1450s, based on earlier records)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Portuguese exploration was ongoing; specific events in 1411 are not well-documented. The broader campaign is confirmed, but individual voyage dates are often approximate.",
+      "cross_references": [
+        "1434-001 (Cape Bojador crossed)",
+        "1488-001 (Bartolomeu Dias rounds Cape of Good Hope)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific events are well-documented for 1411 in most regions. The claim that Portuguese exploration was systematic and continuous is not well-supported by contemporary documentation; most detailed records come from later compilations (Zurara, 1450s). The Hussite movement's 'momentum' in 1411 is inferred from the broader context; specific events within 1411 are not documented.",
+  "historiographic_note": "Documentation for 1411 is very sparse. Most surviving records are from China (Ming official records) and fragmentary European sources. African, American, and Oceanic events are entirely undocumented. The historical record is heavily biased toward elite political events and major construction projects; economic, social, and cultural developments are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "1411-001",
+      "to": "1420-001",
+      "relation": "led_to",
+      "note": "Forbidden City construction in 1411 was part of the project completed in 1420"
+    },
+    {
+      "from": "1411-002",
+      "to": "1415-001",
+      "relation": "led_to",
+      "note": "Hussite movement's growth in 1411 led to Jan Hus's execution in 1415"
+    }
+  ]
+}
