@@ -3,6 +3,15 @@
 > 5,226 years. One JSON per year. Every claim sourced. Every gap declared.
 
 <!-- PROGRESS_START -->
+## 🌐 Live Progress
+
+```
+[=--------------------------------------------------] ?%
+
+936 / 5226 years completed · 0 failed · 4290 remaining
+Currently researching: ~1085 CE
+Last updated: 2026-04-11T17:10:08Z
+```
 <!-- PROGRESS_END -->
 
 **Every year of recorded human civilization. Structured. Sourced. Machine-readable.**
