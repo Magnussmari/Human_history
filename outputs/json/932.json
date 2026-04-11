@@ -1,0 +1,77 @@
+{
+  "year": 932,
+  "year_label": "932 CE",
+  "era_context": "The early 10th century CE continues the period of fragmentation in the Islamic world and consolidation in Europe. The Song Dynasty is in its early consolidation phase in China. The Khitan Liao Dynasty controls Manchuria and northern China. The Viking Age remains active.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no contemporary written sources)",
+    "Southeast Asia (sparse records)",
+    "Americas (no written records)",
+    "Oceania (no written records)",
+    "Central Asia (limited records)"
+  ],
+  "events": [
+    {
+      "id": "932-001",
+      "title": "Later Jin Dynasty established in northern China",
+      "region": "Northern China / Manchuria",
+      "coordinates_approx": "39.0, 116.0",
+      "category": "political",
+      "description": "The Later Jin Dynasty was established in 923 CE by Shuangji (Zhu Wen's descendant) and consolidated during the 930s. By 932, Later Jin controlled much of northern China and maintained a complex relationship with the Khitan Liao Dynasty to the north. The Later Jin Dynasty would eventually be conquered by the Khitan in 947, leading to the establishment of the Khitan-dominated Later Liao Dynasty. This period represents the fragmentation of China following the collapse of the Tang Dynasty.",
+      "key_figures": [
+        "Shi Jingtang (Later Jin Emperor, r. 923\u2013936)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Jiu Wudai Shi (Old History of the Five Dynasties, 10th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Later Jin Dynasty's existence and consolidation are well-attested in Chinese historiography, though specific events in 932 are less precisely dated.",
+      "cross_references": []
+    },
+    {
+      "id": "932-002",
+      "title": "Abbasid Caliphate: al-Radi's reign and fragmentation",
+      "region": "Baghdad / Abbasid Caliphate",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "The Abbasid Caliph al-Radi (r. 934\u2013940) was consolidating power during this period, though his authority was increasingly nominal. By 932, the Abbasid Caliphate had fragmented into numerous semi-independent dynasties (Ikhshidids in Egypt, Hamdanids in Syria, Samanids in Central Asia, Buyids in Persia). The Caliph's role became increasingly ceremonial, with real power held by military governors and regional dynasties. This period marks the nadir of Abbasid political authority.",
+      "key_figures": [
+        "al-Radi (Abbasid Caliph, r. 934\u2013940)"
+      ],
+      "sources": [
+        {
+          "name": "Akhbar al-Duwal al-Munqati'a (by al-Mas'udi)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Muruj al-dhahab (by al-Mas'udi, 10th century)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The fragmentation of the Abbasid Caliphate is well-documented in Islamic sources, though the specific political situation in 932 is less precisely dated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No significant disconfirming evidence identified for the events listed. However, the historiographic record for 932 is thin, and many sources conflate events across the 930s.",
+  "historiographic_note": "The year 932 is sparsely documented. Most information comes from chronicles compiled decades or centuries after the events. Chinese sources are relatively abundant but compiled much later. Islamic sources are less detailed for this specific year. The record is heavily skewed toward political events; economic, social, and cultural developments are largely invisible. No contemporary written sources exist for most of the world outside Europe and the Islamic Middle East.",
+  "graph_edges": [
+    {
+      "from": "932-001",
+      "to": "947-KHITAN_CONQUEST_LATER_JIN",
+      "relation": "led_to",
+      "note": "The Later Jin Dynasty's consolidation in 932 preceded its conquest by the Khitan Liao Dynasty in 947."
+    }
+  ]
+}

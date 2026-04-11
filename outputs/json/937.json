@@ -1,0 +1,137 @@
+{
+  "year": 937,
+  "year_label": "937 CE",
+  "era_context": "The early 10th century witnessed the continued fragmentation of the Abbasid Caliphate and the rise of regional Islamic dynasties. In East Asia, the Five Dynasties and Ten Kingdoms period was approaching its end. In Europe, feudal consolidation continued under figures like Otto I. The Byzantine Empire remained a major Mediterranean power.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia (limited written sources)",
+    "Northern Europe beyond major kingdoms",
+    "Oceania and Pacific regions",
+    "Americas (no written records for this period)"
+  ],
+  "events": [
+    {
+      "id": "937-001",
+      "title": "Khitan Liao Dynasty Military Campaigns",
+      "region": "Manchuria and Northern China",
+      "coordinates_approx": "42.0\u00b0N, 120.0\u00b0E",
+      "category": "military",
+      "description": "The Khitan Liao Dynasty, under Taizong, conducted military campaigns to consolidate control over Manchuria and parts of northern China. These campaigns were part of the broader competition for dominance in northern China during the Five Dynasties and Ten Kingdoms period. The Liao's military strength would make them a major regional power for nearly two centuries.",
+      "key_figures": [
+        "Taizong of Liao (Liao emperor, r. 926\u2013947)"
+      ],
+      "sources": [
+        {
+          "name": "Liao Shi (History of the Liao Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Song Dynasty historical records",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Liao Dynasty's military activities are documented in Chinese sources, though specific campaigns of 937 are less precisely dated than major battles or succession events.",
+      "cross_references": []
+    },
+    {
+      "id": "937-002",
+      "title": "Byzantine-Arab Naval Conflicts in Mediterranean",
+      "region": "Mediterranean Sea",
+      "coordinates_approx": "35.0\u00b0N, 18.0\u00b0E",
+      "category": "military",
+      "description": "The Byzantine Empire and various Arab powers engaged in ongoing naval conflicts in the Mediterranean, competing for control of trade routes and coastal territories. These conflicts were characteristic of the 10th century Mediterranean, where Byzantine naval power was gradually reasserting itself. The struggles reflected broader geopolitical competition between Christian and Islamic powers.",
+      "key_figures": [
+        "Constantine VII Porphyrogennetos (Byzantine Emperor, r. 913\u2013959)"
+      ],
+      "sources": [
+        {
+          "name": "De Administrando Imperio (Constantine VII)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Byzantine historical chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Byzantine-Arab naval conflicts are well-documented in Byzantine sources, though specific engagements of 937 are not always precisely dated.",
+      "cross_references": []
+    },
+    {
+      "id": "937-003",
+      "title": "Otto I Consolidates German Authority",
+      "region": "Holy Roman Empire (Germany)",
+      "coordinates_approx": "50.5\u00b0N, 9.0\u00b0E",
+      "category": "political",
+      "description": "Otto I continued consolidating his authority over the German kingdoms and duchies, strengthening the feudal hierarchy and integrating the Church into secular governance. By 937, Otto had established himself as the dominant figure in German politics, setting the stage for his later coronation as Holy Roman Emperor. His policies emphasized the use of ecclesiastical authority to support royal power.",
+      "key_figures": [
+        "Otto I (King of Germany)"
+      ],
+      "sources": [
+        {
+          "name": "Widukind of Corvey, Res gestae Saxonicae",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Liudprand of Cremona, Antapodosis",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Otto I's consolidation of authority is well-documented in contemporary chronicles.",
+      "cross_references": [
+        "939-004 (Otto I's continued consolidation)"
+      ]
+    },
+    {
+      "id": "937-004",
+      "title": "Samanid Empire Flourishing in Central Asia",
+      "region": "Central Asia (Persia and Transoxiana)",
+      "coordinates_approx": "37.0\u00b0N, 68.0\u00b0E",
+      "category": "cultural",
+      "description": "The Samanid Empire, centered in Bukhara and Samarkand, was at the height of its cultural and intellectual flourishing during the 10th century. By 937, the Samanids had established themselves as patrons of Persian literature, science, and philosophy. This period saw the development of Persian as a literary language and the flourishing of Islamic scholarship.",
+      "key_figures": [
+        "Nasr II (Samanid emir, r. 914\u2013943)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Mas'udi, Meadows of Gold",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later Islamic historical compilations",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Samanid Empire's cultural flourishing is well-documented in Islamic sources and is accepted by modern scholarship.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The Samanid Empire's cultural achievements are sometimes presented as purely 'Islamic' or 'Arab,' but modern scholarship emphasizes the Persian and Central Asian character of Samanid civilization. The narrative of Byzantine-Arab conflict can obscure periods of trade and cultural exchange. Otto I's consolidation is sometimes portrayed as inevitable, but the reality involved significant resistance and negotiation.",
+  "historiographic_note": "The year 937 is moderately well-documented for East Asian and European events, with contemporary or near-contemporary sources available. Islamic sources are abundant but reflect the perspectives of competing dynasties. Chinese sources on the Five Dynasties period are detailed but were compiled during the Song Dynasty. European sources are primarily monastic chronicles. Central Asian documentation is limited but includes some contemporary Islamic sources. African and Oceanic documentation remains sparse.",
+  "graph_edges": [
+    {
+      "from": "937-001",
+      "to": "960-001",
+      "relation": "led_to",
+      "note": "Liao Dynasty's consolidation contributed to the political landscape that Song Dynasty would eventually navigate"
+    },
+    {
+      "from": "937-003",
+      "to": "955-001",
+      "relation": "led_to",
+      "note": "Otto I's consolidation of authority led to his major victory at the Battle of the Lechfeld in 955"
+    }
+  ]
+}

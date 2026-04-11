@@ -1,0 +1,83 @@
+{
+  "year": 933,
+  "year_label": "933 CE",
+  "era_context": "The early 10th century CE continues the fragmentation of the Abbasid Caliphate and the rise of regional Islamic dynasties. In Europe, the Ottonian Renaissance is beginning under Otto I in the Holy Roman Empire. The Song Dynasty is consolidating control over southern China. The Viking Age remains active in the North Atlantic and Mediterranean.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no contemporary written sources)",
+    "Southeast Asia (sparse records)",
+    "Americas (no written records)",
+    "Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "933-001",
+      "title": "Otto I becomes Duke of Saxony",
+      "region": "Saxony / Holy Roman Empire",
+      "coordinates_approx": "51.5, 10.0",
+      "category": "political",
+      "description": "Otto I (later Otto the Great) became Duke of Saxony in 933 following the death of his father Henry the Fowler. Otto inherited a strong position in the German lands and would go on to become the first Holy Roman Emperor (crowned 962). His early reign focused on consolidating power in Saxony and the broader German territories, establishing the foundation for the Ottonian Renaissance and the revival of imperial authority in Western Europe.",
+      "key_figures": [
+        "Otto I (Duke of Saxony, later Holy Roman Emperor, r. 933\u2013973)",
+        "Henry the Fowler (his father, d. 936)"
+      ],
+      "sources": [
+        {
+          "name": "Liudprand of Cremona, Antapodosis (10th century chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Widukind of Corvey, Res gestae Saxonicae (10th century)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Otto's succession to the Duchy of Saxony is well-attested in contemporary and near-contemporary chronicles. The date 933 is standard in modern historiography.",
+      "cross_references": []
+    },
+    {
+      "id": "933-002",
+      "title": "Abbasid Caliphate fragmentation: Ikhshidid Dynasty in Egypt",
+      "region": "Egypt / Levant",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "The Ikhshidid Dynasty, founded by Muhammad ibn Tughj al-Ikhshidi, controlled Egypt and the Levant during this period. By 933, the Ikhshidids had established themselves as a semi-independent power within the nominal Abbasid Caliphate, controlling trade routes and maintaining a sophisticated administrative system. This dynasty would rule until the Fatimid conquest in 969. The Ikhshidids represented the fragmentation of central Abbasid authority and the rise of regional military dynasties.",
+      "key_figures": [
+        "Muhammad ibn Tughj al-Ikhshidi (founder, d. 946)"
+      ],
+      "sources": [
+        {
+          "name": "Akhbar al-Duwal al-Munqati'a (by al-Mas'udi)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Kitab al-Aghani (by al-Isfahani, 10th century)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Ikhshidid Dynasty's control of Egypt is well-attested in Islamic sources, though specific events in 933 are less precisely dated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No significant disconfirming evidence identified for the events listed. However, the historiographic record for 933 is thin; many sources conflate events across the 930s without precise annual dating.",
+  "historiographic_note": "The year 933 is sparsely documented in surviving sources. Most information comes from chronicles compiled decades or centuries after the events. Western European sources (particularly German chronicles) are relatively abundant, but Islamic sources are less detailed for this specific year. The record is heavily skewed toward political and military events; economic, social, and cultural developments are largely invisible. No contemporary written sources exist for most of the world outside Europe and the Islamic Middle East.",
+  "graph_edges": [
+    {
+      "from": "933-001",
+      "to": "962-OTTO_CROWNED_EMPEROR",
+      "relation": "led_to",
+      "note": "Otto's consolidation of power as Duke of Saxony in 933 enabled his later coronation as Holy Roman Emperor in 962."
+    },
+    {
+      "from": "933-002",
+      "to": "969-FATIMID_CONQUEST_EGYPT",
+      "relation": "led_to",
+      "note": "The Ikhshidid Dynasty's rule in Egypt (933\u2013969) preceded the Fatimid conquest."
+    }
+  ]
+}
