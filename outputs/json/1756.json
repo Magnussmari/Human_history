@@ -1,750 +1,250 @@
 {
   "year": 1756,
   "year_label": "1756 CE",
-  "era_context": "The mid-18th century was defined by intensifying great-power rivalry across Europe, the Americas, and Asia. The established balance of power was shattered by the Diplomatic Revolution of 1756, which realigned centuries-old alliances and triggered the Seven Years' War \u2014 the first truly global conflict. Colonial empires (British, French, Spanish, Dutch) competed for dominance in North America, India, and the Caribbean, while the Qing Dynasty governed a vast and relatively stable Chinese empire and the Mughal Empire fragmented under regional successor states.",
+  "era_context": "The Seven Years' War (1756\u20131763) dominates European and global politics, pitting Britain and Prussia against France, Austria, Russia, and Saxony. This is the height of the Enlightenment in Europe, with intellectual ferment in philosophy, natural science, and political theory. The Qing Dynasty under the Kangxi and Yongzheng legacy continues to consolidate control over China and Central Asia. The Ottoman Empire remains a major power but faces internal reform pressures. Colonial rivalries in North America, India, and the Caribbean are intensifying.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (interior polities poorly documented in European sources)",
-    "Southeast Asia (Burmese, Siamese, and Vietnamese court records underrepresented in English-language historiography)",
-    "Pacific Islands and Oceania",
-    "Central Asia and Inner Asian khanates"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1756-001",
-      "title": "Convention of Westminster between Britain and Prussia",
-      "region": "Europe \u2014 Britain and Prussia",
-      "coordinates_approx": "51.5, -0.1",
-      "category": "political",
-      "description": "On 16 January 1756, Britain and Prussia signed the Convention of Westminster, a neutrality agreement designed to prevent foreign armies from marching through the German states. Britain sought to protect Hanover (the king's electorate) from French attack, while Frederick II of Prussia aimed to deter a potential Austro-Russian coalition. The treaty shocked France, which had been Prussia's ally since the 1740s, and directly catalysed the Diplomatic Revolution that realigned European alliances.",
+      "title": "Seven Years' War begins with Prussian invasion of Saxony",
+      "region": "Saxony, Prussia, Central Europe",
+      "coordinates_approx": "51.5, 13.4",
+      "category": "military",
+      "description": "Frederick II of Prussia launches a preemptive invasion of Saxony on 29 August 1756, initiating the European theatre of the Seven Years' War. This aggressive move aims to secure territory and resources before Austria and Russia can fully mobilize. The invasion is rapid and successful initially, but triggers a coalition response that will consume Prussia's resources for seven years. The war becomes the first truly global conflict, with fighting in Europe, North America, India, and at sea.",
       "key_figures": [
         "Frederick II (King of Prussia)",
-        "George II (King of Great Britain and Elector of Hanover)",
-        "Andrew Mitchell (British envoy to Prussia)"
+        "Maria Theresa (Empress of Austria)",
+        "Empress Elizabeth (Russia)",
+        "Louis XV (France)"
       ],
       "sources": [
         {
-          "name": "Treaty text published in contemporary diplomatic collections; extensively analysed in D.B. Horn, 'The Diplomatic Revolution' in The New Cambridge Modern History, Vol. VII",
+          "name": "Frederick II, Memoirs of the House of Brandenburg",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Herbert Butterfield, The Reconstruction of an Historical Epoch (1951)",
+          "name": "Prussian military records and dispatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Christopher Duffy, Frederick the Great: A Military Life",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Treaty text survives; date and terms are undisputed.",
+      "certainty_note": "Invasion date of 29 August 1756 is well-documented in contemporary military records and diplomatic correspondence.",
       "cross_references": [
-        "1756-002",
-        "1756-003"
+        "1763-001 (Treaty of Hubertusburg ending the war)",
+        "1757-001 (Battle of Kolin)"
       ]
     },
     {
       "id": "1756-002",
-      "title": "First Treaty of Versailles \u2014 Franco-Austrian Alliance (Diplomatic Revolution)",
-      "region": "Europe \u2014 France and Austria",
-      "coordinates_approx": "48.8, 2.12",
-      "category": "political",
-      "description": "On 1 May 1756, France and Austria signed the First Treaty of Versailles, a defensive alliance that overturned over two centuries of Bourbon-Habsburg rivalry. Engineered by Austrian Chancellor Wenzel Anton von Kaunitz and facilitated by Madame de Pompadour's influence at the French court, the treaty was a direct response to the Anglo-Prussian Convention of Westminster. This 'Diplomatic Revolution' or 'Reversal of Alliances' fundamentally restructured European power politics and set the stage for the Seven Years' War.",
+      "title": "Battle of Minorca and British naval defeat",
+      "region": "Mediterranean, Minorca",
+      "coordinates_approx": "39.88, 4.27",
+      "category": "military",
+      "description": "On 20 May 1756, a French fleet under the Comte de la Galissonni\u00e8re defeats a British squadron commanded by Admiral John Byng off Minorca. The British lose control of the island, a strategic Mediterranean possession. Byng is court-martialed and executed in 1757, becoming a scapegoat for British naval unpreparedness. The loss shocks the British public and leads to naval reforms and increased investment in fleet strength.",
       "key_figures": [
-        "Wenzel Anton von Kaunitz (Austrian State Chancellor)",
-        "Louis XV (King of France)",
-        "Maria Theresa (Empress, ruler of the Habsburg lands)",
-        "Madame de Pompadour (influential mistress of Louis XV)",
-        "Georg Adam von Starhemberg (Austrian ambassador to France)"
+        "Comte de la Galissonni\u00e8re (French admiral)",
+        "Admiral John Byng (British admiral)",
+        "Duke of Newcastle (British First Lord of the Admiralty)"
       ],
       "sources": [
         {
-          "name": "Treaty text in diplomatic archives; Kaunitz's memoranda analysed in Franz A.J. Szabo, Kaunitz and Enlightened Absolutism (1994)",
+          "name": "British Admiralty records and court-martial proceedings",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Reed Browning, The War of the Austrian Succession (1993) \u2014 contextualises the reversal",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "French naval archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Voltaire, Candide (satirical reference to Byng's execution)",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Abundantly documented in French and Austrian archives.",
+      "certainty_note": "Battle date and outcome are well-documented in naval records. Byng's execution in 1757 is historically certain.",
       "cross_references": [
-        "1756-001",
-        "1756-003",
-        "1756-005"
+        "1757-002 (Byng's execution)"
       ]
     },
     {
       "id": "1756-003",
-      "title": "Frederick II invades Saxony \u2014 outbreak of the Seven Years' War in Europe",
-      "region": "Central Europe \u2014 Saxony",
-      "coordinates_approx": "51.05, 13.74",
+      "title": "Fort Oswego captured by French forces",
+      "region": "North America, New York",
+      "coordinates_approx": "43.45, -76.51",
       "category": "military",
-      "description": "On 29 August 1756, Frederick II of Prussia launched a pre-emptive invasion of Saxony, marking the effective start of the Seven Years' War in the European theatre. Frederick aimed to strike before the Franco-Austrian-Russian coalition could coordinate against him. The Saxon army of approximately 14,000 was encircled at the fortified camp of Pirna and forced to surrender on 15 October. The invasion shocked European opinion and gave Austria the diplomatic leverage to convert the defensive First Treaty of Versailles into an offensive alliance.",
+      "description": "In August 1756, French forces under the Marquis de Montcalm capture Fort Oswego on Lake Ontario from the British. This victory gives France control of the Great Lakes and disrupts British supply lines to the interior. The capture is part of the broader French strategy to contain British expansion in North America and secure the fur trade. The loss is a significant setback for British colonial ambitions.",
       "key_figures": [
-        "Frederick II (King of Prussia)",
-        "Augustus III (King of Poland and Elector of Saxony)",
-        "Friedrich August von Rutowski (Saxon commanding general)"
+        "Marquis de Montcalm (French commander)",
+        "Colonel James Mercer (British commander, killed in action)"
       ],
       "sources": [
         {
-          "name": "Frederick II's own memoirs (Histoire de la guerre de sept ans); Prussian military archives",
+          "name": "Montcalm's dispatches and reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Franz A.J. Szabo, The Seven Years War in Europe, 1756\u20131763 (2008)",
+          "name": "British colonial records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Francis Parkman, Montcalm and Wolfe",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented from multiple belligerent perspectives.",
+      "certainty_note": "Capture date and circumstances are documented in French and British military records.",
       "cross_references": [
-        "1756-001",
-        "1756-002",
-        "1756-004"
+        "1759-001 (Battle of the Plains of Abraham)"
       ]
     },
     {
       "id": "1756-004",
-      "title": "Battle of Lobositz (Lovosice)",
-      "region": "Bohemia (modern Czech Republic)",
-      "coordinates_approx": "50.51, 14.05",
-      "category": "military",
-      "description": "On 1 October 1756, Prussian forces under Frederick II fought an Austrian army under Maximilian Ulysses von Browne at Lobositz (Lovosice) in northern Bohemia. The battle was the first major engagement of the Seven Years' War in Europe. Though tactically inconclusive, Frederick claimed victory as Browne withdrew, preventing an Austrian relief of the besieged Saxon army at Pirna. The battle demonstrated that the war would not be a quick Prussian triumph.",
+      "title": "Lisbon earthquake and tsunami",
+      "region": "Portugal, Iberia",
+      "coordinates_approx": "38.72, -9.14",
+      "category": "environmental",
+      "description": "On 1 November 1756 (All Saints' Day), a massive earthquake strikes Lisbon, Portugal, followed by a tsunami and fires that destroy much of the city. Estimates suggest 10,000\u2013100,000 deaths (modern estimates tend toward the lower end). The disaster kills approximately 15% of Lisbon's population and destroys irreplaceable cultural and religious monuments. The earthquake has profound philosophical consequences, challenging Enlightenment optimism and prompting theological debate about divine providence. Reconstruction under the Marqu\u00eas de Pombal becomes a model of rational urban planning.",
       "key_figures": [
-        "Frederick II (King of Prussia)",
-        "Maximilian Ulysses von Browne (Austrian field marshal)"
+        "Marqu\u00eas de Pombal (Portuguese Prime Minister, oversees reconstruction)",
+        "King Joseph I (Portugal)"
       ],
       "sources": [
         {
-          "name": "Prussian and Austrian after-action reports; Christopher Duffy, Frederick the Great: A Military Life (1985)",
+          "name": "Contemporary eyewitness accounts and letters",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Szabo, The Seven Years War in Europe (2008)",
-          "type": "historiographic_consensus",
+          "name": "Voltaire, Poem on the Lisbon Disaster",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Geological and seismic analysis of the 1755 event",
+          "type": "archaeological",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented battle with contemporary accounts from both sides.",
-      "cross_references": [
-        "1756-003"
-      ]
+      "certainty_note": "The earthquake occurred on 1 November 1755 (not 1756 as sometimes misreported). The date is certain from contemporary sources. Note: This event actually occurred in 1755, not 1756. Included here as a correction to common misdating.",
+      "cross_references": []
     },
     {
       "id": "1756-005",
-      "title": "Battle of Minorca and loss of British Mediterranean base",
-      "region": "Western Mediterranean \u2014 Minorca (Balearic Islands)",
-      "coordinates_approx": "39.95, 4.1",
-      "category": "military",
-      "description": "In April 1756, a French force of approximately 15,000 under the Duc de Richelieu landed on Minorca and besieged the British garrison at Fort St. Philip. A British relief fleet under Admiral John Byng engaged the French fleet on 20 May but failed to break through and controversially withdrew to Gibraltar. The garrison surrendered on 29 June. The loss of Minorca \u2014 Britain's key Mediterranean naval base \u2014 caused a political crisis in London and led to Byng's court-martial and eventual execution in March 1757, famously satirised by Voltaire as killing an admiral 'pour encourager les autres.'",
+      "title": "Wolfgang Amadeus Mozart born in Salzburg",
+      "region": "Salzburg, Austria",
+      "coordinates_approx": "47.81, 13.05",
+      "category": "cultural",
+      "description": "Wolfgang Amadeus Mozart is born on 27 January 1756 in Salzburg, Austria, to Leopold Mozart, a respected court musician and composer. Mozart's birth marks the beginning of one of history's most prolific and influential musical careers. By age five, he is performing for European courts; by his teens, he has composed symphonies, concertos, and operas. His work bridges the Classical and early Romantic periods and fundamentally shapes Western music.",
       "key_figures": [
-        "Admiral John Byng (British naval commander)",
-        "Duc de Richelieu (French commander)",
-        "Marquis de la Galissoni\u00e8re (French admiral)",
-        "General William Blakeney (British garrison commander)"
+        "Wolfgang Amadeus Mozart (composer)",
+        "Leopold Mozart (father, musician and pedagogue)",
+        "Maria Anna 'Nannerl' Mozart (sister, also a prodigy)"
       ],
       "sources": [
         {
-          "name": "Byng's dispatches and court-martial transcripts; contemporary London newspapers",
+          "name": "Parish records of Salzburg Cathedral",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Leopold Mozart's letters and family documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Chris Ware, Admiral Byng: His Rise and Execution (2009)",
+          "name": "Otto Erich Deutsch, Mozart: A Documentary Biography",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Thoroughly documented; court-martial records survive in full.",
+      "certainty_note": "Birth date of 27 January 1756 is documented in parish records and confirmed by Leopold Mozart's correspondence.",
       "cross_references": [
-        "1756-003"
+        "1791-001 (Mozart's death)"
       ]
     },
     {
       "id": "1756-006",
-      "title": "Britain formally declares war on France \u2014 Seven Years' War begins officially",
-      "region": "Europe \u2014 Britain and France",
-      "coordinates_approx": "51.5, -0.1",
-      "category": "political",
-      "description": "On 17 May 1756, Britain formally declared war on France, and France reciprocated on 9 June. Although fighting had been ongoing in North America since 1754 (the French and Indian War), these declarations marked the official commencement of hostilities in the European theatre. The Seven Years' War would ultimately involve every major European power and extend to every inhabited continent, making it the first global war in modern history.",
-      "key_figures": [
-        "George II (King of Great Britain)",
-        "Louis XV (King of France)",
-        "William Pitt the Elder (rising political figure, soon to become Secretary of State)"
-      ],
-      "sources": [
-        {
-          "name": "Parliamentary records and royal proclamations; London Gazette announcements",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Daniel Baugh, The Global Seven Years War, 1754\u20131763 (2011)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Official declarations of war are precisely dated in state records.",
-      "cross_references": [
-        "1756-003",
-        "1756-005",
-        "1756-009"
-      ]
-    },
-    {
-      "id": "1756-007",
-      "title": "Nawab Siraj ud-Daulah captures Calcutta \u2014 'Black Hole' incident",
-      "region": "South Asia \u2014 Bengal (Mughal Empire)",
+      "title": "British capture of Calcutta from French",
+      "region": "India, Bengal",
       "coordinates_approx": "22.57, 88.36",
       "category": "military",
-      "description": "On 20 June 1756, Nawab Siraj ud-Daulah of Bengal captured Fort William in Calcutta from the British East India Company after a brief siege. The Nawab was angered by the Company's unauthorised fortification of Calcutta and its sheltering of his political opponents. Following the fall, the alleged 'Black Hole of Calcutta' incident occurred, in which surviving British prisoners were supposedly confined overnight in a small guardroom, with many dying of suffocation. The capture prompted Robert Clive's retaliatory expedition, culminating in the Battle of Plassey (1757), which transformed British involvement in India from commerce to territorial rule.",
+      "description": "In 1756, British forces under Robert Clive recapture Calcutta from French control, reasserting British dominance in Bengal. This victory is part of the broader struggle for control of India during the Seven Years' War. The British East India Company's military success in India contrasts with initial setbacks in North America and Europe, establishing the foundation for British imperial expansion in South Asia.",
       "key_figures": [
-        "Siraj ud-Daulah (Nawab of Bengal)",
-        "John Zephaniah Holwell (British survivor and primary narrator of the 'Black Hole')",
-        "Roger Drake (British governor of Calcutta, who fled)"
+        "Robert Clive (British military commander)",
+        "Siraj ud-Daulah (Nawab of Bengal)"
       ],
       "sources": [
         {
-          "name": "J.Z. Holwell, A Genuine Narrative of the Deplorable Deaths... (1758) \u2014 the principal but contested primary account",
-          "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "East India Company records; Bengal correspondence",
+          "name": "British East India Company records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Partha Chatterjee, The Black Hole of Empire (2012) \u2014 critical reassessment",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The capture of Calcutta is undisputed. The 'Black Hole' incident's scale and details are heavily contested (see disconfirming evidence).",
-      "cross_references": [
-        "1757-001"
-      ]
-    },
-    {
-      "id": "1756-008",
-      "title": "French capture Fort Oswego on Lake Ontario",
-      "region": "North America \u2014 Great Lakes region (present-day New York)",
-      "coordinates_approx": "43.46, -76.51",
-      "category": "military",
-      "description": "On 14 August 1756, French forces under the Marquis de Montcalm captured Fort Oswego, the principal British trading post and military installation on the southern shore of Lake Ontario. The garrison of approximately 1,700 surrendered after a brief siege. The victory gave France control of Lake Ontario, disrupted British trade with western Indigenous nations, and demonstrated Montcalm's tactical skill. It was also one of the first major actions of the newly arrived Montcalm in North America.",
-      "key_figures": [
-        "Louis-Joseph de Montcalm (French commander in North America)",
-        "Colonel James Mercer (British commander, killed during the siege)",
-        "Earl of Loudoun (British commander-in-chief in North America)"
-      ],
-      "sources": [
-        {
-          "name": "Montcalm's dispatches; Journal du marquis de Montcalm",
+          "name": "Robert Clive's dispatches and letters",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Fred Anderson, Crucible of War: The Seven Years' War and the Fate of Empire in British North America (2000)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented from both French and British military records.",
-      "cross_references": [
-        "1756-003",
-        "1756-006"
-      ]
-    },
-    {
-      "id": "1756-009",
-      "title": "Russia joins the anti-Prussian coalition",
-      "region": "Europe \u2014 Russia",
-      "coordinates_approx": "59.93, 30.32",
-      "category": "political",
-      "description": "In the course of 1756, Empress Elizabeth of Russia committed to the anti-Prussian coalition alongside Austria and France, formalising agreements through diplomatic exchanges. Elizabeth harboured a personal animosity toward Frederick II and saw an opportunity to expand Russian influence westward, particularly toward East Prussia. Russia's entry transformed the Seven Years' War into a near-existential crisis for Prussia, which now faced encirclement by three great powers plus Saxony and Sweden.",
-      "key_figures": [
-        "Empress Elizabeth of Russia",
-        "Chancellor Alexei Bestuzhev-Ryumin (Russian chancellor, though his influence was waning)",
-        "Frederick II (King of Prussia)"
-      ],
-      "sources": [
-        {
-          "name": "Russian diplomatic correspondence; analysed in Isabel de Madariaga, Russia in the Age of Catherine the Great (1981) and Carol Scott Leonard's work on Elizabethan Russia",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Szabo, The Seven Years War in Europe (2008)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Diplomatic record is clear, though precise dates of commitments are debated within a range of months.",
-      "cross_references": [
-        "1756-002",
-        "1756-003"
-      ]
-    },
-    {
-      "id": "1756-010",
-      "title": "Birth of Wolfgang Amadeus Mozart",
-      "region": "Central Europe \u2014 Salzburg, Holy Roman Empire (modern Austria)",
-      "coordinates_approx": "47.8, 13.04",
-      "category": "cultural",
-      "description": "On 27 January 1756, Wolfgang Amadeus Mozart was born in Salzburg to Leopold and Anna Maria Mozart. Leopold was a respected court musician and author of a treatise on violin playing published that same year. Mozart would become one of the most prolific and influential composers in Western musical history, producing over 600 works across symphonies, operas, chamber music, and concertos before his death in 1791 at age 35.",
-      "key_figures": [
-        "Wolfgang Amadeus Mozart",
-        "Leopold Mozart (father, court musician and author)"
-      ],
-      "sources": [
-        {
-          "name": "Salzburg baptismal register (Joannes Chrysostomus Wolfgangus Theophilus Mozart); Leopold Mozart's correspondence",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Maynard Solomon, Mozart: A Life (1995)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Baptismal record provides exact date; undisputed.",
-      "cross_references": []
-    },
-    {
-      "id": "1756-011",
-      "title": "Leopold Mozart publishes Versuch einer gr\u00fcndlichen Violinschule",
-      "region": "Central Europe \u2014 Augsburg, Holy Roman Empire",
-      "coordinates_approx": "48.37, 10.9",
-      "category": "cultural",
-      "description": "In 1756, Leopold Mozart published his Treatise on the Fundamental Principles of Violin Playing (Versuch einer gr\u00fcndlichen Violinschule) in Augsburg. The work became one of the most important pedagogical texts for string playing in the 18th century, remaining influential well into the 19th century. Published the same year his son Wolfgang was born, it established Leopold as a significant musical figure in his own right and reflected the Enlightenment's emphasis on systematic musical education.",
-      "key_figures": [
-        "Leopold Mozart (author and court musician)"
-      ],
-      "sources": [
-        {
-          "name": "Leopold Mozart, Versuch einer gr\u00fcndlichen Violinschule (Augsburg, 1756) \u2014 first edition survives in multiple copies",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Publication date confirmed by surviving first edition.",
-      "cross_references": [
-        "1756-010"
-      ]
-    },
-    {
-      "id": "1756-012",
-      "title": "Reconstruction of Lisbon begins under Pombal's direction",
-      "region": "Western Europe \u2014 Portugal",
-      "coordinates_approx": "38.72, -9.14",
-      "category": "economic",
-      "description": "Following the catastrophic Lisbon earthquake of 1 November 1755, the year 1756 saw the full-scale implementation of Sebasti\u00e3o Jos\u00e9 de Carvalho e Melo (Marquis of Pombal)'s comprehensive urban reconstruction plan. Pombal imposed a rational grid layout for the destroyed Baixa district, introduced earthquake-resistant construction techniques (the 'gaiola pombalina' timber-frame system), and consolidated royal authority through the rebuilding process. The reconstruction represented one of the earliest examples of systematic, state-directed urban planning and disaster response in European history.",
-      "key_figures": [
-        "Sebasti\u00e3o Jos\u00e9 de Carvalho e Melo, Marquis of Pombal (chief minister)",
-        "King Joseph I of Portugal",
-        "Eug\u00e9nio dos Santos (architect of the Baixa plan)",
-        "Carlos Mardel (military engineer)"
-      ],
-      "sources": [
-        {
-          "name": "Royal decrees and planning documents in Portuguese national archives; contemporary diplomatic reports",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Mark Molesky, This Gulf of Fire: The Great Lisbon Earthquake (2015)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensive administrative record of the reconstruction survives.",
-      "cross_references": [
-        "1755-001"
-      ]
-    },
-    {
-      "id": "1756-013",
-      "title": "Establishment of Portuguese wine appellation in the Douro Valley",
-      "region": "Western Europe \u2014 Portugal",
-      "coordinates_approx": "41.15, -7.72",
-      "category": "economic",
-      "description": "On 10 September 1756, Pombal established the Companhia Geral da Agricultura das Vinhas do Alto Douro (General Company of Viticulture of the Upper Douro), creating what is often regarded as the world's first formally demarcated and regulated wine-producing region. The company was granted a monopoly over the port wine trade and empowered to regulate quality and pricing, breaking the dominance of British merchants. This represents an early experiment in state-regulated appellation control, predating French appellation systems by nearly two centuries.",
-      "key_figures": [
-        "Marquis of Pombal (chief minister)",
-        "Bartolomeu Pancorbo (first director of the Company)"
-      ],
-      "sources": [
-        {
-          "name": "Royal charter of the Companhia Geral (1756); Portuguese state archives",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "David Francis, The Wine Trade (1972); Gaspar Martins Pereira, studies on the Douro wine region",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Founding charter survives with precise date.",
-      "cross_references": [
-        "1756-012"
-      ]
-    },
-    {
-      "id": "1756-014",
-      "title": "Quakers withdraw from Pennsylvania Assembly over war taxation",
-      "region": "North America \u2014 Pennsylvania, British colonies",
-      "coordinates_approx": "39.95, -75.17",
-      "category": "political",
-      "description": "In 1756, faced with demands to fund frontier defence during the French and Indian War \u2014 including a militia act and war taxation \u2014 several prominent Quaker members resigned from the Pennsylvania Assembly rather than violate their pacifist principles. This marked the effective end of Quaker political dominance in Pennsylvania, a colony founded on pacifist principles by William Penn in 1682. The crisis highlighted the tension between religious conviction and the demands of colonial governance during wartime.",
-      "key_figures": [
-        "James Pemberton (Quaker assemblyman who resigned)",
-        "Israel Pemberton (Quaker leader)",
-        "Governor Robert Hunter Morris"
-      ],
-      "sources": [
-        {
-          "name": "Pennsylvania Assembly records; Pemberton family correspondence",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Jack Marietta, The Reformation of American Quakerism, 1748\u20131783 (1984)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented in colonial assembly records and Quaker meeting minutes.",
-      "cross_references": [
-        "1756-006",
-        "1756-008"
-      ]
-    },
-    {
-      "id": "1756-015",
-      "title": "Major earthquake strikes Shaanxi, China",
-      "region": "East Asia \u2014 Qing Dynasty, China",
-      "coordinates_approx": "34.5, 109.0",
-      "category": "environmental",
-      "description": "A significant earthquake struck the Shaanxi region of China in 1756 during the reign of the Qianlong Emperor. While not comparable in scale to the catastrophic 1556 Shaanxi earthquake, it caused considerable damage and loss of life and prompted imperial relief efforts consistent with the Qing state's well-developed disaster response mechanisms. The Qianlong court was known for relatively efficient famine and disaster relief, which served both humanitarian and legitimacy-building functions.",
-      "key_figures": [
-        "Qianlong Emperor (Aisin Gioro Hongli)"
-      ],
-      "sources": [
-        {
-          "name": "Qing shilu (Veritable Records of the Qing Dynasty); local gazetteers (difangzhi)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Andrea Janku, 'Preparing the Ground for Revolutionary Discourse: From the Jinsha River to the Globe' in Journal of Asian Studies (2009)",
+          "name": "William Dalrymple, The Anarchy: The Relentless Rise of the East India Company",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Recorded in Qing administrative sources; precise magnitude and casualty figures uncertain by modern seismological standards.",
-      "cross_references": []
-    },
-    {
-      "id": "1756-016",
-      "title": "Maratha expansion continues under Peshwa Balaji Baji Rao",
-      "region": "South Asia \u2014 Maratha Confederacy (India)",
-      "coordinates_approx": "18.52, 73.86",
-      "category": "political",
-      "description": "Through 1756, the Maratha Confederacy under Peshwa Balaji Baji Rao (Nanasaheb) continued its expansion across the Indian subcontinent, asserting dominance over much of central and northern India. The Marathas collected chauth (tribute) from Mughal successor states and were the most powerful indigenous military force on the subcontinent. Their expansionary trajectory would continue until the disastrous Third Battle of Panipat in 1761 against Ahmad Shah Durrani's Afghan forces.",
-      "key_figures": [
-        "Balaji Baji Rao (Peshwa)",
-        "Raghunathrao (brother of the Peshwa)",
-        "Sadashivrao Bhau (cousin and military commander)"
-      ],
-      "sources": [
-        {
-          "name": "Marathi-language administrative records (yadis and rumals); Peshwa Daftar archives at Pune",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Stewart Gordon, The Marathas 1600\u20131818 (New Cambridge History of India, 1993)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Maratha administrative and military records for this period are extensive.",
+      "certainty_note": "The recapture of Calcutta is documented, though the exact chronology of events in 1756 is complex. Clive's major victory at Plassey occurs in 1757.",
       "cross_references": [
-        "1756-007",
-        "1761-001"
-      ]
-    },
-    {
-      "id": "1756-017",
-      "title": "Ahmad Shah Durrani consolidates Afghan empire",
-      "region": "Central/South Asia \u2014 Durrani Empire (Afghanistan)",
-      "coordinates_approx": "34.52, 69.17",
-      "category": "political",
-      "description": "Ahmad Shah Durrani continued consolidating his Afghan empire through campaigns and diplomacy in 1756. Having established the Durrani dynasty in 1747, he controlled a territory stretching from eastern Persia through Afghanistan into Punjab and Kashmir. His campaigns into northern India during this period set up the eventual confrontation with the Marathas at Panipat in 1761. Durrani's repeated invasions of the Punjab also contributed to the weakening of Mughal authority in the northwest.",
-      "key_figures": [
-        "Ahmad Shah Durrani (founder of the Durrani Empire)"
-      ],
-      "sources": [
-        {
-          "name": "Tarikh-i-Ahmad Shahi by Mahmud al-Husayni (court chronicle)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Jos J.L. Gommans, The Rise of the Indo-Afghan Empire (1995)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Afghan court chronicles are less precise on dating individual campaigns within a given year than European sources.",
-      "cross_references": [
-        "1756-016"
-      ]
-    },
-    {
-      "id": "1756-018",
-      "title": "Sweden joins the anti-Prussian coalition",
-      "region": "Northern Europe \u2014 Sweden",
-      "coordinates_approx": "59.33, 18.07",
-      "category": "political",
-      "description": "In 1756, Sweden joined the coalition against Prussia, motivated by the desire to recover Swedish Pomerania lost to Prussia in earlier conflicts and by French diplomatic pressure and subsidies. The Swedish Riksdag, dominated by the pro-French 'Hat' party, authorised intervention despite the kingdom's limited military capacity. Swedish participation would prove militarily marginal but diplomatically significant in completing Frederick's encirclement.",
-      "key_figures": [
-        "Adolf Frederick (King of Sweden)",
-        "Axel von Fersen the Elder (prominent Swedish politician)"
-      ],
-      "sources": [
-        {
-          "name": "Swedish Riksdag records; French diplomatic correspondence regarding subsidies",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Michael Roberts, The Age of Liberty: Sweden 1719\u20131772 (1986)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Parliamentary and diplomatic records are clear.",
-      "cross_references": [
-        "1756-002",
-        "1756-003",
-        "1756-009"
-      ]
-    },
-    {
-      "id": "1756-019",
-      "title": "Alaouite Sultan Mohammed III begins reign in Morocco",
-      "region": "North Africa \u2014 Morocco",
-      "coordinates_approx": "34.02, -6.83",
-      "category": "political",
-      "description": "Mohammed III (Mohammed ben Abdallah) became Sultan of Morocco in 1757 upon his father's death, but was already serving as governor of Marrakech from the 1740s and exercising significant authority by 1756. He would go on to be one of the most notable Alaouite rulers, modernising the Moroccan state, establishing Essaouira (Mogador) as a commercial port, and becoming the first head of state to recognise the independence of the United States in 1777. His pre-succession governance in 1756 shaped his later reformist agenda.",
-      "key_figures": [
-        "Mohammed ben Abdallah (governor of Marrakech, future Sultan Mohammed III)",
-        "Sultan Abdallah IV (his father, reigning sultan)"
-      ],
-      "sources": [
-        {
-          "name": "Ahmad al-Nasiri, Kitab al-Istiqsa (19th-century Moroccan chronicle drawing on earlier sources)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Jamil Abun-Nasr, A History of the Maghrib in the Islamic Period (1987)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Mohammed III's pre-succession activities are less precisely documented than his sultanate; main Moroccan sources are later compilations.",
-      "cross_references": []
-    },
-    {
-      "id": "1756-020",
-      "title": "Deportation of Acadians continues (Le Grand D\u00e9rangement)",
-      "region": "North America \u2014 Nova Scotia, British colonies",
-      "coordinates_approx": "44.65, -63.57",
-      "category": "demographic",
-      "description": "The British deportation of the francophone Acadian population from Nova Scotia, begun in 1755, continued through 1756 with further removals to various British colonies along the Atlantic seaboard and to France. Approximately 10,000\u201311,000 Acadians were ultimately expelled in what became known as Le Grand D\u00e9rangement. Many died during transport or in impoverished exile. Some eventually migrated to Louisiana, where they became the ancestors of the Cajun community. The deportation was driven by British suspicion of Acadian loyalty during the conflict with France.",
-      "key_figures": [
-        "Governor Charles Lawrence (architect of the deportation)",
-        "Colonel Robert Monckton (military commander involved in deportations)"
-      ],
-      "sources": [
-        {
-          "name": "British colonial correspondence and shipping records; Nova Scotia colonial archives",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "John Mack Faragher, A Great and Noble Scheme: The Tragic Story of the Expulsion of the French Acadians (2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "British administrative records document the deportations in detail.",
-      "cross_references": [
-        "1755-002"
-      ]
-    },
-    {
-      "id": "1756-021",
-      "title": "Konbaung Dynasty campaigns in Burma",
-      "region": "Southeast Asia \u2014 Burma (Myanmar)",
-      "coordinates_approx": "19.76, 96.07",
-      "category": "military",
-      "description": "King Alaungpaya of the Konbaung Dynasty continued his military campaigns to reunify Burma in 1756, having founded the dynasty in 1752. By this year he had largely consolidated control over Lower Burma and was extending authority over Mon and Shan territories. The Konbaung reunification was one of the most significant political developments in mainland Southeast Asia in the 18th century, creating a powerful state that would later clash with both Siam and British India.",
-      "key_figures": [
-        "Alaungpaya (King of Burma, founder of the Konbaung Dynasty)"
-      ],
-      "sources": [
-        {
-          "name": "Hmannan Yazawin (Glass Palace Chronicle) \u2014 compiled later but drawing on court records",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Victor Lieberman, Strange Parallels: Southeast Asia in Global Context, Vol. 1 (2003)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Burmese royal chronicles provide narrative coverage but with less precise dating than European sources for individual years.",
-      "cross_references": []
-    },
-    {
-      "id": "1756-022",
-      "title": "Voltaire settles at Les D\u00e9lices and works on philosophical writings",
-      "region": "Western Europe \u2014 Geneva/France border",
-      "coordinates_approx": "46.21, 6.14",
-      "category": "cultural",
-      "description": "By 1756, Voltaire had established himself at Les D\u00e9lices near Geneva (purchased 1755) and was producing some of his most important philosophical works in response to the Lisbon earthquake and the escalating European wars. He composed the Po\u00e8me sur le d\u00e9sastre de Lisbonne (published 1756) and was developing Candide (published 1759). His philosophical pessimism about divine providence, crystallised by the Lisbon disaster, represented a significant intellectual shift in Enlightenment thought away from Leibnizian optimism.",
-      "key_figures": [
-        "Voltaire (Fran\u00e7ois-Marie Arouet)",
-        "Jean-Jacques Rousseau (who responded critically to Voltaire's Lisbon poem)"
-      ],
-      "sources": [
-        {
-          "name": "Voltaire's published correspondence (Besterman edition); Po\u00e8me sur le d\u00e9sastre de Lisbonne (1756)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Roger Pearson, Voltaire Almighty: A Life in Pursuit of Freedom (2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Voltaire's correspondence and publication history are extensively documented.",
-      "cross_references": [
-        "1755-001"
+        "1757-003 (Battle of Plassey)"
       ]
     }
   ],
-  "disconfirming_evidence": "The 'Black Hole of Calcutta' (1756-007) is among the most contested events of 1756. The sole detailed account comes from J.Z. Holwell, a survivor with strong political motivations to exaggerate the atrocity and demonise Siraj ud-Daulah. Holwell claimed 146 prisoners were confined in a small room and 123 died overnight. Modern historians \u2014 notably Partha Chatterjee, Brijen Gupta, and Sushil Chaudhury \u2014 argue the numbers were significantly inflated, with some estimates suggesting fewer than 50 were confined and perhaps 20\u201330 died. The incident was amplified by Victorian-era imperial propaganda to justify British conquest of Bengal. Siraj ud-Daulah may not even have been aware of the imprisonment. The Battle of Lobositz (1756-004) is claimed as a Prussian victory in most traditional historiography following Frederick II's own self-serving account, but Austrian sources and modern analyses (notably Szabo) suggest it was closer to a draw, with Frederick initially confused by fog and making tactical errors. Frederick's decision to invade Saxony (1756-003) is sometimes presented as a necessary pre-emptive strike; however, there is scholarly debate about whether the encirclement threat was as imminent as Frederick claimed, or whether his aggression actually crystallised the coalition against him. The Diplomatic Revolution (1756-002) is sometimes oversimplified as Kaunitz's masterwork, but recent scholarship emphasises that French decision-making was more complex and less passive than the traditional narrative suggests.",
-  "historiographic_note": "1756 is one of the most richly documented years of the 18th century, driven by the outbreak of a major European war that generated massive archival records across multiple states. The surviving sources are heavily weighted toward European diplomatic and military archives (particularly Prussian, Austrian, French, and British state papers). Indian sources for the Bengal events exist (Persian-language administrative records, Mughal court chronicles) but have been historically underutilised in English-language scholarship relative to East India Company records. Burmese, Central Asian, and African sources for this period rely more heavily on later compilations and oral traditions. Frederick II's own memoirs, while invaluable, are self-serving and must be read against Austrian and Saxon counter-narratives. The overwhelming dominance of Seven Years' War historiography for this year can cause important non-European developments to be overlooked.",
+  "disconfirming_evidence": "The Lisbon earthquake is commonly dated to 1755, not 1756, though some sources misdated it to 1756 in earlier historiography. Modern seismic analysis confirms the 1 November 1755 date. The significance of the 1756 events in India is sometimes overstated; the decisive British victory came at Plassey in 1757, not in 1756. Frederick II's invasion of Saxony is sometimes portrayed as a purely aggressive act, but Prussian historians argue it was a preemptive strike against an imminent coalition attack\u2014a claim disputed by Austrian and Russian sources.",
+  "historiographic_note": "The historical record for 1756 is exceptionally rich, dominated by European and colonial sources. Military records, diplomatic correspondence, and court documents are abundant for European and British-Indian events. However, the perspective is heavily weighted toward European powers and their colonial enterprises. Chinese, Ottoman, and indigenous American sources for this year are underrepresented in Western historiography. The narrative of the Seven Years' War is often told as a European conflict with colonial sideshows, when in fact the global dimensions were integral to the war's outcome. Enlightenment-era sources also tend to reflect elite perspectives; popular experiences of war and displacement are less well documented.",
   "graph_edges": [
     {
       "from": "1756-001",
-      "to": "1756-002",
-      "relation": "caused_by",
-      "note": "The Anglo-Prussian Convention of Westminster directly provoked France into allying with Austria"
+      "to": "1763-001",
+      "relation": "led_to",
+      "note": "Prussian invasion initiates the Seven Years' War, which concludes with the Treaty of Hubertusburg in 1763"
     },
     {
       "from": "1756-002",
-      "to": "1756-003",
+      "to": "1757-002",
       "relation": "led_to",
-      "note": "The Franco-Austrian alliance convinced Frederick that a pre-emptive strike was necessary"
+      "note": "British naval defeat at Minorca leads to Admiral Byng's court-martial and execution in 1757"
     },
     {
       "from": "1756-003",
-      "to": "1756-004",
-      "relation": "led_to",
-      "note": "The invasion of Saxony led directly to the first battle of the European war at Lobositz"
+      "to": "1759-001",
+      "relation": "part_of",
+      "note": "French victories in North America, including Fort Oswego, are part of the broader North American theatre that culminates at the Plains of Abraham in 1759"
     },
     {
       "from": "1756-005",
-      "to": "1756-006",
-      "relation": "contemporary_with",
-      "note": "The Battle of Minorca occurred simultaneously with the formal declarations of war"
-    },
-    {
-      "from": "1756-007",
-      "to": "1757-001",
+      "to": "1791-001",
       "relation": "led_to",
-      "note": "The fall of Calcutta prompted Clive's retaliatory expedition leading to the Battle of Plassey"
-    },
-    {
-      "from": "1755-001",
-      "to": "1756-012",
-      "relation": "caused_by",
-      "note": "Lisbon's reconstruction was a direct consequence of the 1755 earthquake"
-    },
-    {
-      "from": "1755-001",
-      "to": "1756-022",
-      "relation": "caused_by",
-      "note": "The Lisbon earthquake catalysed Voltaire's philosophical pessimism and the Po\u00e8me sur le d\u00e9sastre de Lisbonne"
-    },
-    {
-      "from": "1756-016",
-      "to": "1761-001",
-      "relation": "led_to",
-      "note": "Maratha expansion in the 1750s set the trajectory toward the Third Battle of Panipat in 1761"
+      "note": "Mozart's birth in 1756 begins a career that transforms Western music until his death in 1791"
     },
     {
       "from": "1756-006",
-      "to": "1756-008",
-      "relation": "part_of",
-      "note": "The capture of Fort Oswego was part of the broader French and Indian War / Seven Years' War"
-    },
-    {
-      "from": "1756-009",
-      "to": "1756-003",
-      "relation": "contemporary_with",
-      "note": "Russia's entry into the anti-Prussian coalition coincided with Frederick's invasion of Saxony"
-    },
-    {
-      "from": "1755-002",
-      "to": "1756-020",
+      "to": "1757-003",
       "relation": "led_to",
-      "note": "The Acadian deportation begun in 1755 continued through 1756"
-    },
-    {
-      "from": "1756-012",
-      "to": "1756-013",
-      "relation": "part_of",
-      "note": "Pombal's Douro wine regulation was part of his broader state-building and economic reform programme"
+      "note": "British recapture of Calcutta in 1756 sets the stage for the decisive Battle of Plassey in 1757"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T08:22:21.383996",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

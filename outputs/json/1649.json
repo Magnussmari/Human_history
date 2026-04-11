@@ -1,58 +1,63 @@
 {
   "year": 1649,
   "year_label": "1649 CE",
-  "era_context": "The mid-17th century was marked by religious and political upheaval across Europe and the emergence of global maritime empires. England was in the throes of civil war and regicide; the Thirty Years' War had recently concluded in Europe; the Qing Dynasty was consolidating control over China; and European colonial powers were competing for dominance in Asia, Africa, and the Americas.",
+  "era_context": "The year 1649 was a watershed moment in European history, marked by the execution of Charles I of England, the consolidation of Cromwell's power, the continuation of the Thirty Years' War's aftermath, and the intensification of colonial competition. In Asia, the Qing dynasty was consolidating its conquest of China, and the Ming loyalist resistance was being systematically suppressed. This was a period of revolutionary change in England and dynastic consolidation in Asia.",
   "documentation_level": "rich",
   "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1649-001",
-      "title": "Execution of King Charles I of England",
+      "title": "Execution of Charles I of England",
       "region": "England",
-      "coordinates_approx": "51.5074, -0.1278",
+      "coordinates_approx": "51.50, -0.13",
       "category": "political",
-      "description": "Charles I was tried for treason by a Rump Parliament dominated by Oliver Cromwell's supporters and executed by beheading on 30 January 1649 at the Palace of Whitehall in London. This was the first execution of a reigning English monarch and a watershed moment in English constitutional history. The regicide shocked European monarchies and demonstrated the power of parliamentary forces over the crown. It led directly to the establishment of the Commonwealth under Cromwell and fundamentally altered the trajectory of English governance.",
+      "description": "On 30 January 1649, King Charles I of England was executed by beheading following his trial for treason. The trial, conducted by a purged Parliament dominated by Cromwell's supporters, found Charles guilty of making war against Parliament and the people. His execution was unprecedented in English history and shocked European monarchies. The regicide marked the establishment of the Commonwealth and the temporary abolition of the monarchy, though it also set the stage for the eventual Restoration in 1660.",
       "key_figures": [
-        "Charles I (King of England)",
+        "Charles I (executed king)",
         "Oliver Cromwell (Lord General)",
-        "Thomas Pride (Colonel, Pride's Purge)",
-        "John Bradshaw (Lord President of the Trial)"
+        "Henry Ireton (Cromwell's son-in-law)",
+        "John Bradshaw (Lord President of the trial)"
       ],
       "sources": [
         {
-          "name": "The Trial of King Charles I: A Contemporary Account",
+          "name": "Trial records and parliamentary documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Clarendon, Edward Hyde, Earl of. History of the Rebellion and Civil Wars in England",
+          "name": "Contemporary eyewitness accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Bulstrode Whitelocke, Memorials of the English Affairs",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Edward Hyde, History of the Rebellion and Civil Wars in England",
           "type": "chronicle",
           "contemporary": false
-        },
-        {
-          "name": "Parliamentary records and official documents",
-          "type": "primary_text",
-          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The date and event are documented in contemporary parliamentary records, eyewitness accounts, and official trial proceedings. No scholarly dispute exists regarding the occurrence or date.",
+      "certainty_note": "The execution date and circumstances are precisely documented in trial records and contemporary accounts. This is one of the most thoroughly documented events of the 17th century.",
       "cross_references": [
-        "1648-001 (Pride's Purge)",
-        "1653-001 (Cromwell's Protectorate)"
+        "1642-001 (English Civil War begins)",
+        "1660-001 (Restoration of Charles II)"
       ]
     },
     {
       "id": "1649-002",
-      "title": "Cromwell's Campaign in Ireland",
-      "region": "Ireland",
-      "coordinates_approx": "53.4129, -8.2439",
+      "title": "Drogheda massacre during Cromwell's Irish campaign",
+      "region": "Ireland (Drogheda)",
+      "coordinates_approx": "53.72, -6.35",
       "category": "military",
-      "description": "Oliver Cromwell landed in Ireland in August 1649 to suppress royalist and Catholic resistance. His campaign was marked by extreme brutality, including the notorious massacres at Drogheda (September) and Wexford (October), where thousands of soldiers and civilians were killed. Cromwell's stated justification was military necessity and religious zeal against Catholic forces. The campaign lasted until 1651 and resulted in the subjugation of Ireland, massive land confiscation, and demographic catastrophe for the Irish population. This remains one of the most controversial episodes in English-Irish history.",
+      "description": "In September 1649, Oliver Cromwell's forces besieged and captured the town of Drogheda in Ireland. Following the breach of the town's defenses, Cromwell's soldiers massacred the garrison and civilian population, killing an estimated 3,000\u20134,000 people. Cromwell justified the massacre as a necessary response to Irish resistance and as a warning to other towns. The massacre became infamous and contributed to Cromwell's reputation for brutality in Ireland, though it was not unusual for the period.",
       "key_figures": [
         "Oliver Cromwell (Lord General)",
-        "Michael Jones (Parliamentary General)",
-        "Hugh O'Neill (Irish Royalist Commander)"
+        "Sir Arthur Aston (Drogheda garrison commander, killed)",
+        "Irish defenders and civilians"
       ],
       "sources": [
         {
@@ -61,153 +66,198 @@
           "contemporary": true
         },
         {
-          "name": "Contemporary Irish and English chronicles",
-          "type": "chronicle",
+          "name": "Contemporary accounts by soldiers and observers",
+          "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Archaeological and demographic evidence of destruction",
-          "type": "archaeological",
+          "name": "Irish historical records and later compilations",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The campaign, dates, and major events are documented in Cromwell's own correspondence and contemporary chronicles. The scale of casualties at Drogheda and Wexford is debated by modern historians, but the massacres themselves are confirmed.",
+      "certainty_note": "The massacre is extensively documented in Cromwell's own correspondence and contemporary accounts. The death toll estimates vary, but the event itself is uncontested.",
       "cross_references": [
-        "1649-001 (Charles I execution)",
-        "1651-001 (Battle of Worcester)"
+        "1650-002 (Cromwell's Irish campaign continues)",
+        "1652-002 (End of Irish resistance)"
       ]
     },
     {
       "id": "1649-003",
-      "title": "Establishment of the English Commonwealth",
-      "region": "England",
-      "coordinates_approx": "51.5074, -0.1278",
-      "category": "political",
-      "description": "Following the execution of Charles I, Parliament formally abolished the monarchy and established the Commonwealth of England on 19 May 1649. The Rump Parliament (the remnant of the Long Parliament after Pride's Purge) declared England a republic. Oliver Cromwell, though not initially holding the title of head of state, became the dominant military and political figure. The Commonwealth lasted until 1660 and represented an unprecedented experiment in republican government in England, though it was sustained primarily by military force.",
-      "key_figures": [
-        "Oliver Cromwell (Lord General)",
-        "Henry Ireton (Parliamentary General)",
-        "John Bradshaw (President of the Council of State)"
-      ],
-      "sources": [
-        {
-          "name": "Parliamentary Acts and Ordinances of 1649",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Official proclamations and government records",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The formal establishment of the Commonwealth is documented in parliamentary records with precise dates. No scholarly dispute exists regarding the occurrence.",
-      "cross_references": [
-        "1649-001 (Charles I execution)",
-        "1653-001 (Cromwell's Protectorate)"
-      ]
-    },
-    {
-      "id": "1649-004",
-      "title": "Dutch-Portuguese War in the Indian Ocean",
-      "region": "Indian Ocean, Ceylon, Brazil",
-      "coordinates_approx": "6.9271, 80.7789",
+      "title": "Khmelnytsky Uprising in Ukraine continues; Cossack-Polish conflict intensifies",
+      "region": "Ukraine and Polish-Lithuanian Commonwealth",
+      "coordinates_approx": "49.00, 32.00",
       "category": "military",
-      "description": "The Dutch East India Company (VOC) continued its campaign against Portuguese colonial holdings in Asia and Brazil. In 1649, Dutch forces were consolidating control over Ceylon (Sri Lanka) and competing with the Portuguese for dominance in the spice trade. This conflict was part of the broader Portuguese Restoration War (1640\u20131668) and reflected the decline of Portuguese maritime power relative to the Dutch. The Dutch ultimately secured much of the Indian Ocean trade network by mid-century.",
+      "description": "The Khmelnytsky Uprising, which began in 1648, continued in 1649 with intensified conflict between Cossack forces under Bohdan Khmelnytsky and Polish-Lithuanian forces. The uprising was driven by Cossack grievances against Polish rule and religious tensions between Orthodox Cossacks and Catholic Polish nobility. In 1649, the Cossacks achieved significant military victories, and Khmelnytsky emerged as a major regional power. The conflict would eventually lead to the Russo-Polish War and the incorporation of Ukraine into the Russian sphere.",
       "key_figures": [
-        "Dutch East India Company leadership",
-        "Portuguese colonial administrators"
+        "Bohdan Khmelnytsky (Cossack leader)",
+        "John II Casimir of Poland (King)",
+        "Cossack and Polish military commanders"
       ],
       "sources": [
         {
-          "name": "VOC records and correspondence",
+          "name": "Cossack chronicles and records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Portuguese colonial archives",
+          "name": "Polish and Lithuanian records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus on VOC expansion",
+          "name": "Later Russian and Ukrainian historiography",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The broader conflict is well-documented, but specific 1649 engagements are less precisely dated in available sources. The year is assigned by convention within the larger campaign.",
+      "certainty_note": "The Khmelnytsky Uprising is well-documented in Polish and Cossack sources, though specific dates for individual battles and events in 1649 vary between sources.",
       "cross_references": [
-        "1640-001 (Portuguese Restoration)",
-        "1658-001 (Dutch control of Ceylon)"
+        "1648-001 (Khmelnytsky Uprising begins)",
+        "1654-001 (Russo-Polish War begins)"
       ]
     },
     {
-      "id": "1649-005",
-      "title": "Qing Dynasty Consolidation in China",
-      "region": "China",
-      "coordinates_approx": "39.9042, 116.4074",
-      "category": "political",
-      "description": "The Qing Dynasty, established in 1644 by the Manchu conquest of China, continued its consolidation of power in 1649. The Shunzhi Emperor (age 6) reigned under the regency of the Empress Dowager and the powerful regent Dorgon. This period saw the suppression of remaining Ming loyalist resistance and the integration of Han Chinese administrative systems into Manchu rule. The Qing was establishing the bureaucratic and military structures that would sustain its rule for nearly three centuries.",
+      "id": "1649-004",
+      "title": "Qing forces capture Nanjing and consolidate control over southern China",
+      "region": "China (Nanjing and southern provinces)",
+      "coordinates_approx": "32.06, 118.80",
+      "category": "military",
+      "description": "In 1649, Qing forces captured Nanjing, the former Ming capital, consolidating their control over southern China. The capture of Nanjing was a symbolic and strategic victory, effectively ending organized Ming loyalist resistance in the Yangtze River valley. The Qing continued to suppress remaining pockets of resistance, but by 1649, the conquest of China was essentially complete, though the consolidation of administrative control would continue for several years.",
       "key_figures": [
-        "Shunzhi Emperor (Qing Emperor, age 6)",
-        "Dorgon (Regent)",
-        "Empress Dowager Xiaozhuang"
+        "Dorgon (Regent for the Shunzhi Emperor)",
+        "Shunzhi Emperor (nominal ruler)",
+        "Ming loyalist commanders"
       ],
       "sources": [
         {
-          "name": "Qing imperial records and edicts",
+          "name": "Qing imperial records and the Veritable Records of the Qing (Qing Shilu)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Shiji and later Chinese chronicles",
+          "name": "Ming loyalist records and later compilations",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Chinese historical consensus on Qing consolidation",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The capture of Nanjing in 1649 is well-documented in Qing imperial records. The date is confirmed by multiple sources.",
+      "cross_references": [
+        "1644-001 (Qing conquest of Beijing)",
+        "1661-001 (Kangxi Emperor begins reign)"
+      ]
+    },
+    {
+      "id": "1649-005",
+      "title": "Wexford massacre during Cromwell's Irish campaign",
+      "region": "Ireland (Wexford)",
+      "coordinates_approx": "52.34, -6.46",
+      "category": "military",
+      "description": "In October 1649, following the massacre at Drogheda, Cromwell's forces besieged and captured the town of Wexford in Ireland. The town's garrison and civilian population were massacred, with estimates of 2,000\u20133,000 killed. Like Drogheda, Wexford became a symbol of Cromwell's brutality in Ireland. The massacres at Drogheda and Wexford were intended to terrorize Irish resistance and demonstrate the futility of opposing Cromwell's forces.",
+      "key_figures": [
+        "Oliver Cromwell (Lord General)",
+        "Irish defenders and civilians"
+      ],
+      "sources": [
+        {
+          "name": "Cromwell's own letters and dispatches",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary accounts by soldiers and observers",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Irish historical records and later compilations",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Qing imperial records are extensive and well-preserved. The regency structure and major administrative actions of 1649 are documented in official sources.",
+      "certainty_note": "The massacre is extensively documented in Cromwell's correspondence and contemporary accounts. The death toll estimates vary, but the event itself is uncontested.",
       "cross_references": [
-        "1644-001 (Qing conquest of China)",
-        "1661-001 (Kangxi Emperor's reign)"
+        "1649-002 (Drogheda massacre)",
+        "1650-002 (Cromwell's Irish campaign continues)"
+      ]
+    },
+    {
+      "id": "1649-006",
+      "title": "Peace of Westphalia aftermath: European territorial reorganization",
+      "region": "Europe",
+      "coordinates_approx": "50.00, 10.00",
+      "category": "political",
+      "description": "The Peace of Westphalia, signed in 1648, formally ended the Thirty Years' War and reorganized European territories. In 1649, the aftermath of the peace was still being implemented, with territorial transfers, religious settlements, and diplomatic adjustments occurring throughout Europe. The peace established the principle of sovereignty and the balance of power that would characterize European international relations for the next century.",
+      "key_figures": [
+        "European monarchs and diplomats",
+        "Cardinal Richelieu (France, though died in 1642)",
+        "Louis XIV (France, young king)"
+      ],
+      "sources": [
+        {
+          "name": "Peace of Westphalia treaties and documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Diplomatic correspondence and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later historiographic accounts of the peace",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Peace of Westphalia is well-documented in diplomatic records. The implementation of the peace in 1649 is confirmed by contemporary sources.",
+      "cross_references": [
+        "1648-002 (Peace of Westphalia signed)"
       ]
     }
   ],
-  "disconfirming_evidence": "The scale of casualties at Drogheda and Wexford during Cromwell's Irish campaign has been subject to modern historical revision. Contemporary accounts (including Cromwell's own reports) claimed 3,000\u20134,000 deaths at Drogheda, but some modern historians argue these figures were inflated for propaganda purposes. However, the massacres themselves and their brutality are not disputed. Additionally, some revisionist historians have questioned the extent to which Charles I's execution was truly a 'regicide' in the traditional sense, arguing that it was a legal trial (however irregular) rather than an assassination, though this remains a minority position.",
-  "historiographic_note": "The documentation for 1649 is exceptionally rich, dominated by English and European sources. Parliamentary records, Cromwell's correspondence, and contemporary chronicles provide detailed accounts of English political events. However, the perspective is heavily weighted toward English and European viewpoints. Irish, Scottish, and non-European perspectives are underrepresented in surviving sources. Chinese sources are abundant but often filtered through later compilations. The historical record for 1649 reflects the biases of 17th-century literacy and record-keeping: political and military events are well-documented, while social, economic, and cultural history of non-elite populations is sparse.",
+  "disconfirming_evidence": "The execution of Charles I is sometimes portrayed as a triumph of parliamentary democracy; modern scholarship emphasizes that the trial was politically motivated and that the 'purged' Parliament did not represent the broader English population. The Drogheda and Wexford massacres are sometimes justified as necessary military actions; modern scholarship emphasizes their disproportionate brutality and their role in establishing English colonial dominance through terror. The Khmelnytsky Uprising is sometimes presented as a straightforward anti-Polish rebellion; modern scholarship emphasizes the complex religious, social, and economic factors involved. The Qing capture of Nanjing is sometimes presented as the definitive end of Ming resistance; in fact, Ming loyalist resistance continued in various forms for decades, particularly in coastal areas and Taiwan.",
+  "historiographic_note": "Documentation for 1649 is rich for European and East Asian events but remains heavily skewed toward elite political and military history. The execution of Charles I is extensively documented from multiple perspectives, though Royalist accounts are often dismissed as biased. The Irish campaign is extensively documented from the English perspective but less so from the Irish perspective. The Khmelnytsky Uprising is documented in Polish, Cossack, and later Russian sources, but the perspectives of ordinary people are largely absent. The Qing conquest is well-documented in imperial records but less so from the perspective of Ming loyalists or the general population. African and Southeast Asian history is underrepresented in available sources.",
   "graph_edges": [
     {
       "from": "1649-001",
-      "to": "1649-002",
+      "to": "1650-001",
       "relation": "led_to",
-      "note": "Charles I's execution and the establishment of the Commonwealth under Cromwell directly enabled the Irish campaign."
+      "note": "Charles I's execution led to the consolidation of Commonwealth rule"
     },
     {
-      "from": "1649-001",
-      "to": "1649-003",
-      "relation": "led_to",
-      "note": "The execution of Charles I was the immediate cause of the formal establishment of the Commonwealth."
+      "from": "1649-002",
+      "to": "1649-005",
+      "relation": "contemporary_with",
+      "note": "Drogheda and Wexford massacres were part of the same campaign"
     },
     {
       "from": "1649-003",
-      "to": "1653-001",
+      "to": "1654-001",
       "relation": "led_to",
-      "note": "The Commonwealth's instability and military dominance led to Cromwell's establishment of the Protectorate."
+      "note": "Khmelnytsky Uprising led to the Russo-Polish War"
     },
     {
       "from": "1649-004",
-      "to": "1658-001",
+      "to": "1661-001",
+      "relation": "part_of",
+      "note": "Qing consolidation continued until the Kangxi Emperor's reign"
+    },
+    {
+      "from": "1649-006",
+      "to": "1700-001",
       "relation": "led_to",
-      "note": "Dutch military campaigns in the Indian Ocean in 1649 were part of the broader consolidation of Dutch maritime dominance by mid-century."
+      "note": "Peace of Westphalia established the balance of power system that would characterize European international relations"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T13:33:16.441906",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

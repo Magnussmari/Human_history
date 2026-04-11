@@ -1,193 +1,390 @@
 {
   "year": 1579,
   "year_label": "1579 CE",
-  "era_context": "Late 16th century: The Protestant Reformation and Catholic Counter-Reformation are reshaping European religious and political boundaries. The Spanish Habsburg Empire under Philip II dominates much of Europe and the Americas. The Ottoman Empire remains a major Mediterranean and Eastern European power. In East Asia, the Ming Dynasty rules China; Japan is in the Sengoku period of fragmentation. The Age of Exploration is in full swing, with European colonial ventures accelerating in the Americas, Africa, and Asia.",
+  "era_context": "Late Renaissance Europe; the Portuguese succession crisis approaching (Henry I of Portugal died in 1580); the Dutch Revolt in its second decade; the Ottoman Empire under Murad III; Ming Dynasty China under the Wanli Emperor and regent Zhang Juzheng; Japan in the Sengoku period with Oda Nobunaga's dominance; the Reformation and Counter-Reformation in active conflict.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited European documentation)",
+    "Interior Americas beyond Spanish colonial zones",
+    "Central Asia and Siberia (sparse documentation)"
+  ],
   "events": [
     {
       "id": "1579-001",
-      "title": "Union of Utrecht signed",
-      "region": "Dutch Revolt / Low Countries",
-      "coordinates_approx": "52.1, 5.1",
+      "title": "Union of Utrecht: Dutch rebel provinces form military and political alliance",
+      "region": "Spanish Netherlands and Dutch territories",
+      "coordinates_approx": "52.09, 5.12",
       "category": "political",
-      "description": "The Union of Utrecht, signed on 23 January 1579, formally united the northern provinces of the Low Countries (Holland, Zeeland, Utrecht, Gelderland, Overijssel, Friesland, and Groningen) in rebellion against Spanish Habsburg rule. This act created the foundation of the Dutch Republic and marked a decisive split from the southern provinces (which remained under Spanish control and would become the Spanish Netherlands). The union established a federal structure and committed the provinces to mutual defence, effectively launching the Eighty Years' War into a new phase of coordinated resistance.",
+      "description": "The Union of Utrecht, signed on 23 January 1579, was a military and political alliance formed by seven Dutch provinces (Holland, Zeeland, Utrecht, Gelderland, Overijssel, Friesland, and Groningen) in rebellion against Spanish rule. The Union established a federal structure for the Dutch rebels and provided the foundation for the future Dutch Republic. The Union of Utrecht is considered the birth of the Dutch state and represented a crucial step in the Dutch Revolt against Philip II of Spain. The alliance would eventually lead to the independence of the Dutch Republic in 1648.",
       "key_figures": [
-        "William of Orange (leader of the revolt)",
-        "Philip II of Spain (Spanish king)"
+        "William of Orange (Dutch rebel leader)",
+        "Philip II (King of Spain)",
+        "Dutch provincial representatives"
       ],
       "sources": [
         {
-          "name": "The Union of Utrecht (primary text, original document)",
+          "name": "The Union of Utrecht document (primary text)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus on Dutch Revolt chronology",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary Dutch and Spanish correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles",
+          "type": "chronicle",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The date and text of the Union of Utrecht are precisely documented in contemporary records and the original charter.",
+      "certainty_note": "The Union of Utrecht is precisely dated to 23 January 1579 in the original document and contemporary sources.",
       "cross_references": [
-        "1568-001 (Eighty Years' War begins)",
-        "1581-001 (Act of Abjuration)"
+        "1568 (Dutch Revolt begins)",
+        "1581 (Act of Abjuration)",
+        "1609 (Twelve Years' Truce)",
+        "1648 (Peace of Westphalia; Dutch independence recognized)"
       ]
     },
     {
       "id": "1579-002",
-      "title": "Drake's circumnavigation expedition returns to England",
-      "region": "England / Global exploration",
-      "coordinates_approx": "51.5, -0.1",
-      "category": "exploration",
-      "description": "Sir Francis Drake returned to Plymouth, England on 26 September 1579 after completing a circumnavigation of the globe (1577\u20131579). His voyage aboard the Golden Hinde was the second circumnavigation in history and the first by an English captain. Drake's expedition raided Spanish settlements and treasure ships in the Pacific, returning with significant plunder and geographical knowledge. The voyage enhanced English prestige, demonstrated English naval capability, and contributed to growing tensions with Spain that would culminate in the Spanish Armada crisis of 1588.",
+      "title": "Parma's Pacification of Ghent: Spanish military victories in southern Netherlands",
+      "region": "Spanish Netherlands (modern Belgium)",
+      "coordinates_approx": "51.05, 3.72",
+      "category": "military",
+      "description": "Alexander Farnese, Duke of Parma, the Spanish military commander in the Netherlands, achieved significant military victories in 1579, including the pacification of Ghent and other southern cities. Parma's military campaigns were designed to suppress the Dutch Revolt and reassert Spanish control over the southern Netherlands. His victories in 1579 demonstrated the effectiveness of Spanish military strategy and contributed to the division of the Netherlands into Spanish-controlled southern regions and rebel-controlled northern regions. The pacification of Ghent was a major blow to the Dutch rebels.",
       "key_figures": [
-        "Francis Drake (English navigator and privateer)",
-        "Elizabeth I (Queen of England)"
+        "Alexander Farnese, Duke of Parma (Spanish commander)",
+        "Philip II (King of Spain)",
+        "William of Orange (Dutch rebel leader)"
       ],
       "sources": [
         {
-          "name": "Drake's voyage records and contemporary English chronicles",
+          "name": "Spanish military records and dispatches from Parma",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "The World Encompassed by Sir Francis Drake (published 1628, based on contemporary accounts)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Contemporary chronicles by Spanish and Dutch historians",
+          "type": "chronicle",
+          "contemporary": true
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The return date of 26 September 1579 is well-documented in contemporary English records and multiple historical sources.",
+      "certainty": "probable",
+      "certainty_note": "Parma's military campaigns and victories in 1579 are attested in Spanish military records, though specific dates may vary slightly in different sources.",
       "cross_references": [
-        "1577-001 (Drake's circumnavigation begins)",
-        "1588-001 (Spanish Armada)"
+        "1568 (Dutch Revolt begins)",
+        "1581 (Capture of Breda)",
+        "1609 (Twelve Years' Truce)"
       ]
     },
     {
       "id": "1579-003",
-      "title": "Jesuit mission established in Japan",
-      "region": "Japan",
-      "coordinates_approx": "35.6, 139.7",
-      "category": "religious",
-      "description": "Jesuit missionaries, led by Alessandro Valignano, continued their systematic expansion in Japan during 1579, establishing schools and converting daimyo (feudal lords) and their domains to Catholicism. By this year, the Jesuit mission had achieved significant success in southern Japan, particularly in Kyushu, where several powerful daimyo had converted. The mission represented the first sustained European religious and cultural presence in Japan and would profoundly influence Japanese Christianity until the persecutions of the early 17th century.",
+      "title": "Oda Nobunaga consolidates power in Japan; Azuchi Castle remains seat of power",
+      "region": "Japan (Honshu, Kansai region)",
+      "coordinates_approx": "35.15, 136.15",
+      "category": "military",
+      "description": "Oda Nobunaga, the paramount warlord (daimyo) of Japan, continued his consolidation of power in 1579. Azuchi Castle, completed in 1579, served as Nobunaga's seat of power and symbolized his dominance over Japan. The castle was one of the most impressive fortifications of the era and reflected Nobunaga's military and architectural ambitions. Nobunaga's continued military campaigns and administrative reforms were laying the groundwork for the eventual unification of Japan, which would be completed by his successors Toyotomi Hideyoshi and Tokugawa Ieyasu.",
       "key_figures": [
-        "Alessandro Valignano (Jesuit visitor)",
-        "Oda Nobunaga (Japanese warlord, patron of Jesuits)"
+        "Oda Nobunaga (paramount warlord)",
+        "Toyotomi Hideyoshi (general and successor)",
+        "Akechi Mitsuhide (general)"
       ],
       "sources": [
         {
-          "name": "Jesuit mission records and correspondence from Japan",
+          "name": "Taik\u014dki (biography of Hideyoshi, compiled early 17th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary daimyo records and letters",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus on Jesuit missions in Japan",
-          "type": "historiographic_consensus",
+          "name": "Jesuit missionary accounts (e.g., Luis Frois)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Azuchi Castle site",
+          "type": "archaeological",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The general trajectory of Jesuit expansion in Japan during the 1570s\u20131580s is well-documented, though specific events within 1579 are less precisely dated in surviving sources.",
+      "certainty_note": "The completion of Azuchi Castle in 1579 is attested in contemporary sources, though some sources suggest construction continued into 1580. The date 1579 is scholarly consensus.",
       "cross_references": [
-        "1549-001 (Jesuit mission to Japan begins)",
-        "1614-001 (Edict against Christianity in Japan)"
+        "1576 (Azuchi Castle construction begins)",
+        "1582 (Honn\u014d-ji Incident and Nobunaga's death)",
+        "1585 (Hideyoshi becomes Kampaku)"
       ]
     },
     {
       "id": "1579-004",
-      "title": "Potos\u00ed silver mining at peak production",
-      "region": "Spanish America (present-day Bolivia)",
-      "coordinates_approx": "-19.58, -65.50",
-      "category": "economic",
-      "description": "The silver mines of Potos\u00ed in the Andes reached their peak production levels during the late 1570s and early 1580s. The city of Potos\u00ed had become the largest city in the Americas by population, driven by the extraction of vast quantities of silver that flowed to Spain and financed Spanish imperial power. The mining operations relied on the encomienda and mita systems, which coerced indigenous labour under brutal conditions. The wealth extracted from Potos\u00ed was transformative for the Spanish economy and global trade patterns, but came at enormous human cost to indigenous populations.",
+      "title": "Wanli Emperor of Ming China: Zhang Juzheng's administrative reforms continue",
+      "region": "China (Ming Dynasty)",
+      "coordinates_approx": "39.90, 116.41",
+      "category": "political",
+      "description": "The Wanli Emperor of Ming China continued under the regency of Zhang Juzheng in 1579. Zhang Juzheng's administrative reforms, including the Single Whip Tax reform and military reorganization, were ongoing. Zhang's policies aimed to strengthen the Ming state's fiscal and military capacity. However, his authoritarian style and accumulation of wealth were generating opposition among the bureaucracy. In 1579, Zhang Juzheng was at the height of his power, but his dismissal and death would follow in 1581\u20131582.",
       "key_figures": [
-        "Philip II of Spain (beneficiary of silver wealth)",
-        "Indigenous miners (unnamed victims of the mita system)"
+        "Wanli Emperor (Zhu Yijun, Ming Emperor)",
+        "Zhang Juzheng (Grand Secretary and regent)",
+        "Empress Dowager Li (mother of Wanli Emperor)"
       ],
       "sources": [
         {
-          "name": "Spanish colonial records and mining production data",
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus on Potos\u00ed production cycles",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Official court records and memorials",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Production levels for Potos\u00ed are reconstructed from colonial records and archaeological evidence; peak production occurred in the late 1570s\u20131580s, though the exact year of maximum output is approximate.",
+      "certainty_note": "Zhang Juzheng's administrative reforms are well-documented, though specific events in 1579 may not be precisely dated in all sources.",
       "cross_references": [
-        "1545-001 (Potos\u00ed silver discovered)",
-        "1600-001 (Potos\u00ed production begins to decline)"
+        "1572 (Wanli Emperor's accession)",
+        "1581 (Dismissal of Zhang Juzheng)",
+        "1582 (Zhang Juzheng's death)"
       ]
     },
     {
       "id": "1579-005",
-      "title": "Wanli Emperor assumes personal rule in Ming China",
-      "region": "Ming China",
-      "coordinates_approx": "39.9, 116.4",
-      "category": "political",
-      "description": "The Wanli Emperor (Zhu Yijun), who had ascended to the throne as a child in 1572, began to assert personal authority in 1579 after the death of his regent and tutor Zhang Juzheng in 1582 (note: some sources place the transition slightly later). However, the period around 1579 marks the beginning of the emperor's gradual shift toward more active governance, though he would later become known for his withdrawal from court duties. The Wanli reign (1572\u20131620) was marked by significant cultural and economic development but also by increasing fiscal strain and military pressures on the northern frontier.",
+      "title": "Ottoman-Safavid War: Continued military conflict and territorial disputes",
+      "region": "Ottoman Empire and Safavid Persia",
+      "coordinates_approx": "39.93, 32.86",
+      "category": "military",
+      "description": "The Ottoman-Safavid War, which began in 1578, continued in 1579 with ongoing military campaigns and territorial disputes. The war was fought over control of the Caucasus and Mesopotamia. In 1579, both empires were engaged in military operations, though neither achieved decisive victory. The conflict would continue until 1590, when the Treaty of Istanbul established a more stable border. The 1579 campaigns represent the middle phase of this long conflict.",
       "key_figures": [
-        "Wanli Emperor (Ming emperor)",
-        "Zhang Juzheng (regent, died 1582)"
+        "Murad III (Ottoman Sultan)",
+        "Abbas I (Safavid Shah)",
+        "Ottoman and Safavid military commanders"
       ],
       "sources": [
         {
-          "name": "Ming court records and the Shiji (Records of the Grand Historian) tradition",
+          "name": "Ottoman military records and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus on Wanli reign chronology",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Safavid court records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Ottoman and Persian chronicles",
+          "type": "chronicle",
+          "contemporary": true
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The exact timing of the Wanli Emperor's transition to personal rule is debated by scholars; the period 1579\u20131582 represents a gradual shift rather than a single event.",
+      "certainty": "probable",
+      "certainty_note": "The ongoing conflict in 1579 is attested in Ottoman and Safavid records, though specific military campaigns may not be precisely dated in all sources.",
       "cross_references": [
-        "1572-001 (Wanli Emperor ascends to throne)",
-        "1620-001 (Wanli Emperor dies)"
+        "1578 (Ottoman-Safavid War begins)",
+        "1590 (Treaty of Istanbul)"
+      ]
+    },
+    {
+      "id": "1579-006",
+      "title": "Akbar the Great of Mughal India: Continued expansion and administrative consolidation",
+      "region": "Mughal Empire (Indian subcontinent)",
+      "coordinates_approx": "27.18, 78.04",
+      "category": "political",
+      "description": "Emperor Akbar of the Mughal Empire continued his military expansion and administrative consolidation in 1579. Akbar's reign (1556\u20131605) was characterized by military expansion, administrative innovation, and religious tolerance. In 1579, Akbar was consolidating his control over the Indian subcontinent and implementing administrative reforms. His policies of religious tolerance and integration of Hindu and Muslim elites contributed to the stability and prosperity of the Mughal Empire.",
+      "key_figures": [
+        "Akbar the Great (Mughal Emperor)",
+        "Abul Fazl (court historian and administrator)",
+        "Bairam Khan (regent, deceased 1561)"
+      ],
+      "sources": [
+        {
+          "name": "Akbarnama (biography of Akbar by Abul Fazl, compiled 1590s)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ain-i Akbari (administrative record by Abul Fazl)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary court records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Akbar's reign and administrative reforms are well-documented, though specific events in 1579 may not be precisely dated in all sources.",
+      "cross_references": [
+        "1556 (Akbar's accession)",
+        "1581 (Establishment of Din-i Ilahi)",
+        "1605 (Akbar's death)"
+      ]
+    },
+    {
+      "id": "1579-007",
+      "title": "Francis Drake's circumnavigation voyage: Drake in the Pacific Ocean",
+      "region": "Pacific Ocean (Drake's voyage)",
+      "coordinates_approx": "-20.00, -120.00",
+      "category": "exploration",
+      "description": "Sir Francis Drake, the English privateer and explorer, was in the Pacific Ocean in 1579 during his circumnavigation voyage that had begun in 1577. Drake was conducting raids on Spanish colonial possessions and exploring the western coast of the Americas. His voyage would continue until his return to Plymouth in 1580. Drake's circumnavigation was the second circumnavigation of the globe and the first by an Englishman, demonstrating English naval capability and challenging Spanish dominance of the seas.",
+      "key_figures": [
+        "Francis Drake (English privateer and explorer)",
+        "Elizabeth I (Queen of England)",
+        "John Wynter (Drake's second-in-command)"
+      ],
+      "sources": [
+        {
+          "name": "Drake's voyage records and logs",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary accounts by Drake's crew members",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Drake's presence in the Pacific Ocean in 1579 is documented in his voyage logs and crew accounts.",
+      "cross_references": [
+        "1577 (Drake's voyage begins)",
+        "1580 (Drake returns to England)",
+        "1581 (Drake is knighted)"
+      ]
+    },
+    {
+      "id": "1579-008",
+      "title": "Pope Gregory XIII continues Counter-Reformation efforts; Jesuit expansion",
+      "region": "Papal States and Catholic Europe",
+      "coordinates_approx": "41.90, 12.50",
+      "category": "religious",
+      "description": "Pope Gregory XIII continued his efforts to strengthen the Catholic Church during the Counter-Reformation in 1579. The Pope supported the expansion of the Jesuit order and other religious reforms aimed at combating Protestantism and revitalizing Catholic practice. Gregory XIII's papacy (1572\u20131585) was marked by active engagement in religious and political affairs, including support for Catholic missions in Protestant regions and colonial territories. The Pope's policies contributed to the strengthening of Catholic institutions and the expansion of Catholic influence globally.",
+      "key_figures": [
+        "Pope Gregory XIII (Pope)",
+        "Ignatius of Loyola (founder of Jesuits, deceased 1556)",
+        "Jesuit leadership"
+      ],
+      "sources": [
+        {
+          "name": "Papal bulls and decrees",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jesuit correspondence and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary accounts of Counter-Reformation efforts",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Gregory XIII's Counter-Reformation efforts are well-documented, though specific events in 1579 may not be precisely dated in all sources.",
+      "cross_references": [
+        "1572 (Gregory XIII becomes Pope)",
+        "1582 (Gregorian Calendar reform)",
+        "1585 (Gregory XIII's death)"
+      ]
+    },
+    {
+      "id": "1579-009",
+      "title": "Henry III of France: Continued religious conflicts and civil wars",
+      "region": "France",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "military",
+      "description": "Henry III of France continued to navigate the complex religious and political conflicts of the French Wars of Religion in 1579. The Wars of Religion, which had begun in 1562, were ongoing conflicts between Catholics and Huguenots (French Protestants). Henry III, who had become king in 1574, was attempting to maintain royal authority while managing the competing interests of Catholic and Protestant factions. The 1579 period saw continued military campaigns and diplomatic negotiations aimed at achieving peace or dominance.",
+      "key_figures": [
+        "Henry III (King of France)",
+        "Henry of Navarre (future Henry IV, Huguenot leader)",
+        "Duke of Guise (Catholic leader)"
+      ],
+      "sources": [
+        {
+          "name": "French royal records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles by French historians",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The French Wars of Religion and Henry III's reign are well-documented, though specific events in 1579 may not be precisely dated in all sources.",
+      "cross_references": [
+        "1562 (French Wars of Religion begin)",
+        "1589 (Henry III's assassination)",
+        "1598 (Edict of Nantes)"
+      ]
+    },
+    {
+      "id": "1579-010",
+      "title": "Stephen Bathory of Poland: Military campaigns against Muscovy",
+      "region": "Poland-Lithuania and Muscovy",
+      "coordinates_approx": "52.23, 21.01",
+      "category": "military",
+      "description": "Stephen Bathory, King of Poland-Lithuania, continued his military campaigns against Muscovy in 1579. Bathory's reign (1576\u20131586) was marked by aggressive military expansion and the assertion of Polish power in Eastern Europe. In 1579, Bathory was conducting campaigns against Ivan the Terrible's Muscovy, attempting to expand Polish territory and influence. These campaigns were part of the broader struggle for dominance in Eastern Europe between Poland-Lithuania and Muscovy.",
+      "key_figures": [
+        "Stephen Bathory (King of Poland-Lithuania)",
+        "Ivan the Terrible (Tsar of Muscovy)",
+        "Polish and Muscovite military commanders"
+      ],
+      "sources": [
+        {
+          "name": "Polish royal records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Muscovite chronicles and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary accounts by Polish and Muscovite historians",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Bathory's military campaigns are well-documented, though specific events in 1579 may not be precisely dated in all sources.",
+      "cross_references": [
+        "1576 (Bathory becomes King of Poland)",
+        "1582 (Truce of Jam Zapolski)",
+        "1586 (Bathory's death)"
       ]
     }
   ],
-  "disconfirming_evidence": "The significance of Drake's circumnavigation is sometimes overstated in English-language historiography as a turning point in Anglo-Spanish relations; while important, it was one of many provocations and did not directly cause the Spanish Armada (which had multiple political and religious causes). The Wanli Emperor's personal rule transition is traditionally dated to 1582 (Zhang Juzheng's death) rather than 1579, though the process was gradual. The characterization of Potos\u00ed's 'peak production' in 1579 is approximate; production remained high through the 1580s\u20131590s with fluctuations.",
-  "historiographic_note": "The year 1579 is well-documented for European and East Asian events, with abundant primary sources (diplomatic correspondence, court records, chronicles). The record is heavily weighted toward political and military events in Europe and East Asia; economic and social history of the Americas and Africa is less densely documented, relying more on colonial administrative records and later compilations. Spanish colonial records provide good documentation of Potos\u00ed but often reflect the perspective of Spanish administrators rather than indigenous populations. Jesuit mission records are detailed but selective, emphasizing conversions and institutional development over indigenous religious continuity.",
+  "disconfirming_evidence": "The Union of Utrecht is sometimes described as the founding document of the Dutch Republic, but this is anachronistic; the Dutch Republic was not formally declared until 1581 with the Act of Abjuration. The Union of Utrecht was a military alliance, not a declaration of independence. Some sources conflate these two events or overstate the Union's immediate political significance.",
+  "historiographic_note": "The historical record for 1579 is rich in European sources, particularly for Spain, the Netherlands, France, and Poland. Asian sources (Chinese, Japanese, Persian, Ottoman) are well-preserved in official records but may be underrepresented in Western historiography. The record is heavily weighted toward political and military events; economic and social history for this year is less detailed. Colonial and indigenous American perspectives are largely absent from surviving documentation. The sources reflect the biases of court-sponsored chronicles and official records.",
   "graph_edges": [
     {
       "from": "1579-001",
       "to": "1581-001",
       "relation": "led_to",
-      "note": "The Union of Utrecht led directly to the Act of Abjuration, which formally declared independence from Spain."
+      "note": "Union of Utrecht led to Act of Abjuration in 1581"
     },
     {
       "from": "1579-002",
-      "to": "1588-001",
+      "to": "1581-006",
       "relation": "led_to",
-      "note": "Drake's successful circumnavigation and raids on Spanish possessions contributed to escalating tensions that culminated in the Spanish Armada."
+      "note": "Parma's military victories continued with capture of Breda in 1581"
     },
     {
-      "from": "1579-003",
-      "to": "1614-001",
+      "from": "1579-007",
+      "to": "1580-002",
       "relation": "led_to",
-      "note": "The Jesuit mission's success in Japan during the 1570s\u20131580s eventually provoked a backlash, leading to persecution in the early 17th century."
-    },
-    {
-      "from": "1579-004",
-      "to": "1545-001",
-      "relation": "part_of",
-      "note": "Potos\u00ed's peak production was the culmination of the silver mining boom that began with the discovery in 1545."
+      "note": "Drake's Pacific voyage led to his return to England in 1580"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:00:15.389679",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

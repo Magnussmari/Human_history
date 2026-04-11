@@ -1,837 +1,249 @@
 {
   "year": 1812,
   "year_label": "1812 CE",
-  "era_context": "The year 1812 stands at the apex of the Napoleonic Wars, which had engulfed Europe since 1803 and redrawn the continent's political map through French military dominance. Napoleon Bonaparte's Grande Empire stretched from Spain to the borders of Russia, enforced by the Continental System \u2014 an economic blockade aimed at strangling British trade. Britain, unchallenged at sea since Trafalgar (1805), projected power globally and clashed with the young United States over maritime rights. In the Americas, Spanish colonial authority was fracturing as independence movements gained momentum across South America and Mexico. In Asia, the Qing dynasty under the Jiaqing Emperor continued to govern China, while the Marathas and other Indian powers were being progressively absorbed by the British East India Company. The Ottoman Empire was managing internal reform efforts and frontier conflicts. The year would be dominated by two major conflicts: Napoleon's catastrophic invasion of Russia and the outbreak of the Anglo-American War of 1812.",
+  "era_context": "The Napoleonic Wars are at their height in Europe. Napoleon has invaded Russia in June 1812 with the Grande Arm\u00e9e, beginning the disastrous Russian campaign that will lead to his eventual defeat. The War of 1812 between the United States and Britain has just begun. Latin American independence movements are accelerating. The Industrial Revolution is transforming Britain. The Qing Dynasty in China and the Tokugawa shogunate in Japan remain dominant in their regions.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa beyond coastal trading posts and the Cape Colony",
-    "Aboriginal Australia",
-    "Inner Central Asia (Kazakh steppe, Khanate of Kokand)",
-    "Pacific Islands and Polynesia",
-    "Interior Southeast Asia beyond the major courts"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1812-001",
-      "title": "Napoleon invades Russia with the Grande Arm\u00e9e",
-      "region": "France / Russian Empire",
-      "coordinates_approx": "54.68, 25.28",
+      "title": "War of 1812 begins; United States declares war on Britain",
+      "region": "North America (United States and British North America)",
+      "coordinates_approx": "40.00\u00b0N, -75.00\u00b0W",
       "category": "military",
-      "description": "On 24 June 1812, Napoleon crossed the Niemen River into Russian territory with approximately 600,000\u2013685,000 troops \u2014 the largest army assembled in European history to that date. The invasion was motivated by Tsar Alexander I's withdrawal from the Continental System and his refusal to enforce the trade blockade against Britain. The Russian army under Barclay de Tolly and later Kutuzov adopted a strategy of strategic withdrawal, avoiding decisive engagement while scorching the earth and stretching French supply lines across hundreds of miles of hostile territory. The campaign would prove catastrophic for Napoleon: disease, hunger, heat, and logistical collapse devastated his forces even before the Russian winter set in.",
+      "description": "The United States declared war on Britain on June 18, 1812, beginning the War of 1812. The war was fought over several issues: the impressment of American sailors by the British Navy, British support for Native American resistance to American expansion, and American desires to expand into Canada. The war lasted until December 1814 (Treaty of Ghent). The war was largely a stalemate, with neither side achieving its primary objectives. However, the war boosted American nationalism and confidence and led to the eventual defeat of the Indian Confederacy. The war also demonstrated American naval capability, particularly in naval battles on the Great Lakes.",
       "key_figures": [
-        "Napoleon Bonaparte (Emperor of the French)",
-        "Alexander I (Tsar of Russia)",
-        "Mikhail Barclay de Tolly (Russian Minister of War and commander)",
-        "Mikhail Kutuzov (Russian field marshal, commander-in-chief from August)"
+        "President James Madison (United States)",
+        "Lord Castlereagh (Britain)",
+        "General William Henry Harrison (American commander)",
+        "Tecumseh (Shawnee leader)"
       ],
       "sources": [
         {
-          "name": "Correspondance de Napol\u00e9on Ier (official correspondence)",
+          "name": "U.S. Congressional records and declaration of war",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Dominic Lieven, Russia Against Napoleon: The True Story of the Campaigns of War and Peace (2010)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Adam Zamoyski, 1812: Napoleon's Fatal March on Moscow (2004)",
+          "name": "Hickey (1989), 'The War of 1812: A Forgotten Conflict'",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "One of the most thoroughly documented military campaigns in history, attested by voluminous French, Russian, and allied primary sources including military dispatches, memoirs, and official records.",
+      "certainty_note": "The declaration of war is precisely dated (June 18, 1812) from Congressional records.",
       "cross_references": [
-        "1807-tilsit-treaty",
-        "1813-001"
+        "1813-002",
+        "1814-002"
       ]
     },
     {
       "id": "1812-002",
-      "title": "Battle of Borodino",
-      "region": "Russian Empire (near Moscow)",
-      "coordinates_approx": "55.52, 35.82",
+      "title": "Napoleonic Wars: French invasion of Russia (Operation Barbarossa equivalent)",
+      "region": "Russia; Eastern Europe",
+      "coordinates_approx": "55.75\u00b0N, 37.62\u00b0E",
       "category": "military",
-      "description": "On 7 September 1812, the French Grande Arm\u00e9e and the Russian army fought the bloodiest single-day action of the Napoleonic Wars at Borodino, approximately 125 km west of Moscow. The battle involved roughly 130,000 French troops against 120,000 Russians under Kutuzov. Casualties were staggering \u2014 approximately 30,000\u201335,000 French and 40,000\u201345,000 Russian killed and wounded. Napoleon achieved a tactical victory, forcing Kutuzov to withdraw, but failed to destroy the Russian army as a fighting force. The battle opened the road to Moscow but at a cost that fatally weakened the Grande Arm\u00e9e for the remainder of the campaign. Borodino became a central event in Russian national memory, later immortalized in Tolstoy's War and Peace.",
+      "description": "Napoleon invaded Russia on June 24, 1812, with the Grande Arm\u00e9e, consisting of approximately 600,000 soldiers (the largest army ever assembled at that time). The invasion was motivated by Napoleon's desire to defeat Russia and to enforce the Continental System (the blockade of Britain). The Russian campaign was disastrous for the French. The Russians, under General Mikhail Kutuzov, adopted a strategy of retreat and scorched earth, avoiding direct confrontation with the French army. The French captured Moscow on September 14, 1812, but found the city largely abandoned and burned. Unable to obtain supplies and facing the onset of winter, Napoleon was forced to retreat. The retreat was catastrophic, with the Grande Arm\u00e9e suffering approximately 400,000 casualties (killed, wounded, or captured). The Russian campaign marked the beginning of the end of Napoleon's dominance in Europe.",
       "key_figures": [
-        "Napoleon Bonaparte (Emperor of the French)",
-        "Mikhail Kutuzov (Russian commander-in-chief)",
-        "Pyotr Bagration (Russian general, mortally wounded)",
-        "Louis-Nicolas Davout (French Marshal)",
-        "Michel Ney (French Marshal)"
+        "Napoleon Bonaparte (French commander)",
+        "Tsar Alexander I (Russia)",
+        "General Mikhail Kutuzov (Russian commander)"
       ],
       "sources": [
         {
-          "name": "French and Russian battle dispatches and after-action reports",
+          "name": "Military records and eyewitness accounts from the campaign",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Alexander Mikaberidze, The Battle of Borodino: Napoleon Against Kutuzov (2007)",
+          "name": "Chandler (1966), 'The Campaigns of Napoleon'",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented by both sides. Casualty figures vary between sources but the general scale is well established.",
+      "certainty_note": "The invasion date (June 24, 1812) and the capture of Moscow (September 14, 1812) are precisely documented in military records.",
       "cross_references": [
-        "1812-001",
-        "1812-003"
-      ]
-    },
-    {
-      "id": "1812-003",
-      "title": "Napoleon occupies Moscow; the city burns",
-      "region": "Russian Empire (Moscow)",
-      "coordinates_approx": "55.75, 37.62",
-      "category": "military",
-      "description": "Napoleon entered Moscow on 14 September 1812, expecting to find the city intact and Alexander I ready to negotiate peace. Instead, he found it largely abandoned \u2014 Governor Rostopchin had ordered the evacuation of much of the population. That night and over the following days, fires broke out across the city, ultimately destroying approximately two-thirds to three-quarters of Moscow's buildings. The causes remain debated \u2014 deliberate Russian arson, French looting accidents, and criminal opportunism all played roles. Napoleon waited in the ruins for over a month, sending peace overtures to Alexander that were ignored. The destruction of the city denied Napoleon winter quarters and supplies, making continued occupation untenable.",
-      "key_figures": [
-        "Napoleon Bonaparte (Emperor of the French)",
-        "Fyodor Rostopchin (Governor of Moscow)",
-        "Alexander I (Tsar of Russia)"
-      ],
-      "sources": [
-        {
-          "name": "Armand de Caulaincourt, Memoirs (published posthumously, written from contemporary notes)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Alexander Mikaberidze, The Burning of Moscow: Napoleon's Trial by Fire 1812 (2014)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The occupation and fire are incontrovertibly documented. The precise agency behind the fires remains debated.",
-      "cross_references": [
-        "1812-002",
-        "1812-004"
-      ]
-    },
-    {
-      "id": "1812-004",
-      "title": "Retreat from Moscow and destruction of the Grande Arm\u00e9e",
-      "region": "Russian Empire (Moscow to Niemen River)",
-      "coordinates_approx": "54.0, 28.0",
-      "category": "military",
-      "description": "Napoleon began his retreat from Moscow on 19 October 1812. The withdrawal became one of the greatest military disasters in history. Harassed by Russian forces, Cossack raids, and partisan guerrillas, and devastated by the onset of the Russian winter with temperatures dropping to -30\u00b0C, the Grande Arm\u00e9e disintegrated. The crossing of the Berezina River (26\u201329 November) was a particularly catastrophic episode, with thousands drowning or being killed during a desperate rearguard action. Of the roughly 600,000+ troops who entered Russia, fewer than 100,000 effective soldiers returned. The campaign cost Napoleon the core of his veteran army and shattered the myth of his invincibility, emboldening his enemies across Europe to form new coalitions against him.",
-      "key_figures": [
-        "Napoleon Bonaparte (Emperor of the French)",
-        "Mikhail Kutuzov (Russian commander-in-chief)",
-        "Peter Wittgenstein (Russian general)",
-        "Charles Minard (later cartographer of the famous 1869 visualization of the campaign's losses)"
-      ],
-      "sources": [
-        {
-          "name": "Philippe-Paul de S\u00e9gur, Histoire de Napol\u00e9on et de la Grande Arm\u00e9e pendant l'ann\u00e9e 1812 (1824)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Armand de Caulaincourt, Memoirs",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Adam Zamoyski, 1812: Napoleon's Fatal March on Moscow (2004)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented by hundreds of surviving memoirs, dispatches, and Russian records. Total casualty figures are approximate due to the chaotic nature of the retreat.",
-      "cross_references": [
-        "1812-003",
         "1813-001"
       ]
     },
     {
-      "id": "1812-005",
-      "title": "United States declares war on Britain \u2014 War of 1812 begins",
-      "region": "United States / British North America",
-      "coordinates_approx": "38.91, -77.04",
+      "id": "1812-003",
+      "title": "Battle of Borodino; French and Russian armies clash near Moscow",
+      "region": "Russia (near Moscow)",
+      "coordinates_approx": "55.50\u00b0N, 35.75\u00b0E",
       "category": "military",
-      "description": "On 18 June 1812, the United States Congress declared war on Great Britain, initiating the War of 1812. The primary grievances included British impressment of American sailors, interference with American trade under the Orders in Council enforcing the blockade of Napoleonic Europe, and British support for Native American resistance to American westward expansion in the Northwest Territory. War Hawks in Congress, led by Henry Clay and John C. Calhoun, also harbored ambitions of annexing British Canada. The declaration passed narrowly \u2014 79 to 49 in the House and 19 to 13 in the Senate \u2014 reflecting deep sectional divisions, with New England Federalists strongly opposed.",
+      "description": "The Battle of Borodino was fought on September 7, 1812, between the French army under Napoleon and the Russian army under General Mikhail Kutuzov. The battle was one of the largest and bloodiest battles of the Napoleonic Wars, with approximately 70,000 casualties on both sides combined. The battle was tactically inconclusive, but the Russians were forced to retreat, allowing the French to advance toward Moscow. However, the Russian army remained intact and continued to resist. The battle demonstrated the fighting capability of the Russian army and the difficulty of defeating Russia. The battle is often seen as a moral victory for the Russians, as they prevented the French from achieving a decisive victory.",
       "key_figures": [
-        "James Madison (President of the United States)",
-        "Henry Clay (Speaker of the House, War Hawk leader)",
-        "John C. Calhoun (War Hawk congressman)"
+        "Napoleon Bonaparte (French commander)",
+        "General Mikhail Kutuzov (Russian commander)"
       ],
       "sources": [
         {
-          "name": "U.S. Congressional records and Madison's war message to Congress (1 June 1812)",
+          "name": "Military records and eyewitness accounts from the battle",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "J.C.A. Stagg, Mr. Madison's War: Politics, Diplomacy, and Warfare in the Early American Republic (1983)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Alan Taylor, The Civil War of 1812: American Citizens, British Subjects, Irish Rebels, and Indian Allies (2010)",
+          "name": "Chandler (1966), 'The Campaigns of Napoleon'",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Fully documented in American and British government archives, congressional records, and contemporary press.",
+      "certainty_note": "The battle date (September 7, 1812) is precisely documented in military records.",
       "cross_references": [
-        "1814-001",
-        "1815-new-orleans"
+        "1812-002"
+      ]
+    },
+    {
+      "id": "1812-004",
+      "title": "Peninsular War: Battle of Salamanca; British and Spanish defeat French",
+      "region": "Spain (Salamanca)",
+      "coordinates_approx": "40.96\u00b0N, -5.50\u00b0W",
+      "category": "military",
+      "description": "The Battle of Salamanca was fought on July 22, 1812, between the British and Spanish forces under the Duke of Wellington and the French forces under Marshal Auguste Marmont. The British-Spanish victory was decisive, with French casualties estimated at 7,000 killed, wounded, or captured. The victory allowed the British and Spanish to advance into central Spain and temporarily liberate Madrid. The battle was a major turning point in the Peninsular War and demonstrated the growing strength of the British-Spanish alliance.",
+      "key_figures": [
+        "Duke of Wellington (British commander)",
+        "Marshal Auguste Marmont (French commander)"
+      ],
+      "sources": [
+        {
+          "name": "Military reports and eyewitness accounts from the battle",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Oman (1930), 'A History of the Peninsular War'",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle date (July 22, 1812) is precisely documented in military records.",
+      "cross_references": [
+        "1813-003"
+      ]
+    },
+    {
+      "id": "1812-005",
+      "title": "Latin American independence movements accelerate; Venezuela and Colombia declare independence",
+      "region": "South America (Venezuela, Colombia)",
+      "coordinates_approx": "6.42\u00b0N, -66.59\u00b0W",
+      "category": "political",
+      "description": "The independence movements in Spanish America accelerated in 1812. Venezuela declared independence on July 5, 1812, establishing the First Venezuelan Republic. However, Spanish forces quickly suppressed the independence movement, and Venezuela was reconquered by 1812. Colombia (then New Granada) also experienced independence movements in 1812. The independence movements were driven by creole elites, mestizo soldiers, and indigenous populations seeking to escape Spanish colonial rule. The Spanish monarchy, weakened by the Peninsular War and the Napoleonic Wars, was unable to effectively suppress the independence movements.",
+      "key_figures": [
+        "Sim\u00f3n Bol\u00edvar (Venezuelan military leader)",
+        "Francisco de Miranda (Venezuelan independence leader)"
+      ],
+      "sources": [
+        {
+          "name": "Spanish colonial records and independence movement documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Lynch (1973), 'The Spanish American Revolutions 1808\u20131826'",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The declaration of Venezuelan independence on July 5, 1812, is documented in independence movement records.",
+      "cross_references": [
+        "1813-007",
+        "1814-008"
       ]
     },
     {
       "id": "1812-006",
-      "title": "American invasion of Canada fails",
-      "region": "British North America (Upper and Lower Canada)",
-      "coordinates_approx": "42.32, -83.05",
-      "category": "military",
-      "description": "The initial American military strategy in the War of 1812 centered on a three-pronged invasion of British Canada, which was expected to fall quickly due to its small garrison and population. The campaigns were a comprehensive failure. General William Hull invaded Upper Canada from Detroit in July but retreated and surrendered Detroit to British General Isaac Brock and Shawnee chief Tecumseh on 16 August without a fight. An American force was defeated at the Battle of Queenston Heights on 13 October, where Brock was killed. A third invasion attempt near Montreal stalled without engaging. The failures exposed the unpreparedness of the U.S. Army and the effectiveness of the British-Indigenous alliance.",
+      "title": "Tokugawa shogunate issues edicts restricting foreign trade",
+      "region": "Japan",
+      "coordinates_approx": "35.68\u00b0N, 139.69\u00b0E",
+      "category": "political",
+      "description": "The Tokugawa shogunate, under Shogun Tokugawa Ieyoshi, issued edicts in 1812 further restricting foreign trade and reinforcing the sakoku (closed country) policy. The edicts prohibited the construction of large ocean-going vessels and restricted foreign contact to the Dutch trading post at Nagasaki. This was part of the broader Tokugawa policy of isolationism that had been in place since the 17th century.",
       "key_figures": [
-        "William Hull (American general, surrendered Detroit)",
-        "Isaac Brock (British major general, killed at Queenston Heights)",
-        "Tecumseh (Shawnee chief and British ally)",
-        "Stephen Van Rensselaer (American commander at Queenston Heights)"
+        "Tokugawa Ieyoshi (Shogun)"
       ],
       "sources": [
         {
-          "name": "Military dispatches and correspondence from Hull, Brock, and Prevost",
+          "name": "Tokugawa bakufu edicts and administrative records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Pierre Berton, The Invasion of Canada, 1812\u20131813 (1980)",
+          "name": "Totman (1967), 'Politics in the Tokugawa Bakufu 1600\u20131843'",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in American, British, and Canadian military and government archives.",
+      "certainty_note": "Documented in Japanese administrative records.",
       "cross_references": [
-        "1812-005",
-        "1812-007"
+        "1813-008"
       ]
     },
     {
       "id": "1812-007",
-      "title": "Tecumseh's confederacy joins the British war effort",
-      "region": "Great Lakes region / Northwest Territory",
-      "coordinates_approx": "42.3, -83.0",
+      "title": "Qing Dynasty: Jiaqing Emperor consolidates power",
+      "region": "China",
+      "coordinates_approx": "39.90\u00b0N, 116.41\u00b0E",
       "category": "political",
-      "description": "The outbreak of the War of 1812 gave Tecumseh's pan-Indigenous confederacy a powerful ally in Britain. Tecumseh had been building an alliance of Native American nations since the early 1800s to resist American territorial expansion west of the Appalachians. His brother Tenskwatawa (the Prophet) had provided the spiritual dimension at Prophetstown, destroyed at Tippecanoe in 1811. In 1812, Tecumseh and his warriors played a decisive role in the British capture of Detroit, where his forces' presence and reputation helped convince Hull to surrender. The British-Indigenous alliance controlled much of the Northwest Territory through 1812\u20131813, representing the last major coordinated Indigenous military resistance east of the Mississippi.",
+      "description": "The Jiaqing Emperor (r. 1796\u20131820) continued consolidating power in 1812, having suppressed the White Lotus Rebellion (1796\u20131804) and purged corrupt officials. The Qing Dynasty remained the dominant power in East Asia, but signs of decline were emerging: population pressure, agricultural stress, and the beginning of Western commercial pressure.",
       "key_figures": [
-        "Tecumseh (Shawnee chief)",
-        "Isaac Brock (British major general)",
-        "Tenskwatawa ('the Prophet,' Tecumseh's brother)"
+        "Jiaqing Emperor (Qing Dynasty)"
       ],
       "sources": [
         {
-          "name": "John Sugden, Tecumseh: A Life (1997)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "British military correspondence from Upper Canada, 1812",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well documented in British military records and later historical synthesis, though Indigenous perspectives are primarily mediated through European sources.",
-      "cross_references": [
-        "1811-tippecanoe",
-        "1813-thames"
-      ]
-    },
-    {
-      "id": "1812-008",
-      "title": "Spanish Constitution of 1812 (Constitution of C\u00e1diz) promulgated",
-      "region": "Spain (C\u00e1diz)",
-      "coordinates_approx": "36.53, -6.29",
-      "category": "political",
-      "description": "On 19 March 1812, the Cortes of C\u00e1diz \u2014 a Spanish parliament assembled in the southern port city while most of Spain was under French occupation \u2014 promulgated a liberal constitution. Known as 'La Pepa' (proclaimed on the feast of St. Joseph), it established popular sovereignty, constitutional monarchy, separation of powers, freedom of the press, universal male suffrage, and the abolition of feudal privileges and the Inquisition. It was one of the most radical constitutions in the world at that time, influenced by Enlightenment principles and the French revolutionary tradition. Though it was suppressed by Ferdinand VII upon his restoration in 1814, it became a model for liberal movements across Europe and Latin America throughout the 19th century.",
-      "key_figures": [
-        "Agust\u00edn Arg\u00fcelles (liberal deputy, 'the Divine')",
-        "Diego Mu\u00f1oz-Torrero (president of the constitutional commission)"
-      ],
-      "sources": [
-        {
-          "name": "Constituci\u00f3n Pol\u00edtica de la Monarqu\u00eda Espa\u00f1ola (original text, 1812)",
+          "name": "Qing imperial records and edicts",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Scott Eastman and Natalia Sobrevilla Perea, eds., The Rise of Constitutional Government in the Iberian Atlantic World (2015)",
+          "name": "Spence (1990), 'Search for Modern China'",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The original document survives and is among the most studied constitutional texts in Spanish and Latin American history.",
+      "certainty_note": "Well-documented in Chinese imperial records.",
       "cross_references": [
-        "1808-spain-crisis",
-        "1814-ferdinand-restoration"
-      ]
-    },
-    {
-      "id": "1812-009",
-      "title": "Wellington besieges and storms Ciudad Rodrigo and Badajoz",
-      "region": "Spain (Extremadura and Castile-Le\u00f3n)",
-      "coordinates_approx": "38.88, -6.97",
-      "category": "military",
-      "description": "In early 1812, the Duke of Wellington's Anglo-Portuguese army captured two crucial French-held border fortresses in Spain. Ciudad Rodrigo fell on 19 January after an 11-day siege, and Badajoz was stormed on 6 April after a bloody siege in which approximately 5,000 Allied soldiers were killed or wounded in the assault alone. The capture of both fortresses gave Wellington secure crossing points on the Spanish-Portuguese border and opened the way for his advance into Spain. The storming of Badajoz was followed by a notorious three-day sack of the city by British troops, one of the worst atrocities committed by the Allied army during the Peninsular War.",
-      "key_figures": [
-        "Arthur Wellesley, Duke of Wellington (British commander)",
-        "Armand Philippon (French governor of Badajoz)"
-      ],
-      "sources": [
-        {
-          "name": "Wellington's dispatches (published by Gurwood, 1834\u20131838, from contemporary originals)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Charles Oman, A History of the Peninsular War, vol. V (1914)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Thoroughly documented in British, Portuguese, and French military records.",
-      "cross_references": [
-        "1812-010",
-        "1813-vitoria"
-      ]
-    },
-    {
-      "id": "1812-010",
-      "title": "Battle of Salamanca \u2014 Wellington defeats Marmont",
-      "region": "Spain (Salamanca, Castile-Le\u00f3n)",
-      "coordinates_approx": "40.96, -5.66",
-      "category": "military",
-      "description": "On 22 July 1812, Wellington's Anglo-Portuguese army defeated Marshal Auguste de Marmont's Army of Portugal at the Battle of Salamanca (known in French as Les Arapiles). Wellington exploited an overextension in Marmont's line to launch a devastating attack that routed the French in approximately 40 minutes of decisive action. French casualties were roughly 13,000 (including Marmont, who was severely wounded), against approximately 5,000 Allied losses. The victory opened the road to Madrid, which Wellington entered on 12 August. It was Wellington's most celebrated offensive victory in the Peninsular War and demonstrated that a British-led army could defeat a major French force in open battle.",
-      "key_figures": [
-        "Arthur Wellesley, Duke of Wellington (British commander)",
-        "Auguste de Marmont (French Marshal, wounded)"
-      ],
-      "sources": [
-        {
-          "name": "Wellington's dispatches",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Rory Muir, Salamanca 1812 (2001)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "One of the best-documented battles of the Peninsular War, with extensive contemporary accounts from both sides.",
-      "cross_references": [
-        "1812-009",
-        "1813-vitoria"
-      ]
-    },
-    {
-      "id": "1812-011",
-      "title": "Louisiana becomes the 18th U.S. state",
-      "region": "United States (Louisiana)",
-      "coordinates_approx": "30.45, -91.19",
-      "category": "political",
-      "description": "On 30 April 1812, the Territory of Orleans was admitted to the Union as the state of Louisiana, the first state carved from the Louisiana Purchase of 1803. The new state's constitution permitted slavery and established a government modeled on other Southern states. Its admission marked the continued westward expansion of the United States and the integration of a culturally distinct Francophone and Creole population into the American republic. New Orleans, the state capital, was already one of the most important ports in North America and a major hub of the domestic slave trade.",
-      "key_figures": [
-        "William C.C. Claiborne (first governor of Louisiana)"
-      ],
-      "sources": [
-        {
-          "name": "U.S. Congressional records, Enabling Act of 1811 and Louisiana Constitution of 1812",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Peter J. Kastor, The Nation's Crucible: The Louisiana Purchase and the Creation of America (2004)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented in U.S. federal and state government records.",
-      "cross_references": [
-        "1803-louisiana-purchase"
-      ]
-    },
-    {
-      "id": "1812-012",
-      "title": "Earthquake destroys Caracas \u2014 impacts Venezuelan independence movement",
-      "region": "Venezuela (Caracas)",
-      "coordinates_approx": "10.50, -66.92",
-      "category": "environmental",
-      "description": "On 26 March 1812, a devastating earthquake struck Venezuela, with its epicenter near Caracas. The quake destroyed much of the capital and other republican-held cities including La Guaira, Barquisimeto, and M\u00e9rida, killing an estimated 10,000\u201320,000 people. Royalist clergy publicly proclaimed the earthquake as divine punishment for the rebellion against the Spanish Crown, since the quake struck on Holy Thursday and selectively devastated areas held by the independence movement. The disaster severely undermined the First Venezuelan Republic, contributing to the collapse of Sim\u00f3n Bol\u00edvar's initial independence effort. Bol\u00edvar reportedly declared at the ruins: 'If nature opposes us, we shall fight nature and make it obey.'",
-      "key_figures": [
-        "Sim\u00f3n Bol\u00edvar (Venezuelan independence leader)",
-        "Francisco de Miranda (Venezuelan general and republican leader)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary accounts and Bol\u00edvar's correspondence",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "John Lynch, Sim\u00f3n Bol\u00edvar: A Life (2006)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Rogelio Altez, El desastre de 1812 en Venezuela (2006)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The earthquake is well documented. Bol\u00edvar's famous quote is attested in multiple early sources but its precise wording may be embellished.",
-      "cross_references": [
-        "1811-venezuela-independence",
-        "1813-bolivar"
-      ]
-    },
-    {
-      "id": "1812-013",
-      "title": "Fall of the First Venezuelan Republic",
-      "region": "Venezuela",
-      "coordinates_approx": "10.50, -66.92",
-      "category": "political",
-      "description": "The First Venezuelan Republic, declared in 1811, collapsed in mid-1812 under the combined pressures of the Caracas earthquake, a royalist counteroffensive led by Domingo de Monteverde, internal divisions, and a slave revolt. Francisco de Miranda, the republic's generalissimo, capitulated to Monteverde on 25 July 1812. Bol\u00edvar, viewing Miranda's surrender as treasonous, participated in his arrest and handed him over to the Spanish, who imprisoned Miranda in C\u00e1diz where he died in 1816. Bol\u00edvar himself fled to Cartagena in New Granada, where he wrote the Cartagena Manifesto analyzing the republic's failures \u2014 a document that shaped his subsequent military and political strategy.",
-      "key_figures": [
-        "Francisco de Miranda (Venezuelan leader, arrested)",
-        "Sim\u00f3n Bol\u00edvar (independence leader)",
-        "Domingo de Monteverde (Spanish royalist commander)"
-      ],
-      "sources": [
-        {
-          "name": "Bol\u00edvar, Manifiesto de Cartagena (15 December 1812)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "John Lynch, The Spanish American Revolutions 1808\u20131826 (1973)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented in Spanish colonial archives, Bol\u00edvar's writings, and Miranda's papers.",
-      "cross_references": [
-        "1812-012",
-        "1811-venezuela-independence"
-      ]
-    },
-    {
-      "id": "1812-014",
-      "title": "Convention of Tauroggen \u2014 Prussia begins to break from Napoleon",
-      "region": "Prussia / Russian Empire (Tauroggen, modern Lithuania)",
-      "coordinates_approx": "55.25, 22.29",
-      "category": "political",
-      "description": "On 30 December 1812, Prussian General Ludwig Yorck von Wartenburg, commanding the Prussian auxiliary corps attached to Napoleon's Grande Arm\u00e9e, independently negotiated a ceasefire with the Russian General Hans Karl von Diebitsch at Tauroggen (modern Taurag\u0117, Lithuania). Yorck declared his corps neutral without authorization from King Frederick William III, effectively removing Prussia's military contribution to Napoleon's war effort. Though Frederick William initially disavowed the convention, it triggered a wave of anti-French patriotic sentiment across Prussia and set the stage for Prussia's formal switch to the anti-Napoleonic coalition in early 1813. The convention is considered a turning point in the Wars of Liberation.",
-      "key_figures": [
-        "Ludwig Yorck von Wartenburg (Prussian general)",
-        "Hans Karl von Diebitsch (Russian general)",
-        "Frederick William III (King of Prussia)"
-      ],
-      "sources": [
-        {
-          "name": "Text of the Convention of Tauroggen",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Johann Gustav Droysen, Das Leben des Feldmarschalls Grafen Yorck von Wartenburg (1851\u20131852)",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Original convention text survives. Well documented in Prussian and Russian military archives.",
-      "cross_references": [
-        "1812-004",
-        "1813-prussia-coalition"
-      ]
-    },
-    {
-      "id": "1812-015",
-      "title": "Malet conspiracy \u2014 attempted coup against Napoleon in Paris",
-      "region": "France (Paris)",
-      "coordinates_approx": "48.86, 2.35",
-      "category": "political",
-      "description": "On 23 October 1812, General Claude Fran\u00e7ois de Malet, a republican opponent of Napoleon who had been held in a mental asylum, escaped and nearly overthrew the imperial government in Paris. He forged a senatus consultum announcing Napoleon's death in Russia and attempted to seize key government buildings and install a provisional government. The conspiracy succeeded for several hours \u2014 Malet arrested the Minister of Police and the Prefect of the Seine \u2014 before being unmasked and arrested. Napoleon, upon learning of the affair during the retreat from Moscow, was deeply disturbed that none of the officials involved had thought to proclaim his son as successor, revealing the fragility of the dynasty's institutional foundations. Malet was court-martialed and shot on 29 October.",
-      "key_figures": [
-        "Claude Fran\u00e7ois de Malet (French general and conspirator)",
-        "Anne Jean Marie Ren\u00e9 Savary (Minister of Police, briefly arrested)"
-      ],
-      "sources": [
-        {
-          "name": "Police and military records of the Malet affair",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Thierry Lentz, La conspiration du g\u00e9n\u00e9ral Malet (2012)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Fully documented in French police and military archives. Napoleon's reaction is attested in multiple memoirs.",
-      "cross_references": [
-        "1812-004"
-      ]
-    },
-    {
-      "id": "1812-016",
-      "title": "Grimm brothers publish first volume of Kinder- und Hausm\u00e4rchen",
-      "region": "Germany (Kassel, Electorate of Hesse)",
-      "coordinates_approx": "51.31, 9.50",
-      "category": "cultural",
-      "description": "On 20 December 1812, Jacob and Wilhelm Grimm published the first volume of their Kinder- und Hausm\u00e4rchen (Children's and Household Tales), containing 86 stories including 'Rapunzel,' 'Hansel and Gretel,' 'Cinderella' (Aschenputtel), and 'The Frog Prince.' The collection was part of the Romantic movement's effort to preserve German folk culture and was deeply influenced by rising German nationalism during the Napoleonic occupation. The Grimms presented the tales as authentic oral tradition collected from peasant storytellers, though modern scholarship has shown that many informants were educated, middle-class, and of Huguenot descent. The collection became one of the most widely translated and culturally influential books in Western literature.",
-      "key_figures": [
-        "Jacob Grimm (philologist and folklorist)",
-        "Wilhelm Grimm (philologist and folklorist)"
-      ],
-      "sources": [
-        {
-          "name": "Jacob and Wilhelm Grimm, Kinder- und Hausm\u00e4rchen, vol. 1 (1812, first edition)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Jack Zipes, The Brothers Grimm: From Enchanted Forests to the Modern World (2002)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "First edition survives. Date of publication is firmly established.",
-      "cross_references": []
-    },
-    {
-      "id": "1812-017",
-      "title": "British East India Company consolidates power in India",
-      "region": "South Asia (British India)",
-      "coordinates_approx": "22.57, 88.36",
-      "category": "political",
-      "description": "By 1812, the British East India Company controlled or exercised paramount influence over much of the Indian subcontinent following the final defeat of the Marathas in 1805 and the subsidiary alliance system imposed on Indian princely states. Governor-General Lord Minto (1807\u20131813) focused on consolidating British territorial gains and managing relations with subordinate states. The Company's dominion now stretched from Bengal through much of central and southern India. British commercial interests were extracting substantial revenue through land taxation (the Permanent Settlement and ryotwari systems), while Indian textile industries were increasingly displaced by British manufactured goods. This period set the foundations for the full colonial raj that would follow.",
-      "key_figures": [
-        "Gilbert Elliot-Murray-Kynynmound, 1st Earl of Minto (Governor-General of India)"
-      ],
-      "sources": [
-        {
-          "name": "East India Company records and correspondence (British Library, India Office Records)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "C.A. Bayly, Indian Society and the Making of the British Empire (1988)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Based on extensive Company records, but the narrative is primarily shaped by British colonial documentation. Indian perspectives are underrepresented in the archival record for this period.",
-      "cross_references": [
-        "1805-maratha-defeat"
-      ]
-    },
-    {
-      "id": "1812-018",
-      "title": "Sino-Vietnamese relations and Gia Long's consolidation of Vietnam",
-      "region": "Vietnam (Nguy\u1ec5n dynasty)",
-      "coordinates_approx": "16.46, 107.59",
-      "category": "political",
-      "description": "Emperor Gia Long, having unified Vietnam by 1802 after decades of civil war, continued consolidating the Nguy\u1ec5n dynasty's control over the long, narrow territory stretching from the Chinese border to the Mekong Delta. By 1812, his administration was implementing a Confucian-modeled bureaucratic state, codifying laws, building the imperial capital at Hu\u1ebf, and managing tributary relations with Qing China. Gia Long balanced the French advisors who had helped him gain power (notably Pierre Pigneau de B\u00e9haine's legacy) against a fundamentally Sinicized political culture. His reign represented the high point of Vietnamese political unity before French colonial encroachment later in the century.",
-      "key_figures": [
-        "Gia Long (Emperor of Vietnam, Nguy\u1ec5n \u00c1nh)"
-      ],
-      "sources": [
-        {
-          "name": "\u0110\u1ea1i Nam th\u1ef1c l\u1ee5c (Veritable Records of \u0110\u1ea1i Nam, compiled by Nguy\u1ec5n dynasty historians)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "K.W. Taylor, A History of the Vietnamese (2013)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Vietnamese dynastic records are extensive though compiled later. Supplemented by Chinese tributary records and French missionary accounts.",
-      "cross_references": [
-        "1802-gia-long"
-      ]
-    },
-    {
-      "id": "1812-019",
-      "title": "Qing China under Jiaqing \u2014 suppression of internal unrest",
-      "region": "Qing Empire (China)",
-      "coordinates_approx": "39.91, 116.39",
-      "category": "political",
-      "description": "The Jiaqing Emperor continued his efforts to restore Qing governance after the corruption of the late Qianlong era. By 1812, the major White Lotus Rebellion (1796\u20131804) had been suppressed, but its aftermath \u2014 depleted treasuries, weakened military capacity, and widespread banditry \u2014 continued to shape Qing administration. The emperor pursued anti-corruption campaigns and attempted fiscal reform, but the dynasty's structural decline was becoming apparent. Opium imports from British India were growing, though the crisis would not reach critical proportions for another two decades. The Qing court remained focused inward, largely unaware of or indifferent to the Napoleonic upheavals reshaping the Western world.",
-      "key_figures": [
-        "Jiaqing Emperor (Qing Emperor, r. 1796\u20131820)"
-      ],
-      "sources": [
-        {
-          "name": "Qing Shilu (Veritable Records of the Qing Dynasty)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "William T. Rowe, China's Last Empire: The Great Qing (2009)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well documented in Qing imperial records. The broad characterization of this period is a matter of historiographic consensus.",
-      "cross_references": [
-        "1796-white-lotus"
-      ]
-    },
-    {
-      "id": "1812-020",
-      "title": "Egyptian-Wahhabi conflict \u2014 Muhammad Ali campaigns in Arabia",
-      "region": "Ottoman Empire / Egypt / Arabian Peninsula",
-      "coordinates_approx": "24.47, 39.61",
-      "category": "military",
-      "description": "Muhammad Ali Pasha of Egypt, acting nominally on behalf of the Ottoman Sultan Mahmud II, continued the Egyptian campaign against the First Saudi State and its Wahhabi religious movement in the Hejaz and Najd. Egyptian forces under Tusun Pasha (Muhammad Ali's son) had recaptured the holy cities of Mecca and Medina in 1812, restoring Ottoman-Egyptian control over the Hejaz after the Wahhabis had held them since 1803\u20131806. The campaign was part of Muhammad Ali's ambitious strategy to build Egypt into an independent regional power while maintaining nominal Ottoman suzerainty. The Egyptian-Wahhabi war would continue until the destruction of the Saudi capital Dir'iyya in 1818.",
-      "key_figures": [
-        "Muhammad Ali Pasha (ruler of Egypt)",
-        "Tusun Pasha (Egyptian commander, son of Muhammad Ali)",
-        "Abdullah ibn Saud (Saudi-Wahhabi leader)"
-      ],
-      "sources": [
-        {
-          "name": "Al-Jabarti, 'Aja'ib al-athar fi'l-tarajim wa'l-akhbar (contemporary Egyptian chronicle)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Khaled Fahmy, All the Pasha's Men: Mehmed Ali, His Army, and the Making of Modern Egypt (1997)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented in Egyptian, Ottoman, and Arabian sources. Precise chronology of individual engagements can be uncertain.",
-      "cross_references": [
-        "1818-diriyya"
-      ]
-    },
-    {
-      "id": "1812-021",
-      "title": "British Parliament revokes Orders in Council",
-      "region": "Great Britain (London)",
-      "coordinates_approx": "51.50, -0.12",
-      "category": "economic",
-      "description": "On 23 June 1812, the British government revoked the Orders in Council \u2014 the trade restrictions that had been a primary American grievance leading to the War of 1812. The revocation came in response to intense lobbying by British manufacturers suffering from the loss of American trade, not in response to the American declaration of war (which had occurred five days earlier but was not yet known in London). The tragic irony of the timing \u2014 war declared over grievances that were simultaneously being addressed \u2014 has been noted by historians, though impressment and other issues would likely have sustained the conflict regardless. The revocation followed the assassination of Prime Minister Spencer Perceval on 11 May, which had created political turmoil.",
-      "key_figures": [
-        "Spencer Perceval (Prime Minister, assassinated 11 May 1812)",
-        "Lord Liverpool (successor as Prime Minister)",
-        "Henry Brougham (Whig MP who led the campaign against the Orders)"
-      ],
-      "sources": [
-        {
-          "name": "Hansard Parliamentary Debates, 1812",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Bradford Perkins, Prologue to War: England and the United States 1805\u20131812 (1961)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Precisely documented in British parliamentary records.",
-      "cross_references": [
-        "1812-005",
-        "1812-022"
-      ]
-    },
-    {
-      "id": "1812-022",
-      "title": "Assassination of Prime Minister Spencer Perceval",
-      "region": "Great Britain (London)",
-      "coordinates_approx": "51.50, -0.13",
-      "category": "political",
-      "description": "On 11 May 1812, Spencer Perceval, the Prime Minister of the United Kingdom, was shot and killed in the lobby of the House of Commons by John Bellingham, a bankrupt merchant who blamed the government for failing to compensate him for losses suffered during imprisonment in Russia. Perceval remains the only British prime minister to have been assassinated. The killing was not part of any broader political conspiracy \u2014 Bellingham acted alone out of personal grievance \u2014 but it occurred during a period of severe economic distress caused by the Napoleonic trade wars and the Luddite unrest in the manufacturing districts. Bellingham was tried, convicted, and hanged within a week.",
-      "key_figures": [
-        "Spencer Perceval (Prime Minister of the United Kingdom)",
-        "John Bellingham (assassin)"
-      ],
-      "sources": [
-        {
-          "name": "Hansard Parliamentary Debates and contemporary newspaper accounts",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Andro Linklater, Why Spencer Perceval Had to Die (2012)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented by numerous eyewitnesses, parliamentary records, and trial transcripts.",
-      "cross_references": [
-        "1812-021"
-      ]
-    },
-    {
-      "id": "1812-023",
-      "title": "Luddite unrest peaks in England",
-      "region": "Great Britain (Yorkshire, Lancashire, Nottinghamshire)",
-      "coordinates_approx": "53.48, -2.24",
-      "category": "economic",
-      "description": "Luddite machine-breaking protests reached their peak intensity in 1812, driven by the economic hardship of wartime trade disruptions and the displacement of skilled textile workers by new industrial machinery. In April, Luddites attacked Rawfolds Mill in Yorkshire, where two attackers were killed. The government responded with massive military force \u2014 at its peak, more troops were deployed against the Luddites in northern England than Wellington commanded in the Peninsular War. In January 1812, Parliament made machine-breaking a capital offense (the Frame Breaking Act). Lord Byron delivered a notable speech in the House of Lords opposing the bill, one of his few parliamentary interventions. Seventeen Luddites were executed at York in January 1813.",
-      "key_figures": [
-        "Lord Byron (poet and peer, opposed Frame Breaking Act)",
-        "Spencer Perceval (Prime Minister, supported the Act)"
-      ],
-      "sources": [
-        {
-          "name": "Home Office correspondence and magistrates' reports (National Archives, HO 42 series)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "E.P. Thompson, The Making of the English Working Class (1963)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented in government archives, trial records, and contemporary press.",
-      "cross_references": [
-        "1811-luddites"
-      ]
-    },
-    {
-      "id": "1812-024",
-      "title": "Jos\u00e9 de San Mart\u00edn arrives in Buenos Aires",
-      "region": "R\u00edo de la Plata (Buenos Aires)",
-      "coordinates_approx": "-34.60, -58.38",
-      "category": "military",
-      "description": "In March 1812, Jos\u00e9 de San Mart\u00edn, a career Spanish army officer of Argentine birth who had fought against Napoleon in the Peninsular War, arrived in Buenos Aires and offered his services to the independence movement. The United Provinces of the R\u00edo de la Plata had been effectively self-governing since the May Revolution of 1810. San Mart\u00edn was tasked with organizing the Regiment of Mounted Grenadiers and quickly became a key military figure in the independence struggle. His arrival marked the beginning of a military career that would lead to the liberation of Argentina, Chile, and Peru, earning him recognition as one of the principal liberators of South America alongside Bol\u00edvar.",
-      "key_figures": [
-        "Jos\u00e9 de San Mart\u00edn (Argentine-born military officer)"
-      ],
-      "sources": [
-        {
-          "name": "John Lynch, San Mart\u00edn: Argentine Soldier, American Hero (2009)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Argentine government records and San Mart\u00edn's correspondence",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented in Argentine military records and San Mart\u00edn's extensive surviving correspondence.",
-      "cross_references": [
-        "1810-may-revolution",
-        "1817-crossing-andes"
+        "1804-001"
       ]
     }
   ],
-  "disconfirming_evidence": "Several commonly held beliefs about 1812 merit qualification. First, the narrative of 'General Winter' defeating Napoleon is an oversimplification \u2014 modern scholarship (Lieven 2010, Zamoyski 2004) emphasizes that logistical collapse, disease (especially typhus and dysentery), and the scorched-earth strategy were already destroying the Grande Arm\u00e9e well before winter set in; the retreat began in October when temperatures were not yet extreme, and the army was already a fraction of its original size before the first hard frosts. Second, Russian casualty figures at Borodino are contested \u2014 older Russian nationalist historiography inflated French losses and minimized Russian ones, while French sources did the reverse; Mikaberidze's (2007) careful reconstruction suggests roughly comparable losses on both sides. Third, the Grimm brothers' claim that their tales represented pure German folk tradition from peasant oral sources has been substantially debunked \u2014 many informants were educated, middle-class women of Huguenot (French) descent, and the brothers significantly reworked the tales across editions to make them more 'German' and more moralistic. Fourth, the War of 1812's causes are more complex than the American schoolbook narrative of British aggression; recent scholarship (Taylor 2010) emphasizes American expansionist ambitions toward Canada and the role of anti-Indigenous warfare as co-equal motivations alongside impressment. Fifth, the timing irony of the Orders in Council revocation and the war declaration, while genuine, should not suggest the war was a 'mistake' \u2014 impressment, frontier conflicts, and national honor issues would have sustained hostilities regardless.",
-  "historiographic_note": "The year 1812 is one of the most richly documented in pre-modern history, particularly for European and North American events. The Russian campaign alone generated hundreds of memoirs in French, Russian, German, Polish, and other languages. However, the source base is heavily skewed toward elite military and political perspectives. Common soldiers' experiences are underrepresented, and non-European events are documented primarily through colonial or imperial administrative records. South American independence movements are documented through both patriot and royalist sources, though Indigenous and enslaved perspectives are largely absent from the written record. Asian history for this period relies heavily on dynastic court records (Qing Shilu, Vietnamese Veritable Records) which reflect imperial perspectives. Sub-Saharan African, Pacific, and Aboriginal Australian history for this year remains largely outside the documentary record accessible in standard historiography, though archaeological and oral tradition research continues to expand knowledge of these regions.",
+  "disconfirming_evidence": "The War of 1812 is sometimes portrayed as an American victory, but modern scholarship has noted that it was largely a stalemate and that the United States failed to achieve its primary objectives (the conquest of Canada and the suppression of Native American resistance). The Battle of Borodino is often depicted as a French victory, but modern scholarship has emphasized that it was tactically inconclusive and that the Russians achieved a moral victory by preventing a decisive French victory. Some historians have questioned the extent to which the Russian campaign was truly 'disastrous' for the French, noting that the Grande Arm\u00e9e remained a formidable force even after the retreat.",
+  "historiographic_note": "1812 is exceptionally well-documented for Europe and North America due to rich archival records, military accounts, and diplomatic correspondence. The Napoleonic Wars and the War of 1812 are among the most thoroughly documented events of the period. However, sources for Latin America and other regions may be less complete in Western archives. The historical record for 1812 is among the richest for any year in this period.",
   "graph_edges": [
     {
-      "from": "1812-001",
-      "to": "1813-war-of-liberation",
+      "from": "1812-002",
+      "to": "1813-001",
       "relation": "led_to",
-      "note": "The destruction of the Grande Arm\u00e9e in Russia emboldened European powers to form the Sixth Coalition against Napoleon in 1813"
+      "note": "French invasion of Russia in 1812 led to the collapse of French power and the Battle of Leipzig in 1813"
+    },
+    {
+      "from": "1812-003",
+      "to": "1812-002",
+      "relation": "part_of",
+      "note": "Battle of Borodino was part of the French invasion of Russia"
     },
     {
       "from": "1812-004",
-      "to": "1814-napoleon-abdication",
+      "to": "1813-003",
       "relation": "led_to",
-      "note": "The Russian disaster set in motion the chain of defeats leading to Napoleon's abdication in April 1814"
+      "note": "Battle of Salamanca in 1812 contributed to the British-Spanish victory at Vitoria in 1813"
+    },
+    {
+      "from": "1812-001",
+      "to": "1813-002",
+      "relation": "led_to",
+      "note": "War of 1812 led to American victories at Lake Erie and the Thames in 1813"
     },
     {
       "from": "1812-005",
-      "to": "1814-treaty-of-ghent",
+      "to": "1813-007",
       "relation": "led_to",
-      "note": "The War of 1812 concluded with the Treaty of Ghent in December 1814"
-    },
-    {
-      "from": "1812-007",
-      "to": "1813-thames",
-      "relation": "led_to",
-      "note": "Tecumseh's alliance ended with his death at the Battle of the Thames in October 1813"
-    },
-    {
-      "from": "1812-008",
-      "to": "1820-liberal-revolutions",
-      "relation": "led_to",
-      "note": "The 1812 Constitution became the rallying standard for liberal revolutions in Spain, Portugal, and Italy in 1820"
-    },
-    {
-      "from": "1812-010",
-      "to": "1813-vitoria",
-      "relation": "led_to",
-      "note": "Wellington's victory at Salamanca set the strategic conditions for his decisive victory at Vitoria in 1813"
-    },
-    {
-      "from": "1812-012",
-      "to": "1813-bolivar",
-      "relation": "led_to",
-      "note": "The fall of the First Republic drove Bol\u00edvar into exile and shaped his strategy for the Admirable Campaign of 1813"
-    },
-    {
-      "from": "1812-014",
-      "to": "1813-prussia-coalition",
-      "relation": "led_to",
-      "note": "The Convention of Tauroggen was the first step toward Prussia's entry into the Sixth Coalition against Napoleon"
-    },
-    {
-      "from": "1812-020",
-      "to": "1818-diriyya",
-      "relation": "led_to",
-      "note": "The Egyptian campaign in Arabia culminated in the destruction of the Saudi capital Dir'iyya in 1818"
-    },
-    {
-      "from": "1812-024",
-      "to": "1817-crossing-andes",
-      "relation": "led_to",
-      "note": "San Mart\u00edn's arrival in Buenos Aires began the military career that led to his crossing of the Andes in 1817"
-    },
-    {
-      "from": "1812-002",
-      "to": "1812-003",
-      "relation": "led_to",
-      "note": "The French tactical victory at Borodino opened the road to Moscow"
-    },
-    {
-      "from": "1812-023",
-      "to": "1812-022",
-      "relation": "contemporary_with",
-      "note": "Luddite unrest and the assassination of Perceval occurred in the same climate of economic and political crisis"
+      "note": "Latin American independence movements in 1812 accelerated in 1813 with Bol\u00edvar's campaigns"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T07:14:30.869797",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

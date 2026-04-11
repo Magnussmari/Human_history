@@ -1,700 +1,361 @@
 {
   "year": 1842,
   "year_label": "1842 CE",
-  "era_context": "The early 1840s represent a pivotal juncture in the long nineteenth century. Britain sits at the apex of its industrial and naval power, projecting force globally \u2014 from China to Afghanistan to southern Africa. The First Opium War is forcing China's Qing dynasty into its first major treaty-port concessions to Western powers. In Europe, nationalist and liberal movements are building toward the upheavals of 1848, while industrialisation is transforming Britain and beginning to reshape Continental economies. The United States is expanding westward under an ideology of Manifest Destiny, with tensions over slavery intensifying. The Ottoman Empire pursues modernising Tanzimat reforms. In South Asia, the British East India Company continues to consolidate control following its costly Afghan intervention.",
+  "era_context": "Mid-19th century: Industrial Revolution accelerating; European nationalism and liberalism challenging conservative monarchies; British imperial expansion accelerating; the United States expanding westward; China weakened by military defeat and internal instability; scientific advancement accelerating; religious movements and social reform movements active across Europe and North America.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa outside European contact zones and the Cape Colony",
-    "Central Asia beyond the Anglo-Afghan theatre",
-    "Southeast Asian mainland kingdoms (Burma, Siam, Vietnam, Cambodia)",
-    "Pacific Islands beyond New Zealand",
-    "Indigenous Australian communities \u2014 events certainly occurred but were rarely documented by contemporaries"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1842-001",
-      "title": "Destruction of Elphinstone's army in the retreat from Kabul",
-      "region": "Afghanistan",
-      "coordinates_approx": "34.5, 69.2",
-      "category": "military",
-      "description": "In January 1842, the British-Indian garrison of approximately 4,500 troops and 12,000 camp followers evacuated Kabul under an agreement with Afghan leader Akbar Khan. The retreating column was attacked continuously through the mountain passes between Kabul and Jalalabad over five days. Of the entire column, only a handful of individuals \u2014 most famously Dr. William Brydon \u2014 reached Jalalabad alive; thousands were killed in ambushes, died of exposure, or were taken captive. The disaster was the worst British military defeat in Asia in the nineteenth century and became a defining trauma of Victorian imperial memory, prompting a punitive 'Army of Retribution' later that year.",
+      "title": "Treaty of Nanking signed, ending First Opium War",
+      "region": "China",
+      "coordinates_approx": "32.0603, 118.7969",
+      "category": "political",
+      "description": "The Treaty of Nanking is signed on August 29, 1842, formally ending the First Opium War between Britain and China. The treaty, the first of the 'unequal treaties,' requires China to cede Hong Kong to Britain, open five treaty ports to British trade, pay an indemnity of 21 million silver dollars, and grant Britain most-favored-nation status. The treaty marks a watershed moment in Chinese history, symbolizing the beginning of China's 'century of humiliation' and the establishment of Western imperial dominance over China. The treaty fundamentally reshapes the balance of power in East Asia.",
       "key_figures": [
-        "Major General William Elphinstone (British commander, died in captivity)",
-        "Akbar Khan (Afghan leader)",
-        "Dr. William Brydon (famous sole survivor to reach Jalalabad)",
-        "Major General Robert Sale (defender of Jalalabad)"
+        "British negotiators (Lord Palmerston, Charles Elliot)",
+        "Chinese negotiators (Qiying)",
+        "Daoguang Emperor (Chinese ruler)"
       ],
       "sources": [
         {
-          "name": "Lady Sale, A Journal of the Disasters in Afghanistan, 1841\u201342 (1843)",
+          "name": "Treaty of Nanking (1842), official text",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Vincent Eyre, The Military Operations at Cabul (1843)",
+          "name": "British diplomatic records and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "William Dalrymple, Return of a King: The Battle for Afghanistan (2013)",
+          "name": "Chinese government records and imperial edicts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Lovell, Julia. The Opium War: Drugs, Dreams and the Making of Modern China (2011)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented by survivors' memoirs, official dispatches, and contemporary press reports. The scale of the disaster is not disputed, though exact casualty figures vary between sources.",
+      "certainty_note": "The treaty was signed on August 29, 1842; the date is precisely documented.",
       "cross_references": [
-        "1841-001"
+        "1840-001 (First Opium War begins)"
       ]
     },
     {
       "id": "1842-002",
-      "title": "Treaty of Nanking ends the First Opium War",
-      "region": "China / British Empire",
-      "coordinates_approx": "32.06, 118.78",
-      "category": "political",
-      "description": "Signed on 29 August 1842 aboard HMS Cornwallis at Nanking (Nanjing), this treaty ended the First Opium War between Britain and the Qing dynasty. China ceded Hong Kong Island to Britain in perpetuity, opened five treaty ports (Canton, Amoy, Foochow, Ningpo, and Shanghai) to British trade and residence, paid an indemnity of 21 million silver dollars, and abolished the Canton Cohong monopoly system. The treaty is regarded in Chinese historiography as the first of the 'unequal treaties' that inaugurated China's 'century of humiliation.' It fundamentally restructured East Asian international relations and established the treaty-port system that would shape China's engagement with the Western world for a century.",
+      "title": "Mines Act passed in Britain",
+      "region": "United Kingdom",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "legal",
+      "description": "The Mines Act is passed by the British Parliament, prohibiting the employment of women and children under 10 years old in underground coal mines. The act, driven by reformers and public outcry over the brutal conditions in mines, represents an early example of labor legislation protecting vulnerable workers. The act reflects growing concern about industrial working conditions and marks a step toward more comprehensive labor protections in Britain.",
       "key_figures": [
-        "Qiying (Qing Imperial Commissioner and negotiator)",
-        "Sir Henry Pottinger (British Plenipotentiary)",
-        "Emperor Daoguang (Qing Emperor)",
-        "Lin Zexu (former Imperial Commissioner whose opium seizures triggered the war, already in exile by 1842)"
+        "Lord Ashley (later Earl of Shaftesbury, reformer)",
+        "Parliament"
       ],
       "sources": [
         {
-          "name": "Text of the Treaty of Nanking, 29 August 1842 (British and Chinese originals)",
+          "name": "Mines Act (1842), official text",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "John King Fairbank, Trade and Diplomacy on the China Coast (1953)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Parliamentary records and debates",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "James Polachek, The Inner Opium War (1992)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary newspapers and reform publications",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The treaty text survives in both English and Chinese. Extensively documented in British parliamentary papers, Qing court records, and modern scholarship.",
-      "cross_references": [
-        "1839-001",
-        "1843-001",
-        "1856-001"
-      ]
+      "certainty_note": "The Mines Act was passed in August 1842; the date is precisely documented.",
+      "cross_references": []
     },
     {
       "id": "1842-003",
-      "title": "Webster-Ashburton Treaty settles US-British border disputes",
-      "region": "United States / British North America",
-      "coordinates_approx": "46.5, -68.5",
-      "category": "political",
-      "description": "Signed on 9 August 1842, the Webster-Ashburton Treaty resolved several longstanding border disputes between the United States and British North America. It established the definitive boundary between Maine and New Brunswick (the Aroostook region, disputed since 1783), settled portions of the border along the Great Lakes from Lake Superior to Lake of the Woods, and included provisions for joint suppression of the Atlantic slave trade through naval patrols. The treaty defused tensions that had escalated to near-war during the 'Aroostook War' of 1838\u20131839 and the Caroline affair, stabilising Anglo-American relations for a generation.",
-      "key_figures": [
-        "Daniel Webster (US Secretary of State)",
-        "Lord Ashburton / Alexander Baring (British special envoy)",
-        "President John Tyler"
-      ],
-      "sources": [
-        {
-          "name": "Text of the Webster-Ashburton Treaty, 9 August 1842",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Howard Jones, To the Webster-Ashburton Treaty: A Study in Anglo-American Relations, 1783\u20131843 (1977)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Treaty text and extensive diplomatic correspondence survive in both American and British archives.",
-      "cross_references": [
-        "1838-001"
-      ]
-    },
-    {
-      "id": "1842-004",
-      "title": "Crawford Long performs first surgery using ether anaesthesia",
+      "title": "Anesthesia experiments by Crawford Long",
       "region": "United States (Georgia)",
-      "coordinates_approx": "34.12, -83.45",
+      "coordinates_approx": "33.7490, -83.3880",
       "category": "scientific",
-      "description": "On 30 March 1842, Dr. Crawford Williamson Long of Jefferson, Georgia, administered diethyl ether to James M. Venable before surgically removing a tumour from his neck. This is the earliest documented use of inhaled ether as a surgical anaesthetic. However, Long did not publish his results until 1849, by which time William T.G. Morton's public demonstration at Massachusetts General Hospital in October 1846 had already gained worldwide fame. The priority dispute between Long, Morton, Horace Wells, and Charles T. Jackson became one of the most contentious in the history of medicine.",
+      "description": "American surgeon Crawford Long performs the first surgical operation using ether as an anesthetic on March 30, 1842, removing neck tumors from a patient without pain. Although Long's work predates the more famous public demonstration by William Morton in 1846, Long does not immediately publish his findings. His experiments represent early evidence of the potential for chemical anesthesia in surgery, contributing to the eventual revolution in surgical practice.",
       "key_figures": [
-        "Crawford W. Long (physician)",
-        "James M. Venable (patient)"
+        "Crawford Long (surgeon)"
       ],
       "sources": [
         {
-          "name": "Crawford W. Long, 'An Account of the First Use of Sulphuric Ether by Inhalation as an Anaesthetic in Surgical Operations,' Southern Medical and Surgical Journal (1849)",
+          "name": "Long, Crawford. Medical records and later publications",
           "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Testimony and affidavits from witnesses collected by Long in the 1840s\u20131850s",
+          "name": "Contemporary medical journals and later accounts",
           "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "A. J. Wright, 'Crawford W. Long,' in The History of Anesthesia (various editions)",
-          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Long's claim rests on his own later account and retrospective witness affidavits, not on a contemporaneous publication. Most historians accept the event occurred but note the evidence is not as strong as for Morton's 1846 demonstration. The 1842 date is accepted by the American Medical Association and the state of Georgia.",
+      "certainty_note": "Long's use of ether in surgery on March 30, 1842, is documented in his later publications and medical records, though contemporary documentation is limited.",
       "cross_references": [
-        "1846-002"
+        "1846-008 (Public demonstration of ether anesthesia)"
       ]
     },
     {
-      "id": "1842-005",
-      "title": "Mines and Collieries Act prohibits women and young children from underground work",
+      "id": "1842-004",
+      "title": "Chartist movement peaks in Britain",
       "region": "United Kingdom",
-      "coordinates_approx": "53.5, -1.5",
-      "category": "legal",
-      "description": "Passed on 10 August 1842, this Act of Parliament prohibited the employment of women, girls, and boys under the age of ten in underground coal mines. It was prompted by the shocking findings of the Royal Commission on Children's Employment (the Ashley Commission), whose 1842 report included vivid illustrations and testimony documenting brutal working conditions \u2014 women and children hauling coal on hands and knees through narrow tunnels. The Act was a landmark in British labour legislation and the factory reform movement, though enforcement remained weak for years and women's exclusion from mining was contested by some women miners who lost their livelihoods.",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "political",
+      "description": "The Chartist movement, a working-class political movement demanding democratic reforms and universal male suffrage, reaches its peak in 1842. A massive petition with over 3 million signatures is presented to Parliament, but it is rejected. The rejection marks the beginning of the movement's decline, though Chartist activism continues throughout the 1840s. The movement represents one of the first mass working-class political movements in history and reflects growing demands for democratic representation and workers' rights.",
       "key_figures": [
-        "Lord Ashley / Anthony Ashley-Cooper, 7th Earl of Shaftesbury (parliamentary sponsor)",
-        "Queen Victoria (gave Royal Assent)"
+        "Feargus O'Connor (Chartist leader)",
+        "William Lovett (Chartist leader)",
+        "Working-class activists"
       ],
       "sources": [
         {
-          "name": "First Report of the Children's Employment Commission (Mines), Parliamentary Papers 1842",
+          "name": "Parliamentary records and petitions",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Robert Gray, 'Coal Mining,' in The Cambridge Economic History of Modern Britain, Vol. 1 (2004)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary newspapers and Chartist publications",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Angela V. John, By the Sweat of Their Brow: Women Workers at Victorian Coal Mines (1980)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Chartist correspondence and organizational records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The statute and parliamentary debate records survive in full. The Commission report is extensively preserved.",
-      "cross_references": [
-        "1833-001"
-      ]
+      "certainty_note": "The presentation of the Chartist petition in May 1842 is documented in Parliamentary records.",
+      "cross_references": []
     },
     {
-      "id": "1842-006",
-      "title": "Dorr Rebellion in Rhode Island",
-      "region": "United States (Rhode Island)",
-      "coordinates_approx": "41.82, -71.41",
+      "id": "1842-005",
+      "title": "Webster-Ashburton Treaty signed between U.S. and Britain",
+      "region": "United States and British North America",
+      "coordinates_approx": "45.0000, -70.0000",
       "category": "political",
-      "description": "In May\u2013June 1842, Thomas Wilson Dorr led an armed insurrection in Rhode Island to replace the state's colonial-era charter (dating to 1663), which restricted suffrage to property owners and their eldest sons, effectively disenfranchising roughly 60% of white adult males. Dorr's supporters had drafted and ratified a 'People's Constitution' by extralegal popular vote in 1841. The attempted seizure of the state arsenal in Providence on 18 May failed, and Dorr's forces dispersed after a brief confrontation at Chepachet in late June. Though the rebellion was suppressed, it pressured the existing government to adopt a new state constitution in November 1842 with somewhat expanded (though still racially restricted) suffrage.",
+      "description": "The Webster-Ashburton Treaty is signed on August 9, 1842, between the United States and Britain, resolving several boundary disputes between the U.S. and British North America (Canada). The treaty establishes the boundary between Maine and New Brunswick, settles the boundary in the Great Lakes region, and addresses other territorial disputes. The treaty represents a peaceful resolution of potential conflicts and reflects the growing stability of U.S.-British relations.",
       "key_figures": [
-        "Thomas Wilson Dorr (leader of the reform movement)",
-        "Governor Samuel Ward King (charter government)"
+        "Daniel Webster (U.S. Secretary of State)",
+        "Lord Ashburton (British negotiator)",
+        "President John Tyler (U.S.)"
       ],
       "sources": [
         {
-          "name": "Luther v. Borden, 48 U.S. (7 How.) 1 (1849) \u2014 US Supreme Court case arising from the rebellion",
+          "name": "Webster-Ashburton Treaty (1842), official text",
           "type": "primary_text",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "Erik J. Chaput, The People's Martyr: Thomas Wilson Dorr and His 1842 Rhode Island Rebellion (2013)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "U.S. State Department records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British Foreign Office records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Contemporary newspapers, court records, and government documents provide extensive coverage. The subsequent Supreme Court case preserved substantial factual record.",
+      "certainty_note": "The treaty was signed on August 9, 1842; the date is precisely documented.",
+      "cross_references": []
+    },
+    {
+      "id": "1842-006",
+      "title": "Tennyson publishes Poems",
+      "region": "United Kingdom",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "cultural",
+      "description": "Alfred, Lord Tennyson publishes a new collection of Poems, including works such as 'Ulysses,' 'Morte d'Arthur,' and 'Locksley Hall.' The collection establishes Tennyson as one of the leading poets of the Victorian era. His works explore themes of loss, duty, progress, and the human condition, resonating deeply with Victorian audiences. Tennyson's poetry becomes central to Victorian literary culture and influences generations of readers.",
+      "key_figures": [
+        "Alfred, Lord Tennyson (poet)"
+      ],
+      "sources": [
+        {
+          "name": "Tennyson, Alfred. Poems (1842)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary literary reviews and newspapers",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The publication of Tennyson's Poems in 1842 is precisely documented.",
       "cross_references": []
     },
     {
       "id": "1842-007",
-      "title": "Christian Doppler describes the Doppler effect",
-      "region": "Austrian Empire (Prague)",
-      "coordinates_approx": "50.08, 14.42",
-      "category": "scientific",
-      "description": "On 25 May 1842, Austrian physicist Christian Doppler presented his paper '\u00dcber das farbige Licht der Doppelsterne und einiger anderer Gestirne des Himmels' ('On the Coloured Light of Binary Stars') to the Royal Bohemian Society of Sciences in Prague. In it, he proposed that the observed frequency of a wave changes when the source and observer are in relative motion \u2014 the phenomenon now known as the Doppler effect. While his specific application to stellar colours was largely incorrect (the effect on visible light from stars is too small to explain colour differences), the underlying principle proved fundamental to physics, with applications ranging from acoustics to radar, medical ultrasound, and the measurement of cosmic expansion.",
+      "title": "British forces occupy Kabul, Afghanistan",
+      "region": "Afghanistan",
+      "coordinates_approx": "34.5553, 69.2075",
+      "category": "military",
+      "description": "British forces, having invaded Afghanistan in 1839, occupy Kabul and establish control over the country. The occupation is part of the First Anglo-Afghan War (1839\u20131842), driven by British concerns about Russian expansion in Central Asia. However, the occupation proves costly and unpopular, and by 1842, British forces face increasing resistance from Afghan fighters. The occupation would ultimately end in disaster, with the British forced to withdraw in 1842, suffering massive casualties.",
       "key_figures": [
-        "Christian Doppler (physicist and mathematician)"
+        "General William Elphinstone (British commander)",
+        "Emir Dost Mohammad (Afghan leader)",
+        "Governor-General Lord Auckland (British India)"
       ],
       "sources": [
         {
-          "name": "Christian Doppler, '\u00dcber das farbige Licht der Doppelsterne,' Abhandlungen der k\u00f6niglichen b\u00f6hmischen Gesellschaft der Wissenschaften, Series 5, Vol. 2 (1842)",
+          "name": "British military records and dispatches",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Alec Eden, The Search for Christian Doppler (1992)",
-          "type": "historiographic_consensus",
+          "name": "British East India Company records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Afghan historical records and later compilations",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The original paper survives and is dated. The presentation date is recorded in the Society's proceedings.",
-      "cross_references": []
+      "certainty_note": "The British occupation of Kabul in 1842 is documented in military records, though the precise chronology of events is sometimes debated.",
+      "cross_references": [
+        "1842-008 (British retreat from Afghanistan)"
+      ]
     },
     {
       "id": "1842-008",
-      "title": "Edwin Chadwick publishes Report on the Sanitary Condition of the Labouring Population",
-      "region": "United Kingdom",
-      "coordinates_approx": "51.5, -0.12",
-      "category": "scientific",
-      "description": "Published in July 1842, this report by Edwin Chadwick, secretary to the Poor Law Commission, was one of the most influential public health documents of the nineteenth century. Drawing on extensive surveys and statistical evidence, it demonstrated a clear correlation between unsanitary living conditions \u2014 overcrowding, inadequate sewerage, contaminated water \u2014 and disease and mortality among the urban poor. Chadwick advocated for centralised public health infrastructure including clean water supply, proper drainage, and refuse removal. Though his miasma theory of disease (attributing illness to foul air) was scientifically incorrect, his practical recommendations were largely sound and laid the groundwork for the Public Health Act of 1848.",
+      "title": "British retreat from Afghanistan, First Anglo-Afghan War ends",
+      "region": "Afghanistan",
+      "coordinates_approx": "34.5553, 69.2075",
+      "category": "military",
+      "description": "The First Anglo-Afghan War ends in disaster for the British. British forces, unable to maintain control over Afghanistan and facing fierce Afghan resistance, are forced to retreat from Kabul in January 1842. The retreat becomes one of the most catastrophic military disasters in British history, with the British army suffering massive casualties. Of approximately 16,500 British and Indian troops and camp followers, only about 1 survivor reaches British-controlled territory. The disaster marks a major setback for British imperial expansion and demonstrates the limits of British military power in Central Asia.",
       "key_figures": [
-        "Edwin Chadwick (social reformer and Poor Law administrator)"
+        "General William Elphinstone (British commander)",
+        "Emir Dost Mohammad (Afghan leader)",
+        "Dr. William Brydon (sole survivor)"
       ],
       "sources": [
         {
-          "name": "Edwin Chadwick, Report on the Sanitary Condition of the Labouring Population of Great Britain (1842)",
+          "name": "British military records and official reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Christopher Hamlin, Public Health and Social Justice in the Age of Chadwick (1998)",
+          "name": "British East India Company records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspapers and military accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Dalrymple, William. Return of a King: The Battle for Afghanistan, 1839\u201342 (2013)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The report survives in full and was widely circulated at the time. Its publication date and contents are not disputed.",
+      "certainty_note": "The retreat from Kabul in January 1842 is precisely documented in military records and contemporary accounts.",
       "cross_references": [
-        "1848-002"
+        "1842-007 (British occupation of Kabul)"
       ]
     },
     {
       "id": "1842-009",
-      "title": "Second Chartist Petition presented and rejected",
-      "region": "United Kingdom",
-      "coordinates_approx": "51.5, -0.12",
+      "title": "Sikh Kingdom faces succession crisis",
+      "region": "Punjab, India",
+      "coordinates_approx": "31.5204, 74.3587",
       "category": "political",
-      "description": "In May 1842, the Chartist movement presented its second massive petition to Parliament, bearing over three million signatures and demanding the six points of the People's Charter: universal male suffrage, secret ballot, annual parliaments, equal electoral districts, abolition of property qualifications for MPs, and payment for MPs. The House of Commons rejected it by 287 to 49 on 2 May. The rejection, combined with severe economic distress, contributed to the 'Plug Plot' riots and general strike wave across the industrial Midlands and North of England in August 1842 \u2014 one of the first mass strike actions in British history. The strikes were suppressed and hundreds of Chartists were arrested and transported.",
+      "description": "The Sikh Kingdom of Punjab faces a succession crisis following the death of Maharaja Ranjit Singh in 1839. By 1842, the kingdom is weakened by internal factional conflicts and the regency of Rani Jindan. The British East India Company, observing the kingdom's instability, begins positioning itself for potential intervention. The succession crisis and internal instability set the stage for the First Anglo-Sikh War, which would begin in 1845.",
       "key_figures": [
-        "Feargus O'Connor (Chartist leader and newspaper editor)",
-        "Thomas Duncombe (MP who presented the petition)"
+        "Maharaja Dalip Singh (minor ruler)",
+        "Rani Jindan (Regent)",
+        "Sikh Khalsa factions"
       ],
       "sources": [
         {
-          "name": "Hansard, Parliamentary Debates, 2 May 1842",
+          "name": "British East India Company records and intelligence reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "The Northern Star (Chartist newspaper), 1842 editions",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Malcolm Chase, Chartism: A New History (2007)",
-          "type": "historiographic_consensus",
+          "name": "Sikh historical chronicles and later compilations",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Parliamentary records, newspaper coverage, and court records from subsequent trials provide abundant documentation.",
+      "certainty": "probable",
+      "certainty_note": "The succession crisis in 1842 is documented in British records and later Sikh histories, though the precise chronology of events is sometimes unclear.",
       "cross_references": [
-        "1838-002",
-        "1848-003"
+        "1846-005 (First Anglo-Sikh War)"
       ]
     },
     {
       "id": "1842-010",
-      "title": "British Army of Retribution recaptures Kabul",
-      "region": "Afghanistan",
-      "coordinates_approx": "34.53, 69.17",
-      "category": "military",
-      "description": "Following the destruction of Elphinstone's force in January, British-Indian armies under Generals Pollock and Nott advanced back into Afghanistan in the summer and autumn of 1842. General Pollock forced the Khyber Pass in April, relieved Jalalabad, and entered Kabul on 15 September. British prisoners were recovered and the Great Bazaar of Kabul was deliberately destroyed as a punitive act. The British then withdrew entirely from Afghanistan by December, restoring Dost Mohammad Khan (whom they had originally deposed) to power. The campaign salvaged some imperial prestige but the overall First Anglo-Afghan War was widely seen as a costly strategic failure.",
-      "key_figures": [
-        "Major General George Pollock (commander of relieving force)",
-        "Major General William Nott (commander from Kandahar)",
-        "Lord Ellenborough (Governor-General of India)",
-        "Dost Mohammad Khan (restored Emir of Afghanistan)"
-      ],
-      "sources": [
-        {
-          "name": "General Pollock's dispatches, 1842, published in London Gazette",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "William Dalrymple, Return of a King: The Battle for Afghanistan (2013)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Military dispatches, official correspondence, and multiple participant memoirs provide detailed documentation.",
-      "cross_references": [
-        "1842-001"
-      ]
-    },
-    {
-      "id": "1842-011",
-      "title": "French protectorate established over Tahiti",
-      "region": "Tahiti / French Polynesia",
-      "coordinates_approx": "-17.53, -149.57",
-      "category": "political",
-      "description": "In September 1842, French Admiral Abel Aubert Du Petit-Thouars pressured Queen Pomare IV of Tahiti into accepting a French protectorate, after a dispute over the expulsion of French Catholic missionaries. The queen signed under coercion while the British consul George Pritchard was absent. The incident sparked a diplomatic crisis between France and Britain (the 'Pritchard affair') that nearly led to war. The protectorate marked the beginning of formal French colonial control over the Society Islands and what would become French Polynesia.",
-      "key_figures": [
-        "Queen Pomare IV (ruler of Tahiti)",
-        "Admiral Abel Aubert Du Petit-Thouars (French naval commander)",
-        "George Pritchard (British consul)"
-      ],
-      "sources": [
-        {
-          "name": "Correspondence between Du Petit-Thouars and Queen Pomare IV, September 1842",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Colin Newbury, Tahiti Nui: Change and Survival in French Polynesia, 1767\u20131945 (1980)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "French and British diplomatic correspondence from 1842\u20131844 provides extensive documentation. The protectorate declaration survives.",
-      "cross_references": []
-    },
-    {
-      "id": "1842-012",
-      "title": "British annexation of Natal (Natalia Republic)",
-      "region": "Southern Africa (Natal)",
-      "coordinates_approx": "-29.85, 31.02",
-      "category": "political",
-      "description": "In May 1842, a British military force under Captain Thomas Charlton Smith occupied Port Natal (Durban) to assert sovereignty over the Boer Natalia Republic, established by Voortrekkers after their defeat of the Zulu kingdom at Blood River in 1838. A Boer siege of the British camp at Durban was broken after Dick King made a famous ten-day ride to Grahamstown for reinforcements. The Natalia Republic formally submitted to British authority in July 1842, and Natal was officially annexed as a British colony in 1843. Many Boers subsequently trekked further inland, contributing to the formation of the Orange Free State and the South African Republic (Transvaal).",
-      "key_figures": [
-        "Captain Thomas Charlton Smith (British commander)",
-        "Dick King (civilian who rode for reinforcements)",
-        "Andries Pretorius (Boer leader)"
-      ],
-      "sources": [
-        {
-          "name": "British Colonial Office correspondence, CO 179 series, 1842",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Timothy Keegan, Colonial South Africa and the Origins of the Racial Order (1996)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "British military and colonial records, Boer volksraad minutes, and contemporary correspondence are extant.",
-      "cross_references": [
-        "1838-003",
-        "1843-002"
-      ]
-    },
-    {
-      "id": "1842-013",
-      "title": "Gogol publishes Dead Souls",
-      "region": "Russian Empire",
-      "coordinates_approx": "55.75, 37.62",
-      "category": "cultural",
-      "description": "Nikolai Gogol published the first part of his novel Dead Souls (\u041c\u0451\u0440\u0442\u0432\u044b\u0435 \u0434\u0443\u0448\u0438) in May 1842, after years of work and extensive censorship negotiations. The novel follows the conman Chichikov as he travels through provincial Russia buying the 'dead souls' \u2014 serfs who have died since the last census but remain on tax rolls. Through biting satire, Gogol exposed the moral bankruptcy and absurdity of the Russian serf-owning gentry. The novel is widely regarded as one of the foundational works of Russian realist literature and profoundly influenced Dostoevsky, Turgenev, and the subsequent tradition of Russian social fiction.",
-      "key_figures": [
-        "Nikolai Gogol (author)"
-      ],
-      "sources": [
-        {
-          "name": "Nikolai Gogol, \u041c\u0451\u0440\u0442\u0432\u044b\u0435 \u0434\u0443\u0448\u0438 (Dead Souls), first edition, Moscow, 1842",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Donald Fanger, The Creation of Nikolai Gogol (1979)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "First edition copies survive. Publication date and censorship history are well documented in Gogol's correspondence.",
-      "cross_references": []
-    },
-    {
-      "id": "1842-014",
-      "title": "End of the Second Seminole War",
-      "region": "United States (Florida)",
-      "coordinates_approx": "27.5, -81.5",
-      "category": "military",
-      "description": "In August 1842, Colonel William J. Worth declared an end to hostilities in the Second Seminole War (1835\u20131842), the longest and most costly of the Indian Wars fought by the United States up to that point. The war had been fought to forcibly remove the Seminole people from Florida to Indian Territory (present-day Oklahoma) under the Indian Removal Act. Approximately 4,000 Seminoles were removed, but several hundred under leaders like Abiaki (Sam Jones) remained in the Everglades swamps, never surrendering. The war cost the United States an estimated $30\u201340 million and over 1,500 military deaths, mostly from disease.",
-      "key_figures": [
-        "Colonel William J. Worth (US commander)",
-        "Abiaki / Sam Jones (Seminole leader who refused removal)",
-        "Halleck Tustenuggee (Seminole war leader, captured October 1842)"
-      ],
-      "sources": [
-        {
-          "name": "US War Department records and Colonel Worth's dispatches, 1842",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "John K. Mahon, History of the Second Seminole War, 1835\u20131842 (revised edition, 1985)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Military records, congressional appropriations, and contemporary press provide abundant documentation. The war's 'end' was more a cessation of active operations than a formal treaty.",
-      "cross_references": [
-        "1835-001"
-      ]
-    },
-    {
-      "id": "1842-015",
-      "title": "Supplementary Treaty of the Bogue extends Nanking terms",
-      "region": "China / British Empire",
-      "coordinates_approx": "22.25, 113.75",
-      "category": "political",
-      "description": "Signed on 8 October 1842, the Supplementary Treaty of the Bogue (Humen) elaborated on the Treaty of Nanking's provisions. It established fixed tariff rates on trade goods (effectively removing Chinese tariff autonomy), granted most-favoured-nation status to Britain (meaning any concession China gave to another power would automatically extend to Britain), and included provisions for extraterritoriality (British subjects in China to be tried by British courts). These supplementary terms deepened the 'unequal' nature of the treaty system and set precedents that other Western powers would exploit in subsequent years.",
-      "key_figures": [
-        "Qiying (Qing negotiator)",
-        "Sir Henry Pottinger (British Plenipotentiary)"
-      ],
-      "sources": [
-        {
-          "name": "Text of the Supplementary Treaty of the Bogue, 8 October 1842",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Dong Wang, China's Unequal Treaties: Narrating National History (2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Treaty text survives in both languages. Well documented in British and Chinese diplomatic records.",
-      "cross_references": [
-        "1842-002",
-        "1844-001"
-      ]
-    },
-    {
-      "id": "1842-016",
-      "title": "Julius Robert von Mayer publishes the first statement of conservation of energy",
-      "region": "German states (Heilbronn / W\u00fcrttemberg)",
-      "coordinates_approx": "49.14, 9.22",
-      "category": "scientific",
-      "description": "In May 1842, German physician Julius Robert von Mayer published 'Bemerkungen \u00fcber die Kr\u00e4fte der unbelebten Natur' ('Remarks on the Forces of Inorganic Nature') in Annalen der Chemie und Pharmacie. The paper articulated, for the first time in print, the principle that energy is conserved \u2014 that heat and mechanical work are interconvertible and that the total amount of 'force' (energy) in an isolated system remains constant. Mayer's contribution was initially overlooked in favour of James Prescott Joule's later, more precisely quantified experimental work, leading to a bitter priority dispute. Modern history of science recognises Mayer as a co-discoverer of the first law of thermodynamics.",
-      "key_figures": [
-        "Julius Robert von Mayer (physician and physicist)"
-      ],
-      "sources": [
-        {
-          "name": "Julius Robert von Mayer, 'Bemerkungen \u00fcber die Kr\u00e4fte der unbelebten Natur,' Annalen der Chemie und Pharmacie, Vol. 42 (1842), pp. 233\u2013240",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Kenneth L. Caneva, Robert Mayer and the Conservation of Energy (1993)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The paper survives and its publication date is recorded in the journal's volume. The significance was only fully appreciated retrospectively.",
-      "cross_references": [
-        "1843-003",
-        "1847-002"
-      ]
-    },
-    {
-      "id": "1842-017",
-      "title": "Oregon Trail migration \u2014 first large wagon train to Oregon",
-      "region": "United States (Great Plains / Oregon Country)",
-      "coordinates_approx": "42.0, -107.0",
-      "category": "demographic",
-      "description": "In 1842, a party of approximately 100 settlers, guided in part by frontier guide Thomas Fitzpatrick and missionary Elijah White, made the overland journey from Independence, Missouri, to the Willamette Valley in Oregon Country. While smaller parties had preceded them, this was among the first sizeable organised emigrant trains and served as a precursor to the much larger 'Great Migration' of 1843. Lieutenant John C. Fr\u00e9mont also conducted his first government-sponsored exploring expedition along the Oregon Trail in 1842, mapping the route to South Pass, which helped publicise the trail and encourage further migration.",
-      "key_figures": [
-        "Elijah White (leader of the 1842 emigrant party)",
-        "Thomas Fitzpatrick (mountain man and guide)",
-        "John C. Fr\u00e9mont (US Army explorer)"
-      ],
-      "sources": [
-        {
-          "name": "John C. Fr\u00e9mont, Report of the Exploring Expedition to the Rocky Mountains in the Year 1842 (published 1845)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "John D. Unruh Jr., The Plains Across: The Overland Emigrants and the Trans-Mississippi West, 1840\u201360 (1979)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Contemporary diaries, Fr\u00e9mont's published report, and government records document the expedition. Exact emigrant numbers for the 1842 party vary between sources.",
-      "cross_references": [
-        "1843-004",
-        "1846-003"
-      ]
-    },
-    {
-      "id": "1842-018",
-      "title": "Income tax reintroduced in Britain under Robert Peel",
-      "region": "United Kingdom",
-      "coordinates_approx": "51.5, -0.12",
+      "title": "Tariff of 1842 passed in United States",
+      "region": "United States",
+      "coordinates_approx": "38.8951, -77.0369",
       "category": "economic",
-      "description": "In his budget of March 1842, Prime Minister Robert Peel reintroduced the income tax at 7 pence in the pound (about 3%) on annual incomes over \u00a3150, a measure originally imposed during the Napoleonic Wars but abolished in 1816. The tax was presented as temporary, intended to cover a budget deficit and fund the reduction of customs duties as part of Peel's broader free-trade agenda. It proved enormously effective as a revenue instrument and, despite perpetual promises of its temporary nature, has remained a permanent feature of British taxation ever since. The 1842 budget marked a decisive shift in British fiscal policy toward direct taxation and trade liberalisation.",
+      "description": "The U.S. Congress passes the Tariff of 1842, raising tariff rates on imported goods to protect American manufacturers. The tariff, supported by protectionist interests and the Whig Party, reverses the lower tariff rates of the Tariff of 1833. The tariff reflects ongoing debates about free trade versus protectionism in American politics and contributes to sectional tensions between the industrial North and the agricultural South.",
       "key_figures": [
-        "Sir Robert Peel (Prime Minister)",
-        "Henry Goulburn (Chancellor of the Exchequer)"
+        "President John Tyler (U.S.)",
+        "Congress"
       ],
       "sources": [
         {
-          "name": "Hansard, Parliamentary Debates, Budget Speech, 11 March 1842",
+          "name": "U.S. Congressional records and tariff legislation",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Martin Daunton, Trusting Leviathan: The Politics of Taxation in Britain, 1799\u20131914 (2001)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Parliamentary records, the Finance Act text, and contemporary press provide full documentation.",
-      "cross_references": [
-        "1846-004"
-      ]
-    },
-    {
-      "id": "1842-019",
-      "title": "Illustrated London News begins publication",
-      "region": "United Kingdom",
-      "coordinates_approx": "51.5, -0.12",
-      "category": "cultural",
-      "description": "On 14 May 1842, Herbert Ingram launched the Illustrated London News, the world's first weekly illustrated newspaper. Using wood engravings to accompany news reports, it sold 26,000 copies of its first issue and rapidly reached circulation figures of over 60,000. The publication pioneered illustrated journalism, transforming how the public consumed news by making distant events visually accessible. It set the template for illustrated periodicals worldwide and prefigured the later revolution of photojournalism.",
-      "key_figures": [
-        "Herbert Ingram (founder and publisher)"
-      ],
-      "sources": [
-        {
-          "name": "Illustrated London News, first issue, 14 May 1842",
+          "name": "Contemporary newspapers and political documents",
           "type": "primary_text",
           "contemporary": true
-        },
-        {
-          "name": "Peter W. Sinnema, Dynamics of the Pictured Page: Representing the Nation in the Illustrated London News (1998)",
-          "type": "historiographic_consensus",
-          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "First issue copies survive in multiple archives. Launch date and circulation figures documented in contemporary publishing records.",
+      "certainty_note": "The Tariff of 1842 was passed in August 1842; the date is precisely documented.",
       "cross_references": []
-    },
-    {
-      "id": "1842-020",
-      "title": "Sino-Sikh War and Dogra conquest of western Tibet",
-      "region": "Tibet / Ladakh / Sikh Empire",
-      "coordinates_approx": "33.5, 79.0",
-      "category": "military",
-      "description": "In 1841\u20131842, the forces of the Sikh Empire under Dogra general Zorawar Singh invaded western Tibet, reaching as far as Taklakot. Zorawar Singh was killed in battle in December 1841, and a Qing-Tibetan counterattack drove the Dogra forces back into Ladakh in early 1842. The conflict ended with the Treaty of Chushul (September 1842), which restored the pre-war boundary between Ladakh and Tibet and established mutual trade provisions. The treaty confirmed Dogra (and thus Sikh) control over Ladakh while preserving Qing suzerainty over Tibet. This little-known conflict is one of the few direct military confrontations between the Sikh Empire and the Qing dynasty.",
-      "key_figures": [
-        "Zorawar Singh (Dogra general, killed 1841)",
-        "Gulab Singh (Dogra ruler of Jammu)",
-        "Qing Amban at Lhasa"
-      ],
-      "sources": [
-        {
-          "name": "Treaty of Chushul, September 1842 (text survives in Tibetan and Persian)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Amar Kaur Jasbir Singh, Rebirth of the Zorawar Singh Legend: The Dogra-Tibetan War (1842) Revisited (1991)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The treaty text survives. British, Sikh, and Tibetan sources all attest to the conflict, though details of individual engagements are less well documented.",
-      "cross_references": [
-        "1846-005"
-      ]
     }
   ],
-  "disconfirming_evidence": "Several events listed merit qualification: (1) Crawford Long's 1842 ether anaesthesia (1842-004) \u2014 the priority claim rests entirely on retrospective evidence published seven years later; some historians argue the case for Long is significantly weaker than supporters claim and that his evidence does not meet the evidentiary standard of a contemporary demonstration. The ether priority dispute remains genuinely unresolved in history of medicine. (2) The Treaty of Nanking (1842-002) \u2014 the 'century of humiliation' framing dominant in Chinese nationalist historiography has been critiqued by some scholars (e.g., Paul Cohen, William Rowe) as retrospective narrative construction that overstates the immediate impact of 1842; at the time, the treaty was seen by some Qing officials as a manageable diplomatic adjustment rather than a catastrophic rupture. The treaty's world-historical significance was constructed partly in hindsight. (3) The Plug Plot strikes following the Chartist petition rejection (1842-009) \u2014 the extent to which these were politically motivated 'Chartist' actions versus purely economic responses to wage cuts in the cotton industry remains debated; some historians (e.g., Mick Jenkins) argue the strikes were primarily industrial rather than political. (4) Mayer's 1842 paper on energy conservation (1842-016) \u2014 some historians of physics argue Mayer's paper was too vague and philosophically muddled to constitute a genuine statement of the first law of thermodynamics, and that the retroactive elevation of Mayer to co-discoverer status is partly a product of German nationalist science history.",
-  "historiographic_note": "1842 is richly documented from British, American, and European perspectives, as it falls in the era of mass print journalism, parliamentary record-keeping, and systematic government documentation. The British Empire's simultaneous involvement in Afghanistan, China, southern Africa, and the Pacific means that imperial archives provide detailed (if heavily biased) records of events across much of the globe. Chinese sources for the Opium War period are substantial but were less accessible to Western scholarship until the late twentieth century; Qing palace memorials and local gazetteers provide an alternative perspective to British accounts. Coverage is weakest for regions outside European or Chinese imperial interest: interior sub-Saharan Africa, Southeast Asian mainland kingdoms, Central Asia, and indigenous peoples of Australia and the Pacific are documented almost exclusively through the lens of European observers when documented at all.",
+  "disconfirming_evidence": "The Treaty of Nanking is sometimes portrayed as a straightforward British victory, but modern scholarship emphasizes that the treaty was the result of complex negotiations and that Chinese officials attempted to minimize concessions. The First Anglo-Afghan War is sometimes presented as a straightforward British military failure, but historians debate the causes of the disaster and the extent to which it was inevitable. The Chartist movement is sometimes portrayed as a unified working-class movement, but scholars emphasize the significant divisions within the movement over tactics and goals.",
+  "historiographic_note": "1842 is exceptionally well-documented in Western sources, particularly regarding British, American, and European events. The documentation is rich for political, military, legal, and cultural events in Europe and North America. Asian and African events are documented primarily through colonial records (British East India Company, British military records), which carry inherent biases toward European perspectives and interests. The First Opium War and the Treaty of Nanking are extensively documented in British diplomatic and military records; Chinese perspectives are preserved in government records and later compilations. The First Anglo-Afghan War is documented in British military records; Afghan perspectives are underrepresented. Overall, 1842 benefits from extensive contemporary documentation in Western sources, but non-Western perspectives are underrepresented.",
   "graph_edges": [
     {
       "from": "1842-001",
-      "to": "1842-010",
+      "to": "1843-009",
       "relation": "led_to",
-      "note": "The Kabul disaster necessitated the Army of Retribution to recover prestige"
+      "note": "The Treaty of Nanking led to the establishment of Hong Kong as a British colony"
     },
     {
-      "from": "1842-002",
-      "to": "1842-015",
+      "from": "1842-007",
+      "to": "1842-008",
       "relation": "led_to",
-      "note": "The Treaty of Nanking was supplemented by the Treaty of the Bogue months later"
-    },
-    {
-      "from": "1842-002",
-      "to": "1856-001",
-      "relation": "led_to",
-      "note": "Unresolved tensions from the Nanking settlement contributed to the Second Opium War"
-    },
-    {
-      "from": "1842-009",
-      "to": "1848-003",
-      "relation": "part_of",
-      "note": "The second Chartist petition was part of the broader Chartist movement that culminated in the 1848 petition"
+      "note": "The British occupation of Kabul led to the disastrous retreat in January 1842"
     },
     {
       "from": "1842-008",
-      "to": "1848-002",
+      "to": "1900-001",
       "relation": "led_to",
-      "note": "Chadwick's 1842 report directly informed the Public Health Act of 1848"
+      "note": "The British retreat from Afghanistan demonstrated the limits of British imperial expansion in Central Asia"
     },
     {
-      "from": "1842-005",
-      "to": "1833-001",
-      "relation": "caused_by",
-      "note": "The Mines Act followed the precedent of the 1833 Factory Act in regulating industrial labour"
-    },
-    {
-      "from": "1842-018",
-      "to": "1846-004",
+      "from": "1842-009",
+      "to": "1846-005",
       "relation": "led_to",
-      "note": "Peel's income tax revenue enabled the tariff reductions that culminated in the Corn Law repeal of 1846"
-    },
-    {
-      "from": "1842-004",
-      "to": "1846-002",
-      "relation": "contemporary_with",
-      "note": "Long's 1842 ether use preceded Morton's famous 1846 public demonstration, triggering a priority dispute"
-    },
-    {
-      "from": "1842-012",
-      "to": "1838-003",
-      "relation": "caused_by",
-      "note": "British annexation of Natal followed from Boer-Zulu conflict and Voortrekker settlement after the Great Trek"
-    },
-    {
-      "from": "1842-017",
-      "to": "1843-004",
-      "relation": "led_to",
-      "note": "The 1842 emigrant party and Fr\u00e9mont expedition paved the way for the Great Migration of 1843"
-    },
-    {
-      "from": "1842-016",
-      "to": "1847-002",
-      "relation": "contemporary_with",
-      "note": "Mayer's 1842 theoretical statement and Joule's experimental work converged on the first law of thermodynamics"
+      "note": "The Sikh succession crisis and internal instability led to the First Anglo-Sikh War in 1846"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T03:43:52.231180",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

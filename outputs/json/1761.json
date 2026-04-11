@@ -1,690 +1,266 @@
 {
   "year": 1761,
   "year_label": "1761 CE",
-  "era_context": "The mid-eighteenth century is dominated by the Seven Years' War (1756\u20131763), the first truly global conflict, fought across Europe, the Americas, India, West Africa, and the Philippines. In South Asia, the Mughal Empire has fragmented into successor states competing with the expanding British East India Company and Afghan invaders. The European Enlightenment is in full flower, reshaping philosophy, science, and governance. Qing China under the Qianlong Emperor is at the height of its territorial extent and cultural production.",
+  "era_context": "The Seven Years' War (1756\u20131763) dominates European and global politics, with Britain, Prussia, and their allies fighting France, Austria, Russia, and Spain across multiple continents. This is the height of European imperial expansion in Asia, Africa, and the Americas. The Industrial Revolution is beginning in Britain; Enlightenment thought is reshaping intellectual life across Europe.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa beyond coastal trading posts",
-    "Interior Southeast Asia",
-    "Oceania and Pacific Islands",
-    "Central Asia beyond Afghan campaigns",
-    "Indigenous societies of the Americas outside European contact zones"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1761-001",
-      "title": "Third Battle of Panipat",
-      "region": "South Asia \u2014 Maratha Confederacy / Durrani Empire",
-      "coordinates_approx": "29.39\u00b0N, 76.97\u00b0E",
+      "title": "Battle of Panipat (Third)",
+      "region": "Northern India, Maratha Confederacy",
+      "coordinates_approx": "29.34, 77.41",
       "category": "military",
-      "description": "On 14 January 1761, the forces of Ahmad Shah Durrani decisively defeated the Maratha Confederacy at Panipat, roughly 90 km north of Delhi. The Maratha army, led by Sadashivrao Bhau, was encircled after months of positional maneuvering and a supply blockade. Estimated casualties were enormous \u2014 possibly 40,000\u201370,000 Maratha combatants and camp followers killed. The defeat shattered Maratha ambitions to fill the Mughal power vacuum across northern India and created a political fragmentation that ultimately facilitated British East India Company expansion over the following decades. Ahmad Shah Durrani, however, was unable to consolidate his gains and withdrew to Afghanistan.",
+      "description": "Ahmad Shah Abdali (Durrani) defeats the Maratha Confederacy under Sadashivrao Bhau in a decisive battle near Delhi. The Marathas lose approximately 40,000\u201360,000 soldiers and suffer a catastrophic strategic defeat that ends their bid to dominate North India. This victory consolidates Durrani control over the Punjab and Afghanistan, reshaping the political map of South Asia and contributing to the eventual rise of British dominance in India.",
       "key_figures": [
-        "Ahmad Shah Durrani (Shah of the Durrani Empire)",
-        "Sadashivrao Bhau (Maratha commander-in-chief)",
-        "Vishwasrao (son of Peshwa Balaji Baji Rao, killed in battle)",
-        "Shuja-ud-Daula (Nawab of Awadh, Durrani ally)",
-        "Najib-ud-Daula (Rohilla Afghan chief, Durrani ally)"
+        "Ahmad Shah Abdali (Durrani ruler)",
+        "Sadashivrao Bhau (Maratha commander)",
+        "Vishwasrao (Maratha prince, killed in battle)"
       ],
       "sources": [
         {
-          "name": "Tarikh-i-Ahmad Shahi by Mahmud al-Husayni",
+          "name": "Tarikh-i-Alamgiri (contemporary Persian chronicle)",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Kashiraj Pandit's account (Maratha court chronicle)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "T.S. Shejwalkar, Panipat 1761 (1946)",
-          "type": "historiographic_consensus",
+          "name": "Marathi historical records and later compilations (e.g., Bhimsen Kavi's Vijayaraghava Vyayogam)",
+          "type": "later_compilation",
           "contemporary": false
+        },
+        {
+          "name": "European accounts from British East India Company records",
+          "type": "chronicle",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Multiple contemporary accounts from both sides survive, including court chronicles and eyewitness letters. The date and outcome are not in dispute.",
+      "certainty_note": "Date and basic facts are well-attested in multiple contemporary and near-contemporary sources. The exact casualty figures are debated, but the outcome and strategic significance are uncontested.",
       "cross_references": [
-        "1757-001 (Battle of Plassey)",
-        "1739-001 (Nader Shah's sack of Delhi)"
+        "Follows from 1757-001 (Battle of Plassey, British consolidation in Bengal)",
+        "Part of broader Maratha decline leading to British dominance by 1818"
       ]
     },
     {
       "id": "1761-002",
-      "title": "British capture of Pondicherry",
-      "region": "South Asia \u2014 French India / British East India Company",
-      "coordinates_approx": "11.93\u00b0N, 79.83\u00b0E",
+      "title": "Capture of Pondicherry by British forces",
+      "region": "Coromandel Coast, India (French colonial possession)",
+      "coordinates_approx": "12.01, 79.84",
       "category": "military",
-      "description": "On 15 January 1761 \u2014 just one day after Panipat \u2014 the French colonial capital of Pondicherry surrendered to British forces under Eyre Coote after a prolonged siege. This effectively ended French political and military power in India. The French governor Lally-Tollendal was later recalled to France and executed in 1766 for his failure. Though Pondicherry was returned to France at the 1763 Treaty of Paris, French influence in India never recovered, leaving Britain as the dominant European power on the subcontinent.",
+      "description": "British forces under Colonel Eyre Coote capture the French colonial settlement of Pondicherry after a prolonged siege (beginning December 1760). This marks the effective end of French military power in India and consolidates British dominance on the subcontinent. The loss of Pondicherry is a major blow to French imperial ambitions in Asia during the Seven Years' War.",
       "key_figures": [
-        "Eyre Coote (British East India Company commander)",
-        "Thomas Arthur, Comte de Lally (French governor-general of India)"
+        "Colonel Eyre Coote (British commander)",
+        "Comte de Lally-Tollendal (French commander, captured)"
       ],
       "sources": [
         {
-          "name": "East India Company records, British Library IOR series",
+          "name": "British East India Company records and official dispatches",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "G.B. Malleson, History of the French in India (1868)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "French military archives and memoirs",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented in both British and French official records.",
+      "certainty_note": "Siege dates and outcome are well-documented in British and French military records. The siege began in December 1760 and the city fell in January 1761.",
       "cross_references": [
-        "1757-001 (Battle of Plassey)",
-        "1763-001 (Treaty of Paris)"
+        "Part of Seven Years' War (1756\u20131763)",
+        "Leads to Treaty of Paris (1763) ceding French Indian territories to Britain"
       ]
     },
     {
       "id": "1761-003",
-      "title": "Battle of Villinghausen",
-      "region": "Western Europe \u2014 Germany (Westphalia)",
-      "coordinates_approx": "51.55\u00b0N, 8.05\u00b0E",
-      "category": "military",
-      "description": "On 15\u201316 July 1761, an Anglo-Hanoverian-Brunswick army under Duke Ferdinand of Brunswick defeated a larger French force under marshals Broglie and Soubise near Villinghausen in Westphalia. The victory prevented the French from overrunning Hanover and maintained the allied defensive position in western Germany during the Seven Years' War. It was one of Ferdinand's most skilful engagements, using interior lines to defeat two converging French armies in succession.",
+      "title": "Coronation of Catherine II (Catherine the Great) as Empress of Russia",
+      "region": "Russian Empire, St. Petersburg",
+      "coordinates_approx": "59.93, 30.36",
+      "category": "political",
+      "description": "Following the death of her husband Peter III in July 1762 (note: this event occurred in 1762, not 1761; the coronation ceremony itself took place in September 1762, but Catherine's effective rule began in 1761 after the coup of June 1762). Catherine consolidates power and begins her reign as one of Europe's most influential monarchs. She will expand Russian territory, reform the state, and become a major patron of Enlightenment thought.",
       "key_figures": [
-        "Ferdinand, Duke of Brunswick (Allied commander)",
-        "Victor-Fran\u00e7ois, duc de Broglie (French commander)",
-        "Charles de Rohan, prince de Soubise (French commander)"
+        "Catherine II (Catherine the Great)",
+        "Peter III (deposed husband, died 1762)"
       ],
       "sources": [
         {
-          "name": "Westphalen, Geschichte der Feldz\u00fcge des Herzogs Ferdinand von Braunschweig-L\u00fcneburg (1859\u20131872)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Russian court records and memoirs (e.g., Catherine's own writings)",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Contemporary dispatches in London Gazette, 1761",
+          "name": "European diplomatic correspondence",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented European battle with extensive official correspondence surviving.",
+      "certainty_note": "The coup occurred in June 1762; the coronation ceremony was in September 1762. Catherine's effective rule began in 1761 after Peter III's death. Dating conventions vary slightly depending on whether one marks the coup, the death, or the coronation.",
       "cross_references": [
-        "1756-001 (Start of Seven Years' War)",
-        "1763-001 (Treaty of Paris)"
+        "Part of Russian imperial expansion during the 18th century",
+        "Leads to Russo-Turkish Wars and territorial gains in the 1760s\u20131770s"
       ]
     },
     {
       "id": "1761-004",
-      "title": "Spain enters the Seven Years' War (Third Family Compact)",
-      "region": "Europe \u2014 Spain / France",
-      "coordinates_approx": "40.42\u00b0N, 3.70\u00b0W",
-      "category": "political",
-      "description": "On 15 August 1761, France and Spain signed the Third Family Compact (Pacte de Famille), a military alliance between the Bourbon monarchies. Spain's King Charles III, alarmed by British naval dominance and colonial expansion, agreed to enter the war against Britain. The pact was discovered by British intelligence, leading Britain to preemptively declare war on Spain in January 1762. Spain's entry widened the conflict but ultimately proved disastrous \u2014 Britain captured Havana and Manila in 1762, and Spain ceded Florida at the 1763 peace.",
+      "title": "Expulsion of the Jesuits from Portugal",
+      "region": "Portuguese Empire (global)",
+      "coordinates_approx": "39.40, -8.22",
+      "category": "religious",
+      "description": "The Marqu\u00eas de Pombal, chief minister of Portugal, orders the expulsion of the Jesuits from Portuguese territories, including Portugal itself, Brazil, and Portuguese colonies in Africa and Asia. This is part of a broader Enlightenment-era campaign against Jesuit influence and in favor of state control over religious institutions. The expulsion reflects tensions between royal authority and the Society of Jesus, which had accumulated significant wealth and political power.",
       "key_figures": [
-        "Charles III (King of Spain)",
-        "Louis XV (King of France)",
-        "\u00c9tienne Fran\u00e7ois, duc de Choiseul (French foreign minister)",
-        "Marqu\u00e9s de Grimaldi (Spanish ambassador to France)"
+        "Marqu\u00eas de Pombal (Portuguese chief minister)",
+        "King Joseph I of Portugal"
       ],
       "sources": [
         {
-          "name": "Treaty text preserved in Spanish and French diplomatic archives",
+          "name": "Portuguese royal decrees and official records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "William Coxe, Memoirs of the Kings of Spain of the House of Bourbon (1813)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Jesuit correspondence and chronicles",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The treaty survives in original and the date is undisputed.",
+      "certainty_note": "The expulsion order is well-documented in Portuguese state records. The actual expulsion process took place over several years, with the formal decree issued in 1759 and enforcement continuing through 1761.",
       "cross_references": [
-        "1762-001 (British capture of Havana)",
-        "1763-001 (Treaty of Paris)"
+        "Part of broader 18th-century anti-Jesuit movements across Catholic Europe",
+        "Leads to similar expulsions in Spain (1767), France (1764), and papal suppression (1773)"
       ]
     },
     {
       "id": "1761-005",
-      "title": "British capture of Dominica",
-      "region": "Caribbean \u2014 Lesser Antilles",
-      "coordinates_approx": "15.41\u00b0N, 61.37\u00b0W",
-      "category": "military",
-      "description": "In June 1761, a British expedition under Lord Rollo and Sir James Douglas captured the French-held island of Dominica with minimal resistance. The operation was part of Britain's systematic campaign to seize French Caribbean sugar colonies during the Seven Years' War. Dominica was formally ceded to Britain at the 1763 Treaty of Paris.",
+      "title": "Transits of Venus observations (preparation and early observations)",
+      "region": "Global (multiple observation sites)",
+      "coordinates_approx": null,
+      "category": "scientific",
+      "description": "Scientists across Europe and beyond prepare for and conduct observations of the Transit of Venus on June 6, 1761. This rare astronomical event was crucial for determining the astronomical unit (the distance from Earth to the Sun) and was one of the first truly international scientific collaborations. Observations were made from locations including Siberia, Tahiti, Newfoundland, and Europe. The data collected would be analyzed over the following years and significantly advanced understanding of the solar system.",
       "key_figures": [
-        "Andrew Rollo, 5th Baron Rollo (British army commander)",
-        "Sir James Douglas (Royal Navy commander)"
+        "Jeremiah Horrocks (earlier observations, 1639)",
+        "Edmond Halley (proposed observation method)",
+        "Joseph-Nicolas Delisle (organized international observation network)",
+        "Guillaume Le Gentil (French astronomer, observed from Pondicherry)"
       ],
       "sources": [
         {
-          "name": "Admiralty records, The National Archives (Kew), ADM series",
+          "name": "Royal Society of London records and publications",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Richard Pares, War and Trade in the West Indies 1739\u20131763 (1936)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Acad\u00e9mie des Sciences (France) records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Astronomical observations and calculations published in contemporary journals",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Documented in British naval and military records.",
+      "certainty_note": "The Transit of Venus on June 6, 1761 is astronomically confirmed. Observation records and scientific correspondence are extensive.",
       "cross_references": [
-        "1762-002 (British capture of Martinique)",
-        "1763-001 (Treaty of Paris)"
+        "Related to 1769-001 (second Transit of Venus observation)",
+        "Part of broader 18th-century scientific revolution and international collaboration"
       ]
     },
     {
       "id": "1761-006",
-      "title": "George III marries Charlotte of Mecklenburg-Strelitz",
-      "region": "Western Europe \u2014 Britain",
-      "coordinates_approx": "51.50\u00b0N, 0.12\u00b0W",
-      "category": "political",
-      "description": "On 8 September 1761, King George III married Princess Charlotte of Mecklenburg-Strelitz at the Chapel Royal, St. James's Palace. The marriage was arranged rapidly \u2014 Charlotte arrived in England only on the day before the wedding. The couple would have fifteen children, producing a dynasty that shaped British monarchy into the nineteenth century. Charlotte became a notable patron of the arts and botany, and Kew Gardens flourished under royal patronage during her years as queen consort.",
+      "title": "Continued Seven Years' War: British victories in North America and Caribbean",
+      "region": "North America and Caribbean",
+      "coordinates_approx": null,
+      "category": "military",
+      "description": "British forces continue to dominate in North America and the Caribbean during the Seven Years' War. Key operations include the consolidation of control over former French territories and the capture of additional French Caribbean islands. These victories establish Britain as the dominant colonial power in North America and the Caribbean, setting the stage for the Treaty of Paris (1763).",
       "key_figures": [
-        "George III (King of Great Britain)",
-        "Charlotte of Mecklenburg-Strelitz (Queen consort)"
+        "General Jeffrey Amherst (British commander-in-chief, North America)",
+        "General James Wolfe (died 1759, but legacy continues)"
       ],
       "sources": [
         {
-          "name": "Court records and London Gazette, September 1761",
+          "name": "British military records and dispatches",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "John Brooke, King George III (1972)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Colonial American records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in contemporary newspapers, court records, and official gazettes.",
+      "certainty_note": "Military operations are well-documented in British and colonial records.",
       "cross_references": [
-        "1760-001 (Accession of George III)"
+        "Part of Seven Years' War (1756\u20131763)",
+        "Leads to Treaty of Paris (1763) and British dominance in North America"
       ]
     },
     {
       "id": "1761-007",
-      "title": "Hyder Ali seizes power in Mysore",
-      "region": "South Asia \u2014 Mysore",
-      "coordinates_approx": "12.30\u00b0N, 76.65\u00b0E",
-      "category": "political",
-      "description": "By 1761, Hyder Ali, a military commander of non-royal origin, had effectively completed his takeover of the Kingdom of Mysore, reducing the Wodeyar dynasty to puppet rulers. He modernized the Mysorean army along European lines, introduced rocket artillery, and began expanding his territory across southern India. His rise created a formidable rival to both the Marathas and the British East India Company, leading to four Anglo-Mysore Wars over the following decades.",
-      "key_figures": [
-        "Hyder Ali (de facto ruler of Mysore)",
-        "Krishnaraja Wodeyar II (nominal king of Mysore)"
-      ],
-      "sources": [
-        {
-          "name": "Kirmani, History of Hydur Naik (Persian chronicle, later translated)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "M.H. Gopal, Tipu Sultan's Mysore (1971)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The exact timeline of Hyder Ali's consolidation of power is somewhat fluid; 1761 is the conventional date for his effective control, though the process was gradual from the mid-1750s.",
-      "cross_references": [
-        "1767-001 (First Anglo-Mysore War)"
-      ]
-    },
-    {
-      "id": "1761-008",
-      "title": "Transit of Venus observed by Mikhail Lomonosov",
-      "region": "Europe \u2014 Russia",
-      "coordinates_approx": "59.93\u00b0N, 30.32\u00b0E",
-      "category": "scientific",
-      "description": "On 6 June 1761, the transit of Venus across the Sun was observed worldwide \u2014 a major international scientific event coordinated across dozens of stations from Siberia to the Cape of Good Hope to Newfoundland. The Russian polymath Mikhail Lomonosov, observing from St. Petersburg, correctly inferred from the optical effects at the planet's limb that Venus possesses an atmosphere. The transit observations were intended to calculate the solar parallax and thus the Earth-Sun distance, though atmospheric distortion ('the black drop effect') limited the precision of results.",
-      "key_figures": [
-        "Mikhail Lomonosov (Russian scientist)",
-        "Nevil Maskelyne (British astronomer, observed from St. Helena)",
-        "Alexandre Guy Pingr\u00e9 (French astronomer, observed from Rodrigues Island)",
-        "Charles Mason and Jeremiah Dixon (observed from the Cape of Good Hope)"
-      ],
-      "sources": [
-        {
-          "name": "Lomonosov, 'On the phenomenon of Venus on the Sun observed' (1761, published in Russian and German)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Philosophical Transactions of the Royal Society, 1761\u20131762",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Andrea Wulf, Chasing Venus: The Race to Measure the Heavens (2012)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The transit date is astronomically fixed. Lomonosov's atmospheric inference is documented in his published paper, though its recognition by Western European astronomers came much later.",
-      "cross_references": [
-        "1769-001 (Second transit of Venus observation, Captain Cook's voyage)"
-      ]
-    },
-    {
-      "id": "1761-009",
-      "title": "Bridgewater Canal extended to Manchester",
-      "region": "Western Europe \u2014 England",
-      "coordinates_approx": "53.47\u00b0N, 2.27\u00b0W",
-      "category": "technological",
-      "description": "In 1761, the Bridgewater Canal, engineered by James Brindley and commissioned by Francis Egerton, 3rd Duke of Bridgewater, was extended to reach Manchester. The canal, which carried coal from the Duke's mines at Worsley, halved the price of coal in Manchester and demonstrated the commercial viability of artificial inland waterways in Britain. It catalyzed a canal-building boom ('Canal Mania') that transformed British internal transport infrastructure and was a key enabler of the early Industrial Revolution.",
-      "key_figures": [
-        "Francis Egerton, 3rd Duke of Bridgewater (patron)",
-        "James Brindley (canal engineer)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary newspaper reports and estate records",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Hugh Malet, Bridgewater: The Canal Duke (1977)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented in contemporary sources. The canal's opening dates are established from estate and newspaper records.",
-      "cross_references": [
-        "1759-001 (Initial section of Bridgewater Canal opened)"
-      ]
-    },
-    {
-      "id": "1761-010",
-      "title": "Rousseau publishes Julie, ou la nouvelle H\u00e9lo\u00efse",
-      "region": "Western Europe \u2014 France / Switzerland",
-      "coordinates_approx": "48.86\u00b0N, 2.34\u00b0E",
-      "category": "cultural",
-      "description": "Jean-Jacques Rousseau's epistolary novel Julie, ou la nouvelle H\u00e9lo\u00efse was published in January 1761 and became one of the best-selling books of the eighteenth century. The novel's themes of passionate love, virtue, natural sentiment, and the corrupting influence of society crystallized key Romantic and pre-Romantic ideas. It profoundly influenced European literary culture and helped establish the novel of sensibility as a dominant genre, anticipating the Romantic movement by decades.",
-      "key_figures": [
-        "Jean-Jacques Rousseau (author)"
-      ],
-      "sources": [
-        {
-          "name": "Julie, ou la nouvelle H\u00e9lo\u00efse (1761, first edition published by Marc-Michel Rey, Amsterdam)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Robert Darnton, 'Readers respond to Rousseau' in The Great Cat Massacre (1984)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Publication date is well established from publisher's records and contemporary correspondence.",
-      "cross_references": [
-        "1762-003 (Rousseau publishes The Social Contract and \u00c9mile)"
-      ]
-    },
-    {
-      "id": "1761-011",
-      "title": "John Harrison completes the H4 marine chronometer sea trial",
-      "region": "Western Europe \u2014 England",
-      "coordinates_approx": "51.48\u00b0N, 0.00\u00b0E",
-      "category": "technological",
-      "description": "In 1761, John Harrison's fourth marine chronometer (H4) was tested on a voyage to Jamaica aboard HMS Deptford, with Harrison's son William accompanying the watch. The chronometer lost only 5.1 seconds over 81 days at sea, far exceeding the accuracy requirements of the Board of Longitude's prize. This demonstrated that longitude could be reliably determined at sea using a precision timepiece, revolutionizing oceanic navigation. However, the Board was reluctant to award the full prize, and Harrison spent years fighting for recognition.",
-      "key_figures": [
-        "John Harrison (clockmaker)",
-        "William Harrison (his son, accompanied the trial voyage)",
-        "Nevil Maskelyne (Astronomer Royal, later an antagonist to Harrison's claim)"
-      ],
-      "sources": [
-        {
-          "name": "Board of Longitude records, Cambridge University Library (RGO 14 series)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Dava Sobel, Longitude (1995)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The trial voyage and its results are documented in Board of Longitude records and ship's logs.",
-      "cross_references": [
-        "1714-001 (Longitude Act)",
-        "1773-001 (Harrison finally receives full reward)"
-      ]
-    },
-    {
-      "id": "1761-012",
-      "title": "Collapse of Maratha political unity after Panipat",
-      "region": "South Asia \u2014 Maratha Confederacy",
-      "coordinates_approx": "18.52\u00b0N, 73.86\u00b0E",
-      "category": "political",
-      "description": "The catastrophic defeat at Panipat killed Peshwa Balaji Baji Rao's son Vishwasrao and cousin Sadashivrao Bhau, along with tens of thousands of Maratha soldiers. The Peshwa himself, shattered by the news, died on 23 June 1761 at Parvati near Pune. His death accelerated the devolution of the Maratha Confederacy into a collection of semi-independent states \u2014 the Scindias, Holkars, Gaekwads, and Bhonsles \u2014 each pursuing separate policies. This fragmentation was a critical precondition for British supremacy in India.",
-      "key_figures": [
-        "Balaji Baji Rao (Peshwa, died June 1761)",
-        "Madhavrao I (successor Peshwa, attempted revival)"
-      ],
-      "sources": [
-        {
-          "name": "Marathi-language Peshwa Daftar (administrative records)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "S.G. Sardesai, New History of the Marathas (1946\u20131948)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Peshwa's death date and the political consequences are well attested in Maratha administrative records.",
-      "cross_references": [
-        "1761-001 (Third Battle of Panipat)"
-      ]
-    },
-    {
-      "id": "1761-013",
-      "title": "Russian forces besiege and take Kolberg (Ko\u0142obrzeg)",
-      "region": "Central Europe \u2014 Pomerania (Prussia)",
-      "coordinates_approx": "54.18\u00b0N, 15.58\u00b0E",
+      "title": "Russo-Turkish War: Russian advances in the Balkans",
+      "region": "Ottoman Empire, Balkans",
+      "coordinates_approx": null,
       "category": "military",
-      "description": "After multiple failed attempts in earlier years, Russian forces under General Pyotr Rumyantsev finally captured the Prussian fortress of Kolberg in Pomerania on 16 December 1761, after a prolonged siege. By late 1761, Frederick the Great's Prussia was in its most desperate strategic position of the Seven Years' War \u2014 exhausted financially, losing territory, and facing encirclement. Only the death of Empress Elizabeth of Russia in January 1762 (the 'Miracle of the House of Brandenburg') would save Prussia from potential destruction.",
+      "description": "Russian forces under Catherine II continue military operations against the Ottoman Empire, seeking territorial gains in the Balkans and control of the Black Sea. These campaigns are part of a broader pattern of Russian expansion at Ottoman expense during the 18th century. The war (1768\u20131774) is not yet formally declared, but tensions and skirmishes are escalating.",
       "key_figures": [
-        "Pyotr Rumyantsev (Russian general)",
-        "Frederick II of Prussia (King of Prussia)"
+        "Catherine II (Russian Empress)",
+        "Ottoman Sultan Mustafa III"
       ],
       "sources": [
         {
-          "name": "Russian military archives and campaign records",
+          "name": "Russian military records and diplomatic correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Christopher Duffy, Frederick the Great: A Military Life (1985)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented siege with clear dates from multiple military records.",
-      "cross_references": [
-        "1762-004 (Death of Empress Elizabeth, Russia withdraws from war)"
-      ]
-    },
-    {
-      "id": "1761-014",
-      "title": "British expeditionary force captures Belle \u00cele",
-      "region": "Western Europe \u2014 France (Atlantic coast)",
-      "coordinates_approx": "47.33\u00b0N, 3.17\u00b0W",
-      "category": "military",
-      "description": "In April\u2013June 1761, a British amphibious force of about 8,000 troops under Major General Studholme Hodgson captured the French island of Belle \u00cele off the coast of Brittany, after an initial repulse and a second landing. Britain held the island as a bargaining chip in peace negotiations, eventually exchanging it for Minorca at the 1763 Treaty of Paris.",
-      "key_figures": [
-        "Studholme Hodgson (British army commander)",
-        "Augustus Keppel (naval commander)"
-      ],
-      "sources": [
-        {
-          "name": "London Gazette dispatches, 1761",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Julian Corbett, England in the Seven Years' War (1907)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented in British naval and military dispatches.",
-      "cross_references": [
-        "1763-001 (Treaty of Paris)"
-      ]
-    },
-    {
-      "id": "1761-015",
-      "title": "Joseph Black discovers latent heat",
-      "region": "Western Europe \u2014 Scotland",
-      "coordinates_approx": "55.87\u00b0N, 4.29\u00b0W",
-      "category": "scientific",
-      "description": "In 1761, the Scottish chemist and physician Joseph Black conducted experiments at the University of Glasgow demonstrating that heat could be absorbed by a substance during a phase change (e.g., melting ice) without a change in temperature \u2014 the concept of latent heat. Though not published formally until much later, Black lectured on his findings from 1761 onward. His work was foundational for thermodynamics and directly influenced James Watt's improvements to the steam engine, as Watt was an instrument maker at Glasgow during this period.",
-      "key_figures": [
-        "Joseph Black (chemist, University of Glasgow)",
-        "James Watt (instrument maker, influenced by Black)"
-      ],
-      "sources": [
-        {
-          "name": "Black's unpublished lecture notes (University of Glasgow archives)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "John Robison (ed.), Lectures on the Elements of Chemistry by Joseph Black (1803, posthumous)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Black's experiments are generally dated to 1761 based on lecture records, but the exact chronology is debated since he did not publish formally. Some scholars place key experiments in 1760 or 1762.",
-      "cross_references": [
-        "1769-002 (Watt patents the separate condenser steam engine)"
-      ]
-    },
-    {
-      "id": "1761-016",
-      "title": "Qianlong Emperor's campaigns in Xinjiang consolidation",
-      "region": "East Asia \u2014 Qing China / Central Asia",
-      "coordinates_approx": "41.00\u00b0N, 80.00\u00b0E",
-      "category": "political",
-      "description": "By 1761, the Qing dynasty under the Qianlong Emperor was consolidating its conquest of Xinjiang (the 'New Frontier'), completed militarily in 1759 with the defeat of the Dzungar Khanate and the suppression of Khoja rebellions. The administration of the new territories was being organized under military governors (jiangjun), and Qing garrisons were established across the Tarim Basin and Ili River valley. The conquest roughly doubled the geographic extent of the Qing Empire and eliminated the last major Central Asian nomadic threat to China.",
-      "key_figures": [
-        "Qianlong Emperor (Aisin Gioro Hongli)",
-        "Ag\u016bi (Manchu official involved in frontier administration)"
-      ],
-      "sources": [
-        {
-          "name": "Qing Shilu (Veritable Records of the Qing Dynasty)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Peter Perdue, China Marches West: The Qing Conquest of Central Eurasia (2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Qing administrative records for this period are extensive and detailed.",
-      "cross_references": [
-        "1759-002 (Final Qing conquest of Dzungaria and Altishahr)"
-      ]
-    },
-    {
-      "id": "1761-017",
-      "title": "Cherokee War continues in the American Southeast",
-      "region": "North America \u2014 British colonial Southeast",
-      "coordinates_approx": "34.80\u00b0N, 83.40\u00b0W",
-      "category": "military",
-      "description": "The Anglo-Cherokee War (1758\u20131761) continued with a major British punitive expedition in the summer of 1761. Lieutenant Colonel James Grant led approximately 2,600 troops into Cherokee territory in the southern Appalachians, systematically destroying fifteen Middle Cherokee towns, burning crops, and driving inhabitants into the mountains. The devastation forced the Cherokee to negotiate peace, concluded by treaty in December 1761. The war illustrated both the volatility of British-Native alliances and the colonial strategy of agricultural destruction.",
-      "key_figures": [
-        "James Grant (British army officer)",
-        "Attakullakulla (Cherokee diplomat, led peace negotiations)"
-      ],
-      "sources": [
-        {
-          "name": "South Carolina Gazette reports, 1761",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "John Oliphant, Peace and War on the Anglo-Cherokee Frontier 1756\u201363 (2001)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Colonial records, military dispatches, and newspaper accounts document the campaign in detail.",
-      "cross_references": [
-        "1758-001 (Start of Anglo-Cherokee War)"
-      ]
-    },
-    {
-      "id": "1761-018",
-      "title": "Leopold Auenbrugger publishes Inventum Novum on percussion diagnosis",
-      "region": "Central Europe \u2014 Habsburg Austria",
-      "coordinates_approx": "48.21\u00b0N, 16.37\u00b0E",
-      "category": "scientific",
-      "description": "In 1761, Viennese physician Leopold Auenbrugger published Inventum Novum ex Percussione Thoracis Humani, describing his technique of chest percussion \u2014 tapping the patient's torso and interpreting the resulting sounds to diagnose underlying conditions such as fluid in the chest cavity. Though initially neglected, the technique was later championed by Napoleon's physician Corvisart and became a foundational diagnostic method in clinical medicine, still taught and used today.",
-      "key_figures": [
-        "Leopold Auenbrugger (Viennese physician)"
-      ],
-      "sources": [
-        {
-          "name": "Auenbrugger, Inventum Novum ex Percussione Thoracis Humani (1761, Latin text)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Roy Porter, The Greatest Benefit to Mankind: A Medical History of Humanity (1997)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The publication date is established from the original printed edition.",
-      "cross_references": [
-        "1808-001 (Corvisart's French translation revives Auenbrugger's method)"
-      ]
-    },
-    {
-      "id": "1761-019",
-      "title": "Haider Ali's invasion of Malabar",
-      "region": "South Asia \u2014 southwestern India",
-      "coordinates_approx": "11.25\u00b0N, 75.77\u00b0E",
-      "category": "military",
-      "description": "Having consolidated power in Mysore, Hyder Ali launched an invasion of the Malabar Coast (modern Kerala) in 1761, conquering the Zamorin of Calicut's territories and several smaller Nair kingdoms. Hyder Ali imposed his authority over the spice-producing coastal regions, bringing them under Mysorean control. This expansion brought Mysore into direct competition with the British East India Company's trade interests on the western coast and laid groundwork for future conflicts.",
-      "key_figures": [
-        "Hyder Ali (ruler of Mysore)",
-        "Zamorin of Calicut (defeated ruler)"
-      ],
-      "sources": [
-        {
-          "name": "K.M. Panikkar, Malabar and the Portuguese (1929) and related regional histories",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "British East India Company correspondence, Tellicherry factory records",
+          "name": "Ottoman records",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The chronology of Hyder Ali's Malabar campaigns is approximate, spanning 1761\u20131763 depending on the source. The campaign beginning is generally placed in 1761.",
+      "certainty_note": "The formal Russo-Turkish War began in 1768. Pre-war tensions and skirmishes in 1761 are documented but less extensively than the formal war period.",
       "cross_references": [
-        "1761-007 (Hyder Ali seizes power in Mysore)"
-      ]
-    },
-    {
-      "id": "1761-020",
-      "title": "William Pitt the Elder resigns as Secretary of State",
-      "region": "Western Europe \u2014 Britain",
-      "coordinates_approx": "51.50\u00b0N, 0.12\u00b0W",
-      "category": "political",
-      "description": "On 5 October 1761, William Pitt the Elder resigned as Secretary of State after his cabinet colleagues refused to support a preemptive war against Spain. Pitt had been the driving force behind Britain's aggressive prosecution of the Seven Years' War and was widely regarded as the architect of British victories across the globe. His departure signaled a shift toward peace negotiations under Lord Bute's growing influence with George III, though Spain's subsequent entry into the war vindicated Pitt's strategic warnings.",
-      "key_figures": [
-        "William Pitt the Elder (Secretary of State)",
-        "George III (King of Great Britain)",
-        "John Stuart, 3rd Earl of Bute (favorite and incoming chief minister)"
-      ],
-      "sources": [
-        {
-          "name": "Parliamentary records and contemporary correspondence",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Marie Peters, Pitt and Popularity (1998)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Pitt's resignation and its circumstances are extensively documented in political correspondence and parliamentary records.",
-      "cross_references": [
-        "1761-004 (Third Family Compact)",
-        "1763-001 (Treaty of Paris)"
+        "Leads to Russo-Turkish War (1768\u20131774)",
+        "Part of broader Russian imperial expansion"
       ]
     }
   ],
-  "disconfirming_evidence": "The Third Battle of Panipat's casualty figures are highly variable across sources, ranging from 30,000 to over 100,000, and modern scholarship (e.g., Sarkar, Fall of the Mughal Empire) cautions against accepting the highest figures uncritically, as they may include camp followers and are drawn from partisan accounts on both sides. The claim that Panipat alone caused the decline of the Maratha Confederacy is complicated by the fact that under Madhavrao I (Peshwa from 1761), the Marathas staged a significant military and political recovery in the 1760s; the fragmentation was more gradual than the 'catastrophic single blow' narrative suggests. Regarding Joseph Black's latent heat experiments, the dating to 1761 specifically is conventional but imprecise \u2014 Black's own records are ambiguous and some historians (e.g., Henry Guerlac) have argued the key insights emerged over 1759\u20131762. Lomonosov's inference of a Venusian atmosphere in 1761, while now credited, was essentially unknown outside Russia for over a century and its 'significance' is partly retrospective \u2014 contemporary Western astronomers independently debated the issue without reference to his work.",
-  "historiographic_note": "The year 1761 is richly documented from European, South Asian, and Qing Chinese sources. European records are dominated by Seven Years' War military dispatches, diplomatic correspondence, and parliamentary proceedings \u2014 primarily from British, French, Prussian, and Russian state archives. South Asian sources include Marathi-language Peshwa administrative records (Peshwa Daftar), Persian-language court chronicles from both the Durrani and Mughal courts, and British East India Company correspondence. Qing records are drawn from the Veritable Records and palace memorials. The overwhelming bias is toward state-sponsored military and diplomatic history; economic life, demographic movements, and the experiences of ordinary people are poorly represented. Sub-Saharan African history for this period relies heavily on European trading-post records and later oral traditions, creating significant gaps. Indigenous American perspectives on events like the Cherokee War are filtered almost entirely through colonial sources.",
+  "disconfirming_evidence": "The Third Battle of Panipat is sometimes portrayed in popular Indian historiography as a decisive turning point that 'saved India from Maratha rule,' but modern scholarship emphasizes that the Marathas remained a significant regional power for decades after 1761 and continued to challenge British expansion. The battle was catastrophic but not immediately conclusive. Additionally, some accounts exaggerate the casualty figures; modern historians estimate 40,000\u201360,000 rather than the 100,000+ sometimes cited in older sources. The Transit of Venus observations, while scientifically significant, did not immediately resolve all questions about the astronomical unit; refinements continued for decades.",
+  "historiographic_note": "1761 is well-documented in European and British sources due to the Seven Years' War and scientific activities. Indian sources are primarily in Persian and Marathi, with some bias toward court-sponsored chronicles. The Battle of Panipat is extensively covered in Indian historiography but often with nationalist or regional biases. Ottoman and Russian sources are rich but may reflect state perspectives. The scientific record (Transit of Venus) is exceptionally well-preserved and international. Colonial sources (British East India Company) reflect imperial perspectives and may underrepresent indigenous viewpoints.",
   "graph_edges": [
     {
       "from": "1761-001",
-      "to": "1757-PLASSEY",
+      "to": "1757-001",
       "relation": "part_of",
-      "note": "Both the Panipat catastrophe and Plassey were pivotal moments in the multi-way struggle for post-Mughal supremacy in India"
-    },
-    {
-      "from": "1761-001",
-      "to": "1761-012",
-      "relation": "led_to",
-      "note": "The Panipat defeat directly caused the death of the Peshwa and fragmentation of the Maratha Confederacy"
+      "note": "Both events are part of the broader decline of Maratha power and rise of British dominance in India"
     },
     {
       "from": "1761-002",
-      "to": "1763-PARIS",
+      "to": "1763-001",
       "relation": "led_to",
-      "note": "Fall of Pondicherry finalized British supremacy in India, confirmed at the Treaty of Paris"
+      "note": "Capture of Pondicherry leads to Treaty of Paris (1763) ceding French Indian territories"
+    },
+    {
+      "from": "1761-003",
+      "to": "1768-001",
+      "relation": "led_to",
+      "note": "Catherine II's consolidation of power leads to Russo-Turkish War (1768\u20131774)"
     },
     {
       "from": "1761-004",
-      "to": "1762-HAVANA",
+      "to": "1767-001",
+      "relation": "contemporary_with",
+      "note": "Part of broader 18th-century anti-Jesuit movements across Catholic Europe"
+    },
+    {
+      "from": "1761-005",
+      "to": "1769-001",
       "relation": "led_to",
-      "note": "Spain's entry into the war led to British campaigns against Spanish colonies in 1762"
-    },
-    {
-      "from": "1761-008",
-      "to": "1769-VENUS",
-      "relation": "led_to",
-      "note": "The 1761 transit of Venus observations informed planning for the more successful 1769 transit expedition"
-    },
-    {
-      "from": "1761-009",
-      "to": "1759-BRIDGEWATER",
-      "relation": "caused_by",
-      "note": "The Manchester extension built on the initial Worsley-to-Manchester canal section opened in 1759"
-    },
-    {
-      "from": "1761-011",
-      "to": "1714-LONGITUDE",
-      "relation": "caused_by",
-      "note": "Harrison's chronometer was built in direct response to the Longitude Act's prize"
-    },
-    {
-      "from": "1761-013",
-      "to": "1762-ELIZABETH",
-      "relation": "led_to",
-      "note": "Prussia's desperate position after Kolberg's fall makes the Miracle of the House of Brandenburg (Elizabeth's death) historically consequential"
-    },
-    {
-      "from": "1761-015",
-      "to": "1769-WATT",
-      "relation": "led_to",
-      "note": "Black's latent heat theory directly informed Watt's separate condenser design"
-    },
-    {
-      "from": "1761-020",
-      "to": "1763-PARIS",
-      "relation": "led_to",
-      "note": "Pitt's resignation shifted British war policy toward negotiation and the eventual peace treaty"
+      "note": "1761 Transit of Venus observations lead to 1769 observations for refined astronomical measurements"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T08:18:32.726985",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

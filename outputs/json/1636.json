@@ -1,307 +1,235 @@
 {
   "year": 1636,
   "year_label": "1636 CE",
-  "era_context": "Mid-17th century: The Thirty Years' War continues in Europe (ending 1648). The Ming Dynasty in China is in severe decline, facing both Manchu invasion and internal rebellion. The Ottoman Empire remains a major power. European colonial expansion accelerates in the Americas and Asia. Japan is consolidating the sakoku policy under Tokugawa Iemitsu.",
+  "era_context": "The early modern period in Europe, dominated by the Thirty Years' War (1618\u20131648), which devastated the German-speaking lands and reshaped European power balances. In East Asia, the Qing Dynasty was consolidating control over China following the fall of the Ming; the Manchus had declared the Later Jin state and were preparing their conquest. In the Americas, European colonial expansion continued with competing claims in North America and the Caribbean. The Scientific Revolution was accelerating in Europe with figures like Descartes and Galileo active.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited European documentation; internal African state histories underrepresented in Western archives)",
+    "Interior Southeast Asia and Oceania (sparse European contact records)"
+  ],
   "events": [
     {
       "id": "1636-001",
-      "title": "Battle of Wittstock; Swedish victory in Thirty Years' War",
-      "region": "Wittstock, Brandenburg, Holy Roman Empire (present-day Germany)",
-      "coordinates_approx": "52.8, 12.3",
+      "title": "Battle of Wittstock",
+      "region": "Brandenburg, Holy Roman Empire (modern Germany)",
+      "coordinates_approx": "53.18, 12.28",
       "category": "military",
-      "description": "The Battle of Wittstock was fought between Swedish forces under Lennart Torstenson and Imperial forces in Brandenburg. The Swedish victory was a major success in the later stages of the Thirty Years' War, demonstrating Swedish military superiority and contributing to the eventual Swedish dominance in Central Europe. The battle was a turning point in the war's trajectory in northern Germany.",
+      "description": "Swedish forces under Field Marshal Johan Ban\u00e9r defeated a combined Imperial-Saxon army, marking a major Swedish victory in the Thirty Years' War. The battle demonstrated Swedish military superiority and secured Swedish dominance in northern Germany for several years. This victory strengthened Sweden's negotiating position for the eventual Peace of Westphalia and consolidated Swedish territorial gains in the Baltic region.",
       "key_figures": [
-        "Lennart Torstenson (Swedish commander)",
-        "Imperial commanders (various)"
+        "Johan Ban\u00e9r (Swedish Field Marshal)",
+        "Melchior von Hatzfeldt (Imperial commander)"
       ],
       "sources": [
         {
-          "name": "Swedish military records and dispatches",
+          "name": "Contemporary Swedish military records and accounts by participants",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Imperial records (Reichskanzlei)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Contemporary European chronicles",
+          "name": "Imperial chronicles and reports to Vienna",
           "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The battle is well-documented in Swedish and Imperial military records. The date and outcome are secure.",
+      "certainty_note": "Well-documented contemporary military records from both sides; date and outcome uncontested.",
       "cross_references": [
-        "Part of the Thirty Years' War (1618\u20131648)",
-        "Related to Swedish military dominance in the 1630s\u20131640s"
+        "1618-001 (Thirty Years' War begins)",
+        "1648-001 (Peace of Westphalia)"
       ]
     },
     {
       "id": "1636-002",
-      "title": "Manchu forces invade Korea; Ming ally weakened",
-      "region": "Korea, Manchuria",
-      "coordinates_approx": "40.0, 127.0",
-      "category": "military",
-      "description": "Manchu forces invaded Korea in 1636, forcing the Korean kingdom of Joseon to submit to Manchu overlordship. This invasion was part of the broader Manchu strategy to isolate Ming China and consolidate power in East Asia. The invasion weakened Ming's position by eliminating a potential ally and demonstrated Manchu military reach beyond Manchuria and Liaodong.",
+      "title": "Founding of Harvard College",
+      "region": "Massachusetts Bay Colony, North America",
+      "coordinates_approx": "42.37, -71.12",
+      "category": "cultural",
+      "description": "Harvard College was established in Cambridge, Massachusetts, making it the first institution of higher education in the English colonies of North America. Founded to train clergy for the Congregational Church, it became a center of learning and intellectual development in colonial America. The college's establishment reflected the Puritan emphasis on education and literacy, and it would become one of the most influential universities in American history.",
       "key_figures": [
-        "Hong Taiji (Qing Khan, died 1643)",
-        "Injo (King of Joseon, r. 1623\u20131649)"
+        "John Harvard (benefactor, though he died in 1638)",
+        "Nathaniel Eaton (first headmaster)"
       ],
       "sources": [
         {
-          "name": "Qing Shilu (Veritable Records of the Qing)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Korean historical records (Joseon Wangjo Sillok)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Ming court records",
+          "name": "Records of the Massachusetts Bay Company and Harvard College archives",
           "type": "primary_text",
           "contemporary": true
+        },
+        {
+          "name": "Cotton Mather, Magnalia Christi Americana (1702)",
+          "type": "later_compilation",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Manchu invasion of Korea in 1636 is well-documented in both Qing and Korean records. The date is secure.",
+      "certainty_note": "Founding date of 1636 is well-established in institutional records, though some sources cite 1638 as the formal opening.",
       "cross_references": [
-        "Part of the Manchu conquest of East Asia",
-        "Related to fall of Ming Dynasty (1644)"
+        "1620-001 (Mayflower Compact and Puritan settlement)"
       ]
     },
     {
       "id": "1636-003",
-      "title": "Ming Dynasty faces internal collapse; Li Zicheng's rebellion grows",
-      "region": "Central and Northern China",
-      "coordinates_approx": "35.0, 110.0",
+      "title": "Pequot War concludes; Treaty of Hartford",
+      "region": "Connecticut and Massachusetts Bay Colony, North America",
+      "coordinates_approx": "41.5, -72.5",
       "category": "military",
-      "description": "Li Zicheng's peasant rebellion, which had begun in the early 1630s, continued to grow in 1636, spreading across central and northern China. The rebellion exploited widespread famine, economic collapse, and Ming military weakness. The Ming government's inability to suppress the rebellion or address the underlying economic crisis contributed to the dynasty's terminal decline.",
+      "description": "The Pequot War, which began in 1636 with raids and escalated through the spring, culminated in the destruction of the Pequot nation by English colonists and their Narragansett and Mohegan allies. The war resulted in the near-total annihilation of the Pequot people through military campaigns and the enslavement of survivors. This conflict marked one of the first genocidal campaigns in North American colonial history and fundamentally altered the balance of power in southern New England.",
       "key_figures": [
-        "Li Zicheng (rebel leader)",
-        "Ming military commanders (various, increasingly ineffective)"
+        "John Endecott (Massachusetts Bay commander)",
+        "John Mason (Connecticut commander)",
+        "Uncas (Mohegan leader, allied with English)",
+        "Sassacus (Pequot sachem)"
       ],
       "sources": [
         {
-          "name": "Ming court records and military reports",
+          "name": "John Mason, A Brief History of the Pequot War (1736, but based on contemporary accounts)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "William Bradford, Of Plymouth Plantation (contemporary account)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Qing Shilu (Veritable Records of the Qing, later compilation)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Later Chinese historiography (e.g., Mingshi)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Colonial records of Massachusetts Bay and Connecticut",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The broader context of Li Zicheng's rebellion is well-documented, but specific 1636 events are less precisely dated.",
+      "certainty": "confirmed",
+      "certainty_note": "The war's occurrence and major events are well-documented in colonial records, though casualty figures and interpretations of the conflict's brutality vary.",
       "cross_references": [
-        "Li Zicheng's rebellion (1630s\u20131644)",
-        "Related to fall of Ming Dynasty (1644)"
+        "1620-001 (Early English settlement)"
       ]
     },
     {
       "id": "1636-004",
-      "title": "Manchu forces capture Yingzhou and other Ming fortifications",
-      "region": "Liaodong Peninsula, Manchuria / Ming China border",
-      "coordinates_approx": "41.5, 123.5",
-      "category": "military",
-      "description": "Manchu forces under Hong Taiji continued their military campaigns against Ming-held territories in Liaodong, capturing strategic fortifications. These victories further weakened Ming control of the region and demonstrated the growing military superiority of the Manchus. The captures contributed to the Ming's inability to defend against both external Manchu pressure and internal rebellion.",
+      "title": "Manchu declaration of Later Jin as Qing Dynasty",
+      "region": "Manchuria and northern China",
+      "coordinates_approx": "43.5, 125.0",
+      "category": "political",
+      "description": "The Jurchen Later Jin state, under the Manchus, formally declared itself the Qing Dynasty, with the Chongde Emperor (Hung Taiji) proclaiming the new dynasty name. This declaration represented a crucial step in the Manchu conquest of China, establishing the legitimacy of Manchu rule before the final military conquest of Ming China. The renaming from Later Jin to Qing signaled the Manchus' intention to rule all of China, not merely their homeland.",
       "key_figures": [
-        "Hong Taiji (Qing Khan, died 1643)",
-        "Ming commanders in Liaodong (names variable in sources)"
+        "Hong Taiji (Chongde Emperor, Manchu leader)",
+        "Dorgon (regent and military leader)"
       ],
       "sources": [
         {
-          "name": "Qing Shilu (Veritable Records of the Qing)",
-          "type": "chronicle",
-          "contemporary": false
+          "name": "Qing imperial records and the Veritable Records of the Qing (Qing Shilu)",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Ming court records and military reports",
+          "name": "Ming court records documenting the Manchu threat",
           "type": "primary_text",
           "contemporary": true
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The broader Manchu campaign context is well-documented, but specific 1636 captures are less precisely dated in surviving sources.",
+      "certainty": "confirmed",
+      "certainty_note": "The declaration is well-documented in both Qing and Ming sources; the date is established in official records.",
       "cross_references": [
-        "Part of the Manchu conquest of Ming China (1618\u20131644)",
-        "Related to fall of Ming Dynasty (1644)"
+        "1618-001 (Later Jin emergence under Nurhaci)",
+        "1644-001 (Qing conquest of China)"
       ]
     },
     {
       "id": "1636-005",
-      "title": "Mughal Empire under Shah Jahan; Taj Mahal under construction",
-      "region": "Mughal Empire (present-day India)",
-      "coordinates_approx": "27.17, 78.04",
-      "category": "cultural",
-      "description": "The Taj Mahal, commissioned by Shah Jahan as a mausoleum for his deceased wife Mumtaz Mahal, was under construction in 1636, approximately 16 years into the project. The monument represented the pinnacle of Mughal architectural achievement and the empire's cultural and economic power. Shah Jahan's reign (1628\u20131658) was marked by extensive building projects and cultural patronage.",
+      "title": "Dutch-Portuguese conflict in the Indian Ocean intensifies",
+      "region": "Indian Ocean, Ceylon (Sri Lanka), Malacca Strait",
+      "coordinates_approx": "6.9, 80.7",
+      "category": "military",
+      "description": "Dutch naval and commercial forces, operating through the Dutch East India Company (VOC), intensified their campaigns against Portuguese colonial holdings in South and Southeast Asia. The Dutch captured several Portuguese forts and trading posts, including actions around Ceylon and the Malacca Strait. This conflict reflected the broader European struggle for dominance in Asian trade and marked the decline of Portuguese maritime power in favor of Dutch ascendancy.",
       "key_figures": [
-        "Shah Jahan (Mughal Emperor, r. 1628\u20131658)",
-        "Mumtaz Mahal (deceased wife)"
+        "Antonio van Diemen (Dutch Governor-General of the East Indies)",
+        "Portuguese colonial administrators"
       ],
       "sources": [
         {
-          "name": "Mughal court records and administrative documents",
+          "name": "Dutch East India Company (VOC) records and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary Mughal historians (e.g., Abdul Hamid Lahori, Padshahnama)",
+          "name": "Portuguese colonial archives and reports to Lisbon",
           "type": "primary_text",
           "contemporary": true
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The Taj Mahal's construction timeline is well-documented in Mughal court records.",
+      "certainty": "probable",
+      "certainty_note": "The general conflict is well-documented, though specific engagements in 1636 may be conflated with nearby years (1635\u20131637).",
       "cross_references": [
-        "Taj Mahal completed in 1639",
-        "Related to Shah Jahan's reign (1628\u20131658)"
+        "1602-001 (VOC founding)",
+        "1641-001 (Dutch capture of Malacca)"
       ]
     },
     {
       "id": "1636-006",
-      "title": "Dutch East India Company (VOC) consolidates East Indies holdings",
-      "region": "Dutch East Indies (present-day Indonesia)",
-      "coordinates_approx": "-2.0, 113.0",
-      "category": "economic",
-      "description": "The Dutch East India Company (VOC) continued to consolidate its control over the spice trade and territorial holdings in the East Indies. The VOC's monopoly on spice production and trade was a major source of wealth for the Dutch Republic. The company's activities in 1636 included military campaigns against rival European traders and indigenous resistance.",
+      "title": "Descartes publishes Discourse on Method (French edition)",
+      "region": "France and Europe",
+      "coordinates_approx": "48.8, 2.3",
+      "category": "scientific",
+      "description": "Ren\u00e9 Descartes published the Discourse on Method in French (rather than Latin), making his philosophical and methodological ideas accessible to a broader educated audience. The work outlined his systematic doubt and the famous principle 'Cogito, ergo sum' (I think, therefore I am), laying groundwork for modern philosophy and the scientific method. This publication was a landmark in the Scientific Revolution, influencing subsequent European thought on epistemology and natural philosophy.",
       "key_figures": [
-        "Various VOC commanders and administrators"
+        "Ren\u00e9 Descartes (philosopher and mathematician)"
       ],
       "sources": [
         {
-          "name": "VOC records (Dutch East India Company archives)",
+          "name": "Descartes, Discourse on Method (1636, original French edition)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary European accounts of the East Indies trade",
+          "name": "Descartes' correspondence and biographical records",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The VOC's activities and consolidation are well-documented in company records.",
+      "certainty_note": "Publication date and content are well-established in bibliographic and archival records.",
       "cross_references": [
-        "Part of the broader VOC expansion (1600s\u20131700s)",
-        "Related to European colonial expansion in Asia"
-      ]
-    },
-    {
-      "id": "1636-007",
-      "title": "English Civil War tensions escalate; Charles I's religious policies provoke opposition",
-      "region": "England, Scotland",
-      "coordinates_approx": "55.5, -2.0",
-      "category": "political",
-      "description": "Tensions between King Charles I and Parliament escalated in 1636, with Scottish resistance to Charles's religious policies intensifying. The king's attempt to impose Anglican church practices on Scotland provoked strong opposition, setting the stage for the First Bishops' War (1639). These tensions would eventually lead to the English Civil War (1642\u20131651).",
-      "key_figures": [
-        "Charles I (King of England and Scotland)",
-        "Scottish religious and political leaders (various)"
-      ],
-      "sources": [
-        {
-          "name": "English and Scottish state papers",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Contemporary English and Scottish chronicles",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The escalation of tensions in 1636 is well-documented in English and Scottish state papers.",
-      "cross_references": [
-        "First Bishops' War (1639)",
-        "English Civil War (1642\u20131651)"
-      ]
-    },
-    {
-      "id": "1636-008",
-      "title": "Ottoman Empire under Murad IV; internal consolidation",
-      "region": "Ottoman Empire",
-      "coordinates_approx": "39.0, 35.0",
-      "category": "political",
-      "description": "The Ottoman Empire, under Sultan Murad IV (r. 1623\u20131640), continued efforts to centralize authority and suppress internal dissent. Murad IV's reign was marked by military campaigns to restore Ottoman control over rebellious provinces and efforts to modernize the military. The empire remained a major military and political power in the Eastern Mediterranean and Near East.",
-      "key_figures": [
-        "Murad IV (Ottoman Sultan, r. 1623\u20131640)"
-      ],
-      "sources": [
-        {
-          "name": "Ottoman court records and administrative documents",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Contemporary Ottoman chronicles",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "European accounts of Ottoman affairs",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Ottoman Empire's status and Murad IV's reign are well-documented in Ottoman and European sources.",
-      "cross_references": [
-        "Related to Ottoman history in the 17th century",
-        "Part of broader Ottoman-European competition"
+        "1633-001 (Galileo's trial and house arrest)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Battle of Wittstock's significance has been somewhat overstated in some Swedish historiography; while a major Swedish victory, it was one of several engagements in the broader Thirty Years' War. The characterization of Li Zicheng's rebellion as a unified movement in 1636 may be anachronistic; it was more a collection of bandit and peasant groups that gradually coalesced. The Manchu invasion of Korea in 1636 is sometimes dated to 1637 in older sources, but modern scholarship confirms 1636.",
-  "historiographic_note": "The year 1636 is well-documented in European, East Asian, and South Asian sources. European records are particularly rich for the Thirty Years' War and English-Scottish political tensions. East Asian sources (Chinese, Japanese, Korean) are abundant for the Manchu invasion of Korea, Li Zicheng's rebellion, and Manchu-Ming conflict. Ottoman sources provide documentation of Murad IV's reign. However, the historical record is heavily weighted toward elite political and military events. Economic and social conditions in most regions, and developments in sub-Saharan Africa and the Americas, are underrepresented. The narrative is shaped by the perspectives of the victors and the surviving literate classes.",
+  "disconfirming_evidence": "The Pequot War's characterization as a 'genocide' is debated among historians; some scholars argue that while the destruction was severe, the Pequot were not entirely eliminated and survivors were absorbed into other groups. The casualty figures cited in colonial sources (often claiming 600+ deaths at Mystic Fort) are disputed by modern scholars who argue the numbers may be exaggerated. Additionally, the role of indigenous allies (Narragansett and Mohegan) in the conflict is sometimes minimized in narratives that emphasize English agency alone. The significance of the Qing Dynasty declaration in 1636 is sometimes overstated; the Manchus did not formally conquer China until 1644, and the declaration was partly a symbolic assertion of legitimacy rather than an immediate shift in power.",
+  "historiographic_note": "The year 1636 is well-documented in European sources, particularly regarding the Thirty Years' War and early colonial North America. However, the historical record is heavily weighted toward European and European-colonial perspectives. Chinese sources on the Qing declaration exist but are less frequently consulted in Western historiography. Indigenous American perspectives on the Pequot War are largely absent from contemporary written records, surviving only through later oral traditions and archaeological evidence. The Dutch-Portuguese conflict in Asia is documented in company records but often receives less attention than European-centered narratives. Overall, the year benefits from rich documentation in some regions while remaining opaque in others.",
   "graph_edges": [
     {
       "from": "1636-001",
       "to": "1648-001",
-      "relation": "part_of",
-      "note": "Battle of Wittstock was part of the Thirty Years' War, which ended in 1648"
+      "relation": "led_to",
+      "note": "Swedish victory at Wittstock strengthened Sweden's position for the Peace of Westphalia negotiations"
     },
     {
       "from": "1636-002",
-      "to": "1644-001",
-      "relation": "led_to",
-      "note": "Manchu invasion of Korea in 1636 weakened Ming's position and contributed to Ming Dynasty's collapse in 1644"
+      "to": "1776-001",
+      "relation": "part_of",
+      "note": "Harvard College became a center of intellectual life in colonial America, influencing Revolutionary-era thought"
     },
     {
       "from": "1636-003",
-      "to": "1644-001",
+      "to": "1675-001",
       "relation": "led_to",
-      "note": "Li Zicheng's rebellion's growth in 1636 contributed to Ming Dynasty's collapse in 1644"
+      "note": "Pequot War's destruction of indigenous power structures contributed to later conflicts like King Philip's War"
     },
     {
       "from": "1636-004",
       "to": "1644-001",
       "relation": "led_to",
-      "note": "Manchu military campaigns in 1636 contributed to Ming Dynasty's collapse in 1644"
+      "note": "Qing Dynasty declaration preceded the final Manchu conquest of China by eight years"
     },
     {
-      "from": "1636-007",
-      "to": "1639-002",
+      "from": "1636-005",
+      "to": "1641-001",
       "relation": "led_to",
-      "note": "Escalating tensions in 1636 led to First Bishops' War in 1639"
+      "note": "Dutch-Portuguese conflicts culminated in Dutch capture of Malacca in 1641"
+    },
+    {
+      "from": "1636-006",
+      "to": "1687-001",
+      "relation": "led_to",
+      "note": "Descartes' methodological innovations influenced Newton's approach to natural philosophy"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T13:37:06.568228",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,244 +1,198 @@
 {
   "year": 1590,
   "year_label": "1590 CE",
-  "era_context": "The late 16th century was a period of religious conflict in Europe, state consolidation in Asia, and accelerating European colonial expansion. The Ottoman Empire remained a major Mediterranean and Eastern European power. The Ming Dynasty ruled China under the Wanli Emperor. Japan was in the final years of Toyotomi Hideyoshi's regency. The Americas were experiencing rapid Spanish colonisation with catastrophic demographic consequences for indigenous populations.",
+  "era_context": "Late 16th century: Spain under Philip II remains a dominant power, though weakened by the failed Armada of 1588. The Dutch Revolt continues against Spanish rule. England under Elizabeth I consolidates its naval power. The Ottoman Empire remains a major Mediterranean and Balkan power. In Asia, the Ming Dynasty rules China; Japan is in final unification under Toyotomi Hideyoshi.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited European documentation)",
+    "Interior South America and North America (minimal European contact documentation)"
+  ],
   "events": [
     {
       "id": "1590-001",
-      "title": "Battle of Ivry and Henry IV's military ascendancy in France",
-      "region": "France (Normandy)",
-      "coordinates_approx": "48.7667, 1.6167",
+      "title": "Siege of Paris ends; Henry IV enters Paris as King of France",
+      "region": "France",
+      "coordinates_approx": "48.8,2.3",
       "category": "military",
-      "description": "The Battle of Ivry, fought on 14 March 1590, was a decisive victory for Henry IV of France over the Catholic League forces commanded by the Duke of Mayenne. The battle demonstrated Henry IV's military capability and marked a turning point in the French Wars of Religion. Following the victory, Henry IV laid siege to Paris, attempting to capture the capital from Catholic League forces. The siege lasted from 1590 to 1591 and resulted in significant hardship for the city's population. Though Henry IV did not capture Paris in 1590, the battle and siege demonstrated his growing power and his path toward undisputed kingship.",
+      "description": "After a prolonged siege lasting from 1589\u20131590, Henry IV (formerly Henry of Navarre) enters Paris and is recognized as King of France, effectively ending the Wars of Religion. The siege was brutal, with the city suffering from starvation. Henry's entry marks the beginning of the consolidation of royal authority and the gradual pacification of France. This is a turning point in French history, establishing the Bourbon dynasty.",
       "key_figures": [
-        "Henry IV of France (French king)",
-        "Duke of Mayenne (Catholic League commander)",
-        "Duke of Parma (Spanish commander)"
+        "Henry IV of France (newly recognized king)",
+        "Duke of Parma (Spanish commander who relieved Paris)"
       ],
       "sources": [
         {
-          "name": "Contemporary military chronicles and court records",
-          "type": "primary_text",
+          "name": "Contemporary French chronicles and memoirs",
+          "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "French and Spanish diplomatic correspondence",
+          "name": "Spanish and papal diplomatic correspondence",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Battle of Ivry is well-documented in contemporary sources from multiple perspectives.",
+      "certainty_note": "The siege and Henry's entry are well-documented in multiple contemporary sources.",
       "cross_references": [
-        "1591-002 (Siege of Paris)",
-        "1593-001 (Henry IV's conversion)"
+        "1589-001 (assassination of Henry III)",
+        "1598-001 (Edict of Nantes)"
       ]
     },
     {
       "id": "1590-002",
-      "title": "Siege of Paris begins",
-      "region": "France (Paris)",
-      "coordinates_approx": "48.8566, 2.3522",
+      "title": "Battle of Ivry; Henry IV defeats Catholic League forces",
+      "region": "France",
+      "coordinates_approx": "48.7,1.6",
       "category": "military",
-      "description": "Following his victory at Ivry, Henry IV laid siege to Paris in 1590, attempting to capture the capital from Catholic League forces. The siege lasted approximately one year (1590\u20131591) and resulted in significant hardship for the city's population, including famine and disease. The arrival of Spanish forces under the Duke of Parma relieved the siege, and Henry IV was forced to withdraw. The failure to capture Paris in 1590 demonstrated the continued strength of Catholic resistance and the complexity of Henry IV's path to undisputed kingship.",
+      "description": "Henry IV defeats the Catholic League at the Battle of Ivry (March 14, 1590), a decisive victory that strengthens his claim to the French throne and demonstrates his military capability. The victory is celebrated in contemporary accounts and helps consolidate support for Henry among moderate Catholics and Protestants. This battle is a key moment in the Wars of Religion.",
       "key_figures": [
-        "Henry IV of France (French king)",
-        "Duke of Parma (Spanish commander)",
-        "Catholic League forces"
+        "Henry IV of France (victorious commander)",
+        "Duke of Mayenne (Catholic League commander)"
       ],
       "sources": [
         {
-          "name": "Contemporary military chronicles and eyewitness accounts",
+          "name": "Contemporary French military records and chronicles",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Spanish and French diplomatic correspondence",
+          "name": "Memoirs of participants and observers",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle is well-documented with specific dates and participant accounts.",
+      "cross_references": [
+        "1590-001 (leads to Paris siege)"
+      ]
+    },
+    {
+      "id": "1590-003",
+      "title": "Dutch Revolt continues; Maurice of Nassau consolidates military reforms",
+      "region": "Dutch Republic (United Provinces)",
+      "coordinates_approx": "52.0,5.0",
+      "category": "military",
+      "description": "Maurice of Nassau, Prince of Orange, continues his military reforms and consolidation of Dutch independence from Spain. His innovations in military tactics and organization (the 'Military Revolution') begin to show results in campaigns against Spanish forces. By 1590, the Dutch Revolt has evolved into a protracted conflict with the Dutch establishing de facto independence, though Spain does not formally recognize this until 1648.",
+      "key_figures": [
+        "Maurice of Nassau (Dutch military leader)",
+        "William of Orange (deceased 1584, but his legacy shapes the revolt)"
+      ],
+      "sources": [
+        {
+          "name": "Dutch military records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Spanish military reports and diplomatic correspondence",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Siege of Paris is well-documented in contemporary sources from multiple perspectives.",
+      "certainty_note": "The Dutch Revolt and Maurice's role are well-documented in Dutch and Spanish archives.",
       "cross_references": [
-        "1591-002 (Continuation of siege)"
-      ]
-    },
-    {
-      "id": "1590-003",
-      "title": "Toyotomi Hideyoshi's final consolidation of power in Japan",
-      "region": "Japan",
-      "coordinates_approx": "34.6901, 135.5023",
-      "category": "political",
-      "description": "Toyotomi Hideyoshi, the regent of Japan, was at the height of his power in 1590. He had unified Japan through military conquest and was now focused on maintaining control and preparing for his ambitious foreign campaigns. Hideyoshi's administrative reforms had transformed Japan from a fragmented feudal state into a more centralised polity. In 1590, Hideyoshi was in his mid-50s and was beginning to focus on succession planning and the preparation for the invasion of Korea (which would begin in 1592). Hideyoshi's rule represented the culmination of the unification process that had begun with Oda Nobunaga.",
-      "key_figures": [
-        "Toyotomi Hideyoshi (Regent of Japan)",
-        "Tokugawa Ieyasu (Daimyo)",
-        "Oda Nobunaga (Former unifier, died 1582)"
-      ],
-      "sources": [
-        {
-          "name": "Edo-period chronicles and official histories",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Contemporary daimyo records and correspondence",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The broad context of Hideyoshi's consolidation is well-established, though specific events in 1590 are less precisely dated in contemporary sources.",
-      "cross_references": [
-        "1592-001 (Invasion of Korea)"
+        "1588-002 (Spanish Armada context)",
+        "1648-001 (Peace of Westphalia)"
       ]
     },
     {
       "id": "1590-004",
-      "title": "Spanish colonial consolidation in the Philippines",
-      "region": "Philippines",
-      "coordinates_approx": "12.8797, 121.7740",
+      "title": "Wanli Emperor's reign; Ming China faces Jurchen threats and internal instability",
+      "region": "China",
+      "coordinates_approx": "39.9,116.4",
       "category": "military",
-      "description": "Spanish colonial forces in the Philippines continued the consolidation of Spanish control over the archipelago. The Spanish had begun their colonisation of the Philippines in 1565 and by 1590 had established a significant colonial presence, particularly in Luzon and the Visayas. The Spanish were gradually extending their control over the archipelago through military campaigns, the establishment of fortified settlements, and the conversion of indigenous populations to Christianity. The consolidation of Spanish colonial control in the Philippines was part of the broader Spanish colonial expansion in Asia and the Pacific.",
-      "key_figures": [
-        "Spanish colonial governors and military commanders"
-      ],
-      "sources": [
-        {
-          "name": "Spanish colonial records and military reports",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Later Spanish colonial histories",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Spanish colonial activities in the Philippines in the 1590s are documented in Spanish records, though specific events in 1590 are less precisely dated.",
-      "cross_references": []
-    },
-    {
-      "id": "1590-005",
-      "title": "Ming Dynasty military operations and administrative challenges",
-      "region": "China (Ming Dynasty)",
-      "coordinates_approx": "39.9042, 116.4074",
-      "category": "political",
-      "description": "The Ming Dynasty under the Wanli Emperor continued its military operations against Jurchen tribes and Mongol incursions along the northern frontier. The Ming maintained a large standing army and navy, though resources were increasingly strained by military expenditures and administrative costs. The 1590s saw the Ming Dynasty facing increasing challenges to its authority, including military pressure from the Jurchen and administrative difficulties. The Wanli Emperor, though nominally in control, was increasingly withdrawn from direct governance, delegating authority to his ministers.",
+      "description": "The Wanli Emperor continues his reign during a period of increasing military pressure from the Jurchen in Manchuria and Mongol forces on the northern frontier. Internal Ming governance is hampered by court factionalism and the withdrawal of the emperor from active rule. Military expenditures strain the imperial treasury, contributing to long-term economic decline.",
       "key_figures": [
         "Wanli Emperor (Ming ruler)"
       ],
       "sources": [
         {
-          "name": "Ming court records and administrative documents",
+          "name": "Ming Shilu (Official Ming Records)",
           "type": "primary_text",
           "contemporary": true
-        },
-        {
-          "name": "Later Ming official histories",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The broad context of Ming military and administrative activities is well-documented, though specific events in 1590 are less precisely dated.",
-      "cross_references": []
-    },
-    {
-      "id": "1590-006",
-      "title": "English privateering and the Roanoke Colony abandonment",
-      "region": "Atlantic Ocean and North America",
-      "coordinates_approx": "35.8, -75.6",
-      "category": "exploration",
-      "description": "The Roanoke Colony, established by Sir Walter Raleigh in 1585 on the coast of present-day North Carolina, was abandoned by 1590. The colony, intended as a permanent English settlement in North America, had failed due to supply difficulties, conflicts with indigenous populations, and the demands of the Spanish Armada crisis (1588), which diverted English resources and attention. The abandonment of Roanoke marked the end of the first major English colonial venture in North America. However, English privateers continued to conduct raids on Spanish shipping and colonial possessions in the Atlantic and Caribbean.",
-      "key_figures": [
-        "Sir Walter Raleigh (English explorer)",
-        "Elizabeth I (Queen of England)"
-      ],
-      "sources": [
-        {
-          "name": "English colonial records and correspondence",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Later English colonial histories",
-          "type": "later_compilation",
-          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The abandonment of the Roanoke Colony by 1590 is well-documented in English colonial records.",
-      "cross_references": [
-        "1585-001 (Roanoke Colony established)"
-      ]
+      "certainty_note": "Ming administrative records provide detailed documentation.",
+      "cross_references": []
     },
     {
-      "id": "1590-007",
-      "title": "Ottoman Empire under Sultan Murad III",
-      "region": "Ottoman Empire",
-      "coordinates_approx": "41.0082, 28.9784",
+      "id": "1590-005",
+      "title": "Toyotomi Hideyoshi consolidates power in Japan; daimyo submit to central authority",
+      "region": "Japan",
+      "coordinates_approx": "35.0,138.0",
       "category": "political",
-      "description": "The Ottoman Empire under Sultan Murad III (r. 1574\u20131595) was in the final years of his reign. Murad III was known for his administrative reforms and military campaigns, though his reign also saw the beginning of Ottoman decline relative to European powers. The 1590s saw the Ottoman Empire engaged in military campaigns against the Safavid Persians and facing increasing pressure from the Habsburgs. Murad III's reign was marked by significant administrative and military activity, but also by the beginning of the Ottoman military-administrative system's decline.",
+      "description": "Toyotomi Hideyoshi continues the consolidation of power over the Japanese daimyo (feudal lords), effectively ending the Sengoku period of civil war. By 1590, most major daimyo have submitted to Hideyoshi's authority, though some retain significant regional power. Hideyoshi's unification is based on personal authority and military power rather than institutional structures, which will create succession problems after his death.",
       "key_figures": [
-        "Sultan Murad III (Ottoman ruler)",
-        "Ibrahim Pasha (Ottoman Grand Vizier)"
+        "Toyotomi Hideyoshi (Regent of Japan)"
       ],
       "sources": [
         {
-          "name": "Ottoman court records and administrative documents",
+          "name": "Taik\u014dki and other Japanese chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Daimyo records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Hideyoshi's consolidation is well-attested in Japanese records.",
+      "cross_references": [
+        "1591-002 (continuation of consolidation)"
+      ]
+    },
+    {
+      "id": "1590-006",
+      "title": "Portuguese colonial expansion in Southeast Asia; establishment of trading posts",
+      "region": "Southeast Asia (Malacca, Timor, Philippines)",
+      "coordinates_approx": "2.2,102.2",
+      "category": "exploration",
+      "description": "Portuguese colonial activities in Southeast Asia continue to expand, with the establishment and consolidation of trading posts and colonial settlements. Malacca remains the key Portuguese base in the region. Portuguese merchants and missionaries extend their influence in the Philippines and the Indonesian archipelago, competing with indigenous sultanates and later with Dutch traders.",
+      "key_figures": [
+        "Portuguese colonial administrators and merchants"
+      ],
+      "sources": [
+        {
+          "name": "Portuguese colonial records (Arquivo Hist\u00f3rico Ultramarino)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Later Ottoman histories",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Contemporary Portuguese chronicles",
+          "type": "chronicle",
+          "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The broad context of Ottoman rule under Murad III is well-documented, though specific events in 1590 are less precisely dated.",
-      "cross_references": [
-        "1593-002 (Long Turkish War begins)"
-      ]
+      "certainty": "confirmed",
+      "certainty_note": "Portuguese colonial activities are well-documented in Portuguese archives.",
+      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The narrative of Henry IV's military dominance in 1590 can overstate his actual power\u2014the failure to capture Paris and the need for Spanish relief forces demonstrate the continued strength of Catholic resistance. The abandonment of the Roanoke Colony is sometimes attributed to English incompetence, but modern scholarship recognises the significant challenges of early colonial ventures and the impact of the Spanish Armada crisis on English resources. The Ottoman Empire's decline is sometimes portrayed as inevitable, but the Ottomans remained a major power and would continue to be so for centuries.",
-  "historiographic_note": "The documentation for 1590 is rich, particularly for European events. French, Spanish, English, and Portuguese sources are abundant and contemporary. Asian sources are well-preserved in Chinese and Japanese records but are less frequently consulted in Western historiography. The historical record is shaped by the dominance of court-sponsored chronicles and the perspective of literate elites. Indigenous perspectives from the Americas and Asia are largely absent from contemporary written sources. The period reflects the early modern transition from medieval to modern state structures, with significant bias toward political and military events over social and economic history. The abandonment of the Roanoke Colony is documented primarily from the English perspective, with limited indigenous accounts.",
+  "disconfirming_evidence": "The significance of the Battle of Ivry is sometimes overstated as a decisive turning point; while important, the Wars of Religion continued for years after this battle, and Henry IV's consolidation of power was gradual rather than immediate. The characterization of Hideyoshi's consolidation as 'complete' by 1590 is somewhat conventional; some daimyo retained significant autonomy, and the stability was dependent on Hideyoshi's personal authority.",
+  "historiographic_note": "Documentation for 1590 is rich for European and East Asian events. European sources reflect the perspectives of major powers (Spain, France, England, Dutch Republic) and are heavily weighted toward political and military history. Asian sources are primarily administrative records and later chronicles. Sub-Saharan African and interior American events are severely underrepresented due to limited surviving written records.",
   "graph_edges": [
     {
       "from": "1590-001",
       "to": "1590-002",
-      "relation": "led_to",
-      "note": "The victory at Ivry led to the Siege of Paris"
+      "relation": "contemporary_with",
+      "note": "Ivry battle and Paris siege are part of the same campaign"
     },
     {
-      "from": "1590-002",
-      "to": "1591-002",
+      "from": "1590-001",
+      "to": "1598-001",
       "relation": "led_to",
-      "note": "The Siege of Paris continued into 1591"
+      "note": "Henry IV's consolidation leads to Edict of Nantes"
     },
     {
       "from": "1590-003",
-      "to": "1592-001",
+      "to": "1648-001",
       "relation": "led_to",
-      "note": "Hideyoshi's consolidation of power led to the invasion of Korea in 1592"
-    },
-    {
-      "from": "1590-006",
-      "to": "1607-001",
-      "relation": "led_to",
-      "note": "The failure of Roanoke delayed English colonisation until Jamestown (1607)"
+      "note": "Dutch Revolt continues until Peace of Westphalia"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T18:18:05.878443",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

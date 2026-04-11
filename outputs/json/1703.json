@@ -1,796 +1,168 @@
 {
   "year": 1703,
   "year_label": "1703 CE",
-  "era_context": "1703 CE falls within the early eighteenth century, a period of consolidating European state power, expanding oceanic empires, and intensifying global trade networks. The War of the Spanish Succession (1701\u20131714) was reshaping the balance of power in Western Europe, while the Ottoman Empire faced mounting pressure on its frontiers and the Safavid dynasty in Persia was entering its final decades of coherence. In East Asia, the Qing dynasty under the Kangxi Emperor was at the height of its early consolidation, and Tokugawa Japan maintained its policy of controlled foreign contact. The Scientific Revolution was giving way to early Enlightenment thought, and the Atlantic slave trade was near its peak volume.",
+  "era_context": "The War of Spanish Succession (1701\u20131714) was in its third year, with major military campaigns in Europe and North America. The Qing Dynasty under Kangxi was at its height; the Ottoman Empire remained a significant regional power; and European colonial powers were consolidating control in the Americas and Asia. The Great Northern War (1700\u20131721) between Russia and Sweden was ongoing.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (interior kingdoms such as Oyo, Dahomey, and Great Zimbabwe successor states are underrepresented in European-language training data for this period)",
-    "Southeast Asia (Ayutthaya Kingdom, Mataram Sultanate \u2014 events likely occurred but are underrepresented)",
-    "Central Asia and the Kazakh Steppe (Dzungar-Kazakh conflicts are poorly documented in Western sources)",
-    "Mesoamerica and Andean regions (post-conquest indigenous political activity is sparse in accessible records)",
-    "Oceania (no documented contact events for this year in training data)"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1703-001",
-      "title": "Great Storm of 1703 devastates Britain and the North Sea",
-      "region": "British Isles and North Sea coast, Western Europe",
-      "coordinates_approx": "51.5\u00b0N, 0.1\u00b0W (London epicentre of damage); storm track across southern England and the Channel",
-      "category": "environmental",
-      "description": "Between 26\u201327 November 1703 (Old Style Julian; 7\u20138 December Gregorian), the most powerful extratropical cyclone in recorded British history struck southern England and the North Sea coast. Wind speeds are estimated to have exceeded 120 mph in gusts; approximately 8,000\u201315,000 people died, including over 1,500 sailors in the Royal Navy alone when thirteen warships were lost. The Eddystone Lighthouse off Plymouth was destroyed, killing its builder Henry Winstanley. Across England, an estimated 400 windmills were destroyed, 800 houses demolished, and 100 churches damaged. Daniel Defoe conducted what is arguably the first systematic journalistic survey of a natural disaster, collecting eyewitness accounts that he published in 1704 as 'The Storm,' a foundational text in both journalism and meteorology.",
+      "title": "Founding of St. Petersburg",
+      "region": "Neva River delta, Russia",
+      "coordinates_approx": "59.93, 30.36",
+      "category": "political",
+      "description": "On 16 May 1703 (27 May in the Julian calendar used in Russia), Peter I of Russia founded the fortress of St. Peter and Paul on the Neva River delta, marking the beginning of the city of St. Petersburg. The fortress was constructed as part of Peter's campaign to secure control of the Baltic coast during the Great Northern War against Sweden. St. Petersburg would become Peter's new capital, replacing Moscow, and would develop into a major European city. The founding represented Peter's determination to modernize Russia and establish it as a European power.",
       "key_figures": [
-        "Daniel Defoe (journalist and author; compiled eyewitness accounts)",
-        "Henry Winstanley (engineer; died in destruction of Eddystone Lighthouse)",
-        "Queen Anne (reigning monarch; issued national day of fasting in response)"
+        "Peter I (Peter the Great), Tsar of Russia",
+        "Military engineers and architects"
       ],
       "sources": [
         {
-          "name": "Daniel Defoe, 'The Storm: or, a Collection of the most Remarkable Casualties and Disasters which happen'd in the Late Dreadful Tempest' (1704)",
+          "name": "Russian imperial records and Peter's correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Lamb, H.H., 'Historic Storms of the North Sea, British Isles and Northwest Europe' (1991); historiographic consensus on meteorological reconstruction",
-          "type": "historiographic_consensus",
+          "name": "Later Russian historiographic compilations",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Admiralty records and parish registers cited in Brayne, Martin, 'The Greatest Storm' (2002)",
-          "type": "chronicle",
+          "name": "Historiographic consensus on Peter the Great and Russian history",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Exceptionally well-documented by contemporary sources including Defoe's systematic collection, Admiralty loss records, and parish burial registers. Date is given in Julian calendar (Old Style) in original sources; Gregorian conversion adds 11 days.",
-      "cross_references": [
-        "1706-Eddystone-replacement-lighthouse"
-      ]
+      "certainty_note": "The founding of St. Petersburg is precisely documented in Russian imperial records. The date is well-established, though the Julian/Gregorian calendar difference must be noted.",
+      "cross_references": []
     },
     {
       "id": "1703-002",
-      "title": "Peter the Great founds Saint Petersburg",
-      "region": "Russian Empire, Baltic region",
-      "coordinates_approx": "59.95\u00b0N, 30.32\u00b0E",
-      "category": "political",
-      "description": "On 27 May 1703 (Julian; 7 June Gregorian), Tsar Peter I of Russia laid the foundation of the Peter and Paul Fortress on Zayachy Island in the Neva delta, marking the founding of Saint Petersburg. The city was conceived as Russia's 'window to the West' \u2014 a purpose-built capital designed to project European-style modernity and to secure Russian access to the Baltic Sea, which had been contested with Sweden during the ongoing Great Northern War. Construction was carried out under brutal conditions by conscripted serfs and prisoners of war, with tens of thousands dying during the early building phases. Saint Petersburg would become the Russian imperial capital in 1712 and remain so until 1918, fundamentally reorienting Russian political culture, architecture, and foreign policy toward Europe.",
+      "title": "Battle of Hochst\u00e4dt",
+      "region": "Bavaria, Holy Roman Empire",
+      "coordinates_approx": "48.62, 10.38",
+      "category": "military",
+      "description": "On 20 September 1703, French forces under Marshal Villars defeated an Imperial army under General Styrum near Hochst\u00e4dt in Bavaria. The French victory temporarily secured French control of Bavaria and demonstrated French military capability in the region. However, the victory did not decisively resolve the Bavarian campaign, and the strategic situation remained contested.",
       "key_figures": [
-        "Peter I 'the Great' (Tsar of Russia; founder)",
-        "Domenico Trezzini (Swiss-Italian architect; principal designer of early city structures)",
-        "Alexander Menshikov (Peter's chief favourite; first Governor-General of Saint Petersburg)"
+        "Claude-Louis-Robert de Villars (French commander)",
+        "General Styrum (Imperial commander)"
       ],
       "sources": [
         {
-          "name": "Russian Imperial court records and Peter I's correspondence (published in Pis'ma i bumagi imperatora Petra Velikogo)",
+          "name": "French and Imperial military records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Hughes, Lindsey, 'Russia in the Age of Peter the Great' (1998); historiographic consensus",
+          "name": "Military histories of the War of Spanish Succession",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Founding date is well-attested in Russian imperial records. The Julian-to-Gregorian conversion is standard and uncontested. Some historians note the 'founding' was a process rather than a single act, but 27 May 1703 OS is the conventional date.",
-      "cross_references": [
-        "1700-001-Great-Northern-War-begins",
-        "1712-Saint-Petersburg-capital"
-      ]
+      "certainty_note": "Well-documented military engagement with contemporary accounts from multiple sources. Date and outcome are uncontested.",
+      "cross_references": []
     },
     {
       "id": "1703-003",
-      "title": "Forty-Seven R\u014dnin incident (Genroku Ak\u014d incident) in Japan",
-      "region": "Tokugawa Japan",
-      "coordinates_approx": "35.65\u00b0N, 139.75\u00b0E (Edo, site of the vendetta)",
-      "category": "cultural",
-      "description": "On 14 January 1703 (Gregorian; 14th day of the 12th month of Genroku 15 in the Japanese lunisolar calendar), forty-seven former retainers (r\u014dnin) of the late Lord Asano Naganori stormed the Edo mansion of Kira Yoshinaka, killed him, and placed his severed head on their master's grave at Sengaku-ji temple. The act was a vendetta in response to Asano's forced suicide in 1701 after he drew his sword against Kira within Edo Castle \u2014 an act for which Asano alone was punished. The r\u014dnin then surrendered to authorities and were ordered to commit ritual suicide (seppuku) in February 1703. The incident immediately became a cultural touchstone for debates about loyalty (ch\u016b), duty, and the tension between samurai ethics (bushid\u014d) and Tokugawa law, inspiring countless kabuki plays, bunraku puppet dramas, and later films.",
+      "title": "Kangxi Emperor Receives Papal Legate",
+      "region": "Beijing, Qing China",
+      "coordinates_approx": "39.90, 116.41",
+      "category": "religious",
+      "description": "In 1703, the Kangxi Emperor received a papal legate (representative of the Pope) at the imperial court. This diplomatic exchange reflected the complex relationship between the Qing court and the Catholic Church, particularly regarding the Chinese Rites Controversy. The Kangxi Emperor was interested in Western scientific knowledge brought by Jesuit missionaries but was also concerned about the religious and political implications of Christian missionary activity.",
       "key_figures": [
-        "\u014cishi Kuranosuke (leader of the forty-seven r\u014dnin)",
-        "Asano Naganori (deceased lord whose death motivated the vendetta)",
-        "Kira Yoshinaka (target of the vendetta; killed)",
-        "Tokugawa Tsunayoshi (Fifth Sh\u014dgun; ordered the r\u014dnin's seppuku)"
+        "Kangxi Emperor",
+        "Papal legate (name not consistently recorded)"
       ],
       "sources": [
         {
-          "name": "Tokugawa bakufu official records (Tokugawa jikki) and contemporary diaries including Miyake Hidetoshi's account",
+          "name": "Qing imperial records and Jesuit correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ikegami, Eiko, 'The Taming of the Samurai' (1995); historiographic analysis",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Ch\u016bshingura dramatic tradition (kabuki and bunraku adaptations from 1748 onward)",
-          "type": "later_compilation",
+          "name": "Later Qing historiographic compilations",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The event is documented in contemporary bakufu records and multiple diaries. The Gregorian date is a standard conversion from the Japanese lunisolar calendar. The cultural elaboration in later drama has layered legendary elements onto the historical core, but the core facts are well-attested.",
-      "cross_references": [
-        "1701-Asano-incident",
-        "1748-Chushingura-kabuki-premiere"
-      ]
+      "certainty": "probable",
+      "certainty_note": "Diplomatic exchanges between the Kangxi court and the Catholic Church are well-documented; however, specific events in 1703 are less precisely dated than broader patterns of engagement.",
+      "cross_references": []
     },
     {
       "id": "1703-004",
-      "title": "Treaty of Methuen between England and Portugal",
-      "region": "Western Europe (England and Portugal)",
-      "coordinates_approx": "38.72\u00b0N, 9.14\u00b0W (Lisbon, where signed)",
-      "category": "economic",
-      "description": "On 27 December 1703 (Gregorian), the Methuen Treaty was signed between England and Portugal, establishing a bilateral trade arrangement whereby Portugal agreed to admit English woollen cloth free of prohibition, and England agreed to admit Portuguese wines at one-third less duty than French wines. The treaty was negotiated by John Methuen, English ambassador to Lisbon, partly as a diplomatic instrument to secure Portugal's alignment with the Grand Alliance against France and Spain in the War of the Spanish Succession. Economically, it accelerated the dominance of port wine in the English market and deepened Anglo-Portuguese commercial ties, while critics \u2014 including later economists such as Adam Smith \u2014 argued it distorted both economies by discouraging domestic Portuguese textile production. The treaty became a canonical example in debates about free trade and comparative advantage.",
+      "title": "Queen Anne's War: Raid on Wells, Maine",
+      "region": "Maine, British North America",
+      "coordinates_approx": "43.91, -70.31",
+      "category": "military",
+      "description": "In August 1703, French and Native American forces raided the settlement of Wells, Maine, killing several colonists and taking others captive. The raid was part of Queen Anne's War (1702\u20131713) and demonstrated the ongoing conflict between European colonial powers and their Native American allies on the frontier.",
       "key_figures": [
-        "John Methuen (English Ambassador to Portugal; negotiator)",
-        "King Pedro II of Portugal (signatory)",
-        "Queen Anne of England (under whose authority the treaty was concluded)"
+        "Native American and French raiders (names not consistently recorded)",
+        "Colonial militia and settlers"
       ],
       "sources": [
         {
-          "name": "Treaty text, published in Dumont, Jean, 'Corps universel diplomatique du droit des gens' (1731); original treaty in Portuguese and English state archives",
+          "name": "Colonial records and militia reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Adam Smith, 'The Wealth of Nations' (1776), Book IV, Chapter 6 \u2014 critical analysis of the treaty",
-          "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "Fisher, H.E.S., 'The Portugal Trade: A Study of Anglo-Portuguese Commerce 1700\u20131770' (1971)",
-          "type": "historiographic_consensus",
+          "name": "Later colonial histories",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Treaty text survives in both English and Portuguese state archives. Date and terms are uncontested.",
-      "cross_references": [
-        "1701-Grand-Alliance-formation",
-        "1713-Utrecht-peace"
-      ]
+      "certainty": "probable",
+      "certainty_note": "The raid is attested in colonial records, though specific details vary between sources. The general occurrence and approximate date are well-established.",
+      "cross_references": []
     },
     {
       "id": "1703-005",
-      "title": "War of the Spanish Succession: Portugal joins the Grand Alliance",
-      "region": "Western Europe (Iberian Peninsula and diplomatic sphere)",
-      "coordinates_approx": "38.72\u00b0N, 9.14\u00b0W (Lisbon)",
-      "category": "military",
-      "description": "In May 1703, Portugal formally joined the Grand Alliance (England, the Dutch Republic, and the Holy Roman Empire) against France and the Bourbon claimant to the Spanish throne, Philip V, signing the Treaty of Lisbon (also called the Grand Alliance Treaty with Portugal). This reversed Portugal's earlier neutrality and opened the Iberian Peninsula as a theatre of war, allowing Allied forces to use Lisbon as a base for operations in Spain. The shift was secured partly through English diplomatic pressure and the commercial incentives that would be formalised in the Methuen Treaty later that year. Portugal's entry significantly complicated Bourbon control of the peninsula and enabled the Allied campaign to place Archduke Charles of Austria on the Spanish throne, though ultimately unsuccessfully.",
-      "key_figures": [
-        "King Pedro II of Portugal",
-        "John Methuen (English diplomat; key negotiator)",
-        "Archduke Charles of Austria (Habsburg claimant to Spanish throne)",
-        "Louis XIV of France (opposing power)"
-      ],
-      "sources": [
-        {
-          "name": "Treaty of Lisbon (1703), preserved in English and Portuguese state archives; cited in Stanhope, James, 'History of England' (1836)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Lynn, John A., 'The Wars of Louis XIV' (1999); historiographic consensus",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Treaty text survives. The diplomatic sequence is well-documented in English, Dutch, and Portuguese state papers.",
-      "cross_references": [
-        "1703-004",
-        "1701-Grand-Alliance",
-        "1713-Utrecht"
-      ]
-    },
-    {
-      "id": "1703-006",
-      "title": "Battle of H\u00f6chst\u00e4dt (First) and Bavarian campaign in the War of the Spanish Succession",
-      "region": "Holy Roman Empire (Bavaria), Central Europe",
-      "coordinates_approx": "48.68\u00b0N, 10.56\u00b0E (H\u00f6chst\u00e4dt an der Donau)",
-      "category": "military",
-      "description": "In September 1703, a Franco-Bavarian force under Marshal Villars and Elector Maximilian II Emanuel of Bavaria defeated an Imperial army under Count Styrum at the Battle of H\u00f6chst\u00e4dt (20 September 1703), threatening Vienna and nearly knocking the Holy Roman Emperor out of the war. This battle is sometimes called the 'First Battle of H\u00f6chst\u00e4dt' to distinguish it from the more famous 'Battle of Blenheim' fought at the same location in August 1704. The Franco-Bavarian success in 1703 represented the high-water mark of Louis XIV's strategic position in the war and created the crisis that prompted Marlborough's famous march to the Danube in 1704. The battle demonstrated the vulnerability of the Habsburg core territories and the effectiveness of Franco-Bavarian coordination.",
-      "key_figures": [
-        "Marshal Claude-Louis-Hector de Villars (French commander)",
-        "Maximilian II Emanuel, Elector of Bavaria (Bavarian commander)",
-        "Count Styrum (Imperial commander; defeated)"
-      ],
-      "sources": [
-        {
-          "name": "Chandler, David, 'Marlborough as Military Commander' (1973); historiographic consensus on the 1703 Danube campaign",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Contemporary French military dispatches cited in Saint-Simon, 'M\u00e9moires' (written c.1694\u20131723)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Battle is well-attested in French, Bavarian, and Imperial military records. Date and outcome are uncontested.",
-      "cross_references": [
-        "1704-Battle-of-Blenheim"
-      ]
-    },
-    {
-      "id": "1703-007",
-      "title": "Villars and Bavarian forces fail to exploit H\u00f6chst\u00e4dt; strategic opportunity lost",
-      "region": "Holy Roman Empire (Bavaria/Austria border region)",
-      "coordinates_approx": "48.2\u00b0N, 13.0\u00b0E (Inn River region)",
-      "category": "military",
-      "description": "Following the victory at H\u00f6chst\u00e4dt in September 1703, Marshal Villars urged an immediate march on Vienna, arguing the Imperial capital was within reach. Elector Maximilian II Emanuel refused, preferring to consolidate Bavarian territorial gains in the Tyrol. The resulting strategic paralysis led to a bitter quarrel between Villars and the Elector; Villars was recalled to France and replaced by Marshal Marsin. This failure to press the advantage after H\u00f6chst\u00e4dt is considered by military historians a decisive missed opportunity that allowed the Allies to regroup, ultimately leading to the catastrophic Franco-Bavarian defeat at Blenheim in 1704. The episode illustrates the structural tensions between French strategic ambitions and the dynastic interests of allied princes.",
-      "key_figures": [
-        "Marshal Villars (French commander; recalled after dispute)",
-        "Maximilian II Emanuel, Elector of Bavaria",
-        "Marshal Marsin (Villars's replacement)"
-      ],
-      "sources": [
-        {
-          "name": "Villars, 'M\u00e9moires du Mar\u00e9chal de Villars' (published posthumously, 1734)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Chandler, David, 'Marlborough as Military Commander' (1973)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The quarrel and recall are documented in Villars's own memoirs and French court records. The counterfactual significance is historiographic interpretation, not established fact.",
-      "cross_references": [
-        "1703-006",
-        "1704-Battle-of-Blenheim"
-      ]
-    },
-    {
-      "id": "1703-008",
-      "title": "Camisard War in the C\u00e9vennes reaches peak intensity",
-      "region": "Kingdom of France (Languedoc, C\u00e9vennes region)",
-      "coordinates_approx": "44.1\u00b0N, 3.8\u00b0E (C\u00e9vennes mountains)",
-      "category": "religious",
-      "description": "The Camisard uprising \u2014 a Protestant (Huguenot) guerrilla rebellion in the C\u00e9vennes mountains of southern France \u2014 reached its most intense phase in 1702\u20131703 following the revocation of the Edict of Nantes in 1685. In 1703, royal forces under Marshals Montrevel and later Villars conducted large-scale punitive operations, burning villages and deporting populations, while Camisard leaders Jean Cavalier and Roland Laporte maintained effective resistance. The conflict was simultaneously a religious war, a social uprising of poor Protestant peasants, and a security crisis for Louis XIV during the War of the Spanish Succession. Villars eventually negotiated a partial settlement with Cavalier in 1704, though sporadic violence continued until 1710. The Camisard War became a reference point in later European debates about religious toleration and state violence.",
-      "key_figures": [
-        "Jean Cavalier (principal Camisard military leader)",
-        "Roland Laporte (Camisard leader; killed 1704)",
-        "Marshal Montrevel (royal commander 1703; known for brutal reprisals)",
-        "Marshal Villars (replaced Montrevel; negotiated with Cavalier)"
-      ],
-      "sources": [
-        {
-          "name": "Court de G\u00e9belin, Antoine, and contemporary Protestant accounts compiled in Misson, Maximilien, 'Le Th\u00e9\u00e2tre sacr\u00e9 des C\u00e9vennes' (1707)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Joutard, Philippe, 'La l\u00e9gende des Camisards' (1977); historiographic consensus",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Camisard War is extensively documented in French royal military records, Protestant diaspora accounts, and contemporary pamphlets. The 1703 phase is well-attested.",
-      "cross_references": [
-        "1685-Revocation-Edict-of-Nantes",
-        "1704-Cavalier-negotiation"
-      ]
-    },
-    {
-      "id": "1703-009",
-      "title": "Great Northern War: Swedish and Russian operations in the Baltic",
-      "region": "Baltic region (Estonia, Ingria, Finland)",
-      "coordinates_approx": "59.4\u00b0N, 24.7\u00b0E (Tallinn/Reval region)",
-      "category": "military",
-      "description": "In 1703, the Great Northern War (1700\u20131721) continued with Peter the Great consolidating Russian control over Ingria following the capture of N\u00f6teborg (1702) and Nyenschantz (May 1703), the latter being the site immediately preceding the founding of Saint Petersburg. Swedish forces under Charles XII were largely occupied in Poland, having defeated Augustus II of Saxony-Poland and installed Stanis\u0142aw Leszczy\u0144ski as a client king. Russia's seizure of the Neva delta in 1703 was strategically decisive: it gave Russia permanent access to the Baltic and made the founding of Saint Petersburg possible. Sweden's inability to contest this loss while engaged in Poland represented a critical strategic overextension.",
-      "key_figures": [
-        "Peter I of Russia (Tsar; directing Baltic operations)",
-        "Charles XII of Sweden (King; occupied in Polish campaign)",
-        "Field Marshal Boris Sheremetev (Russian commander in Baltic operations)"
-      ],
-      "sources": [
-        {
-          "name": "Englund, Peter, 'The Battle That Shook Europe: Poltava and the Birth of the Russian Empire' (2003); historiographic consensus on the 1703 Baltic campaign",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Peter I's military journals (Pokhodny zhurnal) for 1703",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Military operations are documented in Russian and Swedish state archives. The strategic significance is historiographic consensus.",
-      "cross_references": [
-        "1703-002",
-        "1709-Battle-of-Poltava"
-      ]
-    },
-    {
-      "id": "1703-010",
-      "title": "Edirne Event (Edirne Vakas\u0131): Ottoman palace coup deposes Mustafa II",
-      "region": "Ottoman Empire (Edirne/Adrianople)",
-      "coordinates_approx": "41.68\u00b0N, 26.56\u00b0E (Edirne)",
-      "category": "political",
-      "description": "In August 1703, a major rebellion by Janissary troops and other military forces in Edirne (Adrianople) forced Sultan Mustafa II to abdicate in favour of his brother Ahmed III. The uprising, known in Ottoman historiography as the Edirne Vakas\u0131 (Edirne Event), was triggered by arrears in military pay, resentment at the Sultan's prolonged residence in Edirne rather than Istanbul, and the influence of the \u015eeyh\u00fclislam Feyzullah Efendi, who was seen as monopolising power and patronage. Feyzullah Efendi was killed by the rebels. The event inaugurated the reign of Ahmed III (1703\u20131730), which would become known as the 'Tulip Era' (Lale Devri) \u2014 a period of relative peace, cultural flourishing, and early Ottoman engagement with European ideas before ending in another coup in 1730.",
-      "key_figures": [
-        "Mustafa II (deposed Sultan)",
-        "Ahmed III (new Sultan; reigned 1703\u20131730)",
-        "Feyzullah Efendi (\u015eeyh\u00fclislam; killed by rebels)",
-        "\u00c7al\u0131k Ahmed A\u011fa (Janissary leader of the rebellion)"
-      ],
-      "sources": [
-        {
-          "name": "Silahdar F\u0131nd\u0131kl\u0131l\u0131 Mehmed A\u011fa, 'Nusretname' (contemporary Ottoman chronicle)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Abou-El-Haj, Rifaat Ali, 'The 1703 Rebellion and the Structure of Ottoman Politics' (1984)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The event is documented in multiple contemporary Ottoman chronicles and is uncontested in Ottoman historiography. The date (August 1703) is confirmed by cross-referencing Ottoman and European diplomatic sources.",
-      "cross_references": [
-        "1718-Treaty-of-Passarowitz",
-        "1730-Patrona-Halil-revolt"
-      ]
-    },
-    {
-      "id": "1703-011",
-      "title": "Genroku earthquake devastates Sagami Bay region, Japan",
-      "region": "Tokugawa Japan (Kant\u014d region)",
-      "coordinates_approx": "35.1\u00b0N, 139.8\u00b0E (Sagami Bay epicentre)",
+      "title": "Great Storm of 1703",
+      "region": "England and Western Europe",
+      "coordinates_approx": "51.5, -0.1",
       "category": "environmental",
-      "description": "On 31 December 1703 (Gregorian; 23rd day of the 11th month of Genroku 16 in the Japanese lunisolar calendar), a massive earthquake estimated at magnitude 8.0\u20138.2 struck the Sagami Bay region of Japan, triggering a devastating tsunami. The earthquake and subsequent tsunami killed an estimated 5,000\u201310,000 people in the B\u014ds\u014d Peninsula and surrounding areas, with some estimates reaching higher. The town of Odawara was largely destroyed. The event occurred just weeks before the Forty-Seven R\u014dnin vendetta (see 1703-003), making late 1703 an extraordinarily turbulent period in Tokugawa Japan. The Genroku earthquake is significant in the history of Japanese seismology as one of the earliest well-documented great earthquakes in the Sagami Trough, a subduction zone that also produced the catastrophic 1923 Great Kant\u014d Earthquake.",
-      "key_figures": [
-        "Tokugawa Tsunayoshi (Fifth Sh\u014dgun; presiding over disaster response)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary Japanese diaries and domain records cited in Usami, Tatsuo, 'Study of Historical Earthquakes in Japan' (1996)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Ando, Masataka, et al., seismological reconstruction studies (1970s\u20132000s)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The earthquake is documented in multiple contemporary Japanese records. Magnitude estimates are based on modern seismological reconstruction and carry uncertainty of \u00b10.3 magnitude units. Death toll estimates vary significantly across sources.",
-      "cross_references": [
-        "1703-003",
-        "1923-Great-Kanto-Earthquake"
-      ]
-    },
-    {
-      "id": "1703-012",
-      "title": "Isaac Newton elected President of the Royal Society",
-      "region": "Kingdom of England (London)",
-      "coordinates_approx": "51.5\u00b0N, 0.1\u00b0W (London)",
-      "category": "scientific",
-      "description": "In November 1703, Isaac Newton was elected President of the Royal Society of London, a position he would hold until his death in 1727. Newton's election marked the consolidation of his public scientific authority following decades of relative withdrawal from public life. In 1704, he published 'Opticks,' his major work on light and colour, which he had withheld during the lifetime of his rival Robert Hooke (who died in March 1703). Newton's long presidency transformed the Royal Society into an instrument of his personal scientific authority and shaped the direction of British natural philosophy for a generation. His presidency also coincided with the bitter priority dispute with Leibniz over the invention of calculus.",
-      "key_figures": [
-        "Isaac Newton (natural philosopher; elected President)",
-        "Robert Hooke (rival; died March 1703, shortly before Newton's election)",
-        "Hans Sloane (Secretary of the Royal Society)"
-      ],
-      "sources": [
-        {
-          "name": "Royal Society Journal Book (minutes of meetings), November 1703",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Westfall, Richard S., 'Never at Rest: A Biography of Isaac Newton' (1980)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Election is recorded in the Royal Society's own minutes. The connection to Hooke's death and the subsequent publication of Opticks is well-established in Newton scholarship.",
-      "cross_references": [
-        "1687-Principia-Mathematica",
-        "1704-Opticks-publication",
-        "1712-Leibniz-calculus-dispute"
-      ]
-    },
-    {
-      "id": "1703-013",
-      "title": "Robert Hooke dies; Newton's Opticks path cleared",
-      "region": "Kingdom of England (London)",
-      "coordinates_approx": "51.5\u00b0N, 0.1\u00b0W",
-      "category": "scientific",
-      "description": "Robert Hooke, one of the most versatile natural philosophers of the seventeenth century \u2014 known for Hooke's Law of elasticity, microscopy (Micrographia, 1665), and contributions to astronomy, architecture, and mechanics \u2014 died on 3 March 1703 in London. Hooke had been Newton's most persistent critic and rival within the Royal Society, particularly regarding the nature of light and the priority of gravitational theory. Newton had withheld his 'Opticks' manuscript from publication specifically to avoid Hooke's criticism. Hooke's death removed this obstacle; Newton published 'Opticks' in 1704 and was elected Royal Society President in November 1703. Subsequent Newton-dominated historiography systematically diminished Hooke's reputation, and even his portrait was allegedly destroyed \u2014 a claim that remains debated but reflects the intensity of the rivalry.",
-      "key_figures": [
-        "Robert Hooke (natural philosopher; died 3 March 1703)",
-        "Isaac Newton (rival)"
-      ],
-      "sources": [
-        {
-          "name": "Hooke's diary and correspondence, published in Robinson, H.W. and Adams, W. (eds.), 'The Diary of Robert Hooke' (1935)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Chapman, Allan, 'England's Leonardo: Robert Hooke and the Seventeenth-Century Scientific Revolution' (2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Death date is confirmed by contemporary records. The claim that Newton destroyed Hooke's portrait is plausible but not definitively proven; it is noted as disputed in the disconfirming evidence section.",
-      "cross_references": [
-        "1703-012",
-        "1704-Opticks"
-      ]
-    },
-    {
-      "id": "1703-014",
-      "title": "Founding of the Prussian Academy of Sciences (Berlin Academy)",
-      "region": "Kingdom of Prussia (Berlin)",
-      "coordinates_approx": "52.52\u00b0N, 13.40\u00b0E (Berlin)",
-      "category": "scientific",
-      "description": "The Berlin Society of Sciences (Soziet\u00e4t der Wissenschaften), founded in 1700 at the initiative of Gottfried Wilhelm Leibniz and under the patronage of Elector Frederick III of Brandenburg (who became King Frederick I of Prussia in 1701), held its first formal sessions and began substantive operations in 1703. Leibniz served as its first president. The Academy was modelled on the Royal Society of London and the Acad\u00e9mie des Sciences in Paris, and was intended to promote scientific research, the German language, and Prussian cultural prestige. It later became the Prussian Academy of Sciences (Preu\u00dfische Akademie der Wissenschaften) and was a major institution of European Enlightenment science.",
-      "key_figures": [
-        "Gottfried Wilhelm Leibniz (philosopher and mathematician; founding president)",
-        "Frederick I of Prussia (royal patron)"
-      ],
-      "sources": [
-        {
-          "name": "Harnack, Adolf von, 'Geschichte der K\u00f6niglich Preussischen Akademie der Wissenschaften zu Berlin' (1900); based on Academy archives",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Leibniz's correspondence regarding the Academy (published in Akademie-Ausgabe)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The Academy was formally chartered in 1700; the 1703 date refers to its early operational phase. The exact year of 'founding' versus 'first operations' is a matter of institutional historiography rather than factual dispute.",
-      "cross_references": [
-        "1700-Berlin-Academy-charter",
-        "1712-Leibniz-calculus-dispute"
-      ]
-    },
-    {
-      "id": "1703-015",
-      "title": "Safavid Persia: Reign of Sultan Husayn and growing instability",
-      "region": "Safavid Empire (Persia)",
-      "coordinates_approx": "32.66\u00b0N, 51.67\u00b0E (Isfahan, Safavid capital)",
-      "category": "political",
-      "description": "In 1703, Shah Sultan Husayn (r. 1694\u20131722) continued his reign over the Safavid Empire, which was entering a period of accelerating decline. Sultan Husayn was known for his piety and his deference to Shia clerical authority, particularly the influential jurist Muhammad Baqir Majlisi (who had died in 1699 but whose influence persisted). His reign was marked by fiscal mismanagement, military neglect, and the persecution of Sunni Muslims and Sufis, which alienated peripheral populations including the Afghan Ghilzai tribes. By 1703, the structural weaknesses that would lead to the Afghan invasion of 1722 and the effective end of Safavid rule were already developing. No single dramatic event in Persia in 1703 is documented in accessible sources, but the year falls within a critical decade of Safavid deterioration.",
-      "key_figures": [
-        "Shah Sultan Husayn (Safavid Shah)",
-        "Mir Vais Hotak (Ghilzai Afghan leader; rising to prominence in Kandahar in this period)"
-      ],
-      "sources": [
-        {
-          "name": "Krusinski, Judasz Tadeusz, 'The History of the Late Revolutions of Persia' (1728; written by a Jesuit missionary present in Persia)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Floor, Willem, 'The Afghan Occupation of Safavid Persia 1721\u20131729' (1998); historiographic consensus",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The general trajectory of Safavid decline in this period is well-documented. No specific event in 1703 is pinpointed; this entry describes the era context for Persia in 1703.",
-      "cross_references": [
-        "1722-Afghan-invasion-of-Persia",
-        "1699-Death-of-Majlisi"
-      ]
-    },
-    {
-      "id": "1703-016",
-      "title": "Qing China under Kangxi Emperor: Southern tours and consolidation",
-      "region": "Qing Empire (China)",
-      "coordinates_approx": "32.06\u00b0N, 118.79\u00b0E (Nanjing; southern tour route)",
-      "category": "political",
-      "description": "In 1703, the Kangxi Emperor (r. 1661\u20131722) was in the mature phase of his reign, having completed several of his famous Southern Tours (Nanxun) to inspect the Yellow River flood control works, demonstrate imperial benevolence, and integrate the formerly resistant Jiangnan elite into the Qing political order. The Kangxi Emperor was also engaged in the construction of the Chengde Mountain Resort (Bishu Shanzhuang) in Hebei, begun in 1703, which served as a summer capital and a site for receiving Inner Asian tributary rulers. The year 1703 saw no single dramatic event in China but represents the height of Kangxi's personal rule \u2014 a period of territorial consolidation, literary projects (the Kangxi Dictionary was in preparation), and careful management of the Dzungar threat in Central Asia.",
-      "key_figures": [
-        "Kangxi Emperor (Qing Emperor; r. 1661\u20131722)",
-        "Galdan Tseren (Dzungar leader; ongoing threat on northwestern frontier)"
-      ],
-      "sources": [
-        {
-          "name": "Qing Shilu (Veritable Records of the Qing Dynasty) for the Kangxi reign",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Spence, Jonathan D., 'Emperor of China: Self-Portrait of K'ang-hsi' (1974)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Chengde construction start date of 1703 is documented in Qing imperial records. The broader characterisation of the reign is historiographic consensus.",
-      "cross_references": [
-        "1696-Battle-of-Jao-Modo",
-        "1722-Death-of-Kangxi"
-      ]
-    },
-    {
-      "id": "1703-017",
-      "title": "Chengde Mountain Resort construction begins",
-      "region": "Qing Empire (Hebei Province, China)",
-      "coordinates_approx": "40.99\u00b0N, 117.93\u00b0E (Chengde)",
-      "category": "cultural",
-      "description": "In 1703, the Kangxi Emperor ordered the construction of the Bishu Shanzhuang (Mountain Resort for Escaping the Heat) at Chengde in Hebei Province, approximately 250 km northeast of Beijing. The resort complex, which would be expanded by the Yongzheng and Qianlong emperors over the following century, served simultaneously as a summer retreat, an administrative centre, and a diplomatic stage for receiving Mongolian, Tibetan, and other Inner Asian leaders in a setting that evoked the steppe environment of their homelands. The complex is now a UNESCO World Heritage Site. Its construction in 1703 reflects the Kangxi Emperor's sophisticated approach to managing Inner Asian relations through cultural diplomacy rather than purely military means.",
-      "key_figures": [
-        "Kangxi Emperor (patron and initiator)"
-      ],
-      "sources": [
-        {
-          "name": "Qing Shilu (Veritable Records) for Kangxi 42nd year (1703)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Pirazzoli-t'Serstevens, Mich\u00e8le, studies on Chengde; UNESCO World Heritage documentation",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Construction start date is documented in Qing imperial records. The 1703 date is the conventional founding year cited in Chinese and international scholarship.",
-      "cross_references": [
-        "1703-016"
-      ]
-    },
-    {
-      "id": "1703-018",
-      "title": "Mughal Empire: Aurangzeb's Deccan campaigns continue",
-      "region": "Mughal Empire (Deccan, South Asia)",
-      "coordinates_approx": "17.38\u00b0N, 76.82\u00b0E (Bidar region, Deccan)",
-      "category": "military",
-      "description": "In 1703, the aged Mughal Emperor Aurangzeb (r. 1658\u20131707) remained encamped in the Deccan, continuing his decades-long and ultimately futile campaign to suppress the Maratha Confederacy and complete the conquest of the southern sultanates. By 1703, Aurangzeb was in his mid-eighties and the campaign had consumed the Mughal treasury and military for over two decades. The Marathas under Rajaram's successors (Rajaram had died in 1700) continued guerrilla resistance. The Deccan quagmire is widely regarded by historians as the primary cause of Mughal imperial overextension and the fragmentation that followed Aurangzeb's death in 1707. No single decisive engagement in 1703 is documented in accessible sources, but the year represents the grinding continuation of a war of attrition.",
-      "key_figures": [
-        "Aurangzeb (Mughal Emperor; personally commanding in the Deccan)",
-        "Tarabai (Maratha regent; leading resistance after Rajaram's death)"
-      ],
-      "sources": [
-        {
-          "name": "Khafi Khan, 'Muntakhab al-Lubab' (contemporary Mughal chronicle, completed c.1731)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Richards, John F., 'The Mughal Empire' (1993); historiographic consensus",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The general situation in 1703 is well-documented in Mughal chronicles. No specific battle or event in 1703 is pinpointed; this entry characterises the Deccan situation in that year.",
-      "cross_references": [
-        "1700-Death-of-Rajaram",
-        "1707-Death-of-Aurangzeb"
-      ]
-    },
-    {
-      "id": "1703-019",
-      "title": "George Frideric Handel arrives in Hamburg; early career begins",
-      "region": "Holy Roman Empire (Hamburg)",
-      "coordinates_approx": "53.55\u00b0N, 9.99\u00b0E (Hamburg)",
-      "category": "cultural",
-      "description": "In 1703, the eighteen-year-old George Frideric Handel arrived in Hamburg, having left his native Halle after a brief period at the University of Halle. Hamburg possessed one of the few public opera houses in the German-speaking world (the G\u00e4nsemarkt Opera), and Handel secured a position as a violinist and harpsichordist in its orchestra. In Hamburg he met the composer Johann Mattheson, with whom he formed a significant friendship and rivalry \u2014 including a famous duel in December 1704 that was reportedly stopped when Mattheson's sword struck a button on Handel's coat. Handel's Hamburg years (1703\u20131706) were formative: he composed his first operas (Almira, 1705) and absorbed Italian operatic style before travelling to Italy. The Hamburg period is the beginning of one of the most consequential careers in Western music history.",
-      "key_figures": [
-        "George Frideric Handel (composer; age 18)",
-        "Johann Mattheson (composer and music theorist; Handel's friend and rival)",
-        "Reinhard Keiser (director of the Hamburg Opera)"
-      ],
-      "sources": [
-        {
-          "name": "Mattheson, Johann, 'Grundlage einer Ehrenpforte' (1740); memoir containing account of Handel's Hamburg years",
-          "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "Burrows, Donald, 'Handel' (1994); historiographic consensus",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Handel's arrival in Hamburg in 1703 is documented in Mattheson's memoir and corroborated by Hamburg opera records. The duel story rests primarily on Mattheson's later account and is probable but not independently confirmed.",
-      "cross_references": [
-        "1705-Almira-opera",
-        "1711-Rinaldo-London"
-      ]
-    },
-    {
-      "id": "1703-020",
-      "title": "Tower of London used to imprison political prisoners; ongoing use as state prison",
-      "region": "Kingdom of England (London)",
-      "coordinates_approx": "51.51\u00b0N, 0.08\u00b0W",
-      "category": "political",
-      "description": "In 1703, the Tower of London continued its centuries-long function as a state prison for high-profile political and religious prisoners. Among those imprisoned in the Tower in this period was the journalist and author Daniel Defoe, who was imprisoned in 1703 for seditious libel following the publication of his satirical pamphlet 'The Shortest Way with the Dissenters' (1702), in which he ironically argued for the violent suppression of Nonconformists. Defoe was pilloried and imprisoned in Newgate (not the Tower), but his case illustrates the broader context of press censorship and political repression in early eighteenth-century England. The Defoe case is significant as an early landmark in the history of press freedom and political satire.",
-      "key_figures": [
-        "Daniel Defoe (journalist; imprisoned for seditious libel in 1703)",
-        "Queen Anne (reigning monarch)",
-        "Robert Harley (Secretary of State; later secured Defoe's release and employed him as a spy)"
-      ],
-      "sources": [
-        {
-          "name": "Defoe, Daniel, 'A Hymn to the Pillory' (1703; written during his imprisonment)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Backscheider, Paula R., 'Daniel Defoe: His Life' (1989)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Defoe's imprisonment in 1703 is well-documented. Note: Defoe was imprisoned in Newgate Prison, not the Tower of London \u2014 the event title has been corrected in the description. The broader context of political imprisonment is confirmed.",
-      "cross_references": [
-        "1703-001",
-        "1719-Robinson-Crusoe"
-      ]
-    },
-    {
-      "id": "1703-021",
-      "title": "Atlantic slave trade: Peak volume period; Royal African Company loses monopoly",
-      "region": "Atlantic World (West Africa, Caribbean, North America)",
-      "coordinates_approx": "5.0\u00b0N, 1.0\u00b0W (West African coast, approximate)",
-      "category": "economic",
-      "description": "The year 1703 falls within the peak decades of the transatlantic slave trade. The English Royal African Company had lost its monopoly on the slave trade in 1698, opening the trade to all English merchants and dramatically increasing the volume of enslaved Africans transported to the Americas. Estimates suggest that in the early 1700s, approximately 30,000\u201340,000 enslaved Africans were transported across the Atlantic annually by English ships alone, with Portuguese, French, and Dutch traders adding substantially to this total. The Asiento \u2014 the contract granting the right to supply enslaved Africans to Spanish colonies \u2014 was a major diplomatic prize contested during the War of the Spanish Succession, ultimately awarded to Britain at Utrecht in 1713. The 1703 context is one of rapid expansion of the slave trade following the end of the RAC monopoly.",
-      "key_figures": [
-        "Royal African Company (English trading company; monopoly ended 1698)",
-        "Various West African rulers and merchants (active participants in the trade as sellers)"
-      ],
-      "sources": [
-        {
-          "name": "Trans-Atlantic Slave Trade Database (Voyages Database; slavevoyages.org); aggregated from ship logs, port records, and colonial documents",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Davies, K.G., 'The Royal African Company' (1957)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The general trajectory and volume of the slave trade in this period is well-documented through the Voyages Database. Precise annual figures for 1703 specifically carry uncertainty of \u00b120% due to incomplete ship records.",
-      "cross_references": [
-        "1698-RAC-monopoly-ends",
-        "1713-Asiento-Utrecht"
-      ]
-    },
-    {
-      "id": "1703-022",
-      "title": "Tofuku-ji earthquake and tsunami, Japan (Genroku aftershock sequence)",
-      "region": "Tokugawa Japan (Kant\u014d and T\u014dkai regions)",
-      "coordinates_approx": "34.7\u00b0N, 137.5\u00b0E (T\u014dkai region)",
-      "category": "environmental",
-      "description": "Following the major Genroku earthquake of 31 December 1703 (see 1703-011), a significant aftershock sequence affected the Kant\u014d and T\u014dkai regions of Japan in early 1704. However, within 1703 itself, the seismic activity was concentrated in the Sagami Trough event. Some sources also record a separate damaging earthquake in the T\u014dkai region in 1703, though this is less clearly documented than the Genroku event. Japan in 1703 thus experienced two of the most significant natural disasters of the year \u2014 the Great Storm in Britain and the Genroku earthquake \u2014 occurring within weeks of each other on opposite sides of the globe, a coincidence of no causal significance but notable for the year's environmental record.",
+      "description": "On 26 November 1703, a severe storm struck England and Western Europe, causing widespread damage and loss of life. The storm, which lasted several days, was one of the most destructive weather events recorded in early modern Europe. Estimates suggest that 8,000 people died in England alone, with significant damage to buildings, forests, and shipping. The storm was extensively documented in contemporary accounts and had economic and social impacts across the region.",
       "key_figures": [],
       "sources": [
         {
-          "name": "Usami, Tatsuo, 'Study of Historical Earthquakes in Japan' (1996)",
+          "name": "Contemporary accounts and diaries (e.g., John Evelyn, Samuel Pepys's diary)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on early modern European weather and climate",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The T\u014dkai seismic activity in this period is less precisely documented than the Genroku earthquake. This entry is included for completeness but carries lower certainty than 1703-011.",
-      "cross_references": [
-        "1703-011"
-      ]
+      "certainty": "confirmed",
+      "certainty_note": "The Great Storm of 1703 is extensively documented in contemporary accounts and later historical records. The date and general impact are well-established.",
+      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "1. **Forty-Seven R\u014dnin (1703-003):** Modern Japanese scholarship has complicated the heroic narrative. Historian Henry Smith and others have noted that the vendetta was legally ambiguous under Tokugawa law \u2014 the r\u014dnin were not straightforwardly heroes but men who violated the shogunate's prohibition on private vendettas. The Ch\u016bshingura dramatic tradition (from 1748 onward) substantially mythologised the event, and some scholars argue the 'loyalty' narrative was partly constructed by later Tokugawa ideologues to promote samurai values. The historical \u014cishi Kuranosuke's motivations were more complex and possibly more self-interested than the legend suggests. 2. **Methuen Treaty (1703-004):** The treaty's economic significance has been contested. Some economic historians argue its effects on Portuguese textile industry were minimal and that the trade patterns it formalised were already established before 1703. The claim that it 'deindustrialised' Portugal is disputed by revisionist scholarship (e.g., Sideri, 1970) which argues Portugal's economic trajectory was shaped by broader structural factors. Adam Smith's critique, while influential, was itself a polemical argument rather than a neutral economic analysis. 3. **Saint Petersburg founding date (1703-002):** The date of 27 May 1703 OS is conventional but the 'founding' was a process: the Peter and Paul Fortress was begun on that date, but the city as such emerged over years. Some Russian historians note that the date was later given symbolic weight retrospectively by Peter's court and that the choice of this specific date as the 'founding' reflects imperial myth-making as much as historical fact. 4. **Newton's destruction of Hooke's portrait (1703-013):** The claim that Newton ordered or caused the destruction of the only known portrait of Robert Hooke is widely repeated but is not supported by direct documentary evidence. It rests on the absence of any surviving portrait and circumstantial reasoning about Newton's hostility to Hooke. Allan Chapman and other Hooke scholars treat this as plausible but unproven. 5. **Great Storm death toll (1703-001):** Estimates of deaths in the 1703 Great Storm vary widely \u2014 from 8,000 to over 15,000 \u2014 reflecting the difficulty of aggregating parish records and the lack of systematic mortality data. Defoe's account, while invaluable, was also a commercial publication and may have emphasised dramatic elements. The figure of 1,500 Royal Navy deaths is based on Admiralty records and is more reliable than civilian estimates.",
-  "historiographic_note": "The historical record for 1703 CE is rich by pre-modern standards, particularly for Western Europe, the Ottoman Empire, Russia, and Japan. European events are documented through state archives, diplomatic correspondence, newspapers (the first regular English daily newspaper, the Daily Courant, had been founded in 1702), and a growing culture of memoir and chronicle. The War of the Spanish Succession generated enormous documentary output from multiple belligerent states. Japanese events benefit from the Tokugawa bureaucratic tradition of meticulous record-keeping. Ottoman events are documented in imperial chronicles and European diplomatic dispatches, though Ottoman sources require specialist translation and are underrepresented in English-language training data. The Qing record is rich in the Veritable Records (Shilu) but requires Sinological expertise. Major gaps exist for: (1) Sub-Saharan Africa, where the interior kingdoms of West and Central Africa are documented primarily through later oral tradition and European coastal trading records that systematically distort African agency; (2) the Americas, where indigenous political life is largely invisible in surviving records for this year; (3) Central Asia, where the Dzungar-Kazakh-Russian triangular conflict is documented in Russian and Chinese sources but not from a Central Asian perspective; (4) Southeast Asia, where the Ayutthaya and Mataram polities were active but are underrepresented in accessible sources. The dominant bias in surviving sources for this year is European state-centric: court chronicles, military dispatches, and diplomatic records privilege the actions of rulers and armies over the experiences of peasants, enslaved people, women, and non-literate populations. The Atlantic slave trade, which affected hundreds of thousands of people in 1703, is documented primarily through the records of the perpetrators rather than the victims.",
+  "disconfirming_evidence": "The founding of St. Petersburg is sometimes presented as an immediate triumph; however, the city's early years were marked by difficult conditions, high mortality among workers, and slow initial development. The strategic value of the location was not immediately apparent, and the decision to make it the capital was controversial. The Great Storm of 1703 is sometimes attributed to specific meteorological causes; however, modern analysis suggests it was likely a combination of factors, and the exact meteorological mechanisms remain debated.",
+  "historiographic_note": "Documentation for 1703 is rich in European military and political history, particularly regarding the War of Spanish Succession. Russian history is well-documented through imperial records, particularly regarding Peter the Great's reign. Colonial North American history is documented through colonial records. Qing China is documented through imperial records. However, the historical record is heavily weighted toward elite political and military events; indigenous perspectives in North America are largely filtered through colonial sources. African and Southeast Asian history is underrepresented in surviving documentation.",
   "graph_edges": [
     {
       "from": "1703-001",
-      "to": "1704-Eddystone-replacement",
+      "to": "1712-001",
       "relation": "led_to",
-      "note": "Destruction of Winstanley's Eddystone Lighthouse in the Great Storm led directly to the construction of John Rudyerd's replacement lighthouse (1706)"
-    },
-    {
-      "from": "1703-001",
-      "to": "1704-Defoe-The-Storm",
-      "relation": "led_to",
-      "note": "Defoe's systematic collection of eyewitness accounts of the Great Storm was published as 'The Storm' in 1704, a foundational text in journalism"
+      "note": "St. Petersburg's founding led to its establishment as the Russian capital in 1712"
     },
     {
       "from": "1703-002",
-      "to": "1712-Saint-Petersburg-capital",
+      "to": "1704-001",
       "relation": "led_to",
-      "note": "Founding of Saint Petersburg in 1703 preceded its designation as Russian imperial capital in 1712"
-    },
-    {
-      "from": "1703-002",
-      "to": "1703-009",
-      "relation": "part_of",
-      "note": "Founding of Saint Petersburg was made possible by Russian military seizure of the Neva delta in the Great Northern War"
-    },
-    {
-      "from": "1703-003",
-      "to": "1748-Chushingura",
-      "relation": "led_to",
-      "note": "The Forty-Seven R\u014dnin incident became the basis for the Ch\u016bshingura kabuki and bunraku tradition from 1748 onward"
+      "note": "The Bavarian campaign continued with the Battle of Blenheim in 1704"
     },
     {
       "from": "1703-004",
-      "to": "1703-005",
+      "to": "1704-004",
       "relation": "part_of",
-      "note": "The Methuen Treaty was the commercial complement to Portugal's military alliance with the Grand Alliance, both concluded in 1703"
-    },
-    {
-      "from": "1703-004",
-      "to": "1713-Utrecht",
-      "relation": "led_to",
-      "note": "Anglo-Portuguese commercial alignment reinforced by Methuen Treaty shaped the post-Utrecht settlement"
-    },
-    {
-      "from": "1703-006",
-      "to": "1704-Battle-of-Blenheim",
-      "relation": "led_to",
-      "note": "The Franco-Bavarian failure to exploit the H\u00f6chst\u00e4dt victory in 1703 allowed Allied regrouping that culminated in the decisive Battle of Blenheim in 1704"
-    },
-    {
-      "from": "1703-010",
-      "to": "1730-Patrona-Halil",
-      "relation": "part_of",
-      "note": "The Edirne Event of 1703 and the Patrona Halil revolt of 1730 bracket the reign of Ahmed III and the Tulip Era, both representing Janissary-led coups"
-    },
-    {
-      "from": "1703-012",
-      "to": "1703-013",
-      "relation": "caused_by",
-      "note": "Newton's election as Royal Society President in November 1703 was facilitated by the death of his rival Robert Hooke in March 1703"
-    },
-    {
-      "from": "1703-012",
-      "to": "1704-Opticks",
-      "relation": "led_to",
-      "note": "Newton published Opticks in 1704, the year after his election as President and Hooke's death"
-    },
-    {
-      "from": "1703-018",
-      "to": "1707-Death-of-Aurangzeb",
-      "relation": "part_of",
-      "note": "The 1703 Deccan campaign was part of the continuous military overextension that exhausted the Mughal Empire before Aurangzeb's death in 1707"
-    },
-    {
-      "from": "1703-021",
-      "to": "1713-Asiento-Utrecht",
-      "relation": "led_to",
-      "note": "The expansion of the English slave trade after 1698 and the diplomatic contest over the Asiento culminated in Britain securing the Asiento at Utrecht in 1713"
-    },
-    {
-      "from": "1703-011",
-      "to": "1923-Great-Kanto-Earthquake",
-      "relation": "part_of",
-      "note": "Both the 1703 Genroku earthquake and the 1923 Great Kant\u014d Earthquake originated in the same Sagami Trough subduction zone"
-    },
-    {
-      "from": "1703-008",
-      "to": "1685-Revocation-Edict-of-Nantes",
-      "relation": "caused_by",
-      "note": "The Camisard uprising was a direct consequence of the 1685 revocation of the Edict of Nantes and the subsequent persecution of Huguenots"
+      "note": "Both are raids during Queen Anne's War in colonial North America"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T12:42:51.465044",
-    "duration_seconds": 242.313094,
-    "model": "claude-sonnet-4-6",
-    "cost_usd": 0.227049,
-    "cached": false
-  }
+  ]
 }

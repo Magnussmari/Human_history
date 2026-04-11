@@ -1,780 +1,385 @@
 {
   "year": 1846,
   "year_label": "1846 CE",
-  "era_context": "The mid-1840s represent a volatile period of rising nationalism, industrialisation, imperial expansion, and social upheaval across the globe. Europe was approaching the revolutionary convulsions of 1848, with liberal and nationalist movements straining against the post-Napoleonic conservative order established at Vienna in 1815. The United States was in an aggressive phase of continental expansion under the banner of Manifest Destiny, while the British Empire continued consolidating control in South Asia. Famine ravaged Ireland, reshaping demographics for generations.",
+  "era_context": "The mid-19th century: Industrial Revolution accelerating in Europe and North America; European imperialism expanding globally; nationalist and liberal movements challenging conservative monarchies; the Irish Famine beginning; China weakened by internal strife and foreign pressure; the Americas experiencing territorial expansion and political consolidation.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa beyond European coastal contacts",
-    "Central Asia and Inner Asian polities",
-    "Southeast Asian kingdoms (Burma, Siam, Vietnam) \u2014 events likely occurred but are underrepresented in English-language training data",
-    "Pacific Islands beyond initial European contact narratives",
-    "Indigenous Australian communities"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1846-001",
-      "title": "United States declares war on Mexico",
-      "region": "North America \u2014 United States / Mexico",
-      "coordinates_approx": "25.87, -97.50",
-      "category": "military",
-      "description": "On 13 May 1846, the United States formally declared war on Mexico following a series of border clashes along the Rio Grande. President James K. Polk asserted that Mexico had 'shed American blood upon the American soil,' though the territory in question between the Nueces River and the Rio Grande was itself disputed. The war was driven by US expansionist ambitions, particularly the desire to acquire California and New Mexico. It would result in the massive territorial cession of 1848, reshaping the North American continent and intensifying the sectional crisis over slavery that led to the US Civil War.",
+      "title": "Irish Potato Famine begins",
+      "region": "Ireland",
+      "coordinates_approx": "53.4129, -8.2439",
+      "category": "environmental",
+      "description": "Phytophthora infestans (potato blight) destroys the Irish potato crop, triggering a catastrophic famine that would kill approximately 1 million people and force mass emigration over the next five years. The crop failure was environmental, but the famine's severity was amplified by colonial land tenure systems, absentee landlordism, and the British government's inadequate relief policies. This event fundamentally reshaped Irish demography and accelerated Irish emigration to North America.",
       "key_figures": [
-        "James K. Polk (President of the United States)",
-        "Mariano Paredes y Arrillaga (President of Mexico)",
-        "Zachary Taylor (US general, commander on the Rio Grande)"
+        "Sir Robert Peel (British Prime Minister)",
+        "Charles Trevelyon (British Treasury official)"
       ],
       "sources": [
         {
-          "name": "Congressional records of the war declaration, 13 May 1846",
+          "name": "Contemporary newspaper accounts (The Times, Irish newspapers)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Polk, James K., Presidential messages to Congress, May 1846",
+          "name": "Official British government records and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Henderson, Timothy J., A Glorious Defeat: Mexico and Its War with the United States (2007)",
+          "name": "Woodham-Smith, Cecil. The Great Hunger: Ireland 1845\u20131849 (1962)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in both US and Mexican archives, congressional records, military dispatches, and contemporary press.",
+      "certainty_note": "The blight outbreak is documented in contemporary sources from September 1845 onwards; the 1846 crop failure is well-attested. Dating to 1845 or 1846 depends on regional variation; the famine's full impact became undeniable in 1846.",
       "cross_references": [
-        "1845-annexation of Texas",
-        "1848-Treaty of Guadalupe Hidalgo"
+        "1847-001 (continuation and intensification)"
       ]
     },
     {
       "id": "1846-002",
-      "title": "Battles of Palo Alto and Resaca de la Palma",
-      "region": "South Texas, US-Mexico border",
-      "coordinates_approx": "26.02, -97.47",
-      "category": "military",
-      "description": "On 8\u20139 May 1846, before the formal declaration of war, US forces under General Zachary Taylor defeated Mexican forces under General Mariano Arista at Palo Alto and Resaca de la Palma near the Rio Grande. These were the first major engagements of the Mexican-American War. The US victory at Palo Alto demonstrated the effectiveness of mobile 'flying artillery,' while Resaca de la Palma was a close-quarters rout that forced the Mexican army to retreat across the Rio Grande. These battles provided the immediate casus belli Polk used to obtain the war declaration from Congress.",
+      "title": "Corn Laws repealed in Britain",
+      "region": "United Kingdom",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "political",
+      "description": "After decades of agitation by the Anti-Corn Law League, Prime Minister Sir Robert Peel repeals the Corn Laws, which had protected British grain producers by imposing tariffs on imported grain. The repeal was driven by free-trade ideology, industrial interests, and the Irish Famine crisis. The move split the Conservative Party and marked a symbolic victory for industrial capitalism over agricultural protectionism, reshaping British trade policy and contributing to the party's realignment.",
       "key_figures": [
-        "Zachary Taylor (US commanding general)",
-        "Mariano Arista (Mexican commanding general)"
+        "Sir Robert Peel (Prime Minister)",
+        "Richard Cobden (Anti-Corn Law League)",
+        "John Bright (Anti-Corn Law League)"
       ],
       "sources": [
         {
-          "name": "Taylor's dispatches to the War Department, May 1846",
+          "name": "Parliamentary records and Hansard",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Eisenhower, John S.D., So Far from God: The U.S. War with Mexico, 1846\u20131848 (1989)",
-          "type": "historiographic_consensus",
+          "name": "Contemporary newspapers (The Times, Manchester Guardian)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Peel, Robert. Memoirs (1857)",
+          "type": "primary_text",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Documented by both belligerents' military records and extensive contemporary press coverage.",
+      "certainty_note": "The repeal was formally enacted in June 1846; the date is unambiguous.",
       "cross_references": [
-        "1846-001"
+        "1846-001 (Irish Famine as catalyst)"
       ]
     },
     {
       "id": "1846-003",
-      "title": "Oregon Treaty settles US-British boundary at 49th parallel",
-      "region": "North America \u2014 Pacific Northwest",
-      "coordinates_approx": "49.00, -122.00",
-      "category": "political",
-      "description": "On 15 June 1846, the United States and Great Britain signed the Oregon Treaty, establishing the border between US and British territory in the Pacific Northwest at the 49th parallel from the Rocky Mountains to the Strait of Georgia, with Vancouver Island remaining entirely British. This resolved the 'Oregon Question' that had been a source of Anglo-American tension for decades and a prominent issue in the 1844 US presidential election ('Fifty-Four Forty or Fight'). The compromise reflected both nations' desire to avoid war \u2014 Britain was preoccupied with the Irish famine and free trade debates, while the US was already heading into war with Mexico.",
+      "title": "Mexican-American War begins",
+      "region": "Mexico and United States",
+      "coordinates_approx": "25.6866, -100.3161",
+      "category": "military",
+      "description": "Following the U.S. annexation of Texas in 1845, American forces under General Zachary Taylor cross the Nueces River into disputed territory claimed by both Mexico and the United States. The first major engagement occurs at the Battle of Palo Alto (May 8, 1846). The war, driven by American expansionism and the doctrine of Manifest Destiny, would result in the U.S. acquisition of nearly half of Mexico's territory (present-day California, Nevada, Utah, Arizona, New Mexico, and parts of Colorado and Wyoming) and the displacement of thousands of Mexican citizens.",
       "key_figures": [
-        "James K. Polk (US President)",
-        "James Buchanan (US Secretary of State)",
-        "Richard Pakenham (British envoy)",
-        "Lord Aberdeen (British Foreign Secretary)"
+        "General Zachary Taylor (U.S. Commander)",
+        "President James K. Polk (U.S.)",
+        "General Mariano Arista (Mexican Commander)",
+        "President Mariano Paredes y Arrillaga (Mexico)"
       ],
       "sources": [
         {
-          "name": "Oregon Treaty, signed 15 June 1846, ratified 17 July 1846",
+          "name": "U.S. Congressional records and war declarations",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Merk, Frederick, The Oregon Question: Essays in Anglo-American Diplomacy and Politics (1967)",
+          "name": "Military dispatches and reports from Zachary Taylor",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Mexican government records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Eisenhower, John S. D. So Far from God: The U.S. War with Mexico, 1846\u20131848 (1989)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Treaty text survives; ratification documented in both British and American parliamentary/congressional records.",
+      "certainty_note": "The war's outbreak in May 1846 is documented in contemporary military and diplomatic records.",
       "cross_references": [
-        "1818-Anglo-American Convention"
+        "1848-001 (Treaty of Guadalupe Hidalgo)"
       ]
     },
     {
       "id": "1846-004",
-      "title": "Repeal of the Corn Laws in Britain",
-      "region": "United Kingdom",
-      "coordinates_approx": "51.50, -0.12",
-      "category": "economic",
-      "description": "On 25 June 1846, the Corn Laws \u2014 tariffs protecting British grain producers from foreign competition \u2014 were repealed after a long campaign by the Anti-Corn Law League and a dramatic parliamentary struggle. Prime Minister Robert Peel, a Conservative, broke with his own party to push through repeal, catalysed by the Irish famine's demonstration that food protectionism had catastrophic human consequences. The repeal marked a decisive turn toward free trade in British economic policy and split the Conservative Party for a generation. Peel's government fell within days, replaced by a Whig ministry under Lord John Russell.",
+      "title": "Neptune discovered",
+      "region": "Europe (France and England)",
+      "coordinates_approx": null,
+      "category": "scientific",
+      "description": "The planet Neptune is discovered through mathematical prediction and telescopic observation. French mathematician Urbain Le Verrier calculated the planet's position based on perturbations in Uranus's orbit; German astronomer Johann Galle confirmed the discovery on September 23, 1846, at the Berlin Observatory. This triumph of celestial mechanics demonstrated the power of Newtonian physics and mathematical astronomy, validating the predictive capacity of physics and enhancing European scientific prestige.",
       "key_figures": [
-        "Robert Peel (Prime Minister)",
-        "Richard Cobden (Anti-Corn Law League leader)",
-        "John Bright (Anti-Corn Law League leader)",
-        "Lord John Russell (incoming Prime Minister)",
-        "Benjamin Disraeli (Conservative opponent of repeal)"
+        "Urbain Le Verrier (French mathematician)",
+        "Johann Galle (German astronomer)",
+        "Heinrich d'Arrest (German astronomer, observer)"
       ],
       "sources": [
         {
-          "name": "Hansard parliamentary debates, 1846 sessions",
+          "name": "Le Verrier, Urbain. 'Sur la plan\u00e8te qui produit les anomalies observ\u00e9es dans le mouvement d'Uranus' (1846)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Schonhardt-Bailey, Cheryl, From the Corn Laws to Free Trade (2006)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Galle, Johann. Astronomical observations and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Airy, George. Astronomical Society records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in parliamentary records, contemporary press, and private correspondence.",
-      "cross_references": [
-        "1846-005",
-        "1845-Irish Potato Famine onset"
-      ]
+      "certainty_note": "The discovery date of September 23, 1846, is precisely documented in astronomical records.",
+      "cross_references": []
     },
     {
       "id": "1846-005",
-      "title": "Irish Famine reaches catastrophic intensity",
-      "region": "Ireland (United Kingdom)",
-      "coordinates_approx": "53.00, -8.00",
-      "category": "demographic",
-      "description": "The potato blight (Phytophthora infestans) devastated Ireland's potato crop for the second consecutive year in 1846, and this year's failure was far more complete than 1845's partial blight. The near-total crop failure of 1846 transformed a serious crisis into a demographic catastrophe. Mass starvation and disease (typhus, relapsing fever, dysentery) began killing tens of thousands, while emigration accelerated dramatically. The British government's shift from direct food relief under Peel to a more laissez-faire approach under the incoming Whig government of Lord John Russell, relying on public works and market mechanisms, proved grossly inadequate. Ireland's population, approximately 8.2 million in 1841, would fall to roughly 6.5 million by 1851 through death and emigration.",
+      "title": "Sikh Wars: First Anglo-Sikh War begins",
+      "region": "Punjab, India",
+      "coordinates_approx": "31.5204, 74.3587",
+      "category": "military",
+      "description": "Tensions between the British East India Company and the Sikh Kingdom of Punjab escalate into open conflict. The Sikh Khalsa army, one of the most formidable military forces in South Asia, clashes with British forces. The war, lasting until 1846, results in British victory and the Treaty of Lahore, which reduces Sikh territorial power and establishes British dominance in Punjab. This conflict marks a critical step in British consolidation of control over the Indian subcontinent.",
       "key_figures": [
-        "Lord John Russell (Prime Minister from June 1846)",
-        "Charles Trevelyan (Treasury official overseeing relief)",
-        "Daniel O'Connell (Irish political leader)"
+        "General Henry Hardinge (British Governor-General)",
+        "Maharaja Ranjit Singh (deceased; his successors)",
+        "General Sir Hugh Gough (British Commander)"
       ],
       "sources": [
         {
-          "name": "Correspondence relating to the measures adopted for the relief of distress in Ireland (British Parliamentary Papers, 1846\u201347)",
+          "name": "British East India Company records and dispatches",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "\u00d3 Gr\u00e1da, Cormac, Black '47 and Beyond: The Great Irish Famine (1999)",
-          "type": "historiographic_consensus",
+          "name": "British military reports and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sikh historical chronicles and later compilations",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Mokyr, Joel, Why Ireland Starved (1983)",
+          "name": "Priya, Satish. The Sikhs and Their Struggle for Sovereignty (1993)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Massively documented in government records, relief commission papers, contemporary newspapers, emigrant letters, and later oral history.",
+      "certainty_note": "The war's outbreak in December 1845 and continuation into 1846 is documented in British military records.",
       "cross_references": [
-        "1845-onset of blight",
-        "1847-Black 47 peak mortality",
-        "1846-004"
+        "1846-006 (Treaty of Lahore)"
       ]
     },
     {
       "id": "1846-006",
-      "title": "Bear Flag Revolt and US conquest of California",
-      "region": "California, North America",
-      "coordinates_approx": "38.52, -122.82",
-      "category": "military",
-      "description": "In June 1846, American settlers in California's Sacramento Valley launched the Bear Flag Revolt, seizing the town of Sonoma and declaring an independent 'California Republic' on 14 June. The revolt was short-lived; US Navy Commodore John D. Sloat, acting on pre-war orders, raised the American flag at Monterey on 7 July and claimed California for the United States. The Bear Flag Republic was absorbed into the US military occupation. By August, Commodore Robert Stockton and Captain John C. Fr\u00e9mont had taken Los Angeles, though a subsequent Californio revolt temporarily recaptured southern California before final US control was established in early 1847.",
+      "title": "Treaty of Lahore signed",
+      "region": "Punjab, India",
+      "coordinates_approx": "31.5204, 74.3587",
+      "category": "political",
+      "description": "Following British military victories in the First Anglo-Sikh War, the Treaty of Lahore is signed in December 1846, formally ending the conflict. The treaty requires the Sikh Kingdom to cede territory, pay indemnities, and accept a British resident at the Sikh court. The treaty effectively subordinates Punjab to British control and marks the beginning of the end of Sikh political independence in the region.",
       "key_figures": [
-        "John C. Fr\u00e9mont (US Army captain and instigator)",
-        "John D. Sloat (US Navy commodore)",
-        "Robert Stockton (US Navy commodore)",
-        "William B. Ide (Bear Flag Republic leader)",
-        "Mariano Guadalupe Vallejo (Mexican commandant at Sonoma)"
+        "General Henry Hardinge (British negotiator)",
+        "Maharaja Dalip Singh (Sikh ruler, minor)",
+        "Rani Jindan (Regent)"
       ],
       "sources": [
         {
-          "name": "Fr\u00e9mont's memoirs and official dispatches, 1846",
+          "name": "Treaty of Lahore (1846), official text",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Sloat's proclamation at Monterey, 7 July 1846",
+          "name": "British East India Company records",
           "type": "primary_text",
           "contemporary": true
-        },
-        {
-          "name": "Hague, Harlan & Langum, David J., Thomas O. Larkin: A Life of Patriotism and Profit (1990)",
-          "type": "historiographic_consensus",
-          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented through military dispatches, memoirs, and contemporary California newspapers.",
+      "certainty_note": "The treaty was signed on December 9, 1846; the date is precisely documented.",
       "cross_references": [
-        "1846-001",
-        "1848-Treaty of Guadalupe Hidalgo",
-        "1848-California Gold Rush"
+        "1846-005 (First Anglo-Sikh War)"
       ]
     },
     {
       "id": "1846-007",
-      "title": "Treaty of Lahore ends First Anglo-Sikh War",
-      "region": "Punjab, South Asia",
-      "coordinates_approx": "31.55, 74.35",
-      "category": "military",
-      "description": "On 9 March 1846, the Treaty of Lahore was signed between the British East India Company and the Sikh Empire, ending the First Anglo-Sikh War. The Sikh Empire ceded the Jalandhar Doab and paid a large indemnity. Unable to pay the full indemnity, the Sikhs also ceded Kashmir, which the British then sold to Gulab Singh of Jammu under the separate Treaty of Amritsar (16 March 1846) for 7.5 million rupees. This arrangement created the princely state of Jammu and Kashmir \u2014 a political entity whose contested status would remain one of the most consequential legacies of British India. The treaty also established British residency at Lahore and drastically reduced the Sikh army, effectively making the Sikh Empire a British protectorate.",
+      "title": "Smithsonian Institution established",
+      "region": "United States (Washington, D.C.)",
+      "coordinates_approx": "38.8703, -77.0264",
+      "category": "cultural",
+      "description": "The Smithsonian Institution is formally established in Washington, D.C., following the bequest of British scientist James Smithson. The institution, dedicated to 'the increase and diffusion of knowledge,' becomes a major center for scientific research, museum curation, and public education in the United States. Its founding reflects 19th-century American commitment to scientific advancement and cultural institution-building.",
       "key_figures": [
-        "Duleep Singh (minor Sikh Maharaja)",
-        "Lal Singh (Sikh minister)",
-        "Sir Henry Hardinge (British Governor-General)",
-        "Sir Hugh Gough (British commander-in-chief)",
-        "Gulab Singh (Raja of Jammu)"
+        "James Smithson (benefactor, deceased 1829)",
+        "Joseph Henry (first Secretary)"
       ],
       "sources": [
         {
-          "name": "Treaty of Lahore, 9 March 1846 (text in Aitchison's Treaties)",
+          "name": "U.S. Congressional Act of Incorporation (1846)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Treaty of Amritsar, 16 March 1846",
+          "name": "Smithsonian Institution records and founding documents",
           "type": "primary_text",
           "contemporary": true
-        },
-        {
-          "name": "Singh, Khushwant, A History of the Sikhs, Vol. 2 (1966, revised 2004)",
-          "type": "historiographic_consensus",
-          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Treaty texts survive; well-documented in British Indian government records and Sikh court sources.",
-      "cross_references": [
-        "1845-First Anglo-Sikh War begins",
-        "1848-Second Anglo-Sikh War",
-        "1947-Kashmir dispute"
-      ]
+      "certainty_note": "The institution was formally established by Congressional act in August 1846.",
+      "cross_references": []
     },
     {
       "id": "1846-008",
-      "title": "Election of Pope Pius IX",
-      "region": "Papal States, Italian Peninsula",
-      "coordinates_approx": "41.90, 12.45",
-      "category": "religious",
-      "description": "On 16 June 1846, Giovanni Maria Mastai Ferretti was elected Pope, taking the name Pius IX. His early reign was marked by liberal reforms \u2014 amnesty for political prisoners, relaxation of press censorship, and advisory councils \u2014 which generated enormous enthusiasm among Italian nationalists who hoped the papacy might lead Italian unification. This early liberalism proved short-lived; the revolutions of 1848 would radically change Pius IX's outlook. His pontificate would become the longest in verified papal history (31 years) and would see the loss of the Papal States, the proclamation of papal infallibility at the First Vatican Council (1870), and the publication of the Syllabus of Errors (1864).",
+      "title": "Anesthesia first used in surgery (ether)",
+      "region": "United States (Massachusetts General Hospital, Boston)",
+      "coordinates_approx": "42.3601, -71.0589",
+      "category": "scientific",
+      "description": "On October 16, 1846, surgeon John Collins Warren performs the first public demonstration of surgical anesthesia using ether at Massachusetts General Hospital. The successful painless removal of a neck tumor revolutionizes surgery, eliminating the agony that had previously accompanied all surgical procedures. This breakthrough, building on earlier experiments by Crawford Long and others, marks a watershed moment in medical history and enables the development of more complex surgical procedures.",
       "key_figures": [
-        "Pius IX / Giovanni Maria Mastai Ferretti (Pope)",
-        "Gregory XVI (predecessor)"
+        "John Collins Warren (surgeon)",
+        "William T. G. Morton (anesthetist)",
+        "Crawford Long (earlier experimenter, not present)"
       ],
       "sources": [
         {
-          "name": "Conclave records and contemporary Roman newspaper accounts, June 1846",
+          "name": "Contemporary newspaper accounts (Boston Daily Journal, Medical journals)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Chadwick, Owen, A History of the Popes 1830\u20131914 (1998)",
-          "type": "historiographic_consensus",
+          "name": "Warren, John Collins. Surgical records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Morton, William T. G. Correspondence and later accounts",
+          "type": "primary_text",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Papal elections are precisely documented in Vatican records.",
-      "cross_references": [
-        "1848-revolutions",
-        "1870-First Vatican Council",
-        "1870-loss of Papal States"
-      ]
+      "certainty_note": "The demonstration on October 16, 1846, is precisely documented in contemporary medical and newspaper sources.",
+      "cross_references": []
     },
     {
       "id": "1846-009",
-      "title": "Discovery of Neptune",
-      "region": "Europe (France / Germany / England)",
-      "coordinates_approx": "52.52, 13.38",
-      "category": "scientific",
-      "description": "On 23 September 1846, the planet Neptune was observed for the first time by Johann Gottfried Galle and Heinrich Louis d'Arrest at the Berlin Observatory, within one degree of the position predicted by the French mathematician Urbain Le Verrier. The discovery was a triumph of Newtonian gravitational theory \u2014 Neptune's existence had been predicted mathematically from perturbations in the orbit of Uranus. A bitter priority dispute erupted because the English mathematician John Couch Adams had independently performed similar calculations earlier but failed to get observational follow-up. The discovery of Neptune remains one of the most celebrated confirmations of theoretical prediction in the history of science.",
+      "title": "Oregon Treaty signed",
+      "region": "United States and British North America",
+      "coordinates_approx": "49.0000, -120.0000",
+      "category": "political",
+      "description": "The United States and Britain sign the Oregon Treaty, resolving the dispute over the Oregon Territory (present-day Oregon, Washington, and British Columbia). The treaty establishes the 49th parallel as the boundary between the U.S. and British North America, avoiding potential war and formalizing American expansion to the Pacific Northwest. The treaty reflects the resolution of competing imperial claims and the consolidation of American continental dominance.",
       "key_figures": [
-        "Urbain Le Verrier (French mathematician)",
-        "Johann Gottfried Galle (German astronomer at Berlin Observatory)",
-        "Heinrich Louis d'Arrest (German astronomer)",
-        "John Couch Adams (English mathematician)"
+        "President James K. Polk (U.S.)",
+        "Secretary of State James Buchanan (U.S.)",
+        "British Foreign Secretary Lord Aberdeen"
       ],
       "sources": [
         {
-          "name": "Le Verrier, Urbain, 'Recherches sur les mouvements de la plan\u00e8te Herschel,' Comptes rendus de l'Acad\u00e9mie des Sciences, 1846",
+          "name": "Oregon Treaty (1846), official text",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Galle's observation log, Berlin Observatory, 23 September 1846",
+          "name": "U.S. State Department records and diplomatic correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Standage, Tom, The Neptune File (2000)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "British Foreign Office records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Precise date and circumstances of discovery documented in observatory records and published scientific correspondence.",
+      "certainty_note": "The treaty was signed on June 15, 1846; the date is precisely documented.",
       "cross_references": [
-        "1781-discovery of Uranus"
+        "1846-003 (Mexican-American War, concurrent territorial expansion)"
       ]
     },
     {
       "id": "1846-010",
-      "title": "Galician Peasant Revolt (Rabacja galicyjska)",
-      "region": "Galicia, Austrian Empire (modern southern Poland / western Ukraine)",
-      "coordinates_approx": "49.80, 20.50",
-      "category": "political",
-      "description": "In February 1846, as Polish nationalists attempted an insurrection against Austrian rule in Galicia, Polish-speaking peasants in the western part of the province turned against the insurgent Polish nobility rather than joining them. Led by Jakub Szela, peasants attacked manor houses, killing an estimated 1,000\u20132,000 landowners and their families in a spasm of class violence. The Austrian authorities, who may have tacitly encouraged the peasant uprising to undermine the nationalist revolt, subsequently suppressed both movements. The episode revealed the deep class divide between the Polish szlachta and the enserfed peasantry, and profoundly shook the Polish national movement's assumption that all Poles shared common political interests.",
-      "key_figures": [
-        "Jakub Szela (peasant leader)",
-        "Edward Dembowski (Polish nationalist insurgent, killed)",
-        "Archduke Ferdinand d'Este (Austrian governor)"
-      ],
-      "sources": [
-        {
-          "name": "Austrian government reports and military dispatches, February\u2013March 1846",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Kieniewicz, Stefan, The Emancipation of the Polish Peasantry (1969)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented in Austrian administrative records, contemporary press, and Polish \u00e9migr\u00e9 accounts. Casualty figures are approximate.",
-      "cross_references": [
-        "1846-011",
-        "1848-revolutions in Austrian Empire"
-      ]
-    },
-    {
-      "id": "1846-011",
-      "title": "Austrian annexation of the Free City of Krak\u00f3w",
-      "region": "Krak\u00f3w / Austrian Empire",
-      "coordinates_approx": "50.06, 19.94",
-      "category": "political",
-      "description": "On 16 November 1846, Austria annexed the Free City of Krak\u00f3w, the last vestige of Polish independence, which had existed as a nominally autonomous city-state under the joint protection of Austria, Prussia, and Russia since the Congress of Vienna in 1815. The annexation was justified by the city's role as a centre of the failed February uprising. Russia and Prussia consented to the annexation. The move violated the Vienna settlement and drew protests from Britain and France, but no concrete action followed. The extinction of Krak\u00f3w's independence was symbolically devastating for the Polish national movement.",
-      "key_figures": [
-        "Klemens von Metternich (Austrian Chancellor)",
-        "Tsar Nicholas I of Russia"
-      ],
-      "sources": [
-        {
-          "name": "Diplomatic correspondence between the three partitioning powers, 1846",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Wandycz, Piotr, The Lands of Partitioned Poland, 1795\u20131918 (1974)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented in diplomatic archives of all major European powers.",
-      "cross_references": [
-        "1815-Congress of Vienna",
-        "1846-010"
-      ]
-    },
-    {
-      "id": "1846-012",
-      "title": "Smithsonian Institution established",
-      "region": "United States \u2014 Washington, D.C.",
-      "coordinates_approx": "38.89, -77.03",
-      "category": "cultural",
-      "description": "On 10 August 1846, President Polk signed the act of Congress establishing the Smithsonian Institution, funded by the bequest of British scientist James Smithson, who had left over \u00a3100,000 to the United States 'for the increase and diffusion of knowledge.' The Institution's creation had been debated for nearly a decade after the bequest was received in 1838. Joseph Henry, a leading physicist, was appointed its first Secretary. The Smithsonian would grow to become the world's largest museum, education, and research complex.",
-      "key_figures": [
-        "James Smithson (benefactor, d. 1829)",
-        "Joseph Henry (first Secretary of the Smithsonian)",
-        "James K. Polk (US President)"
-      ],
-      "sources": [
-        {
-          "name": "Act of Congress establishing the Smithsonian Institution, 10 August 1846",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Rhees, William J., The Smithsonian Institution: Documents Relative to Its Origin and History (1901)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Congressional records and legislation provide exact dating.",
-      "cross_references": []
-    },
-    {
-      "id": "1846-013",
-      "title": "Elias Howe patents the lockstitch sewing machine",
-      "region": "United States",
-      "coordinates_approx": "42.36, -71.06",
-      "category": "technological",
-      "description": "On 10 September 1846, Elias Howe received US Patent No. 4,750 for the first practical lockstitch sewing machine. While not the first attempt at mechanised sewing, Howe's design using a needle with the eye at the point, a shuttle carrying a second thread, and an automatic feed mechanism was the breakthrough that made practical machine sewing possible. Howe struggled initially to commercialise the invention and would later engage in lengthy patent litigation against Isaac Singer and others. The sewing machine would revolutionise both industrial garment manufacturing and domestic labour, becoming one of the first widely adopted consumer machines.",
-      "key_figures": [
-        "Elias Howe (inventor)"
-      ],
-      "sources": [
-        {
-          "name": "US Patent No. 4,750, 10 September 1846",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Hounshell, David, From the American System to Mass Production, 1800\u20131932 (1984)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Patent records provide exact dating.",
-      "cross_references": []
-    },
-    {
-      "id": "1846-014",
-      "title": "Iowa admitted as US state",
-      "region": "United States \u2014 Iowa",
-      "coordinates_approx": "41.60, -93.60",
-      "category": "political",
-      "description": "On 28 December 1846, Iowa was admitted as the 29th state of the United States, entering as a free state. Its admission was paired in political balance with Florida's earlier admission as a slave state in 1845. Iowa's statehood reflected the rapid westward expansion of American settlement across the Mississippi River. The new state's constitution prohibited slavery and provided for relatively progressive public education provisions.",
-      "key_figures": [
-        "Ansel Briggs (first state governor)",
-        "James K. Polk (US President)"
-      ],
-      "sources": [
-        {
-          "name": "Act of Admission, 28 December 1846",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Congressional legislation provides exact date.",
-      "cross_references": [
-        "1845-Florida and Texas statehood"
-      ]
-    },
-    {
-      "id": "1846-015",
-      "title": "First public demonstration of ether anaesthesia",
-      "region": "United States \u2014 Boston, Massachusetts",
-      "coordinates_approx": "42.36, -71.07",
-      "category": "scientific",
-      "description": "On 16 October 1846, dentist William T.G. Morton publicly demonstrated the use of inhaled diethyl ether as a surgical anaesthetic at Massachusetts General Hospital in what became known as the 'Ether Dome.' Surgeon John Collins Warren removed a tumour from the jaw of patient Edward Gilbert Abbott while Morton administered the ether. Warren reportedly declared, 'Gentlemen, this is no humbug.' The demonstration \u2014 though preceded by Crawford Long's earlier but unpublicised use of ether in 1842 \u2014 launched the era of modern anaesthesia and transformed surgery from an agonising ordeal into a controlled medical procedure. News spread rapidly across the Atlantic, and ether anaesthesia was being used in European hospitals by December 1846.",
-      "key_figures": [
-        "William T.G. Morton (dentist who administered ether)",
-        "John Collins Warren (surgeon)",
-        "Charles T. Jackson (chemist who suggested ether to Morton)",
-        "Crawford Long (earlier but unpublicised use in 1842)"
-      ],
-      "sources": [
-        {
-          "name": "Bigelow, Henry Jacob, 'Insensibility during Surgical Operations Produced by Inhalation,' Boston Medical and Surgical Journal, 18 November 1846",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Fenster, Julie M., Ether Day: The Strange Tale of America's Greatest Medical Discovery (2001)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Witnessed by numerous physicians; documented in contemporary medical journals. The priority dispute between Morton, Jackson, and Long does not affect the dating of the public demonstration itself.",
-      "cross_references": [
-        "1842-Crawford Long's earlier use of ether"
-      ]
-    },
-    {
-      "id": "1846-016",
-      "title": "Louis Napoleon escapes from Fort Ham",
-      "region": "France",
-      "coordinates_approx": "49.75, 3.07",
-      "category": "political",
-      "description": "On 25 May 1846, Louis Napoleon Bonaparte escaped from the fortress of Ham, where he had been imprisoned since 1840 for his failed coup attempt at Boulogne. Disguised as a labourer named 'Badinguet' (a nickname his opponents would use derisively for decades), he fled to England. His six years of imprisonment had allowed him to write political pamphlets, including 'The Extinction of Pauperism,' which built his public profile as a socially conscious Bonaparte. His escape positioned him for his dramatic return to French politics in 1848, when he would be elected President of the Second Republic and subsequently proclaim himself Emperor Napoleon III in 1852.",
-      "key_figures": [
-        "Louis Napoleon Bonaparte (future Napoleon III)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary French and British press reports, May\u2013June 1846",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Price, Roger, Napoleon III and the Second Empire (1997)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented event; Louis Napoleon himself later described it in correspondence.",
-      "cross_references": [
-        "1848-Louis Napoleon elected President",
-        "1852-Second French Empire"
-      ]
-    },
-    {
-      "id": "1846-017",
-      "title": "Donner Party stranded in the Sierra Nevada",
-      "region": "Sierra Nevada, California, North America",
-      "coordinates_approx": "39.31, -120.32",
-      "category": "exploration",
-      "description": "In the autumn of 1846, the Donner-Reed party of approximately 87 emigrants became trapped by early snowfall in the Sierra Nevada mountains while attempting to reach California via the ill-advised Hastings Cutoff. Their entrapment, which lasted from late October 1846 through February 1847, resulted in starvation, death, and instances of cannibalism among the survivors. Of the 87 members, only 48 survived. The disaster became one of the most notorious episodes of the American westward migration and a cautionary tale against unproven shortcuts.",
-      "key_figures": [
-        "George Donner (party leader)",
-        "James F. Reed (party organiser)",
-        "Lansford Hastings (promoter of the disastrous shortcut)"
-      ],
-      "sources": [
-        {
-          "name": "Breen, Patrick, diary kept at the lake camp, November 1846 \u2013 March 1847",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "McGlashan, C.F., History of the Donner Party (1880)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Rarick, Ethan, Desperate Passage: The Donner Party's Perilous Journey West (2008)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented through survivor diaries, rescue party accounts, and extensive later testimony.",
-      "cross_references": [
-        "1846-006"
-      ]
-    },
-    {
-      "id": "1846-018",
-      "title": "Adolphe Sax patents the saxophone",
-      "region": "France / Belgium",
-      "coordinates_approx": "48.86, 2.35",
-      "category": "cultural",
-      "description": "On 28 June 1846, Belgian instrument maker Adolphe Sax received French patent No. 3,226 for a family of instruments he called 'saxophones,' designed to bridge the tonal gap between brass and woodwind sections in military bands. Sax had been developing the instruments since the early 1840s and had demonstrated them publicly, including for Hector Berlioz, who championed them. While initially adopted mainly for military band use, the saxophone would later become central to jazz and popular music in the twentieth century, making it one of the most culturally significant instrument inventions of the modern era.",
-      "key_figures": [
-        "Adolphe Sax (inventor)",
-        "Hector Berlioz (composer and early advocate)"
-      ],
-      "sources": [
-        {
-          "name": "French Patent No. 3,226, 28 June 1846",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Cottrell, Stephen, The Saxophone (2012)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Patent records provide exact date.",
-      "cross_references": []
-    },
-    {
-      "id": "1846-019",
-      "title": "Daoguang Emperor's reign continues amid internal decline in Qing China",
-      "region": "China \u2014 Qing Empire",
-      "coordinates_approx": "39.90, 116.40",
-      "category": "political",
-      "description": "In 1846, the Qing Empire under the Daoguang Emperor continued its post-Opium War decline. The Treaty of Nanjing's consequences were being felt as treaty ports opened to foreign trade and the indemnity payments strained state finances. Internal pressures were mounting: the Yellow River shifted its course catastrophically in the mid-1840s, causing massive flooding and famine in the North China Plain. Secret societies and millenarian movements were gaining strength in southern China, laying the groundwork for the Taiping Rebellion that would erupt in 1850. The Qing court struggled with the dual challenge of managing foreign encroachment and growing domestic instability.",
-      "key_figures": [
-        "Daoguang Emperor (Qing ruler, r. 1820\u20131850)",
-        "Qiying (Manchu official managing foreign relations)"
-      ],
-      "sources": [
-        {
-          "name": "Qing Shilu (Veritable Records of the Qing Dynasty), Daoguang reign",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Spence, Jonathan, The Search for Modern China (1990)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Qing administrative records are extensive for this period, though provincial-level detail may be less accessible in English-language scholarship.",
-      "cross_references": [
-        "1842-Treaty of Nanjing",
-        "1850-Taiping Rebellion begins"
-      ]
-    },
-    {
-      "id": "1846-020",
-      "title": "Battle of Monterrey in the Mexican-American War",
-      "region": "Monterrey, Nuevo Le\u00f3n, Mexico",
-      "coordinates_approx": "25.67, -100.31",
+      "title": "Sonderbund War in Switzerland",
+      "region": "Switzerland",
+      "coordinates_approx": "46.8182, 8.2275",
       "category": "military",
-      "description": "From 21 to 24 September 1846, US forces under General Zachary Taylor fought and captured the fortified Mexican city of Monterrey after fierce urban combat. The Mexican garrison under General Pedro de Ampudia resisted stubbornly, and Taylor's forces suffered significant casualties in house-to-house fighting. Taylor controversially allowed the Mexican garrison to withdraw under an eight-week armistice, a decision that angered President Polk and contributed to Polk's decision to shift the main military effort to General Winfield Scott's Veracruz campaign. The battle demonstrated both the difficulty of urban warfare and the growing popular fame of 'Old Rough and Ready' Taylor.",
+      "description": "A brief civil war erupts in Switzerland between the liberal cantons and the conservative Catholic cantons (the Sonderbund). The conflict, lasting only three weeks, results in a decisive liberal victory and the dissolution of the Sonderbund. The war leads to the adoption of a new federal constitution in 1848 that strengthens central authority and establishes Switzerland as a more unified federal state, marking a transition from the old confederal system to modern federalism.",
       "key_figures": [
-        "Zachary Taylor (US general)",
-        "Pedro de Ampudia (Mexican general)",
-        "William J. Worth (US division commander)"
+        "General Guillaume-Henri Dufour (Federal commander)",
+        "Niklaus Riggenbach (Conservative leader)"
       ],
       "sources": [
         {
-          "name": "Taylor's after-action dispatches to the War Department, September\u2013October 1846",
+          "name": "Swiss military records and official reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Bauer, K. Jack, The Mexican War, 1846\u20131848 (1974)",
+          "name": "Contemporary Swiss newspapers and political documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Bonjour, Edgar. Swiss History (1985)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in military records from both sides.",
+      "certainty_note": "The war occurred in November 1846; the dates are precisely documented.",
       "cross_references": [
-        "1846-001",
-        "1846-002",
-        "1847-Battle of Buena Vista"
-      ]
-    },
-    {
-      "id": "1846-021",
-      "title": "Wilmot Proviso introduced in US Congress",
-      "region": "United States",
-      "coordinates_approx": "38.89, -77.01",
-      "category": "legal",
-      "description": "On 8 August 1846, Pennsylvania congressman David Wilmot introduced an amendment to an appropriations bill stipulating that slavery be prohibited in any territory acquired from Mexico. Though the Proviso passed the House but failed in the Senate, and was never enacted, it transformed American politics by making the expansion of slavery into new territories the central political question. The Proviso shattered the old party alignments, with Northern Whigs and many Northern Democrats supporting it while Southerners of both parties opposed it. It prefigured the sectional crisis that would dominate the 1850s and lead to civil war.",
-      "key_figures": [
-        "David Wilmot (Pennsylvania congressman)",
-        "John C. Calhoun (South Carolina senator, leading opponent)"
-      ],
-      "sources": [
-        {
-          "name": "Congressional Globe, 29th Congress, 1st Session, 8 August 1846",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Morrison, Chaplain W., Democratic Politics and Sectionalism: The Wilmot Proviso Controversy (1967)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Congressional records provide exact text and voting record.",
-      "cross_references": [
-        "1846-001",
-        "1850-Compromise of 1850",
-        "1854-Kansas-Nebraska Act"
+        "1848-002 (Swiss Federal Constitution)"
       ]
     }
   ],
-  "disconfirming_evidence": "Several points of complication deserve note. (1) The Adams-Le Verrier priority dispute over Neptune's discovery (1846-009) remains contested: some historians argue Adams' calculations were not sufficiently precise to constitute a genuine independent prediction, and that British claims of co-discovery were partly driven by national pride. Recent re-examination of Adams' papers in 1998 showed his predicted position shifted significantly over multiple attempts. (2) The role of Austrian authorities in inciting the Galician peasant revolt (1846-010) is debated \u2014 some scholars argue it was a spontaneous class uprising that Austria merely failed to prevent, while others maintain active Austrian encouragement. The 'Austrian manipulation' narrative was heavily promoted by Polish nationalists and may overstate official complicity. (3) The framing of Corn Laws repeal (1846-004) as primarily driven by the Irish famine is challenged by some economic historians who argue Peel was already moving toward repeal before the famine; the crisis accelerated but did not fundamentally cause the policy change. (4) The characterisation of the Mexican-American War (1846-001) as provoked by the US is nearly universal in modern historiography, but the degree to which Mexico's own internal political instability contributed to the escalation \u2014 factions within Mexico's government favoured war as a means of rallying nationalist support \u2014 is sometimes underrepresented. (5) Crawford Long's 1842 use of ether (relevant to 1846-015) means the 'Ether Day' demonstration was not the first use of surgical anaesthesia, only the first widely publicised one; Long published his account in 1849, and the priority question remains contested.",
-  "historiographic_note": "1846 is exceptionally well documented. Rich archival sources survive from all major participants: US Congressional records, British parliamentary debates, French and Austrian diplomatic correspondence, Mexican government archives, Qing court records, and Vatican archives. Contemporary newspapers in multiple languages covered most of these events in real time. The principal bias in English-language historiography is the overwhelming focus on US and British events \u2014 the Mexican-American War, Oregon Treaty, Corn Laws, and Irish Famine \u2014 at the expense of continental European, Asian, and African developments. Mexican perspectives on the war have been significantly underrepresented in Anglophone scholarship until recent decades. The Galician revolt and Krak\u00f3w annexation, though important to Polish and Central European history, receive comparatively little attention in general histories. Qing China's internal crises of this period are documented in Chinese-language sources but may be underrepresented in Western training data.",
+  "disconfirming_evidence": "The Irish Famine's severity is sometimes attributed solely to the potato blight, but modern scholarship emphasizes that the famine was a socio-political catastrophe enabled by colonial land tenure and deliberate policy choices by the British government, not merely an environmental disaster. The Mexican-American War's justification as a response to Mexican aggression is disputed; many historians argue the U.S. provoked the conflict to justify territorial expansion. The discovery of Neptune is sometimes credited solely to Le Verrier, but recent scholarship emphasizes the collaborative nature of the discovery and the role of British astronomers (particularly John Couch Adams) whose calculations were not immediately published.",
+  "historiographic_note": "1846 is exceptionally well-documented due to the proliferation of newspapers, government records, and scientific publications. Western European and North American events are richly attested; Asian and African events are documented primarily through colonial records (British East India Company, etc.), which carry inherent biases toward European perspectives and interests. The Irish Famine is extensively documented but often through the lens of British administrative records, which may underrepresent Irish agency and resistance. Scientific discoveries are well-documented in contemporary journals. The historical record for 1846 is among the richest for any year in the 19th century.",
   "graph_edges": [
     {
       "from": "1846-001",
-      "to": "1848-Treaty of Guadalupe Hidalgo",
+      "to": "1846-002",
       "relation": "led_to",
-      "note": "The Mexican-American War resulted in the 1848 treaty ceding California, New Mexico, and more to the US"
+      "note": "The Irish Famine crisis accelerated the political momentum for Corn Law repeal"
     },
     {
-      "from": "1846-004",
-      "to": "1846-005",
-      "relation": "caused_by",
-      "note": "The Irish famine accelerated the political momentum for Corn Laws repeal"
+      "from": "1846-003",
+      "to": "1848-001",
+      "relation": "led_to",
+      "note": "The Mexican-American War led directly to the Treaty of Guadalupe Hidalgo in 1848"
     },
     {
       "from": "1846-005",
-      "to": "1847-peak famine mortality",
+      "to": "1846-006",
       "relation": "led_to",
-      "note": "The 1846 crop failure was the trigger for the worst mortality year of 1847"
-    },
-    {
-      "from": "1846-007",
-      "to": "1848-Second Anglo-Sikh War",
-      "relation": "led_to",
-      "note": "The harsh treaty terms and British residency at Lahore generated resentment leading to the second war"
-    },
-    {
-      "from": "1846-007",
-      "to": "1947-Kashmir dispute",
-      "relation": "led_to",
-      "note": "The sale of Kashmir to Gulab Singh created the political entity whose status remains disputed"
-    },
-    {
-      "from": "1846-008",
-      "to": "1848-Roman Republic and Pius IX flight",
-      "relation": "led_to",
-      "note": "Pius IX's initial liberalism raised expectations that his later conservatism betrayed, contributing to the 1848 revolution in Rome"
-    },
-    {
-      "from": "1846-010",
-      "to": "1846-011",
-      "relation": "led_to",
-      "note": "The failed Galician uprising provided the pretext for Austria's annexation of Krak\u00f3w"
-    },
-    {
-      "from": "1846-010",
-      "to": "1848-revolutions in Austrian Empire",
-      "relation": "part_of",
-      "note": "The Galician events were a precursor to the broader revolutionary upheavals of 1848"
-    },
-    {
-      "from": "1846-016",
-      "to": "1848-Louis Napoleon elected President",
-      "relation": "led_to",
-      "note": "Louis Napoleon's escape from imprisonment positioned him for his 1848 presidential bid"
-    },
-    {
-      "from": "1846-019",
-      "to": "1850-Taiping Rebellion",
-      "relation": "led_to",
-      "note": "Internal decay, flooding, and secret society growth in the mid-1840s set the stage for the Taiping uprising"
-    },
-    {
-      "from": "1846-021",
-      "to": "1850-Compromise of 1850",
-      "relation": "led_to",
-      "note": "The Wilmot Proviso's sectional crisis required the Compromise of 1850 as a temporary resolution"
-    },
-    {
-      "from": "1846-021",
-      "to": "1861-US Civil War",
-      "relation": "led_to",
-      "note": "The territorial slavery question raised by the Proviso was a direct cause of the sectional crisis leading to civil war"
-    },
-    {
-      "from": "1846-006",
-      "to": "1848-California Gold Rush",
-      "relation": "led_to",
-      "note": "US conquest of California in 1846 preceded and enabled the American gold rush of 1848\u201349"
+      "note": "The First Anglo-Sikh War resulted in the Treaty of Lahore"
     },
     {
       "from": "1846-009",
-      "to": "1781-discovery of Uranus",
-      "relation": "caused_by",
-      "note": "Neptune was discovered through analysis of perturbations in Uranus's orbit"
+      "to": "1846-003",
+      "relation": "contemporary_with",
+      "note": "Both events represent concurrent American territorial expansion"
     },
     {
-      "from": "1846-015",
-      "to": "1847-chloroform anaesthesia",
+      "from": "1846-010",
+      "to": "1848-002",
       "relation": "led_to",
-      "note": "The success of ether anaesthesia rapidly led to the adoption of chloroform and other anaesthetic agents"
+      "note": "The Sonderbund War's outcome influenced the 1848 Swiss Federal Constitution"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T03:39:34.224167",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

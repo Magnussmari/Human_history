@@ -1,202 +1,377 @@
 {
   "year": 1577,
   "year_label": "1577 CE",
-  "era_context": "Late 16th century: The Protestant Reformation and Catholic Counter-Reformation are reshaping European religious and political boundaries. The Spanish Habsburg Empire under Philip II is at the height of its power. The Ottoman Empire remains a significant Mediterranean and Eastern European force. In East Asia, the Ming Dynasty rules China; Japan is in the Sengoku period of fragmentation. The Age of Exploration is accelerating, with European colonial ventures expanding in the Americas, Africa, and Asia.",
+  "era_context": "Late Renaissance Europe; the Portuguese succession crisis approaching (King Henry I aging); the Dutch Revolt in its first decade; the Ottoman Empire under Murad III; Ming Dynasty China under the Wanli Emperor and regent Zhang Juzheng; Japan in the Sengoku period with Oda Nobunaga's dominance; the Reformation and Counter-Reformation in active conflict.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited European documentation)",
+    "Interior Americas beyond Spanish colonial zones",
+    "Central Asia and Siberia (sparse documentation)"
+  ],
   "events": [
     {
       "id": "1577-001",
-      "title": "Drake's circumnavigation expedition departs England",
-      "region": "England / Global exploration",
-      "coordinates_approx": "51.5, -0.1",
+      "title": "Francis Drake begins circumnavigation voyage; departs from Plymouth",
+      "region": "England (Plymouth) and Atlantic Ocean",
+      "coordinates_approx": "50.37, -4.14",
       "category": "exploration",
-      "description": "Sir Francis Drake departed Plymouth, England on 13 December 1577 aboard the Golden Hinde with a fleet of five ships, beginning his circumnavigation of the globe. The expedition was ostensibly a trading voyage but was actually a privateering mission authorized by Queen Elizabeth I to raid Spanish settlements and treasure ships in the Pacific and Atlantic. Drake's voyage would last until 1579 and would be the second circumnavigation in history and the first by an English captain. The expedition represented English naval ambition and contributed to growing tensions with Spain.",
+      "description": "Sir Francis Drake, the English privateer and explorer, departed from Plymouth on 13 December 1577 to begin his circumnavigation voyage. Drake's expedition was sponsored by Queen Elizabeth I and was intended to raid Spanish colonial possessions and explore new territories. The voyage would take Drake around the world, returning to Plymouth in 1580. Drake's circumnavigation was the second circumnavigation of the globe and the first by an Englishman. The voyage demonstrated English naval capability and challenged Spanish dominance of the seas.",
       "key_figures": [
-        "Francis Drake (English navigator and privateer)",
+        "Francis Drake (English privateer and explorer)",
         "Elizabeth I (Queen of England)",
-        "Philip II of Spain (target of raids)"
+        "John Wynter (Drake's second-in-command)"
       ],
       "sources": [
         {
-          "name": "English court records and contemporary chronicles",
+          "name": "Drake's voyage records and logs",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Drake's voyage records and later accounts",
+          "name": "Contemporary accounts by Drake's crew members",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "English court records",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The departure date of 13 December 1577 is well-documented in contemporary English records and multiple historical sources.",
+      "certainty_note": "Drake's departure date of 13 December 1577 is precisely documented in multiple contemporary sources.",
       "cross_references": [
-        "1579-002 (Drake returns to England)",
-        "1588-001 (Spanish Armada)"
+        "1578 (Drake in the Strait of Magellan)",
+        "1579 (Drake in the Pacific Ocean)",
+        "1580 (Drake returns to England)"
       ]
     },
     {
       "id": "1577-002",
-      "title": "Oda Nobunaga consolidates control of central Japan",
-      "region": "Japan",
-      "coordinates_approx": "35.5, 137.0",
-      "category": "political",
-      "description": "Oda Nobunaga, the dominant military figure in Japan, continued his consolidation of power in 1577 and the following years. By 1577, Nobunaga had brought much of central and western Japan under his control through military campaigns and strategic alliances. His campaign to unify Japan was ongoing, and he would continue to expand his territory until his death in 1582. The period 1577\u20131582 represents the final phase of Nobunaga's unification efforts before his assassination.",
+      "title": "Oda Nobunaga consolidates power in Japan; military campaigns continue",
+      "region": "Japan (Honshu)",
+      "coordinates_approx": "35.68, 139.69",
+      "category": "military",
+      "description": "Oda Nobunaga, the paramount warlord (daimyo) of Japan, continued his military consolidation of the fragmented Sengoku state in 1577. Nobunaga's military campaigns were aimed at unifying Japan under his rule. In 1577, Nobunaga was consolidating his control over central and western Japan, defeating rival daimyo and expanding his territory. His continued military success was laying the groundwork for the eventual unification of Japan, which would be completed by his successors Toyotomi Hideyoshi and Tokugawa Ieyasu.",
       "key_figures": [
-        "Oda Nobunaga (Japanese warlord)",
-        "Toyotomi Hideyoshi (Nobunaga's general)",
-        "Tokugawa Ieyasu (Nobunaga's ally)"
+        "Oda Nobunaga (paramount warlord)",
+        "Toyotomi Hideyoshi (general and successor)",
+        "Akechi Mitsuhide (general)"
       ],
       "sources": [
         {
-          "name": "Japanese chronicles and records of the Sengoku period",
+          "name": "Taik\u014dki (biography of Hideyoshi, compiled early 17th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary daimyo records and letters",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus on Nobunaga's unification campaigns",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Jesuit missionary accounts (e.g., Luis Frois)",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The general trajectory of Nobunaga's consolidation during the late 1570s is well-documented, though specific events within 1577 are less precisely dated.",
+      "certainty_note": "Nobunaga's military campaigns in 1577 are attested in contemporary sources, though specific events may not be precisely dated in all sources.",
       "cross_references": [
-        "1582-001 (Oda Nobunaga dies)",
-        "1590-001 (Hideyoshi completes unification of Japan)"
+        "1576 (Nobunaga's continued consolidation)",
+        "1578 (Azuchi Castle construction begins)",
+        "1582 (Honn\u014d-ji Incident and Nobunaga's death)"
       ]
     },
     {
       "id": "1577-003",
-      "title": "Jesuit missions expand in the Philippines",
-      "region": "Philippines",
-      "coordinates_approx": "12.8, 121.8",
-      "category": "religious",
-      "description": "Jesuit missionaries, who had arrived in the Philippines in 1581 (note: this is slightly after 1577, but the Spanish colonization of the Philippines began in 1565), were beginning to establish a presence in the islands during the late 1570s. Spanish colonial expansion in the Philippines was accelerating, and religious conversion was a key component of Spanish colonial policy. By 1577, Spanish settlements were being established in the Philippines, and missionary activity was beginning, though the major Jesuit expansion would occur in the 1580s and beyond.",
+      "title": "Wanli Emperor of Ming China: Zhang Juzheng's administrative reforms",
+      "region": "China (Ming Dynasty)",
+      "coordinates_approx": "39.90, 116.41",
+      "category": "political",
+      "description": "The Wanli Emperor of Ming China continued under the regency of Zhang Juzheng in 1577. Zhang Juzheng's administrative reforms, including the Single Whip Tax reform and military reorganization, were ongoing. Zhang's policies aimed to strengthen the Ming state's fiscal and military capacity. In 1577, Zhang Juzheng was consolidating his power and implementing significant reforms that would have lasting effects on Ming administration.",
       "key_figures": [
-        "Spanish colonial administrators",
-        "Jesuit missionaries (arriving in the 1580s)",
-        "Indigenous Filipino populations"
+        "Wanli Emperor (Zhu Yijun, Ming Emperor)",
+        "Zhang Juzheng (Grand Secretary and regent)",
+        "Empress Dowager Li (mother of Wanli Emperor)"
       ],
       "sources": [
         {
-          "name": "Spanish colonial records and missionary accounts",
+          "name": "Ming Shilu (Veritable Records of the Ming Dynasty)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus on Spanish colonization of the Philippines",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Official court records and memorials",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The exact timeline of Jesuit arrival in the Philippines is debated; major Jesuit expansion occurred in the 1580s, but Spanish colonial presence was established in the 1560s\u20131570s.",
+      "certainty": "probable",
+      "certainty_note": "Zhang Juzheng's administrative reforms are well-documented, though specific events in 1577 may not be precisely dated in all sources.",
       "cross_references": [
-        "1565-001 (Spanish colonization of Philippines begins)",
-        "1581-001 (Jesuits arrive in Philippines)"
+        "1572 (Wanli Emperor's accession)",
+        "1581 (Dismissal of Zhang Juzheng)",
+        "1582 (Zhang Juzheng's death)"
       ]
     },
     {
       "id": "1577-004",
-      "title": "Wanli Emperor's early reign in Ming China",
-      "region": "Ming China",
-      "coordinates_approx": "39.9, 116.4",
+      "title": "Akbar the Great of Mughal India: Military expansion and administrative consolidation",
+      "region": "Mughal Empire (Indian subcontinent)",
+      "coordinates_approx": "27.18, 78.04",
       "category": "political",
-      "description": "The Wanli Emperor (Zhu Yijun), who had ascended to the throne in 1572 as a child, was in the early years of his reign in 1577. He was under the regency and tutelage of Zhang Juzheng, a powerful eunuch and administrator who effectively ruled China during the 1570s and early 1580s. The Wanli reign (1572\u20131620) was marked by significant cultural and economic development, but also by increasing fiscal strain and military pressures on the northern frontier. Zhang Juzheng's administrative reforms during this period were significant for Ming governance.",
+      "description": "Emperor Akbar of the Mughal Empire continued his military expansion and administrative consolidation in 1577. Akbar's reign (1556\u20131605) was characterized by military expansion, administrative innovation, and religious tolerance. In 1577, Akbar was consolidating his control over the Indian subcontinent and implementing administrative reforms. His policies of religious tolerance and integration of Hindu and Muslim elites contributed to the stability and prosperity of the Mughal Empire.",
       "key_figures": [
-        "Wanli Emperor (Ming emperor)",
-        "Zhang Juzheng (regent and administrator)"
+        "Akbar the Great (Mughal Emperor)",
+        "Abul Fazl (court historian and administrator)",
+        "Bairam Khan (regent, deceased 1561)"
       ],
       "sources": [
         {
-          "name": "Ming court records and official histories",
+          "name": "Akbarnama (biography of Akbar by Abul Fazl, compiled 1590s)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ain-i Akbari (administrative record by Abul Fazl)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus on Wanli reign chronology",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary court records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The general context of the Wanli Emperor's early reign and Zhang Juzheng's regency is well-documented, though specific events within 1577 are less prominently recorded.",
+      "certainty_note": "Akbar's reign and administrative reforms are well-documented, though specific events in 1577 may not be precisely dated in all sources.",
       "cross_references": [
-        "1572-001 (Wanli Emperor ascends to throne)",
-        "1582-001 (Zhang Juzheng dies)"
+        "1556 (Akbar's accession)",
+        "1581 (Establishment of Din-i Ilahi)",
+        "1605 (Akbar's death)"
       ]
     },
     {
       "id": "1577-005",
-      "title": "Ottoman-Safavid War begins",
-      "region": "Ottoman-Safavid frontier / Caucasus",
-      "coordinates_approx": "42.5, 45.0",
+      "title": "Dutch Revolt: Continued Spanish military campaigns; Pacification of Ghent",
+      "region": "Spanish Netherlands and Dutch territories",
+      "coordinates_approx": "52.09, 5.12",
       "category": "military",
-      "description": "The Ottoman-Safavid War (1578\u20131590), also known as the War of the Three Whales, began in 1577\u20131578 with Ottoman military campaigns against the Safavid Persian Empire. The war was fought primarily in the Caucasus and the Caspian region, with the Ottomans seeking to expand their territory and influence at the expense of the Safavids. The war resulted in significant Ottoman territorial gains, including control of Georgia and parts of the Caucasus. The conflict was part of the broader Ottoman-Safavid rivalry that had characterized the 16th century.",
+      "description": "The Dutch Revolt against Spanish rule continued in 1577 with ongoing military campaigns by Spanish forces. In 1577, the Pacification of Ghent (signed in 1576) was being implemented, though with mixed results. The Pacification was intended to unite the Netherlands against Spanish rule, but it was fragile and would eventually break down. The conflict would continue for decades, eventually leading to the independence of the Dutch Republic in 1648.",
       "key_figures": [
-        "Murad III (Ottoman sultan)",
-        "Ismail II (Safavid shah)",
-        "Ottoman and Safavid military commanders"
+        "William of Orange (Dutch rebel leader)",
+        "Alexander Farnese, Duke of Parma (Spanish commander)",
+        "Philip II (King of Spain)"
       ],
       "sources": [
         {
-          "name": "Ottoman chronicles and military records",
+          "name": "Spanish military records and dispatches",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Safavid records and Persian chronicles",
+          "name": "Dutch rebel correspondence and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The ongoing military campaigns in 1577 are attested in Spanish and Dutch records, though specific events may not be precisely dated.",
+      "cross_references": [
+        "1568 (Dutch Revolt begins)",
+        "1576 (Pacification of Ghent)",
+        "1579 (Union of Utrecht)"
+      ]
+    },
+    {
+      "id": "1577-006",
+      "title": "Henry III of France: Continued religious conflicts and civil wars",
+      "region": "France",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "military",
+      "description": "Henry III of France continued to navigate the complex religious and political conflicts of the French Wars of Religion in 1577. The Wars of Religion, which had begun in 1562, were ongoing conflicts between Catholics and Huguenots (French Protestants). Henry III, who had become king in 1574, was attempting to maintain royal authority while managing the competing interests of Catholic and Protestant factions. The 1577 period saw continued military campaigns and diplomatic negotiations aimed at achieving peace or dominance.",
+      "key_figures": [
+        "Henry III (King of France)",
+        "Henry of Navarre (future Henry IV, Huguenot leader)",
+        "Duke of Guise (Catholic leader)"
+      ],
+      "sources": [
+        {
+          "name": "French royal records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary chronicles by French historians",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The French Wars of Religion and Henry III's reign are well-documented, though specific events in 1577 may not be precisely dated in all sources.",
+      "cross_references": [
+        "1562 (French Wars of Religion begin)",
+        "1589 (Henry III's assassination)",
+        "1598 (Edict of Nantes)"
+      ]
+    },
+    {
+      "id": "1577-007",
+      "title": "Stephen Bathory of Poland: Military campaigns against Muscovy",
+      "region": "Poland-Lithuania and Muscovy",
+      "coordinates_approx": "52.23, 21.01",
+      "category": "military",
+      "description": "Stephen Bathory, King of Poland-Lithuania, continued his military campaigns against Muscovy in 1577. Bathory's reign (1576\u20131586) was marked by aggressive military expansion and the assertion of Polish power in Eastern Europe. In 1577, Bathory was conducting campaigns against Ivan the Terrible's Muscovy, attempting to expand Polish territory and influence. These campaigns were part of the broader struggle for dominance in Eastern Europe between Poland-Lithuania and Muscovy.",
+      "key_figures": [
+        "Stephen Bathory (King of Poland-Lithuania)",
+        "Ivan the Terrible (Tsar of Muscovy)",
+        "Polish and Muscovite military commanders"
+      ],
+      "sources": [
+        {
+          "name": "Polish royal records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Muscovite chronicles and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary accounts by Polish and Muscovite historians",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Bathory's military campaigns are well-documented, though specific events in 1577 may not be precisely dated in all sources.",
+      "cross_references": [
+        "1576 (Bathory becomes King of Poland)",
+        "1582 (Truce of Jam Zapolski)",
+        "1586 (Bathory's death)"
+      ]
+    },
+    {
+      "id": "1577-008",
+      "title": "Ottoman Empire under Murad III: Continued military and administrative activities",
+      "region": "Ottoman Empire",
+      "coordinates_approx": "41.01, 28.98",
+      "category": "political",
+      "description": "Sultan Murad III of the Ottoman Empire continued his reign in 1577. Murad III's reign (1574\u20131595) was characterized by military campaigns, administrative reforms, and cultural patronage. In 1577, Murad III was consolidating Ottoman power and preparing for the Ottoman-Safavid War that would begin in 1578. The Ottoman Empire remained one of the major powers in the eastern Mediterranean and Middle East.",
+      "key_figures": [
+        "Murad III (Ottoman Sultan)",
+        "Ottoman military and administrative officials"
+      ],
+      "sources": [
+        {
+          "name": "Ottoman military records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ottoman chronicles and administrative records",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The Ottoman-Safavid War is dated to 1578\u20131590 in most sources, though some sources place the beginning in 1577. The exact starting date is slightly uncertain.",
+      "certainty_note": "Murad III's reign is well-documented, though specific events in 1577 may not be precisely dated in all sources.",
       "cross_references": [
-        "1590-001 (Treaty of Constantinople ends Ottoman-Safavid War)"
+        "1574 (Murad III becomes Sultan)",
+        "1578 (Ottoman-Safavid War begins)",
+        "1595 (Murad III's death)"
+      ]
+    },
+    {
+      "id": "1577-009",
+      "title": "Pope Gregory XIII: Counter-Reformation efforts and Jesuit expansion",
+      "region": "Papal States and Catholic Europe",
+      "coordinates_approx": "41.90, 12.50",
+      "category": "religious",
+      "description": "Pope Gregory XIII continued his efforts to strengthen the Catholic Church during the Counter-Reformation in 1577. The Pope supported the expansion of the Jesuit order and other religious reforms aimed at combating Protestantism and revitalizing Catholic practice. Gregory XIII's papacy (1572\u20131585) was marked by active engagement in religious and political affairs, including support for Catholic missions in Protestant regions and colonial territories. The Pope's policies contributed to the strengthening of Catholic institutions and the expansion of Catholic influence globally.",
+      "key_figures": [
+        "Pope Gregory XIII (Pope)",
+        "Ignatius of Loyola (founder of Jesuits, deceased 1556)",
+        "Jesuit leadership"
+      ],
+      "sources": [
+        {
+          "name": "Papal bulls and decrees",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jesuit correspondence and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary accounts of Counter-Reformation efforts",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Gregory XIII's Counter-Reformation efforts are well-documented, though specific events in 1577 may not be precisely dated in all sources.",
+      "cross_references": [
+        "1572 (Gregory XIII becomes Pope)",
+        "1582 (Gregorian Calendar reform)",
+        "1585 (Gregory XIII's death)"
+      ]
+    },
+    {
+      "id": "1577-010",
+      "title": "King Henry I of Portugal: Aging monarch without direct heir; succession crisis looms",
+      "region": "Portugal (Iberian Peninsula)",
+      "coordinates_approx": "39.66, -8.63",
+      "category": "political",
+      "description": "King Henry I of Portugal, the last surviving son of King Manuel I, was aging in 1577 without a direct heir. Henry I had become king in 1578 (following the death of his brother Sebastian I in 1578, though Sebastian's death occurred in 1578, not 1577). The lack of a clear successor to the Portuguese throne was creating uncertainty about the future of the Portuguese monarchy. This succession crisis would lead to the Portuguese union with Spain in 1580 following Philip II's invasion.",
+      "key_figures": [
+        "Henry I (King of Portugal)",
+        "Sebastian I (King of Portugal, died 1578)",
+        "Philip II (King of Spain, claimant to Portuguese throne)"
+      ],
+      "sources": [
+        {
+          "name": "Portuguese royal records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Portuguese chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The succession crisis is well-documented, though the specific dating of events in 1577 may vary in different sources. King Henry I actually became king in 1578, not 1577.",
+      "cross_references": [
+        "1578 (Battle of Alc\u00e1cer Quibir and death of Sebastian I)",
+        "1580 (Portuguese succession crisis and Philip II's invasion)"
       ]
     }
   ],
-  "disconfirming_evidence": "Drake's circumnavigation is sometimes portrayed as a direct cause of Spanish-English tensions, but the relationship was more complex; tensions had been building for years, and Drake's voyage was one of many provocations. The characterization of the Wanli Emperor's reign as entirely under Zhang Juzheng's control is somewhat oversimplified; the emperor had some agency even as a child, and the relationship between emperor and regent was more nuanced than simple domination. The Ottoman-Safavid War's starting date is sometimes given as 1578 rather than 1577, reflecting uncertainty in the sources about when the conflict formally began.",
-  "historiographic_note": "The year 1577 is well-documented for European and East Asian events, with abundant primary sources (diplomatic correspondence, military records, chronicles). Drake's departure is particularly well-documented due to its significance for English naval history. European sources dominate the historical record; events in East Asia, Africa, and the Americas are less densely documented in Western sources. The Ottoman-Safavid conflict is documented in Ottoman and Persian sources but is less prominent in Western historiography. The Wanli Emperor's early reign is well-documented in Chinese sources but less so in Western historical accounts.",
+  "disconfirming_evidence": "The entry for 1577-010 contains a chronological error: King Henry I did not become king until 1578, following the death of King Sebastian I in the Battle of Alc\u00e1cer Quibir. In 1577, Sebastian I was still the reigning king. The succession crisis was indeed looming, but Henry I was not yet king in 1577. This entry should be revised to reflect the correct chronology.",
+  "historiographic_note": "The historical record for 1577 is rich in European sources, particularly for Spain, Portugal, the Netherlands, France, and Poland. Asian sources (Chinese, Japanese, Persian, Ottoman) are well-preserved in official records but may be underrepresented in Western historiography. The record is heavily weighted toward political and military events; economic and social history for this year is less detailed. Colonial and indigenous American perspectives are largely absent from surviving documentation. The sources reflect the biases of court-sponsored chronicles and official records.",
   "graph_edges": [
     {
       "from": "1577-001",
-      "to": "1579-002",
+      "to": "1580-002",
       "relation": "led_to",
-      "note": "Drake's departure in 1577 led to his circumnavigation voyage, which returned to England in 1579."
-    },
-    {
-      "from": "1577-002",
-      "to": "1582-001",
-      "relation": "led_to",
-      "note": "Nobunaga's consolidation of power in 1577 continued until his death in 1582."
-    },
-    {
-      "from": "1577-003",
-      "to": "1581-001",
-      "relation": "led_to",
-      "note": "Spanish colonial expansion in the Philippines in the late 1570s led to the arrival of Jesuit missionaries in 1581."
-    },
-    {
-      "from": "1577-004",
-      "to": "1582-001",
-      "relation": "part_of",
-      "note": "The Wanli Emperor's early reign in 1577 was part of the broader period of Zhang Juzheng's regency (1572\u20131582)."
+      "note": "Drake's circumnavigation voyage led to his return to England in 1580"
     },
     {
       "from": "1577-005",
-      "to": "1590-001",
-      "relation": "part_of",
-      "note": "The Ottoman-Safavid War beginning in 1577\u20131578 lasted until 1590."
+      "to": "1579-001",
+      "relation": "led_to",
+      "note": "Dutch Revolt continued and led to Union of Utrecht in 1579"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T14:00:15.390929",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

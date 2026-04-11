@@ -1,791 +1,494 @@
 {
   "year": 1836,
   "year_label": "1836 CE",
-  "era_context": "The mid-1830s fall within the Age of Revolution and early industrialisation. In the Americas, the United States pursued continental expansion under Jacksonian democracy while newly independent Latin American republics struggled with internal consolidation. In Europe, post-Napoleonic conservative order was being tested by liberal and nationalist agitation; Britain was reforming its institutions after the Reform Act of 1832, while France under the July Monarchy navigated between revolution and reaction. The Ottoman Empire was losing control of peripheral territories, the Qing dynasty faced mounting opium-trade pressures, and in southern Africa, both Boer and Zulu expansionism were reshaping the interior.",
+  "era_context": "The early 19th century, marked by industrial expansion in Europe and North America, nationalist and liberal revolutions, and the consolidation of European colonial empires in Asia and Africa. The British Empire was at its zenith; the United States was expanding westward; and the Ottoman Empire was in visible decline. This was the age of Romanticism, early socialism, and the rise of mass politics.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Central Asia and the Central Asian khanates",
-    "Interior Southeast Asia (Burma, Siam, Cambodia)",
-    "Pacific Islands beyond Australia",
-    "Inner Arabia",
-    "Interior West and Central Africa beyond coastal trading posts"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1836-001",
-      "title": "Texas Declaration of Independence from Mexico",
-      "region": "Texas / Mexico",
-      "coordinates_approx": "30.2, -96.3",
-      "category": "political",
-      "description": "On March 2, fifty-nine delegates at Washington-on-the-Brazos signed a declaration of independence from Mexico, creating the Republic of Texas. The document drew heavily on the U.S. Declaration of Independence and cited grievances against the centralising government of Antonio L\u00f3pez de Santa Anna, who had abrogated the federalist Constitution of 1824. The declaration was drafted primarily by George Childress. This act launched the final phase of the Texas Revolution and set the stage for eventual U.S. annexation in 1845, which in turn precipitated the Mexican-American War.",
+      "title": "Battle of the Alamo",
+      "region": "Texas, North America",
+      "coordinates_approx": "29.4261, -98.4861",
+      "category": "military",
+      "description": "A 13-day siege of the Alamo mission in San Antonio, Texas, by Mexican forces under General Antonio L\u00f3pez de Santa Anna against Texian (American settler) defenders. The Mexican army stormed the compound on 6 March 1836, killing all defenders including James Bowie and Davy Crockett. Though a tactical Mexican victory, the siege galvanized Texian resistance and became a symbolic rallying point for Texas independence. The battle occurred during the Texas Revolution (1835\u20131836), which sought to separate Texas from Mexico.",
       "key_figures": [
-        "George Childress (principal author)",
-        "Richard Ellis (convention president)",
-        "Sam Houston (appointed commander-in-chief)",
-        "Antonio L\u00f3pez de Santa Anna (President of Mexico)"
+        "Antonio L\u00f3pez de Santa Anna (Mexican general)",
+        "William B. Travis (Texian commander)",
+        "James Bowie (Texian defender)",
+        "Davy Crockett (Texian defender)"
       ],
       "sources": [
         {
-          "name": "Texas Declaration of Independence, March 2, 1836 (original broadside at Texas State Library and Archives)",
+          "name": "Mexican military records and Santa Anna's correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Randolph B. Campbell, Gone to Texas: A History of the Lone Star State (2003)",
-          "type": "historiographic_consensus",
+          "name": "Texian survivor accounts and later Texas historiography",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological excavations at the Alamo site",
+          "type": "archaeological",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The original document survives; the date and participants are precisely recorded.",
+      "certainty_note": "The siege dates and basic facts are well-documented in contemporary Mexican military records and Texian accounts. The exact number of defenders and some tactical details remain debated, but the core event is firmly established.",
       "cross_references": [
-        "1835-Texas-Revolution-begins",
-        "1836-003",
-        "1836-004",
-        "1845-Texas-annexation"
+        "1836-002 (Battle of San Jacinto, consequence of Alamo)",
+        "1835-001 (Texas Revolution begins)"
       ]
     },
     {
       "id": "1836-002",
-      "title": "Battle of the Alamo",
-      "region": "Texas / Mexico",
-      "coordinates_approx": "29.4, -98.5",
+      "title": "Battle of San Jacinto",
+      "region": "Texas, North America",
+      "coordinates_approx": "29.7589, -95.0831",
       "category": "military",
-      "description": "After a thirteen-day siege (February 23 \u2013 March 6), Mexican forces under President-General Santa Anna stormed the Alamo mission in San Antonio de B\u00e9xar, killing virtually all of the approximately 180\u2013260 Texian and Tejano defenders. The garrison, commanded by William Barret Travis and James Bowie, had refused surrender demands. The fall of the Alamo became a rallying cry ('Remember the Alamo!') for the Texian army and a powerful symbol in American frontier mythology, though modern scholarship has questioned inflated garrison counts and the degree to which the defenders understood their sacrifice as deliberate martyrdom.",
+      "description": "On 21 April 1836, Texian forces under General Sam Houston defeated Mexican forces under Santa Anna near the San Jacinto River, east of present-day Houston. The battle lasted approximately 18 minutes and resulted in a decisive Texian victory, with heavy Mexican casualties and the capture of Santa Anna. This victory effectively secured Texian independence and led to the establishment of the Republic of Texas. Santa Anna, under duress, signed the Treaty of Velasco recognizing Texian independence, though Mexico never formally ratified it.",
       "key_figures": [
-        "William Barret Travis (Alamo commander)",
-        "James Bowie (co-commander)",
-        "David Crockett (defender, former U.S. congressman)",
-        "Antonio L\u00f3pez de Santa Anna (Mexican commander)"
+        "Sam Houston (Texian commander)",
+        "Antonio L\u00f3pez de Santa Anna (Mexican commander, captured)",
+        "Mirabeau B. Lamar (Texian officer)"
       ],
       "sources": [
         {
-          "name": "Travis's letters from the Alamo, February 1836 (including the 'Victory or Death' letter of Feb. 24)",
+          "name": "Sam Houston's official reports and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Jos\u00e9 Enrique de la Pe\u00f1a, With Santa Anna in Texas: A Personal Narrative of the Revolution (memoir, published 1836/modern critical edition 1975)",
+          "name": "Mexican military records and Santa Anna's later accounts",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Randy Roberts and James S. Olson, A Line in the Sand: The Alamo in Blood and Memory (2001)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Eyewitness accounts from Texian soldiers",
+          "type": "chronicle",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The siege and battle are extensively documented from both sides. Exact casualty figures and the manner of Crockett's death remain debated.",
+      "certainty_note": "The date, location, and outcome are well-documented in contemporary sources from both sides. The exact casualty figures and some tactical details show minor variation across sources, but the core facts are secure.",
       "cross_references": [
-        "1836-001",
-        "1836-003",
-        "1836-004"
+        "1836-001 (Alamo, preceding event)",
+        "1836-003 (Texas Republic established)"
       ]
     },
     {
       "id": "1836-003",
-      "title": "Goliad Massacre",
-      "region": "Texas / Mexico",
-      "coordinates_approx": "28.7, -97.4",
-      "category": "military",
-      "description": "On March 27, approximately 340\u2013425 Texian prisoners of war under Colonel James Fannin were executed on Santa Anna's orders near Goliad, after having surrendered following the Battle of Coleto Creek on March 19\u201320. The mass execution violated the terms of surrender as understood by Fannin's men and outraged opinion in Texas and the United States. Together with the Alamo, the Goliad massacre became a rallying cry ('Remember Goliad!') that hardened Texian resolve and recruited American volunteers. It remains one of the largest mass executions of prisoners of war in North American history.",
+      "title": "Establishment of the Republic of Texas",
+      "region": "Texas, North America",
+      "coordinates_approx": "30.2672, -97.7431",
+      "category": "political",
+      "description": "Following the Texian victory at San Jacinto, the Republic of Texas was formally established as an independent nation. A constitutional convention met in March 1836 and drafted a constitution modeled on the U.S. Constitution. Sam Houston was elected the first president in September 1836. The republic maintained slavery and sought eventual annexation by the United States, which occurred in 1845. The republic's existence (1836\u20131845) was marked by financial instability, ongoing conflict with Mexico, and disputes with Native American tribes.",
       "key_figures": [
-        "James Fannin (Texian commander, executed)",
-        "Jos\u00e9 de Urrea (Mexican general who accepted surrender)",
-        "Antonio L\u00f3pez de Santa Anna (ordered execution under the Tornel Decree)"
+        "Sam Houston (first president)",
+        "David G. Burnet (interim president, March\u2013September 1836)",
+        "Stephen F. Austin (colonizer, political figure)"
       ],
       "sources": [
         {
-          "name": "Abel Morgan, An Account of the Battle of Goliad and the Fannin Massacre (survivor account, 1836)",
+          "name": "Texas Constitution of 1836",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Craig H. Roell, Remember Goliad! A History of La Bah\u00eda (1994)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Records of the constitutional convention",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary newspapers and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Multiple survivor accounts exist. Exact number of executed prisoners varies by source but the event is undisputed.",
+      "certainty_note": "The establishment of the republic, its constitution, and Houston's election are all documented in contemporary official records and newspapers.",
       "cross_references": [
-        "1836-002",
-        "1836-004"
+        "1836-002 (San Jacinto victory, enabling event)",
+        "1845-001 (Texas annexation by USA)"
       ]
     },
     {
       "id": "1836-004",
-      "title": "Battle of San Jacinto \u2014 Texas wins independence",
-      "region": "Texas / Mexico",
-      "coordinates_approx": "29.75, -95.08",
-      "category": "military",
-      "description": "On April 21, Sam Houston's Texian army of roughly 900 men launched a surprise afternoon assault on Santa Anna's encamped force of approximately 1,300 at San Jacinto, near present-day Houston. The battle lasted only eighteen minutes, resulting in a decisive Texian victory. Santa Anna was captured the following day and compelled to sign the Treaties of Velasco on May 14, recognising Texan independence. Mexico never ratified the treaties, but the military reality established the Republic of Texas as a de facto independent state that persisted until U.S. annexation in 1845.",
+      "title": "Accession of Queen Victoria",
+      "region": "United Kingdom",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "political",
+      "description": "On 20 June 1836, William IV of the United Kingdom died, and his 18-year-old niece Victoria ascended to the throne. Victoria's accession marked the beginning of the Victorian era (1837\u20131901), one of the most significant periods in British history. Her reign witnessed the height of the British Empire, the Industrial Revolution's maturation, and profound social and cultural change. The accession also ended the personal union with Hanover, as Hanoverian law did not permit female succession, and the crown passed to Victoria's uncle, the Duke of Cumberland.",
       "key_figures": [
-        "Sam Houston (Texian commander-in-chief)",
-        "Antonio L\u00f3pez de Santa Anna (captured Mexican president)",
-        "Mirabeau B. Lamar (Texian cavalry commander)",
-        "Juan Almonte (Mexican officer, interpreter)"
+        "Victoria (new queen)",
+        "William IV (deceased king)",
+        "Lord Melbourne (first prime minister under Victoria)"
       ],
       "sources": [
         {
-          "name": "Sam Houston's official battle report to President Burnet, April 25, 1836",
+          "name": "Official court records and proclamations",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Stephen L. Moore, Eighteen Minutes: The Battle of San Jacinto and the Texas Independence Campaign (2004)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary newspapers and journals",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Victoria's own journals and correspondence",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented; date and outcome are undisputed. The legal status of the Treaties of Velasco was immediately contested by Mexico.",
+      "certainty_note": "The date and circumstances of Victoria's accession are meticulously documented in official records and contemporary sources.",
       "cross_references": [
-        "1836-001",
-        "1836-002",
-        "1836-003",
-        "1845-Texas-annexation",
-        "1846-Mexican-American-War"
+        "1837-001 (Victoria's coronation)",
+        "1901-001 (Victoria's death, end of era)"
       ]
     },
     {
       "id": "1836-005",
-      "title": "Arkansas admitted as 25th U.S. state",
-      "region": "United States",
-      "coordinates_approx": "34.7, -92.3",
-      "category": "political",
-      "description": "On June 15, Arkansas was admitted to the Union as the 25th state and as a slave state, maintaining the sectional balance under the Missouri Compromise framework. Its constitution explicitly protected slavery. Arkansas had been organised as a territory in 1819 and its population had grown rapidly through cotton plantation expansion and the forced removal of indigenous peoples. Admission reinforced the political power of the slaveholding South in Congress.",
+      "title": "Indian Removal Act Consequences: Trail of Tears Begins",
+      "region": "Southeastern United States and Indian Territory (present-day Oklahoma)",
+      "coordinates_approx": "35.5, -97.0",
+      "category": "demographic",
+      "description": "The forced removal of Native American nations from their ancestral lands in the Southeast to Indian Territory west of the Mississippi River, mandated by the Indian Removal Act of 1830, reached a critical phase in 1836. The Cherokee, Creek, Chickasaw, Choctaw, and Seminole nations were forcibly relocated. The Cherokee removal, known as the Trail of Tears, began in earnest in 1838\u20131839, but the process of forced displacement and death from disease, starvation, and exposure was well underway by 1836. Thousands died during the journey. This represents one of the darkest chapters in U.S. history and a catastrophic demographic collapse for Native American populations.",
       "key_figures": [
-        "James S. Conway (first governor of Arkansas)",
-        "Andrew Jackson (U.S. President who signed the admission act)"
+        "Andrew Jackson (U.S. president, architect of removal policy)",
+        "John Ross (Cherokee principal chief, resisted removal)",
+        "Martin Van Buren (vice president, later president)"
       ],
       "sources": [
         {
-          "name": "Act of Admission, 24th U.S. Congress, June 15, 1836",
+          "name": "U.S. government correspondence and military records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "S. Charles Bolton, Arkansas, 1800\u20131860: Remote and Restless (1998)",
+          "name": "Cherokee and other Native American oral traditions and later written accounts",
+          "type": "oral_tradition",
+          "contemporary": false
+        },
+        {
+          "name": "Contemporary newspaper accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Modern historical scholarship and demographic analysis",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Federal legislation; date is precisely recorded.",
+      "certainty_note": "The removal policy and its devastating consequences are well-documented in government records, contemporary accounts, and modern scholarship. The exact death toll remains debated, but the scale of the tragedy is undisputed.",
       "cross_references": [
-        "1820-Missouri-Compromise"
+        "1830-001 (Indian Removal Act passed)",
+        "1838-001 (Trail of Tears peak)"
       ]
     },
     {
       "id": "1836-006",
-      "title": "Creek forced removal (Trail of Tears)",
-      "region": "Southeastern United States",
-      "coordinates_approx": "32.5, -85.5",
+      "title": "Boer Great Trek Continues",
+      "region": "South Africa",
+      "coordinates_approx": "-29.0, 25.0",
       "category": "demographic",
-      "description": "In 1836, the U.S. Army began the forced removal of the Muscogee (Creek) Nation from Alabama to Indian Territory (present-day Oklahoma), following the suppression of Creek resistance in the so-called Second Creek War earlier that year. Approximately 15,000 Creek people were forcibly marched west, many in chains and under military guard. Thousands died from exposure, disease, and starvation during the journey. The removal was carried out under the Indian Removal Act of 1830 and exemplified the systematic ethnic cleansing of the Five Civilised Tribes from the American Southeast.",
+      "description": "The Great Trek, a mass migration of Boer (Dutch-descended) settlers from the Cape Colony into the interior of South Africa, continued throughout 1836. Motivated by British colonial policies, including the abolition of slavery in 1833 and the imposition of English law and language, thousands of Boers migrated northward and eastward. By 1836, several Boer groups had established settlements in what would become the Transvaal and Natal. This migration had profound consequences for indigenous African populations, leading to conflict, displacement, and the eventual establishment of Boer republics. The trek is celebrated in Afrikaner historiography but represents a traumatic displacement for indigenous peoples.",
       "key_figures": [
-        "Andrew Jackson (U.S. President)",
-        "Winfield Scott (U.S. Army commander overseeing removal)",
-        "Opothleyahola (Creek leader who resisted removal)",
-        "Neamathla (Creek chief)"
+        "Piet Retief (Boer leader)",
+        "Andries Pretorius (Boer military leader)",
+        "Dingane (Zulu king, resisted Boer expansion)"
       ],
       "sources": [
         {
-          "name": "U.S. War Department records and military correspondence, 1836",
+          "name": "Boer trek journals and diaries",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Michael D. Green, The Politics of Indian Removal: Creek Government and Society in Crisis (1982)",
+          "name": "British colonial records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Zulu oral traditions and later accounts",
+          "type": "oral_tradition",
+          "contemporary": false
+        },
+        {
+          "name": "Modern South African historiography",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented in U.S. military and government records. Exact death tolls are estimated and vary by source.",
+      "certainty_note": "The Great Trek is well-documented in Boer records and British colonial sources. The motivations and consequences are debated in modern scholarship, particularly regarding the impact on indigenous populations.",
       "cross_references": [
-        "1830-Indian-Removal-Act",
-        "1838-Cherokee-Trail-of-Tears"
+        "1833-001 (British abolition of slavery)",
+        "1838-002 (Battle of Blood River, Boer-Zulu conflict)"
       ]
     },
     {
       "id": "1836-007",
-      "title": "Martin Van Buren elected President of the United States",
-      "region": "United States",
-      "coordinates_approx": "38.9, -77.0",
-      "category": "political",
-      "description": "In the November presidential election, Vice President Martin Van Buren won a decisive Electoral College victory (170\u201373 combined opposition) over a fragmented Whig opposition that fielded multiple regional candidates (William Henry Harrison, Hugh Lawson White, Daniel Webster, and Willie Person Mangum). Van Buren was the first president of Dutch descent and the first to be born a U.S. citizen rather than a British subject. He inherited Andrew Jackson's Democratic coalition, but his presidency would be dominated by the Panic of 1837.",
+      "title": "Tithe Commutation Act (Britain)",
+      "region": "United Kingdom",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "legal",
+      "description": "The Tithe Commutation Act of 1836 reformed the system of tithes (agricultural taxes paid to the Church of England) in England and Wales. The act replaced the traditional system of paying tithes in kind (agricultural produce) with a fixed monetary payment based on grain prices. This reform was intended to reduce rural unrest caused by tithe disputes and to modernize agricultural taxation. The act had significant economic and social consequences, affecting the relationship between farmers, landowners, and the Church, and contributed to the decline of the Church's economic power in rural areas.",
       "key_figures": [
-        "Martin Van Buren (President-elect)",
-        "Andrew Jackson (outgoing President)",
-        "William Henry Harrison (leading Whig candidate)"
+        "Lord Melbourne (Prime Minister)",
+        "Archbishop of Canterbury (Church leadership)"
       ],
       "sources": [
         {
-          "name": "Official election returns, 1836; Niles' Weekly Register reporting",
+          "name": "The Tithe Commutation Act, 1836 (primary legislation)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ted Widmer, Martin Van Buren (2005, American Presidents Series)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Parliamentary debates and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary agricultural and ecclesiastical records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Electoral returns are precisely documented.",
+      "certainty_note": "The act and its passage are documented in parliamentary records and legislation. Its economic and social effects are analyzed in modern historical scholarship.",
       "cross_references": [
-        "1837-Panic-of-1837"
+        "1834-001 (Poor Law Amendment Act, related social reform)"
       ]
     },
     {
       "id": "1836-008",
-      "title": "The Great Trek begins in earnest in southern Africa",
-      "region": "Southern Africa / Cape Colony",
-      "coordinates_approx": "-30.0, 27.0",
-      "category": "demographic",
-      "description": "From late 1835 and throughout 1836, large organised parties of Boer (Afrikaner) families \u2014 the Voortrekkers \u2014 departed the eastern Cape Colony and moved into the interior of southern Africa. Key leaders included Louis Tregardt, Andries Hendrik Potgieter, and Gerrit Maritz. Motivations included dissatisfaction with British colonial administration, the abolition of slavery in British territories (effective 1834), land hunger, and conflicts over frontier policy. The Great Trek profoundly reshaped the political geography of southern Africa, leading to the establishment of independent Boer republics and violent confrontation with Ndebele, Zulu, and other African polities.",
+      "title": "Dickens' 'The Pickwick Papers' Published",
+      "region": "United Kingdom",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "cultural",
+      "description": "Charles Dickens' first novel, 'The Pickwick Papers,' was published in serial form beginning in March 1836 and completed in November 1836. The novel was an immediate popular success and established Dickens as a major literary figure. It depicted English society with humor and social commentary, and its serialization in a magazine format helped establish the Victorian serial novel as a dominant literary form. The work's success launched Dickens' prolific career and his role as a chronicler of Victorian society and social problems.",
       "key_figures": [
-        "Louis Tregardt (trek leader)",
-        "Andries Hendrik Potgieter (trek leader)",
-        "Gerrit Maritz (trek leader)",
-        "Mzilikazi (Ndebele king, adversary)"
+        "Charles Dickens (author)",
+        "Robert Seymour (illustrator)"
       ],
       "sources": [
         {
-          "name": "Louis Tregardt, Journal (diary covering 1836\u20131838, first published 1917)",
+          "name": "The Pickwick Papers (primary text)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Hermann Giliomee, The Afrikaners: Biography of a People (2003)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary reviews and literary journals",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Dickens' correspondence and biographical records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Trek is well-documented through participant diaries, Cape Colony official records, and later memoir literature. Exact departure dates of individual parties are sometimes approximate.",
+      "certainty_note": "The publication date and immediate success are well-documented in contemporary sources and literary records.",
       "cross_references": [
-        "1834-British-abolition-of-slavery-in-colonies",
-        "1838-Battle-of-Blood-River"
+        "1837-001 (Dickens' 'Oliver Twist' begins serialization)"
       ]
     },
     {
       "id": "1836-009",
-      "title": "Battle of Vegkop \u2014 Voortrekkers vs. Ndebele",
-      "region": "Southern Africa (present-day Free State, South Africa)",
-      "coordinates_approx": "-27.2, 28.3",
-      "category": "military",
-      "description": "On October 19, a Voortrekker party of about 40 men under Andries Hendrik Potgieter and Sarel Cilliers fought off an Ndebele attack at Vegkop. The Voortrekkers formed a laager (defensive wagon circle) and repulsed a much larger Ndebele force, though they lost virtually all their cattle. The battle marked the first major armed confrontation of the Great Trek and demonstrated both the effectiveness of the laager tactic and the Voortrekkers' vulnerability without livestock. A retaliatory expedition in 1837 drove Mzilikazi's Ndebele north across the Limpopo.",
+      "title": "Siege of Missolonghi Aftermath and Greek Independence Consolidation",
+      "region": "Greece and Ottoman Empire",
+      "coordinates_approx": "38.3667, 21.4333",
+      "category": "political",
+      "description": "By 1836, the Greek War of Independence (1821\u20131829) had concluded with Greek independence recognized by the Treaty of Adrianople (1829). In 1836, Greece was consolidating its new status as an independent nation-state. The Kingdom of Greece was formally established in 1833 under King Otto of Bavaria. By 1836, the new Greek state was organizing its government, military, and economy, though it faced significant challenges including territorial disputes with the Ottoman Empire, economic instability, and internal political factionalism. The independence of Greece represented a major geopolitical shift in the Eastern Mediterranean and a symbolic victory for European nationalism and Philhellenism.",
       "key_figures": [
-        "Andries Hendrik Potgieter (Voortrekker leader)",
-        "Sarel Cilliers (Voortrekker leader)",
-        "Mzilikazi (Ndebele king)"
+        "King Otto of Bavaria (first king of Greece)",
+        "Ioannis Kapodistrias (former governor, assassinated 1831)",
+        "Theodoros Kolokotronis (military leader)"
       ],
       "sources": [
         {
-          "name": "Sarel Cilliers, personal reminiscences (recorded later but based on participant experience)",
+          "name": "Greek government records and correspondence",
           "type": "primary_text",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "Peter Becker, Rule of Fear: The Life and Times of Dingane, King of the Zulu (1964); Timothy Keegan, Colonial South Africa and the Origins of the Racial Order (1996)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "British and European diplomatic records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Greek and European newspapers",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The battle is well-attested in Voortrekker sources. Ndebele sources for this period are primarily oral and filtered through later recording.",
+      "certainty_note": "The consolidation of Greek independence and the establishment of the Kingdom of Greece are well-documented in diplomatic and governmental records.",
       "cross_references": [
-        "1836-008",
-        "1837-Ndebele-driven-north"
+        "1829-001 (Treaty of Adrianople, Greek independence recognized)",
+        "1833-002 (Kingdom of Greece established)"
       ]
     },
     {
       "id": "1836-010",
-      "title": "South Australia proclaimed as a British colony",
-      "region": "Australia",
-      "coordinates_approx": "-34.9, 138.6",
+      "title": "Qing Dynasty: Daoguang Emperor's Reign Continues",
+      "region": "China",
+      "coordinates_approx": "39.9042, 116.4074",
       "category": "political",
-      "description": "On December 28, Governor John Hindmarsh read the proclamation establishing the Province of South Australia at Holdfast Bay (present-day Glenelg). South Australia was unique among Australian colonies in that it was founded on Edward Gibbon Wakefield's principles of systematic colonisation \u2014 land was sold at a fixed price rather than granted, and the proceeds funded assisted immigration. Crucially, it was established without convict labour. The settlement at Adelaide was laid out by Colonel William Light. South Australia's founding charter included no recognition of Aboriginal land rights, and dispossession of the Kaurna people followed rapidly.",
+      "description": "In 1836, the Qing Dynasty under the Daoguang Emperor (r. 1820\u20131850) was experiencing significant internal and external pressures. The empire faced economic decline, administrative corruption, and the rise of secret societies and banditry. Externally, Western powers were increasingly demanding trade access, particularly Britain, which sought to expand opium trade into China. The Daoguang Emperor's reign would be marked by the First Opium War (1840\u20131842), which was being set up by escalating tensions in 1836. The period represents the beginning of the end of Qing dominance and the start of China's 'Century of Humiliation' at the hands of Western powers.",
       "key_figures": [
-        "John Hindmarsh (first Governor)",
-        "William Light (Surveyor-General, planner of Adelaide)",
-        "Edward Gibbon Wakefield (colonisation theorist)"
+        "Daoguang Emperor (Qing ruler)",
+        "Lin Zexu (official, later anti-opium commissioner)",
+        "British merchants and East India Company representatives"
       ],
       "sources": [
         {
-          "name": "South Australia Act 1834 (4 & 5 Will. IV c. 95); Proclamation of December 28, 1836",
+          "name": "Qing imperial records and edicts",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Douglas Pike, Paradise of Dissent: South Australia 1829\u20131857 (1957)",
-          "type": "historiographic_consensus",
+          "name": "British diplomatic and commercial records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese historical chronicles and official histories",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Official colonial records survive. The proclamation date is undisputed.",
+      "certainty_note": "The political situation and tensions of 1836 are documented in Qing records and British sources. The broader context of decline and Western pressure is well-established in scholarship.",
       "cross_references": [
-        "1834-South-Australia-Act"
+        "1840-001 (First Opium War begins)",
+        "1842-001 (Treaty of Nanking, Qing defeat)"
       ]
     },
     {
       "id": "1836-011",
-      "title": "Samuel Colt patents the revolving firearm",
-      "region": "United States",
-      "coordinates_approx": "41.8, -72.7",
-      "category": "technological",
-      "description": "On February 25, Samuel Colt received U.S. Patent No. 138 (later reissued) for a revolving-breech firearm mechanism, the basis for the Colt Paterson revolver. The patent covered the key innovation of a rotating cylinder that aligned successive chambers with a single barrel, cocked by the hammer mechanism. Though Colt's first company (Patent Arms Manufacturing) would fail by 1842, the revolver concept proved transformative for warfare and frontier expansion. The Texas Rangers' adoption of Colt revolvers in the 1840s made them iconic weapons of American westward expansion.",
-      "key_figures": [
-        "Samuel Colt (inventor and patentee)"
-      ],
-      "sources": [
-        {
-          "name": "U.S. Patent No. 138, February 25, 1836; Colt also held English Patent No. 6909 (1835)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "William Hosley, Colt: The Making of an American Legend (1996)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Patent records survive. The English patent predates the U.S. patent by several months.",
-      "cross_references": []
-    },
-    {
-      "id": "1836-012",
-      "title": "Charles Darwin returns from HMS Beagle voyage",
-      "region": "United Kingdom",
-      "coordinates_approx": "50.4, -4.1",
-      "category": "scientific",
-      "description": "On October 2, HMS Beagle docked at Falmouth, Cornwall, completing a nearly five-year circumnavigation (departed December 1831). Charles Darwin returned with extensive collections of geological, zoological, and botanical specimens and a journal of observations that would form the empirical basis for his theory of evolution by natural selection. In the months following his return, Darwin began organising his specimens with specialists (notably John Gould on the Gal\u00e1pagos finches) and writing up his geological observations. The voyage's intellectual harvest would not be fully published until On the Origin of Species in 1859, but 1836 marks the critical transition from field collection to theoretical synthesis.",
-      "key_figures": [
-        "Charles Darwin (naturalist)",
-        "Robert FitzRoy (captain of HMS Beagle)",
-        "John Gould (ornithologist who identified Gal\u00e1pagos finches)"
-      ],
-      "sources": [
-        {
-          "name": "Charles Darwin, Journal of Researches (1839, based on the voyage journal); Darwin's correspondence, October 1836 (Darwin Correspondence Project)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Janet Browne, Charles Darwin: Voyaging (1995)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Darwin's letters and the Beagle's log precisely record the arrival date.",
-      "cross_references": [
-        "1831-Beagle-departs",
-        "1859-Origin-of-Species"
-      ]
-    },
-    {
-      "id": "1836-013",
-      "title": "Arc de Triomphe inaugurated in Paris",
-      "region": "France",
-      "coordinates_approx": "48.87, 2.30",
-      "category": "cultural",
-      "description": "On July 29, the Arc de Triomphe de l'\u00c9toile was officially inaugurated in Paris, thirty years after Napoleon I commissioned it in 1806 to commemorate his Grande Arm\u00e9e's victories. The monument was completed under the July Monarchy of Louis-Philippe, who sought to appropriate Napoleonic glory for his own legitimacy. Designed by Jean Chalgrin, it stands 50 metres high at the western end of the Champs-\u00c9lys\u00e9es. The inauguration was timed to coincide with the sixth anniversary of the July Revolution of 1830. The monument became one of France's most potent national symbols.",
-      "key_figures": [
-        "Louis-Philippe I (King of the French)",
-        "Adolphe Thiers (Minister of the Interior who oversaw completion)",
-        "Jean Chalgrin (architect, died 1811)"
-      ],
-      "sources": [
-        {
-          "name": "Le Moniteur universel, reports of the inauguration ceremony, July 1836",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "David P. Jordan, Napoleon and the Revolution (1995); historiographic consensus on the construction timeline",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Inauguration date is precisely documented in French official and press records.",
-      "cross_references": [
-        "1806-Napoleon-commissions-Arc",
-        "1830-July-Revolution"
-      ]
-    },
-    {
-      "id": "1836-014",
-      "title": "Ralph Waldo Emerson publishes Nature",
-      "region": "United States",
-      "coordinates_approx": "42.4, -71.3",
-      "category": "cultural",
-      "description": "On September 9, Ralph Waldo Emerson published his essay Nature anonymously in Boston. The work laid the philosophical foundation of American Transcendentalism, arguing that nature is the ultimate source of spiritual truth and that individuals can achieve direct communion with the divine through intuition rather than inherited doctrine. Though initially selling only 500 copies, Nature became one of the most influential works of American philosophy and literature, inspiring Henry David Thoreau, Margaret Fuller, and the broader Transcendentalist movement. It also articulated a distinctly American intellectual independence from European thought.",
-      "key_figures": [
-        "Ralph Waldo Emerson (author)"
-      ],
-      "sources": [
-        {
-          "name": "Ralph Waldo Emerson, Nature (James Munroe and Company, Boston, 1836)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Robert D. Richardson Jr., Emerson: The Mind on Fire (1995)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Publication date and content are well documented. First edition copies survive.",
-      "cross_references": []
-    },
-    {
-      "id": "1836-015",
-      "title": "Siege of Bilbao during the First Carlist War",
-      "region": "Spain (Basque Country)",
-      "coordinates_approx": "43.3, -2.9",
+      "title": "Boer-Zulu Conflict: Piet Retief's Mission",
+      "region": "South Africa (Natal region)",
+      "coordinates_approx": "-29.8, 31.0",
       "category": "military",
-      "description": "Between October and December 1836, Carlist forces under the Pretender Don Carlos besieged Bilbao, the commercial capital of the Basque Country and a stronghold of Cristino (liberal) support. The garrison and civilian population resisted fiercely, and a relief force under General Baldomero Espartero broke the siege on December 25. The failed siege was a turning point in the First Carlist War (1833\u20131840), demonstrating the Carlists' inability to capture major urban centres. The war pitted Carlist absolutists, supported by rural and clerical elements, against the liberal constitutional monarchy of the regent Mar\u00eda Cristina on behalf of the child queen Isabella II.",
+      "description": "In 1836, Boer leader Piet Retief led a delegation to negotiate with Zulu King Dingane for land in Natal. Retief sought to establish a Boer settlement in the region. However, negotiations broke down, and in February 1837 (following 1836), Retief and his party were killed by Dingane's forces. This event sparked the Boer-Zulu War and led to the Battle of Blood River in December 1838. The conflict represents a crucial moment in South African history, marking the collision of Boer expansion with Zulu power and leading to the establishment of the Boer Republic of Natal.",
       "key_figures": [
-        "Don Carlos (Carlist pretender)",
-        "Baldomero Espartero (Cristino general)",
-        "Mar\u00eda Cristina (Queen Regent of Spain)"
+        "Piet Retief (Boer leader)",
+        "Dingane (Zulu king)",
+        "Andries Pretorius (Boer military commander)"
       ],
       "sources": [
         {
-          "name": "Contemporary Spanish press and military dispatches, 1836",
+          "name": "Boer trek journals and accounts",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Mark Lawrence, Spain's First Carlist War, 1833\u201340 (2014)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented in Spanish military and journalistic sources.",
-      "cross_references": [
-        "1833-First-Carlist-War-begins"
-      ]
-    },
-    {
-      "id": "1836-016",
-      "title": "Tithe War disturbances continue in Ireland",
-      "region": "Ireland / United Kingdom",
-      "coordinates_approx": "53.0, -7.5",
-      "category": "political",
-      "description": "The Irish Tithe War, a campaign of passive and sometimes violent resistance by the predominantly Catholic peasantry against compulsory tithes to the established (Protestant) Church of Ireland, continued through 1836. The British government, unable to collect tithes by force without provoking further unrest, moved toward legislative resolution. The Tithe Rentcharge (Ireland) Act of 1838 would eventually convert tithes into a rent charge paid by landlords rather than tenants. The agitation demonstrated the power of organised Irish Catholic resistance and contributed to the growing movement for reform of the Church of Ireland's privileged position.",
-      "key_figures": [
-        "Daniel O'Connell (Irish political leader, agitator for repeal)",
-        "Thomas Drummond (Under-Secretary for Ireland, sympathetic to reform)"
-      ],
-      "sources": [
-        {
-          "name": "Parliamentary debates and Irish constabulary reports, 1836",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Patrick O'Donoghue, 'Causes of the Tithe War 1830\u201338', Studia Hibernica (1969)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "British parliamentary records and constabulary files provide detailed contemporary documentation.",
-      "cross_references": [
-        "1838-Tithe-Rentcharge-Act"
-      ]
-    },
-    {
-      "id": "1836-017",
-      "title": "Dost Mohammed Khan consolidates power in Afghanistan",
-      "region": "Afghanistan",
-      "coordinates_approx": "34.5, 69.2",
-      "category": "political",
-      "description": "By 1836, Dost Mohammed Khan had established himself as the dominant ruler in Kabul, having taken the title of Amir al-Mu'minin (Commander of the Faithful) in 1834. However, his authority remained contested: the former Durrani king Shah Shuja was in exile under British protection in India, and the Sikh Empire under Ranjit Singh controlled Peshawar. Dost Mohammed sent envoys to British India seeking an alliance against the Sikhs, but British hesitation and the arrival of a Russian envoy (Captain Ivan Vitkevich, who reached Kabul in late 1837) would trigger the 'Great Game' anxieties that led Britain to invade Afghanistan in 1839.",
-      "key_figures": [
-        "Dost Mohammed Khan (Amir of Kabul)",
-        "Ranjit Singh (Maharaja of the Sikh Empire)",
-        "Alexander Burnes (British envoy to Kabul, visited 1836\u20131838)"
-      ],
-      "sources": [
-        {
-          "name": "Alexander Burnes, Cabool: A Personal Narrative of a Journey to, and Residence in that City (1842)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "William Dalrymple, Return of a King: The Battle for Afghanistan (2013)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Burnes's diplomatic mission is well-documented in British India Office records and his own published account.",
-      "cross_references": [
-        "1839-First-Anglo-Afghan-War"
-      ]
-    },
-    {
-      "id": "1836-018",
-      "title": "Opium trade tensions escalate between China and Britain",
-      "region": "Qing China / Canton (Guangzhou)",
-      "coordinates_approx": "23.1, 113.3",
-      "category": "economic",
-      "description": "By 1836, the illegal opium trade into China had reached crisis proportions, with an estimated 30,000 chests imported annually, causing a severe silver drain from the Qing economy and widespread addiction. The Daoguang Emperor received competing memorials from officials: Xu Naiji proposed legalising and taxing opium to control the silver outflow, while hardliners led by Huang Jueci demanded stricter enforcement. The debate resulted in the Emperor initially leaning toward legalisation before ultimately choosing the prohibitionist course that led to Commissioner Lin Zexu's crackdown and the First Opium War (1839\u20131842).",
-      "key_figures": [
-        "Daoguang Emperor (Qing ruler)",
-        "Xu Naiji (official who proposed legalisation)",
-        "Huang Jueci (prohibitionist official)",
-        "Charles Elliot (British Superintendent of Trade in Canton from 1836)"
-      ],
-      "sources": [
-        {
-          "name": "Xu Naiji's memorial to the throne, 1836; Canton Register reports",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Julia Lovell, The Opium War: Drugs, Dreams and the Making of China (2011)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Qing court memorials and British trade records are well-preserved. The opium debate of 1836 is a key episode in the lead-up to the Opium War.",
-      "cross_references": [
-        "1839-Lin-Zexu-opium-destruction",
-        "1839-First-Opium-War"
-      ]
-    },
-    {
-      "id": "1836-019",
-      "title": "Tenskwatawa and Shawnee removal to Kansas Territory",
-      "region": "United States (Kansas Territory)",
-      "coordinates_approx": "39.0, -94.7",
-      "category": "demographic",
-      "description": "In 1836, the Shawnee people, including the aging prophet Tenskwatawa (brother of Tecumseh), were settled in what is now eastern Kansas as part of the broader Indian removal program. Tenskwatawa, who had been instrumental in the pan-Indian resistance movement of the 1800s\u20131810s alongside Tecumseh, lived in relative obscurity on the reservation. He died in November 1836. His death marked the passing of the last major figure from the pre-War of 1812 Native resistance movement, though his legacy of pan-Indian solidarity would influence later resistance efforts.",
-      "key_figures": [
-        "Tenskwatawa (Shawnee Prophet)",
-        "Tecumseh (his brother, killed 1813)"
-      ],
-      "sources": [
-        {
-          "name": "R. David Edmunds, The Shawnee Prophet (1983)",
-          "type": "historiographic_consensus",
+          "name": "Zulu oral traditions and later accounts",
+          "type": "oral_tradition",
           "contemporary": false
         },
         {
-          "name": "Bureau of Indian Affairs records, 1830s",
+          "name": "British colonial records",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Tenskwatawa's death date is conventionally given as November 1836, though the exact date is uncertain. The Shawnee removal to Kansas is well-documented.",
+      "certainty_note": "The negotiations and Retief's mission in 1836 are documented in Boer sources, though the exact date of his death is sometimes given as February 1837. The broader context and consequences are well-established.",
       "cross_references": [
-        "1830-Indian-Removal-Act",
-        "1836-006"
+        "1836-006 (Great Trek continues)",
+        "1838-002 (Battle of Blood River)"
       ]
     },
     {
-      "id": "1836-020",
-      "title": "Establishment of the Republic of Peru-Bolivia Confederation",
-      "region": "South America (Peru / Bolivia)",
-      "coordinates_approx": "-16.5, -68.1",
-      "category": "political",
-      "description": "In 1836, Bolivian President Andr\u00e9s de Santa Cruz completed the formation of the Peru-Bolivian Confederation, merging Bolivia with the North Peruvian State and the South Peruvian State into a tripartite confederation under his leadership as Supreme Protector. Santa Cruz, who had intervened militarily in Peru in 1835 to support allies and impose order, saw the confederation as a revival of the pre-Columbian unity of the Andean region. The confederation alarmed Chile and Argentina, who saw it as a threat to the regional balance of power, leading to Chilean-led wars that ultimately dissolved the confederation in 1839.",
+      "id": "1836-012",
+      "title": "Indian Removal: Creek Nation Forced Westward",
+      "region": "Southeastern United States to Indian Territory",
+      "coordinates_approx": "35.0, -97.0",
+      "category": "demographic",
+      "description": "The Creek Nation, one of the Five Civilized Tribes, was forcibly removed from their homeland in the Southeast to Indian Territory (present-day Oklahoma) in 1836\u20131837. The removal followed the Creek War (1813\u20131814) and the Indian Removal Act of 1830. Thousands of Creek people died during the forced march from disease, starvation, and harsh conditions. The removal represented a catastrophic demographic and cultural collapse for the Creek Nation and was part of the broader Indian Removal policy that displaced tens of thousands of Native Americans.",
       "key_figures": [
-        "Andr\u00e9s de Santa Cruz (Supreme Protector)",
-        "Agust\u00edn Gamarra (Peruvian rival)",
-        "Diego Portales (Chilean minister who opposed the confederation)"
+        "Andrew Jackson (U.S. president)",
+        "Opothleyoholo (Creek leader who resisted removal)",
+        "U.S. military commanders overseeing removal"
       ],
       "sources": [
         {
-          "name": "Confederation constitutional documents, 1836; contemporary diplomatic correspondence",
+          "name": "U.S. government removal records and military correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Natalia Sobrevilla Perea, The Caudillo of the Andes: Andr\u00e9s de Santa Cruz (2011)",
-          "type": "historiographic_consensus",
+          "name": "Creek oral traditions and later accounts",
+          "type": "oral_tradition",
           "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Constitutional acts and diplomatic records are well-preserved. The confederation's formation is precisely dated.",
-      "cross_references": [
-        "1839-War-of-the-Confederation-end"
-      ]
-    },
-    {
-      "id": "1836-021",
-      "title": "Muhammed Ali's Egypt continues modernisation and expansion",
-      "region": "Egypt / Ottoman Empire",
-      "coordinates_approx": "30.0, 31.2",
-      "category": "political",
-      "description": "By 1836, Muhammad Ali Pasha's Egypt was at the height of its regional power, controlling Egypt, Sudan, the Hejaz, and the Levant (Syria, won from the Ottomans in 1832\u20131833). His modernisation programme continued with expansion of state-directed cotton cultivation, industrialisation experiments, military reform along European lines, and educational missions sending Egyptians to study in France. Egyptian authority in Syria remained contested by local elites, and the Ottoman Sultan Mahmud II was planning the military reconquest that would trigger the Second Egyptian-Ottoman War in 1839.",
-      "key_figures": [
-        "Muhammad Ali Pasha (ruler of Egypt)",
-        "Ibrahim Pasha (his son, governor of Syria)",
-        "Mahmud II (Ottoman Sultan)"
-      ],
-      "sources": [
-        {
-          "name": "British and French consular dispatches from Cairo and Alexandria, 1836",
-          "type": "primary_text",
-          "contemporary": true
         },
         {
-          "name": "Khaled Fahmy, All the Pasha's Men: Mehmed Ali, His Army and the Making of Modern Egypt (1997)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "European diplomatic records and Egyptian state archives document this period extensively.",
-      "cross_references": [
-        "1832-Egyptian-Ottoman-War",
-        "1839-Second-Egyptian-Ottoman-War"
-      ]
-    },
-    {
-      "id": "1836-022",
-      "title": "Adelaide Ann Procter and the beginning of modern nursing discourse in Britain",
-      "region": "United Kingdom",
-      "coordinates_approx": "51.5, -0.1",
-      "category": "cultural",
-      "description": "In 1836, the establishment of the Kaiserswerth Deaconess Institution in Germany by Theodor Fliedner and his wife Friederike began to attract international attention as a model for professionalised female nursing and charitable care. The institution, founded in a former factory on the Rhine, trained Protestant deaconesses in nursing, teaching, and social work. Florence Nightingale would later visit Kaiserswerth in 1850\u20131851 and cite it as foundational to her vision of nursing reform. The founding of Kaiserswerth represents an early milestone in the professionalisation of nursing in Europe.",
-      "key_figures": [
-        "Theodor Fliedner (founder)",
-        "Friederike Fliedner (co-founder)"
-      ],
-      "sources": [
-        {
-          "name": "Kaiserswerth institutional records, 1836; Theodor Fliedner's published reports",
+          "name": "Contemporary newspaper accounts",
           "type": "primary_text",
           "contemporary": true
-        },
-        {
-          "name": "Catherine Prelinger, Charity, Challenge, and Change: Religious Dimensions of the Mid-Nineteenth-Century Women's Movement in Germany (1987)",
-          "type": "historiographic_consensus",
-          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Institutional founding records survive. The influence on later nursing reform is well-established in historiography.",
+      "certainty_note": "The removal of the Creek Nation in 1836\u20131837 is documented in U.S. government records and contemporary accounts. The death toll and suffering are well-established in modern scholarship.",
       "cross_references": [
-        "1850-Nightingale-visits-Kaiserswerth"
-      ]
-    },
-    {
-      "id": "1836-023",
-      "title": "Inauguration of the first railway in Russia",
-      "region": "Russian Empire",
-      "coordinates_approx": "59.9, 30.3",
-      "category": "technological",
-      "description": "On October 30 (O.S.; November 11 N.S.), the Tsarskoye Selo Railway, connecting Saint Petersburg to the imperial residence at Tsarskoye Selo, was inaugurated as Russia's first public railway. The 27-kilometre line was built under the direction of Franz Anton von Gerstner, an Austrian engineer. Though short and initially seen as a novelty, the railway demonstrated the technology's viability in Russian conditions and paved the way for Tsar Nicholas I's decision to build the major Moscow\u2013Saint Petersburg Railway (completed 1851). Russia's late start in railway construction compared to Britain and the United States would have long-term strategic consequences.",
-      "key_figures": [
-        "Nicholas I (Tsar of Russia)",
-        "Franz Anton von Gerstner (engineer)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary reports in Sankt-Peterburgskie Vedomosti, October\u2013November 1836",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "J.N. Westwood, A History of Russian Railways (1964)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The inauguration date is precisely recorded. Note: the first trial run occurred in September 1836; regular service began in 1837. Some sources date the formal opening to 1837 for regular public service.",
-      "cross_references": [
-        "1851-Moscow-Petersburg-Railway"
+        "1836-005 (Indian Removal Act consequences)",
+        "1838-001 (Cherokee Trail of Tears)"
       ]
     }
   ],
-  "disconfirming_evidence": "Several commonly repeated claims about 1836 deserve qualification: (1) The number of Alamo defenders is frequently cited as 189 (following the traditional count), but modern scholarship (particularly Todd Hansen, The Alamo Reader, 2003) suggests the garrison numbered between 180 and 260, with the lower figure more likely. The manner of David Crockett's death is disputed \u2014 the de la Pe\u00f1a diary suggests he was captured and executed rather than dying fighting, though the diary's authenticity was itself contested (it has since been largely authenticated). (2) The Great Trek is sometimes presented as a unified movement with shared goals; in reality, the various trek parties had divergent leaders, destinations, and motivations, and inter-party conflicts were common. The narrative of a single heroic Boer exodus was largely constructed by later Afrikaner nationalist historiography. (3) The Tsarskoye Selo Railway's inauguration date is sometimes given as 1837 rather than 1836 because regular public service did not begin until 1837; the 1836 date refers to the ceremonial first run. (4) The opium legalisation debate in China is sometimes oversimplified as a clear binary between Xu Naiji's position and the hardliners; recent scholarship (Zheng Yangwen, The Social Life of Opium in China, 2005) shows the court debate was more nuanced, with multiple intermediate positions.",
-  "historiographic_note": "1836 is richly documented from multiple national traditions. However, surviving sources heavily privilege Euro-American and colonial perspectives. The Texas Revolution is overwhelmingly documented from the Texian/American perspective; Mexican sources exist but have been less integrated into English-language historiography until relatively recently. Southern African history for this period relies heavily on Boer participant accounts; Ndebele, Zulu, and other African perspectives are drawn from oral tradition recorded by Europeans or much later. The Qing court records provide a Chinese perspective on the opium debate, but these were produced by and for the ruling elite and do not represent popular experience. Indigenous American experiences of removal are documented primarily through U.S. government records, with Native voices preserved mainly in later oral histories and petitions.",
+  "disconfirming_evidence": "The significance of the Alamo has been contested by modern historians. While traditionally portrayed as a heroic last stand that galvanized Texian resistance, some scholars argue that the siege's military significance was limited and that the Texian victory at San Jacinto was more decisive in securing independence. Additionally, the death toll at the Alamo (approximately 183\u2013257 defenders) has been debated, with some sources providing different figures. The narrative of the Alamo as a symbol of American heroism has been criticized as reflecting Anglo-American bias and minimizing the Mexican perspective and the broader context of the Texas Revolution as a conflict over slavery and territorial expansion. The Indian Removal Act's characterization as a 'necessary' policy has been thoroughly discredited by modern scholarship, which emphasizes its genocidal consequences and the agency of Native American resistance. The Great Trek is celebrated in Afrikaner historiography as a heroic migration but is increasingly understood in modern South African scholarship as a displacement of indigenous populations and a precursor to apartheid.",
+  "historiographic_note": "The year 1836 is well-documented in Western sources, particularly regarding events in North America, Britain, and Europe. The documentation is rich for political, military, and cultural events in these regions. However, the perspective is heavily weighted toward European and American sources. The Indian Removal and its consequences are documented primarily from the U.S. government perspective, with Native American voices largely absent from contemporary written records and recovered mainly through oral tradition and modern scholarship. The Great Trek in South Africa is documented in Boer and British sources but less so from the perspective of indigenous African populations. The Qing Dynasty's internal situation in 1836 is documented in Chinese imperial records and British commercial correspondence, but the Chinese perspective is filtered through official historiography. The historiography of 1836 reflects the biases of the era: Western expansion is often portrayed as inevitable progress, while indigenous resistance is marginalized. Modern scholarship has worked to recover suppressed voices and reframe these events in terms of colonialism, displacement, and cultural destruction.",
   "graph_edges": [
     {
       "from": "1836-001",
-      "to": "1845-Texas-annexation",
+      "to": "1836-002",
       "relation": "led_to",
-      "note": "Texas independence led directly to U.S. annexation in 1845"
+      "note": "The Alamo siege galvanized Texian resistance and contributed to the conditions leading to the Battle of San Jacinto"
+    },
+    {
+      "from": "1836-002",
+      "to": "1836-003",
+      "relation": "led_to",
+      "note": "The victory at San Jacinto enabled the establishment of the Republic of Texas"
     },
     {
       "from": "1836-004",
-      "to": "1846-Mexican-American-War",
+      "to": "1837-001",
       "relation": "led_to",
-      "note": "Texas independence and disputed borders precipitated the Mexican-American War"
+      "note": "Victoria's accession in 1836 led to her coronation in 1837 and the beginning of the Victorian era"
     },
     {
-      "from": "1836-008",
-      "to": "1838-Battle-of-Blood-River",
+      "from": "1836-005",
+      "to": "1838-001",
       "relation": "led_to",
-      "note": "The Great Trek led to Voortrekker-Zulu confrontation at Blood River"
-    },
-    {
-      "from": "1836-012",
-      "to": "1859-Origin-of-Species",
-      "relation": "led_to",
-      "note": "Darwin's return from the Beagle voyage began the intellectual process culminating in On the Origin of Species"
-    },
-    {
-      "from": "1836-018",
-      "to": "1839-First-Opium-War",
-      "relation": "led_to",
-      "note": "The 1836 opium debate's prohibitionist outcome led to Lin Zexu's crackdown and war with Britain"
-    },
-    {
-      "from": "1836-017",
-      "to": "1839-First-Anglo-Afghan-War",
-      "relation": "led_to",
-      "note": "British anxiety over Dost Mohammed's Russian contacts led to the invasion of Afghanistan"
+      "note": "The Indian Removal Act consequences of 1836 led to the peak of the Trail of Tears in 1838\u20131839"
     },
     {
       "from": "1836-006",
-      "to": "1838-Cherokee-Trail-of-Tears",
-      "relation": "part_of",
-      "note": "Creek removal was part of the broader Indian Removal programme affecting all Five Civilised Tribes"
+      "to": "1838-002",
+      "relation": "led_to",
+      "note": "The Great Trek of 1836 led to the Boer-Zulu conflict and the Battle of Blood River in 1838"
     },
     {
-      "from": "1836-020",
-      "to": "1839-War-of-the-Confederation-end",
+      "from": "1836-010",
+      "to": "1840-001",
       "relation": "led_to",
-      "note": "The Peru-Bolivia Confederation provoked the War of the Confederation with Chile"
-    },
-    {
-      "from": "1836-023",
-      "to": "1851-Moscow-Petersburg-Railway",
-      "relation": "led_to",
-      "note": "Russia's first railway demonstrated feasibility, leading to the major Moscow\u2013Petersburg line"
+      "note": "The tensions and opium trade disputes of 1836 led to the First Opium War in 1840"
     },
     {
       "from": "1836-011",
-      "to": "1847-Colt-Walker-revolver",
+      "to": "1838-002",
       "relation": "led_to",
-      "note": "Colt's 1836 patent was the foundation for the more successful Walker and later revolvers"
+      "note": "Piet Retief's mission and death in 1836\u20131837 sparked the Boer-Zulu conflict leading to the Battle of Blood River"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T03:49:06.909195",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,833 +1,179 @@
 {
   "year": 1701,
   "year_label": "1701 CE",
-  "era_context": "The year 1701 falls within the early modern period, characterised by the consolidation of European nation-states, the expansion of Atlantic trade and colonialism, and the flourishing of Enlightenment thought. In Europe, the War of the Spanish Succession was about to ignite following the death of the childless Charles II of Spain in 1700, reshaping the balance of power among the Bourbon, Habsburg, and Stuart dynasties. Simultaneously, the Qing dynasty under the Kangxi Emperor was at the height of its early consolidation in East Asia, the Mughal Empire was entering a period of fragmentation following Aurangzeb's overextension, and the Ottoman Empire was managing the aftermath of the Treaty of Karlowitz (1699). The Atlantic slave trade was intensifying, Indigenous American polities were navigating escalating colonial pressures, and the Scientific Revolution was giving way to institutionalised natural philosophy.",
+  "era_context": "The early 18th century in Europe is marked by the War of Spanish Succession (1701\u20131714), a major dynastic conflict reshaping European power. The Ottoman Empire remains a significant regional power in the Mediterranean and Eastern Europe. In Asia, the Qing Dynasty under the Kangxi Emperor is consolidating control over China and expanding into Central Asia. Japan is in the Edo period under the Tokugawa shogunate. The Age of Exploration has given way to colonial consolidation, with European powers competing for dominance in the Americas, Africa, and Asia.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan African kingdoms (Oyo, Dahomey, Asante in formation) \u2014 events are attested but underrepresented in European-language training data",
-    "Southeast Asian polities (Ayutthaya, Mataram Sultanate) \u2014 regional chronicles exist but are underweighted",
-    "Central Asian steppe and Dzungar Khanate \u2014 significant military activity but sparse in Western historiography",
-    "Indigenous North and South American nations \u2014 oral traditions and Spanish colonial records exist but are fragmentary",
-    "Pacific Island societies \u2014 essentially absent from documentary record for this year",
-    "Safavid Persia \u2014 internal court records exist but are underrepresented in synthesis"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1701-001",
-      "title": "Kingdom of Prussia Proclaimed: Frederick I Crowned King",
-      "region": "Brandenburg-Prussia, Holy Roman Empire",
-      "coordinates_approx": "54.7\u00b0N, 20.5\u00b0E (K\u00f6nigsberg, coronation site)",
-      "category": "political",
-      "description": "On 18 January 1701 (Gregorian), Elector Frederick III of Brandenburg crowned himself Frederick I, King in Prussia, at K\u00f6nigsberg, with the consent of Holy Roman Emperor Leopold I, who needed Brandenburg-Prussian military support against France in the looming War of the Spanish Succession. The elevation of Brandenburg-Prussia from an electorate to a kingdom was a landmark in the rise of the Hohenzollern dynasty and the eventual formation of the German nation-state. The title 'King in Prussia' (rather than 'of Prussia') was a deliberate legal fiction to avoid challenging the Emperor's authority over German territories. This act set Prussia on a trajectory toward becoming a major European power under Frederick II a generation later.",
+      "title": "War of Spanish Succession begins",
+      "region": "Europe (Spain, France, Holy Roman Empire, England, Dutch Republic)",
+      "coordinates_approx": "40.4,-3.7",
+      "category": "military",
+      "description": "Following the death of Charles II of Spain without direct heir, Louis XIV of France supports his grandson Philip of Anjou's claim to the Spanish throne. England, the Dutch Republic, and the Holy Roman Empire oppose French expansion and form the Grand Alliance to contest the succession. This conflict will dominate European politics for over a decade, reshaping territorial boundaries and establishing Britain as a major naval and colonial power. The war involves campaigns across Europe, the Mediterranean, and colonial territories in North America and the Caribbean.",
       "key_figures": [
-        "Frederick I (Elector Frederick III, first King in Prussia)",
-        "Leopold I (Holy Roman Emperor, granted consent)",
-        "Sophie Charlotte of Hanover (Queen consort)"
+        "Louis XIV (King of France)",
+        "Philip of Anjou (claimant to Spanish throne, later Philip V)",
+        "Charles II (deceased Spanish king)",
+        "William III (King of England and Dutch stadtholder)",
+        "Emperor Leopold I (Holy Roman Emperor)"
       ],
       "sources": [
         {
-          "name": "Contemporary Prussian court records and proclamation documents, held in Geheimes Staatsarchiv Preu\u00dfischer Kulturbesitz, Berlin",
+          "name": "Contemporary diplomatic correspondence and court records from Versailles, Vienna, and London",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Clark, Christopher. Iron Kingdom: The Rise and Downfall of Prussia, 1600\u20131947. Harvard University Press, 2006.",
-          "type": "historiographic_consensus",
+          "name": "Memoirs of the Duke of Saint-Simon",
+          "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Fassmann, David. Leben und Thaten des K\u00f6nigs von Preussen Friedrichs des Ersten (1735)",
-          "type": "later_compilation",
+          "name": "Historiographic consensus on War of Spanish Succession",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Date of 18 January 1701 is precisely documented in contemporary court records and diplomatic correspondence. No scholarly dispute on the date or basic facts.",
+      "certainty_note": "The outbreak of the War of Spanish Succession in 1701 is one of the most thoroughly documented events of the early modern period, with abundant contemporary diplomatic records and later historical accounts.",
       "cross_references": [
-        "1700-SpanishSuccession",
-        "1713-UtrechtTreaty"
+        "1702-001 (Battle of Vigo Bay)",
+        "1704-001 (Battle of Blenheim)"
       ]
     },
     {
       "id": "1701-002",
-      "title": "Act of Settlement Passed by English Parliament",
-      "region": "Kingdom of England",
-      "coordinates_approx": "51.5\u00b0N, 0.1\u00b0W (Westminster, London)",
-      "category": "legal",
-      "description": "The Act of Settlement, passed by the English Parliament on 12 June 1701, settled the succession to the English throne on Sophia, Electress of Hanover, and her Protestant heirs, explicitly excluding Catholics and those married to Catholics. The Act was a direct response to the death of the Duke of Gloucester (the last surviving child of Princess Anne) in 1700, which threatened a Protestant succession crisis. It also imposed constitutional constraints on future monarchs, including the requirement that they be Anglican and that judges hold office during good behaviour rather than royal pleasure. The Act laid the constitutional groundwork for the Hanoverian succession of 1714 and remains partially in force in the United Kingdom.",
+      "title": "Frederick I crowned King of Prussia",
+      "region": "Brandenburg-Prussia (Central Europe)",
+      "coordinates_approx": "52.5,13.4",
+      "category": "political",
+      "description": "Frederick III, Elector of Brandenburg, crowns himself Frederick I, King in Prussia, in K\u00f6nigsberg. This act elevates Brandenburg-Prussia to kingdom status and reflects the growing power and ambitions of the Hohenzollern dynasty. The coronation is performed without papal approval, asserting Prussian independence. This marks a significant step in Prussia's rise as a major European power, though the kingdom remains relatively modest in size and influence compared to France, Austria, and Russia at this time.",
       "key_figures": [
-        "Sophia, Electress of Hanover (designated heir)",
-        "William III (reigning monarch)",
-        "Princess Anne (next in line after William)",
-        "Robert Harley (Speaker of the House of Commons)"
+        "Frederick I (Elector of Brandenburg, newly crowned King in Prussia)",
+        "Sophia Charlotte (Queen consort)"
       ],
       "sources": [
         {
-          "name": "Act of Settlement 1701, 12 & 13 Will. 3 c. 2, Parliamentary Archives, Westminster",
+          "name": "Contemporary Prussian court records and coronation documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Journals of the House of Commons, Vol. 13 (1701)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Keir, D.L. The Constitutional History of Modern Britain. A. & C. Black, 1966.",
+          "name": "Historiographic consensus on Prussian history",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Statutory legislation with precise date; text survives in full in Parliamentary Archives.",
-      "cross_references": [
-        "1689-BillOfRights",
-        "1714-HanoverianSuccession",
-        "1707-ActOfUnion"
-      ]
+      "certainty_note": "The coronation of Frederick I is well-documented in Prussian archives and contemporary European diplomatic records.",
+      "cross_references": []
     },
     {
       "id": "1701-003",
-      "title": "Grand Alliance of The Hague Formed Against France",
-      "region": "Dutch Republic / England / Holy Roman Empire",
-      "coordinates_approx": "52.1\u00b0N, 4.3\u00b0E (The Hague)",
-      "category": "political",
-      "description": "On 7 September 1701, England, the Dutch Republic, and the Holy Roman Empire signed the Treaty of The Hague, forming the Grand Alliance against Louis XIV of France and his acceptance of the Spanish throne for his grandson Philip V. The Alliance was precipitated by Louis XIV's recognition of James Francis Edward Stuart as King of England following the death of James II in September 1701, which was seen as a direct provocation by William III. The treaty committed the signatories to war to prevent a union of the French and Spanish crowns and to secure Protestant succession in England. This alliance became the diplomatic foundation for the War of the Spanish Succession, which would consume Europe until 1714.",
+      "title": "Yale College founded",
+      "region": "Connecticut, British North America",
+      "coordinates_approx": "41.31,-72.92",
+      "category": "cultural",
+      "description": "Yale College is established in Killingworth (now Clinton), Connecticut, as the Collegiate School, founded by clergy to train Protestant ministers. The institution reflects the educational priorities of Puritan New England and will become one of the most prestigious universities in North America. The school is initially modest in scale but will grow to become a major center of learning and influence in the American colonies and later the United States.",
       "key_figures": [
-        "William III of England (principal architect)",
-        "Emperor Leopold I (Habsburg signatory)",
-        "Anthonie Heinsius (Grand Pensionary of Holland)",
-        "Louis XIV (France, opposing party)"
+        "Jeremiah Fitch (founder)",
+        "Cotton Mather (intellectual influence)"
       ],
       "sources": [
         {
-          "name": "Treaty text reproduced in Dumont, Jean. Corps universel diplomatique du droit des gens, Vol. 8 (1731)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Diplomatic correspondence of William III, British Library Add. MSS",
+          "name": "Yale College founding records and charter",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Frey, Linda and Marsha. The Treaties of the War of the Spanish Succession. Greenwood Press, 1995.",
+          "name": "Historiographic consensus on Yale's founding",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Treaty text survives; date of 7 September 1701 is well-attested in diplomatic records.",
-      "cross_references": [
-        "1701-001",
-        "1702-WarSpanishSuccession",
-        "1713-UtrechtTreaty"
-      ]
+      "certainty_note": "Yale's founding in 1701 is well-documented in institutional records and colonial American historical sources.",
+      "cross_references": []
     },
     {
       "id": "1701-004",
-      "title": "Death of James II of England in Exile at Saint-Germain",
-      "region": "Kingdom of France",
-      "coordinates_approx": "48.9\u00b0N, 2.1\u00b0E (Saint-Germain-en-Laye)",
+      "title": "Kangxi Emperor's Southern Tour (sixth tour)",
+      "region": "Qing China",
+      "coordinates_approx": "30.3,120.2",
       "category": "political",
-      "description": "James II, the deposed Catholic King of England, Scotland, and Ireland, died on 16 September 1701 at the Ch\u00e2teau de Saint-Germain-en-Laye, where he had lived in exile since the Glorious Revolution of 1688\u201389. Louis XIV immediately recognised James's son, James Francis Edward Stuart (the 'Old Pretender'), as King James III of England, a provocative act that violated the Treaty of Ryswick (1697) in which France had recognised William III. This recognition was a direct catalyst for English and Dutch entry into the Grand Alliance and the subsequent War of the Spanish Succession. James II's death effectively ended the first phase of Jacobitism but inaugurated the Stuart pretender tradition that would persist until 1745.",
+      "description": "The Kangxi Emperor undertakes his sixth and final major tour of southern China, traveling through the Yangtze River valley and coastal provinces. These tours serve multiple purposes: consolidating imperial authority, inspecting public works and water management systems, and gathering intelligence on regional conditions. The tours are carefully documented and serve as propaganda for imperial benevolence and competence. This particular tour reinforces Qing control over the prosperous southern provinces and demonstrates the emperor's commitment to good governance.",
       "key_figures": [
-        "James II (deposed King of England)",
-        "Louis XIV (French King, recognised the Pretender)",
-        "James Francis Edward Stuart ('Old Pretender', recognised as James III)"
+        "Kangxi Emperor (Qing Dynasty)"
       ],
       "sources": [
         {
-          "name": "Gazette de France, September 1701 (contemporary French court newspaper)",
+          "name": "Kangxi Emperor's travel records and official court documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Miller, John. James II: A Study in Kingship. Methuen, 1989.",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Qing imperial archives",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Death date of 16 September 1701 is precisely documented in French court records and contemporary newspapers.",
-      "cross_references": [
-        "1688-GloriousRevolution",
-        "1701-003",
-        "1715-JacobiteRising"
-      ]
+      "certainty_note": "The Kangxi Emperor's southern tours are extensively documented in Qing imperial records and contemporary accounts.",
+      "cross_references": []
     },
     {
       "id": "1701-005",
-      "title": "Yale College Founded in Connecticut",
-      "region": "British North America (Connecticut Colony)",
-      "coordinates_approx": "41.3\u00b0N, 72.9\u00b0W (Saybrook/New Haven, Connecticut)",
+      "title": "Forty-Seven Ronin incident (Ako incident)",
+      "region": "Japan (Edo period)",
+      "coordinates_approx": "34.7,134.2",
       "category": "cultural",
-      "description": "On 9 October 1701, the Collegiate School of Connecticut was founded by a group of Congregationalist ministers meeting at Branford, Connecticut, receiving a charter from the Connecticut General Court. The institution was established to provide an orthodox Calvinist alternative to the increasingly latitudinarian Harvard College. It was initially located at Saybrook before moving to New Haven in 1718, when it was renamed Yale College in honour of benefactor Elihu Yale. Yale became one of the most influential educational institutions in North America, shaping colonial and later American intellectual, legal, and political life.",
+      "description": "Following the forced suicide (seppuku) of their lord Asano Naganori in 1701 due to an incident at the Shogun's court, forty-seven masterless samurai (ronin) plot revenge against Kira Yoshinaka, the official responsible for their lord's disgrace. Though the actual revenge attack occurs in December 1702, the incident begins in 1701 with Asano's death and the ronin's decision to seek vengeance. This event becomes one of the most celebrated stories in Japanese culture, embodying the samurai code of loyalty (bushido) and honor. The incident is extensively documented in contemporary records and later becomes the subject of numerous literary and theatrical works.",
       "key_figures": [
-        "James Pierpont (leading founder, Congregationalist minister)",
-        "Abraham Pierson (first rector)",
-        "Elihu Yale (later benefactor, for whom it was renamed in 1718)"
+        "Asano Naganori (daimyo, deceased)",
+        "Oishi Yoshio (leader of the ronin)",
+        "Kira Yoshinaka (target of revenge)"
       ],
       "sources": [
         {
-          "name": "Connecticut General Court charter, October 1701, Connecticut State Archives",
+          "name": "Edo period court records and shogunal documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Kelley, Brooks Mather. Yale: A History. Yale University Press, 1974.",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Charter date of 9 October 1701 is documented in Connecticut colonial records. The precise date of the founding meeting has minor variant traditions (some sources say 16 October) but October 1701 is not in dispute.",
-      "cross_references": [
-        "1636-HarvardFounded",
-        "1718-YaleRename"
-      ]
-    },
-    {
-      "id": "1701-006",
-      "title": "Antoine de la Mothe Cadillac Founds Fort Pontchartrain du D\u00e9troit",
-      "region": "New France (Great Lakes region, North America)",
-      "coordinates_approx": "42.3\u00b0N, 83.0\u00b0W (Detroit, Michigan)",
-      "category": "exploration",
-      "description": "On 24 July 1701, Antoine de la Mothe Cadillac, acting under orders from the French colonial administration, established Fort Pontchartrain du D\u00e9troit at the straits between Lake Erie and Lake Huron. The fort was intended to consolidate French control of the Great Lakes fur trade, block English expansion westward, and serve as a hub for alliances with Indigenous nations including the Huron, Ottawa, and Potawatomi. The founding was accompanied by a significant gathering of Indigenous peoples and involved complex diplomatic negotiations. The settlement grew into the city of Detroit and became a critical node in the French-English contest for North America.",
-      "key_figures": [
-        "Antoine de la Mothe Cadillac (founder, French officer)",
-        "J\u00e9r\u00f4me Ph\u00e9lypeaux, Comte de Pontchartrain (French colonial minister, for whom fort was named)",
-        "Various Huron, Ottawa, and Potawatomi leaders (Indigenous diplomatic partners)"
-      ],
-      "sources": [
-        {
-          "name": "Cadillac's correspondence with the Ministry of Marine, Archives nationales d'outre-mer (ANOM), Paris",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Eccles, W.J. The French in North America, 1500\u20131783. Michigan State University Press, 1998.",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Relation de la fondation du Fort Pontchartrain, Cadillac (1701), reproduced in Michigan Pioneer and Historical Collections",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Date of 24 July 1701 is attested in Cadillac's own correspondence. The founding is well-documented.",
-      "cross_references": [
-        "1682-LaSalleMississippi",
-        "1754-FrenchIndianWar"
-      ]
-    },
-    {
-      "id": "1701-007",
-      "title": "War of the Spanish Succession Begins: First Military Operations",
-      "region": "Spanish Netherlands / Italy / Iberian Peninsula",
-      "coordinates_approx": "50.8\u00b0N, 4.4\u00b0E (Spanish Netherlands, broadly)",
-      "category": "military",
-      "description": "Although the formal declarations of war came in 1702, the War of the Spanish Succession effectively began in 1701 when French forces under Marshal Villeroy occupied the Spanish Netherlands (modern Belgium) and Imperial forces under Prince Eugene of Savoy crossed the Alps into northern Italy to contest French-Bourbon control. Philip V, Louis XIV's grandson, had been accepted as King of Spain in November 1700, and French troops entered the Spanish Netherlands in February 1701, triggering the military confrontation. Eugene's Italian campaign in 1701 included the Battle of Carpi (9 July) and the Battle of Chiari (1 September), both Imperial victories that demonstrated the vulnerability of French-Bourbon positions in Italy.",
-      "key_figures": [
-        "Philip V (Bourbon King of Spain)",
-        "Louis XIV (King of France, Philip's grandfather)",
-        "Prince Eugene of Savoy (Imperial commander)",
-        "Marshal Villeroy (French commander in the Netherlands)"
-      ],
-      "sources": [
-        {
-          "name": "McKay, Derek. Prince Eugene of Savoy. Thames and Hudson, 1977.",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Lynn, John A. The Wars of Louis XIV, 1667\u20131714. Longman, 1999.",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Contemporary French and Imperial military dispatches, Archives du Service Historique de la D\u00e9fense, Vincennes",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Battle dates and commanders are well-attested in military records from both sides. The 1701 operations are sometimes treated as a prelude rather than the war proper, but the military engagements are not in dispute.",
-      "cross_references": [
-        "1701-003",
-        "1700-DeathCharlesII",
-        "1702-FormalDeclarations",
-        "1713-UtrechtTreaty"
-      ]
-    },
-    {
-      "id": "1701-008",
-      "title": "Great Northern War: Charles XII's Polish Campaign and Deposition of Augustus II",
-      "region": "Polish-Lithuanian Commonwealth / Swedish Empire",
-      "coordinates_approx": "52.2\u00b0N, 21.0\u00b0E (Warsaw region, broadly)",
-      "category": "military",
-      "description": "In 1701, the Great Northern War (1700\u20131721) continued with Swedish King Charles XII pressing his campaign against the Polish-Lithuanian Commonwealth and its ruler Augustus II (Elector of Saxony). Following his decisive victory at Narva in 1700, Charles XII invaded the Commonwealth and in 1701 crossed the Dvina River at the Battle of the D\u00fcna (9 July 1701), defeating a Saxon-Polish-Russian force and capturing Courland. This campaign was part of Charles XII's strategy to dethrone Augustus II and install a compliant Polish king, which he eventually achieved in 1704. The Swedish advance demonstrated the extraordinary military effectiveness of the Carolinian army and temporarily made Sweden the dominant power in northeastern Europe.",
-      "key_figures": [
-        "Charles XII (King of Sweden)",
-        "Augustus II the Strong (Elector of Saxony, King of Poland)",
-        "Adam Ludwig Lewenhaupt (Swedish general)"
-      ],
-      "sources": [
-        {
-          "name": "Hatton, Ragnhild. Charles XII of Sweden. Weidenfeld and Nicolson, 1968.",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Nordberg, J\u00f6ran Anders. Konung Carl XII:s historia (1740), a near-contemporary Swedish chronicle",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Swedish Riksarkivet military records (Krigsarkivet), Stockholm",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Battle of the D\u00fcna date of 9 July 1701 (Gregorian) is well-attested in Swedish and Saxon military records.",
-      "cross_references": [
-        "1700-BattleNarva",
-        "1709-BattlePoltava",
-        "1721-TreatyNystad"
-      ]
-    },
-    {
-      "id": "1701-009",
-      "title": "Asante Confederacy Consolidation Under Osei Tutu",
-      "region": "West Africa (modern Ghana)",
-      "coordinates_approx": "6.7\u00b0N, 1.6\u00b0W (Kumasi region)",
-      "category": "political",
-      "description": "Around 1701, Osei Tutu, with the spiritual counsel of the priest Okomfo Anokye, consolidated the Asante Confederacy following a decisive military victory over the Denkyira kingdom at the Battle of Feyiase (c. 1701). The defeat of the Denkyira, who had previously exacted tribute from the Asante, marked the emergence of the Asante as the dominant power in the forest zone of the Gold Coast. The Golden Stool (Sika Dwa Kofi), said to have descended from the sky at Anokye's invocation, became the sacred symbol of Asante unity and sovereignty. This political consolidation created one of the most powerful and durable states in West African history, which would resist European encroachment for nearly two centuries.",
-      "key_figures": [
-        "Osei Tutu (Asantehene, founder of the Confederacy)",
-        "Okomfo Anokye (chief priest and political architect)",
-        "Ntim Gyakari (Denkyirahene, defeated king)"
-      ],
-      "sources": [
-        {
-          "name": "Rattray, R.S. Ashanti. Clarendon Press, 1923. (Based on oral traditions collected in the early 20th century)",
-          "type": "oral_tradition",
-          "contemporary": false
-        },
-        {
-          "name": "Wilks, Ivor. Asante in the Nineteenth Century. Cambridge University Press, 1975.",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Bosman, Willem. A New and Accurate Description of the Coast of Guinea (1703) \u2014 near-contemporary Dutch account mentioning Asante rise",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The Battle of Feyiase is dated variously between 1699 and 1701 by different scholars. The c. 1701 date is conventional but not precisely fixed. Oral traditions are the primary source for internal Asante history of this period.",
-      "cross_references": [
-        "1699-AsanteFormation",
-        "1817-BritishAsanteTreaty"
-      ]
-    },
-    {
-      "id": "1701-010",
-      "title": "Kangxi Emperor's Southern Tours and Consolidation of Qing Administration",
-      "region": "Qing Empire, China",
-      "coordinates_approx": "32.1\u00b0N, 118.8\u00b0E (Jiangnan region)",
-      "category": "political",
-      "description": "In 1701, the Kangxi Emperor (r. 1661\u20131722) continued his programme of administrative consolidation and personal governance of the Qing Empire, which was at the height of its early prosperity. The emperor was engaged in managing the aftermath of his southern tours (the last of which had been in 1699), overseeing the Yellow River flood control works, and managing the Lifanyuan (Court of Colonial Affairs) relations with Mongol and Tibetan vassals. The Kangxi reign represented the zenith of early Qing statecraft, combining Manchu military traditions with Confucian administrative norms and personal imperial engagement with Han Chinese literati culture. The year 1701 falls within a period of relative internal stability before the succession crisis of the 1710s.",
-      "key_figures": [
-        "Kangxi Emperor (Xuanye, Qing Emperor)",
-        "Mingzhu (senior Grand Secretary, though declining in influence by this period)"
-      ],
-      "sources": [
-        {
-          "name": "Qing Shilu (Veritable Records of the Qing Dynasty), Kangxi reign annals",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Spence, Jonathan D. Emperor of China: Self-Portrait of K'ang-hsi. Knopf, 1974.",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Mungello, D.E. The Great Encounter of China and the West, 1500\u20131800. Rowman & Littlefield, 2009.",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Qing Shilu provides detailed year-by-year records of imperial activities. No specific dramatic event in 1701 is highlighted; this entry reflects the ongoing state of Qing governance.",
-      "cross_references": [
-        "1689-TreatyNerchinsk",
-        "1720-TibetCampaign",
-        "1722-KangxiDeath"
-      ]
-    },
-    {
-      "id": "1701-011",
-      "title": "Jesuit Rites Controversy: Papal Intervention in Chinese Mission",
-      "region": "Qing Empire / Papal States",
-      "coordinates_approx": "41.9\u00b0N, 12.5\u00b0E (Rome) / 39.9\u00b0N, 116.4\u00b0E (Beijing)",
-      "category": "religious",
-      "description": "The Chinese Rites Controversy \u2014 the dispute over whether Chinese Christian converts could continue to practise Confucian ancestor rites and use Chinese terms for God \u2014 reached a critical phase around 1700\u20131701 when Pope Clement XI issued the decree Cum Deus Optimus (1700), condemning the Jesuit accommodation of Chinese rites. The Kangxi Emperor, who had previously issued an edict (1700) endorsing the Jesuit interpretation of Chinese rites as civil rather than religious, was deeply offended by the papal intervention in what he regarded as a matter of Chinese cultural sovereignty. This controversy would culminate in the papal bull Ex illa die (1715) and ultimately the suppression of the Jesuit mission in China. The dispute illustrates the collision between Catholic universalism and Qing imperial authority.",
-      "key_figures": [
-        "Pope Clement XI (issued Cum Deus Optimus, 1700)",
-        "Kangxi Emperor (defended Jesuit accommodation)",
-        "Charles Maigrot (MEP vicar apostolic, leading anti-Jesuit position)",
-        "Matteo Ricci (earlier Jesuit architect of accommodation policy, d. 1610)"
-      ],
-      "sources": [
-        {
-          "name": "Papal decree Cum Deus Optimus (1700), Acta Apostolicae Sedis",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Mungello, D.E. The Chinese Rites Controversy: Its History and Meaning. Steyler Verlag, 1994.",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Kangxi Emperor's edicts on the rites question, reproduced in Qing Shilu",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The papal decree and imperial edicts are documented. The 1701 date is used here as the year in which the controversy was most actively contested following the 1700 decree; the controversy spans multiple years.",
-      "cross_references": [
-        "1700-CumDeusOptimus",
-        "1715-ExIllaDie",
-        "1742-ExQuoSingulari"
-      ]
-    },
-    {
-      "id": "1701-012",
-      "title": "Iroquois Great Peace of Montreal: Aftermath and Consolidation",
-      "region": "North America (Great Lakes / St. Lawrence region)",
-      "coordinates_approx": "45.5\u00b0N, 73.6\u00b0W (Montreal)",
-      "category": "political",
-      "description": "The Great Peace of Montreal, signed in August 1701 between New France and approximately 39 Indigenous nations (including the Haudenosaunee/Iroquois Confederacy, Huron-Wendat, Odawa, Ojibwe, and others), was one of the most significant diplomatic events in North American colonial history. The treaty ended decades of the Beaver Wars and established a framework of neutrality and trade that shaped the geopolitics of the Great Lakes region for the next half-century. The Haudenosaunee secured a policy of neutrality between France and England, which they maintained with considerable skill. The treaty was negotiated through elaborate Indigenous diplomatic protocols and involved the exchange of wampum belts as binding instruments.",
-      "key_figures": [
-        "Louis-Hector de Calli\u00e8re (Governor of New France, French signatory)",
-        "Kondiaronk (Huron-Wendat leader, key broker, died during negotiations)",
-        "Teganissorens (Onondaga orator, Haudenosaunee representative)"
-      ],
-      "sources": [
-        {
-          "name": "Ratification document of the Great Peace, Archives nationales d'outre-mer (ANOM), S\u00e9rie C11A, Vol. 19",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Havard, Gilles. The Great Peace of Montreal of 1701: French-Native Diplomacy in the Seventeenth Century. McGill-Queen's University Press, 2001.",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Wampum belt records and oral traditions of the Haudenosaunee Confederacy",
-          "type": "oral_tradition",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The treaty document survives in French colonial archives. The date of August 1701 is well-attested. The number of signatory nations (variously cited as 38\u201340) has minor scholarly variation.",
-      "cross_references": [
-        "1701-006",
-        "1754-FrenchIndianWar",
-        "1763-ProclamationLine"
-      ]
-    },
-    {
-      "id": "1701-013",
-      "title": "Mughal Empire: Aurangzeb's Deccan Campaigns Continue",
-      "region": "Mughal Empire (Deccan, South Asia)",
-      "coordinates_approx": "17.4\u00b0N, 78.5\u00b0E (Deccan plateau, broadly)",
-      "category": "military",
-      "description": "In 1701, the aged Mughal Emperor Aurangzeb (r. 1658\u20131707) continued his prolonged and ultimately ruinous Deccan campaign, which had begun in 1681. By 1701, the Mughal army had been engaged in continuous warfare against the Maratha Confederacy for two decades, draining the imperial treasury and exhausting the military. Aurangzeb had captured the Maratha forts of Satara and Parenda in the late 1690s, but Maratha guerrilla resistance under leaders like Rajaram (d. 1700) and later Tarabai continued to bleed the empire. The Deccan campaigns are now understood by historians as a primary cause of Mughal imperial decline, as the empire overextended itself militarily while neglecting northern administration.",
-      "key_figures": [
-        "Aurangzeb (Mughal Emperor, personally commanding)",
-        "Tarabai (Maratha regent, leading resistance after Rajaram's death in 1700)",
-        "Zulfikar Khan (Mughal general)"
-      ],
-      "sources": [
-        {
-          "name": "Khafi Khan. Muntakhab al-Lubab (c. 1731), a near-contemporary Persian chronicle of Mughal history",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Sarkar, Jadunath. History of Aurangzib, 5 vols. M.C. Sarkar & Sons, 1912\u20131924.",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Aurangzeb's own letters (Ruq'at-i-Alamgiri), partially contemporary",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The ongoing nature of the Deccan campaign in 1701 is well-attested. Specific engagements in this exact year are less precisely documented than the overall campaign trajectory.",
-      "cross_references": [
-        "1681-DeccanCampaignBegins",
-        "1707-AurangzebDeath",
-        "1720-MughalDecline"
-      ]
-    },
-    {
-      "id": "1701-014",
-      "title": "Jethro Tull Develops the Seed Drill",
-      "region": "Kingdom of England",
-      "coordinates_approx": "51.4\u00b0N, 1.3\u00b0W (Berkshire / Oxfordshire, England)",
-      "category": "technological",
-      "description": "Around 1701, Jethro Tull, an English agriculturalist, developed and began using a mechanical seed drill that could sow seeds in rows at controlled depths and spacing, dramatically improving germination rates and reducing seed waste compared to broadcast sowing. Tull's innovation was part of a broader Agricultural Revolution in England that transformed land use, labour productivity, and food output over the following century. The seed drill allowed for horse-drawn hoeing between rows, reducing weed competition. Tull published his methods in Horse-Hoeing Husbandry (1731), which disseminated the technique widely. The precise date of 1701 is conventional and based on Tull's own later account.",
-      "key_figures": [
-        "Jethro Tull (agriculturalist and inventor)"
-      ],
-      "sources": [
-        {
-          "name": "Tull, Jethro. Horse-Hoeing Husbandry. London, 1731. (Tull's own retrospective account of his innovations)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Mingay, G.E. The Agricultural Revolution: Changes in Agriculture 1650\u20131880. A. & C. Black, 1977.",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The date of c. 1701 derives from Tull's own later account in Horse-Hoeing Husbandry (1731) and is not independently corroborated by contemporary documents. Some historians place the development between 1700 and 1703. The 1701 date is conventional.",
-      "cross_references": [
-        "1731-HorseHoeingHusbandry",
-        "1760s-EnclosureMovement"
-      ]
-    },
-    {
-      "id": "1701-015",
-      "title": "First Parliament of the Kingdom of Great Britain Anticipated: Act of Union Debates Begin",
-      "region": "Kingdom of England / Kingdom of Scotland",
-      "coordinates_approx": "55.9\u00b0N, 3.2\u00b0W (Edinburgh) / 51.5\u00b0N, 0.1\u00b0W (London)",
-      "category": "political",
-      "description": "The English Act of Settlement (1701) created a constitutional crisis in Scotland, where the Scottish Parliament had not been consulted about the Protestant succession and resented English unilateral action. In response, the Scottish Parliament passed the Act of Security (1704) and the Act anent Peace and War (1703), asserting Scottish independence in foreign policy. However, the groundwork for these Scottish responses was laid in 1701 when the English Act of Settlement was passed without Scottish consent, deepening tensions that would ultimately be resolved by the Acts of Union of 1707. The year 1701 thus marks the beginning of the final constitutional crisis of the dual monarchy.",
-      "key_figures": [
-        "William III (King of both England and Scotland)",
-        "Duke of Queensberry (Scottish Commissioner)",
-        "Andrew Fletcher of Saltoun (Scottish patriot, opponent of union)"
-      ],
-      "sources": [
-        {
-          "name": "Records of the Parliament of Scotland, 1701, Scottish Parliament Archive",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Whatley, Christopher A. The Scots and the Union. Edinburgh University Press, 2006.",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Scottish parliamentary response to the English Act of Settlement is well-documented in Scottish parliamentary records.",
-      "cross_references": [
-        "1701-002",
-        "1707-ActOfUnion",
-        "1714-HanoverianSuccession"
-      ]
-    },
-    {
-      "id": "1701-016",
-      "title": "Ottoman Empire: Post-Karlowitz Reorganisation and K\u00f6pr\u00fcl\u00fc Legacy",
-      "region": "Ottoman Empire",
-      "coordinates_approx": "41.0\u00b0N, 29.0\u00b0E (Constantinople/Istanbul)",
-      "category": "political",
-      "description": "In 1701, the Ottoman Empire was in the process of absorbing the territorial and psychological shock of the Treaty of Karlowitz (1699), which had ceded Hungary, Transylvania, Podolia, and Morea to the Habsburg, Polish, and Venetian powers respectively \u2014 the first major Ottoman territorial losses in Europe. Grand Vizier Daltaban Mustafa Pasha (appointed 1702) was not yet in office; the empire was managed by a succession of short-tenure grand viziers attempting to stabilise finances and military organisation. The K\u00f6pr\u00fcl\u00fc reform tradition had weakened, and the empire was entering a period of internal debate about modernisation that would eventually produce the Tulip Period (1718\u20131730). The year 1701 represents a moment of Ottoman strategic reorientation.",
-      "key_figures": [
-        "Mustafa II (Ottoman Sultan, r. 1695\u20131703)",
-        "Rami Mehmed Pasha (Grand Vizier, 1703)"
-      ],
-      "sources": [
-        {
-          "name": "Silahdar F\u0131nd\u0131kl\u0131l\u0131 Mehmed A\u011fa. Nusretname (early 18th century Ottoman chronicle)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Finkel, Caroline. Osman's Dream: The History of the Ottoman Empire. Basic Books, 2005.",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The general state of the Ottoman Empire in 1701 is well-attested. No single dramatic event in this exact year is highlighted; this entry reflects the ongoing post-Karlowitz reorganisation.",
-      "cross_references": [
-        "1699-TreatyKarlowitz",
-        "1703-EdirneMutiny",
-        "1718-TulipPeriod"
-      ]
-    },
-    {
-      "id": "1701-017",
-      "title": "Safavid Persia: Shah Sultan Husayn's Reign and Afghan Threat Emerges",
-      "region": "Safavid Empire (Persia)",
-      "coordinates_approx": "32.7\u00b0N, 51.7\u00b0E (Isfahan)",
-      "category": "political",
-      "description": "In 1701, the Safavid Empire under Shah Sultan Husayn (r. 1694\u20131722) was experiencing the early signs of the institutional weakness that would lead to its collapse. The Shah was known for his piety and passivity, delegating authority to court factions and religious clerics. In the eastern provinces, Ghilzai Afghan tribes under Mir Wais Hotak were beginning to consolidate power in Kandahar, which would lead to the Hotaki revolt of 1709 and ultimately the Afghan sack of Isfahan in 1722. The year 1701 falls within the period of apparent Safavid stability that masked deep structural vulnerabilities in military capacity and provincial control.",
-      "key_figures": [
-        "Shah Sultan Husayn (Safavid Shah)",
-        "Mir Wais Hotak (Ghilzai Afghan leader, rising power in Kandahar)"
-      ],
-      "sources": [
-        {
-          "name": "Lockhart, Laurence. The Fall of the Safavi Dynasty and the Afghan Occupation of Persia. Cambridge University Press, 1958.",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Krusinski, Judasz Tadeusz. The History of the Late Revolutions of Persia (1728), a near-contemporary Jesuit account",
+          "name": "Chushingura (The Treasury of Loyal Retainers) - later literary compilation",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The general state of the Safavid Empire in 1701 is attested. The specific emergence of Mir Wais Hotak's power is dated to the early 1700s; 1701 is used as a representative year for this process.",
+      "certainty_note": "Asano Naganori's death in 1701 is confirmed by contemporary Edo period records. The subsequent revenge plot and attack are well-documented historical events, though later literary versions embellish details.",
       "cross_references": [
-        "1709-HotakiRevolt",
-        "1722-AfghanSackIsfahan"
-      ]
-    },
-    {
-      "id": "1701-018",
-      "title": "Atlantic Slave Trade: Peak Volume and Royal African Company Monopoly Ends",
-      "region": "Atlantic World (West Africa / Caribbean / North America)",
-      "coordinates_approx": "5.0\u00b0N, 2.0\u00b0W (Gold Coast, broadly)",
-      "category": "economic",
-      "description": "The year 1701 falls within the period of maximum expansion of the Atlantic slave trade. The English Royal African Company had lost its monopoly in 1698, opening the trade to all English subjects and dramatically increasing the volume of enslaved Africans transported across the Atlantic. Estimates suggest that in the early 1700s, approximately 30,000\u201340,000 enslaved Africans were transported annually by English ships alone. The trade was deeply integrated into the economies of the Caribbean sugar colonies, the Chesapeake tobacco economy, and the emerging South Carolina rice economy. This period saw the consolidation of the plantation complex that would define Atlantic economic and demographic history for the next century and a half.",
-      "key_figures": [
-        "Royal African Company (English trading monopoly, now broken)",
-        "Various West African rulers and merchants (active participants in the trade as sellers)"
-      ],
-      "sources": [
-        {
-          "name": "Trans-Atlantic Slave Trade Database (Voyages), Emory University (aggregates ship logs, port records, and colonial documents)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Davies, K.G. The Royal African Company. Longmans, 1957.",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "English colonial port records and customs ledgers, National Archives (Kew), CO series",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The end of the RAC monopoly in 1698 and the subsequent expansion of the trade are well-documented. Precise annual volume figures are estimates based on surviving ship records; the Voyages database provides the most rigorous quantitative reconstruction.",
-      "cross_references": [
-        "1698-RACMonopolyEnds",
-        "1807-BritishAbolition",
-        "1833-EmancipationAct"
-      ]
-    },
-    {
-      "id": "1701-019",
-      "title": "War of the Spanish Succession: Philip V Enters Madrid",
-      "region": "Kingdom of Spain",
-      "coordinates_approx": "40.4\u00b0N, 3.7\u00b0W (Madrid)",
-      "category": "political",
-      "description": "Philip V, the Bourbon grandson of Louis XIV, had entered Madrid in February 1701 to take possession of the Spanish throne following the death of Charles II in November 1700. His arrival was met with considerable popular enthusiasm in Castile, though Aragonese and Catalan elites were more cautious. Philip's accession represented the end of the Habsburg dynasty in Spain after nearly two centuries and the beginning of the Bourbon dynasty that continues to the present. The transition involved complex negotiations over the Spanish colonial empire, the Spanish Netherlands, and Italian territories, all of which became contested in the ensuing war.",
-      "key_figures": [
-        "Philip V (first Bourbon King of Spain, formerly Duke of Anjou)",
-        "Louis XIV (Philip's grandfather, orchestrated the succession)",
-        "Cardinal Portocarrero (Spanish cardinal who supported Bourbon succession)"
-      ],
-      "sources": [
-        {
-          "name": "Kamen, Henry. Philip V of Spain: The King Who Reigned Twice. Yale University Press, 2001.",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Gazette de France, February 1701 (contemporary French court newspaper reporting Philip's entry)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Archivo Hist\u00f3rico Nacional, Madrid, Estado series (Spanish state papers)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Philip V's entry into Madrid in February 1701 is precisely documented in contemporary sources.",
-      "cross_references": [
-        "1700-DeathCharlesII",
-        "1701-007",
-        "1713-UtrechtTreaty",
-        "1714-BourbonSpain"
-      ]
-    },
-    {
-      "id": "1701-020",
-      "title": "Leibniz and the Berlin Academy of Sciences Founded",
-      "region": "Kingdom of Prussia / Holy Roman Empire",
-      "coordinates_approx": "52.5\u00b0N, 13.4\u00b0E (Berlin)",
-      "category": "scientific",
-      "description": "The Berlin Society of Sciences (Soziet\u00e4t der Wissenschaften, later the Prussian Academy of Sciences) was formally established on 11 July 1700 and held its inaugural meeting in January 1701, with Gottfried Wilhelm Leibniz as its first president. The Academy was founded under the patronage of Elector Frederick III (soon to be Frederick I of Prussia) and his wife Sophie Charlotte, who was a close intellectual companion of Leibniz. The Academy was modelled on the Royal Society of London and the Acad\u00e9mie des Sciences of Paris, and was intended to promote scientific research, practical arts, and the German language. Leibniz's presidency, though largely nominal due to his frequent absences, gave the institution intellectual prestige.",
-      "key_figures": [
-        "Gottfried Wilhelm Leibniz (first president, philosopher and mathematician)",
-        "Frederick I of Prussia (patron, formerly Elector Frederick III)",
-        "Sophie Charlotte of Hanover (Queen of Prussia, intellectual patron)"
-      ],
-      "sources": [
-        {
-          "name": "Harnack, Adolf von. Geschichte der K\u00f6niglich Preussischen Akademie der Wissenschaften zu Berlin. Berlin, 1900.",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Leibniz's correspondence with Sophie Charlotte and Frederick III, Gottfried Wilhelm Leibniz Bibliothek, Hanover",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Academy's founding charter dates to 11 July 1700; the first meeting in January 1701 is documented. The 1701 date is used here as the year of operational commencement.",
-      "cross_references": [
-        "1700-AcademyCharter",
-        "1716-LeibnizDeath"
-      ]
-    },
-    {
-      "id": "1701-021",
-      "title": "Tokugawa Japan: Genroku Era Ends, Forty-Seven R\u014dnin Incident",
-      "region": "Tokugawa Shogunate, Japan",
-      "coordinates_approx": "34.7\u00b0N, 135.5\u00b0E (Edo / Kyoto)",
-      "category": "cultural",
-      "description": "In April 1701, the incident that would lead to the famous revenge of the Forty-Seven R\u014dnin began when Lord Asano Naganori of Ak\u014d domain drew his sword and wounded Kira Yoshinaka, a senior shogunal official, within Edo Castle \u2014 a capital offence. Asano was ordered to commit seppuku the same day, and his domain was confiscated, leaving his retainers as r\u014dnin (masterless samurai). The subsequent vendetta, in which 47 of Asano's former retainers avenged their lord by killing Kira in December 1702, became one of the most celebrated events in Japanese cultural history, inspiring countless plays, novels, and films. The incident raised profound questions about the conflict between giri (duty/loyalty) and h\u014dritsu (law) in Tokugawa society.",
-      "key_figures": [
-        "Asano Naganori (Lord of Ak\u014d, ordered to commit seppuku)",
-        "Kira Yoshinaka (shogunal official, wounded by Asano)",
-        "\u014cishi Kuranosuke (leader of the forty-seven r\u014dnin)"
-      ],
-      "sources": [
-        {
-          "name": "Tokugawa Jikki (Veritable Records of the Tokugawa), compiled 1809\u20131849",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Screech, Timon. Obtaining Images: Art, Production and Display in Edo Japan. Reaktion Books, 2012.",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Contemporary Edo period diaries and records (nikki), various, held in National Archives of Japan",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The date of the Asano incident (14th day of the 3rd month, Genroku 14, corresponding to April 21, 1701 Gregorian) is well-attested in Tokugawa records. The subsequent revenge in December 1702 is equally well-documented.",
-      "cross_references": [
-        "1702-FortySevenRoninRevenge",
-        "1703-RoninSeppuku"
+        "1702-002 (Revenge of the Forty-Seven Ronin)"
       ]
     }
   ],
-  "disconfirming_evidence": "1. **Jethro Tull's seed drill (1701-014):** The conventional date of 1701 for Tull's seed drill is based entirely on Tull's own retrospective account in Horse-Hoeing Husbandry (1731), written 30 years after the fact. No contemporary documentation corroborates this date. Some agricultural historians (e.g., G.E. Fussell) have argued that Tull's claims about his own originality were exaggerated and that similar drilling devices existed earlier in continental Europe, particularly in Italy. The significance of Tull's contribution to the Agricultural Revolution has also been questioned, with some historians arguing that the spread of his methods was slower and more limited than the standard narrative suggests.\n\n2. **Asante Battle of Feyiase (1701-009):** The date of the Battle of Feyiase is contested. Some Ghanaian historians and oral tradition sources place it as early as 1699, while others date it to 1701 or even 1702. The primary sources are oral traditions collected in the 19th and early 20th centuries, and the exact chronology of Asante state formation remains debated. Ivor Wilks's influential chronology has been challenged by scholars including Tom McCaskie, who argues for different interpretations of Asante political development.\n\n3. **Great Peace of Montreal (1701-012):** While the treaty is well-documented, its long-term significance has been debated. Some historians argue that the Haudenosaunee neutrality it established was more fragile and conditional than the 'Great Peace' framing suggests, and that French and English colonial pressures quickly eroded its provisions. The treaty's framing as a 'peace' has also been critiqued for obscuring the coercive context of French military pressure on Indigenous nations.\n\n4. **Prussian Coronation (1701-001):** The significance of the 1701 coronation as a turning point in Prussian history is sometimes overstated in nationalist historiography. Christopher Clark and other modern historians note that the kingdom remained relatively weak for decades after 1701 and that the real transformation of Prussian power came under Frederick William I (r. 1713\u20131740) and Frederick II (r. 1740\u20131786). The coronation's importance was partly constructed retrospectively by 19th-century German nationalist historiography.\n\n5. **Yale College founding date (1701-005):** The precise founding date is subject to minor variation in sources. Some accounts give 16 October rather than 9 October 1701 for the founding meeting. The institution's early years were chaotic, with disputes over location and leadership, and the 1701 date marks a legal charter rather than a functioning institution.",
-  "historiographic_note": "The historical record for 1701 CE is rich by the standards of this chronicle series, with multiple independent documentary traditions \u2014 English parliamentary records, French diplomatic archives, Prussian court documents, Qing Shilu, Ottoman chronicles, and colonial records \u2014 providing cross-corroborating evidence for major events. However, several systematic biases shape the surviving record: (1) European state archives are vastly better preserved and more accessible than records from Asia, Africa, and the Americas, creating an apparent Eurocentrism that reflects archival survival rather than historical importance; (2) court-sponsored chronicles (Qing Shilu, Ottoman vakayiname, Mughal tazkiras) systematically emphasise dynastic legitimacy and imperial achievement while minimising internal dissent and military failure; (3) the history of Indigenous American nations in 1701 is almost entirely mediated through French and English colonial records, which impose European diplomatic categories on Indigenous political practices; (4) the history of sub-Saharan Africa for this year is reconstructed primarily from oral traditions collected one to two centuries later and from the accounts of European traders, both of which introduce significant distortions; (5) the Atlantic slave trade, despite being the most demographically significant process of this era for millions of people, is documented primarily through the records of perpetrators (ship logs, customs records) rather than the enslaved themselves. The year 1701 is also a year of transitions and beginnings \u2014 the War of the Spanish Succession, the Prussian kingdom, the Asante Confederacy \u2014 meaning that many of its most significant events are only legible in retrospect, and contemporary observers may not have recognised their importance.",
+  "disconfirming_evidence": "The significance of the War of Spanish Succession's outbreak is sometimes overstated in Western historiography as a purely European affair; however, modern scholarship emphasizes its global dimensions and impact on colonial competition, particularly in North America and the Caribbean. The founding of Yale College, while culturally significant for American intellectual history, was not immediately recognized as such in 1701; its prominence is partly a retrospective assessment. The Forty-Seven Ronin incident, while celebrated in Japanese culture, was initially viewed by the Tokugawa shogunate as a serious breach of order requiring severe punishment, not as a heroic act\u2014the romanticization is a later cultural development.",
+  "historiographic_note": "The year 1701 is exceptionally well-documented for Europe and East Asia, with abundant primary sources from courts, diplomatic archives, and administrative records. Western historiography has traditionally emphasized the War of Spanish Succession at the expense of simultaneous developments in Asia. Japanese sources provide detailed accounts of the Asano incident, though these were later elaborated in literary form. Colonial American records are sparser but adequate for Yale's founding. The main bias is Eurocentric emphasis; non-European developments are often underrepresented in general histories despite being well-attested in regional sources.",
   "graph_edges": [
     {
       "from": "1701-001",
-      "to": "1701-003",
-      "relation": "caused_by",
-      "note": "Frederick I's need for imperial recognition of his royal title led him to commit Brandenburg-Prussian forces to the Grand Alliance against France, making the two events directly linked."
+      "to": "1702-001",
+      "relation": "led_to",
+      "note": "War of Spanish Succession continues with major naval and land campaigns"
     },
     {
       "from": "1701-002",
-      "to": "1701-015",
+      "to": "1740-001",
       "relation": "led_to",
-      "note": "The English Act of Settlement, passed without Scottish consultation, directly provoked Scottish parliamentary resistance that set the stage for the Acts of Union debates."
+      "note": "Frederick I's elevation of Prussia contributes to its rise as a major power under Frederick the Great"
     },
     {
-      "from": "1701-003",
-      "to": "1701-007",
-      "relation": "part_of",
-      "note": "The Grand Alliance of The Hague was the diplomatic framework within which the military operations of the War of the Spanish Succession were conducted."
-    },
-    {
-      "from": "1701-004",
-      "to": "1701-003",
-      "relation": "caused_by",
-      "note": "Louis XIV's recognition of James Francis Edward Stuart as King of England following James II's death was a direct trigger for English entry into the Grand Alliance."
-    },
-    {
-      "from": "1701-007",
-      "to": "1701-019",
-      "relation": "caused_by",
-      "note": "Philip V's entry into Madrid as Bourbon King of Spain was the political fact that the War of the Spanish Succession was fought to contest or confirm."
-    },
-    {
-      "from": "1701-009",
-      "to": "1701-018",
-      "relation": "contemporary_with",
-      "note": "The Asante Confederacy's consolidation was partly enabled by and partly a response to the Atlantic slave trade economy, in which Asante would become a major participant."
-    },
-    {
-      "from": "1701-011",
-      "to": "1701-010",
-      "relation": "part_of",
-      "note": "The Chinese Rites Controversy was a direct confrontation between papal authority and Kangxi imperial sovereignty, embedded in the broader context of Qing governance."
-    },
-    {
-      "from": "1701-012",
-      "to": "1701-006",
-      "relation": "contemporary_with",
-      "note": "The Great Peace of Montreal and the founding of Fort Detroit were simultaneous French colonial strategies for managing the Great Lakes region \u2014 one diplomatic, one military-commercial."
-    },
-    {
-      "from": "1701-013",
-      "to": "1701-009",
-      "relation": "contemporary_with",
-      "note": "Mughal imperial overextension in the Deccan and Asante consolidation in West Africa both represent the reshaping of major non-European power structures in the same year."
-    },
-    {
-      "from": "1701-020",
-      "to": "1701-001",
-      "relation": "part_of",
-      "note": "The Berlin Academy of Sciences was founded under the same Hohenzollern patronage that produced the Prussian coronation; both were expressions of Frederick I's ambition to create a culturally and politically prestigious court."
-    },
-    {
-      "from": "1701-021",
-      "to": "1701-021",
+      "from": "1701-005",
+      "to": "1702-002",
       "relation": "led_to",
-      "note": "The Asano incident of April 1701 directly led to the Forty-Seven R\u014dnin revenge killing of December 1702, one of the most celebrated events in Japanese cultural history."
-    },
-    {
-      "from": "1701-008",
-      "to": "1701-007",
-      "relation": "contemporary_with",
-      "note": "The Great Northern War and the War of the Spanish Succession were simultaneous conflicts reshaping European power structures; Charles XII's campaigns in the east reduced Swedish capacity to intervene in western affairs."
+      "note": "Asano's death directly precipitates the ronin's revenge attack in 1702"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T12:42:42.274540",
-    "duration_seconds": 233.117507,
-    "model": "claude-sonnet-4-6",
-    "cost_usd": 0.220644,
-    "cached": false
-  }
+  ]
 }

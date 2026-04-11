@@ -1,845 +1,192 @@
 {
   "year": 1700,
   "year_label": "1700 CE",
-  "era_context": "The year 1700 CE falls at the cusp of the early modern period, a time of expanding European colonial empires, intensifying global trade networks, and the early stirrings of the Enlightenment. The Ottoman, Safavid, Mughal, Qing, and Russian empires remained the dominant land powers across Eurasia, while the maritime empires of England, France, the Dutch Republic, Spain, and Portugal competed for Atlantic and Indian Ocean trade supremacy. In Europe, the death of the childless Spanish Habsburg king Charles II in November 1700 triggered the War of the Spanish Succession, reshaping the continent's balance of power. Simultaneously, the Great Northern War was beginning in the Baltic, the Tokugawa shogunate maintained its controlled isolation in Japan, and the transatlantic slave trade was reaching its most intensive phase.",
+  "era_context": "The year 1700 marks the transition from the 17th to the 18th century. In Europe, the death of Charles II of Spain (November 1700) precipitates the succession crisis that will lead to the War of Spanish Succession. The Ottoman Empire is in relative decline but remains a major power. The Qing Dynasty under Kangxi is at its height, consolidating control over China and expanding influence in Central Asia. Russia under Peter the Great is beginning its transformation into a European power. Japan remains stable under Tokugawa rule. European colonial expansion continues to reshape the Americas, Africa, and Asia.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan African kingdoms (Dahomey, Oyo, Kongo, Great Zimbabwe successor states) \u2014 events are documented but underrepresented in Western-trained models relative to their historical significance",
-    "Southeast Asian polities (Ayutthaya, Mataram Sultanate, Vietnamese Nguyen/Trinh lords) \u2014 sources exist in local chronicles but are underrepresented",
-    "Indigenous North and South American societies \u2014 oral traditions and limited written records mean internal political events are largely unattested for this specific year",
-    "Central Asian Khanates (Khiva, Bukhara) \u2014 events are documented in Persian and Turkic sources but poorly represented in training data",
-    "Pacific Islander societies \u2014 no written records; archaeological inference only"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1700-001",
-      "title": "Death of Charles II of Spain and the Spanish Succession Crisis",
-      "region": "Spain / Western Europe",
-      "coordinates_approx": "40.4168\u00b0 N, 3.7038\u00b0 W (Madrid)",
+      "title": "Death of Charles II of Spain",
+      "region": "Spain and Europe",
+      "coordinates_approx": "40.4,-3.7",
       "category": "political",
-      "description": "Charles II of Spain, the last Habsburg king of Spain, died on 1 November 1700 (Gregorian) without a direct heir after a reign marked by severe physical and cognitive disability. In his will, he bequeathed the entire Spanish empire \u2014 including Spain, the Spanish Netherlands, southern Italy, and vast American territories \u2014 to Philip, Duke of Anjou, grandson of Louis XIV of France. This decision, which Louis XIV accepted on behalf of his grandson (who became Philip V of Spain), alarmed the other major European powers, who feared a union of French and Spanish power would overturn the balance of power established since the Peace of Westphalia. The crisis directly precipitated the War of the Spanish Succession (1701\u20131714), one of the most consequential conflicts of the 18th century, ultimately resolved by the Treaty of Utrecht.",
+      "description": "Charles II, the last Habsburg king of Spain, dies on November 1, 1700, without direct heirs. His death triggers a major succession crisis that will dominate European politics for the next fourteen years. Charles II's will names Philip of Anjou, grandson of Louis XIV of France, as his heir, which threatens to unite Spain and France under Bourbon rule. This prospect alarms other European powers, particularly England, the Dutch Republic, and the Holy Roman Empire, who fear French hegemony. The succession dispute will lead directly to the War of Spanish Succession, beginning in 1701.",
       "key_figures": [
-        "Charles II (King of Spain, died 1 November 1700)",
-        "Philip, Duke of Anjou (designated heir, later Philip V of Spain)",
-        "Louis XIV (King of France, accepted the will on behalf of his grandson)",
-        "Leopold I (Holy Roman Emperor, rival claimant)"
+        "Charles II (deceased King of Spain)",
+        "Philip of Anjou (named heir)",
+        "Louis XIV (King of France, grandfather of Philip)",
+        "Leopold I (Holy Roman Emperor, alternative claimant)"
       ],
       "sources": [
         {
-          "name": "Contemporary diplomatic dispatches and court records, summarised in John Lynch, Bourbon Spain 1700\u20131808 (1989)",
+          "name": "Spanish court records and Charles II's will",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary diplomatic correspondence from European courts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Spanish succession",
           "type": "historiographic_consensus",
           "contemporary": false
-        },
-        {
-          "name": "Charles II's testament, preserved in the Archivo General de Simancas, Spain",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "M\u00e9moires de Saint-Simon (Louis de Rouvroy, duc de Saint-Simon), eyewitness account of the French court's reception of the news",
-          "type": "primary_text",
-          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Death date, testament content, and French acceptance are all attested by multiple contemporary primary sources including the testament itself and diplomatic correspondence.",
+      "certainty_note": "Charles II's death on November 1, 1700, is one of the most thoroughly documented events of the early modern period, with precise dating from multiple contemporary sources.",
       "cross_references": [
-        "1701-War of Spanish Succession outbreak",
-        "1713-Treaty of Utrecht"
+        "1701-001 (War of Spanish Succession begins)"
       ]
     },
     {
       "id": "1700-002",
-      "title": "Outbreak of the Great Northern War: Invasion of Swedish Territories",
-      "region": "Baltic / Northern Europe",
-      "coordinates_approx": "59.3293\u00b0 N, 18.0686\u00b0 E (Stockholm, as focal point)",
+      "title": "Great Northern War begins",
+      "region": "Northern Europe (Russia, Sweden, Poland-Lithuania, Denmark-Norway)",
+      "coordinates_approx": "59.3,18.1",
       "category": "military",
-      "description": "In early 1700, a coalition of Denmark-Norway, Saxony-Poland, and Russia launched coordinated attacks on the Swedish Empire, initiating the Great Northern War (1700\u20131721). Denmark invaded Holstein-Gottorp (a Swedish ally) in February, Saxony attacked Swedish Livonia in March, and Russia declared war in August. The young Swedish king Charles XII responded with remarkable speed and military skill: he forced Denmark out of the war by September via the Treaty of Travendal, then turned east and decisively defeated a much larger Russian force at the Battle of Narva in November 1700. The war would ultimately end Swedish great-power status and elevate Russia under Peter the Great as the dominant Baltic power.",
+      "description": "Peter the Great of Russia, in alliance with Denmark-Norway and Poland-Lithuania, declares war on Sweden to contest Swedish dominance in the Baltic region. The conflict begins with the Battle of Narva (November 1700), where Swedish forces under Charles XII inflict a devastating defeat on the Russian army. Despite this initial setback, Peter persists in the war, which will last until 1721. The Great Northern War marks Russia's emergence as a major European power and results in Russian acquisition of Baltic territories, including the site of future St. Petersburg. The war is transformative for Russian military organization and Peter's broader modernization agenda.",
       "key_figures": [
+        "Peter I (Peter the Great, Tsar of Russia)",
         "Charles XII (King of Sweden)",
-        "Peter I 'the Great' (Tsar of Russia)",
-        "Augustus II 'the Strong' (Elector of Saxony and King of Poland)",
-        "Frederick IV (King of Denmark-Norway)"
+        "Frederick IV (King of Denmark-Norway)",
+        "Augustus II (King of Poland-Lithuania)"
       ],
       "sources": [
         {
-          "name": "Robert I. Frost, The Northern Wars: War, State and Society in Northeastern Europe, 1558\u20131721 (2000)",
+          "name": "Russian court records and military documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Swedish military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the Great Northern War",
           "type": "historiographic_consensus",
           "contemporary": false
-        },
-        {
-          "name": "Swedish Riksarkivet (National Archives) military records and campaign journals",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Peter the Great's correspondence and campaign diaries (Pis'ma i bumagi Petra Velikogo)",
-          "type": "primary_text",
-          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "All major engagements and treaty dates are confirmed by multiple contemporary state archives from Sweden, Russia, Denmark, and Saxony.",
+      "certainty_note": "The outbreak of the Great Northern War in 1700 and the Battle of Narva in November are well-documented in Russian, Swedish, and other European sources.",
       "cross_references": [
-        "1700-003",
-        "1709-Battle of Poltava",
-        "1721-Treaty of Nystad"
+        "1721-001 (Treaty of Nystad ends Great Northern War)"
       ]
     },
     {
       "id": "1700-003",
-      "title": "Battle of Narva: Swedish Victory over Russia",
-      "region": "Livonia / Baltic (modern Estonia)",
-      "coordinates_approx": "59.3772\u00b0 N, 28.1900\u00b0 E (Narva, modern Estonia)",
+      "title": "Battle of Narva",
+      "region": "Estonia (Swedish-controlled territory)",
+      "coordinates_approx": "59.4,28.2",
       "category": "military",
-      "description": "On 19\u201320 November 1700 (Gregorian; 30 November Old Style), Charles XII of Sweden led approximately 10,000 Swedish troops in a surprise assault on a Russian besieging force of roughly 35,000\u201340,000 men at Narva. Attacking in a blizzard, the Swedes routed the Russian army, capturing most of its artillery and killing or capturing a large portion of its officer corps. Peter the Great had left the siege before the battle, a fact later used to question his personal courage. The defeat was a profound shock to Russia but ultimately spurred Peter to undertake sweeping military reforms; the rebuilt Russian army would defeat Sweden at Poltava in 1709. Narva is thus a pivotal moment in the transformation of Russia into a European military power.",
+      "description": "On November 30, 1700, Swedish forces under King Charles XII decisively defeat the Russian army at Narva in a stunning upset. The Russian army, numbering approximately 40,000, is routed by a smaller Swedish force of about 8,000\u201310,000 men. The battle demonstrates the superiority of Swedish military tactics and discipline under Charles XII and inflicts a humiliating defeat on Peter the Great. However, Peter uses this defeat as motivation for military reform and modernization. The battle is a turning point in Peter's reign, spurring him to reorganize the Russian army along European lines and pursue the war with renewed determination despite the initial catastrophic loss.",
       "key_figures": [
-        "Charles XII (King of Sweden, commanding)",
-        "Peter I 'the Great' (Tsar of Russia, absent from the final battle)",
-        "Carl Gustav Rehnski\u00f6ld (Swedish field commander)",
-        "Charles Eug\u00e8ne de Cro\u00ff (Russian commander, captured)"
+        "Charles XII (King of Sweden)",
+        "Peter I (Tsar of Russia)",
+        "Field Marshal Charles Eugene, Duke of Croy (Russian commander)"
       ],
       "sources": [
         {
-          "name": "Swedish campaign journal (Karolinska krigsdagb\u00f6cker), contemporary military records",
+          "name": "Swedish military records and accounts by Charles XII's officers",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Peter the Great's correspondence (Pis'ma i bumagi Petra Velikogo), vol. 1",
+          "name": "Russian military records and Peter's correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Bengt Liljegren, Karl XII: En biografi (2000); R.I. Frost, The Northern Wars (2000)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary European diplomatic reports",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Battle date, outcome, and approximate force sizes are confirmed by Swedish and Russian primary sources. Casualty figures vary between sources but the Swedish victory is uncontested.",
+      "certainty_note": "The Battle of Narva is one of the most thoroughly documented military engagements of the early 18th century, with detailed accounts from both Swedish and Russian sources.",
       "cross_references": [
-        "1700-002",
-        "1709-Battle of Poltava"
+        "1700-002 (Great Northern War begins)"
       ]
     },
     {
       "id": "1700-004",
-      "title": "Treaty of Constantinople: Russo-Ottoman Peace",
-      "region": "Ottoman Empire / Russia",
-      "coordinates_approx": "41.0082\u00b0 N, 28.9784\u00b0 E (Constantinople/Istanbul)",
+      "title": "Kangxi Emperor consolidates control over Taiwan",
+      "region": "Qing China (Taiwan)",
+      "coordinates_approx": "25.0,121.0",
       "category": "political",
-      "description": "On 3 July 1700 (Gregorian; 13 July Old Style), Russia and the Ottoman Empire concluded the Treaty of Constantinople (also called the Treaty of Istanbul), ending the Russo-Turkish War of 1686\u20131700. Russia retained Azov, which it had captured in 1696, and was freed from paying annual tribute to the Crimean Khan \u2014 a significant symbolic and practical gain. Crucially, the treaty freed Peter the Great to redirect Russian military attention northward toward Sweden, making it a direct enabler of Russian entry into the Great Northern War. The treaty represented a meaningful, if temporary, Russian advance into the Black Sea region.",
+      "description": "The Kangxi Emperor completes the integration of Taiwan into Qing China following the surrender of Zheng Keshuang, the last Ming loyalist holdout, in 1662. By 1700, Taiwan is fully incorporated into Qing administrative structures as Fujian Province. This consolidation represents the final elimination of Ming loyalist resistance and the complete territorial unification of China under Qing rule. The integration of Taiwan strengthens Qing control over maritime trade routes and demonstrates the dynasty's military and administrative capacity.",
       "key_figures": [
-        "Peter I 'the Great' (Tsar of Russia)",
-        "Mustafa II (Sultan of the Ottoman Empire)",
-        "Ukraintsev (Russian diplomat, chief negotiator)"
+        "Kangxi Emperor (Qing Dynasty)",
+        "Zheng Keshuang (Ming loyalist, surrendered 1662)"
       ],
       "sources": [
         {
-          "name": "Treaty text preserved in Ottoman and Russian state archives; summarised in Virginia Aksan, Ottoman Wars 1700\u20131870 (2007)",
+          "name": "Qing imperial records and administrative documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Lindsey Hughes, Russia in the Age of Peter the Great (1998)",
+          "name": "Historiographic consensus on Qing consolidation",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Treaty text survives in both Ottoman and Russian archives. Date is confirmed.",
-      "cross_references": [
-        "1700-002",
-        "1696-Capture of Azov"
-      ]
+      "certainty": "probable",
+      "certainty_note": "Taiwan's full integration into Qing administration was a gradual process; by 1700, it was largely complete, though some sources date full consolidation to slightly earlier or later dates.",
+      "cross_references": []
     },
     {
       "id": "1700-005",
-      "title": "Treaty of Travendal: Denmark Exits the Great Northern War",
-      "region": "Holstein / Northern Europe",
-      "coordinates_approx": "53.9\u00b0 N, 10.5\u00b0 E (Travendal, Holstein)",
-      "category": "political",
-      "description": "On 18 August 1700 (Gregorian), Denmark-Norway signed the Treaty of Travendal with Sweden, withdrawing from the Great Northern War after Charles XII's rapid invasion of Zealand and the threat of a Swedish assault on Copenhagen. Denmark was forced to restore the Duke of Holstein-Gottorp's territories and renounce its alliance with Russia and Saxony. The treaty demonstrated Charles XII's capacity for rapid, decisive action and temporarily secured Sweden's western flank, allowing the king to concentrate forces against Russia. Denmark would re-enter the war in 1709 after Sweden's defeat at Poltava.",
-      "key_figures": [
-        "Charles XII (King of Sweden)",
-        "Frederick IV (King of Denmark-Norway)",
-        "Frederick IV, Duke of Holstein-Gottorp (beneficiary)"
-      ],
-      "sources": [
-        {
-          "name": "Treaty text in Danish and Swedish state archives; R.I. Frost, The Northern Wars (2000)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Treaty date and terms are confirmed by surviving treaty documents in both Danish and Swedish archives.",
-      "cross_references": [
-        "1700-002",
-        "1700-003"
-      ]
-    },
-    {
-      "id": "1700-006",
-      "title": "Establishment of the Prussian Kingdom Anticipated: Elector Frederick III Negotiates Royal Title",
-      "region": "Brandenburg-Prussia / Holy Roman Empire",
-      "coordinates_approx": "52.5200\u00b0 N, 13.4050\u00b0 E (Berlin)",
-      "category": "political",
-      "description": "In 1700, Elector Frederick III of Brandenburg intensified negotiations with Holy Roman Emperor Leopold I for recognition of a royal title for the Hohenzollern dynasty. Frederick offered military support for the coming War of the Spanish Succession in exchange for the right to crown himself 'King in Prussia' (a title carefully worded to avoid infringing on the Holy Roman Empire's sovereignty, since Prussia lay outside its borders). The agreement was finalised in late 1700, and Frederick crowned himself King Frederick I in K\u00f6nigsberg on 18 January 1701. This event, though formally occurring in 1701, was negotiated and agreed in 1700 and marks the foundation of the Kingdom of Prussia, a state that would reshape European history over the next two centuries.",
-      "key_figures": [
-        "Frederick III, Elector of Brandenburg (soon Frederick I, King in Prussia)",
-        "Leopold I (Holy Roman Emperor, granted the title)"
-      ],
-      "sources": [
-        {
-          "name": "Christopher Clark, Iron Kingdom: The Rise and Downfall of Prussia, 1600\u20131947 (2006)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Geheimes Staatsarchiv Preu\u00dfischer Kulturbesitz (Prussian State Archives), diplomatic correspondence 1700",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The agreement was reached in 1700; the formal coronation occurred 18 January 1701. Assigned to 1700 as the year of negotiation and agreement.",
-      "cross_references": [
-        "1701-Coronation of Frederick I of Prussia"
-      ]
-    },
-    {
-      "id": "1700-007",
-      "title": "Cascadia Megathrust Earthquake and Pacific Tsunami",
-      "region": "Pacific Northwest Coast (modern Oregon/Washington/British Columbia)",
-      "coordinates_approx": "47\u00b0 N, 124\u00b0 W (Cascadia Subduction Zone)",
-      "category": "environmental",
-      "description": "On 26 January 1700 (Gregorian), a magnitude ~9.0 earthquake ruptured the Cascadia Subduction Zone along approximately 1,000 km of the Pacific Northwest coast of North America. The earthquake generated a major tsunami that struck the coasts of Japan on 27\u201328 January 1700, where it was recorded in Japanese documents as an 'orphan tsunami' (a tsunami with no locally felt earthquake). The event caused significant destruction to Indigenous coastal communities of the Pacific Northwest, evidence of which is preserved in oral traditions of the Huu-ay-aht, Makah, and other nations, as well as in tree-ring records (drowned forests), coastal stratigraphy, and Japanese historical records. The 1700 Cascadia earthquake is now considered one of the largest earthquakes in recorded North American history and is central to modern seismic hazard assessment for the region.",
-      "key_figures": [
-        "No named historical figures; event reconstructed from geological and documentary evidence"
-      ],
-      "sources": [
-        {
-          "name": "Brian Atwater et al., The Orphan Tsunami of 1700: Japanese Clues to a Parent Earthquake in North America (USGS Professional Paper 1707, 2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Japanese historical tsunami records (Morioka-han and other domain records), cited in Atwater et al. 2005",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Coastal stratigraphic and dendrochronological evidence (drowned forests, sand sheets), Pacific Northwest",
-          "type": "archaeological",
-          "contemporary": false
-        },
-        {
-          "name": "Oral traditions of Huu-ay-aht, Makah, Quileute, and other Pacific Northwest Indigenous nations",
-          "type": "oral_tradition",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The date of 26 January 1700 is confirmed to within hours by Japanese tsunami records cross-referenced with tidal modelling and tree-ring dating of drowned forests. This is one of the most precisely dated pre-instrumental geological events in North American history.",
-      "cross_references": []
-    },
-    {
-      "id": "1700-008",
-      "title": "Qing Dynasty: Reign of the Kangxi Emperor at Its Height",
-      "region": "China / Qing Empire",
-      "coordinates_approx": "39.9042\u00b0 N, 116.4074\u00b0 E (Beijing)",
-      "category": "political",
-      "description": "In 1700, the Kangxi Emperor (r. 1661\u20131722) was at the height of his reign, presiding over a Qing Empire that had consolidated control over China proper, Taiwan (taken 1683), and was extending influence into Mongolia and Central Asia. The emperor was engaged in ongoing diplomatic and military management of the Dzungar Khanate threat in the northwest, having signed the Treaty of Nerchinsk with Russia in 1689. The Kangxi Emperor was also a patron of Jesuit scholars at court, facilitating the exchange of scientific and cartographic knowledge. His reign is considered one of the most successful in Chinese imperial history, characterised by fiscal restraint, literary projects, and military consolidation.",
-      "key_figures": [
-        "Kangxi Emperor (Xuanye, r. 1661\u20131722, Qing Emperor)",
-        "Galdan Boshugtu Khan (Dzungar leader, recently defeated; died 1697)"
-      ],
-      "sources": [
-        {
-          "name": "Jonathan Spence, Emperor of China: Self-Portrait of K'ang-hsi (1974), based on Kangxi's own writings",
-          "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "Qing Shilu (Veritable Records of the Qing Dynasty), official court chronicle",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Evelyn Rawski, The Last Emperors: A Social History of Qing Imperial Institutions (1998)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Qing Shilu provides detailed year-by-year records of the Kangxi reign. The broader characterisation of 1700 as a period of Qing consolidation is historiographic consensus.",
-      "cross_references": [
-        "1689-Treaty of Nerchinsk",
-        "1720-Qing conquest of Tibet"
-      ]
-    },
-    {
-      "id": "1700-009",
-      "title": "Mughal Empire: Aurangzeb's Deccan Campaigns and Imperial Overextension",
-      "region": "South Asia / Mughal Empire",
-      "coordinates_approx": "17.3850\u00b0 N, 78.4867\u00b0 E (Deccan Plateau)",
-      "category": "military",
-      "description": "By 1700, the Mughal Emperor Aurangzeb (r. 1658\u20131707) had been personally campaigning in the Deccan for over a decade in an attempt to subdue the Maratha Confederacy and the remaining Deccan Sultanates. The campaigns were enormously costly in men, money, and administrative coherence, draining the imperial treasury and stretching Mughal administrative capacity to its limits. The Maratha leader Rajaram (brother of Shivaji's son Sambhaji) continued guerrilla resistance from the fortress of Jinji until its fall in 1698, but Maratha resistance persisted under new leadership. Historians widely regard this period as the beginning of Mughal imperial decline, as the empire's resources were consumed by unwinnable wars while provincial governors grew increasingly autonomous.",
-      "key_figures": [
-        "Aurangzeb (Mughal Emperor, personally commanding in the Deccan)",
-        "Rajaram (Maratha king, died 1700)",
-        "Tarabai (Maratha regent, assumed leadership after Rajaram's death in 1700)"
-      ],
-      "sources": [
-        {
-          "name": "Khafi Khan, Muntakhab al-Lubab (early 18th-century Mughal chronicle, near-contemporary)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Jadunath Sarkar, History of Aurangzib, 5 vols. (1912\u20131924)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Aurangzeb's own letters (Ruq'at-i-Alamgiri) and Mughal court records",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The broad military and political situation is well-attested. Rajaram's death in 1700 and Tarabai's assumption of the regency are confirmed by Maratha and Mughal sources.",
-      "cross_references": [
-        "1707-Death of Aurangzeb and Mughal fragmentation"
-      ]
-    },
-    {
-      "id": "1700-010",
-      "title": "Death of Rajaram and Tarabai's Regency: Maratha Resistance Continues",
-      "region": "Deccan / Maratha Confederacy (South Asia)",
-      "coordinates_approx": "17.0\u00b0 N, 74.0\u00b0 E (Satara region, Maharashtra)",
-      "category": "political",
-      "description": "Rajaram, the Maratha king and son of Shivaji, died in March 1700 at Sinhagad fort. His widow Tarabai immediately assumed the regency on behalf of her infant son Shivaji II and continued to organise Maratha military resistance against Aurangzeb's Mughal forces. Tarabai proved to be a capable military and political leader, coordinating guerrilla campaigns across the Deccan that frustrated Mughal attempts at pacification. Her regency is considered a critical episode in Maratha history, demonstrating the resilience of the confederacy and its capacity to survive the loss of its male leadership.",
-      "key_figures": [
-        "Rajaram (Maratha king, died March 1700)",
-        "Tarabai (Queen regent, assumed leadership 1700)",
-        "Shivaji II (infant Maratha king)"
-      ],
-      "sources": [
-        {
-          "name": "Maratha bakhars (vernacular chronicles), including the Sabhasad Bakhar",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Stewart Gordon, The Marathas 1600\u20131818 (Cambridge History of India, 1993)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Rajaram's death in 1700 and Tarabai's regency are confirmed by both Mughal and Maratha sources, though exact dates within the year vary slightly between sources.",
-      "cross_references": [
-        "1700-009"
-      ]
-    },
-    {
-      "id": "1700-011",
-      "title": "Safavid Persia: Reign of Shah Sultan Husayn and Growing Instability",
-      "region": "Persia / Safavid Empire",
-      "coordinates_approx": "32.6539\u00b0 N, 51.6660\u00b0 E (Isfahan)",
-      "category": "political",
-      "description": "In 1700, Shah Sultan Husayn (r. 1694\u20131722) presided over a Safavid Empire increasingly weakened by court factionalism, economic difficulties, and the growing influence of Shia clerics over state policy. Unlike his predecessors, Sultan Husayn was known for piety and passivity rather than military or administrative vigour. The empire faced pressure from Afghan tribal confederacies in the east, Ottoman encroachment in the west, and internal fiscal strain. The period around 1700 is characterised by historians as the beginning of the terminal decline of the Safavid dynasty, which would culminate in the Afghan invasion and the fall of Isfahan in 1722.",
-      "key_figures": [
-        "Shah Sultan Husayn (Safavid Shah, r. 1694\u20131722)",
-        "Mohammad Baqer Majlesi (influential Shia cleric, died 1699/1700, whose influence shaped the reign)"
-      ],
-      "sources": [
-        {
-          "name": "Rudi Matthee, Persia in Crisis: Safavid Decline and the Fall of Isfahan (2012)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Contemporary Persian chronicles including the Tarikh-i Alam-ara-yi Sultani",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The political situation of the Safavid court in 1700 is well-documented in Persian chronicles. The characterisation of decline is historiographic consensus based on multiple sources.",
-      "cross_references": [
-        "1722-Fall of Isfahan to Afghan forces"
-      ]
-    },
-    {
-      "id": "1700-012",
-      "title": "West Africa: Asante Confederacy Formation and Expansion",
-      "region": "West Africa (modern Ghana)",
-      "coordinates_approx": "6.6885\u00b0 N, 1.6244\u00b0 W (Kumasi region)",
-      "category": "political",
-      "description": "Around 1700, the Asante (Ashanti) Confederacy under Osei Tutu I was in the process of consolidating its power in the forest zone of modern Ghana, having recently defeated the Denkyira kingdom (c. 1701) and established Kumasi as its capital. The Asante state was built on control of gold trade routes and the emerging Atlantic slave trade, and its political legitimacy was anchored in the Golden Stool (Sika Dwa Kofi), said to have descended from the sky and to embody the soul of the Asante nation. The Asante Confederacy would become one of the most powerful and durable states in West African history, resisting European encroachment until the late 19th century.",
-      "key_figures": [
-        "Osei Tutu I (Asantehene, founder of the Asante Confederacy)",
-        "Okomfo Anokye (spiritual adviser, associated with the Golden Stool legend)"
-      ],
-      "sources": [
-        {
-          "name": "Ivor Wilks, Asante in the Nineteenth Century (1975); and Forests of Gold: Essays on the Akan and the Kingdom of Asante (1993)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Oral traditions of the Asante people, recorded in the 19th and 20th centuries",
-          "type": "oral_tradition",
-          "contemporary": false
-        },
-        {
-          "name": "Dutch and English trading company records from the Gold Coast (c. 1700\u20131710)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The precise dating of Asante Confederacy formation events is uncertain; c. 1700 is the conventional scholarly estimate. The defeat of Denkyira is usually dated c. 1701. Assigned to 1700 as the approximate period of consolidation.",
-      "cross_references": [
-        "1701-Asante defeat of Denkyira"
-      ]
-    },
-    {
-      "id": "1700-013",
-      "title": "The Atlantic Slave Trade at Peak Intensity: Transatlantic Crossings",
-      "region": "Atlantic World (West Africa, Caribbean, Americas)",
-      "coordinates_approx": "null \u2014 oceanic and multi-continental",
-      "category": "demographic",
-      "description": "Around 1700, the transatlantic slave trade was approaching its most intensive phase. Estimates from the Trans-Atlantic Slave Trade Database (Voyages) indicate that approximately 30,000\u201340,000 enslaved Africans were transported across the Atlantic annually in this period, with the trade accelerating through the 18th century. The major carriers were English, Portuguese, Dutch, and French slave traders, supplying labour to sugar plantations in Brazil, the Caribbean, and tobacco and rice plantations in North America. The trade was embedded in mercantilist imperial systems and was legally sanctioned and actively promoted by European states. The human cost was catastrophic: mortality during the Middle Passage averaged 10\u201320%, and the broader demographic impact on West and Central Africa was severe.",
-      "key_figures": [
-        "No single figure; the trade was institutionalised across multiple European empires and African polities"
-      ],
-      "sources": [
-        {
-          "name": "Trans-Atlantic Slave Trade Database (Voyages Project, slavevoyages.org), compiled from shipping records, port records, and insurance documents",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "David Eltis and David Richardson, Atlas of the Transatlantic Slave Trade (2010)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Royal African Company records (English), Portuguese Casa da \u00cdndia records",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The existence and scale of the trade in 1700 is confirmed by extensive shipping records. Annual volume estimates carry uncertainty of \u00b120\u201330% due to incomplete records, particularly for Portuguese and illegal traders.",
-      "cross_references": [
-        "1698-End of Royal African Company monopoly (England)",
-        "1807-British abolition of slave trade"
-      ]
-    },
-    {
-      "id": "1700-014",
-      "title": "England: Act for the Further Limitation of the Crown (Act of Settlement Negotiations)",
-      "region": "England / Great Britain",
-      "coordinates_approx": "51.4994\u00b0 N, 0.1248\u00b0 W (Westminster, London)",
-      "category": "legal",
-      "description": "The Act of Settlement, passed by the English Parliament in 1701, was substantially debated and drafted in 1700 in response to the death of the Duke of Gloucester (the last surviving child of Princess Anne) in July 1700, which left the Protestant succession uncertain. Parliament moved urgently to secure the Protestant line by designating Sophia of Hanover and her Protestant heirs as successors to the English throne, explicitly excluding Catholics. The act also placed significant constitutional constraints on the monarchy, including the independence of judges and restrictions on royal prerogative. This legislative process, initiated in 1700, was foundational to the constitutional monarchy that Britain would develop in the 18th century.",
-      "key_figures": [
-        "William III (King of England)",
-        "Princess Anne (heir presumptive)",
-        "William, Duke of Gloucester (died July 1700, triggering the succession crisis)",
-        "Sophia of Hanover (designated Protestant heir)"
-      ],
-      "sources": [
-        {
-          "name": "Journals of the House of Commons and House of Lords, 1700\u20131701",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "J.H. Plumb, The Growth of Political Stability in England 1675\u20131725 (1967)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The death of the Duke of Gloucester in July 1700 and the subsequent parliamentary debates are confirmed by parliamentary records. The Act itself passed in 1701.",
-      "cross_references": [
-        "1701-Act of Settlement",
-        "1714-Hanoverian succession"
-      ]
-    },
-    {
-      "id": "1700-015",
-      "title": "Tokugawa Japan: Genroku Era Cultural Flourishing",
-      "region": "Japan / Tokugawa Shogunate",
-      "coordinates_approx": "35.6762\u00b0 N, 139.6503\u00b0 E (Edo/Tokyo)",
+      "title": "Edo period cultural flourishing in Japan",
+      "region": "Japan (Edo period)",
+      "coordinates_approx": "35.7,139.7",
       "category": "cultural",
-      "description": "The year 1700 falls within the Genroku era (1688\u20131704), widely regarded as the golden age of Tokugawa popular culture. Urban merchant culture (ch\u014dnin) flourished in Edo, Osaka, and Kyoto, producing distinctive art forms including ukiyo-e woodblock prints, kabuki theatre, bunraku puppet theatre, and haiku poetry. The playwright Chikamatsu Monzaemon was active, writing domestic tragedies (sewamono) that depicted merchant life with unprecedented realism. Matsuo Bash\u014d, the great haiku master, had died in 1694, but his influence permeated literary culture. The Genroku era is also associated with the famous 47 R\u014dnin incident (1701\u20131703), which began with the forced suicide of their lord Asano Naganori in 1701. Japan's controlled isolation (sakoku) remained in force, with Dutch and Chinese traders permitted only at Nagasaki.",
+      "description": "By 1700, Japan under the Tokugawa shogunate has entered a period of relative peace and cultural flourishing following the establishment of the Edo period (1603\u20131868). Urban centers, particularly Edo (modern Tokyo), Osaka, and Kyoto, are experiencing significant growth and cultural development. Kabuki theater, woodblock printing (ukiyo-e), and literature are flourishing. The merchant class is rising in economic importance despite the samurai-dominated political hierarchy. This period represents a distinctive Japanese cultural synthesis that will characterize the 18th century.",
       "key_figures": [
-        "Tokugawa Tsunayoshi (5th Shogun, r. 1680\u20131709)",
-        "Chikamatsu Monzaemon (playwright)",
-        "Hishikawa Moronobu (ukiyo-e artist, died c. 1694\u20131695, but his school was active)"
+        "Tokugawa Tsunayoshi (Shogun, died 1709)",
+        "Ihara Saikaku (writer, died 1693)"
       ],
       "sources": [
         {
-          "name": "Donald Keene, World Within Walls: Japanese Literature of the Pre-Modern Era, 1600\u20131867 (1976)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Conrad Totman, Early Modern Japan (1993)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Contemporary Japanese diaries, literary texts, and commercial records from the Genroku period",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Genroku era and its cultural characteristics are well-documented in Japanese literary and commercial records. The year 1700 falls squarely within this period.",
-      "cross_references": [
-        "1701-47 Ronin incident begins"
-      ]
-    },
-    {
-      "id": "1700-016",
-      "title": "Ottoman Empire: Post-Karlowitz Reorganisation",
-      "region": "Ottoman Empire",
-      "coordinates_approx": "41.0082\u00b0 N, 28.9784\u00b0 E (Constantinople/Istanbul)",
-      "category": "political",
-      "description": "Following the humiliating Treaty of Karlowitz (1699), in which the Ottoman Empire ceded Hungary, Transylvania, Podolia, and Morea to the Habsburg, Polish, and Venetian powers respectively, the Ottoman state in 1700 was engaged in a period of internal reassessment and attempted reform. The treaty marked the first major territorial contraction of the Ottoman Empire in Europe and is considered a turning point in Ottoman-European relations. Sultan Mustafa II (r. 1695\u20131703) and his grand viziers were attempting to stabilise finances and rebuild military capacity. The concurrent Treaty of Constantinople with Russia (1700) added to the diplomatic adjustments of this period. Ottoman reformers of this era began looking selectively at European military techniques, a process that would accelerate in the 18th century.",
-      "key_figures": [
-        "Mustafa II (Ottoman Sultan)",
-        "Rami Mehmed Pasha (Grand Vizier, 1703)"
-      ],
-      "sources": [
-        {
-          "name": "Virginia Aksan, Ottoman Wars 1700\u20131870: An Empire Besieged (2007)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Ottoman court chronicles (Silahdar Tarihi and others)",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The post-Karlowitz political situation is well-documented in Ottoman chronicles and European diplomatic records.",
-      "cross_references": [
-        "1699-Treaty of Karlowitz",
-        "1700-004"
-      ]
-    },
-    {
-      "id": "1700-017",
-      "title": "William Dampier's Voyage to New Holland (Australia): Second Expedition",
-      "region": "Pacific / Western Australia",
-      "coordinates_approx": "20\u00b0 S, 114\u00b0 E (Shark Bay / Dampier Archipelago, Western Australia)",
-      "category": "exploration",
-      "description": "In January 1700, the English buccaneer and naturalist William Dampier, commanding HMS Roebuck, was exploring the western coast of New Holland (Australia) on his second voyage to the region. He had departed England in 1699 and reached the Australian coast in August 1699, making detailed observations of the flora, fauna, and Indigenous peoples of the region. His published accounts (A New Voyage Round the World, 1697; A Voyage to New Holland, 1703) were widely read in Europe and influenced subsequent scientific voyaging, including the later expeditions of James Cook. Dampier's work represents the most systematic European natural history observation of Australia before Cook.",
-      "key_figures": [
-        "William Dampier (English navigator, naturalist, and privateer)"
-      ],
-      "sources": [
-        {
-          "name": "William Dampier, A Voyage to New Holland (1703), primary account",
+          "name": "Edo period administrative records and cultural documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Diana and Michael Preston, A Pirate of Exquisite Mind: The Life of William Dampier (2004)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "HMS Roebuck logbooks, Admiralty records, UK National Archives",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Dampier's voyage is confirmed by his own published account and Admiralty records. His presence on the Australian coast in late 1699 and early 1700 is well-documented.",
-      "cross_references": [
-        "1699-Dampier departs England",
-        "1703-Publication of A Voyage to New Holland"
-      ]
-    },
-    {
-      "id": "1700-018",
-      "title": "Russia: Peter the Great's Westernisation Reforms Accelerate",
-      "region": "Russia",
-      "coordinates_approx": "55.7558\u00b0 N, 37.6173\u00b0 E (Moscow)",
-      "category": "cultural",
-      "description": "In 1700, Peter the Great implemented several significant Westernising reforms in Russia. Most notably, he changed the Russian calendar from the Byzantine system (which dated from the creation of the world) to the Julian calendar used in Western Europe, decreeing that the new year would begin on 1 January rather than 1 September, and that the year would be counted from the birth of Christ rather than from creation. He also mandated the shaving of beards among the nobility and the adoption of Western dress, enforcing these decrees with fines and physical compulsion. These reforms were part of a broader programme to reorient Russian elite culture toward Western European norms, which Peter had observed during his Grand Embassy of 1697\u20131698.",
-      "key_figures": [
-        "Peter I 'the Great' (Tsar of Russia)"
-      ],
-      "sources": [
-        {
-          "name": "Lindsey Hughes, Russia in the Age of Peter the Great (1998)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Peter the Great's decrees (ukazy), preserved in the Polnoe Sobranie Zakonov Rossiiskoi Imperii (Complete Collection of Laws of the Russian Empire)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The calendar reform decree of 19 December 1699 (Old Style), effective 1 January 1700, is preserved in the Complete Collection of Laws. The beard and dress decrees are similarly documented.",
-      "cross_references": [
-        "1697-Peter's Grand Embassy to Western Europe"
-      ]
-    },
-    {
-      "id": "1700-019",
-      "title": "Leibniz Founds the Berlin Academy of Sciences",
-      "region": "Brandenburg-Prussia / Holy Roman Empire",
-      "coordinates_approx": "52.5200\u00b0 N, 13.4050\u00b0 E (Berlin)",
-      "category": "scientific",
-      "description": "On 11 July 1700, Gottfried Wilhelm Leibniz secured the charter for the Kurf\u00fcrstlich Brandenburgische Societ\u00e4t der Wissenschaften (Electoral Brandenburg Society of Sciences) in Berlin, later known as the Berlin Academy of Sciences (Preu\u00dfische Akademie der Wissenschaften). Leibniz became its first president. The academy was modelled on the Royal Society of London and the Acad\u00e9mie des Sciences in Paris, and was intended to promote scientific research, improve the German language, and serve the practical needs of the Prussian state. It became one of the leading scientific institutions in Europe during the 18th century, later associated with figures such as Euler and Maupertuis.",
-      "key_figures": [
-        "Gottfried Wilhelm Leibniz (philosopher, mathematician, first president of the academy)",
-        "Frederick III, Elector of Brandenburg (patron)"
-      ],
-      "sources": [
-        {
-          "name": "Charter of the Kurf\u00fcrstlich Brandenburgische Societ\u00e4t der Wissenschaften, 11 July 1700, preserved in Prussian state archives",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Maria Rosa Antognazza, Leibniz: An Intellectual Biography (2009)",
+          "name": "Historiographic consensus on Edo period culture",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The charter date of 11 July 1700 is confirmed by the surviving document. Leibniz's role as founder and first president is uncontested.",
-      "cross_references": [
-        "1666-Founding of Acad\u00e9mie des Sciences, Paris",
-        "1660-Founding of Royal Society, London"
-      ]
-    },
-    {
-      "id": "1700-020",
-      "title": "The Oyo Empire: Expansion and Slave Trade Participation",
-      "region": "West Africa (modern Nigeria)",
-      "coordinates_approx": "8.0\u00b0 N, 4.0\u00b0 E (Old Oyo region)",
-      "category": "political",
-      "description": "Around 1700, the Oyo Empire in the western Sudan region of West Africa was in a period of expansion under its Alafin (king), extending its cavalry-based military power southward toward the coast and consolidating control over trade routes. Oyo was a significant participant in the Atlantic slave trade, raiding neighbouring peoples and selling captives to European traders on the coast. The empire's power rested on its formidable cavalry, which was effective in the savanna but limited in the forested south. Oyo would reach its greatest territorial extent in the mid-18th century before internal conflicts and Fulani pressure led to its collapse in the early 19th century.",
-      "key_figures": [
-        "Alafin of Oyo (specific ruler c. 1700 is uncertain in the sources)"
-      ],
-      "sources": [
-        {
-          "name": "Robin Law, The Oyo Empire c. 1600\u2013c. 1836 (1977)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "European trading company records from the Slave Coast (Dutch, English, Portuguese)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The general political situation of Oyo around 1700 is established by historiographic consensus. Specific events within the year are not well-documented; the specific Alafin ruling in 1700 is uncertain.",
-      "cross_references": [
-        "1700-013"
-      ]
-    },
-    {
-      "id": "1700-021",
-      "title": "Colonial North America: Population Growth and Frontier Expansion",
-      "region": "British North America",
-      "coordinates_approx": "null \u2014 distributed across eastern seaboard",
-      "category": "demographic",
-      "description": "Around 1700, the English colonies in North America had a combined European-descended population of approximately 250,000, with enslaved African populations adding significantly to the total in the southern colonies. The colonies were expanding westward, coming into increasing conflict with Indigenous nations and with French colonial territories. Boston, New York (formerly New Amsterdam), Philadelphia, and Charleston were the major urban centres. The period saw the consolidation of plantation agriculture in Virginia, Maryland, and the Carolinas, and the beginning of significant German and Scots-Irish immigration. The political structures of the colonies were diverse, ranging from royal colonies to proprietary and charter colonies.",
-      "key_figures": [
-        "No single dominant figure; colonial governors and assemblies were the primary political actors"
-      ],
-      "sources": [
-        {
-          "name": "John McCusker and Russell Menard, The Economy of British America, 1607\u20131789 (1985)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Colonial census records and assembly records, preserved in state archives",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Population estimates for 1700 are based on colonial census records and retrospective demographic analysis. The figure of ~250,000 is a historiographic consensus estimate with uncertainty of \u00b120%.",
+      "certainty_note": "The cultural flourishing of the Edo period is well-documented through surviving artworks, literary works, and administrative records.",
       "cross_references": []
-    },
-    {
-      "id": "1700-022",
-      "title": "Jesuit Missions in China: Controversy over Chinese Rites",
-      "region": "China / Catholic Church",
-      "coordinates_approx": "39.9042\u00b0 N, 116.4074\u00b0 E (Beijing)",
-      "category": "religious",
-      "description": "Around 1700, the Chinese Rites Controversy \u2014 a dispute within the Catholic Church over whether Chinese converts could continue to practise Confucian ancestor veneration and use Chinese terms for God \u2014 was reaching a critical phase. The Jesuits, led by figures such as Matteo Ricci's intellectual heirs, argued for accommodation; the Dominicans and Franciscans opposed it. Pope Clement XI would issue the decree Cum Deus Optimus in 1704 and the bull Ex illa die in 1715, condemning the Chinese rites. The Kangxi Emperor, who had been broadly tolerant of Christianity, responded by expelling most missionaries who refused to follow Ricci's accommodationist approach. The controversy severely damaged Catholic missionary work in China and strained Sino-papal relations for centuries.",
-      "key_figures": [
-        "Kangxi Emperor (Qing Emperor, patron of Jesuit scholars at court)",
-        "Pope Clement XI (issued condemnatory decrees 1704\u20131715)",
-        "Charles Maigrot (Apostolic Vicar of Fujian, leading opponent of Chinese rites)"
-      ],
-      "sources": [
-        {
-          "name": "D.E. Mungello, The Chinese Rites Controversy: Its History and Meaning (1994)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Papal correspondence and Jesuit mission reports (Lettres \u00e9difiantes et curieuses)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The controversy is well-documented in both Catholic Church records and Qing court documents. The year 1700 is the approximate period of intensification before the papal decrees of 1704\u20131715.",
-      "cross_references": [
-        "1704-Papal decree Cum Deus Optimus",
-        "1715-Ex illa die"
-      ]
-    },
-    {
-      "id": "1700-023",
-      "title": "Scottish Darien Scheme Collapses: Economic and Political Consequences",
-      "region": "Scotland / Panama",
-      "coordinates_approx": "8.0\u00b0 N, 77.5\u00b0 W (Darien, Panama)",
-      "category": "economic",
-      "description": "The Darien Scheme \u2014 Scotland's attempt to establish a colony at Darien on the Isthmus of Panama \u2014 had definitively collapsed by 1700. The second expedition (1699\u20131700) was abandoned in April 1700 after Spanish military pressure, disease, and lack of English support forced the colonists to surrender. The scheme had consumed approximately a quarter of Scotland's liquid capital, causing widespread financial ruin among Scottish investors. The catastrophic failure weakened Scotland's capacity for independent foreign policy and is widely cited as a major factor that made Scottish political elites more receptive to the Acts of Union with England in 1707, which offered economic benefits and access to English colonial markets.",
-      "key_figures": [
-        "William Paterson (founder of the scheme and the Bank of England)",
-        "William III (King of England and Scotland, withheld English support)"
-      ],
-      "sources": [
-        {
-          "name": "Douglas Watt, The Price of Scotland: Darien, Union and the Wealth of Nations (2007)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Records of the Company of Scotland Trading to Africa and the Indies, National Records of Scotland",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The surrender of the Darien colony in April 1700 is confirmed by contemporary records. The financial losses and their political consequences are well-documented.",
-      "cross_references": [
-        "1698-First Darien expedition",
-        "1707-Acts of Union (England and Scotland)"
-      ]
     }
   ],
-  "disconfirming_evidence": "1. **Charles II's will and the 'brain disease' narrative**: The traditional account that Charles II was so physically and mentally incapacitated as to be entirely passive in the succession question has been partially revised. Some historians (notably Henry Kamen) argue that Charles II was more politically aware than the 'el Hechizado' (the Bewitched) caricature suggests, and that his choice of Philip of Anjou reflected a rational calculation that only France could keep the Spanish empire intact. The degree of his incapacity is thus contested.\n\n2. **Battle of Narva casualty figures**: Contemporary Swedish and Russian sources give wildly divergent casualty figures. Swedish sources tend to minimise Swedish losses and maximise Russian ones; Russian sources (especially later Soviet-era historiography) sometimes downplayed the defeat's significance. Modern estimates of Russian dead range from 6,000 to 18,000, and the battle's tactical significance has been debated \u2014 some historians argue the Russian army was not as large as Swedish sources claimed.\n\n3. **Cascadia earthquake and Indigenous oral traditions**: While the 1700 Cascadia earthquake date is confirmed by Japanese records and geological evidence, the specific oral traditions cited as corroborating evidence have been subject to scholarly debate about whether they refer to this specific event or to a composite of multiple seismic events over centuries. Ruth Ludwin and others have argued for caution in directly mapping specific oral traditions onto the 1700 event.\n\n4. **Darien Scheme and the Union of 1707**: The causal link between the Darien failure and Scottish acceptance of the 1707 Union is a standard historiographic claim but has been challenged. Christopher Whatley and others argue that bribery of Scottish parliamentarians and English political pressure were more decisive than economic desperation, and that the Darien losses, while real, have been rhetorically amplified in both Unionist and nationalist Scottish historiography.\n\n5. **Asante Confederacy dating**: The conventional dating of the Asante Confederacy's formation to c. 1700 is based substantially on oral tradition and retrospective European records. Ivor Wilks's chronology has been challenged by scholars including Tom McCaskie, who argue that the oral traditions were systematically restructured in the 19th century and that precise dating before c. 1720 is unreliable.\n\n6. **Peter the Great's 'Westernisation'**: The framing of Peter's reforms as straightforward 'Westernisation' has been critiqued by historians including Marshall Poe and Evgeny Anisimov, who argue that the reforms were selective, often superficial at the elite level, and that they deepened the cultural divide between the Westernised nobility and the Russian peasantry rather than modernising Russian society as a whole.",
-  "historiographic_note": "The year 1700 CE is exceptionally well-documented by the standards of pre-modern history, with rich archival records surviving from most major European states, the Ottoman Empire, Qing China, Mughal India, and Japan. European events are particularly well-attested through state archives, diplomatic correspondence, parliamentary records, and near-contemporary chronicles. However, several significant biases shape the surviving record: (1) European court and state archives dominate, meaning that the internal politics of African kingdoms, Indigenous American societies, and Southeast Asian polities are largely visible only through the distorting lens of European trading company records. (2) The Qing Shilu (Veritable Records) is a court-sponsored document subject to editorial revision and political framing. (3) Mughal chronicles were written by court-affiliated scholars and tend to present imperial campaigns in a favourable light. (4) The transatlantic slave trade is documented primarily through the records of the perpetrators (shipping companies, port authorities, insurance records), not the victims. (5) For the Cascadia earthquake, the geological and Japanese documentary record is unusually precise, but the Indigenous oral record is filtered through 19th- and 20th-century transcription. The overall documentation level for 1700 CE is rich by historical standards, but the richness is geographically uneven, with European and East Asian events far better attested than African, Indigenous American, or Pacific events.",
+  "disconfirming_evidence": "The Battle of Narva is sometimes portrayed as a complete annihilation of Russian forces, but modern scholarship suggests Russian casualties, while severe, were not as catastrophic as initially reported; the army retained significant capability to continue the war. Charles II's will naming Philip of Anjou is sometimes presented as unambiguous, but there is scholarly debate about the extent to which Charles II was mentally competent at the time of its composition, given his well-documented health problems. The characterization of Taiwan's integration as 'complete' by 1700 may overstate the degree of administrative uniformity; some regional resistance and administrative challenges persisted.",
+  "historiographic_note": "The year 1700 is exceptionally well-documented for Europe, with abundant primary sources from courts, military records, and diplomatic correspondence. The Great Northern War and Spanish succession crisis are extensively covered in Western historiography. East Asian sources (Qing and Japanese) are also rich and detailed. The main historiographic bias is the tendency to treat European events as more significant than simultaneous developments in Asia, despite the latter's comparable importance to their respective regions. Colonial American and African sources are sparse for this year. The death of Charles II is one of the most precisely dated events of the era.",
   "graph_edges": [
     {
       "from": "1700-001",
-      "to": "1701-War of Spanish Succession",
+      "to": "1701-001",
       "relation": "led_to",
-      "note": "Charles II's death and will directly triggered the War of the Spanish Succession (1701\u20131714)"
-    },
-    {
-      "from": "1700-001",
-      "to": "1700-006",
-      "relation": "contemporary_with",
-      "note": "The Spanish succession crisis and the Prussian royal title negotiation were both reshaping the European balance of power simultaneously in 1700"
+      "note": "Charles II's death directly precipitates the War of Spanish Succession"
     },
     {
       "from": "1700-002",
       "to": "1700-003",
       "relation": "led_to",
-      "note": "The outbreak of the Great Northern War directly produced the Battle of Narva as its first major engagement"
-    },
-    {
-      "from": "1700-002",
-      "to": "1700-004",
-      "relation": "caused_by",
-      "note": "The Treaty of Constantinople freed Peter the Great to enter the Great Northern War"
+      "note": "Great Northern War begins with Battle of Narva"
     },
     {
       "from": "1700-003",
-      "to": "1709-Battle of Poltava",
-      "relation": "led_to",
-      "note": "Narva's humiliation spurred Russian military reform that enabled the decisive victory at Poltava nine years later"
-    },
-    {
-      "from": "1700-007",
-      "to": "2011-T\u014dhoku earthquake and tsunami",
+      "to": "1721-001",
       "relation": "part_of",
-      "note": "The 1700 Cascadia earthquake is part of the recurring cycle of megathrust earthquakes on the Cascadia Subduction Zone, informing modern hazard modelling"
-    },
-    {
-      "from": "1700-009",
-      "to": "1700-010",
-      "relation": "contemporary_with",
-      "note": "Aurangzeb's Deccan campaigns and Rajaram's death/Tarabai's regency are directly linked events in the same conflict"
-    },
-    {
-      "from": "1700-010",
-      "to": "1707-Death of Aurangzeb",
-      "relation": "led_to",
-      "note": "Tarabai's successful resistance contributed to the exhaustion of Mughal resources that accelerated imperial fragmentation after Aurangzeb's death"
-    },
-    {
-      "from": "1700-013",
-      "to": "1700-020",
-      "relation": "contemporary_with",
-      "note": "Oyo's expansion and slave-raiding were directly connected to the Atlantic slave trade system documented in 1700-013"
-    },
-    {
-      "from": "1700-014",
-      "to": "1701-Act of Settlement",
-      "relation": "led_to",
-      "note": "The death of the Duke of Gloucester in 1700 triggered the parliamentary process that produced the Act of Settlement in 1701"
-    },
-    {
-      "from": "1700-018",
-      "to": "1700-002",
-      "relation": "contemporary_with",
-      "note": "Peter's domestic Westernisation reforms and his entry into the Great Northern War were parallel expressions of the same modernising programme"
-    },
-    {
-      "from": "1700-023",
-      "to": "1707-Acts of Union",
-      "relation": "led_to",
-      "note": "The Darien collapse weakened Scottish economic independence and is cited as a contributing factor to Scottish acceptance of the 1707 Union"
-    },
-    {
-      "from": "1700-019",
-      "to": "1700-006",
-      "relation": "contemporary_with",
-      "note": "Leibniz founded the Berlin Academy with the patronage of the same Elector Frederick III who was simultaneously negotiating the Prussian royal title"
-    },
-    {
-      "from": "1700-016",
-      "to": "1699-Treaty of Karlowitz",
-      "relation": "caused_by",
-      "note": "Ottoman post-Karlowitz reorganisation in 1700 was a direct consequence of the 1699 treaty's territorial losses"
+      "note": "Battle of Narva is opening engagement of Great Northern War"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T12:33:31.571848",
-    "duration_seconds": 0.000215,
-    "model": "claude-sonnet-4-6",
-    "cost_usd": 0.223779,
-    "cached": true
-  }
+  ]
 }

@@ -1,815 +1,392 @@
 {
   "year": 1806,
   "year_label": "1806 CE",
-  "era_context": "The year 1806 sits at the zenith of Napoleonic power in Europe. Following the decisive victory at Austerlitz in December 1805, Napoleon Bonaparte dismantled the centuries-old political order of central Europe, imposed satellite kingdoms, and launched economic warfare against Britain. The Prussian monarchy, having stayed neutral during the Third Coalition, was drawn into catastrophic war. Across the Atlantic, the Haitian state was consolidating after independence, Latin American creole elites watched European upheavals with growing interest, and the young United States navigated neutrality between the warring powers. In Asia, the Qing dynasty under the Jiaqing Emperor faced internal challenges, while the British East India Company expanded its dominance in the Indian subcontinent.",
+  "era_context": "The Napoleonic Wars dominate European politics; the Holy Roman Empire is dissolving; the British Empire is consolidating naval supremacy after Trafalgar; the Ottoman Empire continues its long decline; in Asia, the Qing Dynasty remains the world's largest economy but faces internal pressures; the United States is a young republic navigating neutrality amid European conflict.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa beyond the Cape Colony and coastal trading stations",
-    "Interior Southeast Asia beyond major courts",
-    "Aboriginal Australia",
-    "Pacific Islands and Polynesia",
-    "Central Asia and the Kazakh steppe"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1806-001",
-      "title": "Death of William Pitt the Younger",
-      "region": "United Kingdom",
-      "coordinates_approx": "51.50, -0.12",
+      "title": "Dissolution of the Holy Roman Empire",
+      "region": "Central Europe (German-speaking territories)",
+      "coordinates_approx": "50.0, 10.0",
       "category": "political",
-      "description": "William Pitt the Younger, who had served as Prime Minister for most of the period since 1783 and was the chief architect of Britain's coalition strategy against Revolutionary and Napoleonic France, died on 23 January 1806 at age 46. His health had been broken by years of overwork and heavy drinking, and the collapse of the Third Coalition after Austerlitz reportedly devastated him. He was succeeded by the 'Ministry of All the Talents' under Lord Grenville, a broad coalition including Charles James Fox as Foreign Secretary. Pitt's death marked the end of an era in British politics and temporarily shifted the government toward a more conciliatory stance on the war.",
+      "description": "Following Napoleon's decisive victory at Austerlitz (December 1805), Emperor Francis II formally dissolved the Holy Roman Empire on August 6, 1806, after 844 years of existence. The Confederation of the Rhine, a French client state comprising 16 German principalities, was established in its place. This marked the effective end of the medieval imperial structure and accelerated German state consolidation. The event fundamentally reshaped Central European politics and paved the way for later German unification.",
       "key_figures": [
-        "William Pitt the Younger (Prime Minister)",
-        "Lord Grenville (successor Prime Minister)",
-        "Charles James Fox (Foreign Secretary)"
+        "Napoleon Bonaparte (Emperor of France)",
+        "Francis II (Holy Roman Emperor, later Francis I of Austria)"
       ],
       "sources": [
         {
-          "name": "Parliamentary records and contemporary correspondence",
+          "name": "Official decree of Francis II, August 6, 1806",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "William Hague, William Pitt the Younger (2004)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Napoleonic administrative records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in parliamentary records, private correspondence, and contemporary press.",
+      "certainty_note": "The date and fact are unambiguously documented in contemporary official sources.",
       "cross_references": [
-        "1805-austerlitz"
+        "1805-003 (Battle of Austerlitz)",
+        "1806-002 (War of the Fourth Coalition)"
       ]
     },
     {
       "id": "1806-002",
-      "title": "British occupy the Cape Colony",
-      "region": "Southern Africa (Cape Colony)",
-      "coordinates_approx": "-33.93, 18.42",
+      "title": "War of the Fourth Coalition begins",
+      "region": "Europe (Prussia, Russia, Saxony, Britain)",
+      "coordinates_approx": "52.0, 13.0",
       "category": "military",
-      "description": "In January 1806, a British force of approximately 6,700 troops under Major General Sir David Baird defeated a Batavian (Dutch) garrison at the Battle of Blaauwberg on 8 January and seized Cape Town. The Batavian Republic, a French client state, had regained the Cape under the Treaty of Amiens in 1803, but the resumption of war made it a strategic target. This second British occupation proved permanent: the Cape Colony was formally ceded to Britain at the Congress of Vienna in 1814\u201315. The takeover had profound long-term consequences for southern African history, initiating British settler colonialism, transforming the legal status of enslaved people, and setting the stage for tensions with the Boer population.",
+      "description": "Prussia, Russia, Saxony, and Britain formed the Fourth Coalition against France in response to French expansion and the dissolution of the Holy Roman Empire. The war opened with the Prussian campaign in autumn 1806. Napoleon defeated the Prussian army decisively at the twin battles of Jena and Auerstedt (October 14, 1806), destroying Prussian military power and leading to the occupation of Prussia. The conflict would continue into 1807 with Russian involvement.",
       "key_figures": [
-        "Sir David Baird (British commander)",
-        "Jan Willem Janssens (Batavian Governor)"
+        "Napoleon Bonaparte",
+        "Frederick William III (King of Prussia)",
+        "Alexander I (Tsar of Russia)",
+        "William Pitt the Younger (British Prime Minister)"
       ],
       "sources": [
         {
-          "name": "British War Office dispatches and Colonial Office records",
+          "name": "Military dispatches and official records from French, Prussian, Russian, and British archives",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Nigel Worden, Elizabeth van Heyningen, and Vivian Bickford-Smith, Cape Town: The Making of a City (1998)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary newspaper accounts and diplomatic correspondence",
+          "type": "chronicle",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented through military dispatches, colonial records, and subsequent treaty provisions.",
+      "certainty_note": "Extensively documented in contemporary military and diplomatic records.",
       "cross_references": [
-        "1814-congress-of-vienna"
+        "1806-001 (Dissolution of HRE)",
+        "1807-001 (Treaties of Tilsit)"
       ]
     },
     {
       "id": "1806-003",
-      "title": "Treaty of Pressburg takes effect; Napoleonic reorganization of Italy and Germany begins",
-      "region": "Central Europe / Italy",
-      "coordinates_approx": "48.14, 17.11",
-      "category": "political",
-      "description": "The Treaty of Pressburg, signed on 26 December 1805 following Austerlitz, came into force in early 1806 and reshaped central European politics. Austria ceded the Veneto, Istria, and Dalmatia to Napoleon's Kingdom of Italy, and recognized the sovereignty of Bavaria and W\u00fcrttemberg, which were elevated to kingdoms. The Tyrol was transferred to Bavaria. These provisions dismembered Habsburg influence in Italy and Germany, empowered Napoleon's client states, and set the stage for the dissolution of the Holy Roman Empire later in the year. Austria's territorial losses and humiliation fueled a desire for revenge that would drive the War of the Fifth Coalition in 1809.",
+      "title": "Battle of Jena and Auerstedt",
+      "region": "Saxony/Prussia (Central Europe)",
+      "coordinates_approx": "50.9, 11.6",
+      "category": "military",
+      "description": "On October 14, 1806, Napoleon's Grande Arm\u00e9e defeated the Prussian army in two simultaneous battles near Jena and Auerstedt. The Prussian military, still organized along 18th-century lines, was decisively crushed. French casualties were approximately 5,000; Prussian casualties exceeded 25,000 with massive losses in prisoners and equipment. The victory effectively ended Prussian military independence for a decade and demonstrated the superiority of Napoleonic tactics and organization. Prussia was occupied and forced to accept harsh peace terms.",
       "key_figures": [
-        "Napoleon Bonaparte (Emperor of the French)",
-        "Francis II/I (Holy Roman Emperor / Emperor of Austria)",
-        "Maximilian I Joseph (King of Bavaria)"
+        "Napoleon Bonaparte",
+        "Marshal Louis-Nicolas Davout (French commander at Auerstedt)",
+        "Frederick William III (Prussian King)",
+        "Duke of Brunswick (Prussian commander)"
       ],
       "sources": [
         {
-          "name": "Treaty of Pressburg (26 December 1805), text in diplomatic archives",
+          "name": "French military reports and Napoleon's correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Charles Esdaile, Napoleon's Wars: An International History (2007)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Prussian military records and eyewitness accounts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary military histories and analyses",
+          "type": "chronicle",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Treaty text survives; consequences are thoroughly documented.",
+      "certainty_note": "Extensively documented from multiple contemporary sources; date and outcome are unambiguous.",
       "cross_references": [
-        "1805-austerlitz",
-        "1806-005"
+        "1806-002 (War of Fourth Coalition)"
       ]
     },
     {
       "id": "1806-004",
-      "title": "Joseph Bonaparte becomes King of Naples",
-      "region": "Kingdom of Naples (Southern Italy)",
-      "coordinates_approx": "40.85, 14.27",
-      "category": "political",
-      "description": "In February 1806, a French army under Andr\u00e9 Mass\u00e9na invaded the Kingdom of Naples, which had allied with the Third Coalition. The Bourbon rulers Ferdinand IV and Maria Carolina fled to Sicily under British naval protection. Napoleon installed his elder brother Joseph Bonaparte as King of Naples on 30 March 1806. Joseph's government attempted administrative reforms modeled on French lines, including abolishing feudalism and restructuring the legal system, but faced persistent guerrilla resistance in Calabria and the southern provinces. Joseph would be transferred to the Spanish throne in 1808, replaced in Naples by Joachim Murat.",
+      "title": "British Orders in Council (economic warfare)",
+      "region": "British Empire and Atlantic trade routes",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "economic",
+      "description": "Following the failure of the Third Coalition and seeking to damage French economic power, Britain issued Orders in Council in May and November 1806 declaring French-controlled territories under blockade and prohibiting neutral trade with France. These orders intensified the Continental System conflict and severely disrupted American and other neutral commerce. The measures contributed to rising tensions between Britain and the United States, eventually contributing to the War of 1812. The orders represented an escalation of economic warfare as a strategic tool.",
       "key_figures": [
-        "Joseph Bonaparte (King of Naples)",
-        "Andr\u00e9 Mass\u00e9na (French commanding general)",
-        "Ferdinand IV (deposed Bourbon king)",
-        "Napoleon Bonaparte (Emperor of the French)"
+        "William Pitt the Younger (British Prime Minister)",
+        "Lord Grenville (Foreign Secretary)"
       ],
       "sources": [
         {
-          "name": "French military correspondence and Moniteur Universel reports",
+          "name": "Official Orders in Council, May and November 1806",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "John A. Davis, Naples and Napoleon: Southern Italy and the European Revolutions 1780\u20131860 (2006)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "British Admiralty and Foreign Office records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "American diplomatic correspondence and merchant records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Thoroughly documented through French imperial records, diplomatic correspondence, and Neapolitan sources.",
+      "certainty_note": "The orders are documented in official British records with precise dates.",
       "cross_references": [
-        "1808-spain"
+        "1807-002 (Berlin Decree and Continental System)",
+        "1812-001 (War of 1812)"
       ]
     },
     {
       "id": "1806-005",
-      "title": "Formation of the Confederation of the Rhine",
-      "region": "Germany / Central Europe",
-      "coordinates_approx": "50.11, 8.68",
-      "category": "political",
-      "description": "On 12 July 1806, sixteen German states formally signed the Treaty of the Confederation of the Rhine (Rheinbundakte) in Paris, creating a French-sponsored confederation under Napoleon's protection. The member states, including Bavaria, W\u00fcrttemberg, Baden, and Hesse-Darmstadt, seceded from the Holy Roman Empire and committed to providing military contingents for Napoleon's wars. The confederation eventually grew to include most German states except Austria and Prussia. It served as a critical instrument of Napoleonic hegemony in central Europe, provided tens of thousands of troops for French campaigns, and accelerated administrative modernization (abolition of serfdom, legal reform, secularization) across member states.",
+      "title": "Slave trade abolition in British Empire",
+      "region": "British Empire (global)",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "legal",
+      "description": "The British Parliament passed the Slave Trade Act 1806 (effective March 25, 1807), abolishing the slave trade throughout the British Empire. The act was the culmination of decades of abolitionist campaigning led by figures including William Wilberforce, Granville Sharp, and Thomas Clarkson. While the act prohibited the trade itself (not slavery), it represented a major moral and political victory for the abolitionist movement and made Britain the first major slave-trading nation to ban the trade. The act had profound consequences for the Atlantic slave trade and influenced abolitionist movements globally.",
       "key_figures": [
-        "Napoleon Bonaparte (Protector of the Confederation)",
-        "Karl Theodor von Dalberg (Prince-Primate of the Confederation)",
-        "Maximilian I Joseph (King of Bavaria)"
+        "William Wilberforce (abolitionist MP)",
+        "Lord Grenville (Prime Minister)",
+        "Granville Sharp (abolitionist)",
+        "Thomas Clarkson (abolitionist)"
       ],
       "sources": [
         {
-          "name": "Rheinbundakte (Treaty of the Confederation of the Rhine), 12 July 1806",
+          "name": "Slave Trade Act 1806, Parliamentary records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "James Sheehan, German History 1770\u20131866 (1989)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Parliamentary debates and Hansard records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Abolitionist correspondence and publications",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Treaty text survives; event is a cornerstone of the Napoleonic period in German historiography.",
+      "certainty_note": "The act is precisely dated and extensively documented in parliamentary records.",
       "cross_references": [
-        "1806-006"
+        "1833-001 (Slavery Abolition Act)"
       ]
     },
     {
       "id": "1806-006",
-      "title": "Dissolution of the Holy Roman Empire",
-      "region": "Central Europe",
-      "coordinates_approx": "48.21, 16.37",
-      "category": "political",
-      "description": "On 6 August 1806, Francis II formally abdicated the title of Holy Roman Emperor, dissolving an institution that had existed in some form since Charlemagne's coronation in 800 CE (or arguably since Otto I's coronation in 962). The immediate cause was the formation of the Confederation of the Rhine: with most German states having seceded, the Empire was a legal fiction. Napoleon had made clear he would not recognize the institution's continued existence. Francis retained the title Emperor of Austria, which he had preemptively created in 1804. The dissolution ended a millennium of imperial continuity in central Europe and created a political vacuum that would eventually be filled by Prussian-led German unification in 1871.",
+      "title": "Lewis and Clark Expedition reaches Pacific Ocean",
+      "region": "North America (Pacific Northwest)",
+      "coordinates_approx": "46.3, -124.0",
+      "category": "exploration",
+      "description": "The Lewis and Clark Expedition, commissioned by President Thomas Jefferson to explore the newly acquired Louisiana Territory, reached the Pacific Ocean in November 1806 after a journey of approximately 8,000 miles. The expedition, led by Meriwether Lewis and William Clark with the invaluable assistance of Sacagawea (Shoshone woman and interpreter), documented the geography, flora, fauna, and indigenous peoples of the western interior. The expedition's findings provided crucial geographic knowledge and supported American territorial claims to the Pacific Northwest, influencing future westward expansion.",
       "key_figures": [
-        "Francis II (last Holy Roman Emperor, now Francis I of Austria)",
-        "Napoleon Bonaparte (Emperor of the French)"
+        "Meriwether Lewis (expedition co-leader)",
+        "William Clark (expedition co-leader)",
+        "Sacagawea (Shoshone interpreter and guide)",
+        "Thomas Jefferson (U.S. President, expedition sponsor)"
       ],
       "sources": [
         {
-          "name": "Abdication declaration of Francis II, 6 August 1806 (published in Wiener Zeitung)",
+          "name": "Lewis and Clark Expedition journals and field notes",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Peter H. Wilson, Heart of Europe: A History of the Holy Roman Empire (2016)",
-          "type": "historiographic_consensus",
+          "name": "Official expedition reports to President Jefferson",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Published expedition narratives (1814 onward)",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The abdication document survives and is unambiguously dated.",
+      "certainty_note": "The expedition's arrival at the Pacific is documented in the expedition's own journals with the date of November 1806.",
       "cross_references": [
-        "1806-005",
-        "1804-francis-emperor-austria",
-        "1871-german-unification"
+        "1803-001 (Louisiana Purchase)"
       ]
     },
     {
       "id": "1806-007",
-      "title": "Louis Bonaparte becomes King of Holland",
-      "region": "Netherlands",
-      "coordinates_approx": "52.37, 4.90",
+      "title": "Qing Dynasty: Jiaqing Emperor consolidates power",
+      "region": "China (Qing Empire)",
+      "coordinates_approx": "39.9, 116.4",
       "category": "political",
-      "description": "On 5 June 1806, Napoleon transformed the Batavian Republic into the Kingdom of Holland and installed his younger brother Louis Bonaparte as king. Louis, unexpectedly for Napoleon, took his responsibilities seriously and attempted to govern in Dutch interests rather than as a mere French puppet, resisting the Continental System's strict enforcement and distributing personal aid after flooding. This independence led to growing friction with Napoleon. The kingdom lasted only until 1810, when Napoleon annexed Holland directly into the French Empire after Louis abdicated under pressure. The brief reign nonetheless contributed to Dutch state-building and administrative modernization.",
+      "description": "The Jiaqing Emperor (r. 1796\u20131820) continued consolidating power in 1806, eliminating remaining influence of the Heshen faction (the corrupt official had been purged in 1799). The Jiaqing period saw efforts to reform administrative corruption and address internal security challenges, including the White Lotus Rebellion (ongoing until 1804) and growing piracy. However, the Qing Dynasty faced mounting structural challenges: population pressure, agricultural strain, and the beginning of Western commercial encroachment. By 1806, the dynasty remained economically dominant but showed signs of the decline that would accelerate in the 19th century.",
       "key_figures": [
-        "Louis Bonaparte (King of Holland)",
-        "Napoleon Bonaparte (Emperor of the French)",
-        "Rutger Jan Schimmelpenninck (predecessor as Grand Pensionary of the Batavian Republic)"
+        "Jiaqing Emperor (Qing ruler)",
+        "Heshen (purged official, influence lingering)"
       ],
       "sources": [
         {
-          "name": "French imperial decrees and Louis Bonaparte's own memoirs, Documents historiques et r\u00e9flexions sur le gouvernement de la Hollande (1820)",
+          "name": "Qing imperial records and edicts (Veritable Records of the Qing Dynasty)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Simon Schama, Patriots and Liberators: Revolution in the Netherlands 1780\u20131813 (1977)",
+          "name": "Official Qing administrative documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later Qing historiography and scholarship",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Thoroughly documented in French imperial records and Dutch state archives.",
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Jiaqing's reign is well-documented; specific events in 1806 are less precisely dated in Western sources but consistent with Qing records.",
       "cross_references": [
-        "1810-holland-annexed"
+        "1799-001 (Heshen purge)",
+        "1804-001 (White Lotus Rebellion suppression)"
       ]
     },
     {
       "id": "1806-008",
-      "title": "Battle of Maida in Calabria",
-      "region": "Kingdom of Naples (Southern Italy)",
-      "coordinates_approx": "38.86, 16.36",
+      "title": "Ottoman Empire: Russo-Turkish War (1806\u20131812) begins",
+      "region": "Ottoman Empire, Balkans, Black Sea region",
+      "coordinates_approx": "41.0, 29.0",
       "category": "military",
-      "description": "On 4 July 1806, a British expeditionary force of about 5,200 men under Sir John Stuart defeated a French force of similar size under General Jean Reynier at Maida in Calabria. The battle was notable for the decisive effectiveness of British line infantry fire against French columns, a tactical pattern that would recur throughout the Peninsular War. Though strategically limited \u2014 the British re-embarked shortly after \u2014 the victory encouraged Calabrian insurgents and demonstrated that French armies were not invincible on land. Some military historians consider Maida a precursor to the tactical lessons of the Peninsular campaigns.",
+      "description": "Tensions between the Russian Empire and the Ottoman Empire escalated into open conflict in 1806. The war was triggered by Ottoman concerns about Russian expansion and Russian support for Serbian and Greek independence movements. The conflict lasted until 1812 and resulted in significant Ottoman territorial losses, including Bessarabia and parts of the Caucasus. The war demonstrated Ottoman military weakness relative to Russia and accelerated the Ottoman Empire's decline. It also had major consequences for the Balkans and the Eastern Question in European politics.",
       "key_figures": [
-        "Sir John Stuart (British commander)",
-        "Jean Reynier (French commander)"
+        "Alexander I (Tsar of Russia)",
+        "Selim III (Ottoman Sultan)",
+        "Mikhail Kutuzov (Russian general)"
       ],
       "sources": [
         {
-          "name": "British War Office dispatches; Stuart's after-action report",
+          "name": "Russian military records and diplomatic correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Richard Hopton, The Battle of Maida 1806: Fifteen Minutes of Glory (2002)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Ottoman official records and chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary European diplomatic reports",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Documented through British and French military records and contemporary press.",
+      "certainty_note": "The outbreak of the war in 1806 is documented in Russian and Ottoman sources; the exact trigger date is sometimes given as late 1806 or early 1807.",
       "cross_references": [
-        "1806-004"
+        "1812-002 (Treaty of Bucharest)"
       ]
     },
     {
       "id": "1806-009",
-      "title": "Prussia issues ultimatum; War of the Fourth Coalition begins",
-      "region": "Prussia / Germany",
-      "coordinates_approx": "52.52, 13.40",
-      "category": "military",
-      "description": "After years of neutrality, Prussia grew alarmed by Napoleon's reorganization of Germany, the creation of the Confederation of the Rhine, and reports that Napoleon had offered to return Hanover to Britain (having previously promised it to Prussia). King Frederick William III issued an ultimatum on 1 October 1806 demanding French withdrawal behind the Rhine. Napoleon, who had already anticipated Prussian hostility and positioned his forces, launched an invasion of Saxony. The war exposed the Prussian military's catastrophic unpreparedness: its army, still largely organized along Frederician lines, proved incapable of matching the speed and flexibility of Napoleon's Grande Arm\u00e9e.",
+      "title": "Beethoven's Violin Concerto premiered",
+      "region": "Vienna, Austrian Empire",
+      "coordinates_approx": "48.2, 16.4",
+      "category": "cultural",
+      "description": "Ludwig van Beethoven's Violin Concerto in D major, Op. 61, was premiered on December 23, 1806, at the Theater an der Wien in Vienna. The concerto is considered one of the greatest works in the violin repertoire and represents Beethoven's mature compositional style. The premiere featured Franz Clement as soloist. The work exemplifies the transition from Classical to Romantic musical aesthetics and remains a cornerstone of concert programming. The concerto's composition and premiere occurred during a period of significant personal and professional challenge for Beethoven.",
       "key_figures": [
-        "Frederick William III (King of Prussia)",
-        "Queen Louise of Prussia",
-        "Napoleon Bonaparte (Emperor of the French)"
+        "Ludwig van Beethoven (composer)",
+        "Franz Clement (violinist, premiere performer)"
       ],
       "sources": [
         {
-          "name": "Prussian diplomatic correspondence and Napoleon's campaign correspondence (Correspondance de Napol\u00e9on Ier)",
+          "name": "Theater an der Wien concert records and announcements",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Peter Paret, Yorck and the Era of Prussian Reform (1966)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Diplomatic records, military correspondence, and memoirs provide a thorough documentary base.",
-      "cross_references": [
-        "1806-005",
-        "1806-010"
-      ]
-    },
-    {
-      "id": "1806-010",
-      "title": "Battles of Jena and Auerstedt",
-      "region": "Saxony (Germany)",
-      "coordinates_approx": "50.93, 11.59",
-      "category": "military",
-      "description": "On 14 October 1806, the French army destroyed Prussian military power in two simultaneous battles. At Jena, Napoleon with approximately 96,000 troops routed a Prussian force of about 38,000 under Prince Hohenlohe, believing he was engaging the main army. Meanwhile, 27 km north at Auerstedt, Marshal Davout's single corps of approximately 27,000 men defeated the main Prussian army of some 50,000 under the Duke of Brunswick and King Frederick William III \u2014 one of the most remarkable corps-level achievements in military history. Brunswick was mortally wounded. The twin defeats shattered the Prussian army; what followed was less a retreat than a disintegration, with fortresses surrendering without resistance and the king fleeing eastward.",
-      "key_figures": [
-        "Napoleon Bonaparte (Emperor of the French)",
-        "Louis-Nicolas Davout (Marshal of France, victor at Auerstedt)",
-        "Karl Wilhelm Ferdinand, Duke of Brunswick (Prussian commander, mortally wounded)",
-        "Frederick William III (King of Prussia)"
-      ],
-      "sources": [
-        {
-          "name": "Napoleon's campaign bulletins and Davout's after-action reports (Correspondance de Napol\u00e9on Ier)",
+          "name": "Beethoven's correspondence and sketches",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "David Chandler, The Campaigns of Napoleon (1966)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Among the most thoroughly documented battles of the Napoleonic Wars, with extensive primary sources from both sides.",
-      "cross_references": [
-        "1806-009",
-        "1806-011"
-      ]
-    },
-    {
-      "id": "1806-011",
-      "title": "Napoleon enters Berlin; Prussia collapses",
-      "region": "Prussia",
-      "coordinates_approx": "52.52, 13.40",
-      "category": "military",
-      "description": "On 27 October 1806, Napoleon entered Berlin in triumph, only thirteen days after Jena-Auerstedt. The speed of the Prussian collapse was extraordinary: the fortress of Erfurt surrendered on 16 October, Spandau on 25 October, and Stettin \u2014 with 5,000 men and 160 guns \u2014 capitulated to a single French cavalry regiment on 29 October. Magdeburg, one of the strongest fortresses in Europe, surrendered on 8 November with 22,000 troops. By late November, almost all Prussian territory west of the Vistula was in French hands. The king and court retreated to K\u00f6nigsberg and then Memel in East Prussia, where they depended on Russian support for survival.",
-      "key_figures": [
-        "Napoleon Bonaparte (Emperor of the French)",
-        "Frederick William III (King of Prussia)"
-      ],
-      "sources": [
-        {
-          "name": "Napoleon's campaign bulletins and Correspondance de Napol\u00e9on Ier",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Christopher Clark, Iron Kingdom: The Rise and Downfall of Prussia, 1600\u20131947 (2006)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Meticulously documented through military dispatches, surrender records, and contemporary accounts.",
-      "cross_references": [
-        "1806-010",
-        "1806-012"
-      ]
-    },
-    {
-      "id": "1806-012",
-      "title": "Berlin Decree: Napoleon establishes the Continental System",
-      "region": "Europe (issued from Berlin)",
-      "coordinates_approx": "52.52, 13.40",
-      "category": "economic",
-      "description": "On 21 November 1806, Napoleon issued the Berlin Decree from the occupied Prussian capital, declaring the British Isles in a state of blockade and prohibiting all commerce and correspondence with Britain across French-controlled territories. This formalized the Continental System, an ambitious attempt at economic warfare designed to destroy British commerce and force Britain to sue for peace. The decree banned British goods from the European continent and ordered the seizure of any British merchandise found in French-allied ports. The Continental System would have enormous unintended consequences: it strained relations with nominally allied states, contributed to Napoleon's decision to invade Russia in 1812, and stimulated British industrial adaptation and imperial expansion.",
-      "key_figures": [
-        "Napoleon Bonaparte (Emperor of the French)"
-      ],
-      "sources": [
-        {
-          "name": "Berlin Decree, 21 November 1806 (text published in the Moniteur Universel)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Silvia Marzagalli, 'The Continental System: A View from the Sea,' in The Napoleonic Empire and the New European Political Culture (2012)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The decree text survives and is precisely dated. Its economic effects are extensively studied.",
-      "cross_references": [
-        "1806-011",
-        "1807-treaty-tilsit",
-        "1812-russia"
-      ]
-    },
-    {
-      "id": "1806-013",
-      "title": "Fox's Slave Trade Abolition resolution passes; Fox dies",
-      "region": "United Kingdom",
-      "coordinates_approx": "51.50, -0.12",
-      "category": "legal",
-      "description": "Charles James Fox, as Foreign Secretary in the Ministry of All the Talents, championed a resolution in June 1806 declaring the slave trade 'contrary to the principles of justice, humanity, and sound policy,' which passed both Houses of Parliament. This was a critical parliamentary step toward the Slave Trade Act of 1807, which formally abolished the British transatlantic slave trade. Fox died on 13 September 1806, aged 57, not living to see the final passage of the abolition bill. His death also weakened the Ministry of All the Talents, which fell in March 1807. The abolition campaign had been led for decades by William Wilberforce and the broader abolitionist movement, but Fox's political support was instrumental in achieving legislative success.",
-      "key_figures": [
-        "Charles James Fox (Foreign Secretary)",
-        "William Wilberforce (abolitionist MP)",
-        "Lord Grenville (Prime Minister)"
-      ],
-      "sources": [
-        {
-          "name": "Parliamentary debates (Hansard) and the June 1806 resolution",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Adam Hochschild, Bury the Chains: Prophets and Rebels in the Fight to Free an Empire's Slaves (2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Parliamentary records provide precise documentation. Fox's death date is unambiguous.",
-      "cross_references": [
-        "1807-slave-trade-abolition"
-      ]
-    },
-    {
-      "id": "1806-014",
-      "title": "British blockade of French-allied ports intensifies; Orders in Council",
-      "region": "Atlantic / Europe",
-      "coordinates_approx": "50.00, -5.00",
-      "category": "military",
-      "description": "Following the destruction of Franco-Spanish naval power at Trafalgar in October 1805, the Royal Navy tightened its blockade of French and allied ports throughout 1806. In May, Fox's ministry issued an Order in Council declaring a naval blockade of the European coast from Brest to the Elbe. This escalating economic warfare, combined with Napoleon's Berlin Decree in November, created a cycle of retaliatory measures that constrained neutral shipping \u2014 especially American \u2014 and contributed to the deterioration of Anglo-American relations that would lead to the War of 1812.",
-      "key_figures": [
-        "Charles James Fox (Foreign Secretary)",
-        "Lord Grenville (Prime Minister)"
-      ],
-      "sources": [
-        {
-          "name": "Orders in Council, May 1806 (London Gazette)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "N.A.M. Rodger, The Command of the Ocean: A Naval History of Britain 1649\u20131815 (2004)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented through official gazettes and Admiralty records.",
-      "cross_references": [
-        "1806-012",
-        "1812-war-of-1812"
-      ]
-    },
-    {
-      "id": "1806-015",
-      "title": "Buenos Aires briefly captured by British forces",
-      "region": "R\u00edo de la Plata (Spanish Empire / modern Argentina)",
-      "coordinates_approx": "-34.60, -58.38",
-      "category": "military",
-      "description": "On 27 June 1806, a small British force of approximately 1,600 men under Commodore Sir Home Popham and Brigadier General William Beresford captured Buenos Aires from Spain in an unauthorized expedition. The viceroy, Rafael de Sobremonte, fled ignominiously. However, local militia forces under Santiago de Liniers organized a reconquest, and on 12 August the British garrison surrendered. The episode had consequences far beyond its military scale: it demonstrated that local criollo forces could defeat a European army without metropolitan Spanish help, shattered the viceregal authority's prestige, and planted seeds of political self-confidence that would bear fruit in the May Revolution of 1810.",
-      "key_figures": [
-        "Sir Home Popham (British naval commander)",
-        "William Beresford (British army commander)",
-        "Santiago de Liniers (leader of the reconquest)",
-        "Rafael de Sobremonte (Viceroy of the R\u00edo de la Plata)"
-      ],
-      "sources": [
-        {
-          "name": "British Admiralty and War Office dispatches; Buenos Aires cabildo records",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Klaus Gallo, 'The British Invasions (1806\u20131807),' in Cambridge History of Latin America, supplementary volume",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented in British, Spanish, and Argentine sources.",
-      "cross_references": [
-        "1810-may-revolution"
-      ]
-    },
-    {
-      "id": "1806-016",
-      "title": "Dessalines assassinated; Haiti fragments",
-      "region": "Haiti (Caribbean)",
-      "coordinates_approx": "18.54, -72.34",
-      "category": "political",
-      "description": "On 17 October 1806, Jean-Jacques Dessalines, the first ruler of independent Haiti and self-proclaimed Emperor Jacques I, was assassinated in an ambush at Pont-Rouge near Port-au-Prince. Dessalines had alienated both the mul\u00e2tre elite and elements of his own military through autocratic governance, land redistribution policies, and massacres of remaining French colonists. His death led to a split: Henri Christophe established a kingdom in the north, while Alexandre P\u00e9tion created a republic in the south. This division persisted until 1820 and shaped Haiti's political trajectory, its international isolation, and its economic difficulties for decades.",
-      "key_figures": [
-        "Jean-Jacques Dessalines (Emperor Jacques I of Haiti)",
-        "Henri Christophe (future King of northern Haiti)",
-        "Alexandre P\u00e9tion (future President of southern Haiti)"
-      ],
-      "sources": [
-        {
-          "name": "Thomas Madiou, Histoire d'Ha\u00efti (1847\u20131848), drawing on contemporary sources and interviews",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Laurent Dubois, Haiti: The Aftershocks of History (2012)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The event is well-attested, though the precise details of the conspiracy remain debated. Dating is secure.",
-      "cross_references": [
-        "1804-haiti-independence"
-      ]
-    },
-    {
-      "id": "1806-017",
-      "title": "Saxony elevated to a kingdom; joins the Confederation of the Rhine",
-      "region": "Saxony (Germany)",
-      "coordinates_approx": "51.05, 13.74",
-      "category": "political",
-      "description": "After Prussia's defeat at Jena-Auerstedt, Napoleon detached Saxony from its alliance with Prussia by the Treaty of Posen (11 December 1806). Elector Frederick Augustus III was elevated to King Frederick Augustus I and brought Saxony into the Confederation of the Rhine. Saxony became one of Napoleon's most loyal German allies, providing significant troop contingents in subsequent campaigns. This alliance would prove costly: Saxony's belated defection at the Battle of Leipzig in 1813 and the post-war settlement at Vienna cost it roughly 60% of its territory, ceded to Prussia.",
-      "key_figures": [
-        "Frederick Augustus I (King of Saxony)",
-        "Napoleon Bonaparte (Emperor of the French)"
-      ],
-      "sources": [
-        {
-          "name": "Treaty of Posen, 11 December 1806",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "James Sheehan, German History 1770\u20131866 (1989)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Treaty text is extant; the political transformation is thoroughly documented.",
-      "cross_references": [
-        "1806-010",
-        "1806-005",
-        "1813-leipzig"
-      ]
-    },
-    {
-      "id": "1806-018",
-      "title": "Ranjit Singh consolidates Sikh power in Punjab",
-      "region": "Punjab (Indian subcontinent)",
-      "coordinates_approx": "31.63, 74.87",
-      "category": "political",
-      "description": "By 1806, Maharaja Ranjit Singh had consolidated control over Lahore (taken in 1799) and much of the central Punjab, unifying several Sikh misls (confederacies) under his personal rule. In 1806 he captured the strategically important city of Multan after a siege, extending Sikh dominion to the southwest. His growing power drew the attention of the British East India Company, which was expanding northward after defeating the Marathas in the Second Anglo-Maratha War (1803\u20131805). The encounter between Sikh and British spheres of influence would be formalized in the Treaty of Amritsar in 1809.",
-      "key_figures": [
-        "Ranjit Singh (Maharaja of the Sikh Empire)"
-      ],
-      "sources": [
-        {
-          "name": "Sohan Lal Suri, Umdat-ut-Tawarikh (comprehensive chronicle of the Sikh court, compiled mid-19th century)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "J.S. Grewal, The Sikhs of the Punjab (revised edition, 1998)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The general trajectory of Ranjit Singh's conquests is well-established, though precise dating of some military operations varies between sources. The capture of Multan is sometimes dated to 1806, sometimes to later campaigns.",
-      "cross_references": [
-        "1809-treaty-amritsar"
-      ]
-    },
-    {
-      "id": "1806-019",
-      "title": "Selim III's reform efforts face mounting opposition in the Ottoman Empire",
-      "region": "Ottoman Empire",
-      "coordinates_approx": "41.01, 28.98",
-      "category": "political",
-      "description": "Sultan Selim III's ambitious military reform program, the Nizam-i Cedid ('New Order'), which sought to create a modern European-style army to replace the increasingly unruly Janissaries, faced intensifying opposition throughout 1806. Provincial notables (ayans) and Janissary garrisons resisted centralization, while the empire faced external pressure from both France and Russia in the Balkans and Mediterranean. A Janissary revolt in the Danubian provinces and the defiance of Osman Pazvanto\u011flu's successors in Vidin demonstrated the limits of central authority. These tensions would culminate in the Kabak\u00e7\u0131 Mustafa revolt of 1807, which deposed and ultimately killed Selim III.",
-      "key_figures": [
-        "Selim III (Ottoman Sultan)",
-        "Kabak\u00e7\u0131 Mustafa (future rebel leader)"
-      ],
-      "sources": [
-        {
-          "name": "Ottoman court chronicles (vakan\u00fcvis records) and European ambassadorial dispatches",
+          "name": "Contemporary Vienna newspaper accounts",
           "type": "chronicle",
           "contemporary": true
-        },
-        {
-          "name": "Stanford J. Shaw, Between Old and New: The Ottoman Empire under Sultan Selim III, 1789\u20131807 (1971)",
-          "type": "historiographic_consensus",
-          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Ottoman court records and European diplomatic sources corroborate the growing crisis. Individual incidents vary in dating precision.",
-      "cross_references": [
-        "1807-selim-deposed"
-      ]
-    },
-    {
-      "id": "1806-020",
-      "title": "Lewis and Clark expedition returns to St. Louis",
-      "region": "United States (Western North America)",
-      "coordinates_approx": "38.63, -90.20",
-      "category": "exploration",
-      "description": "On 23 September 1806, the Corps of Discovery under Meriwether Lewis and William Clark arrived back in St. Louis, Missouri, after a two-and-a-half-year expedition across the North American continent to the Pacific Ocean and back. The expedition, commissioned by President Thomas Jefferson in 1803, had mapped vast territories acquired in the Louisiana Purchase, documented hundreds of plant and animal species unknown to Western science, established contact with dozens of Native American nations, and demonstrated the geographic reality (including the difficulty) of a transcontinental route. Their return was celebrated nationally and their journals became foundational documents of American western expansion.",
-      "key_figures": [
-        "Meriwether Lewis (expedition co-leader)",
-        "William Clark (expedition co-leader)",
-        "Thomas Jefferson (President of the United States)",
-        "Sacagawea (Lemhi Shoshone interpreter and guide)"
-      ],
-      "sources": [
-        {
-          "name": "Journals of Lewis and Clark (multiple editions; definitive: Gary Moulton, ed., The Journals of the Lewis and Clark Expedition, 13 vols., 1983\u20132001)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Stephen Ambrose, Undaunted Courage: Meriwether Lewis, Thomas Jefferson, and the Opening of the American West (1996)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The expedition journals provide day-by-day documentation. The return date is precisely recorded.",
-      "cross_references": [
-        "1803-louisiana-purchase"
-      ]
-    },
-    {
-      "id": "1806-021",
-      "title": "Zebulon Pike's southwestern expedition reaches the Rocky Mountains",
-      "region": "United States (Western territories)",
-      "coordinates_approx": "38.84, -105.04",
-      "category": "exploration",
-      "description": "In July 1806, Lieutenant Zebulon Pike departed St. Louis on an expedition to explore the southwestern reaches of the Louisiana Purchase. By November he had reached the mountain later named Pikes Peak in present-day Colorado, though he failed to summit it. Pike's party then moved south into Spanish-claimed territory, where he was detained by Spanish authorities in February 1807 and escorted through the interior provinces of New Spain before being returned to the United States. His published account (1810) provided Americans with some of the first detailed intelligence about the Southwest and Spanish territories, but his characterization of the Great Plains as a 'desert' discouraged settlement for decades.",
-      "key_figures": [
-        "Zebulon Pike (U.S. Army lieutenant and explorer)",
-        "James Wilkinson (U.S. Army commanding general, who authorized the expedition)"
-      ],
-      "sources": [
-        {
-          "name": "Zebulon Pike, An Account of Expeditions to the Sources of the Mississippi (1810)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Jared Orsi, Citizen Explorer: The Life of Zebulon Pike (2014)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Pike's published account and military records provide detailed documentation.",
-      "cross_references": [
-        "1806-020"
-      ]
-    },
-    {
-      "id": "1806-022",
-      "title": "Francisco de Miranda's failed invasion of Venezuela",
-      "region": "Venezuela (Spanish Empire)",
-      "coordinates_approx": "11.18, -68.00",
-      "category": "military",
-      "description": "In 1806, Venezuelan-born revolutionary Francisco de Miranda launched two attempts to liberate Venezuela from Spanish rule. His first expedition with the ship Leander and two schooners was repulsed at Ocumare de la Costa in late April, with two of his ships captured and ten of his men eventually executed by Spanish authorities. A second attempt in August, supported by British vessels from the Caribbean, briefly captured Coro, but the local population failed to rally to his cause, and he was forced to withdraw. Though a military failure, Miranda's expeditions represented the first armed attempts at Latin American independence and foreshadowed the wars of liberation that would follow.",
-      "key_figures": [
-        "Francisco de Miranda (Venezuelan revolutionary)",
-        "Juan de Casas (Spanish Captain General of Venezuela)"
-      ],
-      "sources": [
-        {
-          "name": "Miranda's papers and correspondence (Archivo del General Miranda, published in 24 volumes, 1929\u20131950)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Karen Racine, Francisco de Miranda: A Transatlantic Life in the Age of Revolution (2003)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented through Miranda's own extensive archive, Spanish colonial records, and U.S. diplomatic correspondence.",
-      "cross_references": [
-        "1811-venezuela-independence"
-      ]
-    },
-    {
-      "id": "1806-023",
-      "title": "Jiaqing Emperor continues anti-corruption campaigns in Qing China",
-      "region": "Qing China",
-      "coordinates_approx": "39.91, 116.39",
-      "category": "political",
-      "description": "The Jiaqing Emperor, who had assumed full power after the death of the former emperor Qianlong in 1799 and the purge of the corrupt minister Heshen, continued efforts to reform governance and suppress lingering White Lotus sect activity in the interior provinces. The court also dealt with growing concerns about opium imports, primarily channeled through Canton by British and American merchants. Internal challenges \u2014 fiscal strain from the White Lotus suppression campaign, increasing population pressure, and erosion of the banner military system \u2014 marked a transition from the 'High Qing' prosperity of the 18th century to the dynastic crisis of the 19th.",
-      "key_figures": [
-        "Jiaqing Emperor (Qing ruler)"
-      ],
-      "sources": [
-        {
-          "name": "Qing shilu (Veritable Records of the Qing dynasty)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "William T. Rowe, China's Last Empire: The Great Qing (2009)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The general trajectory is clear from court records. Specific policy initiatives for this exact year versus 1805 or 1807 are sometimes difficult to pin down precisely.",
+      "certainty_note": "The premiere date of December 23, 1806, is well-documented in concert records and Beethoven scholarship.",
       "cross_references": []
     },
     {
-      "id": "1806-024",
-      "title": "Non-Importation Act passed by the United States",
-      "region": "United States",
-      "coordinates_approx": "38.91, -77.04",
-      "category": "economic",
-      "description": "On 18 April 1806, the U.S. Congress passed the Non-Importation Act, prohibiting the import of certain British manufactured goods in response to British impressment of American sailors and interference with neutral trade. The act, championed by the Jefferson administration, was repeatedly suspended and did not take effect until December 1807, making it largely symbolic. However, it represented an escalating pattern of economic coercion that the United States attempted as an alternative to war, leading through the Embargo Act of 1807 to the eventual declaration of war against Britain in 1812.",
+      "id": "1806-010",
+      "title": "Peninsular War: French invasion of Spain begins",
+      "region": "Iberian Peninsula (Spain and Portugal)",
+      "coordinates_approx": "40.0, -3.0",
+      "category": "military",
+      "description": "French forces under General Junot invaded Portugal in November 1806 as part of Napoleon's enforcement of the Continental System against Britain. The invasion was rapid and successful, forcing the Portuguese royal family to flee to Brazil. This invasion marked the beginning of French involvement in the Iberian Peninsula that would escalate into the full Peninsular War (1808\u20131814). The 1806 invasion demonstrated French military dominance but also initiated a conflict that would prove costly and ultimately contribute to Napoleon's downfall.",
       "key_figures": [
-        "Thomas Jefferson (President of the United States)",
-        "James Madison (Secretary of State)"
+        "Napoleon Bonaparte",
+        "General Jean-Andoche Junot (French commander)",
+        "Maria I (Queen of Portugal)",
+        "Prince John (Portuguese regent, later John VI)"
       ],
       "sources": [
         {
-          "name": "Annals of Congress, 9th Congress",
+          "name": "French military dispatches and reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Bradford Perkins, Prologue to War: England and the United States, 1805\u20131812 (1961)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Portuguese royal correspondence and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "British diplomatic reports on Portuguese situation",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Congressional records provide exact documentation.",
+      "certainty_note": "The invasion date and course are well-documented in French, Portuguese, and British sources.",
       "cross_references": [
-        "1807-embargo-act",
-        "1812-war-of-1812"
+        "1808-001 (Spanish uprising and Peninsular War escalation)"
       ]
     }
   ],
-  "disconfirming_evidence": "Several nuances complicate the standard narrative of 1806: (1) The collapse of Prussia is sometimes portrayed as purely a military failure, but recent scholarship (e.g., Brendan Simms, The Impact of Napoleon, 1997) argues that Prussian strategic decisions were more rational than traditionally depicted \u2014 the army was positioned for an offensive that was simply overtaken by Napoleon's speed. The 'ossified Frederician army' narrative, while containing truth, overstates the degree of stagnation. (2) The dissolution of the Holy Roman Empire is sometimes presented as Napoleon's unilateral act, but Peter Wilson's work emphasizes that Francis II's abdication was also a calculated move to prevent Napoleon from claiming the imperial title himself, preserving Austrian sovereignty in a different form. (3) The Continental System is frequently described as an economic failure from its inception, but recent scholarship (Marzagalli, Aaslestad) demonstrates that it had significant short-term effects on British trade and caused genuine economic hardship in Britain in 1808\u20131811 before ultimately failing. (4) Miranda's 1806 Venezuelan expedition is sometimes folded into a progressive narrative of inevitable independence, but the local population's indifference or hostility to his landing suggests that elite revolutionary sentiment was far from universal among Venezuelans at this date.",
-  "historiographic_note": "The year 1806 is richly documented from European perspectives \u2014 French imperial records, British parliamentary and military archives, Prussian state papers, and Austrian diplomatic correspondence all survive in abundance. Non-European coverage is thinner: Haitian sources rely heavily on mid-19th-century compilations rather than contemporary documents; South Asian events are filtered primarily through British colonial records and later Sikh court chronicles; Qing Chinese court records are extensive but less thoroughly integrated into Western-language historiography. The dominant narrative framing remains Napoleonic and Eurocentric, with events in the Americas, Africa, and Asia treated as peripheral. Sub-Saharan African interior history for this period is largely absent from the written record, though oral traditions and archaeological evidence continue to fill gaps. Ottoman historiography has been substantially enriched by modern Turkish scholarship but remains underrepresented in Anglophone syntheses.",
+  "disconfirming_evidence": "The significance of the Lewis and Clark Expedition's 1806 arrival at the Pacific is sometimes overstated in American historiography as a singular achievement; in fact, European fur traders and Russian explorers had reached the Pacific Northwest earlier. The expedition's primary value was systematic documentation and the establishment of American territorial claims, not discovery per se. Additionally, the expedition's reliance on Sacagawea is sometimes romanticized; while crucial, she was one of many indigenous guides and interpreters. The Slave Trade Act 1806 is sometimes presented as a humanitarian triumph, but it abolished only the trade, not slavery itself, and was partly motivated by economic and strategic considerations (reducing French colonial power) as much as moral conviction.",
+  "historiographic_note": "1806 is exceptionally well-documented due to the richness of Napoleonic-era sources, extensive British and European diplomatic records, and the emergence of modern journalism. Western European and North American events are richly attested; Ottoman, Qing, and other non-Western sources are less abundant in English-language historiography but exist in original archives. The period reflects a Eurocentric bias in surviving English-language scholarship, though primary sources from other regions are increasingly accessible. The year marks a pivotal moment in European power dynamics and the beginning of global British naval hegemony, which shapes how the year is often interpreted.",
   "graph_edges": [
     {
-      "from": "1806-006",
-      "to": "1871-german-unification",
+      "from": "1806-001",
+      "to": "1806-002",
       "relation": "led_to",
-      "note": "The dissolution of the HRE created the political vacuum eventually filled by Prussian-led German unification"
+      "note": "Dissolution of HRE directly triggered Prussian and Russian response, initiating Fourth Coalition War"
     },
     {
-      "from": "1806-010",
-      "to": "1807-treaty-tilsit",
-      "relation": "led_to",
-      "note": "Prussian defeat at Jena-Auerstedt led directly to the Treaty of Tilsit and the Franco-Russian alliance"
+      "from": "1806-003",
+      "to": "1806-002",
+      "relation": "part_of",
+      "note": "Battle of Jena-Auerstedt was the decisive engagement of the Fourth Coalition War's opening phase"
     },
     {
-      "from": "1806-012",
-      "to": "1812-french-invasion-of-russia",
+      "from": "1806-004",
+      "to": "1812-001",
       "relation": "led_to",
-      "note": "The Continental System's enforcement requirements were a primary cause of Napoleon's invasion of Russia"
-    },
-    {
-      "from": "1806-015",
-      "to": "1810-may-revolution",
-      "relation": "led_to",
-      "note": "The British invasions of Buenos Aires catalyzed criollo political self-confidence that drove the May Revolution"
-    },
-    {
-      "from": "1806-013",
-      "to": "1807-slave-trade-abolition",
-      "relation": "led_to",
-      "note": "Fox's 1806 parliamentary resolution was the immediate legislative precursor to the 1807 Abolition Act"
-    },
-    {
-      "from": "1806-016",
-      "to": "1804-haiti-independence",
-      "relation": "caused_by",
-      "note": "Dessalines' assassination was a consequence of internal tensions following Haitian independence"
+      "note": "British Orders in Council contributed to American grievances leading to War of 1812"
     },
     {
       "from": "1806-005",
-      "to": "1806-006",
+      "to": "1833-001",
       "relation": "led_to",
-      "note": "The Confederation of the Rhine's formation directly precipitated the dissolution of the Holy Roman Empire"
+      "note": "Slave Trade Act 1806 was precursor to full slavery abolition in 1833"
     },
     {
-      "from": "1806-020",
-      "to": "1803-louisiana-purchase",
-      "relation": "caused_by",
-      "note": "The Lewis and Clark expedition was commissioned to explore the territory acquired in the Louisiana Purchase"
+      "from": "1806-006",
+      "to": "1848-001",
+      "relation": "led_to",
+      "note": "Lewis and Clark Expedition findings supported American westward expansion and territorial claims"
     },
     {
-      "from": "1806-019",
-      "to": "1807-selim-deposed",
+      "from": "1806-010",
+      "to": "1808-001",
       "relation": "led_to",
-      "note": "Mounting opposition to Selim III's reforms in 1806 culminated in his deposition in 1807"
-    },
-    {
-      "from": "1806-024",
-      "to": "1812-war-of-1812",
-      "relation": "led_to",
-      "note": "The Non-Importation Act was part of an escalating cycle of economic coercion leading to the War of 1812"
-    },
-    {
-      "from": "1806-022",
-      "to": "1811-venezuela-independence",
-      "relation": "led_to",
-      "note": "Miranda's failed 1806 expedition was a precursor to Venezuela's 1811 declaration of independence"
-    },
-    {
-      "from": "1806-002",
-      "to": "1814-congress-of-vienna",
-      "relation": "led_to",
-      "note": "British military occupation of the Cape in 1806 was confirmed as permanent cession at the Congress of Vienna"
+      "note": "Portuguese invasion of 1806 escalated into full Peninsular War with Spanish uprising in 1808"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T07:19:31.748811",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

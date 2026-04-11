@@ -1,713 +1,226 @@
 {
   "year": 1707,
   "year_label": "1707 CE",
-  "era_context": "The year 1707 falls within the early modern period, a time of consolidating nation-states in Europe, expanding colonial empires across the Atlantic and Indian Ocean worlds, and powerful Asian dynasties at or near their zenith. In Europe, the War of the Spanish Succession (1701\u20131714) was reshaping the balance of power, while the Great Northern War (1700\u20131721) was redrawing the political map of northern and eastern Europe. The Mughal Empire in South Asia was entering a period of rapid fragmentation following the death of Aurangzeb, and the Qing dynasty in China was consolidating its rule over a vast multi-ethnic empire under the Kangxi Emperor. The Ottoman Empire remained a major Eurasian power, though under increasing pressure on its European frontiers.",
+  "era_context": "The War of Spanish Succession (1701\u20131714) was in its early-to-middle phase. The Great Northern War between Russia and Sweden was ongoing. The Qing Dynasty under Kangxi was at the height of its power. The Mughal Empire was entering a period of decline following the death of Aurangzeb. The Act of Union between England and Scotland created the Kingdom of Great Britain.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa: Internal political developments in the Sahel, Great Lakes region, and southern Africa are underrepresented in European-language sources; African oral traditions and Arabic chronicles exist but are not fully integrated into standard historiography.",
-    "Southeast Asia: Events in mainland and island Southeast Asia (Ayutthaya, Mataram, Vietnamese polities) are documented in local chronicles but underrepresented in training data relative to their historical significance.",
-    "Oceania and Pacific: No significant documented events for this year; indigenous oral traditions are not recoverable at this resolution.",
-    "Central Asia and the Steppe: Dzungar Khanate activities and Kazakh polities are documented in Chinese and Russian sources but remain underrepresented.",
-    "The Americas (indigenous): Indigenous political and cultural developments outside zones of European contact are largely undocumented for this specific year."
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1707-001",
-      "title": "Acts of Union: Kingdom of Great Britain Formed",
-      "region": "British Isles, Western Europe",
-      "coordinates_approx": "55.9533\u00b0 N, 3.1883\u00b0 W (Edinburgh, site of Scottish Parliament ratification)",
+      "title": "Death of Aurangzeb: Mughal Empire Succession Crisis",
+      "region": "Mughal Empire, India",
+      "coordinates_approx": "28.6, 77.2",
       "category": "political",
-      "description": "On 1 May 1707, the Acts of Union came into force, merging the Kingdom of England (including Wales) and the Kingdom of Scotland into the single Kingdom of Great Britain, with a unified Parliament sitting at Westminster. The Scottish Parliament had ratified the treaty in January 1707, and the English Parliament had done so in March. The union created a single customs and trading area, extended English commercial law to Scotland, and guaranteed the Presbyterian Church of Scotland. This constitutional merger was the culmination of decades of negotiation, economic pressure \u2014 particularly Scotland's financial ruin following the Darien Scheme \u2014 and English strategic concern about a separate Scottish succession. The new state would become the foundation of the British Empire and one of the dominant global powers of the eighteenth and nineteenth centuries.",
+      "description": "On 3 March 1707, Aurangzeb, the sixth and last great Mughal Emperor, died at the age of 88 after a reign of nearly 50 years (r. 1658\u20131707). Aurangzeb's death marked a critical turning point in Mughal history. His reign had been characterized by military expansion, religious orthodoxy, and centralized control, but also by the suppression of Hindu practices and the alienation of many subjects. Following his death, the empire entered a period of rapid decline marked by succession disputes, the assertion of regional power by governors and nobles, and the rise of rival powers such as the Marathas. The succession crisis that followed Aurangzeb's death would weaken the empire for decades to come.",
       "key_figures": [
-        "Queen Anne (monarch of both kingdoms, driving political force)",
-        "John Dalrymple, 1st Earl of Stair (Scottish negotiator)",
-        "Sidney Godolphin, 1st Earl of Godolphin (English Lord Treasurer, key architect)",
-        "James Douglas, 2nd Duke of Queensberry (Scottish Lord High Commissioner)"
+        "Aurangzeb (Mughal Emperor, r. 1658\u20131707)",
+        "Bahadur Shah I (son, became emperor)",
+        "Other sons and nobles competing for power"
       ],
       "sources": [
         {
-          "name": "Acts of Union 1707 (Treaty of Union), Parliamentary Records of England and Scotland",
+          "name": "Mughal court records and administrative documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus: T.C. Smout, 'The Road to Union' in G. Holmes (ed.), Britain after the Glorious Revolution (1969); Christopher Whatley, Bought and Sold for English Gold? (2001)",
+          "name": "Contemporary chronicles by court historians",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "European accounts from merchants and diplomats",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Aurangzeb and the Mughal decline",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Precisely dated by parliamentary records. The date of 1 May 1707 for the union coming into force is unambiguous.",
+      "certainty_note": "The death of Aurangzeb is precisely documented in Mughal records and contemporary sources, with the date confirmed as 3 March 1707.",
       "cross_references": [
-        "1603-001 (Union of the Crowns)",
-        "1715-001 (Jacobite Rising, partly a reaction to the Union)"
+        "Marks the beginning of the Mughal decline (1707\u20131857)",
+        "Leads to 1708-004 (Bahadur Shah I's reign)",
+        "Leads to broader pattern of regional fragmentation in India"
       ]
     },
     {
       "id": "1707-002",
-      "title": "Death of Aurangzeb and Beginning of Mughal Fragmentation",
-      "region": "South Asia, Mughal Empire",
-      "coordinates_approx": "20.5500\u00b0 N, 75.3000\u00b0 E (Ahmednagar, Maharashtra, site of death)",
+      "title": "Act of Union: England and Scotland",
+      "region": "British Isles, England, Scotland",
+      "coordinates_approx": "54.0, -3.0",
       "category": "political",
-      "description": "Emperor Aurangzeb (Muhi ud-Din Muhammad), the sixth and last of the 'Great Mughals,' died on 3 March 1707 at Ahmednagar at approximately 88 years of age, after a reign of nearly 49 years. His death immediately triggered a war of succession among his sons \u2014 Muazzam, Azam Shah, and Kam Bakhsh \u2014 which Muazzam won, taking the throne as Bahadur Shah I. Aurangzeb's reign had been marked by massive territorial expansion into the Deccan but also by prolonged, costly wars against the Marathas, Rajputs, and Sikhs, religious policies that alienated non-Muslim subjects, and fiscal exhaustion of the imperial treasury. His death is conventionally treated as the inflection point after which Mughal central authority irreversibly declined, with regional governors (nawabs) and the Maratha Confederacy progressively asserting independence over the following decades.",
+      "description": "On 1 May 1707, the Act of Union came into effect, uniting the Kingdom of England and the Kingdom of Scotland into the Kingdom of Great Britain. The union was the result of negotiations that began in 1706 and was ratified by both the English and Scottish parliaments. The act created a single parliament and a single monarch (Queen Anne), though Scotland retained its own legal system and established church. The union was controversial in Scotland, with many fearing the loss of Scottish independence and the dominance of English interests. However, the union ultimately proved beneficial for both nations, creating a larger, more powerful state that would become a major global power. The union also facilitated the expansion of British colonial power and commerce.",
       "key_figures": [
-        "Aurangzeb (Emperor Alamgir, r. 1658\u20131707)",
-        "Muazzam / Bahadur Shah I (successor son)",
-        "Azam Shah (rival claimant, killed at Battle of Jajau, June 1707)",
-        "Kam Bakhsh (rival claimant, killed 1708)"
+        "Queen Anne (monarch of both kingdoms)",
+        "Daniel Defoe (English politician and writer, supported union)",
+        "Scottish and English parliamentarians"
       ],
       "sources": [
         {
-          "name": "Masir-i-Alamgiri by Saqi Must'ad Khan (contemporary Mughal court chronicle, completed c. 1710)",
-          "type": "chronicle",
+          "name": "Parliamentary records and official documents",
+          "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus: John F. Richards, The Mughal Empire (Cambridge History of India, 1993); Satish Chandra, Medieval India: From Sultanat to the Mughals (2004)",
+          "name": "Contemporary political writings and debates",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the Act of Union",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Date of death confirmed by multiple contemporary Mughal chronicles. The exact date (3 March 1707 CE, corresponding to 28 Dhu al-Qa'da 1118 AH in the Islamic calendar) is well-attested.",
+      "certainty_note": "The Act of Union is precisely documented in parliamentary records with the effective date of 1 May 1707.",
       "cross_references": [
-        "1658-001 (Aurangzeb's accession)",
-        "1720-001 (Rise of Maratha power)",
-        "1739-001 (Nadir Shah's sack of Delhi)"
+        "Creates the Kingdom of Great Britain",
+        "Leads to increased British colonial and commercial power",
+        "Part of broader process of state consolidation in early modern Europe"
       ]
     },
     {
       "id": "1707-003",
-      "title": "Battle of Almansa: Bourbon Victory in the War of the Spanish Succession",
-      "region": "Iberian Peninsula, Spain",
-      "coordinates_approx": "38.8700\u00b0 N, 1.0900\u00b0 W (Almansa, Castile-La Mancha)",
+      "title": "Battle of Almansa: War of Spanish Succession",
+      "region": "Spain, Valencia region",
+      "coordinates_approx": "39.1, -1.1",
       "category": "military",
-      "description": "On 25 April 1707, a Franco-Spanish Bourbon army under the Duke of Berwick decisively defeated an Anglo-Portuguese-Dutch force supporting the Habsburg claimant Archduke Charles at the Battle of Almansa in southeastern Spain. The battle was one of the largest and most consequential of the War of the Spanish Succession on the Iberian front, resulting in approximately 5,000 Allied casualties and 10,000 prisoners. The victory opened the way for Bourbon forces to overrun Valencia and Aragon, and Philip V subsequently abolished the traditional fueros (charters of autonomy) of those kingdoms through the Nueva Planta decrees, imposing Castilian administrative uniformity. Almansa effectively decided the Spanish question in Philip V's favour on the peninsula, though the war continued elsewhere until 1714.",
+      "description": "On 25 April 1707, the Battle of Almansa was fought between the allied forces (British, Dutch, and Portuguese) under the Earl of Galway and the French-Spanish forces under the Duke of Berwick. The French-Spanish forces achieved a decisive victory, inflicting heavy casualties on the allied army and forcing them to retreat. The victory was a major setback for the allied coalition and demonstrated the resilience of French-Spanish forces. The battle had significant consequences for the War of Spanish Succession, shifting momentum back toward the Bourbon forces and contributing to the eventual Bourbon victory in Spain.",
       "key_figures": [
-        "James FitzJames, 1st Duke of Berwick (Franco-Spanish commander, illegitimate son of James II of England)",
-        "Henri de Massue, Earl of Galway (Allied commander, Anglo-Dutch)",
-        "Marquis das Minas (Portuguese commander)",
-        "Philip V of Spain (Bourbon claimant)"
+        "Henri de Massue, Earl of Galway (allied commander)",
+        "James Fitzjames, Duke of Berwick (French-Spanish commander)",
+        "Portuguese and British commanders"
       ],
       "sources": [
         {
-          "name": "M\u00e9moires du Mar\u00e9chal de Berwick (memoirs of the Duke of Berwick, written c. 1716\u20131734, published posthumously)",
-          "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus: Henry Kamen, The War of Succession in Spain 1700\u201315 (1969); John Lynn, The Wars of Louis XIV (1999)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Contemporary dispatches in the London Gazette (1707)",
+          "name": "Military dispatches and campaign records from British, Dutch, and French archives",
           "type": "primary_text",
           "contemporary": true
+        },
+        {
+          "name": "Contemporary accounts by military observers and participants",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the War of Spanish Succession",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Precisely dated by multiple contemporary military dispatches and diplomatic correspondence. Casualty figures vary by source but the outcome is unambiguous.",
+      "certainty_note": "The Battle of Almansa is extensively documented in military records and contemporary accounts with precise dating to 25 April 1707.",
       "cross_references": [
-        "1701-001 (Start of War of Spanish Succession)",
-        "1713-001 (Treaty of Utrecht)"
+        "Part of the War of Spanish Succession (1701\u20131714)",
+        "Leads to 1708-001 (Battle of Oudenarde, allied recovery)",
+        "Leads to 1713-001 (Treaty of Utrecht, end of war)"
       ]
     },
     {
       "id": "1707-004",
-      "title": "Nueva Planta Decrees Abolish Aragonese and Valencian Fueros",
-      "region": "Iberian Peninsula, Spain",
-      "coordinates_approx": "39.4699\u00b0 N, 0.3763\u00b0 W (Valencia)",
-      "category": "legal",
-      "description": "Following the Bourbon victory at Almansa, Philip V issued the Nueva Planta decrees for Valencia (June 1707) and Aragon (also 1707), abolishing the traditional fueros \u2014 the medieval charters of local law, governance, and privilege \u2014 that had defined the Crown of Aragon's composite monarchy. Castilian law, language, and administrative structures were imposed in their place. This represented a fundamental transformation of the Spanish state from a composite monarchy of distinct kingdoms toward a more centralised, Castilian-dominated polity modelled on French absolutism. The decrees were justified as punishment for the kingdoms' support of the Habsburg claimant but reflected a broader Bourbon programme of administrative rationalisation. Catalonia would receive its own Nueva Planta decree in 1716 after the fall of Barcelona.",
+      "title": "Kangxi Emperor's Consolidation of Qing Control",
+      "region": "Qing China",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "In 1707, the Kangxi Emperor continued his policies of consolidating Qing control and promoting cultural and economic development. The year falls within the period of Kangxi's greatest stability and influence (r. 1661\u20131722). The Qing Dynasty was experiencing economic prosperity, and Kangxi's reign was marked by effective administration, military strength, and the promotion of Confucian scholarship. The year 1707 exemplifies the height of Kangxi's power and the Qing Dynasty's dominance in East Asia.",
       "key_figures": [
-        "Philip V of Spain (issuing monarch)",
-        "Jean Orry (French administrator, architect of Bourbon reforms in Spain)",
-        "Melchor de Macanaz (Spanish jurist, key drafter)"
+        "Kangxi Emperor (Qing ruler, r. 1661\u20131722)",
+        "Imperial officials and scholars"
       ],
       "sources": [
         {
-          "name": "Decretos de Nueva Planta (royal decrees, 1707), Archivo Hist\u00f3rico Nacional, Madrid",
+          "name": "Kangxi's imperial edicts and memorials",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus: Henry Kamen, Philip V of Spain: The King Who Reigned Twice (2001); Jon Arrieta Alberdi, El Consejo Supremo de la Corona de Arag\u00f3n (1994)",
+          "name": "Official Qing court records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the Kangxi era",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Decrees are preserved in the Archivo Hist\u00f3rico Nacional and are precisely dated.",
+      "certainty_note": "The general state of Qing governance in 1707 is well-documented in imperial records.",
       "cross_references": [
-        "1707-003 (Battle of Almansa, military precondition)",
-        "1716-001 (Nueva Planta decree for Catalonia)"
+        "Part of Kangxi's reign (1661\u20131722)",
+        "Reflects the height of Qing prosperity and stability"
       ]
     },
     {
       "id": "1707-005",
-      "title": "Mount Fuji Eruption (H\u014dei Eruption)",
-      "region": "Japan, East Asia",
-      "coordinates_approx": "35.3606\u00b0 N, 138.7274\u00b0 E (Mount Fuji, Honshu)",
-      "category": "environmental",
-      "description": "On 16 December 1707 (H\u014dei 4, 23rd day of the 11th month in the Japanese lunisolar calendar), Mount Fuji began its most recent and most powerful eruption in recorded history, now known as the H\u014dei eruption. The eruption lasted approximately 16 days and deposited volcanic ash across a wide area of the Kant\u014d plain, including Edo (modern Tokyo), severely disrupting agriculture and daily life. The eruption was preceded by a major earthquake (the H\u014dei earthquake of 28 October 1707, one of the largest in Japanese history) which may have destabilised the magma system. No lava flows reached populated areas, but ash fall caused significant crop damage and economic disruption in the Edo region. Mount Fuji has not erupted since.",
-      "key_figures": [
-        "Tokugawa Ienobu (Shogun, r. 1709\u20131712; the eruption occurred during the reign of Tokugawa Tsunayoshi, who died in 1709)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary Japanese diaries and official domain records (Edo period administrative documents); summarised in Tsuya Nobuo, Geology of Volcano Mt. Fuji (1968)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Historiographic consensus: Miyaji Naomichi et al., 'Eruptive history of Fuji volcano,' Earth Planets Space (2004)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Precisely dated by Japanese administrative records and corroborated by geological stratigraphy (H\u014dei ash layer). The Julian/Gregorian conversion places the eruption start at 16 December 1707 CE.",
-      "cross_references": [
-        "1707-006 (H\u014dei earthquake, precursor event)"
-      ]
-    },
-    {
-      "id": "1707-006",
-      "title": "H\u014dei Earthquake, Japan",
-      "region": "Japan, East Asia",
-      "coordinates_approx": "33.2\u00b0 N, 135.9\u00b0 E (offshore Nankai Trough)",
-      "category": "environmental",
-      "description": "On 28 October 1707 (H\u014dei 4, 4th day of the 10th month), a catastrophic earthquake struck the Nankai Trough off the coast of Japan, estimated at magnitude 8.6\u20139.3 \u2014 one of the largest earthquakes in Japanese recorded history. The earthquake triggered a major tsunami that devastated coastal communities across the Kii Peninsula, Shikoku, and parts of Kyushu, with estimated deaths ranging from 5,000 to over 20,000. The event ruptured both the Nankai and T\u014dnankai segments of the subduction zone simultaneously, a pattern that modern seismologists use as a reference case for future megathrust earthquake risk. The earthquake is believed to have contributed to the destabilisation of Mount Fuji's volcanic system, which erupted approximately seven weeks later.",
-      "key_figures": [
-        "Tokugawa Tsunayoshi (Shogun at time of earthquake)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary Japanese domain records and diaries; compiled in Usami Tatsuo, Materials for Comprehensive List of Destructive Earthquakes in Japan (1996)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus: Ando Masataka, 'Source mechanisms and tectonic significance of historical earthquakes along the Nankai Trough,' Tectonophysics (1975)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Dated precisely by Japanese records. Magnitude estimates vary (8.6\u20139.3) depending on modelling methodology, but the event itself is unambiguous.",
-      "cross_references": [
-        "1707-005 (H\u014dei eruption of Mount Fuji, probable consequence)"
-      ]
-    },
-    {
-      "id": "1707-007",
-      "title": "Death of Guru Gobind Singh's Sons and Siege of Chamkaur",
-      "region": "South Asia, Punjab (Mughal Empire / Sikh polity)",
-      "coordinates_approx": "30.8500\u00b0 N, 76.4200\u00b0 E (Chamkaur, Punjab)",
+      "title": "Great Northern War: Ongoing Conflict",
+      "region": "Russian Empire, Swedish Empire, Poland, Baltic region",
+      "coordinates_approx": "55.0, 25.0",
       "category": "military",
-      "description": "In the context of Mughal military pressure on the Sikh community, the Battle of Chamkaur (December 1704, but its consequences extended into 1705\u20131707) and the subsequent execution of Guru Gobind Singh's younger sons (Sahibzadas Zorawar Singh and Fateh Singh, bricked alive at Sirhind in December 1704) shaped the political landscape of 1707. Following Aurangzeb's death in March 1707, Guru Gobind Singh entered into correspondence and then alliance with the new emperor Bahadur Shah I, travelling to the Deccan to meet him. This rapprochement represented a significant shift in Sikh-Mughal relations and set the stage for the Sikh military campaigns under Banda Singh Bahadur that would follow in 1709\u20131710. Note: The primary events of Chamkaur and the Sahibzadas' deaths occurred in 1704\u20131705; their political resolution falls in 1707.",
+      "description": "In 1707, the Great Northern War (1700\u20131721) between Russia and Sweden was in its eighth year. The war had been marked by Swedish military successes under Charles XII, but by 1707, the tide was beginning to turn in Russia's favor. Peter I was building a stronger military and navy, and Swedish resources were becoming strained. The year 1707 saw continued military operations, with Charles XII planning his invasion of Russia that would begin in 1708. The war would ultimately result in Russian victory and the emergence of Russia as a major European power.",
       "key_figures": [
-        "Guru Gobind Singh (10th Sikh Guru)",
-        "Bahadur Shah I (Mughal Emperor, formerly Prince Muazzam)",
-        "Wazir Khan (Mughal governor of Sirhind, responsible for the Sahibzadas' deaths)"
+        "Charles XII (King of Sweden)",
+        "Peter I (Tsar of Russia)",
+        "Augustus II (King of Poland, allied with Russia)"
       ],
       "sources": [
         {
-          "name": "Gurbilas Patshahi 10 (Sikh hagiographic chronicle, compiled early 18th century); Zafarnama (letter of Guru Gobind Singh to Aurangzeb, c. 1705)",
+          "name": "Russian military records and Peter I's correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus: J.S. Grewal, The Sikhs of the Punjab (Cambridge History of India, 1990)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The meeting between Guru Gobind Singh and Bahadur Shah I in 1707 is attested in multiple sources, though precise dates of their interactions are not always consistent across chronicles.",
-      "cross_references": [
-        "1704-001 (Battle of Chamkaur)",
-        "1708-001 (Assassination of Guru Gobind Singh)",
-        "1709-001 (Banda Singh Bahadur's campaigns)"
-      ]
-    },
-    {
-      "id": "1707-008",
-      "title": "Battle of Jajau: Mughal Succession War Resolved",
-      "region": "South Asia, Mughal Empire",
-      "coordinates_approx": "26.5000\u00b0 N, 79.0000\u00b0 E (Jajau, near Agra, Uttar Pradesh)",
-      "category": "military",
-      "description": "On 8 June 1707, Prince Muazzam (the eldest surviving son of Aurangzeb) defeated and killed his brother Azam Shah at the Battle of Jajau, near Agra, decisively resolving the immediate Mughal succession crisis following Aurangzeb's death. Azam Shah had declared himself emperor and controlled the imperial treasury and court at Agra, but Muazzam's forces, marching from Kabul, proved superior. A third brother, Kam Bakhsh, continued resistance in the Deccan but was defeated and killed in January 1708. Muazzam ascended the throne as Bahadur Shah I (also known as Shah Alam I), adopting a more conciliatory policy toward Rajputs, Marathas, and Sikhs than his father had pursued. The battle is significant as the last occasion on which a Mughal succession war was resolved with relative speed; later succession crises would prove far more destabilising.",
-      "key_figures": [
-        "Muazzam / Bahadur Shah I (victor)",
-        "Azam Shah (defeated claimant, killed in battle)",
-        "Munim Khan (commander supporting Muazzam)"
-      ],
-      "sources": [
-        {
-          "name": "Masir-i-Alamgiri by Saqi Must'ad Khan; Ibratnama by Muhammad Qasim (contemporary Mughal chronicles)",
-          "type": "chronicle",
+          "name": "Swedish military accounts and chronicles",
+          "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus: John F. Richards, The Mughal Empire (1993); M. Athar Ali, The Mughal Nobility under Aurangzeb (1966)",
+          "name": "Historiographic consensus on the Great Northern War",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Dated precisely by Mughal court chronicles. The date 8 June 1707 CE corresponds to 7 Rabi' al-Awwal 1119 AH.",
+      "certainty_note": "The ongoing Great Northern War in 1707 is well-documented in Russian and Swedish sources.",
       "cross_references": [
-        "1707-002 (Death of Aurangzeb)",
-        "1708-001 (Death of Kam Bakhsh, final resolution of succession)"
-      ]
-    },
-    {
-      "id": "1707-009",
-      "title": "Khalid Said ibn Sultan Establishes Dominance in Oman",
-      "region": "Arabian Peninsula, Oman",
-      "coordinates_approx": "23.6000\u00b0 N, 58.5900\u00b0 E (Muscat, Oman)",
-      "category": "political",
-      "description": "The Ya'aruba Imamate of Oman, which had expelled the Portuguese from the Persian Gulf coast in the late seventeenth century and built a significant maritime empire extending to East Africa, experienced internal dynastic tensions in the early eighteenth century. Around 1707, Saif ibn Sultan I (r. 1692\u20131711), the Ya'aruba Imam, was consolidating Omani commercial and naval power in the Indian Ocean, with Omani fleets active along the Swahili Coast and competing with the Mughal Empire and European trading companies. This period represents the height of Ya'aruba power before the civil wars of the 1710s\u20131740s that would eventually bring the Al Bu Said dynasty to power. Note: Specific events within 1707 for Oman are not individually documented at high resolution; this entry reflects the broader documented context.",
-      "key_figures": [
-        "Saif ibn Sultan I (Ya'aruba Imam of Oman)"
-      ],
-      "sources": [
-        {
-          "name": "Historiographic consensus: Patricia Risso, Oman and Muscat: An Early Modern History (1986); R.D. Bathurst, 'Maritime Trade and Imamate Government' in D. Hopwood (ed.), The Arabian Peninsula (1972)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Portuguese and Dutch East India Company (VOC) records referencing Omani activities (Arquivo Hist\u00f3rico Ultramarino; VOC archives, The Hague)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The general context of Omani power in this period is well-documented; specific events within 1707 are not individually attested at high resolution.",
-      "cross_references": []
-    },
-    {
-      "id": "1707-010",
-      "title": "Kangxi Emperor's Continued Southern Tours and Consolidation of Qing Rule",
-      "region": "China, East Asia (Qing Empire)",
-      "coordinates_approx": "32.0617\u00b0 N, 118.7778\u00b0 E (Nanjing / Jiangnan region)",
-      "category": "political",
-      "description": "The Kangxi Emperor (r. 1661\u20131722) was in the middle of his long and successful reign, having completed his sixth and final Southern Tour (Nanxun) in 1707. These tours were elaborate political and cultural performances designed to demonstrate Manchu legitimacy to the Han Chinese population of the wealthy Jiangnan region, inspect hydraulic infrastructure (particularly the Yellow River and Grand Canal works), and cultivate relationships with local elites. By 1707, the Kangxi Emperor had suppressed the Three Feudatories Rebellion, incorporated Taiwan, and signed the Treaty of Nerchinsk with Russia; his court was engaged in major encyclopaedic and cartographic projects. The year 1707 also saw continued Jesuit involvement at the Qing court, with ongoing tensions over the Chinese Rites Controversy.",
-      "key_figures": [
-        "Kangxi Emperor (Xuanye, r. 1661\u20131722)",
-        "Matteo Ripa (Jesuit missionary at court, arrived 1711; other Jesuits including Jean-Baptiste R\u00e9gis active in cartographic surveys from c. 1708)"
-      ],
-      "sources": [
-        {
-          "name": "Qing Shilu (Veritable Records of the Qing Dynasty), compiled by the Qing imperial historiographic bureau",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Historiographic consensus: Jonathan Spence, Emperor of China: Self-Portrait of K'ang-hsi (1974); Evelyn Rawski, The Last Emperors (1998)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Kangxi Emperor's sixth Southern Tour ending in 1707 is documented in the Qing Shilu. General context is well-attested; specific day-level events within 1707 require consultation of the Shilu directly.",
-      "cross_references": [
-        "1689-001 (Treaty of Nerchinsk)",
-        "1715-001 (Chinese Rites Controversy papal decree)"
-      ]
-    },
-    {
-      "id": "1707-011",
-      "title": "War of the Spanish Succession: Battle of Toulon and Allied Failure in the Mediterranean",
-      "region": "Southern France / Western Mediterranean",
-      "coordinates_approx": "43.1242\u00b0 N, 5.9280\u00b0 E (Toulon, France)",
-      "category": "military",
-      "description": "In the summer of 1707, an Allied (Habsburg-Savoyard-British) force under Prince Eugene of Savoy and Victor Amadeus II of Savoy besieged the major French naval base at Toulon, supported by an Anglo-Dutch fleet under Admiral Shovell. The siege (July\u2013August 1707) ultimately failed: French forces under Marshal Tess\u00e9 held the city, and the Allies were forced to withdraw. The failure at Toulon was a significant strategic setback for the Grand Alliance, as the capture of Toulon would have neutralised the French Mediterranean fleet. The retreat of the Allied fleet was accompanied by the catastrophic loss of Admiral Shovell's squadron in the Scilly naval disaster (October 1707), in which four ships were wrecked and approximately 1,400\u20132,000 sailors drowned.",
-      "key_figures": [
-        "Prince Eugene of Savoy (Allied land commander)",
-        "Victor Amadeus II of Savoy (co-commander)",
-        "Marshal Ren\u00e9 de Froulay de Tess\u00e9 (French defender)",
-        "Admiral Sir Cloudesley Shovell (Allied naval commander, died in Scilly disaster)"
-      ],
-      "sources": [
-        {
-          "name": "Historiographic consensus: John Lynn, The Wars of Louis XIV (1999); David Chandler, The Art of Warfare in the Age of Marlborough (1976)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Contemporary dispatches in the London Gazette (1707); Admiralty records (National Archives, Kew, ADM series)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Both the siege of Toulon and the Scilly naval disaster are precisely dated by contemporary records. Casualty figures for the Scilly disaster vary between sources (1,400\u20132,000).",
-      "cross_references": [
-        "1707-003 (Battle of Almansa)",
-        "1713-001 (Treaty of Utrecht)"
-      ]
-    },
-    {
-      "id": "1707-012",
-      "title": "Scilly Naval Disaster: Loss of Admiral Shovell's Fleet",
-      "region": "British Isles, Western Europe (Isles of Scilly)",
-      "coordinates_approx": "49.9200\u00b0 N, 6.3500\u00b0 W (Isles of Scilly, off Cornwall)",
-      "category": "military",
-      "description": "On the night of 22 October 1707, a British naval squadron returning from the failed siege of Toulon ran onto the rocks of the Isles of Scilly in thick fog, wrecking four ships of the line \u2014 HMS Association, HMS Eagle, HMS Romney, and HMS Firebrand \u2014 and killing an estimated 1,400\u20132,000 sailors. Admiral Sir Cloudesley Shovell, one of Britain's most senior naval commanders, perished with his flagship HMS Association. The disaster was attributed to navigational error, specifically the inability to determine longitude accurately at sea. The catastrophe became a major impetus for the British government's Longitude Act of 1714, which established the Board of Longitude and offered a prize for a practical method of determining longitude at sea \u2014 a problem ultimately solved by John Harrison's marine chronometer decades later.",
-      "key_figures": [
-        "Admiral Sir Cloudesley Shovell (commander, killed)",
-        "Captain Edmund Loades (HMS Romney, also lost)"
-      ],
-      "sources": [
-        {
-          "name": "Admiralty records and court martial proceedings (National Archives, Kew, ADM 1 series, 1707\u20131708)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Historiographic consensus: Dava Sobel, Longitude (1995); N.A.M. Rodger, The Command of the Ocean (2004)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Precisely dated by Admiralty records. Casualty figures vary between 1,400 and 2,000 depending on the source; the loss of the ships and Shovell's death are unambiguous.",
-      "cross_references": [
-        "1714-001 (Longitude Act)",
-        "1707-011 (Siege of Toulon, preceding event)"
-      ]
-    },
-    {
-      "id": "1707-013",
-      "title": "Safavid Persia: Shah Sultan Husayn's Reign and Growing Instability",
-      "region": "Persia / Iran, Middle East",
-      "coordinates_approx": "32.6546\u00b0 N, 51.6680\u00b0 E (Isfahan, Safavid capital)",
-      "category": "political",
-      "description": "Shah Sultan Husayn (r. 1694\u20131722), the last effective Safavid ruler, was in the middle of his reign in 1707, a period characterised by court factionalism, declining military capacity, and increasing pressure from Afghan tribal confederacies on the eastern frontier. The Shah's reign saw the growing influence of Shia clerics (particularly the Majlesi family) over court policy, including measures against Sunni Muslims, Sufis, and non-Muslim minorities that alienated significant portions of the population. The Ghilzai Afghans under Mir Wais Hotak were consolidating power in Kandahar; Mir Wais would revolt against Safavid rule in 1709. The year 1707 represents a period of visible but not yet terminal decline; the Afghan conquest of Isfahan and the effective end of the Safavid dynasty would come in 1722.",
-      "key_figures": [
-        "Shah Sultan Husayn (Safavid Shah)",
-        "Muhammad Baqir Majlesi (influential Shia cleric, died 1699; his legacy dominated the court)",
-        "Mir Wais Hotak (Ghilzai Afghan leader, consolidating power in Kandahar)"
-      ],
-      "sources": [
-        {
-          "name": "Historiographic consensus: Rudi Matthee, Persia in Crisis: Safavid Decline and the Fall of Isfahan (2012); Roger Savory, Iran under the Safavids (1980)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Contemporary European traveller accounts (e.g., Cornelis de Bruijn, Reizen over Moskovie, 1711; Jean Chardin, Voyages en Perse, 1711)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The general context of Safavid decline in this period is well-documented. Specific events within 1707 are not individually attested at high resolution; this entry reflects the documented trajectory.",
-      "cross_references": [
-        "1709-001 (Mir Wais Hotak revolt in Kandahar)",
-        "1722-001 (Afghan conquest of Isfahan)"
-      ]
-    },
-    {
-      "id": "1707-014",
-      "title": "Ottoman Empire: Continued Consolidation Under Ahmed III",
-      "region": "Ottoman Empire, Middle East / Eastern Europe",
-      "coordinates_approx": "41.0082\u00b0 N, 28.9784\u00b0 E (Constantinople / Istanbul)",
-      "category": "political",
-      "description": "Sultan Ahmed III (r. 1703\u20131730) had come to power following the Edirne Event (1703), a janissary revolt that deposed his predecessor Mustafa II. By 1707, Ahmed III's court was navigating the complex diplomacy of the War of the Spanish Succession (in which the Ottomans were not directly involved but which affected their European neighbours), managing ongoing tensions with Venice and the Habsburg Empire following the Treaty of Karlowitz (1699), and dealing with internal administrative challenges. The period 1703\u20131718 is sometimes called the 'Tulip Era' (Lale Devri) in retrospect, characterised by relative peace, cultural flourishing, and early engagement with European ideas, though this characterisation is a later historiographic construction. No single dominant event within 1707 is individually documented for the Ottoman court at high resolution.",
-      "key_figures": [
-        "Sultan Ahmed III (r. 1703\u20131730)",
-        "\u00c7orlulu Ali Pasha (Grand Vizier, 1706\u20131710)"
-      ],
-      "sources": [
-        {
-          "name": "Historiographic consensus: Suraiya Faroqhi, The Ottoman Empire and the World Around It (2004); Caroline Finkel, Osman's Dream (2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Ottoman court chronicles (Silahdar Tarihi; Ra\u015fid Tarihi) \u2014 near-contemporary compilations",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "General context is well-documented. Specific events within 1707 for the Ottoman court are not individually attested at high resolution in available sources.",
-      "cross_references": [
-        "1699-001 (Treaty of Karlowitz)",
-        "1718-001 (Treaty of Passarowitz)"
-      ]
-    },
-    {
-      "id": "1707-015",
-      "title": "Great Northern War: Charles XII of Sweden in Saxony",
-      "region": "Central Europe / Northern Europe",
-      "coordinates_approx": "51.0504\u00b0 N, 13.7373\u00b0 E (Dresden, Saxony)",
-      "category": "military",
-      "description": "In 1707, Charles XII of Sweden was in Saxony following his stunning victory over Augustus II of Poland-Saxony, having forced Augustus to sign the Treaty of Altranst\u00e4dt (September 1706), by which Augustus renounced the Polish crown and recognised Stanis\u0142aw Leszczy\u0144ski as King of Poland. Charles XII wintered his army in Saxony through 1706\u20131707, extracting substantial contributions from the electorate and demonstrating Swedish military dominance at the height of the Great Northern War. In 1707, Charles XII also received the Duke of Marlborough (who visited in April 1707 to assess Swedish intentions and ensure Sweden would not intervene in the War of the Spanish Succession). Charles XII departed Saxony in August 1707 to begin his fateful campaign against Russia, which would end in catastrophe at Poltava in 1709.",
-      "key_figures": [
-        "Charles XII of Sweden (king and military commander)",
-        "Augustus II of Poland-Saxony (defeated, forced to abdicate Polish crown)",
-        "Stanis\u0142aw Leszczy\u0144ski (Swedish-backed King of Poland)",
-        "John Churchill, 1st Duke of Marlborough (visited Charles XII in April 1707)"
-      ],
-      "sources": [
-        {
-          "name": "Historiographic consensus: Robert Frost, The Northern Wars: War, State and Society in Northeastern Europe, 1558\u20131721 (2000); Ragnhild Hatton, Charles XII of Sweden (1968)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Marlborough's dispatches (Blenheim Palace archives; published in Murray, Letters and Dispatches of the Duke of Marlborough, 1845)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Charles XII's presence in Saxony and Marlborough's visit are documented by multiple contemporary diplomatic dispatches. The departure date of August 1707 is well-attested.",
-      "cross_references": [
-        "1706-001 (Treaty of Altranst\u00e4dt)",
-        "1709-001 (Battle of Poltava)"
-      ]
-    },
-    {
-      "id": "1707-016",
-      "title": "Publication of Newton's Arithmetica Universalis",
-      "region": "England, Western Europe",
-      "coordinates_approx": "52.2053\u00b0 N, 0.1218\u00b0 E (Cambridge, England)",
-      "category": "scientific",
-      "description": "In 1707, Isaac Newton's Arithmetica Universalis (Universal Arithmetic) was published in Cambridge, edited by William Whiston (Newton's successor as Lucasian Professor of Mathematics). The work, based on Newton's lectures from the 1670s\u20131680s, systematised algebra and provided a comprehensive treatment of the theory of equations, including Newton's rule for finding the number of imaginary roots of a polynomial. Though Newton was reportedly dissatisfied with the publication (he had not authorised it in this form), the Arithmetica Universalis became an influential textbook in mathematics across Europe and went through multiple editions. It represented an important contribution to the algebraic tradition alongside Newton's better-known work in calculus and natural philosophy.",
-      "key_figures": [
-        "Isaac Newton (author)",
-        "William Whiston (editor, Lucasian Professor)"
-      ],
-      "sources": [
-        {
-          "name": "Arithmetica Universalis (1707 first edition, Cambridge University Press); Newton's correspondence (Newton Project, University of Sussex)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Historiographic consensus: D.T. Whiteside, The Mathematical Papers of Isaac Newton, vol. 5 (1972)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Publication date confirmed by the 1707 first edition. Newton's dissatisfaction with the unauthorised publication is documented in his correspondence.",
-      "cross_references": [
-        "1687-001 (Principia Mathematica)",
-        "1704-001 (Opticks)"
-      ]
-    },
-    {
-      "id": "1707-017",
-      "title": "Maratha Confederacy: Shahu Released and Succession Dispute",
-      "region": "South Asia, Deccan (Maratha polity)",
-      "coordinates_approx": "17.6805\u00b0 N, 74.0183\u00b0 E (Satara, Maharashtra)",
-      "category": "political",
-      "description": "Following Aurangzeb's death in March 1707, the new Mughal emperor Bahadur Shah I released Shahu (grandson of Shivaji, who had been held as a Mughal hostage since 1689) as part of his conciliatory policy toward the Marathas. Shahu's release and return to the Deccan in 1707 triggered a major succession dispute within the Maratha polity: Tarabai, the regent ruling in the name of her son Shivaji II, refused to recognise Shahu's claim. The resulting Maratha civil war between Shahu and Tarabai's faction lasted until 1714, when Shahu's general Balaji Vishwanath secured victory. This period is foundational for the subsequent rise of the Peshwa system, which would make the Maratha Confederacy the dominant power in the Indian subcontinent by the mid-eighteenth century.",
-      "key_figures": [
-        "Shahu I (Maratha claimant, released by Mughals)",
-        "Tarabai (regent, rival claimant on behalf of Shivaji II)",
-        "Bahadur Shah I (Mughal emperor who released Shahu)",
-        "Balaji Vishwanath (Shahu's general, later first Peshwa)"
-      ],
-      "sources": [
-        {
-          "name": "Historiographic consensus: Stewart Gordon, The Marathas 1600\u20131818 (Cambridge History of India, 1993); G.S. Sardesai, New History of the Marathas (1946)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Maratha administrative records (Peshwa Daftar, Pune); Mughal chronicles (Masir-i-Alamgiri)",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Shahu's release in 1707 is documented in both Mughal and Maratha sources. The precise month of release is attested in the Masir-i-Alamgiri.",
-      "cross_references": [
-        "1707-002 (Death of Aurangzeb)",
-        "1707-008 (Battle of Jajau)",
-        "1714-001 (Shahu's consolidation of Maratha power)"
-      ]
-    },
-    {
-      "id": "1707-018",
-      "title": "West Africa: Asante Confederacy Consolidation Under Osei Tutu",
-      "region": "West Africa (modern Ghana)",
-      "coordinates_approx": "6.6885\u00b0 N, 1.6244\u00b0 W (Kumasi, Asante)",
-      "category": "political",
-      "description": "The Asante Confederacy under Osei Tutu I (r. c. 1695\u20131717) was in the process of consolidating its power in the forest zone of modern Ghana during the first decade of the eighteenth century, having defeated the Denkyira kingdom at the Battle of Feyiase (c. 1701) and established Kumasi as its capital. By approximately 1707, the Asante were expanding their control over neighbouring Akan states and developing the political and religious institutions \u2014 including the Golden Stool (Sika Dwa Kofi) as the symbol of Asante national identity \u2014 that would define the confederacy. The precise chronology of Asante state formation in this period is uncertain due to the reliance on oral tradition and later written sources; 1707 is within the formative period but specific events cannot be assigned to this year with confidence.",
-      "key_figures": [
-        "Osei Tutu I (Asantehene, founder of the Asante Confederacy)",
-        "Okomfo Anokye (priest and political advisor, associated with the Golden Stool legend)"
-      ],
-      "sources": [
-        {
-          "name": "Oral tradition (Asante royal traditions, recorded in the 19th\u201320th centuries); Ivor Wilks, Asante in the Nineteenth Century (1975); T.C. McCaskie, State and Society in Pre-Colonial Asante (1995)",
-          "type": "oral_tradition",
-          "contemporary": false
-        },
-        {
-          "name": "Dutch West India Company (WIC) records referencing Asante region (Nationaal Archief, The Hague)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The Asante Confederacy's formation and expansion in this period is well-documented in later sources and oral tradition, but specific events cannot be assigned to 1707 with confidence. Chronology of early Asante history is contested among scholars.",
-      "cross_references": [
-        "1701-001 (Battle of Feyiase, defeat of Denkyira)"
-      ]
-    },
-    {
-      "id": "1707-019",
-      "title": "Tokugawa Japan: H\u014dei Era and Shogunal Administration",
-      "region": "Japan, East Asia",
-      "coordinates_approx": "35.6762\u00b0 N, 139.6503\u00b0 E (Edo, Japan)",
-      "category": "political",
-      "description": "Japan in 1707 was under the rule of the Tokugawa shogunate, in the H\u014dei era (1704\u20131711), with Tokugawa Tsunayoshi (the 'Dog Shogun') as the fifth shogun. The Tokugawa period was characterised by enforced isolation (sakoku), strict social hierarchy, and relative domestic peace. The year 1707 was marked by the twin disasters of the H\u014dei earthquake (October) and the Fuji eruption (December), which caused significant disruption to the Kant\u014d region and strained shogunal resources for relief and reconstruction. The Genroku era (1688\u20131704) had seen a flourishing of urban merchant culture, and its cultural legacy \u2014 in kabuki, ukiyo-e, and haiku \u2014 continued into the H\u014dei period. Matsuo Bash\u014d had died in 1694; Chikamatsu Monzaemon was active as a playwright in this period.",
-      "key_figures": [
-        "Tokugawa Tsunayoshi (5th Shogun, r. 1680\u20131709)",
-        "Chikamatsu Monzaemon (playwright, active)"
-      ],
-      "sources": [
-        {
-          "name": "Historiographic consensus: Conrad Totman, Early Modern Japan (1993); Harold Bolitho, Treasures Among Men: The Fudai Daimyo in Tokugawa Japan (1974)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Tokugawa administrative records (Tokugawa Jikki, compiled early 19th century)",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "General context is well-attested. The natural disasters of 1707 are documented; broader shogunal administration is confirmed by the Tokugawa Jikki.",
-      "cross_references": [
-        "1707-005 (H\u014dei eruption)",
-        "1707-006 (H\u014dei earthquake)"
-      ]
-    },
-    {
-      "id": "1707-020",
-      "title": "Handel Arrives in England; Early Career Development",
-      "region": "England / Western Europe",
-      "coordinates_approx": "51.5074\u00b0 N, 0.1278\u00b0 W (London, England)",
-      "category": "cultural",
-      "description": "George Frideric Handel arrived in England in 1710 (not 1707), but in 1707 he was in Italy, composing and performing under the patronage of Cardinal Pietro Ottoboni and Prince Francesco Maria Ruspoli in Rome and Florence. In 1707, Handel composed his first Italian oratorio, Il trionfo del Tempo e del Disinganno (HWV 46a), performed in Rome in May 1707, as well as the opera Rodrigo (HWV 5), performed in Florence in late 1707. These works represent Handel's Italian apprenticeship, during which he absorbed the operatic and oratorio styles that would define his later career in London. The Italian period (1706\u20131710) was foundational for Handel's development as a composer of international stature.",
-      "key_figures": [
-        "George Frideric Handel (composer)",
-        "Cardinal Pietro Ottoboni (patron, Rome)",
-        "Prince Francesco Maria Ruspoli (patron, Rome)"
-      ],
-      "sources": [
-        {
-          "name": "Historiographic consensus: Donald Burrows, Handel (Oxford, 1994); Winton Dean and John Merrill Knapp, Handel's Operas 1704\u20131726 (1987)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Contemporary Roman avvisi (newsletters) and Ruspoli household accounts (Archivio Sforza-Cesarini, Rome)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Handel's presence in Rome and Florence in 1707 and the premiere of Il trionfo del Tempo are documented by Ruspoli household accounts and contemporary Roman newsletters.",
-      "cross_references": [
-        "1710-001 (Handel's arrival in England)"
+        "Part of the Great Northern War (1700\u20131721)",
+        "Leads to 1708-002 (Charles XII's invasion of Russia)",
+        "Leads to 1709-001 (Battle of Poltava)",
+        "Leads to 1721-001 (Treaty of Nystad, end of Great Northern War)"
       ]
     }
   ],
-  "disconfirming_evidence": "1. **Acts of Union (1707-001):** The traditional narrative of the Union as a voluntary and mutually beneficial merger has been substantially complicated by modern Scottish historiography. Christopher Whatley, Daniel Szechi, and others have documented extensive bribery of Scottish parliamentarians (the 'Equivalent' payment and direct inducements), economic coercion through the Alien Act (1705), and the role of the Darien disaster in eliminating Scottish financial independence. The claim that the Union represented popular Scottish consent is not supported by evidence; contemporary petitions against the Union vastly outnumbered those in favour. The Union's long-term benefits for Scotland are also debated: some historians argue it primarily served English strategic and commercial interests in the short term.\n\n2. **Aurangzeb as cause of Mughal decline (1707-002):** The conventional narrative that Aurangzeb's religious policies and Deccan wars single-handedly caused Mughal decline is contested by scholars including Muzaffar Alam, Satish Chandra, and Audrey Truschke. Alam argues that the decline was structural \u2014 rooted in the mansabdari system's fiscal unsustainability and the growing power of regional elites \u2014 rather than primarily caused by Aurangzeb's personal policies. Truschke's work challenges the characterisation of Aurangzeb as uniquely anti-Hindu, noting that he also destroyed Hindu temples for political rather than purely religious reasons and employed more Hindus in his administration than any previous Mughal emperor. The 'Aurangzeb caused the decline' thesis is a significant oversimplification.\n\n3. **Battle of Almansa (1707-003):** The significance of Almansa as decisive for the Spanish succession is sometimes overstated. The war continued for seven more years, and the final settlement at Utrecht (1713) was determined as much by British domestic politics (the fall of the Whig ministry, Queen Anne's health) as by military outcomes on the Iberian peninsula. The battle was decisive for the Iberian theatre but not for the war as a whole.\n\n4. **Scilly Naval Disaster (1707-012):** The popular narrative, promoted by Dava Sobel's Longitude (1995), that the Scilly disaster was the direct and primary cause of the Longitude Act (1714) has been questioned by historians of science including William Andrews and Jim Bennett. They note that the longitude problem was already well-recognised before 1707, that the Longitude Act was also motivated by commercial and scientific interests, and that the disaster's causal role in the Act has been somewhat romanticised in popular history.\n\n5. **H\u014dei Eruption and Earthquake link (1707-005, 1707-006):** The causal connection between the H\u014dei earthquake and the subsequent Fuji eruption, while widely cited, remains a subject of ongoing volcanological debate. Some studies (e.g., Miyaji et al.) support the connection via stress transfer; others note that the 49-day interval and the different tectonic mechanisms make direct causation uncertain rather than established.\n\n6. **Asante chronology (1707-018):** The dating of early Asante history, including the Battle of Feyiase and the establishment of the Golden Stool, is contested. Ivor Wilks placed Feyiase at c. 1701, but other scholars (e.g., Tom McCaskie) have questioned the precision of this dating, noting that Asante oral tradition was recorded much later and may compress or displace events. Assigning specific developments to 1707 is therefore unreliable.",
-  "historiographic_note": "The historical record for 1707 CE is rich by the standards of this dataset, with well-documented events in Europe, South Asia, East Asia, and the Middle East. However, several significant biases shape the surviving record. European events (particularly the War of the Spanish Succession and the Acts of Union) are exceptionally well-documented due to the survival of parliamentary records, diplomatic dispatches, and a robust early print culture (newspapers, pamphlets, gazettes). South Asian events are documented through Mughal court chronicles that are court-sponsored and reflect elite perspectives; subaltern and regional perspectives are largely absent. Japanese events are documented through shogunal administrative records compiled retrospectively. African, indigenous American, and Oceanian events are almost entirely absent from the documentary record for this year, not because nothing was happening but because the surviving record is filtered through European colonial and commercial archives that recorded only what intersected with European interests. The Qing Chinese record is rich in the Veritable Records but these are official court documents with their own political biases. The overall picture is heavily weighted toward literate, state-level, and European-adjacent polities; the lives of the vast majority of the world's population in 1707 \u2014 peasants, pastoralists, and non-literate communities \u2014 are essentially invisible in the surviving record.",
+  "disconfirming_evidence": "The death of Aurangzeb is sometimes portrayed as the immediate cause of Mughal decline, but modern scholarship emphasizes that the decline was a longer-term process and that Aurangzeb's successors were not entirely incompetent; the empire remained a significant power for several decades after his death. The Act of Union is sometimes presented as universally beneficial, but Scottish sources reveal significant opposition and concerns about Scottish independence and interests. The Battle of Almansa is sometimes presented as a complete French-Spanish victory, but modern scholarship emphasizes that the allied forces remained capable of continued resistance and the war continued for several more years.",
+  "historiographic_note": "The year 1707 is exceptionally well-documented in European sources, particularly regarding the Act of Union and the War of Spanish Succession. The death of Aurangzeb is well-documented in Mughal and European sources. Asian sources (Chinese and Indian) are abundant but sometimes less integrated into Western historical narratives. The year 1707 represents a moment of significant global change, with the Act of Union creating a new major power, the Mughal Empire entering decline, and the Great Northern War continuing to reshape Eastern Europe.",
   "graph_edges": [
     {
       "from": "1707-001",
-      "to": "1715-001",
+      "to": "1708-004",
       "relation": "led_to",
-      "note": "The Acts of Union created the political context for the Jacobite Rising of 1715, which was partly a reaction against the Union among Scottish and English Tories."
+      "note": "The death of Aurangzeb in 1707 led to the succession of Bahadur Shah I and the beginning of the Mughal decline."
     },
     {
       "from": "1707-002",
-      "to": "1707-008",
+      "to": "1713-001",
       "relation": "led_to",
-      "note": "Aurangzeb's death directly triggered the Mughal succession war resolved at the Battle of Jajau."
-    },
-    {
-      "from": "1707-002",
-      "to": "1707-017",
-      "relation": "led_to",
-      "note": "Aurangzeb's death enabled Bahadur Shah I's conciliatory policy, including Shahu's release, which triggered the Maratha succession dispute."
+      "note": "The Act of Union created a more powerful Great Britain that played a major role in the War of Spanish Succession and the Treaty of Utrecht."
     },
     {
       "from": "1707-003",
-      "to": "1707-004",
+      "to": "1708-001",
       "relation": "led_to",
-      "note": "The Bourbon victory at Almansa was the military precondition for the Nueva Planta decrees abolishing Aragonese and Valencian fueros."
+      "note": "The French-Spanish victory at Almansa in 1707 was followed by the allied recovery at Oudenarde in 1708."
     },
     {
-      "from": "1707-006",
-      "to": "1707-005",
+      "from": "1707-005",
+      "to": "1708-002",
       "relation": "led_to",
-      "note": "The H\u014dei earthquake is believed to have destabilised Mount Fuji's magmatic system, contributing to the eruption 49 days later (causal link probable but debated)."
-    },
-    {
-      "from": "1707-011",
-      "to": "1707-012",
-      "relation": "led_to",
-      "note": "The failed siege of Toulon necessitated the Allied fleet's return voyage, during which the Scilly naval disaster occurred."
-    },
-    {
-      "from": "1707-012",
-      "to": "1714-001",
-      "relation": "led_to",
-      "note": "The Scilly disaster was a significant (though not sole) impetus for the British Longitude Act of 1714."
-    },
-    {
-      "from": "1707-015",
-      "to": "1709-001",
-      "relation": "led_to",
-      "note": "Charles XII's departure from Saxony in August 1707 began the Russian campaign that ended in catastrophic defeat at Poltava in 1709."
-    },
-    {
-      "from": "1707-008",
-      "to": "1707-017",
-      "relation": "contemporary_with",
-      "note": "The resolution of the Mughal succession war and the release of Shahu were concurrent events in mid-1707, both consequences of Aurangzeb's death."
-    },
-    {
-      "from": "1707-002",
-      "to": "1722-001",
-      "relation": "led_to",
-      "note": "Aurangzeb's death began the process of Mughal fragmentation that culminated in the Afghan conquest of Delhi and the effective end of Mughal power."
-    },
-    {
-      "from": "1707-013",
-      "to": "1722-001",
-      "relation": "led_to",
-      "note": "Safavid weakness visible in 1707 culminated in the Afghan conquest of Isfahan in 1722, ending effective Safavid rule."
-    },
-    {
-      "from": "1707-016",
-      "to": "1707-020",
-      "relation": "contemporary_with",
-      "note": "Newton's Arithmetica Universalis and Handel's Italian compositions are contemporaneous products of the early Enlightenment cultural moment."
+      "note": "The ongoing Great Northern War in 1707 led to Charles XII's invasion of Russia in 1708."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T12:37:36.024638",
-    "duration_seconds": 234.679513,
-    "model": "claude-sonnet-4-6",
-    "cost_usd": 0.222819,
-    "cached": false
-  }
+  ]
 }

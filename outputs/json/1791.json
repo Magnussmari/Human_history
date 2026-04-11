@@ -1,855 +1,381 @@
 {
   "year": 1791,
   "year_label": "1791 CE",
-  "era_context": "The year 1791 falls in the heart of the Age of Revolutions. The French Revolution, now in its third year, was radicalizing as the monarchy attempted to reassert control and failed. Across the Atlantic, the newly independent United States was consolidating its constitutional order with the Bill of Rights, while in the Caribbean, the Haitian Revolution erupted \u2014 the largest and most successful slave revolt in history. The Qing dynasty under the Qianlong Emperor (who had abdicated in favor of Jiaqing in 1796, but this is 1791 so Qianlong still reigns) was at the tail end of its 'High Qing' prosperity, the Ottoman Empire was fighting a losing war against Russia, and European colonial powers continued to expand in India, Southeast Asia, and the Pacific.",
+  "era_context": "The French Revolution is in its radical phase following the royal family's failed flight to Varennes (June 1791). The ancien r\u00e9gime has been formally dismantled; feudalism abolished, the Civil Constitution of the Clergy enacted, and a constitutional monarchy established. Across Europe, monarchies view France with alarm. In the Americas, the Haitian Revolution is accelerating toward independence. The Industrial Revolution is reshaping Britain and beginning to spread.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Interior sub-Saharan Africa beyond coastal trading posts",
-    "Aboriginal Australian communities",
-    "Pacific Island societies beyond early European contact",
-    "Central Asian steppe polities",
-    "Interior Southeast Asian kingdoms beyond Burmese and Siamese court records"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1791-001",
-      "title": "Flight to Varennes",
-      "region": "France",
-      "coordinates_approx": "49.22, 5.02",
+      "title": "Flight to Varennes and royal family's capture",
+      "region": "France (Varennes-en-Argonne)",
+      "coordinates_approx": "49.17, 5.15",
       "category": "political",
-      "description": "On 20\u201321 June 1791, King Louis XVI and the royal family attempted to flee Paris in disguise, aiming to reach the royalist fortress at Montm\u00e9dy near the Austrian border. They were recognized and arrested at Varennes-en-Argonne. The failed escape devastated whatever remained of popular trust in the monarchy, radicalized republican sentiment, and made the fiction of a king cooperating willingly with the Revolution untenable. It accelerated the trajectory toward the abolition of the monarchy and the king's eventual trial and execution.",
+      "description": "On the night of 20\u201321 June 1791, King Louis XVI, Queen Marie Antoinette, and their children attempted to flee Paris in the Berline coach, heading toward the royalist stronghold of Montm\u00e9dy near the Belgian border. They were intercepted at Varennes-en-Argonne by National Guard and local militia. The royal family was returned to Paris under guard, effectively ending the monarchy's credibility as a willing participant in constitutional reform. This event shattered the fragile compromise between the Revolution and the crown, radicalised republican sentiment, and set the stage for the September Massacres and the abolition of the monarchy in 1792.",
       "key_figures": [
         "Louis XVI (King of France)",
         "Marie Antoinette (Queen of France)",
-        "Axel von Fersen (Swedish nobleman, organized the escape)",
-        "Jean-Baptiste Drouet (postmaster who recognized the king)"
+        "Fersen (Swedish diplomat and royalist conspirator)",
+        "Lafayette (Commander of the National Guard)"
       ],
       "sources": [
         {
-          "name": "Contemporary newspaper accounts (e.g., L'Ami du peuple, R\u00e9volutions de Paris)",
+          "name": "Contemporary accounts in the Moniteur Universel and other Paris newspapers",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Proceedings of the National Assembly, June 1791",
+          "name": "Fersen's diary and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Timothy Tackett, When the King Took Flight (2003)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Lafayette's reports to the Assembly",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "One of the most thoroughly documented episodes of the French Revolution, with abundant contemporary sources from multiple perspectives.",
+      "certainty_note": "Extensively documented by contemporary witnesses, newspapers, and official records. The date and sequence of events are uncontested.",
       "cross_references": [
-        "1789-Storming of the Bastille",
-        "1792-Abolition of the monarchy",
-        "1793-Execution of Louis XVI"
+        "1792-001 (abolition of the monarchy)",
+        "1793-001 (execution of Louis XVI)"
       ]
     },
     {
       "id": "1791-002",
-      "title": "Champ de Mars massacre",
-      "region": "France (Paris)",
-      "coordinates_approx": "48.86, 2.30",
-      "category": "political",
-      "description": "On 17 July 1791, a crowd gathered at the Champ de Mars to sign a petition demanding the king's abdication following the Flight to Varennes. The National Guard under the Marquis de Lafayette opened fire on the demonstrators, killing dozens (estimates range from 12 to 50). The massacre marked a decisive split between moderate constitutional monarchists and radical republicans, drove the Cordeliers and Jacobin clubs underground temporarily, and foreshadowed the more radical phases of the Revolution.",
+      "title": "Haitian slave rebellion and declaration of independence movement",
+      "region": "Saint-Domingue (Haiti)",
+      "coordinates_approx": "19.0, -72.3",
+      "category": "political | military",
+      "description": "The Bois Ca\u00efman ceremony (14 August 1791) marked the formal coordination of enslaved and free Black resistance in Saint-Domingue, the wealthiest colony in the Caribbean. Led by figures including Dutty Boukman, the rebellion spread rapidly across the Northern Plain, destroying plantations and killing white colonists. By year's end, tens of thousands of enslaved people had joined the insurgency. This uprising, rooted in the ideological ferment of the French Revolution but driven by the brutal conditions of slavery, would ultimately lead to the world's first successful slave revolution and the establishment of Haiti as an independent Black republic in 1804.",
       "key_figures": [
-        "Marquis de Lafayette (commander of the National Guard)",
-        "Jean Sylvain Bailly (Mayor of Paris, who declared martial law)",
-        "Georges Danton (radical leader, fled Paris after the event)"
+        "Dutty Boukman (Vodou priest and rebellion leader)",
+        "Toussaint Louverture (military organiser, emerged as leader by 1793)",
+        "Jean-Fran\u00e7ois (early rebel commander)"
       ],
       "sources": [
         {
-          "name": "Proc\u00e8s-verbaux of the Paris Commune and National Assembly debates",
+          "name": "Contemporary accounts by white colonists and French administrators",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary pamphlets and newspapers",
-          "type": "primary_text",
+          "name": "Moreau de Saint-M\u00e9ry, Description topographique (written during the period)",
+          "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "David Andress, The Terror: Civil War in the French Revolution (2005)",
-          "type": "historiographic_consensus",
+          "name": "Oral traditions and later Haitian historiography",
+          "type": "oral_tradition",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well documented, though casualty figures vary across sources.",
+      "certainty_note": "The August 1791 uprising is well-attested in colonial records and contemporary accounts. The Bois Ca\u00efman ceremony is documented in later oral tradition and historiography; its exact date and ritual details are less certain but the event's historical reality is not disputed.",
       "cross_references": [
-        "1791-001",
-        "1792-August insurrection"
+        "1804-001 (Haitian independence)"
       ]
     },
     {
       "id": "1791-003",
-      "title": "French Constitution of 1791 adopted",
-      "region": "France",
-      "coordinates_approx": "48.86, 2.35",
-      "category": "legal",
-      "description": "On 3 September 1791, the National Constituent Assembly completed France's first written constitution, establishing a constitutional monarchy with a unicameral Legislative Assembly. The king accepted it on 14 September. The constitution enshrined civil liberties from the Declaration of the Rights of Man (1789), but restricted voting to 'active citizens' \u2014 men who paid a minimum level of taxation \u2014 excluding women, the poor, and servants. It was effectively dead on arrival: the Flight to Varennes had destroyed trust in the king, and the constitution would be superseded within a year by the declaration of a republic.",
+      "title": "Constitutional Act of 1791 (Canada)",
+      "region": "British North America (Quebec and Upper Canada)",
+      "coordinates_approx": "45.5, -73.6",
+      "category": "legal | political",
+      "description": "The Constitutional Act, passed by the British Parliament and taking effect on 26 December 1791, divided the Province of Quebec into Upper Canada (Ontario) and Lower Canada (Quebec). It established representative assemblies in both provinces while preserving the seigneurial system in Lower Canada and granting land to Loyalist settlers in Upper Canada. The Act attempted to reconcile French-Canadian Catholic interests with British imperial governance, but its asymmetries and limitations on colonial autonomy would generate tensions throughout the 19th century.",
       "key_figures": [
-        "Louis XVI (King of France, who accepted the constitution)",
-        "Emmanuel Joseph Siey\u00e8s (constitutional theorist)",
-        "Honor\u00e9 Gabriel Riqueti, comte de Mirabeau (influential deputy, died April 1791)"
+        "William Pitt the Younger (British Prime Minister)",
+        "Lord Dorchester (Governor General of Canada)"
       ],
       "sources": [
         {
-          "name": "Text of the Constitution of 1791 (Archives parlementaires)",
+          "name": "Constitutional Act, 1791 (primary legislation)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Keith Michael Baker, Inventing the French Revolution (1990)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Parliamentary debates and records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The constitutional text itself survives; its adoption and context are extensively documented.",
+      "certainty_note": "The Act is a formal legal document with clear enactment date. Its implementation and effects are well-documented.",
       "cross_references": [
-        "1789-Declaration of the Rights of Man",
-        "1792-French Republic declared"
+        "1837-001 (Canadian Rebellions)"
       ]
     },
     {
       "id": "1791-004",
-      "title": "Olympe de Gouges publishes Declaration of the Rights of Woman",
-      "region": "France (Paris)",
-      "coordinates_approx": "48.86, 2.35",
-      "category": "cultural",
-      "description": "In September 1791, playwright and political activist Olympe de Gouges published the D\u00e9claration des droits de la femme et de la citoyenne (Declaration of the Rights of Woman and of the Female Citizen), modeled on the 1789 Declaration of the Rights of Man. It argued that women were born free and equal to men, demanded female suffrage, and challenged the exclusion of women from citizenship rights in the new constitution. The text was largely ignored in its time but is now regarded as a foundational document in the history of feminism and human rights.",
-      "key_figures": [
-        "Olympe de Gouges (author and activist)"
-      ],
-      "sources": [
-        {
-          "name": "Olympe de Gouges, D\u00e9claration des droits de la femme et de la citoyenne (1791), original pamphlet",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Joan Wallach Scott, Only Paradoxes to Offer: French Feminists and the Rights of Man (1996)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The text survives in its original published form.",
-      "cross_references": [
-        "1789-Declaration of the Rights of Man",
-        "1791-003",
-        "1793-Execution of Olympe de Gouges"
-      ]
-    },
-    {
-      "id": "1791-005",
-      "title": "Haitian Revolution begins (Bois Ca\u00efman ceremony and August uprising)",
-      "region": "Saint-Domingue (modern Haiti)",
-      "coordinates_approx": "19.76, -72.20",
+      "title": "Russo-Turkish War (1787\u20131792): Siege of Izmail",
+      "region": "Ottoman Empire (Danube Delta, modern Romania)",
+      "coordinates_approx": "45.35, 28.75",
       "category": "military",
-      "description": "On the night of 14 August 1791, enslaved people gathered at Bois Ca\u00efman in the northern plain of Saint-Domingue for a Vodou ceremony that is traditionally regarded as the catalyst of the Haitian Revolution. On 22\u201323 August, a massive coordinated slave revolt erupted across the northern province, destroying sugar plantations and killing hundreds of enslavers. Within weeks, tens of thousands of enslaved people were in open rebellion under leaders including Boukman Dutty. This was the beginning of the only successful large-scale slave revolution in history, which would eventually lead to Haitian independence in 1804 and profoundly shake the Atlantic slave system.",
+      "description": "In December 1790\u2013January 1791, Russian forces under General Aleksandr Suvorov besieged and captured the Ottoman fortress of Izmail on the Danube. The siege was brutal; after a failed assault on 10 December 1790, Suvorov renewed the attack on 22 December and broke through the defences, resulting in a massacre of the garrison and civilian population. The capture of Izmail was a turning point in the Russo-Turkish War, demonstrating Russian military superiority and weakening Ottoman control of the Danube. The fortress remained in Russian hands until the Treaty of Jassy (1792).",
       "key_figures": [
-        "Boukman Dutty (early leader of the revolt, killed in November 1791)",
-        "C\u00e9cile Fatiman (Vodou priestess, traditionally associated with Bois Ca\u00efman)",
-        "Dutty Boukman's unnamed co-conspirators among enslaved plantation workers"
-      ],
-      "sources": [
-        {
-          "name": "Antoine Dalmas, Histoire de la r\u00e9volution de Saint-Domingue (1814) \u2014 earliest detailed account of the ceremony, written by a hostile white colonist",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Colonial administrative correspondence and planter reports, August\u2013September 1791 (Archives nationales d'outre-mer)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Laurent Dubois, Avengers of the New World: The Story of the Haitian Revolution (2004)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The August 1791 uprising is abundantly documented in colonial records. The Bois Ca\u00efman ceremony is traditional; its historicity is debated by scholars (see disconfirming evidence section), though the revolt itself is beyond question.",
-      "cross_references": [
-        "1789-French Revolution begins",
-        "1794-French abolition of slavery",
-        "1804-Haitian independence"
-      ]
-    },
-    {
-      "id": "1791-006",
-      "title": "United States Bill of Rights ratified",
-      "region": "United States of America",
-      "coordinates_approx": "38.91, -77.04",
-      "category": "legal",
-      "description": "On 15 December 1791, the first ten amendments to the United States Constitution \u2014 collectively known as the Bill of Rights \u2014 were ratified after Virginia became the eleventh state to approve them. The amendments guaranteed fundamental civil liberties including freedom of speech, religion, and the press; the right to bear arms; protections against unreasonable search and seizure; and due process rights. Originally proposed by James Madison in 1789 to address Anti-Federalist concerns about centralized power, these amendments became the bedrock of American constitutional law and jurisprudence.",
-      "key_figures": [
-        "James Madison (principal author)",
-        "George Washington (President of the United States)",
-        "Thomas Jefferson (Secretary of State, advocate for a bill of rights)"
-      ],
-      "sources": [
-        {
-          "name": "Original engrossed Bill of Rights manuscript (National Archives)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Congressional records and ratification documents of state legislatures",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Akhil Reed Amar, The Bill of Rights: Creation and Reconstruction (1998)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Original documents survive in the National Archives; ratification dates are documented in state legislative records.",
-      "cross_references": [
-        "1787-US Constitutional Convention",
-        "1789-First US Congress"
-      ]
-    },
-    {
-      "id": "1791-007",
-      "title": "Canada Act (Constitutional Act) divides Quebec",
-      "region": "British North America (Canada)",
-      "coordinates_approx": "46.81, -71.21",
-      "category": "political",
-      "description": "On 10 June 1791, the British Parliament passed the Constitutional Act, which divided the Province of Quebec into Upper Canada (predominantly English-speaking, roughly modern Ontario) and Lower Canada (predominantly French-speaking, roughly modern Quebec). Each province received its own elected legislative assembly and appointed legislative council. The act was intended to manage tensions between Anglophone Loyalist settlers and the Francophone majority, but it created structural political conflicts \u2014 particularly in Lower Canada \u2014 that would fester for decades and contribute to the Rebellions of 1837\u201338.",
-      "key_figures": [
-        "William Pitt the Younger (British Prime Minister)",
-        "Guy Carleton, 1st Baron Dorchester (Governor of Quebec)"
-      ],
-      "sources": [
-        {
-          "name": "Constitutional Act, 1791 (31 Geo. III, c. 31), Parliamentary records",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Parliamentary debates (Hansard)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "J.M. Bumsted, The Peoples of Canada: A Pre-Confederation History (2003)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Statutory text and parliamentary records survive.",
-      "cross_references": [
-        "1774-Quebec Act",
-        "1837-Lower Canada Rebellion"
-      ]
-    },
-    {
-      "id": "1791-008",
-      "title": "Treaty of Sistova ends Austro-Turkish War",
-      "region": "Ottoman Empire / Habsburg Empire (Sistova, modern Svishtov, Bulgaria)",
-      "coordinates_approx": "43.62, 25.35",
-      "category": "political",
-      "description": "On 4 August 1791, the Habsburg Empire and the Ottoman Empire signed the Treaty of Sistova, ending the Austro-Turkish War that had begun in 1788. Austria returned most of its conquests, including Belgrade, to the Ottomans, gaining only the town of Orsova and minor border adjustments. The treaty reflected Austria's need to redirect military resources toward the growing crisis with revolutionary France and the Polish situation. It marked the end of Habsburg expansionism at Ottoman expense in the Balkans for the time being.",
-      "key_figures": [
-        "Leopold II (Holy Roman Emperor)",
+        "Aleksandr Suvorov (Russian general)",
+        "Catherine II (Russian Empress)",
         "Selim III (Ottoman Sultan)"
       ],
       "sources": [
         {
-          "name": "Treaty text in diplomatic archives (Haus-, Hof- und Staatsarchiv, Vienna)",
+          "name": "Russian military records and Suvorov's correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Virginia Aksan, Ottoman Wars 1700\u20131870: An Empire Besieged (2007)",
-          "type": "historiographic_consensus",
+          "name": "Ottoman chronicles and diplomatic records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary European newspaper accounts",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The siege is extensively documented in Russian and Ottoman sources. The dates and military outcomes are uncontested.",
+      "cross_references": [
+        "1792-002 (Treaty of Jassy)"
+      ]
+    },
+    {
+      "id": "1791-005",
+      "title": "Bill of Rights ratified (United States)",
+      "region": "United States of America",
+      "coordinates_approx": "38.9, -77.0",
+      "category": "legal | political",
+      "description": "On 15 December 1791, Virginia became the eleventh state to ratify the Bill of Rights (the first ten amendments to the U.S. Constitution), providing the three-fourths majority required for ratification. The Bill of Rights, drafted by James Madison in response to Anti-Federalist concerns, guaranteed fundamental civil liberties including freedom of speech, religion, press, assembly, and petition, as well as protections for the accused and reserved powers to the states. Its ratification marked a crucial compromise in American constitutional development and established a framework for individual rights that would shape American jurisprudence for centuries.",
+      "key_figures": [
+        "James Madison (primary drafter)",
+        "George Washington (President)",
+        "Thomas Jefferson (Secretary of State)"
+      ],
+      "sources": [
+        {
+          "name": "Bill of Rights (primary text)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "State ratification records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Federalist and Anti-Federalist papers",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The ratification date is precisely documented. The Bill of Rights is a foundational legal text with unambiguous historical record.",
+      "cross_references": [
+        "1789-001 (U.S. Constitution ratified)"
+      ]
+    },
+    {
+      "id": "1791-006",
+      "title": "Priestley Riots in Birmingham, England",
+      "region": "England (Birmingham)",
+      "coordinates_approx": "52.51, -1.89",
+      "category": "political | religious",
+      "description": "In July 1791, anti-radical and anti-Catholic riots erupted in Birmingham, ostensibly triggered by a dinner celebrating the second anniversary of the French Revolution's Bastille Day. The riots targeted the homes and laboratories of Joseph Priestley, the natural philosopher and Unitarian minister, as well as other Dissenters and radicals. Priestley's house and scientific equipment were destroyed; he fled England and eventually emigrated to America. The riots reflected deep anxieties among the English establishment about revolutionary ideas and religious dissent, and demonstrated the violent backlash against those perceived as sympathetic to French revolutionary principles.",
+      "key_figures": [
+        "Joseph Priestley (natural philosopher and minister)",
+        "Edmund Burke (conservative political theorist, indirectly implicated in inciting sentiment)"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary newspaper accounts (Birmingham Gazette, London papers)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Priestley's own accounts and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Official reports and legal proceedings",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The riots are extensively documented in contemporary sources. The dates, participants, and outcomes are well-established.",
+      "cross_references": [
+        "1791-001 (Flight to Varennes, context of revolutionary anxiety)"
+      ]
+    },
+    {
+      "id": "1791-007",
+      "title": "Qing Dynasty: Macartney Embassy to China",
+      "region": "Qing China (Beijing)",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "diplomatic | exploration",
+      "description": "The British Macartney Embassy, led by Lord George Macartney, arrived in Beijing in September 1793 but negotiations and ceremonies occurred throughout 1791\u20131793. The embassy sought to establish formal diplomatic relations and open Chinese ports to British trade. The Qianlong Emperor received the embassy but rejected British requests, viewing Britain as a tributary state with no special status. The embassy's failure marked a critical moment in Sino-Western relations: Britain's inability to penetrate Chinese markets through diplomacy would contribute to the later push for the Opium Wars. The embassy's detailed observations also provided Europeans with unprecedented information about Qing administration and society.",
+      "key_figures": [
+        "Lord George Macartney (British ambassador)",
+        "Qianlong Emperor (Qing ruler)",
+        "Heshen (Qianlong's favourite minister)"
+      ],
+      "sources": [
+        {
+          "name": "Macartney's journal and official embassy records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Qing court records and edicts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary European accounts and later published narratives",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Treaty text and diplomatic correspondence survive in both Austrian and Ottoman archives.",
+      "certainty_note": "The embassy's journey and negotiations are well-documented in both British and Chinese sources. Dates and outcomes are established.",
       "cross_references": [
-        "1788-Austro-Turkish War begins",
-        "1792-Treaty of Jassy (Russo-Turkish)"
+        "1840-001 (First Opium War)"
+      ]
+    },
+    {
+      "id": "1791-008",
+      "title": "Decree of the National Assembly on Jewish emancipation (France)",
+      "region": "France",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "legal | religious",
+      "description": "On 27 September 1791, the National Assembly granted full civil and political rights to Jews in France, making them citizens with equal legal status. This decree, following earlier partial emancipations of Sephardic Jews (1790) and Ashkenazi Jews (1791), was a watershed moment in European Jewish history. It represented the first time a major European state had granted Jews full civic equality, embodying Enlightenment principles of universal rights. However, the decree was controversial among both conservative and radical factions and faced resistance in some regions; implementation remained uneven throughout the 1790s.",
+      "key_figures": [
+        "Clermont-Tonnerre (deputy who championed the decree)",
+        "Mirabeau (earlier advocate for Jewish rights)"
+      ],
+      "sources": [
+        {
+          "name": "Decree of the National Assembly (primary text)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Assembly debates and records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Jewish community records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The decree is formally documented with precise date. Its passage and content are uncontested.",
+      "cross_references": [
+        "1790-002 (earlier Jewish emancipation decrees)"
       ]
     },
     {
       "id": "1791-009",
-      "title": "Declaration of Pillnitz",
-      "region": "Saxony (Holy Roman Empire)",
-      "coordinates_approx": "51.01, 13.87",
-      "category": "political",
-      "description": "On 27 August 1791, Emperor Leopold II and King Frederick William II of Prussia issued the Declaration of Pillnitz, stating that the situation of the French king was a matter of concern to all European sovereigns and hinting at military intervention to restore Louis XVI's authority. The declaration was deliberately vague \u2014 Leopold intended it as a bluff contingent on British support that he knew would not come \u2014 but it was read in France as a direct threat and inflamed revolutionary hostility toward foreign monarchies, contributing to the march toward war in 1792.",
+      "title": "Tipu Sultan's military campaigns in southern India",
+      "region": "Mysore, southern India",
+      "coordinates_approx": "15.35, 75.12",
+      "category": "military | political",
+      "description": "Tipu Sultan, the ruler of Mysore, continued his aggressive military campaigns against neighbouring states and the British East India Company. In 1791, Tipu launched campaigns against the Nizam of Hyderabad and the Maratha Confederacy, seeking to consolidate Mysore's power in southern India. These campaigns were part of Tipu's broader strategy to modernise Mysore's military (influenced by French revolutionary ideals and technology) and resist British expansion. The Third Anglo-Mysore War (1790\u20131792) was ongoing, with Tipu's forces facing increasing pressure from British and allied Indian armies.",
       "key_figures": [
-        "Leopold II (Holy Roman Emperor)",
-        "Frederick William II (King of Prussia)",
-        "Louis Auguste Le Tonnelier de Breteuil (royalist agent)"
+        "Tipu Sultan (Ruler of Mysore)",
+        "Cornwallis (British Governor-General)",
+        "Nizam of Hyderabad (ally against Tipu)"
       ],
       "sources": [
         {
-          "name": "Text of the Declaration of Pillnitz (diplomatic correspondence)",
+          "name": "British East India Company records and military reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "T.C.W. Blanning, The French Revolutionary Wars 1787\u20131802 (1996)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Mysore court records and chronicles",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary European accounts",
+          "type": "chronicle",
+          "contemporary": true
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The declaration text survives and its context is well documented in diplomatic correspondence.",
+      "certainty": "probable",
+      "certainty_note": "The broad outline of Tipu's campaigns is well-documented, but specific dates and tactical details vary between British and Indian sources. The year 1791 is assigned by convention within the broader war period.",
       "cross_references": [
-        "1791-001",
-        "1792-French declaration of war against Austria"
+        "1792-003 (Treaty of Seringapatam, end of Third Anglo-Mysore War)"
       ]
     },
     {
       "id": "1791-010",
-      "title": "Mozart dies in Vienna; completes The Magic Flute and Requiem left unfinished",
-      "region": "Habsburg Empire (Vienna)",
-      "coordinates_approx": "48.21, 16.37",
-      "category": "cultural",
-      "description": "Wolfgang Amadeus Mozart died on 5 December 1791 in Vienna at age 35 from a still-debated illness. In his final year he composed some of his greatest works: The Magic Flute (Die Zauberfl\u00f6te), premiered on 30 September 1791 at the Theater auf der Wieden; La clemenza di Tito, composed for Leopold II's coronation as King of Bohemia; the Clarinet Concerto in A major; and the unfinished Requiem in D minor, later completed by his student Franz Xaver S\u00fcssmayr. His death left an enormous void in European musical life and generated enduring myths about poisoning and pauper's burial.",
+      "title": "Slave Trade Abolition Act passed by British Parliament",
+      "region": "British Empire",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "legal | political",
+      "description": "On 25 March 1807, the Slave Trade Act received royal assent, but the campaign for abolition intensified throughout the 1790s. In 1791, the House of Commons voted on an abolition motion introduced by William Wilberforce; though it failed, the vote (88 in favour, 163 against) demonstrated growing support for abolition. The 1791 debate marked a turning point in British abolitionist sentiment, with Wilberforce and his allies using evidence from the Caribbean (including the Haitian Revolution) to argue that slavery was economically inefficient and morally indefensible. The eventual passage of the Slave Trade Act in 1807 was the culmination of this decades-long campaign.",
       "key_figures": [
-        "Wolfgang Amadeus Mozart (composer)",
-        "Emanuel Schikaneder (librettist and impresario, The Magic Flute)",
-        "Franz Xaver S\u00fcssmayr (student, completed the Requiem)",
-        "Constanze Mozart (wife)"
+        "William Wilberforce (abolitionist MP)",
+        "Granville Sharp (abolitionist activist)",
+        "Thomas Clarkson (abolitionist researcher)"
       ],
       "sources": [
         {
-          "name": "Mozart's personal correspondence and family letters (Mozart: Briefe und Aufzeichnungen, ed. Bauer and Deutsch)",
+          "name": "Parliamentary debates and voting records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Viennese death records and parish registers",
+          "name": "Wilberforce's speeches and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Maynard Solomon, Mozart: A Life (1995)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Mozart's death date and final works are thoroughly documented. Cause of death remains medically debated.",
-      "cross_references": []
-    },
-    {
-      "id": "1791-011",
-      "title": "Suppression of the Avignon Papacy and annexation to France",
-      "region": "France / Papal States (Avignon)",
-      "coordinates_approx": "43.95, 4.81",
-      "category": "political",
-      "description": "On 14 September 1791, the French National Assembly voted to annex the papal territories of Avignon and the Comtat Venaissin, which had been papal possessions since the 14th century. This followed a local insurrection and plebiscite in which inhabitants voted to join France. The annexation was one of several revolutionary challenges to papal authority and contributed to the deep rift between the Revolution and the Catholic Church. It also followed the violent Massacre of the Glaci\u00e8re in October 1791, when revolutionary partisans killed several dozen prisoners in Avignon's papal palace.",
-      "key_figures": [
-        "Pope Pius VI (who protested the annexation)",
-        "Jourdan Coupe-T\u00eate (leader of radical faction in Avignon)"
-      ],
-      "sources": [
-        {
-          "name": "Decrees of the National Assembly, September 1791 (Archives parlementaires)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Michel Vovelle, The Revolution Against the Church: From Reason to the Supreme Being (1991)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Legislative records and local administrative documents survive.",
-      "cross_references": [
-        "1790-Civil Constitution of the Clergy"
-      ]
-    },
-    {
-      "id": "1791-012",
-      "title": "Tipu Sultan's campaigns and British consolidation in Mysore",
-      "region": "South India (Kingdom of Mysore)",
-      "coordinates_approx": "12.30, 76.66",
-      "category": "military",
-      "description": "In 1791, the Third Anglo-Mysore War was underway, with British East India Company forces under Lord Cornwallis advancing on Tipu Sultan's capital at Seringapatam. Cornwallis captured the fortified position at Bangalore in March 1791 and laid siege to Seringapatam, though supply problems forced a retreat. Tipu Sultan, simultaneously facing Maratha and Hyderabadi attacks from the north and west as part of a triple alliance against him, was increasingly encircled. The war would end in 1792 with the Treaty of Seringapatam, stripping Tipu of half his territory.",
-      "key_figures": [
-        "Tipu Sultan (ruler of Mysore)",
-        "Charles Cornwallis (Governor-General of India and British commander)",
-        "Nizam Ali Khan (ruler of Hyderabad, allied with the British)"
-      ],
-      "sources": [
-        {
-          "name": "East India Company military dispatches and Cornwallis correspondence (National Archives, UK)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Tipu Sultan's administrative records (partially surviving at the India Office Library)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Kate Brittlebank, Tipu Sultan's Search for Legitimacy (1997)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "British military records are extensive; Tipu Sultan's own records partially survive.",
-      "cross_references": [
-        "1789-Third Anglo-Mysore War begins",
-        "1792-Treaty of Seringapatam"
-      ]
-    },
-    {
-      "id": "1791-013",
-      "title": "Qianlong Emperor's campaigns against Gurkhas in Tibet",
-      "region": "Qing Empire (Tibet / Nepal border)",
-      "coordinates_approx": "28.65, 87.30",
-      "category": "military",
-      "description": "In 1791, Gurkha forces from Nepal invaded Tibet for the second time, sacking the great monastery of Tashilhunpo and carrying off enormous wealth. The Qianlong Emperor dispatched a major Qing military expedition under Fuk'anggan to expel the Gurkhas and reassert Chinese suzerainty over Tibet. The Qing forces arrived in Tibet in late 1791 and would pursue the Gurkhas back into Nepal in 1792, ultimately forcing a Nepalese surrender. The campaign led to tightened Qing administrative control over Tibet, including the establishment of the Golden Urn lottery system for selecting reincarnated lamas.",
-      "key_figures": [
-        "Qianlong Emperor (Qing ruler)",
-        "Fuk'anggan (Qing general)",
-        "Bahadur Shah (regent of Nepal)",
-        "Shamarpa Lama (Tibetan religious figure who invited Gurkha intervention)"
-      ],
-      "sources": [
-        {
-          "name": "Qing court records and Qianlong Emperor's edicts (Qing Shilu / Veritable Records)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Nepali court chronicles",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Peter Schwieger, The Dalai Lama and the Emperor of China (2015)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented in both Qing imperial records and Nepali sources. The sack of Tashilhunpo is well attested.",
-      "cross_references": [
-        "1792-Qing defeat of Gurkhas in Nepal"
-      ]
-    },
-    {
-      "id": "1791-014",
-      "title": "Russo-Turkish War: Battle of Ma\u010din",
-      "region": "Ottoman Empire (modern Romania)",
-      "coordinates_approx": "45.25, 28.12",
-      "category": "military",
-      "description": "On 9 July 1791 (28 June Old Style), Russian forces under Prince Nikolai Repnin decisively defeated the Ottoman army at the Battle of Ma\u010din (M\u0103cin) on the Danube in what is now Romania. The Ottoman army suffered heavy casualties. This defeat, combined with the fall of the fortress of Anapa to Russian forces in June, compelled the Ottoman Empire to seek peace, leading to the Treaty of Jassy in January 1792. The war confirmed Russian control of the northern Black Sea coast and the annexation of Crimea.",
-      "key_figures": [
-        "Nikolai Repnin (Russian commander)",
-        "Selim III (Ottoman Sultan)",
-        "Catherine the Great (Russian Empress)"
-      ],
-      "sources": [
-        {
-          "name": "Russian military dispatches and Catherine II's correspondence",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Ottoman chronicle accounts",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Virginia Aksan, Ottoman Wars 1700\u20131870 (2007)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well documented in both Russian and Ottoman military records.",
-      "cross_references": [
-        "1787-Russo-Turkish War begins",
-        "1792-Treaty of Jassy"
-      ]
-    },
-    {
-      "id": "1791-015",
-      "title": "Polish Constitution of 3 May (Konstytucja 3 maja)",
-      "region": "Poland-Lithuania (Polish-Lithuanian Commonwealth)",
-      "coordinates_approx": "52.23, 21.01",
-      "category": "legal",
-      "description": "On 3 May 1791, the Four-Year Sejm adopted the Constitution of 3 May, Europe's first modern codified national constitution and the world's second after the United States Constitution. It reformed the Polish-Lithuanian Commonwealth by abolishing the liberum veto (the requirement for unanimous consent that had paralyzed governance), established a constitutional monarchy with separation of powers, extended political rights to townspeople, and placed peasants under government protection. It was a dramatic attempt to save the Commonwealth from the predatory ambitions of Russia, Prussia, and Austria, but it provoked Catherine the Great's hostility and contributed directly to the Second Partition of Poland in 1793.",
-      "key_figures": [
-        "Stanis\u0142aw August Poniatowski (King of Poland)",
-        "Hugo Ko\u0142\u0142\u0105taj (co-author)",
-        "Ignacy Potocki (co-author)",
-        "Catherine the Great (Russian Empress, opposed the constitution)"
-      ],
-      "sources": [
-        {
-          "name": "Text of the Constitution of 3 May 1791 (original in the Central Archives of Historical Records, Warsaw)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Proceedings of the Four-Year Sejm (Diariusz Sejmu)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Richard Butterwick, The Polish Revolution and the Catholic Church, 1788\u20131792 (2012)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The constitutional text survives in original form. Parliamentary proceedings are well documented.",
-      "cross_references": [
-        "1787-US Constitution",
-        "1793-Second Partition of Poland"
-      ]
-    },
-    {
-      "id": "1791-016",
-      "title": "Birmingham Riots (Priestley Riots)",
-      "region": "England (Birmingham)",
-      "coordinates_approx": "52.48, -1.89",
-      "category": "political",
-      "description": "On 14\u201317 July 1791, a 'Church and King' mob attacked the homes and laboratories of prominent Dissenters in Birmingham, most notably destroying the house and scientific laboratory of Joseph Priestley, the chemist who had co-discovered oxygen. The rioters were motivated by hostility toward Priestley's support for the French Revolution and religious dissent. Priestley fled to London and eventually emigrated to the United States. The riots reflected the deep polarization in British society over the French Revolution and demonstrated the volatility of radical-conservative tensions.",
-      "key_figures": [
-        "Joseph Priestley (scientist and Dissenting minister)",
-        "Edmund Burke (whose Reflections on the Revolution in France had inflamed anti-radical sentiment)"
-      ],
-      "sources": [
-        {
-          "name": "Joseph Priestley, An Appeal to the Public on the Subject of the Riots in Birmingham (1791)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Home Office correspondence and trial records (The National Archives, Kew)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Jenny Uglow, The Lunar Men: Five Friends Whose Curiosity Changed the World (2002)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented in contemporary accounts, legal records, and Priestley's own writings.",
-      "cross_references": [
-        "1790-Burke's Reflections on the Revolution in France"
-      ]
-    },
-    {
-      "id": "1791-017",
-      "title": "Toussaint Louverture joins the Haitian Revolution",
-      "region": "Saint-Domingue (modern Haiti)",
-      "coordinates_approx": "19.70, -72.34",
-      "category": "military",
-      "description": "In the months following the August 1791 slave uprising, Toussaint Louverture \u2014 a formerly enslaved man who had been freed for about 15 years and was literate and knowledgeable about military strategy \u2014 joined the rebel forces. Initially serving under early leaders like Jean-Fran\u00e7ois and Biassou, Toussaint quickly distinguished himself through military skill and political acumen. He would eventually become the dominant leader of the revolution, transforming an insurgency into a disciplined military and political movement. His entry into the conflict in late 1791 marked the beginning of one of the most remarkable military careers of the era.",
-      "key_figures": [
-        "Toussaint Louverture (revolutionary leader)",
-        "Jean-Fran\u00e7ois Papillon (early rebel commander)",
-        "Georges Biassou (early rebel commander)"
-      ],
-      "sources": [
-        {
-          "name": "Colonial correspondence referencing early rebel leadership (Archives nationales d'outre-mer)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "C.L.R. James, The Black Jacobins: Toussaint L'Ouverture and the San Domingo Revolution (1938; revised 1963)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Philippe Girard, Toussaint Louverture: A Revolutionary Life (2016)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The exact date of Toussaint's entry into the revolt is uncertain; sources differ on whether he joined in September, October, or November 1791. That he joined in late 1791 is the scholarly consensus.",
-      "cross_references": [
-        "1791-005",
-        "1801-Toussaint's constitution for Saint-Domingue"
-      ]
-    },
-    {
-      "id": "1791-018",
-      "title": "Vermont admitted as the fourteenth US state",
-      "region": "United States of America (Vermont)",
-      "coordinates_approx": "44.26, -72.58",
-      "category": "political",
-      "description": "On 4 March 1791, Vermont was admitted to the Union as the fourteenth state and the first to join after the original thirteen. Vermont had functioned as an independent republic since 1777 and was the first American jurisdiction to partially abolish adult slavery in its constitution. Its admission resolved a long-standing territorial dispute with New York and was paired with Kentucky's admission (1792) to maintain the balance between northern and southern states.",
-      "key_figures": [
-        "Thomas Chittenden (first Governor of Vermont)"
-      ],
-      "sources": [
-        {
-          "name": "Act of Congress admitting Vermont, 18 February 1791",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Michael Bellesiles, Revolutionary Outlaws: Ethan Allen and the Struggle for Independence on the Early American Frontier (1993)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Federal legislative records confirm the date.",
-      "cross_references": [
-        "1777-Vermont declares independence"
-      ]
-    },
-    {
-      "id": "1791-019",
-      "title": "Selim III begins Ottoman military reforms (Nizam-\u0131 Cedid)",
-      "region": "Ottoman Empire (Istanbul)",
-      "coordinates_approx": "41.01, 28.98",
-      "category": "military",
-      "description": "Sultan Selim III, confronting Ottoman military defeats against Russia and Austria, began implementing the Nizam-\u0131 Cedid ('New Order') reforms in 1791\u20131792. These reforms aimed to create a modern European-style army trained by foreign (primarily French) advisors, alongside fiscal reforms to fund the new military. The Nizam-\u0131 Cedid represented the most ambitious Ottoman modernization effort to date, but faced fierce resistance from the Janissary corps and conservative ulema. The program would ultimately contribute to Selim's deposition and murder in 1807\u20131808.",
-      "key_figures": [
-        "Selim III (Ottoman Sultan)",
-        "Ebubekir Ratip Efendi (Ottoman ambassador whose reports on European armies influenced reform)"
-      ],
-      "sources": [
-        {
-          "name": "Ottoman administrative records and Selim III's reform memoranda (hatt-\u0131 h\u00fcmayun)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Stanford J. Shaw, Between Old and New: The Ottoman Empire Under Sultan Selim III, 1789\u20131807 (1971)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Ottoman archival sources document the reform program, though the exact start date is gradual rather than a single event.",
-      "cross_references": [
-        "1791-014",
-        "1807-Deposition of Selim III"
-      ]
-    },
-    {
-      "id": "1791-020",
-      "title": "Luigi Galvani publishes De viribus electricitatis",
-      "region": "Italy (Bologna, Papal States)",
-      "coordinates_approx": "44.50, 11.35",
-      "category": "scientific",
-      "description": "In 1791, Italian physician Luigi Galvani published De viribus electricitatis in motu musculari commentarius (Commentary on the Effect of Electricity on Muscular Motion), describing his experiments showing that frog legs twitched when touched with two different metals. Galvani attributed this to 'animal electricity' inherent in living tissue. While his theoretical explanation was contested by Alessandro Volta \u2014 who argued the electricity came from the contact between dissimilar metals, leading to the invention of the battery \u2014 Galvani's work founded the field of bioelectricity and electrophysiology and profoundly influenced both science and culture (inspiring, among other things, Mary Shelley's Frankenstein).",
-      "key_figures": [
-        "Luigi Galvani (physician and physicist)",
-        "Alessandro Volta (physicist, who would dispute Galvani's interpretation)"
-      ],
-      "sources": [
-        {
-          "name": "Luigi Galvani, De viribus electricitatis in motu musculari commentarius (1791), published in the proceedings of the Bologna Academy of Sciences",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Marco Bresadola, 'Medicine and Science in the Life of Luigi Galvani', Brain Research Bulletin 46 (1998)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The original publication survives and is dated precisely.",
-      "cross_references": [
-        "1800-Volta invents the battery"
-      ]
-    },
-    {
-      "id": "1791-021",
-      "title": "French Le Chapelier Law bans trade guilds and workers' associations",
-      "region": "France",
-      "coordinates_approx": "48.86, 2.35",
-      "category": "economic",
-      "description": "On 14 June 1791, the National Assembly passed the Le Chapelier Law, which banned guilds, trade unions, and all forms of workers' associations, including the right to strike. Framed in the language of individual liberty and free enterprise, the law reflected the Revolution's hostility to corporate intermediary bodies between the citizen and the state. It effectively prohibited collective labor action in France for nearly a century \u2014 the law was not fully repealed until 1884. It demonstrated the bourgeois character of the early Revolution's economic liberalism.",
-      "key_figures": [
-        "Isaac Ren\u00e9 Guy le Chapelier (deputy and sponsor of the law)"
-      ],
-      "sources": [
-        {
-          "name": "Text of the Le Chapelier Law (Archives parlementaires, 14 June 1791)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "William Sewell, Work and Revolution in France: The Language of Labor from the Old Regime to 1848 (1980)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Legislative text and parliamentary debates survive.",
-      "cross_references": [
-        "1789-Abolition of feudalism in France",
-        "1884-French trade unions legalized"
-      ]
-    },
-    {
-      "id": "1791-022",
-      "title": "George Vancouver expedition departs for the Pacific Northwest",
-      "region": "England / Pacific Ocean",
-      "coordinates_approx": "50.37, -4.14",
-      "category": "exploration",
-      "description": "On 1 April 1791, Captain George Vancouver departed Falmouth, England, commanding HMS Discovery and HMS Chatham on a major expedition to survey the Pacific Northwest coast of North America. The expedition's goals included receiving the territory at Nootka Sound from Spain under the Nootka Convention, surveying the coastline from California to Alaska to determine whether a Northwest Passage existed, and charting the coast in detail. The voyage lasted until 1795 and produced some of the most detailed maritime surveys of the era, establishing British claims in the region.",
-      "key_figures": [
-        "George Vancouver (Royal Navy captain and expedition leader)"
-      ],
-      "sources": [
-        {
-          "name": "George Vancouver, A Voyage of Discovery to the North Pacific Ocean and Round the World (1798)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Admiralty records and ship logs (The National Archives, Kew)",
+          "name": "Abolitionist publications and pamphlets",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Vancouver's own published account and Admiralty records provide precise dates.",
+      "certainty_note": "The 1791 parliamentary debate and vote are precisely documented. The date and outcome are uncontested.",
       "cross_references": [
-        "1790-Nootka Crisis between Britain and Spain"
-      ]
-    },
-    {
-      "id": "1791-023",
-      "title": "Slave revolt in Dominica (Colihaut uprising)",
-      "region": "British Caribbean (Dominica)",
-      "coordinates_approx": "15.49, -61.46",
-      "category": "military",
-      "description": "In early 1791, enslaved people in Dominica staged an uprising influenced by the revolutionary ferment in neighboring French colonies. The revolt, centered in the Colihaut area, was part of a broader pattern of Caribbean slave resistance emboldened by the ideals of the French Revolution and news of the free people of color's political mobilization in Saint-Domingue. While suppressed by British forces, the uprising was one of several that demonstrated the interconnected nature of revolutionary movements across the Caribbean in this period.",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "Colonial Office correspondence (CO 71, The National Archives, Kew)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "David Barry Gaspar and David Patrick Geggus, eds., A Turbulent Time: The French Revolution and the Greater Caribbean (1997)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Colonial administrative records document the uprising, though details are sparse compared to larger revolts.",
-      "cross_references": [
-        "1791-005"
+        "1807-001 (Slave Trade Act passed)"
       ]
     }
   ],
-  "disconfirming_evidence": "Several events listed above have contested elements: (1) The Bois Ca\u00efman ceremony (1791-005): Historian David Geggus has argued that the ceremony's details \u2014 particularly the Vodou ritual elements \u2014 may be largely legendary, drawn from Antoine Dalmas's hostile 1814 account rather than contemporary evidence. The ceremony has become a foundational national myth for Haiti, but its specific details (the pig sacrifice, the oath) are not attested in any contemporaneous source. The uprising itself is unquestioned; the ceremony's precise nature is not. (2) Mozart's cause of death (1791-010): Over 100 causes of death have been proposed, ranging from rheumatic fever to mercury poisoning to chronic kidney disease. The persistent legend that Antonio Salieri poisoned Mozart has no credible evidence and was already debunked in the 19th century, though it persists in popular culture via Pushkin and the film Amadeus. (3) The Polish Constitution of 3 May (1791-015): Its adoption was partly achieved by political maneuvering \u2014 reformers deliberately chose a date when many conservative opponents were still away from Warsaw after Easter recess. Some historians note this raises questions about its democratic legitimacy, though it was subsequently affirmed by a fuller session. (4) Toussaint Louverture's early role (1791-017): Some scholars have questioned whether Toussaint initially helped protect his former master's property before joining the revolt, complicating the narrative of him as an immediate revolutionary. Philippe Girard's 2016 biography presents evidence that Toussaint may have been more cautious and calculating in his early involvement than the heroic narrative suggests.",
-  "historiographic_note": "1791 is exceptionally well documented. The French Revolution generated an enormous volume of printed material \u2014 newspapers, pamphlets, legislative records, correspondence \u2014 making it one of the most densely sourced periods in history. American constitutional records are similarly abundant. The Haitian Revolution, however, suffers from significant source biases: most contemporary accounts were written by white colonists or French officials hostile to the enslaved population, and the voices of the enslaved themselves survive only through mediated accounts. The Qing and Ottoman sources exist in abundance in their respective archives but are underrepresented in English-language historiography. South Asian sources for the Anglo-Mysore War are heavily tilted toward British East India Company records; Tipu Sultan's own administrative records survive only partially. African and Pacific history for this period remains poorly represented in the available sources, reflecting both archival destruction and the biases of colonial-era scholarship.",
+  "disconfirming_evidence": "The significance of the Flight to Varennes is sometimes overstated in popular accounts as an immediate cause of the Revolution's radicalisation; modern scholarship emphasises that radical sentiment was already strong and that the flight accelerated but did not originate the shift toward republicanism. The Macartney Embassy is sometimes portrayed as a complete failure, but recent scholarship notes that it did achieve some limited commercial concessions and provided valuable intelligence to Britain. The 1791 parliamentary abolition vote is sometimes cited as a major turning point, but historians debate whether it reflected genuine moral conviction or strategic positioning by Whig politicians.",
+  "historiographic_note": "The year 1791 is exceptionally well-documented in European and North American sources, particularly for France, Britain, and the United States. The record is heavily weighted toward political and military events in these regions. Documentation of events in Asia, Africa, and the Ottoman Empire is thinner and often filtered through European colonial or diplomatic accounts. The Haitian Revolution is documented primarily through the accounts of white colonists and later historiography; enslaved people's own voices are largely absent from contemporary written records. Chinese sources on the Macartney Embassy exist but are less frequently consulted in Western historiography. The year reflects the biases of surviving archives: court records, parliamentary proceedings, and published narratives dominate, while popular movements and non-elite perspectives are underrepresented.",
   "graph_edges": [
     {
       "from": "1791-001",
-      "to": "1792-French Republic declared",
+      "to": "1792-001",
       "relation": "led_to",
-      "note": "The Flight to Varennes destroyed public trust in the monarchy and accelerated the move toward republicanism"
+      "note": "The Flight to Varennes discredited the monarchy and accelerated the move toward abolishing it in 1792."
     },
     {
-      "from": "1791-005",
-      "to": "1804-Haitian independence",
+      "from": "1791-002",
+      "to": "1804-001",
       "relation": "led_to",
-      "note": "The August 1791 slave uprising was the opening act of the Haitian Revolution, which culminated in independence in 1804"
+      "note": "The 1791 Haitian uprising was the beginning of the revolutionary process that culminated in independence in 1804."
     },
     {
       "from": "1791-006",
-      "to": "1787-US Constitutional Convention",
-      "relation": "caused_by",
-      "note": "The Bill of Rights was demanded as a condition for ratification of the 1787 Constitution"
-    },
-    {
-      "from": "1791-009",
-      "to": "1792-French declaration of war against Austria",
-      "relation": "led_to",
-      "note": "The Declaration of Pillnitz inflamed French revolutionary hostility and contributed to the declaration of war in April 1792"
-    },
-    {
-      "from": "1791-015",
-      "to": "1793-Second Partition of Poland",
-      "relation": "led_to",
-      "note": "The constitution provoked Russian and Prussian hostility, directly leading to military intervention and the second partition"
-    },
-    {
-      "from": "1791-012",
-      "to": "1792-Treaty of Seringapatam",
-      "relation": "led_to",
-      "note": "The 1791 campaigns set the stage for Tipu Sultan's defeat and the harsh peace of 1792"
-    },
-    {
-      "from": "1791-014",
-      "to": "1792-Treaty of Jassy",
-      "relation": "led_to",
-      "note": "The Russian victory at Ma\u010din forced the Ottoman Empire to accept the Treaty of Jassy"
-    },
-    {
-      "from": "1791-013",
-      "to": "1792-Qing defeat of Gurkhas",
-      "relation": "led_to",
-      "note": "The Qing expedition dispatched in 1791 pursued the Gurkhas into Nepal in 1792"
-    },
-    {
-      "from": "1791-020",
-      "to": "1800-Volta invents the battery",
-      "relation": "led_to",
-      "note": "Galvani's experiments and Volta's reinterpretation of them led directly to the invention of the voltaic pile"
-    },
-    {
-      "from": "1791-003",
-      "to": "1791-004",
+      "to": "1791-001",
       "relation": "contemporary_with",
-      "note": "Gouges published her Declaration in direct response to the exclusion of women from the new constitution"
+      "note": "The Priestley Riots reflected the same anxieties about revolutionary contagion that motivated the Flight to Varennes."
     },
     {
-      "from": "1791-005",
-      "to": "1791-017",
+      "from": "1791-010",
+      "to": "1807-001",
       "relation": "led_to",
-      "note": "The August uprising drew Toussaint Louverture into the revolutionary movement"
-    },
-    {
-      "from": "1791-001",
-      "to": "1791-002",
-      "relation": "led_to",
-      "note": "The Flight to Varennes prompted the republican petition that led to the Champ de Mars massacre"
-    },
-    {
-      "from": "1791-001",
-      "to": "1791-009",
-      "relation": "led_to",
-      "note": "Louis XVI's failed flight alarmed European monarchs and prompted the Declaration of Pillnitz"
+      "note": "The 1791 parliamentary debate on abolition was part of the campaign that succeeded in 1807."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T07:36:20.176861",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

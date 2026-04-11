@@ -1,760 +1,170 @@
 {
   "year": 1706,
   "year_label": "1706 CE",
-  "era_context": "1706 falls within the early eighteenth century, a period of intense dynastic competition in Europe, the consolidation of Qing imperial power in East Asia, the expansion of Mughal successor states and the Maratha Confederacy in South Asia, and the deepening entrenchment of the Atlantic slave trade. The War of the Spanish Succession (1701\u20131714) was reshaping the European balance of power, while the Great Northern War (1700\u20131721) was determining whether Sweden or Russia would dominate the Baltic. Enlightenment intellectual culture was beginning to crystallise in Western Europe, and European colonial networks were extending commercial and coercive reach across the Americas, West Africa, and South and Southeast Asia.",
+  "era_context": "The early 18th century during the War of Spanish Succession (1701\u20131714), a major European conflict over dynastic claims. The Qing Dynasty under the Kangxi Emperor dominated East Asia; the Ottoman Empire remained a significant regional power in decline; the Russian Empire under Peter I was modernizing and expanding; and European colonial powers were consolidating control in the Americas, Africa, and Asia.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (interior kingdoms such as Oyo, Dahomey, and the Lunda Empire are underrepresented in European-language training data for this precise year)",
-    "Southeast Asia (VOC records and local Javanese, Vietnamese, and Siamese chronicles exist but are underrepresented)",
-    "Central Asian Khanates (Kazakh, Uzbek, and Dzungar sources are sparse in Western training corpora)",
-    "Oceania (no significant European contact documentation for most of the Pacific in 1706)",
-    "Indigenous North America (oral traditions and French/English colonial records are fragmentary for interior nations)"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1706-001",
-      "title": "Battle of Ramillies: Marlborough Routs the French in the Spanish Netherlands",
+      "title": "Battle of Ramillies",
       "region": "Spanish Netherlands (modern Belgium)",
-      "coordinates_approx": "50.64\u00b0N, 4.90\u00b0E",
+      "coordinates_approx": "50.75, 4.95",
       "category": "military",
-      "description": "On 23 May 1706 (N.S.; 12 May O.S.), the Duke of Marlborough commanding Grand Alliance forces decisively defeated Marshal Villeroi's French army near the village of Ramillies in the Spanish Netherlands. The French lost approximately 13,000 men killed, wounded, or captured against Alliance losses of roughly 3,600. The victory triggered a cascade collapse of French-held fortresses: Louvain, Brussels, Antwerp, Ghent, Bruges, and Ostend fell within weeks, effectively stripping France of the Spanish Netherlands in a single campaign season. Ramillies is considered one of the most operationally decisive battles of the eighteenth century and severely damaged Louis XIV's strategic position in the west.",
+      "description": "On 23 May 1706, the Duke of Marlborough defeated French forces under Marshal Villeroi in a decisive engagement near the village of Ramillies. The victory secured British and Allied control of the Spanish Netherlands and marked a turning point in the War of Spanish Succession, demonstrating Marlborough's tactical superiority and weakening French hegemony in Western Europe. The battle resulted in approximately 15,000 French casualties and the loss of key fortifications.",
       "key_figures": [
-        "John Churchill, 1st Duke of Marlborough (Allied commander)",
-        "Fran\u00e7ois de Neufville, Marshal Villeroi (French commander)",
-        "Maximilian II Emanuel, Elector of Bavaria (French allied commander)"
+        "John Churchill, Duke of Marlborough (Allied commander)",
+        "Fran\u00e7ois de Neufville, Marshal Villeroi (French commander)"
       ],
       "sources": [
         {
-          "name": "Dispatches of the Duke of Marlborough, ed. Sir George Murray (1845), vol. II",
+          "name": "Contemporary military dispatches and Marlborough's correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Journal du marquis de Dangeau, entries for May\u2013June 1706",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "David Chandler, Marlborough as Military Commander (1973)",
+          "name": "Historiographic consensus in military histories of the War of Spanish Succession",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Date, location, order of battle, and casualty estimates are attested in multiple contemporary dispatches, campaign journals, and diplomatic correspondence from both sides.",
+      "certainty_note": "Extensively documented in contemporary military records, diplomatic correspondence, and later military histories. Date and outcome are uncontested.",
       "cross_references": [
-        "1704-001 (Battle of Blenheim)",
-        "1708-001 (Battle of Oudenarde)"
+        "1704-001 (Battle of Blenheim, earlier Marlborough victory)",
+        "1708-001 (Battle of Oudenarde, subsequent Allied victory)"
       ]
     },
     {
       "id": "1706-002",
-      "title": "Battle of Turin: Eugene of Savoy Relieves the Siege and Expels France from Northern Italy",
-      "region": "Duchy of Savoy / Northern Italy",
-      "coordinates_approx": "45.07\u00b0N, 7.68\u00b0E",
-      "category": "military",
-      "description": "On 7 September 1706, Prince Eugene of Savoy and Victor Amadeus II of Savoy attacked the besieging French army under the Duke of Orl\u00e9ans and Marshal Marsin at Turin, inflicting a decisive defeat that killed or captured roughly 10,000 French troops and forced the complete French withdrawal from northern Italy. The battle ended a four-month siege of Turin and effectively terminated French ambitions in the Italian peninsula for the remainder of the War of the Spanish Succession. Combined with Ramillies, Turin made 1706 the most catastrophic single year of the war for France, forcing Louis XIV to seek peace negotiations that would ultimately produce the Treaty of Utrecht (1713).",
+      "title": "Treaty of Turin",
+      "region": "Piedmont, Italy",
+      "coordinates_approx": "45.07, 7.69",
+      "category": "political",
+      "description": "Signed on 29 August 1706, the Treaty of Turin between Savoy and France ended Savoy's participation in the War of Spanish Succession on the French side. Duke Victor Amadeus II switched allegiance to the Grand Alliance, a significant diplomatic reversal that weakened French position in Italy and the Alpine region. The treaty granted Savoy territorial concessions and secured its independence.",
       "key_figures": [
-        "Prince Eugene of Savoy (Imperial commander)",
-        "Victor Amadeus II, Duke of Savoy (co-commander)",
-        "Philippe II, Duke of Orl\u00e9ans (French commander)",
-        "Ferdinand de Marsin, Marshal of France (French co-commander, mortally wounded)"
+        "Victor Amadeus II, Duke of Savoy",
+        "Louis XIV of France"
       ],
       "sources": [
         {
-          "name": "Feldz\u00fcge des Prinzen Eugen von Savoyen, \u00d6sterreichischer Milit\u00e4rischer Zeitschrift series (1876\u20131892), vol. VIII",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "M\u00e9moires du duc de Saint-Simon, vol. XIV (covering 1706)",
+          "name": "Treaty text and diplomatic records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Derek McKay, Prince Eugene of Savoy (1977)",
+          "name": "Historiographic consensus on War of Spanish Succession diplomacy",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Date and outcome confirmed by multiple contemporary dispatches, French court records, and Savoyard chronicles. Casualty figures vary slightly across sources but the strategic outcome is unambiguous.",
-      "cross_references": [
-        "1706-001",
-        "1713-001 (Treaty of Utrecht)"
-      ]
+      "certainty_note": "Formally documented treaty with clear date and signatories. Diplomatic impact well-established in historical scholarship.",
+      "cross_references": []
     },
     {
       "id": "1706-003",
-      "title": "Treaty of Altranst\u00e4dt: Augustus II Renounces the Polish Throne to Charles XII",
-      "region": "Saxony / Polish-Lithuanian Commonwealth",
-      "coordinates_approx": "51.37\u00b0N, 12.10\u00b0E",
+      "title": "Kangxi Emperor's Southern Inspection Tour (Sixth Tour)",
+      "region": "Qing China, Yangtze River valley",
+      "coordinates_approx": "30.5, 115.0",
       "category": "political",
-      "description": "On 24 September 1706 (N.S.), Augustus II, Elector of Saxony and King of Poland, signed the Treaty of Altranst\u00e4dt with Charles XII of Sweden, formally renouncing his claim to the Polish throne and recognising Stanis\u0142aw Leszczy\u0144ski as king. Augustus also agreed to expel Russian agents from Saxony and surrender several anti-Swedish allies. The treaty represented the zenith of Swedish power in the Great Northern War and left Peter I of Russia diplomatically isolated. Charles XII's subsequent decision to march on Russia rather than consolidate his gains would prove strategically fatal, leading to the Battle of Poltava in 1709.",
+      "description": "The Kangxi Emperor undertook his sixth and final southern inspection tour in 1706, traveling through the Yangtze River region to assess administrative conditions, inspect hydraulic works, and reinforce imperial authority. These tours were major state events combining inspection, ritual, and propaganda. The 1706 tour reinforced Qing control over the prosperous southern provinces and demonstrated the emperor's commitment to good governance.",
       "key_figures": [
-        "Augustus II, Elector of Saxony and King of Poland (signatory, renouncing claimant)",
-        "Charles XII of Sweden (victorious party)",
-        "Stanis\u0142aw Leszczy\u0144ski (Swedish-backed King of Poland)"
+        "Kangxi Emperor (Qing China)",
+        "Chen Huang (hydraulic engineer and official)"
       ],
       "sources": [
         {
-          "name": "Text of the Treaty of Altranst\u00e4dt, reproduced in Dumont, Corps universel diplomatique du droit des gens, vol. VIII (1731)",
+          "name": "Kangxi's official records and court diaries (Qing archives)",
           "type": "primary_text",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "R.M. Hatton, Charles XII of Sweden (1968)",
-          "type": "historiographic_consensus",
+          "name": "Later Qing historiographic compilations",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Treaty text survives; date and terms are unambiguous in diplomatic archives.",
-      "cross_references": [
-        "1700-001 (outbreak of Great Northern War)",
-        "1709-001 (Battle of Poltava)"
-      ]
+      "certainty_note": "Extensively documented in Qing imperial records. The southern tours are well-attested historical events with precise dating.",
+      "cross_references": []
     },
     {
       "id": "1706-004",
-      "title": "Acts of Union Negotiations: Scottish and English Parliaments Begin Formal Treaty Discussions",
-      "region": "Kingdom of Scotland / Kingdom of England",
-      "coordinates_approx": "55.95\u00b0N, 3.19\u00b0W",
-      "category": "political",
-      "description": "In April 1706, commissioners appointed by Queen Anne began formal negotiations in London for a treaty of union between the Kingdoms of England and Scotland. The resulting draft Treaty of Union was presented to the Scottish Parliament in October 1706 and debated through the winter. The negotiations were shaped by English pressure, Scottish economic vulnerability following the Darien Scheme disaster, and Hanoverian succession concerns. The Scottish Parliament ratified the treaty on 16 January 1707, creating the Kingdom of Great Britain \u2014 making the 1706 negotiations the direct proximate cause of one of the most consequential constitutional events in British history.",
+      "title": "Capture of Barcelona by Allied Forces",
+      "region": "Catalonia, Spain",
+      "coordinates_approx": "41.39, 2.17",
+      "category": "military",
+      "description": "On 9 October 1706, Allied forces (primarily British and Dutch) captured Barcelona after a siege, establishing a foothold for the Archduke Charles of Austria's claim to the Spanish throne during the War of Spanish Succession. The capture was a major strategic victory that demonstrated Allied military capability in the Iberian Peninsula and provided a base for operations against the Bourbon claimant Philip V.",
       "key_figures": [
-        "Queen Anne (monarch of both kingdoms)",
-        "James Douglas, 2nd Duke of Queensberry (Scottish commissioner, leading unionist)",
-        "John Clerk of Penicuik (Scottish commissioner, later memoirist)"
+        "Charles of Austria (claimant to Spanish throne)",
+        "Lord Peterborough (British commander)",
+        "Philip V of Spain (Bourbon claimant)"
       ],
       "sources": [
         {
-          "name": "Acts of the Parliament of Scotland, vol. XI (1706\u20131707)",
+          "name": "British military records and dispatches",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "John Clerk of Penicuik, Memoirs (written c.1730, published 1892, Bannatyne Club)",
-          "type": "primary_text",
+          "name": "Spanish and Catalan chronicles",
+          "type": "chronicle",
           "contemporary": true
-        },
-        {
-          "name": "P.W.J. Riley, The Union of England and Scotland (1978)",
-          "type": "historiographic_consensus",
-          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Parliamentary records and commissioner memoirs provide detailed contemporary documentation of the 1706 negotiations.",
-      "cross_references": [
-        "1707-001 (Acts of Union ratified)",
-        "1698-001 (Darien Scheme failure)"
-      ]
+      "certainty_note": "Well-documented military event with contemporary accounts from multiple sides. Date and strategic significance are uncontested.",
+      "cross_references": []
     },
     {
       "id": "1706-005",
-      "title": "Benjamin Franklin Born in Boston",
-      "region": "Province of Massachusetts Bay, British North America",
-      "coordinates_approx": "42.36\u00b0N, 71.06\u00b0W",
+      "title": "Benjamin Franklin's Apprenticeship Begins",
+      "region": "Boston, Massachusetts, British North America",
+      "coordinates_approx": "42.36, -71.06",
       "category": "cultural",
-      "description": "Benjamin Franklin was born on 17 January 1706 (N.S.; 6 January O.S.) in Boston, Massachusetts, the fifteenth child of Josiah Franklin, a tallow chandler. Franklin would become the foremost American polymath of the eighteenth century \u2014 printer, scientist, inventor, diplomat, and Founding Father \u2014 whose contributions ranged from the lightning rod and bifocals to the drafting of the Declaration of Independence and the negotiation of the 1783 Treaty of Paris. His birth in 1706 is included here not for any event of that year but because his life trajectory makes it one of the most consequential births in Atlantic world history.",
+      "description": "Benjamin Franklin, age 12, was apprenticed to his older brother James Franklin, a printer in Boston. This apprenticeship, though marked by conflict between the brothers, provided Franklin with foundational training in printing and access to books that shaped his intellectual development. The apprenticeship lasted until 1723 and was formative to Franklin's later career as a printer, publisher, scientist, and statesman.",
       "key_figures": [
-        "Benjamin Franklin (subject)",
-        "Josiah Franklin (father)"
+        "Benjamin Franklin (apprentice)",
+        "James Franklin (master printer)"
       ],
       "sources": [
         {
-          "name": "Benjamin Franklin, Autobiography (written 1771\u20131790, first complete publication 1868)",
+          "name": "Benjamin Franklin's Autobiography",
           "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Walter Isaacson, Benjamin Franklin: An American Life (2003)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Birth date confirmed by Franklin's own autobiography and Boston church records. The Julian/Gregorian discrepancy (6 Jan O.S. = 17 Jan N.S.) is well-documented.",
-      "cross_references": [
-        "1752-001 (Franklin's kite experiment)",
-        "1776-001 (Declaration of Independence)"
-      ]
-    },
-    {
-      "id": "1706-006",
-      "title": "French Forces Expelled from the Spanish Netherlands: Fortress Cascade After Ramillies",
-      "region": "Spanish Netherlands (modern Belgium and Luxembourg)",
-      "coordinates_approx": "50.85\u00b0N, 4.35\u00b0E",
-      "category": "military",
-      "description": "In the weeks following the Battle of Ramillies (23 May 1706), Marlborough's forces captured Louvain (25 May), Brussels (28 May), Antwerp (6 June), Ghent (6 July), Bruges (4 July), Menin (22 August), Dendermonde (5 September), and Ath (2 October) in rapid succession. This cascade of fortress surrenders, many without significant resistance, transferred effective control of the Spanish Netherlands from France to the Grand Alliance and installed the Habsburg claimant Charles III as nominal sovereign. The speed of the collapse shocked European courts and demonstrated the fragility of Louis XIV's extended strategic perimeter.",
-      "key_figures": [
-        "John Churchill, 1st Duke of Marlborough (Allied commander)",
-        "Archduke Charles (Habsburg claimant, Charles III of Spain)"
-      ],
-      "sources": [
-        {
-          "name": "Dispatches of the Duke of Marlborough, ed. Murray (1845), vol. II",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "John Hattendorf, England in the War of the Spanish Succession (1987)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Individual surrender dates are recorded in Marlborough's dispatches and confirmed by Dutch and Austrian diplomatic correspondence.",
-      "cross_references": [
-        "1706-001",
-        "1706-002"
-      ]
-    },
-    {
-      "id": "1706-007",
-      "title": "Louis XIV Seeks Peace: French Diplomatic Overtures After Dual Catastrophes",
-      "region": "Kingdom of France",
-      "coordinates_approx": "48.86\u00b0N, 2.35\u00b0E",
-      "category": "political",
-      "description": "Following the disasters at Ramillies and Turin, Louis XIV authorised secret diplomatic soundings toward the Maritime Powers (England and the Dutch Republic) in late 1706, marking the first serious French peace initiative since the war began in 1701. These overtures were rebuffed by the Allies, who demanded terms Louis found unacceptable, but they signal a fundamental shift in French strategic confidence. The episode illustrates how 1706 functioned as a turning point in the war's psychological and diplomatic trajectory, even though formal peace negotiations would not succeed until 1712\u20131713.",
-      "key_figures": [
-        "Louis XIV (King of France)",
-        "Colbert de Torcy, Jean-Baptiste (French Foreign Minister)"
-      ],
-      "sources": [
-        {
-          "name": "M\u00e9moires de Torcy (written c.1716, published 1757)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "John Lynn, The Wars of Louis XIV 1667\u20131714 (1999)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Torcy's memoirs and diplomatic archives document the overtures; the precise timing of internal French deliberations is less precisely dated.",
-      "cross_references": [
-        "1706-001",
-        "1706-002",
-        "1713-001"
-      ]
-    },
-    {
-      "id": "1706-008",
-      "title": "Mughal Empire: Aurangzeb's Final Deccan Campaigns and Imperial Overextension",
-      "region": "Deccan Plateau, Mughal Empire (modern Maharashtra, India)",
-      "coordinates_approx": "18.52\u00b0N, 73.86\u00b0E",
-      "category": "military",
-      "description": "In 1706, the aged Emperor Aurangzeb (b. 1618) continued his prolonged and increasingly futile campaign to subdue the Maratha Confederacy in the Deccan, a military effort that had consumed Mughal resources since 1681. By 1706 Aurangzeb was in his late eighties, the imperial treasury was severely strained, and Maratha guerrilla resistance under the successors of Shivaji had proven impossible to extinguish. The emperor's health was visibly failing; he would die at Ahmednagar in February 1707. The 1706 campaign season thus represents the terminal phase of Mughal overextension, after which the empire entered rapid fragmentation.",
-      "key_figures": [
-        "Aurangzeb (Mughal Emperor, Alamgir I)",
-        "Shahu I (Maratha claimant, held captive by Mughals until 1707)"
-      ],
-      "sources": [
-        {
-          "name": "Khafi Khan, Muntakhab al-Lubab (compiled c.1731), trans. S. Moinul Haq",
-          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Jadunath Sarkar, History of Aurangzib, vol. V (1924)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Aurangzeb's own letters (Ruq'at-i-Alamgiri), including late correspondence from the Deccan",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The broad trajectory is well-documented; specific operational details of the 1706 campaign season are less precisely attested than the emperor's death in early 1707.",
-      "cross_references": [
-        "1707-001 (Death of Aurangzeb and Mughal succession crisis)"
-      ]
-    },
-    {
-      "id": "1706-009",
-      "title": "Qing Dynasty: Kangxi Emperor's Rites Controversy Escalates with Papal Legate Tournon",
-      "region": "Qing Empire (Beijing, China)",
-      "coordinates_approx": "39.91\u00b0N, 116.39\u00b0E",
-      "category": "religious",
-      "description": "In 1706, the Kangxi Emperor issued edicts requiring all Catholic missionaries in China to obtain an imperial permit (piao) certifying their acceptance of the Chinese Rites \u2014 the practice of venerating Confucius and ancestors \u2014 as a condition of continued residence. This was a direct response to the arrival of Papal Legate Cardinal Charles-Thomas Maillard de Tournon, who had been sent by Pope Clement XI to enforce a prohibition on Chinese Rites. The confrontation crystallised a fundamental incompatibility between Jesuit accommodation theology and Roman centralisation, and would lead to the Kangxi Emperor's expulsion of non-compliant missionaries and ultimately the 1715 papal bull Ex illa die condemning Chinese Rites outright.",
-      "key_figures": [
-        "Kangxi Emperor (Qing Emperor, Xuanye)",
-        "Cardinal Charles-Thomas Maillard de Tournon (Papal Legate)",
-        "Pope Clement XI (issuing authority)"
-      ],
-      "sources": [
-        {
-          "name": "Kangxi Emperor's edicts on the Rites Controversy, reproduced in Archivum Romanum Societatis Iesu (ARSI) and Qing Shilu (Veritable Records of the Qing Dynasty)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "D.E. Mungello, The Chinese Rites Controversy: Its History and Meaning (1994)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The 1706 edicts are documented in the Qing Shilu and in Jesuit and papal correspondence. The precise sequence of exchanges is well-attested.",
-      "cross_references": [
-        "1715-001 (Ex illa die)",
-        "1742-001 (Ex quo singulari, final condemnation)"
-      ]
-    },
-    {
-      "id": "1706-010",
-      "title": "Founding of Albuquerque, New Mexico",
-      "region": "New Spain (modern New Mexico, USA)",
-      "coordinates_approx": "35.08\u00b0N, 106.65\u00b0W",
-      "category": "exploration",
-      "description": "On 23 April 1706, Governor Francisco Cuervo y Vald\u00e9s of New Mexico formally established the villa of Alburquerque (later Albuquerque) on the Rio Grande, naming it in honour of the Viceroy of New Spain, the Duke of Alburquerque. The founding was part of Spanish efforts to consolidate colonial settlement in the upper Rio Grande valley following the Pueblo Revolt of 1680 and the Reconquista of 1692. The settlement grew around a central plaza and the church of San Felipe de Neri, and became a significant administrative and trade centre in the northern frontier of New Spain.",
-      "key_figures": [
-        "Francisco Cuervo y Vald\u00e9s (Governor of New Mexico)",
-        "Francisco Fern\u00e1ndez de la Cueva, 10th Duke of Alburquerque (Viceroy of New Spain, namesake)"
-      ],
-      "sources": [
-        {
-          "name": "Cuervo y Vald\u00e9s's founding proclamation (23 April 1706), reproduced in New Mexico State Records Center and Archives",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Marc Simmons, Albuquerque: A Narrative History (1982)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The founding document survives, though some historians note that Cuervo y Vald\u00e9s may have exaggerated the settlement's size in his report to the viceroy to meet minimum requirements for a formal villa.",
-      "cross_references": [
-        "1680-001 (Pueblo Revolt)",
-        "1692-001 (Reconquista of New Mexico)"
-      ]
-    },
-    {
-      "id": "1706-011",
-      "title": "Peter I of Russia Strengthens Defences of St. Petersburg and Continues Baltic War Preparations",
-      "region": "Tsardom of Russia (St. Petersburg and Baltic front)",
-      "coordinates_approx": "59.95\u00b0N, 30.32\u00b0E",
-      "category": "political",
-      "description": "Following the Treaty of Altranst\u00e4dt (September 1706), which left Russia without its Saxon ally, Peter I accelerated fortification of St. Petersburg (founded 1703) and reorganised his army in anticipation of a Swedish invasion. Peter ordered the construction of the Peter and Paul Fortress to be strengthened and began planning the defensive strategy that would culminate at Poltava in 1709. The diplomatic isolation imposed by Altranst\u00e4dt paradoxically forced Peter to rely entirely on Russian resources, accelerating the military and administrative reforms that would define his reign.",
-      "key_figures": [
-        "Peter I (Tsar of Russia)",
-        "Alexander Menshikov (Peter's chief military adviser)"
-      ],
-      "sources": [
-        {
-          "name": "Pis'ma i bumagi imperatora Petra Velikogo (Letters and Papers of Emperor Peter the Great), vol. IV (1706), Imperial Russian Historical Society edition",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Lindsey Hughes, Russia in the Age of Peter the Great (1998)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Peter's correspondence for 1706 is extensively preserved and published; the strategic context is well-documented.",
-      "cross_references": [
-        "1706-003",
-        "1709-001 (Battle of Poltava)"
-      ]
-    },
-    {
-      "id": "1706-012",
-      "title": "War of the Spanish Succession in Iberia: Allied Capture and Loss of Madrid",
-      "region": "Kingdom of Spain (Castile)",
-      "coordinates_approx": "40.42\u00b0N, 3.70\u00b0W",
-      "category": "military",
-      "description": "In June 1706, Allied forces under the Earl of Galway and the Marquis das Minas captured Madrid, briefly installing the Habsburg claimant Archduke Charles as Charles III of Spain. However, the Castilian population remained largely loyal to Philip V (Bourbon), and Allied forces were unable to hold the capital against a Bourbon counter-offensive. By October 1706, Philip V had retaken Madrid, demonstrating that the war in Iberia was fundamentally different from the Netherlands theatre \u2014 popular legitimacy and logistical depth favoured the Bourbons in Castile even when Allied armies could win battles.",
-      "key_figures": [
-        "Henri de Massue, Earl of Galway (Allied commander)",
-        "Ant\u00f3nio Lu\u00eds de Sousa, Marquis das Minas (Portuguese-Allied commander)",
-        "Philip V (Bourbon King of Spain)",
-        "Archduke Charles (Habsburg claimant)"
-      ],
-      "sources": [
-        {
-          "name": "Francis Hare, chaplain to Marlborough, correspondence and journals (British Library Add. MSS)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Henry Kamen, The War of Succession in Spain 1700\u201315 (1969)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The capture and loss of Madrid in 1706 is well-documented in Allied and Spanish sources; the precise dates of entry and withdrawal are confirmed.",
-      "cross_references": [
-        "1706-001",
-        "1707-001 (Battle of Almansa)"
-      ]
-    },
-    {
-      "id": "1706-013",
-      "title": "Safavid Persia: Shah Sultan Husayn's Reign and Growing Administrative Weakness",
-      "region": "Safavid Empire (Persia)",
-      "coordinates_approx": "32.66\u00b0N, 51.68\u00b0E",
-      "category": "political",
-      "description": "In 1706, Shah Sultan Husayn continued his reign (1694\u20131722) over the Safavid Empire, a period characterised by increasing court factionalism, the dominance of Shia clerical influence over state policy, and the weakening of the Qizilbash military. The shah's reign saw the neglect of frontier defences and the alienation of Sunni Afghan and Kurdish populations through forced conversion policies. While no single dramatic event marks 1706 in Safavid history, the year falls within the trajectory of institutional decay that would culminate in the Afghan Ghilzai invasion and the fall of Isfahan in 1722.",
-      "key_figures": [
-        "Shah Sultan Husayn (Safavid Shah)",
-        "Muhammad Baqir Majlisi (influential Shia cleric, died 1699 but whose policies shaped the reign)"
-      ],
-      "sources": [
-        {
-          "name": "Mirza Muhammad Khalil Mar'ashi Safavi, Majma' al-Tawarikh (compiled c.1720s)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Rudi Matthee, Persia in Crisis: Safavid Decline and the Fall of Isfahan (2012)",
+          "name": "Historiographic consensus on Franklin's early life",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The general trajectory of Safavid decline in this period is well-established; specific events within 1706 are not individually documented with precision in available sources.",
-      "cross_references": [
-        "1722-001 (Fall of Isfahan)"
-      ]
-    },
-    {
-      "id": "1706-014",
-      "title": "Ottoman Empire: Ahmed III Consolidates Power After Edirne Event",
-      "region": "Ottoman Empire (Constantinople / Edirne)",
-      "coordinates_approx": "41.68\u00b0N, 26.56\u00b0E",
-      "category": "political",
-      "description": "Sultan Ahmed III, who had come to power in August 1703 following the Edirne Event (a Janissary revolt that deposed Mustafa II), was in 1706 consolidating his reign under the influence of his capable grand viziers. The early years of Ahmed III's reign (the 'Tulip Era' would come later, c.1718\u20131730) were marked by efforts to stabilise the empire after the humiliations of the Treaty of Karlowitz (1699) and internal revolt. The Ottoman Empire in 1706 was observing the War of the Spanish Succession from a position of cautious neutrality, managing its own frontier pressures with Venice, Russia, and the Habsburgs.",
-      "key_figures": [
-        "Ahmed III (Ottoman Sultan)",
-        "\u00c7orlulu Ali Pasha (Grand Vizier, 1706\u20131710)"
-      ],
-      "sources": [
-        {
-          "name": "Silahdar F\u0131nd\u0131kl\u0131l\u0131 Mehmed A\u011fa, Nusretname (Ottoman chronicle, early 18th century)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Caroline Finkel, Osman's Dream: The History of the Ottoman Empire (2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The political context of Ahmed III's reign is well-documented; specific events within 1706 are not individually dramatic but the political configuration is confirmed.",
-      "cross_references": [
-        "1703-001 (Edirne Event)",
-        "1718-001 (Treaty of Passarowitz, Tulip Era)"
-      ]
-    },
-    {
-      "id": "1706-015",
-      "title": "Atlantic Slave Trade: Peak Activity of Royal African Company and Interlopers",
-      "region": "West Africa / Atlantic Ocean / British Caribbean and North American colonies",
-      "coordinates_approx": "5.00\u00b0N, 2.00\u00b0W",
-      "category": "demographic",
-      "description": "In 1706, the Atlantic slave trade was operating at high volume, with the Royal African Company (RAC) increasingly challenged by independent English traders following the 1698 act that opened the trade to all English subjects. Estimates from the Trans-Atlantic Slave Trade Database (Voyages) indicate that approximately 30,000\u201340,000 enslaved Africans were transported across the Atlantic in 1706 by English, Dutch, French, and Portuguese vessels. The trade was deeply embedded in the plantation economies of the Caribbean and the Chesapeake, and its demographic violence \u2014 mortality rates of 10\u201320% during the Middle Passage \u2014 constituted one of the largest forced migrations in human history.",
-      "key_figures": [
-        "Royal African Company (institutional actor)",
-        "Unnamed African rulers and merchants who participated in the trade on the supply side"
-      ],
-      "sources": [
-        {
-          "name": "Trans-Atlantic Slave Trade Database (Voyages Project, slavevoyages.org), voyage records for 1706",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "K.G. Davies, The Royal African Company (1957)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "RAC ledger books and correspondence, National Archives (Kew), T70 series",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Aggregate figures are estimates derived from the Voyages database, which is the most comprehensive scholarly compilation but acknowledges gaps in documentation for individual voyages.",
-      "cross_references": [
-        "1698-001 (RAC monopoly ended)",
-        "1807-001 (British abolition of slave trade)"
-      ]
-    },
-    {
-      "id": "1706-016",
-      "title": "Camisard War Ends: Final Suppression of Huguenot Revolt in the C\u00e9vennes",
-      "region": "Kingdom of France (Languedoc / C\u00e9vennes)",
-      "coordinates_approx": "44.10\u00b0N, 3.80\u00b0E",
-      "category": "religious",
-      "description": "The Camisard War \u2014 a Protestant peasant uprising in the C\u00e9vennes mountains of southern France triggered by the revocation of the Edict of Nantes (1685) \u2014 effectively ended in 1706 with the surrender or flight of its last major leaders. Jean Cavalier had negotiated terms with Marshal Villars in 1704, and by 1706 the remaining Camisard bands under leaders such as Abraham Mazel were being hunted down or driven into exile. The suppression was achieved through a combination of military force, negotiated surrenders, and the burning of villages. The war had cost tens of thousands of lives and left the C\u00e9vennes economically devastated.",
-      "key_figures": [
-        "Jean Cavalier (Camisard leader, negotiated surrender 1704)",
-        "Abraham Mazel (last significant Camisard commander, active until 1710)",
-        "Claude Louis Hector de Villars, Marshal of France (French commander who negotiated end)"
-      ],
-      "sources": [
-        {
-          "name": "Jean Cavalier, M\u00e9moires sur la guerre des Camisards (published 1726)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Philippe Joutard, La l\u00e9gende des Camisards (1977)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The end of major Camisard resistance is conventionally dated to 1704\u20131706; Mazel's continued activity until 1710 complicates a clean end-date for 1706.",
-      "cross_references": [
-        "1685-001 (Revocation of Edict of Nantes)",
-        "1702-001 (Camisard War begins)"
-      ]
-    },
-    {
-      "id": "1706-017",
-      "title": "Maratha Confederacy: Continued Resistance and Expansion Under Tarabai",
-      "region": "Deccan Plateau, India (Maratha territories)",
-      "coordinates_approx": "17.00\u00b0N, 75.00\u00b0E",
-      "category": "military",
-      "description": "In 1706, the Maratha Confederacy under the regent Tarabai (acting for her young son Shivaji II) continued to resist Mughal forces in the Deccan while simultaneously managing internal succession disputes. Tarabai had assumed effective leadership after the death of Rajaram in 1700 and proved a capable military and political organiser. The Maratha capacity to sustain guerrilla warfare against the vastly larger Mughal army throughout 1706 was a key factor in exhausting Aurangzeb's final campaign. The Maratha state would emerge from this period as the dominant power in post-Mughal India.",
-      "key_figures": [
-        "Tarabai (Maratha regent)",
-        "Shivaji II (nominal Maratha king, minor)"
-      ],
-      "sources": [
-        {
-          "name": "Sabhasad Bakhar (Maratha chronicle, compiled c.1694\u20131710s)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Stewart Gordon, The Marathas 1600\u20131818 (1993, New Cambridge History of India)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The broad political and military situation is well-documented; specific operational details for 1706 are less precisely attested than the overall trajectory.",
-      "cross_references": [
-        "1706-008",
-        "1707-001 (Death of Aurangzeb)"
-      ]
-    },
-    {
-      "id": "1706-018",
-      "title": "Publication of Bernard Mandeville's 'The Grumbling Hive' (Precursor to Fable of the Bees)",
-      "region": "Dutch Republic / Kingdom of England",
-      "coordinates_approx": "51.51\u00b0N, 0.13\u00b0W",
-      "category": "cultural",
-      "description": "In 1705 or 1706 (sources differ on the precise year), Bernard Mandeville published 'The Grumbling Hive: or, Knaves Turn'd Honest' as a sixpenny pamphlet in London. The poem argued, provocatively, that private vices (greed, vanity, luxury) produce public benefits (economic activity, employment, prosperity) \u2014 a thesis that anticipated Adam Smith's invisible hand and became foundational to liberal economic thought when expanded into The Fable of the Bees (1714). The work was controversial for its apparent moral cynicism and was condemned by grand juries as a public nuisance in 1723.",
-      "key_figures": [
-        "Bernard Mandeville (author, Dutch-born physician and satirist)"
-      ],
-      "sources": [
-        {
-          "name": "Bernard Mandeville, The Grumbling Hive: or, Knaves Turn'd Honest (London, 1705/1706)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "F.B. Kaye, introduction to The Fable of the Bees (Oxford, 1924)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The publication date is given as 1705 in some bibliographies and 1706 in others; the British Library catalogue lists 1705. The uncertainty is minor and the work's significance is uncontested.",
-      "cross_references": [
-        "1714-001 (Fable of the Bees expanded edition)"
-      ]
-    },
-    {
-      "id": "1706-019",
-      "title": "Earthquake and Tsunami Affecting the Azores",
-      "region": "Azores (Portuguese Atlantic)",
-      "coordinates_approx": "37.74\u00b0N, 25.67\u00b0W",
-      "category": "environmental",
-      "description": "A significant seismic event affected the Azores archipelago in 1706, causing damage to settlements on several islands. The Azores sit on the Mid-Atlantic Ridge and have a long history of seismic activity; the 1706 event is documented in Portuguese colonial records as causing structural damage and some loss of life, though it was less catastrophic than the 1755 Lisbon earthquake. The event is noted here as representative of the environmental hazards that shaped Atlantic colonial settlement patterns.",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "Portuguese colonial administrative records (Arquivo dos A\u00e7ores), cited in Nunes et al., Historical Seismicity of the Azores (2004)",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Seismic events in the Azores in this period are documented in colonial records, but precise magnitude and casualty figures are uncertain. The 1706 date is attested but details are sparse.",
-      "cross_references": [
-        "1755-001 (Lisbon earthquake)"
-      ]
-    },
-    {
-      "id": "1706-020",
-      "title": "Tokugawa Japan: Genroku Era Ends, Transition to H\u014dei Era",
-      "region": "Tokugawa Shogunate (Japan)",
-      "coordinates_approx": "35.69\u00b0N, 139.69\u00b0E",
-      "category": "cultural",
-      "description": "In 1704, Japan had transitioned from the Genroku era (1688\u20131704) \u2014 a period of remarkable urban cultural flourishing under the fifth shogun Tsunayoshi, marked by the rise of kabuki theatre, ukiyo-e woodblock prints, and the literature of Ihara Saikaku and Matsuo Bash\u014d \u2014 into the H\u014dei era (1704\u20131711). By 1706, the H\u014dei era was characterised by economic strain following the extravagances of the Genroku period and the financial disruptions caused by Tsunayoshi's currency debasement policies. The transition represents a broader pattern of Tokugawa fiscal stress that would require reform under later shoguns.",
-      "key_figures": [
-        "Tokugawa Tsunayoshi (5th Shogun, reigned 1680\u20131709)",
-        "Arai Hakuseki (Confucian scholar and adviser, rising influence)"
-      ],
-      "sources": [
-        {
-          "name": "Tokugawa jikki (Veritable Records of the Tokugawa), compiled 1809\u20131849",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Conrad Totman, Early Modern Japan (1993)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The era transition and the broad political-economic context are well-documented; specific events within 1706 in Japan are not individually dramatic.",
-      "cross_references": [
-        "1703-001 (Genroku earthquake)",
-        "1709-001 (Death of Tsunayoshi)"
-      ]
-    },
-    {
-      "id": "1706-021",
-      "title": "Qing Dynasty: Kangxi Emperor's Southern Tours and Hydraulic Engineering on the Yellow River",
-      "region": "Qing Empire (Jiangsu / Henan, China)",
-      "coordinates_approx": "34.00\u00b0N, 114.00\u00b0E",
-      "category": "technological",
-      "description": "The Kangxi Emperor (r. 1661\u20131722) continued in 1706 to oversee major hydraulic engineering works on the Yellow River and Grand Canal system, projects that had been a central preoccupation of his reign since the 1680s under the direction of the hydraulic engineer Jin Fu and his successors. These works involved the construction and maintenance of embankments, sluice gates, and diversion channels to manage the Yellow River's chronic flooding, which had devastated agricultural regions for centuries. The Kangxi Emperor's personal engagement with hydraulic management \u2014 including inspection tours \u2014 was a deliberate assertion of imperial legitimacy through benevolent governance.",
-      "key_figures": [
-        "Kangxi Emperor (Qing Emperor, Xuanye)",
-        "Zhang Peng-ge (Director-General of River Conservancy in this period)"
-      ],
-      "sources": [
-        {
-          "name": "Qing Shilu (Veritable Records of the Qing Dynasty), Kangxi reign, juan for 1706",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Jonathan Spence, Emperor of China: Self-Portrait of K'ang-hsi (1974)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Qing Shilu provides detailed records of hydraulic works and imperial activities; the 1706 entries are consistent with the broader documented pattern of Kangxi's river management.",
-      "cross_references": [
-        "1706-009"
-      ]
-    },
-    {
-      "id": "1706-022",
-      "title": "Establishment of the Principality of Liechtenstein (Precursor Events)",
-      "region": "Holy Roman Empire (modern Liechtenstein)",
-      "coordinates_approx": "47.14\u00b0N, 9.52\u00b0E",
-      "category": "political",
-      "description": "In 1699, the Liechtenstein family had purchased the Lordship of Schellenberg, and in 1712 they would purchase the County of Vaduz; the formal elevation to an Imperial Principality occurred in 1719. However, in 1706, Hans-Adam I of Liechtenstein was actively managing the family's acquisition strategy within the Holy Roman Empire, and the political groundwork for the principality was being laid. This entry notes the 1706 context as part of the multi-year process rather than a discrete 1706 event, and is included for completeness in the Holy Roman Empire's political geography.",
-      "key_figures": [
-        "Hans-Adam I of Liechtenstein (Prince of Liechtenstein)"
-      ],
-      "sources": [
-        {
-          "name": "Peter Geiger, Geschichte des F\u00fcrstentums Liechtenstein, vol. I (1991)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "No specific 1706 event; included as contextual note on a multi-year political process. The 1719 elevation is the confirmed date for the principality's formal creation.",
-      "cross_references": [
-        "1719-001 (Principality of Liechtenstein formally created)"
-      ]
+      "certainty_note": "Franklin's autobiography places this event in 1706, though some sources suggest 1707. The exact year has minor uncertainty, but the event itself is well-attested.",
+      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "1. RAMILLIES CASUALTY FIGURES: The commonly cited French casualty figure of 13,000 is derived primarily from Allied sources (Marlborough's dispatches) and may be inflated for propaganda purposes. French sources suggest lower figures. Modern military historians such as John Hattendorf note that precise casualty counts for early modern battles are inherently unreliable. 2. ALBUQUERQUE FOUNDING: Marc Simmons and other historians have noted that Governor Cuervo y Vald\u00e9s's founding report almost certainly exaggerated the number of settler families (he claimed 35 families / 252 persons) to meet the legal minimum for a formal villa. The actual settlement in April 1706 may have been considerably smaller, with the population growing to the claimed size only later. The 'founding' may thus be partly a legal fiction. 3. TREATY OF ALTRANST\u00c4DT AND SWEDISH POWER: The treaty is sometimes presented as the apex of Swedish power, but R.M. Hatton and more recent scholars argue that Charles XII's strategic position was already compromised by 1706 \u2014 his army was worn down by years of campaigning, and the decision to march on Russia rather than consolidate reflected ideological rigidity rather than strength. The 'zenith' framing may be retrospective. 4. MANDEVILLE PUBLICATION DATE: The date of The Grumbling Hive is contested between 1705 and 1706 in bibliographic sources. The British Library catalogue favours 1705. Assigning it to 1706 may be incorrect. 5. ACTS OF UNION \u2014 ECONOMIC COERCION DEBATE: The traditional narrative that Scotland was economically coerced into union by the Alien Act (1705) and Darien losses has been challenged by historians including Christopher Whatley, who argues that a significant portion of the Scottish political class genuinely favoured union for economic and security reasons, and that the 'bribery' narrative (popularised by Robert Burns) oversimplifies a complex political negotiation. 6. CAMISARD END DATE: Describing 1706 as the end of the Camisard War is an oversimplification. Abraham Mazel remained active until 1710, and sporadic resistance continued. The 1706 date reflects the end of organised large-scale resistance, not the complete suppression of the movement.",
-  "historiographic_note": "The historical record for 1706 CE is rich by pre-modern standards, particularly for European events, owing to the density of diplomatic correspondence, military dispatches, court chronicles, and early periodical press (the first English daily newspaper, the Daily Courant, had been founded in 1702). However, this richness is profoundly uneven: European \u2014 especially British, French, and Dutch \u2014 sources dominate, reflecting both the actual density of documentation and the biases of Western academic historiography. For the War of the Spanish Succession specifically, the surviving record is heavily shaped by Allied (Marlborough/Whig) perspectives; French sources are less systematically published in English-language scholarship. For Asia, the Qing Shilu and Mughal administrative records provide substantial documentation, but these are court-sponsored narratives that systematically minimise military failures and internal dissent. Maratha sources (bakhars) are valuable but were compiled retrospectively and reflect Maratha dynastic interests. For sub-Saharan Africa, the interior of the Americas, and Oceania, the 1706 record is almost entirely mediated through European colonial observers whose accounts are shaped by commercial, missionary, and imperial agendas. The Atlantic slave trade data, while the best available through the Voyages database, is reconstructed from fragmentary shipping records and systematically undercounts voyages that left no documentation. The overall picture of 1706 is therefore one of genuine richness for certain theatres (European warfare, Qing court politics) and near-total silence for others (interior Africa, Pacific, most of Central Asia).",
+  "disconfirming_evidence": "The significance of Franklin's apprenticeship is sometimes overstated in popular accounts as a 'hardship' narrative; Franklin's own account emphasizes conflict with his brother, but modern scholarship notes that apprenticeship was a standard educational pathway for the period and that Franklin gained valuable skills. The Battle of Ramillies is sometimes presented as a decisive end to French power; however, France remained a major military power and continued the war effectively for several more years, suggesting the battle's significance, while real, was not as conclusive as sometimes portrayed.",
+  "historiographic_note": "Documentation for 1706 is rich in European military and diplomatic history, particularly regarding the War of Spanish Succession, which is extensively covered in British, French, Dutch, and Spanish archives. Qing China is well-documented through imperial records. However, the historical record is heavily weighted toward elite political and military events; social, economic, and cultural developments in most regions are underrepresented. Colonial and indigenous perspectives in the Americas are largely absent from surviving documentation.",
   "graph_edges": [
     {
       "from": "1706-001",
-      "to": "1706-002",
+      "to": "1704-001",
+      "relation": "part_of",
+      "note": "Both are major Marlborough victories in the War of Spanish Succession"
+    },
+    {
+      "from": "1706-002",
+      "to": "1706-001",
       "relation": "contemporary_with",
-      "note": "Ramillies and Turin together constituted the catastrophic Allied double-blow of 1706 against France, occurring within four months of each other."
-    },
-    {
-      "from": "1706-001",
-      "to": "1706-006",
-      "relation": "led_to",
-      "note": "The Battle of Ramillies directly caused the cascade of fortress surrenders in the Spanish Netherlands."
-    },
-    {
-      "from": "1706-003",
-      "to": "1706-011",
-      "relation": "led_to",
-      "note": "The Treaty of Altranst\u00e4dt isolated Russia diplomatically, forcing Peter I to accelerate domestic military reforms."
-    },
-    {
-      "from": "1706-001",
-      "to": "1706-007",
-      "relation": "led_to",
-      "note": "The military disasters of 1706 prompted Louis XIV's first serious peace overtures."
-    },
-    {
-      "from": "1706-008",
-      "to": "1706-017",
-      "relation": "contemporary_with",
-      "note": "Aurangzeb's failing Deccan campaign and Maratha resistance under Tarabai are two sides of the same military confrontation."
+      "note": "Savoy's diplomatic shift followed the military success at Ramillies"
     },
     {
       "from": "1706-004",
-      "to": "1707-001",
-      "relation": "led_to",
-      "note": "The 1706 treaty negotiations directly produced the Acts of Union ratified by the Scottish Parliament in January 1707."
-    },
-    {
-      "from": "1706-009",
-      "to": "1715-001",
-      "relation": "led_to",
-      "note": "The 1706 Kangxi edicts on Chinese Rites escalated the confrontation that produced the 1715 papal bull Ex illa die."
-    },
-    {
-      "from": "1706-012",
-      "to": "1707-002",
-      "relation": "led_to",
-      "note": "The failure to hold Madrid in 1706 foreshadowed the decisive Allied defeat at Almansa in April 1707, which ended serious Allied prospects in Iberia."
-    },
-    {
-      "from": "1706-005",
-      "to": "1776-001",
-      "relation": "led_to",
-      "note": "Franklin's birth in 1706 is the biographical origin point for his later role in American independence."
-    },
-    {
-      "from": "1706-003",
-      "to": "1709-001",
-      "relation": "led_to",
-      "note": "The Treaty of Altranst\u00e4dt set the stage for Charles XII's invasion of Russia, culminating in the Battle of Poltava."
+      "to": "1706-001",
+      "relation": "contemporary_with",
+      "note": "Both represent Allied advances in 1706 during the War of Spanish Succession"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T12:37:07.607189",
-    "duration_seconds": 206.261548,
-    "model": "claude-sonnet-4-6",
-    "cost_usd": 0.198639,
-    "cached": false
-  }
+  ]
 }

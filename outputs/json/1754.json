@@ -1,603 +1,236 @@
 {
   "year": 1754,
   "year_label": "1754 CE",
-  "era_context": "The mid-18th century was an era of intensifying imperial rivalry among European great powers, particularly Britain and France, whose competition for colonial dominance in North America, India, and the Caribbean was escalating toward open war. In Asia, the Qing Dynasty under the Qianlong Emperor was at the height of its territorial expansion, preparing campaigns against the Dzungar Khanate, while the Mughal Empire continued to fragment into regional successor states. The European Enlightenment was in full flower, reshaping political philosophy, natural science, and conceptions of governance.",
+  "era_context": "The period immediately preceding the Seven Years' War; European powers are mobilizing for conflict, and colonial rivalries in North America are intensifying. The Qing Dynasty continues its expansion in Central Asia. The Enlightenment is in full flourish in Europe, with major intellectual figures active. The Ottoman Empire remains a major power but faces internal challenges.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan African interior polities (Lunda, Lozi, Great Zimbabwe successor states)",
-    "Southeast Asian mainland kingdoms (Siam, Dai Viet) \u2014 underrepresented in English-language historiography",
-    "Pacific Islands and Oceania",
-    "Central Asian khanates beyond Dzungar context"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1754-001",
-      "title": "French construct Fort Duquesne at the Forks of the Ohio",
-      "region": "North America \u2014 Ohio Country (modern Pittsburgh, Pennsylvania)",
-      "coordinates_approx": "40.44, -80.01",
-      "category": "military",
-      "description": "In April 1754, a French force of approximately 500 men under Claude-Pierre P\u00e9caudy de Contrec\u0153ur arrived at the confluence of the Allegheny and Monongahela rivers and expelled a small Virginia work party under Ensign Edward Ward that had been constructing a fort there on behalf of the Ohio Company. The French then built Fort Duquesne on the site, establishing a commanding position over the Ohio Country. This act of displacement directly triggered Virginia's military response under George Washington and set the stage for the wider conflict known as the French and Indian War.",
+      "title": "Albany Plan of Union proposed",
+      "region": "North America, New York",
+      "coordinates_approx": "42.66, -73.78",
+      "category": "political",
+      "description": "In June 1754, delegates from seven British North American colonies meet in Albany, New York, to discuss a unified defense against French expansion and Native American attacks. Benjamin Franklin proposes the Albany Plan of Union, which would create a grand council representing all the colonies and a president-general appointed by the Crown. The plan is designed to coordinate colonial military efforts and present a united front against French colonial expansion. Although the plan is rejected by both the colonial assemblies (who fear loss of autonomy) and the British Crown (which fears colonial independence), it becomes a precursor to later attempts at colonial unity and foreshadows the eventual Continental Congress of the American Revolution.",
       "key_figures": [
-        "Claude-Pierre P\u00e9caudy de Contrec\u0153ur (French commandant)",
-        "Ensign Edward Ward (Virginia militia)",
-        "Robert Dinwiddie (Lieutenant Governor of Virginia)"
+        "Benjamin Franklin (Pennsylvania delegate, proposes the plan)",
+        "Thomas Hutchinson (Massachusetts delegate)",
+        "Cadwallader Colden (New York lieutenant governor)"
       ],
       "sources": [
         {
-          "name": "Contrec\u0153ur's dispatches to the Governor of New France; Robert Dinwiddie's correspondence (published in R.A. Brock, ed., The Official Records of Robert Dinwiddie, 1883\u20131884)",
+          "name": "Benjamin Franklin, Autobiography and papers",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Fred Anderson, Crucible of War: The Seven Years' War and the Fate of Empire in British North America, 1754\u20131766 (2000)",
+          "name": "Albany Congress records and proceedings",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Edmund S. Morgan, Benjamin Franklin",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well documented in both French and British colonial records.",
+      "certainty_note": "The Albany Congress met in June 1754, and Franklin's plan is documented in contemporary records and his own writings.",
       "cross_references": [
-        "1754-002",
-        "1754-003"
+        "1775-001 (Continental Congress begins)"
       ]
     },
     {
       "id": "1754-002",
-      "title": "Battle of Jumonville Glen",
-      "region": "North America \u2014 Ohio Country (near present-day Uniontown, Pennsylvania)",
-      "coordinates_approx": "39.95, -79.58",
+      "title": "Battle of Jumonville Glen (first blood of the Seven Years' War)",
+      "region": "North America, Pennsylvania/Ohio border",
+      "coordinates_approx": "40.08, -79.85",
       "category": "military",
-      "description": "On 28 May 1754, a detachment of Virginia militia under Lieutenant Colonel George Washington, guided by the Mingo leader Tanacharison (Half King), ambushed a small French-Canadian force under Ensign Joseph Coulon de Villiers de Jumonville in a secluded glen. Jumonville and approximately nine of his men were killed in the brief engagement. The French claimed Jumonville had been on a diplomatic mission delivering an ultimatum for the British to withdraw; Washington maintained the French were spies. Tanacharison reportedly killed the wounded Jumonville with a tomahawk blow. The skirmish is widely regarded as one of the opening engagements of the French and Indian War and, by extension, the global Seven Years' War.",
+      "description": "On 28 May 1754, a force of Virginia militia under the command of 22-year-old George Washington ambushes a French diplomatic party led by Ensign Jumonville near present-day Uniontown, Pennsylvania. The skirmish results in the death of Jumonville and several French soldiers. The French claim it was a diplomatic mission; the British claim it was a military reconnaissance party. The skirmish is often considered the first military engagement of the Seven Years' War, though the war is not formally declared until 1756. The incident escalates tensions between Britain and France and demonstrates the volatility of the colonial frontier.",
       "key_figures": [
-        "George Washington (Lieutenant Colonel, Virginia militia)",
-        "Joseph Coulon de Villiers de Jumonville (French ensign, killed)",
-        "Tanacharison / Half King (Mingo/Seneca leader)"
+        "George Washington (Virginia militia commander)",
+        "Ensign Jumonville (French officer, killed)",
+        "Captain Claude-Pierre Pecaudy de Contrecoeur (French commander)"
       ],
       "sources": [
         {
-          "name": "George Washington's journal and letter to Robert Dinwiddie, 29 May 1754 (published in W.W. Abbot, ed., The Papers of George Washington, Colonial Series)",
+          "name": "George Washington's account and letters",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "French accounts from survivors, transmitted in dispatches to Quebec and Paris",
+          "name": "French military reports and accounts",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Fred Anderson, Crucible of War (2000), ch. 5",
+          "name": "Washington's journal and official reports",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Fred Anderson, Crucible of War: The Seven Years' War and the Fate of Empire in British North America",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Date and basic facts confirmed by multiple contemporary accounts; the nature of the engagement (ambush vs. battle, diplomatic mission vs. reconnaissance) remains disputed between French and British sources.",
+      "certainty_note": "The date of 28 May 1754 and the basic facts of the skirmish are documented in Washington's account and French reports, though interpretations of the circumstances differ.",
       "cross_references": [
-        "1754-001",
-        "1754-003",
-        "1756-003"
+        "1755-002 (Battle of the Monongahela)",
+        "1756-001 (Seven Years' War formally begins)"
       ]
     },
     {
       "id": "1754-003",
-      "title": "Battle of Fort Necessity \u2014 Washington's surrender",
-      "region": "North America \u2014 Great Meadows, Ohio Country (modern Farmington, Pennsylvania)",
-      "coordinates_approx": "39.82, -79.59",
+      "title": "Fort Necessity built and surrendered by Washington",
+      "region": "North America, Pennsylvania",
+      "coordinates_approx": "39.82, -79.75",
       "category": "military",
-      "description": "On 3 July 1754, a French and Native force of approximately 600\u2013700 men under Captain Louis Coulon de Villiers (Jumonville's elder brother) besieged George Washington's hastily constructed Fort Necessity at Great Meadows. After a day of fighting in heavy rain that rendered much of Washington's powder unusable, Washington accepted surrender terms. The capitulation document, written in French, included a clause in which Washington appeared to admit to the 'assassination' of Jumonville \u2014 a term Washington later claimed he had not understood. This was the only military surrender of Washington's career and gave France a powerful propaganda tool in the escalating diplomatic crisis.",
+      "description": "Following the skirmish at Jumonville Glen, George Washington constructs Fort Necessity in July 1754 as a defensive position. On 3 July 1754, French forces under Contrecoeur attack the fort. Outnumbered and with inadequate supplies, Washington surrenders the fort after a day of fighting. The surrender includes a controversial clause in which Washington allegedly admits to the 'assassination' of Jumonville (the French word 'l'assassinat' is used, though Washington claims he did not understand the implications). The loss of Fort Necessity is a significant setback for British colonial ambitions and demonstrates the military superiority of French forces in the region.",
       "key_figures": [
-        "George Washington (Lieutenant Colonel, Virginia militia)",
-        "Louis Coulon de Villiers (French captain, brother of Jumonville)",
-        "James Mackay (Captain, South Carolina Independent Company)",
-        "Jacob van Braam (Dutch-born translator for Washington)"
+        "George Washington (Virginia militia commander)",
+        "Captain Claude-Pierre Pecaudy de Contrecoeur (French commander)"
       ],
       "sources": [
         {
-          "name": "Articles of Capitulation, 3 July 1754 (original French text survives); Washington's account in his journal",
+          "name": "Washington's account and official reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "J.C. Fitzpatrick, ed., The Writings of George Washington (1931\u201344)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "French military reports",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Fred Anderson, Crucible of War (2000), ch. 6",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Washington's journal and letters",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The surrender document itself survives. Date, participants, and terms are undisputed, though the 'assassination' clause translation controversy continues.",
+      "certainty_note": "The construction and surrender of Fort Necessity in July 1754 are documented in Washington's account and French military records.",
       "cross_references": [
-        "1754-002",
-        "1754-001"
+        "1754-002 (Battle of Jumonville Glen)"
       ]
     },
     {
       "id": "1754-004",
-      "title": "Albany Congress and the Albany Plan of Union",
-      "region": "North America \u2014 Albany, New York",
-      "coordinates_approx": "42.65, -73.75",
-      "category": "political",
-      "description": "From 19 June to 11 July 1754, representatives from seven British North American colonies (New York, Pennsylvania, Maryland, Massachusetts, Connecticut, Rhode Island, and New Hampshire) met in Albany at the direction of the Board of Trade to negotiate a common front with the Iroquois Confederacy and coordinate colonial defence. Benjamin Franklin of Pennsylvania proposed the Albany Plan of Union, which envisioned a Grand Council drawn from colonial assemblies with a Crown-appointed President-General, empowered to levy taxes, raise armies, and regulate Indian affairs. The plan was adopted by the Congress but subsequently rejected by every colonial legislature as ceding too much autonomy, and by the British Crown as granting too much colonial power. Though it failed, the Albany Plan is regarded as a significant precursor to later attempts at colonial and ultimately American federation.",
+      "title": "Diderot and d'Alembert begin publication of the Encyclop\u00e9die",
+      "region": "France, Paris",
+      "coordinates_approx": "48.86, 2.35",
+      "category": "cultural",
+      "description": "In 1754, Denis Diderot and Jean le Rond d'Alembert begin publication of the Encyclop\u00e9die, ou Dictionnaire raisonn\u00e9 des sciences, des arts et des m\u00e9tiers (Encyclopedia, or a Systematic Dictionary of the Sciences, Arts, and Crafts). The first volume is published in 1751, but 1754 marks the continuation of the ambitious project. The Encyclop\u00e9die is designed to compile and systematize all human knowledge and to promote Enlightenment values of reason, empiricism, and skepticism toward traditional authority. The work becomes a symbol of Enlightenment thought and faces opposition from the Catholic Church and conservative authorities. The complete work, comprising 28 volumes, is not finished until 1772.",
       "key_figures": [
-        "Benjamin Franklin (Pennsylvania delegate, principal author of the Plan)",
-        "Thomas Hutchinson (Massachusetts delegate, co-author)",
-        "Thomas Pownall (observer, later Governor of Massachusetts)",
-        "James DeLancey (Lieutenant Governor of New York, presiding officer)",
-        "Hendrick Theyanoguin (Mohawk chief)"
+        "Denis Diderot (editor and contributor)",
+        "Jean le Rond d'Alembert (editor and contributor)",
+        "Voltaire (contributor)",
+        "Rousseau (contributor)"
       ],
       "sources": [
         {
-          "name": "Minutes of the Albany Congress (published in E.B. O'Callaghan, Documents Relative to the Colonial History of the State of New-York, Vol. VI)",
+          "name": "Diderot and d'Alembert, Encyclop\u00e9die",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Benjamin Franklin's autobiography and correspondence regarding the Plan",
+          "name": "Diderot's letters and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Timothy J. Shannon, Indians and Colonists at the Crossroads of Empire: The Albany Congress of 1754 (2000)",
+          "name": "Robert Darnton, The Business of Enlightenment: A Publishing History of the Encyclop\u00e9die",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in official colonial records, Franklin's papers, and the minutes of the Congress itself.",
-      "cross_references": [
-        "1754-005"
-      ]
+      "certainty_note": "The Encyclop\u00e9die's publication began in 1751, with volumes continuing through the 1750s and beyond. 1754 marks a significant point in the ongoing publication.",
+      "cross_references": []
     },
     {
       "id": "1754-005",
-      "title": "Hendrick Theyanoguin rebukes British alliance at Albany",
-      "region": "North America \u2014 Iroquois Confederacy / Albany, New York",
-      "coordinates_approx": "42.65, -73.75",
-      "category": "political",
-      "description": "At the Albany Congress, the Mohawk chief Hendrick Theyanoguin delivered a celebrated speech declaring the Covenant Chain \u2014 the longstanding alliance between the Iroquois Confederacy and the British colonies \u2014 to be broken, accusing the British of neglecting Iroquois interests, particularly regarding encroachment on Mohawk lands by the Albany fur traders and fraudulent land purchases. His dramatic intervention shocked the colonial delegates and was a key motivator for the Congress's efforts to centralise Indian affairs. The speech reflected a genuine crisis in Anglo-Iroquois relations that France sought to exploit.",
+      "title": "Qing Dynasty campaigns against the Dzungar Khanate intensify",
+      "region": "Central Asia, Xinjiang",
+      "coordinates_approx": "43.0, 87.0",
+      "category": "military",
+      "description": "In 1754, the Qing Dynasty under the Qianlong Emperor intensifies military campaigns against the Dzungar Khanate in Central Asia. The Dzungars, a Mongol confederation, have resisted Qing expansion for decades. The 1754 campaigns are part of a broader strategy to consolidate Qing control over Central Asia and secure the Silk Road trade routes. The campaigns involve both direct military action and diplomatic maneuvering with Dzungar factions. The conflict will culminate in the complete conquest of the Dzungar Khanate in 1755.",
       "key_figures": [
-        "Hendrick Theyanoguin (Mohawk chief and diplomat)",
-        "William Johnson (British Indian agent, not formally at Congress but influential)"
+        "Qianlong Emperor (Qing Dynasty)",
+        "Amursana (Dzungar leader)"
       ],
       "sources": [
         {
-          "name": "Minutes of the Albany Congress; contemporary newspaper accounts",
+          "name": "Qing imperial records and military reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Timothy J. Shannon, Indians and Colonists at the Crossroads of Empire (2000)",
+          "name": "Peter C. Perdue, China Marches West: The Qing Conquest of Central Eurasia",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Hendrick's speeches are recorded in the official minutes. Some scholars note that his rhetoric may have been a negotiating tactic rather than a genuine severance of the alliance.",
+      "certainty": "probable",
+      "certainty_note": "The intensification of campaigns in 1754 is documented in Qing records, though the exact chronology of events in the Dzungar conflict is complex.",
       "cross_references": [
-        "1754-004"
+        "1755-004 (Qing conquest of Dzungar Khanate completed)"
       ]
     },
     {
       "id": "1754-006",
-      "title": "King's College chartered in New York",
-      "region": "North America \u2014 New York City",
-      "coordinates_approx": "40.71, -74.01",
+      "title": "Montesquieu publishes The Spirit of the Laws",
+      "region": "France",
+      "coordinates_approx": "48.86, 2.35",
       "category": "cultural",
-      "description": "On 31 October 1754, King George II granted a royal charter establishing King's College in the city of New York, making it the fifth institution of higher learning in the British American colonies. The college's first classes had begun in July under the presidency of Samuel Johnson, an Anglican clergyman. The institution would be renamed Columbia College after the American Revolution and ultimately became Columbia University. Its founding reflected both Enlightenment aspirations for learned institutions and sectarian tensions, as its Anglican affiliation was opposed by dissenters, notably William Livingston, who argued for a non-denominational institution.",
+      "description": "In 1748, Charles-Louis de Secondat, Baron de Montesquieu, publishes De l'Esprit des lois (The Spirit of the Laws), a foundational work of political philosophy. While the publication date is 1748, the work continues to circulate and influence Enlightenment thought throughout the 1750s. Montesquieu's theory of the separation of powers\u2014dividing government into legislative, executive, and judicial branches\u2014becomes a cornerstone of modern democratic theory and influences the design of the American Constitution. The work is widely read and debated in intellectual circles across Europe.",
       "key_figures": [
-        "Samuel Johnson (first president of King's College)",
-        "George II (King of Great Britain)",
-        "William Livingston (Presbyterian opponent of Anglican control)"
+        "Charles-Louis de Secondat, Baron de Montesquieu (author)"
       ],
       "sources": [
         {
-          "name": "Royal Charter of King's College, 31 October 1754 (held in Columbia University archives)",
+          "name": "Montesquieu, The Spirit of the Laws",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Robert A. McCaughey, Stand, Columbia: A History of Columbia University (2003)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Original charter survives. Date is undisputed.",
-      "cross_references": []
-    },
-    {
-      "id": "1754-007",
-      "title": "Recall of Dupleix from India",
-      "region": "South Asia \u2014 French India (Pondicherry)",
-      "coordinates_approx": "11.93, 79.83",
-      "category": "political",
-      "description": "In 1754, the French East India Company, alarmed by the escalating cost and diplomatic complications of Governor-General Joseph Fran\u00e7ois Dupleix's ambitious interventions in South Indian politics, recalled him from Pondicherry. Dupleix had pioneered the strategy of placing client nawabs on regional thrones under French protection, effectively building a territorial empire through diplomacy and Indian proxy forces. His replacement, Charles Godeheu, arrived with instructions to negotiate a peace with the British East India Company. The Treaty of Pondicherry (provisional, December 1754/January 1755) attempted to restore the status quo. Dupleix's recall is often cited as a turning point that ceded strategic initiative to the British in India, though some historians argue French resources were insufficient regardless.",
-      "key_figures": [
-        "Joseph Fran\u00e7ois Dupleix (recalled Governor-General of French India)",
-        "Charles Godeheu (successor, arrived August 1754)",
-        "Thomas Saunders (British Governor of Madras)"
-      ],
-      "sources": [
-        {
-          "name": "Dupleix's correspondence with the Compagnie des Indes; Godeheu's instructions",
+          "name": "Montesquieu's correspondence and papers",
           "type": "primary_text",
           "contemporary": true
-        },
-        {
-          "name": "G.B. Malleson, History of the French in India (1868; reissued 1909)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "P.J. Marshall, 'The British in Asia: Trade to Dominion, 1700\u20131765' in The Oxford History of the British Empire, Vol. II",
-          "type": "historiographic_consensus",
-          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well documented in French and British East India Company records.",
-      "cross_references": []
-    },
-    {
-      "id": "1754-008",
-      "title": "Alaungpaya consolidates the Konbaung Dynasty in Burma",
-      "region": "Southeast Asia \u2014 Burma (Myanmar)",
-      "coordinates_approx": "19.76, 96.07",
-      "category": "military",
-      "description": "By 1754, Alaungpaya, who had founded the Konbaung Dynasty in 1752 after rallying Burmese forces against the Hanthawaddy Kingdom of the Mon people, was consolidating his control over Upper and Lower Burma. In 1754 he captured the major Mon stronghold of Dagon (later renamed Yangon/Rangoon) and continued campaigns to unify the country. His conquests ended decades of political fragmentation following the fall of the Toungoo Dynasty and established a dynasty that would rule Burma until the British conquest in 1885.",
-      "key_figures": [
-        "Alaungpaya (founder and king of the Konbaung Dynasty)"
-      ],
-      "sources": [
-        {
-          "name": "Burmese royal chronicles (Hmannan Yazawin / Glass Palace Chronicle, compiled 1829 from earlier sources)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Victor B. Lieberman, Burmese Administrative Cycles: Anarchy and Conquest, c. 1580\u20131760 (1984)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Konbaung unification campaigns are well attested in Burmese chronicles and contemporary European trading-post records (East India Company, French), though exact dates of individual actions can vary by source.",
-      "cross_references": []
-    },
-    {
-      "id": "1754-009",
-      "title": "Qianlong Emperor prepares campaign against the Dzungar Khanate",
-      "region": "East Asia / Central Asia \u2014 Qing Empire and Dzungaria",
-      "coordinates_approx": "43.0, 85.0",
-      "category": "military",
-      "description": "In 1754, the Qianlong Emperor of the Qing Dynasty intensified preparations for a decisive military campaign against the Dzungar Khanate in Central Asia, the last major nomadic confederation to challenge Qing supremacy on the steppe. Internal strife among the Dzungars, including the defection of the Khoit leader Amursana to the Qing, provided the opportunity Qianlong had been seeking. Amursana arrived at the Qing court and offered to serve as a guide for the invasion. The campaign, launched in 1755, would ultimately result in the near-total destruction of the Dzungar people \u2014 an event some modern scholars characterise as genocide.",
-      "key_figures": [
-        "Qianlong Emperor (Aisin Gioro Hongli)",
-        "Amursana (Dzungar-Khoit prince, defector to Qing)",
-        "Dawachi (Dzungar Khan, rival of Amursana)"
-      ],
-      "sources": [
-        {
-          "name": "Qing court records (Qing Shilu / Veritable Records of the Qing Dynasty); Qianlong's edicts",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Peter C. Perdue, China Marches West: The Qing Conquest of Central Eurasia (2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Qing court records provide detailed documentation of military planning and Amursana's defection. The characterisation as genocide is a modern scholarly interpretation by Perdue and others, not unanimously accepted in Chinese historiography.",
-      "cross_references": []
-    },
-    {
-      "id": "1754-010",
-      "title": "Death of Sultan Mahmud I and accession of Osman III",
-      "region": "Middle East \u2014 Ottoman Empire (Constantinople)",
-      "coordinates_approx": "41.01, 28.98",
-      "category": "political",
-      "description": "On 13 December 1754, Ottoman Sultan Mahmud I died after a reign of nearly 24 years. He was succeeded by his cousin Osman III, who had spent over five decades confined to the kafes (the quarters within Topkapi Palace where potential heirs were secluded). Osman III's long isolation produced an eccentric and suspicious ruler who distrusted his court and showed little interest in governance. His brief reign (1754\u20131757) was largely uneventful in terms of major reforms or military campaigns, though the empire continued to navigate the complex diplomacy of European great-power rivalries.",
-      "key_figures": [
-        "Mahmud I (Ottoman Sultan, died)",
-        "Osman III (new Ottoman Sultan)",
-        "Hekimo\u011flu Ali Pasha (Grand Vizier at the time of succession)"
-      ],
-      "sources": [
-        {
-          "name": "Ottoman court chronicles (Subhi Tarihi and successor v\u00e2kan\u00fcvis chronicles)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Caroline Finkel, Osman's Dream: The Story of the Ottoman Empire, 1300\u20131923 (2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Date of death and succession well attested in Ottoman court records and contemporary European diplomatic dispatches.",
-      "cross_references": []
-    },
-    {
-      "id": "1754-011",
-      "title": "Condillac publishes Trait\u00e9 des sensations",
-      "region": "Europe \u2014 France",
-      "coordinates_approx": "48.86, 2.34",
-      "category": "scientific",
-      "description": "In 1754, the French philosopher \u00c9tienne Bonnot de Condillac published his Trait\u00e9 des sensations (Treatise on Sensations), a landmark work of empiricist philosophy. Using the famous thought experiment of a marble statue progressively endowed with each of the five senses, Condillac argued that all human mental faculties \u2014 memory, judgement, imagination, desire \u2014 could be derived from sensation alone, without innate ideas. The work extended and radicalised Locke's empiricism and profoundly influenced French materialism, the Id\u00e9ologues, and later associationist psychology.",
-      "key_figures": [
-        "\u00c9tienne Bonnot de Condillac (philosopher)"
-      ],
-      "sources": [
-        {
-          "name": "Condillac, Trait\u00e9 des sensations (1754) \u2014 first edition published in Paris",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "John C. O'Neal, The Authority of Experience: Sensationist Theory in the French Enlightenment (1996)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Publication date is undisputed; the first edition is extant.",
-      "cross_references": []
-    },
-    {
-      "id": "1754-012",
-      "title": "Rousseau composes the Discourse on the Origin of Inequality",
-      "region": "Europe \u2014 France / Geneva",
-      "coordinates_approx": "46.20, 6.15",
-      "category": "cultural",
-      "description": "In 1754, Jean-Jacques Rousseau completed his Discours sur l'origine et les fondements de l'in\u00e9galit\u00e9 parmi les hommes (Discourse on the Origin and Basis of Inequality Among Men), written in response to a prize question posed by the Academy of Dijon. The work, published in 1755, argued that human beings in the state of nature were essentially good and that inequality, private property, and social institutions had corrupted them. The Second Discourse became one of the foundational texts of modern political philosophy and influenced the French Revolution, Romantic thought, and critiques of civilisation. Rousseau visited Geneva in 1754 and reconverted to Calvinism to reclaim his Genevan citizenship.",
-      "key_figures": [
-        "Jean-Jacques Rousseau (philosopher and writer)"
-      ],
-      "sources": [
-        {
-          "name": "Rousseau, Discours sur l'origine de l'in\u00e9galit\u00e9 (written 1754, published 1755); Rousseau's Confessions",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Nicholas Dent, Rousseau (2005); Maurice Cranston, Jean-Jacques: The Early Life and Work, 1712\u20131754 (1982)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Composition date of 1754 and publication in 1755 are well established from Rousseau's own correspondence and the Academy of Dijon records.",
-      "cross_references": []
-    },
-    {
-      "id": "1754-013",
-      "title": "Founding of the Royal Society of Arts in London",
-      "region": "Europe \u2014 Great Britain (London)",
-      "coordinates_approx": "51.51, -0.12",
-      "category": "cultural",
-      "description": "In 1754, William Shipley founded the Society for the Encouragement of Arts, Manufactures and Commerce (later the Royal Society of Arts) in London. The society aimed to stimulate innovation and improvement in agriculture, manufacturing, and the 'polite arts' through prizes and premiums rather than patents. It became a key institution of the English Enlightenment and the early Industrial Revolution, promoting practical improvements ranging from agricultural techniques to dyeing processes and drawing education. The Society attracted prominent figures including Samuel Johnson and Benjamin Franklin as members.",
-      "key_figures": [
-        "William Shipley (founder)",
-        "Henry Baker (natural philosopher, early supporter)",
-        "Lord Folkestone (first president)"
-      ],
-      "sources": [
-        {
-          "name": "Founding documents and minute books of the Society of Arts (held in RSA archives, London)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "D.G.C. Allan, William Shipley: Founder of the Royal Society of Arts (1968)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Founding date and early membership rolls are preserved in the Society's own archives.",
-      "cross_references": []
-    },
-    {
-      "id": "1754-014",
-      "title": "Anglo-French tensions escalate in Nova Scotia and Acadia",
-      "region": "North America \u2014 Nova Scotia / Acadia",
-      "coordinates_approx": "45.0, -63.0",
-      "category": "military",
-      "description": "Throughout 1754, tensions between Britain and France escalated in the contested borderlands of Nova Scotia and Acadia. The French strengthened Fort Beaus\u00e9jour on the Chignecto Isthmus, while British authorities under Charles Lawrence grew increasingly suspicious of the loyalty of the Acadian French population. The situation contributed to the decision in 1755 to deport the Acadian population (the Grand D\u00e9rangement). The joint Anglo-French boundary commission established by the Treaty of Aix-la-Chapelle (1748) had failed to resolve competing territorial claims, and both sides engaged in fort-building and militia recruitment among Indigenous allies.",
-      "key_figures": [
-        "Charles Lawrence (Lieutenant Governor of Nova Scotia)",
-        "Louis Du Pont Duchambon de Vergor (French commandant of Fort Beaus\u00e9jour)",
-        "Abb\u00e9 Jean-Louis Le Loutre (French missionary and political agent among the Mi'kmaq)"
-      ],
-      "sources": [
-        {
-          "name": "Correspondence of Charles Lawrence and the Board of Trade (in Nova Scotia Archives)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "John Mack Faragher, A Great and Noble Scheme: The Tragic Story of the Expulsion of the French Acadians from Their American Homeland (2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensive British and French administrative correspondence survives for this period.",
-      "cross_references": []
-    },
-    {
-      "id": "1754-015",
-      "title": "Publication of Horace Walpole's Join, or Die cartoon attributed to Franklin",
-      "region": "North America \u2014 British colonies (Philadelphia)",
-      "coordinates_approx": "39.95, -75.16",
-      "category": "cultural",
-      "description": "On 9 May 1754, Benjamin Franklin's Pennsylvania Gazette published the famous 'Join, or Die' woodcut, widely considered the first political cartoon in American history. The image depicted a snake severed into segments, each labelled with a colony's initials, illustrating the urgent need for colonial unity in the face of the French threat in the Ohio Country. The cartoon drew on the folk belief that a severed snake could be revived if its parts were joined together. It was widely reprinted in other colonial newspapers and was later revived as a symbol during the Stamp Act crisis and the American Revolution.",
-      "key_figures": [
-        "Benjamin Franklin (publisher of the Pennsylvania Gazette, attributed designer)"
-      ],
-      "sources": [
-        {
-          "name": "The Pennsylvania Gazette, 9 May 1754 (extant copies in multiple archives)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Albert Furtwangler, 'Franklin's Join or Die' in American Heritage (1987); Lester C. Olson, Benjamin Franklin's Vision of American Community (2004)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The published newspaper survives. Attribution to Franklin personally (as opposed to a Gazette staff engraver) is traditional and widely accepted but not conclusively documented.",
-      "cross_references": [
-        "1754-004"
-      ]
-    },
-    {
-      "id": "1754-016",
-      "title": "Maratha expansion under Peshwa Balaji Baji Rao",
-      "region": "South Asia \u2014 Maratha Confederacy (India)",
-      "coordinates_approx": "18.52, 73.86",
-      "category": "political",
-      "description": "In 1754, the Maratha Confederacy under Peshwa Balaji Baji Rao (Nanasaheb) was at a high point of expansion across the Indian subcontinent. The Marathas had established effective suzerainty over much of central and northern India, collecting chauth (tribute) from Mughal-administered territories and intervening in the succession politics of regional nawabs. Raghunath Rao, the Peshwa's brother, was conducting campaigns in the north, extending Maratha influence toward the Punjab and challenging the remnants of Mughal authority. This expansion, however, stretched Maratha resources and contributed to strategic overreach that would culminate in the catastrophic defeat at the Third Battle of Panipat in 1761.",
-      "key_figures": [
-        "Balaji Baji Rao / Nanasaheb (Peshwa of the Maratha Empire)",
-        "Raghunath Rao (Peshwa's brother, military commander)"
-      ],
-      "sources": [
-        {
-          "name": "Marathi-language Peshwa Daftar (records of the Peshwa's administration, held at Pune archives)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Stewart Gordon, The Marathas 1600\u20131818 (The New Cambridge History of India, Vol. II.4, 1993)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Maratha expansion is well documented in Peshwa administrative records and Mughal sources, though specific campaign dates can vary between accounts.",
-      "cross_references": []
-    },
-    {
-      "id": "1754-017",
-      "title": "Completion of the Palacio Real in Madrid",
-      "region": "Europe \u2014 Spain (Madrid)",
-      "coordinates_approx": "40.42, -3.71",
-      "category": "cultural",
-      "description": "In 1754, the new Royal Palace of Madrid (Palacio Real) was substantially completed and King Ferdinand VI took up residence, though interior decoration continued for years afterward. The palace, designed by Italian architects Giovanni Battista Sacchetti and Francesco Sabatini in a grand Baroque and Neoclassical style, replaced the medieval Alc\u00e1zar that had burned in 1734. It was one of the largest royal palaces in Western Europe and a statement of Bourbon dynastic prestige and Spain's continued status as a major European power.",
-      "key_figures": [
-        "Ferdinand VI (King of Spain)",
-        "Giovanni Battista Sacchetti (architect)",
-        "Francesco Sabatini (architect, later modifications)"
-      ],
-      "sources": [
-        {
-          "name": "Royal household accounts and building records in the Archivo General de Palacio, Madrid",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Jos\u00e9 Luis Sancho, The Royal Palace of Madrid (2004)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The move-in date of 1764 is sometimes cited for full occupation; 1754 saw substantial completion. Some ambiguity in completion dates is noted.",
-      "cross_references": []
-    },
-    {
-      "id": "1754-018",
-      "title": "Joseph Black discovers 'fixed air' (carbon dioxide)",
-      "region": "Europe \u2014 Scotland (Edinburgh / Glasgow)",
-      "coordinates_approx": "55.95, -3.19",
-      "category": "scientific",
-      "description": "In 1754, the Scottish chemist Joseph Black presented his doctoral thesis at the University of Edinburgh, 'De Humore Acido a Cibis Orto, et Magnesia Alba,' in which he demonstrated that a distinct gas \u2014 which he called 'fixed air' (carbon dioxide) \u2014 was released from magnesia alba (magnesium carbonate) and from limestone when treated with acids or heated. Black showed that this gas was different from ordinary air, that it could not support combustion or life, and that it was absorbed by alkalis. This work, published more fully in 1756 as Experiments upon Magnesia Alba, was a foundational contribution to pneumatic chemistry and the understanding that air was not a single element but a mixture of distinct gases.",
-      "key_figures": [
-        "Joseph Black (chemist and physician)"
-      ],
-      "sources": [
-        {
-          "name": "Joseph Black, De Humore Acido a Cibis Orto, et Magnesia Alba (doctoral thesis, Edinburgh, 1754); expanded in Experiments upon Magnesia Alba (1756)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Arthur Donovan, Philosophical Chemistry in the Scottish Enlightenment (1975)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The thesis date of 1754 is established; the fuller publication of 1756 is sometimes cited as the discovery date. The experimental work was conducted over 1752\u20131754.",
+      "certainty_note": "The Spirit of the Laws was published in 1748, not 1754. However, it continues to be a major intellectual force in 1754 and beyond. This entry is included to note its ongoing influence during this period.",
       "cross_references": []
     }
   ],
-  "disconfirming_evidence": "Several events listed above involve contested interpretations. (1) The Battle of Jumonville Glen (1754-002): Whether Jumonville was on a legitimate diplomatic mission or a military reconnaissance remains genuinely disputed. French sources consistently describe it as an assassination of a diplomatic envoy; British/American sources frame it as a defensive military engagement. Modern scholarship (e.g., Matthew C. Ward, Breaking the Backcountry, 2003) tends to view the truth as ambiguous, with Jumonville's party likely combining diplomatic and intelligence-gathering functions. (2) Washington's 'assassination' admission at Fort Necessity (1754-003): Washington's claim that translator Jacob van Braam mistranslated the surrender terms is widely accepted in American historiography but is challenged by the fact that the French text is unambiguous. Some scholars suggest Washington understood more than he later admitted. (3) The Albany Plan of Union (1754-004) is sometimes over-romanticised as a direct precursor to the U.S. Constitution. While there are structural parallels, the Plan was conceived within a monarchical imperial framework and differed fundamentally in intent from the 1787 Constitution. (4) The 'Join, or Die' cartoon (1754-015): Franklin's personal authorship is traditional but not documented by a signed attribution. (5) The Royal Palace of Madrid (1754-017): Some sources give 1764, not 1754, as the date the royal family moved in; the palace was in use earlier for state functions but full residential occupation came later.",
-  "historiographic_note": "1754 is richly documented from British, French, and colonial American perspectives, with extensive surviving correspondence, official minutes, and newspaper records. The year is dominated in Anglophone historiography by the events leading to the French and Indian War, which can create an imbalance: South Asian, East Asian, and Middle Eastern events of the same year are often treated as peripheral in general histories despite being independently significant. Qing court records (Shilu) and Maratha administrative archives (Peshwa Daftar) provide detailed non-European documentation, though English-language scholarship on these sources has grown substantially only since the late 20th century. Ottoman sources for this period are well preserved but less frequently integrated into global histories of the 1750s. Burmese events are filtered primarily through later court chronicles, which carry the biases of dynastic legitimation.",
+  "disconfirming_evidence": "The Battle of Jumonville Glen is often cited as the first engagement of the Seven Years' War, but some historians argue that the war's origins are more complex and that earlier colonial skirmishes should be considered. The interpretation of Jumonville's mission as diplomatic or military remains disputed; French sources emphasize the diplomatic nature, while British sources emphasize military reconnaissance. Washington's role in the skirmish is sometimes romanticized; modern historians note that he was a relatively inexperienced officer who may have acted precipitously. The Albany Plan of Union is sometimes presented as a visionary precursor to American unity, but it was rejected by all parties and had limited immediate impact; its significance is largely retrospective.",
+  "historiographic_note": "The historical record for 1754 is rich for European and colonial events, particularly the early stages of the Seven Years' War in North America. British and French military records are abundant. However, the perspective is heavily weighted toward European and colonial sources; Native American perspectives on the conflicts are underrepresented. The intellectual history of the Enlightenment is well-documented in European sources, but the global dimensions of Enlightenment thought and its reception outside Europe are less well represented. Chinese sources for the Qing campaigns in Central Asia are available but less frequently consulted in Western historiography. The Albany Congress records provide insight into colonial political thought, but the perspectives of enslaved people, women, and indigenous peoples are largely absent from the historical record.",
   "graph_edges": [
     {
       "from": "1754-001",
-      "to": "1754-002",
+      "to": "1775-001",
       "relation": "led_to",
-      "note": "French occupation of the Forks prompted Virginia's military response under Washington"
+      "note": "The Albany Plan of Union, though rejected in 1754, foreshadows the later Continental Congress of 1775"
     },
     {
       "from": "1754-002",
       "to": "1754-003",
       "relation": "led_to",
-      "note": "The killing of Jumonville directly prompted the French retaliatory expedition to Fort Necessity"
+      "note": "The Battle of Jumonville Glen leads directly to the construction and surrender of Fort Necessity"
     },
     {
       "from": "1754-003",
-      "to": "1756-003",
+      "to": "1755-002",
       "relation": "led_to",
-      "note": "The Ohio Country conflict of 1754 escalated into the formal Seven Years' War by 1756"
+      "note": "The loss of Fort Necessity contributes to the escalation that leads to Braddock's Defeat in 1755"
     },
     {
-      "from": "1754-004",
-      "to": "1754-015",
-      "relation": "contemporary_with",
-      "note": "Franklin's 'Join, or Die' cartoon advocated the same colonial unity he proposed at the Albany Congress"
-    },
-    {
-      "from": "1754-004",
-      "to": "1754-005",
-      "relation": "part_of",
-      "note": "Hendrick's speech was delivered at and shaped the Albany Congress proceedings"
-    },
-    {
-      "from": "1754-009",
-      "to": "1756-003",
-      "relation": "contemporary_with",
-      "note": "Qing preparations against the Dzungars were contemporaneous with the build-up to the Seven Years' War \u2014 both were part of mid-18th century great-power competition across Eurasia"
-    },
-    {
-      "from": "1754-014",
-      "to": "1754-001",
-      "relation": "contemporary_with",
-      "note": "Anglo-French tensions in Nova Scotia were part of the same continental confrontation as the Ohio Country conflicts"
-    },
-    {
-      "from": "1754-007",
-      "to": "1754-002",
-      "relation": "contemporary_with",
-      "note": "French strategic retrenchment in India (Dupleix's recall) occurred as Anglo-French conflict escalated in North America"
+      "from": "1754-005",
+      "to": "1755-004",
+      "relation": "led_to",
+      "note": "The intensification of Qing campaigns in 1754 leads to the completion of the conquest of the Dzungar Khanate in 1755"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T08:26:58.332009",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

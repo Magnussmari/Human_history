@@ -1,198 +1,170 @@
 {
   "year": 1589,
   "year_label": "1589 CE",
-  "era_context": "Late 16th century Europe: the Wars of Religion in France reach their climax; the Spanish Armada's defeat (1588) has reshaped naval power; the Reformation and Counter-Reformation are entrenched; the Ottoman Empire remains a major Mediterranean and Eastern European power; in East Asia, the Ming Dynasty rules China, Japan is in the Sengoku period's final consolidation, and the Mughal Empire dominates South Asia.",
+  "era_context": "Late 16th century: Spain under Philip II remains powerful but weakened by the failed Armada (1588). France is in the midst of the Wars of Religion, with the assassination of Henry III marking a succession crisis. England under Elizabeth I consolidates naval power. The Ottoman Empire controls the eastern Mediterranean. In Asia, the Ming Dynasty rules China; Japan is in final unification under Toyotomi Hideyoshi.",
   "documentation_level": "rich",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited European documentation; indigenous records sparse in surviving sources)",
-    "Pacific Islands and Oceania (minimal contemporary European contact)",
-    "Interior Americas beyond Spanish colonial zones"
+    "Sub-Saharan Africa (limited European documentation)",
+    "Interior South America and North America (minimal European contact documentation)"
   ],
   "events": [
     {
       "id": "1589-001",
-      "title": "Battle of Arques",
-      "region": "Normandy, France",
-      "coordinates_approx": "49.8, 0.1",
-      "category": "military",
-      "description": "Henry of Navarre (future Henry IV) defeats the Catholic League forces under the Duke of Mayenne in a decisive engagement during the French Wars of Religion. This victory strengthened Henry's claim to the French throne and demonstrated the military viability of the Protestant-aligned Huguenot forces. The battle marked a turning point in the civil war, though religious conflict would continue for several more years.",
+      "title": "Assassination of Henry III of France; Henry of Navarre becomes heir to the throne",
+      "region": "France",
+      "coordinates_approx": "48.8,2.3",
+      "category": "political",
+      "description": "King Henry III of France is assassinated by Jacques Cl\u00e9ment, a Dominican friar, on August 1, 1589. With his death, the throne passes to Henry of Navarre (Henry IV), a Protestant, creating a succession crisis and intensifying the Wars of Religion. The assassination marks a turning point in French history, as Henry of Navarre must fight to secure his throne against the Catholic League and Spanish intervention.",
       "key_figures": [
-        "Henry of Navarre (later Henry IV of France)",
-        "Charles, Duke of Mayenne (Catholic League commander)"
+        "Henry III of France (assassinated king)",
+        "Henry of Navarre (Henry IV, new heir)",
+        "Jacques Cl\u00e9ment (assassin)"
       ],
       "sources": [
         {
-          "name": "Contemporary accounts in French royal archives and memoirs of participants",
+          "name": "Contemporary French chronicles and memoirs",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Agrippa d'Aubign\u00e9, Histoire universelle",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Papal and Spanish diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented in contemporary chronicles and official records; date and outcome are not disputed.",
+      "certainty_note": "The assassination is well-documented in multiple contemporary sources with specific dates.",
       "cross_references": [
-        "1588-001 (Spanish Armada, context for French instability)",
-        "1593-001 (Henry IV's conversion and eventual peace)"
+        "1590-001 (Henry IV enters Paris)",
+        "1598-001 (Edict of Nantes)"
       ]
     },
     {
       "id": "1589-002",
-      "title": "Assassination of Henry III of France",
-      "region": "Saint-Cloud, France",
-      "coordinates_approx": "48.85, 2.22",
-      "category": "political",
-      "description": "King Henry III is assassinated by Jacques Cl\u00e9ment, a Dominican friar, at the royal ch\u00e2teau of Saint-Cloud. The murder was motivated by religious extremism and factional politics during the Wars of Religion. Henry III's death left no direct heir and precipitated a succession crisis, ultimately leading to Henry of Navarre's accession as Henry IV, which required his conversion to Catholicism and years of further conflict.",
+      "title": "English naval expedition to Spain and Portugal; Drake and Norris campaign",
+      "region": "Spain and Portugal",
+      "coordinates_approx": "40.0,-3.0",
+      "category": "military",
+      "description": "Sir Francis Drake and Sir John Norris lead an English naval and military expedition against Spanish-held territories in Spain and Portugal. The campaign aims to support Portuguese pretenders to the throne and strike at Spanish power in the aftermath of the failed Armada. The expedition is largely unsuccessful and costly, failing to achieve its strategic objectives. It represents English attempts to exploit Spanish weakness after 1588.",
       "key_figures": [
-        "Henry III of France (victim)",
-        "Jacques Cl\u00e9ment (assassin)",
-        "Henry of Navarre (successor)"
+        "Sir Francis Drake (English naval commander)",
+        "Sir John Norris (English military commander)",
+        "Antonio, Prior of Crato (Portuguese pretender)"
       ],
       "sources": [
         {
-          "name": "Contemporary accounts in French royal archives, eyewitness testimonies",
+          "name": "English state papers and military records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Pierre de l'Estoile, Journal-m\u00e9moires",
+          "name": "Contemporary English chronicles",
           "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented by multiple contemporary witnesses and official records; date and circumstances are certain.",
+      "certainty_note": "The Drake-Norris expedition is well-documented in English state papers.",
       "cross_references": [
-        "1589-001 (Battle of Arques, immediate consequence)",
-        "1593-001 (Henry IV's conversion and consolidation)"
+        "1588-002 (Spanish Armada)"
       ]
     },
     {
       "id": "1589-003",
-      "title": "Tokugawa Ieyasu consolidates power in Japan",
-      "region": "Japan (Kanto region and broader Honshu)",
-      "coordinates_approx": "36.5, 138.0",
+      "title": "Wanli Emperor's reign; Ming China experiences economic and military strain",
+      "region": "China",
+      "coordinates_approx": "39.9,116.4",
       "category": "political",
-      "description": "Following the death of Toyotomi Hideyoshi in 1598 (note: this event is actually dated to 1598, but Ieyasu's consolidation of power accelerated in 1589 after Hideyoshi's campaigns), Tokugawa Ieyasu strengthens his position as the most powerful daimyo. By 1589, Ieyasu had secured the Kanto region and was positioning himself as the ultimate successor to Hideyoshi's unification project. This period marks the beginning of the Tokugawa shogunate's rise, which would dominate Japan for over 250 years.",
+      "description": "The Wanli Emperor continues his reign during a period of increasing internal instability and military pressure. Court factionalism intensifies between eunuchs and scholar-officials. Military expenditures on the northern frontier against Jurchen and Mongol threats strain the imperial treasury. The emperor increasingly withdraws from active governance, delegating authority to eunuchs and officials.",
       "key_figures": [
-        "Tokugawa Ieyasu (daimyo, future shogun)",
-        "Toyotomi Hideyoshi (regent, still living in 1589)"
+        "Wanli Emperor (Ming ruler)"
       ],
       "sources": [
         {
-          "name": "Tokugawa Iemitsu, Buke Shohatto (later compilation of Tokugawa law and history)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Contemporary daimyo records and correspondence",
-          "type": "chronicle",
+          "name": "Ming Shilu (Official Ming Records)",
+          "type": "primary_text",
           "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The consolidation of Ieyasu's power was gradual; 1589 marks a key phase, but the exact chronology of his territorial expansion is sometimes compressed in later sources.",
-      "cross_references": [
-        "1598-001 (Toyotomi Hideyoshi's death)",
-        "1603-001 (Tokugawa shogunate formally established)"
-      ]
+      "certainty": "confirmed",
+      "certainty_note": "Ming administrative records provide detailed documentation.",
+      "cross_references": []
     },
     {
       "id": "1589-004",
-      "title": "Portuguese establish Goa as colonial administrative center",
-      "region": "Goa, India",
-      "coordinates_approx": "15.3, 73.8",
+      "title": "Toyotomi Hideyoshi's consolidation of Japan continues; daimyo submission accelerates",
+      "region": "Japan",
+      "coordinates_approx": "35.0,138.0",
       "category": "political",
-      "description": "By 1589, the Portuguese colonial administration in Goa was fully consolidated as the capital of the Portuguese Estado da \u00cdndia (State of India). Goa served as the hub for Portuguese maritime trade and colonial governance across the Indian Ocean, the Arabian Sea, and beyond. The establishment of this administrative center represented the maturation of Portuguese colonial power in Asia, though it would face increasing competition from the Dutch and English in the following decades.",
+      "description": "Toyotomi Hideyoshi continues the consolidation of power over the Japanese daimyo, with increasing numbers submitting to his authority. The Sengoku period of civil war is effectively ending. Hideyoshi's authority is based on military power and personal prestige rather than institutional structures. By 1589, most major daimyo have acknowledged Hideyoshi's supremacy, though some retain significant regional autonomy.",
       "key_figures": [
-        "Portuguese Crown (administrative authority)",
-        "Viceroy of India (administrative representative)"
+        "Toyotomi Hideyoshi (Regent of Japan)"
       ],
       "sources": [
         {
-          "name": "Portuguese colonial records and administrative documents",
+          "name": "Japanese daimyo records and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Gaspar Correia, Lendas da \u00cdndia",
-          "type": "later_compilation",
+          "name": "Taik\u014dki and other Japanese chronicles",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Portuguese colonial administration in Goa is well-documented in Portuguese archives; the consolidation process began earlier (1510s) but was fully established by 1589.",
+      "certainty_note": "Hideyoshi's consolidation is well-attested in Japanese records.",
       "cross_references": [
-        "1510-001 (Portuguese conquest of Goa)",
-        "1600-001 (Dutch East India Company founded, beginning of competition)"
+        "1590-005 (continuation of consolidation)"
       ]
     },
     {
       "id": "1589-005",
-      "title": "Matteo Ricci arrives in China",
-      "region": "China (Guangdong Province, later Beijing)",
-      "coordinates_approx": "23.1, 113.3",
-      "category": "cultural",
-      "description": "Italian Jesuit missionary Matteo Ricci arrives in Guangzhou (Canton), China, beginning a mission that would profoundly influence Sino-European intellectual exchange. Ricci's approach\u2014learning Chinese, adopting Confucian dress and customs, and presenting Christianity through the lens of natural philosophy and mathematics\u2014represented a new model of missionary engagement. His work laid the foundation for the Jesuit mission in China and contributed to the transmission of European scientific knowledge to the Ming court.",
+      "title": "Ottoman Empire under Murad III; continued control of eastern Mediterranean and Balkans",
+      "region": "Ottoman Empire",
+      "coordinates_approx": "41.0,29.0",
+      "category": "political",
+      "description": "The Ottoman Empire under Murad III (r. 1574\u20131595) continues to control the eastern Mediterranean, the Balkans, and much of the Middle East. The empire faces increasing internal challenges, including administrative corruption and military strain. However, Ottoman naval power remains significant in the Mediterranean, though challenged by European powers. The reign of Murad III marks the beginning of Ottoman institutional decline.",
       "key_figures": [
-        "Matteo Ricci (Jesuit missionary)",
-        "Michele Ruggieri (fellow Jesuit, earlier arrival)"
+        "Murad III (Ottoman Sultan)"
       ],
       "sources": [
         {
-          "name": "Matteo Ricci, Journals and correspondence (primary texts)",
+          "name": "Ottoman administrative records (Ba\u015fbakanl\u0131k Osmanl\u0131 Ar\u015fivi)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ricci's later compiled works and Jesuit records",
+          "name": "Contemporary Ottoman chronicles",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Ricci's arrival in Guangzhou in 1589 is well-documented in Jesuit archives and his own writings; the date is certain.",
-      "cross_references": [
-        "1601-001 (Ricci arrives in Beijing)",
-        "1610-001 (Ricci's death and legacy)"
-      ]
+      "certainty_note": "Ottoman administrative records provide documentation of this period.",
+      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The significance of the Battle of Arques is sometimes overstated in French historiography as a decisive turning point; modern scholarship notes that the Catholic League remained militarily viable for several more years, and the battle's strategic impact was limited by Henry of Navarre's inability to immediately capitalize on the victory. Additionally, some historians argue that Henry III's assassination was less a spontaneous act of religious extremism and more the result of factional manipulation by the Catholic League, though the evidence for this remains contested. The dating of Tokugawa Ieyasu's consolidation of power in 1589 is somewhat arbitrary; his rise was gradual, and assigning a single year risks oversimplifying a complex process of territorial expansion and political maneuvering that spanned the 1580s and 1590s.",
-  "historiographic_note": "The historical record for 1589 is rich for European events, particularly France, where royal archives and contemporary chronicles provide detailed documentation. Asian events are less densely documented in Western sources but are well-attested in Chinese, Japanese, and Portuguese records. The perspective is heavily weighted toward political and military events; economic and social history for this year is less systematically recorded. Colonial narratives (particularly Portuguese accounts of Asia) reflect the biases of the colonizers and may underrepresent indigenous perspectives and agency.",
+  "disconfirming_evidence": "The assassination of Henry III is sometimes portrayed as a sudden turning point, but the Wars of Religion had been ongoing for decades, and Henry III's death, while significant, did not immediately resolve the succession crisis. The Drake-Norris expedition is often characterized as a failure, but some historians argue it had limited strategic value and was not as significant as the Armada campaign. The characterization of Hideyoshi's consolidation as 'complete' by 1589 is somewhat conventional; some daimyo retained significant autonomy.",
+  "historiographic_note": "Documentation for 1589 is rich for European and East Asian events. European sources reflect the perspectives of major powers and are heavily weighted toward political and military history. Asian sources are primarily administrative records and later chronicles. The assassination of Henry III is extensively documented in French, Spanish, and papal sources, reflecting the international significance of the event. Sub-Saharan African and interior American events are severely underrepresented.",
   "graph_edges": [
     {
       "from": "1589-001",
-      "to": "1589-002",
-      "relation": "contemporary_with",
-      "note": "Battle of Arques and assassination of Henry III both occurred in 1589, shaping the succession crisis"
+      "to": "1590-001",
+      "relation": "led_to",
+      "note": "Henry III's assassination leads to Henry IV's struggle for the throne"
     },
     {
       "from": "1589-002",
-      "to": "1593-001",
-      "relation": "led_to",
-      "note": "Henry III's assassination directly led to Henry of Navarre's succession and eventual conversion"
+      "to": "1588-002",
+      "relation": "part_of",
+      "note": "Drake-Norris expedition is part of English response to Armada"
     },
     {
-      "from": "1589-003",
-      "to": "1603-001",
+      "from": "1589-001",
+      "to": "1598-001",
       "relation": "led_to",
-      "note": "Ieyasu's consolidation of power in 1589 culminated in the establishment of the Tokugawa shogunate"
-    },
-    {
-      "from": "1589-005",
-      "to": "1601-001",
-      "relation": "led_to",
-      "note": "Ricci's arrival in Guangzhou in 1589 led to his later mission to Beijing"
+      "note": "Succession crisis leads to Edict of Nantes"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T13:56:34.325307",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

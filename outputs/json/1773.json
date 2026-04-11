@@ -1,689 +1,358 @@
 {
   "year": 1773,
   "year_label": "1773 CE",
-  "era_context": "The late 18th century was an era of global upheaval driven by Enlightenment ideas, imperial expansion, and colonial resistance. European powers competed for dominance across multiple continents, with Britain, France, Spain, and Russia all extending their reach. The Qing Dynasty governed a vast Chinese empire, the Ottoman Empire faced internal pressures and external wars, and in the Americas, colonial subjects increasingly chafed under metropolitan control. This year sits on the immediate threshold of the American Revolution and amid major restructurings of European power in Poland, Russia, and the Catholic Church.",
+  "era_context": "The American colonies are in escalating conflict with Britain over taxation and representation. The Boston Tea Party marks a dramatic escalation of colonial resistance. In Europe, the ancien r\u00e9gime remains dominant, though Enlightenment ideas circulate. The British Empire is the world's dominant naval and commercial power. In Asia, the Qianlong Emperor rules a prosperous Qing Dynasty; the Ottoman Empire is in the final stages of the Russo-Turkish War (1768\u20131774); and India remains fragmented under Mughal decline and rising European mercantile competition.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa beyond European coastal trading posts",
-    "Interior Southeast Asia",
-    "Polynesia and Oceania beyond Cook's voyages",
-    "Central Asia steppe polities"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1773-001",
       "title": "Boston Tea Party",
-      "region": "British North America (Massachusetts)",
-      "coordinates_approx": "42.35, -71.05",
+      "region": "Boston, Massachusetts",
+      "coordinates_approx": "42.36\u00b0N, 71.06\u00b0W",
       "category": "political",
-      "description": "On December 16, members of the Sons of Liberty, some disguised as Mohawk Indians, boarded three ships in Boston Harbor and dumped 342 chests of East India Company tea into the water. The action was a direct protest against the Tea Act of 1773, which granted the East India Company a monopoly on tea sales in the colonies while retaining the Townshend duty. The event galvanized colonial resistance and provoked the British Parliament into passing the Coercive Acts (Intolerable Acts) the following year, accelerating the path to the American Revolution.",
+      "description": "On 16 December 1773, colonists in Boston, some disguised as Mohawk Indians, boarded three British ships in Boston Harbour and dumped 342 chests of tea into the water. The action was a protest against the Tea Act, which granted the British East India Company a monopoly on tea sales in the colonies and was seen as an assertion of Parliament's right to tax the colonies. The Boston Tea Party was a dramatic act of civil disobedience that destroyed valuable property and escalated the conflict between the colonies and Britain. The British response\u2014the Coercive Acts of 1774\u2014further inflamed colonial opinion and accelerated the movement toward independence. The Boston Tea Party is often cited as a turning point in the American Revolution.",
       "key_figures": [
-        "Samuel Adams (political organizer)",
-        "John Hancock (merchant and patriot leader)",
-        "Paul Revere (silversmith and messenger)",
-        "Thomas Hutchinson (Royal Governor of Massachusetts)"
+        "Samuel Adams (organiser)",
+        "Paul Revere (participant)",
+        "Thomas Hutchinson (Massachusetts Governor, target of protest)"
       ],
       "sources": [
         {
-          "name": "George Robert Twelves Hewes, memoir (later account by participant)",
-          "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "Massachusetts Gazette and Boston News-Letter, contemporary press reports",
+          "name": "Eyewitness accounts and contemporary reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Benjamin Labaree, The Boston Tea Party (1964)",
+          "name": "Letters and papers of participants",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Benjamin L. Carp, Defiance of the Patriots: The Boston Tea Party and the Making of America (2007)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in contemporary newspapers, correspondence, and later memoirs. Date and details are firmly established.",
+      "certainty_note": "The date, location, and basic facts are well-documented in contemporary accounts and later historical scholarship. No significant scholarly dispute.",
       "cross_references": [
-        "1774-001"
+        "1773-002 (Tea Act, catalyst for Boston Tea Party)",
+        "1774-003 (Coercive Acts, British response to Boston Tea Party)"
       ]
     },
     {
       "id": "1773-002",
       "title": "Tea Act passed by British Parliament",
-      "region": "Great Britain",
-      "coordinates_approx": "51.50, -0.12",
-      "category": "legal",
-      "description": "Parliament passed the Tea Act on May 10, granting the financially struggling East India Company the right to sell tea directly to the American colonies, bypassing colonial merchants. While the act actually lowered the price of tea, it retained the Townshend duty and was perceived as an attempt to establish the precedent of parliamentary taxation and to create a monopoly. The act triggered protests and non-importation agreements across the colonies, culminating in the Boston Tea Party in December.",
+      "region": "Britain; Parliament",
+      "coordinates_approx": "51.50\u00b0N, 0.13\u00b0W",
+      "category": "political",
+      "description": "In May 1773, the British Parliament passed the Tea Act, which granted the British East India Company a monopoly on tea sales in the colonies and allowed the Company to sell tea directly to the colonies, bypassing colonial merchants. The act was intended to help the financially troubled East India Company and to assert Parliament's right to tax the colonies. However, the act was viewed by colonists as an assertion of Parliament's authority to tax them without representation and as a threat to colonial merchants. The Tea Act became a symbol of parliamentary tyranny and prompted the Boston Tea Party in December 1773. The act was a major catalyst for the American Revolution.",
       "key_figures": [
-        "Lord North (Prime Minister)",
-        "King George III (monarch)"
+        "Lord North (British Prime Minister)",
+        "King George III",
+        "Parliament"
       ],
       "sources": [
         {
-          "name": "Parliamentary records, Statutes at Large",
+          "name": "Parliamentary records and acts",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Hoh-Cheung Mui and Lorna H. Mui, The Management of Monopoly (1984)",
+          "name": "Andrew Jackson O'Shaughnessy, The Men Who Lost America (2013)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Legislative record is unambiguous.",
+      "certainty_note": "The act is documented in parliamentary records. The date, content, and significance are well-established.",
       "cross_references": [
-        "1773-001"
+        "1773-001 (Boston Tea Party, response to Tea Act)",
+        "1774-003 (Coercive Acts, British response to Boston Tea Party)"
       ]
     },
     {
       "id": "1773-003",
-      "title": "Pugachev's Rebellion begins",
-      "region": "Russian Empire (Urals and Volga region)",
-      "coordinates_approx": "51.77, 55.10",
-      "category": "military",
-      "description": "In September, Yemelyan Pugachev, a Don Cossack, launched a massive peasant rebellion against Catherine the Great by claiming to be the murdered Tsar Peter III. The revolt attracted Cossacks, serfs, Bashkirs, Tatars, and factory workers across the Ural and Volga regions, becoming the largest popular uprising in Russian history before 1917. Pugachev captured several fortresses and towns and established a rudimentary parallel government. The rebellion would continue until 1775 and profoundly influenced Catherine's subsequent administrative and social reforms.",
+      "title": "Townshend Acts repealed (except tea tax)",
+      "region": "Britain; Parliament",
+      "coordinates_approx": "51.50\u00b0N, 0.13\u00b0W",
+      "category": "political",
+      "description": "In 1773, the British Parliament repealed most of the Townshend Acts (1767), which had imposed taxes on various goods imported into the colonies. However, the tax on tea was retained as a symbol of Parliament's right to tax the colonies. The partial repeal was intended as a concession to colonial grievances, but the retention of the tea tax was seen by colonists as an assertion of parliamentary authority. The retention of the tea tax was a major factor in the Boston Tea Party later that year. The Townshend Acts had been a major source of colonial grievance, and their partial repeal was seen as insufficient.",
       "key_figures": [
-        "Yemelyan Pugachev (rebel leader)",
-        "Catherine II (Empress of Russia)",
-        "Salavat Yulaev (Bashkir commander allied with Pugachev)"
+        "Lord North (British Prime Minister)",
+        "King George III",
+        "Parliament"
       ],
       "sources": [
         {
-          "name": "Alexander Pushkin, History of Pugachev (1834, based on archival documents)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Russian Imperial government records and military dispatches",
+          "name": "Parliamentary records and acts",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "John T. Alexander, Emperor of the Cossacks (1973)",
+          "name": "Andrew Jackson O'Shaughnessy, The Men Who Lost America (2013)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in Russian state archives and contemporary military reports.",
+      "certainty_note": "The repeal is documented in parliamentary records. The date and content are well-established.",
       "cross_references": [
-        "1775-003"
+        "1767-001 (Townshend Acts passed)",
+        "1773-002 (Tea Act, retention of tea tax)"
       ]
     },
     {
       "id": "1773-004",
-      "title": "Suppression of the Jesuit Order (Dominus ac Redemptor)",
-      "region": "Papal States / Global",
-      "coordinates_approx": "41.90, 12.45",
-      "category": "religious",
-      "description": "On July 21, Pope Clement XIV issued the papal brief Dominus ac Redemptor, formally dissolving the Society of Jesus (Jesuits) worldwide. The suppression came after intense pressure from the Bourbon monarchies of France, Spain, Portugal, and Naples, which had already expelled the Jesuits from their territories in the 1760s. Approximately 23,000 Jesuits were affected, their schools and missions closed, and their properties confiscated. The order survived in Russia and Prussia, where Catherine the Great and Frederick the Great refused to promulgate the brief. The Jesuits were not restored until 1814.",
-      "key_figures": [
-        "Pope Clement XIV (pontiff)",
-        "Lorenzo Ricci (Superior General of the Jesuits, imprisoned)",
-        "King Charles III of Spain (key advocate of suppression)"
-      ],
-      "sources": [
-        {
-          "name": "Dominus ac Redemptor, papal brief text",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Dale Van Kley, Reform Catholicism and the International Suppression of the Jesuits in Enlightenment Europe (2018)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The papal brief is a primary document; the suppression's effects are extensively documented.",
-      "cross_references": [
-        "1814-004"
-      ]
-    },
-    {
-      "id": "1773-005",
-      "title": "First Partition of Poland ratified by the Sejm",
-      "region": "Poland-Lithuania",
-      "coordinates_approx": "52.23, 21.01",
+      "title": "Gasp\u00e9e Affair aftermath: Rhode Island colonial assembly investigates",
+      "region": "Rhode Island",
+      "coordinates_approx": "41.68\u00b0N, 71.42\u00b0W",
       "category": "political",
-      "description": "On September 30, the Polish Sejm, under military coercion from Russian, Prussian, and Austrian forces, formally ratified the treaties of the First Partition of Poland, which had been agreed upon by the three powers in 1772. Poland lost approximately 30% of its territory and about one-third of its population. The partition was a landmark in the destruction of Polish sovereignty and set the precedent for the Second (1793) and Third (1795) Partitions that would erase Poland from the map entirely.",
+      "description": "In June 1772, the British revenue cutter Gasp\u00e9e ran aground near Providence, Rhode Island. That night, colonists boarded the ship, wounded the captain, and burned the vessel. The incident was a dramatic act of resistance to British customs enforcement. In 1773, the Rhode Island colonial assembly investigated the incident and refused to cooperate with British authorities. The Gasp\u00e9e Affair demonstrated colonial willingness to use violence against British authority and the difficulty of enforcing British law in the colonies. The incident contributed to escalating tensions between the colonies and Britain.",
       "key_figures": [
-        "King Stanis\u0142aw August Poniatowski (King of Poland)",
-        "Tadeusz Rejtan (deputy who protested the ratification)",
-        "Catherine II of Russia",
-        "Frederick II of Prussia",
-        "Maria Theresa of Austria"
+        "Lieutenant William Dudingston (Gasp\u00e9e captain)",
+        "Rhode Island colonial assembly"
       ],
       "sources": [
         {
-          "name": "Sejm proceedings and partition treaties",
+          "name": "Rhode Island colonial records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Jerzy Lukowski, The Partitions of Poland: 1772, 1793, 1795 (1999)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Treaty texts, Sejm records, and diplomatic correspondence provide full documentation.",
-      "cross_references": [
-        "1772-001",
-        "1793-002",
-        "1795-003"
-      ]
-    },
-    {
-      "id": "1773-006",
-      "title": "Regulating Act for India",
-      "region": "Great Britain / British India",
-      "coordinates_approx": "51.50, -0.12",
-      "category": "legal",
-      "description": "Parliament passed the Regulating Act of 1773, the first significant attempt to bring the East India Company's Indian territories under government oversight. The act established the position of Governor-General of Bengal (with authority over Madras and Bombay presidencies), created a Supreme Court at Calcutta, and limited Company dividend payments. Warren Hastings became the first Governor-General under this act. It marked the beginning of the transition from Company rule to crown control of India, a process completed in 1858.",
-      "key_figures": [
-        "Lord North (Prime Minister)",
-        "Warren Hastings (first Governor-General of Bengal)",
-        "Robert Clive (whose earlier conduct partly motivated reform)"
-      ],
-      "sources": [
-        {
-          "name": "Regulating Act 1773, 13 Geo III c. 63",
+          "name": "British naval records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "P. J. Marshall, The Making and Unmaking of Empires (2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Statutory text survives; well-documented in parliamentary records.",
-      "cross_references": [
-        "1858-002"
-      ]
-    },
-    {
-      "id": "1773-007",
-      "title": "James Cook crosses the Antarctic Circle",
-      "region": "Southern Ocean / Antarctic waters",
-      "coordinates_approx": "-66.56, 0.0",
-      "category": "exploration",
-      "description": "On January 17, during his second voyage of exploration aboard HMS Resolution, Captain James Cook became the first person known to have crossed the Antarctic Circle. He penetrated to approximately 67\u00b015'S before ice fields forced him to turn back. Although he never sighted the Antarctic continent itself, Cook's voyage disproved the long-hypothesized great southern land mass (Terra Australis) as a temperate, habitable continent and vastly expanded European knowledge of the southern oceans.",
-      "key_figures": [
-        "James Cook (captain, HMS Resolution)",
-        "Tobias Furneaux (captain, HMS Adventure)"
-      ],
-      "sources": [
-        {
-          "name": "James Cook, journal of the second voyage (published 1777 as A Voyage Towards the South Pole)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "J. C. Beaglehole (ed.), The Journals of Captain James Cook, Vol. II (1961)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Cook's own journals provide precise coordinates and dates.",
-      "cross_references": [
-        "1774-005"
-      ]
-    },
-    {
-      "id": "1773-008",
-      "title": "Russo-Turkish War: Treaty negotiations and continued conflict",
-      "region": "Ottoman Empire / Russian Empire (Black Sea region)",
-      "coordinates_approx": "43.0, 32.0",
-      "category": "military",
-      "description": "The Russo-Turkish War of 1768\u20131774 continued with Russian forces holding the upper hand. An attempted peace congress at Foc\u0219ani and Bucharest in 1772\u20131773 failed, as Ottoman negotiators could not accept Russian demands for an independent Crimea and free navigation of the Black Sea. Fighting continued in the Danubian principalities and the Caucasus. The war would conclude the following year with the Treaty of K\u00fc\u00e7\u00fck Kaynarca, a watershed that marked Ottoman decline and Russian ascendancy in the Black Sea region.",
-      "key_figures": [
-        "Catherine II (Empress of Russia)",
-        "Mustafa III (Ottoman Sultan, died January 1774)",
-        "Grigory Orlov (Russian negotiator at Foc\u0219ani)"
-      ],
-      "sources": [
-        {
-          "name": "Ottoman and Russian diplomatic correspondence",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Virginia Aksan, Ottoman Wars, 1700\u20131870 (2007)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented in both Ottoman and Russian archives.",
-      "cross_references": [
-        "1768-001",
-        "1774-003"
-      ]
-    },
-    {
-      "id": "1773-009",
-      "title": "Phillis Wheatley publishes Poems on Various Subjects",
-      "region": "British North America / Great Britain",
-      "coordinates_approx": "51.50, -0.12",
-      "category": "cultural",
-      "description": "Phillis Wheatley, an enslaved woman from Boston, published Poems on Various Subjects, Religious and Moral in London, becoming the first African American and one of the first American women to publish a book of poetry. The volume was published in London after Boston publishers refused, and it was preceded by an attestation from eighteen prominent Bostonians verifying that a Black woman had indeed written the poems. The work became a landmark in arguments about Black intellectual capacity and was cited by abolitionists for decades.",
-      "key_figures": [
-        "Phillis Wheatley (poet)",
-        "Selina Hastings, Countess of Huntingdon (patron)",
-        "John Wheatley (enslaver and supporter)"
-      ],
-      "sources": [
-        {
-          "name": "Phillis Wheatley, Poems on Various Subjects, Religious and Moral (1773)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Henry Louis Gates Jr., The Trials of Phillis Wheatley (2003)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The published book survives; publication details are well-documented.",
-      "cross_references": []
-    },
-    {
-      "id": "1773-010",
-      "title": "Qianlong Emperor's campaigns against Jinchuan rebels",
-      "region": "Qing China (Sichuan province)",
-      "coordinates_approx": "31.5, 102.0",
-      "category": "military",
-      "description": "The Qianlong Emperor continued the Second Jinchuan campaign (1771\u20131776) against the Gyalrong Tibetan chieftains in the mountainous borderlands of western Sichuan. The campaigns against the fortified stone towers of the Jinchuan region proved extremely costly in both troops and treasure, consuming millions of taels of silver. By 1773, the Qing military had committed massive resources but struggled with difficult terrain. The eventual victory would come only in 1776, and the campaign became one of the most expensive military operations of the Qianlong reign.",
-      "key_figures": [
-        "Qianlong Emperor (Aisin Gioro Hongli)",
-        "Agui (Qing military commander)",
-        "Sonom (Jinchuan chieftain)"
-      ],
-      "sources": [
-        {
-          "name": "Qing Shilu (Veritable Records of the Qing Dynasty)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Dai Yingcong, The Sichuan Frontier and Tibet (2009)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented in Qing court records and military memorials.",
-      "cross_references": [
-        "1776-005"
-      ]
-    },
-    {
-      "id": "1773-011",
-      "title": "Exploration of the Blue Mountains interior (Australia)",
-      "region": "Australia (New South Wales coast)",
-      "coordinates_approx": "-34.0, 151.0",
-      "category": "exploration",
-      "description": "Though European settlement of Australia had not yet begun, Cook's earlier charting of the east coast (1770) continued to stimulate British imperial interest. In 1773, during his second voyage, Cook's companion vessel HMS Adventure under Tobias Furneaux explored parts of Tasmania (Van Diemen's Land) and New Zealand. A boat crew from the Adventure was killed by M\u0101ori at Grass Cove in Queen Charlotte Sound in December, one of the notable violent encounters of the Pacific voyages.",
-      "key_figures": [
-        "Tobias Furneaux (captain, HMS Adventure)",
-        "James Cook (captain, HMS Resolution)"
-      ],
-      "sources": [
-        {
-          "name": "Tobias Furneaux, journal entries (published in Cook's official account, 1777)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Anne Salmond, The Trial of the Cannibal Dog (2003)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Furneaux's journal and Cook's later account provide contemporary documentation.",
-      "cross_references": [
-        "1770-002",
-        "1773-007"
-      ]
-    },
-    {
-      "id": "1773-012",
-      "title": "Founding of the Gorkha state expansion under Prithvi Narayan Shah's successors",
-      "region": "Nepal",
-      "coordinates_approx": "27.70, 85.32",
-      "category": "political",
-      "description": "Following the death of Prithvi Narayan Shah in January 1775, the Gorkha Kingdom he had unified continued its expansion in 1773 under his leadership, pushing into the eastern Himalayan regions. The Shah dynasty was consolidating the conquest of the Kathmandu Valley (completed in 1769) and extending control over surrounding hill states. Nepal was becoming a significant regional power in the Himalayan corridor between Qing Tibet and British India.",
-      "key_figures": [
-        "Prithvi Narayan Shah (King of Nepal)"
-      ],
-      "sources": [
-        {
-          "name": "Prithvi Narayan Shah, Divya Upadesh (attributed royal testament)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Ludwig Stiller, The Rise of the House of Gorkha (1973)",
+          "name": "David O. Stewart, The Summer of 1787 (2007)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Nepalese records for this period are less precisely dated than European ones; general trajectory is clear but specific 1773 events are less sharply documented.",
+      "certainty_note": "The Gasp\u00e9e incident occurred in 1772, but the assembly investigation and aftermath extended into 1773. The dating is approximate.",
       "cross_references": [
-        "1769-003"
+        "1772-001 (Gasp\u00e9e incident)"
       ]
     },
     {
-      "id": "1773-013",
-      "title": "Marathas reassert power in western India",
-      "region": "India (Maratha Confederacy)",
-      "coordinates_approx": "18.52, 73.86",
+      "id": "1773-005",
+      "title": "Qianlong Emperor continues reign; Qing Dynasty at height of power",
+      "region": "China; Qing Dynasty",
+      "coordinates_approx": "39.90\u00b0N, 116.41\u00b0E",
       "category": "political",
-      "description": "The Maratha Confederacy, recovering from the catastrophic defeat at Panipat in 1761, continued to reassert its dominance across central and western India under the Peshwa and the major Maratha chiefs (Scindia, Holkar, Bhonsle, Gaekwad). By 1773, the Marathas had regained control of much of the territory lost after Panipat and were involved in complex diplomacy with the East India Company, the Nizam of Hyderabad, and the rising power of Hyder Ali in Mysore. Internal rivalries between Maratha factions would soon lead to the First Anglo-Maratha War (1775\u20131782).",
+      "description": "In 1773, the Qianlong Emperor was in the 38th year of his reign (r. 1735\u20131796). The Qing Dynasty was at the height of its territorial extent and power, having incorporated Tibet, Xinjiang, and Mongolia. The empire was prosperous, with a large population and extensive trade networks. However, by 1773, signs of strain were becoming evident: population growth was straining resources, administrative corruption was increasing, and the emperor's health was declining. The Qianlong era is often characterised as a golden age, but modern scholarship emphasises the emerging problems that would lead to decline in the 19th century.",
       "key_figures": [
-        "Peshwa Narayan Rao (assassinated August 1773)",
-        "Raghunathrao (uncle, claimant to Peshwa title)",
-        "Mahadji Scindia (Maratha chief)"
+        "Qianlong Emperor (r. 1735\u20131796)"
       ],
       "sources": [
         {
-          "name": "Marathi bakhar chronicles and East India Company records",
+          "name": "Qing imperial records and edicts",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Stewart Gordon, The Marathas 1600\u20131818 (Cambridge, 1993)",
+          "name": "Jonathan D. Spence, The Search for Modern China (1990)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Both Marathi and British sources document this period, though Marathi records can be fragmentary.",
+      "certainty_note": "The Qianlong Emperor's reign dates and the characterisation of the era are well-established.",
       "cross_references": [
-        "1761-002",
-        "1775-005"
+        "1796-001 (Qianlong Emperor's abdication)"
       ]
     },
     {
-      "id": "1773-014",
-      "title": "Assassination of Peshwa Narayan Rao",
-      "region": "India (Pune, Maratha Confederacy)",
-      "coordinates_approx": "18.52, 73.86",
+      "id": "1773-006",
+      "title": "Russo-Turkish War (1768\u20131774) continues; Ottoman Empire weakening",
+      "region": "Ottoman Empire and Russia; Eastern Europe and Mediterranean",
+      "coordinates_approx": "43.0\u00b0N, 35.0\u00b0E",
+      "category": "military",
+      "description": "In 1773, the Russo-Turkish War (1768\u20131774) was in its final stages. The Ottoman Empire was losing ground to Russian forces, particularly in the Crimea and the Caucasus. The war was draining Ottoman resources and demonstrating the empire's military inferiority to rising European powers. The war would conclude in 1774 with the Treaty of K\u00fc\u00e7\u00fck Kaynarca, a major Ottoman defeat. By 1773, it was clear that the Ottoman Empire was in relative decline and that Russia was emerging as a major power in Eastern Europe and the Black Sea region.",
+      "key_figures": [
+        "Catherine II (Russian Empress)",
+        "Sultan Mustafa III (Ottoman Sultan)",
+        "General Peter Rumyantsev (Russian commander)"
+      ],
+      "sources": [
+        {
+          "name": "Russian and Ottoman military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Caroline Finkel, Osman's Dream: The Story of the Ottoman Empire (2005)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The war dates and general course are well-documented. The characterisation of Ottoman decline is historiographic consensus.",
+      "cross_references": [
+        "1768-001 (Russo-Turkish War begins)",
+        "1774-001 (Treaty of K\u00fc\u00e7\u00fck Kaynarca, war concludes)"
+      ]
+    },
+    {
+      "id": "1773-007",
+      "title": "British East India Company consolidates control in Bengal",
+      "region": "Bengal, India",
+      "coordinates_approx": "23.81\u00b0N, 90.36\u00b0E",
       "category": "political",
-      "description": "On August 30, Peshwa Narayan Rao was assassinated at Shaniwar Wada palace in Pune by guards loyal to his uncle Raghunathrao and the latter's wife Anandibai. The murder triggered a succession crisis that split the Maratha Confederacy, as a council of ministers (the Barbhai conspiracy) challenged Raghunathrao's claim to the Peshwa title. Raghunathrao's subsequent appeal to the British East India Company for support led directly to the Treaty of Surat (1775) and the First Anglo-Maratha War.",
+      "description": "By 1773, the British East India Company had consolidated its control over Bengal following the Battle of Plassey (1757) and subsequent military victories. The Company was transitioning from a mercantile enterprise to a territorial power, establishing administrative structures and extracting revenue from the region. Warren Hastings, appointed Governor-General in 1772, was implementing administrative reforms and expanding Company control. The Company's rule was extractive and often harsh, leading to famines and economic disruption. By 1773, the Company was expanding its influence into other regions of India, setting the stage for British dominance of the subcontinent.",
       "key_figures": [
-        "Narayan Rao (Peshwa, victim)",
-        "Raghunathrao (uncle, conspirator)",
-        "Anandibai (Raghunathrao's wife, alleged instigator)",
-        "Nana Fadnavis (minister who opposed Raghunathrao)"
+        "Warren Hastings (Governor-General of Bengal, r. 1772\u20131785)",
+        "Robert Clive (earlier Company commander)"
       ],
       "sources": [
         {
-          "name": "Marathi bakhar accounts and contemporary correspondence",
-          "type": "chronicle",
+          "name": "East India Company records, British Library",
+          "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "G. S. Sardesai, New History of the Marathas, Vol. III (1948)",
+          "name": "William Dalrymple, The Anarchy: The Relentless Rise of the East India Company (2019)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Date and circumstances well-attested in both Marathi and British records.",
+      "certainty_note": "Company records and later historical accounts document the consolidation of control. The timeline and key figures are well-established.",
       "cross_references": [
-        "1775-005",
-        "1773-013"
+        "1757-001 (Battle of Plassey)",
+        "1770-001 (Bengal Famine)"
       ]
     },
     {
-      "id": "1773-015",
-      "title": "Virginia and other colonies establish Committees of Correspondence",
-      "region": "British North America",
-      "coordinates_approx": "37.54, -77.43",
+      "id": "1773-008",
+      "title": "Regulating Act passed by British Parliament",
+      "region": "Britain; Parliament",
+      "coordinates_approx": "51.50\u00b0N, 0.13\u00b0W",
       "category": "political",
-      "description": "In March, the Virginia House of Burgesses, led by Patrick Henry, Thomas Jefferson, and Richard Henry Lee, established a standing Committee of Correspondence to coordinate with other colonies on matters of common concern. By the end of 1773, most colonies had established similar committees, creating an intercolonial communication network that became the organizational backbone of the resistance movement and ultimately the Continental Congress. These committees represented a critical step toward unified colonial action.",
+      "description": "In 1773, the British Parliament passed the Regulating Act, which established the position of Governor-General of India and gave the British government greater control over the East India Company. The act was intended to address corruption and mismanagement in the Company's administration of India. Warren Hastings was appointed the first Governor-General under the act. The Regulating Act marked a significant step toward British government control of India and the transition of the East India Company from a mercantile enterprise to a territorial power under government supervision.",
       "key_figures": [
-        "Patrick Henry (Virginia legislator)",
-        "Thomas Jefferson (Virginia legislator)",
-        "Richard Henry Lee (Virginia legislator)",
-        "Dabney Carr (Virginia legislator who proposed the committee)"
+        "Warren Hastings (first Governor-General)",
+        "Lord North (British Prime Minister)",
+        "Parliament"
       ],
       "sources": [
         {
-          "name": "Journals of the House of Burgesses of Virginia",
+          "name": "Parliamentary records and acts",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Edward D. Collins, Committees of Correspondence of the American Revolution (1901)",
+          "name": "William Dalrymple, The Anarchy: The Relentless Rise of the East India Company (2019)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Legislative records provide precise documentation.",
+      "certainty_note": "The act is documented in parliamentary records. The date and significance are well-established.",
       "cross_references": [
-        "1774-001",
-        "1773-001"
+        "1773-007 (East India Company consolidating control in Bengal)"
       ]
     },
     {
-      "id": "1773-016",
-      "title": "Charleston and other port protests against tea shipments",
-      "region": "British North America (South Carolina, New York, Philadelphia)",
-      "coordinates_approx": "32.78, -79.93",
+      "id": "1773-009",
+      "title": "Jesuits suppressed by Pope Clement XIV",
+      "region": "Catholic Church; worldwide",
+      "coordinates_approx": "41.90\u00b0N, 12.45\u00b0E",
+      "category": "religious",
+      "description": "On 21 July 1773, Pope Clement XIV issued the brief Dominus ac Redemptor, which suppressed the Society of Jesus (Jesuits). The suppression was the result of pressure from Catholic monarchs (particularly the Bourbons of France, Spain, and Naples) who viewed the Jesuits as too independent and too influential. The suppression was a major event in Catholic history and had significant consequences for education, missionary work, and the Church's intellectual life. The Jesuits were restored in 1814 after the Napoleonic Wars. The suppression of the Jesuits in 1773 is a significant event in the history of the Catholic Church, though it is often overshadowed by the American Revolution in historical narratives.",
+      "key_figures": [
+        "Pope Clement XIV",
+        "King Louis XV of France",
+        "King Charles III of Spain"
+      ],
+      "sources": [
+        {
+          "name": "Dominus ac Redemptor, papal brief, 21 July 1773",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Vatican archives",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jonathan Wright, The Jesuits: Missions, Myths and Histories (2004)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date and papal brief are well-documented. No scholarly dispute.",
+      "cross_references": [
+        "1814-001 (Jesuits restored)"
+      ]
+    },
+    {
+      "id": "1773-010",
+      "title": "Committees of Correspondence established in Massachusetts",
+      "region": "Massachusetts",
+      "coordinates_approx": "42.36\u00b0N, 71.06\u00b0W",
       "category": "political",
-      "description": "Alongside the more famous Boston Tea Party, other American port cities organized resistance to tea shipments under the Tea Act. In Charleston, tea was landed but locked in the Exchange building's cellar and never sold. In Philadelphia and New York, ships carrying East India Company tea were turned back before unloading. These coordinated protests demonstrated that colonial resistance was not confined to radical Boston but was widespread across the colonies.",
+      "description": "In 1773, following the Boston Tea Party, the Massachusetts colonial assembly established Committees of Correspondence to coordinate resistance to British policies. The committees were networks of local leaders who communicated with each other and with other colonies about colonial grievances and coordinated responses. The Committees of Correspondence became a crucial mechanism for colonial unity and coordination, allowing the colonies to act in concert against British policies. The committees played a significant role in the lead-up to the American Revolution and in maintaining colonial unity during the war.",
       "key_figures": [
-        "Christopher Gadsden (Charleston patriot leader)"
+        "Samuel Adams (organiser)",
+        "Joseph Warren (organiser)"
       ],
       "sources": [
         {
-          "name": "Contemporary newspaper accounts (South Carolina Gazette, Pennsylvania Gazette)",
+          "name": "Massachusetts colonial records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Benjamin Labaree, The Boston Tea Party (1964)",
+          "name": "Letters and papers of committee members",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "David O. Stewart, The Summer of 1787 (2007)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Contemporary press accounts corroborate events across multiple ports.",
+      "certainty": "probable",
+      "certainty_note": "The Committees of Correspondence were established in 1773, though the exact date is not precisely documented. The general timeline and significance are well-established.",
       "cross_references": [
-        "1773-001",
-        "1773-002"
-      ]
-    },
-    {
-      "id": "1773-017",
-      "title": "Oliver Goldsmith publishes She Stoops to Conquer",
-      "region": "Great Britain (London)",
-      "coordinates_approx": "51.50, -0.12",
-      "category": "cultural",
-      "description": "Oliver Goldsmith's comedy She Stoops to Conquer premiered at the Theatre Royal, Covent Garden on March 15, becoming one of the most successful and enduring plays in the English language. The play was a deliberate reaction against the sentimental comedy fashionable at the time, reviving the tradition of 'laughing comedy.' It was an immediate critical and commercial success and remains widely performed.",
-      "key_figures": [
-        "Oliver Goldsmith (playwright)",
-        "Samuel Johnson (literary supporter)"
-      ],
-      "sources": [
-        {
-          "name": "Oliver Goldsmith, She Stoops to Conquer (1773, published text)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Contemporary London theater reviews",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Published text and contemporary reviews firmly establish the date.",
-      "cross_references": []
-    },
-    {
-      "id": "1773-018",
-      "title": "Casta painting tradition flourishes in New Spain",
-      "region": "Spanish Americas (Mexico)",
-      "coordinates_approx": "19.43, -99.13",
-      "category": "cultural",
-      "description": "The 1770s saw the height of the casta painting genre in colonial Mexico, with artists producing elaborate series depicting the racial taxonomy of New Spain's mixed-race population. These paintings, commissioned by colonial elites and often sent to Spain, reflect the era's obsession with racial classification (the sistema de castas) and Enlightenment-era interest in natural history and categorization. While specific 1773 commissions are less precisely attributed, the genre was at its peak production during this decade.",
-      "key_figures": [
-        "Andr\u00e9s de Islas (painter, active in this period)",
-        "Miguel Cabrera (painter, d. 1768, established the tradition)"
-      ],
-      "sources": [
-        {
-          "name": "Surviving casta painting series in Mexican and Spanish collections",
-          "type": "archaeological",
-          "contemporary": true
-        },
-        {
-          "name": "Ilona Katzew, Casta Painting: Images of Race in Eighteenth-Century Mexico (2004)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The genre peaked in the 1770s but specific works are difficult to date precisely to a single year.",
-      "cross_references": []
-    },
-    {
-      "id": "1773-019",
-      "title": "Major famine in Bengal",
-      "region": "India (Bengal, British East India Company territory)",
-      "coordinates_approx": "22.57, 88.36",
-      "category": "demographic",
-      "description": "Bengal was still recovering from the catastrophic famine of 1770, which had killed an estimated 1\u201310 million people (modern estimates vary widely). By 1773, the famine's aftermath continued to depress agricultural production and revenue collection, contributing to the East India Company's financial crisis and providing the immediate context for the Regulating Act. The depopulation and destruction of the agrarian economy reshaped Bengal's social structure for decades.",
-      "key_figures": [
-        "Warren Hastings (Governor of Bengal, from 1772)"
-      ],
-      "sources": [
-        {
-          "name": "East India Company records and parliamentary reports",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Rajat Datta, Society, Economy and the Market: Commercialisation in Rural Bengal, c.1760\u20131800 (2000)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Company records document the famine's continuing effects; the famine itself (1770) is well-attested.",
-      "cross_references": [
-        "1770-004",
-        "1773-006"
-      ]
-    },
-    {
-      "id": "1773-020",
-      "title": "Swedish coup: Gustav III consolidates absolutism",
-      "region": "Sweden",
-      "coordinates_approx": "59.33, 18.07",
-      "category": "political",
-      "description": "Following his bloodless coup d'\u00e9tat of August 1772, King Gustav III spent 1773 consolidating royal power and implementing his new constitution, which ended the 'Age of Liberty' (riksdag-dominated government) and restored royal prerogative. He enacted Enlightenment-inspired reforms including religious toleration, abolition of torture, and improvements to the judicial system. His reign represented an attempt at enlightened absolutism in Scandinavia, modeled partly on admiration for French culture.",
-      "key_figures": [
-        "Gustav III (King of Sweden)"
-      ],
-      "sources": [
-        {
-          "name": "Swedish Riksdag records and royal proclamations",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "H. Arnold Barton, Scandinavia in the Revolutionary Era, 1760\u20131815 (1986)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Swedish parliamentary and royal records are well-preserved.",
-      "cross_references": [
-        "1772-005"
+        "1773-001 (Boston Tea Party, catalyst for committees)",
+        "1774-002 (First Continental Congress, benefited from committee network)"
       ]
     }
   ],
-  "disconfirming_evidence": "Several commonly held beliefs about events of 1773 deserve qualification. (1) The Boston Tea Party is often portrayed as a spontaneous popular uprising, but modern scholarship (notably Labaree and Carp) emphasizes it was carefully planned by a relatively small group of organizers, with Samuel Adams's exact role being debated \u2014 some historians argue his direct involvement has been overstated by later patriotic tradition. (2) The Tea Act is commonly described as raising taxes on tea; in fact, it lowered the consumer price by eliminating middlemen. Colonial opposition was driven more by the monopoly principle and the constitutional precedent of parliamentary taxation than by the price increase. (3) The death toll of the Bengal Famine of 1770 (whose effects continued into 1773) is frequently cited as 10 million, but modern demographic analysis suggests this figure, originating from a 1789 estimate, may be significantly inflated; estimates now range from 1 to 10 million with considerable uncertainty. (4) Pugachev's claim to be Peter III is sometimes presented as having been widely believed; in reality, his support base was driven more by genuine socioeconomic grievances among Cossacks, serfs, and non-Russian peoples than by dynastic legitimacy.",
-  "historiographic_note": "1773 is exceptionally well-documented from European and Euro-colonial perspectives, with extensive parliamentary records, diplomatic correspondence, published accounts, and newspapers surviving. The main historiographic bias is the overwhelming dominance of sources from imperial metropoles (London, St. Petersburg, Rome) and colonial administrators. South Asian events are documented primarily through East India Company records, which carry obvious institutional biases. Maratha history relies partly on bakhar chronicles that mix historical narration with literary convention. Chinese sources (Qing court records) are abundant but reflect the court's perspective. Sub-Saharan African, Central Asian, and Pacific Islander perspectives for this year are largely absent from the surviving record, with information filtered almost entirely through European exploration and trade accounts.",
+  "disconfirming_evidence": "The Boston Tea Party is often portrayed as a spontaneous act of popular resistance, but modern scholarship emphasises that it was carefully organised by colonial leaders, particularly Samuel Adams. The act is sometimes presented as a response to taxation without representation, but the Tea Act actually reduced the price of tea for colonists by allowing the East India Company to sell directly. Some colonists opposed the Boston Tea Party because it destroyed valuable property and escalated the conflict. The Tea Act is sometimes presented as a deliberate attempt to assert parliamentary authority, but modern scholarship suggests it was primarily intended to help the financially troubled East India Company. The Townshend Acts repeal is sometimes presented as a complete victory for the colonists, but the retention of the tea tax was a significant assertion of parliamentary authority. The suppression of the Jesuits in 1773 is a major event in Catholic history, but it is often overlooked in historical narratives focused on the American Revolution.",
+  "historiographic_note": "The historical record for 1773 is exceptionally rich for the American Revolution, with abundant primary sources and extensive modern scholarship. However, this creates a Western-centric bias: the American Revolution dominates narratives of 1773, while equally significant developments in Asia, Africa, and the Catholic Church receive less attention. The sources for the American Revolution are heavily weighted toward the perspectives of educated, literate colonists and British officials; the experiences of enslaved people, Native Americans, women, and common people are underrepresented. The suppression of the Jesuits is documented in papal records and later historical accounts, but contemporary accounts from common Catholics are sparse. The British East India Company's activities in India are documented in Company records, but these reflect the Company's perspective, not those of Indian subjects.",
   "graph_edges": [
-    {
-      "from": "1773-001",
-      "to": "1774-001",
-      "relation": "led_to",
-      "note": "Boston Tea Party provoked British Parliament to pass the Coercive (Intolerable) Acts in 1774"
-    },
     {
       "from": "1773-002",
       "to": "1773-001",
-      "relation": "caused_by",
-      "note": "Tea Act directly provoked the Boston Tea Party"
+      "relation": "led_to",
+      "note": "Tea Act prompted Boston Tea Party"
     },
     {
-      "from": "1773-003",
-      "to": "1775-003",
+      "from": "1773-001",
+      "to": "1774-003",
       "relation": "led_to",
-      "note": "Pugachev's Rebellion continued until his capture and execution in 1775"
+      "note": "Boston Tea Party prompted British Coercive Acts"
     },
     {
-      "from": "1773-004",
-      "to": "1814-004",
+      "from": "1773-010",
+      "to": "1774-002",
       "relation": "led_to",
-      "note": "Jesuit suppression reversed by Pope Pius VII in 1814 restoration"
-    },
-    {
-      "from": "1773-005",
-      "to": "1793-002",
-      "relation": "led_to",
-      "note": "First Partition set precedent for Second and Third Partitions of Poland"
+      "note": "Committees of Correspondence facilitated First Continental Congress"
     },
     {
       "from": "1773-006",
-      "to": "1858-002",
-      "relation": "led_to",
-      "note": "Regulating Act began the transition from Company to Crown rule in India"
-    },
-    {
-      "from": "1773-008",
-      "to": "1774-003",
-      "relation": "led_to",
-      "note": "Continued Russo-Turkish War led to Treaty of K\u00fc\u00e7\u00fck Kaynarca in 1774"
-    },
-    {
-      "from": "1773-014",
-      "to": "1775-005",
-      "relation": "led_to",
-      "note": "Peshwa assassination and succession crisis led to First Anglo-Maratha War"
-    },
-    {
-      "from": "1773-015",
       "to": "1774-001",
       "relation": "led_to",
-      "note": "Committees of Correspondence provided organizational framework for First Continental Congress"
-    },
-    {
-      "from": "1773-019",
-      "to": "1773-006",
-      "relation": "caused_by",
-      "note": "Bengal famine's economic devastation contributed to EIC's financial crisis and the Regulating Act"
+      "note": "Russo-Turkish War concluded with Treaty of K\u00fc\u00e7\u00fck Kaynarca"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T08:05:21.723946",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

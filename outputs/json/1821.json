@@ -1,882 +1,394 @@
 {
   "year": 1821,
   "year_label": "1821 CE",
-  "era_context": "The early 1820s are defined by the global cascade of revolutionary and independence movements that followed the Napoleonic Wars. In Europe, the Concert of Vienna attempted to reimpose conservative monarchical order, but liberal-nationalist uprisings erupted in Spain, Italy, Portugal, and Greece. In the Americas, the Spanish colonial empire was collapsing as independence wars led by Bol\u00edvar, San Mart\u00edn, Iturbide, and others reached decisive phases. The Ottoman Empire faced internal strain and the outbreak of Greek separatism. Britain was consolidating its post-Napoleonic commercial and naval supremacy while beginning the early phase of industrialisation's social transformation.",
+  "era_context": "The post-Napoleonic world is consolidating under the Concert of Europe, with conservative monarchies reasserting control after two decades of revolutionary upheaval. Latin America is in the midst of independence wars against Spanish and Portuguese colonial rule. The Ottoman Empire faces internal fragmentation and external pressure. Industrial transformation is accelerating in Britain and beginning in continental Europe.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa beyond coastal trading posts and the Cape Colony",
-    "Inner Central Asia (Kazakh steppe, Khanate of Kokand)",
-    "Pacific Islands and Polynesia",
-    "Aboriginal Australia",
-    "Inner Southeast Asia beyond court chronicles"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1821-001",
-      "title": "Greek War of Independence begins",
-      "region": "Ottoman Empire (Peloponnese, Central Greece, Aegean Islands)",
-      "coordinates_approx": "37.97, 23.72",
-      "category": "military",
-      "description": "On March 25, 1821 (OS: March 13), Bishop Germanos of Patras is traditionally said to have raised the banner of revolt at the Monastery of Agia Lavra, marking the conventional start of the Greek War of Independence. In reality, armed uprisings had already begun in the Peloponnese in mid-March, and Alexander Ypsilantis had crossed into the Danubian Principalities on March 6 with his Filiki Eteria forces. By late March, Greek insurgents controlled much of the Peloponnese and besieged Ottoman garrisons. The revolt ignited a brutal eight-year war that drew in the Great Powers and culminated in Greek statehood, while also triggering widespread massacres on both sides.",
+      "title": "Mexican Independence Declared",
+      "region": "Mexico",
+      "coordinates_approx": "19.4326, -99.1332",
+      "category": "political",
+      "description": "On September 27\u201328, 1821, Mexico formally declared independence from Spain following the Plan of Iguala (February 1821) and the Treaty of C\u00f3rdoba (August 1821). Agust\u00edn de Iturbide, a former Spanish officer turned independence leader, entered Mexico City on September 27, effectively ending Spanish colonial rule after nearly 300 years. The independence movement, which had begun in 1810 under Miguel Hidalgo, culminated in a negotiated transition that preserved the Catholic Church and created a constitutional monarchy under Iturbide. This event triggered the collapse of Spanish authority across Central America and solidified Mexico as an independent nation, though internal instability would follow.",
       "key_figures": [
-        "Alexander Ypsilantis (leader of Filiki Eteria)",
-        "Germanos of Patras (Metropolitan bishop)",
-        "Theodoros Kolokotronis (Peloponnesian military leader)",
-        "Petrobey Mavromichalis (Maniot chieftain)"
+        "Agust\u00edn de Iturbide (military leader, first Emperor of Mexico)",
+        "Juan O'Donoj\u00fa (Spanish viceroy, signed Treaty of C\u00f3rdoba)",
+        "Miguel Hidalgo (earlier independence leader, executed 1811)"
       ],
       "sources": [
         {
-          "name": "Thomas Gordon, History of the Greek Revolution (1832) \u2014 participant account",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "David Brewer, The Greek War of Independence: The Struggle for Freedom from Ottoman Oppression (2001)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Contemporary Greek proclamations and Filiki Eteria correspondence, 1821",
+          "name": "Treaty of C\u00f3rdoba (August 24, 1821)",
           "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Plan of Iguala (February 24, 1821)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary Spanish and Mexican chronicles and official records",
+          "type": "chronicle",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented. The symbolic March 25 date is a later patriotic convention; actual armed uprising began days earlier. The general outbreak in March 1821 is not in dispute.",
+      "certainty_note": "The date and fact of independence are well-documented in contemporary diplomatic and official records. The Treaty of C\u00f3rdoba is a primary source.",
       "cross_references": [
-        "1826-002",
-        "1827-navarino",
-        "1829-adrianople"
+        "1810-001 (Hidalgo's Grito de Dolores, beginning of Mexican independence war)",
+        "1822-001 (Iturbide crowned Emperor)"
       ]
     },
     {
       "id": "1821-002",
-      "title": "Massacre of the Peloponnesian Turks at Tripolitsa",
-      "region": "Peloponnese, Ottoman Empire",
-      "coordinates_approx": "37.52, 22.38",
+      "title": "Greek War of Independence Begins",
+      "region": "Ottoman Empire (Greece)",
+      "coordinates_approx": "38.9072, 21.8243",
       "category": "military",
-      "description": "On October 5, 1821, Greek insurgent forces under Theodoros Kolokotronis captured the fortified city of Tripolitsa (Tripoli), the Ottoman administrative capital of the Peloponnese, after a five-month siege. The fall was followed by a massacre of the Muslim and Jewish population lasting several days, with estimates of the dead ranging from 8,000 to 30,000. The sack demonstrated both the intensity of communal violence in the conflict and the Greek insurgency's capacity to take fortified positions. It was one of several reciprocal mass atrocities that marked the war.",
+      "description": "In March 1821, Greek revolutionaries, organized through the secret society Filiki Eteria (Society of Friends), launched an armed uprising against Ottoman rule. The revolt began in the Peloponnese and spread to the Aegean islands and mainland Greece. Led by figures including Theodoros Kolokotronis and Alexandros Ypsilantis, the Greeks sought to establish an independent nation-state. The Ottoman response was brutal, including massacres of Greek civilians. This conflict would dominate the 1820s and attract international attention, eventually drawing in European powers (Britain, France, Russia) and resulting in Greek independence by 1829. The uprising marked the beginning of the end of Ottoman dominance in the Balkans.",
       "key_figures": [
-        "Theodoros Kolokotronis (Greek commander)",
-        "Khurshid Pasha (Ottoman governor, had departed before the fall)"
-      ],
-      "sources": [
-        {
-          "name": "Thomas Gordon, History of the Greek Revolution (1832)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "William St. Clair, That Greece Might Still Be Free: The Philhellenes in the War of Independence (1972)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Contemporary accounts by Philhellenes present during the siege, including letters published in European press",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The fall of Tripolitsa is precisely dated and well attested. Casualty figures are disputed and vary widely depending on source allegiance.",
-      "cross_references": [
-        "1821-001"
-      ]
-    },
-    {
-      "id": "1821-003",
-      "title": "Constantinople Reprisals: Hanging of Patriarch Gregory V",
-      "region": "Ottoman Empire, Constantinople",
-      "coordinates_approx": "41.01, 28.95",
-      "category": "political",
-      "description": "On Easter Sunday, April 22, 1821, Ottoman authorities hanged Ecumenical Patriarch Gregory V at the gate of the Patriarchate in Constantinople as reprisal for the Greek uprising in the Peloponnese, despite the Patriarch having publicly excommunicated the rebels. Several other senior Greek Orthodox clergy and prominent Greek merchants were also executed. The act outraged Christian Europe and galvanised Philhellenic sentiment, becoming a potent symbol of Ottoman tyranny in European public opinion. It also devastated the Greek mercantile and clerical community in Constantinople.",
-      "key_figures": [
-        "Gregory V (Ecumenical Patriarch of Constantinople)",
+        "Theodoros Kolokotronis (military commander)",
+        "Alexandros Ypsilantis (Filiki Eteria leader)",
         "Mahmud II (Ottoman Sultan)"
       ],
       "sources": [
         {
-          "name": "European diplomatic dispatches from Constantinople, April 1821",
+          "name": "Ottoman official records and chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Greek revolutionary documents and later Greek historiography",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Steven Runciman, The Great Church in Captivity (1968)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "European diplomatic correspondence and contemporary accounts",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Precisely dated and recorded by multiple contemporary European diplomatic sources. The execution is not disputed.",
+      "certainty_note": "The outbreak of the Greek War of Independence in March 1821 is well-documented in Ottoman, Greek, and European sources.",
       "cross_references": [
-        "1821-001"
+        "1829-001 (Treaty of Adrianople, Greek independence recognized)"
+      ]
+    },
+    {
+      "id": "1821-003",
+      "title": "Coronation of George IV as Prince Regent",
+      "region": "United Kingdom",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "political",
+      "description": "George, Prince of Wales, formally became Prince Regent in 1811 due to his father George III's mental illness, but in 1821 he was crowned King George IV following his father's death on January 29, 1820. His coronation took place on July 19, 1821, at Westminster Abbey. George IV's reign marked a shift toward more liberal policies in some areas, though he remained politically conservative. His accession solidified the Hanoverian dynasty's grip on Britain and coincided with the height of British naval and economic power during the post-Napoleonic period.",
+      "key_figures": [
+        "George IV (King of the United Kingdom)",
+        "George III (deceased father)",
+        "Lord Liverpool (Prime Minister)"
+      ],
+      "sources": [
+        {
+          "name": "Official coronation records and parliamentary records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Contemporary British newspapers and chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The coronation date and event are well-documented in official British records.",
+      "cross_references": [
+        "1820-001 (Death of George III)"
       ]
     },
     {
       "id": "1821-004",
-      "title": "Death of Napoleon Bonaparte on Saint Helena",
-      "region": "Saint Helena, South Atlantic (British possession)",
-      "coordinates_approx": "-15.93, -5.72",
+      "title": "Peru Declares Independence",
+      "region": "Peru",
+      "coordinates_approx": "-12.0464, -77.0428",
       "category": "political",
-      "description": "Napoleon Bonaparte died on May 5, 1821, at Longwood House on Saint Helena, where he had been exiled since 1815 following his defeat at Waterloo. He was 51 years old. The official cause of death was stomach cancer, though arsenic poisoning theories have persisted. His death removed the spectre that had haunted the Concert of Europe and allowed his legend to be mythologised by French Bonapartists and liberals across Europe. His dictated memoirs, the M\u00e9morial de Sainte-H\u00e9l\u00e8ne, became hugely influential in shaping the Napoleonic legend.",
+      "description": "On July 28, 1821, General Jos\u00e9 de San Mart\u00edn declared Peru's independence from Spain in Lima. San Mart\u00edn, who had led the liberation of Chile and was now advancing northward, proclaimed Peru a free and independent nation. However, Spanish forces retained control of much of the interior, and the war for full independence would continue until 1826. The declaration marked a crucial moment in the South American independence movement, as Peru was one of Spain's richest and most strategically important colonies. San Mart\u00edn's declaration established the framework for Peruvian statehood, though internal conflicts and the presence of Spanish royalist forces meant the independence struggle was far from over.",
       "key_figures": [
-        "Napoleon Bonaparte (former Emperor of the French)",
-        "Hudson Lowe (British Governor of Saint Helena)",
-        "Emmanuel de Las Cases (companion and memoirist)"
+        "Jos\u00e9 de San Mart\u00edn (military leader, declared independence)",
+        "Bernardo O'Higgins (Chilean independence leader, ally)",
+        "Sim\u00f3n Bol\u00edvar (Venezuelan independence leader, would complete Peruvian liberation)"
       ],
       "sources": [
         {
-          "name": "Francesco Antommarchi, autopsy report and M\u00e9moires du docteur F. Antommarchi (1825)",
+          "name": "Declaration of Independence of Peru (July 28, 1821)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Emmanuel de Las Cases, M\u00e9morial de Sainte-H\u00e9l\u00e8ne (1823)",
+          "name": "San Mart\u00edn's official proclamations and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Andrew Roberts, Napoleon: A Life (2014)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Spanish colonial records and later Peruvian historiography",
+          "type": "chronicle",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Date of death is certain. Cause of death remains debated between stomach cancer and chronic arsenic exposure, though most modern scholars accept stomach cancer.",
+      "certainty_note": "The declaration date and San Mart\u00edn's role are well-documented in primary sources.",
       "cross_references": [
-        "1815-waterloo",
-        "1840-napoleon-return"
+        "1820-002 (San Mart\u00edn lands in Peru)",
+        "1826-001 (Final Spanish forces expelled from Peru)"
       ]
     },
     {
       "id": "1821-005",
-      "title": "Mexican Independence: Plan de Iguala and Treaty of C\u00f3rdoba",
-      "region": "Mexico (New Spain)",
-      "coordinates_approx": "18.35, -99.50",
+      "title": "Missouri Compromise Debates Begin",
+      "region": "United States",
+      "coordinates_approx": "38.6270, -90.1994",
       "category": "political",
-      "description": "On February 24, 1821, Agust\u00edn de Iturbide, a royalist officer, and Vicente Guerrero, an insurgent leader, proclaimed the Plan de Iguala, uniting conservative creoles and liberal insurgents behind Mexican independence on the basis of three guarantees: independence, Catholicism, and equality between peninsulares and creoles. Iturbide's Army of the Three Guarantees rapidly won over garrisons across New Spain. On August 24, the last Spanish viceroy, Juan O'Donoj\u00fa, signed the Treaty of C\u00f3rdoba recognising Mexican independence. The Army of the Three Guarantees entered Mexico City on September 27, 1821, ending three centuries of Spanish rule.",
+      "description": "In 1821, the U.S. Congress debated the admission of Missouri as a state, which triggered a major constitutional and political crisis over the expansion of slavery into new territories. The compromise, negotiated primarily by Henry Clay, admitted Missouri as a slave state while admitting Maine as a free state and prohibiting slavery in territories north of the 36\u00b030' parallel. The Missouri Compromise was ratified in March 1821 and temporarily resolved sectional tensions, but it established a precedent for managing slavery's expansion that would ultimately fail by the 1850s. The crisis revealed deep fractures in the American political system regarding slavery and federal authority.",
       "key_figures": [
-        "Agust\u00edn de Iturbide (royalist commander, later Emperor)",
-        "Vicente Guerrero (insurgent leader)",
-        "Juan O'Donoj\u00fa (last Spanish viceroy of New Spain)"
+        "Henry Clay (U.S. Representative, architect of compromise)",
+        "James Monroe (U.S. President)",
+        "Thomas Jefferson (former President, commented on the crisis)"
       ],
       "sources": [
         {
-          "name": "Plan de Iguala, February 24, 1821 \u2014 original proclamation text",
+          "name": "Congressional Records and debates (1820\u20131821)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Treaty of C\u00f3rdoba, August 24, 1821 \u2014 treaty text",
+          "name": "Missouri Compromise legislation (March 3, 1821)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Timothy Anna, The Mexican Empire of Iturbide (1990)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary American newspapers and political correspondence",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "All dates precisely documented in official records and contemporary correspondence.",
+      "certainty_note": "The Missouri Compromise debates and ratification are well-documented in Congressional records.",
       "cross_references": [
-        "1810-hidalgo",
-        "1822-iturbide-emperor"
+        "1820-003 (Missouri Compromise proposed)"
       ]
     },
     {
       "id": "1821-006",
-      "title": "Central American Independence from Spain",
-      "region": "Central America (Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica)",
-      "coordinates_approx": "14.63, -90.51",
+      "title": "Death of Napoleon Bonaparte",
+      "region": "Saint Helena (British territory)",
+      "coordinates_approx": "-15.9650, -5.7172",
       "category": "political",
-      "description": "On September 15, 1821, the Captaincy General of Guatemala declared independence from Spain following news of Mexico's Plan de Iguala and the collapse of Spanish authority in New Spain. The declaration was made in Guatemala City by a council of notables under Captain General Gabino Ga\u00ednza. The provinces of El Salvador, Honduras, Nicaragua, and Costa Rica followed suit, though each had distinct local dynamics. In January 1822, Central America briefly annexed itself to Iturbide's Mexican Empire before separating in 1823 to form the Federal Republic of Central America. September 15 is celebrated as independence day across the region.",
+      "description": "Napoleon Bonaparte died on May 5, 1821, on the remote island of Saint Helena, where he had been exiled by the British after his defeat at Waterloo in 1815. He was 51 years old. The cause of death was likely stomach cancer, though some contemporaries and later historians speculated about poisoning. His death marked the definitive end of the Napoleonic era and removed the possibility of his return to power, which had haunted European monarchies. Napoleon's legacy\u2014his legal codes, administrative reforms, and military innovations\u2014would profoundly shape European and world history. His death also allowed for a more stable consolidation of the post-Napoleonic order under the Concert of Europe.",
       "key_figures": [
-        "Gabino Ga\u00ednza (Captain General of Guatemala)",
-        "Jos\u00e9 Cecilio del Valle (jurist, drafter of the independence act)"
+        "Napoleon Bonaparte (former Emperor of France)",
+        "Hudson Lowe (British governor of Saint Helena)",
+        "Louis XVIII (King of France)"
       ],
       "sources": [
         {
-          "name": "Acta de Independencia de Centroam\u00e9rica, September 15, 1821 \u2014 original document",
+          "name": "British official records and medical reports from Saint Helena",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ralph Lee Woodward Jr., Central America: A Nation Divided (1999)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary European newspapers and diplomatic correspondence",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Memoirs of those present at his death (e.g., Las Cases, Montholon)",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Precisely dated from official records.",
+      "certainty_note": "The date and fact of Napoleon's death are well-documented. The cause (stomach cancer vs. poisoning) remains debated, but the death itself is certain.",
       "cross_references": [
-        "1821-005",
-        "1823-central-america-federation"
+        "1815-001 (Battle of Waterloo, Napoleon's defeat)",
+        "1815-002 (Napoleon exiled to Saint Helena)"
       ]
     },
     {
       "id": "1821-007",
-      "title": "Panamanian Independence and union with Gran Colombia",
-      "region": "Panama (New Granada)",
-      "coordinates_approx": "8.98, -79.52",
-      "category": "political",
-      "description": "On November 28, 1821, the Isthmus of Panama declared independence from Spain and voluntarily joined Sim\u00f3n Bol\u00edvar's Gran Colombia. The declaration was led by Jos\u00e9 de F\u00e1brega, who had taken control after the Spanish governor departed. This was part of the broader collapse of Spanish authority in northern South America. Panama's strategic importance as an inter-oceanic transit point made its alignment with Gran Colombia significant for Bol\u00edvar's continental project.",
+      "title": "Faraday's Electromagnetic Rotation Experiments",
+      "region": "United Kingdom",
+      "coordinates_approx": "51.5074, -0.1278",
+      "category": "scientific",
+      "description": "In September 1821, Michael Faraday conducted experiments demonstrating electromagnetic rotation\u2014the principle that a current-carrying wire in a magnetic field experiences a force. This discovery, building on the work of Hans Christian \u00d8rsted (1820), established the foundation for electric motors and demonstrated the intimate connection between electricity and magnetism. Faraday's work was published in the Quarterly Journal of Science and represented a major breakthrough in understanding electromagnetism. These experiments were crucial to the development of electrical technology and would lead to Faraday's later discoveries of electromagnetic induction (1831), which enabled the generation of electricity.",
       "key_figures": [
-        "Jos\u00e9 de F\u00e1brega (acting governor)",
-        "Sim\u00f3n Bol\u00edvar (president of Gran Colombia)"
+        "Michael Faraday (chemist and physicist)",
+        "Hans Christian \u00d8rsted (Danish physicist, earlier discovery of electromagnetism)",
+        "William Wollaston (physicist, influenced Faraday's work)"
       ],
       "sources": [
         {
-          "name": "Acta de Independencia del Istmo de Panam\u00e1, November 28, 1821",
+          "name": "Faraday's laboratory notebooks and experimental records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Alfredo Castillero Calvo, Historia General de Panam\u00e1 (2004)",
+          "name": "Quarterly Journal of Science (publication of results)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Faraday's published papers and later scientific histories",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Precisely dated from the original independence act.",
+      "certainty_note": "Faraday's electromagnetic rotation experiments in September 1821 are well-documented in his notebooks and published work.",
       "cross_references": [
-        "1819-gran-colombia",
-        "1903-panama-independence"
+        "1820-004 (\u00d8rsted's discovery of electromagnetism)",
+        "1831-001 (Faraday's discovery of electromagnetic induction)"
       ]
     },
     {
       "id": "1821-008",
-      "title": "Peruvian Independence declared by San Mart\u00edn",
-      "region": "Peru, Lima",
-      "coordinates_approx": "-12.05, -77.04",
+      "title": "Central American Independence from Spain",
+      "region": "Central America",
+      "coordinates_approx": "14.0735, -87.1921",
       "category": "political",
-      "description": "On July 28, 1821, General Jos\u00e9 de San Mart\u00edn formally declared the independence of Peru in Lima after the withdrawal of the Spanish royalist garrison under Viceroy Jos\u00e9 de la Serna. San Mart\u00edn had arrived by sea from Chile with his liberating expedition in September 1820 and adopted a strategy of political pressure and negotiation rather than direct assault on Lima. He assumed the title of Protector of Peru. However, royalist forces still controlled the Peruvian highlands, and the war for full control of Peru would continue until 1824 with Bol\u00edvar's intervention.",
+      "description": "Following Mexico's independence in September 1821, the Central American provinces (Guatemala, El Salvador, Honduras, Nicaragua, and Costa Rica) declared independence from Spain on September 15, 1821. Initially, these territories were incorporated into the Mexican Empire under Iturbide, but they would separate to form the Federal Republic of Central America in 1823. The independence movement in Central America was less militarized than in Mexico or South America, occurring largely through political negotiation and the collapse of Spanish authority. The region's independence marked the end of Spanish colonial rule in mainland Central America, though political instability and economic challenges would characterize the post-independence period.",
       "key_figures": [
-        "Jos\u00e9 de San Mart\u00edn (Argentine-born liberator, Protector of Peru)",
-        "Jos\u00e9 de la Serna (last Spanish Viceroy of Peru)"
+        "Jos\u00e9 Cecilio del Valle (Central American intellectual and independence advocate)",
+        "Agust\u00edn de Iturbide (Mexican Emperor, briefly ruled Central America)",
+        "Manuel Jos\u00e9 Arce (first president of Federal Republic of Central America)"
       ],
       "sources": [
         {
-          "name": "San Mart\u00edn's proclamation of Peruvian independence, July 28, 1821 \u2014 official records",
+          "name": "Central American independence declarations and proclamations (September 1821)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "John Lynch, The Spanish American Revolutions, 1808\u20131826 (1973)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Spanish colonial records and correspondence",
+          "type": "chronicle",
+          "contemporary": true
         },
         {
-          "name": "Timothy Anna, The Fall of the Royal Government in Peru (1979)",
+          "name": "Later Central American historiography and archives",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Precisely dated from official records and contemporary correspondence. The declaration is certain; full control of Peruvian territory was not achieved until 1824.",
+      "certainty_note": "Central American independence in September 1821 is well-documented, though the exact date (September 15) is sometimes disputed in favor of September 27\u201328 (following Mexico's declaration).",
       "cross_references": [
-        "1820-san-martin-expedition",
-        "1824-ayacucho"
+        "1821-001 (Mexican independence)",
+        "1823-001 (Formation of Federal Republic of Central America)"
       ]
     },
     {
       "id": "1821-009",
-      "title": "Battle of Carabobo secures Venezuelan independence",
-      "region": "Venezuela (Gran Colombia)",
-      "coordinates_approx": "10.17, -68.12",
-      "category": "military",
-      "description": "On June 24, 1821, Sim\u00f3n Bol\u00edvar's republican forces decisively defeated the Spanish royalist army under Field Marshal Miguel de la Torre at the Battle of Carabobo, southwest of Valencia. The victory effectively ended Spanish military power in Venezuela and secured the independence of northern South America. The British Legions \u2014 British and Irish volunteer soldiers \u2014 played a critical role in the battle. Bol\u00edvar entered Caracas shortly afterward, though royalist resistance continued in pockets until 1823.",
+      "title": "Lachlan Macquarie's Retirement as Governor of New South Wales",
+      "region": "Australia (New South Wales)",
+      "coordinates_approx": "-33.8688, 151.2093",
+      "category": "political",
+      "description": "Lachlan Macquarie, the Governor of New South Wales from 1810 to 1821, retired in December 1821 after 11 years of administration. Macquarie is credited with transforming the penal colony into a more developed society through infrastructure projects, the integration of emancipists (freed convicts) into colonial society, and the expansion of settlement. His tenure saw the construction of roads, public buildings, and the encouragement of agriculture and commerce. His retirement marked the end of an era of relatively progressive colonial governance and the beginning of a period of more restrictive policies under his successor, Sir Thomas Brisbane. Macquarie's legacy shaped the early development of Australian colonial society.",
       "key_figures": [
-        "Sim\u00f3n Bol\u00edvar (President-Liberator of Gran Colombia)",
-        "Jos\u00e9 Antonio P\u00e1ez (llanero cavalry commander)",
-        "Miguel de la Torre (Spanish royalist commander)"
+        "Lachlan Macquarie (Governor of New South Wales)",
+        "Thomas Brisbane (successor governor)",
+        "Elizabeth Macquarie (wife, influential in colonial society)"
       ],
       "sources": [
         {
-          "name": "Bol\u00edvar's campaign dispatches and proclamations, 1821",
+          "name": "Colonial Office records and official correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "John Lynch, Sim\u00f3n Bol\u00edvar: A Life (2006)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Macquarie's official reports and journals",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Daniel Florencio O'Leary, Memorias del General Daniel Florencio O'Leary (1879\u20131888) \u2014 aide-de-camp's memoirs",
+          "name": "Contemporary colonial newspapers and records",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Precisely dated and extensively documented by multiple participants on both sides.",
+      "certainty_note": "Macquarie's retirement date and tenure are well-documented in Colonial Office records.",
       "cross_references": [
-        "1819-gran-colombia",
-        "1823-puerto-cabello"
+        "1810-001 (Macquarie appointed Governor)"
       ]
     },
     {
       "id": "1821-010",
-      "title": "Gran Colombia adopts its Constitution at C\u00facuta",
-      "region": "Gran Colombia (modern Colombia)",
-      "coordinates_approx": "7.89, -72.50",
+      "title": "Coronation of George IV and Catholic Emancipation Debates",
+      "region": "United Kingdom",
+      "coordinates_approx": "51.5074, -0.1278",
       "category": "political",
-      "description": "The Congress of C\u00facuta, meeting from May to October 1821, drafted and adopted the Constitution of Gran Colombia on August 30, creating a centralised republic uniting modern-day Venezuela, Colombia, Ecuador, and Panama. The constitution established a strong executive presidency, abolished the slave trade (though not slavery itself), and mandated gradual emancipation through free-womb laws. Bol\u00edvar was confirmed as president and Francisco de Paula Santander as vice president. The centralising nature of the constitution would be a source of tension with Venezuelan and Ecuadorian federalists.",
+      "description": "George IV's coronation in July 1821 occurred amid intensifying debates over Catholic Emancipation in Britain. The question of whether to grant full political rights to Catholics had been contentious since the 1790s. George IV, despite earlier promises to support emancipation, ultimately opposed it, a position that would dominate British politics for the next decade. The coronation itself was a lavish affair that reflected the monarchy's power and prestige, but it also highlighted the deep religious and political divisions within British society. The Catholic Emancipation question would not be resolved until 1829, after George IV's death.",
       "key_figures": [
-        "Sim\u00f3n Bol\u00edvar (President of Gran Colombia)",
-        "Francisco de Paula Santander (Vice President)",
-        "Antonio Nari\u00f1o (Senate president)"
+        "George IV (King)",
+        "Lord Liverpool (Prime Minister, opposed emancipation)",
+        "Daniel O'Connell (Irish Catholic leader, advocated for emancipation)"
       ],
       "sources": [
         {
-          "name": "Constitution of C\u00facuta, August 30, 1821 \u2014 official text",
+          "name": "Parliamentary records and debates (1821)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "David Bushnell, The Santander Regime in Gran Colombia (1954)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Precisely dated from the official records of the Congress.",
-      "cross_references": [
-        "1821-009",
-        "1830-gran-colombia-dissolution"
-      ]
-    },
-    {
-      "id": "1821-011",
-      "title": "Missouri admitted as a slave state; Missouri Compromise implemented",
-      "region": "United States",
-      "coordinates_approx": "38.58, -92.17",
-      "category": "political",
-      "description": "Missouri was admitted to the Union on August 10, 1821, as the 24th state and a slave state, completing the implementation of the Missouri Compromise of 1820. The compromise had paired Missouri's admission with Maine's admission as a free state (March 1820) and prohibited slavery in the remainder of the Louisiana Purchase north of 36\u00b030' latitude. The compromise temporarily defused the sectional crisis over slavery's expansion but, as Thomas Jefferson famously wrote, it rang 'like a fire bell in the night' as a harbinger of future conflict. Missouri's final admission was delayed by a controversy over its state constitution's provisions restricting free Black migration.",
-      "key_figures": [
-        "Henry Clay (Speaker of the House, architect of compromise)",
-        "Alexander McNair (first Governor of Missouri)"
-      ],
-      "sources": [
-        {
-          "name": "Congressional records, 16th\u201317th Congress, 1820\u20131821",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Robert Forbes, The Missouri Compromise and Its Aftermath (2007)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Thomas Jefferson to John Holmes, April 22, 1820 \u2014 letter",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Precisely dated from U.S. Congressional records.",
-      "cross_references": [
-        "1820-missouri-compromise",
-        "1854-kansas-nebraska",
-        "1857-dred-scott"
-      ]
-    },
-    {
-      "id": "1821-012",
-      "title": "Carbonari revolts in Piedmont suppressed by Austrian intervention",
-      "region": "Kingdom of Sardinia (Piedmont), Italian Peninsula",
-      "coordinates_approx": "45.07, 7.69",
-      "category": "military",
-      "description": "In March 1821, a liberal-constitutional uprising organised by the Carbonari secret society broke out in Piedmont following the model of the successful 1820 Spanish revolution. King Victor Emmanuel I abdicated in favour of his brother Charles Felix, and the regent Charles Albert briefly granted the Spanish Constitution of 1812. However, Austrian forces intervened under the auspices of the Congress of Laibach, crushing the revolt at the Battle of Novara on April 8, 1821. The failure demonstrated the power of the Metternich system and the willingness of Austria to use military force to suppress liberal-nationalist movements in Italy.",
-      "key_figures": [
-        "Victor Emmanuel I (King of Sardinia, abdicated)",
-        "Charles Albert (regent, future king)",
-        "Charles Felix (new king)",
-        "Klemens von Metternich (Austrian Chancellor)"
-      ],
-      "sources": [
-        {
-          "name": "Austrian diplomatic correspondence and Congress of Laibach records, 1821",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "John A. Davis, Italy in the Nineteenth Century (2000)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Santorre di Santa Rosa, Delle speranze degli Italiani (1920 posthumous edition) \u2014 participant account",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well documented from Austrian, Piedmontese, and British diplomatic archives.",
-      "cross_references": [
-        "1820-spanish-revolution",
-        "1820-naples-revolt",
-        "1848-revolutions"
-      ]
-    },
-    {
-      "id": "1821-013",
-      "title": "Suppression of the Neapolitan Constitutional Revolution",
-      "region": "Kingdom of the Two Sicilies, Italian Peninsula",
-      "coordinates_approx": "40.85, 14.27",
-      "category": "military",
-      "description": "In March 1821, an Austrian army of approximately 50,000 troops invaded the Kingdom of the Two Sicilies to suppress the liberal-constitutional revolution that had begun in July 1820. The Neapolitan constitutional army was defeated at the Battle of Rieti on March 7, and Austrian forces occupied Naples by March 23. King Ferdinand I, who had been forced to grant a constitution, revoked it and restored absolute rule with Austrian military backing. The Carbonari leaders were imprisoned or fled into exile. The episode confirmed Austria's role as the enforcer of conservative order in the Italian peninsula.",
-      "key_figures": [
-        "Ferdinand I (King of the Two Sicilies)",
-        "Johann Maria Frimont (Austrian commander)",
-        "Guglielmo Pepe (Neapolitan constitutional general)"
-      ],
-      "sources": [
-        {
-          "name": "Congress of Laibach protocols, January\u2013May 1821",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "John A. Davis, Naples and Napoleon: Southern Italy and the European Revolutions, 1780\u20131860 (2006)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Precisely dated from Austrian military records and Neapolitan state archives.",
-      "cross_references": [
-        "1820-naples-revolt",
-        "1821-012"
-      ]
-    },
-    {
-      "id": "1821-014",
-      "title": "Ypsilantis's failed revolt in the Danubian Principalities",
-      "region": "Danubian Principalities (Moldavia and Wallachia), Ottoman Empire",
-      "coordinates_approx": "47.16, 27.58",
-      "category": "military",
-      "description": "On March 6, 1821, Alexander Ypsilantis, leader of the Filiki Eteria secret society and a major-general in the Russian army, crossed the Prut River into Moldavia with a small force, hoping to trigger a pan-Orthodox revolt against Ottoman rule with Russian backing. Tsar Alexander I repudiated the venture, and the local Romanian population, initially encouraged by Tudor Vladimirescu's parallel revolt against the Phanariote Greek governors, did not join the Greek cause. Ottoman forces defeated Ypsilantis at the Battle of Drag\u0103\u0219ani on June 19, and he fled into Austrian territory, where he was imprisoned. The Danubian front failed, but the Peloponnesian uprising succeeded.",
-      "key_figures": [
-        "Alexander Ypsilantis (Filiki Eteria leader)",
-        "Tudor Vladimirescu (Wallachian rebel leader)",
-        "Alexander I (Tsar of Russia)"
-      ],
-      "sources": [
-        {
-          "name": "Filiki Eteria correspondence and Ypsilantis's proclamations, 1821",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Richard Clogg, A Concise History of Greece (2002)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Russian diplomatic archives regarding Tsar Alexander I's disavowal, March 1821",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well documented from Greek, Russian, Austrian, and Ottoman sources.",
-      "cross_references": [
-        "1821-001"
-      ]
-    },
-    {
-      "id": "1821-015",
-      "title": "Brazilian independence process: Jo\u00e3o VI returns to Portugal",
-      "region": "Kingdom of Brazil / Portugal",
-      "coordinates_approx": "-22.91, -43.17",
-      "category": "political",
-      "description": "On April 26, 1821, King Jo\u00e3o VI of Portugal departed Rio de Janeiro to return to Lisbon, compelled by the liberal revolution in Portugal (1820) and the demands of the Cortes. He left his son Pedro as regent of Brazil. The Cortes then attempted to reduce Brazil to colonial status, revoking its elevation to a co-equal kingdom (granted in 1815) and ordering Pedro to return to Lisbon. Pedro's refusal and his growing alignment with Brazilian autonomists set the stage for the declaration of Brazilian independence in September 1822. Jo\u00e3o's departure marked the effective end of the united Portuguese-Brazilian monarchy.",
-      "key_figures": [
-        "Jo\u00e3o VI (King of Portugal and Brazil)",
-        "Pedro (Prince Regent of Brazil, future Emperor Pedro I)"
-      ],
-      "sources": [
-        {
-          "name": "Royal decrees and Cortes proceedings, 1821",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Roderick J. Barman, Brazil: The Forging of a Nation, 1798\u20131852 (1988)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Precisely dated from official Portuguese and Brazilian records.",
-      "cross_references": [
-        "1820-portuguese-revolution",
-        "1822-brazilian-independence"
-      ]
-    },
-    {
-      "id": "1821-016",
-      "title": "Faraday demonstrates electromagnetic rotation",
-      "region": "United Kingdom, London",
-      "coordinates_approx": "51.51, -0.14",
-      "category": "scientific",
-      "description": "In September 1821, Michael Faraday demonstrated the first device to produce continuous electromagnetic rotation \u2014 effectively the first electric motor. Building on Hans Christian \u00d8rsted's 1820 discovery that electric current produces a magnetic field, Faraday showed that a current-carrying wire would rotate continuously around a magnet and vice versa. This was the first conversion of electrical energy into continuous mechanical motion. The discovery established the principle underlying all electric motors and initiated Faraday's decade of work that would lead to the discovery of electromagnetic induction in 1831.",
-      "key_figures": [
-        "Michael Faraday (Royal Institution researcher)",
-        "Humphry Davy (mentor, later antagonist over priority)"
-      ],
-      "sources": [
-        {
-          "name": "Michael Faraday, 'On Some New Electro-Magnetical Motions, and on the Theory of Magnetism,' Quarterly Journal of Science (1821)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "L. Pearce Williams, Michael Faraday: A Biography (1965)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented in Faraday's own published paper and laboratory notebooks.",
-      "cross_references": [
-        "1820-oersted",
-        "1831-faraday-induction"
-      ]
-    },
-    {
-      "id": "1821-017",
-      "title": "Sequoyah completes the Cherokee syllabary",
-      "region": "Cherokee Nation, southeastern North America",
-      "coordinates_approx": "35.50, -84.50",
-      "category": "cultural",
-      "description": "Around 1821, Sequoyah (George Gist/Guess) completed his Cherokee syllabary, a writing system of 85\u201386 characters representing the syllables of the Cherokee language. Sequoyah, who was himself illiterate in English, had worked on the system for approximately twelve years. After demonstrating it to the Cherokee National Council, it was officially adopted, and Cherokee literacy spread with remarkable speed \u2014 within a few years a majority of Cherokees could read and write in their own language. The syllabary enabled the Cherokee Phoenix newspaper (1828) and the development of a Cherokee-language legal and literary culture. It remains one of the very few instances of an individual creating a complete and successful writing system.",
-      "key_figures": [
-        "Sequoyah / George Gist (Cherokee silversmith and polymath)"
-      ],
-      "sources": [
-        {
-          "name": "John Howard Payne papers (1835) \u2014 interviews with Sequoyah and Cherokee leaders",
-          "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "Traveller Bird, Tell Them They Lie: The Sequoyah Myth (1971) \u2014 dissenting account; and Ellen Cushman, The Cherokee Syllabary: Writing the People's Perseverance (2011)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The approximate date of completion (~1821) and the public demonstration to the Cherokee Council are attested, but the exact date of completion is uncertain. Some scholars have questioned the traditional narrative of sole invention, though the syllabary's adoption is not in dispute.",
-      "cross_references": [
-        "1828-cherokee-phoenix",
-        "1838-trail-of-tears"
-      ]
-    },
-    {
-      "id": "1821-018",
-      "title": "Famine and epidemic crisis in Ireland",
-      "region": "Ireland, United Kingdom",
-      "coordinates_approx": "53.35, -7.50",
-      "category": "demographic",
-      "description": "In 1821, Ireland experienced severe famine conditions, particularly in the south and west, driven by potato crop failures and the post-Napoleonic economic depression. A devastating typhus epidemic accompanied the famine, killing tens of thousands. The 1821 census recorded Ireland's population at approximately 6.8 million, revealing rapid demographic growth that was outstripping the subsistence economy's capacity. The crisis foreshadowed the catastrophic Great Famine of 1845\u20131852 and demonstrated the extreme vulnerability of the Irish rural poor to monoculture dependence and market fluctuations.",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "1821 Census of Ireland \u2014 official returns",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Cormac \u00d3 Gr\u00e1da, Ireland: A New Economic History, 1780\u20131939 (1994)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Census data and contemporary government reports document the famine and epidemic, though precise mortality figures are uncertain.",
-      "cross_references": [
-        "1845-great-famine"
-      ]
-    },
-    {
-      "id": "1821-019",
-      "title": "Siam: Rama II continues Bangkok era; literary golden age",
-      "region": "Siam (Thailand), Bangkok",
-      "coordinates_approx": "13.75, 100.52",
-      "category": "cultural",
-      "description": "In 1821, Siam was in the middle of the reign of King Rama II (Phutthaloetla Naphalai, r. 1809\u20131824), a period considered a golden age of Thai classical literature and performing arts. The court fostered refined poetic composition, especially the Ramakien court drama and khon masked dance. Siam maintained its independence between the expanding British and French colonial spheres, with trade relations managed cautiously. In 1821\u20131822, the first significant British diplomatic mission under John Crawfurd was being planned, foreshadowing the opening of Siam to greater Western engagement under Rama III.",
-      "key_figures": [
-        "Rama II / Phutthaloetla Naphalai (King of Siam)"
-      ],
-      "sources": [
-        {
-          "name": "Royal chronicles of the Bangkok period (Phongsawadan)",
+          "name": "Contemporary British newspapers and political correspondence",
           "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "B.J. Terwiel, Thailand's Political History (2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Thai royal chronicles and court records document this period, though they are court-centric and omit popular perspectives.",
-      "cross_references": [
-        "1826-burney-treaty"
-      ]
-    },
-    {
-      "id": "1821-020",
-      "title": "Egyptian\u2013Ottoman forces advance in Sudan: Ismail Pasha's conquest",
-      "region": "Sudan (Funj Sultanate / Sennar)",
-      "coordinates_approx": "15.60, 32.55",
-      "category": "military",
-      "description": "In 1820\u20131821, Muhammad Ali Pasha of Egypt dispatched his son Ismail Pasha with an army of approximately 4,000 troops to conquer Sudan. By June 1821, Ismail had captured Sennar, the capital of the Funj Sultanate, effectively ending a dynasty that had ruled since the early 16th century. The conquest aimed to secure access to gold, slaves for military recruitment, and control of the upper Nile. This began Egypt's sixty-year rule over Sudan (the Turkiyya period), which fundamentally transformed the region's political and economic structures and laid the groundwork for the Mahdist revolt of the 1880s.",
-      "key_figures": [
-        "Ismail Pasha (son of Muhammad Ali)",
-        "Muhammad Ali Pasha (Viceroy of Egypt)",
-        "Badi VII (last Funj Sultan)"
-      ],
-      "sources": [
-        {
-          "name": "Muhammad Ali's correspondence and administrative records, Egyptian National Archives",
-          "type": "primary_text",
           "contemporary": true
-        },
-        {
-          "name": "Richard Hill, Egypt in the Sudan, 1820\u20131881 (1959)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "P.M. Holt, A Modern History of the Sudan (1961)",
-          "type": "historiographic_consensus",
-          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Documented in Egyptian military records and confirmed by archaeological and local chronicle evidence. Precise dating of individual events within the campaign is sometimes approximate.",
+      "certainty_note": "The coronation and the political context are well-documented in contemporary sources.",
       "cross_references": [
-        "1811-muhammad-ali-massacre",
-        "1881-mahdist-revolt"
-      ]
-    },
-    {
-      "id": "1821-021",
-      "title": "Santo Domingo declares independence from Spain (briefly)",
-      "region": "Hispaniola (Dominican Republic)",
-      "coordinates_approx": "18.47, -69.90",
-      "category": "political",
-      "description": "On December 1, 1821, Jos\u00e9 N\u00fa\u00f1ez de C\u00e1ceres declared the independence of Spanish Santo Domingo from Spain, proclaiming the state of Spanish Haiti (Hait\u00ed Espa\u00f1ol) with the intention of joining Gran Colombia. However, this independence lasted only nine weeks before Haitian President Jean-Pierre Boyer invaded and unified the entire island of Hispaniola under Haitian rule in February 1822, beginning a 22-year Haitian occupation that would not end until the Dominican War of Independence in 1844. This episode is known in Dominican historiography as the 'Ephemeral Independence.'",
-      "key_figures": [
-        "Jos\u00e9 N\u00fa\u00f1ez de C\u00e1ceres (leader of the independence movement)",
-        "Jean-Pierre Boyer (President of Haiti)"
-      ],
-      "sources": [
-        {
-          "name": "Declaration of independence text, December 1, 1821",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Frank Moya Pons, The Dominican Republic: A National History (1998)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Precisely dated from the original declaration and subsequent Haitian military records.",
-      "cross_references": [
-        "1822-haitian-unification",
-        "1844-dominican-independence"
-      ]
-    },
-    {
-      "id": "1821-022",
-      "title": "Arrival of first American settlers in Mexican Texas",
-      "region": "Texas (New Spain / Mexico)",
-      "coordinates_approx": "29.75, -96.50",
-      "category": "demographic",
-      "description": "In late 1821, Stephen F. Austin arrived in Texas to implement his deceased father Moses Austin's Spanish land grant, bringing the first group of 300 American colonist families (the 'Old Three Hundred'). The grant had been issued by the Spanish authorities but required confirmation from the new Mexican government. Austin's colony, centred on the Brazos and Colorado river valleys, established the pattern of Anglo-American settlement in Texas that would, within fifteen years, lead to the Texas Revolution. The colonists brought enslaved people despite Mexico's ambivalent stance on slavery.",
-      "key_figures": [
-        "Stephen F. Austin (colonist leader, 'Father of Texas')",
-        "Moses Austin (original grantee, died June 1821)"
-      ],
-      "sources": [
-        {
-          "name": "Stephen F. Austin papers (University of Texas at Austin, Dolph Briscoe Center)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Gregg Cantrell, Stephen F. Austin: Empresario of Texas (1999)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Austin's arrival is precisely documented in his own correspondence. The exact timing of the first settler arrivals is late 1821 to early 1822.",
-      "cross_references": [
-        "1821-005",
-        "1836-texas-revolution"
-      ]
-    },
-    {
-      "id": "1821-023",
-      "title": "Zulu expansion under Shaka continues in southeastern Africa",
-      "region": "Southeastern Africa (Zululand, modern KwaZulu-Natal)",
-      "coordinates_approx": "-28.50, 31.00",
-      "category": "military",
-      "description": "By 1821, the Zulu kingdom under Shaka kaSenzangakhona was in the midst of its rapid military expansion, part of the broader Mfecane/Difaqane \u2014 a period of widespread chaos, displacement, and state formation in southeastern and southern Africa. Shaka's military reforms (the iklwa short stabbing spear, the bull-horn formation, and the age-regiment system) had made the Zulu the dominant military power in the region. Neighbouring chiefdoms were incorporated, destroyed, or displaced, sending waves of refugees and militarised groups across southern and eastern Africa. The precise chronology of Shaka's campaigns is poorly documented for this specific year.",
-      "key_figures": [
-        "Shaka kaSenzangakhona (Zulu king)"
-      ],
-      "sources": [
-        {
-          "name": "Henry Francis Fynn, diary and later account (written c. 1833, published 1950 \u2014 The Diary of Henry Francis Fynn)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Carolyn Hamilton, Terrific Majesty: The Powers of Shaka Zulu and the Limits of Historical Invention (1998)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "John Wright, 'Political Mythology and the Making of Natal's Mfecane,' Canadian Journal of African Studies (1989)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The general period of Zulu expansion under Shaka is well established, but specific campaign dates for 1821 are poorly documented. European observers did not arrive until the mid-1820s; earlier chronology relies on oral tradition and later retrospective accounts.",
-      "cross_references": [
-        "1828-shaka-assassination"
-      ]
-    },
-    {
-      "id": "1821-024",
-      "title": "Congress of Laibach authorises Austrian intervention in Italy",
-      "region": "Laibach (Ljubljana), Austrian Empire",
-      "coordinates_approx": "46.05, 14.51",
-      "category": "political",
-      "description": "The Congress of Laibach (January\u2013May 1821) was convened as a continuation of the Congress of Troppau to address the revolutionary upheavals in Naples and Piedmont. Austria, Russia, and Prussia agreed to authorise Austrian military intervention to restore absolute monarchy in the Italian states. Britain and France dissented from the protocol but did not actively oppose the interventions. The Congress solidified the Metternich system's principle that the Great Powers had the right to intervene militarily against revolutionary movements that threatened the European order. It marked a high point of the Holy Alliance's reactionary solidarity.",
-      "key_figures": [
-        "Klemens von Metternich (Austrian Chancellor)",
-        "Alexander I (Tsar of Russia)",
-        "Robert Stewart, Viscount Castlereagh (British Foreign Secretary, observer)"
-      ],
-      "sources": [
-        {
-          "name": "Congress of Laibach protocols and correspondence, 1821",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Paul W. Schroeder, The Transformation of European Politics, 1763\u20131848 (1994)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Thoroughly documented in diplomatic archives of all participating powers.",
-      "cross_references": [
-        "1820-troppau",
-        "1821-012",
-        "1821-013"
+        "1829-002 (Catholic Emancipation Act passed)"
       ]
     }
   ],
-  "disconfirming_evidence": "Several commonly held beliefs about 1821 require qualification: (1) The traditional date of March 25 for the start of the Greek War of Independence, with Bishop Germanos raising the flag at Agia Lavra, is a patriotic construction developed in the 1830s\u20131840s. Modern scholarship (e.g., David Brewer, Richard Clogg) shows the uprising began earlier and in multiple locations without a single dramatic initiating event. (2) The narrative of Sequoyah as the sole, unaided inventor of the Cherokee syllabary has been challenged by Traveller Bird (1971) and others who argue for a more collaborative process, though this revisionism is itself contested. (3) The Mfecane/Difaqane narrative, long presented as primarily driven by Shaka's aggression, has been significantly revised since Julian Cobbing's controversial 1988 challenge. Many scholars now emphasise the role of European slave-trading from Delagoa Bay and the Cape Colony frontier in driving the disruptions traditionally attributed solely to Zulu expansion. (4) Napoleon's cause of death remains debated: while most scholarship accepts gastric cancer, studies of hair samples showing elevated arsenic levels (Forshufvud and Weider, 1961; Journal of Toxicology, 2008) keep the poisoning hypothesis alive, though most recent analyses attribute the arsenic to environmental sources rather than deliberate poisoning. (5) The significance of the Battle of Carabobo is sometimes overstated as the 'end' of Spanish rule in Venezuela; royalist forces held Puerto Cabello until 1823.",
-  "historiographic_note": "The year 1821 is exceptionally well documented due to the convergence of multiple independence movements and European diplomatic congresses, all occurring in an era of expanding print media and diplomatic record-keeping. However, the surviving record is heavily shaped by (1) nationalist mythmaking \u2014 Greek, Mexican, Venezuelan, and other independence narratives were retrospectively crafted to serve nation-building purposes; (2) European diplomatic bias \u2014 the Congress system produced voluminous records but from the perspective of the conservative Great Powers; (3) Latin American creole elite perspectives that marginalised indigenous, Afro-descended, and lower-class participation; (4) near-total absence of sub-Saharan African perspectives except through later European observers and oral tradition. The 1821 Ireland census provides valuable demographic data but underrepresents conditions in the most impoverished western regions. Southeast Asian and East Asian events of this year are documented primarily through court chronicles with their inherent biases toward royal perspectives.",
+  "disconfirming_evidence": "The significance of Iturbide's role in Mexican independence is sometimes overstated; recent scholarship emphasizes the grassroots nature of the independence movement and the contributions of earlier leaders like Hidalgo and Morelos, whose legacies Iturbide co-opted. The Greek War of Independence is often romanticized in Western historiography as a struggle for 'Western civilization' against 'Oriental despotism,' but modern scholarship emphasizes the complex religious, ethnic, and economic motivations and the brutality on both sides. Napoleon's death from stomach cancer is the consensus view, but the poisoning hypothesis (arsenic) has been revived by some modern scholars based on hair analysis, though this remains disputed. The Missouri Compromise is often presented as a successful resolution, but it actually entrenched slavery and delayed rather than resolved the fundamental conflict, making it a temporary palliative rather than a true compromise.",
+  "historiographic_note": "1821 is exceptionally well-documented due to the abundance of written records from this period. European and American sources dominate the historical record, reflecting the bias of surviving archives and the focus of Western historiography. The independence movements in Latin America are well-documented through official proclamations, military records, and later national historiographies, though indigenous and enslaved perspectives are underrepresented. Ottoman records exist but are less frequently consulted in Western scholarship. The scientific discoveries (Faraday) are well-documented in laboratory records and published journals. The major gap is in the detailed history of Asia, Africa, and Oceania during this year, where sources are sparser and less frequently translated or studied in Western academia.",
   "graph_edges": [
     {
       "from": "1821-001",
-      "to": "1827-navarino",
+      "to": "1822-001",
       "relation": "led_to",
-      "note": "Greek revolt provoked Great Power intervention culminating in the Battle of Navarino"
+      "note": "Mexican independence led to Iturbide's coronation as Emperor in 1822"
+    },
+    {
+      "from": "1821-002",
+      "to": "1829-001",
+      "relation": "led_to",
+      "note": "Greek War of Independence (1821\u20131829) resulted in Greek independence"
     },
     {
       "from": "1821-004",
-      "to": "1815-waterloo",
-      "relation": "caused_by",
-      "note": "Napoleon's exile and death resulted from his defeat at Waterloo and Congress of Vienna settlement"
-    },
-    {
-      "from": "1821-005",
-      "to": "1810-hidalgo",
-      "relation": "caused_by",
-      "note": "Mexican independence built on eleven years of insurgency beginning with Hidalgo's revolt"
-    },
-    {
-      "from": "1821-005",
-      "to": "1822-iturbide-emperor",
+      "to": "1826-001",
       "relation": "led_to",
-      "note": "Iturbide's leadership of independence directly led to his coronation as Emperor in 1822"
+      "note": "Peruvian independence declaration led to continued war until 1826"
     },
     {
-      "from": "1821-009",
-      "to": "1819-gran-colombia",
+      "from": "1821-006",
+      "to": "1815-001",
       "relation": "caused_by",
-      "note": "Carabobo was the military culmination of Bol\u00edvar's Gran Colombian independence campaign"
+      "note": "Napoleon's death was a consequence of his defeat at Waterloo in 1815"
     },
     {
-      "from": "1821-011",
-      "to": "1854-kansas-nebraska",
+      "from": "1821-007",
+      "to": "1831-001",
       "relation": "led_to",
-      "note": "The Missouri Compromise line was repealed by the Kansas-Nebraska Act, reigniting the slavery crisis"
+      "note": "Faraday's electromagnetic rotation experiments led to his discovery of electromagnetic induction in 1831"
     },
     {
-      "from": "1821-012",
-      "to": "1821-024",
-      "relation": "caused_by",
-      "note": "Piedmontese revolt was suppressed by Austrian intervention authorised at the Congress of Laibach"
-    },
-    {
-      "from": "1821-013",
-      "to": "1821-024",
-      "relation": "caused_by",
-      "note": "Neapolitan revolution was suppressed by Austrian intervention authorised at the Congress of Laibach"
-    },
-    {
-      "from": "1821-015",
-      "to": "1822-brazilian-independence",
-      "relation": "led_to",
-      "note": "Jo\u00e3o VI's departure and the Cortes' attempts to re-colonise Brazil precipitated Pedro's independence declaration"
-    },
-    {
-      "from": "1821-016",
-      "to": "1831-faraday-induction",
-      "relation": "led_to",
-      "note": "Faraday's electromagnetic rotation experiments initiated the research programme leading to discovery of induction"
-    },
-    {
-      "from": "1821-020",
-      "to": "1881-mahdist-revolt",
-      "relation": "led_to",
-      "note": "Egyptian conquest of Sudan created the conditions that provoked the Mahdist uprising sixty years later"
-    },
-    {
-      "from": "1821-022",
-      "to": "1836-texas-revolution",
-      "relation": "led_to",
-      "note": "Anglo-American colonisation of Texas led directly to the Texas Revolution"
-    },
-    {
-      "from": "1821-024",
-      "to": "1820-troppau",
-      "relation": "caused_by",
-      "note": "Congress of Laibach was a direct continuation of the Congress of Troppau"
+      "from": "1821-001",
+      "to": "1821-008",
+      "relation": "contemporary_with",
+      "note": "Mexican independence and Central American independence occurred simultaneously in September 1821"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T04:03:25.475237",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

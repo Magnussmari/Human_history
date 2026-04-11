@@ -1,816 +1,405 @@
 {
   "year": 1807,
   "year_label": "1807 CE",
-  "era_context": "The year 1807 falls at the zenith of Napoleonic dominance in Europe. Following his crushing victories at Austerlitz (1805) and Jena-Auerstedt (1806), Napoleon had dismantled the Holy Roman Empire, humiliated Prussia, and imposed the Continental System to economically isolate Britain. The Fourth Coalition (Britain, Prussia, Russia, Sweden) was in its final stages. Across the Atlantic, the young United States faced mounting tensions with both Britain and France over maritime rights and impressment. In Latin America, the first stirrings of independence movements intersected with European power struggles. In the Ottoman Empire, internal reform efforts faced violent opposition, while in South and East Asia the Qing dynasty, Mughal successor states, and British East India Company continued to reshape the political landscape.",
+  "era_context": "The Napoleonic Wars dominate European politics; Napoleon defeats Russia and Prussia, establishing French dominance over continental Europe. The Industrial Revolution accelerates in Britain. The Qing Dynasty faces the White Lotus Rebellion. The Ottoman Empire is weakened by wars with Russia. In the Americas, independence movements are beginning to emerge.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa beyond coastal enclaves and the Cape Colony",
-    "Interior Australia and Aboriginal societies",
-    "Central Asia and the Kazakh steppe",
-    "Interior Southeast Asia beyond major courts",
-    "Pacific Islands and Polynesia"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1807-001",
-      "title": "Battle of Eylau",
-      "region": "East Prussia (modern Bagrationovsk, Russia)",
-      "coordinates_approx": "54.38, 20.65",
+      "title": "Napoleonic Wars: Battle of Eylau",
+      "region": "Central Europe (Prussia)",
+      "coordinates_approx": "54.10, 21.88",
       "category": "military",
-      "description": "On 7\u20138 February 1807, Napoleon's Grande Arm\u00e9e fought a Russian army under General Bennigsen near the town of Preussisch-Eylau in a brutal winter battle. The engagement was one of the bloodiest of the Napoleonic Wars to that point, with combined casualties estimated at 25,000\u201340,000. A massive French cavalry charge led by Murat prevented a Russian breakthrough, but neither side achieved a decisive victory. The battle shocked Europe with its carnage and marked the first time Napoleon failed to win a clear-cut victory in a major pitched battle, temporarily denting the aura of French invincibility.",
+      "description": "On 7-8 February 1807, Napoleon fought the Russian and Prussian armies at the Battle of Eylau in East Prussia. The battle was one of the bloodiest of the Napoleonic Wars, with enormous casualties on both sides. The outcome was tactically inconclusive, but Napoleon claimed victory and continued his campaign. The battle demonstrated the growing costs of Napoleon's wars and the resilience of his enemies, though he would eventually defeat them.",
       "key_figures": [
-        "Napoleon Bonaparte (Emperor of the French)",
-        "Levin August von Bennigsen (Russian commanding general)",
-        "Joachim Murat (French Marshal, cavalry commander)",
-        "Pierre Augereau (French Marshal, VII Corps)"
+        "Napoleon Bonaparte (French Emperor)",
+        "Mikhail Kutuzov (Russian general)",
+        "Friedrich Wilhelm III (Prussian King)"
       ],
       "sources": [
         {
-          "name": "Bulletins de la Grande Arm\u00e9e (contemporary French military dispatches)",
+          "name": "French military reports and Napoleon's correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "David Chandler, The Campaigns of Napoleon (1966)",
+          "name": "Russian and Prussian military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus (Chandler, Esdaile, Dwyer)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented by both French and Russian military records, eyewitness accounts, and extensive modern scholarship. Casualty figures vary between French and Russian sources.",
+      "certainty_note": "The battle's date, location, and outcome are extensively documented. It is one of the most thoroughly recorded battles of the Napoleonic Wars.",
       "cross_references": [
-        "1807-002"
+        "1807-002 (Battle of Friedland)",
+        "1807-003 (Treaty of Tilsit)"
       ]
     },
     {
       "id": "1807-002",
-      "title": "Battle of Friedland",
-      "region": "East Prussia (modern Pravdinsk, Russia)",
-      "coordinates_approx": "54.44, 21.02",
+      "title": "Napoleonic Wars: Battle of Friedland",
+      "region": "Central Europe (Russia)",
+      "coordinates_approx": "54.57, 24.38",
       "category": "military",
-      "description": "On 14 June 1807, Napoleon achieved a decisive victory over Bennigsen's Russian army at Friedland, deliberately fought on the anniversary of Marengo. The Russians, with their backs to the Alle River and limited bridges for retreat, suffered approximately 20,000 casualties. The victory destroyed Russian willingness to continue the war and directly led to Tsar Alexander I's decision to seek an armistice. Friedland effectively ended the War of the Fourth Coalition and set the stage for the Treaty of Tilsit.",
+      "description": "On 14 June 1807, Napoleon defeated the Russian army under General Mikhail Kutuzov at the Battle of Friedland in western Russia. The French victory was decisive and forced Russia to seek peace. The battle demonstrated Napoleon's continued military superiority and led directly to the Treaty of Tilsit. Friedland was one of Napoleon's greatest victories and established French dominance over continental Europe.",
       "key_figures": [
-        "Napoleon Bonaparte (Emperor of the French)",
-        "Levin August von Bennigsen (Russian commanding general)",
-        "Jean Lannes (French Marshal, advance guard commander)"
+        "Napoleon Bonaparte (French Emperor)",
+        "Mikhail Kutuzov (Russian general)",
+        "Marshal Louis-Nicolas Davout (French marshal)"
       ],
       "sources": [
         {
-          "name": "Bulletins de la Grande Arm\u00e9e and correspondence of Napoleon",
+          "name": "French military reports and Napoleon's correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "David Chandler, The Campaigns of Napoleon (1966)",
+          "name": "Russian military records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus (Chandler, Esdaile, Dwyer)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented major engagement with abundant French and Russian primary sources.",
+      "certainty_note": "The battle's date, location, and outcome are extensively documented. It is one of the most significant battles of the Napoleonic Wars.",
       "cross_references": [
-        "1807-001",
-        "1807-003"
+        "1807-001 (Battle of Eylau)",
+        "1807-003 (Treaty of Tilsit)"
       ]
     },
     {
       "id": "1807-003",
-      "title": "Treaties of Tilsit",
-      "region": "Tilsit, East Prussia (modern Sovetsk, Russia)",
-      "coordinates_approx": "55.08, 21.88",
+      "title": "Treaty of Tilsit",
+      "region": "Central Europe (Prussia)",
+      "coordinates_approx": "55.00, 24.25",
       "category": "political",
-      "description": "On 7 July 1807, Napoleon and Tsar Alexander I signed the Treaty of Tilsit on a raft in the middle of the Niemen River, followed by a separate treaty with Prussia on 9 July. Russia agreed to join the Continental System against Britain, recognized the Duchy of Warsaw (carved from Prussian Poland), and accepted French dominance in western and central Europe. Prussia lost roughly half its territory and population, was reduced to a rump state, forced to pay massive indemnities, and limited to a 42,000-man army. The treaties represented the high-water mark of Napoleonic power and fundamentally reordered European geopolitics.",
+      "description": "On 7 July 1807, Napoleon met with Russian Tsar Alexander I and Prussian King Friedrich Wilhelm III at Tilsit to negotiate peace. The Treaty of Tilsit (signed 7-9 July 1807) established a Franco-Russian alliance and imposed harsh terms on Prussia. Russia ceded territory to France and its allies; Prussia lost half its territory and had to pay a large indemnity. The treaty established French dominance over continental Europe and created a brief Franco-Russian alliance that would last until 1812.",
       "key_figures": [
-        "Napoleon Bonaparte (Emperor of the French)",
-        "Alexander I (Emperor of Russia)",
-        "Frederick William III (King of Prussia)",
-        "Charles Maurice de Talleyrand (French Foreign Minister)"
+        "Napoleon Bonaparte (French Emperor)",
+        "Alexander I (Russian Tsar)",
+        "Friedrich Wilhelm III (Prussian King)"
       ],
       "sources": [
         {
-          "name": "Treaty texts published in contemporary diplomatic collections; Correspondance de Napol\u00e9on Ier",
+          "name": "Treaty of Tilsit (primary document)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Paul W. Schroeder, The Transformation of European Politics 1763\u20131848 (1994)",
+          "name": "French, Russian, and Prussian diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus (Esdaile, Dwyer, Zamoyski)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Treaty texts survive in full. Extensively documented in diplomatic archives of all three signatory powers.",
+      "certainty_note": "The treaty's date, terms, and significance are well-documented in diplomatic records.",
       "cross_references": [
-        "1807-002",
-        "1806-001"
+        "1807-002 (Battle of Friedland)",
+        "1808-005 (Treaty of Erfurt)"
       ]
     },
     {
       "id": "1807-004",
-      "title": "British Abolition of the Slave Trade Act",
-      "region": "United Kingdom",
-      "coordinates_approx": "51.50, -0.12",
-      "category": "legal",
-      "description": "On 25 March 1807, the Abolition of the Slave Trade Act received Royal Assent, making it illegal for British subjects to engage in the transatlantic slave trade. The act was the culmination of a decades-long campaign led by William Wilberforce in Parliament and a broader abolitionist movement including Thomas Clarkson, Granville Sharp, Olaudah Equiano, and the Society for Effecting the Abolition of the Slave Trade. The bill passed the House of Lords 100\u201336 and the Commons 283\u201316. While it did not abolish slavery itself (that came in 1833), it was a transformative moment in human rights history. Britain subsequently used its naval supremacy to enforce the ban on other nations, establishing the West Africa Squadron to intercept slave ships.",
+      "title": "Embargo Act (United States)",
+      "region": "North America (United States)",
+      "coordinates_approx": "38.89, -77.04",
+      "category": "political",
+      "description": "On 22 December 1807, President Thomas Jefferson signed the Embargo Act, which prohibited American trade with Britain and France. The act was intended to pressure Britain and France to respect American neutral rights, particularly regarding the impressment of American sailors and the seizure of American ships. However, the embargo severely damaged the American economy, particularly in New England, and was deeply unpopular. The embargo would be replaced by the Non-Intercourse Act in 1809.",
       "key_figures": [
-        "William Wilberforce (MP, abolitionist leader)",
-        "Charles James Fox (Foreign Secretary, died 1806, initiated the final push)",
-        "Lord Grenville (Prime Minister)",
-        "Thomas Clarkson (abolitionist organizer)"
+        "Thomas Jefferson (U.S. President)",
+        "Congress (U.S. legislature)",
+        "American merchants"
       ],
       "sources": [
         {
-          "name": "Abolition of the Slave Trade Act 1807 (47 Geo. III Sess. 1 c. 36)",
+          "name": "Congressional records and debates",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Parliamentary debates (Hansard) 1806\u20131807",
+          "name": "Presidential correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Adam Hochschild, Bury the Chains: Prophets and Rebels in the Fight to Free an Empire's Slaves (2005)",
+          "name": "Historiographic consensus (Hickey, Stagg, Brant)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Statutory text and parliamentary records fully preserved. One of the most extensively studied pieces of legislation in British history.",
-      "cross_references": []
+      "certainty_note": "The Embargo Act's date and provisions are well-documented in Congressional records.",
+      "cross_references": [
+        "1809-004 (Non-Intercourse Act)",
+        "1812-003 (War of 1812)"
+      ]
     },
     {
       "id": "1807-005",
-      "title": "United States Embargo Act",
-      "region": "United States",
-      "coordinates_approx": "38.90, -77.04",
-      "category": "economic",
-      "description": "On 22 December 1807, President Thomas Jefferson signed the Embargo Act, prohibiting virtually all American foreign trade in response to British and French violations of American neutral shipping rights. The act was the most ambitious use of economic coercion in early American history, intended to force European powers to respect American neutrality without resorting to war. Instead, it devastated the American economy, particularly New England's maritime commerce, provoked widespread smuggling and political opposition, and ultimately failed to change British or French policies. The embargo would be repealed in March 1809 and is generally regarded as one of Jefferson's greatest policy failures.",
+      "title": "Qing Dynasty: White Lotus Rebellion Ongoing",
+      "region": "China (Qing Dynasty)",
+      "coordinates_approx": "35.00, 105.00",
+      "category": "military",
+      "description": "The White Lotus Rebellion, which began in 1796, continued in 1807 with ongoing military campaigns by Qing forces. The rebellion, rooted in messianic Buddhism and popular discontent, had spread across multiple provinces. By 1807, the Qing military had made progress but had not yet achieved complete victory. The rebellion would finally be suppressed in 1811 after a costly fifteen-year campaign.",
       "key_figures": [
-        "Thomas Jefferson (President of the United States)",
-        "James Madison (Secretary of State)",
-        "Albert Gallatin (Secretary of the Treasury)"
+        "Jiaqing Emperor (Qing ruler)",
+        "Fukanggan (Qing general, died 1799)",
+        "White Lotus rebel leaders"
       ],
       "sources": [
         {
-          "name": "Embargo Act of 1807 (2 Stat. 451), Annals of Congress",
+          "name": "Qing imperial records and military reports",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Burton Spivak, Jefferson's English Crisis: Commerce, Embargo, and the Republican Revolution (1979)",
+          "name": "Shiji and later compilations",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus (Spence, Rowe, Kuhn)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Statutory text and congressional records fully preserved.",
+      "certainty_note": "The rebellion's continuation in 1807 is documented in Qing records.",
       "cross_references": [
-        "1807-006"
+        "1796-001 (White Lotus Rebellion begins)",
+        "1811-007 (Rebellion suppressed)"
       ]
     },
     {
       "id": "1807-006",
-      "title": "Chesapeake\u2013Leopard Affair",
-      "region": "Off the coast of Virginia, United States",
-      "coordinates_approx": "36.85, -75.98",
+      "title": "Russo-Turkish War Begins",
+      "region": "Ottoman Empire and Russian Empire (Balkans, Caucasus)",
+      "coordinates_approx": "42.00, 35.00",
       "category": "military",
-      "description": "On 22 June 1807, HMS Leopard fired on the unprepared American frigate USS Chesapeake off Norfolk, Virginia, after the American captain refused to allow a search for Royal Navy deserters. Three Americans were killed and eighteen wounded. The British boarding party removed four sailors, only one of whom was actually a British deserter. The incident inflamed American public opinion against Britain and brought the two nations closer to war than at any point since 1794. President Jefferson chose economic retaliation (leading to the Embargo Act) rather than a military response, but the affair remained a grievance contributing to the War of 1812.",
+      "description": "In 1807, war broke out between the Russian Empire and the Ottoman Empire over territorial disputes in the Balkans and Caucasus. The Russo-Turkish War (1806\u20131812) would last for six years and involve multiple campaigns and sieges. The war was costly for both empires and complicated by Napoleon's activities in Europe. The conflict would eventually be resolved by the Treaty of Bucharest in 1812.",
       "key_figures": [
-        "James Barron (Captain, USS Chesapeake)",
-        "Salusbury Pryce Humphreys (Captain, HMS Leopard)",
-        "Thomas Jefferson (President of the United States)"
+        "Mikhail Kutuzov (Russian general)",
+        "Selim III (Ottoman Sultan)",
+        "Mustafa IV (Ottoman Sultan from 1807)"
       ],
       "sources": [
         {
-          "name": "Official correspondence between Secretary of State Madison and British Minister Erskine; Navy Department records",
+          "name": "Russian military archives",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Spencer C. Tucker and Frank T. Reuter, Injured Honor: The Chesapeake-Leopard Affair (1996)",
+          "name": "Ottoman records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus (Jelavich, Shaw, Aksan)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Abundantly documented in American and British naval and diplomatic records.",
+      "certainty_note": "The war's beginning and initial campaigns are documented in Russian and Ottoman records.",
       "cross_references": [
-        "1807-005"
+        "1812-005 (Treaty of Bucharest)"
       ]
     },
     {
       "id": "1807-007",
-      "title": "British bombardment of Copenhagen",
-      "region": "Copenhagen, Denmark-Norway",
-      "coordinates_approx": "55.68, 12.57",
+      "title": "British Royal Navy: Continued Dominance",
+      "region": "Atlantic and Mediterranean",
+      "coordinates_approx": "null",
       "category": "military",
-      "description": "From 2\u20135 September 1807, a British expeditionary force bombarded Copenhagen with rockets and mortar shells, killing an estimated 2,000 civilians and destroying much of the city. Britain acted on intelligence that Napoleon intended to seize the Danish fleet to use against Britain, and demanded Denmark surrender its navy. When Denmark refused, the British attacked. The operation resulted in the capture or destruction of the entire Danish-Norwegian fleet (approximately 170 vessels). The bombardment was condemned across Europe as an unprovoked assault on a neutral power and pushed Denmark into a formal alliance with Napoleon, lasting until 1814. It was one of the earliest instances of systematic terror bombardment of a European capital.",
+      "description": "By 1807, the British Royal Navy had achieved overwhelming dominance over French and allied naval forces following the Battle of Trafalgar (1805). The navy's superiority enabled Britain to maintain blockades of French-controlled ports and protect colonial trade routes. Naval dominance was crucial to Britain's ability to sustain the war against Napoleon and would remain a defining feature of British power.",
       "key_figures": [
-        "James Gambier (British Admiral)",
-        "Arthur Wellesley (British Major General, future Duke of Wellington)",
-        "Frederick VI (Crown Prince and regent of Denmark-Norway)",
-        "George Canning (British Foreign Secretary)"
+        "Admiral John Jervis, Earl of St. Vincent",
+        "Admiral Sir John Borlase Warren"
       ],
       "sources": [
         {
-          "name": "British Admiralty and War Office dispatches; Danish state archives",
+          "name": "Admiralty records and naval dispatches",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Thomas Munch-Petersen, Defying Napoleon: How Britain Bombarded Copenhagen and Seized the Danish Fleet in 1807 (2007)",
+          "name": "Naval chronicles and logs",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus (Rodger, Gardiner, Morriss)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented from both British and Danish perspectives. Civilian casualty estimates vary but the scale and nature of the bombardment are not disputed.",
+      "certainty_note": "British naval dominance in 1807 is well-documented and uncontested.",
       "cross_references": [
-        "1807-003"
+        "1805-001 (Battle of Trafalgar)",
+        "1815-001 (Napoleonic Wars end)"
       ]
     },
     {
       "id": "1807-008",
-      "title": "French invasion of Portugal and flight of the Portuguese court to Brazil",
-      "region": "Portugal / Brazil",
-      "coordinates_approx": "38.72, -9.14",
-      "category": "political",
-      "description": "In October 1807, Napoleon and Spain agreed via the Treaty of Fontainebleau to partition Portugal, which had refused to join the Continental System. General Junot led a French army across Spain into Portugal, reaching Lisbon on 30 November. Just days before, on 29 November, the Portuguese Prince Regent Jo\u00e3o (ruling for his incapacitated mother Maria I) and the entire royal court \u2014 approximately 10,000\u201315,000 people \u2014 embarked on a fleet escorted by the British Royal Navy, sailing for Brazil. This unprecedented transfer of a European monarchy to its colony would have transformative consequences: Rio de Janeiro became the de facto capital of the Portuguese Empire, Brazilian ports were opened to trade (ending the colonial monopoly), and the experience of hosting the court laid groundwork for Brazilian independence in 1822.",
+      "title": "British Industrial Revolution: Steam Power and Mechanization",
+      "region": "England",
+      "coordinates_approx": "52.50, -1.50",
+      "category": "technological",
+      "description": "By 1807, steam power and mechanization were becoming increasingly widespread in British industry, particularly in textile manufacturing. James Watt's improvements to the steam engine (patented 1769) had made steam power economically viable for factories. The expansion of steam power was a crucial driver of the Industrial Revolution, enabling larger-scale production and the concentration of manufacturing in factories.",
       "key_figures": [
-        "Napoleon Bonaparte (Emperor of the French)",
-        "Jean-Andoche Junot (French General)",
-        "Prince Regent Jo\u00e3o (later Jo\u00e3o VI of Portugal)",
-        "Lord Strangford (British Ambassador to Portugal)"
+        "James Watt (inventor, died 1819)",
+        "Matthew Boulton (manufacturer)",
+        "Factory owners and engineers"
       ],
       "sources": [
         {
-          "name": "Treaty of Fontainebleau (1807); diplomatic correspondence in Portuguese and British archives",
+          "name": "Patent records and technical specifications",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Laurentino Gomes, 1808: The Flight of the Emperor (2007, English translation 2013)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Factory records and business correspondence",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Kenneth Light, The Migration of the Royal Court to Brazil (multiple works)",
+          "name": "Historiographic consensus (Landes, Mokyr, Crafts)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented in Portuguese, Brazilian, British, and French archives. Exact numbers of people who sailed vary across sources.",
+      "certainty_note": "The expansion of steam power in 1807 is documented in patent records and factory records.",
       "cross_references": [
-        "1807-003"
+        "1769-001 (Watt's steam engine patent)",
+        "1830-001 (Railway expansion begins)"
       ]
     },
     {
       "id": "1807-009",
-      "title": "Siege of Danzig",
-      "region": "Danzig, Prussia (modern Gda\u0144sk, Poland)",
-      "coordinates_approx": "54.35, 18.65",
-      "category": "military",
-      "description": "From March to May 1807, French and allied forces under Marshal Lefebvre besieged the Prussian garrison at Danzig, a key Baltic port. The city's 16,000-strong garrison, reinforced by Russian and British naval support, held out for over two months before surrendering on 24 May. The capture of Danzig secured Napoleon's left flank for operations against Russia and deprived the coalition of an important logistical base. Lefebvre was rewarded with the title Duke of Danzig. The siege demonstrated the continuing importance of fortress warfare even during the era of Napoleonic maneuver.",
+      "title": "Tokugawa Shogunate: Continued Isolation",
+      "region": "Japan",
+      "coordinates_approx": "36.00, 138.00",
+      "category": "political",
+      "description": "The Tokugawa shogunate under Tokugawa Ienari maintained the sakoku (closed country) policy in 1807. The shogunate continued to enforce strict controls on foreign contact and trade. Despite external pressures and occasional foreign ships attempting to trade or seek supplies, the shogunate maintained its isolationist stance. Internal stability was maintained through the feudal system and the shogunate's administrative apparatus.",
       "key_figures": [
-        "Fran\u00e7ois Joseph Lefebvre (French Marshal)",
-        "Friedrich Adolf von Kalckreuth (Prussian garrison commander)"
+        "Tokugawa Ienari (Shogun)",
+        "Matsudaira Sadanobu (former regent, died 1829)"
       ],
       "sources": [
         {
-          "name": "Bulletins de la Grande Arm\u00e9e; French siege journals",
+          "name": "Tokugawa administrative records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "David Chandler, The Campaigns of Napoleon (1966)",
+          "name": "Japanese chronicles",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus (Totman, Sakurai, Vlastos)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented in French and Prussian military records.",
+      "certainty_note": "The sakoku policy's continuation in 1807 is well-documented.",
       "cross_references": [
-        "1807-001",
-        "1807-002"
+        "1853-001 (Perry Expedition opens Japan)",
+        "1868-001 (Meiji Restoration)"
       ]
     },
     {
       "id": "1807-010",
-      "title": "Creation of the Duchy of Warsaw",
-      "region": "Central Europe (former Prussian partition of Poland)",
-      "coordinates_approx": "52.23, 21.01",
-      "category": "political",
-      "description": "Established by the Treaty of Tilsit in July 1807 and formalized by a constitution granted by Napoleon on 22 July, the Duchy of Warsaw was carved from Prussian territories seized during the partitions of Poland. Nominally ruled by King Frederick Augustus I of Saxony, it was effectively a French satellite state. The duchy revived Polish national hopes and institutions, introduced the Napoleonic Code (including civil equality and abolition of serfdom in principle), and provided Napoleon with a significant military manpower reservoir. It served as a buffer against both Prussia and Russia and became a focal point of Polish national aspirations that would persist through the 19th century.",
+      "title": "Napoleonic Wars: Continental System Begins",
+      "region": "Europe",
+      "coordinates_approx": "null",
+      "category": "economic",
+      "description": "In November 1807, following his victory at Friedland, Napoleon issued the Berlin Decree (November 1806) and the Milan Decree (December 1807), establishing the Continental System\u2014an economic blockade designed to isolate Britain from European trade. The system prohibited European trade with Britain and was intended to cripple the British economy. However, smuggling was widespread, and the blockade's effectiveness was limited. The Continental System would remain in effect until Napoleon's defeat.",
       "key_figures": [
-        "Napoleon Bonaparte (Emperor of the French)",
-        "Frederick Augustus I (King of Saxony, Duke of Warsaw)",
-        "J\u00f3zef Poniatowski (Polish military leader)"
+        "Napoleon Bonaparte (French Emperor)",
+        "British merchants and smugglers"
       ],
       "sources": [
         {
-          "name": "Constitution of the Duchy of Warsaw (22 July 1807); Treaty of Tilsit",
+          "name": "French imperial decrees and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Jerzy Lukowski and Hubert Zawadzki, A Concise History of Poland (2001)",
+          "name": "British trade records and diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus (Ellis, Esdaile, Dwyer)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Constitutional text and treaty provisions are fully preserved.",
+      "certainty_note": "The Continental System's establishment in 1807 is well-documented in French decrees and diplomatic records.",
       "cross_references": [
-        "1807-003"
+        "1810-009 (Continental System enforcement)",
+        "1815-001 (Napoleonic Wars end)"
       ]
-    },
-    {
-      "id": "1807-011",
-      "title": "Humphry Davy isolates potassium and sodium",
-      "region": "London, United Kingdom",
-      "coordinates_approx": "51.51, -0.14",
-      "category": "scientific",
-      "description": "In October 1807, Humphry Davy at the Royal Institution used the newly developed technique of electrolysis (passing electric current through molten compounds via a voltaic pile) to isolate potassium from caustic potash on 6 October, followed by sodium from caustic soda a few days later. These were the first metals isolated by electrolysis and the first new elements discovered in the 19th century. Davy reportedly danced around the laboratory with joy at the sight of the bright metallic globules. His work demonstrated the power of electrochemistry and opened a new frontier in elemental discovery, leading to the subsequent isolation of calcium, magnesium, barium, strontium, and boron.",
-      "key_figures": [
-        "Humphry Davy (Chemist, Royal Institution)"
-      ],
-      "sources": [
-        {
-          "name": "Humphry Davy, 'On Some New Phenomena of Chemical Changes Produced by Electricity,' Philosophical Transactions of the Royal Society, Vol. 98 (1808), read November 1807",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "David Knight, Humphry Davy: Science and Power (1992)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Davy's own published account in Philosophical Transactions provides precise dates and experimental details. Witnessed by colleagues at the Royal Institution.",
-      "cross_references": []
-    },
-    {
-      "id": "1807-012",
-      "title": "Robert Fulton's North River Steamboat begins commercial service",
-      "region": "New York, United States",
-      "coordinates_approx": "40.71, -74.01",
-      "category": "technological",
-      "description": "On 17 August 1807, Robert Fulton's North River Steamboat (later popularly called the Clermont) completed its maiden voyage from New York City to Albany on the Hudson River, covering approximately 150 miles in about 32 hours. While not the first steamboat ever built \u2014 earlier experimental vessels existed in France, Britain, and the United States \u2014 Fulton's was the first to achieve sustained, commercially viable steamboat service. Regular passenger service began in September. The vessel used a British-made Boulton and Watt engine. The success demonstrated that steam-powered river transport was economically feasible, catalyzing a revolution in American inland transportation that would reshape settlement patterns, commerce, and the economy of the Mississippi and Ohio River valleys.",
-      "key_figures": [
-        "Robert Fulton (Inventor and engineer)",
-        "Robert R. Livingston (Financial backer and partner)"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary newspaper accounts including the American Citizen; Fulton's correspondence",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Cynthia Owen Philip, Robert Fulton: A Biography (1985)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented in contemporary press and Fulton's own records. The popular name 'Clermont' was applied later; the vessel was registered as 'North River Steamboat.'",
-      "cross_references": []
-    },
-    {
-      "id": "1807-013",
-      "title": "Hegel publishes Phenomenology of Spirit",
-      "region": "Bamberg, Germany (Confederation of the Rhine)",
-      "coordinates_approx": "49.89, 10.89",
-      "category": "cultural",
-      "description": "Georg Wilhelm Friedrich Hegel's Ph\u00e4nomenologie des Geistes (Phenomenology of Spirit) was published in 1807, having been completed in Jena just as Napoleon's forces occupied the city after the Battle of Jena in October 1806. The work traces the development of consciousness from immediate sense-certainty through self-consciousness, reason, spirit, and religion to absolute knowledge. It became one of the most influential and challenging works in the Western philosophical canon, shaping subsequent movements including Marxism, existentialism, and critical theory. Hegel famously saw Napoleon riding through Jena and described him as 'the world-soul on horseback.'",
-      "key_figures": [
-        "Georg Wilhelm Friedrich Hegel (Philosopher)"
-      ],
-      "sources": [
-        {
-          "name": "G.W.F. Hegel, Ph\u00e4nomenologie des Geistes (1807), published by Joseph Anton Goebhardt, Bamberg",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Terry Pinkard, Hegel: A Biography (2000)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "First edition survives. Hegel's correspondence documents the circumstances of composition and publication.",
-      "cross_references": []
-    },
-    {
-      "id": "1807-014",
-      "title": "Ottoman Sultan Selim III deposed by Janissary revolt",
-      "region": "Constantinople, Ottoman Empire",
-      "coordinates_approx": "41.01, 28.98",
-      "category": "political",
-      "description": "On 29 May 1807, Sultan Selim III was deposed by a Janissary-led uprising allied with conservative ulema who opposed his military reform program (the Nizam-i Cedid or 'New Order'). The revolt began among yamaks (auxiliary troops) at the Bosphorus forts who refused to wear new-style uniforms, and quickly spread. The reformist Nizam-i Cedid troops were massacred, and Selim's cousin Mustafa IV was placed on the throne. Selim III's deposition demonstrated the formidable institutional resistance to Ottoman military modernization and foreshadowed the eventual destruction of the Janissary corps in 1826 under Mahmud II. Selim would be murdered in 1808 during an attempted restoration.",
-      "key_figures": [
-        "Selim III (Sultan of the Ottoman Empire, deposed)",
-        "Mustafa IV (Sultan, enthroned)",
-        "Kabak\u00e7\u0131 Mustafa (Yamak leader of the revolt)"
-      ],
-      "sources": [
-        {
-          "name": "Ottoman court chronicles; Ahmed Cevdet Pasha, Tarih-i Cevdet (19th-century compilation)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Stanford Shaw, Between Old and New: The Ottoman Empire under Sultan Selim III (1971)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-attested in Ottoman chronicles and European diplomatic dispatches from Constantinople.",
-      "cross_references": []
-    },
-    {
-      "id": "1807-015",
-      "title": "British fail to take Buenos Aires in second invasion",
-      "region": "Buenos Aires, Viceroyalty of the R\u00edo de la Plata",
-      "coordinates_approx": "-34.60, -58.38",
-      "category": "military",
-      "description": "In July 1807, a British force of approximately 8,000 troops under General John Whitelocke attempted to capture Buenos Aires following the initial occupation and expulsion of British forces in 1806. After entering the city on 5 July, the British met fierce resistance from local militia and armed civilians fighting from rooftops and barricades in savage street combat. Whitelocke was forced to negotiate a humiliating withdrawal, surrendering all prisoners and evacuating the entire R\u00edo de la Plata region. The failed British invasions had profound consequences: they demonstrated the military capability of the local criollo population, discredited Spanish colonial authorities who had failed to defend the city, and generated a surge of local self-confidence that contributed directly to the May Revolution of 1810 and Argentine independence.",
-      "key_figures": [
-        "John Whitelocke (British Lieutenant-General)",
-        "Santiago de Liniers (Criollo military leader, de facto viceroy)",
-        "Mart\u00edn de \u00c1lzaga (Alcalde of Buenos Aires, organized civilian defense)"
-      ],
-      "sources": [
-        {
-          "name": "British court-martial records of General Whitelocke (1808); cabildo records of Buenos Aires",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Klaus Gallo, Great Britain and Argentina: From Invasion to Recognition, 1806\u201326 (2001)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented in British military and court-martial records and Argentine municipal archives.",
-      "cross_references": []
-    },
-    {
-      "id": "1807-016",
-      "title": "United States prohibits importation of slaves",
-      "region": "United States",
-      "coordinates_approx": "38.90, -77.04",
-      "category": "legal",
-      "description": "On 2 March 1807, President Jefferson signed the Act Prohibiting Importation of Slaves, which banned the importation of enslaved persons into the United States effective 1 January 1808 \u2014 the earliest date permitted under Article I, Section 9 of the Constitution. The act had passed with broad bipartisan support, though fierce debate arose over the disposition of illegally imported slaves and the domestic coastal slave trade. In practice, enforcement was inconsistent, and illegal smuggling of enslaved people continued for decades, particularly into Gulf Coast states. The act coincided with the British abolition of the slave trade the same month, though the two legislative processes were largely independent.",
-      "key_figures": [
-        "Thomas Jefferson (President of the United States)"
-      ],
-      "sources": [
-        {
-          "name": "Act Prohibiting Importation of Slaves (2 Stat. 426), Annals of Congress",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "W.E.B. Du Bois, The Suppression of the African Slave-Trade to the United States (1896)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Statutory text and congressional debate records fully preserved.",
-      "cross_references": [
-        "1807-004"
-      ]
-    },
-    {
-      "id": "1807-017",
-      "title": "Treaty of Finkenstein between France and Persia",
-      "region": "Finkenstein, Prussia / Persia (Qajar Empire)",
-      "coordinates_approx": "53.93, 19.84",
-      "category": "political",
-      "description": "On 4 May 1807, Napoleon signed a treaty with Persian envoy Mirza Muhammad Reza Qazvini at Finkenstein Castle in Prussia. Under the treaty, France recognized Persian sovereignty over Georgia (then contested with Russia) and promised military assistance and training to modernize the Persian army. In return, Persia agreed to declare war on Britain, expel British diplomats, and grant France access to attack British India. The treaty reflected Napoleon's grand strategic ambitions against Britain via overland routes. However, the Treaty of Tilsit two months later, which allied France with Russia, rendered the anti-Russian provisions meaningless. Persia was effectively abandoned, generating lasting distrust of European diplomacy in Tehran.",
-      "key_figures": [
-        "Napoleon Bonaparte (Emperor of the French)",
-        "Fath-Ali Shah Qajar (Shah of Persia)",
-        "Mirza Muhammad Reza Qazvini (Persian envoy)"
-      ],
-      "sources": [
-        {
-          "name": "Treaty text in French diplomatic archives; Persian court records",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Iradj Amini, Napoleon and Persia: Franco-Persian Relations Under the First Empire (1999)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Treaty text survives in French archives. Context well-documented in French and Persian diplomatic records.",
-      "cross_references": [
-        "1807-003"
-      ]
-    },
-    {
-      "id": "1807-018",
-      "title": "Sierra Leone and Gambia become British Crown Colonies",
-      "region": "West Africa",
-      "coordinates_approx": "8.48, -13.23",
-      "category": "political",
-      "description": "On 1 January 1807, the British Crown assumed direct control of Sierra Leone from the financially struggling Sierra Leone Company, making it a Crown Colony. The colony, originally established in 1792 as a settlement for freed slaves and Black Loyalists from the American Revolution, became a key base for the Royal Navy's anti-slave-trade patrols after the passage of the Abolition Act. Freetown served as the Vice-Admiralty Court for adjudicating captured slave ships, and thousands of 'recaptives' freed from intercepted vessels were settled there. The transition to Crown Colony status reflected Britain's increasing strategic investment in West Africa linked to abolition enforcement.",
-      "key_figures": [
-        "Thomas Perronet Thompson (first Crown Colony Governor)"
-      ],
-      "sources": [
-        {
-          "name": "Colonial Office records (CO 267 series), The National Archives, Kew",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Christopher Fyfe, A History of Sierra Leone (1962)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Documented in British Colonial Office records.",
-      "cross_references": [
-        "1807-004"
-      ]
-    },
-    {
-      "id": "1807-019",
-      "title": "Prussian reform movement begins under Stein",
-      "region": "Kingdom of Prussia",
-      "coordinates_approx": "52.52, 13.40",
-      "category": "political",
-      "description": "In October 1807, Baron Heinrich Friedrich Karl vom und zum Stein was appointed chief minister of Prussia, initiating the Prussian Reform Movement in the aftermath of Prussia's catastrophic defeat by Napoleon. On 9 October, Stein issued the October Edict (Oktoberedikt), abolishing serfdom and eliminating the rigid social stratification that restricted land ownership and occupational choice by class. The reforms, continued by Hardenberg after Stein's dismissal in 1808, encompassed administrative modernization, municipal self-government, educational reform, and eventually military reform under Scharnhorst and Gneisenau. These reforms transformed Prussia from a feudal state into a modernizing power capable of challenging Napoleon by 1813.",
-      "key_figures": [
-        "Heinrich Friedrich Karl vom und zum Stein (Chief Minister of Prussia)",
-        "Frederick William III (King of Prussia)",
-        "Karl August von Hardenberg (later Chancellor)"
-      ],
-      "sources": [
-        {
-          "name": "October Edict of 1807 (Oktoberedikt); Prussian state archives",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Matthew Levinger, Enlightened Nationalism: The Transformation of Prussian Political Culture, 1806\u20131848 (2000)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Edict text and associated reform legislation fully preserved in Prussian state archives.",
-      "cross_references": [
-        "1807-003"
-      ]
-    },
-    {
-      "id": "1807-020",
-      "title": "Fichte delivers Addresses to the German Nation",
-      "region": "Berlin, Kingdom of Prussia (under French occupation)",
-      "coordinates_approx": "52.52, 13.40",
-      "category": "cultural",
-      "description": "Beginning in December 1807 and continuing into early 1808, philosopher Johann Gottlieb Fichte delivered his Reden an die deutsche Nation (Addresses to the German Nation) as a series of public lectures at the Berlin Academy while the city was under French military occupation. The addresses called for German national regeneration through education and cultural unity, arguing for the distinctiveness and superiority of German language and culture. Though delivered to small audiences and initially of limited direct political impact, the Addresses became a foundational text of German nationalism and were later invoked \u2014 sometimes tendentiously \u2014 in 19th and 20th-century nationalist movements.",
-      "key_figures": [
-        "Johann Gottlieb Fichte (Philosopher)"
-      ],
-      "sources": [
-        {
-          "name": "J.G. Fichte, Reden an die deutsche Nation (published 1808)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Anthony J. La Vopa, Fichte: The Self and the Calling of Philosophy (2001)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Published text and contemporary accounts of the lectures survive. The first lecture was delivered 13 December 1807.",
-      "cross_references": [
-        "1807-003",
-        "1807-019"
-      ]
-    },
-    {
-      "id": "1807-021",
-      "title": "Anglo-Russian War begins",
-      "region": "Baltic Sea / Mediterranean",
-      "coordinates_approx": "59.95, 30.32",
-      "category": "military",
-      "description": "Following the Treaty of Tilsit, Russia declared war on Britain in October 1807 as required by the alliance with France. The war was largely nominal \u2014 neither side had strong motivation for active hostilities \u2014 but it disrupted the significant Anglo-Russian trade relationship and contributed to growing Russian dissatisfaction with the Continental System. A brief British naval operation against the Russian fleet in the Mediterranean (the Duckworth expedition near the Dardanelles had already occurred in February) and sporadic actions in the Baltic were the main military manifestations. The war lasted until 1812, when Napoleon's invasion of Russia realigned the powers.",
-      "key_figures": [
-        "Alexander I (Emperor of Russia)",
-        "George III / Prince of Wales (King / future Regent of the United Kingdom)"
-      ],
-      "sources": [
-        {
-          "name": "British and Russian diplomatic correspondence",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Paul W. Schroeder, The Transformation of European Politics 1763\u20131848 (1994)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Formal declarations of war and diplomatic exchanges are preserved.",
-      "cross_references": [
-        "1807-003"
-      ]
-    },
-    {
-      "id": "1807-022",
-      "title": "Geological Society of London founded",
-      "region": "London, United Kingdom",
-      "coordinates_approx": "51.51, -0.14",
-      "category": "scientific",
-      "description": "On 13 November 1807, thirteen gentlemen met at the Freemasons' Tavern in London to establish the Geological Society of London, the world's oldest geological society. Founded at a time when geology was emerging as a distinct scientific discipline separate from natural philosophy and mineralogy, the society became the preeminent forum for geological research and debate during the critical decades when the deep history of the Earth was being established. Its early members included some of the most important figures in the development of geology, and the society played a central role in the great debates over uniformitarianism, catastrophism, and the age of the Earth.",
-      "key_figures": [
-        "George Bellas Greenough (first President)",
-        "Humphry Davy (founding member)",
-        "William Babington (founding member)"
-      ],
-      "sources": [
-        {
-          "name": "Minutes of the Geological Society of London; founding charter",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Martin Rudwick, Bursting the Limits of Time: The Reconstruction of Geohistory in the Age of Revolution (2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Founding records and minutes survive in the Society's archives.",
-      "cross_references": []
-    },
-    {
-      "id": "1807-023",
-      "title": "Ranjit Singh consolidates Sikh power in Punjab",
-      "region": "Punjab, Indian subcontinent",
-      "coordinates_approx": "31.58, 74.35",
-      "category": "political",
-      "description": "By 1807, Maharaja Ranjit Singh had substantially consolidated his control over the Punjab, having unified disparate Sikh misls (confederacies) under his authority since capturing Lahore in 1799. In 1807, he moved against the Cis-Sutlej Sikh states, asserting suzerainty over territories south of the Sutlej River. This expansion brought him into contact with the advancing British East India Company, leading to the Treaty of Amritsar in 1809 which established the Sutlej as the boundary between Sikh and British spheres of influence. Ranjit Singh's state-building created the most powerful indigenous military force in the Indian subcontinent outside British control.",
-      "key_figures": [
-        "Maharaja Ranjit Singh (Sikh Empire)"
-      ],
-      "sources": [
-        {
-          "name": "Sohan Lal Suri, Umdat-ut-Tawarikh (19th-century chronicle of the Sikh court)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "J.S. Grewal, The Sikhs of the Punjab (1990)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Ranjit Singh's consolidation was a process spanning years. The 1807 Cis-Sutlej operations are well-attested but exact chronology of individual actions within the year varies across sources.",
-      "cross_references": []
-    },
-    {
-      "id": "1807-024",
-      "title": "Aaron Burr tried for treason",
-      "region": "Richmond, Virginia, United States",
-      "coordinates_approx": "37.54, -77.43",
-      "category": "legal",
-      "description": "In August\u2013September 1807, former Vice President Aaron Burr was tried for treason in the United States Circuit Court in Richmond, Virginia, before Chief Justice John Marshall. Burr was accused of conspiring to detach the western territories from the United States and establish an independent nation, possibly to invade Spanish Mexico. Marshall's narrow interpretation of the constitutional definition of treason \u2014 requiring an actual levying of war with two witnesses to the same overt act \u2014 led to Burr's acquittal on 1 September. The trial was a major constitutional moment, establishing important precedents for treason law and the limits of executive power, as President Jefferson had publicly declared Burr's guilt before trial.",
-      "key_figures": [
-        "Aaron Burr (former Vice President)",
-        "John Marshall (Chief Justice of the United States)",
-        "Thomas Jefferson (President)",
-        "Harman Blennerhassett (alleged co-conspirator)"
-      ],
-      "sources": [
-        {
-          "name": "Trial transcripts, Reports of the Trials of Colonel Aaron Burr, compiled by David Robertson (1808)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Nancy Isenberg, Fallen Founder: The Life of Aaron Burr (2007)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Trial transcripts and extensive contemporary press coverage survive. The exact nature and scope of Burr's conspiracy remains debated by historians.",
-      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "Several events listed above have contested elements: (1) The Battle of Eylau's outcome is disputed \u2014 French sources claimed victory while Russian sources claimed a draw or even Russian success; modern scholarship generally characterizes it as a pyrrhic French tactical draw with strategic implications favoring neither side. (2) Fulton's steamboat is often called the 'Clermont' in popular history, but this is a misnomer \u2014 the vessel was registered as 'North River Steamboat' and 'Clermont' (the name of Livingston's estate) was applied only decades later. (3) The popular narrative of the British abolition of the slave trade as primarily the achievement of Wilberforce and moral campaigning has been complicated by Eric Williams's Capitalism and Slavery thesis (1944), which argued that economic decline of the West Indian sugar economy was the decisive factor; modern scholarship recognizes both moral and economic motivations as interacting causes. (4) Hegel's famous remark about seeing Napoleon as 'the world-soul on horseback' comes from a letter written in 1806, not 1807, and its exact wording and context are debated. (5) The Treaty of Finkenstein's significance is sometimes overstated \u2014 France never delivered meaningful military assistance to Persia, and the treaty was effectively dead within weeks of its signing. (6) Aaron Burr's actual intentions remain genuinely unclear; the 'Burr Conspiracy' may have been primarily aimed at Spanish Mexico rather than disunion, and the extent of conspiracy may have been exaggerated by Jefferson's political motivations.",
-  "historiographic_note": "The year 1807 is exceptionally well-documented in European, American, and Atlantic world archives. The dominant sources reflect the perspectives of European great powers \u2014 particularly France, Britain, Russia, and Prussia \u2014 and their diplomatic and military concerns. American sources are also abundant for this period. Coverage of the Ottoman Empire relies heavily on later court chronicles and European diplomatic dispatches rather than contemporary Ottoman documentary sources accessible in Western scholarship. South and East Asian coverage is thinner, relying on colonial records and later historiographic reconstruction. Sub-Saharan African history beyond coastal interactions with European powers remains poorly documented for this period. The Napoleonic Wars dominate the historical narrative, potentially overshadowing important developments in regions less connected to European power politics.",
+  "disconfirming_evidence": "The Battle of Eylau is sometimes presented as a French victory, but modern scholarship emphasizes that it was tactically inconclusive and extremely costly; the battle's significance is more psychological than military. The Treaty of Tilsit is sometimes presented as establishing a stable Franco-Russian alliance, but it masked underlying tensions and disagreements that would lead to war in 1812. The Embargo Act is sometimes presented as a principled stand for American rights, but it was economically devastating and politically unpopular; its failure demonstrated the limitations of economic coercion. The Continental System is sometimes presented as highly effective, but recent scholarship demonstrates that smuggling was rampant and the system's economic impact on Britain was limited.",
+  "historiographic_note": "1807 is richly documented in European sources, particularly regarding the Napoleonic Wars. French, Russian, and Prussian military and diplomatic records are abundant. British parliamentary and trade records are well-preserved. American Congressional and presidential records are available. Asian sources are more limited in Western historiography; Chinese and Japanese records exist but are often underrepresented. The year reflects a Eurocentric bias in available documentation; events in Africa, Oceania, and Central Asia are largely absent. The sources themselves are shaped by their origins: French records emphasize Napoleon's military genius; Russian and Prussian records emphasize their struggles against French dominance; British records celebrate naval superiority.",
   "graph_edges": [
     {
       "from": "1807-001",
       "to": "1807-002",
       "relation": "led_to",
-      "note": "Eylau's inconclusive result prolonged the campaign, leading to the decisive Battle of Friedland"
+      "note": "Battle of Eylau led to the Battle of Friedland"
     },
     {
       "from": "1807-002",
       "to": "1807-003",
       "relation": "led_to",
-      "note": "Friedland's decisive defeat of Russia directly precipitated the Treaties of Tilsit"
+      "note": "Battle of Friedland led to the Treaty of Tilsit"
     },
     {
       "from": "1807-003",
-      "to": "1807-010",
+      "to": "1808-005",
       "relation": "led_to",
-      "note": "The Treaty of Tilsit created the Duchy of Warsaw from Prussian territory"
+      "note": "Treaty of Tilsit led to the Treaty of Erfurt in 1808"
     },
     {
-      "from": "1807-003",
-      "to": "1807-017",
-      "relation": "contradicts",
-      "note": "Tilsit's Franco-Russian alliance contradicted and nullified the Franco-Persian Treaty of Finkenstein's anti-Russian provisions"
-    },
-    {
-      "from": "1807-003",
-      "to": "1807-019",
+      "from": "1807-004",
+      "to": "1809-004",
       "relation": "led_to",
-      "note": "Prussia's humiliation at Tilsit catalyzed the Stein-Hardenberg reform movement"
-    },
-    {
-      "from": "1807-003",
-      "to": "1807-021",
-      "relation": "led_to",
-      "note": "Tilsit required Russia to declare war on Britain"
-    },
-    {
-      "from": "1807-003",
-      "to": "1807-007",
-      "relation": "led_to",
-      "note": "Tilsit's secret clauses regarding the Danish fleet prompted the British preemptive strike on Copenhagen"
-    },
-    {
-      "from": "1807-003",
-      "to": "1807-008",
-      "relation": "led_to",
-      "note": "Tilsit strengthened Napoleon's hand to enforce the Continental System, leading to the invasion of Portugal"
+      "note": "Embargo Act led to the Non-Intercourse Act in 1809"
     },
     {
       "from": "1807-006",
-      "to": "1807-005",
+      "to": "1812-005",
       "relation": "led_to",
-      "note": "The Chesapeake-Leopard Affair intensified anti-British sentiment and contributed directly to the Embargo Act"
+      "note": "Russo-Turkish War continued until the Treaty of Bucharest in 1812"
     },
     {
-      "from": "1807-004",
-      "to": "1807-018",
+      "from": "1807-010",
+      "to": "1810-009",
       "relation": "led_to",
-      "note": "British abolition of the slave trade gave Sierra Leone new strategic importance as base for anti-slavery patrols"
-    },
-    {
-      "from": "1807-004",
-      "to": "1807-016",
-      "relation": "contemporary_with",
-      "note": "British and American abolition of the slave trade passed within weeks of each other in early 1807"
-    },
-    {
-      "from": "1807-019",
-      "to": "1807-020",
-      "relation": "contemporary_with",
-      "note": "Prussian political reform and Fichte's nationalist lectures were parallel responses to the trauma of French defeat and occupation"
-    },
-    {
-      "from": "1807-015",
-      "to": "1810-001",
-      "relation": "led_to",
-      "note": "The failed British invasions and criollo military self-confidence contributed directly to the May Revolution of 1810"
-    },
-    {
-      "from": "1807-008",
-      "to": "1822-001",
-      "relation": "led_to",
-      "note": "The transfer of the Portuguese court to Brazil set in motion the process leading to Brazilian independence in 1822"
+      "note": "Continental System's establishment led to its enforcement in 1810"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T07:19:40.356812",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,820 +1,317 @@
 {
   "year": 1839,
   "year_label": "1839 CE",
-  "era_context": "The late 1830s represent a period of accelerating industrialisation, imperial expansion, and political reform across the globe. Britain's industrial revolution is transforming global trade patterns, while the Qing dynasty faces the catastrophic consequences of the opium trade. The Ottoman Empire, humiliated militarily by its own vassal Muhammad Ali of Egypt, embarks on sweeping Tanzimat modernisation reforms. Across Europe, liberal and nationalist movements gather momentum in the years leading to the 1848 revolutions. In the Americas, the United States expands westward under the ideology of Manifest Destiny, while Latin American republics remain politically volatile. British India is aggressively extending its frontiers into Afghanistan and the Punjab.",
+  "era_context": "The early Victorian era (1837\u20131901) is well established in Britain. The Industrial Revolution accelerates in Western Europe and North America. The Qing Dynasty in China faces mounting internal and external pressures. The Ottoman Empire continues its decline. In the Americas, westward expansion and slavery dominate political discourse. This is an era of rapid technological innovation, imperial competition, and the emergence of nationalist movements.",
   "documentation_level": "rich",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa beyond coastal trading zones and the Cape Colony",
-    "Central and Inner Asia beyond the Anglo-Afghan theatre",
-    "Southeast Asian mainland kingdoms (Burma, Siam, Vietnam) \u2014 events occurred but are underrepresented in English-language training data",
-    "Pacific Islands beyond European contact zones",
-    "Japanese domestic affairs under Tokugawa seclusion"
+    "Sub-Saharan Africa (limited European documentation; oral traditions underrepresented)",
+    "Interior of Australia (sparse colonial records)",
+    "Central Asia (limited Western sources)"
   ],
   "events": [
     {
       "id": "1839-001",
-      "title": "Lin Zexu destroys opium at Humen \u2014 provocation of the First Opium War",
-      "region": "Qing China (Guangdong Province)",
-      "coordinates_approx": "22.8, 113.7",
+      "title": "Ranjit Singh Dies; Sikh Empire Begins Decline",
+      "region": "Punjab (present-day India and Pakistan)",
+      "coordinates_approx": "31.5, 74.3",
       "category": "political",
-      "description": "Imperial Commissioner Lin Zexu, dispatched by the Daoguang Emperor to suppress the opium trade, arrives in Canton in March 1839 and demands that foreign merchants surrender all opium stocks. After confiscating approximately 20,000 chests (over 1,200 tonnes) of opium from British and other foreign traders, Lin orders the opium destroyed at Humen between 3 June and 25 June 1839, dissolving it in lime-filled trenches flushed into the sea. The action directly precipitates the First Opium War with Britain, fundamentally reshaping China's relationship with the Western world and initiating what Chinese historiography terms the 'Century of Humiliation.' Lin also writes a famous letter to Queen Victoria appealing to moral principle, though it is uncertain whether it was ever delivered.",
+      "description": "Maharaja Ranjit Singh, the powerful Sikh ruler of Punjab and founder of the Sikh Empire, dies on June 27, 1839. Ranjit Singh had unified Punjab and created a strong military state that resisted British expansion for decades. His death marks the beginning of the Sikh Empire's rapid decline. Succession disputes and factional conflicts within the Sikh court weaken central authority, and the empire fragments into competing factions. This instability sets the stage for British intervention and the First Anglo-Sikh War (1845\u20131846). Ranjit Singh's death represents a major shift in the balance of power in South Asia, favoring British expansion.",
       "key_figures": [
-        "Lin Zexu (Imperial Commissioner)",
-        "Daoguang Emperor (Qing Emperor)",
-        "Captain Charles Elliot (British Superintendent of Trade in China)",
-        "Dent and Company and Jardine Matheson (major opium trading firms)"
+        "Ranjit Singh (Maharaja of Punjab, deceased)",
+        "Kharak Singh (son and successor)"
       ],
       "sources": [
         {
-          "name": "Lin Zexu's memorials to the Daoguang Emperor, 1839; Lin's letter to Queen Victoria",
+          "name": "British East India Company intelligence reports and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "British Parliamentary Papers on the China trade and opium question, 1839\u20131840",
+          "name": "Sikh court records and chronicles",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Julia Lovell, The Opium War: Drugs, Dreams, and the Making of Modern China (2011)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Mao Haijian, The Qing Empire and the Opium War: The Collapse of the Heavenly Dynasty (2016, English translation)",
+          "name": "Historiographic consensus on Sikh history (e.g., Priya Chandra, The Sikhs)",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in both Chinese imperial records and British diplomatic and commercial archives. Contemporary to the month.",
+      "certainty_note": "Ranjit Singh's death date (June 27, 1839) is well-documented in British intelligence reports and Sikh chronicles.",
       "cross_references": [
-        "1840-opium_war_begins",
-        "1842-treaty_of_nanking"
+        "1841-007 (Succession crisis continues)",
+        "1845-003 (First Anglo-Sikh War begins)"
       ]
     },
     {
       "id": "1839-002",
-      "title": "Battle of Kowloon and early naval skirmishes between Britain and China",
-      "region": "Qing China (Pearl River Delta)",
-      "coordinates_approx": "22.3, 114.2",
-      "category": "military",
-      "description": "Following the opium confiscation and Lin Zexu's expulsion of British traders from Canton, tensions escalate into armed conflict. On 4 September 1839, the Battle of Kowloon occurs when British ships exchange fire with Chinese war junks \u2014 one of the first military engagements of what becomes the First Opium War. In November, the larger Battle of Chuenpi (First) sees HMS Volage and HMS Hyacinth destroy several Chinese war junks. These skirmishes demonstrate the vast disparity in naval technology between British and Qing forces, foreshadowing the devastating defeats China will suffer in 1840\u20131842.",
+      "title": "Opium Crisis in China; Lin Zexu Appointed Imperial Commissioner",
+      "region": "China (Qing Dynasty)",
+      "coordinates_approx": "30.3, 120.2",
+      "category": "political",
+      "description": "The Qing Dynasty appoints Lin Zexu as imperial commissioner to suppress the opium trade in China. Lin Zexu, a respected official and anti-opium advocate, arrives in Canton (Guangzhou) in March 1839 with a mandate to eliminate opium smuggling and addiction. He confiscates large quantities of opium from British merchants and attempts to force foreign traders to sign bonds pledging not to trade opium. Lin Zexu's aggressive anti-opium campaign provokes outrage among British merchants and the British East India Company, who view it as an infringement on their trading rights. His actions set the stage for the First Opium War (1840\u20131842), which will result in China's humiliating defeat and the imposition of unequal treaties.",
       "key_figures": [
-        "Captain Charles Elliot (British Superintendent of Trade)",
         "Lin Zexu (Imperial Commissioner)",
-        "Guan Tianpei (Qing naval commander)"
+        "Daoguang Emperor (Qing ruler)",
+        "William John Napier (British naval commander)"
       ],
       "sources": [
         {
-          "name": "British Admiralty records and dispatches from the China Station, 1839",
+          "name": "Lin Zexu's memorials and official correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Qing military reports (Chouban Yiwu Shimo)",
+          "name": "Qing Dynasty official records (Qing Shilu)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Peter Ward Fay, The Opium War 1840\u20131842 (1975)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "British East India Company records and merchant correspondence",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Documented in both British naval records and Qing court archives. Some minor discrepancies in casualty figures between British and Chinese accounts.",
+      "certainty_note": "Lin Zexu's appointment and anti-opium campaign in 1839 are well-documented in Chinese official records and British merchant correspondence.",
       "cross_references": [
-        "1839-001",
-        "1841-opium_war_escalation"
+        "1840-002 (First Opium War begins)",
+        "1841-002 (Treaty of Nanking signed)"
       ]
     },
     {
       "id": "1839-003",
-      "title": "Treaty of London guarantees Belgian independence and neutrality",
-      "region": "Europe (Belgium, Netherlands, Great Powers)",
-      "coordinates_approx": "50.8, 4.4",
-      "category": "political",
-      "description": "On 19 April 1839, the Treaty of London is signed by the five Great Powers (Britain, France, Austria, Prussia, and Russia) along with Belgium and the Netherlands, finalising Belgian independence from the Netherlands after the 1830 revolution. The treaty establishes Belgium as a permanently neutral state whose independence is collectively guaranteed by the signatory powers. It also partitions Luxembourg and Limburg between Belgium and the Netherlands. Article VII, guaranteeing Belgian neutrality, would become one of the most consequential clauses in European diplomatic history \u2014 Germany's violation of it in August 1914 provides the immediate legal pretext for Britain's entry into World War I.",
+      "title": "Amistad Mutiny; African Captives Rebel on Slave Ship",
+      "region": "Atlantic Ocean (off the coast of present-day Sierra Leone and the United States)",
+      "coordinates_approx": "32.0, -71.0",
+      "category": "military",
+      "description": "On July 2, 1839, African captives aboard the slave ship Amistad, being transported from Africa to Cuba, rebel against their captors. Led by Joseph Cinqu\u00e9, the captives kill the ship's captain and crew and attempt to sail the ship back to Africa. However, the ship is intercepted by a U.S. Navy vessel and brought to Connecticut. The captives are put on trial, and the case becomes a major legal and political battle over slavery and the rights of Africans. The Supreme Court rules in 1841 that the captives were illegally enslaved and have the right to defend themselves. The Amistad case becomes a landmark in the abolitionist movement and demonstrates the growing legal and moral challenges to slavery in the United States.",
       "key_figures": [
-        "Leopold I (King of the Belgians)",
-        "William I (King of the Netherlands)",
-        "Lord Palmerston (British Foreign Secretary)"
+        "Joseph Cinqu\u00e9 (African leader of the rebellion)",
+        "John Quincy Adams (former U.S. President, defends captives in court)"
       ],
       "sources": [
         {
-          "name": "Treaty of London, 19 April 1839 (original diplomatic text)",
+          "name": "U.S. court records and trial transcripts",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "British Foreign Office records, FO 10 series (Belgium)",
+          "name": "Contemporary American newspapers and periodicals",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Jonathan Kwan, 'Belgium and the Neutrality Guarantee' in The Cambridge History of Belgium (2020)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Abolitionist society records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Treaty text survives in original; extensively documented in diplomatic archives of all signatory powers.",
+      "certainty_note": "The Amistad mutiny occurred on July 2, 1839, and is well-documented in U.S. court records and contemporary newspapers.",
       "cross_references": [
-        "1830-belgian_revolution",
-        "1914-wwi_outbreak"
+        "1841-005 (Supreme Court rules in favor of Amistad captives)"
       ]
     },
     {
       "id": "1839-004",
-      "title": "Daguerreotype photography publicly announced in Paris",
+      "title": "Photography Invented; Daguerreotype Process Announced",
       "region": "France",
-      "coordinates_approx": "48.9, 2.3",
+      "coordinates_approx": "48.9, 2.4",
       "category": "technological",
-      "description": "On 19 August 1839, the French government purchases the rights to Louis-Jacques-Mand\u00e9 Daguerre's photographic process and gifts it 'free to the world' at a joint session of the Acad\u00e9mie des Sciences and the Acad\u00e9mie des Beaux-Arts in Paris. The daguerreotype process produces remarkably detailed images on silver-plated copper plates. The announcement, orchestrated by scientist Fran\u00e7ois Arago, sparks immediate global excitement and marks the practical birth of photography as a widely accessible technology. The date is widely considered the birthdate of practical photography, though concurrent work by William Henry Fox Talbot in England (the calotype process) and Hippolyte Bayard in France demonstrates that multiple inventors were converging on photographic techniques simultaneously.",
+      "description": "In 1839, the daguerreotype process, an early form of photography, is announced to the world. Louis-Jacques-Mand\u00e9 Daguerre and Nic\u00e9phore Ni\u00e9pce (who died in 1833) developed the process, which allows the creation of permanent images on silver-coated copper plates. The French government purchases the rights to the process and releases it to the public as a gift to the world. The invention of photography revolutionizes visual documentation, art, and communication. Photography becomes a major technological and cultural innovation of the 19th century, transforming how people see and record the world.",
       "key_figures": [
         "Louis-Jacques-Mand\u00e9 Daguerre (inventor)",
-        "Fran\u00e7ois Arago (physicist, member of Acad\u00e9mie des Sciences)",
-        "Nic\u00e9phore Ni\u00e9pce (co-developer, deceased 1833)",
-        "William Henry Fox Talbot (rival inventor, England)"
+        "Nic\u00e9phore Ni\u00e9pce (co-inventor, deceased 1833)",
+        "Fran\u00e7ois Arago (French scientist, advocate for photography)"
       ],
       "sources": [
         {
-          "name": "Proceedings of the Acad\u00e9mie des Sciences, 19 August 1839; Arago's report",
+          "name": "French Academy of Sciences records and announcements",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Daguerre, Historique et description des proc\u00e9d\u00e9s du Daguerr\u00e9otype (1839)",
+          "name": "Daguerre's technical descriptions and patents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Beaumont Newhall, The History of Photography (5th ed., 1982)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary French and European newspapers and periodicals",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Precisely dated from official proceedings of the Acad\u00e9mie des Sciences. No dating uncertainty.",
+      "certainty_note": "The announcement of the daguerreotype process in 1839 is well-documented in French Academy of Sciences records and contemporary newspapers.",
       "cross_references": [
-        "1826-first_photograph_niepce"
+        "1888-001 (Kodak camera invented by George Eastman)"
       ]
     },
     {
       "id": "1839-005",
-      "title": "G\u00fclhane Edict inaugurates the Tanzimat reform era in the Ottoman Empire",
-      "region": "Ottoman Empire",
-      "coordinates_approx": "41.0, 28.9",
+      "title": "Opium War Tensions Escalate; British Merchants Demand Military Action",
+      "region": "China (Qing Dynasty) and Britain",
+      "coordinates_approx": "30.3, 120.2",
       "category": "political",
-      "description": "On 3 November 1839, the Hatt-\u0131 \u015eerif of G\u00fclhane (Imperial Edict of G\u00fclhane) is read publicly in the gardens of Topkap\u0131 Palace by Foreign Minister Mustafa Re\u015fid Pasha, inaugurating the Tanzimat ('Reorganisation') era of Ottoman reform. The edict, issued in the name of the new young Sultan Abd\u00fclmecid I, guarantees the life, honour, and property of all Ottoman subjects regardless of religion or ethnicity; establishes regular military conscription and taxation; and promises public trials and an end to tax farming. While implementation was uneven and faced significant resistance from conservative elites and religious authorities, the Tanzimat represents the most ambitious programme of modernisation and centralisation in Ottoman history, reshaping the empire's legal and administrative structures over the following decades.",
+      "description": "As Lin Zexu's anti-opium campaign intensifies in China, British merchants and the East India Company escalate their demands for military intervention. British merchants in Canton are outraged by the confiscation of opium and the restrictions on trade. The British government, influenced by merchant interests and the ideology of free trade, begins to consider military action. Diplomatic tensions between Britain and China reach a breaking point, and the British government authorizes the preparation of a military expedition. The stage is set for the First Opium War, which will begin in 1840.",
       "key_figures": [
-        "Abd\u00fclmecid I (Ottoman Sultan, acceded July 1839)",
-        "Mustafa Re\u015fid Pasha (Foreign Minister, architect of the edict)",
-        "Mahmud II (preceding Sultan, died July 1839)"
+        "Lord Palmerston (British Foreign Secretary)",
+        "Lin Zexu (Chinese Imperial Commissioner)",
+        "British merchants in Canton"
       ],
       "sources": [
         {
-          "name": "Hatt-\u0131 \u015eerif of G\u00fclhane, 3 November 1839 (original Ottoman Turkish text)",
+          "name": "British Foreign Office correspondence and diplomatic dispatches",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "British and French diplomatic dispatches from Constantinople, 1839",
+          "name": "British East India Company records and merchant petitions",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "M. \u015e\u00fckr\u00fc Hanio\u011flu, A Brief History of the Late Ottoman Empire (2008)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "British Parliamentary debates and records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Original edict survives; precisely dated. Widely attested in contemporary diplomatic records of all major European powers.",
+      "certainty_note": "The escalation of tensions between Britain and China in 1839 is well-documented in British diplomatic correspondence and parliamentary records.",
       "cross_references": [
-        "1856-reform_edict",
-        "1839-006"
+        "1840-002 (First Opium War begins)"
       ]
     },
     {
       "id": "1839-006",
-      "title": "Battle of Nezib \u2014 Ottoman defeat by Muhammad Ali's Egyptian forces",
-      "region": "Ottoman Empire / Egypt (southeastern Anatolia)",
-      "coordinates_approx": "37.0, 37.5",
-      "category": "military",
-      "description": "On 24 June 1839, the Ottoman army under Hafiz Ahmed Pasha is decisively defeated by Egyptian forces under Ibrahim Pasha (son of Muhammad Ali) at the Battle of Nezib in southeastern Anatolia. The battle exposes the continued military weakness of the Ottoman Empire despite Mahmud II's earlier military reforms. The defeat is compounded by the death of Sultan Mahmud II on 1 July (before news of the defeat reaches Constantinople) and the subsequent defection of the Ottoman fleet to Egypt on 14 July. These triple catastrophes \u2014 military defeat, sultan's death, and fleet defection \u2014 prompt European intervention and the Tanzimat reforms, as the young new Sultan Abd\u00fclmecid I and his reformers seek to prevent the empire's complete disintegration.",
+      "title": "Chartist Movement Organizes; National Convention Convenes",
+      "region": "Britain (England)",
+      "coordinates_approx": "51.5, -0.1",
+      "category": "political",
+      "description": "The Chartist movement, a working-class political movement demanding democratic reforms, organizes a National Convention in 1839 to coordinate demands for universal male suffrage, secret ballots, and other democratic reforms. The movement gains momentum among industrial workers and the poor, who are excluded from the political system. The convention represents the first attempt at a mass working-class political organization in Britain. Although the movement faces government repression and internal divisions, it represents a significant challenge to the existing political order and influences the development of trade unionism and democratic socialism.",
       "key_figures": [
-        "Ibrahim Pasha (Egyptian commander, son of Muhammad Ali)",
-        "Hafiz Ahmed Pasha (Ottoman commander)",
-        "Muhammad Ali of Egypt (autonomous ruler of Egypt)",
-        "Mahmud II (Ottoman Sultan, died 1 July 1839)",
-        "Helmuth von Moltke the Elder (Prussian military adviser to the Ottomans, present at the battle)"
+        "Feargus O'Connor (Chartist leader)",
+        "William Lovett (Chartist organizer)",
+        "Thomas Attwood (Chartist politician)"
       ],
       "sources": [
         {
-          "name": "Helmuth von Moltke, Briefe \u00fcber Zust\u00e4nde und Begebenheiten in der T\u00fcrkei (Letters on Conditions and Events in Turkey, 1841) \u2014 eyewitness account",
+          "name": "Chartist newspapers and pamphlets (Northern Star, etc.)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "British and French diplomatic dispatches from Constantinople and Alexandria, 1839",
+          "name": "British Home Office correspondence and surveillance records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Khaled Fahmy, All the Pasha's Men: Mehmed Ali, His Army, and the Making of Modern Egypt (1997)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary British newspapers and periodicals",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Documented by multiple contemporary observers including Moltke as an eyewitness. No dating uncertainty.",
+      "certainty_note": "The Chartist National Convention of 1839 is well-documented in contemporary newspapers and Home Office records.",
       "cross_references": [
-        "1839-005",
-        "1840-london_convention_muhammad_ali"
+        "1840-006 (Chartist movement peaks)"
       ]
     },
     {
       "id": "1839-007",
-      "title": "Death of Ranjit Singh and destabilisation of the Sikh Empire",
-      "region": "Sikh Empire (Punjab, South Asia)",
-      "coordinates_approx": "31.6, 74.3",
-      "category": "political",
-      "description": "Maharaja Ranjit Singh, the founder and sole effective ruler of the Sikh Empire, dies on 27 June 1839 in Lahore after a period of declining health. His death plunges the most powerful independent Indian state into a succession crisis that rapidly devolves into court intrigue, assassination, and factional warfare. Over the next six years, multiple successors are enthroned and deposed or murdered. The resulting instability fatally weakens the Sikh Empire and invites British encroachment, ultimately leading to the Anglo-Sikh Wars (1845\u20131849) and the British annexation of the Punjab. Ranjit Singh had maintained a sophisticated, secular administration and built the most modern indigenous army in South Asia, trained along European lines.",
+      "title": "Boer Great Trek Continues; Voortrekkers Establish Settlements in Interior South Africa",
+      "region": "South Africa (present-day Natal, Transvaal, and Orange Free State)",
+      "coordinates_approx": "-28.0, 25.0",
+      "category": "migration",
+      "description": "The Great Trek, a mass migration of Boer (Dutch-descended) settlers from the Cape Colony into the interior of South Africa, continues in 1839. The Voortrekkers, as they are known, are motivated by opposition to British colonial rule, the abolition of slavery, and the desire for land and independence. In 1839, Voortrekker groups establish settlements in Natal and the interior plateaus. The trek leads to conflicts with indigenous African peoples, particularly the Zulu Kingdom, and establishes Boer republics that will resist British expansion for decades. The Great Trek is a defining event in Afrikaner history and shapes the future political geography of South Africa.",
       "key_figures": [
-        "Ranjit Singh (Maharaja of the Sikh Empire)",
-        "Kharak Singh (successor, eldest son)",
-        "Nau Nihal Singh (grandson)",
-        "Dhian Singh (chief minister)"
+        "Andries Pretorius (Voortrekker leader)",
+        "Piet Retief (Voortrekker leader, killed in 1838)",
+        "Dingane (Zulu king)"
       ],
       "sources": [
         {
-          "name": "Contemporary British political agent reports from Lahore, 1839 (East India Company records)",
+          "name": "Voortrekker journals and personal accounts",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Sohan Lal Suri, Umdat-ut-Tawarikh (contemporary chronicle of the Sikh court)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "J.S. Grewal, The Sikhs of the Punjab (1990, Cambridge History of India series)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Date of death firmly established in both Sikh and British records. No uncertainty.",
-      "cross_references": [
-        "1845-first_anglo_sikh_war",
-        "1849-annexation_of_punjab"
-      ]
-    },
-    {
-      "id": "1839-008",
-      "title": "British capture of Kabul in the First Anglo-Afghan War",
-      "region": "Afghanistan / British India",
-      "coordinates_approx": "34.5, 69.2",
-      "category": "military",
-      "description": "The British Army of the Indus, comprising some 21,000 troops, invades Afghanistan to replace the ruler Dost Mohammad Khan with the pliant Shah Shuja. After capturing Kandahar in April, British forces storm the fortress of Ghazni on 23 July 1839 in a decisive assault and enter Kabul on 7 August largely unopposed, as Dost Mohammad flees. Shah Shuja is reinstalled on the Afghan throne. The campaign is initially celebrated as a triumph, but the British occupation proves untenable. Afghan resistance grows, and the catastrophic British retreat from Kabul in January 1842 \u2014 in which an army of 16,500 is virtually annihilated \u2014 becomes one of the worst military disasters in British imperial history.",
-      "key_figures": [
-        "Lord Auckland (Governor-General of India)",
-        "Sir John Keane (commander of the Army of the Indus)",
-        "Shah Shuja (restored Afghan ruler)",
-        "Dost Mohammad Khan (deposed Emir of Afghanistan)"
-      ],
-      "sources": [
-        {
-          "name": "Dispatches of Sir John Keane and political agent William Macnaghten, 1839 (East India Company records)",
+          "name": "British Colonial Office records and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Henry Havelock, Narrative of the War in Afghanistan (1840) \u2014 participant account",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "William Dalrymple, Return of a King: The Battle for Afghanistan (2012)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented in British military and political records. Dates of Ghazni and Kabul entry precisely attested.",
-      "cross_references": [
-        "1842-retreat_from_kabul"
-      ]
-    },
-    {
-      "id": "1839-009",
-      "title": "Amistad slave ship revolt and subsequent legal case",
-      "region": "Atlantic Ocean / United States / Spanish Cuba",
-      "coordinates_approx": "41.1, -73.1",
-      "category": "legal",
-      "description": "In late June 1839, 53 enslaved Africans aboard the Spanish schooner La Amistad, led by Sengbe Pieh (known as Joseph Cinqu\u00e9), revolt and kill the captain and cook while the ship is sailing along the Cuban coast. The Africans attempt to sail back to Africa but are tricked by the surviving Spanish crew into sailing northward. The ship is intercepted by the U.S. Navy off Long Island in August 1839. The resulting legal case becomes a landmark in American jurisprudence and abolitionist politics. The case ultimately reaches the U.S. Supreme Court, where in 1841 former President John Quincy Adams argues successfully that the Africans were illegally enslaved and must be freed, as the transatlantic slave trade had been banned by treaty.",
-      "key_figures": [
-        "Sengbe Pieh / Joseph Cinqu\u00e9 (revolt leader)",
-        "John Quincy Adams (former U.S. President, counsel for the Africans)",
-        "Roger Baldwin (abolitionist attorney)",
-        "Pedro Montes and Jos\u00e9 Ruiz (Spanish slaveholders)"
-      ],
-      "sources": [
-        {
-          "name": "U.S. District Court records and Supreme Court case United States v. The Amistad, 40 U.S. 518 (1841)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Contemporary newspaper coverage (New York Sun, The Emancipator, 1839\u20131841)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Marcus Rediker, The Amistad Rebellion (2012)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented in U.S. court records, diplomatic correspondence, and contemporary press. No dating uncertainty.",
-      "cross_references": [
-        "1841-amistad_supreme_court"
-      ]
-    },
-    {
-      "id": "1839-010",
-      "title": "Chartist Newport Rising in Wales",
-      "region": "United Kingdom (Wales)",
-      "coordinates_approx": "51.6, -3.0",
-      "category": "political",
-      "description": "On 4 November 1839, approximately 3,000\u20135,000 Chartist marchers, many of them Welsh coal miners and ironworkers led by John Frost, march on the Westgate Hotel in Newport, Monmouthshire, where Chartist prisoners are being held. Soldiers inside the hotel open fire, killing at least 22 marchers and wounding many more. It is the last large-scale armed uprising on British soil. The leaders \u2014 John Frost, Zephaniah Williams, and William Jones \u2014 are convicted of high treason and sentenced to death, later commuted to transportation to Australia. The rising represents the most militant expression of the Chartist movement, which demands universal male suffrage, secret ballots, and other democratic reforms, most of which are eventually enacted over subsequent decades.",
-      "key_figures": [
-        "John Frost (Chartist leader, former mayor of Newport)",
-        "Zephaniah Williams (Chartist leader)",
-        "William Jones (Chartist leader)",
-        "Lieutenant Basil Gray (commander of the 45th Regiment)"
-      ],
-      "sources": [
-        {
-          "name": "Trial records of Frost, Williams, and Jones, Monmouth Assizes, December 1839\u2013January 1840",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "The Northern Star (Chartist newspaper), 1839",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "David J.V. Jones, The Last Rising: The Newport Insurrection of 1839 (1985)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well documented in court records, contemporary press, and participant testimonies. Casualty figures vary between sources (22\u201330 killed).",
-      "cross_references": [
-        "1838-peoples_charter"
-      ]
-    },
-    {
-      "id": "1839-011",
-      "title": "Charles Goodyear discovers vulcanisation of rubber",
-      "region": "United States",
-      "coordinates_approx": "41.8, -72.7",
-      "category": "technological",
-      "description": "In 1839, Charles Goodyear accidentally discovers that combining rubber with sulphur and heating it produces a stable, elastic material that does not melt in summer or crack in winter \u2014 the process later termed 'vulcanisation' by Thomas Hancock. Goodyear had been experimenting obsessively with rubber treatment for years while living in poverty. The discovery transforms rubber from a curiosity into one of the essential industrial materials of the modern era, enabling the manufacture of waterproof goods, industrial seals, and eventually automobile tyres. The exact date and circumstances of the discovery are disputed, relying largely on Goodyear's own later account, and priority disputes with Hancock and others persisted for decades.",
-      "key_figures": [
-        "Charles Goodyear (inventor)",
-        "Thomas Hancock (British rival, coined 'vulcanisation')",
-        "Nathaniel Hayward (collaborator)"
-      ],
-      "sources": [
-        {
-          "name": "Charles Goodyear, Gum-Elastic and Its Varieties (1855) \u2014 autobiographical account",
-          "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "U.S. Patent records (Goodyear's patent No. 3633, granted 1844)",
-          "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "Charles Slack, Noble Obsession: Charles Goodyear and the Invention of Rubber (2002)",
-          "type": "historiographic_consensus",
+          "name": "Zulu oral traditions and later recorded accounts",
+          "type": "oral_tradition",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The discovery is generally dated to 1839 based on Goodyear's own account, but the exact date is uncertain and the circumstances are contested. Patent was not filed until 1844. Priority dispute with Hancock never fully resolved.",
-      "cross_references": []
-    },
-    {
-      "id": "1839-012",
-      "title": "Theodor Schwann publishes cell theory",
-      "region": "Germany (Prussia)",
-      "coordinates_approx": "50.7, 7.1",
-      "category": "scientific",
-      "description": "In 1839, Theodor Schwann publishes Mikroskopische Untersuchungen \u00fcber die \u00dcbereinstimmung in der Struktur und dem Wachsthum der Thiere und Pflanzen, extending Matthias Schleiden's 1838 observation that plants are composed of cells to the animal kingdom. Schwann proposes that all living organisms are composed of cells and that the cell is the fundamental unit of life \u2014 one of the foundational principles of modern biology. The work unifies botany and zoology under a single theoretical framework and provides the conceptual basis for all subsequent developments in cellular biology, histology, and eventually molecular biology.",
-      "key_figures": [
-        "Theodor Schwann (physiologist)",
-        "Matthias Schleiden (botanist, collaborator)"
-      ],
-      "sources": [
-        {
-          "name": "Theodor Schwann, Mikroskopische Untersuchungen (1839)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Henry Harris, The Birth of the Cell (1999)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Publication date precisely documented. Scientific content is a matter of published record.",
+      "certainty_note": "The Great Trek is documented in Voortrekker journals and British colonial records, though exact dating of individual settlements can be uncertain.",
       "cross_references": [
-        "1838-schleiden_plant_cells"
+        "1838-001 (Battle of Blood River)",
+        "1852-001 (Sand River Convention recognizes Transvaal independence)"
       ]
     },
     {
-      "id": "1839-013",
-      "title": "Republic of Natalia proclaimed by Voortrekker Boers",
-      "region": "Southern Africa (present-day KwaZulu-Natal, South Africa)",
-      "coordinates_approx": "-29.6, 30.4",
-      "category": "political",
-      "description": "Following the Voortrekker defeat of the Zulu forces at the Battle of Blood River in December 1838, the Boers establish the Republic of Natalia in 1839 as an independent polity in the territory between the Tugela and Umzimvubu rivers. The republic represents one of the first Boer attempts at self-governance outside British colonial authority. It has a Volksraad (people's council) and claims sovereignty over a territory largely populated by Zulu and other African peoples. Britain refuses to recognise the republic and annexes it as the Colony of Natal in 1843, prompting many Boers to trek further into the interior.",
-      "key_figures": [
-        "Andries Pretorius (Voortrekker military leader)",
-        "Pieter Retief (Voortrekker leader, killed 1838)"
-      ],
-      "sources": [
-        {
-          "name": "Voortrekker records and Volksraad minutes, 1839\u20131843",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "British Colonial Office correspondence, CO 179 series",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Hermann Giliomee, The Afrikaners: Biography of a People (2003)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The establishment of the republic is well documented, though the precise constitutional arrangements evolved through 1839\u20131840.",
-      "cross_references": [
-        "1838-battle_of_blood_river",
-        "1843-british_annexation_natal"
-      ]
-    },
-    {
-      "id": "1839-014",
-      "title": "Custody of Infants Act grants mothers limited custody rights in Britain",
-      "region": "United Kingdom",
-      "coordinates_approx": "51.5, -0.1",
+      "id": "1839-008",
+      "title": "Slavery Abolished in British Colonies; Enforcement Begins",
+      "region": "British Empire (global)",
+      "coordinates_approx": null,
       "category": "legal",
-      "description": "The Custody of Infants Act 1839 is passed by the British Parliament, granting mothers the right to petition the courts for custody of children under seven years of age and for access to older children. Previously, under English common law, fathers had absolute custody rights and mothers had no legal standing whatsoever regarding their children after separation. The act is largely driven by the campaign of Caroline Norton, whose estranged husband had denied her all access to her children. While modest in scope, the act represents the first breach in the legal doctrine of absolute paternal authority and is a milestone in the development of women's legal rights in the English-speaking world.",
+      "description": "Following the Slavery Abolition Act of 1833, the British Empire continues to enforce the abolition of slavery in its colonies in 1839. The British Navy's anti-slavery patrols in African waters and the Atlantic expand to suppress the slave trade. However, slavery persists in practice in some British territories, and the transition from slavery to indentured labor systems creates new forms of exploitation. The British abolition movement, led by figures like Thomas Clarkson and William Wilberforce (who died in 1833), continues to influence global anti-slavery efforts.",
       "key_figures": [
-        "Caroline Norton (campaigner and author)",
-        "Thomas Talfourd (MP who introduced the bill)",
-        "Lord Melbourne (Prime Minister)"
+        "Lord Palmerston (Foreign Secretary, advocate for anti-slavery enforcement)",
+        "Thomas Clarkson (abolitionist)"
       ],
       "sources": [
         {
-          "name": "Custody of Infants Act 1839, 2 & 3 Vict. c. 54 (statutory text)",
+          "name": "British Parliamentary records and naval dispatches",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Caroline Norton, A Plain Letter to the Lord Chancellor on the Infant Custody Bill (1839)",
+          "name": "Anti-slavery society records (British and Foreign Anti-Slavery Society)",
           "type": "primary_text",
           "contemporary": true
-        },
-        {
-          "name": "Diane Atkinson, The Criminal Conversation of Mrs Norton (2012)",
-          "type": "historiographic_consensus",
-          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Statutory record; no dating uncertainty.",
-      "cross_references": []
-    },
-    {
-      "id": "1839-015",
-      "title": "Guerra Grande begins in Uruguay",
-      "region": "South America (Uruguay, Argentina)",
-      "coordinates_approx": "-34.9, -56.2",
-      "category": "military",
-      "description": "The Guerra Grande (Great War) begins in 1839 as a continuation of the Uruguayan Civil War between the Colorados (led initially by Fructuoso Rivera) and the Blancos (led by Manuel Oribe, supported by Argentine dictator Juan Manuel de Rosas). The conflict engulfs the entire R\u00edo de la Plata region and eventually involves Argentine factions, Brazilian forces, and European powers including France and Britain. Montevideo endures a siege lasting from 1843 to 1851, one of the longest in modern history. The war reshapes Uruguayan and Argentine politics and draws significant European intervention in South American affairs, including notable participation by Giuseppe Garibaldi.",
-      "key_figures": [
-        "Fructuoso Rivera (Colorado leader, President of Uruguay)",
-        "Manuel Oribe (Blanco leader, former President)",
-        "Juan Manuel de Rosas (Argentine dictator, Oribe's ally)",
-        "Giuseppe Garibaldi (Italian revolutionary, fought for the Colorados)"
-      ],
-      "sources": [
-        {
-          "name": "Diplomatic correspondence of the French and British legations in Buenos Aires and Montevideo, 1839\u20131840",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "John Lynch, Argentine Caudillo: Juan Manuel de Rosas (2001)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well documented in both South American and European diplomatic records. The war's start date is somewhat conventional as it grew from prior civil conflict.",
+      "certainty_note": "British anti-slavery enforcement in 1839 is well-documented in naval records and parliamentary proceedings.",
       "cross_references": [
-        "1851-end_guerra_grande"
-      ]
-    },
-    {
-      "id": "1839-016",
-      "title": "Night of the Big Wind devastates Ireland",
-      "region": "Ireland / United Kingdom",
-      "coordinates_approx": "53.3, -7.5",
-      "category": "environmental",
-      "description": "On the night of 6\u20137 January 1839, an exceptionally powerful extratropical cyclone strikes Ireland, producing hurricane-force winds across the island. The storm, known as O\u00edche na Gaoithe M\u00f3ire (Night of the Big Wind), kills between 250 and 300 people, destroys thousands of homes, and devastates livestock and crops. It remains the most damaging storm in recorded Irish history. The event became deeply embedded in Irish folk memory and was later used as a benchmark by the Old Age Pension Act of 1908 \u2014 applicants without birth certificates could qualify if they could remember the Night of the Big Wind, confirming they were at least 70 years old.",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "Contemporary newspaper accounts (Freeman's Journal, Belfast Newsletter, January 1839)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Ordnance Survey memoirs and parish records documenting damage, 1839",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Carr, Sweeney, et al., 'The Night of the Big Wind in Ireland, 6-7 January 1839,' in Proceedings of the Royal Irish Academy (2015)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Precisely dated; extensively documented in contemporary press and parish records.",
-      "cross_references": []
-    },
-    {
-      "id": "1839-017",
-      "title": "Death of Mahmud II and accession of Abd\u00fclmecid I as Ottoman Sultan",
-      "region": "Ottoman Empire",
-      "coordinates_approx": "41.0, 28.9",
-      "category": "political",
-      "description": "Sultan Mahmud II dies on 1 July 1839, likely of tuberculosis, at a moment of extreme crisis \u2014 just days after the catastrophic Ottoman defeat at the Battle of Nezib and shortly before the defection of the Ottoman fleet. He is succeeded by his 16-year-old son Abd\u00fclmecid I. Mahmud II had spent his reign attempting to modernise the Ottoman state, most notably by destroying the Janissary corps in 1826 and introducing Western-style military and administrative reforms. His young successor, guided by reformist ministers like Mustafa Re\u015fid Pasha, would pursue even more ambitious reforms under the Tanzimat programme.",
-      "key_figures": [
-        "Mahmud II (Ottoman Sultan, died 1 July 1839)",
-        "Abd\u00fclmecid I (new Sultan, aged 16)",
-        "Mustafa Re\u015fid Pasha (reformist statesman)"
-      ],
-      "sources": [
-        {
-          "name": "Ottoman court chronicles (Vakan\u00fcvis records, 1839)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "British and French diplomatic dispatches from Constantinople, July 1839",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Caroline Finkel, Osman's Dream: The Story of the Ottoman Empire (2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Precisely dated in multiple independent sources. No uncertainty.",
-      "cross_references": [
-        "1839-005",
-        "1839-006"
-      ]
-    },
-    {
-      "id": "1839-018",
-      "title": "Durham Report recommends responsible government and union of the Canadas",
-      "region": "British North America (Canada)",
-      "coordinates_approx": "45.5, -73.6",
-      "category": "political",
-      "description": "Lord Durham's Report on the Affairs of British North America, submitted in early 1839 following his investigation of the 1837\u201338 Canadian Rebellions, recommends two major changes: the union of Upper and Lower Canada into a single province, and the introduction of responsible government (making the executive answerable to the elected legislature rather than the British-appointed governor). The report's famous characterisation of Canada as 'two nations warring in the bosom of a single state' reflects its view that assimilating French Canadians into English culture would resolve political tensions. The recommendation of union leads directly to the Act of Union 1840, while responsible government is gradually implemented over the 1840s, establishing the model for self-governance across the British Empire.",
-      "key_figures": [
-        "Lord Durham / John Lambton (Governor General and High Commissioner)",
-        "Charles Buller (Durham's secretary and co-author)",
-        "Louis-Hippolyte LaFontaine (French Canadian reform leader)"
-      ],
-      "sources": [
-        {
-          "name": "Lord Durham, Report on the Affairs of British North America (1839) \u2014 presented to Parliament February 1839",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Janet Ajzenstat, The Political Thought of Lord Durham (1988)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The report is a published primary document. Its recommendations and reception are extensively documented.",
-      "cross_references": [
-        "1837-canadian_rebellions",
-        "1840-act_of_union_canada"
-      ]
-    },
-    {
-      "id": "1839-019",
-      "title": "Aden seized by the British East India Company",
-      "region": "Arabian Peninsula (present-day Yemen)",
-      "coordinates_approx": "12.8, 45.0",
-      "category": "military",
-      "description": "On 19 January 1839, British East India Company forces under Captain Stafford Bettesworth Haines capture the port of Aden from the Sultan of Lahej after a brief bombardment. The seizure secures a strategic coaling station on the route to India, which becomes increasingly important with the growth of steam navigation. Aden becomes one of the British Empire's most significant strategic outposts, controlling the entrance to the Red Sea and the approach to the Suez route. It remains under British control until 1967. The capture is part of Britain's broader strategy of securing key maritime chokepoints across the Indian Ocean world.",
-      "key_figures": [
-        "Captain Stafford Bettesworth Haines (British Political Agent)",
-        "Sultan Muhsin ibn Fadl (Sultan of Lahej)"
-      ],
-      "sources": [
-        {
-          "name": "East India Company records, Bombay Presidency, 1839",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "R.J. Gavin, Aden Under British Rule 1839\u20131967 (1975)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Precisely dated in East India Company military and political records.",
-      "cross_references": [
-        "1967-aden_independence"
-      ]
-    },
-    {
-      "id": "1839-020",
-      "title": "Fox Talbot presents the calotype photographic process",
-      "region": "United Kingdom",
-      "coordinates_approx": "51.5, -0.1",
-      "category": "technological",
-      "description": "William Henry Fox Talbot, alarmed by the announcement of Daguerre's process in January 1839, rushes to publicise his own independent photographic method. On 31 January 1839, he presents his 'photogenic drawings' to the Royal Society in London, and subsequently develops the calotype process (patented 1841), which unlike the daguerreotype produces a paper negative from which multiple positive prints can be made. Though commercially less successful than the daguerreotype in the short term, Talbot's negative-positive process establishes the fundamental principle underlying all film photography until the digital era. The simultaneous emergence of photography in France and England underscores how the technology was enabled by converging developments in optics and chemistry.",
-      "key_figures": [
-        "William Henry Fox Talbot (inventor)",
-        "Michael Faraday (presented Talbot's work at the Royal Institution)",
-        "Sir John Herschel (coined the term 'photography', adviser to Talbot)"
-      ],
-      "sources": [
-        {
-          "name": "Proceedings of the Royal Society, 31 January 1839; Talbot's paper 'Some Account of the Art of Photogenic Drawing'",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Larry Schaaf, Out of the Shadows: Herschel, Talbot, and the Invention of Photography (1992)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Precisely dated from Royal Society proceedings. No uncertainty.",
-      "cross_references": [
-        "1839-004"
-      ]
-    },
-    {
-      "id": "1839-021",
-      "title": "Defection of the Ottoman fleet to Muhammad Ali of Egypt",
-      "region": "Ottoman Empire / Egypt",
-      "coordinates_approx": "36.8, 36.6",
-      "category": "military",
-      "description": "On 14 July 1839, just two weeks after the death of Sultan Mahmud II and three weeks after the defeat at Nezib, the Ottoman fleet under Kapudan Pasha Ahmed Fevzi Pasha sails to Alexandria and surrenders to Muhammad Ali of Egypt. The defection of the entire Ottoman navy \u2014 one of three simultaneous catastrophes (alongside military defeat and the sultan's death) \u2014 brings the Ottoman Empire to the brink of collapse and compels European great power intervention to preserve the empire's territorial integrity against Egyptian expansion. The crisis demonstrates that the Ottoman Empire's survival has become a matter of European strategic balance rather than its own military capacity.",
-      "key_figures": [
-        "Ahmed Fevzi Pasha (Kapudan Pasha / Grand Admiral)",
-        "Muhammad Ali of Egypt (autonomous ruler)",
-        "Abd\u00fclmecid I (new Ottoman Sultan)"
-      ],
-      "sources": [
-        {
-          "name": "British diplomatic dispatches from Constantinople and Alexandria, July 1839",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "M. \u015e\u00fckr\u00fc Hanio\u011flu, A Brief History of the Late Ottoman Empire (2008)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well documented in multiple diplomatic archives. No dating uncertainty.",
-      "cross_references": [
-        "1839-006",
-        "1839-017",
-        "1840-convention_of_london"
+        "1833-001 (Slavery Abolition Act passed)",
+        "1807-001 (Slave Trade Act passed)"
       ]
     }
   ],
-  "disconfirming_evidence": "Several points of historiographic dispute exist for events listed above. (1) The exact circumstances of Goodyear's vulcanisation discovery (1839-011) are contested: the story of accidentally dropping rubber-sulphur mixture on a hot stove relies largely on Goodyear's own retrospective account, and Thomas Hancock in England claimed independent discovery. Modern scholarship suggests the 'eureka moment' narrative may be simplified or embellished. (2) The characterisation of Lin Zexu's opium destruction (1839-001) as the sole proximate cause of the First Opium War has been challenged by historians who note that British mercantile interests and imperial strategic ambitions in China were driving conflict regardless of Lin's specific actions \u2014 the opium crisis provided a pretext rather than a cause. (3) The Durham Report (1839-018) is sometimes credited with inventing responsible government, but historians like Janet Ajzenstat have argued that Durham's actual recommendations were more ambiguous and that responsible government emerged from Canadian political practice rather than imperial directive. (4) The G\u00fclhane Edict (1839-005) is often presented as a genuine reform commitment, but revisionist scholarship emphasises it was largely a diplomatic manoeuvre aimed at securing European support during the existential crisis with Egypt, and its egalitarian promises were implemented inconsistently at best. (5) Casualty figures for the Newport Rising (1839-010) vary from 22 to over 30 depending on the source, and some historians argue the event was more of a protest march that turned violent than a planned insurrection.",
-  "historiographic_note": "1839 is an extremely well-documented year across multiple civilisations and regions. The historical record is rich due to widespread literacy, established newspaper industries, diplomatic correspondence networks, and institutional record-keeping in Europe, the Americas, the Ottoman Empire, Qing China, and British India. Significant biases shape the surviving record: British imperial archives provide detailed but self-interested accounts of events in China, Afghanistan, Aden, and South Africa. Qing Chinese perspectives on the opium crisis have become more accessible through modern Chinese historiography but were long filtered through nationalist narratives. Ottoman sources are rich but often filtered through court perspectives. African, Afghan, and Zulu perspectives on events involving European colonial powers are primarily available through later oral tradition and reconstructive scholarship rather than contemporary written records. The voices of ordinary participants \u2014 Welsh miners, Irish storm victims, enslaved Africans on the Amistad \u2014 are largely mediated through elite written sources.",
+  "disconfirming_evidence": "The characterization of Ranjit Singh's death as marking an immediate and inevitable decline of Sikh power is somewhat overstated. While succession disputes did weaken the empire, some Sikh military forces remained formidable, and the empire did not collapse immediately. The First Anglo-Sikh War did not occur until 1845, six years after Ranjit Singh's death, suggesting that the decline was gradual rather than precipitous. Additionally, the Amistad case is often presented as a clear victory for abolitionists, but the Supreme Court's 1841 ruling was narrowly focused on the legality of the captives' enslavement and did not address the broader question of slavery's constitutionality. The case's significance for the abolitionist movement is real but somewhat overstated in popular accounts.",
+  "historiographic_note": "Documentation for 1839 is rich in Western sources, particularly British colonial records, naval dispatches, and parliamentary proceedings. Chinese sources exist but are often filtered through later nationalist historiography. The historical record is heavily weighted toward political and military events; economic and social history of non-elite populations is underrepresented. Indigenous African and M\u0101ori perspectives are largely absent from surviving written records, with oral traditions recorded much later and often filtered through European intermediaries. The record reflects Victorian-era biases toward imperial expansion and technological progress. Significant gaps exist in documentation of internal political events in non-Western societies, particularly in Sub-Saharan Africa, Central Asia, and the Pacific Islands.",
   "graph_edges": [
     {
       "from": "1839-001",
-      "to": "1842-treaty_of_nanking",
+      "to": "1841-007",
       "relation": "led_to",
-      "note": "The opium destruction precipitated the First Opium War, concluded by the Treaty of Nanking"
+      "note": "Ranjit Singh's death leads to succession crisis"
+    },
+    {
+      "from": "1839-002",
+      "to": "1840-002",
+      "relation": "led_to",
+      "note": "Lin Zexu's anti-opium campaign leads to First Opium War"
     },
     {
       "from": "1839-003",
-      "to": "1914-wwi_outbreak",
+      "to": "1841-005",
       "relation": "led_to",
-      "note": "Article VII guaranteeing Belgian neutrality provided the legal pretext for British entry into World War I"
+      "note": "Amistad mutiny leads to Supreme Court case"
     },
     {
       "from": "1839-004",
-      "to": "1839-020",
-      "relation": "contemporary_with",
-      "note": "Daguerre and Talbot independently developed photography; Daguerre's announcement spurred Talbot to publicise his own work"
-    },
-    {
-      "from": "1839-005",
-      "to": "1839-006",
-      "relation": "caused_by",
-      "note": "The Tanzimat reforms were directly prompted by the Ottoman military crisis culminating at Nezib"
-    },
-    {
-      "from": "1839-006",
-      "to": "1839-017",
-      "relation": "contemporary_with",
-      "note": "Sultan Mahmud II died days after the defeat at Nezib, compounding the Ottoman crisis"
-    },
-    {
-      "from": "1839-006",
-      "to": "1839-021",
+      "to": "1888-001",
       "relation": "led_to",
-      "note": "The defeat at Nezib and sultan's death demoralised the Ottoman navy, leading to its defection to Egypt"
-    },
-    {
-      "from": "1839-007",
-      "to": "1845-first_anglo_sikh_war",
-      "relation": "led_to",
-      "note": "Ranjit Singh's death triggered succession instability leading to Anglo-Sikh Wars"
-    },
-    {
-      "from": "1839-008",
-      "to": "1842-retreat_from_kabul",
-      "relation": "led_to",
-      "note": "The British occupation of Kabul in 1839 ended in the catastrophic retreat of January 1842"
-    },
-    {
-      "from": "1839-009",
-      "to": "1841-amistad_supreme_court",
-      "relation": "led_to",
-      "note": "The 1839 revolt led to the landmark 1841 Supreme Court case argued by John Quincy Adams"
-    },
-    {
-      "from": "1839-010",
-      "to": "1848-revolutions",
-      "relation": "part_of",
-      "note": "The Newport Rising was part of the broader Chartist movement whose democratic demands anticipated 1848"
-    },
-    {
-      "from": "1839-013",
-      "to": "1838-battle_of_blood_river",
-      "relation": "caused_by",
-      "note": "The Republic of Natalia was established following the Voortrekker victory at Blood River"
-    },
-    {
-      "from": "1839-018",
-      "to": "1840-act_of_union_canada",
-      "relation": "led_to",
-      "note": "Durham's recommendations were implemented through the Act of Union 1840"
-    },
-    {
-      "from": "1839-019",
-      "to": "1869-suez_canal",
-      "relation": "led_to",
-      "note": "British seizure of Aden was part of securing the route to India that the Suez Canal would later transform"
+      "note": "Daguerreotype invention leads to later photographic innovations"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T03:49:00.162195",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

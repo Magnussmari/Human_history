@@ -1,830 +1,213 @@
 {
   "year": 1708,
   "year_label": "1708 CE",
-  "era_context": "1708 falls within the late phase of the War of the Spanish Succession (1701\u20131714), a pan-European conflict reshaping the balance of power among the Bourbon, Habsburg, and Maritime powers. Simultaneously, the Great Northern War (1700\u20131721) was transforming the Baltic into a Swedish-Russian contest that would ultimately elevate Russia to great-power status. The Mughal Empire was in accelerating decline following Aurangzeb's death in 1707, while the Qing dynasty under the Kangxi Emperor was consolidating control over a vast multi-ethnic empire. The early eighteenth century was also a period of expanding Atlantic commerce, the entrenchment of the plantation-slavery complex, and early Enlightenment intellectual ferment in Europe.",
+  "era_context": "The War of Spanish Succession (1701\u20131714) was in its middle phase, with major powers competing for control of Spanish territories. The Great Northern War between Russia and Sweden was ongoing, with Sweden still a major power but facing increasing pressure. The Qing Dynasty under Kangxi was at the height of its power and prosperity. Colonial competition in North America was intensifying.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (interior kingdoms such as Oyo, Dahomey, and the Great Lakes states are underrepresented in European-language training data for this year)",
-    "Southeast Asia (VOC records and local chronicles exist but are underrepresented here)",
-    "Central Asia and the Kazakh Steppe (Dzungar-Qing frontier dynamics beyond major battles are poorly covered)",
-    "Mesoamerica and Andean South America (post-conquest indigenous political activity is sparse in training data)",
-    "Oceania (no significant documented contact events for 1708 in training data)"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1708-001",
-      "title": "Battle of Oudenarde: Allied Victory over France",
-      "region": "Spanish Netherlands (modern Belgium)",
-      "coordinates_approx": "50.85\u00b0N, 3.61\u00b0E",
+      "title": "Battle of Oudenarde: War of Spanish Succession",
+      "region": "Spanish Netherlands, Flanders",
+      "coordinates_approx": "50.8, 3.6",
       "category": "military",
-      "description": "On 11 July 1708 (Gregorian), the Duke of Marlborough and Prince Eugene of Savoy decisively defeated a French army under the Duke of Vend\u00f4me and the Duke of Burgundy near Oudenarde on the Scheldt River. The French army was caught in a disorganised advance and suffered approximately 6,000 killed or wounded and 9,000 captured, against Allied losses of roughly 3,000. The victory opened the way for the Allied siege of Lille and represented one of Marlborough's most tactically brilliant engagements. It effectively ended French offensive capacity in the Low Countries for the remainder of the war and deepened the political crisis at Versailles.",
+      "description": "On 11 July 1708, the Battle of Oudenarde was fought between the allied forces (British, Dutch, and Austrian) under the Duke of Marlborough and the French army under the Duke of Burgundy and Marshal Vend\u00f4me. The allied forces achieved a decisive victory, inflicting heavy casualties on the French and forcing them to retreat. The victory demonstrated Marlborough's military genius and the effectiveness of the allied coalition. The battle was a major turning point in the War of Spanish Succession, shifting momentum toward the allies and contributing to the eventual allied victory.",
       "key_figures": [
-        "John Churchill, 1st Duke of Marlborough (Allied commander)",
-        "Prince Eugene of Savoy (Allied co-commander)",
-        "Louis Joseph de Bourbon, Duke of Vend\u00f4me (French commander)",
-        "Louis, Duke of Burgundy (nominal French commander, grandson of Louis XIV)"
+        "John Churchill, Duke of Marlborough (British commander)",
+        "Louis, Duke of Burgundy (French commander)",
+        "Claude-Louis-Robert de Villars (French marshal)",
+        "Prince Eugene of Savoy (Austrian commander)"
       ],
       "sources": [
         {
-          "name": "Dispatches of the Duke of Marlborough, ed. Sir George Murray (1845)",
+          "name": "Military dispatches and campaign records from British, Dutch, and French archives",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Chandler, David. Marlborough as Military Commander (1973)",
+          "name": "Contemporary accounts by military observers and participants",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the War of Spanish Succession",
           "type": "historiographic_consensus",
           "contemporary": false
-        },
-        {
-          "name": "Gazette de France and London Gazette, July 1708 issues",
-          "type": "primary_text",
-          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Date, location, and outcome are attested by multiple contemporary dispatches, official gazettes, and participant memoirs from both sides.",
+      "certainty_note": "The Battle of Oudenarde is extensively documented in military records and contemporary accounts with precise dating.",
       "cross_references": [
-        "1706-001 (Battle of Ramillies)",
-        "1709-001 (Battle of Malplaquet)"
+        "Part of the War of Spanish Succession (1701\u20131714)",
+        "Leads to 1709-002 (Battle of Malplaquet)",
+        "Leads to 1713-001 (Treaty of Utrecht, end of war)"
       ]
     },
     {
       "id": "1708-002",
-      "title": "Siege and Fall of Lille to Allied Forces",
-      "region": "Spanish Netherlands / France (modern northern France)",
-      "coordinates_approx": "50.63\u00b0N, 3.06\u00b0E",
+      "title": "Charles XII's Invasion of Russia: Great Northern War",
+      "region": "Russian Empire, Ukraine, Poland",
+      "coordinates_approx": "50.0, 35.0",
       "category": "military",
-      "description": "Following Oudenarde, Marlborough and Eugene besieged Lille \u2014 then the largest and most heavily fortified city in France's northern frontier \u2014 beginning in August 1708. The citadel fell on 9 December 1708 after a gruelling siege of over three months, with Marshal Boufflers conducting a celebrated defence before surrendering on honourable terms. The fall of Lille was a profound psychological blow to Louis XIV and demonstrated the vulnerability of France's northern defences. It was the most significant territorial gain of the war for the Grand Alliance and intensified French peace overtures.",
+      "description": "In 1708, Charles XII of Sweden continued his invasion of Russia, advancing southward from Poland toward Moscow. The campaign was intended to strike at the heart of Peter I's power and force Russia to negotiate. However, the campaign faced severe logistical challenges, harsh weather, and effective Russian resistance. The Swedish army was weakened by supply shortages and disease. By the end of 1708, Charles XII had turned southward toward Ukraine, seeking supplies and support from the Cossacks. The failed invasion marked the beginning of the end for Swedish dominance and set the stage for the decisive Battle of Poltava in 1709.",
       "key_figures": [
-        "Louis Fran\u00e7ois de Boufflers, Marshal of France (defender)",
-        "John Churchill, 1st Duke of Marlborough (besieging commander)",
-        "Prince Eugene of Savoy (besieging co-commander)"
+        "Charles XII (King of Sweden)",
+        "Peter I (Tsar of Russia)",
+        "Ivan Mazepa (Cossack hetman, initially allied with Charles)"
       ],
       "sources": [
         {
-          "name": "Dispatches of the Duke of Marlborough, ed. Sir George Murray (1845)",
+          "name": "Russian military records and Peter I's correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Vault, Fran\u00e7ois-Eug\u00e8ne de. M\u00e9moires militaires relatifs \u00e0 la succession d'Espagne (1836)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Swedish military accounts and chronicles",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Lynn, John A. The Wars of Louis XIV (1999)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Cossack records and accounts",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in Allied and French military records, contemporary correspondence, and subsequent military histories.",
+      "certainty_note": "Charles XII's invasion of Russia in 1708 is well-documented in Russian, Swedish, and Cossack sources.",
       "cross_references": [
-        "1708-001",
-        "1709-002 (Peace negotiations at The Hague)"
+        "Part of the Great Northern War (1700\u20131721)",
+        "Leads to 1709-001 (Battle of Poltava)",
+        "Leads to 1721-001 (Treaty of Nystad, end of Great Northern War)"
       ]
     },
     {
       "id": "1708-003",
-      "title": "Jacobite Invasion Attempt of Scotland Fails",
-      "region": "British Isles (Scotland / North Sea)",
-      "coordinates_approx": "56.0\u00b0N, 3.0\u00b0W",
-      "category": "military",
-      "description": "In March 1708, a French-backed fleet carrying James Francis Edward Stuart (the 'Old Pretender') and approximately 6,000 troops attempted to land in the Firth of Forth to trigger a Jacobite rising in Scotland. The expedition was intercepted and shadowed by a Royal Navy squadron under Admiral George Byng; James was prevented from landing, and the fleet was forced to return to Dunkirk after a storm scattered it. The failure eliminated any serious prospect of a Stuart restoration by French arms and reinforced the security of the 1707 Acts of Union. It also demonstrated the strategic importance of English naval supremacy in home waters.",
+      "title": "Kangxi Emperor's Consolidation of Qing Control",
+      "region": "Qing China",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "In 1708, the Kangxi Emperor continued his policies of consolidating Qing control and promoting cultural and economic development. The year falls within the period of Kangxi's greatest stability and influence (r. 1661\u20131722). The Qing Dynasty was experiencing economic prosperity, and Kangxi's reign was marked by effective administration, military strength, and the promotion of Confucian scholarship. The year 1708 exemplifies the height of Kangxi's power and the Qing Dynasty's dominance in East Asia.",
       "key_figures": [
-        "James Francis Edward Stuart ('The Old Pretender', claimant)",
-        "Claude de Forbin, Comte de Forbin (French fleet commander)",
-        "Admiral George Byng (Royal Navy commander)"
+        "Kangxi Emperor (Qing ruler, r. 1661\u20131722)",
+        "Imperial officials and scholars"
       ],
       "sources": [
         {
-          "name": "Forbin, Claude de. M\u00e9moires du Comte de Forbin (1730)",
-          "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "Lenman, Bruce. The Jacobite Risings in Britain 1689\u20131746 (1980)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Calendar of State Papers, Domestic, Anne, 1708 (Public Record Office)",
+          "name": "Kangxi's imperial edicts and memorials",
           "type": "primary_text",
           "contemporary": true
+        },
+        {
+          "name": "Official Qing court records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on the Kangxi era",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Well-documented in British Admiralty records, French naval memoirs, and contemporary political correspondence.",
+      "certainty_note": "The general state of Qing governance in 1708 is well-documented in imperial records.",
       "cross_references": [
-        "1707-001 (Acts of Union)",
-        "1715-001 (Jacobite Rising of 1715)"
+        "Part of Kangxi's reign (1661\u20131722)",
+        "Reflects the height of Qing prosperity and stability"
       ]
     },
     {
       "id": "1708-004",
-      "title": "Banda Singh Bahadur Establishes Sikh Sovereignty at Lohgarh",
-      "region": "Punjab, South Asia (modern India/Pakistan)",
-      "coordinates_approx": "30.5\u00b0N, 77.0\u00b0E",
+      "title": "Mughal Empire Under Bahadur Shah I",
+      "region": "Mughal Empire, India",
+      "coordinates_approx": "28.6, 77.2",
       "category": "political",
-      "description": "Following the death of Guru Gobind Singh in October 1708 (see 1708-005), Banda Singh Bahadur \u2014 a military commander appointed by the Guru \u2014 led Sikh forces in a series of campaigns against Mughal authority in the Punjab. In late 1708 and into 1709, he captured Samana and established a fortified capital at Lohgarh (Mukhlispur), issuing coins in the names of Guru Nanak and Guru Gobind Singh \u2014 the first exercise of Sikh sovereign coinage. This marked the first territorial Sikh polity and a direct challenge to Mughal imperial authority in the region. The campaigns were a direct consequence of Mughal persecution of the Sikh community and the martyrdom of Guru Gobind Singh's sons.",
+      "description": "In 1708, the Mughal Empire was in the early stages of decline following the death of Aurangzeb in 1707. Bahadur Shah I (r. 1707\u20131712) was attempting to consolidate his authority and manage the succession disputes and regional rebellions that had emerged. The year 1708 represents a transitional period in which the empire was still a major power but facing increasing challenges to central authority. Regional governors were asserting greater independence, and the empire's military and economic resources were being strained.",
       "key_figures": [
-        "Banda Singh Bahadur (Sikh military commander)",
-        "Guru Gobind Singh (authorising Guru, recently deceased)"
+        "Bahadur Shah I (Mughal Emperor, r. 1707\u20131712)",
+        "Regional governors and nobles",
+        "Maratha leaders (expanding power)"
       ],
       "sources": [
         {
-          "name": "Ganda Singh. Life of Banda Singh Bahadur (1935)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Mughal court records and administrative documents",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Irvine, William. Later Mughals (1922), drawing on Akhbarat (Mughal news-letters)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Contemporary chronicles by court historians",
+          "type": "chronicle",
+          "contemporary": true
         },
         {
-          "name": "Numismatic evidence: Sikh coins struck at Lohgarh, attested in museum collections",
-          "type": "numismatic",
+          "name": "Regional records from Maratha and other powers",
+          "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The broad sequence of events is well-attested; precise dating of individual actions within 1708 vs. early 1709 is uncertain due to reliance on later Sikh chronicles and Mughal news-letters rather than day-precise records.",
+      "certainty_note": "The general state of the Mughal Empire in 1708 is well-documented, though specific events may be dated approximately.",
       "cross_references": [
-        "1708-005",
-        "1716-001 (Execution of Banda Singh Bahadur)"
+        "Follows from 1707-001 (Death of Aurangzeb)",
+        "Part of broader Mughal decline (1707\u20131857)"
       ]
     },
     {
       "id": "1708-005",
-      "title": "Death of Guru Gobind Singh, Tenth Sikh Guru",
-      "region": "Deccan, South Asia (Nanded, modern Maharashtra, India)",
-      "coordinates_approx": "19.15\u00b0N, 77.32\u00b0E",
-      "category": "religious",
-      "description": "Guru Gobind Singh, the tenth and final human Guru of Sikhism, died on 7 October 1708 (Gregorian; 6 Kattak, Nanakshahi calendar) at Nanded in the Deccan, following wounds inflicted by an assassin \u2014 traditionally identified as a Pathan agent \u2014 days earlier. Before his death, he declared the Guru Granth Sahib (the sacred scripture) to be the eternal, living Guru of the Sikhs, ending the line of personal Gurus. This theological decision fundamentally shaped Sikh religious identity and governance for all subsequent centuries. He also commissioned Banda Singh Bahadur to lead military operations in the Punjab against Mughal oppression.",
+      "title": "Colonial Expansion in North America",
+      "region": "Colonial America, various regions",
+      "coordinates_approx": "40.0, -75.0",
+      "category": "economic",
+      "description": "In 1708, English colonial settlements in North America continued to expand, with increasing settlement in the Carolinas, Virginia, and other regions. The year 1708 saw continued growth of the colonial population through immigration and natural increase, as well as the expansion of plantation agriculture and the slave trade. The colonial economy was becoming increasingly integrated into the Atlantic trading system, with tobacco, rice, and other commodities being exported to Europe. The year 1708 exemplifies the broader pattern of colonial expansion and economic development in early 18th-century North America.",
       "key_figures": [
-        "Guru Gobind Singh (Tenth Guru of Sikhism)",
-        "Banda Singh Bahadur (appointed military commander)"
+        "Colonial governors and officials",
+        "English settlers and planters",
+        "Enslaved Africans and indigenous peoples"
       ],
       "sources": [
         {
-          "name": "Sainapati. Sri Gur Sobha (composed c. 1711, near-contemporary Sikh chronicle)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Kesar Singh Chhibbar. Bansavalinama Dasan Patshahian Ka (c. 1769)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Fenech, Louis E. and McLeod, W.H. Historical Dictionary of Sikhism (2014)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The death and its theological consequences are attested in near-contemporary Sikh chronicles and corroborated by Mughal administrative records. The precise date is accepted by Sikh tradition and modern scholarship.",
-      "cross_references": [
-        "1708-004",
-        "1699-001 (Founding of the Khalsa)"
-      ]
-    },
-    {
-      "id": "1708-006",
-      "title": "Battle of Holowczyn: Charles XII Defeats Russian Forces",
-      "region": "Grand Duchy of Lithuania (modern Belarus)",
-      "coordinates_approx": "54.0\u00b0N, 30.5\u00b0E",
-      "category": "military",
-      "description": "On 4 July 1708 (Gregorian), Swedish King Charles XII achieved a significant tactical victory over a Russian force under Field Marshal Sheremetev at Holowczyn (Golovchin) on the Vabich River, forcing a crossing against entrenched Russian positions. The battle was Charles XII's last major conventional victory and demonstrated the continued offensive capability of the Swedish army. However, the strategic situation was deteriorating: the Russian scorched-earth strategy was denying the Swedes supplies, and Charles's subsequent decision to turn south into Ukraine rather than advance on Moscow would prove catastrophic. Holowczyn is thus a pivotal moment \u2014 a tactical success that preceded strategic overextension.",
-      "key_figures": [
-        "Charles XII of Sweden (Swedish commander)",
-        "Field Marshal Boris Sheremetev (Russian commander)",
-        "General Adam Ludwig Lewenhaupt (Swedish corps commander, not present at this battle)"
-      ],
-      "sources": [
-        {
-          "name": "Voltaire. Histoire de Charles XII (1731) \u2014 based on interviews with participants",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Englund, Peter. The Battle That Shook Europe: Poltava and the Birth of the Russian Empire (1992)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Swedish Krigsarkivet (War Archives) campaign records, cited in modern scholarship",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Date and outcome confirmed by Swedish military records and Russian accounts. Part of the well-documented Great Northern War campaign sequence.",
-      "cross_references": [
-        "1709-003 (Battle of Poltava)",
-        "1700-001 (Start of Great Northern War)"
-      ]
-    },
-    {
-      "id": "1708-007",
-      "title": "Battle of Lesnaya: Russian Victory over Lewenhaupt's Corps",
-      "region": "Grand Duchy of Lithuania (modern Belarus)",
-      "coordinates_approx": "53.87\u00b0N, 30.97\u00b0E",
-      "category": "military",
-      "description": "On 9 October 1708 (Gregorian), Peter I of Russia personally led a 'flying corps' (korvolant) that intercepted and defeated a Swedish relief column of approximately 12,500 men under General Adam Ludwig Lewenhaupt at Lesnaya. Lewenhaupt had been marching from Courland to reinforce Charles XII with supplies and reinforcements; he lost roughly half his force and, critically, his entire supply train. Peter later called Lesnaya 'the mother of the Battle of Poltava,' recognising that it deprived Charles XII of the logistical support that might have sustained his Ukrainian campaign. The battle demonstrated the growing tactical competence of the reformed Russian army.",
-      "key_figures": [
-        "Peter I of Russia (Russian commander)",
-        "Adam Ludwig Lewenhaupt (Swedish commander)",
-        "Alexander Menshikov (Russian cavalry commander)"
-      ],
-      "sources": [
-        {
-          "name": "Peter I's own account, cited in Soloviev, Sergei. History of Russia (1851\u20131879)",
+          "name": "Colonial records and correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Massie, Robert K. Peter the Great: His Life and World (1980)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Englund, Peter. The Battle That Shook Europe (1992)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensively documented in Russian and Swedish military records and contemporary correspondence. Peter's own characterisation of the battle is a primary source.",
-      "cross_references": [
-        "1708-006",
-        "1709-003 (Battle of Poltava)"
-      ]
-    },
-    {
-      "id": "1708-008",
-      "title": "Ivan Mazepa Defects from Russia to Charles XII",
-      "region": "Hetmanate of Ukraine / Swedish-Russian theatre",
-      "coordinates_approx": "50.0\u00b0N, 33.0\u00b0E",
-      "category": "political",
-      "description": "In late October 1708, Ivan Mazepa, Hetman of the Zaporozhian Host and a long-standing ally of Peter I, defected to Charles XII of Sweden with a force of several thousand Cossacks. Mazepa sought Swedish support for Ukrainian autonomy from Russian domination. The defection was a significant political shock to Peter, who responded by destroying Mazepa's capital at Baturyn and anathematising Mazepa in the Russian Orthodox Church. The defection ultimately failed to deliver the mass Cossack support Charles XII had hoped for, and Mazepa died in exile after Poltava. The episode became a defining moment in Ukrainian historical memory and identity.",
-      "key_figures": [
-        "Ivan Mazepa (Hetman of the Zaporozhian Host)",
-        "Charles XII of Sweden",
-        "Peter I of Russia",
-        "Alexander Menshikov (Russian commander who destroyed Baturyn)"
-      ],
-      "sources": [
-        {
-          "name": "Orlik, Pylyp. Diariusz podr\u00f3\u017cny (diary of Mazepa's chancellor, near-contemporary)",
+          "name": "Trade records and shipping manifests",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Subtelny, Orest. The Mazepists: Ukrainian Separatism in the Early Eighteenth Century (1981)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Voltaire. Histoire de Charles XII (1731)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented in Russian, Swedish, and Ukrainian sources. The date of defection (late October 1708) is established by multiple contemporary accounts.",
-      "cross_references": [
-        "1708-006",
-        "1708-007",
-        "1709-003"
-      ]
-    },
-    {
-      "id": "1708-009",
-      "title": "Destruction of Baturyn by Russian Forces",
-      "region": "Hetmanate of Ukraine (modern Ukraine)",
-      "coordinates_approx": "51.34\u00b0N, 32.87\u00b0E",
-      "category": "military",
-      "description": "Following Mazepa's defection, Peter I ordered Alexander Menshikov to capture and destroy Mazepa's fortified capital at Baturyn in November 1708. Menshikov stormed the city, massacred its garrison and a significant portion of the civilian population, and razed the fortifications. Contemporary estimates of the dead range widely; modern Ukrainian historiography emphasises the massacre as a deliberate act of terror to deter further Cossack defections. The destruction of Baturyn eliminated a potential Swedish supply base and sent a brutal signal to the Hetmanate population. It remains a contested and politically charged event in Russian-Ukrainian historical memory.",
-      "key_figures": [
-        "Alexander Menshikov (Russian commander)",
-        "Peter I of Russia (ordering authority)",
-        "Dmytro Chechel (Baturyn commander, executed)"
-      ],
-      "sources": [
-        {
-          "name": "Menshikov's dispatches to Peter I, cited in Russian State Archive of Ancient Acts (RGADA)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Kovalenko, Serhii et al. Archaeological excavations at Baturyn (2001\u2013ongoing)",
-          "type": "archaeological",
-          "contemporary": false
-        },
-        {
-          "name": "Subtelny, Orest. The Mazepists (1981)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The destruction is confirmed by Russian military dispatches and corroborated by archaeological evidence of burning and mass burials. Casualty figures remain disputed.",
-      "cross_references": [
-        "1708-008",
-        "1709-003"
-      ]
-    },
-    {
-      "id": "1708-010",
-      "title": "Kangxi Emperor's Campaign Against the Dzungars: Battle of Jao Modo Aftermath and Consolidation",
-      "region": "Outer Mongolia / Qing Empire",
-      "coordinates_approx": "47.0\u00b0N, 107.0\u00b0E",
-      "category": "military",
-      "description": "By 1708, the Kangxi Emperor was consolidating Qing control over Outer Mongolia following the decisive defeat of the Dzungar Khanate under Galdan at the Battle of Jao Modo (1696). The years 1707\u20131709 saw continued Qing military and administrative consolidation in Mongolia, including the establishment of garrison systems and the management of Khalkha Mongol nobles as Qing bannermen. The Dzungar threat had not been eliminated \u2014 Galdan's successor Tsewang Rabtan was rebuilding Dzungar power \u2014 and 1708 saw diplomatic and intelligence activity on the Qing-Dzungar frontier. This period represents the high-water mark of Kangxi's personal military engagement and the integration of the Mongolian steppe into the Qing imperial system.",
-      "key_figures": [
-        "Kangxi Emperor (Qing ruler)",
-        "Tsewang Rabtan (Dzungar Khan, successor to Galdan)"
-      ],
-      "sources": [
-        {
-          "name": "Qing Shilu (Veritable Records of the Qing Dynasty), Kangxi reign annals",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Perdue, Peter C. China Marches West: The Qing Conquest of Central Eurasia (2005)",
+          "name": "Historiographic consensus on colonial expansion",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The broader consolidation process is well-documented in the Qing Shilu; specific events within 1708 as distinct from 1707 or 1709 are less precisely datable from available sources.",
+      "certainty_note": "The general pattern of colonial expansion in 1708 is well-documented, though specific events may be dated approximately.",
       "cross_references": [
-        "1696-001 (Battle of Jao Modo)",
-        "1720-001 (Qing invasion of Tibet)"
-      ]
-    },
-    {
-      "id": "1708-011",
-      "title": "Mughal Succession Crisis Deepens After Aurangzeb's Death",
-      "region": "Mughal Empire, South Asia",
-      "coordinates_approx": "28.6\u00b0N, 77.2\u00b0E",
-      "category": "political",
-      "description": "Aurangzeb died in March 1707, and 1708 saw the continuation of the succession war among his sons. Muazzam (who had taken the throne as Bahadur Shah I after defeating his brothers) was consolidating his position but facing the consequences of Aurangzeb's exhausting Deccan campaigns: a depleted treasury, a fractious nobility, and rising Maratha, Sikh, and Rajput power. In 1708, Bahadur Shah I was engaged in negotiations and campaigns in the Deccan and Punjab, attempting to stabilise an empire that had been structurally weakened by decades of overextension. The year marks an early stage in the long Mughal decline that would accelerate through the eighteenth century.",
-      "key_figures": [
-        "Bahadur Shah I (Mughal Emperor, r. 1707\u20131712)",
-        "Banda Singh Bahadur (Sikh challenger in Punjab)"
-      ],
-      "sources": [
-        {
-          "name": "Khafi Khan. Muntakhab al-Lubab (completed c. 1731, near-contemporary Mughal chronicle)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Irvine, William. Later Mughals (1922)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Richards, John F. The Mughal Empire (1993)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The political situation is well-attested in Mughal chronicles and modern historiography; specific events within 1708 are part of a continuous process rather than discrete dated occurrences.",
-      "cross_references": [
-        "1707-002 (Death of Aurangzeb)",
-        "1708-004",
-        "1708-005"
-      ]
-    },
-    {
-      "id": "1708-012",
-      "title": "Publication of Vitus Bering's Commission and Early Russian Pacific Exploration Planning",
-      "region": "Russia / North Pacific",
-      "coordinates_approx": "null",
-      "category": "exploration",
-      "description": "Note: Vitus Bering's First Kamchatka Expedition was commissioned in 1725; this entry has been suppressed as it would be anachronistic for 1708. Instead: in 1708, Peter I's administrative reforms (the guberniya reform dividing Russia into eight provinces, issued January 1708) reorganised the Russian state in ways that would facilitate later Siberian and Pacific expansion. The guberniya reform is the relevant 1708 event in this domain.",
-      "key_figures": [
-        "Peter I of Russia"
-      ],
-      "sources": [
-        {
-          "name": "Polnoe Sobranie Zakonov Rossiyskoy Imperii (Complete Collection of Laws of the Russian Empire), Vol. IV, No. 2218 (1708 guberniya decree)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Hughes, Lindsey. Russia in the Age of Peter the Great (1998)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The guberniya reform decree of 18 December 1707 / January 1708 is precisely dated in the Russian legal corpus.",
-      "cross_references": [
-        "1711-001 (Senate reform)",
-        "1721-001 (Proclamation of Russian Empire)"
-      ]
-    },
-    {
-      "id": "1708-013",
-      "title": "Peter I's Guberniya (Provincial) Reform",
-      "region": "Russian Empire",
-      "coordinates_approx": "55.75\u00b0N, 37.62\u00b0E",
-      "category": "political",
-      "description": "In December 1707\u2013January 1708, Peter I issued decrees dividing the Russian state into eight large provinces (gubernii), each headed by a governor with broad administrative, judicial, and military powers. This was the most sweeping reorganisation of Russian territorial administration since the Muscovite period and was driven partly by the demands of the Great Northern War \u2014 specifically the need to extract taxes and recruits more efficiently. The reform replaced the older prikaz (chancellery) system with a more rationalised territorial hierarchy modelled partly on Swedish administrative practice. It laid the institutional foundation for the later Table of Ranks and the Senate, and shaped Russian provincial governance until the nineteenth century.",
-      "key_figures": [
-        "Peter I of Russia (initiating authority)"
-      ],
-      "sources": [
-        {
-          "name": "Polnoe Sobranie Zakonov Rossiyskoy Imperii, Vol. IV, No. 2218",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Hughes, Lindsey. Russia in the Age of Peter the Great (1998)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Anisimov, Evgenii. The Reforms of Peter the Great (1993)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Precisely dated in the Russian legal corpus; well-studied in modern historiography.",
-      "cross_references": [
-        "1708-012",
-        "1711-001"
-      ]
-    },
-    {
-      "id": "1708-014",
-      "title": "Camisard War Effectively Ends in the C\u00e9vennes",
-      "region": "Kingdom of France (Languedoc, C\u00e9vennes)",
-      "coordinates_approx": "44.1\u00b0N, 3.8\u00b0E",
-      "category": "religious",
-      "description": "The Camisard uprising \u2014 a Protestant guerrilla insurgency in the C\u00e9vennes mountains of southern France, sparked by the revocation of the Edict of Nantes (1685) \u2014 had been suppressed militarily by 1704\u20131705, but sporadic resistance continued. By 1708, the last significant Camisard leader, Abraham Mazel, was captured and executed, effectively ending organised armed resistance. The conflict had cost tens of thousands of lives and demonstrated both the limits of Louis XIV's religious coercion and the resilience of Huguenot communities. The suppression left deep scars in the C\u00e9vennes and contributed to the broader European debate on religious toleration that would feed into Enlightenment thought.",
-      "key_figures": [
-        "Abraham Mazel (last major Camisard leader, executed 1710 \u2014 note: 1708 marks the effective end of organised resistance, not Mazel's death)",
-        "Marshal Villars (French commander who negotiated earlier settlements)"
-      ],
-      "sources": [
-        {
-          "name": "Court, Antoine. Histoire des troubles des C\u00e9vennes (1760)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Joutard, Philippe. La l\u00e9gende des Camisards (1977)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The 'end' of the Camisard war is a process rather than a single event; 1708 is within the accepted range for the final suppression of organised resistance, though some scholars place the definitive end at 1710 with Mazel's execution.",
-      "cross_references": [
-        "1685-001 (Revocation of Edict of Nantes)",
-        "1702-001 (Start of Camisard uprising)"
-      ]
-    },
-    {
-      "id": "1708-015",
-      "title": "Founding of the Adi Granth as Guru Granth Sahib (Eternal Guru)",
-      "region": "Deccan / Punjab, South Asia",
-      "coordinates_approx": "19.15\u00b0N, 77.32\u00b0E",
-      "category": "religious",
-      "description": "This event is directly linked to 1708-005. Before his death at Nanded, Guru Gobind Singh formally installed the Adi Granth (the compiled Sikh scripture, first compiled by Guru Arjan in 1604 and expanded by Guru Gobind Singh) as the perpetual, living Guru \u2014 renaming it the Guru Granth Sahib. This act terminated the line of personal Gurus and established the scripture as the supreme spiritual authority for all Sikhs. The decision was theologically revolutionary: it vested authority in a text rather than a person, shaping Sikh governance, worship, and identity in ways that persist to the present day. The Guru Granth Sahib remains the central religious authority of Sikhism.",
-      "key_figures": [
-        "Guru Gobind Singh (Tenth Guru, who made the declaration)"
-      ],
-      "sources": [
-        {
-          "name": "Sainapati. Sri Gur Sobha (c. 1711)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "McLeod, W.H. Sikhism (1997)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Accepted by Sikh tradition and modern scholarship as occurring at Nanded in October 1708, concurrent with Guru Gobind Singh's death.",
-      "cross_references": [
-        "1708-005",
-        "1604-001 (Compilation of Adi Granth)"
-      ]
-    },
-    {
-      "id": "1708-016",
-      "title": "Handel Composes and Premieres Operas in Italy",
-      "region": "Italian Peninsula (Venice, Rome, Florence)",
-      "coordinates_approx": "41.9\u00b0N, 12.5\u00b0E",
-      "category": "cultural",
-      "description": "George Frideric Handel, then 23 years old and on his formative Italian journey (1706\u20131710), was active in Rome and Naples in 1708. He composed and premiered the oratorio La Resurrezione (April 1708, Rome, under the patronage of Marquis Ruspoli) and the serenata Aci, Galatea e Polifemo (Naples, July 1708). La Resurrezione was a landmark work \u2014 a large-scale dramatic oratorio performed with full orchestra and professional singers, including the celebrated castrato Pasqualini. These works represent a critical phase in Handel's artistic development, absorbing Italian operatic and oratorio styles that he would later transform in England. The Italian years were foundational for the entire subsequent trajectory of Baroque music in northern Europe.",
-      "key_figures": [
-        "George Frideric Handel (composer)",
-        "Francesco Maria Ruspoli, Marquis of Cerveteri (patron)",
-        "Margherita Durastanti (soprano soloist)"
-      ],
-      "sources": [
-        {
-          "name": "Mainwaring, John. Memoirs of the Life of the Late George Frederic Handel (1760) \u2014 first music biography in English",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Burrows, Donald. Handel (1994)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Ruspoli household accounts (Archivio Segreto Vaticano / Archivio Ruspoli), documenting payments for La Resurrezione",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Premiere dates and patronage are confirmed by the Ruspoli household accounts, which record payments to musicians and copyists.",
-      "cross_references": [
-        "1711-001 (Rinaldo, Handel's London debut)"
-      ]
-    },
-    {
-      "id": "1708-017",
-      "title": "Safavid Persia: Continued Decline and Tribal Pressures",
-      "region": "Safavid Empire (Persia / modern Iran)",
-      "coordinates_approx": "32.0\u00b0N, 53.0\u00b0E",
-      "category": "political",
-      "description": "By 1708, the Safavid Empire under Shah Sultan Husayn (r. 1694\u20131722) was in a state of advanced institutional decline. The court was dominated by religious clerics and eunuchs; the military had atrophied; and Afghan, Baluch, and Kurdish tribal groups were increasingly asserting autonomy on the frontiers. The Ghilzai Afghans under Mir Wais Hotak had revolted in Kandahar in 1709 (just beyond this year), but 1708 represents the eve of that revolt \u2014 a moment when the structural weaknesses of the late Safavid state were fully apparent. The empire would collapse with the Afghan invasion of 1722. This year is part of the terminal phase of one of the great early modern Islamic empires.",
-      "key_figures": [
-        "Shah Sultan Husayn (Safavid Shah)",
-        "Mir Wais Hotak (Ghilzai Afghan leader, revolt imminent)"
-      ],
-      "sources": [
-        {
-          "name": "Krusinski, Judasz Tadeusz. The History of the Late Revolutions of Persia (1728) \u2014 Jesuit observer, near-contemporary",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Floor, Willem. The Afghan Occupation of Safavid Persia 1721\u20131729 (1998)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The structural decline is well-attested; specific events within 1708 are part of a continuous deterioration rather than discrete datable occurrences.",
-      "cross_references": [
-        "1709-004 (Mir Wais revolt in Kandahar)",
-        "1722-001 (Fall of Isfahan)"
-      ]
-    },
-    {
-      "id": "1708-018",
-      "title": "Slave Trade: Peak Activity in the Atlantic System",
-      "region": "Atlantic World (West Africa, Caribbean, Americas)",
-      "coordinates_approx": "null",
-      "category": "demographic",
-      "description": "The year 1708 falls within the most intensive phase of the transatlantic slave trade. The Asiento de Negros \u2014 the contract granting monopoly rights to supply enslaved Africans to Spanish America \u2014 was a central diplomatic prize of the War of the Spanish Succession; England would secure it at Utrecht (1713). Estimates from the Trans-Atlantic Slave Trade Database (Voyages) indicate that approximately 30,000\u201340,000 enslaved Africans were transported across the Atlantic in 1708 alone, primarily by English, Dutch, Portuguese, and French traders. The human cost was catastrophic: mortality rates on the Middle Passage averaged 10\u201320%. This year is representative of a system that would transport over 12 million people across the Atlantic between the sixteenth and nineteenth centuries.",
-      "key_figures": [
-        "No individual figures dominate; the system was operated by chartered companies (Royal African Company, Dutch West India Company) and private traders"
-      ],
-      "sources": [
-        {
-          "name": "Trans-Atlantic Slave Trade Database (Voyages Project, slavevoyages.org), aggregated voyage records",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Eltis, David and Richardson, David. Atlas of the Transatlantic Slave Trade (2010)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Annual figures are estimates derived from shipping records; the Voyages database is the best available aggregation but acknowledges gaps in documentation, particularly for Portuguese and private traders.",
-      "cross_references": [
-        "1713-001 (Treaty of Utrecht / Asiento)",
-        "1807-001 (British abolition of slave trade)"
-      ]
-    },
-    {
-      "id": "1708-019",
-      "title": "Tokugawa Japan: Shogunate Under Tsunayoshi, Final Year",
-      "region": "Japan (Edo)",
-      "coordinates_approx": "35.68\u00b0N, 139.69\u00b0E",
-      "category": "political",
-      "description": "1708 was the penultimate year of the reign of Tokugawa Tsunayoshi (the 'Dog Shogun'), who died in January 1709. His reign (1680\u20131709) was marked by the notorious Edicts on Compassion for Living Things (Shorui Awaremi no Rei), which imposed extreme protections on animals \u2014 particularly dogs \u2014 and resulted in thousands of prosecutions. By 1708, the edicts were deeply unpopular and the shogunate was facing fiscal strain. The year also saw the arrival of the Italian Jesuit Giovanni Battista Sidotti in Japan (he landed secretly on Yakushima in 1708), whose interrogation by the Confucian scholar Arai Hakuseki produced the Seiy\u014d Kibun \u2014 a significant early Japanese account of Western geography and Christianity.",
-      "key_figures": [
-        "Tokugawa Tsunayoshi (Fifth Tokugawa Shogun)",
-        "Giovanni Battista Sidotti (Jesuit missionary, arrived 1708)",
-        "Arai Hakuseki (Confucian scholar, interrogated Sidotti)"
-      ],
-      "sources": [
-        {
-          "name": "Arai Hakuseki. Seiy\u014d Kibun (Records of the Occident, c. 1715) \u2014 based on 1708\u20131709 interrogations",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Totman, Conrad. Early Modern Japan (1993)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Bodart-Bailey, Beatrice. The Dog Shogun: The Personality and Policies of Tokugawa Tsunayoshi (2006)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Sidotti's arrival in 1708 is confirmed by Japanese records and Arai Hakuseki's own account. Shogunal politics of the period are well-documented in Tokugawa administrative records.",
-      "cross_references": [
-        "1709-005 (Death of Tsunayoshi, succession of Ienobu)"
-      ]
-    },
-    {
-      "id": "1708-020",
-      "title": "Founding of Annapolis Royal (Port Royal) as British Colonial Capital of Nova Scotia",
-      "region": "North America (Acadia / Nova Scotia)",
-      "coordinates_approx": "44.74\u00b0N, 65.52\u00b0W",
-      "category": "political",
-      "description": "In October 1710, British forces under Francis Nicholson captured Port Royal from the French, renaming it Annapolis Royal. However, the military and diplomatic groundwork \u2014 including the failed 1707 expedition and the planning for the 1710 assault \u2014 was actively underway in 1708. The 1708 context is the continued Anglo-French contest for Acadia, with the local Acadian French population and Mi'kmaq allies resisting British encroachment. Note: the actual capture falls in 1710; 1708 represents the preparatory phase. This entry is retained to flag the ongoing Acadian conflict as a significant North American theatre of the War of the Spanish Succession.",
-      "key_figures": [
-        "Francis Nicholson (British colonial commander, planning phase)",
-        "Daniel d'Auger de Subercase (French governor of Acadia)"
-      ],
-      "sources": [
-        {
-          "name": "Rawlyk, George A. Nova Scotia's Massachusetts: A Study of Massachusetts-Nova Scotia Relations 1630\u20131784 (1973)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Colonial Office Records, CO 217 (Nova Scotia), Public Record Office, London",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The 1708 context is the preparatory phase of a conflict whose decisive moment (capture of Port Royal) falls in 1710. Included to represent the North American theatre.",
-      "cross_references": [
-        "1710-001 (Capture of Port Royal)",
-        "1713-001 (Treaty of Utrecht, Acadia ceded to Britain)"
-      ]
-    },
-    {
-      "id": "1708-021",
-      "title": "Ottoman Empire: Consolidation Under Ahmed III",
-      "region": "Ottoman Empire",
-      "coordinates_approx": "41.01\u00b0N, 28.97\u00b0E",
-      "category": "political",
-      "description": "Ahmed III (r. 1703\u20131730) was in the early phase of his reign in 1708, following the Edirne Event (1703) that had deposed his predecessor Mustafa II. The Ottoman Empire in 1708 was in a period of relative internal stabilisation after the turbulence of the late seventeenth century, including the failed siege of Vienna (1683) and the Treaty of Karlowitz (1699), which had ceded Hungary to the Habsburgs. Ahmed III's reign would later be characterised as the 'Tulip Era' (Lale Devri) \u2014 a period of cultural flourishing and selective Westernisation \u2014 but in 1708 the court was still consolidating power. The Ottomans were watching the Great Northern War with interest, as Swedish-Russian conflict affected their northern frontier.",
-      "key_figures": [
-        "Ahmed III (Ottoman Sultan)",
-        "\u00c7orlulu Ali Pasha (Grand Vizier, 1706\u20131710)"
-      ],
-      "sources": [
-        {
-          "name": "Naima, Mustafa. Tarih-i Naima (Annals of the Ottoman Empire, completed c. 1704, covers to 1659; later Ottoman chronicles cover 1708)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Finkel, Caroline. Osman's Dream: The History of the Ottoman Empire (2005)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The political situation is well-attested; 1708 is a relatively quiet year in Ottoman history between the Edirne Event and the later Russo-Ottoman War (1710\u20131711).",
-      "cross_references": [
-        "1703-001 (Edirne Event)",
-        "1710-002 (Ottoman declaration of war on Russia)"
-      ]
-    },
-    {
-      "id": "1708-022",
-      "title": "Early Enlightenment: Publication and Intellectual Activity",
-      "region": "Western Europe (Britain, France, Dutch Republic)",
-      "coordinates_approx": "null",
-      "category": "cultural",
-      "description": "1708 saw continued output from the early Enlightenment intellectual network. Anthony Ashley Cooper, 3rd Earl of Shaftesbury, published Letter Concerning Enthusiasm (1708), a foundational text arguing for religious toleration and the role of humour and wit in public discourse \u2014 a direct response to the Camisard prophets then active in London. Bernard Mandeville was developing ideas that would culminate in The Fable of the Bees (1714). The Tatler would begin publication in 1709. These works collectively represent the crystallisation of a public sphere of rational discourse that would define the High Enlightenment. Shaftesbury's Letter is a precisely datable contribution to the year's intellectual output.",
-      "key_figures": [
-        "Anthony Ashley Cooper, 3rd Earl of Shaftesbury (philosopher, author of Letter Concerning Enthusiasm, 1708)",
-        "Bernard Mandeville (Dutch-British satirist, developing Fable of the Bees)"
-      ],
-      "sources": [
-        {
-          "name": "Shaftesbury, Anthony Ashley Cooper. A Letter Concerning Enthusiasm (London, 1708) \u2014 first edition",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Klein, Lawrence E. Shaftesbury and the Culture of Politeness (1994)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Publication date of Shaftesbury's Letter is confirmed by bibliographic records of the first edition.",
-      "cross_references": [
-        "1709-006 (Launch of The Tatler)",
-        "1714-001 (Mandeville's Fable of the Bees)"
+        "Part of broader pattern of English colonial expansion in North America",
+        "Leads to 1709-005 (Yamasee War preparations)"
       ]
     }
   ],
-  "disconfirming_evidence": "1. **Battle of Oudenarde and Marlborough's reputation**: Modern scholarship (notably John Hussey and David Chandler) has complicated the traditional hagiographic treatment of Marlborough. Some historians argue that the Allied failure to exploit Oudenarde more aggressively \u2014 particularly the decision not to immediately invade France \u2014 reflected political constraints and Marlborough's own caution as much as strategic genius. The 'decisive' nature of the victory is thus somewhat overstated in popular historiography. 2. **Mazepa's defection and Ukrainian nationalism**: The interpretation of Mazepa as a proto-Ukrainian nationalist hero (prominent in Ukrainian historiography since the nineteenth century, especially via Byron's poem and later nationalist movements) is contested by historians who emphasise his personal political calculations, his long collaboration with Peter I, and the limited popular support his defection actually generated among Cossacks. Orest Subtelny and others have argued for a more nuanced reading that avoids anachronistic nationalist framing. 3. **Destruction of Baturyn \u2014 casualty figures**: Russian imperial historiography minimised or denied the massacre; Soviet historiography largely suppressed it; post-independence Ukrainian historiography has sometimes inflated casualty figures for political reasons. Archaeological excavations since 2001 (Kovalenko et al.) confirm mass violence but cannot resolve the precise death toll. Figures ranging from 6,000 to 14,000 appear in different sources; none is definitively established. 4. **Guru Gobind Singh's death \u2014 the assassin's identity**: The traditional account names a Pathan (Afghan) assassin acting on Mughal orders. Some modern Sikh historians have questioned the details of this narrative, noting that the earliest sources (Sainapati's Sri Gur Sobha) are not fully explicit on the assassin's identity or motivation. The broad fact of assassination is accepted; the precise circumstances are debated. 5. **Camisard 'end' in 1708**: The dating of the Camisard war's conclusion is genuinely contested. Some historians place the effective end at 1704\u20131705 (Villars's negotiations), others at 1710 (Mazel's execution), and others note that the movement persisted in diaspora form for decades. Assigning 1708 as the end-point is a simplification. 6. **Handel's La Resurrezione premiere**: The Papal prohibition on women performing in Rome meant the soprano roles were sung by a castrato (Pasqualini) in the first performance; a woman (Durastanti) sang in subsequent performances, causing a minor scandal. This detail complicates the narrative of the work as a straightforward artistic triumph and illustrates the constraints of Counter-Reformation Rome on musical performance.",
-  "historiographic_note": "The historical record for 1708 CE is rich by the standards of this dataset, but it is heavily skewed toward Western European military and political history, reflecting the dominance of state-sponsored record-keeping, printed gazettes, and subsequent nationalist historiography in Europe. The War of the Spanish Succession and the Great Northern War are exceptionally well-documented because they involved literate bureaucratic states that preserved military dispatches, diplomatic correspondence, and official chronicles. By contrast: (1) South Asian events (Sikh, Mughal) rely significantly on chronicles compiled decades after the fact and on Mughal administrative records that are incomplete for this period; (2) East Asian events (Qing, Japan) are well-documented in official records but those records are underrepresented in Western-language training data; (3) Sub-Saharan Africa, the Americas (outside colonial contact zones), and Oceania are essentially absent from the record for this year \u2014 not because nothing was happening, but because the surviving documentation is either in local oral traditions not captured here or in colonial records that did not systematically record indigenous political life. The Atlantic slave trade data is a partial exception, reconstructed from shipping records by modern database projects. Court-sponsored chronicles (Qing Shilu, Mughal akhbarat) carry inherent biases toward legitimising the ruling dynasty and may underreport dissent, defeat, or peripheral events. Victor narratives dominate the military history: Allied accounts of Oudenarde and Russian accounts of Lesnaya are more detailed and more accessible than French and Swedish counterparts respectively.",
+  "disconfirming_evidence": "The Battle of Oudenarde is sometimes portrayed as a complete French defeat, but modern scholarship emphasizes that while the battle was a significant allied victory, French forces remained capable of continued resistance and the war continued for several more years. Charles XII's invasion of Russia is sometimes presented as a reckless gamble, but contemporary sources suggest that Charles believed he had a reasonable chance of success, and the failure was due to logistical challenges and Russian resilience rather than obvious strategic folly. The colonial expansion narrative can obscure the agency and resistance of indigenous peoples; the period 1708\u20131715 saw significant indigenous resistance to colonial encroachment.",
+  "historiographic_note": "The year 1708 is well-documented in European sources, particularly regarding military campaigns and political events. Asian sources (Chinese and Indian) are abundant but sometimes less integrated into Western historical narratives. Colonial American sources are less prominent for this year but become more abundant for later periods. The year 1708 represents a moment of transition in global history, with major powers competing for dominance and colonial expansion accelerating.",
   "graph_edges": [
     {
       "from": "1708-001",
-      "to": "1708-002",
+      "to": "1709-002",
       "relation": "led_to",
-      "note": "Oudenarde opened the strategic path for the siege of Lille"
+      "note": "The allied victory at Oudenarde in 1708 contributed to the momentum that led to the Battle of Malplaquet in 1709."
     },
     {
-      "from": "1708-006",
-      "to": "1709-003",
+      "from": "1708-002",
+      "to": "1709-001",
       "relation": "led_to",
-      "note": "Holowczyn was the last Swedish victory before the catastrophic defeat at Poltava"
-    },
-    {
-      "from": "1708-007",
-      "to": "1709-003",
-      "relation": "led_to",
-      "note": "Lesnaya deprived Charles XII of supplies and reinforcements, directly contributing to the Swedish defeat at Poltava"
-    },
-    {
-      "from": "1708-008",
-      "to": "1708-009",
-      "relation": "led_to",
-      "note": "Mazepa's defection triggered Peter I's order to destroy Baturyn"
+      "note": "Charles XII's failed invasion of Russia in 1708 set the stage for the decisive Battle of Poltava in 1709."
     },
     {
       "from": "1708-005",
-      "to": "1708-015",
-      "relation": "contemporary_with",
-      "note": "Guru Gobind Singh's death and the installation of the Guru Granth Sahib as eternal Guru are the same event-complex"
-    },
-    {
-      "from": "1708-005",
-      "to": "1708-004",
-      "relation": "led_to",
-      "note": "Guru Gobind Singh's death and his commissioning of Banda Singh Bahadur directly preceded the Sikh military campaigns in Punjab"
-    },
-    {
-      "from": "1708-011",
-      "to": "1708-004",
-      "relation": "contemporary_with",
-      "note": "Mughal imperial weakness under Bahadur Shah I created the conditions for Banda Singh Bahadur's successful campaigns"
-    },
-    {
-      "from": "1708-013",
-      "to": "1709-003",
-      "relation": "part_of",
-      "note": "Peter I's guberniya reform was part of the broader Petrine state-building project driven by the demands of the Great Northern War"
-    },
-    {
-      "from": "1708-003",
-      "to": "1715-001",
-      "relation": "led_to",
-      "note": "The failure of the 1708 Jacobite invasion attempt did not extinguish Jacobite ambitions; the 1715 rising followed"
-    },
-    {
-      "from": "1708-018",
-      "to": "1713-001",
-      "relation": "led_to",
-      "note": "The Atlantic slave trade context makes the Asiento clause of the Treaty of Utrecht (1713) directly significant"
-    },
-    {
-      "from": "1708-016",
-      "to": "1711-002",
-      "relation": "led_to",
-      "note": "Handel's Italian years (including 1708) were the direct preparation for his London operatic debut with Rinaldo (1711)"
-    },
-    {
-      "from": "1708-019",
       "to": "1709-005",
       "relation": "led_to",
-      "note": "Sidotti's 1708 arrival and interrogation by Arai Hakuseki produced the Seiy\u014d Kibun, completed after Tsunayoshi's death in 1709"
+      "note": "Colonial expansion in 1708 contributed to the tensions that led to Yamasee War preparations in 1709."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T12:37:28.356552",
-    "duration_seconds": 227.011894,
-    "model": "claude-sonnet-4-6",
-    "cost_usd": 0.213729,
-    "cached": false
-  }
+  ]
 }

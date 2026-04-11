@@ -1,232 +1,243 @@
 {
   "year": 1691,
   "year_label": "1691 CE",
-  "era_context": "The late 17th century: the Nine Years' War (1688\u20131697) is in full swing in Europe. The Glorious Revolution's aftermath is consolidating in England and the Dutch Republic. The Kangxi Emperor is consolidating Qing power in China. The Ottoman Empire is recovering from the Great Turkish War (1683\u20131699). Scientific advancement is accelerating; Newton's Principia was published in 1687.",
+  "era_context": "The late 17th century: European powers consolidating colonial empires in the Americas, Africa, and Asia. The Ottoman Empire in slow decline; the Qing Dynasty at its height under the Kangxi Emperor. The War of the Spanish Succession looms (1701\u20131714). Scientific revolution in full swing; Newton's Principia published in 1687. Japan in the Edo period under the Tokugawa shogunate.",
   "documentation_level": "rich",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (minimal European documentation; oral traditions not recorded)",
-    "Interior North America (sparse colonial records; Indigenous histories underrepresented)",
-    "Pacific Islands and Oceania (virtually no European contact documentation)"
+    "Sub-Saharan African interior (limited European documentation; oral traditions not systematically recorded)",
+    "Pacific island societies (sparse European contact records)",
+    "Central Asian steppe politics (limited European sources; Chinese records more detailed)"
   ],
   "events": [
     {
       "id": "1691-001",
-      "title": "Battle of the Boyne aftermath and consolidation of Protestant ascendancy in Ireland",
+      "title": "Battle of the Boyne aftermath: Williamite War in Ireland continues",
       "region": "Ireland",
-      "coordinates_approx": "53.7341, -6.4749",
-      "category": "political",
-      "description": "In 1691, the aftermath of the Battle of the Boyne (12 July 1690) was consolidating Protestant ascendancy in Ireland. The battle had been fought between the forces of the Protestant William III and the Catholic James II, with William's forces victorious. The victory secured Protestant control of Ireland and ended the immediate threat of a Catholic restoration. In 1691, the Treaty of Limerick was negotiated, which formally ended the Williamite War in Ireland (1688\u20131691). The treaty granted limited religious toleration to Catholics but established Protestant political and economic dominance. The victory at the Boyne and the subsequent consolidation of Protestant power had profound long-term consequences for Irish history, establishing the basis for centuries of Protestant ascendancy and Catholic subordination.",
+      "coordinates_approx": "53.5,-6.5",
+      "category": "military",
+      "description": "Following the Battle of the Boyne (July 1690), Williamite forces under William III continued their campaign against Jacobite supporters of James II. The year 1691 saw the consolidation of Protestant ascendancy in Ireland, with major engagements at the Siege of Athlone (June\u2013July) and the Battle of the Boyne's follow-up campaigns. The Treaty of Limerick (October 1691) effectively ended major Jacobite resistance in Ireland, though it was soon violated by the English Parliament. This secured Protestant control of Ireland for the next century.",
       "key_figures": [
-        "William III (King of England, victor at the Boyne)",
-        "James II (deposed Catholic king)",
-        "Patrick Sarsfield (Irish Catholic general)",
-        "Godert de Ginkell (William's commander)"
+        "William III (King of England, Scotland, Ireland)",
+        "Patrick Sarsfield (Jacobite commander)",
+        "Godert de Ginkell (Williamite general)"
       ],
       "sources": [
         {
-          "name": "Treaty of Limerick, October 1691",
+          "name": "Contemporary accounts in English and Irish chronicles; Williamite military records",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary accounts and military records",
+          "name": "Treaty of Limerick (October 1691)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in contemporary military records, diplomatic correspondence, and near-contemporary chronicles. Dates are precise.",
+      "cross_references": [
+        "1690-001 (Battle of the Boyne)",
+        "1692-001 (Glencoe Massacre, related sectarian violence)"
+      ]
+    },
+    {
+      "id": "1691-002",
+      "title": "Kangxi Emperor's Southern Tour (first tour)",
+      "region": "Qing China",
+      "coordinates_approx": "30.5,114.3",
+      "category": "political",
+      "description": "The Kangxi Emperor undertook his first major southern inspection tour of the Yangtze River valley and southern provinces, a practice that would become a hallmark of his reign. These tours served multiple purposes: consolidating central authority after the Rebellion of the Three Feudatories (ended 1681), gathering intelligence on local governance, and projecting imperial power. The tours were meticulously documented and became models for later emperors. This first tour lasted several months and covered major cities including Hangzhou and Suzhou.",
+      "key_figures": [
+        "Kangxi Emperor (Qing Dynasty)",
+        "Chen Huang (provincial official)"
+      ],
+      "sources": [
+        {
+          "name": "Kangxi's travel records and imperial edicts; Qing court archives",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus on the Williamite War in Ireland",
+          "name": "Later compilations in the Veritable Records of the Kangxi Emperor (Kangxi Shilu)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensively documented in Qing imperial records. The tour is dated to 1691 in standard Kangxi chronologies.",
+      "cross_references": [
+        "1681-001 (End of Three Feudatories Rebellion)",
+        "1722-001 (Kangxi's death and succession)"
+      ]
+    },
+    {
+      "id": "1691-003",
+      "title": "Salem Witch Trials: Trials and executions peak",
+      "region": "Massachusetts Bay Colony, North America",
+      "coordinates_approx": "42.5,-70.9",
+      "category": "legal",
+      "description": "The Salem witch trials reached their peak in 1691, with the majority of the 20 executions occurring this year (January\u2013September). The trials began in January with the afflictions of Betty Parris and Ann Lewis, escalated through spring and summer, and were effectively halted by October when Governor William Phips intervened, pardoning remaining accused witches and eventually issuing a general pardon in 1697. The trials represent a culmination of Puritan anxieties about spiritual warfare, social disorder, and the vulnerability of the colonial frontier. Modern scholarship emphasizes the role of ergot poisoning, social tensions, and property disputes alongside genuine belief in witchcraft.",
+      "key_figures": [
+        "William Phips (Governor of Massachusetts)",
+        "Cotton Mather (Puritan minister)",
+        "Bridget Bishop (first executed)",
+        "Rebecca Nurse (executed)"
+      ],
+      "sources": [
+        {
+          "name": "Court records of the Court of Oyer and Terminer (1692 publication of trial transcripts)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cotton Mather's 'Wonders of the Invisible World' (1693)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Salem Witch Museum archives and modern scholarly consensus",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Treaty of Limerick is precisely dated to October 1691 and is well-documented in contemporary sources.",
+      "certainty_note": "Extensively documented in court records, contemporary letters, and later compilations. Dates of executions are well-established.",
       "cross_references": [
-        "1690-001 (Battle of the Boyne)",
-        "1688-001 (Glorious Revolution, which triggered the Williamite War)"
-      ]
-    },
-    {
-      "id": "1691-002",
-      "title": "Nine Years' War: continued military campaigns in Flanders and at sea",
-      "region": "Flanders and Atlantic, Europe",
-      "coordinates_approx": "50.8503, 4.3517",
-      "category": "military",
-      "description": "In 1691, the Nine Years' War (1688\u20131697) continued with military campaigns in Flanders and naval engagements in the Atlantic and Mediterranean. The war was a stalemate, with neither the French nor the Grand Alliance (England, Dutch Republic, Spain, Austria, Savoy) able to achieve decisive victory. The campaigns of 1691 included various sieges and skirmishes in Flanders, with neither side making significant territorial gains. The war was costly for all parties, draining treasuries and military resources. By 1691, both sides were beginning to consider negotiated settlement, though the war would continue until 1697. The Nine Years' War was one of the longest and most costly conflicts of the 17th century.",
-      "key_figures": [
-        "William III (King of England and Dutch Republic)",
-        "Louis XIV (King of France)",
-        "Fran\u00e7ois-Henri de Montmorency, duc de Luxembourg (French Marshal)"
-      ],
-      "sources": [
-        {
-          "name": "Military records and contemporary accounts (English, Dutch, French archives)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Symcox, Geoffrey. The Crisis of French Sea Power 1688\u20131697 (1974)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The general trajectory of the war is well-documented; specific military engagements in 1691 are less detailed.",
-      "cross_references": [
-        "1688-001 (Nine Years' War begins)",
-        "1697-001 (Treaty of Ryswick ends the war)"
-      ]
-    },
-    {
-      "id": "1691-003",
-      "title": "Kangxi Emperor's consolidation of Qing control and cultural patronage",
-      "region": "China, Qing Dynasty",
-      "coordinates_approx": "30.2741, 120.1551",
-      "category": "cultural",
-      "description": "By 1691, the Kangxi Emperor had consolidated Qing control over China and was engaged in extensive cultural patronage. The emperor was a patron of the arts, literature, and scholarship, and he commissioned major cultural projects including the compilation of the Kangxi Dictionary (completed 1716). The Kangxi Emperor's reign (1661\u20131722) was marked by military consolidation, cultural patronage, and the expansion of Qing influence into Tibet and Mongolia. By 1691, the emperor was at the height of his power and prestige, having eliminated internal threats and established the Qing as the dominant force in East Asia. His reign is considered one of the most successful in Chinese imperial history, combining military strength with cultural achievement.",
-      "key_figures": [
-        "Kangxi Emperor (r. 1661\u20131722)",
-        "Chen Huang (provincial administrator)",
-        "Ts'ao Yin (imperial favorite and administrator)"
-      ],
-      "sources": [
-        {
-          "name": "Kangxi's imperial edicts and cultural patronage records (Qing archives)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Spence, Jonathan D. Ts'ao Yin and the K'ang-hsi Emperor (1966)",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The general trajectory of cultural patronage is well-documented; specific projects in 1691 are less detailed.",
-      "cross_references": [
-        "1681-001 (Three Feudatories Rebellion ends)",
-        "1722-001 (Kangxi Emperor dies)"
+        "1692-001 (Continuation and peak of trials)",
+        "1697-001 (General pardon issued)"
       ]
     },
     {
       "id": "1691-004",
-      "title": "Aurangzeb's Deccan Wars continue; Mughal Empire under increasing strain",
-      "region": "Deccan, Mughal Empire",
-      "coordinates_approx": "19.0760, 72.8777",
+      "title": "Russo-Ottoman War: Russo-Turkish conflict in the Azov region",
+      "region": "Southern Russia / Ottoman Empire",
+      "coordinates_approx": "47.1,39.4",
       "category": "military",
-      "description": "In 1691, Aurangzeb continued his costly Deccan Wars against the Marathas and other regional powers. The wars, which had begun in 1680, were draining the imperial treasury and military resources. By 1691, the Mughal Empire was experiencing financial strain, administrative corruption, and the rise of autonomous regional powers. Aurangzeb's rigid orthodoxy and military overextension were weakening the empire's cohesion. The wars would continue until Aurangzeb's death in 1707, but by 1691, it was evident that the empire's golden age was ending. The Marathas, under Rajaram (r. 1689\u20131700), were becoming increasingly powerful and would eventually dominate much of India.",
+      "description": "Ongoing conflict between Russian forces and the Ottoman Empire over control of the Azov region and the Don River basin. Peter I (Peter the Great) was consolidating power in Russia and seeking to expand southward. The conflict was part of a longer struggle for control of the Black Sea region. In 1691, Russian forces under General Patrick Gordon conducted campaigns in the Azov region, though major breakthroughs would not come until the Russo-Turkish War of 1695\u20131696.",
       "key_figures": [
-        "Aurangzeb (Mughal Emperor, r. 1658\u20131707)",
-        "Rajaram (Maratha leader, r. 1689\u20131700)",
-        "Zulfiqar Khan (Mughal general)"
+        "Peter I (Tsar of Russia)",
+        "Patrick Gordon (Scottish general in Russian service)",
+        "Ottoman commanders in the Crimea and Azov"
       ],
       "sources": [
         {
-          "name": "Mughal court records and administrative documents",
+          "name": "Russian military records and Peter I's correspondence",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Richards, John F. The Mughal Empire (1993)",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Ottoman records from the Topkapi Palace archives",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The general trajectory of the Deccan Wars is well-documented; specific military engagements in 1691 are less detailed.",
+      "certainty_note": "Documented in Russian and Ottoman records, though specific engagements in 1691 are less detailed than later campaigns. Dating is approximate to within 1\u20132 years.",
       "cross_references": [
-        "1680-001 (Deccan Wars begin)",
-        "1707-001 (Aurangzeb dies, empire fragments)"
+        "1695-001 (Russo-Turkish War escalation)",
+        "1696-001 (Capture of Azov)"
       ]
     },
     {
       "id": "1691-005",
-      "title": "English colonial expansion in North America; establishment of colonial governance",
-      "region": "North America, English colonies",
-      "coordinates_approx": "40.0000, -75.0000",
-      "category": "political",
-      "description": "In 1691, English colonial governance in North America was consolidating. The colonies were establishing more formal governmental structures, with royal governors appointed to oversee colonial affairs. The colonies were expanding westward, establishing new settlements and trading posts. The colonial economy was based on agriculture, trade, and increasingly on slavery. By 1691, the English colonies were becoming more integrated into the English imperial system, with increasing royal oversight and control. The colonies were also becoming more diverse, with immigration from various European regions and the forced migration of enslaved Africans. The period from 1691 onward saw increasing colonial prosperity and expansion, which would eventually lead to the American Revolution in 1776.",
+      "title": "Pueblo Revolt aftermath: Spanish reconquest of New Mexico begins",
+      "region": "New Mexico, North America",
+      "coordinates_approx": "35.5,-106.5",
+      "category": "military",
+      "description": "Following the Pueblo Revolt of 1680, which expelled Spanish colonists from New Mexico, Spanish forces under Diego de Vargas began the reconquest of the territory. In 1691, Vargas led a major campaign to retake Santa Fe and surrounding pueblos. The reconquest was largely bloodless in this phase, as Vargas negotiated with pueblo leaders and many Spanish settlers returned. However, the reconquest would face resistance in subsequent years, and the relationship between Spanish colonists and Pueblo peoples remained tense.",
       "key_figures": [
-        "Royal governors of various colonies",
-        "Colonial merchants and planters",
-        "Indigenous leaders (increasingly marginalized)"
+        "Diego de Vargas (Spanish colonial governor)",
+        "Pueblo leaders (various, including those at Santa Fe)"
       ],
       "sources": [
         {
-          "name": "Colonial records and contemporary accounts (English colonial archives)",
+          "name": "Spanish colonial records and Vargas's official reports to the viceroy",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus on English colonial expansion",
-          "type": "historiographic_consensus",
+          "name": "Pueblo oral traditions and later ethnographic accounts",
+          "type": "oral_tradition",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The general trajectory of colonial expansion is well-documented; specific events in 1691 are less detailed.",
+      "certainty": "confirmed",
+      "certainty_note": "Well-documented in Spanish colonial archives. The reconquest campaign of 1691 is dated with confidence.",
       "cross_references": [
-        "1607-001 (Jamestown founded)",
-        "1776-001 (American Revolution)"
+        "1680-001 (Pueblo Revolt)",
+        "1696-001 (Second Pueblo Revolt)"
       ]
     },
     {
       "id": "1691-006",
-      "title": "Ottoman Empire: recovery from the Great Turkish War and consolidation of power",
-      "region": "Ottoman Empire",
-      "coordinates_approx": "41.0082, 28.9784",
-      "category": "political",
-      "description": "By 1691, the Ottoman Empire was recovering from the Great Turkish War (1683\u20131699) with Austria and its allies. The war had resulted in significant Ottoman territorial losses, particularly in Hungary and the Balkans. However, by 1691, the Ottoman Empire was consolidating its remaining territories and attempting to stabilize its government. The empire was experiencing internal administrative challenges and the rise of the Janissaries as a powerful political force. The Ottoman Empire was no longer the dominant military power in Europe, but it remained a significant regional power. The period from 1691 onward saw the Ottoman Empire in slow decline, gradually losing territory and influence to European powers.",
+      "title": "Edo period Japan: Genroku era cultural flourishing",
+      "region": "Japan",
+      "coordinates_approx": "35.7,139.7",
+      "category": "cultural",
+      "description": "The Genroku era (1688\u20131704) was a period of unprecedented cultural and economic flourishing in Edo (Tokyo) and other major cities under the Tokugawa shogunate. In 1691, this cultural peak was well underway: kabuki theater, ukiyo-e woodblock prints, haiku poetry, and merchant culture were thriving. The poet Matsuo Bash\u014d was at the height of his fame, having completed his famous journey documented in 'The Narrow Road to the Deep North' (Oku no Hosomichi). Urban literacy and publishing expanded dramatically.",
       "key_figures": [
-        "Mustafa II (Ottoman Sultan, r. 1695\u20131703)",
-        "K\u00f6pr\u00fcl\u00fc family (Ottoman administrators)"
+        "Tokugawa Tsunayoshi (Shogun)",
+        "Matsuo Bash\u014d (poet)",
+        "Kabuki actors and playwrights"
       ],
       "sources": [
         {
-          "name": "Ottoman court records and administrative documents",
+          "name": "Genroku-era literary works, kabuki records, and merchant accounts",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus on Ottoman history",
-          "type": "historiographic_consensus",
+          "name": "Tokugawa Iemitsu's administrative records (Buke Shohatto)",
+          "type": "primary_text",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The general trajectory of Ottoman recovery is well-documented; specific events in 1691 are less detailed.",
+      "certainty": "confirmed",
+      "certainty_note": "The Genroku era is well-documented in Japanese historical records, literary works, and material culture. The cultural flourishing is extensively attested.",
       "cross_references": [
-        "1683-001 (Great Turkish War begins)",
-        "1699-001 (Treaty of Karlowitz ends the war)"
+        "1688-001 (Beginning of Genroku era)",
+        "1704-001 (End of Genroku era; 47 Ronin incident)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Treaty of Limerick is often portrayed as a generous settlement for Irish Catholics, but modern scholarship has shown that it was violated almost immediately by the English Parliament, which passed the Penal Laws restricting Catholic rights. The treaty's significance lies not in its generosity but in its formal ending of the Williamite War. The Nine Years' War is often portrayed as a stalemate, but recent scholarship has emphasized the significant French military successes and the difficulty of the allied position. The Kangxi Emperor's cultural patronage is well-documented, but it should be noted that it was accompanied by strict political control and the suppression of dissent. The Ottoman Empire's recovery is sometimes overstated; the empire was actually in long-term decline, and the recovery was temporary.",
-  "historiographic_note": "The documentation for 1691 is rich for European and colonial events, reflecting the dominance of Western sources. The Qing and Mughal empires are well-documented in their own archives, but these are less frequently integrated into English-language historiography. The Treaty of Limerick is exceptionally well-documented due to its political significance. Sub-Saharan Africa, interior North America, and the Pacific remain poorly documented. The surviving sources reflect elite perspectives and colonial interests rather than the experiences of enslaved people, indigenous populations, or non-elite colonists. The Irish sources are often biased toward either the Protestant or Catholic perspective, reflecting the deep divisions of the period.",
+  "disconfirming_evidence": "The Salem witch trials are often portrayed as a unique outbreak of mass hysteria, but modern scholarship (particularly work by Mary Beth Norton and others) emphasizes that witch trials were common in early modern Europe and the colonies, and that Salem's trials, while intense, were not anomalous in their underlying causes. The 'hysteria' narrative has been challenged by evidence of genuine social tensions, property disputes, and possibly ergot poisoning. Additionally, the trials' significance is sometimes overstated in popular history relative to their actual impact on colonial law and society\u2014they were quickly repudiated by colonial authorities and had limited long-term legal precedent.",
+  "historiographic_note": "The year 1691 is well-documented for European and colonial North American events, with rich archival sources for political and military history. Documentation for East Asia (Qing China, Japan) is also strong, drawing on imperial records and literary sources. However, the historical record remains heavily weighted toward literate, centralized societies with written record-keeping. Sub-Saharan Africa, the Pacific, and Central Asia are underrepresented in surviving sources, reflecting both the distribution of literacy and the biases of European historiography. The Salem trials are extensively documented but have been subject to significant reinterpretation over the past 30 years, with earlier accounts emphasizing supernatural belief and recent work emphasizing social and environmental factors.",
   "graph_edges": [
     {
       "from": "1691-001",
       "to": "1690-001",
-      "relation": "caused_by",
-      "note": "The Treaty of Limerick in 1691 was a direct consequence of the Battle of the Boyne in 1690."
+      "relation": "led_to",
+      "note": "Treaty of Limerick concluded the Williamite War in Ireland, securing Protestant ascendancy"
     },
     {
       "from": "1691-002",
-      "to": "1697-001",
+      "to": "1681-001",
       "relation": "part_of",
-      "note": "The military campaigns of 1691 were part of the Nine Years' War, which ended in 1697."
+      "note": "Kangxi's southern tour consolidated power after the Three Feudatories Rebellion"
+    },
+    {
+      "from": "1691-003",
+      "to": "1692-001",
+      "relation": "led_to",
+      "note": "Salem trials continued and peaked in 1692 before being halted by Governor Phips"
     },
     {
       "from": "1691-004",
-      "to": "1707-001",
+      "to": "1695-001",
       "relation": "led_to",
-      "note": "The Deccan Wars of 1691 continued until Aurangzeb's death in 1707, leading to the empire's fragmentation."
+      "note": "Russo-Ottoman conflicts escalated into the formal Russo-Turkish War of 1695\u20131696"
+    },
+    {
+      "from": "1691-005",
+      "to": "1680-001",
+      "relation": "led_to",
+      "note": "Spanish reconquest of New Mexico followed the Pueblo Revolt of 1680"
+    },
+    {
+      "from": "1691-006",
+      "to": "1688-001",
+      "relation": "part_of",
+      "note": "Genroku cultural flourishing was a defining feature of the Tokugawa shogunate's stable period"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T13:14:15.869578",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

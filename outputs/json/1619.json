@@ -1,189 +1,270 @@
 {
   "year": 1619,
   "year_label": "1619 CE",
-  "era_context": "Early 17th century: The Thirty Years' War (1618\u20131648) is in its second year, reshaping Central Europe. The Dutch Golden Age is at its height; the English East India Company and Dutch East India Company compete for Asian trade dominance. In East Asia, the Ming Dynasty is in decline (will fall 1644); the Tokugawa shogunate consolidates power in Japan. The Atlantic slave trade is accelerating.",
+  "era_context": "Early 17th century: The Thirty Years' War is beginning in Central Europe; the Dutch Golden Age is flourishing; the Tokugawa shogunate is consolidating power in Japan; the Ming Dynasty rules China; European colonialism is expanding in the Americas and Asia; the Ottoman Empire remains a major power.",
   "documentation_level": "rich",
   "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1619-001",
-      "title": "First documented Africans arrive in English North America",
-      "region": "Virginia Colony, North America",
-      "coordinates_approx": "37.2\u00b0N, 76.6\u00b0W",
-      "category": "demographic",
-      "description": "A privateer vessel (possibly the English privateer ship Treasurer or a Dutch ship) delivers approximately 20 Africans to Point Comfort (present-day Hampton, Virginia). These individuals were captured from a Portuguese slave ship and sold to English colonists. This event is often cited as the beginning of African slavery in what would become the United States, though the legal and social status of these individuals remains debated by historians\u2014some may have been indentured servants rather than chattel slaves. The event marks a critical juncture in the development of racial slavery in North America.",
+      "title": "Synod of Dort Concludes",
+      "region": "Dutch Republic (Dordrecht)",
+      "coordinates_approx": "51.81, 4.64",
+      "category": "religious",
+      "description": "The Synod of Dort, which had convened in November 1618, concluded in May 1619. The synod was called to resolve theological disputes within the Dutch Reformed Church, particularly the Arminian controversy. The synod condemned Arminianism and reaffirmed Calvinist orthodoxy, particularly the doctrine of unconditional predestination. The synod's decisions had significant political and religious consequences, affecting the Dutch Reformed Church and Protestant theology more broadly. The synod also produced the Canons of Dort, which became a foundational document of Reformed theology.",
       "key_figures": [
-        "Captain John Smith (Virginia Colony)",
-        "Governor George Yeardley"
+        "Johannes Bogerman (moderator)",
+        "Jacobus Arminius (deceased, but his followers were condemned)",
+        "Franciscus Gomarus (leading Calvinist theologian)"
       ],
       "sources": [
         {
-          "name": "Virginia Company records and colonial correspondence, including accounts in John Rolfe's letter to Sir Edwin Sandys",
+          "name": "Official acts and decrees of the Synod of Dort (Acta Synodi Nationalis)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus from works by Ira Berlin, Edmund Morgan, and others on early African presence in Virginia",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Contemporary theological treatises and polemics",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The arrival is documented in colonial records, but the exact date (August 1619 is conventional) and the number of Africans (estimates range 15\u201320) carry minor uncertainty. The identity of the vessel and the legal status of the arrivals remain subjects of scholarly debate.",
+      "certainty": "confirmed",
+      "certainty_note": "The synod's conclusion in May 1619 is well-documented in official records. The Canons of Dort are attested in multiple contemporary sources.",
       "cross_references": [
-        "1641-001 (Body of Liberties in Massachusetts)",
-        "1662-001 (Virginia law on hereditary slavery)"
+        "1620-003"
       ]
     },
     {
       "id": "1619-002",
-      "title": "House of Burgesses convenes in Virginia",
-      "region": "Virginia Colony, North America",
-      "coordinates_approx": "37.2\u00b0N, 76.6\u00b0W",
-      "category": "political",
-      "description": "The House of Burgesses, the first representative legislative assembly in English North America, meets in Jamestown. Composed of elected representatives from Virginia's settlements, it marks an early experiment in colonial self-governance within the English empire. The assembly addressed local governance, taxation, and labor regulation, establishing a precedent for representative institutions in the English colonies.",
+      "title": "First Africans Arrive in Virginia",
+      "region": "Virginia (Point Comfort, later Hampton, Virginia)",
+      "coordinates_approx": "37.03, -76.34",
+      "category": "demographic",
+      "description": "In August 1619, a ship carrying approximately 20 Africans arrived at Point Comfort (near present-day Hampton, Virginia). These Africans were captured from a Portuguese slave ship and brought to Virginia by English privateers. The arrival of these Africans is often cited as the beginning of African slavery in English North America, though the status of these individuals was initially ambiguous\u2014they may have been indentured servants rather than slaves for life. This event is a crucial moment in the history of slavery in North America, though the transition from indentured servitude to hereditary racial slavery occurred gradually over the following decades.",
       "key_figures": [
-        "Governor George Yeardley",
-        "Speaker John Pory"
+        "Captain John Smith (Virginia governor)",
+        "The 20 Africans (names largely unrecorded)",
+        "English privateers"
       ],
       "sources": [
         {
-          "name": "Virginia Company records and colonial legislative journals",
+          "name": "Virginia Company records and colonial documents",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Historical accounts in colonial Virginia records and modern historiography",
+          "name": "John Rolfe's letter describing the arrival",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later colonial records and historiographic accounts",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The arrival of Africans in Virginia in August 1619 is well-documented in colonial records. However, the exact number and the status of these individuals are subjects of ongoing historical debate.",
+      "cross_references": [
+        "1641-001"
+      ]
+    },
+    {
+      "id": "1619-003",
+      "title": "House of Burgesses Convenes in Virginia",
+      "region": "Virginia (Jamestown)",
+      "coordinates_approx": "37.23, -76.78",
+      "category": "political",
+      "description": "The House of Burgesses, the first representative legislative assembly in English North America, convened in July 1619 in Jamestown, Virginia. The assembly consisted of representatives from the various plantations and settlements in Virginia. The House of Burgesses established a precedent for representative government in the English colonies and became a model for later colonial legislatures. The assembly's creation reflected the Virginia Company's attempt to encourage settlement and self-governance in the colony.",
+      "key_figures": [
+        "Governor George Yeardley",
+        "Speaker of the House (name varies in sources)",
+        "Burgesses from various plantations"
+      ],
+      "sources": [
+        {
+          "name": "Virginia Company records and colonial documents",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later colonial records and historiographic accounts",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The convening of the House of Burgesses in July 1619 is well-documented in Virginia Company records and colonial documents.",
+      "cross_references": [
+        "1776-001"
+      ]
+    },
+    {
+      "id": "1619-004",
+      "title": "Bohemian Revolt Intensifies; Frederick V Elected Winter King",
+      "region": "Bohemia",
+      "coordinates_approx": "50.08, 14.40",
+      "category": "political",
+      "description": "In 1619, the Bohemian Revolt against Habsburg rule intensified. The Bohemian estates deposed the Habsburg Emperor Matthias and elected Frederick V, Elector Palatine, as King of Bohemia. Frederick V accepted the crown, becoming the 'Winter King' (so called because his reign lasted only one winter before his defeat at the Battle of White Mountain in 1620). The election of Frederick V was a major escalation of the religious and political conflicts in Central Europe and set the stage for the Thirty Years' War.",
+      "key_figures": [
+        "Frederick V, Elector Palatine (elected Winter King)",
+        "Emperor Matthias (deposed)",
+        "Bohemian estates and nobles"
+      ],
+      "sources": [
+        {
+          "name": "Contemporary accounts by Imperial and Bohemian sources",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Later historiographic accounts and syntheses",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The election of Frederick V as King of Bohemia in 1619 is well-documented in contemporary sources from multiple sides.",
+      "cross_references": [
+        "1620-001"
+      ]
+    },
+    {
+      "id": "1619-005",
+      "title": "Tokugawa Ieyasu Dies; Tokugawa Hidetada Consolidates Power",
+      "region": "Japan",
+      "coordinates_approx": "35.68, 139.69",
+      "category": "political",
+      "description": "Tokugawa Ieyasu, the founder of the Tokugawa shogunate, died on 1 June 1616 (Old Style) / 17 June 1616 (New Style). However, his influence continued to be felt through his son Tokugawa Hidetada, the second shogun, who ruled from 1605 to 1623. In 1619, Hidetada was consolidating his power and establishing the bakufu system that would govern Japan for over 250 years. The death of Ieyasu marked the end of the founding generation of the Tokugawa shogunate, but the system he established remained stable and powerful.",
+      "key_figures": [
+        "Tokugawa Ieyasu (deceased in 1616, but influence continued)",
+        "Tokugawa Hidetada (second shogun)",
+        "Tokugawa Iemitsu (designated heir)"
+      ],
+      "sources": [
+        {
+          "name": "Tokugawa official records and genealogies (Tokugawa Jikki)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Japanese chronicles and later historiographic accounts",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The convening of the House of Burgesses in July 1619 is well-documented in Virginia Company records and colonial archives.",
+      "certainty_note": "The death of Tokugawa Ieyasu in 1616 is well-documented in Japanese sources. The date is established in official records.",
       "cross_references": [
-        "1776-001 (American Declaration of Independence)"
+        "1616-001"
       ]
     },
     {
-      "id": "1619-003",
-      "title": "Battle of the Java Sea / Dutch naval dominance in Southeast Asia",
-      "region": "Java Sea, Southeast Asia",
-      "coordinates_approx": "6.5\u00b0S, 110\u00b0E",
-      "category": "military",
-      "description": "Dutch East India Company (VOC) forces under Jan Pieterszoon Coen consolidate control over the Spice Islands and Java, defeating Portuguese and English competitors. The establishment of Batavia (Jakarta) as the VOC's headquarters in 1619 marks the beginning of Dutch colonial dominance in the Indonesian archipelago that would last until the 20th century. This naval and commercial victory fundamentally altered the balance of power in Asian trade.",
+      "id": "1619-006",
+      "title": "Chongzhen Emperor Ascends Ming Throne",
+      "region": "China",
+      "coordinates_approx": "39.90, 116.41",
+      "category": "political",
+      "description": "In September 1620, the Chongzhen Emperor ascended to the Ming throne following the brief reign of the Taichang Emperor. However, the succession crisis and political instability that led to the Chongzhen Emperor's accession began in 1619 with the death of the Wanli Emperor. The Chongzhen Emperor would rule until the fall of the Ming Dynasty in 1644. His reign was marked by political instability, factional conflicts, and the rise of the Later Jin state under the Jurchen, which would eventually lead to the Qing conquest of China.",
       "key_figures": [
-        "Jan Pieterszoon Coen (VOC Governor-General)"
+        "Chongzhen Emperor (new emperor)",
+        "Wanli Emperor (deceased)",
+        "Taichang Emperor (brief predecessor)",
+        "Eunuchs and court factions"
       ],
       "sources": [
         {
-          "name": "VOC records and Dutch East India Company correspondence",
+          "name": "Ming official records and the Ming Shilu (Veritable Records of the Ming)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Portuguese and English accounts of naval engagements",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Later Chinese historiographic accounts and syntheses",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The founding of Batavia and VOC consolidation in 1619 is well-documented in Dutch, Portuguese, and English sources.",
+      "certainty_note": "The succession of the Chongzhen Emperor is well-documented in Ming official records. The dates of the succession crisis are established.",
       "cross_references": [
-        "1602-001 (Founding of Dutch East India Company)"
+        "1620-005"
       ]
     },
     {
-      "id": "1619-004",
-      "title": "Synod of Dort concludes in the Dutch Republic",
-      "region": "Dordrecht, Dutch Republic",
-      "coordinates_approx": "51.8\u00b0N, 4.6\u00b0E",
-      "category": "religious",
-      "description": "The Synod of Dort (Dordrecht), a major assembly of the Reformed Church, concludes its deliberations on predestination and Calvinist theology. The synod condemned Arminianism (the doctrine of conditional predestination) and reaffirmed strict Calvinist orthodoxy, producing the Canons of Dort. This decision had profound implications for Protestant theology and church governance across Europe and the colonies, influencing Reformed churches in North America and elsewhere.",
+      "id": "1619-007",
+      "title": "Dutch East India Company Continues Expansion in Southeast Asia",
+      "region": "Southeast Asia (Dutch East Indies)",
+      "coordinates_approx": "-6.20, 106.82",
+      "category": "economic",
+      "description": "Throughout 1619, the Dutch East India Company (VOC) continued its aggressive expansion in the Indonesian archipelago. The VOC established trading posts and forts, displaced Portuguese and English competitors, and began the process of monopolizing the clove and nutmeg trade. In 1619, Jan Pieterszoon Coen, the VOC Governor-General, was consolidating Dutch control over the spice trade and establishing Batavia (modern Jakarta) as the center of VOC operations in Southeast Asia.",
       "key_figures": [
-        "Johannes Bogerman (President)",
-        "Franciscus Gomarus (Calvinist theologian)"
+        "Jan Pieterszoon Coen (VOC Governor-General)",
+        "Dutch merchants and military commanders"
       ],
       "sources": [
         {
-          "name": "Official acts and canons of the Synod of Dort, published in Dutch and Latin",
+          "name": "VOC records, letters, and official reports (Generale Missiven)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Contemporary theological writings and church records",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Later Dutch and Indonesian historiographic accounts",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Synod of Dort met from November 1618 to May 1619; the conclusion and publication of its canons in 1619 is well-documented.",
+      "certainty_note": "The VOC's expansion in 1619 is well-documented in company records. Specific military and commercial actions are attested in contemporary Dutch sources.",
       "cross_references": [
-        "1517-001 (Martin Luther's Reformation)"
-      ]
-    },
-    {
-      "id": "1619-005",
-      "title": "Bohemian Revolt and Thirty Years' War escalation",
-      "region": "Bohemia, Central Europe",
-      "coordinates_approx": "49.8\u00b0N, 15.5\u00b0E",
-      "category": "military",
-      "description": "The Thirty Years' War, which began in 1618 with the Bohemian Revolt against Habsburg rule, continues with major military campaigns. The conflict between Protestant and Catholic powers, with complex political dimensions involving the Holy Roman Empire, France, Sweden, and other states, reshapes Central European politics and causes widespread devastation. By 1619, the war has become a major European conflict with implications for religious settlement and state power.",
-      "key_figures": [
-        "Frederick V (Winter King of Bohemia)",
-        "Emperor Ferdinand II"
-      ],
-      "sources": [
-        {
-          "name": "Contemporary diplomatic correspondence and military records from multiple European powers",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Chronicles and accounts by participants and observers",
-          "type": "chronicle",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Thirty Years' War is extensively documented in contemporary sources from multiple nations.",
-      "cross_references": [
-        "1618-001 (Defenestration of Prague)",
-        "1648-001 (Peace of Westphalia)"
+        "1621-007"
       ]
     }
   ],
-  "disconfirming_evidence": "The arrival of Africans in Virginia in 1619 is often presented in popular history as the singular origin point of American slavery, but modern scholarship (particularly work by Ira Berlin and others) complicates this narrative: (1) Africans had arrived in North America earlier, including in Spanish Florida and possibly in earlier English ventures; (2) the legal status of the 1619 arrivals was not immediately defined as chattel slavery\u2014some may have been indentured servants with eventual freedom dues; (3) hereditary, race-based slavery developed gradually over the late 17th century, not instantaneously in 1619. The event is significant as a documented early arrival and a marker of the Atlantic slave trade's expansion, but not as the unambiguous 'beginning' of American slavery. Additionally, the identity of the vessel delivering the Africans remains disputed\u2014some sources suggest a Dutch privateer, others an English ship.",
-  "historiographic_note": "The year 1619 is exceptionally well-documented for European and colonial North American history, with rich archival sources from the Dutch, English, Spanish, and other powers. However, documentation from non-European perspectives (African, Asian, indigenous American) is sparse or mediated through European sources. The Synod of Dort and Thirty Years' War are extensively recorded in European archives; the Virginia events are documented in English colonial records. Asian and African events of 1619 are less thoroughly recorded in Western archives, though Chinese and Japanese sources may provide additional detail. The historiographic bias toward European and colonial North American events in this year is pronounced.",
+  "disconfirming_evidence": "The arrival of Africans in Virginia in 1619 is often presented as the beginning of slavery in English North America, but this narrative oversimplifies the complex transition from indentured servitude to hereditary racial slavery, which occurred gradually over several decades. The status of the 1619 Africans was initially ambiguous, and some may have been treated as indentured servants rather than slaves for life. Additionally, the House of Burgesses is sometimes celebrated as the first democratic institution in North America, but it excluded women, enslaved people, and most non-property-owning men, and it was created by a colonial company seeking to encourage settlement, not as a democratic innovation. The Synod of Dort's condemnation of Arminianism did not end theological disputes; Arminian ideas continued to influence Protestant theology.",
+  "historiographic_note": "The documentation for 1619 is rich for European and English colonial events. However, sources for Asia are mediated through European (primarily Dutch) perspectives, and indigenous perspectives are largely absent. The arrival of Africans in Virginia in 1619 has become a focal point of American historical consciousness, but the broader context of the Atlantic slave trade and the gradual development of racial slavery in the colonies is sometimes obscured by the focus on this single event. Chinese sources are available but often mediated through later compilations. Colonial-era sources on the Americas are heavily biased toward European perspectives and often erase or minimize indigenous and African agency.",
   "graph_edges": [
     {
       "from": "1619-001",
-      "to": "1662-001",
+      "to": "1620-003",
       "relation": "led_to",
-      "note": "The arrival of Africans in 1619 set the stage for the gradual legal codification of hereditary slavery in Virginia law by 1662."
+      "note": "The Synod of Dort's conclusion in 1619 led to the formal promulgation of its decrees in 1620."
+    },
+    {
+      "from": "1619-002",
+      "to": "1641-001",
+      "relation": "led_to",
+      "note": "The arrival of Africans in Virginia in 1619 was the beginning of a process that led to the establishment of hereditary slavery in the colonies."
     },
     {
       "from": "1619-003",
-      "to": "1945-001",
-      "relation": "led_to",
-      "note": "Dutch colonial dominance established in 1619 persisted until Japanese occupation and Indonesian independence in the 1940s."
+      "to": "1776-001",
+      "relation": "part_of",
+      "note": "The House of Burgesses, established in 1619, became a model for representative government in the English colonies and eventually the United States."
     },
     {
       "from": "1619-004",
-      "to": "1776-001",
+      "to": "1620-001",
       "relation": "led_to",
-      "note": "Calvinist theology affirmed at Dort influenced Reformed churches in North America, shaping colonial religious culture."
+      "note": "The election of Frederick V as Winter King in 1619 led to his defeat at the Battle of White Mountain in 1620."
+    },
+    {
+      "from": "1619-004",
+      "to": "1648-001",
+      "relation": "part_of",
+      "note": "The Bohemian Revolt in 1619 was a major escalation that led to the Thirty Years' War, which lasted until 1648."
     },
     {
       "from": "1619-005",
-      "to": "1648-001",
+      "to": "1620-004",
       "relation": "led_to",
-      "note": "The Thirty Years' War, ongoing in 1619, concluded with the Peace of Westphalia in 1648."
+      "note": "The death of Tokugawa Ieyasu in 1616 led to the consolidation of power by Tokugawa Hidetada in 1620."
+    },
+    {
+      "from": "1619-006",
+      "to": "1644-001",
+      "relation": "led_to",
+      "note": "The succession crisis in 1619 and the accession of the Chongzhen Emperor contributed to the Ming Dynasty's eventual collapse in 1644."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T13:45:10.048941",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }
