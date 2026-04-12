@@ -1,0 +1,82 @@
+{
+  "year": -1961,
+  "year_label": "1962 BCE",
+  "era_context": "The Middle Bronze Age II in the Levant and Egypt; the 12th Dynasty of Egypt under Amenemhat III continues. In Mesopotamia, Hammurabi's Old Babylonian state is consolidating regional power. The Indus Valley Civilization remains in its mature urban phase. In China, the Xia Dynasty (traditional chronology) is in its later period, though archaeological confirmation is contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa: no written records; archaeological evidence is limited.",
+    "The Americas: no written records; archaeological context is not recoverable at annual resolution.",
+    "Northern Europe and the Steppe: sparse written documentation; primarily archaeological inference.",
+    "Southeast Asia and Oceania: minimal written records; archaeological evidence is fragmentary."
+  ],
+  "events": [
+    {
+      "id": "-1961-001",
+      "title": "Amenemhat III's reign: continued prosperity and administrative consolidation",
+      "region": "Egypt (12th Dynasty)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Amenemhat III's reign continues with documented prosperity, high Nile inundations, and extensive administrative activity. Inscriptions record building projects, mining expeditions to Sinai and Nubia, and the maintenance of a centralized bureaucratic state. The Fayum region is developed through irrigation and settlement projects. Egypt's borders remain secure, and trade networks with the Levant and Nubia are active.",
+      "key_figures": [
+        "Amenemhat III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions and administrative records from the 12th Dynasty",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Egyptian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Amenemhat III's reign is well-attested. The year -1961 falls within his documented reign; specific annual events are rarely distinguishable from the archaeological and epigraphic record.",
+      "cross_references": []
+    },
+    {
+      "id": "-1961-002",
+      "title": "Hammurabi's military campaigns and territorial expansion in Mesopotamia",
+      "region": "Mesopotamia (Babylon and surrounding regions)",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "Hammurabi continues military campaigns to expand Babylonian control over rival city-states in southern and central Mesopotamia. Cuneiform records document diplomatic correspondence and military actions. The gradual consolidation of power under Hammurabi's rule is reflected in administrative texts and royal inscriptions. These campaigns lay the groundwork for Babylon's emergence as the dominant Mesopotamian power.",
+      "key_figures": [
+        "Hammurabi (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Cuneiform administrative and royal texts from Babylon",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from Assyriology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hammurabi's reign and general military activities are well-documented. The year -1961 falls within his reign; specific campaigns of individual years are difficult to date precisely.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "As noted for -1960, the chronology of Hammurabi's reign remains contested among scholars, with the Middle, Low, and High Chronologies differing by up to 150 years. This affects the precise dating of events attributed to his reign. The year -1961 is assigned to Hammurabi's reign under the Middle Chronology, but alternative chronologies would place this year in a different political context.",
+  "historiographic_note": "Documentation for this year is sparse and heavily concentrated in Egypt and Mesopotamia. Written records are limited to administrative and religious texts; narrative detail about individual years is rarely available. The archaeological record provides material evidence of urban life, trade, and construction, but cannot resolve events to annual precision. Regions outside the Mediterranean, Near East, and Indus Valley have no written documentation for this period.",
+  "graph_edges": [
+    {
+      "from": "-1961-001",
+      "to": "-1960-001",
+      "relation": "contemporary_with",
+      "note": "Amenemhat III's reign continues; contemporary with Hammurabi's consolidation in Mesopotamia."
+    },
+    {
+      "from": "-1961-002",
+      "to": "-1960-002",
+      "relation": "contemporary_with",
+      "note": "Hammurabi's military expansion continues; part of the same consolidation process."
+    }
+  ]
+}
