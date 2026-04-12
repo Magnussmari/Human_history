@@ -1,17 +1,46 @@
 {
   "year": -2588,
   "year_label": "2588 BCE",
-  "era_context": "Egypt's Old Kingdom, Dynasty 4, during Khufu's reign (c. 2589\u20132566 BCE). Continued pyramid construction and centralised pharaonic administration. Mesopotamia was in the Early Akkadian period; the Indus Valley Civilisation was in its early urban phase. This is the era of monumental Egyptian architecture and the consolidation of divine kingship.",
-  "documentation_level": "minimal",
+  "era_context": "Egypt's Old Kingdom, Dynasty IV, likely in the reign of Khufu (c. 2589\u20132566 BCE, traditional dating) or the early years of his successor. The Giza pyramid complex is under active construction or refinement. In Mesopotamia, the Akkad Empire is not yet dominant; Sumerian city-states still hold power. The Indus Valley Civilisation is in its early urban phase. This is a period of high centralised power in Egypt and early state formation in the Indus.",
+  "documentation_level": "sparse",
   "geographic_coverage_gaps": [
-    "Mesopotamia \u2014 no specific year-level records",
-    "Indus Valley \u2014 no written records",
-    "China \u2014 no written records",
-    "Sub-Saharan Africa \u2014 no written sources",
-    "Americas \u2014 no written records"
+    "Mesopotamia \u2014 no specific events attested for this year",
+    "Indus Valley \u2014 no written records; only archaeological inference",
+    "Sub-Saharan Africa, East Asia, Americas \u2014 no contemporary documentation"
   ],
-  "events": [],
-  "disconfirming_evidence": "No specific events are documented for this year. The absence of records does not indicate absence of historical activity; rather, it reflects the scarcity of written sources from the Old Kingdom and the convention of recording only major political or religious events in later compilations.",
-  "historiographic_note": "For the Old Kingdom, year-by-year documentation does not exist. What we know comes from king lists, tomb inscriptions, and archaeological stratigraphy. No contemporary written records survive for individual years. The historical record is heavily skewed toward elite, monumental, and religious activities. Economic, demographic, and social history are largely invisible. Absolute chronology remains contested.",
-  "graph_edges": []
+  "events": [
+    {
+      "id": "-2588-001",
+      "title": "Continuation of Khufu's reign and Giza construction",
+      "region": "Egypt, Giza",
+      "coordinates_approx": "30.0088, 31.1342",
+      "category": "cultural",
+      "description": "If 2589 BCE marks Khufu's accession, 2588 BCE falls within his reign. The Giza plateau continued to be the focus of Egyptian state resources. The Great Pyramid itself was likely completed or nearing completion by this time (traditional dating c. 2560 BCE), but the broader complex\u2014including the Pyramid of Khafre, the Sphinx, causeway temples, and subsidiary structures\u2014was under development across multiple reigns. This year represents the continuation of the Old Kingdom's most ambitious architectural programme.",
+      "key_figures": [
+        "Khufu (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Giza; Abydos King List",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "No specific events are recorded for this year. The dating of Khufu's reign itself is uncertain by \u00b120\u201330 years. This entry is a placeholder reflecting the broader era context.",
+      "cross_references": [
+        "-2589-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific events are attested for 2588 BCE. The uncertainty in Old Kingdom chronology means this year could fall in Khufu's reign, Khafre's reign, or even earlier/later depending on which chronological system is adopted. The 'low chronology' would place this year in a different reign entirely.",
+  "historiographic_note": "For this year, there are no specific historical events recorded in any surviving source. The entry above is a contextual placeholder. The historical record for the Old Kingdom is almost entirely monumental and archaeological; narrative history is absent. This reflects both the nature of Egyptian record-keeping (focused on the eternal and the monumental, not the quotidian) and the loss of administrative records.",
+  "graph_edges": [
+    {
+      "from": "-2588-001",
+      "to": "-2589-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of same reign and construction programme"
+    }
+  ]
 }

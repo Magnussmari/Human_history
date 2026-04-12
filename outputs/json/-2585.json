@@ -1,17 +1,56 @@
 {
   "year": -2585,
   "year_label": "2585 BCE",
-  "era_context": "Egypt's Old Kingdom, Dynasty 4, during Khufu's reign (c. 2589\u20132566 BCE). The pyramid age at its height. Monumental construction, centralised pharaonic administration, and divine kingship ideology dominated Egyptian society. Contemporaneously, Mesopotamia was in the Early Akkadian period, and the Indus Valley Civilisation was developing urban centres. This is one of the most archaeologically visible but textually silent periods of human history.",
-  "documentation_level": "minimal",
+  "era_context": "Egypt's Old Kingdom, Dynasty IV, reign of Khufu (c. 2589\u20132566 BCE, traditional dating) or his successor. The Giza pyramid complex is the focal point of Egyptian state resources and architectural ambition. In Mesopotamia, Sumerian city-states are dominant, with Akkad beginning to rise. The Indus Valley Civilisation is in its early urban phase. This is the height of Old Kingdom pharaonic centralisation.",
+  "documentation_level": "sparse",
   "geographic_coverage_gaps": [
-    "Mesopotamia \u2014 no specific year-level records",
-    "Indus Valley \u2014 no written records",
-    "China \u2014 no written records",
-    "Sub-Saharan Africa \u2014 no written sources",
-    "Americas \u2014 no written records"
+    "Mesopotamia, Indus Valley, Sub-Saharan Africa, East Asia, Americas \u2014 no specific events attested"
   ],
-  "events": [],
-  "disconfirming_evidence": "No specific events are documented for this year. The absence of records is characteristic of the Old Kingdom, not indicative of historical inactivity.",
-  "historiographic_note": "The Old Kingdom (c. 2686\u20132181 BCE) is one of the most archaeologically prominent but textually opaque periods of ancient history. Year-by-year documentation does not exist. What we know comes from king lists (compiled centuries later), tomb inscriptions, administrative papyri (fragmentary), and monumental archaeology. The chronology is conventional and debated among Egyptologists. The historical record is heavily biased toward elite, religious, and monumental activities. Economic, social, and demographic history are largely invisible. No contemporary written records survive for individual years in this period.",
-  "graph_edges": []
+  "events": [
+    {
+      "id": "-2585-001",
+      "title": "Khufu's reign (traditional chronology) or successor's reign; Giza complex under construction",
+      "region": "Egypt, Giza Plateau",
+      "coordinates_approx": "30.0088, 31.1342",
+      "category": "cultural",
+      "description": "2585 BCE falls within the reign of Khufu (traditional dating c. 2589\u20132566 BCE) or possibly his successor Khafre. The Giza plateau was the centre of Egyptian state activity, with the Great Pyramid either recently completed or nearing completion, and the broader complex (Khafre's pyramid, the Sphinx, temples, causeways) under development. This year represents the continuation of the Old Kingdom's most intensive period of monumental construction and resource mobilisation.",
+      "key_figures": [
+        "Khufu (Pharaoh, traditional dating c. 2589\u20132566 BCE)",
+        "Khafre (Pharaoh, traditional dating c. 2558\u20132532 BCE, if this year falls in his reign)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Giza pyramid complex",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Abydos King List; Manetho's Aegyptiaca (later compilation)",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Old Kingdom chronology is uncertain by \u00b120\u201330 years. The year 2585 BCE is assigned by convention to the reign of Khufu or his successor in the traditional 'high chronology,' but the 'low chronology' would place this year in a different reign. No specific events are recorded for this year; the entry reflects the broader era context.",
+      "cross_references": [
+        "-2589-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Old Kingdom chronology is highly contested. The 'low chronology' places Khufu c. 2509\u20132483 BCE, roughly 80 years lower than the traditional dating used here. Radiocarbon dating of organic material from the pyramids has produced inconsistent results. The Abydos King List and Manetho's king list, our primary sources for dating, are themselves problematic: Manetho survives only in quotations by later authors, and the Abydos list may omit or conflate rulers. No contemporary written records from Khufu's reign survive.",
+  "historiographic_note": "The historical record for 2585 BCE is almost entirely dependent on Egyptian king lists compiled centuries or millennia after the fact, and on archaeological evidence from the Giza complex. There are no contemporary written records from Egypt for this period. The 'Old Kingdom' is a modern historiographic construct. Bias: Egyptian sources are heavily weighted toward royal monuments and the Nile Valley; the lives of ordinary people, regional variation, and non-Egyptian civilisations are largely invisible. What is likely missing: administrative records, economic data, the perspectives of non-elite Egyptians, and detailed information about contemporary developments in Mesopotamia, the Indus Valley, and elsewhere.",
+  "graph_edges": [
+    {
+      "from": "-2585-001",
+      "to": "-2589-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of Khufu's reign and Giza construction programme"
+    },
+    {
+      "from": "-2585-001",
+      "to": "-2494-001",
+      "relation": "led_to",
+      "note": "Old Kingdom pyramid-building tradition continues until Dynasty V decline"
+    }
+  ]
 }

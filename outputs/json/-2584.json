@@ -1,0 +1,90 @@
+{
+  "year": -2584,
+  "year_label": "2584 BCE",
+  "era_context": "Egypt's Old Kingdom, mid-Fourth Dynasty (c. 2613\u20132494 BCE). Khufu's reign has recently ended; his successor Khafre rules and is undertaking major pyramid construction at Giza. Simultaneously, the Akkadian Empire under Sargon of Akkad is consolidating power in Mesopotamia (r. 2334\u20132279 BCE in traditional chronology, though some scholars place Sargon later). In the Indus Valley, early urban centres are developing; in China, the Xia Dynasty is traditionally dated to this period, though archaeological confirmation remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Mesoamerica (no written records; archaeology sparse for this period)",
+    "Northern Europe (no written records)",
+    "Oceania (no written records)",
+    "Xia Dynasty China (traditional dating; archaeological evidence debated)"
+  ],
+  "events": [
+    {
+      "id": "-2584-001",
+      "title": "Khafre's pyramid construction at Giza",
+      "region": "Egypt, Giza Plateau",
+      "coordinates_approx": "29.9758, 31.1344",
+      "category": "cultural",
+      "description": "Khafre, Fourth Dynasty pharaoh, is in the midst of constructing his mortuary complex at Giza, including the second-largest pyramid on the plateau. The construction represents the peak of Old Kingdom pyramid-building technology and labour organisation. The Great Sphinx, traditionally attributed to Khafre's reign, may have been carved during this period, though dating remains debated. This project mobilised tens of thousands of workers and consumed vast resources, reflecting the centralised power and economic capacity of the Egyptian state.",
+      "key_figures": [
+        "Khafre (pharaoh, r. c. 2558\u20132532 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Pyramid of Khafre, Giza; archaeological evidence from excavation and stratigraphy",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List (Nineteenth Dynasty compilation of earlier king records)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The pyramid structure itself is dated by archaeological stratigraphy and architectural analysis. Khafre's regnal dates are traditionally assigned c. 2558\u20132532 BCE, placing -2584 early in his reign, though absolute chronology for the Old Kingdom remains debated (\u00b150\u2013100 years uncertainty in some schemes).",
+      "cross_references": [
+        "Follows from -2590-001 (Khufu's death and succession)"
+      ]
+    },
+    {
+      "id": "-2584-002",
+      "title": "Akkadian consolidation under Sargon of Akkad",
+      "region": "Mesopotamia, Akkad",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "Sargon of Akkad, founder of the Akkadian Empire, is consolidating control over Mesopotamian city-states through military conquest and administrative reorganisation. He established the first multi-ethnic empire in the region, replacing Sumerian political dominance with Akkadian (Semitic) rule. Sargon's reign marks a shift in Mesopotamian power dynamics and the introduction of Akkadian as an administrative language alongside Sumerian. His military innovations and centralised bureaucracy became models for later empires.",
+      "key_figures": [
+        "Sargon of Akkad (r. c. 2334\u20132279 BCE in traditional chronology)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon of Akkad inscriptions and later Babylonian chronicles (e.g., Sargon Birth Legend)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Akkadian-period sites (Nippur, Lagash, Uruk)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sargon's traditional dates (c. 2334\u20132279 BCE) are debated; some scholars place him 100\u2013150 years later (c. 2200 BCE). The year -2584 may fall before, during, or after his reign depending on chronological scheme. His existence and major conquests are confirmed by inscriptions and archaeological evidence, but precise dating remains uncertain.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Sargon of Akkad is highly contested. Traditional Mesopotamian chronology places him c. 2334\u20132279 BCE, but the 'short chronology' and 'ultra-short chronology' favour dates c. 100\u2013200 years later. If the later chronologies are correct, Sargon may not have been active in -2584. Additionally, the Great Sphinx's attribution to Khafre is disputed; some scholars argue it may date to an earlier or later period, or that its original purpose differed from traditional interpretations. The Sargon Birth Legend is a legendary text with uncertain historical basis.",
+  "historiographic_note": "Documentation for this period is heavily skewed toward Egypt and Mesopotamia, where written records and monumental archaeology exist. Egyptian chronology for the Old Kingdom is debated, with absolute dates uncertain by \u00b150\u2013100 years depending on the scheme used. Mesopotamian chronology is similarly contested, particularly for the Akkadian period. Sub-Saharan Africa, the Indus Valley, and East Asia are poorly documented for this specific year; the Xia Dynasty in China is traditionally dated to this era but lacks contemporary written records. The surviving sources are predominantly elite-focused (royal inscriptions, king lists, monumental architecture) and do not reflect the lives of the vast majority of the population.",
+  "graph_edges": [
+    {
+      "from": "-2584-001",
+      "to": "-2580-001",
+      "relation": "part_of",
+      "note": "Khafre's pyramid construction continued over several years"
+    },
+    {
+      "from": "-2584-002",
+      "to": "-2570-001",
+      "relation": "led_to",
+      "note": "Sargon's consolidation led to the Akkadian Empire's expansion and eventual conflict with Sumerian city-states"
+    }
+  ]
+}

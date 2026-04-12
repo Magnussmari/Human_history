@@ -1,68 +1,79 @@
 {
   "year": -2601,
   "year_label": "2601 BCE",
-  "era_context": "Identical to 2600 BCE: Early Dynastic Period III in Mesopotamia, Fourth Dynasty Egypt at its height, mature Indus Valley Civilization, and the uncertain early phase of the Xia Dynasty in China. This year falls within a multi-century era of relative stability in Egypt and the Indus Valley, contrasted with increasing militarization in Mesopotamia.",
+  "era_context": "The Early Dynastic Period III in Mesopotamia (c. 2600\u20132334 BCE) was characterized by the rise of competing city-states and increasing military competition. In Egypt, the Fourth Dynasty of the Old Kingdom continued its monumental building program. The Indus Valley Civilization was in its mature urban phase. In China, the traditional Xia Dynasty was supposedly in its early centuries, though archaeological evidence remains contested.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
+    "Southeast Asia",
     "Mesoamerica",
     "Northern Europe",
-    "Southeast Asia",
-    "Central Asia (Steppe cultures poorly documented for this period)"
+    "Central Asia (limited contemporary records)"
   ],
   "events": [
     {
       "id": "-2601-001",
-      "title": "Continuation of Indus Valley Civilization mature phase",
+      "title": "Indus Valley Civilization: Continued urban expansion and trade",
       "region": "Indus Valley (modern Pakistan and northwest India)",
       "coordinates_approx": "27.5\u00b0N, 68.5\u00b0E",
-      "category": "cultural",
-      "description": "The Indus Valley Civilization continued its mature phase with no documented major disruptions. Urban centers maintained their standardized planning, trade networks remained active, and the civilization's characteristic material culture persisted. This year is archaeologically indistinguishable from surrounding years in the mature phase (c. 2600\u20131900 BCE), representing a period of cultural continuity and stability.",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintained its extensive trade networks during this period, with evidence of commerce extending to Mesopotamia, the Persian Gulf, and Central Asia. Standardized weights and measures facilitated long-distance exchange. Urban centers continued to grow, with sophisticated infrastructure including drainage systems, public baths, and granaries. The civilization's economic organization appears to have been highly coordinated, though the mechanisms of central authority remain unclear.",
       "key_figures": [],
       "sources": [
         {
-          "name": "Archaeological stratigraphy and radiocarbon dating from Indus Valley sites",
+          "name": "Archaeological evidence from Harappa, Mohenjo-daro, and other Indus sites",
           "type": "archaeological",
           "contemporary": false
+        },
+        {
+          "name": "Indus seals and standardized weights",
+          "type": "epigraphic",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The mature phase of the Indus Valley Civilization is archaeologically confirmed, but individual years within this phase cannot be distinguished without high-precision dating methods.",
+      "certainty_note": "The mature Indus Valley Civilization is well-attested archaeologically; this year falls within the established chronological range (c. 2600\u20131900 BCE).",
       "cross_references": [
         "-2600-001"
       ]
     },
     {
       "id": "-2601-002",
-      "title": "Fourth Dynasty Egypt under Khafre or Menkaure",
-      "region": "Egypt (Nile Valley)",
-      "coordinates_approx": "29.98\u00b0N, 31.13\u00b0E",
-      "category": "political",
-      "description": "The Fourth Dynasty continued its reign, with either Khafre (r. c. 2558\u20132532 BCE) or Menkaure (r. c. 2532\u20132503 BCE) likely on the throne around 2601 BCE, depending on the chronological system used. The period was characterized by continued monumental construction, including the Pyramid of Khafre and the Great Sphinx at Giza. The Egyptian state maintained its centralized authority and agricultural surplus-based economy.",
+      "title": "Egyptian Old Kingdom: Continued monumental construction",
+      "region": "Egypt",
+      "coordinates_approx": "29.9\u00b0N, 31.1\u00b0E",
+      "category": "cultural",
+      "description": "During the Fourth Dynasty, Egypt continued its intensive pyramid and temple construction programs, reflecting the state's organizational capacity and ideological commitment to royal funerary monuments. The reign of Menkaure (or a contemporary Fourth Dynasty pharaoh) saw the continuation of this building tradition, with associated administrative and religious activities.",
       "key_figures": [
-        "Khafre (Pharaoh, r. c. 2558\u20132532 BCE)",
-        "Menkaure (Pharaoh, r. c. 2532\u20132503 BCE)"
+        "Fourth Dynasty pharaoh (likely Menkaure or contemporary)"
       ],
       "sources": [
         {
-          "name": "King Lists and pyramid inscriptions",
-          "type": "epigraphic",
-          "contemporary": false
+          "name": "Archaeological evidence from pyramid complexes and temple sites",
+          "type": "archaeological",
+          "contemporary": true
         },
         {
-          "name": "Archaeological evidence from pyramid complexes",
-          "type": "archaeological",
+          "name": "King lists and later historical compilations",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Egyptian chronology remains uncertain by \u00b150\u2013100 years; the specific pharaoh reigning in 2601 BCE cannot be determined with precision.",
+      "certainty_note": "The Fourth Dynasty's monumental building program is well-documented archaeologically, but specific events for individual years are rarely attested.",
       "cross_references": [
         "-2600-002"
       ]
     }
   ],
-  "disconfirming_evidence": "No specific events are documented for 2601 BCE in any tradition. The year is archaeologically indistinguishable from surrounding years. Egyptian chronology remains debated, and no contemporary sources provide year-specific information.",
-  "historiographic_note": "2601 BCE is not a year for which any specific historical events are documented. The historical record for this year is entirely dependent on archaeological evidence showing continuity with surrounding years. This reflects the general limitation of ancient chronology: most years in the pre-classical world are archaeologically invisible as discrete units.",
-  "graph_edges": []
+  "disconfirming_evidence": "No specific events are well-attested for 2601 BCE; the year is essentially undifferentiated from surrounding years in the historical record. Claims about specific pharaohs or rulers for this year are based on traditional chronologies that remain contested by modern scholars.",
+  "historiographic_note": "2601 BCE falls within a period where year-by-year documentation is essentially non-existent. The historical record for this era is organized by dynasty, reign, or archaeological phase rather than by individual years. Specific events for this year cannot be reliably distinguished from those of adjacent years. The sources that do exist (king lists, inscriptions, archaeological strata) are often undated or dated with large margins of error.",
+  "graph_edges": [
+    {
+      "from": "-2601-001",
+      "to": "-2600-001",
+      "relation": "contemporary_with",
+      "note": "Indus Valley Civilization continues without major documented change"
+    }
+  ]
 }

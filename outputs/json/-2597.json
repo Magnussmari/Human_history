@@ -1,17 +1,90 @@
 {
   "year": -2597,
   "year_label": "2597 BCE",
-  "era_context": "Early Bronze Age III. Akkadian Empire under Naram-Sin. Old Kingdom Egypt in its final phase (Dynasty 6). Harappan civilization in mature phase. Early Minoan Crete.",
+  "era_context": "Early Bronze Age III. The Akkadian Empire under Naram-Sin is at or near its zenith. Old Kingdom Egypt (Dynasty VI) is in its final century. The Indus Valley Civilization is in its mature phase. Traditional Chinese chronology places the Xia Dynasty in this period, though archaeological confirmation is contested.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
-    "East Asia",
-    "Americas",
     "Northern Europe",
-    "Central Asia"
+    "Oceania",
+    "The Americas",
+    "Central Asia",
+    "East Asia (Xia Dynasty chronology is highly uncertain)"
   ],
-  "events": [],
-  "disconfirming_evidence": "No disconfirming evidence identified for events listed.",
-  "historiographic_note": "The year -2597 has no specific documented events in the surviving historical record. The chronological systems for this period (Akkadian, Egyptian, Indus Valley) do not provide year-by-year precision. The absence of events in this entry reflects the limitations of ancient historical documentation rather than the absence of human activity. This year falls within the reign of Naram-Sin in Mesopotamia and the late Old Kingdom in Egypt, but no specific events are attested for this particular year.",
-  "graph_edges": []
+  "events": [
+    {
+      "id": "-2597-001",
+      "title": "Akkadian Empire: zenith of territorial control under Naram-Sin",
+      "region": "Mesopotamia, the Levant, and adjacent regions",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "Naram-Sin's reign represents the peak of Akkadian imperial power. The empire extends from the Persian Gulf to the Mediterranean, and from Anatolia to the Zagros Mountains. Trade networks are extensive, and the Akkadian language and culture are dominant throughout the region. However, external pressures from the Gutians and other highland peoples are mounting, and internal strains from the costs of maintaining such a large empire are becoming evident.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions, stelae, and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested, and the year -2597 falls within his reign based on Middle Chronology. However, absolute dating has \u00b150\u2013100 year uncertainty.",
+      "cross_references": [
+        "-2599-001",
+        "-2598-001"
+      ]
+    },
+    {
+      "id": "-2597-002",
+      "title": "Old Kingdom Egypt: Pepi II's reign continues; royal authority weakens",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Pepi II's reign continues, but the centralized authority of the Old Kingdom is visibly eroding. Provincial governors (nomarchs) are becoming increasingly independent, and the royal treasury is depleted. The construction of royal monuments has ceased, and the focus of royal activity is on military campaigns in Nubia and the Sinai. The administrative system that sustained the Old Kingdom is fragmenting.",
+      "key_figures": [
+        "Pepi II (Pharaoh, Dynasty VI)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative records, tomb inscriptions, and king lists",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Old Kingdom sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The decline of the Old Kingdom is well-attested archaeologically, but specific events within Pepi II's reign are difficult to date precisely. The year -2597 is assigned to his reign by convention.",
+      "cross_references": [
+        "-2599-002",
+        "-2598-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. The chronological framework remains debated, particularly regarding the absolute dating of Naram-Sin's reign and Pepi II's reign.",
+  "historiographic_note": "The historical record for -2597 is sparse and relies on the same sources as previous years. Specific events within the reigns of Naram-Sin and Pepi II are difficult to isolate to individual years. The surviving sources are primarily administrative and monumental records, which bias our understanding toward elite activities.",
+  "graph_edges": [
+    {
+      "from": "-2597-001",
+      "to": "-2599-001",
+      "relation": "contemporary_with",
+      "note": "Naram-Sin's reign continues; the Akkadian Empire is at its zenith."
+    },
+    {
+      "from": "-2597-002",
+      "to": "-2599-002",
+      "relation": "contemporary_with",
+      "note": "Pepi II's reign continues; Old Kingdom authority continues to weaken."
+    }
+  ]
 }

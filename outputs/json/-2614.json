@@ -1,0 +1,70 @@
+{
+  "year": -2614,
+  "year_label": "2614 BCE",
+  "era_context": "Egypt's Old Kingdom, Dynasty IV (c. 2589\u20132504 BCE). The reign of Khufu or his immediate successors; the age of the great pyramid complexes at Giza. Contemporaneously, the Akkad Empire was consolidating power in Mesopotamia under Sargon of Akkad (r. c. 2334\u20132279 BCE), though this is slightly later. In the Indus Valley, early urban centres were developing. This is the height of Egyptian monumental architecture and centralised pharaonic power.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Mesopotamia (Akkad/Sumeria) \u2014 limited specific events for this year",
+    "Indus Valley Civilisation \u2014 chronology poorly fixed to absolute dates",
+    "China \u2014 Xia Dynasty traditionally dated to this period but archaeological confirmation remains contested",
+    "Sub-Saharan Africa \u2014 virtually no written records",
+    "Americas \u2014 no written records; archaeological context sparse"
+  ],
+  "events": [
+    {
+      "id": "-2614-001",
+      "title": "Khufu's reign (probable period) and Giza pyramid complex construction",
+      "region": "Egypt, Giza Plateau",
+      "coordinates_approx": "30.0088, 31.1342",
+      "category": "cultural",
+      "description": "The Great Pyramid of Khufu (Cheops) is traditionally dated to c. 2589\u20132566 BCE, placing its construction in the early-to-mid Dynasty IV. By 2614 BCE, if Khufu was reigning, the pyramid complex would have been under active construction or recently completed. This monument represents the apex of Old Kingdom architectural ambition, requiring unprecedented labour organisation, stone-working technology, and administrative capacity. The pyramid's construction involved quarrying, transport, and placement of approximately 2.3 million limestone blocks, each weighing 2\u201315 tonnes.",
+      "key_figures": [
+        "Khufu (Pharaoh, Dynasty IV)"
+      ],
+      "sources": [
+        {
+          "name": "Manetho's Aegyptiaca (later compilation, 3rd century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Turin King List (New Kingdom papyrus, c. 1200 BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Giza pyramid complex (excavation and stratigraphy)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Radiocarbon dating of organic material from pyramid interior",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Khufu's reign is traditionally dated c. 2589\u20132566 BCE, but absolute chronology for the Old Kingdom remains debated. Radiocarbon dates from pyramid samples show scatter; some suggest dates up to 100\u2013150 years earlier. The year 2614 BCE is assigned by convention to the Dynasty IV period, but the specific regnal year is uncertain.",
+      "cross_references": [
+        "Follows from broader Dynasty IV consolidation",
+        "Precedes Dynasty V transition (c. 2504 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The absolute chronology of Egypt's Old Kingdom is contested. Traditional Egyptological dating (based on Manetho and king lists) places Khufu c. 2589\u20132566 BCE, but some radiocarbon studies suggest the pyramids may be 100\u2013150 years older (c. 2700 BCE or earlier). Additionally, the 'Khufu' attribution to the Great Pyramid, while traditional, rests partly on later sources and cartouches found in relieving chambers; some scholars have questioned whether the pyramid was completed during Khufu's reign or earlier. The labour force composition (slave vs. paid worker) remains debated; recent evidence from workers' villages suggests organised, possibly conscripted labour rather than slavery, complicating older narratives.",
+  "historiographic_note": "The historical record for 2614 BCE is almost entirely dependent on Egyptian monumental and administrative sources, which are biased toward royal achievement and religious ideology. No contemporary written records from Khufu's reign survive; all chronological information comes from later king lists and Manetho's compilation. Archaeological evidence (pyramids, tombs, artefacts) is abundant but mute on specific events or dates without external anchoring. Radiocarbon dating provides an independent check but has large error margins (\u00b150\u2013100 years) for this period. Non-Egyptian regions are virtually undocumented for this specific year.",
+  "graph_edges": [
+    {
+      "from": "-2614-001",
+      "to": "-2589-DYNASTY_IV_START",
+      "relation": "part_of",
+      "note": "Khufu's reign is part of Dynasty IV's broader consolidation and monumental building programme"
+    },
+    {
+      "from": "-2614-001",
+      "to": "-2504-DYNASTY_V_TRANSITION",
+      "relation": "led_to",
+      "note": "The monumental ambition of Dynasty IV (exemplified by Khufu's pyramid) was followed by a shift in royal ideology and pyramid scale in Dynasty V"
+    }
+  ]
+}

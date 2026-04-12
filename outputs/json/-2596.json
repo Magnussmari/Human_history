@@ -1,17 +1,87 @@
 {
   "year": -2596,
   "year_label": "2596 BCE",
-  "era_context": "Early Bronze Age III. Akkadian Empire under Naram-Sin. Old Kingdom Egypt (Dynasty 6). Harappan civilization in mature phase. Early Minoan Crete.",
+  "era_context": "Early Bronze Age III. The Akkadian Empire under Naram-Sin is at its height. Old Kingdom Egypt (Dynasty VI) is in its final century, with central authority fragmenting. The Indus Valley Civilization is in its mature phase. In China, the Xia Dynasty is traditionally dated to this period, though archaeological evidence is contested.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
-    "East Asia",
-    "Americas",
     "Northern Europe",
-    "Central Asia"
+    "Oceania",
+    "The Americas",
+    "Central Asia",
+    "East Asia (Xia Dynasty chronology is highly uncertain)"
   ],
-  "events": [],
-  "disconfirming_evidence": "No disconfirming evidence identified for events listed.",
-  "historiographic_note": "The year -2596 has no specific documented events in the surviving historical record. Like -2597, this year falls within the broader context of Naram-Sin's reign and the late Old Kingdom, but no particular events are attested for this year. The chronological precision required to identify year-specific events does not exist for this period outside of a few exceptional cases.",
-  "graph_edges": []
+  "events": [
+    {
+      "id": "-2596-001",
+      "title": "Akkadian Empire: military and administrative consolidation",
+      "region": "Mesopotamia and the Levant",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "Naram-Sin continues to consolidate Akkadian control over conquered territories. The empire's administrative system is sophisticated, with appointed governors managing distant provinces and a standing military maintaining order. Trade networks are extensive, connecting Mesopotamia to the Indus Valley, the Persian Gulf, and the Levant. However, the costs of maintaining such a large empire are mounting, and external pressures from the Gutians and other highland peoples are increasing.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested. The year -2596 falls within his reign based on Middle Chronology, with \u00b150\u2013100 year uncertainty.",
+      "cross_references": [
+        "-2599-001",
+        "-2598-001",
+        "-2597-001"
+      ]
+    },
+    {
+      "id": "-2596-002",
+      "title": "Old Kingdom Egypt: final phase of Dynasty VI",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Pepi II's reign continues, and the Old Kingdom's centralized authority is visibly eroding. Provincial governors are accumulating wealth and power, and the royal treasury is depleted. The construction of royal monuments has ceased, and the focus of royal activity is on military campaigns in Nubia and the Sinai. The administrative system that sustained the Old Kingdom is fragmenting, and the transition to the First Intermediate Period is imminent.",
+      "key_figures": [
+        "Pepi II (Pharaoh, Dynasty VI)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative records, tomb inscriptions, and king lists",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Old Kingdom sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The decline of the Old Kingdom is well-attested archaeologically, but specific events within Pepi II's reign are difficult to date precisely. The year -2596 is assigned to his reign by convention.",
+      "cross_references": [
+        "-2599-002",
+        "-2598-002",
+        "-2597-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. The chronological framework remains debated.",
+  "historiographic_note": "The historical record for -2596 is sparse and relies on the same sources as previous years. Specific events within the reigns of Naram-Sin and Pepi II are difficult to isolate to individual years. The surviving sources are primarily administrative and monumental records.",
+  "graph_edges": [
+    {
+      "from": "-2596-001",
+      "to": "-2599-001",
+      "relation": "contemporary_with",
+      "note": "Naram-Sin's reign continues; the Akkadian Empire is at its height."
+    },
+    {
+      "from": "-2596-002",
+      "to": "-2599-002",
+      "relation": "contemporary_with",
+      "note": "Pepi II's reign continues; Old Kingdom authority continues to weaken."
+    }
+  ]
 }

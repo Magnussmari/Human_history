@@ -1,0 +1,85 @@
+{
+  "year": -2609,
+  "year_label": "2609 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Egypt; the Old Kingdom of Egypt is in decline (late Dynasty 5 or early Dynasty 6). Mesopotamia is in the Early Dynastic III period, with city-states competing for regional dominance. The Indus Valley Civilization is in its mature phase. Writing systems are well-established in Egypt and Mesopotamia; cuneiform and hieroglyphics are the dominant recording media.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "East Asia beyond the Indus Valley (limited contemporary records)",
+    "The Americas (no written records; archaeological evidence sparse and difficult to date precisely)"
+  ],
+  "events": [
+    {
+      "id": "-2609-001",
+      "title": "Reign of Pepi II of Egypt (traditional dating)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "Pepi II is traditionally dated to this period as a late Dynasty 5 or early Dynasty 6 pharaoh, though his actual reign length and dates are heavily disputed. Ancient sources (the Abydos King List and Turin Papyrus) attribute him an extraordinarily long reign of 64 years, which modern scholars regard as legendary or exaggerated. His reign is associated with the gradual weakening of central authority and the rise of provincial governors, marking the transition toward the First Intermediate Period. Archaeological evidence from his pyramid complex at Saqqara and administrative records suggest continued state organization, but the scale of royal building projects declined compared to earlier Old Kingdom pharaohs.",
+      "key_figures": [
+        "Pepi II (Pharaoh, Dynasty 5 or 6)"
+      ],
+      "sources": [
+        {
+          "name": "Abydos King List (temple inscription, 19th Dynasty compilation of earlier reigns)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Turin Papyrus (Ramesside-era king list)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pyramid complex and administrative records from Saqqara",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Pepi II's dates are among the most disputed in Egyptology. Traditional chronologies place him c. 2278\u20132184 BCE, but some scholars argue for dates as late as 2250\u20132150 BCE or earlier. The 64-year reign is almost certainly legendary. Assignment to -2609 is conventional but carries \u00b150-year uncertainty.",
+      "cross_references": []
+    },
+    {
+      "id": "-2609-002",
+      "title": "Mature Indus Valley Civilization urban centers",
+      "region": "Indus Valley, South Asia (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization is at its peak, with major urban centers such as Harappa, Mohenjo-daro, Dholavira, and Kalibangan fully developed and functioning. These cities are characterized by sophisticated urban planning, standardized weights and measures, advanced drainage systems, and a still-undeciphered writing system. Trade networks extend to Mesopotamia, the Persian Gulf, and Central Asia. No monumental temples or palaces have been identified, suggesting a different form of social organization than contemporary Mesopotamian or Egyptian civilizations. The civilization shows remarkable cultural uniformity across a vast geographic area.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, Dholavira, and Kalibangan",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature phase of the Indus Valley Civilization is well-attested archaeologically. Absolute dating relies on radiocarbon and stratigraphic correlation; the mature phase is generally dated 2500\u20131900 BCE, placing -2609 firmly within it.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Pepi II's traditional 64-year reign is rejected by virtually all modern Egyptologists as legendary. The actual length of his reign remains unknown. Some scholars argue that the 'decline' of the Old Kingdom was more gradual and less catastrophic than older narratives suggested, with provincial authority rising not as a collapse but as an administrative evolution. The Indus Valley Civilization's lack of monumental religious architecture contradicts assumptions that all Bronze Age civilizations were organized around temple-state or palace-state models.",
+  "historiographic_note": "For Egypt, the record depends heavily on later king lists and tomb inscriptions, which are subject to scribal error, deliberate erasure, and legendary embellishment. Contemporary administrative records are fragmentary. For the Indus Valley, the archaeological record is rich but the undeciphered script prevents direct historical narrative; interpretation relies on material culture and comparative analysis. Sub-Saharan Africa, northern Europe, and most of the Americas are essentially absent from the historical record for this period.",
+  "graph_edges": [
+    {
+      "from": "-2609-001",
+      "to": "-2180-001",
+      "relation": "led_to",
+      "note": "Pepi II's reign (or its end) is traditionally associated with the collapse of Old Kingdom authority and the onset of the First Intermediate Period."
+    },
+    {
+      "from": "-2609-002",
+      "to": "-1900-001",
+      "relation": "led_to",
+      "note": "The mature Indus Valley Civilization eventually declined and was abandoned by c. 1900 BCE; causes remain debated."
+    }
+  ]
+}
