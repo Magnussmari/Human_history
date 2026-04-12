@@ -1,0 +1,85 @@
+{
+  "year": -3135,
+  "year_label": "3135 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Egypt; Old Kingdom Egypt under the Fifth Dynasty (c. 2494\u20132345 BCE in conventional chronology). Mesopotamia in the Early Dynastic IIIb period. The Indus Valley Civilization is in its mature phase. Writing systems are established in Egypt and Mesopotamia; monumental architecture dominates elite societies.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "Central Asia (limited contemporary sources)",
+    "Oceania and Pacific (no written records; archaeological evidence sparse)"
+  ],
+  "events": [
+    {
+      "id": "-3135-001",
+      "title": "Reign of Pharaoh Djedkare Isesi (Fifth Dynasty Egypt)",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Djedkare Isesi ruled during the latter part of the Fifth Dynasty, a period of relative stability but declining royal power. His reign saw continued construction of monuments and maintenance of the bureaucratic apparatus, though evidence suggests growing autonomy of provincial governors. The period marks a transition toward the eventual fragmentation of centralized authority that would characterize the First Intermediate Period.",
+      "key_figures": [
+        "Djedkare Isesi (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from mortuary temple at Abusir",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Djedkare Isesi's reign is attested in king lists and temple inscriptions. Absolute dating to 3135 BCE is conventional but uncertain by \u00b150\u2013100 years depending on chronological system used (high, middle, or low chronology).",
+      "cross_references": []
+    },
+    {
+      "id": "-3135-002",
+      "title": "Mature Indus Valley Civilization urban centers",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.5, 68.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization was at its height during this period, with major urban centers such as Harappa and Mohenjo-daro fully developed. These cities featured planned street grids, standardized weights and measures, and sophisticated drainage systems. The civilization's undeciphered script appears on seals and pottery. Trade networks extended to Mesopotamia and the Arabian Peninsula.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa and Mohenjo-daro",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals with undeciphered script",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Material evidence from excavation is abundant. Dating to the Mature Harappan phase (c. 2600\u20131900 BCE) is well-established through radiocarbon and stratigraphic analysis, though absolute dating carries \u00b1100\u2013150 year uncertainty.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The conventional dating of the Fifth Dynasty and Indus Valley Civilization relies heavily on Egyptian king-list chronologies, which have been revised multiple times. Some scholars argue for a 'low chronology' that would place these events 100\u2013150 years later. The Indus script remains undeciphered, so claims about the civilization's political structure, religion, or administrative organization are speculative and contested.",
+  "historiographic_note": "This period is documented primarily through archaeological evidence and Egyptian administrative records. The Egyptian record is biased toward elite and royal activities; the lives of common people are largely invisible. For the Indus Valley, the absence of deciphered writing means that interpretation relies entirely on material culture, which is subject to multiple interpretations. Mesopotamian records for this period are fragmentary. Sub-Saharan Africa, Europe, and most of Asia have no written records; knowledge depends on archaeology alone.",
+  "graph_edges": [
+    {
+      "from": "-3135-001",
+      "to": "-3100-001",
+      "relation": "led_to",
+      "note": "Declining centralized authority during late Fifth Dynasty contributed to political fragmentation in the First Intermediate Period"
+    },
+    {
+      "from": "-3135-002",
+      "to": "-3000-001",
+      "relation": "part_of",
+      "note": "Mature Harappan phase continued until c. 1900 BCE; this year is within the civilization's peak period"
+    }
+  ]
+}

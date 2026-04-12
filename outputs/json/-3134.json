@@ -1,0 +1,70 @@
+{
+  "year": -3134,
+  "year_label": "3134 BCE",
+  "era_context": "Early Bronze Age Egypt, during the reign of Djoser of the Third Dynasty (c. 2670\u20132650 BCE in conventional chronology, though absolute dating remains debated). This period marks the transition from the Early Dynastic Period to the Old Kingdom proper. The Nile Valley was consolidating centralized pharaonic authority, and monumental stone architecture was emerging as a defining feature of Egyptian civilization. Contemporaneously, the Akkadian Empire was expanding in Mesopotamia, and the Indus Valley Civilization was in its mature phase.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "Central Asia and the Steppe (limited contemporary documentation)",
+    "Mesoamerica (Early Formative period, sparse dating precision)"
+  ],
+  "events": [
+    {
+      "id": "-3134-001",
+      "title": "Reign of Djoser, Third Dynasty Egypt \u2014 Consolidation of Pharaonic Authority",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.8\u00b0N, 31.1\u00b0E",
+      "category": "political",
+      "description": "Djoser's reign represents a watershed in Egyptian state formation. He consolidated centralized authority over Upper and Lower Egypt and initiated the construction of monumental stone architecture on an unprecedented scale. His reign saw the development of a sophisticated bureaucratic apparatus and the emergence of the vizier as a key administrative office. The period marks the beginning of the Old Kingdom proper, characterized by the pyramid-building age and the deification of the pharaoh as a living god.",
+      "key_figures": [
+        "Djoser (Pharaoh, Third Dynasty)",
+        "Imhotep (Vizier, architect, polymath)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (preserved in Josephus and Eusebius)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Saqqara complex",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Djoser's reign is well-attested in king lists and the Saqqara complex is archaeologically secure. However, absolute dating of the Third Dynasty remains contested; conventional chronology places him c. 2670\u20132650 BCE, but some scholars argue for dates up to 200 years earlier or later. The year -3134 is assigned by convention within the lower chronology framework.",
+      "cross_references": [
+        "Follows from consolidation of Early Dynastic Period",
+        "Precedes Fourth Dynasty pyramid age (-3100 to -2900 approx.)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The absolute dating of Djoser's reign is highly disputed. While his existence and major achievements are confirmed by archaeological evidence (Saqqara Step Pyramid complex, administrative records), the conventional chronology placing him c. 2670\u20132650 BCE is challenged by some scholars who argue for a 'low chronology' (placing him c. 2500 BCE) or 'high chronology' (c. 2900 BCE). The assignment of -3134 to this year is therefore somewhat arbitrary and reflects one chronological framework among several defended in modern scholarship. Additionally, the extent to which Djoser 'consolidated' authority versus inheriting an already-centralized state is debated; some scholars emphasize continuity from the Second Dynasty rather than revolutionary change.",
+  "historiographic_note": "The historical record for Djoser's reign is heavily dependent on later king lists (Turin, Abydos) compiled centuries after his death, and on the Saqqara complex itself, which is archaeologically rich but architecturally difficult to date precisely without organic material. Manetho's account, preserved only in quotations by later Greek and Christian authors, introduces further layers of transmission and potential distortion. The bias toward monumental architecture means that administrative, economic, and social developments are underrepresented in the surviving record. The absence of contemporary written records (beyond administrative labels on pottery and stone) means that much of what we 'know' about Djoser's policies and achievements is inferred from architectural and administrative archaeology rather than direct testimony.",
+  "graph_edges": [
+    {
+      "from": "-3134-001",
+      "to": "-3100-PYRAMID_AGE",
+      "relation": "led_to",
+      "note": "Djoser's innovations in stone architecture and centralized authority set the template for the Fourth Dynasty pyramid-building age"
+    },
+    {
+      "from": "-3134-001",
+      "to": "-3200-EARLY_DYNASTIC_CONSOLIDATION",
+      "relation": "caused_by",
+      "note": "Djoser's reign represents the culmination of Early Dynastic state-building processes"
+    }
+  ]
+}

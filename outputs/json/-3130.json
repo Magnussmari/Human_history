@@ -1,0 +1,66 @@
+{
+  "year": -3130,
+  "year_label": "3130 BCE",
+  "era_context": "Early Bronze Age, during the reign of Djoser (Third Dynasty Egypt) and Sargon of Akkad (Akkadian Empire). This period marks the height of early state consolidation across multiple regions. Egypt was in the midst of the Old Kingdom, characterized by the pyramid-building age and the deification of the pharaoh. Mesopotamia was experiencing the Akkadian Empire's expansion and consolidation. The Indus Valley Civilization was in its mature phase, with extensive urban centers and trade networks. In China, the Xia Dynasty was traditionally dated to this period, though archaeological confirmation remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica",
+    "Most of China"
+  ],
+  "events": [
+    {
+      "id": "-3130-001",
+      "title": "Construction of the Step Pyramid of Djoser at Saqqara \u2014 Monumental Stone Architecture",
+      "region": "Egypt, Saqqara (near Memphis)",
+      "coordinates_approx": "29.87\u00b0N, 31.22\u00b0E",
+      "category": "technological",
+      "description": "The Step Pyramid of Djoser, designed by the architect Imhotep, represents a revolutionary innovation in monumental stone architecture. It was the first large-scale stone structure built in Egypt and possibly the world. The pyramid was constructed in stages, beginning with a mastaba (rectangular tomb) and evolving into a six-stepped structure. The complex at Saqqara included temples, administrative buildings, and other structures, all built in stone. This innovation marked a turning point in Egyptian architecture and established the template for the pyramid-building age of the Old Kingdom. The use of stone instead of mud brick represented a significant technological and organizational achievement.",
+      "key_figures": [
+        "Djoser (Pharaoh, Third Dynasty)",
+        "Imhotep (Architect, vizier, polymath)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Saqqara complex (excavations by Auguste Mariette and others)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Inscriptions at Saqqara mentioning Imhotep and Djoser",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Later biographical texts about Imhotep (Ptolemaic period)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Step Pyramid and the Saqqara complex are archaeologically secure and well-documented. However, the precise dating of construction is debated; conventional chronology places Djoser's reign c. 2670\u20132650 BCE, but alternative chronologies place him earlier or later. The year -3130 is assigned by convention within one chronological framework.",
+      "cross_references": [
+        "Part of Djoser's reign (-3134 to -3130 approx.)",
+        "Precedes the Fourth Dynasty pyramid age (-3100 to -2900 approx.)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The absolute dating of the Step Pyramid's construction is debated. While the structure itself is archaeologically confirmed, the conventional chronology placing it c. 2670\u20132650 BCE is challenged by alternative chronologies. Additionally, some scholars debate whether the Step Pyramid represents a revolutionary innovation or an evolution of earlier mastaba traditions; the extent of Imhotep's individual genius versus the collective achievement of the royal workshop is also debated. The assignment of this event to -3130 is somewhat arbitrary and reflects one chronological framework among several defended in modern scholarship.",
+  "historiographic_note": "The historical record for the Step Pyramid is heavily dependent on archaeological evidence, with limited contemporary written documentation. The complex at Saqqara is well-preserved and extensively excavated, but the interpretation of its purpose, construction sequence, and symbolic meaning relies on inference from material culture. Later biographical texts about Imhotep, written during the Ptolemaic period (centuries after his death), may reflect legendary embellishment rather than historical fact. The bias toward monumental architecture means that the social, economic, and administrative aspects of the construction project are underrepresented in the surviving record. Additionally, the historical record is heavily weighted toward Egypt; developments in other regions during this period are either poorly documented or entirely absent from surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-3130-001",
+      "to": "-3134-001",
+      "relation": "part_of",
+      "note": "The Step Pyramid construction was part of Djoser's broader program of state consolidation and monumental architecture"
+    },
+    {
+      "from": "-3130-001",
+      "to": "-3100-PYRAMID_AGE",
+      "relation": "led_to",
+      "note": "The Step Pyramid established the template for the Fourth Dynasty pyramid-building age"
+    }
+  ]
+}

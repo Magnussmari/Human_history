@@ -1,0 +1,98 @@
+{
+  "year": -3133,
+  "year_label": "3133 BCE",
+  "era_context": "Early Bronze Age, during the reign of Djoser (Third Dynasty Egypt). The Akkadian Empire under Sargon of Akkad was expanding militarily in Mesopotamia. The Indus Valley Civilization was in its mature phase, with extensive trade networks. In China, the Xia Dynasty was traditionally dated to this period, though archaeological confirmation remains contested. This was a period of increasing urbanization, long-distance trade, and the consolidation of early state systems across multiple regions.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica",
+    "Most of China (Xia Dynasty dating is highly uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-3133-001",
+      "title": "Akkadian Expansion under Sargon of Akkad \u2014 Military Campaigns in Mesopotamia",
+      "region": "Mesopotamia (modern Iraq, Syria, Turkey)",
+      "coordinates_approx": "33.3\u00b0N, 44.4\u00b0E",
+      "category": "military",
+      "description": "Sargon of Akkad (r. c. 2334\u20132279 BCE in conventional chronology) conducted a series of military campaigns to consolidate Akkadian control over Mesopotamia. He defeated the Sumerian city-states and established the first multi-ethnic empire in the region. His campaigns extended from the Persian Gulf to the Mediterranean and into Anatolia. Sargon's military innovations, including the use of professional soldiers and siege warfare, set new standards for ancient warfare. His reign marked the transition from city-state politics to imperial organization.",
+      "key_figures": [
+        "Sargon of Akkad (Akkadian king, military commander)",
+        "Lugalzagesi (Sumerian king, defeated by Sargon)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon of Akkad Inscription (clay tablets, Nippur and other sites)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Naram-Sin Stele (grandson's inscription, later but describing Sargon's legacy)",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sargon's existence and major military campaigns are well-attested in contemporary inscriptions and later king lists. However, the absolute dating of his reign is debated; conventional chronology places him c. 2334\u20132279 BCE, but some scholars argue for dates 100\u2013200 years earlier or later. The year -3133 is assigned by convention within one chronological framework.",
+      "cross_references": [
+        "Contemporary with Djoser's reign in Egypt (-3134 to -3130 approx.)",
+        "Precedes the fall of the Akkadian Empire (-3200 to -3100 approx.)"
+      ]
+    },
+    {
+      "id": "-3133-002",
+      "title": "Indus Valley Civilization \u2014 Mature Phase Urban Development",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0\u00b0N, 68.0\u00b0E",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization was in its mature phase, characterized by large, planned cities such as Harappa and Mohenjo-daro. These cities featured sophisticated urban planning, standardized weights and measures, and extensive trade networks extending to Mesopotamia, the Persian Gulf, and Central Asia. The civilization was notable for its apparent absence of monumental religious architecture and its undeciphered script, which remains one of archaeology's major unsolved problems. The period represents one of the world's earliest examples of large-scale urban organization.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Harappa, Mohenjo-daro, and other Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus script seals and tablets",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian trade records mentioning 'Meluhha' (likely Indus Valley)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and characteristics of the Indus Valley Civilization in this period are confirmed by extensive archaeological evidence. Absolute dating is based on radiocarbon and stratigraphic analysis, with the mature phase generally dated to c. 2600\u20131900 BCE. The year -3133 falls within this period by conventional chronology.",
+      "cross_references": [
+        "Contemporary with Akkadian expansion in Mesopotamia",
+        "Precedes the decline of the Indus Valley Civilization (-2000 to -1800 approx.)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The absolute dating of Sargon of Akkad's reign remains highly contested among scholars. While his existence and major achievements are confirmed by contemporary inscriptions, the conventional chronology (c. 2334\u20132279 BCE) is challenged by alternative chronologies that would place him significantly earlier or later. This affects the year assignment for -3133. Additionally, some scholars debate the extent of Sargon's actual territorial control versus the claims made in his inscriptions; the 'Akkadian Empire' may have been less centralized and more fragile than traditional accounts suggest. For the Indus Valley Civilization, the undeciphered script means that much of what we know is inferred from material culture rather than written records, limiting our understanding of political organization, religious beliefs, and social structure.",
+  "historiographic_note": "The historical record for this year is heavily dependent on later compilations (Sumerian King List) and on the self-promotional inscriptions of Sargon, which may exaggerate his achievements. The Indus Valley Civilization is known almost entirely through archaeology, with the undeciphered script preventing direct access to contemporary written accounts. This creates a significant bias toward material culture and urban planning in our understanding of the period. The absence of monumental religious or royal architecture in the Indus Valley makes it difficult to assess political organization and religious beliefs compared to contemporary Egypt and Mesopotamia. Additionally, the historical record is heavily weighted toward Mesopotamia and Egypt; developments in other regions (China, Sub-Saharan Africa, the Americas) are either poorly documented or entirely absent from surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-3133-001",
+      "to": "-3134-001",
+      "relation": "contemporary_with",
+      "note": "Sargon's campaigns in Mesopotamia were contemporary with Djoser's reign in Egypt"
+    },
+    {
+      "from": "-3133-002",
+      "to": "-3133-001",
+      "relation": "contemporary_with",
+      "note": "The Indus Valley Civilization was contemporary with Akkadian expansion; trade networks connected these civilizations"
+    }
+  ]
+}
