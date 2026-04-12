@@ -1,0 +1,81 @@
+{
+  "year": -890,
+  "year_label": "890 BCE",
+  "era_context": "The early Iron Age II in the Levant and Eastern Mediterranean. The Neo-Assyrian Empire under Ashurnasirpal II (883\u2013859 BCE) is in its early consolidation phase, expanding military dominance. In Greece, the Geometric period continues; the alphabet is beginning to spread from Phoenician sources. Egypt is in the Third Intermediate Period under the weak Twenty-first Dynasty. The Zhou Dynasty in China is in decline; regional states are fragmenting.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "Central Asia and the Steppe (limited contemporary sources)",
+    "Mesoamerica (limited dating precision for this era)",
+    "Oceania (sparse archaeological record)"
+  ],
+  "events": [
+    {
+      "id": "-890-001",
+      "title": "Ashurnasirpal II's military campaigns in northern Syria and Mesopotamia",
+      "region": "Assyria, northern Syria, upper Mesopotamia",
+      "coordinates_approx": "36.0, 36.5",
+      "category": "military",
+      "description": "Ashurnasirpal II, having consolidated power in Assyria (883 BCE), continues systematic military campaigns to expand Assyrian hegemony. His annals record campaigns against the Aramean states and mountain peoples of the Zagros. These campaigns establish Assyria as the dominant regional military power and lay the groundwork for the later Neo-Assyrian Empire's territorial expansion. The campaigns are documented in his palace reliefs and inscriptions at Kalhu (Nimrud).",
+      "key_figures": [
+        "Ashurnasirpal II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Ashurnasirpal II's annals and palace inscriptions from Kalhu (Nimrud)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Palace reliefs and sculptural records from Nimrud",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ashurnasirpal II's reign is well-documented through contemporary inscriptions and archaeological evidence from his palace at Nimrud. Specific campaign dates within his reign (883\u2013859 BCE) are approximate but the general pattern is confirmed.",
+      "cross_references": []
+    },
+    {
+      "id": "-890-002",
+      "title": "Continued Phoenician maritime expansion and trade networks",
+      "region": "Eastern Mediterranean, Levantine coast, North Africa",
+      "coordinates_approx": "33.0, 35.0",
+      "category": "economic",
+      "description": "Phoenician city-states (Tyre, Sidon, Byblos) continue to dominate Mediterranean trade networks during this period. Archaeological evidence from shipwrecks and coastal settlements shows extensive trade in cedar, purple dye, tin, and other commodities. This era marks the height of Phoenician commercial influence before Greek competition intensifies. The alphabet, developed by Phoenicians, is spreading to Greek populations.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mediterranean shipwrecks and coastal sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian and Assyrian records mentioning Phoenician tribute and trade",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of Phoenician dominance in this period is well-established, but specific events in 890 BCE are not individually documented. Dating relies on archaeological stratigraphy and broader chronological frameworks.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Ashurnasirpal II's reign and specific campaigns remains subject to scholarly debate, particularly regarding the synchronization with Egyptian and Levantine records. Some scholars argue for a 'low chronology' that would shift these events by 50\u2013100 years, though the 'middle chronology' used here (placing Ashurnasirpal II at 883\u2013859 BCE) is currently more widely accepted. The significance of individual campaigns may be overstated in Assyrian inscriptions, which are propagandistic in nature.",
+  "historiographic_note": "Documentation for 890 BCE is heavily skewed toward Mesopotamia and the Levant, where written records and monumental inscriptions survive. Egypt's Twenty-first Dynasty is poorly documented compared to earlier periods. Greece has no written records; knowledge comes from archaeology and later tradition. China's historical record for this period (early Eastern Zhou) is fragmentary and relies on later compilations like the Shiji. Sub-Saharan Africa, Northern Europe, and the Americas have no written records for this year; knowledge is archaeological only and often imprecise in dating.",
+  "graph_edges": [
+    {
+      "from": "-890-001",
+      "to": "-859-ASHURNASIRPAL_DEATH",
+      "relation": "part_of",
+      "note": "These campaigns are part of Ashurnasirpal II's broader reign of military expansion"
+    },
+    {
+      "from": "-890-002",
+      "to": "-800-GREEK_ALPHABET_ADOPTION",
+      "relation": "led_to",
+      "note": "Phoenician alphabet transmission to Greeks accelerates during this period"
+    }
+  ]
+}

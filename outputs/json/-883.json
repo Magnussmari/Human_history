@@ -1,0 +1,140 @@
+{
+  "year": -883,
+  "year_label": "883 BCE",
+  "era_context": "Ashurnasirpal II ascends to the throne of Assyria, beginning a reign (883\u2013859 BCE) that will transform Assyria into the dominant imperial power of the Near East. This marks the beginning of the Neo-Assyrian Empire proper. In Greece, the Archaic period is emerging from the Greek Dark Ages. Egypt is fragmented under the Third Intermediate Period. China's Western Zhou is in its final century of centralized authority.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-883-001",
+      "title": "Ashurnasirpal II ascends to the Assyrian throne",
+      "region": "Assyria",
+      "coordinates_approx": "36.2, 43.2",
+      "category": "political",
+      "description": "Ashurnasirpal II becomes king of Assyria, succeeding his father Shalmaneser II. His accession marks the beginning of a transformative reign that will establish Assyria as the dominant imperial power in the Near East. Ashurnasirpal II is known for his military innovations, administrative reforms, and monumental building projects. His reign will be characterized by systematic military campaigns, the establishment of a professional standing army, and the development of sophisticated administrative systems for controlling conquered territories.",
+      "key_figures": [
+        "Ashurnasirpal II (King of Assyria)",
+        "Shalmaneser II (predecessor)"
+      ],
+      "sources": [
+        {
+          "name": "Ashurnasirpal II's royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "King lists and chronological records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ashurnasirpal II's accession date is well-established through contemporary Assyrian sources and king lists.",
+      "cross_references": []
+    },
+    {
+      "id": "-883-002",
+      "title": "Beginning of Ashurnasirpal II's military campaigns",
+      "region": "Assyria and surrounding regions",
+      "coordinates_approx": "36.0, 40.0",
+      "category": "military",
+      "description": "Upon his accession, Ashurnasirpal II immediately begins military campaigns to expand Assyrian control and suppress rebellions in neighboring territories. These campaigns are characterized by the use of overwhelming force, the systematic destruction of rebellious cities, and the deportation of populations. Ashurnasirpal II's military strategy emphasizes the creation of a professional standing army and the use of terror as a tool of imperial control. His campaigns will continue throughout his reign, establishing Assyrian dominance over much of the Near East.",
+      "key_figures": [
+        "Ashurnasirpal II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Ashurnasirpal II's royal annals",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Assyrian and conquered sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ashurnasirpal II's military campaigns are well-documented in contemporary inscriptions.",
+      "cross_references": []
+    },
+    {
+      "id": "-883-003",
+      "title": "Establishment of Nimrud as Assyrian capital",
+      "region": "Assyria",
+      "coordinates_approx": "36.2, 43.2",
+      "category": "political",
+      "description": "Ashurnasirpal II begins the process of establishing Nimrud (Kalhu) as a new royal capital and administrative center. The construction of monumental palaces, temples, and administrative buildings at Nimrud reflects the growing wealth and organizational capacity of the Assyrian state. This move centralizes bureaucratic control and serves as a symbol of Assyrian imperial ambition. The palace complex at Nimrud will become one of the most impressive architectural achievements of the ancient Near East.",
+      "key_figures": [
+        "Ashurnasirpal II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Nimrud",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Ashurnasirpal II's inscriptions describing construction projects",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The establishment of Nimrud as capital is archaeologically well-attested and dated to Ashurnasirpal II's reign.",
+      "cross_references": []
+    },
+    {
+      "id": "-883-004",
+      "title": "Western Zhou dynasty in its final century",
+      "region": "China",
+      "coordinates_approx": "34.3, 109.0",
+      "category": "political",
+      "description": "The Western Zhou dynasty is in its final century of centralized authority. By 883 BCE, regional lords are accumulating power at the expense of the Zhou king, and the feudal system is becoming increasingly entrenched. The process of fragmentation that will lead to the collapse of Western Zhou authority around 771 BCE is well underway. The period is characterized by increasing regional autonomy and the development of independent state systems.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bronze inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Western Zhou decline is well-established, but specific events in 883 BCE are not precisely documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No significant disconfirming evidence identified for events listed. Ashurnasirpal II's accession date and the beginning of his reign are well-established in contemporary sources.",
+  "historiographic_note": "Documentation for 883 BCE is moderate overall. Assyrian sources are rich and contemporary, providing detailed information about Ashurnasirpal II's accession and early reign. Chinese sources are later compilations with potential chronological errors. Greek sources are minimal. The historical record is heavily weighted toward the Near East, reflecting the bias of surviving written sources.",
+  "graph_edges": [
+    {
+      "from": "-883-001",
+      "to": "-883-002",
+      "relation": "led_to",
+      "note": "Ashurnasirpal II's accession leads to the beginning of his military campaigns"
+    },
+    {
+      "from": "-883-001",
+      "to": "-883-003",
+      "relation": "led_to",
+      "note": "Ashurnasirpal II's accession leads to the establishment of Nimrud as capital"
+    },
+    {
+      "from": "-883-002",
+      "to": "-859-XXX",
+      "relation": "part_of",
+      "note": "Ashurnasirpal II's military campaigns continue throughout his reign until 859 BCE"
+    }
+  ]
+}

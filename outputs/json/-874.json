@@ -1,0 +1,78 @@
+{
+  "year": -874,
+  "year_label": "874 BCE",
+  "era_context": "The Iron Age II Levant and Eastern Mediterranean. The Neo-Assyrian Empire under Ashurnasirpal II (883\u2013859 BCE) is in its expansionist phase, consolidating control over Mesopotamia and conducting campaigns into Syria-Palestine. Egypt is fragmented under the late 22nd Dynasty. The Phoenician city-states (Tyre, Sidon, Byblos) are at their commercial and political height. Greece is in the Geometric period, with the polis system beginning to crystallize.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written records for this period)",
+    "East Asia (Chinese records exist but are not well-integrated into Western historical synthesis for this specific year)",
+    "Mesoamerica (no written records; archaeological context only)",
+    "Northern Europe (no contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-874-001",
+      "title": "Ashurnasirpal II's campaigns in the Levant and consolidation of Assyrian hegemony",
+      "region": "Mesopotamia, Syria, Levant",
+      "coordinates_approx": "35.5, 34.5",
+      "category": "military",
+      "description": "Ashurnasirpal II, king of the Neo-Assyrian Empire, continues his systematic military campaigns to expand and consolidate Assyrian control over the Levantine states. These campaigns, documented in royal inscriptions and reliefs, establish Assyrian dominance over a vast tributary network stretching from Mesopotamia to the Mediterranean coast. The campaigns involve siege warfare, mass deportation policies, and the extraction of tribute from vassal states. This period marks the beginning of Assyrian imperial hegemony that will define the region for the next century.",
+      "key_figures": [
+        "Ashurnasirpal II (King of Assyria, r. 883\u2013859 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Royal Annals of Ashurnasirpal II (inscriptions from Kalhu/Nimrud palace)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Palace reliefs from Nimrud (British Museum and Iraq Museum)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ashurnasirpal II's reign is well-attested through contemporary royal inscriptions and archaeological remains. The specific year 874 BCE falls within his documented campaign period (883\u2013859 BCE), though individual campaign years are sometimes difficult to pinpoint precisely.",
+      "cross_references": []
+    },
+    {
+      "id": "-874-002",
+      "title": "Tyre and Phoenician city-states at peak commercial influence",
+      "region": "Phoenicia (modern Lebanon/Syria coast)",
+      "coordinates_approx": "33.27, 35.19",
+      "category": "economic",
+      "description": "The Phoenician city-states, particularly Tyre under King Abibaal or his successor, are at the height of their commercial and maritime power. Phoenician merchants dominate Mediterranean trade networks, establishing trading posts and colonies from Egypt to the western Mediterranean. This period sees the expansion of Phoenician influence in the Aegean and the beginning of their colonial ventures in the western Mediterranean, including the eventual founding of Carthage (traditionally dated to 814 BCE, but Phoenician presence in the west begins earlier).",
+      "key_figures": [
+        "Abibaal of Tyre (or successor, exact chronology debated)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Tyre excavations (pottery, trade goods, harbor structures)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian and Assyrian records mentioning Phoenician tribute and trade",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Phoenician commercial dominance in this period is well-established archaeologically and through references in Egyptian and Assyrian sources. However, the specific identity of Tyrian rulers in 874 BCE is uncertain due to gaps in Phoenician historical records.",
+      "cross_references": [
+        "-874-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Phoenician rulers in the 9th century BCE remains contested. Some scholars argue for a longer reign of Abibaal, while others propose different king lists. Additionally, the dating of early Phoenician colonial expansion is debated\u2014some scholars place significant western Mediterranean activity later in the 9th century, while others argue for earlier presence. The traditional narrative of Phoenician dominance can sometimes overstate their political independence relative to Assyrian pressure, which was increasing during this period.",
+  "historiographic_note": "The historical record for 874 BCE is dominated by Assyrian royal inscriptions, which are propagandistic in nature and emphasize Assyrian military success. Phoenician history relies heavily on later Greek and Roman sources, as well as archaeology. Egyptian records are fragmentary for this period. The perspective is heavily skewed toward imperial powers and commercial elites; the experiences of common people, agricultural populations, and non-tributary states are largely invisible. Sub-Saharan Africa, most of Europe, and East Asia are absent from the surviving written record, though archaeological work is gradually filling some gaps.",
+  "graph_edges": [
+    {
+      "from": "-874-001",
+      "to": "-874-002",
+      "relation": "contemporary_with",
+      "note": "Phoenician city-states exist as tributaries and trading partners within the Assyrian sphere of influence during this period"
+    }
+  ]
+}
