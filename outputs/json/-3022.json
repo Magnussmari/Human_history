@@ -1,0 +1,70 @@
+{
+  "year": -3022,
+  "year_label": "3022 BCE",
+  "era_context": "Late Fourth Dynasty Egypt; Early Dynastic Period III Mesopotamia. The era of the great pyramid-building pharaohs is entering its final phase. Monumental construction remains a defining feature of Egyptian state power. Mesopotamian city-states continue their competitive dynamics.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-3022-001",
+      "title": "Reign of Shepseskaf, Fourth Dynasty Egypt",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "Shepseskaf is traditionally dated to reign during this period as the sixth or seventh pharaoh of the Fourth Dynasty, likely the successor of Menkaure. His reign marks a transition in Egyptian monumental architecture; rather than constructing a pyramid, he commissioned a mastaba-style tomb (the Mastaba of Shepseskaf at Saqqara). This shift may reflect changing religious beliefs, economic constraints, or political priorities. His reign is conventionally dated circa 2503\u20132498 BCE.",
+      "key_figures": [
+        "Shepseskaf (Pharaoh of Egypt)",
+        "Userkaf (possible successor, founder of Fifth Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Saqqara",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Conventional dating places Shepseskaf's reign circa 2503\u20132498 BCE. Chronological uncertainties of \u00b150 years apply. The shift from pyramid to mastaba construction is archaeologically attested, but the reasons for this shift are debated.",
+      "cross_references": [
+        "Follows from -3023 (Menkaure's reign)",
+        "Precedes -3021 (Fifth Dynasty begins)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The conventional chronology of Shepseskaf's reign is subject to the same uncertainties as his predecessors. The reasons for the shift from pyramid to mastaba construction are debated; some scholars attribute this to economic decline, others to religious or political change. The length of his reign (conventionally 4\u20136 years) is uncertain.",
+  "historiographic_note": "Documentation for -3022 is sparse. The year is defined by the conventional chronology of Egyptian royal succession. The shift in monumental architecture is archaeologically attested and represents a significant cultural change, but the specific events of this year are not documented. Mesopotamian sources are absent.",
+  "graph_edges": [
+    {
+      "from": "-3022-001",
+      "to": "-3023-001",
+      "relation": "caused_by",
+      "note": "Shepseskaf's reign follows Menkaure's"
+    },
+    {
+      "from": "-3022-001",
+      "to": "-3021-001",
+      "relation": "led_to",
+      "note": "Shepseskaf's reign ends the Fourth Dynasty; the Fifth Dynasty begins"
+    }
+  ]
+}

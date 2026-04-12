@@ -1,0 +1,116 @@
+{
+  "year": -3000,
+  "year_label": "3000 BCE",
+  "era_context": "The Early Bronze Age in the Eastern Mediterranean and Near East. Egypt's Early Dynastic Period (c. 3100\u20132686 BCE) is consolidating unified rule under the First and Second Dynasties. In Mesopotamia, the Early Dynastic III period sees the rise of city-states like Uruk, Lagash, and Ur, with cuneiform writing becoming standardized. The Indus Valley Civilization is in its early phases. This is the threshold of recorded history in many regions, though writing systems are still developing and literacy is restricted to scribal elites.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written records; archaeological evidence minimal in training data)",
+    "East Asia (early Chinese dynasties; Shang oracle bones are later; Xia dynasty traditionally dated but archaeologically unconfirmed)",
+    "Americas (no writing; archaeological record sparse for this period)",
+    "Northern Europe (no written records; archaeological evidence limited)"
+  ],
+  "events": [
+    {
+      "id": "-3000-001",
+      "title": "Consolidation of Egyptian unified state under Early Dynastic rule",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "By 3000 BCE, Egypt's First Dynasty (c. 3100\u20132890 BCE) has established centralized control over Upper and Lower Egypt following the legendary unification by Narmer/Menes. The royal court at Memphis administers a bureaucratic state with standardized weights, measures, and religious practices. Monumental architecture\u2014mastaba tombs and early temple complexes\u2014reflects consolidated power and resource mobilization. This period marks the transition from proto-dynastic to dynastic Egypt and the beginning of the Old Kingdom trajectory.",
+      "key_figures": [
+        "Narmer/Menes (legendary unifier, possibly Hor-Aha or Djer)",
+        "Djer (First Dynasty pharaoh, r. c. 3050\u20133000 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Narmer Palette (ceremonial slate palette with hieroglyphic inscriptions)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (later compilation, 19th Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Abydos and Saqqara (mastaba tombs, pottery, administrative seals)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The unification of Egypt is traditionally dated to c. 3100 BCE, but the exact year and the identity of the unifier (Narmer vs. Hor-Aha vs. Djer) remain debated. Archaeological evidence from royal tombs at Abydos supports a consolidated state by this period, but contemporary written records are minimal. Dating is approximate within \u00b150 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-3000-002",
+      "title": "Emergence of cuneiform writing in Mesopotamia",
+      "region": "Mesopotamia (Sumer, modern Iraq)",
+      "coordinates_approx": "32.0, 44.0",
+      "category": "technological",
+      "description": "By 3000 BCE, cuneiform writing has evolved from earlier proto-cuneiform tokens and impressions into a standardized system used for administrative, religious, and economic records. The earliest cuneiform texts (c. 3200\u20133000 BCE) are primarily accounting records and temple inventories from Uruk and other Sumerian city-states. This marks the beginning of written history in Mesopotamia and enables the preservation of detailed administrative and literary records that define subsequent civilizations.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Cuneiform tablets from Uruk (clay tablets with wedge impressions)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological stratigraphy from Uruk excavations (Eanna precinct)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Cuneiform tablets are directly dated by archaeological context and internal evidence. The transition from proto-cuneiform to full cuneiform occurs c. 3200\u20133000 BCE; by 3000 BCE, the system is standardized.",
+      "cross_references": []
+    },
+    {
+      "id": "-3000-003",
+      "title": "Early Indus Valley Civilization settlement expansion",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "demographic",
+      "description": "The Indus Valley Civilization is in its Early Harappan phase (c. 3300\u20132600 BCE), with scattered settlements expanding across the Indus floodplain and adjacent regions. By 3000 BCE, agricultural villages with standardized pottery, planned layouts, and evidence of long-distance trade are becoming more numerous. This period precedes the mature Harappan phase but shows the foundational settlement patterns and economic networks that will characterize the civilization's peak.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and smaller sites (pottery, settlement plans, faunal remains)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Radiocarbon dating and stratigraphic analysis",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The chronology of the Indus Valley Civilization is debated. Traditional dating places Early Harappan c. 3300\u20132600 BCE, but some scholars argue for later dates. Radiocarbon evidence is limited and sometimes inconsistent. Dating to 3000 BCE is approximate within \u00b1100 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Egyptian unification under a single pharaoh (Narmer) in a single moment is increasingly questioned by scholars. Some evidence suggests a more gradual process of political consolidation over several generations. The identity of Narmer and whether he is the same figure as Hor-Aha or Djer remains unresolved. Additionally, the Indus Valley Civilization's chronology is contested; some scholars place the Early Harappan phase later (c. 2800\u20132600 BCE), which would shift the significance of 3000 BCE as a developmental milestone.",
+  "historiographic_note": "The historical record for 3000 BCE is heavily skewed toward Egypt and Mesopotamia, where writing systems preserve administrative and religious records. The Indus Valley Civilization is known primarily through archaeology, with no deciphered writing system. Sub-Saharan Africa, East Asia, and the Americas are essentially absent from the written record at this date, though archaeological evidence exists but is underrepresented in Western historiography. The surviving sources are elite-focused (royal inscriptions, temple records) and do not represent the broader population. Dating precision is limited; most events are assigned to this year by convention rather than exact contemporary documentation.",
+  "graph_edges": [
+    {
+      "from": "-3000-001",
+      "to": "-2686-001",
+      "relation": "led_to",
+      "note": "Egyptian Early Dynastic consolidation leads to the Old Kingdom and pyramid-building era"
+    },
+    {
+      "from": "-3000-002",
+      "to": "-2800-001",
+      "relation": "led_to",
+      "note": "Cuneiform writing enables the preservation of Sumerian literature and administrative records"
+    },
+    {
+      "from": "-3000-003",
+      "to": "-2600-001",
+      "relation": "led_to",
+      "note": "Early Harappan settlements develop into the mature Indus Valley Civilization"
+    }
+  ]
+}

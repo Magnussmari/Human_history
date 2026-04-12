@@ -1,0 +1,99 @@
+{
+  "year": -3020,
+  "year_label": "3020 BCE",
+  "era_context": "Early Fifth Dynasty Egypt under Sahure; Early Dynastic Period III Mesopotamia. The Fifth Dynasty is characterised by the construction of sun temples and smaller pyramids, a shift in religious emphasis toward solar theology, and the expansion of Egyptian maritime trade. Mesopotamian city-states continue their competitive dynamics.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-3020-001",
+      "title": "Reign of Sahure, Fifth Dynasty Egypt",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "Sahure is traditionally dated as the second pharaoh of the Fifth Dynasty, reigning after Userkaf. His reign is conventionally dated circa 2491\u20132477 BCE. Sahure is notable for his construction of a sun temple at Abusir and a pyramid complex, as well as for his apparent expansion of Egyptian maritime trade, particularly with the Levantine coast (attested in reliefs depicting ships and foreign trade). His reign represents the consolidation of Fifth Dynasty religious and political priorities.",
+      "key_figures": [
+        "Sahure (Pharaoh of Egypt)",
+        "Neferirkare (possible successor)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Abusir (pyramid and sun temple of Sahure)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Reliefs from Sahure's mortuary temple depicting maritime trade",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Conventional dating places Sahure's reign circa 2491\u20132477 BCE. Chronological uncertainties of \u00b150 years apply. The evidence for maritime trade is archaeologically attested in temple reliefs, but the extent and nature of this trade are debated.",
+      "cross_references": [
+        "Follows from -3021 (Userkaf's reign)",
+        "Precedes -3019 (Neferirkare's reign, if sequential)"
+      ]
+    },
+    {
+      "id": "-3020-002",
+      "title": "Indus Valley Civilisation mature phase",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilisation is in its mature phase during this period, characterised by large urban centres (Harappa, Mohenjo-daro), standardised weights and measures, a distinctive undeciphered script, and extensive trade networks. The civilisation is notable for its apparent lack of monumental religious architecture and its emphasis on urban planning and craft production. No specific events are documented for -3020, but the civilisation's material culture is well-attested archaeologically.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Harappa, Mohenjo-daro, and other Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus script (undeciphered)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilisation's existence and characteristics during this period are archaeologically confirmed. However, the absence of deciphered written records means that specific historical events cannot be documented. The civilisation's chronology is based on radiocarbon dating and stratigraphic analysis.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The conventional dating of Sahure's reign is subject to the same chronological uncertainties as earlier Fifth Dynasty pharaohs. The extent of Egyptian maritime trade during this period is debated; some scholars argue that the reliefs depicting trade may be ideological representations rather than accurate records of actual trade. The Indus Valley Civilisation's script remains undeciphered, so claims about its political structure, religious beliefs, or specific historical events are speculative.",
+  "historiographic_note": "Documentation for -3020 is sparse. Egyptian sources are indirect (king lists, archaeological evidence, temple reliefs). The Indus Valley Civilisation is archaeologically well-attested but historically opaque due to the undeciphered script. Mesopotamian sources for this specific year are absent. The record is heavily weighted toward elite activities and material culture.",
+  "graph_edges": [
+    {
+      "from": "-3020-001",
+      "to": "-3021-001",
+      "relation": "caused_by",
+      "note": "Sahure's reign follows Userkaf's"
+    },
+    {
+      "from": "-3020-001",
+      "to": "-3020-002",
+      "relation": "contemporary_with",
+      "note": "Sahure's reign in Egypt is contemporary with the Indus Valley Civilisation's mature phase"
+    }
+  ]
+}

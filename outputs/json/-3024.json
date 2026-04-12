@@ -1,0 +1,102 @@
+{
+  "year": -3024,
+  "year_label": "3024 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. Egypt's Old Kingdom (Dynasty IV) is in its mature phase under pharaohs of the Fourth Dynasty; the Great Pyramids of Giza were constructed in the preceding century. In Mesopotamia, the Early Dynastic Period III is underway, with city-states like Uruk, Lagash, and Umma competing for regional dominance. The Indus Valley Civilisation is in its early mature phase. Writing systems (Egyptian hieroglyphics, cuneiform) are well-established and proliferating.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "East Asia beyond the Indus Valley (limited synchronised records)",
+    "The Americas (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-3024-001",
+      "title": "Reign of Khafre, Fourth Dynasty Egypt",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "Khafre (also Chephren) is attested as ruling during this period as the fourth or fifth pharaoh of Egypt's Fourth Dynasty. He commissioned the construction of the second-largest pyramid at Giza and the Great Sphinx. His reign represents the apex of Old Kingdom pyramid-building and centralised state power. The exact dating of his reign remains debated; conventional Egyptology places him circa 2558\u20132532 BCE (proleptic Gregorian), but some scholars propose alternative chronologies that would shift this date by 50\u2013100 years.",
+      "key_figures": [
+        "Khafre (Pharaoh of Egypt)",
+        "Menkaure (possible successor or contemporary)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Giza pyramid complex",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca (via Josephus and Eusebius)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian chronology for the Old Kingdom is contested. Conventional dating places Khafre's reign in the mid-26th century BCE, but radiocarbon dating and astronomical calculations have led some scholars to propose dates up to 100 years earlier or later. The assignment to -3024 follows the conventional Egyptological consensus but should be treated as approximate (\u00b150 years).",
+      "cross_references": [
+        "Follows from -3025 (Khufu's reign)",
+        "Precedes -3023 (Menkaure's reign, if sequential)"
+      ]
+    },
+    {
+      "id": "-3024-002",
+      "title": "Early Dynastic Period III city-state conflicts in Mesopotamia",
+      "region": "Mesopotamia (Sumer and Akkad)",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "During the Early Dynastic III period, Mesopotamian city-states engaged in ongoing territorial disputes and resource competition. Lagash and Umma were particularly active in conflicts over irrigation rights and border territories. These conflicts are attested in later inscriptions (notably the Stele of Vultures, dated to circa 2450 BCE, which commemorates an earlier conflict). The specific events of -3024 are not individually documented; this entry reflects the broader pattern of inter-city-state warfare characteristic of this era.",
+      "key_figures": [
+        "Rulers of Lagash (names uncertain for this specific year)",
+        "Rulers of Umma (names uncertain for this specific year)"
+      ],
+      "sources": [
+        {
+          "name": "Stele of Vultures (Lagash, circa 2450 BCE)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Lagash and Umma sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "No contemporary records exist for the year -3024 specifically. This entry reflects the historiographic consensus that Early Dynastic III was characterised by inter-city-state conflict, but the specific events of this year are not documented. Dating is highly uncertain.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The conventional chronology of Egypt's Old Kingdom, including the dating of Khafre's reign to circa 2558\u20132532 BCE, has been challenged by some scholars using radiocarbon dating and astronomical calculations. Belmonte and others have proposed 'low chronologies' that would place these events significantly earlier. Additionally, the identification of specific rulers with specific years in the Early Dynastic Period III is highly speculative; the Sumerian King List is now understood to be a literary composition with symbolic rather than strictly historical dating. No disconfirming evidence has been identified for the broader era context.",
+  "historiographic_note": "Documentation for -3024 is extremely sparse. Egyptian sources are abundant but largely non-contemporary (king lists, later temple inscriptions, archaeological remains). Mesopotamian sources are similarly indirect. The chronology of both regions is contested, and absolute dating for this period relies heavily on conventional Egyptological consensus, which itself has been revised multiple times. The surviving record is heavily weighted toward elite activities (pyramid construction, royal inscriptions) and likely omits the vast majority of human activity. Sub-Saharan Africa, Northern Europe, and much of Asia are essentially absent from the written record.",
+  "graph_edges": [
+    {
+      "from": "-3024-001",
+      "to": "-3023-001",
+      "relation": "led_to",
+      "note": "Khafre's reign precedes the reign of his successor (likely Menkaure)"
+    },
+    {
+      "from": "-3024-002",
+      "to": "-2450-001",
+      "relation": "part_of",
+      "note": "Early Dynastic III conflicts continue into the period of the Stele of Vultures"
+    }
+  ]
+}

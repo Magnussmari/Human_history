@@ -1,0 +1,94 @@
+{
+  "year": -3021,
+  "year_label": "3021 BCE",
+  "era_context": "Transition from Egypt's Fourth Dynasty to Fifth Dynasty. This marks a significant shift in Egyptian political and religious priorities, with the rise of solar theology and the construction of sun temples. Mesopotamia remains in the Early Dynastic Period III. The Indus Valley Civilisation continues its mature phase.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-3021-001",
+      "title": "Beginning of Fifth Dynasty, Egypt; reign of Userkaf",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "Userkaf is traditionally dated as the founder and first pharaoh of Egypt's Fifth Dynasty, marking a significant transition in Egyptian history. The Fifth Dynasty is characterised by a shift in religious emphasis toward solar theology and the construction of sun temples rather than pyramids (though pyramids continued to be built). Userkaf's reign is conventionally dated circa 2498\u20132491 BCE. The reasons for the dynastic transition are debated; some scholars suggest political fragmentation, others point to religious reform or the rise of a new power base.",
+      "key_figures": [
+        "Userkaf (Pharaoh of Egypt, founder of Fifth Dynasty)",
+        "Sahure (possible successor)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Abusir (sun temple of Userkaf)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Conventional dating places Userkaf's reign circa 2498\u20132491 BCE. The dynastic transition is archaeologically attested (shift in monumental architecture and religious emphasis), but the specific year of transition is uncertain (\u00b15 years). The reasons for the transition are debated by scholars.",
+      "cross_references": [
+        "Follows from -3022 (Shepseskaf's reign, end of Fourth Dynasty)",
+        "Precedes -3020 (Sahure's reign, if sequential)"
+      ]
+    },
+    {
+      "id": "-3021-002",
+      "title": "Continued Early Dynastic Period III in Mesopotamia",
+      "region": "Mesopotamia",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "Mesopotamian city-states continue their competitive dynamics during the Early Dynastic Period III. No specific events are documented for this year, but the period is characterised by ongoing inter-city-state conflicts, the development of written administrative systems, and the consolidation of urban centres. The Sumerian King List provides names of rulers, but their chronology is highly uncertain.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "No contemporary records exist for this year. The entry reflects the broader historiographic consensus about the Early Dynastic Period III, but specific events are not documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The conventional dating of the Fourth-Fifth Dynasty transition is debated. Some scholars propose that the transition was more gradual than the king lists suggest, or that the dynastic division is a historiographic construct rather than a sharp political break. The reasons for the shift in religious emphasis (from pyramid-building to sun temples) are not entirely clear and may reflect multiple factors rather than a single cause.",
+  "historiographic_note": "Documentation for -3021 is sparse. The year is defined by the conventional chronology of Egyptian royal succession and the archaeologically attested shift in monumental architecture and religious emphasis. The Fifth Dynasty is better documented than the Fourth Dynasty in some respects (more inscriptional evidence), but the specific events of -3021 are not recorded. Mesopotamian sources are absent.",
+  "graph_edges": [
+    {
+      "from": "-3021-001",
+      "to": "-3022-001",
+      "relation": "caused_by",
+      "note": "Userkaf's reign follows Shepseskaf's; marks dynastic transition"
+    },
+    {
+      "from": "-3021-001",
+      "to": "-3020-001",
+      "relation": "led_to",
+      "note": "Userkaf's reign precedes Sahure's"
+    }
+  ]
+}

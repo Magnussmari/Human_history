@@ -1,0 +1,91 @@
+{
+  "year": -3016,
+  "year_label": "3016 BCE",
+  "era_context": "Early Bronze Age III. Egypt's Old Kingdom (Dynasty IV) continues under centralised pharaonic rule. Mesopotamia remains fragmented among competing city-states in the Early Dynastic III period. The Indus Valley Civilisation is in its mature urban phase. Writing systems are well-established in Egypt and Mesopotamia; the Indus script is in use but remains undeciphered. This is a period of relative stability in major civilisations, though regional conflicts persist.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (beyond Yellow River valley)",
+    "The Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-3016-001",
+      "title": "Menkaure's reign continues, Egyptian Dynasty IV",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.9\u00b0N, 31.1\u00b0E",
+      "category": "political",
+      "description": "Menkaure's reign continues during this year. Construction of the Pyramid of Menkaure at Giza is ongoing or recently completed. The reign represents the later phase of Dynasty IV, a period when Old Kingdom centralised authority remains strong but some evidence suggests resource constraints compared to earlier reigns (Khufu, Khafre). The state apparatus for tax collection, labour mobilisation, and monument construction remains intact.",
+      "key_figures": [
+        "Menkaure (Pharaoh, Dynasty IV)"
+      ],
+      "sources": [
+        {
+          "name": "Pyramid of Menkaure and associated temple complexes (archaeological evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Menkaure's regnal dates are uncertain by \u00b150\u2013100 years in absolute chronology. This year is assigned within his traditional reign period.",
+      "cross_references": [
+        "Continuation of -3015-001"
+      ]
+    },
+    {
+      "id": "-3016-002",
+      "title": "Indus Valley Civilisation: trade networks active",
+      "region": "Indus Valley and trade routes to Mesopotamia and Persian Gulf",
+      "coordinates_approx": "27.0\u00b0N, 68.0\u00b0E",
+      "category": "economic",
+      "description": "Archaeological evidence from Indus sites (Harappa, Mohenjo-daro) and Mesopotamian sites (Ur, Uruk) indicates active trade during the mature Indus phase. Indus seals have been found in Mesopotamian contexts, and Mesopotamian artefacts appear in Indus sites. Trade goods included lapis lazuli from Afghanistan, carnelian from the Deccan, and possibly timber and cotton from the Indus region. This trade network represents one of the earliest long-distance commercial systems.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Indus seals found in Mesopotamian sites (Ur, Uruk, Lagash)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian artefacts in Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Lapis lazuli and carnelian artefacts from Indus sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Trade between the Indus Valley and Mesopotamia is confirmed by archaeological evidence. The timing of specific trade transactions cannot be pinpointed to individual years.",
+      "cross_references": [
+        "Contemporary with Mesopotamian Early Dynastic III",
+        "Part of broader Indus Valley Civilisation mature phase"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the interpretation of Indus\u2013Mesopotamian trade as 'commercial' in the modern sense is debated; some scholars argue it may have been gift exchange or state-controlled redistribution rather than market-based trade.",
+  "historiographic_note": "This year falls within a period of sparse written documentation outside Egypt and Mesopotamia. Egyptian chronology depends on king lists compiled centuries later. Mesopotamian history is reconstructed from inscriptions and archaeological evidence. The Indus Valley Civilisation is known almost entirely through archaeology; without deciphered texts, political and economic systems are inferred from material remains. The bias toward literate, monumental civilisations means vast regions of the world are essentially invisible in the historical record.",
+  "graph_edges": [
+    {
+      "from": "-3016-001",
+      "to": "-3015-001",
+      "relation": "contemporary_with",
+      "note": "Menkaure's reign spans multiple years"
+    },
+    {
+      "from": "-3016-002",
+      "to": "-3015-003",
+      "relation": "part_of",
+      "note": "Trade networks are part of broader Indus Valley Civilisation mature phase"
+    }
+  ]
+}
