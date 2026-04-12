@@ -1,0 +1,119 @@
+{
+  "year": -62,
+  "year_label": "62 BCE",
+  "era_context": "The Late Roman Republic, with Pompey's return imminent and tensions rising over land distribution for his veterans and recognition of his eastern settlements. The First Triumvirate was still informal but increasingly dominant. In Judaea, Roman rule was being consolidated. Egypt remained unstable. China was in the Western Han dynasty under Emperor Xuan.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "-62-001",
+      "title": "Clodius Pulcher's trial and acquittal for sacrilege",
+      "region": "Rome",
+      "coordinates_approx": "41.9\u00b0N, 12.5\u00b0E",
+      "category": "legal",
+      "description": "Publius Clodius Pulcher, a young aristocrat, was tried for sacrilege after he allegedly infiltrated the secret rites of the Bona Dea (a women-only religious ceremony) disguised as a woman. The trial became a sensation in Rome, with Cicero testifying against Clodius. Despite strong evidence, Clodius was acquitted, allegedly through bribery of the jury. The acquittal shocked many and demonstrated the corruption of the judicial system. Clodius's enmity with Cicero, established during this trial, would have lasting consequences for Roman politics.",
+      "key_figures": [
+        "Clodius Pulcher (defendant)",
+        "Cicero (witness)",
+        "Caesar (allegedly supported Clodius)"
+      ],
+      "sources": [
+        {
+          "name": "Cicero, Letters to Atticus",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, Life of Cicero",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Civil Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The trial of Clodius is well-attested in contemporary sources, particularly Cicero's letters.",
+      "cross_references": [
+        "Leads to -58-001 (Clodius's revenge against Cicero)"
+      ]
+    },
+    {
+      "id": "-62-002",
+      "title": "Pompey's return to Italy and political maneuvering",
+      "region": "Italy, Rome",
+      "coordinates_approx": "41.9\u00b0N, 12.5\u00b0E",
+      "category": "political",
+      "description": "Pompey returned to Italy with his army, creating anxiety in the Senate about his intentions. He disbanded his army at Brundisium, a gesture meant to reassure the Senate of his republican intentions, but the political situation remained tense. Pompey sought ratification of his eastern settlements and land for his veterans, but the Senate, led by conservatives like Cato, resisted. This deadlock would contribute to the formation of the First Triumvirate.",
+      "key_figures": [
+        "Pompey the Great",
+        "Cato the Younger",
+        "Caesar",
+        "Crassus"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Pompey",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Civil Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Pompey's return and the political maneuvering are well-documented in ancient sources.",
+      "cross_references": [
+        "Leads to -60-001 (formation of the First Triumvirate)"
+      ]
+    },
+    {
+      "id": "-62-003",
+      "title": "Hyrcanus II consolidates power in Judaea under Roman oversight",
+      "region": "Judaea",
+      "coordinates_approx": "31.8\u00b0N, 35.2\u00b0E",
+      "category": "political",
+      "description": "Following Pompey's intervention in 63 BCE, Hyrcanus II worked to consolidate his position as high priest and ethnarch of Judaea under Roman suzerainty. He relied heavily on his advisor Antipater, an Idumaean who would become increasingly influential in Judaean politics. The Hasmonean kingdom was now effectively a Roman client state, with its foreign policy and major decisions subject to Roman approval.",
+      "key_figures": [
+        "Hyrcanus II (high priest)",
+        "Antipater (Idumaean advisor)"
+      ],
+      "sources": [
+        {
+          "name": "Josephus, Jewish Antiquities, Book XIV",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation of Hyrcanus II's power is attested in Josephus, though the precise chronology of events in Judaea during this period is sometimes unclear.",
+      "cross_references": [
+        "Follows from -63-001; leads to -37-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The date of Clodius's trial is sometimes given as 61 BCE in some sources, reflecting uncertainty in ancient chronology. Modern scholarship generally places it in 62 BCE. The extent of Caesar's involvement in supporting Clodius is debated; some sources suggest Caesar actively supported Clodius, while others indicate his involvement was more indirect.",
+  "historiographic_note": "The historical record for 62 BCE is moderate in richness. Roman political events are well-attested through Cicero's correspondence and later historical accounts, but these reflect elite perspectives and are often partisan. Judaean events are less well-documented and rely primarily on Josephus, who wrote over a century later. Events in other regions are poorly attested or absent from surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-62-001",
+      "to": "-58-001",
+      "relation": "led_to",
+      "note": "Clodius's acquittal and enmity with Cicero led to Clodius's revenge against Cicero"
+    },
+    {
+      "from": "-62-002",
+      "to": "-60-001",
+      "relation": "led_to",
+      "note": "Pompey's return and the Senate's resistance to his demands contributed to the formation of the First Triumvirate"
+    }
+  ]
+}

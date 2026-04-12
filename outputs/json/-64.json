@@ -1,0 +1,122 @@
+{
+  "year": -64,
+  "year_label": "64 BCE",
+  "era_context": "The Late Roman Republic in its final decades of civil instability. The First Triumvirate (Caesar, Pompey, Crassus) was formed in 60 BCE and dominated politics. The Social War had ended in 88 BCE, but Rome continued to absorb Italian territories. In the East, the Seleucid Empire was fragmenting; Pontus under Mithridates VI remained a major power. Egypt under the Ptolemies was internally unstable. China was in the Western Han dynasty under Emperor Xuan.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "-64-001",
+      "title": "Pompey's conquest of Syria and end of Seleucid Empire",
+      "region": "Syria, Levant",
+      "coordinates_approx": "34.8\u00b0N, 38.8\u00b0E",
+      "category": "military",
+      "description": "Pompey the Great, returning from his campaign against Mithridates VI of Pontus, conquered Syria and formally annexed it as a Roman province, ending the Seleucid dynasty that had ruled since the death of Alexander the Great. The last Seleucid king, Antiochus XIII, was deposed. This marked the final collapse of one of the three great Hellenistic successor states and extended Roman dominion into the eastern Mediterranean. The conquest was swift and met little organized resistance, as the Seleucid state was already fragmenting into regional satrapies.",
+      "key_figures": [
+        "Pompey the Great (Roman general)",
+        "Antiochus XIII Asiaticus (last Seleucid king)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Syrian Wars (Syriac Wars)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography, Book XVI",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Josephus, Jewish Antiquities, Book XIV",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The annexation of Syria by Pompey in 64 BCE is well-attested in multiple ancient sources, though written after the fact. The date is secure.",
+      "cross_references": [
+        "Follows from -66-001 (Pompey's victory over Mithridates); leads to -63-001 (Pompey's intervention in Judaea)"
+      ]
+    },
+    {
+      "id": "-64-002",
+      "title": "Pompey's reorganization of the East and establishment of client kingdoms",
+      "region": "Eastern Mediterranean, Levant, Anatolia",
+      "coordinates_approx": "35\u00b0N, 35\u00b0E",
+      "category": "political",
+      "description": "Following his military victories, Pompey reorganized the eastern territories under Roman hegemony, establishing a system of client kingdoms and direct provinces. He confirmed Ariobarzanes III as king of Cappadocia, supported Deiotarus in Galatia, and left various Levantine territories under local rulers loyal to Rome. This system would define Roman eastern policy for decades and created the framework for future conflicts over succession and loyalty.",
+      "key_figures": [
+        "Pompey the Great",
+        "Ariobarzanes III (Cappadocia)",
+        "Deiotarus (Galatia)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Mithridatic Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Pompey",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Pompey's reorganization is well-documented in ancient sources, though details vary slightly between accounts.",
+      "cross_references": []
+    },
+    {
+      "id": "-64-003",
+      "title": "Cato the Younger's opposition to the First Triumvirate",
+      "region": "Rome",
+      "coordinates_approx": "41.9\u00b0N, 12.5\u00b0E",
+      "category": "political",
+      "description": "Cato the Younger, the leading conservative voice in the Senate, began his sustained opposition to the informal alliance of Caesar, Pompey, and Crassus. Though the triumvirate was not yet formally acknowledged, Cato perceived the threat to Republican institutions and began his campaign of obstruction that would define the next decade. His principled but ultimately futile resistance became emblematic of the dying Republic's inability to adapt to the new power dynamics.",
+      "key_figures": [
+        "Cato the Younger (senator)",
+        "Caesar",
+        "Pompey",
+        "Crassus"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Cato the Younger",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cicero, Letters to Atticus",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Cato's opposition to the triumvirate is well-attested, though the precise chronology of his early resistance is somewhat unclear from sources.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Pompey's conquest of Syria is sometimes given as 63 BCE in some sources, reflecting uncertainty in ancient chronology. However, the weight of modern scholarship places the formal annexation in 64 BCE, with the final campaigns concluding in 63 BCE. The 'First Triumvirate' was not a formal legal arrangement but an informal political alliance; calling it a 'triumvirate' is anachronistic terminology applied by later historians.",
+  "historiographic_note": "The historical record for 64 BCE is rich but heavily filtered through Roman sources, particularly those written during and after the civil wars. Pompey's eastern campaigns are well-documented, but the perspective is predominantly Roman and often favorable to Pompey or his later supporters. Eastern and Levantine perspectives are largely lost. The internal politics of Rome are well-attested through Cicero's correspondence and later biographical sources, but these reflect elite perspectives.",
+  "graph_edges": [
+    {
+      "from": "-64-001",
+      "to": "-63-001",
+      "relation": "led_to",
+      "note": "Pompey's conquest of Syria enabled his intervention in Judaea the following year"
+    },
+    {
+      "from": "-64-001",
+      "to": "-66-001",
+      "relation": "caused_by",
+      "note": "Followed from Pompey's victory over Mithridates VI"
+    },
+    {
+      "from": "-64-003",
+      "to": "-49-001",
+      "relation": "led_to",
+      "note": "Cato's opposition to the triumvirate contributed to the tensions that led to civil war"
+    }
+  ]
+}

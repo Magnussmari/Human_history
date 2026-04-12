@@ -1,0 +1,118 @@
+{
+  "year": -58,
+  "year_label": "58 BCE",
+  "era_context": "The Late Roman Republic in its final decades of instability. Julius Caesar, having been elected consul in 59 BCE, is now proconsul of Gaul and begins his famous conquest of Gaul (58\u201350 BCE). The First Triumvirate (Caesar, Pompey, Crassus) is nominally intact but under strain. In the East, Parthia is consolidating power; Egypt is in turmoil. China is under Western Han Emperor Xuan, in a period of stability and cultural achievement.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "-58-001",
+      "title": "Caesar Begins the Gallic Wars; Defeats Ariovistus and the Helvetii",
+      "region": "Gaul (modern France and Switzerland)",
+      "coordinates_approx": "46.8, 8.2",
+      "category": "military",
+      "description": "Julius Caesar, newly appointed proconsul of Gaul, launches his famous conquest of Gaul. In 58 BCE, he defeats the Helvetii tribe in the west and the Germanic king Ariovistus in the east. These victories establish Caesar as a formidable military commander and begin the systematic Roman conquest of Gaul. The campaigns are detailed in Caesar's Commentarii de Bello Gallico, which serve as both a historical record and propaganda for Caesar's achievements. The Gallic Wars will last until 50 BCE and will result in the conquest of Gaul and the deaths of hundreds of thousands of Gauls.",
+      "key_figures": [
+        "Julius Caesar (Roman general and proconsul)",
+        "Ariovistus (Germanic king)",
+        "Helvetii tribal leaders"
+      ],
+      "sources": [
+        {
+          "name": "Caesar, Commentarii de Bello Gallico (Book I)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Strabo, Geography (Book IV)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Caesar's account is contemporary and detailed. The date of 58 BCE is well-established. Archaeological evidence from Gallic sites supports the campaign's occurrence and scale.",
+      "cross_references": [
+        "-57-001",
+        "-52-001"
+      ]
+    },
+    {
+      "id": "-58-002",
+      "title": "Ptolemy XII Flees Egypt; Cleopatra VII's Early Political Involvement",
+      "region": "Egypt (Ptolemaic Kingdom)",
+      "coordinates_approx": "30.0, 31.2",
+      "category": "political",
+      "description": "Ptolemy XII Auletes, king of Egypt, faces internal unrest and is forced to flee Egypt. The exact date is disputed (sources range from 58\u201356 BCE), but 58 BCE is a common dating. His departure creates a power vacuum in Egypt, with his daughter Cleopatra VII (born c. 69 BCE) and other children competing for influence. This period of instability sets the stage for Cleopatra's eventual rise to sole power and her alliance with Caesar in 48 BCE. The flight also marks the beginning of Rome's increasing involvement in Egyptian affairs.",
+      "key_figures": [
+        "Ptolemy XII Auletes (Egyptian king)",
+        "Cleopatra VII (Egyptian princess, future queen)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Pompey",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography (Book XVII)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Josephus, Against Apion (Book II)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The date of Ptolemy XII's flight is disputed in sources, with dates ranging from 58\u201356 BCE. 58 BCE is one of the commonly cited dates, but the exact year is uncertain. The event itself is well-attested.",
+      "cross_references": [
+        "-56-003",
+        "-48-001"
+      ]
+    },
+    {
+      "id": "-58-003",
+      "title": "Western Han Dynasty: Emperor Xuan's Reign Continues",
+      "region": "China (Han Empire)",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Xuan of Han continues his reign (74\u201349 BCE), a period of Han strength and cultural achievement. The Han court is stable, and the empire is prosperous. No major crises or significant events are recorded for 58 BCE specifically, but the broader context of Xuan's reign is one of capable administration and military strength against the Xiongnu.",
+      "key_figures": [
+        "Emperor Xuan of Han (Han emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Emperor Xuan's reign is well-established in Chinese historiography. No specific events are recorded for 58 BCE.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Caesar's victories in 58 BCE are sometimes portrayed as decisive conquests of Gaul, but modern scholarship emphasizes that the conquest was gradual and faced increasing resistance. The Gallic Wars lasted until 50 BCE, and Gallic tribes continued to resist Roman rule even after major defeats. The dating of Ptolemy XII's flight is disputed; some sources place it in 57 or 56 BCE rather than 58 BCE. The exact year remains uncertain.",
+  "historiographic_note": "The year 58 BCE is exceptionally well-documented for the Mediterranean world due to Caesar's detailed Commentarii de Bello Gallico. However, sources are heavily weighted toward Roman and Greek perspectives. Caesar's account is propagandistic and emphasizes his victories while downplaying Gallic resistance and the scale of destruction. The perspective of Gallic peoples is entirely absent from surviving sources. Information on Egypt, Parthia, and China comes from much later compilations or is sparse.",
+  "graph_edges": [
+    {
+      "from": "-58-001",
+      "to": "-57-001",
+      "relation": "led_to",
+      "note": "Caesar's initial Gallic victories lead to continued campaigns in 57 BCE"
+    },
+    {
+      "from": "-58-001",
+      "to": "-52-001",
+      "relation": "led_to",
+      "note": "Caesar's early Gallic victories provoke increasing resistance, culminating in Vercingetorix's revolt in 52 BCE"
+    },
+    {
+      "from": "-58-002",
+      "to": "-48-001",
+      "relation": "led_to",
+      "note": "Ptolemy XII's flight and Egyptian instability lead to Caesar's intervention and Cleopatra's rise"
+    }
+  ]
+}

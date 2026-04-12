@@ -1,0 +1,113 @@
+{
+  "year": -68,
+  "year_label": "68 BCE",
+  "era_context": "The Late Roman Republic continues its descent into factional chaos. Pompey remains in the East, consolidating his victories and reorganizing provinces. In Rome, the Optimates and Populares are increasingly polarized. The pirate problem in the Mediterranean, though diminishing, remains a concern. Egypt is unstable under weak Ptolemaic rule. In Gaul, Celtic tribes are fragmenting under pressure from Germanic migrations and Roman expansion. This is the era immediately preceding the Catilinarian conspiracy (63 BCE) and the rise of Caesar.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe and Germanic territories (sparse sources)",
+    "Central Asia and Parthian Empire (fragmentary records)",
+    "India and East Asia (minimal Roman awareness)"
+  ],
+  "events": [
+    {
+      "id": "-68-001",
+      "title": "Pompey campaigns in the Caucasus and northern Anatolia",
+      "region": "Caucasus, Pontus, northern Anatolia",
+      "coordinates_approx": "43.0, 45.0",
+      "category": "military",
+      "description": "Pompey, pursuing Mithridates and consolidating Roman control, campaigns in the Caucasus region and northern Anatolia. He encounters various local kingdoms and tribes, including the Albanians and Iberians of the Caucasus. These campaigns extend Roman military reach further north and east than ever before, though permanent conquest is not achieved. The campaigns are partly motivated by the pursuit of Mithridates, who has fled to the Crimea, and partly by the desire to establish Roman hegemony over the region.",
+      "key_figures": [
+        "Pompey the Great (Roman general)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Pompey",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography (Books XI\u2013XII)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Pompey's Caucasus campaign is attested in ancient sources, but the exact chronology is uncertain. The campaign is often dated to 66\u201365 BCE, but may have extended into 68 BCE.",
+      "cross_references": []
+    },
+    {
+      "id": "-68-002",
+      "title": "Consulship of Gaius Antonius Hybrida and Marcus Tullius Cicero",
+      "region": "Rome, Italy",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Gaius Antonius Hybrida and Marcus Tullius Cicero are elected consuls for 63 BCE, but the political maneuvering and campaigns of 68 BCE set the stage for their tenure. Cicero, a novus homo (new man without aristocratic ancestry), is rising in prominence through his oratorical skills and legal victories. Antonius, despite his aristocratic background, is politically weak. The factional tensions in the Senate intensify as various candidates position themselves for the consulship.",
+      "key_figures": [
+        "Marcus Tullius Cicero (rising orator and politician)",
+        "Gaius Antonius Hybrida (aristocrat)"
+      ],
+      "sources": [
+        {
+          "name": "Cicero, Commentariolum Petitionis (attributed, on electoral campaigns)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, Life of Cicero",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The consulship of Cicero and Antonius for 63 BCE is well-attested. The political context of 68 BCE is less precisely documented but inferred from broader sources.",
+      "cross_references": [
+        "Relates to -63-001 (Catilinarian conspiracy during their consulship)"
+      ]
+    },
+    {
+      "id": "-68-003",
+      "title": "Pirate activity continues in the Mediterranean despite earlier campaigns",
+      "region": "Mediterranean Sea",
+      "coordinates_approx": "35.0, 18.0",
+      "category": "military",
+      "description": "Despite the Lex Gabinia (67 BCE) granting Pompey extraordinary powers to suppress piracy, pirate activity remains significant in 68 BCE. Cilician pirates, based in southern Anatolia, continue to raid merchant vessels and coastal settlements. The problem is severe enough that grain shipments to Rome are disrupted, causing food shortages and political pressure on the Senate. The pirate threat will be a major justification for Pompey's command in the following year.",
+      "key_figures": [
+        "Cilician pirates (various leaders, names largely unrecorded)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Pompey",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Mithridatic Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Pirate activity in the Mediterranean is well-attested for this period. The specific year 68 BCE is inferred from the broader context of the pirate problem leading to the Lex Gabinia in 67 BCE.",
+      "cross_references": [
+        "Relates to -67-001 (Lex Gabinia)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Pompey's Caucasus campaign is disputed; some sources place it entirely in 66\u201365 BCE rather than extending into 68 BCE. The significance of events in 68 BCE is somewhat artificial, as the year falls between major documented events (Lucullus' return in 69 BCE and the Lex Gabinia in 67 BCE). No major disconfirming evidence undermines the events listed, but the year itself is less well-documented than adjacent years.",
+  "historiographic_note": "The historical record for 68 BCE is moderate in quality. Most information is derived from later compilations (Plutarch, Appian, Strabo) rather than contemporary sources. Cicero's writings from this period are sparse. The narrative is heavily shaped by the focus on Pompey and the political elite in Rome; events in the provinces, among non-elites, and in regions outside the Mediterranean are largely invisible. The year is somewhat of a 'gap year' between major documented events.",
+  "graph_edges": [
+    {
+      "from": "-68-001",
+      "to": "-66-001",
+      "relation": "led_to",
+      "note": "Pompey's Caucasus campaign is part of his broader consolidation of the East"
+    },
+    {
+      "from": "-68-003",
+      "to": "-67-001",
+      "relation": "led_to",
+      "note": "Pirate activity in 68 BCE creates the political pressure that leads to the Lex Gabinia in 67 BCE"
+    }
+  ]
+}

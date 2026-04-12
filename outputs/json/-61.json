@@ -1,0 +1,118 @@
+{
+  "year": -61,
+  "year_label": "61 BCE",
+  "era_context": "The Late Roman Republic, with political tensions escalating as Pompey sought ratification of his eastern settlements and land for his veterans. The First Triumvirate was still informal but forming. In Judaea, Roman rule was consolidating. Egypt remained unstable under the Ptolemies. China was in the Western Han dynasty under Emperor Xuan.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia (limited sources)",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "-61-001",
+      "title": "Caesar's praetorship and governorship of Further Spain",
+      "region": "Hispania (Spain)",
+      "coordinates_approx": "40\u00b0N, -4\u00b0E",
+      "category": "political",
+      "description": "Julius Caesar served as praetor in Rome and then was assigned the province of Further Spain (Hispania Ulterior) as governor. During his governorship, he conducted military campaigns against the Lusitanian tribes in the interior, gaining military experience and prestige. He also accumulated wealth through his governorship, which he would use to advance his political career upon his return to Rome. His success in Spain enhanced his reputation and made him a more attractive ally to Pompey and Crassus.",
+      "key_figures": [
+        "Julius Caesar (praetor and governor)"
+      ],
+      "sources": [
+        {
+          "name": "Suetonius, Life of Caesar",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Caesar",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Civil Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Caesar's praetorship and governorship of Further Spain are well-attested in ancient sources, though some details of his military campaigns are less certain.",
+      "cross_references": [
+        "Leads to -60-001 (formation of the First Triumvirate)"
+      ]
+    },
+    {
+      "id": "-61-002",
+      "title": "Cato the Younger's continued opposition to Pompey's demands",
+      "region": "Rome",
+      "coordinates_approx": "41.9\u00b0N, 12.5\u00b0E",
+      "category": "political",
+      "description": "Cato the Younger led the conservative faction in the Senate in opposing Pompey's demands for ratification of his eastern settlements and land distribution for his veterans. Cato's principled but inflexible opposition to what he saw as threats to Republican institutions made compromise difficult. His obstruction of Pompey's reasonable demands inadvertently pushed Pompey toward an alliance with Caesar and Crassus, contributing to the formation of the First Triumvirate.",
+      "key_figures": [
+        "Cato the Younger (senator)",
+        "Pompey the Great"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Cato the Younger",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cicero, Letters to Atticus",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Cato's opposition to Pompey is well-attested, though the precise chronology of events is sometimes unclear.",
+      "cross_references": [
+        "Leads to -60-001 (formation of the First Triumvirate)"
+      ]
+    },
+    {
+      "id": "-61-003",
+      "title": "Ptolemy XII Auletes consolidates power in Egypt",
+      "region": "Egypt",
+      "coordinates_approx": "30.8\u00b0N, 31.3\u00b0E",
+      "category": "political",
+      "description": "Ptolemy XII Auletes (the Flute Player) ruled Egypt during this period, facing internal instability and the threat of Roman intervention. He sought to maintain Egypt's independence through diplomacy and the payment of tribute to Rome. His reign was marked by financial difficulties and the growing influence of Rome in Egyptian affairs. The Ptolemaic dynasty was increasingly dependent on Roman support to maintain its position.",
+      "key_figures": [
+        "Ptolemy XII Auletes (Egyptian king)"
+      ],
+      "sources": [
+        {
+          "name": "Strabo, Geography, Book XVII",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Josephus, Jewish Antiquities, Book XIII",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ptolemy XII's reign is attested in ancient sources, but the precise chronology and details of his early reign are sometimes unclear.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dates of Caesar's praetorship and governorship are sometimes disputed; some sources place his praetorship in 62 BCE and his governorship in 61-60 BCE, while others reverse this. Modern scholarship generally places his praetorship in 62 BCE and his governorship in 61-60 BCE. The extent of Caesar's military success in Spain is debated; some sources emphasize his victories, while others suggest his campaigns were less decisive than later accounts claim.",
+  "historiographic_note": "The historical record for 61 BCE is moderate in richness. Roman political events are well-attested through later historical accounts and Cicero's correspondence, but these reflect elite perspectives. Caesar's activities in Spain are less well-documented than his later campaigns. Egyptian and Judaean events are attested but rely on later sources. Events in other regions are poorly attested or absent from surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-61-001",
+      "to": "-60-001",
+      "relation": "led_to",
+      "note": "Caesar's success in Spain and his return to Rome contributed to the formation of the First Triumvirate"
+    },
+    {
+      "from": "-61-002",
+      "to": "-60-001",
+      "relation": "led_to",
+      "note": "Cato's obstruction of Pompey's demands pushed Pompey toward alliance with Caesar and Crassus"
+    }
+  ]
+}
