@@ -162,10 +162,7 @@ export default function YearPage() {
             {year.year_label}
           </h1>
 
-          <p
-            className="text-base sm:text-xl lg:text-2xl leading-relaxed max-w-3xl italic"
-            style={{ fontFamily: "var(--font-heading), serif", color: "#d1c2a8", lineHeight: 1.7 }}
-          >
+          <p className="prose-reading text-base sm:text-lg leading-relaxed italic mx-auto sm:mx-0" style={{ fontFamily: "var(--font-heading), serif", color: "#d1c2a8", lineHeight: 1.8 }}>
             {year.era_context}
           </p>
         </motion.div>
@@ -185,7 +182,7 @@ export default function YearPage() {
         {/* Events */}
         <motion.div variants={stagger.item} className="mb-10">
           <h2
-            className="text-2xl font-semibold mb-5 flex items-center gap-2"
+            className="text-2xl font-semibold mb-1 flex items-center gap-2"
             style={{ fontFamily: "var(--font-heading), serif" }}
           >
             Events
@@ -200,27 +197,7 @@ export default function YearPage() {
               {year.events.length}
             </span>
           </h2>
-
-          {year.events.length > 0 && (
-            <div className="flex flex-wrap gap-2 mb-6">
-              {[...new Set(year.events.map((e) => e.category))].map((cat) => (
-                <span
-                  key={cat}
-                  style={{
-                    fontSize: 12,
-                    padding: "4px 12px",
-                    borderRadius: 999,
-                    background: "#1a1a1a",
-                    border: "1px solid #222222",
-                    color: "#d1c2a8",
-                    fontWeight: 500,
-                  }}
-                >
-                  {safeCategoryConfig(cat).label}
-                </span>
-              ))}
-            </div>
-          )}
+          <p className="text-xs text-muted-foreground mt-1 mb-5">Click any event to expand details</p>
 
           <div className="space-y-6">
             {year.events.map((event) => (

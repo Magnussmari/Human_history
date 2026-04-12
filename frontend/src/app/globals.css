@@ -106,7 +106,7 @@
   --secondary: #1a1a1a;
   --secondary-foreground: #d1c2a8;
   --muted: #1a1a1a;
-  --muted-foreground: #8a7d6b;
+  --muted-foreground: #a8998a;
   --accent: #e8c88a;
   --accent-foreground: #050505;
   --destructive: oklch(0.6 0.22 25);
@@ -402,3 +402,9 @@
 .cat-dot-environmental { background: oklch(0.5 0.15 145); }
 .cat-dot-exploration { background: oklch(0.48 0.16 270); }
 .cat-dot-legal { background: oklch(0.4 0.05 240); }
+
+/* ─── Prose reading width ─── */
+.prose-reading {
+  max-width: 65ch;
+  line-height: 1.8;
+}

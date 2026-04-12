@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef } from "react";
-import { useVirtualizer } from "@tanstack/react-virtual";
+import { useWindowVirtualizer } from "@tanstack/react-virtual";
 import type { YearData } from "@/types/history";
 import { getEraForYear } from "@/lib/constants";
 import { YearTimelineCard } from "./YearTimelineCard";
@@ -22,13 +22,13 @@ function getGroupLabel(year: number): string {
 }
 
 export function TimelineView({ years, isLoading }: TimelineViewProps) {
-  const parentRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
-  const virtualizer = useVirtualizer({
+  const virtualizer = useWindowVirtualizer({
     count: years.length,
-    getScrollElement: () => parentRef.current,
     estimateSize: () => 160,
     overscan: 8,
+    scrollMargin: containerRef.current?.offsetTop ?? 0,
   });
 
   if (isLoading) {
@@ -62,7 +62,7 @@ export function TimelineView({ years, isLoading }: TimelineViewProps) {
         style={{ background: "linear-gradient(to bottom, transparent, rgba(232,200,138,0.3) 5%, rgba(232,200,138,0.3) 95%, transparent)" }}
       />
 
-      <div ref={parentRef} className="h-[75vh] overflow-auto scrollbar-hide pr-1">
+      <div ref={containerRef}>
         <div
           style={{ height: `${virtualizer.getTotalSize()}px`, position: "relative" }}
         >
@@ -83,7 +83,7 @@ export function TimelineView({ years, isLoading }: TimelineViewProps) {
                   top: 0,
                   left: 0,
                   width: "100%",
-                  transform: `translateY(${virtualRow.start}px)`,
+                  transform: `translateY(${virtualRow.start - virtualizer.options.scrollMargin}px)`,
                 }}
                 className="pb-2"
               >

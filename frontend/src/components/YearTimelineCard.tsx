@@ -106,23 +106,9 @@ export function YearTimelineCard({ year, index }: YearTimelineCardProps) {
             </div>
 
             {/* Era context (brief) */}
-            <p className="text-foreground/75 leading-relaxed line-clamp-2" style={{ fontSize: "15px", lineHeight: 1.6 }}>
+            <p className="text-foreground/85 leading-relaxed line-clamp-1" style={{ fontSize: "15px", lineHeight: 1.6 }}>
               {year.era_context}
             </p>
-
-            {/* Top events preview */}
-            {topEvents.length > 0 && (
-              <ul className="space-y-0.5">
-                {topEvents.map((ev) => (
-                  <li key={ev.id} className="flex items-start gap-1.5 text-xs text-muted-foreground">
-                    <span
-                      className={cn("mt-1.5 h-1 w-1 rounded-full shrink-0", CAT_DOT_MAP[ev.category])}
-                    />
-                    <span className="line-clamp-1">{ev.title}</span>
-                  </li>
-                ))}
-              </ul>
-            )}
 
             {/* Category dots row */}
             <div className="flex items-center gap-1.5 pt-0.5">

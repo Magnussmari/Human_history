@@ -38,9 +38,17 @@ interface EventCardProps {
 }
 
 export function EventCard({ event }: EventCardProps) {
+  const [expanded, setExpanded] = useState(false);
   const [sourcesOpen, setSourcesOpen] = useState(false);
   const catConfig = safeCategoryConfig(event.category);
   const certConfig = safeCertaintyConfig(event.certainty);
+
+  function handleToggle() {
+    if (expanded) {
+      setSourcesOpen(false);
+    }
+    setExpanded((e) => !e);
+  }
 
   return (
     <motion.div
@@ -55,9 +63,18 @@ export function EventCard({ event }: EventCardProps) {
       transition={{ duration: 0.3, type: "spring" as const, stiffness: 250, damping: 28 }}
       whileHover={{ boxShadow: "0 4px 20px -4px rgba(232,200,138,0.08)" }}
     >
-      <div className="p-5 sm:p-7" style={{ paddingLeft: "clamp(20px, 5vw, 32px)", paddingRight: "clamp(20px, 5vw, 32px)" }}>
-        {/* Header row */}
-        <div className="flex flex-wrap items-center gap-2 mb-4">
+      {/* Clickable header area */}
+      <div
+        className="p-5 sm:p-7 cursor-pointer select-none"
+        style={{ paddingLeft: "clamp(20px, 5vw, 32px)", paddingRight: "clamp(20px, 5vw, 32px)" }}
+        onClick={handleToggle}
+        role="button"
+        aria-expanded={expanded}
+        tabIndex={0}
+        onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); handleToggle(); } }}
+      >
+        {/* Header row: badges + region + chevron */}
+        <div className="flex flex-wrap items-center gap-2 mb-3">
           <span
             className="inline-flex items-center gap-1.5"
             style={{
@@ -94,140 +111,182 @@ export function EventCard({ event }: EventCardProps) {
             {certConfig.label}
           </span>
 
-          <span className="text-xs text-muted-foreground ml-auto">{event.region}</span>
+          <span className="text-xs text-muted-foreground ml-auto flex items-center gap-2">
+            {event.region}
+            <motion.span
+              animate={{ rotate: expanded ? 180 : 0 }}
+              transition={{ duration: 0.2 }}
+              className="text-muted-foreground/50"
+            >
+              <ChevronDown size={14} />
+            </motion.span>
+          </span>
         </div>
 
-        {/* Title */}
+        {/* Title — smaller in collapsed state */}
         <h3
-          className="font-semibold mb-3 leading-snug"
-          style={{ fontFamily: "var(--font-heading), serif", fontSize: "1.75rem", color: "#f4e9d8", letterSpacing: "-0.02em" }}
+          className="font-semibold mb-2 leading-snug"
+          style={{
+            fontFamily: "var(--font-heading), serif",
+            fontSize: "1.1rem",
+            color: "#f4e9d8",
+            letterSpacing: "-0.01em",
+          }}
         >
           {event.title}
         </h3>
 
-        {/* Description */}
-        <p style={{ color: "#d1c2a8", fontSize: "17px", lineHeight: 1.7 }}>{event.description}</p>
+        {/* Description — clamped when collapsed */}
+        <p
+          className={cn(!expanded && "line-clamp-3")}
+          style={{ color: "#a8998a", fontSize: "15px", lineHeight: 1.65 }}
+        >
+          {event.description}
+        </p>
 
-        {/* Key figures */}
-        {event.key_figures.length > 0 && (
-          <div className="mt-4">
-            <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
-              Key Figures
-            </span>
-            <div className="flex flex-wrap gap-1.5 mt-1.5">
-              {event.key_figures.map((fig) => (
-                <span
-                  key={fig}
-                  className="rounded-full border px-3 py-1 font-medium"
-                  style={{ background: "#1a1a1a", borderColor: "#222222", fontSize: "0.95rem", color: "#d1c2a8" }}
-                >
-                  {fig}
-                </span>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {/* Cross-references */}
-        {event.cross_references.length > 0 && (
-          <div className="mt-3 flex flex-wrap gap-1.5 items-center">
-            <Link2 size={11} className="text-muted-foreground/60" />
-            {event.cross_references.map((ref) => {
-              const refYear = parseInt(ref.split("_")[0], 10);
-              if (!isNaN(refYear)) {
-                return (
-                  <Link
-                    key={ref}
-                    href={`/year/${refYear}`}
-                    className="text-[10px] font-mono rounded px-1.5 py-0.5 transition-colors hover:text-primary"
-                    style={{
-                      background: "rgba(232,200,138,0.08)",
-                      border: "1px solid rgba(232,200,138,0.2)",
-                      color: "var(--gold)",
-                    }}
-                  >
-                    {ref}
-                  </Link>
-                );
-              }
-              return (
-                <span
-                  key={ref}
-                  className="text-[10px] font-mono rounded px-1.5 py-0.5"
-                  style={{
-                    background: "rgba(232,200,138,0.06)",
-                    border: "1px solid rgba(232,200,138,0.15)",
-                    color: "var(--gold)",
-                    opacity: 0.8,
-                  }}
-                >
-                  {ref}
-                </span>
-              );
-            })}
-          </div>
-        )}
-
-        {/* Certainty note */}
-        {event.certainty_note && (
-          <p
-            className="text-xs text-muted-foreground italic border-l-2 pl-3 mt-4"
-            style={{ borderColor: "rgba(232,200,138,0.3)" }}
-          >
-            {event.certainty_note}
-          </p>
-        )}
-
-        {/* Sources toggle */}
-        {event.sources.length > 0 && (
-          <div className="mt-4 pt-3 border-t border-border/30">
-            <button
-              onClick={() => setSourcesOpen((s) => !s)}
-              className="flex items-center gap-1.5 text-[11px] font-medium text-muted-foreground hover:text-foreground transition-colors"
-            >
-              <BookOpen size={11} />
-              {event.sources.length} source{event.sources.length !== 1 ? "s" : ""}
-              <motion.span
-                animate={{ rotate: sourcesOpen ? 180 : 0 }}
-                transition={{ duration: 0.2 }}
-              >
-                <ChevronDown size={11} />
-              </motion.span>
-            </button>
-
-            <AnimatePresence>
-              {sourcesOpen && (
-                <motion.div
-                  initial={{ height: 0, opacity: 0 }}
-                  animate={{ height: "auto", opacity: 1 }}
-                  exit={{ height: 0, opacity: 0 }}
-                  transition={{ duration: 0.2, ease: "easeInOut" }}
-                  className="overflow-hidden"
-                >
-                  <div className="mt-2 space-y-1.5">
-                    {event.sources.map((src, i) => (
-                      <div key={i} className="flex items-start gap-2 text-xs">
-                        <span
-                          className={cn(
-                            "shrink-0 rounded px-1.5 py-0.5 font-mono text-[10px] whitespace-nowrap",
-                            src.contemporary
-                              ? "bg-green-900/20 text-green-400 dark:bg-green-900/30"
-                              : "bg-muted text-muted-foreground"
-                          )}
-                        >
-                          {src.type.replace(/_/g, " ")}
-                          {src.contemporary && " •"}
-                        </span>
-                        <span className="text-foreground/60 leading-relaxed">{src.name}</span>
-                      </div>
-                    ))}
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </div>
+        {!expanded && (
+          <span className="text-xs text-muted-foreground/60 mt-1.5 inline-block">Show more</span>
         )}
       </div>
+
+      {/* Expandable body */}
+      <AnimatePresence>
+        {expanded && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.25, ease: "easeInOut" }}
+            className="overflow-hidden"
+          >
+            <div
+              className="px-5 sm:px-7 pb-5 sm:pb-7 space-y-4"
+              style={{ paddingLeft: "clamp(20px, 5vw, 32px)", paddingRight: "clamp(20px, 5vw, 32px)" }}
+            >
+              {/* Key figures */}
+              {event.key_figures.length > 0 && (
+                <div>
+                  <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
+                    Key Figures
+                  </span>
+                  <div className="flex flex-wrap gap-1.5 mt-1.5">
+                    {event.key_figures.map((fig) => (
+                      <span
+                        key={fig}
+                        className="rounded-full border px-3 py-1 font-medium"
+                        style={{ background: "#1a1a1a", borderColor: "#222222", fontSize: "0.95rem", color: "#d1c2a8" }}
+                      >
+                        {fig}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Cross-references */}
+              {event.cross_references.length > 0 && (
+                <div className="flex flex-wrap gap-1.5 items-center">
+                  <Link2 size={11} className="text-muted-foreground/60" />
+                  {event.cross_references.map((ref) => {
+                    const refYear = parseInt(ref.split("_")[0], 10);
+                    if (!isNaN(refYear)) {
+                      return (
+                        <Link
+                          key={ref}
+                          href={`/year/${refYear}`}
+                          className="text-[10px] font-mono rounded px-1.5 py-0.5 transition-colors hover:text-primary"
+                          style={{
+                            background: "rgba(232,200,138,0.08)",
+                            border: "1px solid rgba(232,200,138,0.2)",
+                            color: "var(--gold)",
+                          }}
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          {ref}
+                        </Link>
+                      );
+                    }
+                    return (
+                      <span
+                        key={ref}
+                        className="text-[10px] font-mono rounded px-1.5 py-0.5"
+                        style={{
+                          background: "rgba(232,200,138,0.06)",
+                          border: "1px solid rgba(232,200,138,0.15)",
+                          color: "var(--gold)",
+                          opacity: 0.8,
+                        }}
+                      >
+                        {ref}
+                      </span>
+                    );
+                  })}
+                </div>
+              )}
+
+              {/* Certainty note */}
+              {event.certainty_note && (
+                <p
+                  className="text-xs text-muted-foreground italic border-l-2 pl-3"
+                  style={{ borderColor: "rgba(232,200,138,0.3)" }}
+                >
+                  {event.certainty_note}
+                </p>
+              )}
+
+              {/* Sources toggle */}
+              {event.sources.length > 0 && (
+                <div className="pt-3 border-t border-border/30">
+                  <button
+                    onClick={(e) => { e.stopPropagation(); setSourcesOpen((s) => !s); }}
+                    className="flex items-center gap-1.5 text-[11px] font-medium text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    <BookOpen size={11} />
+                    {event.sources.length} source{event.sources.length !== 1 ? "s" : ""}
+                    <motion.span
+                      animate={{ rotate: sourcesOpen ? 180 : 0 }}
+                      transition={{ duration: 0.2 }}
+                    >
+                      <ChevronDown size={11} />
+                    </motion.span>
+                  </button>
+
+                  <AnimatePresence>
+                    {sourcesOpen && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: "auto", opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.2, ease: "easeInOut" }}
+                        className="overflow-hidden"
+                      >
+                        <div className="mt-2 space-y-1.5">
+                          {event.sources.map((src, i) => (
+                            <div key={i} className="flex items-start gap-2 text-xs">
+                              <span
+                                className={cn(
+                                  "shrink-0 rounded px-1.5 py-0.5 font-mono text-[10px] whitespace-nowrap",
+                                  src.contemporary
+                                    ? "bg-green-900/20 text-green-400 dark:bg-green-900/30"
+                                    : "bg-muted text-muted-foreground"
+                                )}
+                              >
+                                {src.type.replace(/_/g, " ")}
+                                {src.contemporary && " •"}
+                              </span>
+                              <span className="text-foreground/60 leading-relaxed">{src.name}</span>
+                            </div>
+                          ))}
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              )}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </motion.div>
   );
 }
