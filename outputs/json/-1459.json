@@ -1,0 +1,82 @@
+{
+  "year": -1459,
+  "year_label": "1460 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Thutmose III's reign. The New Kingdom was at its height of territorial expansion and military power. Contemporaneously, the Mycenaean civilization was developing in Greece, the Shang Dynasty ruled China, and the Hittite Empire controlled Anatolia. This was an era of intensive inter-regional trade, monumental architecture, and documented military campaigns.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse written sources)",
+    "Pacific Islands (oral traditions not yet recorded)"
+  ],
+  "events": [
+    {
+      "id": "-1459-001",
+      "title": "Thutmose III's Asiatic campaigns and consolidation of empire",
+      "region": "Egypt, Levant, Syria",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "military",
+      "description": "Thutmose III, having consolidated power after the death of Hatshepsut (c. -1479), continued his systematic military campaigns to secure Egyptian hegemony over the Levantine territories. By this period, he had already fought the Battle of Megiddo and was conducting annual campaigns to suppress rebellions and extract tribute. These campaigns established Egypt as the dominant regional power and secured trade routes essential to the New Kingdom economy.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)",
+        "Amenhotep II (co-regent or successor, depending on chronology)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Thutmose III, inscribed at Karnak Temple",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Thutmose III's military stelae and temple reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of Thutmose III's campaigns is well-attested; specific events in individual years are harder to date precisely. Egyptian chronology for this period has \u00b120\u201330 year uncertainties depending on the system used (conventional, low, or high chronology).",
+      "cross_references": [
+        "Battle of Megiddo (-1479 or -1457, depending on chronology)"
+      ]
+    },
+    {
+      "id": "-1459-002",
+      "title": "Mycenaean palace culture flourishing in Greece",
+      "region": "Greece, Peloponnese",
+      "coordinates_approx": "37.7\u00b0N, 23.0\u00b0E",
+      "category": "cultural",
+      "description": "During the mid-15th century BCE, Mycenaean palatial centers such as Mycenae, Tiryns, and Pylos were at the height of their architectural and artistic development. Linear B script was in use for administrative purposes. Extensive trade networks connected the Mycenaean world to Egypt, the Levant, and Anatolia. This period represents the apex of Late Helladic II-IIIA culture.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mycenaean palace sites (Mycenae, Tiryns, Pylos)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Linear B tablets from Knossos and mainland sites",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mycenaean chronology is well-established through stratigraphic archaeology and cross-dating with Egyptian chronology, though absolute dates remain subject to \u00b120\u201330 year variation.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Thutmose III's reign and campaigns remains contested. Different chronological systems (conventional, low, and high chronologies) place the Battle of Megiddo and related campaigns anywhere from -1479 to -1457, a 22-year spread. This affects the precise dating of events in the 1460s BCE. Additionally, some scholars debate whether certain campaigns attributed to Thutmose III in later temple inscriptions may have been conflated with those of his successors or predecessors.",
+  "historiographic_note": "Egyptian sources for this period are abundant but heavily weighted toward royal and military narratives inscribed in temples. Administrative records (papyri) are sparse for this specific decade. Mycenaean evidence is primarily archaeological; Linear B tablets provide administrative detail but limited narrative context. The historical record is skewed toward elite activities and monumental events. Chronological uncertainty remains the primary limitation: Egyptian king-list chronology for the 18th Dynasty has not been definitively resolved, and radiocarbon dating has not yet provided sufficient precision to eliminate the \u00b120\u201330 year range of uncertainty.",
+  "graph_edges": [
+    {
+      "from": "-1459-001",
+      "to": "-1479-001",
+      "relation": "part_of",
+      "note": "Continuation of Thutmose III's broader campaign strategy initiated after the Battle of Megiddo"
+    },
+    {
+      "from": "-1459-002",
+      "to": "-1200-001",
+      "relation": "led_to",
+      "note": "Mycenaean palace culture of this era eventually collapsed during the Late Bronze Age collapse"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "year": -1462,
+  "year_label": "1463 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Thutmose III. The New Kingdom is at the height of its territorial expansion. In the Levant, Egyptian hegemony is being consolidated through military campaigns and tribute extraction. The Mitanni kingdom is a major power in Upper Mesopotamia. The Mycenaean civilization is developing in Greece. This is an era of intensive international trade and diplomatic contact.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-1462-001",
+      "title": "Thutmose III's military campaigns in the Levant",
+      "region": "Levant",
+      "coordinates_approx": "34.5, 35.5",
+      "category": "military",
+      "description": "Thutmose III continued his systematic military campaigns in the Levant to maintain Egyptian control and extract tribute. These campaigns were conducted regularly and are extensively documented in the Karnak temple inscriptions. The campaigns reinforced Egyptian hegemony and ensured the flow of luxury goods (cedar, lapis lazuli, silver) to Egypt. This period represents the consolidation phase following the initial conquest at Megiddo.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions (Annals of Thutmose III)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Levantine sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Thutmose III's campaigns are extensively documented in contemporary inscriptions.",
+      "cross_references": [
+        "-1464-001, -1463-001 (related campaign activity)"
+      ]
+    },
+    {
+      "id": "-1462-002",
+      "title": "Possible Egyptian-Nubian military operations",
+      "region": "Nubia (modern Sudan)",
+      "coordinates_approx": "20.0, 30.0",
+      "category": "military",
+      "description": "During Thutmose III's reign, Egypt maintained military control over Nubia and conducted periodic campaigns to suppress rebellions and extract gold and other resources. However, specific evidence for campaigns in 1463 BCE is not well-attested. The broader pattern of Egyptian Nubian hegemony is clear, but year-by-year documentation is sparse. Nubian gold was essential to the Egyptian economy and prestige.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions (general references to Nubian campaigns)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Nubian sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broader pattern of Egyptian Nubian control is confirmed, but specific evidence for campaigns in 1463 BCE is not well-attested. The assignment to this year is approximate based on the general chronology of Thutmose III's reign.",
+      "cross_references": [
+        "Part of broader pattern of New Kingdom Nubian hegemony"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The specific dating of individual Thutmose III campaigns is uncertain. The Karnak inscriptions do not provide year-by-year dating; they are organized thematically and chronologically in a general way, but precise assignment to specific years is often speculative. The extent of Egyptian control over Nubia may have been more fragile than monumental inscriptions suggest. Additionally, the 'Egyptian chronology problem' affects all dating in this period by \u00b110\u201320 years.",
+  "historiographic_note": "The record for 1463 BCE is heavily dependent on Egyptian temple inscriptions, which are propagandistic. Nubian records for this period are essentially absent. The perspective is Egyptocentric; the viewpoints of Nubian and Levantine polities are largely invisible. Chronological uncertainty is the dominant problem.",
+  "graph_edges": [
+    {
+      "from": "-1462-001",
+      "to": "-1462-002",
+      "relation": "contemporary_with",
+      "note": "Thutmose III was conducting campaigns in both the Levant and Nubia during this period"
+    }
+  ]
+}

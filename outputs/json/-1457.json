@@ -1,0 +1,111 @@
+{
+  "year": -1457,
+  "year_label": "1458 BCE",
+  "era_context": "Late Bronze Age, mid-reign of Thutmose III in Egypt. The New Kingdom was at its territorial zenith. The Mycenaean civilization in Greece was flourishing. The Shang Dynasty continued in China. This was an era of established international trade networks, diplomatic correspondence between major powers, and monumental building programs.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica (limited archaeological record for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-1457-001",
+      "title": "Battle of Megiddo (alternative dating)",
+      "region": "Levant, Canaan",
+      "coordinates_approx": "32.58\u00b0N, 35.19\u00b0E",
+      "category": "military",
+      "description": "Some chronological systems place the Battle of Megiddo, Thutmose III's most famous military victory, in this year rather than -1479. In this battle, Thutmose III defeated a coalition of Levantine princes who had rebelled against Egyptian authority. The victory was decisive and established Egyptian hegemony over the region for decades. The battle is described in detail in the Karnak temple inscriptions.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)",
+        "Coalition of Levantine princes (names not consistently recorded)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Thutmose III, Karnak Temple",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Megiddo (stratigraphy, destruction layers)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The Battle of Megiddo is one of the most famous events of the New Kingdom, but its dating is highly contested. Different chronological systems place it anywhere from -1479 to -1457, a 22-year range. The conventional dating is -1479, but some scholars argue for -1457 or dates in between. The uncertainty reflects broader disagreements about Egyptian chronology for the 18th Dynasty.",
+      "cross_references": [
+        "-1479-001 (alternative dating of the same event)"
+      ]
+    },
+    {
+      "id": "-1457-002",
+      "title": "Thutmose III's consolidation of Levantine control",
+      "region": "Levant, Syria, Egypt",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Following his major military victory (whether in -1479 or -1457), Thutmose III implemented administrative reforms to consolidate Egyptian control over the conquered territories. He established a system of vassal states, appointed Egyptian officials, and reorganized tribute collection. This period saw the integration of Levantine territories into the Egyptian imperial system.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative papyri (fragmentary)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation process is well-attested in Egyptian sources, but the precise timeline is difficult to establish. The process likely occurred over several years following the major military victory.",
+      "cross_references": [
+        "-1457-001"
+      ]
+    },
+    {
+      "id": "-1457-003",
+      "title": "Mycenaean trade expansion in the Eastern Mediterranean",
+      "region": "Greece, Aegean, Levant",
+      "coordinates_approx": "37.7\u00b0N, 23.0\u00b0E",
+      "category": "economic",
+      "description": "Mycenaean pottery and goods appear in increasing quantities in Levantine and Egyptian contexts during this period, indicating expanding trade networks. Mycenaean merchants and craftsmen were establishing a presence in the Eastern Mediterranean, exchanging goods for tin, copper, and other raw materials essential to Bronze Age economies.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Mycenaean pottery in Levantine and Egyptian contexts",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Shipwreck evidence (e.g., Uluburun wreck, though dated slightly later)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The presence of Mycenaean goods in the Eastern Mediterranean is well-established archaeologically. The dating to this specific year is approximate, based on ceramic chronology.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Battle of Megiddo is the primary point of contention. The conventional scholarly consensus places it in -1479, but a significant minority of scholars argue for -1457 or other dates within the 22-year range of uncertainty. This reflects fundamental disagreements about Egyptian chronology for the 18th Dynasty. Some scholars also question whether the Karnak inscriptions accurately represent the historical sequence of events or whether they conflate multiple campaigns into a single narrative. Additionally, the extent of Mycenaean trade in this period is sometimes overstated; while Mycenaean goods do appear in the Eastern Mediterranean, the volume and significance of this trade relative to other exchange networks remains debated.",
+  "historiographic_note": "The historical record for -1457 is dominated by Egyptian sources, particularly the Karnak temple inscriptions of Thutmose III. These sources are biased toward royal military achievements and may not accurately represent the full complexity of regional politics. Hittite sources for this period are fragmentary. Levantine perspectives are largely absent from written sources, though archaeological evidence from sites like Megiddo provides some independent data. The dating of events remains the primary historiographic challenge, as Egyptian chronology for the 18th Dynasty has not been definitively resolved.",
+  "graph_edges": [
+    {
+      "from": "-1457-001",
+      "to": "-1457-002",
+      "relation": "led_to",
+      "note": "Military victory led to administrative consolidation"
+    },
+    {
+      "from": "-1457-003",
+      "to": "-1200-001",
+      "relation": "part_of",
+      "note": "Part of broader Mycenaean expansion that eventually led to Late Bronze Age collapse"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "year": -1450,
+  "year_label": "1450 BCE",
+  "era_context": "The Late Bronze Age in the Eastern Mediterranean and Near East. The New Kingdom of Egypt under the 18th Dynasty (Thutmosid period) was at its height of imperial power. The Mycenaean civilization dominated the Aegean. The Hittite Empire controlled Anatolia and northern Syria. In Mesopotamia, the Middle Babylonian period was underway. This was an era of intensive inter-state diplomacy, military campaigns, and trade networks connecting Egypt, the Levant, Anatolia, and the Aegean.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "East Asia (Chinese records exist but are sparse for this specific year)",
+    "Mesoamerica (archaeological evidence only, no written records)",
+    "Northern Europe (minimal documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1450-001",
+      "title": "Thutmose III's Later Campaigns in the Levant",
+      "region": "Levant (Syria-Palestine)",
+      "coordinates_approx": "34.5, 35.5",
+      "category": "military",
+      "description": "Thutmose III of Egypt, in his later reign, continued consolidation of Egyptian control over Levantine territories. While his major campaigns (particularly the Battle of Megiddo in -1479) were earlier, this period saw ongoing military operations and tribute collection from vassal states. These campaigns reinforced Egyptian hegemony over the region and secured trade routes critical to Egyptian prosperity.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Thutmose III, Temple of Karnak",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative records and tribute lists",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Thutmose III's reign is well-documented, but specific events in individual years are often grouped in surviving records. Dating to -1450 specifically is approximate based on regnal chronology.",
+      "cross_references": [
+        "-1479-001 (Battle of Megiddo)"
+      ]
+    },
+    {
+      "id": "-1450-002",
+      "title": "Mycenaean Expansion in the Aegean",
+      "region": "Aegean Sea and Eastern Mediterranean",
+      "coordinates_approx": "38.0, 24.0",
+      "category": "economic",
+      "description": "The Mycenaean civilization of mainland Greece was expanding its maritime trade networks and establishing trading posts throughout the Aegean and eastern Mediterranean. Archaeological evidence shows increased Mycenaean pottery and artifacts at sites in the Levant, Egypt, and Cyprus during this period, indicating growing commercial and possibly colonial activity.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence: Mycenaean pottery distribution at Mediterranean sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Linear B tablets from Knossos and Pylos",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The trend of Mycenaean expansion is well-established archaeologically, though specific dating within the 15th century BCE involves some uncertainty.",
+      "cross_references": []
+    },
+    {
+      "id": "-1450-003",
+      "title": "Hittite Consolidation Under Amenhotep II's Contemporaries",
+      "region": "Anatolia and Northern Syria",
+      "coordinates_approx": "39.0, 35.0",
+      "category": "political",
+      "description": "The Hittite Empire under Thutmose III's contemporary rulers was consolidating control over Anatolia and competing with Egypt for dominance in northern Syria. This period saw diplomatic correspondence and military maneuvering between the Hittite and Egyptian courts, though major conflicts would intensify in subsequent decades.",
+      "key_figures": [
+        "Hittite rulers of the mid-15th century BCE"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal archives from Bo\u011fazk\u00f6y",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian diplomatic correspondence (Amarna Letters, later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hittite political history of the mid-15th century is less precisely dated than Egyptian records. Specific events in -1450 are inferred from broader chronological frameworks.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Thutmose III's reign remains subject to scholarly debate, with some Egyptologists proposing alternative chronologies that would shift events attributed to -1450 by several years. The 'low chronology' and 'high chronology' debates affect the precise placement of events in this period. Additionally, the extent of Mycenaean colonial activity versus trade-based contact is debated; some scholars argue for more limited Mycenaean presence in the Levant during this period than pottery distribution alone might suggest.",
+  "historiographic_note": "The historical record for -1450 is dominated by Egyptian and Hittite sources, reflecting the bias toward literate, centralized states. Mycenaean civilization is known primarily through archaeology and later Linear B tablets. The Levantine perspective is largely filtered through Egyptian administrative records. Sub-Saharan Africa, East Asia, and the Americas have minimal or no written documentation for this specific year. The surviving sources are heavily weighted toward elite, military, and diplomatic history; economic and social history must be inferred from archaeological evidence.",
+  "graph_edges": [
+    {
+      "from": "-1450-001",
+      "to": "-1450-003",
+      "relation": "contemporary_with",
+      "note": "Egyptian and Hittite powers were simultaneously active in the Levant, creating a multipolar geopolitical situation"
+    },
+    {
+      "from": "-1450-002",
+      "to": "-1450-001",
+      "relation": "contemporary_with",
+      "note": "Mycenaean traders were active in the same Mediterranean region as Egyptian military campaigns"
+    }
+  ]
+}

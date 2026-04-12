@@ -1,0 +1,84 @@
+{
+  "year": -1464,
+  "year_label": "1465 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Thutmose III's reign. The New Kingdom Egyptian empire is at its territorial zenith following the Battle of Megiddo (c. 1457 BCE). In Mesopotamia, the Middle Assyrian period is underway. The Mycenaean civilization dominates the Aegean. This is an era of intensive international diplomacy, military consolidation, and monumental construction across the Eastern Mediterranean and Near East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; archaeological evidence sparse)",
+    "Northern Europe (no written records; archaeological context limited)",
+    "East Asia (Chinese records exist but are not well-integrated into this period's cross-regional synthesis)",
+    "Mesoamerica (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-1464-001",
+      "title": "Thutmose III's military campaigns in the Levant",
+      "region": "Levant (modern Syria, Lebanon, Palestine/Israel)",
+      "coordinates_approx": "34.5, 35.5",
+      "category": "military",
+      "description": "Thutmose III continued his systematic consolidation of Egyptian control over Levantine territories, conducting annual or biennial campaigns to suppress rebellions and extract tribute. These campaigns were meticulously recorded in the Temple of Karnak inscriptions. The campaigns reinforced Egyptian hegemony over city-states and ensured the flow of cedar, lapis lazuli, and other luxury goods to Egypt. This period represents the peak of New Kingdom territorial expansion.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)",
+        "Local Levantine rulers (names variable by city-state)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions (Annals of Thutmose III)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Levantine sites (Tell Megiddo, Byblos, others)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Thutmose III's campaigns are extensively documented in contemporary temple inscriptions and confirmed by archaeological evidence of Egyptian administrative presence and destruction layers at Levantine sites.",
+      "cross_references": [
+        "Follows from -1457-001 (Battle of Megiddo)",
+        "Part of broader pattern of -1480 to -1440 Egyptian expansion"
+      ]
+    },
+    {
+      "id": "-1464-002",
+      "title": "Possible Hittite-Egyptian diplomatic contact",
+      "region": "Anatolia / Egypt",
+      "coordinates_approx": "35.0, 39.0",
+      "category": "political",
+      "description": "During this period, the Hittite Old Kingdom (c. 1650\u20131500 BCE) was in decline or transition, and direct evidence of formal Egyptian-Hittite contact is minimal. However, indirect trade and diplomatic awareness likely existed. The Hittites under Hantili I and successors were consolidating power in Anatolia. Any formal diplomatic exchange at this date is not well-attested in surviving records.",
+      "key_figures": [
+        "Thutmose III (Egypt)",
+        "Hittite rulers (identity uncertain for this specific year)"
+      ],
+      "sources": [
+        {
+          "name": "Absence of contemporary records; inferred from later Amarna Letters and trade patterns",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "No direct contemporary evidence for specific diplomatic contact in 1465 BCE. This entry reflects the broader context of emerging Hittite power and Egyptian awareness of Anatolia, but the precise dating and nature of contact is speculative.",
+      "cross_references": [
+        "Precedes formal Hittite-Egyptian relations attested in -1274 (Battle of Kadesh era)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Thutmose III's reign and his campaigns remains subject to scholarly debate. Some Egyptologists place the Battle of Megiddo and subsequent campaigns within a slightly different chronological framework (\u00b110\u201315 years), depending on whether the 'low,' 'middle,' or 'high' chronology is adopted. The traditional dating used here (c. 1457 BCE for Megiddo) is the most widely accepted but is not universally agreed upon. Additionally, the extent of Egyptian control over the Levant in this period may have been more fragile and episodic than monumental inscriptions suggest; rebellions were frequent, implying incomplete hegemony.",
+  "historiographic_note": "The historical record for 1465 BCE is dominated by Egyptian temple inscriptions, which are inherently propagandistic and may exaggerate military success and territorial control. Archaeological evidence from Levantine sites provides some corroboration but is unevenly distributed. Records from Mesopotamia, the Hittite world, and the Aegean are sparse or absent for this specific year. The perspective is heavily Egyptocentric; the viewpoints and experiences of Levantine, Hittite, and other Near Eastern polities are largely invisible. Chronological uncertainty (the 'Egyptian chronology problem') affects all dating in this period by \u00b110\u201320 years depending on methodology.",
+  "graph_edges": [
+    {
+      "from": "-1464-001",
+      "to": "-1457-001",
+      "relation": "part_of",
+      "note": "Continuation of the military consolidation initiated by the Battle of Megiddo"
+    },
+    {
+      "from": "-1464-001",
+      "to": "-1274-001",
+      "relation": "led_to",
+      "note": "Egyptian Levantine hegemony established in this period eventually led to confrontation with the Hittites at Kadesh"
+    }
+  ]
+}

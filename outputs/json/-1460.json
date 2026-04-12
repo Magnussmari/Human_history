@@ -1,0 +1,87 @@
+{
+  "year": -1460,
+  "year_label": "1461 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Thutmose III. The New Kingdom is at the height of its territorial expansion and consolidation. The Levant is under Egyptian hegemony. The Mitanni kingdom is a major power in Upper Mesopotamia. The Mycenaean civilization is developing in Greece. This is an era of intensive international trade, military campaigns, and monumental construction.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-1460-001",
+      "title": "Thutmose III's military campaigns in the Levant",
+      "region": "Levant",
+      "coordinates_approx": "34.5, 35.5",
+      "category": "military",
+      "description": "Thutmose III continued his systematic military campaigns in the Levant to maintain Egyptian control and extract tribute. These campaigns were conducted regularly and are extensively documented in the Karnak temple inscriptions. The campaigns reinforced Egyptian hegemony and ensured the flow of luxury goods (cedar, lapis lazuli, silver) to Egypt. This period represents the consolidation phase following the initial conquest at Megiddo.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions (Annals of Thutmose III)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Levantine sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Thutmose III's campaigns are extensively documented in contemporary inscriptions and confirmed by archaeological evidence.",
+      "cross_references": [
+        "-1464-001, -1463-001, -1462-001, -1461-001 (related campaign activity)"
+      ]
+    },
+    {
+      "id": "-1460-002",
+      "title": "Possible monumental construction at Karnak Temple",
+      "region": "Egypt (Thebes/Karnak)",
+      "coordinates_approx": "25.73, 32.66",
+      "category": "cultural",
+      "description": "During Thutmose III's reign, extensive construction and renovation work was undertaken at the Karnak Temple complex in Thebes. The temple served as both a religious center and a repository for royal inscriptions documenting military campaigns and administrative achievements. However, specific evidence for construction in 1461 BCE is not well-attested; the broader pattern of Thutmose III's building program is clear, but year-by-year documentation is sparse.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Karnak Temple",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Inscriptions at Karnak Temple",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broader pattern of Thutmose III's building program at Karnak is confirmed, but specific evidence for construction in 1461 BCE is not well-attested. The assignment to this year is approximate based on the general chronology of his reign.",
+      "cross_references": [
+        "Part of broader pattern of New Kingdom monumental construction"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The specific dating of individual Thutmose III campaigns and construction projects is uncertain. The Karnak inscriptions do not provide year-by-year dating; precise assignment to specific years is often speculative. The 'Egyptian chronology problem' affects all dating in this period by \u00b110\u201320 years. Additionally, the extent of Egyptian control over the Levant may have been more episodic and fragile than monumental inscriptions suggest.",
+  "historiographic_note": "The record for 1461 BCE is heavily dependent on Egyptian temple inscriptions and archaeological evidence from Karnak. The perspective is Egyptocentric; the viewpoints of Levantine and other Near Eastern polities are largely invisible. Chronological uncertainty is the dominant problem affecting all dating in this period. The Karnak inscriptions are propagandistic and may exaggerate military success and territorial control.",
+  "graph_edges": [
+    {
+      "from": "-1460-001",
+      "to": "-1460-002",
+      "relation": "contemporary_with",
+      "note": "Military campaigns and monumental construction were occurring simultaneously during Thutmose III's reign"
+    },
+    {
+      "from": "-1460-001",
+      "to": "-1457-001",
+      "relation": "part_of",
+      "note": "Continuation of the military consolidation initiated by the Battle of Megiddo"
+    }
+  ]
+}

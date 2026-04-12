@@ -1,0 +1,88 @@
+{
+  "year": -1463,
+  "year_label": "1464 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Thutmose III. The Egyptian New Kingdom is consolidating its territorial gains in the Levant and Nubia. In Mesopotamia, the Mitanni kingdom is a major power. The Mycenaean civilization in Greece is developing. This period is characterized by intensive international trade, military campaigns, and monumental building projects.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (Chinese records exist but are not well-synchronized with Near Eastern chronology)",
+    "Mesoamerica",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-1463-001",
+      "title": "Thutmose III's continued Levantine campaigns and tribute collection",
+      "region": "Levant",
+      "coordinates_approx": "34.5, 35.5",
+      "category": "military",
+      "description": "Thutmose III's military campaigns in the Levant continued as part of his systematic program of territorial consolidation and tribute extraction. These campaigns were conducted on a regular basis (often annually or biennially) to suppress rebellions and maintain Egyptian hegemony. The campaigns are recorded in the Karnak temple inscriptions and represent the peak of New Kingdom military expansion. Tribute from the Levant included cedar, lapis lazuli, silver, and other luxury goods essential to the Egyptian economy and prestige.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions (Annals of Thutmose III)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Levantine sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Thutmose III's campaigns are extensively documented in contemporary inscriptions and confirmed by archaeological evidence.",
+      "cross_references": [
+        "-1464-001 (related campaign activity)"
+      ]
+    },
+    {
+      "id": "-1463-002",
+      "title": "Mitanni kingdom consolidation under Saustatar",
+      "region": "Mesopotamia (Upper Mesopotamia / Syria)",
+      "coordinates_approx": "36.0, 37.0",
+      "category": "political",
+      "description": "The Mitanni kingdom, a major power in Upper Mesopotamia and Syria, was consolidating its influence during this period. Saustatar (c. 1450\u20131430 BCE) is traditionally dated to this era, though chronological uncertainty is significant. The Mitanni were a crucial counterbalance to Egyptian expansion in the Levant and would later become a major diplomatic partner of Egypt. The kingdom was characterized by a ruling Indo-Aryan elite (the Maryannu) who controlled chariot warfare technology.",
+      "key_figures": [
+        "Saustatar (Mitanni king, traditional dating uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Later Hittite records and Egyptian diplomatic correspondence (Amarna Letters)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Mitanni sites (Alalakh, Nuzi)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The dating of Mitanni rulers is highly uncertain and depends on the broader Egyptian chronology. Saustatar's reign is traditionally placed c. 1450\u20131430 BCE, but this is not firmly anchored to contemporary records. The assignment to 1464 BCE is approximate.",
+      "cross_references": [
+        "Contemporary with Thutmose III's campaigns",
+        "Precedes formal Mitanni-Egyptian treaties (c. 1400 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the Mitanni kingdom and its rulers is one of the most disputed areas in ancient Near Eastern history. Different scholars place Saustatar's reign anywhere from c. 1480 to c. 1420 BCE, a span of 60 years. The assignment to 1464 BCE is therefore highly speculative. Additionally, the extent of Mitanni control over the Levant during this period is debated; some scholars argue that Egyptian and Mitanni spheres of influence were more clearly demarcated than others suggest.",
+  "historiographic_note": "The record for 1464 BCE is heavily dependent on Egyptian sources, which are propagandistic. Mesopotamian and Mitanni records for this specific year are essentially absent. The Amarna Letters, which provide rich diplomatic correspondence, date to the 14th century BCE and are therefore later. Chronological uncertainty is the dominant problem: the 'Egyptian chronology problem' means that all dates in this period are subject to revision by \u00b110\u201320 years depending on methodology. The perspective is Egyptocentric; the viewpoints of Levantine, Mitanni, and other Near Eastern polities are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-1463-001",
+      "to": "-1463-002",
+      "relation": "contemporary_with",
+      "note": "Egyptian and Mitanni expansion were occurring simultaneously in the Levant, creating a balance of power"
+    },
+    {
+      "from": "-1463-002",
+      "to": "-1400-001",
+      "relation": "led_to",
+      "note": "Mitanni consolidation eventually led to formal diplomatic relations with Egypt"
+    }
+  ]
+}

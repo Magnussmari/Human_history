@@ -1,0 +1,131 @@
+{
+  "year": -1455,
+  "year_label": "1456 BCE",
+  "era_context": "Late Bronze Age, mid-reign of Thutmose III in Egypt. The New Kingdom was at the height of its territorial expansion and power. The Mycenaean civilization was flourishing in Greece. The Shang Dynasty continued in China. This was an era of established international trade networks, diplomatic relations between major powers, and monumental building programs.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-1455-001",
+      "title": "Thutmose III's continued military campaigns in the Levant",
+      "region": "Egypt, Levant, Syria",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "military",
+      "description": "Thutmose III continued his systematic annual military campaigns in the Levant to suppress rebellions and extract tribute. The Karnak temple inscriptions record a pattern of campaigns, though individual years are difficult to isolate. These operations maintained Egyptian hegemony over the region and secured trade routes essential to the New Kingdom economy.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Thutmose III, Karnak Temple",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The campaigns are well-attested in aggregate, but year-by-year precision is limited by the nature of Egyptian temple inscriptions, which often group events thematically rather than chronologically.",
+      "cross_references": [
+        "-1459-001",
+        "-1458-001"
+      ]
+    },
+    {
+      "id": "-1455-002",
+      "title": "Egyptian monumental building programs under Thutmose III",
+      "region": "Egypt, Thebes",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "cultural",
+      "description": "Thutmose III commissioned extensive building programs, including additions to the Karnak Temple complex and other religious structures. These monuments served both religious and propagandistic purposes, celebrating the pharaoh's military victories and divine authority. The building programs employed thousands of workers and demonstrated the wealth and power of the New Kingdom.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Karnak Temple and other Egyptian sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Temple inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The building programs of Thutmose III are well-attested archaeologically. The precise dating of individual construction phases is more difficult, but the general period is well-established.",
+      "cross_references": []
+    },
+    {
+      "id": "-1455-003",
+      "title": "Mycenaean trade networks in the Eastern Mediterranean",
+      "region": "Greece, Aegean, Levant, Egypt",
+      "coordinates_approx": "37.7\u00b0N, 23.0\u00b0E",
+      "category": "economic",
+      "description": "Mycenaean merchants and craftsmen were actively engaged in trade throughout the Eastern Mediterranean. Mycenaean pottery appears in increasing quantities in Levantine and Egyptian contexts. The Mycenaeans were exchanging goods for tin, copper, and other raw materials essential to Bronze Age economies. This trade was facilitated by the relative stability of the period.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Mycenaean pottery in Levantine and Egyptian contexts",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The presence of Mycenaean goods in the Eastern Mediterranean is well-established archaeologically. The dating to this specific year is approximate, based on ceramic chronology.",
+      "cross_references": [
+        "-1457-003"
+      ]
+    },
+    {
+      "id": "-1455-004",
+      "title": "Shang Dynasty oracle bone divination practices",
+      "region": "China, Yellow River Valley",
+      "coordinates_approx": "34.0\u00b0N, 108.0\u00b0E",
+      "category": "cultural",
+      "description": "The Shang Dynasty continued its practice of oracle bone divination, using heated bones to divine the will of ancestors and gods. These oracle bones were inscribed with questions and answers, providing a record of Shang religious beliefs and administrative concerns. The practice reflects the Shang worldview and the importance of divination in decision-making.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions from Anyang and other Shang sites",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Shang sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Oracle bone divination is well-attested archaeologically. The precise dating of individual oracle bones to specific years is difficult, but the practice is confirmed for the Shang period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for the events listed. However, the broader chronological framework for this year remains uncertain due to ongoing debates about Egyptian and Chinese chronology. Some scholars question whether the Karnak inscriptions accurately represent the historical sequence of events or whether they conflate multiple campaigns into a single narrative.",
+  "historiographic_note": "The historical record for -1455 is dominated by Egyptian sources, particularly temple inscriptions and archaeological evidence. Chinese sources are primarily oracle bone inscriptions and later compilations. Mycenaean evidence is primarily archaeological. The historical record is heavily weighted toward elite activities and monumental events. Chronological uncertainty remains the primary limitation for all three major civilizations represented in this year. The record is also biased toward written and monumental sources, which may not accurately represent the full complexity of social and economic life.",
+  "graph_edges": [
+    {
+      "from": "-1455-001",
+      "to": "-1455-002",
+      "relation": "contemporary_with",
+      "note": "Military campaigns and building programs occurred simultaneously"
+    },
+    {
+      "from": "-1455-003",
+      "to": "-1455-002",
+      "relation": "contemporary_with",
+      "note": "Mycenaean trade and Egyptian building programs were occurring in the same period"
+    },
+    {
+      "from": "-1455-004",
+      "to": "-1200-001",
+      "relation": "part_of",
+      "note": "Shang oracle bone practices continued until the dynasty's collapse"
+    }
+  ]
+}

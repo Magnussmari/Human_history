@@ -1,0 +1,77 @@
+{
+  "year": -1445,
+  "year_label": "1446 BCE",
+  "era_context": "The mid-15th century BCE falls within the Late Bronze Age, a period of complex state systems across the Eastern Mediterranean, Near East, and Asia. The New Kingdom of Egypt (18th Dynasty) was at its height under Thutmose III and his successors. The Hittite Empire dominated Anatolia and northern Syria. Mycenaean Greece was in the Late Helladic II period. In China, the Shang Dynasty was in its mature phase. This was an era of international diplomacy, trade networks, and periodic military conflict between major powers.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this specific year)",
+    "Northern Europe (sparse written records)",
+    "Mesoamerica (no written chronology synchronized to this date)",
+    "Pacific Islands (no contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1445-001",
+      "title": "Thutmose III's campaigns in the Levant (ongoing)",
+      "region": "Levant, Syria, Egypt",
+      "coordinates_approx": "34.5, 33.5",
+      "category": "military",
+      "description": "Thutmose III of Egypt continued his systematic military campaigns to consolidate Egyptian control over the Levantine territories and counter Hittite expansion. These campaigns, spanning multiple years, resulted in the subjugation of numerous city-states and the establishment of Egyptian hegemony over the region. The campaigns were documented in temple inscriptions and served to secure trade routes and tribute payments to Egypt.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions at Karnak, Egypt",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Annals of Thutmose III",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Thutmose III's reign is well-documented, but specific year-by-year dating of individual campaigns relies on Egyptian regnal chronology, which has \u00b15-10 year uncertainties in this period.",
+      "cross_references": []
+    },
+    {
+      "id": "-1445-002",
+      "title": "Hittite-Egyptian diplomatic tensions",
+      "region": "Anatolia, Syria, Egypt",
+      "coordinates_approx": "35.0, 35.0",
+      "category": "political",
+      "description": "The mid-15th century BCE saw increasing diplomatic and military tension between the Hittite Empire and Egypt over control of northern Syria and the Levant. While formal peace treaties would not be established until later (notably the Treaty of Kadesh in -1259), this period involved proxy conflicts and competing claims to vassal states.",
+      "key_figures": [
+        "Thutmose III (Egypt)",
+        "Tudhaliya II or III (Hittite Empire)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal archives from Bo\u011fazk\u00f6y",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian temple records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader pattern of Hittite-Egyptian rivalry is well-established; specific events in -1445 are inferred from the general historical trajectory rather than dated primary sources.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of Thutmose III's individual campaigns remains contested among Egyptologists. Some scholars argue for a lower chronology that would shift these events by 10-15 years. Additionally, the identity and exact dates of Hittite rulers in this period (Tudhaliya II vs. III) are debated, which affects the attribution of specific diplomatic actions.",
+  "historiographic_note": "Documentation for this year is heavily dependent on Egyptian temple inscriptions and Hittite archives, both of which are elite-focused and may overstate military successes or diplomatic importance. The Levantine perspective is largely absent from surviving records. Chronological precision is limited by the absence of synchronized astronomical observations or dendrochronological data for this specific year. The historical record is biased toward major powers and military/political events; economic, cultural, and demographic changes are poorly documented.",
+  "graph_edges": [
+    {
+      "from": "-1445-001",
+      "to": "-1259-001",
+      "relation": "led_to",
+      "note": "Thutmose III's campaigns established Egyptian dominance that would eventually lead to the formal peace treaty with the Hittites under Ramesses II"
+    }
+  ]
+}

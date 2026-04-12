@@ -1,0 +1,111 @@
+{
+  "year": -1456,
+  "year_label": "1457 BCE",
+  "era_context": "Late Bronze Age, mid-reign of Thutmose III in Egypt. The New Kingdom was consolidating its territorial gains. The Mycenaean civilization was flourishing in Greece. The Shang Dynasty continued in China. This was a period of relative stability in the Eastern Mediterranean, with established diplomatic and trade networks between major powers.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-1456-001",
+      "title": "Thutmose III's administrative consolidation in the Levant",
+      "region": "Egypt, Levant, Syria",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Thutmose III continued to consolidate Egyptian control over the Levantine territories through administrative reorganization and the appointment of Egyptian officials. The system of vassal states was formalized, with regular tribute collection and military oversight. This period saw the establishment of Egyptian administrative centers in the Levant.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative records (papyri, fragmentary)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation process is well-attested in Egyptian sources, but the precise timeline is difficult to establish. The process likely occurred over several years.",
+      "cross_references": [
+        "-1457-002"
+      ]
+    },
+    {
+      "id": "-1456-002",
+      "title": "Mycenaean palace culture at its height",
+      "region": "Greece, Peloponnese",
+      "coordinates_approx": "37.7\u00b0N, 23.0\u00b0E",
+      "category": "cultural",
+      "description": "Mycenaean palatial centers such as Mycenae, Tiryns, and Pylos were at the height of their architectural and artistic development. Linear B script was in use for administrative purposes. Extensive trade networks connected the Mycenaean world to Egypt, the Levant, and Anatolia. This period represents the apex of Late Helladic II-IIIA culture.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mycenaean palace sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Linear B tablets from Knossos and mainland sites",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mycenaean chronology is well-established through stratigraphic archaeology and cross-dating with Egyptian chronology, though absolute dates remain subject to \u00b120\u201330 year variation.",
+      "cross_references": []
+    },
+    {
+      "id": "-1456-003",
+      "title": "Shang Dynasty continuation in China",
+      "region": "China, Yellow River Valley",
+      "coordinates_approx": "34.0\u00b0N, 108.0\u00b0E",
+      "category": "cultural",
+      "description": "The Shang Dynasty continued its rule in China during this period. Oracle bone script was in use for divination and record-keeping. Bronze working was highly developed. The Shang maintained a complex administrative system and engaged in trade with neighboring regions. This period represents the height of Shang cultural and political development.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Shang sites (Anyang, etc.)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Shang Dynasty's existence and cultural practices are well-established through archaeological evidence and oracle bone inscriptions. However, the precise dating of individual years within the Shang period remains uncertain, with \u00b120\u201350 year uncertainties depending on the chronological system used.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for the events listed. However, the broader chronological framework for this year remains uncertain due to ongoing debates about Egyptian and Chinese chronology. The dating of Thutmose III's reign and the Shang Dynasty both carry significant uncertainties that affect the precise dating of events in -1456.",
+  "historiographic_note": "The historical record for -1456 is dominated by Egyptian sources, particularly temple inscriptions. Chinese sources are primarily oracle bone inscriptions and later compilations. Mycenaean evidence is primarily archaeological. The historical record is heavily weighted toward elite activities and monumental events. Chronological uncertainty remains the primary limitation for all three major civilizations represented in this year.",
+  "graph_edges": [
+    {
+      "from": "-1456-001",
+      "to": "-1457-002",
+      "relation": "part_of",
+      "note": "Continuation of administrative consolidation process"
+    },
+    {
+      "from": "-1456-002",
+      "to": "-1456-003",
+      "relation": "contemporary_with",
+      "note": "Mycenaean and Shang civilizations were developing contemporaneously"
+    }
+  ]
+}
