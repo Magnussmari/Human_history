@@ -1,0 +1,99 @@
+{
+  "year": -133,
+  "year_label": "133 BCE",
+  "era_context": "The Hellenistic world continues in transition. Antiochus VII's Parthian campaign is underway or in preparation. The Seleucid Empire is in decline, and Rome is increasingly intervening in eastern Mediterranean affairs. Pergamon, a wealthy Hellenistic kingdom in Asia Minor, is ruled by Attalus III. Egypt remains under Ptolemaic rule. The Parthian Empire is consolidating power in the east.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Central Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "-133-001",
+      "title": "Death of Attalus III and Bequest of Pergamon to Rome",
+      "region": "Pergamon, Asia Minor",
+      "coordinates_approx": "39.1, 27.2",
+      "category": "political",
+      "description": "Attalus III, the last king of the Pergamene dynasty, dies and bequeaths his kingdom to Rome in his will. This event marks a major shift in the balance of power in Asia Minor and the eastern Mediterranean. Rome inherits the wealthy kingdom of Pergamon, which becomes the Roman province of Asia. The bequest is contested by Aristonicus, an illegitimate son of Attalus II, who leads a revolt (the Aristonicus War, 133\u2013129 BCE) against Roman control. This event accelerates Rome's transformation into a Mediterranean superpower.",
+      "key_figures": [
+        "Attalus III (King of Pergamon)",
+        "Aristonicus (illegitimate son, rebel leader)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome (surviving fragments and references in later sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography, Book 14",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Mithridatic Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Inscriptions from Pergamon",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The death of Attalus III and the bequest to Rome are well-attested in multiple sources and confirmed by epigraphic evidence. The date of 133 BCE is firmly established.",
+      "cross_references": [
+        "-129-002 (End of Aristonicus War)"
+      ]
+    },
+    {
+      "id": "-133-002",
+      "title": "Beginning of the Aristonicus War",
+      "region": "Pergamon and Asia Minor",
+      "coordinates_approx": "39.1, 27.2",
+      "category": "military",
+      "description": "Following Attalus III's death and Rome's inheritance of Pergamon, Aristonicus, an illegitimate son of Attalus II, leads a revolt against Roman control. He declares himself king and attracts support from enslaved peoples and the lower classes by promising freedom and land redistribution. The war lasts until 129 BCE and is ultimately suppressed by Roman forces under Manius Aquillius. The conflict demonstrates both the instability of the transition to Roman rule and the social tensions within Hellenistic kingdoms.",
+      "key_figures": [
+        "Aristonicus (rebel leader)",
+        "Manius Aquillius (Roman general)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Mithridatic Wars, Book 1",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography, Book 14",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Aristonicus War is well-documented in ancient sources. The date of 133 BCE for its beginning is firmly established.",
+      "cross_references": [
+        "-133-001 (Death of Attalus III)",
+        "-129-002 (End of Aristonicus War)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No significant disconfirming evidence identified for the major events of 133 BCE. The death of Attalus III and the beginning of the Aristonicus War are well-attested and not seriously disputed by modern scholarship.",
+  "historiographic_note": "The historical record for 133 BCE is relatively rich, particularly for events in the Mediterranean and Asia Minor. The sources are primarily later compilations (Appian, Strabo, Livy) rather than contemporary accounts, but they are based on earlier sources now lost. Epigraphic evidence from Pergamon provides additional confirmation. The perspective is heavily weighted toward Greek and Roman affairs; information about the Parthian Empire, Egypt, and other regions is limited. The record is stronger for political and military events than for economic or social developments.",
+  "graph_edges": [
+    {
+      "from": "-133-001",
+      "to": "-133-002",
+      "relation": "caused_by",
+      "note": "The death of Attalus III and Rome's inheritance of Pergamon directly triggered the Aristonicus War"
+    },
+    {
+      "from": "-133-002",
+      "to": "-129-002",
+      "relation": "led_to",
+      "note": "The Aristonicus War continues until its suppression in 129 BCE"
+    }
+  ]
+}

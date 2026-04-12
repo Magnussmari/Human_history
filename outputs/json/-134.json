@@ -1,0 +1,89 @@
+{
+  "year": -134,
+  "year_label": "134 BCE",
+  "era_context": "The Hellenistic world in the mid-2nd century BCE. The Seleucid Empire under Antiochus VII Sidetes is attempting to restore Seleucid power in the eastern Mediterranean and Mesopotamia after decades of decline. The Parthian Empire is consolidating control over the Iranian plateau and Mesopotamia. Rome is consolidating dominance in the western Mediterranean following the Third Punic War (149\u2013146 BCE) and is beginning to intervene in eastern affairs. Egypt under the Ptolemies remains a major power but is internally unstable.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond the Mediterranean rim",
+    "East Asia (Han Dynasty records exist but are not well integrated into Western historiography for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-134-001",
+      "title": "Antiochus VII Sidetes' Parthian Campaign",
+      "region": "Mesopotamia, Media, Parthia",
+      "coordinates_approx": "32.5, 44.0",
+      "category": "military",
+      "description": "Antiochus VII Sidetes, Seleucid king, launches a major military campaign against the Parthian Empire to recover lost eastern territories. He achieves initial military successes, defeating the Parthian king Phraates II and recovering Mesopotamia and parts of Media. However, the campaign ultimately fails to consolidate Seleucid control, and Antiochus is killed in battle or during the retreat in 129 BCE. This campaign represents the last major Seleucid attempt to recover eastern dominance.",
+      "key_figures": [
+        "Antiochus VII Sidetes (Seleucid king)",
+        "Phraates II (Parthian king)"
+      ],
+      "sources": [
+        {
+          "name": "Josephus, Antiquities of the Jews, Book 13",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The campaign is well-attested in later Hellenistic sources, but precise dating and details of individual engagements vary. The campaign likely began in 130 BCE and extended into 129 BCE; assignment to 134 BCE reflects uncertainty about the exact start date.",
+      "cross_references": [
+        "-129-001 (Death of Antiochus VII)"
+      ]
+    },
+    {
+      "id": "-134-002",
+      "title": "Judean Independence under John Hyrcanus I",
+      "region": "Judea",
+      "coordinates_approx": "31.9, 35.2",
+      "category": "political",
+      "description": "John Hyrcanus I, high priest and ethnarch of Judea, consolidates Judean independence from Seleucid control. Following the weakening of Seleucid power under Antiochus VII's eastern campaigns, Hyrcanus expands Judean territory through military conquest and diplomatic maneuvering. He captures Samaria and Idumea, expanding Judean control. This period marks the beginning of the Hasmonean dynasty's territorial expansion and the establishment of a quasi-independent Judean state.",
+      "key_figures": [
+        "John Hyrcanus I (High Priest and Ethnarch of Judea)"
+      ],
+      "sources": [
+        {
+          "name": "Josephus, Antiquities of the Jews, Book 13",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "1 Maccabees (Hebrew Bible/Old Testament)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Josephus provides the primary narrative, but he wrote centuries later. The chronology of Hyrcanus's reign (c. 135\u2013104 BCE) is established, but specific events within years are sometimes uncertain. This event is assigned to 134 BCE as part of the broader consolidation process during this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Antiochus VII's Parthian campaign is debated. Some scholars place the campaign's beginning in 130 BCE rather than 134 BCE, making the assignment of major events to 134 BCE somewhat speculative. The sources for Judean history in this period are heavily dependent on Josephus, whose chronology has been questioned by modern scholars. Archaeological evidence for specific events in 134 BCE is limited.",
+  "historiographic_note": "The historical record for 134 BCE is dominated by Hellenistic sources, particularly later compilations by Josephus and Appian. These sources are often dependent on earlier works now lost. The perspective is heavily weighted toward the Mediterranean and Near East; information about the Parthian Empire comes primarily from Greek and Roman sources, which may be biased. Chinese sources (Han Dynasty records) exist for this period but are rarely cross-referenced in Western historiography. The record is richer for political and military events than for economic, social, or cultural developments.",
+  "graph_edges": [
+    {
+      "from": "-134-001",
+      "to": "-129-001",
+      "relation": "led_to",
+      "note": "Antiochus VII's Parthian campaign culminates in his death in 129 BCE"
+    },
+    {
+      "from": "-134-002",
+      "to": "-104-001",
+      "relation": "part_of",
+      "note": "John Hyrcanus I's consolidation of Judean independence continues throughout his reign until c. 104 BCE"
+    }
+  ]
+}

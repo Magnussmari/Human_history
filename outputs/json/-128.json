@@ -1,0 +1,84 @@
+{
+  "year": -128,
+  "year_label": "128 BCE",
+  "era_context": "Han Dynasty under Emperor Wu continues aggressive expansion and diplomatic missions. The Seleucid Empire is fragmenting under pressure from Parthia and internal civil strife. Rome is consolidating its Mediterranean hegemony. This is the era of the early Silk Road formation, though the term itself is anachronistic.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania",
+    "Most of the Americas",
+    "Central Asia (limited written records; mostly inferred from later sources)"
+  ],
+  "events": [
+    {
+      "id": "-128-001",
+      "title": "Han Dynasty military campaigns against the Xiongnu",
+      "region": "Northern China and the Steppe",
+      "coordinates_approx": "42.0, 110.0",
+      "category": "military",
+      "description": "Emperor Wu of Han continues his long-running military campaigns against the Xiongnu confederation, which had threatened Han borders for decades. These campaigns, part of a broader strategy to secure the northern frontier and open trade routes to Central Asia, involve large cavalry forces and logistical innovations. The Han military superiority in this period gradually shifts the balance of power on the steppe, though the Xiongnu remain a formidable threat.",
+      "key_figures": [
+        "Emperor Wu of Han (r. 141\u201387 BCE)",
+        "Xiongnu leaders (names not consistently recorded)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled early 1st century BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu, 1st century CE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Han military campaigns against the Xiongnu were continuous during Emperor Wu's reign (141\u201387 BCE). Specific events in 128 BCE are not individually documented in surviving sources; this entry reflects the broader pattern of military activity during this period.",
+      "cross_references": []
+    },
+    {
+      "id": "-128-002",
+      "title": "Seleucid Empire internal instability and territorial losses",
+      "region": "Seleucid Empire (Syria, Mesopotamia, Anatolia)",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "political",
+      "description": "The Seleucid Empire, once the largest Hellenistic successor state, continues to fragment. Parthian expansion under Mithridates I has already seized Mesopotamia; internal civil conflicts weaken central authority. By 128 BCE, the Seleucid realm is reduced to Syria and parts of Anatolia, and even these territories are contested. This decline opens space for new regional powers and accelerates the shift of geopolitical weight toward Parthia and Rome.",
+      "key_figures": [
+        "Seleucid rulers of this period (Antiochus VIII or Antiochus IX, depending on the civil war phase)"
+      ],
+      "sources": [
+        {
+          "name": "Strabo, Geography (1st century BCE/CE, later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Syrian Wars (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Seleucid civil wars and territorial losses are well-attested in later sources, but the precise chronology of events in 128 BCE is unclear. The Seleucid dynasty was fragmented into competing branches during this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No specific events for 128 BCE are well-documented in surviving sources. The entries above reflect broader historical patterns rather than documented events of this particular year. Modern scholarship has largely abandoned attempts to assign specific military campaigns to individual years in this period without contemporary documentation.",
+  "historiographic_note": "128 BCE is poorly documented. Han records exist but are compiled centuries later and often lack year-by-year specificity. Seleucid and Parthian history relies on fragmentary Greek and Roman accounts. The absence of contemporary written records for most of the world in 128 BCE means that this year is essentially invisible except through the lens of later historiography and archaeology. The historical record is heavily biased toward Han Dynasty sources and Mediterranean (Greco-Roman) perspectives.",
+  "graph_edges": [
+    {
+      "from": "-128-001",
+      "to": "-129-001",
+      "relation": "part_of",
+      "note": "Han military campaigns create the security conditions for Zhang Qian's diplomatic missions"
+    },
+    {
+      "from": "-128-002",
+      "to": "-129-003",
+      "relation": "contemporary_with",
+      "note": "Seleucid decline is contemporaneous with Parthian rise under Mithridates I"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "year": -120,
+  "year_label": "120 BCE",
+  "era_context": "The Han Dynasty (206 BCE \u2013 220 CE) is at its height under Emperor Wu (r. 141\u201387 BCE). The Xiongnu confederation dominates the steppes north of China. Rome is in the late Republic, approaching the Social War (91\u201388 BCE). The Seleucid Empire is fragmenting; Parthia is consolidating control of the Near East. This is the era of the Silk Road's emergence and intensified Eurasian contact.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; archaeological record incomplete)",
+    "Northern Europe beyond Roman frontier (sparse written documentation)",
+    "Mesoamerica (Maya Classic period underway but few precisely dated events for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-120-001",
+      "title": "Han Dynasty embassy to the Xiongnu; possible marriage alliance negotiations",
+      "region": "China / Xiongnu Steppe",
+      "coordinates_approx": "40.0, 105.0",
+      "category": "political",
+      "description": "Emperor Wu of Han continued diplomatic and military pressure on the Xiongnu confederation during this period. Around 120 BCE, Han embassies and marriage alliances (heqin) were used to manage relations with Xiongnu leadership. These negotiations were part of a broader strategy to weaken Xiongnu unity and secure the Silk Road trade routes. The exact year of specific embassies is often uncertain in Han records, but this period saw intensive diplomatic activity.",
+      "key_figures": [
+        "Emperor Wu of Han (r. 141\u201387 BCE)",
+        "Xiongnu leadership (names often not preserved in Han sources)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled c. 109\u201391 BCE",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu, compiled 1st century CE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Han records group diplomatic missions by reign period rather than precise year. This event is assigned to 120 BCE by historiographic convention, but the exact year is uncertain (\u00b15 years).",
+      "cross_references": [
+        "Follows from broader Han-Xiongnu conflict cycle beginning c. 133 BCE",
+        "Part of pattern leading to major Han military campaigns 119 BCE"
+      ]
+    },
+    {
+      "id": "-120-002",
+      "title": "Parthian consolidation of Mesopotamia and the Near East",
+      "region": "Parthian Empire / Mesopotamia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "By 120 BCE, the Parthian Arsacid dynasty had solidified control over former Seleucid territories in Mesopotamia and the Iranian plateau. This period marks the emergence of Parthia as a major imperial power rivaling Rome and the Han Dynasty. Parthian control of trade routes and military strength were reshaping the geopolitical balance of Eurasia.",
+      "key_figures": [
+        "Mithridates II of Parthia (r. c. 124\u201391 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Strabo, Geography (compiled early 1st century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Parthian numismatic evidence (coins)",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Parthian dynastic chronology is debated by scholars; Mithridates II's reign dates are uncertain (\u00b13\u20135 years). The consolidation process occurred over decades rather than a single year.",
+      "cross_references": [
+        "Part of broader Seleucid decline (c. 200\u201364 BCE)",
+        "Precursor to Parthian-Roman conflicts in 1st century BCE"
+      ]
+    },
+    {
+      "id": "-120-003",
+      "title": "Roman Social War tensions and internal political instability",
+      "region": "Roman Republic / Italy",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "The Roman Republic in 120 BCE was experiencing mounting internal tensions that would erupt into the Social War (91\u201388 BCE) within a decade. Italian allies (socii) were increasingly dissatisfied with their lack of political rights despite military obligations. Gracchian land reforms and their aftermath had created factional divisions in the Senate. This year falls within a period of political instability and reform attempts.",
+      "key_figures": [
+        "Gaius Gracchus (tribune, d. 121 BCE, but his legacy dominated politics)",
+        "Senate factions"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome (compiled 1st century BCE\u2013CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Civil Wars (compiled 2nd century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general political climate is well-attested; specific events in 120 BCE are not individually documented. This entry describes the era context rather than a discrete event.",
+      "cross_references": [
+        "Follows from Gracchian reforms (133\u2013121 BCE)",
+        "Precursor to Social War (91\u201388 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of Han-Xiongnu diplomatic missions is contested. Some scholars argue that the heqin system was less systematic and more ad hoc than traditional narratives suggest. Parthian chronology, particularly the reign dates of Mithridates II, remains debated among numismatists and historians; some sources place key events 5\u201310 years earlier or later. Roman internal politics in 120 BCE are poorly documented for specific events; the Social War's causes are debated (some scholars emphasize economic factors over political disenfranchisement).",
+  "historiographic_note": "Documentation for 120 BCE is uneven. Han Dynasty records are relatively rich but compiled centuries after events and organized by reign rather than precise year. Parthian history relies heavily on numismatic evidence and later Greek/Roman accounts, which are often hostile or incomplete. Roman sources are abundant but written long after the fact and shaped by later political narratives. Sub-Saharan Africa, Northern Europe, and the Americas are essentially absent from surviving written records for this year. The 'Silk Road' as a unified concept is a modern historiographic construct; actual trade networks were fragmented and indirect.",
+  "graph_edges": [
+    {
+      "from": "-120-001",
+      "to": "-119-001",
+      "relation": "led_to",
+      "note": "Han diplomatic pressure on Xiongnu escalated into major military campaigns in 119 BCE"
+    },
+    {
+      "from": "-120-002",
+      "to": "-64-001",
+      "relation": "led_to",
+      "note": "Parthian consolidation of Near East eventually led to Parthian-Roman conflicts over Syria and Mesopotamia"
+    },
+    {
+      "from": "-120-003",
+      "to": "-91-001",
+      "relation": "led_to",
+      "note": "Political tensions of 120 BCE contributed to outbreak of Social War in 91 BCE"
+    }
+  ]
+}

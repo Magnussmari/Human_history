@@ -1,0 +1,85 @@
+{
+  "year": -135,
+  "year_label": "135 BCE",
+  "era_context": "The Han Dynasty (206 BCE \u2013 220 CE) is in its middle period under Emperor Xuan (r. 74\u201349 BCE). The Western Han has consolidated control over much of East Asia and is actively managing the Silk Road trade routes and relations with nomadic peoples to the north and west. In the Mediterranean, the Roman Republic is in its final century before the transition to the Empire; the Second Punic War ended in 201 BCE, and Rome is consolidating dominance over the Eastern Mediterranean and North Africa. Egypt remains under Ptolemaic rule but is increasingly dependent on Rome.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe beyond Roman frontier knowledge",
+    "Interior of the Americas (no written records; archaeological evidence sparse for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-135-001",
+      "title": "Xiongnu peace agreement and marriage alliance under Han Emperor Xuan",
+      "region": "Han China and Xiongnu Confederation (Central Asia/Steppe)",
+      "coordinates_approx": "40.0, 105.0",
+      "category": "political",
+      "description": "Emperor Xuan of Han negotiated a renewal of the heqin (peace through kinship) agreement with the Xiongnu, a major nomadic confederation threatening Han's northern borders. This diplomatic arrangement involved the marriage of Han princesses to Xiongnu leaders and the exchange of silk, grain, and other goods to maintain peace. The agreement was part of a broader Han strategy to manage the Xiongnu threat through a combination of military strength and diplomatic accommodation. This period saw relative stability on the northern frontier, allowing Han to focus on consolidating internal administration and expanding trade networks.",
+      "key_figures": [
+        "Emperor Xuan of Han (r. 74\u201349 BCE)",
+        "Xiongnu leadership (specific names not consistently recorded in surviving sources)"
+      ],
+      "sources": [
+        {
+          "name": "Records of the Grand Historian (Shiji) by Sima Qian, compiled c. 109 BCE, with later additions",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Book of Han (Han Shu) by Ban Gu, compiled c. 111 CE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The heqin system was ongoing during Xuan's reign (74\u201349 BCE), but specific events in 135 BCE are not precisely dated in surviving sources. The year is assigned by historiographic convention based on references to Xuan-era diplomatic activities.",
+      "cross_references": [
+        "Follows from broader Xiongnu-Han relations established in earlier centuries",
+        "Part of the Han Dynasty's long-term frontier management strategy"
+      ]
+    },
+    {
+      "id": "-135-002",
+      "title": "Roman military campaigns in the Eastern Mediterranean and Balkans",
+      "region": "Roman Republic territories (Mediterranean, Balkans, Asia Minor)",
+      "coordinates_approx": "39.0, 20.0",
+      "category": "military",
+      "description": "During this period, Rome was engaged in consolidating control over recently conquered territories in the Eastern Mediterranean and the Balkans. The specific military campaigns of 135 BCE are not well-documented in surviving sources, but this year falls within a period of Roman expansion and suppression of local rebellions in provinces such as Macedonia, Achaea, and Asia Minor. Roman legions were also active in suppressing slave revolts and maintaining order in newly conquered territories.",
+      "key_figures": [
+        "Roman Senate and magistrates (specific names not reliably attested for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome (Ab Urbe Condita), books 40\u201345 covering this period, compiled c. 27 BCE \u2013 17 CE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories, covering Roman expansion in the Eastern Mediterranean",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Specific events in 135 BCE are not clearly documented. This entry reflects the broader context of Roman military activity during the mid-2nd century BCE. Precise dating is uncertain.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of specific Han-Xiongnu diplomatic events to 135 BCE is conventional rather than based on contemporary records. Modern scholarship notes that the Shiji and Han Shu, while valuable, were compiled centuries after the events they describe and may conflate or misdate specific agreements. The precise year 135 BCE is not independently confirmed by archaeological evidence or contemporary inscriptions. Similarly, Roman military activities in 135 BCE are poorly documented; surviving sources focus on major wars and campaigns, not routine garrison activities or minor conflicts.",
+  "historiographic_note": "The historical record for 135 BCE is heavily dependent on later compilations, particularly Chinese chronicles (Shiji, Han Shu) and Roman historical narratives (Livy, Polybius). These sources are subject to court bias, selective preservation, and the compression of events across multiple years into single narrative accounts. Archaeological evidence (coins, inscriptions, settlement patterns) provides some corroboration but is not abundant for this specific year. The record is significantly skewed toward major political and military events; economic, social, and cultural developments are underrepresented. Sub-Saharan Africa, Northern Europe, and the Americas are essentially absent from surviving documentation.",
+  "graph_edges": [
+    {
+      "from": "-135-001",
+      "to": "-100-XIONGNU_RELATIONS",
+      "relation": "led_to",
+      "note": "Han-Xiongnu diplomatic arrangements continued to evolve through the 1st century BCE"
+    },
+    {
+      "from": "-135-002",
+      "to": "-100-ROMAN_EXPANSION",
+      "relation": "part_of",
+      "note": "Continued Roman consolidation of Eastern Mediterranean control"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "year": -144,
+  "year_label": "144 BCE",
+  "era_context": "The Parthian Empire is consolidating power in the Near East following the collapse of Seleucid authority. In China, the Han Dynasty under Emperor Jing is in its middle period, managing the aftermath of the Seven States Rebellion (ended -154). The Mediterranean world sees Rome consolidating its dominance after the Third Punic War (ended -146), with the destruction of Carthage and Corinth reshaping geopolitical power. Egypt remains under Ptolemaic rule, increasingly dependent on Roman goodwill.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa: minimal written records for this period",
+    "Northern Europe: sparse documentation beyond Roman frontier observations",
+    "Mesoamerica: limited synchronization with Old World chronologies"
+  ],
+  "events": [
+    {
+      "id": "-144-001",
+      "title": "Mithridates I of Parthia consolidates control of Mesopotamia",
+      "region": "Mesopotamia, Parthian Empire",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "Mithridates I (r. -171 to -138) continues his systematic conquest of former Seleucid territories, securing Mesopotamia and establishing Parthia as the dominant power in the Near East. This period marks the transformation of Parthia from a regional kingdom into a major imperial power rivaling Rome. The conquest of Mesopotamia provides Parthia with wealthy cities and control of crucial trade routes, particularly the Silk Road connections to the east.",
+      "key_figures": [
+        "Mithridates I (Parthian King)"
+      ],
+      "sources": [
+        {
+          "name": "Strabo, Geography (Book 11, 9.2-3)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Parthica (fragments)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Parthian coins and inscriptions",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Mithridates I's reign is well-attested, but precise dating of individual conquests within his 33-year reign is uncertain. This event is assigned to -144 by convention within the broader consolidation period.",
+      "cross_references": [
+        "Follows from -154-002 (Seven States Rebellion aftermath)",
+        "Leads to -141-001 (Parthian-Seleucid conflict escalation)"
+      ]
+    },
+    {
+      "id": "-144-002",
+      "title": "Han Dynasty administrative reforms under Emperor Jing",
+      "region": "China, Han Dynasty",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Jing of Han (r. -157 to -141) continues consolidating central authority following the Seven States Rebellion. Administrative reforms strengthen the imperial bureaucracy and reduce the power of regional kingdoms. This period sees the refinement of the examination system and the expansion of Confucian ideology in governance, laying groundwork for later Han institutional development.",
+      "key_figures": [
+        "Emperor Jing of Han",
+        "Dou Ying (Chancellor)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, Chapter 10 (Annals of the Ten Kingdoms)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Han administrative records are well-preserved in official histories compiled within centuries of the events. Dating is reliable.",
+      "cross_references": [
+        "Part of broader Han consolidation (-157 to -141)",
+        "Leads to -141-002 (succession crisis and Dou family influence)"
+      ]
+    },
+    {
+      "id": "-144-003",
+      "title": "Roman expansion in the Iberian Peninsula",
+      "region": "Hispania (Iberian Peninsula)",
+      "coordinates_approx": "40.0, -4.0",
+      "category": "military",
+      "description": "Roman forces continue campaigns against Lusitanian and Celtiberian peoples in the interior of the Iberian Peninsula. This period is marked by prolonged guerrilla warfare and Roman consolidation of coastal and river valley territories. The campaigns are costly and unpopular in Rome, contributing to political tensions in the Republic.",
+      "key_figures": [
+        "Roman commanders (names uncertain for this specific year)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome (Books 48-52, fragmentary for this period)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Iberian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Lusitanian Wars span -147 to -139. Specific events in -144 are not precisely dated in surviving sources; this entry reflects the general campaign context.",
+      "cross_references": [
+        "Part of broader Lusitanian Wars (-147 to -139)",
+        "Leads to -139-001 (Viriathus's death and war's end)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of Mithridates I's individual conquests is debated among scholars. Some sources place the conquest of Mesopotamia earlier (c. -147) or later (c. -141), and the chronology of Parthian expansion remains uncertain due to limited contemporary documentation. The significance of Han administrative reforms in -144 specifically is difficult to isolate; these were gradual processes spanning decades rather than discrete events.",
+  "historiographic_note": "Documentation for -144 is uneven. Han Dynasty records are detailed and reliable, compiled within centuries of the events. Parthian history relies heavily on later Greek and Roman sources (Strabo, Appian) and numismatic evidence, introducing potential bias and dating uncertainty. Roman sources focus on Mediterranean affairs; Iberian campaigns are documented but often in fragmentary form. Sub-Saharan Africa, Northern Europe, and the Americas are essentially undocumented for this year in surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-144-001",
+      "to": "-141-001",
+      "relation": "led_to",
+      "note": "Parthian consolidation in Mesopotamia intensified conflicts with declining Seleucid power"
+    },
+    {
+      "from": "-144-002",
+      "to": "-141-002",
+      "relation": "led_to",
+      "note": "Administrative consolidation under Jing set stage for succession crisis upon his death"
+    },
+    {
+      "from": "-144-003",
+      "to": "-139-001",
+      "relation": "part_of",
+      "note": "Ongoing Lusitanian Wars campaign, culminating in Viriathus's death"
+    }
+  ]
+}
