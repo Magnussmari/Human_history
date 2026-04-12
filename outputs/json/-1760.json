@@ -1,0 +1,87 @@
+{
+  "year": -1760,
+  "year_label": "1760 BCE",
+  "era_context": "The Middle Bronze Age in the Eastern Mediterranean and Near East. The Hyksos were consolidating control over Egypt's Delta region; Mycenaean Greece was in its early phases of palace development; the Old Babylonian period was in decline following Hammurabi's death (~1750 BCE), with regional fragmentation underway. In China, the Xia dynasty was in its traditional chronology, though archaeological confirmation remains contested. The Indus Valley Civilization was in its mature phase.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse settlement evidence)",
+    "Mesoamerica (limited chronological precision for this era)",
+    "Oceania (minimal archaeological data)"
+  ],
+  "events": [
+    {
+      "id": "-1760-001",
+      "title": "Hyksos consolidation in the Nile Delta",
+      "region": "Egypt (Lower Egypt / Nile Delta)",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "political",
+      "description": "The Hyksos (Asiatic peoples, likely from the Levant) were establishing firmer control over the Egyptian Delta region during this period, though the exact chronology of their arrival and consolidation remains debated. Archaeological evidence from sites like Avaris shows mixed Egyptian-Asiatic material culture. This period marks the transition toward what would become the Second Intermediate Period. The Hyksos brought new military technologies, including the horse-drawn chariot, which would transform Egyptian warfare.",
+      "key_figures": [
+        "Hyksos rulers (names uncertain; later Egyptian sources are unreliable)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Avaris (Tell el-Dab'a), excavated by Manfred Bietak",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (later compilation, 3rd century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Papyrus Sallier I and other New Kingdom Egyptian texts",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Hyksos presence in the Delta is archaeologically confirmed, but precise dating of their consolidation is uncertain. Radiocarbon dating and stratigraphic analysis suggest a gradual process spanning several decades; assignment to 1760 BCE is conventional within a broader window of c. 1800\u20131650 BCE.",
+      "cross_references": []
+    },
+    {
+      "id": "-1760-002",
+      "title": "Decline of Old Babylonian hegemony",
+      "region": "Mesopotamia (Babylonia and surrounding regions)",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "Following the death of Hammurabi (c. 1750 BCE), the Old Babylonian state entered a period of territorial contraction and weakening central authority. Regional powers, including the Kassites to the east and Amorite dynasties in the north and west, were asserting independence. This fragmentation would accelerate over the next decades, eventually leading to Kassite dominance of Babylonia by c. 1600 BCE.",
+      "key_figures": [
+        "Samsu-iluna (Hammurabi's son, ruled c. 1749\u20131712 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "King List A and other Mesopotamian king lists",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative and legal texts from Babylon",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The chronology of the Old Babylonian period is debated (Middle vs. Low Chronology), with variations of \u00b150\u2013100 years. The decline is well-attested in cuneiform sources; the specific year 1760 BCE is approximate.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional Egyptian chronology placing the Hyksos invasion at a specific date has been challenged by modern scholarship. Radiocarbon dating and stratigraphic analysis suggest a more gradual infiltration and consolidation rather than a sudden invasion. Additionally, the identity and ethnic origin of the Hyksos remain debated; 'Hyksos' is a Greek corruption of the Egyptian 'Heka-khasut' (rulers of foreign lands), but whether this refers to a unified ethnic group or a heterogeneous collection of Asiatic peoples is unclear. Some scholars argue for a 'High Chronology' that would place these events earlier.",
+  "historiographic_note": "The historical record for 1760 BCE is heavily dependent on archaeological evidence and later Egyptian and Mesopotamian compilations. Egyptian sources about the Hyksos period are predominantly from the New Kingdom (after their expulsion) and are colored by nationalist sentiment. Mesopotamian sources are more contemporary (cuneiform texts) but focus on political and administrative matters. There is a significant bias toward literate, centralized states; the experiences of pastoral, nomadic, and non-literate populations are largely invisible. The chronology of this period remains one of the most contested in ancient history, with competing 'High,' 'Middle,' and 'Low' chronologies differing by up to a century.",
+  "graph_edges": [
+    {
+      "from": "-1760-001",
+      "to": "-1650-HYKSOS_EXPULSION",
+      "relation": "led_to",
+      "note": "Hyksos consolidation in the Delta eventually provoked Egyptian resistance, leading to their expulsion in the 16th century BCE"
+    },
+    {
+      "from": "-1760-002",
+      "to": "-1600-KASSITE_TAKEOVER",
+      "relation": "led_to",
+      "note": "Decline of Old Babylonian power facilitated Kassite conquest of Babylonia"
+    }
+  ]
+}

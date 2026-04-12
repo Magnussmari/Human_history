@@ -1,0 +1,88 @@
+{
+  "year": -1765,
+  "year_label": "1766 BCE",
+  "era_context": "The Middle Bronze Age in the Levant and Egypt; the Hyksos period in Egypt (c. 1650\u20131550 BCE) is well underway. In Mesopotamia, the Old Babylonian period is in decline; Hammurabi's dynasty (c. 1792\u20131750 BCE) has recently ended. The Shang dynasty is consolidating power in China. In the Aegean, the Middle Minoan period continues on Crete. This is an era of regional kingdoms, trade networks, and the emergence of chariot warfare.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (Maya civilization not yet prominent)",
+    "Oceania (no written records)",
+    "Central Asia (limited archaeological synthesis)"
+  ],
+  "events": [
+    {
+      "id": "-1765-001",
+      "title": "Reign of Apepi (Apophis) in Egypt \u2014 Hyksos Dynasty XV",
+      "region": "Egypt, Nile Delta",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "political",
+      "description": "Apepi (also Apophis or Apopi) is attested as a major Hyksos ruler of the 15th Dynasty, though his exact reign dates are debated. He ruled from the Delta capital Avaris and maintained control over Lower Egypt and parts of the Levantine trade network. His reign represents the height of Hyksos power before the New Kingdom reassertion under the 18th Dynasty. Apepi is known from scarabs, stelae, and later Egyptian king lists, though contemporary dating remains uncertain by \u00b110\u201320 years.",
+      "key_figures": [
+        "Apepi (Apophis) \u2014 Hyksos pharaoh"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Scarabs and stelae from Avaris (Tell el-Dab'a)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca (preserved in Josephus)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Apepi's reign is attested archaeologically and in king lists, but absolute dating relies on radiocarbon calibration and synchronisms with Mesopotamian chronologies. Estimates place him c. 1585\u20131542 BCE (conventional) or c. 1555\u20131512 BCE (low chronology). Assignment to -1765 is approximate within \u00b115 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1765-002",
+      "title": "Samsu-iluna's reign in Babylon \u2014 Late Old Babylonian period",
+      "region": "Mesopotamia, Babylon",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "Samsu-iluna (r. c. 1749\u20131712 BCE conventional chronology) was the son and successor of Hammurabi. By c. 1765 BCE, he was consolidating Babylonian power after his father's death, though his reign saw significant territorial losses to the Kassites and other rivals. His reign marks the beginning of the decline of the Old Babylonian state. Samsu-iluna is attested in cuneiform documents, year names, and later king lists.",
+      "key_figures": [
+        "Samsu-iluna \u2014 King of Babylon"
+      ],
+      "sources": [
+        {
+          "name": "Cuneiform administrative and legal documents from Babylon",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Babylonian King List A",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Samsu-iluna's reign is well-attested in cuneiform sources. Absolute dating depends on the Mesopotamian chronology system used (conventional vs. low vs. ultra-low). Conventional dating places him c. 1749\u20131712 BCE; assignment to -1765 reflects mid-reign approximation.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The absolute dating of the Hyksos period and Old Babylonian chronology remains contested. Some scholars argue for a 'low chronology' that would place Apepi's reign c. 50\u2013100 years later than conventional estimates. The Turin King List's regnal years for Hyksos rulers are disputed; some scholars question whether Apepi's reign was as long as traditionally claimed. No disconfirming evidence directly contradicts the events listed, but the precision of dating should be understood as approximate.",
+  "historiographic_note": "Documentation for this year is sparse and heavily dependent on later compilations (king lists, Manetho) and archaeological material (scarabs, stelae) that cannot be precisely dated without external synchronisms. Egyptian sources are biased toward the perspective of the New Kingdom, which viewed the Hyksos as foreign usurpers; Hyksos self-representation is limited. Mesopotamian cuneiform sources are more abundant but focus on administrative and legal matters rather than narrative history. The absence of contemporary narrative sources from this year is typical of the Bronze Age; most 'events' are reconstructed from regnal lists and material culture.",
+  "graph_edges": [
+    {
+      "from": "-1765-001",
+      "to": "-1550-CONCEPT_Hyksos_expulsion",
+      "relation": "led_to",
+      "note": "Apepi's dynasty was eventually expelled by the 18th Dynasty (Ahmose I) c. 1550 BCE, marking the end of Hyksos rule."
+    },
+    {
+      "from": "-1765-002",
+      "to": "-1700-CONCEPT_Kassite_rise",
+      "relation": "led_to",
+      "note": "Samsu-iluna's weakening of Babylon contributed to the rise of Kassite power in Mesopotamia."
+    }
+  ]
+}
