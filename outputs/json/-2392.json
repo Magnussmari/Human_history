@@ -1,0 +1,81 @@
+{
+  "year": -2392,
+  "year_label": "2392 BCE",
+  "era_context": "Old Kingdom Egypt (Dynasty VI) in its final century, Akkadian Empire under Naram-Sin at its territorial maximum, Indus Valley Civilization in mature phase. This period represents the apex of early state centralization in the Old World, with three major civilizations controlling vast territories and trade networks. However, all three are experiencing internal stresses that will lead to significant transformations within the next 200 years.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "East Asia beyond legendary sources"
+  ],
+  "events": [
+    {
+      "id": "-2392-001",
+      "title": "Akkadian military campaigns in Elam and the Zagros",
+      "region": "Mesopotamia, Elam, Zagros Mountains",
+      "coordinates_approx": "32.0, 49.0",
+      "category": "military",
+      "description": "Naram-Sin's inscriptions document military campaigns against Elam and the Zagros mountain peoples. These campaigns were motivated by control of trade routes and access to valuable resources (timber, metals, stone). The campaigns were costly and required significant military mobilization. Elamite resistance was persistent, and the Akkadian victories were not always permanent or decisive.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin inscriptions and stele",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Later Mesopotamian chronicles",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's campaigns against Elam are well-documented in inscriptions, but precise dating to individual years is not possible.",
+      "cross_references": []
+    },
+    {
+      "id": "-2392-002",
+      "title": "Indus Valley trade networks at maximum extent",
+      "region": "Indus Valley, Mesopotamia, Persian Gulf, Arabian Peninsula",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "Archaeological evidence indicates that Indus Valley trade networks extended from the Persian Gulf to Mesopotamia and possibly to the Arabian Peninsula and Egypt. Indus seals and standardized weights have been found in Mesopotamian sites, indicating organized long-distance commerce. This trade was facilitated by maritime routes and overland caravans. The trade brought exotic goods (lapis lazuli, carnelian, timber) into the Indus Valley and exported Indus goods (cotton, beads, seals) to distant markets.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Indus seals in Mesopotamia",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Standardized Indus weights and measures",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The extent of Indus Valley trade networks is well-established through archaeological evidence of Indus artifacts in Mesopotamian sites and vice versa.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The nature and extent of Akkadian control over Elam is debated. Some scholars argue that Naram-Sin's inscriptions exaggerate his victories and that Elamite independence was never fully suppressed. The Indus Valley trade networks' organization and the degree of centralized control over trade are also debated\u2014some scholars argue for decentralized, merchant-driven trade rather than state-controlled commerce.",
+  "historiographic_note": "The record for -2392 is sparse and dominated by Mesopotamian and Egyptian elite sources. The Akkadian inscriptions are propagandistic and focus on military achievements. The Indus Valley Civilization's undeciphered script means that contemporary records cannot be accessed. The absence of written records from most of the world means that this year is essentially invisible outside of three civilizational zones. Archaeological evidence provides some insight into economic and social structures, but interpretation is limited.",
+  "graph_edges": [
+    {
+      "from": "-2392-001",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Naram-Sin's costly military campaigns contributed to the Akkadian Empire's eventual collapse"
+    },
+    {
+      "from": "-2392-002",
+      "to": "-1900-001",
+      "relation": "led_to",
+      "note": "The Indus Valley trade networks declined as the civilization itself declined c. 1900 BCE"
+    }
+  ]
+}

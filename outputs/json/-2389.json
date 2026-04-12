@@ -1,0 +1,81 @@
+{
+  "year": -2389,
+  "year_label": "2389 BCE",
+  "era_context": "The Old Kingdom of Egypt is in its final phase (Dynasty VI, c. 2345\u20132181 BCE). The Akkadian Empire under Naram-Sin dominates Mesopotamia and the Levant. In the Indus Valley, the mature Harappan civilization is at its height. China's Xia Dynasty (traditional dating) is in its legendary early period; archaeological evidence for this era remains contested. This is a period of centralized state power, long-distance trade networks, and monumental architecture across multiple civilizations.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (no written records until much later)",
+    "Oceania (no written records)",
+    "China (Xia Dynasty attribution remains archaeologically uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-2389-001",
+      "title": "Akkadian Empire under Naram-Sin at territorial apex",
+      "region": "Mesopotamia, Levant, Anatolia",
+      "coordinates_approx": "35.5, 33.0",
+      "category": "political",
+      "description": "Naram-Sin (r. c. 2254\u20132218 BCE) continues his reign as the fourth king of the Akkadian Empire. By this period, he has consolidated control over Mesopotamia, the Levant, and parts of Anatolia, establishing the largest territorial state yet seen in the ancient Near East. His inscriptions claim dominion from the Persian Gulf to the Mediterranean. This represents the apex of Akkadian centralized power before internal fragmentation and external pressure from the Gutians.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin Stele and royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Akkadian administrative tablets",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested through contemporary inscriptions and administrative records. The exact year -2389 is assigned by conventional chronology (Middle Chronology); absolute dating remains debated (\u00b150\u2013100 years possible).",
+      "cross_references": []
+    },
+    {
+      "id": "-2389-002",
+      "title": "Harappan civilization at mature phase",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (c. 2600\u20131900 BCE) is in its mature phase. Major urban centers such as Mohenjo-daro and Harappa are fully developed, with standardized weights, measures, and seals indicating sophisticated administrative systems. Long-distance trade networks extend to Mesopotamia, the Persian Gulf, and Central Asia. The undeciphered Indus script appears on seals and pottery. No monumental temples or palaces have been identified, suggesting a non-hierarchical or differently organized society.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and characteristics of the mature Harappan civilization are confirmed by extensive archaeological evidence. Absolute dating relies on radiocarbon and stratigraphic analysis; \u00b1100 years uncertainty is standard for this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional chronology placing Naram-Sin's reign c. 2254\u20132218 BCE is debated. Some scholars argue for a 'Low Chronology' that would place these events 100\u2013150 years later. The Indus Valley Civilization's social organization and the function of its undeciphered script remain contested; interpretations range from a theocratic state to a decentralized mercantile network.",
+  "historiographic_note": "Documentation for this year is heavily weighted toward Mesopotamia and the Indus Valley, where written records and extensive archaeological evidence exist. Egypt's Old Kingdom is well-documented through tomb inscriptions and administrative records, but specific events for -2389 are not clearly attested. China's Xia Dynasty remains in the realm of traditional history with minimal archaeological confirmation. Sub-Saharan Africa, Europe, and the Americas have no written records for this period; understanding of these regions relies entirely on archaeology, which is sparse for this specific year.",
+  "graph_edges": [
+    {
+      "from": "-2389-001",
+      "to": "-2300-GUTIAN_INVASION",
+      "relation": "led_to",
+      "note": "Naram-Sin's territorial overextension and internal strain contributed to the Akkadian Empire's vulnerability to Gutian invasion within ~90 years"
+    },
+    {
+      "from": "-2389-002",
+      "to": "-1900-HARAPPAN_DECLINE",
+      "relation": "led_to",
+      "note": "The mature Harappan civilization of this period eventually declined and was abandoned by c. 1900 BCE"
+    }
+  ]
+}

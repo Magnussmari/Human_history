@@ -1,0 +1,88 @@
+{
+  "year": -2391,
+  "year_label": "2391 BCE",
+  "era_context": "Identical to -2390: Old Kingdom Egypt (Dynasty VI) in decline, Akkadian Empire at its height under Naram-Sin, Indus Valley Civilization in mature phase, legendary Xia Dynasty period in China. This year falls within a stable period of established empires and trade networks, though the Akkadian Empire's overextension is beginning to strain resources.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "East Asia beyond legendary sources"
+  ],
+  "events": [
+    {
+      "id": "-2391-001",
+      "title": "Continued Akkadian administrative consolidation under Naram-Sin",
+      "region": "Mesopotamia and Levant",
+      "coordinates_approx": "35.5, 34.5",
+      "category": "political",
+      "description": "Naram-Sin maintains administrative control over conquered territories and establishes Akkadian as the lingua franca of the empire. Inscriptions from this period document the organization of provincial governors and the collection of tribute. The empire's infrastructure\u2014roads, administrative centers, and military garrisons\u2014is at its most developed. However, evidence suggests increasing strain on resources and resistance from peripheral regions.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Royal inscriptions and administrative documents",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's administrative activities are well-documented in inscriptions, but specific events cannot be dated to individual years with precision.",
+      "cross_references": []
+    },
+    {
+      "id": "-2391-002",
+      "title": "Egyptian Dynasty VI under Pepi II (traditional dating)",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Pepi II (r. c. 2278\u20132184 BCE, traditional dating) is in the latter part of his reign, which is traditionally recorded as the longest in Egyptian history (64 years). However, modern scholars debate the accuracy of this figure and the extent of his actual power. The Old Kingdom is showing signs of decentralization, with provincial governors (nomarchs) gaining increasing autonomy. Expeditions to Nubia and the Red Sea continue, but the central authority is weakening.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Autobiographical inscriptions of officials",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Pyramid texts and temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Pepi II's reign is traditionally dated to c. 2278\u20132184 BCE, but the exact chronology of Dynasty VI remains debated. The year -2391 falls within this period by conventional dating, but uncertainty is \u00b110\u201320 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Pepi II's reign and the accuracy of the 64-year reign length are heavily disputed by modern Egyptologists. Some scholars argue for a much shorter reign (c. 30\u201340 years) and suggest that the Turin King List conflates multiple rulers or contains scribal errors. The extent of Akkadian administrative control over distant territories is also debated\u2014some scholars argue that 'empire' overstates the degree of centralized control, and that many regions maintained semi-autonomous status.",
+  "historiographic_note": "The historical record for -2391 is dominated by Mesopotamian and Egyptian sources, which are inherently elite-focused and propagandistic. The Akkadian inscriptions celebrate military victories and administrative achievements, while Egyptian texts emphasize pharaonic power and divine legitimacy. The Indus Valley Civilization's undeciphered script means that contemporary records from that region cannot be accessed. The absence of written records from most of the world means that this year is essentially invisible outside of three civilizational zones.",
+  "graph_edges": [
+    {
+      "from": "-2391-001",
+      "to": "-2390-001",
+      "relation": "contemporary_with",
+      "note": "Naram-Sin's administrative consolidation parallels his military campaigns"
+    },
+    {
+      "from": "-2391-002",
+      "to": "-2184-001",
+      "relation": "led_to",
+      "note": "The weakening of central authority under Pepi II contributed to the collapse of the Old Kingdom c. 2184 BCE"
+    }
+  ]
+}
