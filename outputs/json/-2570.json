@@ -1,0 +1,102 @@
+{
+  "year": -2570,
+  "year_label": "2570 BCE",
+  "era_context": "Egypt's Fourth Dynasty under Khufu, in the final years of his reign (c. 2589\u20132566 BCE by conventional chronology). Mesopotamia in Early Dynastic III, with city-states competing for regional dominance. The Akkad Empire has not yet risen. The Indus Valley Civilization in its Early Harappan phase, with settlements gradually increasing in complexity. Bronze Age societies across the Mediterranean and Near East are well-established.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Mesopotamia: no specific datable events for this year",
+    "Indus Valley: chronology and events unknown",
+    "China: Xia Dynasty status uncertain",
+    "Sub-Saharan Africa: no written records",
+    "Americas: no written records"
+  ],
+  "events": [
+    {
+      "id": "-2570-001",
+      "title": "Great Pyramid of Giza nearing completion",
+      "region": "Egypt, Giza Plateau",
+      "coordinates_approx": "29.9788, 31.1345",
+      "category": "technological",
+      "description": "By this year, the Great Pyramid of Giza is in its final construction phases, approaching completion. The pyramid's construction represents an unprecedented mobilization of resources and labor, involving the quarrying and transport of approximately 2.3 million limestone blocks. The internal structure includes the King's Chamber (lined with granite), the Queen's Chamber, and a complex system of passages and shafts. The pyramid's near-perfect alignment to cardinal directions and its mathematical proportions demonstrate sophisticated knowledge of geometry and astronomy. The completion of the pyramid would mark the culmination of Khufu's reign and the apex of Old Kingdom architectural achievement.",
+      "key_figures": [
+        "Khufu (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Great Pyramid of Giza (archaeological evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Radiocarbon dating of organic material from the pyramid",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Astronomical calculations based on pyramid orientation",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The pyramid's existence and Khufu's association with it are confirmed by archaeology. The specific year-by-year progress of construction is not documented. Radiocarbon dating has produced conflicting results, with some analyses suggesting construction dates ranging from 2680 to 2500 BCE. The assignment to 2570 BCE is approximate within a \u00b110-year range.",
+      "cross_references": [
+        "-2574-001",
+        "-2573-001",
+        "-2572-001",
+        "-2571-001"
+      ]
+    },
+    {
+      "id": "-2570-002",
+      "title": "Khufu's reign in its final years",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "This year falls in the final years of Khufu's reign, which lasted approximately 23 years (c. 2589\u20132566 BCE by conventional chronology). By this point, Khufu had established himself as one of Egypt's most powerful pharaohs, with the Great Pyramid serving as a monument to his authority and the state's organizational capacity. His reign saw the consolidation of Old Kingdom administrative structures and the refinement of divine kingship ideology. The succession to his son (or possibly grandson) would occur within a few years, marking the transition to the next phase of the Fourth Dynasty.",
+      "key_figures": [
+        "Khufu (Pharaoh)",
+        "Djedefre (possibly Khufu's son, likely successor)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Khufu's reign is well-attested in later king lists and the pyramid itself is contemporary archaeological evidence. The precise year-by-year dating of the Old Kingdom remains uncertain; conventional chronology places Khufu c. 2589\u20132566 BCE, but some scholars argue for dates up to 150 years later. The assignment of this specific year (2570 BCE) to Khufu's reign is approximate within a \u00b110-year range.",
+      "cross_references": [
+        "-2574-001",
+        "-2566-KHUFU_DEATH"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The conventional dating of Khufu's reign is disputed by some scholars who argue for a 'low chronology' placing the Fourth Dynasty 100\u2013150 years later. The identity of Khufu's successor is debated; some sources suggest Djedefre, others Khafre. The extent to which the Great Pyramid was completed during Khufu's lifetime versus in the reigns of his successors is not definitively established. Recent scholarship has questioned the traditional narrative of the pyramid as a monument to Khufu's ego, emphasizing instead its role in religious cosmology and state organization.",
+  "historiographic_note": "The Old Kingdom chronology relies heavily on later king lists (Turin, Abydos, Manetho) compiled centuries or millennia after the events. No contemporary written records from Khufu's reign survive. Dating depends on astronomical calculations, radiocarbon analysis (which has produced conflicting results), and synchronization with other chronological systems. Egyptian sources are biased toward royal and monumental records; the lives of ordinary people are largely invisible. The 'Pyramid Texts' inscribed in later pyramids provide religious and administrative context but post-date Khufu.",
+  "graph_edges": [
+    {
+      "from": "-2570-001",
+      "to": "-2570-002",
+      "relation": "contemporary_with",
+      "note": "Pyramid completion and Khufu's final years are contemporary"
+    },
+    {
+      "from": "-2570-002",
+      "to": "-2566-KHUFU_DEATH",
+      "relation": "led_to",
+      "note": "Khufu's reign ends; succession to Djedefre or Khafre"
+    }
+  ]
+}

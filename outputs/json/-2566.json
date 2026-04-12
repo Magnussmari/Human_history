@@ -1,0 +1,89 @@
+{
+  "year": -2566,
+  "year_label": "2566 BCE",
+  "era_context": "Egypt's Old Kingdom, Dynasty IV. This year marks the probable end of Khufu's reign (c. 2589\u20132566 BCE according to conventional chronology) or falls within the reign of his successor Khafre. The Giza pyramid complex was either completed or in active use. Mesopotamia was in the Early Dynastic III period. The Indus Valley Civilisation was in its early urban phase.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Mesopotamia",
+    "Indus Valley",
+    "Sub-Saharan Africa",
+    "East Asia",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-2566-001",
+      "title": "Probable end of Khufu's reign; transition to Khafre or successor",
+      "region": "Egypt, Memphis and Giza",
+      "coordinates_approx": "29.9788, 31.1345",
+      "category": "political",
+      "description": "According to conventional Egyptological chronology, Khufu's reign ended c. 2566 BCE, and he was succeeded by Khafre (or possibly Djedefre, depending on the chronological system). This transition marked a shift in pharaonic priorities: Khafre's reign saw the construction of the second pyramid at Giza and the Great Sphinx. The succession itself is not documented in contemporary records; it is inferred from king lists and the archaeological sequence of monuments.",
+      "key_figures": [
+        "Khufu (Pharaoh, Dynasty IV, end of reign)",
+        "Khafre (Pharaoh, Dynasty IV, probable successor)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (regnal lengths for Dynasty IV)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Giza pyramid complex and Khafre's pyramid (archaeological evidence)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The conventional chronology places Khufu's reign at c. 2589\u20132566 BCE, but this is based on king-list regnal lengths and architectural analysis, both of which have inherent uncertainty. Alternative chronologies shift this date by 50\u2013100 years. The succession itself is not documented in contemporary sources.",
+      "cross_references": []
+    },
+    {
+      "id": "-2566-002",
+      "title": "Completion or near-completion of the Great Pyramid of Khufu",
+      "region": "Egypt, Giza Plateau",
+      "coordinates_approx": "29.9788, 31.1345",
+      "category": "cultural",
+      "description": "The Great Pyramid of Khufu is conventionally dated to c. 2589\u20132566 BCE. By 2566 BCE, the pyramid was either completed or in its final construction phase. It remained the world's tallest man-made structure for over 3,800 years. The pyramid's construction required the mobilisation of tens of thousands of workers, the development of sophisticated quarrying and transport technologies, and the centralised control of resources on an unprecedented scale. Its completion represented the apex of Old Kingdom pharaonic power and the culmination of decades of labour.",
+      "key_figures": [
+        "Khufu (Pharaoh, Dynasty IV)"
+      ],
+      "sources": [
+        {
+          "name": "Great Pyramid of Khufu (archaeological evidence: stratigraphy, radiocarbon dating, architectural analysis)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Radiocarbon dating of organic materials from the pyramid",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Radiocarbon dating and architectural analysis place the pyramid's construction within c. 2589\u20132566 BCE, with error margins of \u00b150\u2013100 years. The exact completion date is not pinpointed.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Khufu's reign and the Great Pyramid's completion remains contested. Some scholars propose alternative chronologies that shift these dates significantly. The claim that the pyramid was built by 'slave labour' is contradicted by archaeological evidence of worker villages and provisioning systems. The succession from Khufu to Khafre is not documented in contemporary sources; the order and duration of their reigns are inferred from later king lists, which may contain errors or omissions.",
+  "historiographic_note": "The historical record for this year is almost entirely archaeological. No contemporary written records survive. The bias toward monumental architecture obscures the broader social, economic, and demographic context. Chronological uncertainty of \u00b150\u2013100 years is inherent to this period. The succession of pharaohs is known only from later king lists, which are subject to error and revision.",
+  "graph_edges": [
+    {
+      "from": "-2566-001",
+      "to": "-2566-002",
+      "relation": "contemporary_with",
+      "note": "Completion of Great Pyramid coincides with end of Khufu's reign"
+    },
+    {
+      "from": "-2566-001",
+      "to": "concept: Dynasty IV Egypt",
+      "relation": "part_of",
+      "note": "Transition within Dynasty IV"
+    }
+  ]
+}

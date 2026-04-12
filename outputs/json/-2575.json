@@ -1,0 +1,80 @@
+{
+  "year": -2575,
+  "year_label": "2575 BCE",
+  "era_context": "Old Kingdom Egypt (6th Dynasty) in its final years; Akkad Empire under Naram-Sin remains dominant but facing increasing pressure from external enemies (Gutians, Elamites) and internal instability. Indus Valley Civilization in mature phase. Traditional Xia Dynasty period in China (unconfirmed).",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia",
+    "Southeast Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-2575-001",
+      "title": "Akkadian Empire faces pressure from Gutian invasions",
+      "region": "Akkad Empire, Mesopotamia, Zagros Mountains",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "military",
+      "description": "Naram-Sin's later reign was marked by increasing military pressure from the Gutians, a semi-nomadic people from the Zagros Mountains. While Naram-Sin's inscriptions claim victories over the Gutians, later sources (particularly the Sumerian King List) suggest that Gutian pressure was relentless and contributed to the eventual collapse of the Akkad Empire after Naram-Sin's death. This period marks the beginning of the end for Akkadian hegemony in Mesopotamia.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian inscriptions claiming victories over the Gutians",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Gutian pressure on the Akkad Empire is attested in both contemporary Akkadian inscriptions and later Sumerian sources. The specific year is assigned within Naram-Sin's reign with \u00b15\u201310 year uncertainty. The extent of Gutian threat is debated; Akkadian sources may minimize it.",
+      "cross_references": [
+        "-2254-001"
+      ]
+    },
+    {
+      "id": "-2575-002",
+      "title": "Indus Valley Civilization: continued urban prosperity and trade",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization continued its mature phase with no major disruptions attested for this year. Archaeological evidence shows continued trade with Mesopotamia, the Persian Gulf, and Central Asia. Urban centers like Harappa and Mohenjo-daro maintained their administrative and commercial functions. The civilization would not experience significant decline until c. 1900 BCE.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations and stratigraphic analysis",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The continued prosperity of the Indus Valley Civilization during this period is archaeologically well-attested. Year-by-year precision is not possible due to the limitations of archaeological dating.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The role of Gutian invasions in the collapse of the Akkad Empire is debated. Some scholars argue that internal instability, economic crisis, and climate change (possibly drought) were more significant factors than external military pressure. The Sumerian King List, which emphasizes Gutian conquest, is a later compilation and may reflect political biases. Akkadian inscriptions claiming victories over the Gutians may be propagandistic exaggerations.",
+  "historiographic_note": "This year marks a transitional period in Mesopotamian history, though the transition is not visible in year-by-year records. The collapse of the Akkad Empire is better understood as a process spanning several decades rather than a single catastrophic event. The historical record is shaped by the perspective of the victors (later Sumerian sources) and the propaganda of the defeated (Akkadian inscriptions). The experiences of ordinary people during this period of instability are not recorded. Egyptian and Indus Valley sources remain geographically isolated and do not document events in Mesopotamia.",
+  "graph_edges": [
+    {
+      "from": "-2575-001",
+      "to": "-2218-001",
+      "relation": "led_to",
+      "note": "Gutian pressure contributed to the collapse of the Akkad Empire after Naram-Sin's death (c. 2218 BCE)"
+    },
+    {
+      "from": "-2575-002",
+      "to": "-1900-001",
+      "relation": "led_to",
+      "note": "The mature phase of the Indus Valley Civilization continued until c. 1900 BCE, when decline began"
+    }
+  ]
+}

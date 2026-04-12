@@ -1,0 +1,68 @@
+{
+  "year": -2574,
+  "year_label": "2574 BCE",
+  "era_context": "Egypt's Old Kingdom, mid-Fourth Dynasty under Khufu (r. ~2589\u20132566 BCE). This is the apex of pyramid construction and centralized pharaonic power. Simultaneously, the Akkad Empire under Sargon of Akkad (r. ~2334\u20132279 BCE in traditional chronology, though some scholars place him later) was not yet founded; Mesopotamia remained fragmented among city-states. The Indus Valley Civilization was in its Early Harappan phase. China's Xia Dynasty (if historical) would be in its early period, though archaeological confirmation remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Mesopotamia: few datable events to specific years in this period",
+    "Indus Valley: chronology and political structure poorly understood for this specific year",
+    "China: Xia Dynasty historicity and chronology remain unresolved",
+    "Sub-Saharan Africa: minimal written records",
+    "Americas: no written records; archaeological context limited"
+  ],
+  "events": [
+    {
+      "id": "-2574-001",
+      "title": "Khufu's reign (Fourth Dynasty, Egypt)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "Khufu (Cheops in Greek) ruled during the height of Old Kingdom centralization and pyramid construction. This year falls within his reign, which lasted approximately 23 years (c. 2589\u20132566 BCE by conventional chronology). His administration oversaw the completion or near-completion of the Great Pyramid of Giza, the largest stone structure of the ancient world. The pyramid's construction required unprecedented labor organization, resource mobilization, and architectural innovation. Khufu's reign represents the peak of pharaonic power and the state's ability to command resources for monumental building.",
+      "key_figures": [
+        "Khufu (Pharaoh, Fourth Dynasty)",
+        "Hemiunu (possibly vizier and architect)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (preserved in Josephus and Eusebius)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Great Pyramid of Giza and associated archaeological evidence",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Abydos King List (temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Khufu's reign is well-attested in later king lists and the pyramid itself is contemporary archaeological evidence. However, precise year-by-year dating of the Old Kingdom remains uncertain; conventional chronology places him c. 2589\u20132566 BCE, but some scholars argue for dates up to 150 years later. The assignment of this specific year (2574 BCE) to Khufu's reign is approximate within a \u00b110-year range.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The conventional dating of Khufu's reign (c. 2589\u20132566 BCE) is disputed by some scholars who argue for a 'low chronology' placing the Fourth Dynasty 100\u2013150 years later. Additionally, the attribution of the Great Pyramid's construction entirely to Khufu has been questioned; some evidence suggests earlier or later construction phases. The identity of the architect (often given as Hemiunu) is not confirmed by contemporary sources.",
+  "historiographic_note": "The Old Kingdom chronology relies heavily on later king lists (Turin, Abydos, Manetho) compiled centuries or millennia after the events. No contemporary written records from Khufu's reign survive; dating depends on astronomical calculations, radiocarbon analysis of organic material from the pyramids (which has produced conflicting results), and synchronization with other chronological systems. Egyptian sources are biased toward royal and monumental records; the lives of ordinary people are largely invisible. The 'Pyramid Texts' inscribed in later pyramids provide religious and administrative context but post-date Khufu.",
+  "graph_edges": [
+    {
+      "from": "-2574-001",
+      "to": "-2566-KHUFU_DEATH",
+      "relation": "led_to",
+      "note": "Khufu's reign ends; succession to Djedefre or Khafre"
+    },
+    {
+      "from": "-2574-001",
+      "to": "GREAT_PYRAMID_CONSTRUCTION",
+      "relation": "part_of",
+      "note": "Ongoing construction of the Great Pyramid of Giza"
+    }
+  ]
+}
