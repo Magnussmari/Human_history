@@ -1,0 +1,73 @@
+{
+  "year": -2052,
+  "year_label": "2052 BCE",
+  "era_context": "Egypt's First Intermediate Period (c. 2181\u20132055 BCE) continues with fragmented political authority. In Mesopotamia, the Ur III Dynasty is in its early phase of consolidation following the Akkadian collapse and Gutian occupation. The Indus Valley Civilization is at its mature urban peak. In China, the Xia Dynasty (if historical) would be in its early phase, though archaeological evidence remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2052-001",
+      "title": "Ur III Dynasty consolidation and temple-centered economy",
+      "region": "Mesopotamia (Sumer)",
+      "coordinates_approx": "32.0\u00b0N, 46.1\u00b0E",
+      "category": "economic",
+      "description": "The Ur III state develops an increasingly sophisticated temple-centered economy in which major temples serve as centers of production, storage, and redistribution. Clay tablets record the management of vast herds of livestock, grain stores, and labor forces. This system represents one of the earliest examples of centralized economic planning and administration. The state controls major economic activities through a hierarchical bureaucracy, with records kept in cuneiform on clay tablets.",
+      "key_figures": [
+        "Ur-Nammu (founder of Ur III Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Ur III administrative tablets from multiple sites (Nippur, Ur, Lagash, Umma)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and nature of the Ur III economic system are well-documented through thousands of clay tablets. However, the precise dating of individual years within Ur-Nammu's reign is uncertain due to chronological debates (\u00b150 years).",
+      "cross_references": [
+        "-2050-001",
+        "-2051-001"
+      ]
+    },
+    {
+      "id": "-2052-002",
+      "title": "Egyptian First Intermediate Period: regional fragmentation",
+      "region": "Egypt",
+      "coordinates_approx": "26.0\u00b0N, 31.0\u00b0E",
+      "category": "political",
+      "description": "During the First Intermediate Period, Egypt is fragmented into competing regional powers. The Old Kingdom's centralized authority has collapsed, and local governors (nomarchs) exercise increasing autonomy. This period is characterized by political instability, reduced monumental construction, and economic disruption. However, some regions maintain administrative continuity and cultural production. The period is poorly documented compared to the Old Kingdom, with few contemporary records surviving.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Egyptian administrative records and tomb inscriptions from various regions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "King List of Egypt (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The First Intermediate Period's existence and general characteristics are well-established, but specific events and precise dating for individual years are uncertain. The period is defined more by what is absent (monumental construction, centralized authority) than by documented events.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The First Intermediate Period was long viewed as a time of complete collapse and chaos, but recent scholarship suggests that regional centers maintained cultural and economic vitality, and the period may not have been as disruptive as traditionally portrayed. The Ur III chronology remains debated, with some scholars proposing dates 50\u2013100 years later than the conventional chronology used here.",
+  "historiographic_note": "2052 BCE is poorly documented overall. Mesopotamian sources (Ur III tablets) provide exceptional detail about economic and administrative systems but limited narrative history. Egyptian sources are fragmentary and biased toward elite perspectives. No written records exist for most of the world. The First Intermediate Period is defined largely by the absence of Old Kingdom-style monumental records, making it difficult to reconstruct specific events or political developments.",
+  "graph_edges": [
+    {
+      "from": "-2052-001",
+      "to": "-2052-002",
+      "relation": "contemporary_with",
+      "note": "Ur III economic consolidation occurs while Egypt experiences political fragmentation"
+    }
+  ]
+}

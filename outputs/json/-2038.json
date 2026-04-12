@@ -1,0 +1,97 @@
+{
+  "year": -2038,
+  "year_label": "2038 BCE",
+  "era_context": "The late Old Kingdom in Egypt is in advanced stages of fragmentation. In Mesopotamia, the Akkadian Empire is collapsing under Gutian pressure. The Indus Valley Civilization remains in its mature, prosperous phase. The broader context is one of political transition and regional instability in the Near East and Egypt, contrasting with apparent stability in South Asia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-2038-001",
+      "title": "Gutian pressure on Mesopotamian city-states intensifies",
+      "region": "Mesopotamia (Akkad, Sumer, Zagros borderlands)",
+      "coordinates_approx": "32.5, 44.0",
+      "category": "military",
+      "description": "Gutian raids and incursions into Mesopotamia increase in frequency and intensity during this period. The Gutians, hill tribes from the Zagros Mountains, exploit the weakness of the late Akkadian state to raid and gradually occupy Mesopotamian territories. City-states in Sumer, previously under Akkadian control, face pressure from both Gutian raiders and the collapsing central authority. This period marks the beginning of the Gutian interregnum, which will last until the rise of Ur III c. 2112 BCE.",
+      "key_figures": [
+        "Gutian leaders (unnamed in contemporary sources)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of destruction and settlement patterns",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Later Mesopotamian chronicles and king lists",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Gutian invasions are attested in later sources and archaeology, but precise dating and chronology are uncertain. The Gutian period is poorly documented in contemporary sources.",
+      "cross_references": [
+        "Part of broader Akkadian collapse",
+        "Precedes Ur III consolidation c. 2112 BCE"
+      ]
+    },
+    {
+      "id": "-2038-002",
+      "title": "Indus Valley Civilization maintains urban centres and trade networks",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 68.5",
+      "category": "economic",
+      "description": "The Indus Valley Civilization continues in its mature phase, with large urban centres at Mohenjo-daro, Harappa, Dholavira, and Kalibangan. Trade networks extend to Mesopotamia, the Persian Gulf, and Central Asia. The civilization is characterized by sophisticated urban planning, standardized weights and measures, and a complex economy. This period represents the height of Harappan prosperity and influence, before the civilization's decline c. 1900 BCE.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Indus sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian texts mentioning Meluhha trade",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan civilization's existence and chronology are well-established through archaeology. Dating to c. 2600\u20131900 BCE is based on radiocarbon and stratigraphic evidence.",
+      "cross_references": [
+        "Contemporary with Akkadian collapse and Egyptian Old Kingdom decline",
+        "Precedes Harappan decline c. 1900 BCE"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Gutian period is poorly documented, and some scholars question the extent and duration of Gutian control over Mesopotamia. The 'invasion' narrative may be exaggerated in later sources. For the Indus Valley, the apparent stability and prosperity of this period contrasts with the rapid decline that follows c. 1900 BCE, suggesting that the causes of decline were sudden and possibly external (climate change, flood) rather than gradual internal decay.",
+  "historiographic_note": "The historical record for this period is sparse and heavily dependent on later compilations and archaeological inference. Contemporary written sources are limited, particularly for the Gutian period. The Indus Valley record is archaeologically rich but textually opaque.",
+  "graph_edges": [
+    {
+      "from": "-2038-001",
+      "to": "-2038-002",
+      "relation": "contemporary_with",
+      "note": "Gutian pressure on Mesopotamia is contemporary with Harappan prosperity"
+    },
+    {
+      "from": "-2038-001",
+      "to": "-2112-UR_III_CONSOLIDATION",
+      "relation": "led_to",
+      "note": "Gutian interregnum eventually led to Ur III consolidation"
+    }
+  ]
+}

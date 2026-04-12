@@ -1,0 +1,97 @@
+{
+  "year": -2036,
+  "year_label": "2036 BCE",
+  "era_context": "Continuation of the late Old Kingdom in Egypt and the Akkadian decline in Mesopotamia. The Indus Valley Civilization remains in its mature phase. In the Aegean, Early Bronze Age II cultures persist. The broader context is one of transition: major empires fragmenting, regional powers consolidating, and long-distance trade networks adapting to political instability.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia (limited contemporary records)"
+  ],
+  "events": [
+    {
+      "id": "-2036-001",
+      "title": "Continued fragmentation of Egyptian Old Kingdom authority",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Sixth Dynasty of Egypt (c. 2278\u20132184 BCE) continues its decline into regional fragmentation. Central authority weakens as provincial governors (nomarchs) accumulate power and resources. The reign of Pepi II (traditionally dated c. 2278\u20132184 BCE, though some scholars place him earlier) is associated with this period of decentralization. Tomb inscriptions and administrative records show increasing autonomy of local elites. This fragmentation will culminate in the First Intermediate Period (c. 2184\u20132055 BCE).",
+      "key_figures": [
+        "Pepi II (Sixth Dynasty pharaoh, traditional dates c. 2278\u20132184 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists (Abydos, Turin Papyrus)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Tomb inscriptions and administrative papyri from the Sixth Dynasty",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of reduced central construction and increased provincial activity",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The decline of the Old Kingdom is well-documented, but the precise chronology of individual reigns remains debated. Pepi II's dates are particularly contested, with some scholars placing him c. 2278\u20132184 BCE and others c. 2250\u20132150 BCE.",
+      "cross_references": [
+        "Part of broader Old Kingdom decline",
+        "Precedes First Intermediate Period c. 2184 BCE"
+      ]
+    },
+    {
+      "id": "-2036-002",
+      "title": "Indus Valley trade networks maintain connections with Mesopotamia",
+      "region": "Indus Valley and Mesopotamia (via Persian Gulf)",
+      "coordinates_approx": "27.0, 68.5",
+      "category": "economic",
+      "description": "Despite political turmoil in Mesopotamia, trade between the Indus Valley and Akkadian/post-Akkadian Mesopotamia continues. Indus seals and weights are found in Mesopotamian contexts, and Mesopotamian goods appear in Indus sites. This trade is facilitated by intermediaries in the Persian Gulf and Oman (Dilmun and Magan in Mesopotamian texts). The trade network demonstrates the resilience of commercial ties even amid political instability.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Indus seals found in Mesopotamian archaeological contexts",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian texts mentioning Meluhha trade",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Gulf trade sites (Dilmun, Magan)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence of Indus-Mesopotamia trade is well-attested archaeologically. Dating to specific years is approximate, but the trade network is known to have been active during the mature Harappan phase (c. 2600\u20131900 BCE).",
+      "cross_references": [
+        "Contemporary with Akkadian decline",
+        "Part of broader Indus Valley economic system"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the Egyptian Old Kingdom, particularly the reign of Pepi II, is highly contested. Some scholars argue for a much shorter reign (c. 64 years) while others propose longer durations. The 'decline' narrative itself has been questioned; some evidence suggests continuity of administrative structures rather than collapse. For Indus-Mesopotamia trade, the volume and nature of exchange remain debated\u2014some scholars emphasize direct trade, others stress intermediaries.",
+  "historiographic_note": "Egyptian records from this period are abundant but biased toward royal and elite perspectives. The decline of the Old Kingdom is inferred partly from the absence of monumental construction rather than explicit historical records. Mesopotamian sources are sparse for the Gutian period. The Indus Valley record remains archaeologically rich but textually opaque due to the undeciphered script.",
+  "graph_edges": [
+    {
+      "from": "-2036-001",
+      "to": "-2035-001",
+      "relation": "contemporary_with",
+      "note": "Egyptian Old Kingdom decline parallels Akkadian collapse in Mesopotamia"
+    },
+    {
+      "from": "-2036-002",
+      "to": "-2035-002",
+      "relation": "part_of",
+      "note": "Indus trade is part of the broader mature Harappan economic system"
+    }
+  ]
+}

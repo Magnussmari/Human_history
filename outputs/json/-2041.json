@@ -1,0 +1,108 @@
+{
+  "year": -2041,
+  "year_label": "2041 BCE",
+  "era_context": "Identical to -2040: Old Kingdom Egypt (Dynasty VI) in decline, Akkad Empire at its height under Naram-Sin, Indus Valley Civilization in mature phase, Xia Dynasty (China) either early or legendary. Bronze Age Eurasia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-2041-001",
+      "title": "Akkadian military campaigns under Naram-Sin (continued)",
+      "region": "Mesopotamia, Levant, Anatolia",
+      "coordinates_approx": "32.5, 44.0",
+      "category": "military",
+      "description": "Naram-Sin continues military consolidation of the Akkad Empire. Inscriptions record campaigns against the Lullubi in the Zagros Mountains and expansion into Anatolia. The empire's military reach is at its maximum, though logistical strain and resistance from conquered peoples are increasing. This period represents the apex of Akkadian territorial control.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions and stelae",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's military campaigns are well-documented in contemporary inscriptions. Specific dating of individual campaigns within his reign is uncertain; -2041 is assigned by convention within his reign period.",
+      "cross_references": [
+        "-2040-001"
+      ]
+    },
+    {
+      "id": "-2041-002",
+      "title": "Indus Valley trade networks at maximum extent",
+      "region": "Indus Valley, Mesopotamia, Persian Gulf, Oman Peninsula",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains extensive maritime and overland trade networks. Harappan seals and artifacts are found in Mesopotamia (Akkad), the Persian Gulf, and Oman, indicating active commerce in luxury goods, raw materials, and possibly bulk commodities. This trade is a defining feature of the mature Harappan economy and reflects sophisticated merchant networks.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Indus seals and artifacts in Mesopotamian sites (e.g., Ur, Lagash)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals with Akkadian inscriptions or Akkadian references to 'Meluhha' (Indus Valley)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence of Indus-Mesopotamian trade is archaeologically confirmed. The peak of this trade is generally dated to the mature Harappan phase (c. 2600\u20131900 BCE), and -2041 falls within this period.",
+      "cross_references": [
+        "-2040-002"
+      ]
+    },
+    {
+      "id": "-2041-003",
+      "title": "Climatic stress and aridification in the late 3rd millennium BCE",
+      "region": "Mesopotamia, Levant, Indus Valley, Egypt",
+      "coordinates_approx": null,
+      "category": "environmental",
+      "description": "Paleoclimatic evidence (ice cores, lake sediments, tree rings) indicates a period of increased aridification and cooling in the late 3rd millennium BCE, often called the '4.2 ka event' or '3.2 ka event' (depending on regional manifestation). This climatic shift is associated with reduced precipitation in Mesopotamia, the Levant, and the Indus Valley, contributing to agricultural stress and social upheaval. The effects are not uniformly felt but are particularly severe in marginal agricultural zones.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Ice core records (Greenland, Antarctica)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Lake sediment cores and paleobotanical evidence",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Tree ring chronologies (dendrochronology)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Paleoclimatic evidence for aridification in the late 3rd millennium BCE is well-established. The precise timing and regional manifestations vary; -2041 falls within the period of documented climatic stress.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The causal relationship between the late 3rd millennium climatic shift and the collapse of civilizations (Akkad, Harappan decline) is debated. Some scholars argue that climate was a contributing factor but not the primary cause; others emphasize internal political and economic factors. The 'Akkad collapse' narrative has been questioned by recent scholarship, which suggests a more gradual decline rather than a sudden catastrophe.",
+  "historiographic_note": "The year -2041 is archaeologically and historically indistinguishable from -2040 and -2041. No specific events are recorded for this individual year in surviving sources. The events listed are inferred from broader patterns and general chronological placement within known reigns and periods. This illustrates the fundamental limitation of year-by-year history for the ancient world: most years leave no individual trace in the historical record.",
+  "graph_edges": [
+    {
+      "from": "-2041-003",
+      "to": "-2040-001",
+      "relation": "contemporary_with",
+      "note": "Climatic stress during Naram-Sin's reign may have contributed to the empire's later collapse."
+    },
+    {
+      "from": "-2041-003",
+      "to": "-2040-002",
+      "relation": "contemporary_with",
+      "note": "Climatic stress may have affected Harappan agriculture and contributed to the civilization's eventual decline."
+    }
+  ]
+}

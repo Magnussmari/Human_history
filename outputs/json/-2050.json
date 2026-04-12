@@ -1,0 +1,81 @@
+{
+  "year": -2050,
+  "year_label": "2050 BCE",
+  "era_context": "The Old Kingdom of Egypt has collapsed into the First Intermediate Period (c. 2181\u20132055 BCE). In Mesopotamia, the Akkadian Empire under Naram-Sin has fragmented following Gutian invasions; the Third Dynasty of Ur (Ur III) is consolidating power in southern Mesopotamia. The Indus Valley Civilization is in its mature phase. In China, the Xia Dynasty (traditional dating) is in its legendary period; archaeological evidence for this era remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (no written records yet)",
+    "Southeast Asia (minimal archaeological evidence for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-2050-001",
+      "title": "Consolidation of Ur III Dynasty power in southern Mesopotamia",
+      "region": "Mesopotamia (Sumer)",
+      "coordinates_approx": "32.0\u00b0N, 46.1\u00b0E",
+      "category": "political",
+      "description": "Following the collapse of the Akkadian Empire and Gutian occupation, the Third Dynasty of Ur (Ur III) under Ur-Nammu and his successors establishes centralized control over southern Mesopotamia. This period marks the beginning of intensive administrative record-keeping on clay tablets, creating one of the earliest bureaucratic archives. The Ur III state develops a sophisticated system of taxation, labor organization, and temple-centered economy that will define Sumerian civilization for the next century.",
+      "key_figures": [
+        "Ur-Nammu (founder of Ur III Dynasty)",
+        "Shulgi (son of Ur-Nammu, likely ruling by this period)"
+      ],
+      "sources": [
+        {
+          "name": "Ur III administrative tablets (cuneiform clay tablets from Nippur, Ur, Lagash, and other sites)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "King List of Sumer (later compilation, but preserves Ur III chronology)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ur III chronology is debated; conventional dating places Ur-Nammu's reign c. 2112\u20132095 BCE, making 2050 BCE fall within the early-to-mid Ur III period. However, some scholars propose a 'low chronology' shifting these dates down by 50\u2013100 years. The administrative tablets confirm the dynasty's existence and power, but precise year-by-year dating for this era is uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "-2050-002",
+      "title": "Indus Valley Civilization at peak urban development",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0\u00b0N, 68.0\u00b0E",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (c. 2600\u20131900 BCE) is in its mature phase, with major urban centers like Harappa and Mohenjo-daro at their height. These cities display sophisticated urban planning, standardized weights and measures, and an undeciphered script. Trade networks extend to Mesopotamia, the Persian Gulf, and Central Asia. The civilization is characterized by remarkable uniformity in architecture, pottery, and town planning across a vast geographic area, suggesting centralized authority or shared cultural norms.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, Dholavira, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions (undeciphered script)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's existence and chronology are well-established through extensive archaeological evidence. However, the lack of deciphered writing limits understanding of political organization, religious beliefs, and specific historical events. Dating relies on stratigraphic analysis and radiocarbon dating, with broad consensus placing the mature phase c. 2600\u20131900 BCE.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional Egyptian chronology placing the First Intermediate Period at c. 2181\u20132055 BCE is debated by some scholars who propose alternative 'low chronologies' that would shift these dates significantly. The Akkadian Empire's collapse is traditionally attributed to Gutian invasions, but recent scholarship suggests internal fragmentation and climate stress (possibly linked to the 4.2 kya event) may have been equally or more significant. The Indus Valley script remains undeciphered, so claims about political centralization or religious practices are inferences from material culture rather than textual evidence.",
+  "historiographic_note": "For 2050 BCE, documentation is heavily skewed toward Mesopotamia and the Indus Valley, where written records and extensive archaeological evidence exist. Egypt's First Intermediate Period is known primarily through administrative records and later king lists, with significant gaps in contemporary documentation. Sub-Saharan Africa, Europe, East Asia, and the Americas have no written records for this period; knowledge is limited to archaeology and oral traditions later recorded. The Ur III administrative tablets provide exceptional detail for Mesopotamian society but tell us little about political events, military campaigns, or the lives of non-elite populations. Chronological uncertainty of \u00b150\u2013100 years is common for this era.",
+  "graph_edges": [
+    {
+      "from": "-2050-001",
+      "to": "-2047-001",
+      "relation": "led_to",
+      "note": "Ur III consolidation leads to the reign of Shulgi and further expansion of the dynasty"
+    },
+    {
+      "from": "-2050-002",
+      "to": "-1900-001",
+      "relation": "led_to",
+      "note": "Indus Valley Civilization continues until c. 1900 BCE, when it undergoes decline and transformation"
+    }
+  ]
+}

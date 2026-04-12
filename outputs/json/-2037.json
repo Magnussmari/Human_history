@@ -1,0 +1,100 @@
+{
+  "year": -2037,
+  "year_label": "2037 BCE",
+  "era_context": "The late Old Kingdom in Egypt continues its fragmentation. In Mesopotamia, the Akkadian Empire is in its final stages of collapse, with Gutian pressure mounting. The Indus Valley Civilization remains in its mature phase. The broader era is characterized by political instability in the Near East and Egypt, contrasting with the apparent stability and prosperity of the Indus Valley.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-2037-001",
+      "title": "Akkadian Empire in terminal decline; regional fragmentation accelerates",
+      "region": "Mesopotamia (Akkad, Sumer, surrounding regions)",
+      "coordinates_approx": "32.5, 44.0",
+      "category": "political",
+      "description": "The Akkadian Empire, which had unified much of Mesopotamia under Sargon of Akkad (c. 2334\u20132279 BCE) and Naram-Sin (c. 2254\u20132218 BCE), enters its final phase of disintegration. The successors of Naram-Sin, particularly Shar-kali-sharri (r. c. 2217\u20132193 BCE), lack the military and administrative capacity to maintain central control. Gutian raids from the Zagros Mountains increase in frequency and scale. City-states in Sumer begin reasserting independence. This period marks the transition from the Akkadian period to the Gutian interregnum and eventually the Third Dynasty of Ur (Ur III).",
+      "key_figures": [
+        "Shar-kali-sharri (last Akkadian king)",
+        "Gutian leaders (unnamed in contemporary sources)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Akkadian inscriptions and administrative texts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of destruction layers and settlement abandonment",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Akkadian collapse is well-attested archaeologically and in later chronicles, but precise dating within the 22nd century BCE is uncertain by \u00b110\u201315 years.",
+      "cross_references": [
+        "Part of broader Akkadian decline",
+        "Precedes Ur III consolidation c. 2112 BCE"
+      ]
+    },
+    {
+      "id": "-2037-002",
+      "title": "Egyptian provincial governors consolidate local power bases",
+      "region": "Egypt (Nile Valley, various nomes)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "As central authority weakens under the late Sixth Dynasty, provincial governors (nomarchs) increasingly consolidate power and resources within their regions. Tomb inscriptions from this period show nomarchs describing their local achievements and autonomy. This decentralization is a key feature of the transition from the Old Kingdom to the First Intermediate Period. The process is gradual but accelerating, with regional elites accumulating wealth and military resources.",
+      "key_figures": [
+        "Various nomarchs (named in tomb inscriptions, e.g., Ankhtifi of Moalla)"
+      ],
+      "sources": [
+        {
+          "name": "Tomb inscriptions of nomarchs (epigraphic evidence)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri and records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of provincial construction and resource accumulation",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The decentralization of Egyptian authority during the late Old Kingdom is well-documented in inscriptions and archaeological evidence. Dating to specific years is approximate, but the trend is clear.",
+      "cross_references": [
+        "Part of broader Old Kingdom decline",
+        "Precedes First Intermediate Period c. 2184 BCE"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The narrative of 'collapse' in both Mesopotamia and Egypt has been questioned by some scholars, who argue for greater continuity of administrative and cultural practices. The Akkadian 'collapse' may have been more gradual and less catastrophic than traditional accounts suggest. Similarly, the Egyptian 'decline' may represent a shift in power distribution rather than a true collapse of civilization.",
+  "historiographic_note": "Both Mesopotamian and Egyptian records from this period are limited in contemporary documentation. Much of what we know comes from later chronicles, king lists, and archaeological inference. The Mesopotamian record is particularly sparse for the Gutian period, which is poorly documented in writing. Egyptian records are more abundant but focus on elite perspectives.",
+  "graph_edges": [
+    {
+      "from": "-2037-001",
+      "to": "-2037-002",
+      "relation": "contemporary_with",
+      "note": "Akkadian collapse and Egyptian Old Kingdom decline are roughly contemporary, reflecting broader regional instability"
+    },
+    {
+      "from": "-2037-001",
+      "to": "-2112-UR_III_CONSOLIDATION",
+      "relation": "led_to",
+      "note": "Akkadian collapse eventually led to Ur III consolidation"
+    }
+  ]
+}

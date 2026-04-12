@@ -1,0 +1,103 @@
+{
+  "year": -2035,
+  "year_label": "2035 BCE",
+  "era_context": "The Old Kingdom of Egypt is in decline; the Sixth Dynasty (c. 2278\u20132184 BCE) is fragmenting into regional power bases. In Mesopotamia, the Akkadian Empire under Naram-Sin's successors faces internal instability and external pressure from Gutian raiders from the Zagros Mountains. The Indus Valley Civilization is in its mature phase (Harappan period, c. 2600\u20131900 BCE), with large urban centres at Mohenjo-daro and Harappa. In the Aegean, Early Bronze Age II cultures are developing; in China, the Xia Dynasty (traditional dates c. 2070\u20131600 BCE) may be emerging or is still legendary.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse settlement evidence)",
+    "Mesoamerica (pre-Classic period; limited chronological precision)",
+    "Southeast Asia (minimal contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-2035-001",
+      "title": "Decline of Akkadian Empire; Gutian invasions intensify",
+      "region": "Mesopotamia (Akkad, Sumer, Zagros borderlands)",
+      "coordinates_approx": "32.5, 44.0",
+      "category": "military",
+      "description": "The Akkadian Empire, established by Sargon of Akkad c. 2334 BCE, enters terminal decline under weak successors following Naram-Sin's death (c. 2154 BCE). Gutian hill tribes from the Zagros Mountains raid and gradually occupy Mesopotamian territories, fragmenting central authority. This period marks the transition from Akkadian hegemony to the Third Dynasty of Ur (Ur III), though that consolidation lies decades ahead. The collapse is attested in king lists and later Mesopotamian chronicles.",
+      "key_figures": [
+        "Shar-kali-sharri (last Akkadian king, r. c. 2217\u20132193 BCE)",
+        "Gutian leaders (unnamed in contemporary sources)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List (later compilation, Old Babylonian copies)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Naram-Sin Stele and inscriptions (contemporary with earlier Akkadian period)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological stratigraphy at Nippur, Lagash, and other Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Akkadian collapse is well-attested archaeologically and in later chronicles, but precise dating within the 22nd century BCE remains uncertain by \u00b110\u201315 years. The Gutian period is poorly documented in contemporary sources.",
+      "cross_references": [
+        "Follows from broader Akkadian decline beginning c. 2154 BCE",
+        "Precedes Ur III consolidation c. 2112 BCE"
+      ]
+    },
+    {
+      "id": "-2035-002",
+      "title": "Mature Harappan urban centres at peak population and trade",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 68.5",
+      "category": "economic",
+      "description": "The Indus Valley Civilization (Harappan period, c. 2600\u20131900 BCE) is at or near its demographic and economic zenith. Major urban centres including Mohenjo-daro, Harappa, Dholavira, and Kalibangan support populations in the tens of thousands. Long-distance trade networks extend to Mesopotamia, the Persian Gulf, and Central Asia, evidenced by Indus seals found in Akkadian-period contexts and vice versa. Urban planning, standardized weights and measures, and sophisticated drainage systems are fully developed. The undeciphered Indus script appears on seals and pottery.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, and other Indus sites (ongoing since 1920s)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and inscriptions (epigraphic evidence)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian texts mentioning Meluhha (Indus Valley) trade",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan civilization's existence and chronology are well-established through archaeology. Dating to c. 2600\u20131900 BCE is based on radiocarbon and stratigraphic evidence, with \u00b150\u2013100 year margins.",
+      "cross_references": [
+        "Contemporary with Akkadian decline in Mesopotamia",
+        "Precedes Harappan decline c. 1900 BCE"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of the Akkadian collapse and Gutian period remains contested. Some scholars place the transition earlier (c. 2154 BCE) or later (c. 2100 BCE). The Gutian period's duration and extent of territorial control are debated; some evidence suggests they were a smaller, more localized threat than later chronicles imply. For the Indus Valley, the 'mature Harappan' phase is well-documented, but the causes of the civilization's later decline (c. 1900 BCE) remain disputed\u2014climate change, flood, invasion, and internal collapse have all been proposed with varying evidence.",
+  "historiographic_note": "The historical record for Mesopotamia in this period relies heavily on later king lists and chronicles, which may compress or distort chronology. Contemporary inscriptions from Akkadian rulers are abundant but end with Naram-Sin; the Gutian period is poorly documented in writing. For the Indus Valley, the archaeological record is rich but the undeciphered script limits understanding of political organization, religion, and historical events. Egyptian records from this period (Old Kingdom decline) are better preserved but focus on the Nile Valley; global synthesis requires careful cross-dating.",
+  "graph_edges": [
+    {
+      "from": "-2035-001",
+      "to": "-2112-UR_III_CONSOLIDATION",
+      "relation": "led_to",
+      "note": "Akkadian collapse and Gutian interregnum eventually led to the rise of the Third Dynasty of Ur"
+    },
+    {
+      "from": "-2035-002",
+      "to": "-1900-HARAPPAN_DECLINE",
+      "relation": "led_to",
+      "note": "Mature Harappan phase precedes the civilization's decline and transformation"
+    },
+    {
+      "from": "-2035-001",
+      "to": "-2035-002",
+      "relation": "contemporary_with",
+      "note": "Akkadian collapse and Harappan maturity are roughly contemporary, with some trade interaction"
+    }
+  ]
+}

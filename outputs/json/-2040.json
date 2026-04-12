@@ -1,0 +1,117 @@
+{
+  "year": -2040,
+  "year_label": "2040 BCE",
+  "era_context": "The Old Kingdom of Egypt is in its final phase (Dynasty VI, c. 2278\u20132184 BCE). Simultaneously, the Akkad Empire under Naram-Sin dominates Mesopotamia and the Levant. In the Indus Valley, the mature Harappan civilization is at its height. In China, the Xia Dynasty (traditional dating c. 2070\u20131600 BCE) is either in its early phase or still legendary; archaeological evidence remains contested. The Bronze Age is well established across Eurasia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "Mesoamerica (Early Formative period poorly dated)",
+    "Oceania (settlement patterns incompletely known)"
+  ],
+  "events": [
+    {
+      "id": "-2040-001",
+      "title": "Reign of Naram-Sin of Akkad (approximate middle period)",
+      "region": "Mesopotamia, Levant, Anatolia",
+      "coordinates_approx": "32.5, 44.0",
+      "category": "political",
+      "description": "Naram-Sin (r. c. 2254\u20132218 BCE) continues his military campaigns and consolidation of the Akkad Empire. By this period, he has declared himself a god and expanded Akkadian control into Anatolia, the Levant, and the Persian Gulf region. His reign represents the apex of Akkadian imperial power, though it is also marked by internal resistance and the beginning of climatic stress that will contribute to the empire's collapse.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian inscriptions and royal stelae (e.g., Victory Stele of Naram-Sin)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested in contemporary inscriptions. Absolute dating relies on Mesopotamian chronology, which has \u00b150\u2013100 year uncertainty for this period. The traditional date range is c. 2254\u20132218 BCE; -2040 falls within the latter half of his reign.",
+      "cross_references": []
+    },
+    {
+      "id": "-2040-002",
+      "title": "Mature Harappan civilization at peak urban development",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (c. 2600\u20131900 BCE) is in its mature phase. Major cities such as Mohenjo-daro and Harappa are fully developed with sophisticated urban planning, standardized weights and measures, and extensive trade networks. Writing system (undeciphered) is in use. This period represents the height of Harappan material culture and territorial extent before the civilization's gradual decline in the following centuries.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature Harappan phase is archaeologically well-established through stratigraphy and radiocarbon dating. Absolute dating has \u00b1100\u2013150 year uncertainty, but -2040 falls securely within the mature phase (c. 2600\u20131900 BCE).",
+      "cross_references": []
+    },
+    {
+      "id": "-2040-003",
+      "title": "Late Dynasty VI Egypt under Pepi II (traditional chronology)",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Pepi II (r. c. 2278\u20132184 BCE in traditional chronology) is in the latter part of his reign, which is traditionally described as the longest in Egyptian history (64 years). By this period, the central authority of the Old Kingdom is weakening, provincial governors (nomarchs) are accumulating power, and the state is experiencing economic strain. This era marks the transition toward the First Intermediate Period.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Pyramid texts and inscriptions from Pepi II's pyramid complex",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca (via later compilations)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Pepi II's existence and general chronological position are well-attested. However, Egyptian Old Kingdom chronology has significant uncertainty (\u00b150\u2013100 years) due to reliance on king lists and limited astronomical data. The traditional reign length of 64 years is disputed by modern scholars; some suggest 30\u201340 years is more plausible.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional length of Pepi II's reign (64 years) is disputed by modern Egyptologists, who argue for a shorter reign of 30\u201340 years based on archaeological evidence and the absence of extensive building projects in the latter part of the traditional reign. Additionally, the absolute dating of the Old Kingdom remains contested; some scholars propose a 'low chronology' that would place -2040 earlier in Pepi II's reign or even in the reign of his predecessor.",
+  "historiographic_note": "Documentation for -2040 is heavily skewed toward Mesopotamia and Egypt, where written records and monumental inscriptions survive. The Indus Valley Civilization is known through archaeology but its undeciphered script limits historical narrative. Chronologies for this period rely on king lists (Egypt, Mesopotamia), which are retrospective compilations with inherent biases toward royal legitimacy and may contain errors or legendary elements. Chinese history for this period is almost entirely traditional and lacks contemporary written evidence. Sub-Saharan Africa, northern Europe, and the Americas are essentially absent from the historical record at this date.",
+  "graph_edges": [
+    {
+      "from": "-2040-001",
+      "to": "-2200-AKKAD_COLLAPSE",
+      "relation": "led_to",
+      "note": "Naram-Sin's overextension and the climatic crisis of the late 3rd millennium BCE contributed to the Akkad Empire's collapse within ~150 years."
+    },
+    {
+      "from": "-2040-002",
+      "to": "-1900-HARAPPAN_DECLINE",
+      "relation": "led_to",
+      "note": "The mature Harappan civilization of this period gradually declined over the following centuries, with causes still debated (climate, migration, internal factors)."
+    },
+    {
+      "from": "-2040-003",
+      "to": "-2180-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "The weakening of central authority under late Dynasty VI pharaohs led to the fragmentation of Egypt in the First Intermediate Period."
+    }
+  ]
+}

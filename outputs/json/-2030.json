@@ -1,0 +1,116 @@
+{
+  "year": -2030,
+  "year_label": "2030 BCE",
+  "era_context": "The Old Kingdom of Egypt is in decline; the First Intermediate Period is underway with fragmented regional power. In Mesopotamia, the Akkad Empire has collapsed (~2154 BCE) and city-states reassert independence under the Third Dynasty of Ur (Ur III), which dominates southern Mesopotamia. The Indus Valley Civilization is in its mature phase. In China, the Xia Dynasty (traditional dating) may be active, though archaeological confirmation remains contested. Bronze Age societies across the Mediterranean and Near East are developing increasingly complex trade networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (no writing system yet)",
+    "Southeast Asia (minimal archaeological record for this period)"
+  ],
+  "events": [
+    {
+      "id": "-2030-001",
+      "title": "Ur III Dynasty consolidation and administrative expansion",
+      "region": "Mesopotamia (southern), centered on Ur",
+      "coordinates_approx": "30.96, 46.10",
+      "category": "political",
+      "description": "The Third Dynasty of Ur (Ur III), under rulers such as Shulgi (r. ~2094\u20132047 BCE), continues its administrative and military consolidation of southern Mesopotamia. This period is marked by extensive cuneiform documentation of state bureaucracy, including tax records, labor organization, and temple administration. The Ur III state represents one of the earliest examples of centralized bureaucratic governance, with standardized weights, measures, and accounting systems. The dynasty maintains control through military campaigns and administrative efficiency, though northern Mesopotamian city-states remain semi-independent.",
+      "key_figures": [
+        "Shulgi (King of Ur III, r. ~2094\u20132047 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Ur III cuneiform administrative tablets and economic records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Royal inscriptions and year-names from Ur III period",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ur III is one of the best-documented periods of ancient Mesopotamia, with tens of thousands of contemporary cuneiform tablets providing detailed administrative records. Dating is secure within \u00b15 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-2030-002",
+      "title": "Egyptian First Intermediate Period: regional fragmentation and Heracleopolitan Dynasty",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Egypt's Old Kingdom has collapsed, and the country is divided among competing regional powers. The Heracleopolitan Dynasty (Dynasties 9\u201310) controls Lower Egypt and parts of Middle Egypt from their capital at Herakleopolis Magna, while Upper Egyptian dynasties (including the early Theban Dynasty 11) assert independence. This period is characterized by reduced monumental construction, decentralized administration, and increased local autonomy. The Nile's flood levels during this era may have been irregular, contributing to economic stress and political fragmentation.",
+      "key_figures": [
+        "Kheti I or II (Heracleopolitan Dynasty ruler, dates uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists (Abydos, Turin papyri)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Autobiographical inscriptions from provincial tombs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Nile flood records and paleoclimate data",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The First Intermediate Period is poorly dated; conventional chronology places it c. 2181\u20132055 BCE, but absolute dating is uncertain by \u00b150\u2013100 years. Individual rulers' reigns are difficult to assign to specific years.",
+      "cross_references": []
+    },
+    {
+      "id": "-2030-003",
+      "title": "Indus Valley Civilization: mature urban phase and long-distance trade",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization is at its peak, with major urban centers such as Harappa and Mohenjo-daro fully developed. Cities are characterized by planned street grids, standardized brick sizes, sophisticated drainage systems, and evidence of long-distance trade with Mesopotamia, the Persian Gulf, and Central Asia. Seals with undeciphered script, weights and measures, and craft specialization indicate a complex, organized society. The civilization's economy is based on agriculture (wheat, barley), pastoralism, and trade in raw materials (lapis lazuli, carnelian, shells).",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian records mentioning 'Meluhha' (likely Indus Valley)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's mature phase is well-established archaeologically. Absolute dating relies on radiocarbon and stratigraphic correlation; the mature phase is conventionally dated c. 2600\u20131900 BCE, with \u00b1100-year uncertainty.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the First Intermediate Period in Egypt is contested; some scholars argue for a shorter duration and different chronological placement. The Ur III dynasty's exact chronology is debated, with some scholars proposing dates 50\u2013100 years earlier or later. The Indus Valley script remains undeciphered, limiting understanding of political organization and ideology; some scholars question whether the civilization was as centralized as once believed.",
+  "historiographic_note": "Documentation for 2030 BCE is heavily skewed toward Mesopotamia and Egypt, where writing systems preserve administrative and religious records. The Indus Valley Civilization is known primarily through archaeology, with limited textual evidence. Sub-Saharan Africa, northern Europe, and East Asia are virtually absent from the historical record at this date, reflecting both genuine gaps in preservation and the geographic bias of early writing systems. Egyptian chronology for this period is notoriously uncertain, with competing 'high' and 'low' chronologies differing by a century or more.",
+  "graph_edges": [
+    {
+      "from": "-2030-001",
+      "to": "-2030-002",
+      "relation": "contemporary_with",
+      "note": "Ur III and Egyptian First Intermediate Period are roughly contemporaneous, though Egyptian chronology is less certain."
+    },
+    {
+      "from": "-2030-003",
+      "to": "-2030-001",
+      "relation": "contemporary_with",
+      "note": "Indus Valley Civilization's mature phase overlaps with Ur III; Mesopotamian records attest to trade contact."
+    }
+  ]
+}
