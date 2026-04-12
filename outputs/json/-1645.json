@@ -1,0 +1,82 @@
+{
+  "year": -1645,
+  "year_label": "1646 BCE",
+  "era_context": "The mid-second millennium BCE spans the height of the Middle Bronze Age in the Levant, the reign of the Hittite New Kingdom under Suppiluliuma I in Anatolia, the Shang Dynasty in China, and the Mycenaean period in Greece. Egypt under the 18th Dynasty (New Kingdom) was consolidating power after the Hyksos expulsion. This was an era of international diplomacy, chariot warfare, and the emergence of alphabetic writing systems.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this specific year)",
+    "Northern Europe (sparse written records)",
+    "Mesoamerica (no written chronology synchronized to this date)",
+    "Pacific and Oceania regions"
+  ],
+  "events": [
+    {
+      "id": "-1645-001",
+      "title": "Eruption of Thera (Santorini) \u2014 Minoan Civilization Impact",
+      "region": "Aegean Sea, Crete, Eastern Mediterranean",
+      "coordinates_approx": "36.4\u00b0N, 25.4\u00b0E",
+      "category": "environmental",
+      "description": "The catastrophic eruption of the Thera volcano (modern Santorini) occurred during the Late Minoan IA period. The eruption generated a massive caldera collapse, tsunamis, and ash fall across the Eastern Mediterranean. Minoan settlements on Crete and nearby islands were devastated, though debate continues about the precise dating and the extent of immediate collapse versus gradual decline. The eruption is often cited as a potential historical basis for Plato's Atlantis narrative and may have contributed to the decline of Minoan civilization, though recovery and reoccupation occurred.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Akrotiri (Thera), Minoan sites on Crete, and tephra layers in Mediterranean sediment cores",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Radiocarbon dating and ice-core analysis (GISP2, Greenland ice cores)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The eruption is well-attested archaeologically, but precise dating remains contested. Radiocarbon and ice-core evidence clusters around 1645\u20131600 BCE; Egyptian chronology and Minoan pottery sequences suggest dates ranging from 1650 to 1600 BCE. The assignment to 1645 BCE is conventional but carries \u00b110\u201315 year uncertainty.",
+      "cross_references": [
+        "Related to decline of Minoan palatial centers in subsequent decades"
+      ]
+    },
+    {
+      "id": "-1645-002",
+      "title": "Hittite Campaigns under Suppiluliuma I \u2014 Consolidation of Anatolia",
+      "region": "Anatolia, Syria, Northern Mesopotamia",
+      "coordinates_approx": "39.0\u00b0N, 35.0\u00b0E",
+      "category": "military",
+      "description": "Suppiluliuma I (r. c. 1344\u20131322 BCE in conventional chronology, but some sources place his reign earlier) conducted extensive military campaigns to consolidate Hittite control over Anatolia and expand into Syria and Mesopotamia. By the mid-17th century BCE (if using alternative chronologies), Hittite power was rising. However, the precise dating of Suppiluliuma's reign and campaigns is debated; some scholars place him in the 14th century BCE. This entry reflects uncertainty about whether major campaigns occurred in 1645 BCE specifically.",
+      "key_figures": [
+        "Suppiluliuma I (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal annals and treaties (cuneiform texts from Bo\u011fazk\u00f6y)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian diplomatic correspondence (Amarna Letters, 14th century BCE)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Suppiluliuma I's reign is well-documented in Hittite sources, but absolute chronology for the mid-17th century BCE is uncertain. The assignment to 1645 BCE is speculative; his major campaigns may have occurred decades earlier or later depending on which chronological system is adopted.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Thera eruption is highly contested. While 1645 BCE is a commonly cited date in popular literature, modern scholarship shows significant disagreement: radiocarbon dating suggests 1660\u20131600 BCE; some ice-core analyses point to 1627 BCE; Egyptian chronology and Minoan pottery sequences allow dates from 1700 to 1550 BCE. The eruption's immediate impact on Minoan civilization is also debated\u2014some scholars argue the decline was gradual rather than catastrophic. Regarding Suppiluliuma I, his reign is often placed in the 14th century BCE (c. 1344\u20131322 BCE), not the 17th century, making any assignment to 1645 BCE highly speculative.",
+  "historiographic_note": "The mid-17th century BCE is poorly synchronized across regions. Egyptian chronology (based on king lists and astronomical data) conflicts with radiocarbon dating and ice-core records. Hittite chronology depends on synchronisms with Egypt and Babylon, which are themselves debated. Minoan chronology relies on pottery typology and radiocarbon dating, with significant margins of error. The surviving sources are heavily weighted toward Egypt, Anatolia, and the Aegean; Mesopotamian, Levantine, and Chinese records for this specific year are sparse or absent from standard compilations. The Thera eruption dominates modern historical narratives about this period, but this may reflect modern scholarly interest rather than its actual significance to contemporaries.",
+  "graph_edges": [
+    {
+      "from": "-1645-001",
+      "to": "-1600-MINOAN_RECOVERY",
+      "relation": "led_to",
+      "note": "Thera eruption triggered immediate devastation but was followed by Minoan recovery and reoccupation of sites"
+    },
+    {
+      "from": "-1645-002",
+      "to": "-1300-HITTITE_EMPIRE_PEAK",
+      "relation": "part_of",
+      "note": "Suppiluliuma's campaigns were part of the broader rise of Hittite imperial power"
+    }
+  ]
+}

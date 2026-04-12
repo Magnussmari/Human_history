@@ -1,0 +1,85 @@
+{
+  "year": -1644,
+  "year_label": "1644 BCE",
+  "era_context": "The mid-17th century BCE spans the height of the New Kingdom in Egypt under the Eighteenth Dynasty, the Hittite Empire's consolidation under Suppiluliuma I in Anatolia, the Shang Dynasty's dominance in China, and the Late Bronze Age in the Eastern Mediterranean. This period marks intense diplomatic correspondence, military campaigns, and the development of international treaty systems.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this specific year)",
+    "Northern Europe (sparse written records)",
+    "Mesoamerica (no written records; archaeological dating uncertain)",
+    "Pacific Islands (no contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1644-001",
+      "title": "Hittite-Egyptian diplomatic correspondence under Suppiluliuma I and Amenhotep III",
+      "region": "Anatolia, Egypt, Levant",
+      "coordinates_approx": "37.5,35.5 (Hattusa); 25.7,32.6 (Thebes)",
+      "category": "political",
+      "description": "Suppiluliuma I of the Hittites and Amenhotep III of Egypt engaged in extensive diplomatic exchange, documented in the Amarna Letters archive. This correspondence reflects the balance of power in the Eastern Mediterranean and the establishment of formal diplomatic protocols between major powers. The letters discuss trade, military alliances, and dynastic marriages, establishing a framework for international relations that would persist through the Late Bronze Age.",
+      "key_figures": [
+        "Suppiluliuma I (Hittite Great King)",
+        "Amenhotep III (Egyptian Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Amarna Letters (EA 1-382), cuneiform tablets from Tell el-Amarna, Egypt",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Hittite royal archives from Bo\u011fazk\u00f6y",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Amarna Letters are dated to the reign of Amenhotep III and his successor Akhenaten (c. 1390\u20131352 BCE by conventional chronology). However, absolute dating of this period remains debated; some scholars place these events 50\u2013100 years earlier or later. The correspondence itself is contemporary, but assignment to this specific year is approximate.",
+      "cross_references": [
+        "Related to -1640-001 (Hittite-Egyptian treaty negotiations)"
+      ]
+    },
+    {
+      "id": "-1644-002",
+      "title": "Shang Dynasty oracle bone divination and ritual practices",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.3,114.5 (Anyang)",
+      "category": "cultural",
+      "description": "The Shang Dynasty during this period produced extensive oracle bone inscriptions at Anyang, recording divination practices, royal hunts, and ritual sacrifices. These bones represent the earliest known Chinese writing system and provide evidence of sophisticated administrative and religious structures. The inscriptions document the Shang king's role as intermediary between heaven and earth, establishing religious and political authority.",
+      "key_figures": [
+        "Shang Dynasty rulers (specific king uncertain for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bones (jiaguwen) from Anyang excavations",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Shang Dynasty chronology established through archaeological stratigraphy and radiocarbon dating",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Shang Dynasty chronology is contested. Traditional dating places this period c. 1600\u20131046 BCE, but some scholars argue for dates 100\u2013150 years later. Oracle bones are contemporary artifacts, but precise year-by-year assignment is impossible without additional dating methods.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The absolute chronology of the mid-17th century BCE remains highly disputed. The conventional 'low chronology' places Amenhotep III c. 1390\u20131352 BCE, but the 'middle chronology' and 'high chronology' shift these dates by 50\u2013150 years. This affects all synchronisms with other civilizations. Additionally, some scholars question whether the Amarna Letters should be dated to Amenhotep III's reign at all, arguing they belong to Akhenaten's period. The Shang Dynasty chronology is similarly contested, with some scholars placing the oracle bone period significantly later than traditional estimates.",
+  "historiographic_note": "Documentation for 1644 BCE is heavily weighted toward Egypt and the Hittite Empire, where written records survive. Chinese sources are archaeological rather than textual. Sub-Saharan Africa, the Americas, and most of Europe leave no written record for this year. The surviving sources are biased toward elite activities (diplomacy, ritual, royal hunts) and do not represent the lives of common people. Egyptian and Hittite records are state-sponsored and reflect official narratives. Absolute dating across civilizations remains uncertain due to disagreements over radiocarbon calibration and chronological synchronisms.",
+  "graph_edges": [
+    {
+      "from": "-1644-001",
+      "to": "-1640-001",
+      "relation": "part_of",
+      "note": "Diplomatic correspondence continues as part of broader Hittite-Egyptian relations"
+    },
+    {
+      "from": "-1644-002",
+      "to": "-1600-001",
+      "relation": "contemporary_with",
+      "note": "Shang oracle bone tradition continues through the dynasty"
+    }
+  ]
+}

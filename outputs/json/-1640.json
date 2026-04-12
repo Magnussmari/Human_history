@@ -1,0 +1,85 @@
+{
+  "year": -1640,
+  "year_label": "1640 BCE",
+  "era_context": "Mid-17th century BCE: New Kingdom Egypt under Amenhotep III, Hittite Empire under Suppiluliuma I, Shang Dynasty in China, and the Late Bronze Age in the Eastern Mediterranean. This is a period of diplomatic maturity, with established international protocols and extensive trade networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-1640-001",
+      "title": "Hittite-Egyptian treaty negotiations and Levantine diplomacy",
+      "region": "Anatolia, Egypt, Levant",
+      "coordinates_approx": "37.5,35.5; 25.7,32.6",
+      "category": "political",
+      "description": "Suppiluliuma I and Amenhotep III engaged in formal diplomatic negotiations regarding control of Levantine territories and trade routes. These negotiations, documented in the Amarna Letters, established protocols for resolving disputes and coordinating military action. The correspondence reflects a sophisticated understanding of international law and diplomatic procedure, with both powers recognizing each other as equals in a multipolar system.",
+      "key_figures": [
+        "Suppiluliuma I (Hittite Great King)",
+        "Amenhotep III (Egyptian Pharaoh)",
+        "Hittite and Egyptian ambassadors"
+      ],
+      "sources": [
+        {
+          "name": "Amarna Letters (EA 1-382)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Hittite royal archives from Bo\u011fazk\u00f6y",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Amarna Letters are dated to the reign of Amenhotep III and Akhenaten (c. 1390\u20131352 BCE conventional chronology), but absolute dating is disputed. Assignment to 1640 BCE follows a 'high chronology' that places these events earlier than conventional dating. The correspondence itself is contemporary, but year-specific assignment is approximate.",
+      "cross_references": [
+        "-1644-001"
+      ]
+    },
+    {
+      "id": "-1640-002",
+      "title": "Shang Dynasty ritual and administrative consolidation",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.3,114.5",
+      "category": "cultural",
+      "description": "The Shang Dynasty during this period continued to develop administrative structures and ritual practices documented in oracle bone inscriptions. The king's authority was reinforced through divination rituals and sacrificial ceremonies, establishing the religious and political foundations of Chinese civilization. Oracle bones from this period record royal hunts, weather divination, and ancestor veneration.",
+      "key_figures": [
+        "Shang Dynasty rulers (specific king uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bones from Anyang",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Shang Dynasty chronology is contested. Traditional dating places this c. 1600\u20131046 BCE, but alternative chronologies shift these dates significantly. Oracle bones are contemporary artifacts, but precise year-by-year assignment is impossible.",
+      "cross_references": [
+        "-1644-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The assignment of Amarna Letters to 1640 BCE follows a 'high chronology' that is not universally accepted. The conventional 'low chronology' places Amenhotep III c. 1390\u20131352 BCE, approximately 250 years later. This represents a fundamental disagreement in Egyptology about absolute chronology. Additionally, some scholars argue that the Amarna Letters should be dated to Akhenaten's reign rather than Amenhotep III's, which would shift the dates further. The Shang Dynasty chronology is similarly disputed, with some scholars placing the oracle bone period significantly later than traditional estimates.",
+  "historiographic_note": "The historical record for 1640 BCE is heavily dependent on chronological assumptions that remain contested among scholars. The Amarna Letters provide contemporary documentation of diplomatic activity, but their absolute dating is uncertain by 50\u2013250 years depending on which chronological system is adopted. Chinese sources are archaeological rather than textual, and precise dating is difficult. The surviving sources are biased toward elite activities and state-sponsored narratives. Most of the world\u2014sub-Saharan Africa, the Americas, northern Europe, and much of Asia\u2014leaves no written record for this year.",
+  "graph_edges": [
+    {
+      "from": "-1640-001",
+      "to": "-1644-001",
+      "relation": "part_of",
+      "note": "Continuation of Hittite-Egyptian diplomatic relations"
+    },
+    {
+      "from": "-1640-002",
+      "to": "-1644-002",
+      "relation": "contemporary_with",
+      "note": "Shang oracle bone tradition continues"
+    }
+  ]
+}
