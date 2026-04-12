@@ -1,0 +1,72 @@
+{
+  "year": 151,
+  "year_label": "151 CE",
+  "era_context": "Antoninus Pius is in the 13th year of his reign, a period of relative peace and prosperity in the Roman Empire. The Han Dynasty in China is in its final century, with Emperor Xian on the throne. The Parthian Empire under Vologases IV is stable. In India, the Satavahana Empire is in decline. This year falls within a period of imperial consolidation and long-distance trade expansion, though underlying structural weaknesses are becoming apparent in both Rome and China.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "Parthian Empire",
+    "India"
+  ],
+  "events": [
+    {
+      "id": "151-001",
+      "title": "Roman consulate of Sextus Erucius Clarus (II) and Gaius Sextius Lateranus (II)",
+      "region": "Roman Empire",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "The consulate of 151 CE saw the holding of the office by consuls whose names are recorded in the Fasti Consulares. This was a routine administrative year in the Roman Empire under Antoninus Pius. The consulate was a ceremonial and administrative position, and no major events are recorded for 151. The year is documented in the official consular records, which provide a framework for dating other events but little substantive historical information about 151 itself.",
+      "key_figures": [
+        "Roman consuls of 151 CE (names recorded in Fasti Consulares)"
+      ],
+      "sources": [
+        {
+          "name": "Fasti Consulares (Official Roman consular records)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The consulate is confirmed by the Fasti Consulares, which are contemporary epigraphic records. However, no substantive events are recorded for this year.",
+      "cross_references": []
+    },
+    {
+      "id": "151-002",
+      "title": "Han Dynasty administrative decline continues; Yellow Turban precursors",
+      "region": "China (Han Dynasty)",
+      "coordinates_approx": "35.0, 105.0",
+      "category": "political",
+      "description": "The year 151 CE falls within the reign of Emperor Xian of Han (r. 146\u2013168), a period of continued administrative decline and factional conflict. While no specific events are recorded for 151, this period saw the intensification of eunuch dominance at court and the rise of regional military governors. These developments set the stage for the Yellow Turban Rebellion (184 CE) and the final collapse of the Han Dynasty (220 CE). The year represents the continuation of long-term structural crisis in the Han state.",
+      "key_figures": [
+        "Emperor Xian of Han (r. 146\u2013168)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi (Records of the Three Kingdoms) by Chen Shou",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "No specific events are recorded for 151 in surviving sources. The characterization is based on the broader pattern of Han decline during Emperor Xian's reign.",
+      "cross_references": [
+        "184-001 (Yellow Turban Rebellion)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. The sparsity of recorded events reflects the limitations of surviving sources rather than any disputed historical claims.",
+  "historiographic_note": "The year 151 CE is extremely poorly documented in surviving sources. No major events are recorded for the Roman Empire, China, or any other region. The historical record for this year consists almost entirely of administrative records (consular lists) and the absence of recorded crises. This reflects both the stability of the period and the selective nature of historical documentation. Sources are heavily weighted toward the Roman Empire and China; other regions are entirely absent from the historical record. The absence of recorded events may indicate either genuine stability or simply the loss of contemporary documentation.",
+  "graph_edges": [
+    {
+      "from": "151-002",
+      "to": "184-001",
+      "relation": "led_to",
+      "note": "Han administrative decline in the 150s contributed to the conditions that sparked the Yellow Turban Rebellion"
+    }
+  ]
+}

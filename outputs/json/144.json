@@ -1,0 +1,130 @@
+{
+  "year": 144,
+  "year_label": "144 CE",
+  "era_context": "Roman Empire under Antoninus Pius continues the Pax Romana. The Antonine Wall construction in Britain is in its early phases. Eastern Han Dynasty in China is experiencing succession instability with the death of Emperor Zhidi and the accession of the young Emperor Kangdi. The Parthian Empire under Vologases III is at the height of its power. In India, the Satavahana Empire is in its later phase.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Southeast Asia",
+    "Mesoamerica and South America"
+  ],
+  "events": [
+    {
+      "id": "144-001",
+      "title": "Death of Emperor Zhidi; accession of Emperor Kangdi (Eastern Han)",
+      "region": "China (Eastern Han)",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Zhidi of the Eastern Han dies after a brief reign (r. 144 CE). He is succeeded by the young Emperor Kangdi (r. 144\u2013150 CE), who is only a child. This succession marks a critical turning point in Han stability. Real power passes to the Empress Dowager and the eunuch faction at court. The appointment of a child emperor signals the beginning of the institutional decay that will plague the late Eastern Han, as regents and eunuchs compete for control rather than the emperor wielding direct authority.",
+      "key_figures": [
+        "Emperor Zhidi (Eastern Han, r. 144 CE)",
+        "Emperor Kangdi (Eastern Han, r. 144\u2013150 CE)",
+        "Empress Dowager (regent)"
+      ],
+      "sources": [
+        {
+          "name": "Book of Han (Hou Hanshu), compiled by Fan Ye (5th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Records of the Three Kingdoms (Sanguozhi), by Chen Shou (3rd century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The succession of emperors in the Eastern Han is well-documented in later Chinese compilations. The dates and basic facts of the succession are accepted by modern scholarship, though specific details of court politics may be legendary.",
+      "cross_references": [
+        "145-002 (eunuch factionalism intensifies)",
+        "150-001 (death of Emperor Kangdi)"
+      ]
+    },
+    {
+      "id": "144-002",
+      "title": "Antonine Wall construction continues under Lollius Urbicus",
+      "region": "Roman Britain / Caledonia",
+      "coordinates_approx": "56.5, -3.5",
+      "category": "military",
+      "description": "The construction of the Antonine Wall, begun in 142 CE, continues in 144 CE. The wall is built of turf and stone, stretching approximately 37 miles across central Scotland from the Firth of Forth to the Firth of Clyde. The project involves the construction of forts, fortlets, and a military road (the Military Way) running behind the wall. This represents a significant Roman military investment and a northward expansion of the frontier from Hadrian's Wall.",
+      "key_figures": [
+        "Lollius Urbicus (Governor of Britain)",
+        "Antoninus Pius (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from the Antonine Wall (excavations, pottery, coins, inscriptions)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Historia Augusta, Life of Antoninus Pius",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Archaeological evidence strongly confirms construction activity during this period. Pottery and coin deposits date the occupation to the Antonine period. The Historia Augusta is late but corroborates the general narrative.",
+      "cross_references": [
+        "142-001 (initial construction of Antonine Wall)",
+        "145-001 (continuation of construction)"
+      ]
+    },
+    {
+      "id": "144-003",
+      "title": "Vologases III consolidates Parthian power; Ctesiphon flourishes as capital",
+      "region": "Parthian Empire",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "Vologases III (r. 147\u2013191 CE, though some sources place his accession earlier) consolidates control over the Parthian Empire, which stretches from Mesopotamia to the borders of India and China. Ctesiphon, on the Tigris River, serves as the winter capital and the center of Parthian power. The city is a major hub of trade, culture, and administration. Archaeological evidence shows intensive building activity and commercial prosperity during this period.",
+      "key_figures": [
+        "Vologases III (Parthian King of Kings)"
+      ],
+      "sources": [
+        {
+          "name": "Parthian coins and inscriptions",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Ctesiphon and other Parthian sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Roman sources (Cassius Dio, etc.)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The reign of Vologases III is attested in Parthian coins and later Roman sources. However, the exact dates of his accession are debated by scholars (some place it in 147 CE, others earlier). Archaeological evidence confirms the prosperity of Ctesiphon during this period.",
+      "cross_references": [
+        "162-001 (Parthian-Roman conflict under Vologases III)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Vologases III's accession is disputed among scholars; some sources place it in 147 CE, others earlier. The dating of Emperor Zhidi's death and Kangdi's accession is accepted by modern scholarship, but the specific political circumstances and the extent of eunuch influence in 144 CE are not precisely documented. The Historia Augusta remains a problematic source, with scholars questioning its reliability for specific military campaigns and dates.",
+  "historiographic_note": "The historical record for 144 CE is dominated by Roman and Chinese sources, reflecting the bias of literate, centralized states. The Parthian Empire is known primarily through Roman and Chinese accounts, which are often hostile or incomplete. The sources for this year are largely compiled centuries later, introducing the risk of anachronism and legendary embellishment. Archaeological evidence provides a crucial corrective, particularly for Britain and Parthian sites. The perspectives of non-literate peoples and regions are entirely absent from the surviving record.",
+  "graph_edges": [
+    {
+      "from": "144-001",
+      "to": "145-002",
+      "relation": "led_to",
+      "note": "The accession of the child emperor Kangdi in 144 CE leads to intensified eunuch factionalism by 145 CE"
+    },
+    {
+      "from": "144-002",
+      "to": "145-001",
+      "relation": "part_of",
+      "note": "Continuation of the Antonine Wall construction project"
+    },
+    {
+      "from": "144-003",
+      "to": "162-001",
+      "relation": "led_to",
+      "note": "Vologases III's consolidation of Parthian power leads to conflict with Rome in 162 CE"
+    }
+  ]
+}

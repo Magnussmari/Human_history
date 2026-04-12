@@ -1,0 +1,125 @@
+{
+  "year": 155,
+  "year_label": "155 CE",
+  "era_context": "The Roman Empire under Antoninus Pius (138\u2013161 CE), a period of relative stability and prosperity known as part of the Pax Romana. The Parthian Empire controlled Mesopotamia and the eastern frontier. In China, the Han Dynasty was in decline, approaching its final collapse in 220 CE. In India, the Satavahana Empire dominated the Deccan. This was an era of established imperial administration, long-distance trade (Silk Road), and cultural consolidation rather than major territorial expansion.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Northern Europe beyond Roman frontier (sparse archaeological record)",
+    "Southeast Asia (limited contemporary documentation)",
+    "Mesoamerica (no written records from this era)"
+  ],
+  "events": [
+    {
+      "id": "155-001",
+      "title": "Martyrdom of Polycarp of Smyrna",
+      "region": "Roman Asia Minor (modern Turkey)",
+      "coordinates_approx": "38.4, 27.2",
+      "category": "religious",
+      "description": "Polycarp, bishop of Smyrna and one of the last known direct disciples of the Apostle John, was executed by Roman authorities during persecution of Christians. His death was recorded in the Martyrdom of Polycarp, one of the earliest Christian martyr accounts. The exact date is disputed (some sources place it in 156 or 167), but 155 is the traditional date in early Christian tradition. His execution exemplifies the sporadic but significant persecution of Christians under Roman rule and became a foundational text for Christian theology of martyrdom.",
+      "key_figures": [
+        "Polycarp (Bishop of Smyrna)",
+        "Roman proconsul (unnamed in primary sources)"
+      ],
+      "sources": [
+        {
+          "name": "Martyrdom of Polycarp (Greek text)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eusebius of Caesarea, Ecclesiastical History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The Martyrdom of Polycarp is not contemporary; it was compiled in the 2nd century but possibly based on eyewitness accounts. Modern scholarship debates the date between 155\u2013167 CE. The year 155 is the traditional date in early Christian sources but lacks independent confirmation.",
+      "cross_references": []
+    },
+    {
+      "id": "155-002",
+      "title": "Antoninus Pius consolidates Antonine Wall frontier in Britain",
+      "region": "Roman Britain",
+      "coordinates_approx": "56.0, -3.5",
+      "category": "military",
+      "description": "Roman forces under Antoninus Pius advanced northward in Britain, establishing the Antonine Wall between the Firth of Forth and the Firth of Clyde (approximately 142 CE, with consolidation continuing through the 150s). By 155, the wall was fully operational as the northern frontier of Roman Britain, replacing Hadrian's Wall as the primary defensive line. This represented a significant military commitment and territorial expansion under Antoninus Pius, though it would be abandoned by 165 CE. The wall's construction and maintenance required substantial resources and military presence.",
+      "key_figures": [
+        "Antoninus Pius (Roman Emperor)",
+        "Lollius Urbicus (Roman governor of Britain, c. 139\u2013144)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence: Antonine Wall remains, forts, and inscriptions",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta (unreliable but attests to the wall)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Archaeological evidence (excavation, coins, inscriptions) confirms the wall's construction and operation. The dating to the 140s is secure; 155 represents the period of active consolidation and maintenance.",
+      "cross_references": []
+    },
+    {
+      "id": "155-003",
+      "title": "Han Dynasty administrative crisis and regional fragmentation in China",
+      "region": "China (Han Dynasty territories)",
+      "coordinates_approx": "35.0, 105.0",
+      "category": "political",
+      "description": "The Han Dynasty, already weakened by eunuch dominance at court and provincial warlordism, faced continued administrative breakdown in the 150s. The reign of Emperor Xian (r. 146\u2013168) was marked by factional struggles between the imperial family, eunuchs, and scholar-officials. By 155, regional military governors were accumulating power, and central authority was fragmenting. This period set the stage for the Yellow Turban Rebellion (184 CE) and the final collapse of the Han in 220 CE. The era represents the transition from centralized imperial rule to the fragmented Three Kingdoms period.",
+      "key_figures": [
+        "Emperor Xian of Han (r. 146\u2013168)",
+        "Eunuch faction leaders (names vary in sources)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) and Hanshu (History of the Han)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Sanguozhi (Records of the Three Kingdoms) by Chen Shou",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Han decline is well-documented in Chinese historiography. Specific events in 155 are less precisely dated; the year is assigned based on the broader pattern of administrative crisis during Emperor Xian's reign.",
+      "cross_references": [
+        "184-001 (Yellow Turban Rebellion)",
+        "220-001 (Fall of Han Dynasty)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The date of Polycarp's martyrdom is heavily disputed. While 155 is the traditional date in early Christian sources, modern scholars (including Eusebius) have proposed dates ranging from 155 to 167 CE. Some scholars argue for 167 based on the reign of Marcus Aurelius, when persecution intensified. The Antonine Wall's construction is well-dated archaeologically to c. 142 CE, but the specific events of 155 are less clearly documented; the wall may have been largely complete by this date rather than still under active consolidation.",
+  "historiographic_note": "The historical record for 155 CE is heavily weighted toward the Roman Empire and China, where written sources are abundant. Christian sources are primarily later compilations. Archaeological evidence for the Antonine Wall is strong but does not provide year-by-year detail. The record is sparse for India, Parthia, and regions beyond the Roman and Chinese spheres. Surviving sources are often court-sponsored or written by victors; local perspectives from Britain, Parthia, and peripheral regions are largely absent.",
+  "graph_edges": [
+    {
+      "from": "155-001",
+      "to": "religious_persecution_roman_empire",
+      "relation": "part_of",
+      "note": "Polycarp's martyrdom exemplifies the broader pattern of Christian persecution under Roman rule"
+    },
+    {
+      "from": "155-002",
+      "to": "165-001",
+      "relation": "led_to",
+      "note": "The Antonine Wall was abandoned c. 165 CE, ending this phase of Roman expansion in Britain"
+    },
+    {
+      "from": "155-003",
+      "to": "184-001",
+      "relation": "led_to",
+      "note": "Han administrative fragmentation in the 150s contributed to the conditions that sparked the Yellow Turban Rebellion"
+    }
+  ]
+}
