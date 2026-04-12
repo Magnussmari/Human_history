@@ -1,0 +1,89 @@
+{
+  "year": -1020,
+  "year_label": "1020 BCE",
+  "era_context": "The early Iron Age is well-established across the Mediterranean and Near East. Egypt is in the late Twentieth Dynasty, characterised by administrative fragmentation and the rise of priestly power at Thebes. The Zhou Dynasty in China is in its consolidation phase, establishing the feudal system that would characterise the classical period. Phoenician city-states are expanding their maritime networks. Assyria is in a period of relative weakness. Greece remains fragmented into early Iron Age settlements.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "South Asia",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-1020-001",
+      "title": "Late Twentieth Dynasty Egypt: administrative and religious fragmentation",
+      "region": "Egypt, Thebes and Delta",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "By 1020 BCE, the Twentieth Dynasty of Egypt was in its final phase, characterised by the division of power between the pharaonic court in the north and the High Priests of Amun at Thebes in the south. The priesthood of Amun controlled vast temple lands and wielded administrative authority independent of the pharaoh. This fragmentation is documented in papyri recording disputes over taxation, temple lands, and administrative jurisdiction. The period marks the transition toward the Twenty-first Dynasty and the eventual establishment of a theocratic state at Thebes.",
+      "key_figures": [
+        "High Priests of Amun at Thebes",
+        "Pharaonic court (identity uncertain, possibly Ramesses X or XI)"
+      ],
+      "sources": [
+        {
+          "name": "Papyri from Deir el-Medina, Theban temples, and the Wilbour Papyrus",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The process of administrative fragmentation is well-attested for the late Twentieth Dynasty; specific events in 1020 BCE cannot be isolated from the broader trend. Egyptian chronology for this period carries \u00b110\u201315 year uncertainty.",
+      "cross_references": [
+        "-1024-001"
+      ]
+    },
+    {
+      "id": "-1020-002",
+      "title": "Zhou Dynasty feudal consolidation (broader context)",
+      "region": "China, Yellow River valley and surrounding regions",
+      "coordinates_approx": "34.3\u00b0N, 109.3\u00b0E",
+      "category": "political",
+      "description": "The early Western Zhou Dynasty (c. 1046\u2013771 BCE) was in a phase of territorial consolidation and the establishment of the feudal system. By 1020 BCE, the Zhou had distributed lands to allied families and established a network of vassal states. This period saw the development of bronze technology for both ritual and military purposes, and the gradual shift toward a more decentralised political structure. The system of enfeoffment (fengjian) created a hierarchy of lords bound to the Zhou king by ties of kinship and obligation.",
+      "key_figures": [
+        "King Zhao of Zhou (or successor, depending on chronology)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled c. 109 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bronze inscriptions (Shang Zhou period)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Early Zhou chronology is contested. Chinese traditional dating places events earlier; modern scholarship using astronomical data and radiocarbon suggests some adjustment. Assignment to 1020 BCE is conventional but carries \u00b120\u201330 year uncertainty.",
+      "cross_references": [
+        "-1024-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The conventional dating of the late Twentieth Dynasty and early Western Zhou has been challenged by modern scholarship. Egyptian chronology for this period remains debated, with some scholars arguing for different king sequences or shorter reign lengths. Early Zhou chronology is one of the most disputed areas in ancient Chinese history, with competing systems differing by decades. No specific events for 1020 BCE are widely attested; the year is assigned to broader reigns and periods by convention rather than documented occurrence.",
+  "historiographic_note": "1020 BCE falls in a period where written documentation is extremely sparse and often retrospective. For Egypt, we rely on king lists compiled centuries later and fragmentary papyri. For China, the Shiji was written over 1,000 years after the events it describes, and early Zhou chronology depends heavily on later textual tradition and modern astronomical calculations. No contemporary written records specifically document events in this year. The historical record is dominated by Egypt and the Near East; vast regions of the world (Africa, northern Europe, the Americas, Oceania, South Asia) are essentially absent from written history at this date. The assignment of events to this specific year is largely conventional and reflects the broader era rather than documented occurrences.",
+  "graph_edges": [
+    {
+      "from": "-1020-001",
+      "to": "-945-TWENTY_FIRST_DYNASTY",
+      "relation": "led_to",
+      "note": "The administrative fragmentation of the late Twentieth Dynasty led to the establishment of the Twenty-first Dynasty, which formalised the division of power between pharaonic and priestly authority"
+    },
+    {
+      "from": "-1020-002",
+      "to": "-771-WESTERN_ZHOU_COLLAPSE",
+      "relation": "led_to",
+      "note": "The feudal consolidation of the early Western Zhou eventually contributed to the fragmentation that led to the Spring and Autumn period"
+    }
+  ]
+}

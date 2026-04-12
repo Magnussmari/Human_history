@@ -1,0 +1,90 @@
+{
+  "year": -1015,
+  "year_label": "1016 BCE",
+  "era_context": "The Early Iron Age is well-established. Egypt is on the threshold of the Third Intermediate Period. Ramesses XI's reign is ending or has just ended (conventional chronology places his death c. 1069 BCE, though this is debated). Assyria is in a period of modest expansion. The Levant is dominated by city-states and maritime powers. Greece is in the Geometric period. Iron-working is standard in many regions.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia",
+    "South Asia",
+    "Oceania",
+    "The Americas",
+    "Northern Europe and the Steppe",
+    "Most of Mesopotamia and the Levant interior"
+  ],
+  "events": [
+    {
+      "id": "-1015-001",
+      "title": "End of Ramesses XI's reign and transition to the Third Intermediate Period",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Ramesses XI, the last pharaoh of the Twentieth Dynasty, dies (or has recently died, depending on chronological scheme). His death marks the formal end of the New Kingdom and the beginning of the Third Intermediate Period. Egypt is now effectively divided: the Twenty-first Dynasty pharaohs rule from Tanis in Lower Egypt with limited authority, while the High Priests of Amun rule Upper Egypt as de facto independent rulers. This represents a fundamental transformation of Egyptian political structure.",
+      "key_figures": [
+        "Ramesses XI (Pharaoh of Egypt, deceased)",
+        "Smendes (First pharaoh of the Twenty-first Dynasty, ruling from Tanis)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List and other king lists",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Temple records and administrative papyri",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The conventional chronology places Ramesses XI's death c. 1069 BCE and the beginning of the Twenty-first Dynasty at this time. However, the exact year is debated, and the transition may have been gradual rather than abrupt. This year is assigned by convention within the transition period.",
+      "cross_references": [
+        "-1019-001",
+        "-1017-001",
+        "-1016-001"
+      ]
+    },
+    {
+      "id": "-1015-002",
+      "title": "Establishment of the Twenty-first Dynasty (Tanite Period)",
+      "region": "Egypt (Lower Egypt, Tanis)",
+      "coordinates_approx": "30.8, 31.3",
+      "category": "political",
+      "description": "The Twenty-first Dynasty is established, with its capital at Tanis in Lower Egypt. The pharaohs of this dynasty, beginning with Smendes, rule with significantly reduced authority compared to their New Kingdom predecessors. Their power is largely confined to Lower Egypt and the Delta region. Upper Egypt is effectively ruled by the High Priests of Amun at Thebes, who maintain their own administrative apparatus and military forces. This arrangement, known as the 'Tanite Period' or 'Theban Theocracy,' represents a new form of Egyptian political organisation.",
+      "key_figures": [
+        "Smendes (First pharaoh of the Twenty-first Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "King lists and temple records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Tanis",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The establishment of the Twenty-first Dynasty and the Tanite Period is well-attested in Egyptian records. However, the precise dating and the nature of the relationship between Tanis and Thebes are debated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The conventional chronology for the end of the Twentieth Dynasty and the beginning of the Twenty-first Dynasty is debated. Some scholars propose alternative dating schemes that would place these events several decades earlier or later. The notion of a clear 'division' of Egypt between Tanis and Thebes may oversimplify a more complex and gradual process of power redistribution. Some scholars argue that the Twenty-first Dynasty pharaohs maintained more authority than traditionally assumed.",
+  "historiographic_note": "Documentation for this period is primarily Egyptian temple records and administrative papyri, which are biased toward recording state and priestly activities. The perspective of non-elite populations and regions outside the Nile Valley is almost entirely absent. The sources are not contemporary in the sense of being written during the events themselves but are administrative records created within the period or shortly after. The chronology of this period remains one of the most debated issues in Egyptian chronology, with scholars proposing alternative dating schemes that differ by several decades.",
+  "graph_edges": [
+    {
+      "from": "-1015-001",
+      "to": "-1015-002",
+      "relation": "led_to",
+      "note": "End of New Kingdom leads to establishment of Twenty-first Dynasty"
+    },
+    {
+      "from": "-1015-002",
+      "to": "-900-001",
+      "relation": "led_to",
+      "note": "Tanite Period and Theban Theocracy continue through the Third Intermediate Period"
+    }
+  ]
+}

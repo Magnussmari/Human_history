@@ -1,0 +1,84 @@
+{
+  "year": -1019,
+  "year_label": "1020 BCE",
+  "era_context": "The Late Bronze Age collapse has occurred within the past two centuries (c. 1200 BCE). The Eastern Mediterranean and Near East are in a period of political fragmentation and reorganisation. Egypt under the late Ramessid dynasty (Ramesses XI) is experiencing internal decline and the loss of imperial control over Levantine territories. In the Aegean, the Mycenaean palatial system has collapsed; Greece is entering the Early Iron Age. The Hittite Empire has fallen. In Mesopotamia, Babylonia and Assyria are in relative weakness. The Iron Age is beginning in parts of the Levant and Anatolia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia (China, Korea, Japan)",
+    "South Asia (India, Sri Lanka)",
+    "Oceania",
+    "The Americas",
+    "Northern Europe and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-1019-001",
+      "title": "Reign of Ramesses XI in Egypt (approximate period)",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Ramesses XI, the last pharaoh of the Twentieth Dynasty, is ruling Egypt during a period of significant internal fragmentation. Royal authority is weakening, particularly in Upper Egypt, where the High Priests of Amun at Thebes are accumulating independent power and wealth. The pharaoh's control over Nubia and the Levant has largely been lost. This period marks the effective end of the New Kingdom's imperial dominance.",
+      "key_figures": [
+        "Ramesses XI (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak temple inscriptions and administrative papyri (e.g., Papyrus Harris I)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses XI's reign is well-attested in temple records and administrative documents. However, precise dating within the reign is uncertain; this year is assigned conventionally within his reign period (c. 1099\u20131069 BCE by conventional chronology).",
+      "cross_references": []
+    },
+    {
+      "id": "-1019-002",
+      "title": "High Priests of Amun consolidating power in Upper Egypt",
+      "region": "Upper Egypt (Thebes/Waset)",
+      "coordinates_approx": "25.7, 32.6",
+      "category": "political",
+      "description": "During the late Twentieth Dynasty, the High Priests of Amun at Thebes have become de facto rulers of Upper Egypt, controlling vast temple estates and military forces. By this period, they rival or exceed the pharaoh's authority in the south. This represents a fundamental shift in Egyptian political structure and foreshadows the fragmentation of Egypt into competing power centres during the Third Intermediate Period.",
+      "key_figures": [
+        "High Priests of Amun (names uncertain for this specific year)"
+      ],
+      "sources": [
+        {
+          "name": "Theban temple records and administrative documents",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I (administrative summary)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trend of priestly power consolidation is well-documented; specific events in this particular year are not clearly distinguished in surviving sources.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise chronology of the late Twentieth Dynasty remains debated. Some scholars argue for a shorter reign for Ramesses XI (c. 1099\u20131069 BCE), while others propose alternative dating schemes. The 'High Priests of Amun' as a unified power bloc is a historiographic construct; individual priests' authority varied and was contested. The notion of a clear 'collapse' of central authority may overstate the degree of fragmentation\u2014the pharaonic system persisted, albeit weakened.",
+  "historiographic_note": "Documentation for this period relies heavily on temple inscriptions and administrative papyri, which are biased toward recording priestly and royal activities. Lower Egypt is less well-documented than Upper Egypt. The sources are not contemporary in the sense of being written during the events themselves but are administrative records created within the period. Oral traditions and local records from outside the Nile Valley are almost entirely absent from the surviving record.",
+  "graph_edges": [
+    {
+      "from": "-1019-001",
+      "to": "-1018-001",
+      "relation": "led_to",
+      "note": "Ramesses XI's reign continues; internal fragmentation deepens"
+    },
+    {
+      "from": "-1019-002",
+      "to": "-1000-001",
+      "relation": "led_to",
+      "note": "Priestly power consolidation leads to the Third Intermediate Period division of Egypt"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "year": -1018,
+  "year_label": "1019 BCE",
+  "era_context": "Egypt under Ramesses XI continues its decline. The Late Bronze Age collapse aftermath is still being absorbed across the Mediterranean and Near East. Assyria under Ashur-bel-kala is in a period of modest expansion and military activity. The Levant remains fragmented following the collapse of major Bronze Age powers. Greece is in the Early Iron Age, with the emergence of the Geometric period in pottery and settlement patterns. Iron-working technology is gradually spreading through the Mediterranean and Near East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia",
+    "South Asia",
+    "Oceania",
+    "The Americas",
+    "Northern Europe and the Steppe",
+    "Levantine interior regions"
+  ],
+  "events": [
+    {
+      "id": "-1018-001",
+      "title": "Ashur-bel-kala's military campaigns in Mesopotamia and the Levant",
+      "region": "Assyria and the Levant",
+      "coordinates_approx": "36.0, 34.5",
+      "category": "military",
+      "description": "Ashur-bel-kala, king of Assyria (c. 1074\u20131076 BCE by some chronologies, though dating is uncertain), conducted military campaigns to expand Assyrian influence and extract tribute from neighbouring regions. These campaigns marked the beginning of Assyrian resurgence after a period of relative weakness. The campaigns extended into the Levant and toward the Mediterranean, reasserting Assyrian military presence in regions that had been destabilised by the Bronze Age collapse.",
+      "key_figures": [
+        "Ashur-bel-kala (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Ashur-bel-kala's inscriptions at Ashur and other Assyrian sites",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Synchronistic History (later Babylonian compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashur-bel-kala's campaigns are attested in his own inscriptions, but precise dating and the specific events of individual years are difficult to establish. The chronology of early Iron Age Assyria remains debated among scholars.",
+      "cross_references": []
+    },
+    {
+      "id": "-1018-002",
+      "title": "Continued fragmentation of Egyptian authority in the Levant",
+      "region": "Levant (former Egyptian territories)",
+      "coordinates_approx": "35.0, 32.0",
+      "category": "political",
+      "description": "Egypt's loss of control over its former Levantine empire continues. Local rulers and emerging city-states in Phoenicia, Canaan, and Syria are consolidating independent power. This period sees the rise of Phoenician maritime city-states such as Tyre and Sidon, which will become major Mediterranean traders. The power vacuum left by Egyptian withdrawal and Hittite collapse is being filled by local and regional powers.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Levantine sites (e.g., Tyre, Sidon, Byblos)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative records (absence of Levantine tribute records)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trend is well-established; specific events in this year are not clearly documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of Ashur-bel-kala's reign is disputed. Some scholars place him earlier (c. 1074\u20131076 BCE), while others propose different dates. The extent and success of his campaigns are also debated\u2014some inscriptions may be propagandistic exaggerations. The notion of a clear 'power vacuum' in the Levant may oversimplify a complex process of local adaptation and reorganisation.",
+  "historiographic_note": "Sources for this year are primarily Assyrian royal inscriptions and Egyptian administrative records, both of which are biased toward recording royal and state activities. Archaeological evidence from Levantine sites provides material context but is often difficult to date precisely to individual years. The perspective of local Levantine populations is largely absent from surviving written records.",
+  "graph_edges": [
+    {
+      "from": "-1018-001",
+      "to": "-1000-002",
+      "relation": "led_to",
+      "note": "Ashur-bel-kala's campaigns initiate Assyrian resurgence that will continue through the Iron Age"
+    },
+    {
+      "from": "-1018-002",
+      "to": "-1000-003",
+      "relation": "led_to",
+      "note": "Levantine fragmentation leads to the rise of Phoenician maritime power"
+    }
+  ]
+}

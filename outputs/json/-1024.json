@@ -1,0 +1,82 @@
+{
+  "year": -1024,
+  "year_label": "1024 BCE",
+  "era_context": "The Late Bronze Age collapse has occurred roughly 150\u2013200 years prior; the Iron Age is establishing itself across the Mediterranean, Near East, and parts of Asia. The New Kingdom of Egypt is in its Twentieth Dynasty under Ramesses IX or X. The Zhou Dynasty controls much of China. Mycenaean Greece has fragmented into smaller poleis. The Hittite Empire has fallen; Assyria is in a period of relative weakness. This is an era of state reorganisation, population movement, and the emergence of alphabetic writing systems.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this specific year)",
+    "Northern Europe (sparse written sources)",
+    "Mesoamerica (limited dating precision for this period)",
+    "Oceania (minimal archaeological attribution to specific years)"
+  ],
+  "events": [
+    {
+      "id": "-1024-001",
+      "title": "Reign of Ramesses X in Egypt (approximate period)",
+      "region": "Egypt, New Kingdom",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Ramesses X (or possibly Ramesses IX, depending on chronological reconstruction) ruled during the Twentieth Dynasty. This period saw continued administrative fragmentation in Egypt, with the High Priests of Amun at Thebes wielding increasing power independent of the pharaonic centre at Pi-Ramesses. Economic strain from military campaigns and temple maintenance contributed to a gradual erosion of centralised authority. The reign is poorly documented compared to earlier Ramesside rulers.",
+      "key_figures": [
+        "Ramesses X (Pharaoh, Twentieth Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List and Abydos King List (later compilations with contemporary elements)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Papyri from Deir el-Medina (administrative records)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian chronology for the late Twentieth Dynasty remains debated. Ramesses X's reign is placed here by conventional dating, but \u00b110\u201315 year uncertainty is standard for this period.",
+      "cross_references": []
+    },
+    {
+      "id": "-1024-002",
+      "title": "Zhou Dynasty consolidation in China (broader context)",
+      "region": "China, Yellow River valley",
+      "coordinates_approx": "34.3\u00b0N, 109.3\u00b0E",
+      "category": "political",
+      "description": "The early Western Zhou Dynasty (c. 1046\u2013771 BCE) was in a phase of territorial consolidation and the establishment of the feudal system. By 1024 BCE, the Zhou had distributed lands to allied families and established a network of vassal states. This period saw the development of bronze technology for both ritual and military purposes, and the gradual shift toward a more decentralised political structure that would characterise the Spring and Autumn period.",
+      "key_figures": [
+        "King Zhao of Zhou (or successor, depending on chronology)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled c. 109 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bronze inscriptions (Shang Zhou period)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Early Zhou chronology is contested. Chinese traditional dating places events earlier; modern scholarship using astronomical data and radiocarbon suggests some adjustment. Assignment to 1024 BCE is conventional but carries \u00b120\u201330 year uncertainty.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The conventional dating of Ramesses X's reign has been challenged by some scholars who argue for a shorter Twentieth Dynasty or different king sequence. Similarly, early Zhou chronology remains one of the most disputed areas in ancient Chinese history, with competing systems (conventional, revised, and ultra-revised) differing by decades. No specific events for 1024 BCE are widely attested; the year is assigned to broader reigns and periods by convention rather than documented occurrence.",
+  "historiographic_note": "Documentation for 1024 BCE is extremely thin. For Egypt, we rely on king lists compiled centuries later and fragmentary papyri. For China, the Shiji was written over 1,000 years after the events it describes, and early Zhou chronology depends heavily on later textual tradition and modern astronomical calculations. No contemporary written records specifically document events in this year. The historical record is dominated by Near Eastern and Mediterranean sources; Africa, northern Europe, and the Americas are essentially absent from the written record at this date.",
+  "graph_edges": [
+    {
+      "from": "-1024-001",
+      "to": "-1070-RAMESSES_IX_REIGN",
+      "relation": "part_of",
+      "note": "Ramesses X's reign is part of the broader Twentieth Dynasty period of Egyptian decline"
+    },
+    {
+      "from": "-1024-002",
+      "to": "-771-WESTERN_ZHOU_COLLAPSE",
+      "relation": "led_to",
+      "note": "The feudal consolidation of the early Western Zhou eventually contributed to the fragmentation that led to the Spring and Autumn period"
+    }
+  ]
+}
