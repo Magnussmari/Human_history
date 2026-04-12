@@ -1,0 +1,105 @@
+{
+  "year": -1860,
+  "year_label": "1860 BCE",
+  "era_context": "The Middle Bronze Age in the Eastern Mediterranean and Near East. The Old Babylonian period is in decline; Hammurabi's dynasty has weakened. Egypt is in the Second Intermediate Period with the Hyksos presence growing in the Delta. The Indus Valley Civilization is in its mature phase. Mycenaean Greece is in the Early Bronze Age. This is a period of significant political fragmentation and population movement.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse written sources)",
+    "Central Asia (limited contemporary documentation)",
+    "Oceania (no written records)",
+    "The Americas (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-1860-001",
+      "title": "Decline of Old Babylonian Dynasty under Samsu-ditana",
+      "region": "Mesopotamia (Babylonia)",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "Samsu-ditana, the last king of the Old Babylonian dynasty, ruled during a period of territorial contraction and weakening central authority. External pressures from the Hittites and internal instability marked his reign. The dynasty would collapse within a few decades, ending nearly 300 years of Babylonian hegemony. This period saw the rise of competing powers in Mesopotamia and the Levant.",
+      "key_figures": [
+        "Samsu-ditana (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chronological synchronisms with Egyptian records",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Samsu-ditana's reign is dated to approximately 1625\u20131595 BCE in the Middle Chronology, but this year assignment is conventional. Absolute dating of Old Babylonian period remains debated; Low Chronology would place this ~100 years later.",
+      "cross_references": []
+    },
+    {
+      "id": "-1860-002",
+      "title": "Hyksos consolidation in Egypt's Nile Delta",
+      "region": "Egypt (Nile Delta)",
+      "coordinates_approx": "30.8, 31.0",
+      "category": "political",
+      "description": "During the Second Intermediate Period, Asiatic populations (Hyksos) continued to establish settlements and political control in the Nile Delta and Lower Egypt. By this period, they had achieved significant demographic and political presence, though the extent of their territorial control and the nature of their relationship with Egyptian rulers remains debated. This process would culminate in the establishment of the 15th Dynasty.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Egyptian New Kingdom historical texts (later retrospective accounts)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Tell el-Dab'a and other Delta sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The chronology and nature of Hyksos settlement is heavily debated. Dating relies on stratigraphic archaeology and later Egyptian accounts written centuries after the events. The term 'Hyksos' itself is a Greek rendering of an Egyptian phrase meaning 'rulers of foreign lands.'",
+      "cross_references": []
+    },
+    {
+      "id": "-1860-003",
+      "title": "Indus Valley Civilization at mature phase",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization was at its height during this period, with major urban centers like Harappa and Mohenjo-daro functioning as sophisticated trading hubs. The civilization maintained extensive trade networks with Mesopotamia and the Persian Gulf. The undeciphered Indus script was in active use for administrative and commercial purposes. This period represents the peak of urban planning and standardization in the ancient world.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature phase of the Indus Valley Civilization is well-established through archaeology. Absolute dating is based on radiocarbon and stratigraphic analysis, with this period falling within the generally accepted mature phase (c. 2500\u20131900 BCE).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the Old Babylonian period remains contested between the Middle Chronology (placing Hammurabi c. 1792\u20131750 BCE) and the Low Chronology (c. 1696\u20131654 BCE), creating uncertainty of up to 100 years for events in this period. The nature and extent of Hyksos political control in Egypt is disputed; some scholars argue they were initially mercenaries or traders rather than conquerors. The collapse mechanisms of the Indus Valley Civilization are debated\u2014climate change, invasion, and internal factors all have scholarly advocates.",
+  "historiographic_note": "This period is poorly documented in written sources outside of Mesopotamia and Egypt. Mesopotamian records are primarily administrative and later compilations. Egyptian sources are retrospective and often propagandistic. The Indus Valley Civilization left no deciphered written historical narrative. Archaeological evidence is our primary source, but dating methods have margins of error. The record is heavily skewed toward literate civilizations and monumental sites; the lives of most people are invisible.",
+  "graph_edges": [
+    {
+      "from": "-1860-001",
+      "to": "-1850-001",
+      "relation": "led_to",
+      "note": "Samsu-ditana's weakening of Babylon contributed to the dynasty's collapse and the rise of competing powers"
+    },
+    {
+      "from": "-1860-002",
+      "to": "-1800-001",
+      "relation": "led_to",
+      "note": "Hyksos consolidation in the Delta would lead to the establishment of the 15th Dynasty"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "year": -1861,
+  "year_label": "1861 BCE",
+  "era_context": "Continuation of the Middle Bronze Age. The Old Babylonian period is in its final decades under Samsu-ditana. Egypt remains in the Second Intermediate Period with increasing Hyksos presence. The Indus Valley Civilization continues its mature phase. Mycenaean Greece is developing in the Early Bronze Age. This is a transitional period marked by political instability and population movements across the Eastern Mediterranean and Near East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Oceania",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-1861-001",
+      "title": "Samsu-ditana's reign continues amid territorial pressure",
+      "region": "Mesopotamia (Babylonia)",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "Samsu-ditana continued to rule Babylon during a period of declining power and influence. The kingdom faced pressure from the Hittites to the north and west, and from the Kassites and other groups to the east. Internal administrative records suggest ongoing efforts to maintain control, but the territorial extent of Babylonian authority was shrinking. This period saw the gradual erosion of the Old Babylonian state system.",
+      "key_figures": [
+        "Samsu-ditana (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Administrative tablets from Babylon",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Dating of Samsu-ditana's reign depends on the chronological system used (Middle vs. Low Chronology). This year is assigned by convention within the Middle Chronology framework.",
+      "cross_references": [
+        "-1860-001"
+      ]
+    },
+    {
+      "id": "-1861-002",
+      "title": "Hittite expansion under Hantili I",
+      "region": "Anatolia (Hittite Empire)",
+      "coordinates_approx": "35.5, 34.0",
+      "category": "military",
+      "description": "Hantili I, founder of the Old Hittite Kingdom, was consolidating power and expanding Hittite territorial control in Anatolia. His reign marked the beginning of Hittite emergence as a major regional power. The Hittites were beginning to exert pressure on neighboring states, including the weakening Old Babylonian kingdom to the south. This expansion would accelerate in subsequent decades.",
+      "key_figures": [
+        "Hantili I (King of the Hittites)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and later chronicles",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Synchronisms with Babylonian records",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hantili I's reign is traditionally dated to c. 1650\u20131620 BCE, but chronological uncertainty is significant. The exact dates of his military campaigns are not precisely known.",
+      "cross_references": []
+    },
+    {
+      "id": "-1861-003",
+      "title": "Indus Valley trade networks active",
+      "region": "Indus Valley and Persian Gulf",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintained extensive maritime and overland trade networks during this period. Seals and artifacts from the Indus have been found in Mesopotamia, the Persian Gulf, and the Levant, indicating active commercial exchange. The civilization exported goods such as carnelian, lapis lazuli, and manufactured items, while importing raw materials and luxury goods. This trade was a crucial component of the Indus economy.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Indus seals and artifacts in Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals with merchant marks",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence of Indus trade networks is well-established through archaeological evidence. The specific goods traded and the organization of trade are inferred from artifact distribution and seal evidence.",
+      "cross_references": [
+        "-1860-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Hantili I and the early Hittite kingdom is uncertain and debated among scholars. Some chronological systems place his reign significantly later. The extent of Hittite military expansion in this specific year is not documented in contemporary sources; the narrative is reconstructed from later Hittite texts and Egyptian records.",
+  "historiographic_note": "This year is even more poorly documented than -1860. We have administrative records from Babylon and archaeological evidence from the Indus Valley, but no contemporary narrative sources. The Hittite record is primarily from later compilations. The historical record is fragmentary and heavily dependent on archaeological dating methods with inherent uncertainties.",
+  "graph_edges": [
+    {
+      "from": "-1861-001",
+      "to": "-1860-001",
+      "relation": "contemporary_with",
+      "note": "Samsu-ditana's reign continued during this period"
+    },
+    {
+      "from": "-1861-002",
+      "to": "-1860-001",
+      "relation": "contemporary_with",
+      "note": "Hittite expansion was contemporaneous with Babylonian decline"
+    }
+  ]
+}

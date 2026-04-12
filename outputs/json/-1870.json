@@ -1,0 +1,95 @@
+{
+  "year": -1870,
+  "year_label": "1871 BCE",
+  "era_context": "The Middle Bronze Age in the Levant and Egypt; the Middle Kingdom period in Egypt under the 12th Dynasty (Amenemhat III's reign, c. 1860\u20131814 BCE). In Mesopotamia, the Old Babylonian period is in its mature phase under Hammurabi's successors. The Hittite Old Kingdom is emerging in Anatolia. In the Indus Valley, the Mature Harappan civilization is at its height. In China, the Shang dynasty is in its early phase (traditional dating; archaeological confirmation remains debated).",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe (pre-literate societies, archaeological record only)",
+    "Mesoamerica (no written records; archaeological dating uncertain)",
+    "Pacific and Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-1870-001",
+      "title": "Reign of Amenemhat III in Egypt (traditional dating)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Amenemhat III is traditionally dated to c. 1860\u20131814 BCE, making 1871 BCE fall within his reign. He was one of the most powerful pharaohs of the 12th Dynasty, overseeing extensive building projects, including the Labyrinth at Hawara and temples at Medinet Madi. His reign saw economic prosperity, military campaigns into Nubia, and administrative consolidation. He is attested in contemporary inscriptions and later king lists.",
+      "key_figures": [
+        "Amenemhat III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Inscriptions from Medinet Madi and Hawara temples",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca (via later compilations)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Amenemhat III's reign is well-attested in contemporary inscriptions and later king lists. However, absolute dating of the 12th Dynasty remains debated; estimates range from c. 1985\u20131795 BCE (conventional) to c. 1860\u20131814 BCE (revised chronology). The year 1871 BCE is assigned by convention within the revised chronology but carries \u00b110\u201315 year uncertainty.",
+      "cross_references": []
+    },
+    {
+      "id": "-1870-002",
+      "title": "Mature Harappan civilization at its height",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.5, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (c. 2600\u20131900 BCE) is in its mature phase during this period. Major urban centers such as Mohenjo-daro, Harappa, Dholavira, and Lothal are fully developed and functioning. The civilization is characterized by planned urban layouts, standardized weights and measures, undeciphered script, and extensive trade networks extending to Mesopotamia and the Persian Gulf. No evidence of large-scale warfare or centralized political authority has been identified.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, Dholavira, and Lothal",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and tablets with undeciphered script",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Radiocarbon dating and stratigraphic analysis",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Mature Harappan phase is well-established archaeologically. Radiocarbon dating places it c. 2600\u20131900 BCE, with 1871 BCE falling within this range. However, the exact chronology and causes of the civilization's decline remain debated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The absolute dating of the 12th Dynasty and the Mature Harappan civilization remains contested. Some scholars argue for a 'low chronology' placing these events 100\u2013200 years later than the conventional dating used here. Additionally, the relationship between the decline of the Indus Valley Civilization and external factors (climate change, invasion) versus internal factors (resource depletion, social change) is debated; no single catastrophic event is archaeologically confirmed for this specific year.",
+  "historiographic_note": "For 1871 BCE, documentation is heavily skewed toward Egypt and the Indus Valley, where archaeological and epigraphic evidence is relatively abundant. Mesopotamian records from this period are primarily administrative and economic texts from Old Babylonian sites. The historical record for sub-Saharan Africa, northern Europe, and the Americas is essentially non-existent in written form; understanding of these regions depends entirely on archaeology, which cannot reliably date individual years. The surviving Egyptian and Mesopotamian sources are often elite-focused (royal inscriptions, temple records) and may not reflect broader social or economic conditions.",
+  "graph_edges": [
+    {
+      "from": "-1870-001",
+      "to": "-1814-001",
+      "relation": "led_to",
+      "note": "End of Amenemhat III's reign marks the beginning of the decline of the 12th Dynasty"
+    },
+    {
+      "from": "-1870-002",
+      "to": "-1900-001",
+      "relation": "part_of",
+      "note": "Mature Harappan phase is part of the broader Indus Valley Civilization sequence"
+    }
+  ]
+}

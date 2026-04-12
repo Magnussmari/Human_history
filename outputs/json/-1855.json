@@ -1,0 +1,87 @@
+{
+  "year": -1855,
+  "year_label": "1856 BCE",
+  "era_context": "The Middle Bronze Age II in the Levant and Egypt; the Hyksos period in Egypt (c. 1650\u20131550 BCE) is well underway, with foreign dynasties controlling the Delta while native Egyptian dynasties rule the south. In Mesopotamia, the Old Babylonian period is in decline; Hammurabi's dynasty (c. 1792\u20131750 BCE) has recently ended, and the region fragments into competing city-states. In the Indus Valley Civilization, the mature phase continues with thriving urban centers. The Shang dynasty is establishing itself in China. This is a period of significant political fragmentation and population movement across Eurasia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (limited chronological precision for this period)",
+    "Pacific Islands (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-1855-001",
+      "title": "Reign of Ahmose I begins (traditional Egyptian chronology)",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 32.5",
+      "category": "political",
+      "description": "According to traditional Egyptian chronology, Ahmose I ascends to the throne and initiates the expulsion of the Hyksos from Egypt, marking the beginning of the New Kingdom (18th Dynasty). However, modern scholarship places Ahmose's reign significantly later (c. 1550\u20131525 BCE), and this date is highly disputed. The traditional date of 1856 BCE reflects older Egyptological consensus that has been substantially revised by radiocarbon dating and astronomical calculations. Ahmose's actual reign saw military campaigns against Hyksos strongholds and the reunification of Egypt under native rule.",
+      "key_figures": [
+        "Ahmose I (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (preserved in later Greek sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Radiocarbon dating of organic materials from 18th Dynasty contexts",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "This date derives from Manetho and traditional king-list chronology. Modern radiocarbon and astronomical evidence suggests Ahmose's reign occurred c. 1550\u20131525 BCE, roughly 300 years later. The traditional date is retained here for historical continuity but should be treated as approximate at best.",
+      "cross_references": [
+        "Related to Hyksos expulsion narratives; see New Kingdom chronology debates"
+      ]
+    },
+    {
+      "id": "-1855-002",
+      "title": "Indus Valley Civilization at peak urban development",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (c. 2600\u20131900 BCE) is in its mature phase, with major urban centers such as Harappa and Mohenjo-daro at their height. These cities display sophisticated urban planning, standardized weights and measures, and extensive trade networks extending to Mesopotamia and the Persian Gulf. The civilization is characterized by undeciphered script, advanced drainage systems, and evidence of organized governance. No monumental temples or palaces have been identified, suggesting a different social organization than contemporary Mesopotamian or Egyptian civilizations.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa and Mohenjo-daro (Marshall, Wheeler, and subsequent teams)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Radiocarbon dating of Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature Indus Valley Civilization is well-attested archaeologically. Dating to c. 1856 BCE is approximate; the civilization's peak is generally dated 2500\u20131900 BCE, placing 1856 BCE in the later mature phase, possibly approaching decline.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional Egyptian chronology placing Ahmose I's reign at c. 1856 BCE is now widely rejected by modern Egyptologists. Radiocarbon dating, astronomical calculations (based on lunar dates in temple records), and revised Hittite synchronisms place the 18th Dynasty roughly 300 years later (c. 1550 BCE). The 'low chronology' is now dominant in scholarship, making the traditional date historically inaccurate. No major disconfirming evidence exists for the Indus Valley Civilization's continued flourishing at this time.",
+  "historiographic_note": "For this period, Egyptian chronology remains contested between 'high,' 'middle,' and 'low' chronologies, differing by up to 300 years. The traditional dates derive from Manetho, a Ptolemaic-era historian whose king lists are now known to contain errors and gaps. Archaeological evidence is abundant for the Indus Valley but sparse for most other regions. Mesopotamian records are fragmentary due to political fragmentation. Sub-Saharan Africa, northern Europe, and the Americas have no written records for this period, limiting our knowledge to archaeology and oral traditions preserved much later.",
+  "graph_edges": [
+    {
+      "from": "-1855-001",
+      "to": "New Kingdom Egypt chronology",
+      "relation": "part_of",
+      "note": "Ahmose I traditionally marks the beginning of the New Kingdom, though modern dating places this c. 300 years later"
+    },
+    {
+      "from": "-1855-002",
+      "to": "Indus Valley Civilization decline",
+      "relation": "led_to",
+      "note": "The mature Indus civilization was in decline by c. 1900 BCE; this period represents late flourishing before abandonment"
+    }
+  ]
+}
