@@ -1,0 +1,84 @@
+{
+  "year": -1330,
+  "year_label": "1331 BCE",
+  "era_context": "The late Bronze Age, during the reign of Ramesses II of Egypt (r. 1279\u20131213 BCE). The Hittite Empire under Muwatalli II or his successor Urhi-Teshup controlled Anatolia and northern Syria. The Mycenaean civilization dominated the Aegean. In China, the Shang dynasty was in its final centuries. This was an era of great powers in tension, international trade networks, and the development of alphabetic writing systems.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Mesoamerica (no written chronology synchronized to this date)",
+    "Northern Europe (pre-literate societies, archaeological record only)",
+    "Southeast Asia (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1330-001",
+      "title": "Ramesses II's military campaigns in Nubia and Syria",
+      "region": "Egypt, Nubia, Syria-Palestine",
+      "coordinates_approx": "25.0,32.0",
+      "category": "military",
+      "description": "Ramesses II continued his extensive military campaigns to consolidate Egyptian control over Nubian territories and maintain Egyptian interests in Syria-Palestine. These campaigns were part of a broader strategy to secure trade routes and resources. The pharaoh's inscriptions record multiple campaigns during his reign, though precise year-by-year attribution is difficult. These military actions reinforced Egypt's position as a dominant power in the eastern Mediterranean and Near East.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Inscriptions at Abu Simbel and Karnak temples",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Ramesses II's reign chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ramesses II's reign is well-dated (1279\u20131213 BCE), but specific campaigns are not always assigned to individual years in surviving records. This event is placed within his active military period based on inscription patterns.",
+      "cross_references": []
+    },
+    {
+      "id": "-1330-002",
+      "title": "Hittite-Egyptian diplomatic relations under Muwatalli II or successor",
+      "region": "Hittite Empire, Egypt",
+      "coordinates_approx": "35.5,39.0",
+      "category": "political",
+      "description": "The Hittite Empire and Egypt maintained a complex relationship of both conflict and diplomacy during this period. Following the Battle of Kadesh (c. 1274 BCE), a peace treaty had been established. By 1330 BCE, the Hittites were consolidating power under Muwatalli II or his successor Urhi-Teshup. Diplomatic correspondence and trade continued between the two powers, though tensions periodically arose over control of Syria-Palestine.",
+      "key_figures": [
+        "Muwatalli II (Hittite King, if still reigning)",
+        "Urhi-Teshup (Hittite King, if successor)",
+        "Ramesses II (Egyptian Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal archives from Bo\u011fazk\u00f6y",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian diplomatic correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general diplomatic framework is well-attested; specific events in 1330 BCE are inferred from broader patterns of Hittite-Egyptian relations during this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise chronology of Hittite succession (Muwatalli II vs. Urhi-Teshup) in the 1330s BCE remains debated among scholars. Some sources place Urhi-Teshup's reign earlier or later than traditionally assumed. Additionally, the extent and nature of Ramesses II's Nubian campaigns in specific years are difficult to verify from contemporary sources; much of what we know comes from later temple inscriptions that may conflate or reorder events for propagandistic purposes.",
+  "historiographic_note": "The historical record for 1330 BCE is heavily dependent on Egyptian temple inscriptions and Hittite archives, both of which are subject to royal bias and propagandistic framing. Egyptian sources emphasize military victories and divine favor; Hittite sources focus on dynastic legitimacy. Archaeological evidence from Syria-Palestine provides some independent corroboration but is fragmentary. The absence of detailed year-by-year records means that events are often assigned to periods rather than specific years. Sub-Saharan Africa, the Americas, and much of Asia are essentially invisible in contemporary written sources.",
+  "graph_edges": [
+    {
+      "from": "-1330-001",
+      "to": "-1274-001",
+      "relation": "part_of",
+      "note": "Ramesses II's military campaigns continued a pattern established after the Battle of Kadesh"
+    },
+    {
+      "from": "-1330-002",
+      "to": "-1274-001",
+      "relation": "contemporary_with",
+      "note": "Diplomatic relations were shaped by the post-Kadesh peace framework"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "year": -1323,
+  "year_label": "1324 BCE",
+  "era_context": "Late Bronze Age, Egypt under Ramesses II in the Nineteenth Dynasty. The Hittite Empire under Muwatalli II is at its zenith. Mycenaean Greece continues in Late Helladic IIIB. The Shang Dynasty in China is in its final centuries. This period represents the apex of Bronze Age imperial power and international diplomacy before the Late Bronze Age collapse.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Central Asia beyond Hittite sphere"
+  ],
+  "events": [
+    {
+      "id": "-1323-001",
+      "title": "Egyptian-Hittite diplomatic correspondence and military standoff",
+      "region": "Egypt, Hittite Empire, Syria",
+      "coordinates_approx": "33.0,32.0",
+      "category": "political",
+      "description": "Ramesses II and Muwatalli II engage in diplomatic correspondence regarding territorial disputes in Syria and the Levant. Both powers maintain military readiness but avoid direct large-scale conflict. This period of tension precedes the famous Battle of Kadesh (traditionally dated to c. 1274 BCE, though some scholars place it earlier). The correspondence reveals sophisticated diplomatic protocols and the balance of power between the two greatest Bronze Age empires.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)",
+        "Muwatalli II (Hittite King)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian diplomatic correspondence and temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Hittite royal archives from Bo\u011fazk\u00f6y",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The diplomatic tensions between Egypt and the Hittites are well-documented, but the precise dating of specific exchanges within Ramesses II's reign is uncertain (\u00b12\u20133 years).",
+      "cross_references": [
+        "-1322-001"
+      ]
+    },
+    {
+      "id": "-1323-002",
+      "title": "Mycenaean trade networks and palace economies",
+      "region": "Greece, Aegean, Eastern Mediterranean",
+      "coordinates_approx": "38.0,23.0",
+      "category": "economic",
+      "description": "Mycenaean Greek palace centers (Mycenae, Tiryns, Pylos) maintain extensive trade networks throughout the eastern Mediterranean. Linear B tablets from this period document administrative organization, commodity distribution, and international trade. Mycenaean pottery and goods are found throughout the Levant and Egypt, indicating robust commercial exchange. This represents the height of Mycenaean economic power before the Late Bronze Age collapse.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos and Knossos",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of Mycenaean pottery in the Levant and Egypt",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mycenaean trade networks are archaeologically confirmed. The specific year assignment is approximate within the Late Helladic IIIB period (c. 1300\u20131190 BCE).",
+      "cross_references": []
+    },
+    {
+      "id": "-1323-003",
+      "title": "Shang Dynasty administrative and religious practices",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.5,114.0",
+      "category": "cultural",
+      "description": "The Shang Dynasty maintains sophisticated administrative systems documented through oracle bones and bronze inscriptions. Religious practices centered on ancestor veneration and divination continue to structure state organization. The Shang court maintains control over a network of vassal states and conducts regular military campaigns against neighboring peoples. This period represents the mature phase of Shang civilization before its eventual decline.",
+      "key_figures": [
+        "Shang Dynasty rulers (specific king uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bones and bronze inscriptions from archaeological sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Shang administrative and religious practices are archaeologically confirmed. Precise year dating within the Shang Dynasty remains uncertain.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Battle of Kadesh, often associated with this period, is disputed. Traditional Egyptology places it at c. 1274 BCE, but some scholars argue for dates as early as 1286 BCE or as late as 1260 BCE. This affects the interpretation of Egyptian-Hittite relations in this specific year. Additionally, the characterization of Mycenaean trade as uniformly 'robust' has been questioned by recent scholarship, which notes regional variation and periodic disruptions. The Shang Dynasty's exact chronology remains one of the most debated topics in Chinese historiography.",
+  "historiographic_note": "This year's record is heavily weighted toward the literate imperial powers of the eastern Mediterranean and Near East. Mycenaean Greece is known primarily through administrative tablets and archaeological remains, not narrative histories. Chinese sources are abundant but compiled much later. The vast majority of human societies in this year left no written records and are invisible in this historical account. Egyptian and Hittite sources may exaggerate their own military and diplomatic successes.",
+  "graph_edges": [
+    {
+      "from": "-1323-001",
+      "to": "-1322-001",
+      "relation": "led_to",
+      "note": "Diplomatic tensions between Egypt and the Hittites escalate toward military confrontation"
+    },
+    {
+      "from": "-1323-002",
+      "to": "-1320-001",
+      "relation": "part_of",
+      "note": "Mycenaean trade networks continue until disrupted by the Late Bronze Age collapse"
+    }
+  ]
+}

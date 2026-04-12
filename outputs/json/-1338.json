@@ -1,0 +1,84 @@
+{
+  "year": -1338,
+  "year_label": "1339 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt. Amenhotep III's reign continues at its height. The Hittite Empire under \u0160uppiluliuma I is actively expanding in Syria and the Levant. Mycenaean Greece is in Late Helladic IIIA. The Shang Dynasty persists in China.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-1338-001",
+      "title": "Amenhotep III's building programs and diplomatic activity",
+      "region": "Egypt",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "cultural",
+      "description": "Amenhotep III's reign is marked by extensive architectural patronage, including the construction and decoration of temples at Thebes, Luxor, and elsewhere. Diplomatic correspondence with foreign powers (later preserved in the Amarna Letters archive) indicates active engagement with Hittites, Mitanni, Babylonians, and Levantine rulers. The reign represents a peak of Egyptian artistic and cultural achievement.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh)",
+        "Tiye (Great Royal Wife)"
+      ],
+      "sources": [
+        {
+          "name": "Temple reliefs and inscriptions at Luxor, Karnak, and Thebes",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Amarna Letters (diplomatic correspondence, slightly later)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Amenhotep III's cultural patronage is well-attested; specific year-by-year activities are not always distinguishable in the archaeological record.",
+      "cross_references": []
+    },
+    {
+      "id": "-1338-002",
+      "title": "\u0160uppiluliuma I's Syrian campaigns",
+      "region": "Levant, Syria",
+      "coordinates_approx": "35.0\u00b0N, 36.0\u00b0E",
+      "category": "military",
+      "description": "\u0160uppiluliuma I continues his military campaigns in Syria, challenging Egyptian control and expanding Hittite hegemony. These campaigns are documented in Hittite royal inscriptions and later reflected in Egyptian diplomatic records. The Hittite expansion in this period leads to increased tensions with Egypt.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal annals and inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian records and later Amarna Letters",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "\u0160uppiluliuma's campaigns are well-documented in Hittite sources, but precise year-by-year chronology is uncertain due to debates over absolute dating.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of \u0160uppiluliuma I remains debated among scholars. Some propose dates 20\u201330 years earlier or later. The relationship between Egyptian and Hittite chronologies is not definitively resolved. No disconfirming evidence for the general characterization of this period.",
+  "historiographic_note": "Sources for 1339 BCE are limited to official records from Egypt and the Hittite Empire. The Amarna Letters, though slightly later, provide valuable cross-cultural perspective. Archaeological evidence from temple sites is abundant but does not always permit year-specific attribution. Most other regions of the world are undocumented for this year.",
+  "graph_edges": [
+    {
+      "from": "-1338-001",
+      "to": "-1339-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of Amenhotep III's reign"
+    },
+    {
+      "from": "-1338-002",
+      "to": "-1339-002",
+      "relation": "contemporary_with",
+      "note": "Continuation of \u0160uppiluliuma I's campaigns"
+    }
+  ]
+}

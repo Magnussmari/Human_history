@@ -1,0 +1,110 @@
+{
+  "year": -1321,
+  "year_label": "1322 BCE",
+  "era_context": "Late Bronze Age, Egypt under Ramesses II, Hittite Empire under Muwatalli II. Mycenaean Greece in Late Helladic IIIB. Shang Dynasty in China. This period is characterized by great imperial powers, international diplomacy, and military competition. The era is approaching the Late Bronze Age collapse, though this is not yet apparent to contemporaries.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Central and South Asia"
+  ],
+  "events": [
+    {
+      "id": "-1321-001",
+      "title": "Egyptian-Hittite tensions escalate in Syria and the Levant",
+      "region": "Egypt, Hittite Empire, Syria, Levant",
+      "coordinates_approx": "33.5,32.0",
+      "category": "military",
+      "description": "Tensions between Ramesses II and Muwatalli II reach a critical point as both powers maneuver for control of Syria and the Levant. Egyptian forces advance northward while Hittite forces move southward. Both powers mobilize their armies and prepare for major military confrontation. This escalation of tensions is documented in both Egyptian and Hittite sources and represents the prelude to the Battle of Kadesh (traditionally dated to c. 1274 BCE, though some scholars place it earlier).",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)",
+        "Muwatalli II (Hittite King)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple reliefs and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Hittite royal inscriptions and clay tablets",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The escalation of Egyptian-Hittite tensions is well-documented, but precise year-by-year dating is uncertain (\u00b13\u20135 years).",
+      "cross_references": [
+        "-1322-001",
+        "-1320-002"
+      ]
+    },
+    {
+      "id": "-1321-002",
+      "title": "Mycenaean trade and cultural exchange with the Levant",
+      "region": "Greece, Aegean, Levant, Egypt",
+      "coordinates_approx": "35.0,25.0",
+      "category": "economic",
+      "description": "Mycenaean Greeks maintain extensive trade networks with the Levant and Egypt. Mycenaean pottery, weapons, and luxury goods are exchanged for Levantine cedar, Egyptian gold, and other commodities. This period represents the height of Mycenaean international trade and cultural influence. Mycenaean merchants and craftsmen are present in Levantine ports and Egyptian cities.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Mycenaean pottery in the Levant and Egypt",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative records mentioning foreign traders",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mycenaean trade networks are archaeologically confirmed. The specific year assignment is approximate within Late Helladic IIIB.",
+      "cross_references": []
+    },
+    {
+      "id": "-1321-003",
+      "title": "Shang Dynasty religious and administrative consolidation",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.5,114.0",
+      "category": "religious",
+      "description": "The Shang Dynasty continues to consolidate its religious and administrative authority through oracle bone divination and ancestor veneration. The Shang court maintains control over vassal states and conducts regular religious ceremonies to ensure cosmic order and agricultural fertility. This period represents the mature phase of Shang religious and political organization.",
+      "key_figures": [
+        "Shang Dynasty rulers (specific king uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bones recording religious practices",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Bronze vessels with religious inscriptions",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Shang religious practices are archaeologically confirmed. Precise year dating remains uncertain.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the escalation of Egyptian-Hittite tensions is disputed. Some scholars place the major military confrontation (Battle of Kadesh) earlier than traditionally dated, which would affect the interpretation of events in this year. Additionally, the characterization of Mycenaean trade as uniformly prosperous has been questioned by recent scholarship, which notes evidence of disruption and instability in some regions during this period.",
+  "historiographic_note": "This year's record is dominated by sources from literate imperial powers. Egyptian and Hittite sources present official narratives that may exaggerate military preparations and downplay diplomatic failures. Mycenaean sources are limited to archaeological evidence and administrative tablets. Chinese sources are abundant but compiled much later. The vast majority of human societies in this year are invisible in the historical record.",
+  "graph_edges": [
+    {
+      "from": "-1321-001",
+      "to": "-1320-002",
+      "relation": "led_to",
+      "note": "Escalating tensions between Egypt and the Hittites lead to major military confrontation"
+    },
+    {
+      "from": "-1321-002",
+      "to": "-1320-001",
+      "relation": "part_of",
+      "note": "Mycenaean trade networks continue until disrupted by the Late Bronze Age collapse"
+    }
+  ]
+}

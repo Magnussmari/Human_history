@@ -1,0 +1,80 @@
+{
+  "year": -1337,
+  "year_label": "1338 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt. Amenhotep III's reign is in its later phase (r. ~1390\u20131352 BCE). The Hittite Empire under \u0160uppiluliuma I is at the height of its power. Mycenaean Greece continues in Late Helladic IIIA. The Shang Dynasty in China is in its later phases.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-1337-001",
+      "title": "Amenhotep III's reign in its later phase; possible health decline",
+      "region": "Egypt",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Amenhotep III, now in his later years, may have begun to delegate authority. Some scholars suggest evidence of co-regency or shared rule with his son Amenhotep IV (later Akhenaten), though this remains debated. The reign continues to be characterized by stability and cultural achievement, though some sources hint at administrative changes.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh)",
+        "Amenhotep IV / Akhenaten (possible co-regent)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Later Egyptian chronicles and king lists",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The question of co-regency between Amenhotep III and Amenhotep IV is highly debated. Some scholars argue for a 10\u201312 year co-regency; others reject it entirely. Dating specific events within Amenhotep III's reign to individual years is speculative.",
+      "cross_references": []
+    },
+    {
+      "id": "-1337-002",
+      "title": "\u0160uppiluliuma I consolidates control in Syria and northern Mesopotamia",
+      "region": "Levant, Syria, Mesopotamia",
+      "coordinates_approx": "35.5\u00b0N, 37.0\u00b0E",
+      "category": "military",
+      "description": "\u0160uppiluliuma I's military campaigns continue to expand Hittite control over formerly Egyptian-dominated territories in Syria and the Levant. The Hittite Empire reaches its territorial peak during this period. These campaigns are documented in Hittite royal inscriptions and create tensions with Egypt that will be reflected in later diplomatic correspondence.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal annals and inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "\u0160uppiluliuma's campaigns are well-attested in Hittite sources, but absolute chronology remains uncertain.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The co-regency hypothesis for Amenhotep III and Amenhotep IV is disputed. Some Egyptologists (e.g., Donald Redford) argue against it, placing Amenhotep IV's sole reign after Amenhotep III's death. Others support a co-regency of varying lengths. This affects the precise dating of events in the late 18th Dynasty. No disconfirming evidence for the general characterization of \u0160uppiluliuma I's military expansion.",
+  "historiographic_note": "Sources for 1338 BCE are limited to official Egyptian and Hittite records. The co-regency question illustrates how gaps in contemporary documentation lead to scholarly disputes. Archaeological evidence from temple sites is abundant but does not resolve chronological ambiguities. Most of the world remains undocumented for this year.",
+  "graph_edges": [
+    {
+      "from": "-1337-001",
+      "to": "-1335-001",
+      "relation": "led_to",
+      "note": "Transition toward Amenhotep IV's reign and religious revolution"
+    },
+    {
+      "from": "-1337-002",
+      "to": "-1335-002",
+      "relation": "part_of",
+      "note": "Continuation of Hittite expansion"
+    }
+  ]
+}

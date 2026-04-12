@@ -1,0 +1,123 @@
+{
+  "year": -1334,
+  "year_label": "1335 BCE",
+  "era_context": "Late Bronze Age, during the reign of Ramesses II of Egypt (r. 1279\u20131213 BCE). The Hittite Empire was under Muwatalli II. The Mycenaean civilization was in its Late Helladic IIIB period. In China, the Shang dynasty was in its final centuries. This era was characterized by great power competition, extensive international trade networks, and the development of early alphabetic writing in the Levant.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia",
+    "Central Asia",
+    "South Asia",
+    "Eastern Europe"
+  ],
+  "events": [
+    {
+      "id": "-1334-001",
+      "title": "Hittite-Egyptian diplomatic and military tensions",
+      "region": "Hittite Empire, Egypt, Syria-Palestine",
+      "coordinates_approx": "35.0,35.0",
+      "category": "political",
+      "description": "The Hittite Empire under Muwatalli II and Egypt under Ramesses II maintained a complex relationship characterized by both diplomatic engagement and military competition. Both powers sought to control Syria-Palestine and its valuable trade routes and resources. The peace treaty established after the Battle of Kadesh (c. 1274 BCE) provided a framework for coexistence, but tensions periodically arose. Diplomatic correspondence and military preparations were ongoing.",
+      "key_figures": [
+        "Muwatalli II (Hittite King)",
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal archives from Bo\u011fazk\u00f6y",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian diplomatic correspondence and temple inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general diplomatic and military situation is well-attested. Specific events in 1335 BCE are inferred from broader patterns of Hittite-Egyptian relations during this period.",
+      "cross_references": [
+        "-1330-002"
+      ]
+    },
+    {
+      "id": "-1334-002",
+      "title": "Mycenaean expansion and trade in the eastern Mediterranean",
+      "region": "Aegean, eastern Mediterranean, Levant",
+      "coordinates_approx": "38.0,28.0",
+      "category": "economic",
+      "description": "Mycenaean Greeks continued their expansion of trade networks throughout the eastern Mediterranean during this period. Archaeological evidence shows widespread Mycenaean pottery in Egypt, the Levant, and Anatolia. This trade facilitated the exchange of goods, ideas, and cultural practices. Mycenaean merchants and possibly warriors were present in various Mediterranean ports and trading centers.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence: Mycenaean pottery and artifacts found throughout the eastern Mediterranean",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian records mentioning foreign peoples and trade",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mycenaean trade in the eastern Mediterranean during the late Bronze Age is extensively documented through archaeological evidence.",
+      "cross_references": [
+        "-1331-002"
+      ]
+    },
+    {
+      "id": "-1334-003",
+      "title": "Shang dynasty cultural and political continuity in China",
+      "region": "China, Yellow River valley",
+      "coordinates_approx": "34.0,114.0",
+      "category": "cultural",
+      "description": "The Shang dynasty in China continued its rule during this period, maintaining its political and cultural systems. The Shang were known for their bronze working, oracle bone divination, and complex religious practices. Archaeological evidence from sites such as Anyang documents the material culture and administrative organization of the Shang state. The dynasty was in its final centuries before being replaced by the Zhou dynasty.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Anyang and other Shang sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Oracle bone inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Later Chinese historical texts (Shiji, etc.)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general continuity of Shang rule during this period is well-attested archaeologically. Precise dating of specific events in 1335 BCE is difficult due to the nature of oracle bone records and later historical compilations.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the Shang dynasty remains debated among scholars. Some scholars argue for a 'long chronology' that places Shang rule earlier, while others support a 'short chronology' that places it later. This affects the precise dating of events in 1335 BCE. Additionally, the extent of Mycenaean political influence in the eastern Mediterranean (as opposed to purely commercial contact) is disputed. Some scholars argue that Mycenaean presence was more limited than archaeological evidence suggests.",
+  "historiographic_note": "The historical record for 1335 BCE is sparse and heavily dependent on Egyptian and Hittite official sources, which are subject to royal bias. Archaeological evidence from the Aegean, Levant, and China provides important corroboration but is fragmentary. The absence of detailed year-by-year records means that events are often assigned to periods rather than specific years. The record is heavily skewed toward the Mediterranean world and the great powers; vast regions of Asia, Africa, and the Americas are largely invisible in contemporary written sources. The Shang dynasty record is particularly dependent on oracle bone inscriptions, which are often cryptic and difficult to interpret.",
+  "graph_edges": [
+    {
+      "from": "-1334-001",
+      "to": "-1330-002",
+      "relation": "contemporary_with",
+      "note": "Hittite-Egyptian tensions were a persistent feature of this period"
+    },
+    {
+      "from": "-1334-002",
+      "to": "-1331-002",
+      "relation": "part_of",
+      "note": "Mycenaean trade networks were a continuous feature of the late Bronze Age"
+    },
+    {
+      "from": "-1334-003",
+      "to": "-1334-001",
+      "relation": "contemporary_with",
+      "note": "Shang dynasty and Mediterranean great powers were contemporaneous but geographically distant"
+    }
+  ]
+}

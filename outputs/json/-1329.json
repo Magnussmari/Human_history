@@ -1,0 +1,107 @@
+{
+  "year": -1329,
+  "year_label": "1330 BCE",
+  "era_context": "The late Bronze Age, approximately 50 years after the Battle of Kadesh (c. 1274 BCE). Egypt under Ramesses II's reign (c. 1279\u20131213 BCE) was at its height of imperial power. The Hittite Empire under Muwatalli II and his successors controlled Anatolia and northern Syria. The Mycenaean civilization dominated the Aegean and eastern Mediterranean. The Late Bronze Age collapse was still roughly a century away, though regional instabilities were beginning to emerge.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "East Asia beyond fragmentary oracle bone records",
+    "Mesoamerica (no written chronology for this period)"
+  ],
+  "events": [
+    {
+      "id": "-1329-001",
+      "title": "Ramesses II's military campaigns in Nubia and consolidation of Nubian tribute",
+      "region": "Nubia (modern Sudan), Egypt",
+      "coordinates_approx": "15.5, 32.0",
+      "category": "military",
+      "description": "Ramesses II conducted campaigns to secure Nubian gold, ivory, and incense trade routes. The Abu Simbel temples, begun earlier, were under active construction during this period as monuments to Egyptian power in Nubia. These campaigns reinforced Egyptian hegemony over Nubian kingdoms and ensured steady tribute flows. The military presence in Nubia was maintained through a network of fortresses and administrative centers.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Abu Simbel temple inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Ramesseum temple records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses II's Nubian campaigns are well-attested in temple reliefs and inscriptions. Precise dating of individual campaigns within his 66-year reign is approximate; this event is assigned to the middle period of his reign based on stylistic and administrative evidence.",
+      "cross_references": []
+    },
+    {
+      "id": "-1329-002",
+      "title": "Hittite administrative reorganization under Muwatalli II's successors",
+      "region": "Hittite Empire (Anatolia, northern Syria)",
+      "coordinates_approx": "35.5, 34.0",
+      "category": "political",
+      "description": "Following Muwatalli II's death (c. 1330 BCE), his son Urhi-Teshub (Mursili III) assumed the throne but faced internal opposition. This period saw significant administrative restructuring and military consolidation to maintain Hittite control over vassal states in Syria and Anatolia. The succession dispute weakened central authority temporarily, creating opportunities for vassal rebellion.",
+      "key_figures": [
+        "Urhi-Teshub / Mursili III (Hittite King)",
+        "Muwatalli II (predecessor)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and clay tablets from Bo\u011fazk\u00f6y",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Telepinu Edict (later compilation describing earlier succession disputes)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The succession of Urhi-Teshub is well-documented, but the precise year of Muwatalli II's death is debated among scholars (estimates range c. 1330\u20131320 BCE). This event is assigned to -1329 as a conventional midpoint.",
+      "cross_references": []
+    },
+    {
+      "id": "-1329-003",
+      "title": "Mycenaean palatial economies at peak production",
+      "region": "Mycenaean Greece (Peloponnese, Crete, Aegean islands)",
+      "coordinates_approx": "37.5, 23.0",
+      "category": "economic",
+      "description": "The major Mycenaean palace centers (Mycenae, Pylos, Tiryns, Knossos) were operating at high capacity, producing and trading pottery, textiles, and luxury goods throughout the eastern Mediterranean. Linear B tablets from this period document complex administrative systems managing agricultural surplus, craft production, and long-distance trade networks. This represents the apex of Mycenaean palatial civilization before the disruptions of the late 13th century BCE.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos and Knossos",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from palace excavations (pottery, storage facilities, craft workshops)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Linear B tablets provide direct evidence of palatial administration and economic activity. Stratigraphic dating places these tablets in the LH IIIB period (c. 1330\u20131190 BCE), with high confidence.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Muwatalli II's death and the succession of Urhi-Teshub is contested. Some scholars place these events c. 1320 BCE rather than c. 1330 BCE, which would shift the administrative reorganization described in event -1329-002 by a decade. Additionally, the significance of Mycenaean palatial economies at this specific moment is somewhat arbitrary\u2014the period from c. 1350\u20131190 BCE shows relatively continuous economic patterns, and no major shift is documented for -1329 specifically. The assignment of this event to this year is historiographic convention rather than evidence of a discrete turning point.",
+  "historiographic_note": "The historical record for -1329 is heavily dependent on Egyptian and Hittite administrative texts and temple inscriptions, which are biased toward royal and military narratives. Nubian and Levantine perspectives are largely absent. Mycenaean evidence comes from archaeological context and Linear B tablets, which are administrative rather than narrative sources. The record is richest for Egypt and the Hittite Empire; peripheral regions and non-elite populations are underrepresented. Oral traditions and local chronicles from this period have not survived.",
+  "graph_edges": [
+    {
+      "from": "-1329-001",
+      "to": "-1274-001",
+      "relation": "part_of",
+      "note": "Ramesses II's Nubian campaigns were part of his broader imperial consolidation throughout his reign"
+    },
+    {
+      "from": "-1329-002",
+      "to": "-1320-001",
+      "relation": "led_to",
+      "note": "The succession crisis and administrative reorganization under Urhi-Teshub eventually led to his overthrow by Hattusili III"
+    }
+  ]
+}

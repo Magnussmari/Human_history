@@ -1,0 +1,80 @@
+{
+  "year": -1336,
+  "year_label": "1337 BCE",
+  "era_context": "Late Bronze Age, late 18th Dynasty Egypt. Amenhotep III's reign is in its final years (d. ~1352 BCE). The Hittite Empire under \u0160uppiluliuma I is at its territorial peak. Mycenaean Greece is in Late Helladic IIIA. The Shang Dynasty continues in China.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-1336-001",
+      "title": "Amenhotep III's final years; transition of power",
+      "region": "Egypt",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Amenhotep III is in the final years of his reign (d. ~1352 BCE). Whether through co-regency or succession, Amenhotep IV (later Akhenaten) is emerging as the dominant political figure. The transition marks a shift from the stable, traditional policies of Amenhotep III toward the religious and political revolution that will define Akhenaten's reign. Temple inscriptions and administrative records show continuity, but changes are beginning.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh, declining)",
+        "Amenhotep IV / Akhenaten (rising power)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions, administrative records, and king lists",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Later Egyptian chronicles",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The exact timing of the transition is debated. Amenhotep III's death is conventionally dated to ~1352 BCE, but the process of power transfer may have begun earlier.",
+      "cross_references": []
+    },
+    {
+      "id": "-1336-002",
+      "title": "\u0160uppiluliuma I's peak power; Hittite hegemony in Levant",
+      "region": "Anatolia, Levant, Syria",
+      "coordinates_approx": "36.0\u00b0N, 35.0\u00b0E",
+      "category": "political",
+      "description": "\u0160uppiluliuma I has consolidated Hittite control over much of Anatolia and Syria, challenging Egyptian hegemony in the Levant. The Hittite Empire is at its territorial and political peak. Diplomatic tensions with Egypt are high, though open conflict has not yet erupted. Hittite records document the extent of their control and their relationships with vassal states.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and annals",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "\u0160uppiluliuma's power and territorial extent are well-documented in Hittite sources. Absolute chronology remains debated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Amenhotep III's death and the transition to Amenhotep IV remains uncertain. Some scholars place Amenhotep III's death as early as 1360 BCE; others as late as 1345 BCE. The co-regency hypothesis, if true, would place the transition earlier than the conventional date. No disconfirming evidence for \u0160uppiluliuma I's dominance.",
+  "historiographic_note": "Sources for 1337 BCE are limited to official Egyptian and Hittite records. The transition of power in Egypt is poorly documented in contemporary sources; much of what we know comes from later king lists and chronicles. Archaeological evidence is abundant but does not resolve chronological ambiguities. The rest of the world is essentially undocumented for this year.",
+  "graph_edges": [
+    {
+      "from": "-1336-001",
+      "to": "-1335-001",
+      "relation": "led_to",
+      "note": "Leads directly to Amenhotep IV's reign and Amarna Period"
+    },
+    {
+      "from": "-1336-002",
+      "to": "-1335-002",
+      "relation": "part_of",
+      "note": "Continuation of Hittite dominance"
+    }
+  ]
+}

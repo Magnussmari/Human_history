@@ -1,0 +1,85 @@
+{
+  "year": -1332,
+  "year_label": "1333 BCE",
+  "era_context": "Late Bronze Age, during the reign of Ramesses II of Egypt (r. 1279\u20131213 BCE). The Hittite Empire was under Muwatalli II or in transition toward Urhi-Teshup. The Mycenaean civilization was in its Late Helladic IIIB period. In China, the Shang dynasty was in its final centuries. This era was marked by complex international relations, extensive trade networks, and the development of early alphabetic writing in the Levant.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia",
+    "Central Asia",
+    "South Asia (limited synchronization with Egyptian chronology)"
+  ],
+  "events": [
+    {
+      "id": "-1332-001",
+      "title": "Hittite internal political consolidation",
+      "region": "Hittite Empire, Anatolia",
+      "coordinates_approx": "35.5,39.0",
+      "category": "political",
+      "description": "The Hittite Empire during this period was consolidating power under Muwatalli II or approaching succession to Urhi-Teshup. The Hittites faced challenges from internal factions and external threats, including pressure from Assyria to the east and continued competition with Egypt over Syria-Palestine. The royal archives from Bo\u011fazk\u00f6y document extensive diplomatic correspondence and administrative activity during this period.",
+      "key_figures": [
+        "Muwatalli II (Hittite King, if reigning)",
+        "Urhi-Teshup (Hittite King, if successor)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal archives from Bo\u011fazk\u00f6y",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Hittite chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general political situation is well-attested, but the precise dating of specific events within the 1330s BCE is uncertain due to gaps in the Hittite record and scholarly debate over succession dates.",
+      "cross_references": []
+    },
+    {
+      "id": "-1332-002",
+      "title": "Egyptian economic and administrative activity under Ramesses II",
+      "region": "Egypt",
+      "coordinates_approx": "25.0,32.0",
+      "category": "economic",
+      "description": "Ramesses II's reign was characterized by extensive economic activity, including taxation, trade, and resource management. Egypt's wealth was derived from the Nile's agricultural productivity, control of trade routes, and tribute from vassal states. Administrative records and temple inscriptions document the organization of labor for construction projects and military campaigns. The pharaoh's economic power was reflected in his ability to undertake massive building programs.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative papyri and inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from temple and administrative sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Egyptian economic activity during Ramesses II's reign is well-documented. Specific events in 1333 BCE are inferred from broader patterns.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the Hittite succession in the 1330s BCE is contested. Some scholars place Urhi-Teshup's reign earlier or later than traditionally assumed, which affects the dating of specific political events. Additionally, the extent of Egyptian economic control over Syria-Palestine during this period is debated; some scholars argue that Egyptian influence was more limited than temple inscriptions suggest.",
+  "historiographic_note": "The historical record for 1333 BCE is sparse and heavily dependent on Egyptian and Hittite official sources, which are subject to royal bias. Archaeological evidence provides some independent corroboration but is fragmentary. The absence of detailed year-by-year records means that events are often assigned to periods rather than specific years. The record is heavily skewed toward the Mediterranean world and the great powers; vast regions of Asia, Africa, and the Americas are invisible in contemporary written sources.",
+  "graph_edges": [
+    {
+      "from": "-1332-001",
+      "to": "-1330-002",
+      "relation": "contemporary_with",
+      "note": "Hittite political consolidation occurred within the broader context of Hittite-Egyptian diplomatic relations"
+    },
+    {
+      "from": "-1332-002",
+      "to": "-1331-001",
+      "relation": "contemporary_with",
+      "note": "Egyptian economic activity supported the building programs and military campaigns of Ramesses II"
+    }
+  ]
+}

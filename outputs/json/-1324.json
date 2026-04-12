@@ -1,0 +1,112 @@
+{
+  "year": -1324,
+  "year_label": "1325 BCE",
+  "era_context": "Late Bronze Age, Egypt in the reign of Ramesses II (c. 1279\u20131213 BCE), the Nineteenth Dynasty at its height. The Hittite Empire under Muwatalli II controls Anatolia and northern Syria. Mycenaean Greece is in the Late Helladic IIIB period. In China, the Shang Dynasty is in its final centuries. This is an era of great imperial powers, international diplomacy, and military competition for control of the eastern Mediterranean and Near East.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (Maya records begin later)",
+    "Interior Asia beyond Hittite and Egyptian spheres"
+  ],
+  "events": [
+    {
+      "id": "-1324-001",
+      "title": "Ramesses II's military campaigns in Nubia and Syria",
+      "region": "Egypt, Nubia, Syria",
+      "coordinates_approx": "25.0,32.0",
+      "category": "military",
+      "description": "Ramesses II continues his extensive military campaigns to consolidate Egyptian control over Nubia and contest Hittite dominance in Syria. These campaigns are part of his broader strategy to restore Egyptian prestige after the reign of his father Seti I. The campaigns are documented in temple reliefs and administrative records. Ramesses II's military activities during this period establish him as one of Egypt's most militarily active pharaohs.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple reliefs at Abu Simbel and Karnak",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri from Deir el-Medina",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses II's reign is well-documented through contemporary inscriptions and administrative records. The specific year assignment is approximate within his reign (c. 1279\u20131213 BCE).",
+      "cross_references": [
+        "-1322-001"
+      ]
+    },
+    {
+      "id": "-1324-002",
+      "title": "Hittite consolidation under Muwatalli II",
+      "region": "Anatolia, Syria, Levant",
+      "coordinates_approx": "35.5,33.0",
+      "category": "political",
+      "description": "Muwatalli II of the Hittite Empire consolidates control over Anatolia and contests Egyptian influence in Syria and the Levant. He relocates the Hittite capital from Hattusa to Tarhuntassa in southern Anatolia, a strategic move to better control his southern territories and maintain military readiness against Egyptian expansion. This period marks the height of Hittite power before the Bronze Age collapse.",
+      "key_figures": [
+        "Muwatalli II (Hittite King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and clay tablets from Bo\u011fazk\u00f6y",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian records mentioning Hittite opposition",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Muwatalli II's reign and capital relocation are well-attested in Hittite archives. Dating within his reign (c. 1295\u20131272 BCE) is secure.",
+      "cross_references": [
+        "-1322-001"
+      ]
+    },
+    {
+      "id": "-1324-003",
+      "title": "Shang Dynasty bronze production and oracle bone divination",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.5,114.0",
+      "category": "technological",
+      "description": "The Shang Dynasty continues its sophisticated bronze-working tradition and oracle bone divination practices. This period represents the height of Shang technological achievement in metallurgy. Oracle bones inscribed with divination records provide evidence of administrative organization, religious practice, and early written Chinese. The Shang state controls the central Yellow River valley and maintains trade networks extending to distant regions.",
+      "key_figures": [
+        "Shang Dynasty rulers (specific king uncertain for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bones and bronze vessels from archaeological excavations",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Shang bronze technology and oracle bone practice are archaeologically confirmed. Precise dating of individual years in the Shang Dynasty remains uncertain; this year falls within the late Shang period (c. 1250\u20131050 BCE).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Ramesses II's reign remains subject to scholarly debate. Some Egyptologists propose dates of c. 1290\u20131224 BCE, while others use c. 1279\u20131213 BCE. This affects the precise assignment of events to specific years. Additionally, the significance of Ramesses II's military campaigns has been reassessed in recent scholarship: while traditionally portrayed as triumphant, some campaigns may have been less decisive than temple reliefs suggest. The Hittite capital relocation by Muwatalli II is sometimes dated to slightly earlier or later within his reign.",
+  "historiographic_note": "The historical record for this year is dominated by Egyptian and Hittite sources, reflecting the bias toward literate imperial powers. Nubian, Syrian, and Levantine perspectives are largely filtered through Egyptian and Hittite records. Chinese sources are abundant but compiled centuries later. The absence of contemporary written records from most of the world means that significant developments in Africa, Europe, and the Americas are invisible in this record. Temple reliefs and administrative records may exaggerate military successes for propaganda purposes.",
+  "graph_edges": [
+    {
+      "from": "-1324-001",
+      "to": "-1322-001",
+      "relation": "part_of",
+      "note": "Ramesses II's military campaigns continue as part of his broader reign strategy"
+    },
+    {
+      "from": "-1324-002",
+      "to": "-1322-001",
+      "relation": "contemporary_with",
+      "note": "Hittite and Egyptian military activities occur simultaneously, representing the great power competition of the era"
+    }
+  ]
+}

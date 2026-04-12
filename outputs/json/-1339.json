@@ -1,0 +1,82 @@
+{
+  "year": -1339,
+  "year_label": "1340 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Amenhotep III. The New Kingdom is at its height; Egypt controls Nubia and maintains hegemony over the Levant. The Hittite Empire under \u0160uppiluliuma I is consolidating power in Anatolia. Mycenaean Greece is in the Late Helladic IIIA period. The Shang Dynasty continues in China.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse written sources)",
+    "Central Asia (limited contemporary documentation)",
+    "Mesoamerica (no written records; archaeological record incomplete)"
+  ],
+  "events": [
+    {
+      "id": "-1339-001",
+      "title": "Amenhotep III's reign continues; Nubian campaigns and consolidation",
+      "region": "Egypt, Nubia",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "military",
+      "description": "Amenhotep III, now in his mid-reign (r. ~1390\u20131352 BCE), continues to consolidate Egyptian control over Nubia and maintain the empire's territorial integrity. Archaeological evidence from Nubian temples and stelae indicates ongoing administrative presence and military expeditions. The reign is characterized by relative stability and prosperity, with extensive building programs at Thebes.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions at Soleb and Sedeinga (Nubia); Theban temple reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from New Kingdom administrative sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Amenhotep III's reign is well-attested; specific events within individual years are harder to pinpoint. Dating to 1340 BCE is conventional within his reign span.",
+      "cross_references": []
+    },
+    {
+      "id": "-1339-002",
+      "title": "Hittite consolidation under \u0160uppiluliuma I",
+      "region": "Anatolia, Levant",
+      "coordinates_approx": "39.0\u00b0N, 34.5\u00b0E",
+      "category": "political",
+      "description": "\u0160uppiluliuma I (r. ~1370\u20131330 BCE) is in the midst of his military campaigns to expand Hittite control over Syria and northern Mesopotamia. He challenges Egyptian hegemony in the Levant and consolidates Hittite power in Anatolia. His reign marks the peak of Old Hittite imperial expansion.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and annals (\u0160uppiluliuma's own records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian diplomatic correspondence (Amarna Letters, slightly later)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "\u0160uppiluliuma's reign dates are debated (some scholars place him 1350\u20131320 BCE). His military campaigns are well-documented in Hittite records, but specific year-by-year events are difficult to isolate.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of the Late Bronze Age remains contested. Some scholars place \u0160uppiluliuma I's reign 20\u201330 years earlier or later than the conventional dating used here. The synchronization between Egyptian and Hittite chronologies relies partly on astronomical data and the Amarna Letters, which are themselves difficult to date precisely. No disconfirming evidence identified for the general characterization of this period as one of Egyptian-Hittite rivalry and consolidation.",
+  "historiographic_note": "Documentation for 1340 BCE is heavily dependent on Egyptian temple inscriptions and Hittite royal records, both of which are official narratives. The Amarna Letters (diplomatic correspondence) provide external perspective but date to slightly later in the 18th Dynasty. Archaeological evidence from Nubia and the Levant is fragmentary. Sub-Saharan Africa, northern Europe, and Mesoamerica are essentially undocumented for this specific year. Chinese sources (oracle bones, later chronicles) are sparse for this period.",
+  "graph_edges": [
+    {
+      "from": "-1339-001",
+      "to": "-1335-001",
+      "relation": "part_of",
+      "note": "Continuation of Amenhotep III's reign and Nubian administration"
+    },
+    {
+      "from": "-1339-002",
+      "to": "-1335-002",
+      "relation": "part_of",
+      "note": "Continuation of \u0160uppiluliuma I's military campaigns and consolidation"
+    }
+  ]
+}

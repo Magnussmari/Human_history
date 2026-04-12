@@ -1,0 +1,114 @@
+{
+  "year": -1327,
+  "year_label": "1328 BCE",
+  "era_context": "Late Bronze Age, mid-reign of Ramesses II in Egypt. The Hittite Empire was consolidating after succession disputes. Mycenaean civilization remained prosperous. The broader Mediterranean and Near Eastern world was interconnected through trade, diplomacy, and military competition, though the system was beginning to show signs of stress that would culminate in the Late Bronze Age collapse a century later.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-1327-001",
+      "title": "Egyptian administrative reforms under Ramesses II",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Ramesses II implemented administrative reforms to consolidate control over Egypt's vast territories and resources. These reforms included reorganization of provincial administration, temple hierarchies, and military command structures. The reforms were designed to maximize resource extraction and maintain centralized control over the empire. Evidence comes from administrative papyri and temple inscriptions documenting new bureaucratic procedures.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Administrative papyri from the Ramesseum and other temple archives",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Temple inscriptions documenting administrative hierarchies",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ramesses II's administrative reforms occurred throughout his reign. The specific year -1327 is assigned by convention as a midpoint, but the reforms were gradual and ongoing rather than occurring in a single year.",
+      "cross_references": []
+    },
+    {
+      "id": "-1327-002",
+      "title": "Hittite stabilization under Hattusili III's rise to power",
+      "region": "Hittite Empire (Anatolia, northern Syria)",
+      "coordinates_approx": "35.5, 34.0",
+      "category": "political",
+      "description": "Hattusili III, the brother of Urhi-Teshub, began consolidating power and eventually overthrew his nephew. This period saw the restoration of Hittite central authority and the stabilization of vassal relationships. Hattusili III's rise marked a turning point in Hittite political stability. He would go on to establish a long and prosperous reign, including the famous peace treaty with Ramesses II.",
+      "key_figures": [
+        "Hattusili III (Hittite King)",
+        "Urhi-Teshub / Mursili III (predecessor)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and the Apology of Hattusili III",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Clay tablets from Bo\u011fazk\u00f6y documenting the succession",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hattusili III's coup is well-documented, but the precise year is debated. Estimates range from c. 1330\u20131320 BCE. The year -1327 is assigned as a conventional midpoint, but the actual date may be off by \u00b15 years.",
+      "cross_references": [
+        "-1329-002",
+        "-1328-002"
+      ]
+    },
+    {
+      "id": "-1327-003",
+      "title": "Mycenaean palatial administration and Linear B record-keeping",
+      "region": "Mycenaean Greece (Pylos, Mycenae, Tiryns)",
+      "coordinates_approx": "37.5, 23.0",
+      "category": "cultural",
+      "description": "Linear B tablets from Pylos and other palace centers document sophisticated administrative systems managing labor, resources, and trade. These tablets record everything from textile production to military organization to religious offerings. The complexity of the administrative systems reflected in Linear B indicates a highly organized, centralized palatial economy at its peak.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos (KH series) and Knossos",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from palace archives",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Linear B tablets are contemporary primary sources. Stratigraphic dating places them in the LH IIIB period (c. 1330\u20131190 BCE) with high confidence.",
+      "cross_references": [
+        "-1329-003",
+        "-1328-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Hattusili III's coup to -1327 is speculative. Some scholars place it c. 1320 BCE, others c. 1330 BCE. The event is significant in Hittite history, but its precise chronological placement is uncertain. Additionally, the 'administrative reforms' attributed to Ramesses II in event -1327-001 are not documented as occurring in a specific year; they represent ongoing processes throughout his reign. The assignment of these events to -1327 is historiographic convention rather than evidence of discrete occurrences in that year.",
+  "historiographic_note": "The historical record for -1327 is dominated by Egyptian and Hittite administrative and diplomatic sources. Mycenaean evidence comes from archaeological context and Linear B tablets. The record is biased toward elite political and military narratives. Local perspectives, non-elite populations, and peripheral regions are underrepresented. The dating of events within the late Bronze Age is inherently uncertain by \u00b15\u201310 years due to the limitations of ancient chronological systems and the lack of precise astronomical or radiocarbon dating for most events.",
+  "graph_edges": [
+    {
+      "from": "-1327-002",
+      "to": "-1269-001",
+      "relation": "led_to",
+      "note": "Hattusili III's stabilization of Hittite power eventually led to the peace treaty with Ramesses II"
+    },
+    {
+      "from": "-1327-003",
+      "to": "-1190-001",
+      "relation": "led_to",
+      "note": "The palatial administrative systems documented in Linear B would collapse during the Late Bronze Age collapse"
+    }
+  ]
+}

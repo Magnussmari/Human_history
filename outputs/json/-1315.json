@@ -1,0 +1,107 @@
+{
+  "year": -1315,
+  "year_label": "1316 BCE",
+  "era_context": "Late Bronze Age, period of relative stability among the great powers. Ramesses II's reign in Egypt is progressing; the Hittite Empire under Muwatalli II remains a major power. Mycenaean palace centres are in the Late Helladic IIIB period. The Shang Dynasty in China continues its rule. This year falls within a period characterized by inter-state diplomacy, trade, and military competition, but without the systemic collapse that would occur in the 12th century BCE.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Oceania and Pacific islands",
+    "Northern Europe",
+    "Mesoamerica",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-1315-001",
+      "title": "Egyptian economic management and resource allocation",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "economic",
+      "description": "Ramesses II's administration managed the complex Egyptian economy, allocating resources to military, religious, and administrative purposes. Papyri from Deir el-Medina document the organization of labour, the distribution of rations, and the management of state projects. The Egyptian economy was based on agricultural production in the Nile Valley, supplemented by tribute from Nubia and the Levant.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Administrative papyri from Deir el-Medina",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Temple inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Economic administration under Ramesses II is well-attested, but specific annual events are rarely documented with precision.",
+      "cross_references": []
+    },
+    {
+      "id": "-1315-002",
+      "title": "Hittite military organization and border defence",
+      "region": "Hittite Empire",
+      "coordinates_approx": "35.5, 33.0",
+      "category": "military",
+      "description": "Muwatalli II maintained a sophisticated military organization to defend Hittite territories and project power in the Levant. Cuneiform tablets document military organization, the deployment of troops, and the maintenance of fortifications. The Hittite military was one of the most advanced of the Late Bronze Age, employing chariotry, infantry, and siege warfare techniques.",
+      "key_figures": [
+        "Muwatalli II (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Cuneiform tablets from Bo\u011fazk\u00f6y",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of fortifications",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hittite military organization is well-documented in cuneiform records and archaeology, but specific annual events are difficult to pinpoint.",
+      "cross_references": []
+    },
+    {
+      "id": "-1315-003",
+      "title": "Mycenaean agricultural production and storage",
+      "region": "Mycenaean Greece",
+      "coordinates_approx": "37.7, 23.4",
+      "category": "economic",
+      "description": "Linear B tablets from Pylos document the organization of agricultural production, including the cultivation of grain, olives, and grapes. The palace maintained large storage facilities for grain and other staples, which were essential to feeding the population and maintaining state power. Agricultural production was the foundation of Mycenaean wealth and political authority.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of storage facilities",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Linear B tablets and archaeological evidence provide contemporary documentation of agricultural organization.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, some scholars have questioned the extent of centralized control over agricultural production in Mycenaean society, suggesting that much production may have occurred outside palace control and that the Linear B records may overstate the degree of administrative integration.",
+  "historiographic_note": "The historical record for 1316 BCE is similar to that for previous years in this period: dominated by Egyptian and Hittite sources, with Mycenaean evidence from Linear B and archaeology. The year-to-year narrative is sparse; most events are reconstructed from broader patterns rather than specific annual records. The chronology remains dependent on Egyptian regnal lengths and king-lists, which are debated among scholars.",
+  "graph_edges": [
+    {
+      "from": "-1315-001",
+      "to": "-1319-001",
+      "relation": "part_of",
+      "note": "Economic management was part of Ramesses II's broader imperial administration."
+    },
+    {
+      "from": "-1315-003",
+      "to": "-1200-001",
+      "relation": "led_to",
+      "note": "Agricultural production systems documented in Linear B preceded the collapse of Mycenaean palace economies in the early 12th century BCE."
+    }
+  ]
+}

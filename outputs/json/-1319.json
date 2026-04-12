@@ -1,0 +1,106 @@
+{
+  "year": -1319,
+  "year_label": "1320 BCE",
+  "era_context": "The Late Bronze Age collapse is beginning. The New Kingdom of Egypt under Ramesses II is at its height, having recently concluded the Battle of Kadesh (c. 1274 BCE) and consolidated Levantine territories. The Hittite Empire under Muwatalli II controls Anatolia and northern Syria. Mycenaean Greece is in the Late Helladic IIIB period, with palace centres at Mycenae, Pylos, and Tiryns at their peak. In the Indus Valley, post-Harappan cultures are fragmenting. The Shang Dynasty dominates China. This is a period of relative stability before the systemic disruptions of the 12th century BCE.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Oceania and Pacific islands (archaeological record sparse for this period)",
+    "Northern Europe beyond Scandinavia (limited contemporary documentation)",
+    "Mesoamerica (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-1319-001",
+      "title": "Ramesses II's Nubian campaign and consolidation of Nubian gold tribute",
+      "region": "Nubia (modern Sudan)",
+      "coordinates_approx": "18.0, 30.0",
+      "category": "military",
+      "description": "Ramesses II conducted military campaigns in Nubia to secure gold, ivory, and other luxury goods essential to Egyptian state power. These campaigns reinforced Egyptian hegemony over Nubian territories and established tribute systems that would sustain Egyptian wealth through the remainder of the 13th century BCE. The campaigns are documented in temple reliefs and administrative records, though precise annual dating is uncertain.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple reliefs at Abu Simbel and Karnak",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri from Deir el-Medina",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses II's Nubian campaigns are well-attested, but precise annual dating within his 66-year reign is uncertain. This event is assigned to c. 1320 BCE based on regnal chronology, but could fall within a 10-year window.",
+      "cross_references": []
+    },
+    {
+      "id": "-1319-002",
+      "title": "Hittite administration under Muwatalli II in Anatolia and Syria",
+      "region": "Hittite Empire (Anatolia and northern Levant)",
+      "coordinates_approx": "35.5, 33.0",
+      "category": "political",
+      "description": "Muwatalli II ruled the Hittite Empire during a period of territorial consolidation and administrative refinement. He maintained control over Anatolia and contested territories in northern Syria against Egyptian interests. His reign saw the development of sophisticated bureaucratic systems documented in cuneiform tablets from Bo\u011fazk\u00f6y (Hattusa). The empire was at its territorial and administrative peak.",
+      "key_figures": [
+        "Muwatalli II (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Cuneiform tablets from Bo\u011fazk\u00f6y (Hattusa)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian diplomatic correspondence (Amarna Letters tradition)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Muwatalli II's reign is dated c. 1295\u20131272 BCE by most Hittitologists, placing 1320 BCE in the early-to-middle portion of his rule. Exact annual events are difficult to pinpoint.",
+      "cross_references": []
+    },
+    {
+      "id": "-1319-003",
+      "title": "Mycenaean palace economies at peak production and trade",
+      "region": "Mycenaean Greece (Peloponnese and Aegean)",
+      "coordinates_approx": "37.7, 23.4",
+      "category": "economic",
+      "description": "The Mycenaean palace centres of Mycenae, Pylos, Tiryns, and Thebes were at the height of their economic and political power in the Late Helladic IIIB period. Linear B tablets from Pylos document sophisticated administrative systems managing agricultural production, textile manufacture, and maritime trade. These palaces controlled extensive territories and engaged in long-distance trade with Egypt, the Levant, and Anatolia.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos and Knossos",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological stratigraphy and pottery typology",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Late Helladic IIIB period is well-dated through pottery typology and radiocarbon calibration. The palace economies are extensively documented in Linear B records.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of Ramesses II's reign remains debated among Egyptologists. Some scholars place his accession as late as 1279 BCE rather than 1279 BCE, which would shift all events within his reign by several years. The 'high chronology' and 'low chronology' debates affect the absolute dating of this entire period by \u00b110\u201315 years. Additionally, the significance of Mycenaean palace economies has been revised downward by some scholars who emphasize the fragility and regional isolation of these centres, rather than their integration into a unified 'Mycenaean civilization.'",
+  "historiographic_note": "The historical record for 1320 BCE is dominated by Egyptian and Hittite administrative and monumental sources, which are biased toward elite perspectives and state ideology. Mycenaean evidence comes primarily from Linear B tablets (administrative records) and archaeology, which provide limited insight into non-elite life. Nubian, Levantine, and broader Mediterranean perspectives are underrepresented. The chronology of this period depends heavily on Egyptian king-lists and regnal lengths, which are themselves debated. No contemporary written records exist for most of the world outside Egypt, the Hittite Empire, and the Aegean.",
+  "graph_edges": [
+    {
+      "from": "-1319-001",
+      "to": "-1274-001",
+      "relation": "part_of",
+      "note": "Nubian campaigns were part of Ramesses II's broader imperial strategy, which also included the Battle of Kadesh."
+    },
+    {
+      "from": "-1319-003",
+      "to": "-1200-001",
+      "relation": "led_to",
+      "note": "The peak of Mycenaean palace economies in LHIIIB preceded their collapse in the early 12th century BCE."
+    }
+  ]
+}
