@@ -1,0 +1,82 @@
+{
+  "year": -2228,
+  "year_label": "2228 BCE",
+  "era_context": "The Old Kingdom of Egypt (Dynasty VI) is in its final phase under Pepi II; Mesopotamia remains fragmented following the Akkad Empire's collapse; the Indus Valley Civilisation is in its mature phase; early Bronze Age societies dominate the Eastern Mediterranean.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia beyond the Shang region",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-2228-001",
+      "title": "Pepi II's reign; Egyptian provincial autonomy increases",
+      "region": "Egypt (Old Kingdom, Dynasty VI)",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Pepi II's reign continues. This period is characterised by increasing autonomy of provincial governors (nomarchs), who control local military forces, taxation, and justice. Tomb inscriptions from this era show nomarchs conducting military campaigns and administrative functions independently. This decentralisation of authority is a key factor in the eventual collapse of the Old Kingdom and the transition to the First Intermediate Period.",
+      "key_figures": [
+        "Pepi II (Neferkare) \u2014 Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Tomb inscriptions from provincial governors",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Pepi II's reign is attested, but absolute dating is uncertain by \u00b150\u2013100 years.",
+      "cross_references": [
+        "-2225-001",
+        "-2226-001",
+        "-2227-001"
+      ]
+    },
+    {
+      "id": "-2228-002",
+      "title": "Indus Valley Civilisation at peak development",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilisation continues in its mature phase. Major urban centres exhibit sophisticated urban planning, standardised weights and measures, and a complex economy. Archaeological evidence shows extensive trade networks with Mesopotamia, the Persian Gulf, and Central Asia. The civilisation's remarkable uniformity suggests a high degree of cultural and economic integration across a vast geographical area.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilisation's existence and chronology are well-established through extensive archaeological evidence.",
+      "cross_references": [
+        "-2225-002",
+        "-2226-002",
+        "-2227-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed.",
+  "historiographic_note": "This year is poorly documented. The historical record relies on tomb inscriptions and archaeological evidence from Egypt and the Indus Valley. Mesopotamian records are fragmentary. No written records survive for most of the world during this period.",
+  "graph_edges": [
+    {
+      "from": "-2228-001",
+      "to": "-2225-001",
+      "relation": "contemporary_with",
+      "note": "Pepi II's reign continues"
+    }
+  ]
+}

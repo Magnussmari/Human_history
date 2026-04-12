@@ -1,0 +1,129 @@
+{
+  "year": -2209,
+  "year_label": "2209 BCE",
+  "era_context": "The late Old Kingdom of Egypt under Menkaure; the Akkadian Empire under Naram-Sin is in its final phase, facing severe internal and external pressures. The Indus Valley Civilization remains in its mature phase. This period represents a critical transition point in the ancient world, with major civilizations either declining or consolidating.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-2209-001",
+      "title": "Menkaure's reign nears its end; Old Kingdom authority weakening",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.9\u00b0N, 31.1\u00b0E",
+      "category": "political",
+      "description": "Menkaure's reign is approaching its end (he likely died within the next few years). The Old Kingdom's centralized authority is visibly weakening, with provincial elites consolidating power and resources. The state's ability to mobilize resources for monumental construction is declining. After Menkaure's death, the Old Kingdom will rapidly collapse, leading to the First Intermediate Period.",
+      "key_figures": [
+        "Menkaure (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "King lists",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Tomb inscriptions and administrative texts",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Menkaure's reign is attested, but the precise year of his death is uncertain. Traditional chronologies place it around 2200 BCE, but this is debated.",
+      "cross_references": [
+        "-2205-001",
+        "-2206-001",
+        "-2207-001",
+        "-2208-001"
+      ]
+    },
+    {
+      "id": "-2209-002",
+      "title": "Akkadian Empire in terminal decline; Gutian conquest imminent",
+      "region": "Mesopotamia, Zagros Mountains",
+      "coordinates_approx": "33.3\u00b0N, 44.4\u00b0E",
+      "category": "military",
+      "description": "The Akkadian Empire is in its final years. Naram-Sin's military campaigns have failed to stem the tide of Gutian incursions and internal rebellion. The empire is fragmenting rapidly, with vassal states reasserting independence and Gutian forces advancing into Mesopotamia. Within a few years, the Akkadian Empire will collapse entirely, to be replaced by Gutian rule. This represents one of the most dramatic collapses of a major empire in the ancient world.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later Mesopotamian chronicles describing the fall of Akkad",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Akkadian collapse is well-attested; the precise chronology is debated, with some scholars placing the collapse earlier or later.",
+      "cross_references": [
+        "-2205-002",
+        "-2206-002",
+        "-2207-002",
+        "-2208-002"
+      ]
+    },
+    {
+      "id": "-2209-003",
+      "title": "Indus Valley Civilization continues in mature phase; no apparent disruption",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.0\u00b0N, 68.0\u00b0E",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization continues to flourish, with no apparent disruption or decline. The major urban centers remain active, trade networks continue to function, and craft production continues. The civilization appears to be unaffected by the turmoil in Mesopotamia and Egypt, suggesting either isolation from these regions or a more stable internal organization.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Harappan sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Harappan civilization's material culture is well-attested archaeologically. The apparent stability during this period is inferred from the absence of evidence of disruption.",
+      "cross_references": [
+        "-2205-003",
+        "-2206-003",
+        "-2207-003",
+        "-2208-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of a gradual Akkadian decline over several decades is questioned by some scholars, who argue for a more rapid collapse, possibly triggered by a specific event (such as a severe drought or a major military defeat). The dating of Naram-Sin's reign and the Akkadian collapse is heavily debated, with different chronological systems producing dates ranging from circa 2250 to 2150 BCE. Some scholars argue that the Indus Valley Civilization was not as isolated as traditionally portrayed, and may have been affected by broader climatic or economic changes during this period.",
+  "historiographic_note": "This year marks a critical transition point in the ancient world, with the Akkadian Empire on the verge of collapse and the Old Kingdom of Egypt in its final phase. The contrast between the apparent stability of the Indus Valley Civilization and the turmoil in Mesopotamia and Egypt is striking, and raises questions about the causes of civilizational collapse and the factors that promote stability. The historical record for this period is heavily dependent on king lists and monumental inscriptions, which may exaggerate the speed of political change or obscure the underlying causes of collapse. The absence of written records from most of the world means that the global historical picture is heavily skewed toward the Mediterranean and Near Eastern regions.",
+  "graph_edges": [
+    {
+      "from": "-2209-001",
+      "to": "-2208-001",
+      "relation": "part_of",
+      "note": "Menkaure's reign continues; the Old Kingdom is in its final phase."
+    },
+    {
+      "from": "-2209-002",
+      "to": "-2208-002",
+      "relation": "part_of",
+      "note": "Akkadian fragmentation reaches its terminal phase."
+    },
+    {
+      "from": "-2209-001",
+      "to": "-2209-002",
+      "relation": "contemporary_with",
+      "note": "The collapse of the Akkadian Empire and the decline of the Old Kingdom occur simultaneously, suggesting possible connections through trade disruption or climate change, though direct causation is not established."
+    }
+  ]
+}

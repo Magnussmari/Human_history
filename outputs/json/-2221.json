@@ -1,0 +1,111 @@
+{
+  "year": -2221,
+  "year_label": "2221 BCE",
+  "era_context": "The Old Kingdom of Egypt continues its decline under the Sixth Dynasty. The Akkadian Empire in Mesopotamia is fragmenting under pressure from Gutian invaders and internal instability. The Indus Valley Civilization remains in its mature, urban phase. Early Bronze Age societies in Anatolia, the Levant, and the Aegean are developing increasingly complex trade networks and fortified settlements.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-2221-001",
+      "title": "Akkadian Empire fragmentation continues; Gutian pressure increases",
+      "region": "Mesopotamia",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "The Akkadian Empire's collapse accelerates. Gutian forces from the Zagros continue to raid and occupy Mesopotamian territories. Central authority under Shar-kali-sharri weakens further. City-states in Sumer, particularly Lagash and Uruk, begin to reassert independence and establish local dynasties. This year falls within the broader period of Akkadian decline (c. 2217\u20132193 BCE for Shar-kali-sharri's reign).",
+      "key_figures": [
+        "Shar-kali-sharri (Akkadian king)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological destruction layers at Akkadian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Akkadian decline is well-attested, but precise year-by-year events are not documented. This entry describes the ongoing process rather than a specific event.",
+      "cross_references": [
+        "Part of broader Akkadian collapse (-2254 to -2193 BCE)",
+        "Contemporary with -2221-002"
+      ]
+    },
+    {
+      "id": "-2221-002",
+      "title": "Indus Valley Civilization: continued urban development and trade",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization continues its mature phase. Urban centers maintain standardized planning, craft production, and long-distance trade. Seals and weights indicate sophisticated commercial networks. Trade goods from the Indus reach Mesopotamian sites, including Akkadian-period contexts, confirming active exchange during this period of Akkadian decline.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Indus sites; trade goods in Mesopotamian contexts",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan civilization's mature phase is archaeologically well-established. Trade connections with Mesopotamia are confirmed through material evidence.",
+      "cross_references": [
+        "Contemporary with -2221-001 (Akkadian decline)",
+        "Part of Harappan civilization (c. 2600\u20131900 BCE)"
+      ]
+    },
+    {
+      "id": "-2221-003",
+      "title": "Egypt: Sixth Dynasty continues decline; provincial autonomy increases",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Sixth Dynasty of Egypt remains in its final phase. Provincial governors continue to accumulate wealth and power. Royal building projects diminish. The centralized Old Kingdom state structure continues to weaken, setting the stage for the First Intermediate Period.",
+      "key_figures": [
+        "Pepi II (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative records and provincial inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of reduced royal construction",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trend is well-attested; specific events for this year are not documented.",
+      "cross_references": [
+        "Part of Sixth Dynasty decline (c. 2278\u20132184 BCE)",
+        "Contemporary with -2221-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific events are documented for -2221 in surviving sources. The entries above describe ongoing processes rather than discrete events. This reflects the sparse documentation for this year specifically, though the broader era is reasonably well-attested.",
+  "historiographic_note": "This year falls within a period of significant historical change but lacks specific contemporary documentation. The historical record for -2221 is reconstructed from broader patterns and archaeological evidence rather than year-specific sources. Dating precision is \u00b15\u201310 years.",
+  "graph_edges": [
+    {
+      "from": "-2221-001",
+      "to": "-2220-001",
+      "relation": "contemporary_with",
+      "note": "Akkadian fragmentation is ongoing"
+    },
+    {
+      "from": "-2221-002",
+      "to": "-2220-002",
+      "relation": "contemporary_with",
+      "note": "Indus Valley civilization continues"
+    }
+  ]
+}

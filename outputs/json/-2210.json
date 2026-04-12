@@ -1,0 +1,111 @@
+{
+  "year": -2210,
+  "year_label": "2210 BCE",
+  "era_context": "The Third Dynasty of Ur (Ur III) dominates southern Mesopotamia, representing the height of Sumerian civilization with sophisticated bureaucratic administration, standardized weights and measures, and extensive cuneiform record-keeping. In Egypt, the Old Kingdom has recently collapsed; the First Intermediate Period sees fragmentation of central authority and the rise of regional dynasties. The Indus Valley Civilization is in its mature phase with large urban centers at Harappa and Mohenjo-daro. In China, the Xia Dynasty (traditional dating) may be emerging, though archaeological confirmation remains contested.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Southeast Asia and Oceania (sparse documentation)",
+    "The Americas (no written records; archaeological evidence limited)"
+  ],
+  "events": [
+    {
+      "id": "-2210-001",
+      "title": "Reign of Amar-Sin of Ur III",
+      "region": "Mesopotamia (Sumer)",
+      "coordinates_approx": "31.0\u00b0N, 46.1\u00b0E",
+      "category": "political",
+      "description": "Amar-Sin rules as the third king of the Ur III dynasty, continuing the administrative consolidation and military campaigns of his predecessors. His reign is extensively documented in cuneiform administrative texts (the Ur III corpus), which record taxation, temple management, and military organization. Amar-Sin conducted campaigns in the Zagros Mountains and maintained control over the Sumerian city-states. His reign represents the apex of Ur III bureaucratic sophistication.",
+      "key_figures": [
+        "Amar-Sin (King of Ur)"
+      ],
+      "sources": [
+        {
+          "name": "Ur III cuneiform administrative texts and king lists",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Amar-Sin's reign is extensively documented in contemporary cuneiform records. Absolute dating to 2210 BCE is based on Mesopotamian chronology, which has \u00b1100-year uncertainty at this depth.",
+      "cross_references": []
+    },
+    {
+      "id": "-2210-002",
+      "title": "Indus Valley Civilization mature urban phase",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0\u00b0N, 68.0\u00b0E",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization is at its peak, with major urban centers at Harappa, Mohenjo-daro, Dholavira, and Kalibangan. These cities feature planned street grids, sophisticated drainage systems, standardized weights and measures, and undeciphered script on seals. Trade networks extend to Mesopotamia, the Persian Gulf, and Central Asia. The civilization demonstrates remarkable uniformity in urban planning and material culture across a vast geographic area.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals with undeciphered script",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature Indus Valley Civilization is archaeologically well-attested. Absolute dating relies on radiocarbon and stratigraphic analysis; placement at 2210 BCE is conventional within the mature phase (c. 2600\u20131900 BCE).",
+      "cross_references": []
+    },
+    {
+      "id": "-2210-003",
+      "title": "Egyptian First Intermediate Period: Regional fragmentation",
+      "region": "Egypt",
+      "coordinates_approx": "26.0\u00b0N, 31.0\u00b0E",
+      "category": "political",
+      "description": "Following the collapse of the Old Kingdom (c. 2180 BCE), Egypt remains fragmented into competing regional dynasties. The Ninth and Tenth Dynasties rule from Herakleopolis in Lower Egypt, while Upper Egyptian dynasties (Eleventh Dynasty) are consolidating power in Thebes. This period is characterized by reduced monumental construction, decentralized authority, and increased local autonomy. The breakdown of central authority is reflected in contemporary texts such as the Instruction of Ptahhotep and the Lament of Khakheperreseneb.",
+      "key_figures": [
+        "Kheti III (Herakleopolitan ruler, approximate contemporary)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists and administrative records",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Tomb inscriptions and administrative papyri",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The First Intermediate Period is well-documented in Egyptian sources, but absolute dating is uncertain; conventional chronology places this period c. 2180\u20132055 BCE, with \u00b150-year margins.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The absolute chronology of this period remains contested. Some scholars argue for a 'low chronology' that would place these events 100\u2013150 years later. The Indus Valley Civilization's script remains undeciphered, so claims about its administrative or religious systems are inferred from material culture rather than textual evidence. The traditional dating of the Xia Dynasty in China to this period lacks contemporary archaeological confirmation; most scholars now date the earliest confirmed Chinese dynasty (Shang) to c. 1600 BCE.",
+  "historiographic_note": "Documentation is heavily skewed toward Mesopotamia and Egypt, where written records survive. The Indus Valley Civilization is known primarily through archaeology; the absence of deciphered texts creates significant interpretive gaps. Chinese history of this period relies on later compilations (Shiji) rather than contemporary records. Sub-Saharan Africa, the Americas, and much of Southeast Asia are essentially invisible in the historical record at this date, not because nothing happened but because writing systems had not yet developed or records did not survive.",
+  "graph_edges": [
+    {
+      "from": "-2210-001",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Amar-Sin's reign is followed by that of Shu-Sin, continuing Ur III dominance"
+    },
+    {
+      "from": "-2210-002",
+      "to": "-1900-001",
+      "relation": "led_to",
+      "note": "Mature Indus Valley Civilization eventually declines and is abandoned by c. 1900 BCE"
+    },
+    {
+      "from": "-2210-003",
+      "to": "-2055-001",
+      "relation": "led_to",
+      "note": "First Intermediate Period fragmentation ends with the rise of the Middle Kingdom under the Twelfth Dynasty"
+    }
+  ]
+}

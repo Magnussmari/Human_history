@@ -1,0 +1,102 @@
+{
+  "year": -2211,
+  "year_label": "2211 BCE",
+  "era_context": "Ur III dynasty at its height in Mesopotamia; Egyptian First Intermediate Period continues with regional fragmentation; Indus Valley Civilization in mature urban phase; early Bronze Age in the Aegean and Anatolia; traditional period of early Xia Dynasty in China (unconfirmed archaeologically).",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia and Oceania",
+    "The Americas",
+    "Northern Europe and the Steppe (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-2211-001",
+      "title": "Amar-Sin's continued reign and military campaigns",
+      "region": "Mesopotamia (Sumer and surrounding regions)",
+      "coordinates_approx": "31.0\u00b0N, 46.1\u00b0E",
+      "category": "military",
+      "description": "Amar-Sin continues military operations in the Zagros Mountains and maintains Ur III hegemony over Sumerian city-states. Cuneiform records document military expeditions, the organization of standing armies, and the integration of conquered territories into the Ur III administrative system. The king's authority is reinforced through religious ceremonies and the construction of temples and administrative buildings.",
+      "key_figures": [
+        "Amar-Sin (King of Ur)"
+      ],
+      "sources": [
+        {
+          "name": "Ur III administrative and military records in cuneiform",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Amar-Sin's reign is extensively documented in cuneiform records. Absolute dating has \u00b1100-year uncertainty.",
+      "cross_references": [
+        "-2210-001"
+      ]
+    },
+    {
+      "id": "-2211-002",
+      "title": "Indus Valley trade networks active",
+      "region": "Indus Valley and surrounding regions",
+      "coordinates_approx": "27.0\u00b0N, 68.0\u00b0E",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains extensive trade networks with Mesopotamia, the Persian Gulf region, and Central Asia. Archaeological evidence (seals, weights, and traded goods) indicates regular commercial exchange. Indus seals have been found in Mesopotamian sites, and Mesopotamian goods appear in Indus contexts. This trade is facilitated by maritime routes along the Arabian Sea and overland routes through the Hindu Kush.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of traded goods and seals at Indus and Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Trade networks are archaeologically well-attested through the distribution of distinctive goods and seals.",
+      "cross_references": [
+        "-2210-002"
+      ]
+    },
+    {
+      "id": "-2211-003",
+      "title": "Egyptian Eleventh Dynasty consolidation in Upper Egypt",
+      "region": "Upper Egypt (Thebes region)",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "The Eleventh Dynasty, based in Thebes, continues to consolidate power in Upper Egypt during the First Intermediate Period. These rulers are gradually expanding their territorial control and will eventually reunify Egypt under the Middle Kingdom. Contemporary tomb inscriptions and administrative records document the dynasty's growing influence and military campaigns against rival dynasties.",
+      "key_figures": [
+        "Mentuhotep II (Eleventh Dynasty, approximate contemporary or slightly later)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian tomb inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian king lists",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Eleventh Dynasty's rise is documented in Egyptian sources, but absolute dating is uncertain (\u00b150 years).",
+      "cross_references": [
+        "-2210-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence for events listed, but the broader chronological framework remains contested. Some scholars propose alternative chronologies that would shift these dates by 100+ years.",
+  "historiographic_note": "This year is essentially indistinguishable from -2210 in terms of major historical developments. The granularity of year-by-year history breaks down in the ancient world, where events often span multiple years or decades. Written records are concentrated in Mesopotamia and Egypt; other regions are known only through archaeology or later tradition.",
+  "graph_edges": [
+    {
+      "from": "-2211-001",
+      "to": "-2210-001",
+      "relation": "contemporary_with",
+      "note": "Amar-Sin's reign continues from the previous year"
+    },
+    {
+      "from": "-2211-002",
+      "to": "-2210-002",
+      "relation": "contemporary_with",
+      "note": "Indus Valley trade networks are continuous"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "year": -2224,
+  "year_label": "2224 BCE",
+  "era_context": "The Akkadian Empire is in advanced collapse under pressure from Gutian invaders and internal instability. The Sixth Dynasty of Egypt is fragmenting as provincial governors accumulate power. The Indus Valley Civilization is in its mature, urban phase with extensive trade networks. Early Bronze Age societies across the Mediterranean and Near East are developing increasingly complex political structures. This period marks a transition from centralized imperial rule to regional polities.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-2224-001",
+      "title": "Akkadian Empire: collapse accelerates; Gutian occupation of Mesopotamia",
+      "region": "Mesopotamia",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "The Akkadian Empire continues its collapse. Gutian forces from the Zagros Mountains occupy significant portions of Mesopotamia, fragmenting central authority. The reign of Shar-kali-sharri (c. 2217\u20132193 BCE) is characterized by loss of territorial control and prestige. Sumerian city-states, particularly Lagash under Lagash II and Uruk, are reasserting independence. This period represents the transition from Akkadian hegemony to the Gutian period.",
+      "key_figures": [
+        "Shar-kali-sharri (Akkadian king, r. c. 2217\u20132193 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of destruction layers and site abandonment",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Akkadian collapse is well-attested in archaeological evidence and later chronicles. Precise year-by-year events are not documented in contemporary sources. Dating relies on king-list synchronization with \u00b15\u201310 year uncertainty.",
+      "cross_references": [
+        "Part of Akkadian collapse (c. 2254\u20132193 BCE)",
+        "Leads to Neo-Sumerian period (c. 2190\u20132000 BCE)"
+      ]
+    },
+    {
+      "id": "-2224-002",
+      "title": "Indus Valley Civilization: mature phase; urban centers and trade networks",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization remains in its mature phase. Major urban centers such as Mohenjo-daro, Harappa, and Dholavira maintain standardized urban planning, craft production, and long-distance trade networks. Seals with undeciphered script, standardized weights, and pottery indicate a highly organized society. Trade connections extend to Mesopotamia, the Persian Gulf, and Central Asia. This period represents the height of Harappan civilization.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Indus sites; trade goods in contemporary Mesopotamian contexts",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan civilization's mature phase is archaeologically well-established through stratigraphy, radiocarbon dating, and material culture analysis.",
+      "cross_references": [
+        "Part of Harappan civilization (c. 2600\u20131900 BCE)",
+        "Contemporary with -2224-001"
+      ]
+    },
+    {
+      "id": "-2224-003",
+      "title": "Egypt: Sixth Dynasty in terminal decline; provincial autonomy increases",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Sixth Dynasty of Egypt is in its final decades. Royal authority continues to erode as provincial governors (nomarchs) accumulate power and resources, building independent tombs and establishing hereditary fiefdoms. The centralized Old Kingdom state apparatus is fragmenting. Royal building projects decline significantly. Economic strain, possibly exacerbated by Nile low-water periods, contributes to instability. The transition to the First Intermediate Period is imminent.",
+      "key_figures": [
+        "Pepi II (Pharaoh, r. c. 2278\u20132184 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative records and provincial inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of reduced royal construction and provincial tomb expansion",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trend of Sixth Dynasty decline is well-attested in inscriptions and archaeological evidence. Specific events for this year are not documented in contemporary sources.",
+      "cross_references": [
+        "Part of Sixth Dynasty decline (c. 2278\u20132184 BCE)",
+        "Leads to First Intermediate Period (c. 2184\u20132055 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific events are documented for -2224 in surviving sources. The entries describe ongoing processes rather than discrete events. The dating of Pepi II's reign is contested among Egyptologists; some scholars propose shorter reigns than the traditional c. 2278\u20132184 BCE, which affects the precise chronological placement of events in this year. The causes of the Akkadian collapse are debated: while Gutian invasion is traditionally cited, some scholars emphasize internal administrative failure and climate stress as primary factors.",
+  "historiographic_note": "This year lacks specific contemporary documentation. The historical record is reconstructed from broader patterns, archaeological evidence, and later compilations. Dating precision is \u00b15\u201310 years. The period is characterized by major political transitions (Akkadian collapse, Egyptian decline) but lacks detailed year-by-year documentation. Western-centric historiography has traditionally emphasized Mesopotamia and Egypt; the Indus Valley Civilization is often underrepresented in older syntheses. The undeciphered Indus script limits understanding of political and social structures in the Indus Valley.",
+  "graph_edges": [
+    {
+      "from": "-2224-001",
+      "to": "-2223-001",
+      "relation": "contemporary_with",
+      "note": "Akkadian collapse continues"
+    },
+    {
+      "from": "-2224-003",
+      "to": "-2184-001",
+      "relation": "led_to",
+      "note": "Sixth Dynasty decline leads to First Intermediate Period"
+    },
+    {
+      "from": "-2224-001",
+      "to": "-2224-002",
+      "relation": "contemporary_with",
+      "note": "Akkadian collapse occurs while Indus Valley Civilization flourishes"
+    }
+  ]
+}

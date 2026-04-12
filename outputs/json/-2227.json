@@ -1,0 +1,80 @@
+{
+  "year": -2227,
+  "year_label": "2227 BCE",
+  "era_context": "The Old Kingdom of Egypt (Dynasty VI) is in its final phase; Mesopotamia remains fragmented in the post-Akkadian period; the Indus Valley Civilisation is in its mature phase; early Bronze Age societies dominate the Eastern Mediterranean and Anatolia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia beyond the Shang region",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-2227-001",
+      "title": "Pepi II's reign; Egyptian provincial administration",
+      "region": "Egypt (Old Kingdom, Dynasty VI)",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Pepi II continues his reign. This period is marked by the consolidation of provincial power among nomarchs, who increasingly control local military forces, taxation, and justice. Evidence from tomb inscriptions shows nomarchs conducting military campaigns in Nubia and the Sinai, activities that would normally be the prerogative of the pharaoh. This shift in power distribution is a key factor in the eventual collapse of the Old Kingdom's centralised authority.",
+      "key_figures": [
+        "Pepi II (Neferkare) \u2014 Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Tomb inscriptions from provincial governors (nomarchs)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri from Abusir",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Pepi II's reign is attested, but absolute dating is uncertain by \u00b150\u2013100 years.",
+      "cross_references": [
+        "-2225-001",
+        "-2226-001"
+      ]
+    },
+    {
+      "id": "-2227-002",
+      "title": "Indus Valley Civilisation urban centres flourishing",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "Major urban centres of the Indus Valley Civilisation (Harappa, Mohenjo-daro, Dholavira, Kalibangan) continue to flourish. Archaeological evidence shows sophisticated urban planning, standardised weights and measures, and a complex economy based on agriculture, craft production, and trade. The civilisation's remarkable uniformity across a vast geographical area suggests a high degree of cultural and economic integration.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilisation's existence and chronology are well-established through extensive archaeological evidence.",
+      "cross_references": [
+        "-2225-002",
+        "-2226-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed.",
+  "historiographic_note": "This year is poorly documented. The historical record relies on tomb inscriptions and archaeological evidence from Egypt and the Indus Valley. Mesopotamian records are fragmentary. No written records survive for most of the world during this period.",
+  "graph_edges": [
+    {
+      "from": "-2227-001",
+      "to": "-2225-001",
+      "relation": "contemporary_with",
+      "note": "Pepi II's reign continues"
+    }
+  ]
+}

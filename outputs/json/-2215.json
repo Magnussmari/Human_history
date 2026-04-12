@@ -1,0 +1,81 @@
+{
+  "year": -2215,
+  "year_label": "2215 BCE",
+  "era_context": "The Third Dynasty of Ur (Ur III) dominates southern Mesopotamia, representing the last great Sumerian state before Amorite incursions. Egypt is in the First Intermediate Period, with fragmented regional power and weakened central authority. The Indus Valley Civilization is in its mature phase. China's Xia Dynasty (traditional dating) may be active, though archaeological confirmation remains contested. This is the cusp between the Old Kingdom collapse and the Middle Kingdom in Egypt.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Mesoamerica (no writing system yet)",
+    "Northern Europe (pre-literate)",
+    "Southeast Asia (minimal archaeological dating precision)",
+    "China (Xia Dynasty attribution highly disputed)"
+  ],
+  "events": [
+    {
+      "id": "-2215-001",
+      "title": "Reign of Amar-Sin of Ur III",
+      "region": "Mesopotamia (Sumer)",
+      "coordinates_approx": "30.96, 46.10",
+      "category": "political",
+      "description": "Amar-Sin (r. c. 2046\u20132038 BCE in conventional chronology, though some scholars place him c. 2215 BCE in alternative chronologies) ruled as the third king of the Ur III dynasty. He continued the administrative and military consolidation of southern Mesopotamia, maintaining the extensive bureaucratic apparatus that made Ur III famous. His reign saw continued temple construction and economic management through the palace system. The dating of Ur III remains contested; this entry reflects uncertainty in absolute chronology.",
+      "key_figures": [
+        "Amar-Sin (King of Ur)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ur III administrative tablets and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ur III chronology is debated. Middle Chronology places Amar-Sin c. 2046\u20132038 BCE; Low Chronology places him later. Assignment to -2215 is speculative without radiocarbon confirmation.",
+      "cross_references": []
+    },
+    {
+      "id": "-2215-002",
+      "title": "Indus Valley Civilization mature urban phase",
+      "region": "Indus Valley (South Asia)",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization was at its height during this period, with major cities like Harappa and Mohenjo-daro functioning as planned urban centers with sophisticated drainage, standardized weights, and extensive trade networks. This era represents the peak of Indus material culture before the civilization's gradual decline in the late 3rd millennium BCE. No monumental inscriptions or royal records survive, making political and military history opaque.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and subsidiary sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus script seals and tablets (undeciphered)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Radiocarbon dating and stratigraphic evidence confirm the Indus Valley Civilization's mature phase in the mid-3rd millennium BCE. Absolute dating to -2215 is approximate (\u00b1100 years).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The conventional dating of Ur III and Amar-Sin's reign is disputed. Some scholars advocate for a Low Chronology that would place these events 150\u2013200 years later. The Indus Valley Civilization's decline mechanism is debated: environmental change (monsoon failure, river course shifts) versus invasion versus internal collapse. No single cause is confirmed.",
+  "historiographic_note": "This year falls in a period of extremely sparse written documentation outside Mesopotamia and Egypt. Ur III administrative texts are abundant but provide limited narrative history. Egyptian records from the First Intermediate Period are fragmentary and often undated. The Indus Valley Civilization left no deciphered written history. Chronological anchoring relies on astronomical calculations, radiocarbon dating (with calibration uncertainties), and king list synchronisms, all of which are contested. Western Asian and Egyptian sources dominate; African, Asian, and American developments are largely invisible in the surviving record.",
+  "graph_edges": [
+    {
+      "from": "-2215-001",
+      "to": "-2200-001",
+      "relation": "part_of",
+      "note": "Amar-Sin's reign is part of the broader Ur III period, which ended c. 2004 BCE with Elamite invasion."
+    },
+    {
+      "from": "-2215-002",
+      "to": "-2100-001",
+      "relation": "led_to",
+      "note": "The mature Indus Valley Civilization of this period gradually declined over the next 200 years."
+    }
+  ]
+}

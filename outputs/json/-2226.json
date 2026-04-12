@@ -1,0 +1,78 @@
+{
+  "year": -2226,
+  "year_label": "2226 BCE",
+  "era_context": "The Old Kingdom of Egypt (Dynasty VI) continues under Pepi II; Mesopotamia remains fragmented following the Akkad Empire's collapse; the Indus Valley Civilisation is in its mature phase; early Bronze Age societies dominate the Eastern Mediterranean.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia beyond the Shang region",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-2226-001",
+      "title": "Continued reign of Pepi II; administrative records from provincial Egypt",
+      "region": "Egypt (Old Kingdom, Dynasty VI)",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Pepi II's reign continues. This year falls within the period of increasing provincial autonomy in Egypt, as evidenced by the growing power and independence of nomarchs (provincial governors). Tomb inscriptions from this period show nomarchs undertaking military campaigns and administrative functions previously reserved for the pharaoh. This decentralisation of authority would eventually lead to the fragmentation of central authority and the onset of the First Intermediate Period.",
+      "key_figures": [
+        "Pepi II (Neferkare) \u2014 Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Tomb inscriptions from provincial sites (Aswan, Abydos, Saqqara)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Pepi II's reign is well-attested, but absolute dating remains uncertain by \u00b150\u2013100 years.",
+      "cross_references": [
+        "-2225-001"
+      ]
+    },
+    {
+      "id": "-2226-002",
+      "title": "Indus Valley Civilisation trade networks active",
+      "region": "Indus Valley and Persian Gulf",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilisation maintains extensive trade networks with Mesopotamia, the Persian Gulf, and Central Asia. Indus seals and artefacts have been found in Mesopotamian sites, and Mesopotamian texts refer to trade with 'Meluhha.' This trade is facilitated by maritime routes and overland caravan routes, indicating sophisticated commercial organisation and long-distance exchange networks.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Indus seals found at Mesopotamian sites (Ur, Lagash, Uruk)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian cuneiform texts mentioning Meluhha trade",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Trade between the Indus Valley and Mesopotamia is well-documented through archaeological evidence.",
+      "cross_references": [
+        "-2225-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the interpretation of provincial autonomy during Pepi II's reign is debated; some scholars argue that the pharaoh maintained stronger central control than tomb inscriptions suggest.",
+  "historiographic_note": "This year is poorly documented in terms of specific events. The historical record relies heavily on tomb inscriptions and administrative records from Egypt, which provide limited information about events in a single year. Mesopotamian records for this period are fragmentary. The Indus Valley Civilisation's records are largely non-textual (seals, artefacts), making year-by-year documentation impossible.",
+  "graph_edges": [
+    {
+      "from": "-2226-001",
+      "to": "-2225-001",
+      "relation": "contemporary_with",
+      "note": "Pepi II's reign continues across both years"
+    }
+  ]
+}

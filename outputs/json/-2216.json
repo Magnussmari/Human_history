@@ -1,0 +1,74 @@
+{
+  "year": -2216,
+  "year_label": "2216 BCE",
+  "era_context": "Ur III dynasty continues to dominate Mesopotamia. Egypt remains fragmented in the First Intermediate Period. The Indus Valley Civilization is in its mature urban phase. This year is part of the broader mid-3rd millennium BCE, a period of relatively stable state formation in the Old World's primary river valleys, though with significant regional variation in political organization and technological development.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia",
+    "China (Xia Dynasty attribution disputed)"
+  ],
+  "events": [
+    {
+      "id": "-2216-001",
+      "title": "Ur III administrative continuity",
+      "region": "Mesopotamia (Sumer)",
+      "coordinates_approx": "30.96, 46.10",
+      "category": "economic",
+      "description": "The Ur III state maintained its extensive bureaucratic apparatus for managing temple lands, labor, and trade. Thousands of clay tablets from this era document the allocation of barley rations, textile production, and livestock management. This year represents the routine operation of what may be the world's first large-scale centralized administrative system. No specific political or military events are attested for this year.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Ur III administrative tablets",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Tablets are dated by reign attribution and internal cross-references, not by absolute chronology. Assignment to -2216 reflects conventional chronology with \u00b150\u2013100 year uncertainty.",
+      "cross_references": []
+    },
+    {
+      "id": "-2216-002",
+      "title": "Indus Valley trade networks active",
+      "region": "Indus Valley and Arabian Sea trade routes",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintained extensive maritime and overland trade networks connecting to Mesopotamia, the Persian Gulf, and Central Asia. Indus seals and weights have been found in Mesopotamian contexts, and Mesopotamian goods appear in Indus sites. This trade was a major economic driver for both civilizations. The mechanisms of exchange and the political relationships underlying trade remain unknown.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Indus seals in Mesopotamian sites (Ur, Lagash, Uruk)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus weights and measures standardization",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence of Indus-Mesopotamian trade is archaeologically confirmed. Dating to -2216 is approximate based on stratigraphic correlation.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, the nature and extent of Indus-Mesopotamian trade is debated: some scholars argue for direct contact and exchange; others propose intermediaries (Gulf traders, Dilmun merchants). The political implications of trade remain speculative.",
+  "historiographic_note": "This year is virtually invisible in narrative history. The only evidence comes from administrative tablets (Mesopotamia) and archaeological material (Indus Valley, Egypt). No contemporary written accounts of political events, wars, or cultural developments survive. The historical record is dominated by economic and administrative data from Mesopotamia; other regions are known only through material culture. This reflects both the actual distribution of writing systems and the biases of archaeological preservation and excavation.",
+  "graph_edges": [
+    {
+      "from": "-2216-001",
+      "to": "-2215-001",
+      "relation": "contemporary_with",
+      "note": "Both reflect the Ur III administrative system."
+    },
+    {
+      "from": "-2216-002",
+      "to": "-2215-002",
+      "relation": "contemporary_with",
+      "note": "Both reflect the Indus Valley Civilization's mature phase and trade activity."
+    }
+  ]
+}

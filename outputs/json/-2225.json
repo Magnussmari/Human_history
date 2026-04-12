@@ -1,0 +1,90 @@
+{
+  "year": -2225,
+  "year_label": "2225 BCE",
+  "era_context": "The Old Kingdom of Egypt is in its final phase (Dynasty VI, c. 2278\u20132184 BCE); Mesopotamian city-states are competing for regional dominance in the post-Akkadian period following the collapse of the Akkad Empire (c. 2154 BCE); the Indus Valley Civilisation is in its mature phase (c. 2600\u20131900 BCE); early Bronze Age societies dominate the Eastern Mediterranean and Anatolia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse Bronze Age documentation)",
+    "East Asia beyond the Shang dynasty region (limited contemporary records)",
+    "The Americas (no written records; archaeological evidence sparse)"
+  ],
+  "events": [
+    {
+      "id": "-2225-001",
+      "title": "Reign of Pepi II (Neferkare) continues; possible administrative decline in Egypt",
+      "region": "Egypt (Old Kingdom, Dynasty VI)",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Pepi II, one of the longest-reigning pharaohs in Egyptian history, continues his rule during this period. His reign (c. 2278\u20132184 BCE) is marked by increasing decentralisation of power to provincial governors (nomarchs), which would eventually contribute to the fragmentation of central authority at the end of the Old Kingdom. Archaeological evidence from tomb inscriptions and administrative records shows growing autonomy of regional elites. The exact chronology of Pepi II's reign remains debated among Egyptologists, with some scholars proposing a shorter reign (c. 64 years) and others a much longer one (c. 94 years).",
+      "key_figures": [
+        "Pepi II (Neferkare) \u2014 Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Tomb inscriptions and administrative records from Saqqara and provincial sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Pepi II's reign is well-attested in Egyptian records, but the exact length and chronological placement remain debated. This year falls within his reign according to most Egyptological consensus, but absolute dating for the Old Kingdom is uncertain by \u00b150\u2013100 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-2225-002",
+      "title": "Indus Valley Civilisation at peak urban development",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilisation (c. 2600\u20131900 BCE) is in its mature phase, with major urban centres such as Harappa, Mohenjo-daro, Dholavira, and Kalibangan fully developed. These cities exhibit sophisticated urban planning, standardised weights and measures, and an undeciphered writing system. Trade networks extend to Mesopotamia, the Persian Gulf, and Central Asia. The civilisation is characterised by remarkable uniformity in material culture across a vast geographical area, suggesting either a unified political system or a shared cultural and economic framework.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, Dholavira, and other sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian cuneiform texts mentioning 'Meluhha' (likely the Indus region)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilisation's existence and chronology are well-established through extensive archaeological evidence. Dating to c. 2600\u20131900 BCE is widely accepted, placing 2225 BCE within the mature phase.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of the Old Kingdom's end and the transition to the First Intermediate Period is disputed. Some scholars argue that Pepi II's reign was much shorter than traditionally believed, which would shift the dating of this period. Additionally, the degree of administrative decline during Pepi II's reign is debated\u2014some scholars see evidence of continued central authority, while others emphasise provincial autonomy. The Indus Valley Civilisation's political structure remains unknown; interpretations range from a unified empire to a confederation of city-states.",
+  "historiographic_note": "Documentation for this year is heavily skewed toward Egypt and the Indus Valley, where archaeological evidence is abundant. Mesopotamian records for this period are fragmentary, reflecting the political fragmentation following the Akkad Empire's collapse. Sub-Saharan Africa, Northern Europe, and East Asia are largely absent from the historical record for this year, not because nothing happened but because written records do not survive or have not been recovered. The Egyptian chronology for the Old Kingdom remains one of the most contentious issues in Egyptology, with competing chronological systems differing by up to 100 years.",
+  "graph_edges": [
+    {
+      "from": "-2225-001",
+      "to": "-2184-001",
+      "relation": "led_to",
+      "note": "Pepi II's reign ends around 2184 BCE, followed by the collapse of the Old Kingdom and the First Intermediate Period"
+    },
+    {
+      "from": "-2225-002",
+      "to": "-1900-001",
+      "relation": "part_of",
+      "note": "The Indus Valley Civilisation continues until c. 1900 BCE"
+    }
+  ]
+}

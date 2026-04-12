@@ -1,0 +1,118 @@
+{
+  "year": -2206,
+  "year_label": "2206 BCE",
+  "era_context": "Continuation of the late Old Kingdom in Egypt; the Akkadian Empire under Naram-Sin continues to consolidate and defend its territorial holdings. The Indus Valley Civilization remains in its mature phase. In Mesopotamia, the period is marked by increasing pressure from external groups (Gutians, Elamites) and internal fragmentation of Akkadian authority.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-2206-001",
+      "title": "Continued construction or completion of Menkaure's pyramid complex, Giza",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.9\u00b0N, 31.1\u00b0E",
+      "category": "technological",
+      "description": "The pyramid of Menkaure and its associated mortuary temple complex continue to be constructed or refined. This represents the continuation of Old Kingdom monumental architecture, though the scale is notably reduced compared to the pyramids of Khufu and Khafre. The construction demonstrates sustained organizational capacity and resource mobilization, but may also reflect declining state resources or shifting priorities toward temple construction and religious endowments.",
+      "key_figures": [
+        "Menkaure (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Pyramid of Menkaure and mortuary temple complex (archaeological evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Radiocarbon dating of organic material from the pyramid",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The pyramid's construction likely spanned multiple years; assigning it to a specific year is conventional. Radiocarbon dating provides a range rather than a precise date.",
+      "cross_references": [
+        "-2205-001"
+      ]
+    },
+    {
+      "id": "-2206-002",
+      "title": "Naram-Sin's military campaigns against Gutian and Elamite threats",
+      "region": "Mesopotamia, Zagros Mountains, Elam",
+      "coordinates_approx": "33.3\u00b0N, 44.4\u00b0E",
+      "category": "military",
+      "description": "Naram-Sin continues military campaigns to maintain Akkadian control over conquered territories and to repel incursions from the Gutians (from the Zagros Mountains) and Elamites (from the southwest). These campaigns are documented in royal inscriptions and appear to have been largely successful in the short term, though they consumed significant resources and may have contributed to the eventual fragmentation of the empire.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions describing military campaigns",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative texts and military records from Akkadian archives",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's military activities are well-attested in contemporary inscriptions, but the precise chronology of individual campaigns is uncertain. The inscriptions may exaggerate military success.",
+      "cross_references": [
+        "-2205-002"
+      ]
+    },
+    {
+      "id": "-2206-003",
+      "title": "Harappan trade networks active across South Asia and beyond",
+      "region": "Indus Valley, Persian Gulf, Mesopotamia",
+      "coordinates_approx": "27.0\u00b0N, 68.0\u00b0E",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains extensive trade networks, with evidence of contact with Mesopotamia (through the Persian Gulf), the Oman Peninsula, and Central Asia. Harappan seals and artifacts appear in Mesopotamian contexts, and Mesopotamian goods are found in Indus sites. This trade is facilitated by maritime routes and overland caravan routes, and represents a significant economic activity for the civilization.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Harappan seals and artifacts in Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian texts mentioning trade with 'Meluhha' (possibly the Indus Valley)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Harappan artifacts and weights found in Gulf sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Trade networks are well-attested archaeologically. The identification of 'Meluhha' with the Indus Valley is widely accepted but not definitively proven.",
+      "cross_references": [
+        "-2205-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the interpretation of Naram-Sin's military success is debated; some scholars argue that the frequency and intensity of his campaigns suggest the empire was already fragmenting, contradicting the traditional narrative of a unified, powerful state.",
+  "historiographic_note": "This year is characterized by the same limitations as -2205: reliance on king lists, monumental inscriptions, and archaeological evidence. The historical record is heavily skewed toward elite activities (royal construction, military campaigns) and trade, with little information about the lives of ordinary people. The absence of written records from most of the world reflects both the concentration of literacy in a few civilizations and the biases of modern scholarship.",
+  "graph_edges": [
+    {
+      "from": "-2206-001",
+      "to": "-2205-001",
+      "relation": "part_of",
+      "note": "Menkaure's pyramid construction is part of his broader reign and monumental program."
+    },
+    {
+      "from": "-2206-002",
+      "to": "-2205-002",
+      "relation": "part_of",
+      "note": "Naram-Sin's military campaigns are part of his broader strategy to maintain and expand Akkadian control."
+    }
+  ]
+}
