@@ -1,0 +1,81 @@
+{
+  "year": -2303,
+  "year_label": "2303 BCE",
+  "era_context": "Naram-Sin's Akkadian Empire is at its territorial zenith. Egypt's Sixth Dynasty continues, though with increasing provincial autonomy. The Indus Valley Civilization remains in its mature urban phase. This period represents the apex of several early state systems before the climate and political disruptions of the late 3rd millennium BCE.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "-2303-001",
+      "title": "Akkadian Empire at maximum territorial extent",
+      "region": "Mesopotamia, Levant, Anatolia, Persia",
+      "coordinates_approx": "35.0, 35.0",
+      "category": "political",
+      "description": "Under Naram-Sin (r. c. 2254\u20132218 BCE), the Akkadian Empire reaches its greatest territorial extent, controlling much of Mesopotamia, the Levant, parts of Anatolia, and the Zagros Mountains. Naram-Sin declares himself a god (deus invictus) and establishes a new model of divine kingship. Administrative records and inscriptions document tribute from vassal states. This represents the first large-scale territorial empire in Mesopotamian history.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin inscriptions and stelae",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Cuneiform administrative texts from Akkadian period",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign and general achievements are well-documented. The specific year 2303 BCE is assigned by conventional chronology; absolute dating is uncertain by \u00b110\u201315 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-2303-002",
+      "title": "Possible climate anomaly or drought in the eastern Mediterranean",
+      "region": "Eastern Mediterranean, Levant, Mesopotamia",
+      "coordinates_approx": "35.0, 33.0",
+      "category": "environmental",
+      "description": "Paleoclimatic evidence (ice cores, tree rings, lake sediments) suggests a period of increased aridity or climate instability in the late 3rd millennium BCE, possibly including a significant drought event around 2200 BCE. While the precise dating of this event remains uncertain, some scholars propose that climate stress in the early 23rd century BCE may have contributed to social instability and the eventual collapse of the Akkadian Empire. However, the causal relationship between climate and political collapse is debated.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Ice core records from Greenland (GISP2) and Antarctic ice cores",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Paleoclimatic reconstructions from lake sediments and tree rings",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Paleoclimatic evidence suggests climate instability in this period, but precise dating and causation are uncertain. The 4.2 ka event (c. 2200 BCE) is better documented; earlier climate anomalies are less precisely dated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The idea that climate change directly caused the collapse of the Akkadian Empire is increasingly questioned by scholars. While paleoclimatic evidence suggests aridity around 2200 BCE, the relationship between climate stress and political collapse is complex and may be overstated in popular accounts. Some scholars argue that internal political instability, military overextension, and rebellion were more significant factors than climate. Additionally, the Akkadian Empire's collapse was not instantaneous; it was a gradual process of fragmentation.",
+  "historiographic_note": "The Akkadian Empire is well-documented through cuneiform texts and inscriptions, but these sources are biased toward royal and administrative perspectives. The experiences of common people, conquered populations, and women are largely absent. Egyptian and Mesopotamian chronologies for this period remain debated, with some scholars proposing dates 50+ years earlier or later. The Indus Valley Civilization is known only through archaeology; without deciphered writing, its political structure and historical events remain opaque. The historical record is dominated by the Near East and Egypt; other regions are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-2303-001",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Akkadian imperial overextension may have contributed to the empire's fragmentation around 2200 BCE"
+    },
+    {
+      "from": "-2303-002",
+      "to": "-2200-002",
+      "relation": "part_of",
+      "note": "Environmental stress in this period may be part of broader climate instability leading to the 4.2 ka event"
+    }
+  ]
+}

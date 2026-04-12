@@ -1,0 +1,94 @@
+{
+  "year": -2297,
+  "year_label": "2297 BCE",
+  "era_context": "The Akkadian Empire under Naram-Sin continues to dominate Mesopotamia, though internal pressures are mounting. The Mature Harappan civilization in the Indus Valley remains at its peak. In Egypt, the Fourth Dynasty is either in its early phase or the late Third Dynasty is ending. Traditional Chinese chronology places this within the Xia Dynasty, though no contemporary evidence exists. This period represents the height of Bronze Age urban civilization in the Old World.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-2297-001",
+      "title": "Egyptian Fourth Dynasty (approximate period of early reign)",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Fourth Dynasty of Egypt is either beginning or in its early phase. This dynasty is famous for the construction of the Great Pyramids of Giza. The early Fourth Dynasty pharaohs (Sneferu, Khufu) undertake massive building projects that require unprecedented mobilization of labor and resources. These projects reflect centralized state power and sophisticated administrative organization. The pyramid construction represents both religious ideology (the pharaoh's journey to the afterlife) and political power (demonstration of state capacity).",
+      "key_figures": [
+        "Sneferu or Khufu (Fourth Dynasty pharaoh, depending on exact dating)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists (Abydos, Turin, Karnak)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Pyramid inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from pyramid complexes",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Fourth Dynasty is well-attested in Egyptian records and archaeology. However, absolute dating of the Fourth Dynasty to 2297 BCE is uncertain; different chronologies place it c. 2575\u20132467 BCE (conventional) or c. 2589\u20132504 BCE (alternative). The relative sequence of pharaohs is secure, but the absolute date is debated by \u00b150\u2013100 years.",
+      "cross_references": [
+        "Contemporary with -2297-002 (Akkadian Empire)",
+        "Precedes -2200-001 (Fifth Dynasty)"
+      ]
+    },
+    {
+      "id": "-2297-002",
+      "title": "Akkadian Empire at territorial maximum",
+      "region": "Mesopotamia and surrounding regions",
+      "coordinates_approx": "32.5, 44.0",
+      "category": "political",
+      "description": "The Akkadian Empire under Naram-Sin reaches its maximum territorial extent, controlling much of Mesopotamia, the Levant, and parts of Anatolia and the Zagros Mountains. However, this expansion is not accompanied by stable administrative integration. Local governors and conquered peoples chafe under Akkadian rule. The empire's military is stretched thin maintaining control over distant territories. Internal factionalism among Akkadian elites is growing. The empire's apparent strength masks underlying fragility.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Later Babylonian king lists and chronicles",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Akkadian Empire's territorial extent is well-attested in inscriptions. The specific dating to 2297 BCE is approximate; Naram-Sin's reign lasted approximately 37 years, and this year falls within that period based on conventional chronology.",
+      "cross_references": [
+        "Precedes -2280-001 (Gutian invasion and Akkadian collapse)",
+        "Contemporary with -2297-001 (Egyptian Fourth Dynasty)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Egyptian Fourth Dynasty's absolute dating is highly debated. Conventional chronology places it c. 2575\u20132467 BCE, but alternative chronologies (particularly the 'low chronology') place it significantly later, c. 2500\u20132400 BCE. This affects the dating of 2297 BCE: depending on which chronology is adopted, 2297 BCE may fall in the Fourth Dynasty, the Fifth Dynasty, or between dynasties. The Akkadian chronology is similarly debated, with the 'short' and 'long' chronologies differing by 50\u2013100 years. No specific events are documented for 2297 BCE in any source.",
+  "historiographic_note": "For 2297 BCE, no year-specific events are documented. The entries represent inferences from broader patterns and chronological frameworks that are themselves debated. Egyptian chronology for the Old Kingdom is based on king lists, astronomical calculations, and radiocarbon dating, all of which have limitations. Akkadian chronology is based on king lists and inscriptions, with significant uncertainty in absolute dating. The absence of year-specific records is typical for this period; even the best-documented civilizations do not provide annual chronicles. The surviving sources are biased toward elite activities and toward literate civilizations.",
+  "graph_edges": [
+    {
+      "from": "-2297-001",
+      "to": "-2297-002",
+      "relation": "contemporary_with",
+      "note": "Egyptian Fourth Dynasty and Akkadian Empire are contemporaneous, though separated by geography"
+    },
+    {
+      "from": "-2297-002",
+      "to": "-2280-001",
+      "relation": "led_to",
+      "note": "Akkadian Empire's overextension and internal instability led to its collapse within ~17 years"
+    }
+  ]
+}

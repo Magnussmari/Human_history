@@ -1,0 +1,108 @@
+{
+  "year": -2302,
+  "year_label": "2302 BCE",
+  "era_context": "The Akkadian Empire under Naram-Sin continues to dominate Mesopotamia and the Levant. Egypt's Sixth Dynasty is in its later phase, with provincial governors increasingly autonomous. The Indus Valley Civilization remains stable and prosperous. This is a period of imperial consolidation and long-distance trade, but also of underlying tensions that will lead to major disruptions within a century.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "East Asia (limited sources for this period)"
+  ],
+  "events": [
+    {
+      "id": "-2302-001",
+      "title": "Naram-Sin's military campaigns against the Lullubi and mountain peoples",
+      "region": "Zagros Mountains, eastern Mesopotamia",
+      "coordinates_approx": "35.5, 46.0",
+      "category": "military",
+      "description": "Naram-Sin records military victories against the Lullubi and other mountain peoples in the Zagros region, consolidating Akkadian control over trade routes and resource-rich areas. The famous Naram-Sin Victory Stele (now in the Louvre) commemorates such campaigns, showing the king as a deified warrior. These campaigns represent efforts to maintain imperial control over peripheral regions and secure access to tin, timber, and other strategic resources.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin Victory Stele",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Cuneiform inscriptions from Akkadian period",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's campaigns are well-attested in inscriptions. The specific year 2302 BCE is assigned by conventional chronology; absolute dating is uncertain by \u00b110\u201315 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-2302-002",
+      "title": "Egyptian trade expeditions and resource acquisition",
+      "region": "Egypt, Sinai, Red Sea region",
+      "coordinates_approx": "26.0, 32.0",
+      "category": "economic",
+      "description": "During the Sixth Dynasty, Egyptian expeditions continue to acquire resources from Sinai (copper, turquoise), the Red Sea region (incense, myrrh), and Nubia (gold, ivory, ebony). Administrative records document these trade missions and resource extraction. The pharaoh maintains control over long-distance trade networks, though provincial governors are gaining increasing autonomy in resource management.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt, traditional dating)"
+      ],
+      "sources": [
+        {
+          "name": "Sixth Dynasty administrative papyri and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from mining sites and trade posts",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian trade activities during the Sixth Dynasty are well-documented. The specific year 2302 BCE is assigned by conventional chronology; absolute dating is uncertain by \u00b120\u201350 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-2302-003",
+      "title": "Harappan trade networks with Mesopotamia and the Gulf",
+      "region": "Indus Valley, Persian Gulf, Mesopotamia",
+      "coordinates_approx": "27.5, 71.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains extensive trade networks with Mesopotamia and the Persian Gulf. Harappan seals and artifacts are found in Mesopotamian sites, and Mesopotamian goods appear in Indus contexts. This trade is facilitated by maritime routes and possibly overland routes through the Levant. The trade includes luxury goods, raw materials, and possibly foodstuffs. This represents one of the world's earliest long-distance maritime trade networks.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Harappan seals and artifacts in Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Harappan seals with undeciphered script",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Harappan-Mesopotamian trade is well-established through archaeological evidence. The chronology of the Harappan civilization (c. 2600\u20131900 BCE) is widely accepted.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The extent and nature of Harappan-Mesopotamian trade is sometimes overstated. While contact is clear, the volume and significance of trade relative to internal Harappan economy is debated. Some scholars argue that Harappan civilization was largely self-sufficient and that external trade was a minor component of the economy. Additionally, the interpretation of Harappan seals as trade tokens is not universally accepted; they may have had religious, administrative, or other functions.",
+  "historiographic_note": "Documentation for 2302 BCE remains sparse and geographically limited. Mesopotamian and Egyptian sources are relatively abundant but biased toward elite, state-sponsored narratives. The Indus Valley Civilization is known through archaeology but its undeciphered script limits narrative reconstruction. The historical record is dominated by the Near East and Egypt; other regions are largely invisible. Absolute chronology for this period remains debated, with competing schemes differing by 50+ years. The lives of common people, women, and non-elite populations are largely absent from the historical record.",
+  "graph_edges": [
+    {
+      "from": "-2302-001",
+      "to": "-2300-001",
+      "relation": "part_of",
+      "note": "Naram-Sin's military campaigns are part of a broader pattern of imperial consolidation"
+    },
+    {
+      "from": "-2302-003",
+      "to": "-2300-003",
+      "relation": "contemporary_with",
+      "note": "Harappan trade networks continue in parallel with Akkadian and Egyptian developments"
+    }
+  ]
+}

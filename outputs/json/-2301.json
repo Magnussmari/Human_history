@@ -1,0 +1,110 @@
+{
+  "year": -2301,
+  "year_label": "2301 BCE",
+  "era_context": "The Akkadian Empire under Naram-Sin is at its height, controlling vast territories from the Persian Gulf to the Mediterranean. Egypt's Sixth Dynasty continues, with increasing decentralization. The Indus Valley Civilization remains in its mature urban phase. This is a period of imperial consolidation, long-distance trade, and monumental architecture, but also of underlying social and environmental stresses.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2301-001",
+      "title": "Akkadian administrative consolidation and deification of Naram-Sin",
+      "region": "Mesopotamia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "religious",
+      "description": "Naram-Sin establishes a new model of divine kingship, declaring himself a god and demanding worship. This is a significant innovation in Mesopotamian political theology. Temples are built in his honor, and his image is depicted on stelae and seals as a deified ruler. This religious innovation serves to legitimize his imperial authority and distinguish him from earlier Akkadian kings. The practice of deifying living rulers becomes a model for later Mesopotamian and Near Eastern monarchies.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin inscriptions and stelae",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Cuneiform texts describing Naram-Sin's deification",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Naram-Sin's deification is well-attested in contemporary inscriptions and later texts. The specific year 2301 BCE is assigned by conventional chronology; absolute dating is uncertain by \u00b110\u201315 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-2301-002",
+      "title": "Possible rebellion or unrest in Akkadian-controlled territories",
+      "region": "Mesopotamia, Levant",
+      "coordinates_approx": "35.0, 35.0",
+      "category": "political",
+      "description": "Cuneiform texts and later chronicles record that Naram-Sin faced rebellions from vassal states and internal opposition. While the exact dating of these events is uncertain, some scholars place significant unrest in the early 23rd century BCE. These rebellions may have been triggered by military overextension, economic strain, or resentment of Akkadian rule. The suppression of these rebellions required military campaigns and may have weakened the empire's overall stability.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Cuneiform texts describing rebellions and military campaigns",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later chronicles and king lists",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Rebellions during Naram-Sin's reign are attested in texts, but the specific dating of individual rebellions is uncertain. The assignment to 2301 BCE is conventional.",
+      "cross_references": []
+    },
+    {
+      "id": "-2301-003",
+      "title": "Egyptian provincial autonomy and decentralization",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "During the Sixth Dynasty, provincial governors (nomarchs) increasingly exercise autonomous power, managing local resources, justice, and military forces. While the pharaoh nominally retains supreme authority, the centralized power of the Old Kingdom is gradually eroding. This decentralization is documented in tomb inscriptions and administrative records. The process is gradual rather than sudden, but by the end of the Sixth Dynasty, provincial autonomy will be nearly complete.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt, traditional dating)"
+      ],
+      "sources": [
+        {
+          "name": "Sixth Dynasty tomb inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from provincial sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The decentralization of the Sixth Dynasty is well-documented. The specific year 2301 BCE is assigned by conventional chronology; absolute dating is uncertain by \u00b120\u201350 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The idea that Naram-Sin's deification was universally accepted or that it significantly strengthened his rule is debated. Some scholars argue that the deification was a response to instability rather than a cause of consolidation. Additionally, the extent of rebellions during Naram-Sin's reign is sometimes exaggerated in older historiography; recent scholarship suggests that while unrest occurred, the empire remained relatively stable until after Naram-Sin's death. The decentralization of Egypt during the Sixth Dynasty is sometimes portrayed as a 'decline,' but recent scholarship emphasizes continuity and gradual change rather than collapse.",
+  "historiographic_note": "Documentation for 2301 BCE remains sparse and geographically limited. Mesopotamian and Egyptian sources are relatively abundant but biased toward elite, state-sponsored narratives. The Indus Valley Civilization is known through archaeology but its undeciphered script limits narrative reconstruction. Absolute chronology for this period remains debated, with competing schemes differing by 50+ years. The lives of common people, women, and non-elite populations are largely absent from the historical record. The interpretation of political change (e.g., decentralization vs. decline) is influenced by modern historiographic frameworks that may not reflect ancient realities.",
+  "graph_edges": [
+    {
+      "from": "-2301-001",
+      "to": "-2301-002",
+      "relation": "contradicts",
+      "note": "Naram-Sin's deification and consolidation efforts may have been responses to underlying instability and rebellion"
+    },
+    {
+      "from": "-2301-003",
+      "to": "-2180-001",
+      "relation": "led_to",
+      "note": "The decentralization of the Sixth Dynasty leads to the fragmentation of Egypt at the end of the Old Kingdom"
+    }
+  ]
+}

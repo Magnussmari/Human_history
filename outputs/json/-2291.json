@@ -1,0 +1,102 @@
+{
+  "year": -2291,
+  "year_label": "2291 BCE",
+  "era_context": "Identical to -2290: Old Kingdom Egypt in decline, Akkadian Empire at zenith, Indus Valley Civilization in mature phase, Early Bronze Age III in the Levant and Anatolia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia",
+    "Americas",
+    "Northern Europe"
+  ],
+  "events": [
+    {
+      "id": "-2291-001",
+      "title": "Akkadian administrative consolidation under Naram-Sin",
+      "region": "Mesopotamia, Akkadian Empire",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "Naram-Sin continues administrative reforms begun under his predecessors, centralizing control over conquered territories and establishing Akkadian as the lingua franca of administration. He deifies himself\u2014a radical innovation in Mesopotamian kingship\u2014and has himself depicted on monuments as a god-king. This theological innovation reflects both the height of Akkadian power and the desperation of a ruler facing mounting internal and external pressures.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin Victory Stele and royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative tablets from Akkadian archives",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's self-deification is well-attested in contemporary inscriptions and later sources. The specific dating to -2291 depends on chronological systems; Middle Chronology is used here.",
+      "cross_references": []
+    },
+    {
+      "id": "-2291-002",
+      "title": "Indus Valley trade networks at peak extent",
+      "region": "Indus Valley and beyond, South Asia and western Indian Ocean",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "economic",
+      "description": "Archaeological evidence suggests that Indus Valley trade networks reach their maximum geographic extent during the mature phase. Indus seals and artefacts appear in Mesopotamian sites (Ur, Lagash), the Persian Gulf, and Oman, indicating long-distance maritime and overland commerce. This trade is likely mediated by intermediaries in the Persian Gulf and Oman, but the scale and organization reflect the Indus civilization's economic sophistication.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Indus seals found in Mesopotamian contexts (archaeological evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Comparative analysis of Indus and Mesopotamian artefacts",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The presence of Indus seals in Mesopotamia is archaeologically confirmed. The dating of these contexts to the mature Indus phase (c. 2500\u20131900 BCE) is secure.",
+      "cross_references": []
+    },
+    {
+      "id": "-2291-003",
+      "title": "Egyptian provincial autonomy increases under weak central authority",
+      "region": "Egypt, Upper and Lower Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "As Pepi II's reign continues (or as the Sixth Dynasty weakens), provincial governors increasingly act as independent rulers. Nomarchs in Upper Egypt, particularly in the Theban region, accumulate wealth, maintain private armies, and commission elaborate tombs. The central government's inability to fund major building projects (in contrast to the pyramid-building of earlier dynasties) reflects the shift of resources to provincial elites.",
+      "key_figures": [
+        "Pepi II (Pharaoh, Sixth Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Nomarch autobiographies and tomb inscriptions from Upper Egypt",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of reduced royal building activity",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The trend of nomarch autonomy is well-attested in contemporary inscriptions. The specific dating to -2291 is conventional and carries the same chronological uncertainty as -2290.",
+      "cross_references": [
+        "-2290-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the broader narrative of 'Akkadian Empire at zenith' in -2291 is complicated by evidence that Naram-Sin faced significant military challenges and resource constraints even during his reign. The 'deification' of Naram-Sin, while attested, may reflect ideological desperation rather than genuine consolidation of power.",
+  "historiographic_note": "The historical record for -2291 is nearly identical to -2290: sparse, concentrated in Mesopotamia and Egypt, with significant chronological uncertainty. The assignment of events to -2291 versus -2290 is largely arbitrary, as most sources do not permit year-by-year precision for this period. The Akkadian and Egyptian records are propagandistic and retrospective, respectively. The Indus Valley record is purely archaeological and does not permit dating to individual years.",
+  "graph_edges": [
+    {
+      "from": "-2291-001",
+      "to": "-2291-003",
+      "relation": "contemporary_with",
+      "note": "Naram-Sin's consolidation in Mesopotamia is contemporary with Egyptian decentralization, reflecting broader patterns of imperial fragmentation in the late 3rd millennium BCE"
+    }
+  ]
+}
