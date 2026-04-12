@@ -1,0 +1,112 @@
+{
+  "year": -792,
+  "year_label": "792 BCE",
+  "era_context": "The late 8th century BCE continues to be dominated by Neo-Assyrian imperial expansion, Eastern Zhou fragmentation in China, and the consolidation of Mediterranean trade networks. This period represents a transition from the Bronze Age collapse aftermath to a more stable, interconnected world system with multiple competing imperial and state powers.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "South Asia (limited contemporary written sources)"
+  ],
+  "events": [
+    {
+      "id": "-792-001",
+      "title": "Sargon II's military campaigns and administrative reforms",
+      "region": "Neo-Assyrian Empire",
+      "coordinates_approx": "35.5, 35.0",
+      "category": "military",
+      "description": "Sargon II's reign continued to be marked by aggressive military expansion and administrative consolidation. His campaigns in the Levant, Anatolia, and Mesopotamia were systematically documented in royal annals. The deportation of conquered populations was a deliberate policy designed to prevent rebellion and redistribute labor. By 792 BCE, Assyrian military technology, including siege warfare techniques and chariot forces, was the most advanced in the Near East.",
+      "key_figures": [
+        "Sargon II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon II's Annals (cuneiform inscriptions)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Dur-Sharrukin palace reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sargon II's reign is well-documented, but specific events in 792 BCE are inferred from broader annalistic records and archaeological evidence.",
+      "cross_references": [
+        "-794-001",
+        "-793-001"
+      ]
+    },
+    {
+      "id": "-792-002",
+      "title": "Eastern Zhou state competition and military innovation",
+      "region": "Eastern Zhou, China",
+      "coordinates_approx": "35.0, 115.0",
+      "category": "military",
+      "description": "During the Spring and Autumn period, Chinese states were developing new military technologies and tactics, including the use of crossbows, improved chariot designs, and larger standing armies. By 792 BCE, interstate warfare was becoming more frequent and sophisticated. States like Qi, Jin, and Chu were competing for regional hegemony, driving military and administrative innovation. This competition would eventually lead to the Warring States period.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chunqiu (Spring and Autumn Annals)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Bronze inscriptions and artefacts",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Spring and Autumn period is well-attested, but specific military developments in 792 BCE are not individually documented. The characterization reflects broader trends confirmed by archaeological and epigraphic evidence.",
+      "cross_references": []
+    },
+    {
+      "id": "-792-003",
+      "title": "Alphabetic writing system consolidation in the Mediterranean",
+      "region": "Mediterranean, Phoenicia, Greece",
+      "coordinates_approx": "35.0, 20.0",
+      "category": "cultural",
+      "description": "By the late 8th century BCE, the Phoenician alphabet had been adopted and adapted by Greek city-states, leading to the development of the Greek alphabet. This writing system, derived from Phoenician script, was more efficient and accessible than earlier syllabic or logographic systems. The spread of alphabetic writing facilitated record-keeping, legal documentation, and literary production. This technological innovation had profound implications for the development of Greek civilization and later Western culture.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of early Greek inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Comparative analysis of Phoenician and Greek scripts",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The adoption of the Phoenician alphabet by Greeks is well-documented archaeologically through inscriptions. The process occurred over the 8th century BCE, and 792 BCE falls within this period of transition.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of the Greek alphabet's adoption from Phoenician script is debated. Some scholars argue for earlier adoption (9th century BCE), while others suggest later (7th century BCE). The traditional narrative of direct Phoenician-to-Greek transmission is increasingly questioned by scholars who point to multiple possible intermediaries and a more complex process of cultural exchange. The Spring and Autumn period chronology remains dependent on later compilations with uncertain accuracy for specific years.",
+  "historiographic_note": "Documentation for 792 BCE remains concentrated in the Near East and Mediterranean. Assyrian records are official court documents emphasizing military and political achievements; they may underrepresent economic, social, or cultural developments. Chinese sources are mediated through much later compilations, introducing potential distortion. The archaeological record provides material evidence but requires interpretation. The absence of contemporary written records from most of the world reflects the distribution of literate societies and the biases of surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-792-003",
+      "to": "-500-001",
+      "relation": "led_to",
+      "note": "Alphabetic writing enabled the development of Greek literature and philosophy"
+    },
+    {
+      "from": "-792-002",
+      "to": "-476-001",
+      "relation": "led_to",
+      "note": "Spring and Autumn military competition led to Warring States period"
+    }
+  ]
+}

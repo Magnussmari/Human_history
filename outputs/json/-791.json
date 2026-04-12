@@ -1,0 +1,113 @@
+{
+  "year": -791,
+  "year_label": "791 BCE",
+  "era_context": "The late 8th century BCE continues with Neo-Assyrian imperial dominance, Eastern Zhou fragmentation in China, and the consolidation of Mediterranean trade networks and cultural exchange. This period represents the height of several competing imperial and state systems, each developing sophisticated administrative and military structures.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-791-001",
+      "title": "Sargon II's reign: imperial consolidation and military campaigns",
+      "region": "Neo-Assyrian Empire",
+      "coordinates_approx": "35.5, 35.0",
+      "category": "political",
+      "description": "Sargon II (r. 722\u2013705 BCE) continued his systematic consolidation of Assyrian power. His reign was characterized by aggressive military expansion, administrative reorganization, and the construction of a new capital at Dur-Sharrukin. By 791 BCE, Assyrian hegemony extended from Egypt to Mesopotamia to Anatolia. The empire's administrative system, based on provincial organization and systematic deportation, was becoming increasingly sophisticated and effective.",
+      "key_figures": [
+        "Sargon II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon II's Annals and inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Dur-Sharrukin palace reliefs and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sargon II's reign is well-documented, but specific events in 791 BCE are inferred from broader patterns in his annals.",
+      "cross_references": [
+        "-794-001",
+        "-793-001",
+        "-792-001"
+      ]
+    },
+    {
+      "id": "-791-002",
+      "title": "Spring and Autumn period: interstate warfare and state consolidation",
+      "region": "Eastern Zhou, China",
+      "coordinates_approx": "35.0, 115.0",
+      "category": "political",
+      "description": "The Spring and Autumn period (770\u2013476 BCE) was characterized by the gradual consolidation of regional states and increasing interstate warfare. By 791 BCE, major states like Qi, Jin, Chu, and Qin were competing for regional dominance. This competition drove administrative innovation, military development, and eventually the emergence of the concept of hegemony (ba). The period saw the development of more sophisticated state bureaucracies and the beginning of philosophical schools that would later flourish during the Warring States period.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chunqiu (Spring and Autumn Annals)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Bronze inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Spring and Autumn period is well-attested, but specific events in 791 BCE are not individually documented in surviving sources.",
+      "cross_references": []
+    },
+    {
+      "id": "-791-003",
+      "title": "Mediterranean trade network expansion and cultural exchange",
+      "region": "Mediterranean, Phoenicia, Greece, Italy",
+      "coordinates_approx": "38.0, 18.0",
+      "category": "economic",
+      "description": "By the late 8th century BCE, Mediterranean trade networks were expanding rapidly. Phoenician merchants, Greek traders, and Etruscan merchants were establishing trading posts and colonies throughout the Mediterranean. This trade facilitated the exchange of goods, technologies, and cultural practices. The spread of alphabetic writing, iron-working technology, and artistic styles occurred through these trade networks. The establishment of Greek colonies in Italy and Sicily (traditionally dated to the 8th century BCE) was part of this broader expansion.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mediterranean settlements and shipwrecks",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Greek and later Roman historical accounts",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Mediterranean trade expansion is well-attested archaeologically. Specific dating to 791 BCE is approximate; the expansion occurred over decades.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Greek colonization in Italy and Sicily (8th century BCE) is based on later Greek sources and archaeological evidence, but the exact chronology remains debated. Some scholars argue for earlier or later dates. The Spring and Autumn period chronology remains dependent on later compilations with uncertain accuracy for specific years. The characterization of Sargon II's reign as a period of 'consolidation' may understate the degree of resistance and instability that persisted despite Assyrian military dominance.",
+  "historiographic_note": "Documentation for 791 BCE remains concentrated in the Near East and Mediterranean. Assyrian records are official court documents; they may underrepresent economic, social, or cultural developments and overstate the stability of Assyrian control. Chinese sources are mediated through much later compilations. The archaeological record provides material evidence but requires interpretation. The absence of contemporary written records from most of the world reflects the distribution of literate societies.",
+  "graph_edges": [
+    {
+      "from": "-791-003",
+      "to": "-700-001",
+      "relation": "led_to",
+      "note": "Mediterranean trade networks facilitated cultural and technological exchange"
+    },
+    {
+      "from": "-791-001",
+      "to": "-700-001",
+      "relation": "led_to",
+      "note": "Sargon II's administrative innovations influenced later imperial systems"
+    }
+  ]
+}

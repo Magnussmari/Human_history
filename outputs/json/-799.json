@@ -1,0 +1,80 @@
+{
+  "year": -799,
+  "year_label": "799 BCE",
+  "era_context": "The early Iron Age II in the Levant and Mediterranean. The Neo-Assyrian Empire under Shalmaneser III is in its expansionist phase, conducting military campaigns across Syria and Mesopotamia. In Greece, the Archaic period is beginning; city-states are consolidating and the alphabet is being adopted from Phoenician sources. In China, the Western Zhou dynasty is in decline, approaching the traditional date of its collapse (traditionally 771 BCE). Egypt is fragmented under the late 21st Dynasty, with competing power centers in Upper and Lower Egypt.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "Central Asia and the Steppe (limited contemporary documentation)",
+    "Mesoamerica (no written records for this specific year; Olmec civilization active but undated at annual precision)"
+  ],
+  "events": [
+    {
+      "id": "-799-001",
+      "title": "Shalmaneser III's military campaigns in Syria and the Levant",
+      "region": "Assyria, Syria, Levant",
+      "coordinates_approx": "35.5, 36.0",
+      "category": "military",
+      "description": "Shalmaneser III of Assyria (r. 858\u2013824 BCE) continues his systematic military campaigns to consolidate Assyrian dominance over Syria and the Levantine states. These campaigns, documented in royal inscriptions and reliefs, establish Assyrian hegemony and extract tribute from smaller kingdoms. The campaigns are part of a broader pattern of Neo-Assyrian expansion that will define the 9th century BCE.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Shalmaneser III's Monolith Inscription (Kurkh Stele) and palace reliefs from Kalhu",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Assyrian King List",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shalmaneser III's reign is well-attested (858\u2013824 BCE). Specific campaigns within this year are inferred from the pattern of his documented military activity; exact annual attribution is approximate.",
+      "cross_references": []
+    },
+    {
+      "id": "-799-002",
+      "title": "Adoption and spread of the Phoenician alphabet in Greece",
+      "region": "Greece, Phoenicia",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "cultural",
+      "description": "Greek city-states are actively adopting and adapting the Phoenician consonantal alphabet during the 9th century BCE, a process that accelerates in this period. The Greek alphabet, with the addition of vowel signs, emerges from this contact. This represents a foundational shift in Mediterranean literacy and cultural transmission.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from inscribed pottery and votive objects (e.g., Dipylon Oinochoe, dated to mid-8th century, but alphabet adoption process spans 9th\u20138th centuries)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on alphabet adoption (Jeffery, Local Scripts of Archaic Greece; Naveh, Origins of the Alphabet)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The process of alphabet adoption spans roughly 850\u2013750 BCE. Assigning a specific year is conventional; the process was gradual and regionally variable.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of alphabet adoption in Greece remains debated. Some scholars argue for a later date (mid-8th century) based on the earliest securely dated inscriptions. The significance of 799 BCE specifically is conventional rather than marked by a documented event. No major disconfirming evidence undermines the events listed, but their annual specificity should be understood as approximate.",
+  "historiographic_note": "Documentation for 799 BCE is sparse and heavily dependent on Assyrian royal inscriptions, which are propagandistic in nature and focus on military achievements. Greek sources for this period are minimal; the historical record is dominated by Near Eastern and Egyptian sources. Sub-Saharan Africa, northern Europe, and the Americas are essentially absent from contemporary documentation. The year itself is not marked by any universally recognized event; the entries reflect broader patterns of the era.",
+  "graph_edges": [
+    {
+      "from": "-799-001",
+      "to": "-796-001",
+      "relation": "part_of",
+      "note": "Shalmaneser III's campaigns continue as part of his broader military program"
+    },
+    {
+      "from": "-799-002",
+      "to": "-750-001",
+      "relation": "led_to",
+      "note": "Alphabet adoption process leads to the emergence of fully developed Greek writing systems by mid-8th century"
+    }
+  ]
+}
