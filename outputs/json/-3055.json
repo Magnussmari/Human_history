@@ -1,0 +1,89 @@
+{
+  "year": -3055,
+  "year_label": "3055 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. The Old Kingdom of Egypt (Dynasty IV) is in its final phase; the Great Pyramids of Giza were completed roughly a century prior. In Mesopotamia, the Early Dynastic Period III is underway, with city-states like Lagash, Umma, and Uruk competing for regional dominance. The Indus Valley Civilization is in its mature phase. Writing systems (Egyptian hieroglyphics, cuneiform) are well-established and increasingly used for administrative purposes.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (beyond fragmentary Shang oracle bone records from later periods)",
+    "The Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-3055-001",
+      "title": "Reign of Menkaure, Pharaoh of Egypt (approximate period)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.9\u00b0N, 31.1\u00b0E",
+      "category": "political",
+      "description": "Menkaure (also Mykerinus) is traditionally dated to the mid-26th century BCE, though some Egyptologists place his reign in the 25th century. He is the builder of the third pyramid at Giza, smaller than those of Khufu and Khafre but still a monumental undertaking. His reign represents the continuation of Old Kingdom pyramid-building culture, though with declining resources compared to his predecessors. The pyramid of Menkaure marks a shift toward smaller royal monuments and may reflect economic or political constraints.",
+      "key_figures": [
+        "Menkaure (Pharaoh, Dynasty IV)"
+      ],
+      "sources": [
+        {
+          "name": "Abydos King List (temple of Seti I, 13th century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Turin King List (Ramesside papyrus, c. 1200 BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Giza pyramid complex",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Menkaure's reign is traditionally assigned to c. 2532\u20132503 BCE in conventional chronology, but absolute dating of Old Kingdom Egypt remains debated. Radiocarbon dating and astronomical calculations suggest possible revisions. The assignment to -3055 is approximate within a \u00b150-year window.",
+      "cross_references": []
+    },
+    {
+      "id": "-3055-002",
+      "title": "Lagash-Umma conflict (ongoing territorial disputes)",
+      "region": "Mesopotamia, Sumer",
+      "coordinates_approx": "31.9\u00b0N, 46.1\u00b0E",
+      "category": "military",
+      "description": "The city-states of Lagash and Umma engaged in a series of conflicts over control of the Gu'edena (a fertile plain between them) throughout the Early Dynastic III period. While specific battles cannot be dated to individual years, this era saw repeated warfare documented in inscriptions and the famous Stele of the Vultures (commemorating a Lagash victory, likely 25th century BCE). These conflicts represent early organized warfare and the emergence of professional military forces in Mesopotamia.",
+      "key_figures": [
+        "Eannatum of Lagash (military leader, traditional dating c. 2454 BCE)",
+        "Enakale of Umma (contemporary rival)"
+      ],
+      "sources": [
+        {
+          "name": "Stele of the Vultures (limestone monument, Lagash)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Royal inscriptions from Lagash (clay cylinders and statues)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The Lagash-Umma conflicts are well-attested in contemporary inscriptions, but absolute dating to specific years is impossible. The Stele of the Vultures is often dated to c. 2454 BCE, but this is based on king-list chronology which is itself debated. Assignment to -3055 is conventional and approximate.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The absolute chronology of the Old Kingdom of Egypt and Early Dynastic Mesopotamia is contested. Some scholars argue for a 'low chronology' that would place these events 100\u2013200 years later than traditional dating. Radiocarbon calibration and Nile flood records suggest the conventional chronology may be too high. Additionally, the significance of individual reigns like Menkaure's is often overstated in popular accounts; the decline in pyramid size may reflect practical constraints rather than political weakness.",
+  "historiographic_note": "The historical record for c. 3055 BCE is heavily dependent on later king-lists (compiled 1,000+ years after the events) and archaeological evidence that is difficult to date precisely. Egyptian chronology relies on astronomical calculations (heliacal rising of Sirius) and radiocarbon dating, both of which have margins of error. Mesopotamian dating is similarly uncertain. The surviving record is heavily weighted toward elite activities (royal monuments, military campaigns) and almost entirely silent on the lives of ordinary people, agriculture, trade, or technological innovation. No contemporary written records from this year survive.",
+  "graph_edges": [
+    {
+      "from": "-3055-001",
+      "to": "-3100-PYRAMID_BUILDING_TRADITION",
+      "relation": "part_of",
+      "note": "Menkaure's pyramid continues the Old Kingdom tradition of monumental royal tombs established by Khufu and Khafre"
+    },
+    {
+      "from": "-3055-002",
+      "to": "-3000-MESOPOTAMIAN_CITY_STATES",
+      "relation": "led_to",
+      "note": "Lagash-Umma conflicts foreshadow the consolidation of Mesopotamian city-states under Akkadian rule in the 24th century BCE"
+    }
+  ]
+}
