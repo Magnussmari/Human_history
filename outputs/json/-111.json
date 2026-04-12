@@ -1,0 +1,121 @@
+{
+  "year": -111,
+  "year_label": "111 BCE",
+  "era_context": "The late Hellenistic period continues. Han Dynasty under Emperor Wu remains at its zenith, conducting military and diplomatic expansion. The Seleucid Empire is fragmenting under civil war and Parthian pressure. Rome is in the late Republic, with the Jugurthine War recently concluded (-105) and social tensions building. In India, regional kingdoms compete for dominance following the Mauryan collapse.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-111-001",
+      "title": "Han Dynasty conquest of Nanyue (South Vietnam)",
+      "region": "Nanyue (modern southern China and northern Vietnam)",
+      "coordinates_approx": "21.0, 110.0",
+      "category": "military",
+      "description": "Emperor Wu of Han launched a military campaign to conquer the kingdom of Nanyue, which had maintained semi-independence since the Qin Dynasty. The conquest was completed in -111, bringing the region under direct Han control. This expanded Han territory southward and secured trade routes to Southeast Asia. The conquest involved significant military effort and resulted in the integration of Nanyue into the Han administrative system.",
+      "key_figures": [
+        "Emperor Wu of Han (r. -141 to -87)",
+        "Lu Bode (Han general)",
+        "Zhao Tuo (last king of Nanyue, deceased -137)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Nanyue sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The conquest of Nanyue in -111 is explicitly dated in Han chronicles (Shiji and Han Shu). This is one of the few events of this year with a specific, reliable date.",
+      "cross_references": []
+    },
+    {
+      "id": "-111-002",
+      "title": "Seleucid civil war and territorial fragmentation",
+      "region": "Seleucid Empire, Syria, Mesopotamia",
+      "coordinates_approx": "34.0, 40.0",
+      "category": "political",
+      "description": "The Seleucid Empire was embroiled in civil conflict between rival claimants to the throne. Antiochus IX Cyzicenus and other contenders fought for control, weakening central authority. This period of civil war accelerated the empire's decline and allowed Parthia to expand westward and Rome to increase its influence in the region.",
+      "key_figures": [
+        "Antiochus IX Cyzicenus (r. -114 to -95)",
+        "Seleucus VI Epiphanes (r. -96 to -95)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Numismatic evidence (coins of competing rulers)",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The civil war is well-attested, but specific events in -111 are not clearly dated. The conflict spanned multiple years; -111 is assigned by convention.",
+      "cross_references": []
+    },
+    {
+      "id": "-111-003",
+      "title": "Roman expansion in North Africa and the Mediterranean",
+      "region": "Roman Republic, North Africa, Mediterranean",
+      "coordinates_approx": "36.0, 10.0",
+      "category": "military",
+      "description": "Following the conclusion of the Jugurthine War in -105, Rome consolidated its control over North Africa and expanded its naval and commercial presence in the Mediterranean. Roman military expeditions and diplomatic missions were establishing Rome as the dominant power in the region, setting the stage for further expansion in the coming decades.",
+      "key_figures": [
+        "Roman Senate and magistrates"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome (surviving in epitomes)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Libyan Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broader pattern of Roman expansion is well-attested, but specific events in -111 are not sharply dated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The conquest of Nanyue is reliably dated to -111 in Han sources, making this one of the few years in this period with a clearly attested major event. However, the significance of this conquest was primarily regional; it did not have immediate global impact. The Seleucid civil war and Roman expansion are less precisely dated to -111 specifically and may be better understood as multi-year processes.",
+  "historiographic_note": "The year -111 is notable primarily for the Han conquest of Nanyue, which is well-documented in Chinese sources. Other events are less sharply dated. The historical record is dominated by Chinese and Roman sources; Parthian, Indian, and Southeast Asian perspectives are largely absent or reconstructed from external sources. The conquest of Nanyue represents Han expansion southward, but it is often underemphasized in Western-centric histories that focus on Mediterranean and European events.",
+  "graph_edges": [
+    {
+      "from": "-111-001",
+      "to": "-100-001",
+      "relation": "part_of",
+      "note": "Han territorial expansion continued through the early 2nd century BCE"
+    },
+    {
+      "from": "-111-002",
+      "to": "-95-001",
+      "relation": "part_of",
+      "note": "Seleucid civil war continued until the dynasty's effective end in the 1st century BCE"
+    }
+  ]
+}

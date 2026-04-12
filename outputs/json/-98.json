@@ -1,0 +1,126 @@
+{
+  "year": -98,
+  "year_label": "98 BCE",
+  "era_context": "The Roman Republic continues its descent into factional violence. The Social War's aftermath leaves deep scars. Mithridates VI remains the dominant power in the eastern Mediterranean. In China, the Han Dynasty under Xuandi is in its early consolidation phase. The Parthian Empire controls Central Asian trade routes.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia (limited contemporary records)"
+  ],
+  "events": [
+    {
+      "id": "-98-001",
+      "title": "Continued factional violence in Rome; optimates and populares clash",
+      "region": "Roman Republic, Italy",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Political violence escalates in Rome as optimates and populares factions compete for control. Tribunes and senators engage in increasingly bitter disputes. The machinery of the Republic is strained by the aftermath of the Social War and the integration of new Italian citizens. This period sees the rise of demagogic politics and the weakening of traditional institutions.",
+      "key_figures": [
+        "Various tribunes and senators",
+        "Gaius Marius (aging, in retirement)",
+        "Lucius Cornelius Sulla (rising military figure)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Civil Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Lives",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of political instability is clear, but specific events in 98 BCE are not well-documented in surviving sources. This entry reflects the broader era context rather than a specific documented event.",
+      "cross_references": [
+        "Part of broader Republican decline (-100 to -50)",
+        "Precedes First Civil War (-88)"
+      ]
+    },
+    {
+      "id": "-98-002",
+      "title": "Han Dynasty administrative reforms under Xuandi",
+      "region": "China, Han Dynasty",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "political",
+      "description": "Emperor Xuandi continues administrative consolidation, strengthening the central bureaucracy and reducing the power of regional kingdoms. His reign is marked by careful management of court factions and the promotion of capable administrators. These reforms lay groundwork for a more stable imperial system.",
+      "key_figures": [
+        "Emperor Xuandi of Han",
+        "Huo Guang (regent, died 68 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Shiji continuation",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Xuandi's administrative policies are well-documented in Chinese historical records. The general trajectory of his reign is clear, though specific reforms in 98 BCE are not individually dated.",
+      "cross_references": [
+        "Part of Han Dynasty stabilization (-99 to -49)",
+        "Precedes major Han-Xiongnu peace treaties (-70s BCE)"
+      ]
+    },
+    {
+      "id": "-98-003",
+      "title": "Mithridates VI maintains dominance in Black Sea and Asia Minor",
+      "region": "Pontus, Black Sea, Asia Minor",
+      "coordinates_approx": "41.0, 35.0",
+      "category": "political",
+      "description": "Mithridates VI continues to consolidate his power in the eastern Mediterranean. He maintains control over Pontic territories and exerts influence over neighboring kingdoms. His wealth and military strength make him the dominant regional power, though direct conflict with Rome has not yet erupted.",
+      "key_figures": [
+        "Mithridates VI Eupator (King of Pontus)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Mithridatic Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Mithridates' continued dominance is attested in later sources, but specific events in 98 BCE are not well-documented. The dating is approximate.",
+      "cross_references": [
+        "Part of Pontic expansion (-120 to -63 BCE)",
+        "Leads to First Mithridatic War (-88)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the historiographic record for 98 BCE is extremely thin. Most 'events' listed are generalizations about broader trends rather than documented occurrences in this specific year. Modern scholarship emphasizes that the year-by-year narrative for this period is largely reconstructed from broader patterns rather than contemporary documentation.",
+  "historiographic_note": "The historical record for 98 BCE is sparse and heavily dependent on later compilations. Contemporary sources are virtually absent. The year is known primarily through its position within broader historical trends (Republican decline, Han consolidation, Pontic expansion). Roman sources are particularly thin for this period; most information comes from later historians writing centuries after the events. Chinese sources are more systematic but still do not provide detailed year-by-year documentation for this specific year.",
+  "graph_edges": [
+    {
+      "from": "-98-001",
+      "to": "-88-002",
+      "relation": "led_to",
+      "note": "Continued political instability led to civil war"
+    },
+    {
+      "from": "-98-002",
+      "to": "-70-001",
+      "relation": "part_of",
+      "note": "Han consolidation continued"
+    },
+    {
+      "from": "-98-003",
+      "to": "-88-001",
+      "relation": "led_to",
+      "note": "Mithridates' dominance eventually triggered Roman response"
+    }
+  ]
+}

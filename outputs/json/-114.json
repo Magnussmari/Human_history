@@ -1,0 +1,88 @@
+{
+  "year": -114,
+  "year_label": "114 BCE",
+  "era_context": "Late Hellenistic period. Han Dynasty under Emperor Wu is at its height, conducting military campaigns and establishing the Silk Road. The Seleucid Empire is fragmenting under civil war and Parthian pressure. Rome is in the late Republic, with the Jugurthine War recently concluded (-105) and social tensions building. In India, the Sunga Dynasty controls the Gangetic plain.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-114-001",
+      "title": "Antiochus IX Cyzicenus becomes Seleucid king",
+      "region": "Seleucid Empire, Syria",
+      "coordinates_approx": "34.0, 36.0",
+      "category": "political",
+      "description": "Antiochus IX Cyzicenus, a Seleucid claimant, established himself as king of the Seleucid Empire around -114, though his reign was contested and the empire was fragmenting. His rule marked the continuation of Seleucid decline and civil conflict. The Seleucid Empire was now effectively divided among multiple claimants, with Parthia expanding westward and Rome increasing its influence.",
+      "key_figures": [
+        "Antiochus IX Cyzicenus (r. -114 to -95)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Numismatic evidence (coins of Antiochus IX)",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Antiochus IX's reign is dated to approximately -114 to -95 based on numismatic and textual evidence, but the exact year of his accession is not precisely attested. -114 is a conventional dating.",
+      "cross_references": []
+    },
+    {
+      "id": "-114-002",
+      "title": "Han Dynasty military campaigns and consolidation",
+      "region": "China, Central Asia, Mongolia",
+      "coordinates_approx": "35.0, 105.0",
+      "category": "military",
+      "description": "Emperor Wu of Han continued his aggressive military policy, conducting campaigns against the Xiongnu and consolidating Han control over Central Asia. These campaigns were part of a long-term strategy to secure the Silk Road and expand Han territorial and economic influence. The military expenditure was substantial and contributed to economic strain in later years.",
+      "key_figures": [
+        "Emperor Wu of Han (r. -141 to -87)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Han military activities during this period are well-attested in general, but specific events in -114 are not clearly dated in surviving sources.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Antiochus IX's accession to -114 is conventional and based on numismatic evidence and later historical accounts. Modern scholars debate the exact chronology of the late Seleucid period, and -114 may be off by a few years. The Han military campaigns are well-attested as a general pattern, but specific events in -114 are not clearly dated.",
+  "historiographic_note": "The year -114 has minimal specific documentation. The Seleucid accession of Antiochus IX is the most clearly attested event, based on numismatic evidence and later historical accounts. Han military activities are well-documented in Chinese sources but not dated to -114 specifically. The year -114 itself has no special significance in surviving records and is included by convention as part of a continuous chronicle. The historical record is dominated by Chinese and Hellenistic sources; Parthian, Indian, and other regional perspectives are largely absent.",
+  "graph_edges": [
+    {
+      "from": "-114-001",
+      "to": "-95-001",
+      "relation": "part_of",
+      "note": "Antiochus IX's reign lasted until approximately -95"
+    },
+    {
+      "from": "-114-002",
+      "to": "-111-001",
+      "relation": "part_of",
+      "note": "Han military expansion was ongoing during this period"
+    }
+  ]
+}

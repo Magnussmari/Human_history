@@ -1,0 +1,130 @@
+{
+  "year": -99,
+  "year_label": "99 BCE",
+  "era_context": "The Late Roman Republic in its final century of civil instability. The Social War (91\u201388 BCE) has recently concluded, leaving Rome's Italian allies newly enfranchised but resentful. Mithridates VI of Pontus dominates the eastern Mediterranean. In China, the Han Dynasty under Emperor Xuandi consolidates power after decades of court intrigue. The Parthian Empire controls the Silk Road trade routes.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Roman frontier knowledge",
+    "Mesoamerica (no contemporary written records in Roman/Mediterranean tradition)"
+  ],
+  "events": [
+    {
+      "id": "-99-001",
+      "title": "Mithridates VI campaigns in the Caucasus and Black Sea region",
+      "region": "Pontus, Caucasus, Black Sea",
+      "coordinates_approx": "41.0, 35.0",
+      "category": "military",
+      "description": "Mithridates VI Eupator, King of Pontus, consolidates control over the Black Sea region and campaigns against Scythian and Caucasian tribes. This period marks the height of Pontic power before direct confrontation with Rome. His expansion threatens Roman interests in Asia Minor and sets the stage for the Mithridatic Wars.",
+      "key_figures": [
+        "Mithridates VI Eupator (King of Pontus)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Mithridatic Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Mithridates' campaigns in this period are attested in later Greco-Roman sources but exact chronology of individual campaigns is uncertain. Dating to 99 BCE is approximate.",
+      "cross_references": [
+        "Follows from broader Pontic expansion in the 2nd century BCE",
+        "Leads to First Mithridatic War (-88-001)"
+      ]
+    },
+    {
+      "id": "-99-002",
+      "title": "Han Dynasty consolidation under Emperor Xuandi",
+      "region": "China, Han Dynasty territories",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "political",
+      "description": "Emperor Xuandi of Han (r. 74\u201349 BCE) is in his early reign, consolidating power after the turmoil of the Changyi Incident and court factionalism. He strengthens central authority and begins reforms that will stabilize the dynasty. This period marks a transition toward more stable governance after decades of regency conflicts.",
+      "key_figures": [
+        "Emperor Xuandi of Han (r. 74\u201349 BCE)",
+        "Huo Guang (regent, died 68 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, continued by Sima Tan",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Xuandi's reign dates are well-established in Chinese historical records. His consolidation of power in the early years of his reign is documented in official histories.",
+      "cross_references": [
+        "Part of broader Han Dynasty political stabilization",
+        "Precedes major Han-Xiongnu diplomatic initiatives in the 70s BCE"
+      ]
+    },
+    {
+      "id": "-99-003",
+      "title": "Roman Senate and People in factional conflict; prelude to civil wars",
+      "region": "Roman Republic, Italy",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "The Roman Republic remains deeply fractured after the Social War. Tensions between optimates (conservative aristocrats) and populares (reformist faction) intensify. The period 99\u201388 BCE sees escalating political violence and the emergence of military strongmen (Marius, Sulla) who will soon plunge Rome into civil war. This year marks the continuation of institutional decay.",
+      "key_figures": [
+        "Gaius Marius (retired general)",
+        "Lucius Cornelius Sulla (praetor, later dictator)",
+        "Various tribunes and senators"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome (surviving books cover earlier periods; later sources cite this era)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Civil Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Lives of Marius and Sulla",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general political instability of this period is well-attested, though specific events in 99 BCE are not always individually documented. The trajectory toward civil war is clear from historiographic consensus.",
+      "cross_references": [
+        "Leads to Social War aftermath (-91 to -88)",
+        "Precedes First Civil War (-88-001)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of 99 BCE as a turning point is somewhat overstated in older historiography. While political tensions were real, the immediate catalyst for civil war came in 88 BCE with the Mithridatic Wars and the conflict over the eastern command. 99 BCE itself was not a year of dramatic rupture but rather one of simmering instability. Modern scholarship emphasizes that the Republic's structural problems were long-standing, not suddenly acute in this year.",
+  "historiographic_note": "The historical record for 99 BCE is heavily dependent on later Greco-Roman sources (Appian, Plutarch, Strabo) written centuries after the events. Contemporary sources are sparse. Roman sources tend to emphasize political narrative and military events; economic and social conditions are less well-documented. Chinese sources are more systematic and contemporary (official histories compiled within generations). The year is well-attested for major political actors but poorly documented for events outside elite circles.",
+  "graph_edges": [
+    {
+      "from": "-99-001",
+      "to": "-88-001",
+      "relation": "led_to",
+      "note": "Mithridates' expansion and Roman response triggered the First Mithridatic War"
+    },
+    {
+      "from": "-99-003",
+      "to": "-88-002",
+      "relation": "led_to",
+      "note": "Political instability in Rome led to Sulla's march on Rome and civil war"
+    },
+    {
+      "from": "-99-002",
+      "to": "-70-001",
+      "relation": "part_of",
+      "note": "Han Dynasty consolidation continued through Xuandi's reign"
+    }
+  ]
+}

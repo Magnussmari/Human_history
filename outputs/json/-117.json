@@ -1,0 +1,113 @@
+{
+  "year": -117,
+  "year_label": "117 BCE",
+  "era_context": "Han Dynasty under Emperor Wu. This year marks the death of General Huo Qubing, one of the most celebrated military figures of the Han. The Xiongnu campaigns continue, though the intensity may be diminishing. Rome remains in the late Republic. The broader Eurasian world is experiencing increased military competition and the early stages of trade network development.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-117-001",
+      "title": "Death of General Huo Qubing",
+      "region": "China (location of death uncertain, possibly Chang'an or on campaign)",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "General Huo Qubing, one of Emperor Wu's most celebrated military commanders, dies in 117 BCE at approximately age 23\u201324. Huo Qubing had led multiple successful campaigns against the Xiongnu and was a key figure in Han military expansion. His death is a significant loss to the Han military establishment and marks the end of an era of particularly aggressive Han military campaigns. The exact cause and location of his death are not clearly attested in surviving sources, though some accounts suggest illness.",
+      "key_figures": [
+        "Huo Qubing (general, c. 140\u2013117 BCE)",
+        "Emperor Wu of Han",
+        "Wei Qing (uncle of Huo Qubing)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu by Ban Gu",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Huo Qubing's death in 117 BCE is consistently attested in Han sources. The year is well-established, though the exact circumstances are less clear.",
+      "cross_references": [
+        "-119-002 (Huo Qubing's campaigns)",
+        "-116-001 (aftermath and succession)"
+      ]
+    },
+    {
+      "id": "-117-002",
+      "title": "Han military campaigns continue against the Xiongnu",
+      "region": "Mongolia / Gobi Desert / Northern China frontier",
+      "coordinates_approx": "43.0, 105.0",
+      "category": "military",
+      "description": "Despite the death of Huo Qubing, Han military campaigns against the Xiongnu continue. General Wei Qing and other commanders maintain Han military pressure. The campaigns of this period are somewhat less dramatic than those of 119\u2013118 BCE, but they continue to secure Han territorial gains and trade route access.",
+      "key_figures": [
+        "Emperor Wu of Han",
+        "Wei Qing (general)",
+        "Other Han military commanders"
+      ],
+      "sources": [
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu by Ban Gu",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The continuation of campaigns is attested, but specific events for 117 BCE are not clearly distinguished from adjacent years in surviving sources.",
+      "cross_references": [
+        "-118-001 (preceding campaigns)"
+      ]
+    },
+    {
+      "id": "-117-003",
+      "title": "Roman censorship and administrative reforms",
+      "region": "Rome / Italian peninsula",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "In Rome, the year 117 BCE (637 AUC) sees the holding of the censorship, a major administrative office. The censors conduct a census and review of the citizen body, a process that is politically significant in the late Republic. The specific censors and their actions for this year are attested in the Fasti, though narrative sources are fragmentary.",
+      "key_figures": [
+        "Roman censors (names uncertain for this specific year)"
+      ],
+      "sources": [
+        {
+          "name": "Fasti Consulares",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The censorship is documented in the Fasti, but specific actions and significance are not well-attested in surviving narrative sources.",
+      "cross_references": [
+        "-118-003 (preceding year's political context)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of Huo Qubing's death in 117 BCE is sometimes overstated in historiography. While he was a celebrated general, his death did not immediately end Han military campaigns or represent a major strategic shift. Han military activity continued for decades afterward. The exact cause of his death is uncertain; some sources suggest illness, others suggest injury from a campaign. The traditional narrative of Huo Qubing as an undefeated military genius may be somewhat romanticized in later sources.",
+  "historiographic_note": "Sources for 117 BCE are similar to those for previous years: primarily later Han compilations for China, and fragmentary Roman records. The death of Huo Qubing is one of the few events from this year that is clearly attested and dated. The broader context of Han-Xiongnu relations and Roman internal politics is well-understood, but year-specific events are often uncertain.",
+  "graph_edges": [
+    {
+      "from": "-117-001",
+      "to": "-119-002",
+      "relation": "caused_by",
+      "note": "Huo Qubing's death ends the period of his most celebrated campaigns"
+    },
+    {
+      "from": "-117-002",
+      "to": "-117-001",
+      "relation": "contemporary_with",
+      "note": "Military campaigns continue despite Huo Qubing's death"
+    }
+  ]
+}

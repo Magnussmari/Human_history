@@ -1,0 +1,111 @@
+{
+  "year": -110,
+  "year_label": "110 BCE",
+  "era_context": "The late Hellenistic period in the Eastern Mediterranean and Near East, following the fragmentation of Alexander's empire. The Seleucid Empire was in decline, facing pressure from Parthia in the east and Rome in the west. In China, the Han Dynasty under Emperor Wu was at its height, conducting military campaigns and establishing the Silk Road. In India, the Mauryan Empire had collapsed; regional kingdoms dominated. Rome was in the late Republic, approaching the Social War.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe beyond Roman contact",
+    "Mesoamerica (no contemporary written records in Western sources)"
+  ],
+  "events": [
+    {
+      "id": "-110-001",
+      "title": "Han Dynasty military campaign against the Xiongnu",
+      "region": "Central Asia, Mongolia, Northern China",
+      "coordinates_approx": "40.0, 105.0",
+      "category": "military",
+      "description": "Emperor Wu of Han continued aggressive campaigns against the Xiongnu confederation, seeking to secure the Silk Road trade routes and expand Han territorial control. These campaigns, part of a decades-long conflict, resulted in significant military expenditure and the establishment of Han garrisons in the Tarim Basin. The campaigns demonstrated Han military superiority but also drained resources, contributing to economic strain in later years.",
+      "key_figures": [
+        "Emperor Wu of Han (r. -141 to -87)",
+        "Wei Qing (general, deceased -106)",
+        "Huo Qubing (general, deceased -117)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled ~-109 to -91",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu, compiled 1st century CE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Xiongnu campaigns of this period are well-attested in Han chronicles, though specific annual details are sometimes conflated. Dating to -110 is approximate within a 5-year window.",
+      "cross_references": []
+    },
+    {
+      "id": "-110-002",
+      "title": "Seleucid-Parthian conflict in Mesopotamia",
+      "region": "Mesopotamia, Parthian Empire",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "The Seleucid Empire under Antiochus IX or his successors faced continued pressure from the expanding Parthian Empire under Mithridates II. Parthia was consolidating control over the Iranian plateau and Mesopotamia, gradually eroding Seleucid territorial holdings. This period marks the beginning of the end of Seleucid dominance in the Near East.",
+      "key_figures": [
+        "Antiochus IX Cyzicenus (Seleucid, r. -114 to -95)",
+        "Mithridates II of Parthia (r. ~-124 to -88)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Syrian Wars (written 2nd century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography (written early 1st century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broader conflict is well-attested, but specific events in -110 are not clearly dated in surviving sources. This entry reflects the general trajectory of Seleucid decline during this decade.",
+      "cross_references": []
+    },
+    {
+      "id": "-110-003",
+      "title": "Roman Social War preparations and political tension",
+      "region": "Roman Republic, Italy",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "The Roman Republic was experiencing increasing tension between the Senate and Italian allies (socii) over citizenship rights and political representation. These tensions would erupt into the Social War in -91. In -110, diplomatic efforts and political maneuvering were ongoing, with various proposals for extending citizenship being debated and rejected.",
+      "key_figures": [
+        "Marcus Livius Drusus (tribune, proposed reforms)",
+        "Senate conservatives"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome, Books 70-71 (surviving in fragments and epitomes)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Civil Wars (written 2nd century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The political context is well-established, but specific events in -110 are not sharply dated. The Social War began in -91, and tensions built over the preceding decade.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating and specific events of -110 are not sharply attested in contemporary sources. Most information comes from later compilations (Sima Qian's Shiji, written decades later; Roman historians writing centuries later). The significance of this particular year is largely conventional\u2014it falls within broader patterns of Han expansion, Seleucid decline, and Roman political tension, but no single event of -110 is definitively dated to this year rather than adjacent years.",
+  "historiographic_note": "Documentation for -110 is moderate but heavily dependent on later compilations. Chinese sources (Shiji, Han Shu) provide the most detailed information, though they were compiled after the events. Roman sources are fragmentary and often written centuries later. Parthian sources are minimal; Parthian history is largely reconstructed from Greek and Roman accounts, which are often hostile or incomplete. The year -110 itself has no special significance in surviving records; it is included by convention as part of a continuous chronicle. Bias toward Han and Roman perspectives is pronounced; Parthian, Indian, and other regional histories are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-110-001",
+      "to": "-100-001",
+      "relation": "part_of",
+      "note": "Han campaigns against Xiongnu continued through the early 2nd century BCE"
+    },
+    {
+      "from": "-110-003",
+      "to": "-91-001",
+      "relation": "led_to",
+      "note": "Political tensions of -110 escalated into the Social War in -91"
+    }
+  ]
+}

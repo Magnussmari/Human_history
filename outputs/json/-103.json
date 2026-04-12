@@ -1,0 +1,131 @@
+{
+  "year": -103,
+  "year_label": "103 BCE",
+  "era_context": "The Roman Republic is in the aftermath of the Social War (91\u201388 BCE), which is ongoing or recently concluded. Gaius Marius is at the height of his military power, having defeated Germanic tribes (Cimbri and Teutones) that threatened Rome. The populares faction is gaining strength. In China, Emperor Wu of Han is consolidating power and beginning military expansion. The Hellenistic world is fragmenting.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Indian subcontinent",
+    "Americas",
+    "Northern Europe beyond Roman contact"
+  ],
+  "events": [
+    {
+      "id": "-103-001",
+      "title": "Gaius Marius defeats the Teutones at the Battle of Aquae Sextiae",
+      "region": "Roman Republic (Southern Gaul)",
+      "coordinates_approx": "43.5, 5.4",
+      "category": "military",
+      "description": "Gaius Marius, the Roman general, defeats the Teutones (a Germanic tribe) at the Battle of Aquae Sextiae (modern Aix-en-Provence) in southern Gaul. This victory is a turning point in Rome's struggle against Germanic invasions that had threatened the Republic for decades. The Teutones, who had migrated southward from the north, are decisively crushed. Marius' victory enhances his reputation and political power, making him the dominant figure in Rome.",
+      "key_figures": [
+        "Gaius Marius (Roman general)",
+        "Teutones leaders (unnamed)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Marius, chapters 19\u201324",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Livy, History of Rome (cited in epitomes)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Gallic Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Battle of Aquae Sextiae is well-attested in ancient sources. The date is sometimes given as 102 BCE, but modern scholarship generally favors 103 BCE.",
+      "cross_references": [
+        "Leads to -102-001 (Battle of Vercellae)",
+        "Leads to -100-001 (Marius' political dominance)"
+      ]
+    },
+    {
+      "id": "-103-002",
+      "title": "Han Dynasty military campaigns in the northwest",
+      "region": "Han China and Central Asia",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "military",
+      "description": "Emperor Wu of Han continues military campaigns in the northwest, pushing against Xiongnu forces and expanding Han control over Central Asian territories. These campaigns are part of a broader strategy to secure trade routes and establish Han hegemony over the region.",
+      "key_figures": [
+        "Emperor Wu of Han (Han emperor)",
+        "Xiongnu leaders (adversaries)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Han military campaigns in this period are well-documented, but the exact dates of individual campaigns are sometimes uncertain. 103 BCE falls within a period of sustained Han military activity.",
+      "cross_references": [
+        "Contemporary with -103-001 (Marius' military victories)",
+        "Leads to -101-003 (Han military campaigns)"
+      ]
+    },
+    {
+      "id": "-103-003",
+      "title": "Ptolemy IX Soter II's reign in Egypt",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.0, 31.2",
+      "category": "political",
+      "description": "Ptolemy IX Soter II continues his reign in Egypt (116\u2013107 BCE), marked by internal instability and conflict with his brother Ptolemy X. The Ptolemaic dynasty's power is declining; Egypt is becoming economically dependent on grain exports and politically dependent on Rome.",
+      "key_figures": [
+        "Ptolemy IX Soter II (Ptolemaic king)",
+        "Ptolemy X Alexander I (rival claimant)"
+      ],
+      "sources": [
+        {
+          "name": "Josephus, Against Apion and Antiquities of the Jews",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Papyri from Egypt",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ptolemy IX's reign dates are well-established. The year 103 BCE falls within his reign (116\u2013107 BCE).",
+      "cross_references": [
+        "Contemporary with -103-001 (Marius' military victories)",
+        "Leads to -102-003 (Ptolemy IX's continued reign)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Battle of Aquae Sextiae is disputed. Some ancient sources place it in 102 BCE, others in 103 BCE. Modern scholars are divided; the exact year is uncertain. The significance of the battle is sometimes overstated in older historiography; while it was a decisive victory, the Teutones threat had been building for years, and the battle was one of several engagements in a longer campaign.",
+  "historiographic_note": "The year 103 BCE is moderately well-documented for Rome and China, but sources are primarily military and political in focus. For Rome, sources are all later compilations (Plutarch, Livy epitomes, Appian) written centuries after the events. The exact dating of the Cimbric Wars is uncertain due to conflicting ancient sources. For China, the Shiji and Han Shu provide general information about Emperor Wu's reign but not year-by-year detail. There is a significant gap in sources for the Mediterranean world outside Rome and Egypt, and for regions beyond the Mediterranean and China.",
+  "graph_edges": [
+    {
+      "from": "-103-001",
+      "to": "-102-001",
+      "relation": "led_to",
+      "note": "The Battle of Aquae Sextiae led to the Battle of Vercellae"
+    },
+    {
+      "from": "-103-001",
+      "to": "-100-001",
+      "relation": "led_to",
+      "note": "Marius' military victories led to his political dominance"
+    },
+    {
+      "from": "-103-002",
+      "to": "-101-003",
+      "relation": "led_to",
+      "note": "Han military campaigns in the northwest facilitated later expansion"
+    }
+  ]
+}

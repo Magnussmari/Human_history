@@ -1,0 +1,92 @@
+{
+  "year": -106,
+  "year_label": "106 BCE",
+  "era_context": "Han Dynasty under Emperor Wu continues military expansion and consolidation. Ptolemaic Egypt is under Ptolemy X's rule, facing economic and political challenges. Rome is in the late Republic, with factional tensions building toward civil war. The Mediterranean and Asian worlds are increasingly interconnected through trade and military conflict.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia (limited written records; primarily known through Chinese sources)"
+  ],
+  "events": [
+    {
+      "id": "-106-001",
+      "title": "Han Dynasty administrative reorganization under Emperor Wu",
+      "region": "Han Dynasty, China",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Wu of Han implements administrative reforms to consolidate control over the expanding empire. These reforms include the division of the empire into thirteen commanderies (later expanded), each with a regional inspector. The reforms are designed to prevent the concentration of power in the hands of regional governors and to improve tax collection and military recruitment. This administrative reorganization is part of Wu's broader strategy to centralize power and fund his military campaigns.",
+      "key_figures": [
+        "Emperor Wu of Han (r. 141\u201387 BCE)",
+        "Court officials and administrators (names not specified in available sources)"
+      ],
+      "sources": [
+        {
+          "name": "Han shu by Ban Gu, compiled 1st century CE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Shiji by Sima Qian, compiled c. 109\u201391 BCE",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The administrative reforms are well-attested, but the exact year of implementation is uncertain. Traditional sources date the division into thirteen commanderies to 106 BCE, but some scholars argue for slightly different dates. The dating is approximate within \u00b12 years.",
+      "cross_references": [
+        "Part of Han Dynasty's broader centralization under Emperor Wu (-141 to -87)",
+        "Related to Han military expansion and consolidation"
+      ]
+    },
+    {
+      "id": "-106-002",
+      "title": "Ptolemy X Alexander I faces internal opposition and economic crisis",
+      "region": "Egypt, Eastern Mediterranean",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Ptolemy X's reign continues to be marked by internal instability and economic strain. The papyrological record shows evidence of financial difficulties, including debasement of currency and increased taxation. Internal opposition to his rule is growing, particularly from the Alexandrian court factions and the priesthood. These challenges will eventually lead to his deposition in 88 BCE.",
+      "key_figures": [
+        "Ptolemy X Alexander I (r. 107\u201388 BCE)",
+        "Cleopatra III (co-ruler/regent)",
+        "Alexandrian court factions (names not specified)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrological evidence from Ptolemaic Egypt",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Numismatic evidence (coins of Ptolemy X)",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader pattern of economic and political crisis is evident from papyrological and numismatic evidence, but specific events of 106 BCE are not detailed in surviving sources.",
+      "cross_references": [
+        "Part of Ptolemy X's reign (107\u201388 BCE)",
+        "Precedes his deposition in -88"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Han administrative reorganization is often presented as a straightforward centralization of power, but recent scholarship emphasizes the resistance from regional elites and the incomplete nature of the reforms. The economic crisis in Ptolemaic Egypt is sometimes attributed solely to military expenditures, but modern scholarship points to structural economic problems, including the decline of agricultural productivity and the loss of trade monopolies. The significance of these events in 106 BCE is difficult to assess, as contemporary sources do not emphasize them as major turning points.",
+  "historiographic_note": "Documentation for 106 BCE is sparse and heavily skewed toward China and the Mediterranean world. Chinese sources provide some detail about Han administrative reforms, but the exact year is uncertain. Egyptian evidence relies on papyri and coins, which are fragmentary and do not provide detailed narrative accounts. Roman sources are silent on this year. The 'significance' of events listed is inferred from broader historical patterns rather than documented in detail. No synchronized written records exist for sub-Saharan Africa, Northern Europe, or the Americas.",
+  "graph_edges": [
+    {
+      "from": "-106-001",
+      "to": "-100-001",
+      "relation": "part_of",
+      "note": "Han administrative reorganization is part of Emperor Wu's broader centralization strategy"
+    },
+    {
+      "from": "-106-002",
+      "to": "-88-001",
+      "relation": "led_to",
+      "note": "Ptolemy X's economic and political crisis leads to his deposition in 88 BCE"
+    }
+  ]
+}

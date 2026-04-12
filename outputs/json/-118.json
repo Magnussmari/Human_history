@@ -1,0 +1,112 @@
+{
+  "year": -118,
+  "year_label": "118 BCE",
+  "era_context": "Han Dynasty under Emperor Wu continues its expansionist phase. The Xiongnu campaigns are ongoing. Rome remains in the late Republic, with factional tensions unresolved. This is a period of significant cross-Eurasian military and diplomatic activity, though direct contact between Han and Rome remains indirect.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica (year-specific events not datable)"
+  ],
+  "events": [
+    {
+      "id": "-118-001",
+      "title": "Continuation of Han military campaigns against the Xiongnu",
+      "region": "Mongolia / Gobi Desert / Northern China frontier",
+      "coordinates_approx": "43.0, 105.0",
+      "category": "military",
+      "description": "The Han military campaigns against the Xiongnu, initiated in 119 BCE, continue into 118 BCE. General Huo Qubing and other Han commanders maintain pressure on Xiongnu forces. These campaigns are part of Emperor Wu's broader strategy to secure the western trade routes and eliminate the Xiongnu as a major threat. The campaigns result in significant Han victories and the capture of Xiongnu prisoners and livestock, though the Xiongnu confederation remains a formidable power.",
+      "key_figures": [
+        "Emperor Wu of Han",
+        "Huo Qubing (general, d. 117 BCE)",
+        "Wei Qing (general)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu by Ban Gu",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The campaigns are well-attested, but precise year-by-year chronology is uncertain. 118 BCE is assigned based on the known duration of the campaign phase (c. 119\u2013117 BCE).",
+      "cross_references": [
+        "-119-001 (preceding campaign)",
+        "-117-001 (following year)"
+      ]
+    },
+    {
+      "id": "-118-002",
+      "title": "Han diplomatic and military consolidation in the western regions",
+      "region": "Xinjiang / Tarim Basin",
+      "coordinates_approx": "40.0, 85.0",
+      "category": "political",
+      "description": "As Han military pressure on the Xiongnu increases, Han influence expands into the western regions (Xinjiang and the Tarim Basin). Han garrisons and administrative posts are established to secure trade routes and prevent Xiongnu expansion westward. This represents the beginning of Han territorial consolidation in Central Asia, which will eventually lead to the establishment of the Silk Road trade networks.",
+      "key_figures": [
+        "Emperor Wu of Han",
+        "Han military commanders and administrators"
+      ],
+      "sources": [
+        {
+          "name": "Han Shu by Ban Gu",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Xinjiang (pottery, inscriptions, fortifications)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general process of Han expansion into the western regions is well-attested, but precise dating of specific administrative establishments is uncertain. The period c. 119\u2013110 BCE is assigned by historiographic consensus.",
+      "cross_references": [
+        "-119-001 (military campaigns enabling expansion)"
+      ]
+    },
+    {
+      "id": "-118-003",
+      "title": "Roman political instability and factional conflict",
+      "region": "Rome / Italian peninsula",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Rome continues to experience political turmoil in the aftermath of the Social War. Factional conflicts between the Optimates and populist movements intensify. The year 118 BCE (636 AUC) sees continued electoral disputes and political violence. The specific magistrates and events for this year are poorly attested in surviving sources.",
+      "key_figures": [
+        "Roman Senate and magistrates (names uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Fasti Consulares",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Roman magistracies are documented in the Fasti, but narrative sources for this specific year are fragmentary or lost.",
+      "cross_references": [
+        "-119-003 (preceding year's political context)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise chronology of Han campaigns in 118 BCE versus 119 BCE is debated. Some scholars argue that the major campaigns occurred in 121 BCE, with 118 BCE representing a consolidation phase rather than active campaigning. The significance of these campaigns in opening the Silk Road is often overstated in popular historiography; trade routes developed gradually over decades, not as a result of a single military victory.",
+  "historiographic_note": "Sources for 118 BCE are similar to those for 119 BCE: primarily later Han compilations (Shiji, Han Shu) for China, and fragmentary Roman records. The bias toward military and political history is pronounced. Archaeological evidence from Xinjiang provides supplementary information about Han expansion, but dating to specific years is difficult.",
+  "graph_edges": [
+    {
+      "from": "-118-001",
+      "to": "-119-001",
+      "relation": "led_to",
+      "note": "Continuation of the campaign phase initiated in 119 BCE"
+    },
+    {
+      "from": "-118-002",
+      "to": "-118-001",
+      "relation": "part_of",
+      "note": "Military campaigns enable administrative consolidation in the western regions"
+    }
+  ]
+}
