@@ -1,0 +1,82 @@
+{
+  "year": -990,
+  "year_label": "990 BCE",
+  "era_context": "The early Iron Age II in the Levant and Eastern Mediterranean. The Neo-Assyrian Empire is in its formative phase under Ashur-dan II (934\u2013912 BCE). In the Aegean, the Greek Dark Ages are ending; the Geometric period dominates pottery and settlement patterns. In South Asia, the Vedic period continues; the Rigveda oral tradition is being transmitted. Egypt is in the Third Intermediate Period (c. 1070\u2013664 BCE), with the New Kingdom's unified authority fragmented among competing priesthoods and regional rulers.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse settlement evidence)",
+    "East Asia (limited contemporary written records outside China)",
+    "Mesoamerica (sparse dating precision for this era)"
+  ],
+  "events": [
+    {
+      "id": "-990-001",
+      "title": "Ashur-dan II consolidates Assyrian power and expands northward",
+      "region": "Mesopotamia (Assyria)",
+      "coordinates_approx": "35.5, 36.2",
+      "category": "military",
+      "description": "Ashur-dan II (r. 934\u2013912 BCE) conducts military campaigns to restore Assyrian territorial control after a period of decline. He campaigns in the Zagros Mountains and Upper Mesopotamia, reasserting Assyrian dominance and laying groundwork for the later Neo-Assyrian Empire's expansion. These campaigns are documented in royal inscriptions and represent the beginning of Assyria's resurgence as a major power.",
+      "key_figures": [
+        "Ashur-dan II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Royal inscriptions of Ashur-dan II (cuneiform on stone and clay)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Synchronistic History (Babylonian chronicle comparing Assyrian and Babylonian rulers)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ashur-dan II's reign is well-attested in Assyrian royal inscriptions. The specific year -990 falls within his documented reign (934\u2013912 BCE), though individual campaign dates within his reign are sometimes approximate.",
+      "cross_references": []
+    },
+    {
+      "id": "-990-002",
+      "title": "Egyptian priesthood of Amun consolidates wealth and autonomy in Upper Egypt",
+      "region": "Egypt (Thebes/Waset)",
+      "coordinates_approx": "25.7, 32.6",
+      "category": "religious",
+      "description": "During the Third Intermediate Period, the High Priests of Amun at Thebes accumulate vast landholdings and autonomous authority, effectively ruling Upper Egypt independently of the nominal pharaonic authority in the north. By the 10th century BCE, this priestly state is well-established, controlling temples, agricultural lands, and administrative apparatus. This represents a fundamental shift in Egyptian political structure.",
+      "key_figures": [
+        "High Priests of Amun (names vary; specific individuals for 990 BCE not definitively identified)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions and administrative papyri from Thebes",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Third Intermediate Period Egypt",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad process of priestly consolidation is well-documented; the specific state of affairs in 990 BCE is inferred from the trajectory of the Third Intermediate Period (c. 1070\u2013664 BCE) and later evidence.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of individual Assyrian campaigns under Ashur-dan II is sometimes debated; some scholars place certain campaigns slightly earlier or later within his reign. The extent of priestly autonomy in Egypt during this specific decade is inferred rather than explicitly documented for 990 BCE itself.",
+  "historiographic_note": "The 10th century BCE is relatively well-documented for Mesopotamia (Assyrian inscriptions) and moderately documented for Egypt (temple records, administrative texts). However, the precision of dating individual years is often \u00b12\u20135 years. The Aegean and South Asia are poorly documented for specific events in this year. Surviving sources are heavily weighted toward political and religious elites; economic and social history is fragmentary.",
+  "graph_edges": [
+    {
+      "from": "-990-001",
+      "to": "-912-001",
+      "relation": "part_of",
+      "note": "Ashur-dan II's campaigns are part of his broader reign (934\u2013912 BCE)"
+    },
+    {
+      "from": "-990-002",
+      "to": "-664-001",
+      "relation": "led_to",
+      "note": "Priestly consolidation in Upper Egypt continues until the Late Period (664 BCE)"
+    }
+  ]
+}
