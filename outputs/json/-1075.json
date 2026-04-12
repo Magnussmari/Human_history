@@ -1,0 +1,85 @@
+{
+  "year": -1075,
+  "year_label": "1076 BCE",
+  "era_context": "The Late Bronze Age collapse is in its final stages or recently concluded (c. 1200\u20131050 BCE). The New Kingdom of Egypt under the Twentieth Dynasty is in decline; the Ramessid period is ending. The Levant, Anatolia, and the Aegean are experiencing severe disruption: the palatial civilisations of the Mycenaean world have fallen, the Hittite Empire has collapsed, and the Sea Peoples have dispersed. Iron Age societies are beginning to consolidate in the Levant and Greece. In China, the Shang Dynasty is in its final century before the Zhou conquest.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe (pre-literate societies, archaeological record only)",
+    "Mesoamerica (limited synchronisation with Old World chronologies)",
+    "South Asia (Vedic period; oral traditions not yet fixed in writing)"
+  ],
+  "events": [
+    {
+      "id": "-1075-001",
+      "title": "Reign of Ramesses XI, late Twentieth Dynasty Egypt",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "25.5, 32.5",
+      "category": "political",
+      "description": "Ramesses XI (c. 1099\u20131069 BCE in conventional chronology, though some scholars place his reign slightly earlier) is ruling Egypt during a period of severe institutional decline. The central authority of the pharaoh is fragmenting; the High Priests of Amun at Thebes are accumulating independent power and wealth, effectively ruling Upper Egypt as a theocratic state within the state. The Libyan mercenary population is increasing in the Delta. This period marks the effective end of the New Kingdom's unified authority.",
+      "key_figures": [
+        "Ramesses XI (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak temple inscriptions and administrative papyri (Twentieth Dynasty records)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List and Abydos King List",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses XI's reign is well-attested in temple records and administrative documents, but absolute dating within the Late Bronze Age collapse remains debated. Conventional chronology places him c. 1099\u20131069 BCE; some scholars argue for dates 20\u201330 years earlier or later.",
+      "cross_references": [
+        "Follows from the reign of Ramesses X (-1085 to -1078 approx.)",
+        "Precedes the Twenty-first Dynasty fragmentation (-1069 onwards)"
+      ]
+    },
+    {
+      "id": "-1075-002",
+      "title": "Consolidation of Theban priesthood authority in Upper Egypt",
+      "region": "Egypt (Upper Egypt, Thebes/Waset)",
+      "coordinates_approx": "25.7, 32.6",
+      "category": "political",
+      "description": "The High Priests of Amun at Thebes are now effectively autonomous rulers of Upper Egypt, controlling vast temple estates and military resources. This represents a fundamental shift in Egyptian governance: the pharaoh retains nominal authority and the title, but real power in the south has devolved to the priesthood. This bifurcation of authority will persist into the Twenty-first Dynasty and marks the beginning of the end of pharaonic centralised power.",
+      "key_figures": [
+        "High Priests of Amun (names uncertain for this specific year)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak temple archives and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyri documenting temple land holdings and revenues",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The process of priestly accumulation of power is well-documented archaeologically and epigraphically, but the precise year of full autonomy is not marked by a single event. This entry represents the state of affairs c. 1075 BCE.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Ramesses XI's reign and the exact timeline of Theban priestly autonomy remain contested. Some scholars (e.g., Krauss, Cline) argue for a 'low chronology' that would place these events 20\u201330 years later; others defend the 'conventional chronology' used here. The degree to which the priesthood was already autonomous versus gradually accumulating power is also debated\u2014some sources suggest the process was more gradual than a sudden 'takeover.' Additionally, the extent of Ramesses XI's actual authority outside Thebes is unclear from surviving sources.",
+  "historiographic_note": "The historical record for Egypt in this period is relatively rich (temple inscriptions, administrative papyri, king lists), but it is heavily biased toward the perspective of the royal court and the priesthood. The experiences of the broader population, the military, and the Libyan populations are poorly documented. The collapse of centralised authority is inferred from the absence of monumental building projects and the shift in administrative records rather than from explicit contemporary accounts of 'decline.' Absolute chronology for this period remains contested among Egyptologists, with disagreements of \u00b120\u201330 years.",
+  "graph_edges": [
+    {
+      "from": "-1075-001",
+      "to": "-1069-XXX",
+      "relation": "led_to",
+      "note": "Ramesses XI's reign ends the Twentieth Dynasty; succeeded by the Twenty-first Dynasty, which formalises the split between northern and southern authority."
+    },
+    {
+      "from": "-1075-002",
+      "to": "-1075-001",
+      "relation": "part_of",
+      "note": "The priestly autonomy is a consequence of the broader decline of pharaonic authority under Ramesses XI."
+    }
+  ]
+}

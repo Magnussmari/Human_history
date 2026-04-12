@@ -1,0 +1,85 @@
+{
+  "year": -1074,
+  "year_label": "1074 BCE",
+  "era_context": "Late Bronze Age collapse aftermath and early Iron Age transition. The Mediterranean palace civilisations (Mycenaean Greece, Hittite Empire, Ugarit, Egyptian New Kingdom) have recently collapsed or are in severe decline. Egypt under Ramesses III's successors faces internal fragmentation and economic strain. The Sea Peoples' migrations and invasions have disrupted trade networks. Iron-working technology is spreading but not yet dominant. Assyria is in a period of weakness; Babylon is fragmented. This is a period of reduced literacy, population movement, and cultural discontinuity across the Eastern Mediterranean and Near East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; archaeological evidence sparse for this specific year)",
+    "East Asia (Chinese records exist but are not well-integrated into Western historiography for this period)",
+    "Mesoamerica (no written records; archaeological dating uncertain)",
+    "Northern Europe (no contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1074-001",
+      "title": "Reign of Ramesses VI in Egypt",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "26.0, 32.5",
+      "category": "political",
+      "description": "Ramesses VI (Nebmaatre-Meryamun) is attested as ruling Egypt during this period, though his exact regnal dates remain debated among Egyptologists. He inherited a kingdom already weakened by the reign of Ramesses III and faced continued economic difficulties, including labour strikes and administrative fragmentation. His reign saw reduced military activity and further erosion of central authority, particularly in Upper Egypt where the priesthood of Amun accumulated increasing power and land holdings.",
+      "key_figures": [
+        "Ramesses VI (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak temple inscriptions and Abydos king list",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Ostraca from Deir el-Medina (workers' records)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Regnal dates for late Ramessid pharaohs are disputed; Ramesses VI's reign is typically placed 1141\u20131133 BCE in conventional chronology, but some scholars argue for dates closer to 1150\u20131142 BCE. The year -1074 (1075 BCE in astronomical year numbering) falls within the probable range but is not precisely fixed.",
+      "cross_references": []
+    },
+    {
+      "id": "-1074-002",
+      "title": "Continued fragmentation of Egyptian authority in Nubia",
+      "region": "Nubia and Upper Egypt",
+      "coordinates_approx": "18.0, 33.0",
+      "category": "political",
+      "description": "During the late Ramessid period, Egyptian control over Nubia (Kush) weakened significantly. Nubian chiefdoms and emerging kingdoms began to assert independence from Egyptian overlordship. Archaeological evidence and later Nubian sources suggest this period saw the rise of local Nubian elites and the beginning of what would become the Napatan kingdom. Egyptian garrisons and administrative presence in Lower Nubia declined.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Nubian sites (Napata, Meroe region)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Later Nubian and Greek sources (Herodotus, Strabo) describing Nubian political development",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The precise timing of Nubian independence from Egypt is not fixed to a specific year. This process occurred gradually over the 12th\u201311th centuries BCE. Assignment to -1074 is conventional within the broader late Ramessid period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The conventional chronology placing Ramesses VI's reign in the 1140s\u20131130s BCE is itself contested. Some scholars (notably Immanuel Velikovsky and followers of the 'low chronology' school) argue for significantly later dates, which would shift this year's events. However, the low chronology remains a minority position in mainstream Egyptology. Additionally, the significance of Ramesses VI's reign has been somewhat diminished by recent scholarship, which emphasises that the 'decline' of the New Kingdom was gradual and that administrative fragmentation did not preclude continued cultural and religious vitality.",
+  "historiographic_note": "Documentation for this year is heavily dependent on Egyptian sources, particularly temple inscriptions and administrative ostraca. The record is biased toward elite activities and religious institutions. Nubian and Levantine perspectives are largely absent from contemporary documentation. The dating of late Ramessid pharaohs relies on astronomical calculations, king lists (which contain gaps and inconsistencies), and stratigraphic archaeology\u2014all of which have margins of error. The 'Bronze Age collapse' narrative has dominated interpretation of this period, potentially obscuring continuities and local resilience.",
+  "graph_edges": [
+    {
+      "from": "-1074-001",
+      "to": "-1070-001",
+      "relation": "led_to",
+      "note": "Ramesses VI's reign contributed to the conditions that led to the end of the Ramessid dynasty and the rise of the 21st Dynasty."
+    },
+    {
+      "from": "-1074-002",
+      "to": "-1000-NUBIAN_KINGDOM_RISE",
+      "relation": "part_of",
+      "note": "Nubian independence in this period was part of the longer process leading to the emergence of the Napatan kingdom by the 8th century BCE."
+    }
+  ]
+}

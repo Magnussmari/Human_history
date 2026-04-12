@@ -1,0 +1,128 @@
+{
+  "year": -1067,
+  "year_label": "1068 BCE",
+  "era_context": "Late Twentieth Dynasty Egypt; priesthood of Amun increasingly dominant in Upper Egypt. Eastern Mediterranean trade networks recovering. Early Iron Age in the Levant and Aegean. Western Zhou Dynasty in China consolidating power and expanding administrative reach. This period marks the transition from Bronze Age to Iron Age in the Mediterranean and Near East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-1067-001",
+      "title": "Egyptian royal authority continues to decline; priestly power increases",
+      "region": "Egypt, particularly Upper Egypt (Thebes)",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "The pharaoh of the Twentieth Dynasty (likely Ramesses XI) exercises diminishing control over Upper Egypt, where the High Priests of Amun at Thebes effectively govern independently. This bifurcation of power\u2014the pharaoh controlling Lower Egypt from the north, the priesthood controlling Upper Egypt from Thebes\u2014marks a fundamental shift in Egyptian political structure. Papyri document administrative disputes and the priesthood's accumulation of temple lands and wealth.",
+      "key_figures": [
+        "Ramesses XI (Pharaoh, if this year falls within his reign)",
+        "High Priests of Amun at Thebes"
+      ],
+      "sources": [
+        {
+          "name": "Papyri from Deir el-Medina and Thebes; temple records from Karnak",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Inscriptions from temples and tombs",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The decline of royal authority and rise of priestly power in the late Twentieth Dynasty is well-attested, but the precise chronology of individual years is uncertain. This event is assigned to this period by convention.",
+      "cross_references": [
+        "-1068-001",
+        "-1069-001"
+      ]
+    },
+    {
+      "id": "-1067-002",
+      "title": "Phoenician maritime trade expansion in the Mediterranean",
+      "region": "Eastern Mediterranean, Levant",
+      "coordinates_approx": "34.5\u00b0N, 36.0\u00b0E",
+      "category": "economic",
+      "description": "Levantine city-states, particularly Sidon, Tyre, and Byblos, expand their maritime trade networks throughout the Mediterranean. Archaeological evidence shows increased pottery distribution, evidence of trading posts, and the beginning of Phoenician colonial expansion. This period marks the emergence of Phoenician dominance in Mediterranean trade, which would continue for centuries.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mediterranean sites; pottery analysis and distribution patterns",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian records mentioning Levantine trade and tribute",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Phoenician trade expansion is well-attested archaeologically, but the precise chronology of individual years is difficult to establish. This event is assigned to this period by convention.",
+      "cross_references": [
+        "-1068-002"
+      ]
+    },
+    {
+      "id": "-1067-003",
+      "title": "Western Zhou Dynasty administrative expansion",
+      "region": "China, North China Plain and surrounding regions",
+      "coordinates_approx": "34.0\u00b0N, 109.0\u00b0E",
+      "category": "political",
+      "description": "The Zhou Dynasty expands its administrative reach, distributing fiefs to allies and establishing a feudal-like system of governance. Bronze inscriptions document the granting of lands and titles to Zhou supporters. The Duke of Zhou (if still alive) or his successors consolidate the dynasty's control and develop the ideological framework of the Mandate of Heaven to legitimize Zhou rule.",
+      "key_figures": [
+        "King Cheng of Zhou",
+        "Duke of Zhou (regent, if still alive)"
+      ],
+      "sources": [
+        {
+          "name": "Bronze inscriptions from the Western Zhou period",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Zhouyuan and other Western Zhou sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Zhou chronology is debated. The traditional dating places King Cheng's reign c. 1042\u20131021 BCE, but alternative chronologies exist. The assignment of this year to a specific reign and event is approximate.",
+      "cross_references": [
+        "-1068-003",
+        "-1069-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of a unified 'Phoenician' civilization is a modern construct; Levantine city-states were independent and often competitive. The idea of a sharp 'Bronze Age collapse' followed by rapid 'Iron Age' emergence is increasingly questioned; the transition was gradual and regionally variable. Zhou chronology remains contested, with some scholars arguing for significantly later dates than the traditional chronology used here. The 'Mandate of Heaven' ideology may be a later rationalization rather than a contemporary concept.",
+  "historiographic_note": "Documentation for 1068 BCE is sparse and regionally uneven. Egyptian records are relatively abundant but decline in detail during the late Twentieth Dynasty. Chinese sources are primarily later compilations with some contemporary bronze inscriptions. Levantine history is reconstructed primarily from archaeology, which provides limited precision for individual years. The historical record is heavily weighted toward literate, centralized states; pastoral societies, maritime traders, and non-state polities are underrepresented or invisible.",
+  "graph_edges": [
+    {
+      "from": "-1067-001",
+      "to": "-1066-001",
+      "relation": "led_to",
+      "note": "Continuation of priestly power increase and royal decline"
+    },
+    {
+      "from": "-1067-002",
+      "to": "-1066-002",
+      "relation": "led_to",
+      "note": "Continued Phoenician trade expansion"
+    },
+    {
+      "from": "-1067-003",
+      "to": "-1066-003",
+      "relation": "led_to",
+      "note": "Continuation of Zhou administrative consolidation"
+    }
+  ]
+}

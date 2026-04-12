@@ -1,0 +1,82 @@
+{
+  "year": -1088,
+  "year_label": "1088 BCE",
+  "era_context": "Late Iron Age I in the Eastern Mediterranean and Near East. Egypt under Ramesses III continues to manage external threats and internal economic pressures. The Shang Dynasty in China is approaching its final years before the Zhou conquest (traditionally dated to 1046 BCE). Early Iron Age settlements are expanding in Greece and the Levant. Vedic culture continues to develop in South Asia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia",
+    "East Asia (limited contemporary written records outside China)"
+  ],
+  "events": [
+    {
+      "id": "-1088-001",
+      "title": "Continued reign of Ramesses III; military campaigns against Sea Peoples",
+      "region": "Egypt, Eastern Mediterranean",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "military",
+      "description": "Ramesses III continues his military campaigns against the Sea Peoples and Libyan groups threatening Egypt's borders. His inscriptions at Medinet Habu document multiple campaigns, including a major naval battle against the Sea Peoples. These conflicts represent the last major military efforts of the New Kingdom pharaohs and mark the beginning of Egypt's decline as a dominant regional power. The costs of these campaigns strain the royal treasury and contribute to the eventual fragmentation of pharaonic authority.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple reliefs and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses III's military campaigns are well-documented in contemporary temple inscriptions. The specific dating of individual campaigns within his reign is approximate (\u00b13\u20135 years).",
+      "cross_references": []
+    },
+    {
+      "id": "-1088-002",
+      "title": "Shang Dynasty in its final years (China)",
+      "region": "China, Yellow River valley",
+      "coordinates_approx": "34.5\u00b0N, 114.0\u00b0E",
+      "category": "political",
+      "description": "The Shang Dynasty, which has ruled China for over 500 years, is in its final decades. King Di Xin (also known as Zhou Xin), the last Shang ruler, is on the throne. According to traditional sources, his reign is marked by moral decline and poor governance, though modern scholarship questions the reliability of these accounts. The dynasty faces increasing pressure from the Zhou people to the west, who will soon launch the conquest that ends Shang rule (traditionally dated to 1046 BCE). Archaeological evidence from Shang sites shows continued bronze-working and oracle bone divination practices.",
+      "key_figures": [
+        "Di Xin (King of Shang, also known as Zhou Xin)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled c. 109 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Oracle bone inscriptions from Shang sites",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Yinxu (Shang capital)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Shang Dynasty's chronology is debated among scholars. Traditional dating places Di Xin's reign c. 1075\u20131046 BCE, but some scholars argue for dates 50\u2013100 years earlier. The specific year 1088 BCE is assigned by convention within the traditional chronology.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Di Xin as a depraved tyrant whose moral failings caused the Shang's fall is questioned by modern scholars, who note that such accounts were written by the Zhou victors and may reflect propaganda rather than historical fact. The Shang Dynasty's collapse was likely due to a combination of factors (climate stress, internal instability, military pressure) rather than the moral failings of a single ruler. Additionally, the exact dating of the Shang-Zhou transition remains uncertain; some scholars place it as late as 1000 BCE.",
+  "historiographic_note": "For 1088 BCE, documentation is heavily skewed toward Egypt and China, where literate bureaucratic systems produced written records. The Levant and Mediterranean are known primarily through archaeology and later Greek traditions. Sub-Saharan Africa, the Americas, and most of Asia are virtually undocumented for this specific year. The historical record reflects the distribution of literate civilizations and the focus of modern archaeology on palatial and monumental sites.",
+  "graph_edges": [
+    {
+      "from": "-1088-002",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "The final years of the Shang Dynasty under Di Xin lead to the Zhou conquest in 1046 BCE (traditional dating)."
+    }
+  ]
+}

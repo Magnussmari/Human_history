@@ -1,0 +1,123 @@
+{
+  "year": -1068,
+  "year_label": "1069 BCE",
+  "era_context": "Late Bronze Age / Early Iron Age transition. Egypt's Twentieth Dynasty continues under Ramesses X or XI; priesthood of Amun gains power at Thebes. The Eastern Mediterranean remains unstable with Sea Peoples activity diminishing. The Zhou Dynasty in China is in its early consolidation phase. The Levantine city-states are rebuilding after Bronze Age collapse disruptions.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia and the Steppe (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-1068-001",
+      "title": "Ramesses X or XI of Egypt continues reign",
+      "region": "Egypt, New Kingdom",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "The pharaoh of the Twentieth Dynasty continues to rule Egypt amid increasing internal fragmentation. The High Priests of Amun at Thebes accumulate wealth and authority, effectively ruling Upper Egypt independently. Royal inscriptions become fewer and less detailed. Economic papyri from Deir el-Medina document labor disputes and payment delays, reflecting state financial strain.",
+      "key_figures": [
+        "Ramesses X or XI (Pharaoh)",
+        "High Priests of Amun at Thebes"
+      ],
+      "sources": [
+        {
+          "name": "Papyri from Deir el-Medina; temple records from Karnak",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Abydos King List; Turin King List",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Regnal dates for late Twentieth Dynasty pharaohs are uncertain and debated. This year is assigned conventionally within the reign of Ramesses X or XI, but the exact year is not independently confirmed.",
+      "cross_references": [
+        "-1069-001"
+      ]
+    },
+    {
+      "id": "-1068-002",
+      "title": "Levantine city-states in post-collapse recovery phase",
+      "region": "Levant (modern Syria, Lebanon, Palestine)",
+      "coordinates_approx": "34.5\u00b0N, 36.0\u00b0E",
+      "category": "economic",
+      "description": "Cities such as Sidon, Tyre, Byblos, and others in the Levant are recovering from the disruptions of the Late Bronze Age collapse. Trade networks are being re-established, particularly maritime trade with Egypt and the Aegean. Archaeological evidence shows gradual population recovery and rebuilding of urban centers. This period marks the emergence of what would become the Phoenician civilization.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from excavations at Sidon, Tyre, Byblos, and other Levantine sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative records mentioning Levantine trade",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The recovery of Levantine cities is well-attested archaeologically, but the precise chronology of individual years is difficult to establish. This event is assigned to this period by convention.",
+      "cross_references": []
+    },
+    {
+      "id": "-1068-003",
+      "title": "Western Zhou Dynasty consolidation continues",
+      "region": "China, North China Plain",
+      "coordinates_approx": "34.0\u00b0N, 109.0\u00b0E",
+      "category": "political",
+      "description": "The Zhou Dynasty continues to consolidate its control over the North China Plain and surrounding regions. Bronze inscriptions document the distribution of fiefs to Zhou allies and the establishment of administrative hierarchies. The ideology of the Mandate of Heaven is being developed to legitimize Zhou rule over the fallen Shang.",
+      "key_figures": [
+        "King Cheng of Zhou (or his regent, the Duke of Zhou)"
+      ],
+      "sources": [
+        {
+          "name": "Bronze inscriptions from the Western Zhou period",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Zhouyuan and other Western Zhou sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Zhou chronology remains debated. The traditional dating places King Cheng's reign c. 1042\u20131021 BCE, but alternative chronologies exist. The assignment of this year to a specific reign is approximate.",
+      "cross_references": [
+        "-1069-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The narrative of a unified 'Phoenician' civilization emerging from Levantine city-states is a modern construct; these cities were independent and often competitive. The idea of a sharp transition from Bronze Age to Iron Age is increasingly questioned; the transition was gradual and regionally variable. Zhou chronology remains contested, with some scholars arguing for significantly later dates than the traditional chronology used here.",
+  "historiographic_note": "Documentation for 1069 BCE is sparse. Egyptian records are the most abundant but decline in detail and frequency during the late Twentieth Dynasty. Chinese sources are primarily later compilations with some contemporary bronze inscriptions. Levantine history is reconstructed primarily from archaeology, which provides limited precision for individual years. The historical record is heavily skewed toward literate, centralized states. Pastoral societies, maritime traders, and non-state polities are underrepresented or invisible in surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-1068-001",
+      "to": "-1067-001",
+      "relation": "led_to",
+      "note": "Continuation of Ramessid decline and priestly power increase"
+    },
+    {
+      "from": "-1068-002",
+      "to": "-1067-002",
+      "relation": "led_to",
+      "note": "Continued recovery and trade expansion in the Levant"
+    },
+    {
+      "from": "-1068-003",
+      "to": "-1067-003",
+      "relation": "led_to",
+      "note": "Continuation of Zhou consolidation"
+    }
+  ]
+}

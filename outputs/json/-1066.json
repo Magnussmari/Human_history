@@ -1,0 +1,126 @@
+{
+  "year": -1066,
+  "year_label": "1067 BCE",
+  "era_context": "Late Twentieth Dynasty Egypt; priesthood of Amun effectively rules Upper Egypt independently. Early Iron Age in the Levant and Aegean; Phoenician maritime networks expanding. Western Zhou Dynasty in China consolidating power. The Mediterranean and Near East are in a period of gradual recovery and reorganization following the Late Bronze Age collapse.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-1066-001",
+      "title": "Ramesses XI of Egypt reigns amid internal division",
+      "region": "Egypt",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Ramesses XI (if this year falls within his reign, c. 1099\u20131069 BCE by traditional chronology) rules Egypt during a period of unprecedented internal division. The pharaoh controls Lower Egypt from the north, while the High Priests of Amun effectively govern Upper Egypt from Thebes. This bifurcation represents a fundamental breakdown of centralized pharaonic authority. Papyri document administrative disputes, labor strikes, and the priesthood's accumulation of wealth and land.",
+      "key_figures": [
+        "Ramesses XI (Pharaoh)",
+        "High Priests of Amun at Thebes"
+      ],
+      "sources": [
+        {
+          "name": "Papyri from Deir el-Medina, Thebes, and other sites; temple records from Karnak",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Inscriptions from temples and tombs",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ramesses XI's regnal dates are debated (traditional c. 1099\u20131069 BCE, but alternative chronologies exist). The assignment of this year to his reign is approximate. The internal division of Egypt is well-attested, but the precise chronology of individual years is uncertain.",
+      "cross_references": [
+        "-1067-001",
+        "-1068-001"
+      ]
+    },
+    {
+      "id": "-1066-002",
+      "title": "Phoenician colonies and trading posts established in the Mediterranean",
+      "region": "Eastern Mediterranean, including Cyprus, North Africa, and the Aegean",
+      "coordinates_approx": "35.0\u00b0N, 30.0\u00b0E",
+      "category": "exploration",
+      "description": "Levantine city-states, particularly Tyre and Sidon, establish trading posts and colonies throughout the Mediterranean. Archaeological evidence shows Phoenician pottery, inscriptions, and settlement remains at sites across the Mediterranean, including Cyprus, North Africa, and the Aegean islands. This period marks the beginning of Phoenician colonial expansion, which would eventually extend to the western Mediterranean and beyond.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mediterranean sites; pottery analysis and settlement remains",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian records mentioning Levantine trade",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Phoenician trade expansion and colonial activity are well-attested archaeologically, but the precise chronology of individual years is difficult to establish. This event is assigned to this period by convention.",
+      "cross_references": [
+        "-1067-002"
+      ]
+    },
+    {
+      "id": "-1066-003",
+      "title": "Western Zhou Dynasty consolidates feudal system",
+      "region": "China, North China Plain and surrounding regions",
+      "coordinates_approx": "34.0\u00b0N, 109.0\u00b0E",
+      "category": "political",
+      "description": "The Zhou Dynasty continues to consolidate its feudal system of governance, with fiefs distributed to allies and a hierarchical administrative structure established. Bronze inscriptions document the granting of lands, titles, and privileges to Zhou supporters. The dynasty develops the ideological framework of the Mandate of Heaven to legitimize its rule over the fallen Shang.",
+      "key_figures": [
+        "King Cheng of Zhou"
+      ],
+      "sources": [
+        {
+          "name": "Bronze inscriptions from the Western Zhou period",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Zhouyuan and other Western Zhou sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Zhou chronology is debated. The traditional dating places King Cheng's reign c. 1042\u20131021 BCE, but alternative chronologies exist. The assignment of this year to a specific reign and event is approximate.",
+      "cross_references": [
+        "-1067-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of a unified 'Phoenician' civilization is a modern construct; Levantine city-states were independent and often competitive. The idea of a sharp 'Bronze Age collapse' followed by rapid 'Iron Age' emergence is increasingly questioned; the transition was gradual and regionally variable. Zhou chronology remains contested, with some scholars arguing for significantly later dates than the traditional chronology used here. The 'Mandate of Heaven' ideology may be a later rationalization rather than a contemporary concept.",
+  "historiographic_note": "Documentation for 1067 BCE is sparse and regionally uneven. Egyptian records are relatively abundant but decline in detail during the late Twentieth Dynasty. Chinese sources are primarily later compilations with some contemporary bronze inscriptions. Levantine history is reconstructed primarily from archaeology, which provides limited precision for individual years. The historical record is heavily weighted toward literate, centralized states; pastoral societies, maritime traders, and non-state polities are underrepresented or invisible.",
+  "graph_edges": [
+    {
+      "from": "-1066-001",
+      "to": "-1065-001",
+      "relation": "led_to",
+      "note": "Continuation of Egyptian internal division"
+    },
+    {
+      "from": "-1066-002",
+      "to": "-1065-002",
+      "relation": "led_to",
+      "note": "Continued Phoenician colonial expansion"
+    },
+    {
+      "from": "-1066-003",
+      "to": "-1065-003",
+      "relation": "led_to",
+      "note": "Continuation of Zhou feudal consolidation"
+    }
+  ]
+}

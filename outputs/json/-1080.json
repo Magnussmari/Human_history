@@ -1,0 +1,85 @@
+{
+  "year": -1080,
+  "year_label": "1080 BCE",
+  "era_context": "The Late Bronze Age collapse has occurred within the previous two centuries. The Eastern Mediterranean is in flux: the New Kingdom of Egypt is in its Twentieth Dynasty under Ramesses III and his successors; the Hittite Empire has fallen; the Mycenaean palatial system has disintegrated; Iron Age settlement patterns are emerging across the Levant, Greece, and Anatolia. In China, the Shang Dynasty is in its final decades before the Zhou conquest. The Vedic period is underway in South Asia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this specific year)",
+    "Northern Europe (sparse written sources; archaeological record exists but is difficult to date precisely to single years)",
+    "Mesoamerica (no written records; archaeological dating is approximate)",
+    "Pacific Islands (oral traditions not yet recorded in written form)"
+  ],
+  "events": [
+    {
+      "id": "-1080-001",
+      "title": "Reign of Ramesses III \u2014 Late Twentieth Dynasty Egypt",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 32.5",
+      "category": "political",
+      "description": "Ramesses III, one of the last powerful pharaohs of the New Kingdom, continues his reign during this period. He is known for his military campaigns against the Sea Peoples and Libyans, and for his extensive building programs at Medinet Habu. By 1080 BCE, his reign is in its later phase; he will die around 1070 BCE. His rule represents the last major assertion of pharaonic power before the gradual fragmentation of Egyptian authority in the Third Intermediate Period.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I (administrative record)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptological consensus (Dodson, Hilton, Kitchen)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses III's reign is well-attested in temple inscriptions, administrative papyri, and royal tombs. Absolute dating relies on astronomical calculations and king-list synchronisms; \u00b15 years is typical uncertainty for this period.",
+      "cross_references": []
+    },
+    {
+      "id": "-1080-002",
+      "title": "Iron Age settlement consolidation in the Levant",
+      "region": "Levant (modern Syria, Lebanon, Palestine/Israel)",
+      "coordinates_approx": "34.5, 35.5",
+      "category": "cultural",
+      "description": "By 1080 BCE, Iron Age I settlement patterns are well-established across the Levant. Phoenician city-states (Tyre, Sidon, Byblos) are consolidating maritime trade networks. In the highlands of Canaan, early Iron Age villages show evidence of agricultural intensification and emerging social stratification. The transition from Late Bronze Age palatial systems to Iron Age decentralized settlement is largely complete in this region.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological surveys and excavations (Tel Megiddo, Tel Dan, Sidon, Tyre)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus (Finkelstein, Silberman, Stager)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Archaeological dating of Iron Age I is based on ceramic typology and stratigraphic sequences. Absolute dating is calibrated against Egyptian chronology and radiocarbon; \u00b110\u201315 years is typical for this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The absolute chronology of the Late Bronze Age collapse and Iron Age I is contested. Some scholars (e.g., Finkelstein) argue for a 'low chronology' that would place events described here 50\u2013100 years later than traditional Egyptian chronology suggests. The dating of Ramesses III's reign and the Sea Peoples invasions remains debated, with some scholars questioning whether the 'Sea Peoples' were a unified threat or a historiographic construct imposed by later interpretation of Medinet Habu reliefs.",
+  "historiographic_note": "Sources for 1080 BCE are heavily weighted toward Egypt and the Eastern Mediterranean, where written records and monumental inscriptions survive. The Levantine record is primarily archaeological and lacks contemporary written documentation for most regions. Sub-Saharan Africa, Northern Europe, and the Americas are essentially absent from the written record at this date. The Egyptian sources themselves are often propagandistic (temple reliefs celebrating military victories) and may overstate pharaonic power and control. Absolute dating for this entire period depends on synchronisms with Egyptian king-lists and astronomical calculations, introducing systematic uncertainty of \u00b15\u201310 years.",
+  "graph_edges": [
+    {
+      "from": "-1080-001",
+      "to": "-1070-001",
+      "relation": "led_to",
+      "note": "Ramesses III's reign ends around 1070 BCE; succession disputes and fragmentation of central authority follow."
+    },
+    {
+      "from": "-1080-002",
+      "to": "-1000-001",
+      "relation": "part_of",
+      "note": "Iron Age settlement consolidation continues through the 11th century BCE, establishing the foundation for Iron Age II city-states."
+    }
+  ]
+}

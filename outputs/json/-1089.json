@@ -1,0 +1,74 @@
+{
+  "year": -1089,
+  "year_label": "1089 BCE",
+  "era_context": "Late Bronze Age collapse aftermath and early Iron Age transition in the Eastern Mediterranean and Near East. The Mycenaean palatial system has recently collapsed; Egypt under Ramesses III faces external and internal pressures; the Hittite Empire has fallen; Phoenician and early Greek city-states are emerging. In China, the Shang Dynasty is in its final century before Zhou conquest. Vedic culture is developing in the Indian subcontinent.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Mesoamerica (sparse written records; reliance on later Maya codices and archaeology)",
+    "Northern Europe (minimal contemporary documentation)",
+    "Central Asia (limited textual sources; primarily archaeological inference)"
+  ],
+  "events": [
+    {
+      "id": "-1089-001",
+      "title": "Reign of Ramesses III in Egypt (approximate mid-reign)",
+      "region": "Egypt, Eastern Mediterranean",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Ramesses III, the last great pharaoh of the New Kingdom, is in the middle of his reign (c. 1186\u20131155 BCE). He faces significant military threats from the Sea Peoples and Libyan incursions, and manages internal economic strain. His reign represents the last period of strong centralized pharaonic power before the decline of the New Kingdom. The temple of Medinet Habu, his mortuary temple, documents his military campaigns and administrative achievements.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses III's reign is well-attested through contemporary temple inscriptions and administrative papyri. Dating to the New Kingdom chronology is secure within \u00b15 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1089-002",
+      "title": "Late Bronze Age collapse aftermath in the Levant",
+      "region": "Levant, Syria, Phoenicia",
+      "coordinates_approx": "34.5\u00b0N, 36.0\u00b0E",
+      "category": "political",
+      "description": "In the aftermath of the Late Bronze Age collapse (c. 1200 BCE), Phoenician city-states such as Tyre, Sidon, and Byblos are consolidating power and expanding maritime trade networks. The destruction of major Bronze Age centers (Ugarit, Mycenae, Hattusa) has created a power vacuum that these coastal cities exploit. This period marks the beginning of Phoenician dominance in Mediterranean trade, which will define the Iron Age Levant.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Phoenician coastal sites (Tyre, Sidon, Byblos)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian records of Ramesses III mentioning Phoenician cities",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader collapse is well-attested archaeologically; specific events in 1089 BCE are inferred from stratigraphic sequences and settlement patterns rather than contemporary texts.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The 'Late Bronze Age collapse' as a unified, synchronous event has been questioned by some scholars who argue for more localized, asynchronous disruptions rather than a single catastrophic moment. The causes (climate, invasion, systems failure) remain debated. Additionally, the extent of Phoenician 'dominance' in this period may be overstated; they were one of several maritime powers, and their rise was gradual rather than sudden.",
+  "historiographic_note": "Documentation for 1089 BCE is heavily weighted toward Egypt (temple inscriptions, administrative records) and the Levantine coast (archaeology). The interior of the Levant, Anatolia, and regions beyond the Mediterranean are poorly documented for this specific year. The historical record is shaped by the survival of monumental inscriptions and the focus of modern archaeology on palatial and temple sites. Oral traditions and local records from non-literate societies are entirely absent.",
+  "graph_edges": [
+    {
+      "from": "-1089-001",
+      "to": "-1089-002",
+      "relation": "contemporary_with",
+      "note": "Ramesses III's reign overlaps with the consolidation of Phoenician power in the post-collapse Levant."
+    }
+  ]
+}

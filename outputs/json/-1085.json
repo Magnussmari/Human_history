@@ -1,0 +1,125 @@
+{
+  "year": -1085,
+  "year_label": "1085 BCE",
+  "era_context": "Iron Age I in the Eastern Mediterranean and Near East; late Shang Dynasty in China (final decades); Vedic period in South Asia. Egypt under Ramesses III is in the final years of his reign. The political landscape of the Mediterranean continues to be reshaped by the emergence of new powers. The Zhou Dynasty is preparing for its final conquest of the Shang, which will occur within the next 40 years.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-1085-001",
+      "title": "Ramesses III's reign in its final decade",
+      "region": "Egypt",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Ramesses III is in the final decade of his reign (he will die c. 1155 BCE, though some scholars place his death closer to 1150 BCE). His reign has been one of the last periods of strong centralized pharaonic power. The pharaoh's authority is increasingly challenged by the priesthood of Amun at Thebes, which has accumulated vast landholdings and wealth. The royal treasury is depleted, and the administrative system is showing signs of corruption and inefficiency. Ramesses III's death will mark the beginning of the Third Intermediate Period, characterized by the fragmentation of pharaonic authority and the rise of competing power centers.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri from Deir el-Medina",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses III's reign is well-documented. The specific year 1085 BCE is approximate within his reign.",
+      "cross_references": []
+    },
+    {
+      "id": "-1085-002",
+      "title": "Shang Dynasty in its final years; Zhou consolidation",
+      "region": "China, Yellow River valley",
+      "coordinates_approx": "34.5\u00b0N, 114.0\u00b0E",
+      "category": "political",
+      "description": "The Shang Dynasty is in its final years, with King Di Xin still on the throne but his authority severely weakened. The Zhou, under King Wu (who succeeded King Wen), are consolidating their power and preparing for the conquest that will end Shang rule. The Zhou control much of the western and central regions of China, while the Shang's power is increasingly confined to the east. Archaeological evidence shows continued Shang cultural practices, but the political system is fragmenting. The traditional date for the Zhou conquest is 1046 BCE, just 39 years away.",
+      "key_figures": [
+        "Di Xin (King of Shang)",
+        "King Wu (Zhou)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Oracle bone inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Yinxu and Zhou sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Shang Dynasty's final years are documented in later Chinese chronicles. The specific dating is uncertain; traditional chronology places this period c. 1085\u20131046 BCE.",
+      "cross_references": []
+    },
+    {
+      "id": "-1085-003",
+      "title": "Phoenician maritime expansion in the Mediterranean",
+      "region": "Levant, Mediterranean",
+      "coordinates_approx": "33.5\u00b0N, 35.0\u00b0E",
+      "category": "economic",
+      "description": "Phoenician city-states (Tyre, Sidon, Byblos) are expanding their maritime trade networks throughout the Mediterranean. In the aftermath of the Bronze Age collapse, these cities have become the dominant maritime traders of the region. They are establishing trading posts and colonies along the coasts of North Africa, the Aegean, and beyond. This expansion will continue for centuries and will eventually lead to the establishment of Carthage and other major Phoenician colonies. The Phoenicians are also developing their alphabet, which will eventually be adopted and adapted by the Greeks.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Phoenician coastal sites and trading posts",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian records mentioning Phoenician cities",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Phoenician maritime expansion is well-attested archaeologically. The specific year 1085 BCE is assigned by convention; the process was gradual and not marked by a specific event.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The narrative of Phoenician 'dominance' in Mediterranean trade during this period may be overstated. They were one of several maritime powers, and their rise was gradual. Additionally, the extent of Phoenician colonization in this specific period is debated; some scholars argue that major colonial expansion occurred later, in the 9th\u20138th centuries BCE. The traditional dating of the Zhou conquest of the Shang (1046 BCE) has been questioned by some scholars, who argue for dates as late as 1000 BCE or as early as 1100 BCE.",
+  "historiographic_note": "Documentation for 1085 BCE is limited to Egypt (administrative records and temple inscriptions), China (later chronicles and oracle bones), and the Levant (archaeology). The Mediterranean is known primarily through later Greek traditions and archaeology. Most of the world is undocumented for this specific year. The historical record is heavily weighted toward literate bureaucratic societies and well-preserved archaeological sites. Oral traditions, local records, and the histories of non-literate societies are entirely absent.",
+  "graph_edges": [
+    {
+      "from": "-1085-001",
+      "to": "-1155-001",
+      "relation": "led_to",
+      "note": "Ramesses III's reign ends c. 1155 BCE (or 1150 BCE), marking the transition to the Third Intermediate Period."
+    },
+    {
+      "from": "-1085-002",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "The weakening Shang Dynasty leads to the Zhou conquest c. 1046 BCE."
+    },
+    {
+      "from": "-1085-003",
+      "to": "-1085-001",
+      "relation": "contemporary_with",
+      "note": "Phoenician maritime expansion occurs during the reign of Ramesses III in Egypt."
+    }
+  ]
+}

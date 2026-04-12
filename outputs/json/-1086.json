@@ -1,0 +1,85 @@
+{
+  "year": -1086,
+  "year_label": "1086 BCE",
+  "era_context": "Iron Age I in the Eastern Mediterranean and Near East; late Shang Dynasty in China (final decades); Vedic period in South Asia. Egypt under Ramesses III is in the later years of his reign. The political landscape of the Mediterranean is being reshaped by the emergence of new powers (Phoenicians, early Greek city-states) in the aftermath of the Bronze Age collapse. The Zhou Dynasty is consolidating power in China before its conquest of the Shang.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-1086-001",
+      "title": "Ramesses III's reign in its later years",
+      "region": "Egypt",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Ramesses III is in the later years of his reign (he will die c. 1155 BCE). His reign has been marked by military campaigns, temple construction, and increasing economic strain. The pharaoh's authority, while still strong, is beginning to be challenged by the growing power of the priesthood of Amun at Thebes. The administrative system is showing signs of stress, with evidence of corruption and labor unrest. Ramesses III's successors will face a much weaker position, leading to the eventual fragmentation of pharaonic authority in the Third Intermediate Period.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses III's reign is well-documented. The specific year 1086 BCE is approximate within his reign (c. 1186\u20131155 BCE).",
+      "cross_references": []
+    },
+    {
+      "id": "-1086-002",
+      "title": "Shang Dynasty approaching its final collapse",
+      "region": "China, Yellow River valley",
+      "coordinates_approx": "34.5\u00b0N, 114.0\u00b0E",
+      "category": "political",
+      "description": "The Shang Dynasty is in its final years, facing increasing pressure from the Zhou people to the west. King Di Xin continues to rule, but his authority is weakening. The Zhou, under the leadership of King Wen and his son King Wu, are consolidating their power and preparing for the conquest that will end Shang rule. Archaeological evidence shows continued Shang cultural practices (bronze-working, oracle bone divination), but the political system is fragmenting. The traditional date for the Zhou conquest is 1046 BCE, placing the Shang's final collapse just 40 years away.",
+      "key_figures": [
+        "Di Xin (King of Shang)",
+        "King Wen (Zhou)",
+        "King Wu (Zhou)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Oracle bone inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Yinxu and Zhou sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Shang Dynasty's final years are documented in later Chinese chronicles and oracle bones. The specific dating is uncertain; traditional chronology places this period c. 1086\u20131046 BCE, but some scholars argue for earlier dates.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of the Zhou conquest as a moral and military triumph of the virtuous Zhou over the depraved Shang is questioned by modern scholars, who view it as a more complex process of political consolidation and military conquest. The 'Mandate of Heaven' ideology used to justify the conquest was likely developed after the fact. The Shang Dynasty's collapse was not sudden but gradual, with the Zhou gradually expanding their territory and influence over several generations.",
+  "historiographic_note": "Documentation for 1086 BCE is limited to Egypt (administrative records and temple inscriptions) and China (later chronicles and oracle bones). The Mediterranean and Levant are known primarily through archaeology. Most of the world is undocumented for this specific year. The historical record reflects the distribution of literate civilizations and the focus of modern scholarship on well-preserved sites and written records.",
+  "graph_edges": [
+    {
+      "from": "-1086-002",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "The weakening Shang Dynasty leads to the Zhou conquest c. 1046 BCE."
+    }
+  ]
+}
