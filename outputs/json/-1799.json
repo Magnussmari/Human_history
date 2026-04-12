@@ -1,0 +1,69 @@
+{
+  "year": -1799,
+  "year_label": "1800 BCE",
+  "era_context": "The Old Babylonian period in Mesopotamia (c. 1894\u20131595 BCE) is at its height under Hammurabi's reign (r. 1792\u20131750 BCE). The Middle Kingdom in Egypt (c. 2055\u20131650 BCE) is in its final phase. The Indus Valley Civilization is in decline or transition. Bronze Age societies dominate the Eastern Mediterranean, Anatolia, and the Levant. Writing systems are well-established in Mesopotamia, Egypt, and emerging in the Aegean.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse Bronze Age documentation)",
+    "East Asia beyond the Shang dynasty region (limited contemporary records)",
+    "The Americas (no written records; archaeological evidence sparse)"
+  ],
+  "events": [
+    {
+      "id": "-1799-001",
+      "title": "Hammurabi's reign consolidates Babylonian hegemony",
+      "region": "Mesopotamia (Babylonia)",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "Hammurabi (r. 1792\u20131750 BCE) is in the early phase of his reign, consolidating power in Babylon and beginning military campaigns to expand Babylonian control over Mesopotamia. By this year, he has likely secured the core Babylonian heartland and is preparing campaigns against rival city-states. His reign will be remembered for the Code of Hammurabi, a comprehensive legal document compiled later in his reign.",
+      "key_figures": [
+        "Hammurabi (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List (later compilation, but based on contemporary records)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Code of Hammurabi (inscribed c. 1754 BCE, but reflects earlier legal traditions)",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hammurabi's regnal dates are established by Mesopotamian chronology, but specific events in individual years are rarely documented. This entry reflects the general trajectory of his early reign.",
+      "cross_references": []
+    },
+    {
+      "id": "-1799-002",
+      "title": "Indus Valley Civilization in late phase or transition",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization, which flourished from c. 2600\u20131900 BCE, is in its final phase or undergoing significant transformation by 1800 BCE. Urban centers are being abandoned or repurposed. The causes remain debated: climate change (drying of the monsoon), tectonic shifts, or internal social factors. By this date, the characteristic seals, standardized weights, and planned urban layouts are disappearing.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mohenjo-daro, Harappa, and other sites (excavations by Marshall, Wheeler, and modern teams)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The end of the Indus Valley Civilization is dated to c. 1900\u20131800 BCE based on stratigraphic evidence, but the precise timeline and causes remain contested.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Indus Valley Civilization 'collapse' has been challenged by recent scholarship suggesting gradual transformation and regional continuity rather than catastrophic decline. The causes of urban abandonment are not definitively established; the 'Aryan invasion' hypothesis, once dominant, is now largely rejected in favor of internal social change and climate factors.",
+  "historiographic_note": "Documentation for 1800 BCE is heavily skewed toward Mesopotamia and Egypt, where written records exist. The Indus Valley Civilization left no deciphered written records, so understanding relies entirely on archaeology. East Asia (Shang dynasty) has oracle bone records but sparse documentation for this specific year. Sub-Saharan Africa, the Americas, and Northern Europe are essentially undocumented for this period in written sources.",
+  "graph_edges": [
+    {
+      "from": "-1799-001",
+      "to": "-1754-001",
+      "relation": "led_to",
+      "note": "Hammurabi's early consolidation of power leads to the promulgation of the Code of Hammurabi c. 1754 BCE"
+    }
+  ]
+}

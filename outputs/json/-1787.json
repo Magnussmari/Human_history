@@ -1,0 +1,81 @@
+{
+  "year": -1787,
+  "year_label": "1788 BCE",
+  "era_context": "Hammurabi's reign is in its middle years; Babylon is consolidating its territorial gains. Egypt's 13th Dynasty is in advanced fragmentation. The Hittite Old Kingdom is expanding. The Indus Valley civilization remains at its height. This is a period of relative stability within individual empires, though interstate competition continues.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia",
+    "The Americas",
+    "Oceania",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-1787-001",
+      "title": "Hammurabi's administrative consolidation and legal codification",
+      "region": "Babylonia",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "legal",
+      "description": "During the middle years of his reign, Hammurabi implements administrative reforms to consolidate his newly conquered territories. He standardizes legal practices across his realm, a process that culminates in the promulgation of his law code (Hammurabi's Code). This code, containing 282 laws, is inscribed on a stone stele and distributed throughout the kingdom. It represents one of the earliest comprehensive legal documents and establishes a precedent for written law in the ancient world.",
+      "key_figures": [
+        "Hammurabi (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Hammurabi's Code (Stele of Hammurabi)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Babylonian administrative documents and letters",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hammurabi's Code is traditionally dated to around 1754 BCE, but some scholars place it earlier in his reign. The exact year of promulgation is uncertain by \u00b110\u201320 years. The process of legal codification likely occurred over several years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1787-002",
+      "title": "Egyptian regional autonomy increases under weak central authority",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The 13th Dynasty's authority continues to erode as regional governors consolidate power in Upper and Lower Egypt. Multiple short-reigned pharaohs succeed one another, and the central government's ability to collect taxes and maintain order diminishes. This period of fragmentation will eventually lead to the Second Intermediate Period, during which foreign rulers (the Hyksos) will establish control in the Delta.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Egyptian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The chronology of the 13th Dynasty is uncertain by \u00b120\u201330 years. The process of fragmentation is well-attested, but precise dating of individual events is problematic.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Hammurabi's Code is disputed. Some scholars argue it was promulgated much earlier in his reign (around 1780 BCE), while others place it near the end (around 1750 BCE). The assignment of this event to -1787 is therefore somewhat arbitrary. Additionally, the 'low chronology' would shift all these dates by ~60 years.",
+  "historiographic_note": "Sources for this year are limited to Mesopotamia and Egypt. The Babylonian administrative documents provide insight into daily governance, but they do not always allow precise year-by-year reconstruction. Egyptian sources are fragmentary and often contradictory. The Hittite and Indus Valley civilizations are known primarily through archaeology, which provides material context but limited information about specific events in a given year.",
+  "graph_edges": [
+    {
+      "from": "-1787-001",
+      "to": "-1754-001",
+      "relation": "part_of",
+      "note": "Legal codification is part of Hammurabi's broader administrative consolidation"
+    },
+    {
+      "from": "-1787-002",
+      "to": "-1650-001",
+      "relation": "led_to",
+      "note": "Regional autonomy in Egypt accelerates the transition to the Second Intermediate Period"
+    }
+  ]
+}

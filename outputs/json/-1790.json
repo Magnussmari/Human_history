@@ -1,0 +1,87 @@
+{
+  "year": -1790,
+  "year_label": "1791 BCE",
+  "era_context": "The late Middle Bronze Age in the Eastern Mediterranean and Near East. The Hittite Old Kingdom was consolidating power in Anatolia under Hantili I and successors. Egypt was in the Second Intermediate Period, with the 13th Dynasty fragmenting and Asiatic (Hyksos) groups establishing footholds in the Delta. Mesopotamia saw the rise of Kassite power and the decline of Old Babylonian hegemony. The Mycenaean world was in the Middle Helladic period, with palace centres developing in mainland Greece.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological dating precision for this period)",
+    "East Asia (Chinese sources begin with Shang oracle bones, but dating of early Shang remains contested)",
+    "Mesoamerica (no written records; archaeological chronology uncertain for this specific year)",
+    "Pacific and Oceania (no documentary sources)"
+  ],
+  "events": [
+    {
+      "id": "-1790-001",
+      "title": "Hittite consolidation under Hantili I",
+      "region": "Anatolia (Hittite Empire)",
+      "coordinates_approx": "39.5, 34.5",
+      "category": "political",
+      "description": "Hantili I, founder of the Hittite Old Kingdom, was consolidating control over central Anatolia and establishing Hattusa as the capital. This period saw the formalization of Hittite administrative structures and the beginning of territorial expansion that would define the Old Kingdom. The reign marks the transition from the earlier Assyrian-dominated period to Hittite hegemony in the region.",
+      "key_figures": [
+        "Hantili I (Hittite king)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite King List and royal inscriptions (later compilation, but based on archival records)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Hattusa (stratigraphy and artefacts)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hantili I's reign is traditionally dated to c. 1650\u20131620 BCE in older scholarship, but recent revisions place the Hittite Old Kingdom later, around 1650\u20131500 BCE. The exact year -1790 is assigned by convention within a broader period of consolidation; \u00b120 years is realistic.",
+      "cross_references": []
+    },
+    {
+      "id": "-1790-002",
+      "title": "Egyptian 13th Dynasty fragmentation and Hyksos infiltration",
+      "region": "Egypt (Nile Delta and Lower Egypt)",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "political",
+      "description": "The 13th Dynasty of Egypt was experiencing severe fragmentation, with rapid succession of weak pharaohs and loss of centralized control. Asiatic groups, later termed 'Hyksos' (Heka-khasut, 'rulers of foreign lands'), were infiltrating and settling in the Delta region, establishing their own power bases. This period marks the beginning of the Second Intermediate Period proper, characterized by political fragmentation and foreign settlement.",
+      "key_figures": [
+        "Various 13th Dynasty pharaohs (names and order disputed)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Ramesside-era compilation of earlier king lists)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (Hellenistic-era history, preserved in later sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Delta sites (Tell el-Dab'a, Avaris)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The 13th Dynasty's chronology is notoriously uncertain. Traditional dating places it c. 1795\u20131650 BCE, but recent scholarship (particularly the 'low chronology') suggests c. 1650\u20131550 BCE. The year -1790 falls within the period of documented fragmentation, but precise dating is \u00b115\u201320 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the 13th Dynasty and the Hyksos period is one of the most contested issues in Egyptology. Some scholars argue the 13th Dynasty lasted much longer than traditionally believed, while others compress it significantly. The 'Hyksos' were not a unified invasion force but a gradual infiltration and settlement process; the term itself is a modern historiographic construct. The significance of -1790 as a specific turning point is largely conventional; the actual transition was gradual over decades.",
+  "historiographic_note": "Sources for this year are almost entirely indirect: king lists compiled centuries later, archaeological stratigraphy without precise dating, and later Greek and Roman historians (Manetho) working from Egyptian sources now lost. Egyptian chronology for the Middle Bronze Age remains one of the most debated topics in ancient history, with competing 'high,' 'middle,' and 'low' chronologies differing by up to 150 years. The surviving record is heavily biased toward Egypt and the Hittites; Mesopotamian, Levantine, and other regional developments are poorly documented for this specific year.",
+  "graph_edges": [
+    {
+      "from": "-1790-001",
+      "to": "-1650-001",
+      "relation": "led_to",
+      "note": "Hittite consolidation under Hantili I led to the expansion and military campaigns of the Old Kingdom"
+    },
+    {
+      "from": "-1790-002",
+      "to": "-1550-001",
+      "relation": "led_to",
+      "note": "13th Dynasty fragmentation and Hyksos settlement eventually led to the 15th Dynasty Hyksos rule"
+    }
+  ]
+}

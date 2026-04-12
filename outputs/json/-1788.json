@@ -1,0 +1,81 @@
+{
+  "year": -1788,
+  "year_label": "1789 BCE",
+  "era_context": "Hammurabi's Babylon is at the height of its territorial expansion. Egypt's 13th Dynasty continues its decline. The Hittite Old Kingdom is consolidating power in Anatolia under Hattusili I. In the Indus Valley, the mature Harappan civilization is still flourishing. This is a period of interstate competition and the emergence of larger territorial states.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia (Shang dynasty records are fragmentary)",
+    "The Americas",
+    "Oceania",
+    "Central Asia and the Steppe (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-1788-001",
+      "title": "Hittite campaigns under Hattusili I in northern Syria",
+      "region": "Anatolia and northern Syria",
+      "coordinates_approx": "36.0, 36.0",
+      "category": "military",
+      "description": "Hattusili I, king of the Hittites, conducts military campaigns in northern Syria and Mesopotamia, extending Hittite influence southward. These campaigns establish the Hittites as a major power in the eastern Mediterranean and Near East. The campaigns are documented in later Hittite texts and represent the beginning of Hittite imperial expansion that will culminate in the New Kingdom.",
+      "key_figures": [
+        "Hattusili I (King of the Hittites)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite annals and royal inscriptions",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Hattusa and northern Syrian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hattusili I's reign is dated approximately 1650\u20131620 BCE by most scholars, which would place this year outside his reign. However, some chronologies place him earlier. The exact dating of Hittite Old Kingdom rulers is uncertain by \u00b150 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1788-002",
+      "title": "Indus Valley Civilization at peak urban development",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "The mature Harappan civilization continues to flourish with extensive trade networks, standardized weights and measures, and sophisticated urban planning. Major cities such as Mohenjo-daro and Harappa are at their height. The civilization's undeciphered script is in use for administrative and commercial purposes. This period represents the peak of Indus Valley urban culture before its gradual decline in the 18th century BCE.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mohenjo-daro, Harappa, and other Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus script inscriptions on seals and pottery",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan civilization's chronology is well-established through radiocarbon dating and stratigraphic analysis. The mature phase is dated approximately 2500\u20131900 BCE, placing -1788 (1789 BCE) firmly within this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Hattusili I is highly uncertain. Some scholars place him in the 17th century BCE, others in the 16th century. If the 'low chronology' for Hittite chronology is correct, Hattusili I may not have been ruling in 1789 BCE at all. The assignment of military campaigns to this specific year is therefore speculative.",
+  "historiographic_note": "This year falls in a period where written sources are limited to Mesopotamia, Egypt, Anatolia, and the Indus Valley. The Hittite sources are known only through later compilations and copies. Egyptian records for the 13th Dynasty are fragmentary. The Indus Valley script remains undeciphered, limiting our understanding of political and social events. Chronological uncertainty is a major problem: the 'low chronology' vs. 'middle chronology' debate affects all dating in this period by 50\u2013100 years.",
+  "graph_edges": [
+    {
+      "from": "-1788-001",
+      "to": "-1650-002",
+      "relation": "led_to",
+      "note": "Hittite expansion in this period establishes the foundation for later Hittite imperial power"
+    },
+    {
+      "from": "-1788-002",
+      "to": "-1750-001",
+      "relation": "led_to",
+      "note": "The mature Harappan civilization begins its decline around 1900 BCE, a process that accelerates in subsequent centuries"
+    }
+  ]
+}

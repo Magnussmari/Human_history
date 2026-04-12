@@ -1,0 +1,90 @@
+{
+  "year": -1789,
+  "year_label": "1790 BCE",
+  "era_context": "The Old Babylonian period is in its final decades. Hammurabi of Babylon (r. 1792\u20131750 BCE) has recently consolidated power and is expanding Babylonian hegemony across Mesopotamia. In Egypt, the 13th Dynasty is fragmenting; central authority is weakening and regional governors are gaining autonomy. The Hittite Old Kingdom is establishing itself in Anatolia. This is an era of interstate diplomacy, military expansion, and the codification of law.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written records for this period)",
+    "East Asia (Shang dynasty records are sparse for this specific year)",
+    "The Americas (no written chronology available)",
+    "Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-1789-001",
+      "title": "Hammurabi consolidates control over southern Mesopotamia",
+      "region": "Babylonia (modern Iraq)",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "Hammurabi, king of Babylon, continues his military campaigns to unify Mesopotamia under Babylonian rule. By this period, he has defeated rival city-states including Larsa and Eshnunna. His reign marks the transition from a collection of competing city-states to a centralized territorial state. This consolidation enables the later promulgation of his famous law code (Hammurabi's Code), which standardizes legal practice across his realm.",
+      "key_figures": [
+        "Hammurabi (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Hammurabi's Code (Stele of Hammurabi)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Babylonian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Babylon and surrounding sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hammurabi's reign is dated 1792\u20131750 BCE by most scholars, but the exact year-by-year chronology of his campaigns is uncertain. This event is assigned to -1789 by convention within the broader consolidation period.",
+      "cross_references": []
+    },
+    {
+      "id": "-1789-002",
+      "title": "Egyptian 13th Dynasty fragmentation accelerates",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The 13th Dynasty of Egypt, which began around 1795 BCE, is experiencing rapid succession and loss of centralized authority. Multiple short-reigned pharaohs follow one another in quick succession. Regional governors (nomarchs) in Upper and Lower Egypt are consolidating local power, foreshadowing the Second Intermediate Period. This fragmentation will eventually allow the Hyksos to establish control in the Delta.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Egyptian sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca (via later sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian chronology for the 13th Dynasty is notoriously uncertain; dates vary by \u00b120\u201330 years depending on the scholar. The process of fragmentation is well-attested, but precise dating of individual reigns is problematic.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Hammurabi's reign remains contested. Some scholars place it 1728\u20131686 BCE (the 'low chronology'), which would shift all events in this year by ~60 years. The conventional 'middle chronology' (1792\u20131750 BCE) is used here, but this is not universally accepted. Additionally, the significance of specific years within Hammurabi's reign is difficult to establish from surviving sources; most narratives conflate his entire reign into a single story of consolidation.",
+  "historiographic_note": "Sources for this year are heavily skewed toward Mesopotamia and Egypt, where written records and archaeology are relatively abundant. The Babylonian King List and Egyptian king lists are later compilations with their own chronological uncertainties. Archaeological evidence from excavations at Babylon, Ur, and Egyptian sites provides material context but rarely allows precise year-by-year reconstruction. The 'low chronology' vs. 'middle chronology' debate in Mesopotamian studies means that absolute dating for this period is uncertain by 50\u2013100 years. Oral traditions and later chronicles (such as Manetho's work, known only through quotations) introduce further uncertainty.",
+  "graph_edges": [
+    {
+      "from": "-1789-001",
+      "to": "-1754-001",
+      "relation": "led_to",
+      "note": "Hammurabi's consolidation of power enables the promulgation of his law code around 1754 BCE"
+    },
+    {
+      "from": "-1789-002",
+      "to": "-1650-001",
+      "relation": "led_to",
+      "note": "Fragmentation of the 13th Dynasty accelerates the transition to the Second Intermediate Period and Hyksos rule"
+    }
+  ]
+}

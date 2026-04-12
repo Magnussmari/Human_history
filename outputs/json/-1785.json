@@ -1,0 +1,119 @@
+{
+  "year": -1785,
+  "year_label": "1786 BCE",
+  "era_context": "Hammurabi's reign is in its final decade (he dies around 1750 BCE). Babylon is at the height of its territorial power. Egypt's 13th Dynasty is fragmenting rapidly. The Hittite Old Kingdom is consolidating Anatolian power. The Indus Valley civilization is in its late phase with declining urban centers. This is a period of established empires and the beginning of transitions that will reshape the Near East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia",
+    "The Americas",
+    "Oceania",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-1785-001",
+      "title": "Hammurabi's reign approaches its end; succession concerns emerge",
+      "region": "Babylonia",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "In the final years of Hammurabi's reign (he dies around 1750 BCE), the aging king has consolidated Babylonian power across Mesopotamia. His son Samsu-iluna will succeed him, but the transition of power from a strong, long-reigning monarch to his successor is a critical moment. Samsu-iluna will face challenges in maintaining Babylonian hegemony, and within a few decades, Babylon's power will begin to decline relative to other powers in the region.",
+      "key_figures": [
+        "Hammurabi (King of Babylon)",
+        "Samsu-iluna (Crown Prince, future King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Babylon",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hammurabi's death is traditionally dated to around 1750 BCE, placing -1785 (1786 BCE) approximately 36 years before his death. The exact year is uncertain by \u00b15\u201310 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1785-002",
+      "title": "Egyptian 13th Dynasty reaches final fragmentation",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The 13th Dynasty of Egypt is in its final phase of fragmentation. Central authority has largely collapsed, and regional governors control Upper and Lower Egypt independently. Multiple short-reigned pharaohs follow one another in rapid succession. This period of weakness will soon be exploited by the Hyksos, who will establish control in the Delta and usher in the Second Intermediate Period. The transition from the Middle Kingdom to the Second Intermediate Period is now imminent.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Egyptian sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca (via later sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The chronology of the 13th Dynasty is uncertain by \u00b120\u201330 years. The process of fragmentation is well-attested, but precise dating is problematic. The transition to the Second Intermediate Period is traditionally dated around 1650 BCE, but some scholars place it earlier.",
+      "cross_references": []
+    },
+    {
+      "id": "-1785-003",
+      "title": "Hittite Old Kingdom consolidates control over Anatolia",
+      "region": "Anatolia",
+      "coordinates_approx": "36.0, 36.0",
+      "category": "political",
+      "description": "The Hittite Old Kingdom, under rulers such as Hattusili I and his successors, has consolidated control over much of Anatolia. The Hittites have established themselves as a major power in the eastern Mediterranean and Near East. Their military campaigns in northern Syria and Mesopotamia have extended Hittite influence southward. This period of consolidation will eventually lead to the Hittite New Kingdom, when the Hittites will become one of the great powers of the ancient world.",
+      "key_figures": [
+        "Hattusili I (King of the Hittites)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite annals and royal inscriptions",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Hattusa and Anatolian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The dating of the Hittite Old Kingdom is uncertain by \u00b150 years. The chronology of individual rulers is problematic, and the assignment of events to specific years is speculative.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Hammurabi's death is traditionally placed around 1750 BCE, but some scholars using the 'low chronology' place it around 1686 BCE. This would shift the assignment of events in this year by ~60 years. Additionally, the exact year of Hammurabi's death is uncertain by \u00b15\u201310 years even within the 'middle chronology.' The Hittite Old Kingdom chronology is highly uncertain, and the assignment of events to this specific year is speculative.",
+  "historiographic_note": "This year falls in a period where written sources are limited to Mesopotamia, Egypt, and Anatolia. The Babylonian King List and Egyptian king lists are later compilations with their own chronological uncertainties. Hittite sources are known only through later copies and compilations. The 'low chronology' vs. 'middle chronology' debate affects all dating in this period by 50\u2013100 years. Archaeological evidence provides material context but rarely allows precise year-by-year reconstruction. The Indus Valley civilization is known primarily through archaeology, which provides limited information about specific events in a given year.",
+  "graph_edges": [
+    {
+      "from": "-1785-001",
+      "to": "-1750-001",
+      "relation": "led_to",
+      "note": "Hammurabi's death around 1750 BCE marks the beginning of Babylon's decline relative to other powers"
+    },
+    {
+      "from": "-1785-002",
+      "to": "-1650-001",
+      "relation": "led_to",
+      "note": "The fragmentation of the 13th Dynasty leads to the Second Intermediate Period and Hyksos rule"
+    },
+    {
+      "from": "-1785-003",
+      "to": "-1400-001",
+      "relation": "led_to",
+      "note": "Hittite consolidation in the Old Kingdom establishes the foundation for Hittite imperial power in the New Kingdom"
+    }
+  ]
+}

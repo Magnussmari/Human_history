@@ -1,0 +1,70 @@
+{
+  "year": -1795,
+  "year_label": "1796 BCE",
+  "era_context": "Hammurabi's reign is at its peak. Egypt's 13th Dynasty is in its final phase. The Hittites have not yet established their empire. The Shang dynasty in China is producing oracle bone records. Bronze Age trade networks are active across the Eastern Mediterranean and Near East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Detailed East Asian records",
+    "The Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-1795-001",
+      "title": "Hammurabi's reign at its zenith",
+      "region": "Mesopotamia",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "Hammurabi's reign (1792\u20131750 BCE) is at its height around 1796 BCE. He has unified most of Mesopotamia under Babylonian rule and established a centralized administrative system. The Code of Hammurabi, which will be inscribed c. 1754 BCE, codifies the legal and social order of this empire. Babylonian culture becomes the dominant cultural force in Mesopotamia.",
+      "key_figures": [
+        "Hammurabi (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Code of Hammurabi",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Babylonian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hammurabi's regnal dates are established, but specific events in individual years are not documented.",
+      "cross_references": []
+    },
+    {
+      "id": "-1795-002",
+      "title": "Bronze Age trade networks active in Eastern Mediterranean",
+      "region": "Eastern Mediterranean and Levant",
+      "coordinates_approx": "34.0, 35.0",
+      "category": "economic",
+      "description": "Bronze Age trade networks connecting Mesopotamia, Egypt, the Levant, Anatolia, and the Aegean are active and flourishing. Tin from Central Asia, copper from Cyprus, cedar from Lebanon, and other commodities are exchanged. This trade supports the economies of major powers and facilitates cultural exchange. The exact routes and volumes are difficult to quantify from archaeological evidence alone.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from port sites, shipwrecks, and artifact distribution (e.g., Uluburun shipwreck, though dated later)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The existence of Bronze Age trade networks is well-established archaeologically, but specific trade patterns and volumes for individual years are not documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed.",
+  "historiographic_note": "The historical record for 1796 BCE is extremely limited. Written documentation from Mesopotamia consists of administrative and legal texts, not narrative histories. Egyptian records are similarly sparse. The Bronze Age trade networks are inferred from archaeological evidence (artifact distribution, shipwrecks, port sites) rather than documented in contemporary texts. The absence of specific events for this year reflects the nature of the historical record for this period.",
+  "graph_edges": [
+    {
+      "from": "-1795-001",
+      "to": "-1754-001",
+      "relation": "led_to",
+      "note": "Hammurabi's reign leads to the promulgation of the Code of Hammurabi c. 1754 BCE"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "year": -1786,
+  "year_label": "1787 BCE",
+  "era_context": "Hammurabi's Babylon is at the height of its power and territorial extent. Egypt's 13th Dynasty is in its final decades of fragmentation. The Hittite Old Kingdom is consolidating control over Anatolia. The Indus Valley civilization is beginning its transition from the mature to the late phase. This is a period of established territorial states and interstate diplomacy.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia",
+    "The Americas",
+    "Oceania",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-1786-001",
+      "title": "Babylonian hegemony over Mesopotamia solidified",
+      "region": "Mesopotamia",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "By this point in his reign, Hammurabi has successfully conquered and integrated most of Mesopotamia under Babylonian rule. Former rival city-states such as Larsa, Eshnunna, and Mari are now under Babylonian control or influence. Babylon becomes the dominant power in the region, and Hammurabi's administrative system extends across a vast territory. This hegemony will persist for several decades after his death.",
+      "key_figures": [
+        "Hammurabi (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Babylon and conquered cities",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Babylonian administrative documents",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hammurabi's consolidation of power is well-attested, but the exact timeline of individual conquests is uncertain. The assignment to -1786 is by convention within the broader consolidation period.",
+      "cross_references": []
+    },
+    {
+      "id": "-1786-002",
+      "title": "Indus Valley civilization enters late phase with urban decline",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "The Indus Valley civilization begins its transition from the mature to the late phase. Some major cities such as Mohenjo-daro show signs of decline, with evidence of reduced population and abandonment of certain areas. The standardized weights and measures that characterized the mature phase become less uniform. Trade networks begin to contract. The causes of this decline are debated\u2014climate change, environmental degradation, or internal social factors\u2014but the process is gradual and extends over several centuries.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Stratigraphic analysis of urban sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The transition from mature to late Harappan is well-documented archaeologically. The late phase is dated approximately 1900\u20131300 BCE, placing -1786 (1787 BCE) at the beginning of this transition.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact causes and timeline of the Indus Valley civilization's decline are disputed. Some scholars argue for a sudden collapse due to climate change or invasion; others propose a gradual, multi-causal decline. The assignment of the beginning of decline to this specific year is therefore somewhat arbitrary. Archaeological evidence suggests the process was gradual over several centuries rather than a single event.",
+  "historiographic_note": "This year falls in a period where written sources are limited to Mesopotamia and Egypt. The Indus Valley civilization's undeciphered script limits our understanding of political and social events. Mesopotamian sources are primarily administrative documents and later king lists. Egyptian sources are fragmentary. The 'low chronology' vs. 'middle chronology' debate continues to affect all dating in this period.",
+  "graph_edges": [
+    {
+      "from": "-1786-001",
+      "to": "-1700-001",
+      "relation": "led_to",
+      "note": "Babylonian hegemony persists until the rise of the Kassites in the 16th century BCE"
+    },
+    {
+      "from": "-1786-002",
+      "to": "-1300-001",
+      "relation": "part_of",
+      "note": "Urban decline in the Indus Valley is part of a gradual transition that extends over several centuries"
+    }
+  ]
+}
