@@ -1,0 +1,117 @@
+{
+  "year": 206,
+  "year_label": "206 CE",
+  "era_context": "The Roman Empire under Septimius Severus, consolidating military power and preparing for his final campaigns. In China, the Han Dynasty is in terminal decline; warlords are consolidating regional power bases. The Three Kingdoms period is imminent. The Kushan Empire remains a major power in Central Asia. The Parthian Empire is weakening.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Southeast Asia",
+    "Mesoamerica",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "206-001",
+      "title": "Septimius Severus prepares British campaign",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.0, 12.0",
+      "category": "military",
+      "description": "Septimius Severus, now 62 years old, is preparing for his major military campaign in Britain. He has decided to personally lead an expedition to Caledonia to secure the northern frontier and consolidate his military power. The campaign will begin in 208 CE and will last until his death in 211 CE. Severus is gathering troops and resources for what will be one of the largest Roman military operations of the era.",
+      "key_figures": [
+        "Septimius Severus (Roman Emperor)",
+        "Caracalla (son, co-ruler)",
+        "Geta (son, co-ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Severus's preparations for the British campaign are inferred from sources describing the campaign's beginning in 208 CE. The exact timing of preparations is not precisely documented.",
+      "cross_references": [
+        "208-002 (Severus arrives in Britain)",
+        "211-001 (Severus's death)"
+      ]
+    },
+    {
+      "id": "206-002",
+      "title": "Cao Cao's power at its height",
+      "region": "Northern China (Han Empire)",
+      "coordinates_approx": "35.0, 115.0",
+      "category": "political",
+      "description": "Cao Cao, now in his mid-50s, has consolidated his control over northern China and is at the height of his power. He controls the Han emperor and the imperial court, effectively ruling the north. His administrative reforms have strengthened his state, and his military forces are formidable. However, he faces growing opposition from the southern warlords Liu Bei and Sun Quan, who are consolidating their own power bases.",
+      "key_figures": [
+        "Cao Cao (warlord, Chancellor of Han)",
+        "Emperor Xian (nominal Han Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi (Records of the Three Kingdoms)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Cao Cao's power and position in 206 CE are well-documented in Chinese historical records.",
+      "cross_references": [
+        "208-001 (Battle of Red Cliffs, where Cao Cao's power is checked)"
+      ]
+    },
+    {
+      "id": "206-003",
+      "title": "Liu Bei establishes base in Jing Province",
+      "region": "Southern China (Jing Province)",
+      "coordinates_approx": "30.0, 110.0",
+      "category": "political",
+      "description": "Liu Bei, a southern warlord and distant relative of the Han imperial house, establishes his power base in Jing Province (modern Hubei). He has allied with Liu Biao, the governor of Jing Province, and is building his military and political strength. Liu Bei is positioning himself as a rival to Cao Cao's northern dominance and is preparing for the conflict that will culminate in the Battle of Red Cliffs.",
+      "key_figures": [
+        "Liu Bei (southern warlord)",
+        "Liu Biao (governor of Jing Province)",
+        "Zhuge Liang (strategist, may have joined Liu Bei around this time)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi (Records of the Three Kingdoms)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Liu Bei's establishment of his base in Jing Province is documented in Chinese historical records, though the exact date (206 or nearby years) is not precisely specified.",
+      "cross_references": [
+        "208-001 (Battle of Red Cliffs)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Liu Bei's movements and alliances in the early 3rd century is debated. Some sources suggest he was in different locations or had different alliances at different times. The precise date of Zhuge Liang's joining Liu Bei is uncertain; some sources place it around 207\u2013208 CE, while others suggest earlier or later dates.",
+  "historiographic_note": "The year 206 CE is moderately well-documented for the Roman Empire through later sources. Chinese history is well-recorded in official chronicles, though the exact dating of events in the late Han period remains debated. The Kushan Empire and Sassanid Persia are less well-documented for this specific year. Non-Mediterranean and non-East Asian regions have minimal written records.",
+  "graph_edges": [
+    {
+      "from": "206-001",
+      "to": "208-002",
+      "relation": "led_to",
+      "note": "Severus's preparations for the British campaign led to his arrival in Britain in 208 CE"
+    },
+    {
+      "from": "206-002",
+      "to": "208-001",
+      "relation": "led_to",
+      "note": "Cao Cao's power and ambitions led to the Battle of Red Cliffs in 208 CE"
+    },
+    {
+      "from": "206-003",
+      "to": "208-001",
+      "relation": "led_to",
+      "note": "Liu Bei's establishment of his power base led to his alliance with Sun Quan and the Battle of Red Cliffs"
+    }
+  ]
+}

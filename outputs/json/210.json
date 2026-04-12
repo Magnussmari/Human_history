@@ -1,0 +1,121 @@
+{
+  "year": 210,
+  "year_label": "210 CE",
+  "era_context": "The Roman Empire under Septimius Severus (r. 193\u2013211 CE) in its final years. The Severan dynasty consolidated military autocracy, expanded the army, and conducted major campaigns on the Parthian and British frontiers. In China, the Han Dynasty had collapsed (220 CE imminent); the empire fragmented into regional warlord states during the late Eastern Han and early Three Kingdoms period. In India, the Satavahana Empire was declining in the Deccan while the Kushan Empire dominated the northwest.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Roman frontier (archaeological only)",
+    "Southeast Asia (sparse contemporary records)",
+    "Mesoamerica (no written records of this period)"
+  ],
+  "events": [
+    {
+      "id": "210-001",
+      "title": "Septimius Severus campaigns in Caledonia",
+      "region": "Roman Britain / Caledonia (modern Scotland)",
+      "coordinates_approx": "57.0, -4.0",
+      "category": "military",
+      "description": "Emperor Septimius Severus, aged 65, personally leads a major military campaign into Caledonia (Scotland) with his sons Caracalla and Geta. The campaign aims to subjugate the Picts and secure the northern frontier of Roman Britain. Severus reportedly reaches the far north and establishes temporary forts, though the campaign achieves limited permanent territorial gain. The expedition is grueling and costly, and Severus falls ill during or shortly after the campaign.",
+      "key_figures": [
+        "Septimius Severus (Roman Emperor)",
+        "Caracalla (son, co-ruler)",
+        "Geta (son, co-ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History (Book 76\u201377)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta (Life of Severus)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Roman forts in Scotland",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The campaign is well-attested in multiple Roman sources, though written decades or centuries later. Archaeological evidence of Roman military presence in Scotland during this period corroborates the campaign's occurrence.",
+      "cross_references": [
+        "211-001 (Severus's death at York)",
+        "211-002 (Caracalla and Geta's conflict)"
+      ]
+    },
+    {
+      "id": "210-002",
+      "title": "Cao Cao consolidates power in northern China",
+      "region": "Northern China (Han Empire)",
+      "coordinates_approx": "35.0, 115.0",
+      "category": "political",
+      "description": "Cao Cao, the dominant warlord in northern China, continues to consolidate his control over the fragmenting Han Empire. By 210 CE, Cao Cao has effectively become the de facto ruler of the north, though the Han emperor remains nominally in power at Xu. Cao Cao's administrative reforms, military innovations, and patronage of scholars strengthen his position. His son Cao Pi will eventually found the Wei Dynasty in 220 CE.",
+      "key_figures": [
+        "Cao Cao (warlord, Chancellor of Han)",
+        "Emperor Xian (nominal Han Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Records of Wei (Wei Shu) in Sanguozhi (Records of the Three Kingdoms)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Hou Han Shu (History of the Later Han)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Cao Cao's rise to power and consolidation of northern China is well-documented in Chinese historical records compiled within a few centuries of the events.",
+      "cross_references": [
+        "220-001 (Cao Pi founds Wei Dynasty)"
+      ]
+    },
+    {
+      "id": "210-003",
+      "title": "Kushan Empire under Huvishka or successor",
+      "region": "Central Asia / Northwest India (Kushan Empire)",
+      "coordinates_approx": "35.0, 70.0",
+      "category": "political",
+      "description": "The Kushan Empire, which controlled the Silk Road trade routes and dominated Central Asia and northwest India, continues under its rulers during the early 3rd century. The exact succession and dating of Kushan rulers in this period is debated by scholars. The empire remains a major power facilitating trade between Rome, China, and India, though it faces increasing pressure from the Sassanid Persian Empire to the west.",
+      "key_figures": [
+        "Kushan ruler (identity uncertain; possibly Huvishka or a successor)"
+      ],
+      "sources": [
+        {
+          "name": "Numismatic evidence (Kushan coins)",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese historical records (Han Shu, Wei Shu)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The chronology and succession of Kushan rulers in the early 3rd century CE is uncertain and debated among numismatists and historians. Coin evidence provides some dating, but the exact year-by-year sequence is not firmly established.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The extent and success of Severus's Caledonian campaign is debated. Some scholars argue that the campaign achieved less than Roman sources claim and that the Picts were not permanently subdued. The campaign's strategic value is questioned by modern historians, who note that it did not prevent future incursions and may have been partly motivated by Severus's desire to keep his sons occupied and loyal.",
+  "historiographic_note": "The year 210 CE is well-documented for the Roman Empire through later historical compilations (Cassius Dio, Historia Augusta) and archaeological evidence. Chinese history is well-recorded in official chronicles compiled centuries later but based on earlier records. The Kushan Empire is known primarily through numismatic and archaeological evidence, with significant dating uncertainties. Sub-Saharan Africa, northern Europe, and the Americas have no written records for this year.",
+  "graph_edges": [
+    {
+      "from": "210-001",
+      "to": "211-001",
+      "relation": "led_to",
+      "note": "Severus's Caledonian campaign and illness led to his death at York in 211 CE"
+    },
+    {
+      "from": "210-002",
+      "to": "220-001",
+      "relation": "led_to",
+      "note": "Cao Cao's consolidation of northern China directly enabled his son Cao Pi to found the Wei Dynasty in 220 CE"
+    }
+  ]
+}

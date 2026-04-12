@@ -1,0 +1,123 @@
+{
+  "year": 209,
+  "year_label": "209 CE",
+  "era_context": "The Roman Empire under Septimius Severus in its final years, with the emperor aging and his sons Caracalla and Geta positioned as co-heirs. In China, the Han Dynasty continues its collapse; Cao Cao dominates the north while other warlords control the south and center. The Kushan Empire remains a major power in Central Asia. The Sassanid Persian Empire is consolidating under Ardashir I's rise to power (r. 224\u2013241 CE is imminent).",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Southeast Asia",
+    "Mesoamerica",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "209-001",
+      "title": "Septimius Severus continues Caledonian campaign",
+      "region": "Roman Britain / Caledonia",
+      "coordinates_approx": "57.0, -4.0",
+      "category": "military",
+      "description": "Septimius Severus continues his military operations in Caledonia, though his health is deteriorating. The campaign has achieved limited territorial gains, and the emperor's advanced age (he is now 66) makes sustained campaigning difficult. The campaign will be abandoned after Severus's death in 211 CE, and the frontier will revert to the Antonine Wall or Hadrian's Wall.",
+      "key_figures": [
+        "Septimius Severus (Roman Emperor)",
+        "Caracalla (son, co-ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Roman forts",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The continuation of the campaign into 209 is inferred from sources describing the overall campaign duration and Severus's death in 211. Exact year-by-year details are sparse.",
+      "cross_references": [
+        "210-001 (Caledonian campaign begins)",
+        "211-001 (Severus's death)"
+      ]
+    },
+    {
+      "id": "209-002",
+      "title": "Yellow Turban Rebellion aftermath in China",
+      "region": "China (Han Empire)",
+      "coordinates_approx": "35.0, 115.0",
+      "category": "political",
+      "description": "In the aftermath of the Yellow Turban Rebellion (184\u2013205 CE), the Han Empire continues to fragment into regional warlord states. Cao Cao consolidates the north, while Liu Bei and Sun Ce/Sun Quan control southern and central regions. The year 209 sees continued warfare and political maneuvering among these factions. The Han Dynasty is effectively defunct as a unified state, though the nominal emperor remains a figurehead.",
+      "key_figures": [
+        "Cao Cao (northern warlord)",
+        "Liu Bei (southern warlord)",
+        "Sun Quan (southern warlord, successor to Sun Ce)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi (Records of the Three Kingdoms)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Hou Han Shu (History of the Later Han)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The fragmentation of the Han Empire and the rise of warlords is well-documented in Chinese historical records, though compiled centuries after the events.",
+      "cross_references": [
+        "184-001 (Yellow Turban Rebellion begins)",
+        "220-001 (Wei Dynasty founded)"
+      ]
+    },
+    {
+      "id": "209-003",
+      "title": "Battle of Red Cliffs preparations (pre-battle period)",
+      "region": "China (Yangtze River region)",
+      "coordinates_approx": "30.5, 115.0",
+      "category": "military",
+      "description": "In the years leading up to the Battle of Red Cliffs (208\u2013209 CE), Cao Cao prepares for a major military campaign against the southern warlords Liu Bei and Sun Quan. The exact dating of the battle is debated, with some sources placing it in 208 and others in 209. Cao Cao's forces are mobilizing for what will be one of the largest battles of the Three Kingdoms period.",
+      "key_figures": [
+        "Cao Cao (northern warlord)",
+        "Liu Bei (southern warlord)",
+        "Sun Quan (southern warlord)",
+        "Zhou Yu (Sun Quan's general)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi (Records of the Three Kingdoms)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Romance of the Three Kingdoms (14th-century novel, based on historical events)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Battle of Red Cliffs is traditionally dated to 208\u2013209 CE, but the exact year is debated. Some sources place it in 208, others in 209. The battle is legendary in Chinese history, and later literary accounts (Romance of the Three Kingdoms) have embellished the historical record.",
+      "cross_references": [
+        "208-001 (Battle of Red Cliffs, if dated to 208)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of the Battle of Red Cliffs is disputed. Traditional Chinese sources and later compilations place it in 208\u2013209 CE, but modern scholars debate whether it occurred in 208 or 209. Some argue the battle's historical significance has been exaggerated by later literary accounts, particularly the Romance of the Three Kingdoms. The battle's outcome (a decisive victory for the southern coalition) is confirmed, but tactical details are contested.",
+  "historiographic_note": "The year 209 CE is moderately well-documented for the Roman Empire through later sources and archaeology. Chinese history is well-recorded in official chronicles, though the exact dating of events like the Battle of Red Cliffs remains debated. The Kushan Empire and Sassanid Persia are less well-documented for this specific year. Western and non-Mediterranean sources are sparse.",
+  "graph_edges": [
+    {
+      "from": "209-001",
+      "to": "211-001",
+      "relation": "led_to",
+      "note": "Severus's continued Caledonian campaign led to his death in 211 CE"
+    },
+    {
+      "from": "209-003",
+      "to": "208-001",
+      "relation": "contemporary_with",
+      "note": "The Battle of Red Cliffs occurred in 208 or 209 CE; exact dating is debated"
+    }
+  ]
+}

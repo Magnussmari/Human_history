@@ -1,0 +1,127 @@
+{
+  "year": 227,
+  "year_label": "227 CE",
+  "era_context": "The Roman Empire under Severus Alexander faces crises on multiple frontiers. The Sassanid Empire under Ardashir I is consolidating power after overthrowing the Parthian Arsacid dynasty (224 CE). In China, the Three Kingdoms period is well-established; Wei dominates the north under Cao Rui (r. 226\u2013239), while Wu and Shu maintain independent states. This is an era of imperial strain, frontier warfare, and political consolidation across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Mesoamerica",
+    "India (sparse sources)"
+  ],
+  "events": [
+    {
+      "id": "227-001",
+      "title": "Cao Rui becomes Wei emperor",
+      "region": "Northern China, Wei state",
+      "coordinates_approx": "35.0, 115.0",
+      "category": "political",
+      "description": "Cao Rui (r. 226\u2013239) becomes emperor of Wei following the death of his father Cao Pi (r. 220\u2013226). Cao Rui is the third ruler of the Wei state and continues the consolidation of Wei's dominance in northern China. His reign sees the strengthening of administrative structures and military organization. Cao Rui's succession is smooth and well-documented in Chinese historical records. His reign will last until 239 CE and is marked by continued military pressure on rival states Wu and Shu.",
+      "key_figures": [
+        "Cao Rui (Wei Emperor, r. 226\u2013239)",
+        "Cao Pi (predecessor, r. 220\u2013226)",
+        "Sima Yi (military strategist and administrator)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi by Chen Shou",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian by Sima Guang",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Cao Rui's accession to the Wei throne is well-attested in Chinese historical records. The date 226 CE for Cao Pi's death and Cao Rui's succession is firmly established.",
+      "cross_references": [
+        "Follows from 226-001 (Cao Pi's death)",
+        "Part of 220-280 (Three Kingdoms period)"
+      ]
+    },
+    {
+      "id": "227-002",
+      "title": "Sassanid-Roman frontier conflict continues",
+      "region": "Mesopotamia, Syria, Roman-Sassanid frontier",
+      "coordinates_approx": "35.5, 34.0",
+      "category": "military",
+      "description": "Military conflict between Rome and the Sassanid Empire continues in 227. The exact sequence of campaigns is unclear from surviving sources, which often conflate events across multiple years. This period marks the establishment of the Sassanid-Roman frontier as a zone of chronic conflict. Both empires commit significant military resources to this struggle. The conflict forces Rome to maintain a strong eastern army, straining resources needed elsewhere on the Rhine and Danube frontiers.",
+      "key_figures": [
+        "Severus Alexander (Roman Emperor)",
+        "Ardashir I (Sassanid Shah)"
+      ],
+      "sources": [
+        {
+          "name": "Herodian, History of the Roman Empire",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Sassanid-Roman conflict in this period is attested, but precise dating to 227 vs. adjacent years is uncertain. Sources often group multiple years without clear chronology.",
+      "cross_references": [
+        "Related to 228-001, 229-001, 230-001 (Sassanid-Roman conflict)",
+        "Part of broader Sassanid-Roman conflict cycle"
+      ]
+    },
+    {
+      "id": "227-003",
+      "title": "Germanic raids on Roman Rhine frontier",
+      "region": "Rhine frontier, Germania, Roman provinces",
+      "coordinates_approx": "50.5, 8.0",
+      "category": "military",
+      "description": "Germanic tribes continue to raid across the Rhine into Roman territory. These incursions are part of broader Germanic migration and pressure on Roman frontiers during the 3rd century. Severus Alexander's military resources are stretched between the Sassanid threat in the east and Germanic pressure in the north. Roman response is documented but often reactive. These raids foreshadow the larger Germanic movements of the later 3rd century.",
+      "key_figures": [
+        "Severus Alexander (Roman Emperor)",
+        "Germanic tribal leaders (names largely unrecorded)"
+      ],
+      "sources": [
+        {
+          "name": "Herodian, History of the Roman Empire",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Germanic raids on the Rhine are attested for this period, but specific dating to 227 is approximate. Sources often group such raids without precise chronology.",
+      "cross_references": [
+        "Related to 230-003 (Germanic raids)",
+        "Part of broader 3rd century Germanic migration pressure"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Sassanid-Roman military operations in 227\u2013230 is uncertain and debated. Some modern scholars argue that Roman sources exaggerate Sassanid victories or conflate events across multiple years. The actual extent of Sassanid territorial gains remains disputed. For Germanic raids, the specific dating to 227 vs. adjacent years is approximate; sources do not provide precise chronology.",
+  "historiographic_note": "Documentation for 227 CE is moderate. Chinese sources for Cao Rui's accession are well-preserved and reliable. Roman sources for Sassanid-Roman conflict and Germanic raids are non-contemporary (Herodian writing c. 240 CE) and sometimes unreliable (Historia Augusta). Sassanid sources are sparse. The record is heavily weighted toward military and political events; economic, social, and cultural history are underrepresented. Regional coverage is skewed toward the Mediterranean, Near East, and China; Africa, India, and Southeast Asia are largely absent.",
+  "graph_edges": [
+    {
+      "from": "227-001",
+      "to": "226-001",
+      "relation": "caused_by",
+      "note": "Cao Rui's accession follows from Cao Pi's death"
+    },
+    {
+      "from": "227-002",
+      "to": "228-001",
+      "relation": "led_to",
+      "note": "Sassanid-Roman conflict continues"
+    },
+    {
+      "from": "227-003",
+      "to": "230-003",
+      "relation": "contemporary_with",
+      "note": "Germanic raids continue across multiple years"
+    }
+  ]
+}

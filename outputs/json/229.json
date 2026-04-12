@@ -1,0 +1,127 @@
+{
+  "year": 229,
+  "year_label": "229 CE",
+  "era_context": "The Roman Empire under Severus Alexander continues to face dual crises: Sassanid expansion in the east and Germanic pressure in the north. The Sassanid Empire under Ardashir I is consolidating its new dynasty. In China, the Three Kingdoms period is stabilizing with Wei dominant in the north, Wu controlling the south, and Shu in the southwest. This is a period of imperial strain and frontier warfare across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Southeast Asia",
+    "Mesoamerica",
+    "India (limited sources for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "229-001",
+      "title": "Continued Sassanid-Roman conflict in Mesopotamia",
+      "region": "Mesopotamia, Syria, Roman-Sassanid frontier",
+      "coordinates_approx": "35.5, 34.0",
+      "category": "military",
+      "description": "The Sassanid-Roman conflict that began or intensified in 230 continues into 229. Roman forces attempt to stabilize the frontier and recover lost territory. The exact sequence of campaigns is unclear from surviving sources, which often conflate events across multiple years. This period establishes the pattern of Sassanid-Roman conflict that will dominate the eastern frontier for centuries. Both empires commit significant military resources to this struggle.",
+      "key_figures": [
+        "Severus Alexander (Roman Emperor)",
+        "Ardashir I (Sassanid Shah)"
+      ],
+      "sources": [
+        {
+          "name": "Herodian, History of the Roman Empire",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The continuation of conflict is probable, but precise events and dating within 229 are unclear. Sources often group multiple years of campaigning without clear chronology.",
+      "cross_references": [
+        "Related to 230-001 (Sassanid invasion)",
+        "Part of broader Sassanid-Roman conflict cycle"
+      ]
+    },
+    {
+      "id": "229-002",
+      "title": "Wei military campaigns against Wu",
+      "region": "Central China, Yangtze River region",
+      "coordinates_approx": "30.0, 115.0",
+      "category": "military",
+      "description": "Wei forces under Cao Rui conduct military operations against the state of Wu, which controls the Yangtze River valley and southern China. These campaigns are part of ongoing Three Kingdoms warfare, with Wei attempting to expand southward and consolidate control. The campaigns are documented in Chinese historical records but with varying detail. Wei's military superiority in this period is reflected in its ability to maintain pressure on multiple fronts.",
+      "key_figures": [
+        "Cao Rui (Wei Emperor)",
+        "Sima Yi (Wei military strategist)",
+        "Sun Quan (Wu Emperor, r. 222\u2013252)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi (Records of the Three Kingdoms) by Chen Shou",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian by Sima Guang",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Wei-Wu military conflict is attested for this period, but specific campaigns and their dating to 229 vs. adjacent years is sometimes uncertain in sources.",
+      "cross_references": [
+        "Part of 220-280 (Three Kingdoms period)",
+        "Related to 230-002 (Wei consolidation)"
+      ]
+    },
+    {
+      "id": "229-003",
+      "title": "Sun Quan consolidates Wu state authority",
+      "region": "Southern China, Wu state",
+      "coordinates_approx": "30.0, 120.0",
+      "category": "political",
+      "description": "Sun Quan, the second emperor of Wu (r. 222\u2013252), continues consolidating his state's administrative and military structures. Wu controls the Yangtze River valley and southern coastal regions, giving it economic advantages despite military pressure from Wei. Sun Quan's reign sees the development of Wu's naval power and administrative systems. This period establishes Wu as a viable long-term competitor to Wei despite the latter's northern dominance.",
+      "key_figures": [
+        "Sun Quan (Wu Emperor, r. 222\u2013252)",
+        "Lu Xun (Wu general and strategist)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi by Chen Shou",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian by Sima Guang",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Sun Quan's consolidation of Wu is well-attested in Chinese historical records for this period.",
+      "cross_references": [
+        "Part of 220-280 (Three Kingdoms period)",
+        "Related to 229-002 (Wei-Wu military conflict)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise sequence and dating of Sassanid-Roman military operations in 229\u2013230 is disputed. Some modern scholars argue that Roman sources (Herodian, Historia Augusta) conflate multiple years of campaigning or exaggerate Roman military success. The actual extent of Sassanid territorial gains remains debated. For Chinese history, the specific dating of Wei-Wu military campaigns to 229 vs. 230 or 228 is sometimes uncertain in sources, though the general pattern of conflict is clear.",
+  "historiographic_note": "Documentation for 229 CE is moderate but faces the same biases as 230: Roman sources are non-contemporary (Herodian writing c. 240 CE), Chinese sources are better but still compiled centuries later. The Historia Augusta is notoriously unreliable. Sassanid sources remain sparse. The record is heavily weighted toward military and political events; economic, social, and cultural history are underrepresented. Regional coverage is skewed toward the Mediterranean, Near East, and China; Africa, India, and Southeast Asia are largely absent.",
+  "graph_edges": [
+    {
+      "from": "229-001",
+      "to": "230-001",
+      "relation": "contemporary_with",
+      "note": "Sassanid-Roman conflict continues across both years"
+    },
+    {
+      "from": "229-002",
+      "to": "229-003",
+      "relation": "contemporary_with",
+      "note": "Wei military campaigns and Wu consolidation occur simultaneously"
+    },
+    {
+      "from": "229-003",
+      "to": "220-001",
+      "relation": "part_of",
+      "note": "Wu's consolidation is part of the Three Kingdoms fragmentation"
+    }
+  ]
+}

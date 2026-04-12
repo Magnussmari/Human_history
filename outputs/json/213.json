@@ -1,0 +1,85 @@
+{
+  "year": 213,
+  "year_label": "213 CE",
+  "era_context": "Caracalla's reign in the Roman Empire continued with military focus and fiscal strain. The Parthian Empire remained a persistent rival. In China, the Three Kingdoms period was approaching; Cao Cao's power was consolidating. The Satavahana Empire in India was in terminal decline. This was a period of transition and fragmentation across multiple major civilizations.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Central Asia",
+    "India (limited sources for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "213-001",
+      "title": "Caracalla's Fiscal and Military Policies",
+      "region": "Roman Empire (universal)",
+      "coordinates_approx": null,
+      "category": "economic",
+      "description": "Caracalla's reign was characterized by heavy military spending and corresponding fiscal demands on the provinces. In 213 CE, the emperor continued to extract resources from the empire to fund his armies and campaigns. The debasement of the Roman currency (the antoninianus) accelerated during this period, contributing to inflation. These policies would have long-term consequences for the stability of the empire.",
+      "key_figures": [
+        "Caracalla (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History (Book 78)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Numismatic evidence (coin hoards and composition analysis)",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Numismatic evidence confirms currency debasement during Caracalla's reign; precise dating to 213 CE is approximate based on coin composition analysis.",
+      "cross_references": []
+    },
+    {
+      "id": "213-002",
+      "title": "Cao Cao's Military Campaigns in Northern China",
+      "region": "Northern China",
+      "coordinates_approx": "114.0, 35.0",
+      "category": "military",
+      "description": "Cao Cao continued his military campaigns to consolidate control over northern China, eliminating rival warlords and securing the Yellow River valley. His military innovations, including the use of cavalry and logistical organization, gave him advantages over competitors. By 213 CE, Cao Cao's dominance in the north was nearly complete, setting the stage for the formal establishment of the Wei state in 220 CE.",
+      "key_figures": [
+        "Cao Cao (Warlord)"
+      ],
+      "sources": [
+        {
+          "name": "Records of Wei (Wei Shu)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Romance of the Three Kingdoms (14th-century literary compilation based on historical records)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Cao Cao's military activities are well-documented in Chinese historical records, though precise dating of individual campaigns to 213 CE is uncertain.",
+      "cross_references": [
+        "214-003 (Cao Cao's consolidation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No significant disconfirming evidence identified for events listed. However, the historical record for 213 CE is extremely sparse, and the events described are generalizations about broader trends rather than specific, datable occurrences. The significance of events in this year is difficult to assess due to lack of contemporary documentation.",
+  "historiographic_note": "The historical record for 213 CE is very sparse. For the Roman Empire, sources are limited to later compilations and numismatic evidence. No contemporary military or administrative records survive. For China, the Records of Wei provide information, but precise annual dating is often uncertain. The sources are heavily biased toward elite political and military history; the experiences of common people, provincial populations, and non-Han peoples are largely absent. This year may be historically significant primarily as part of broader trends rather than for specific events.",
+  "graph_edges": [
+    {
+      "from": "213-001",
+      "to": "215-002",
+      "relation": "part_of",
+      "note": "Part of the broader fiscal crisis that characterized Caracalla's reign"
+    },
+    {
+      "from": "213-002",
+      "to": "214-003",
+      "relation": "part_of",
+      "note": "Continuation of Cao Cao's consolidation process"
+    }
+  ]
+}

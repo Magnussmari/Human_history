@@ -1,0 +1,134 @@
+{
+  "year": 208,
+  "year_label": "208 CE",
+  "era_context": "The Roman Empire under Septimius Severus in its final years. In China, the Han Dynasty has effectively collapsed; the Three Kingdoms period is beginning with major warlords consolidating power. The Battle of Red Cliffs, one of the largest battles in Chinese history, occurs in this year or 209 CE. The Kushan Empire remains dominant in Central Asia. The Sassanid Persian Empire is rising under Ardashir I.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Southeast Asia",
+    "Mesoamerica",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "208-001",
+      "title": "Battle of Red Cliffs",
+      "region": "China (Yangtze River region, near modern Wuhan)",
+      "coordinates_approx": "30.5, 115.0",
+      "category": "military",
+      "description": "The Battle of Red Cliffs is fought between Cao Cao's northern forces and the allied southern forces of Liu Bei and Sun Quan. The battle is one of the largest naval engagements in Chinese history and marks a turning point in the Three Kingdoms period. Cao Cao's forces are defeated, preventing his unification of China and establishing the southern kingdoms as independent powers. The battle is legendary in Chinese culture and has been extensively dramatized in later literature, particularly the Romance of the Three Kingdoms.",
+      "key_figures": [
+        "Cao Cao (northern warlord)",
+        "Liu Bei (southern warlord)",
+        "Sun Quan (southern warlord)",
+        "Zhou Yu (Sun Quan's general, strategist)",
+        "Zhuge Liang (Liu Bei's strategist)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi (Records of the Three Kingdoms)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Hou Han Shu (History of the Later Han)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Romance of the Three Kingdoms (14th-century novel)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle's occurrence is confirmed by multiple Chinese historical sources. However, the exact date (208 or 209 CE) is debated, and later literary accounts have embellished tactical details.",
+      "cross_references": [
+        "209-003 (Battle of Red Cliffs preparations)",
+        "220-001 (Wei Dynasty founded, establishing the Three Kingdoms)"
+      ]
+    },
+    {
+      "id": "208-002",
+      "title": "Septimius Severus in Britain",
+      "region": "Roman Britain",
+      "coordinates_approx": "53.0, -2.0",
+      "category": "military",
+      "description": "Septimius Severus, now 64 years old, is actively campaigning in Britain. He has established his base at York (Eboracum) and is conducting military operations against the Picts in Caledonia. The campaign is costly and grueling, and Severus's health is beginning to fail. He will die at York in 211 CE.",
+      "key_figures": [
+        "Septimius Severus (Roman Emperor)",
+        "Caracalla (son, co-ruler)",
+        "Geta (son, co-ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from York and Scottish forts",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Severus's presence in Britain in 208 CE is well-attested in Roman sources and corroborated by archaeological evidence.",
+      "cross_references": [
+        "210-001 (Caledonian campaign continues)",
+        "211-001 (Severus's death at York)"
+      ]
+    },
+    {
+      "id": "208-003",
+      "title": "Ardashir I rises in Persia",
+      "region": "Persia (Sassanid Empire)",
+      "coordinates_approx": "32.0, 53.0",
+      "category": "political",
+      "description": "Ardashir I, a Persian nobleman, begins his rise to power in the Parthian Empire. By 224 CE, he will have overthrown the Parthian Arsacid dynasty and founded the Sassanid Persian Empire. In 208 CE, Ardashir is consolidating his power base in the southern Persian province of Pars (Fars). His rise marks the beginning of the end for the Parthian Empire.",
+      "key_figures": [
+        "Ardashir I (Persian nobleman, future Sassanid founder)"
+      ],
+      "sources": [
+        {
+          "name": "Sassanid inscriptions and later Persian histories",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Roman historical accounts (Cassius Dio, later sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ardashir's rise to power is dated to the early 3rd century, but the exact year-by-year progression is uncertain. The traditional date of the Sassanid conquest is 224 CE, but Ardashir's consolidation of power likely began earlier.",
+      "cross_references": [
+        "224-001 (Sassanid Empire founded)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of the Battle of Red Cliffs is disputed. While traditionally dated to 208\u2013209 CE, some modern scholars argue for 208 CE specifically, while others prefer 209 CE. The battle's tactical details, as recorded in the Sanguozhi and especially as dramatized in the Romance of the Three Kingdoms, are contested by historians. Some scholars question whether the battle was as decisive as later sources claim, though its strategic importance in preventing Cao Cao's unification of China is generally accepted. Ardashir I's exact dates and the chronology of his rise are debated among scholars of Sassanid history.",
+  "historiographic_note": "The year 208 CE is well-documented for the Roman Empire and moderately well-documented for China. The Battle of Red Cliffs is one of the most famous events in Chinese history, but its exact dating and tactical details are contested. Chinese historical records were compiled centuries after the events and are subject to later literary embellishment. The Sassanid Empire's early history is less well-documented, with significant dating uncertainties. Non-Mediterranean and non-East Asian regions have minimal written records for this year.",
+  "graph_edges": [
+    {
+      "from": "208-001",
+      "to": "220-001",
+      "relation": "led_to",
+      "note": "The Battle of Red Cliffs prevented Cao Cao's unification of China and established the Three Kingdoms, leading to the formal founding of the Wei Dynasty in 220 CE"
+    },
+    {
+      "from": "208-002",
+      "to": "211-001",
+      "relation": "led_to",
+      "note": "Severus's British campaign led to his death at York in 211 CE"
+    },
+    {
+      "from": "208-003",
+      "to": "224-001",
+      "relation": "led_to",
+      "note": "Ardashir I's rise in 208 CE led to the founding of the Sassanid Empire in 224 CE"
+    }
+  ]
+}

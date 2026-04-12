@@ -1,0 +1,127 @@
+{
+  "year": 212,
+  "year_label": "212 CE",
+  "era_context": "Caracalla's reign in the Roman Empire, following his murder of his co-emperor brother Geta in 211 CE. The Severan dynasty maintained military autocracy. In China, the Han Dynasty was in its final years; warlords were fragmenting imperial authority. The Parthian Empire remained a major power in the Near East. This was a period of political consolidation and military competition across major civilizations.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "212-001",
+      "title": "Edict of Caracalla (Constitutio Antoniniana)",
+      "region": "Roman Empire (universal)",
+      "coordinates_approx": null,
+      "category": "legal",
+      "description": "Caracalla issued the Constitutio Antoniniana, granting Roman citizenship to all free inhabitants of the Roman Empire. This was a revolutionary legal measure that eliminated the distinction between citizens and non-citizens, fundamentally altering the legal and fiscal structure of the empire. The edict increased the tax base and unified the empire under a single legal framework, but it also generated administrative challenges and may have been motivated partly by fiscal necessity (to increase tax revenue). The measure had profound long-term consequences for the Romanization of provincial elites and the development of Roman law.",
+      "key_figures": [
+        "Caracalla (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History (Book 78)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Papyri from Egypt (administrative records and legal documents)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Herodian, History of the Roman Empire (Book 4)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The edict is well-attested in multiple sources and confirmed by contemporary Egyptian papyri showing the implementation of the new citizenship status.",
+      "cross_references": [
+        "215-002 (Implementation and aftermath of the edict)"
+      ]
+    },
+    {
+      "id": "212-002",
+      "title": "Caracalla's Consolidation of Power",
+      "region": "Roman Empire (universal)",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "Following the murder of his co-emperor brother Geta in 211 CE, Caracalla spent 212 CE consolidating his sole authority over the Roman Empire. He eliminated potential rivals, secured the loyalty of the military through increased pay and privileges, and established himself as the supreme military commander. His consolidation involved purges of the Senate and the execution of perceived enemies. This period established the pattern of military autocracy that would characterize the Severan dynasty.",
+      "key_figures": [
+        "Caracalla (Roman Emperor)",
+        "Julia Maesa (grandmother, influential in court)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History (Book 78)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Herodian, History of the Roman Empire (Book 4)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Caracalla's consolidation of power is well-attested in later sources, though the precise chronology of individual purges and political moves is sometimes uncertain.",
+      "cross_references": [
+        "211-001 (Murder of Geta and Caracalla's accession)"
+      ]
+    },
+    {
+      "id": "212-003",
+      "title": "Han Dynasty's Nominal Authority Continues to Decline in China",
+      "region": "China (Han Empire successor states)",
+      "coordinates_approx": "114.0, 35.0",
+      "category": "political",
+      "description": "In 212 CE, the Han Dynasty's nominal authority continued to erode as warlords consolidated regional power. Cao Cao and other regional commanders exercised de facto authority while maintaining the fiction of serving the Han emperor. The year 212 CE marks a point in the gradual transition toward the formal establishment of successor states (Wei, Wu, Shu) that would occur in 220\u2013222 CE. The Han Dynasty would formally end in 220 CE.",
+      "key_figures": [
+        "Emperor Xian of Han (nominal ruler)",
+        "Cao Cao (warlord with de facto power)"
+      ],
+      "sources": [
+        {
+          "name": "Records of Wei (Wei Shu)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Sima Qian's Shiji and later continuations",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The decline of Han authority is well-documented in Chinese historical records, though the precise dating of the transition is sometimes uncertain.",
+      "cross_references": [
+        "220-001 (Formal end of Han Dynasty and establishment of Wei)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The motivations behind Caracalla's Constitutio Antoniniana are debated by modern scholarship. Some scholars argue that the edict was primarily motivated by fiscal necessity (to increase the tax base), while others suggest it was a genuine attempt at legal unification or a response to pressure from provincial elites. The actual impact of the edict on provincial populations and non-elite groups is difficult to assess from surviving sources. Additionally, some modern historians question whether the edict was as revolutionary as traditionally portrayed, noting that many non-citizens had already enjoyed quasi-citizenship status in practice.",
+  "historiographic_note": "The historical record for 212 CE is moderately well-documented for the Roman Empire, with multiple later sources (Cassius Dio, Herodian) and contemporary Egyptian papyri providing evidence. However, these sources are biased toward court narratives and elite political history. The perspective of provincial populations, non-elite groups, and the military rank-and-file is largely absent. For China, the Records of Wei and other historical compilations provide information, but these were written after the events and may reflect retrospective interpretation. The sources are heavily focused on elite political and military history; the experiences of common people and non-Han populations are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "212-001",
+      "to": "215-002",
+      "relation": "led_to",
+      "note": "The Constitutio Antoniniana of 212 CE led to administrative implementation and fiscal consequences in subsequent years"
+    },
+    {
+      "from": "212-002",
+      "to": "211-001",
+      "relation": "caused_by",
+      "note": "Caracalla's consolidation in 212 CE followed from his murder of Geta in 211 CE"
+    },
+    {
+      "from": "212-003",
+      "to": "220-001",
+      "relation": "led_to",
+      "note": "The continued decline of Han authority in 212 CE led to the formal establishment of successor states in 220 CE"
+    }
+  ]
+}

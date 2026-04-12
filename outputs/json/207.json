@@ -1,0 +1,116 @@
+{
+  "year": 207,
+  "year_label": "207 CE",
+  "era_context": "The Roman Empire under Septimius Severus, now in his final years. In China, the Han Dynasty is in its death throes; the Three Kingdoms period is emerging with major warlords consolidating power. The Kushan Empire remains a major power in Central Asia. The Parthian Empire is weakening as Ardashir I rises in Persia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Southeast Asia",
+    "Mesoamerica",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "207-001",
+      "title": "Septimius Severus campaigns in Britain",
+      "region": "Roman Britain / Caledonia",
+      "coordinates_approx": "55.0, -3.0",
+      "category": "military",
+      "description": "Septimius Severus, now 63 years old, continues his military campaigns in Britain against the Picts. The emperor is based at York and is conducting operations in Caledonia. The campaign is part of Severus's broader strategy to secure the empire's frontiers and consolidate his military power. However, the campaign is costly and achieves limited permanent territorial gains.",
+      "key_figures": [
+        "Septimius Severus (Roman Emperor)",
+        "Caracalla (son, co-ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Roman forts in Britain",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Severus's presence in Britain during 207 CE is inferred from sources describing his overall campaign duration (208\u2013211 CE). Exact year-by-year details are sparse.",
+      "cross_references": [
+        "208-002 (Severus in Britain)",
+        "211-001 (Severus's death)"
+      ]
+    },
+    {
+      "id": "207-002",
+      "title": "Cao Cao consolidates northern China",
+      "region": "Northern China (Han Empire)",
+      "coordinates_approx": "35.0, 115.0",
+      "category": "political",
+      "description": "Cao Cao continues to consolidate his control over northern China. By 207 CE, he has effectively become the de facto ruler of the north, with the nominal Han emperor as a figurehead. Cao Cao's administrative reforms, military innovations, and patronage of scholars strengthen his position. His power base is secure, and he is preparing for conflict with the southern warlords.",
+      "key_figures": [
+        "Cao Cao (warlord, Chancellor of Han)",
+        "Emperor Xian (nominal Han Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi (Records of the Three Kingdoms)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Hou Han Shu (History of the Later Han)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Cao Cao's consolidation of northern China is well-documented in Chinese historical records.",
+      "cross_references": [
+        "208-001 (Battle of Red Cliffs, imminent)",
+        "220-001 (Wei Dynasty founded)"
+      ]
+    },
+    {
+      "id": "207-003",
+      "title": "Liu Bei and Sun Quan alliance forming",
+      "region": "Southern China",
+      "coordinates_approx": "30.0, 115.0",
+      "category": "political",
+      "description": "Liu Bei and Sun Quan, the southern warlords, are forming an alliance against Cao Cao's northern forces. This alliance will culminate in the Battle of Red Cliffs (208\u2013209 CE). The two warlords recognize that they must unite to prevent Cao Cao's unification of China under his control.",
+      "key_figures": [
+        "Liu Bei (southern warlord)",
+        "Sun Quan (southern warlord)",
+        "Zhuge Liang (Liu Bei's strategist)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi (Records of the Three Kingdoms)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The formation of the Liu Bei\u2013Sun Quan alliance is documented in Chinese historical records, though the exact timing (207 or 208 CE) is not precisely specified.",
+      "cross_references": [
+        "208-001 (Battle of Red Cliffs)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Cao Cao's campaigns and the formation of the southern alliance is debated. Some sources suggest the alliance formed earlier or later than 207 CE. The Battle of Red Cliffs is traditionally dated to 208\u2013209 CE, but the exact year remains disputed.",
+  "historiographic_note": "The year 207 CE is moderately well-documented for the Roman Empire through later sources and archaeology. Chinese history is well-recorded in official chronicles, though the exact dating of events in the late Han period remains debated. The Kushan Empire and Sassanid Persia are less well-documented for this specific year.",
+  "graph_edges": [
+    {
+      "from": "207-002",
+      "to": "208-001",
+      "relation": "led_to",
+      "note": "Cao Cao's consolidation of northern China led to the Battle of Red Cliffs in 208 CE"
+    },
+    {
+      "from": "207-003",
+      "to": "208-001",
+      "relation": "led_to",
+      "note": "The Liu Bei\u2013Sun Quan alliance led to the Battle of Red Cliffs"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "year": 215,
+  "year_label": "215 CE",
+  "era_context": "The Roman Empire under Caracalla (r. 198\u2013217 CE) in the aftermath of his murder of his co-emperor brother Geta (211 CE). The Severan dynasty maintained military autocracy, with heavy reliance on the army and frequent frontier campaigns. Simultaneously, the Parthian Empire under Artabanus V contested Roman hegemony in Mesopotamia and the Near East. In China, the Han Dynasty had collapsed; the Three Kingdoms period (220\u2013280 CE) was beginning, with warlords fragmenting imperial authority. In India, the Satavahana Empire was in decline.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Northern Europe beyond Roman frontier zones",
+    "Southeast Asia (sparse contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "215-001",
+      "title": "Caracalla's Parthian Campaign",
+      "region": "Mesopotamia, Syria, Roman Empire",
+      "coordinates_approx": "36.0, 34.0",
+      "category": "military",
+      "description": "Emperor Caracalla launched a major military offensive against the Parthian Empire, ostensibly to avenge the death of his predecessor Septimius Severus but also to secure eastern frontier territories and enhance his military prestige. The campaign involved significant Roman forces and resulted in mixed tactical outcomes, with Caracalla claiming victories but failing to achieve decisive conquest of Parthian territory. The campaign demonstrated the continued militarization of the Severan regime and the ongoing strategic competition between Rome and Parthia for control of Mesopotamia and the Levant.",
+      "key_figures": [
+        "Caracalla (Roman Emperor)",
+        "Artabanus V (Parthian King)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History (Book 78)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Herodian, History of the Roman Empire (Book 4)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Campaign is well-attested in later historiographic sources but no contemporary military records survive. Dating to 215 CE follows scholarly consensus, though some sources place elements in 216 CE.",
+      "cross_references": [
+        "211-001 (Caracalla's accession)",
+        "217-001 (Caracalla's assassination)"
+      ]
+    },
+    {
+      "id": "215-002",
+      "title": "Edict of Caracalla (Constitutio Antoniniana) \u2014 Aftermath and Implementation",
+      "region": "Roman Empire (universal)",
+      "coordinates_approx": null,
+      "category": "legal",
+      "description": "Following Caracalla's grant of universal Roman citizenship to all free inhabitants of the empire (issued in 212 CE), the year 215 saw continued administrative implementation and fiscal consequences. The edict fundamentally altered the legal and tax structure of the empire, eliminating distinctions between citizens and non-citizens and increasing the tax base. However, the measure also generated administrative confusion and resistance in some provinces, as local legal traditions clashed with uniform Roman law. The long-term effect was to accelerate the Romanization of provincial elites and increase imperial revenue.",
+      "key_figures": [
+        "Caracalla (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History (Book 78)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Papyri from Egypt (administrative records)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The edict itself is dated to 212 CE; 215 CE marks observable administrative effects in surviving papyri and provincial records.",
+      "cross_references": [
+        "212-001 (Edict of Caracalla issuance)"
+      ]
+    },
+    {
+      "id": "215-003",
+      "title": "Unrest in Alexandria, Egypt",
+      "region": "Egypt, Alexandria",
+      "coordinates_approx": "31.2, 29.9",
+      "category": "political",
+      "description": "Alexandria experienced significant civil unrest and riots, partly in response to Caracalla's heavy taxation and military demands, and partly due to long-standing tensions between the Greek-Egyptian population and Roman authority. Caracalla's response was reportedly harsh, involving military repression. The unrest reflects broader provincial discontent with Severan fiscal policy and the militarization of the empire.",
+      "key_figures": [
+        "Caracalla (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History (Book 78)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Herodian, History of the Roman Empire (Book 4)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Attested in later historiographic sources; no contemporary Egyptian administrative records specifically confirm the date or scale of unrest.",
+      "cross_references": [
+        "215-001 (Caracalla's military focus)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of Caracalla's Parthian campaign in 215 CE is debated by modern scholarship. Some scholars argue that the campaign was largely propagandistic and militarily inconclusive, with Caracalla's claims of victory exaggerated. The actual strategic impact on Roman-Parthian relations was minimal, and the campaign may have been motivated more by Caracalla's desire for military prestige than by genuine strategic necessity. Additionally, the scale of unrest in Alexandria is difficult to verify from contemporary sources; later accounts may have exaggerated the severity.",
+  "historiographic_note": "The historical record for 215 CE is heavily dependent on later compilations by Cassius Dio and Herodian, both writing in the 3rd century CE, decades after the events. No contemporary military dispatches or official imperial records survive. Egyptian papyri provide administrative context but are fragmentary. The sources are biased toward court narratives and may reflect anti-Caracalla sentiment from later periods. The perspective of non-elite populations and provincial experiences is largely absent.",
+  "graph_edges": [
+    {
+      "from": "215-001",
+      "to": "211-001",
+      "relation": "caused_by",
+      "note": "Caracalla's accession to sole power in 211 CE enabled the Parthian campaign of 215 CE"
+    },
+    {
+      "from": "215-002",
+      "to": "212-001",
+      "relation": "part_of",
+      "note": "Implementation phase of the Constitutio Antoniniana issued in 212 CE"
+    },
+    {
+      "from": "215-003",
+      "to": "215-002",
+      "relation": "contemporary_with",
+      "note": "Alexandrian unrest may have been partly triggered by fiscal consequences of the citizenship edict"
+    }
+  ]
+}
