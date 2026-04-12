@@ -1,0 +1,90 @@
+{
+  "year": 729,
+  "year_label": "729 CE",
+  "era_context": "The early 8th century CE continues with the Umayyad Caliphate expanding and consolidating power in the Mediterranean and Middle East, the Tang Dynasty at its cultural and political zenith in East Asia, and the Frankish kingdom under Charles Martel's increasing dominance in Western Europe. This is a period of religious ferment in the Byzantine Empire, with the Iconoclastic Controversy beginning to intensify.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe and Scandinavia (sparse written records)",
+    "Central Asia (limited primary sources)",
+    "Mesoamerica (archaeological record only; no written sources for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "729-001",
+      "title": "Umayyad military campaigns in North Africa and the Mediterranean",
+      "region": "Umayyad Caliphate (North Africa, Mediterranean)",
+      "coordinates_approx": "35.0, 5.0",
+      "category": "military",
+      "description": "The Umayyad Caliphate under Caliph Hisham I (r. 724\u2013743) continued military operations in North Africa and the Mediterranean, consolidating control over recently conquered territories and raiding Byzantine possessions. The Umayyads were at the height of their territorial expansion, controlling territory from Spain to Central Asia. Specific military campaigns for 729 are poorly documented in surviving sources, but the general pattern of Umayyad expansion and consolidation is well-attested for this period.",
+      "key_figures": [
+        "Hisham I (Umayyad Caliph)",
+        "Abd al-Rahman al-Ghafiqi (Governor of al-Andalus)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Tabari, History of the Prophets and Kings",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Umayyad Caliphate's military activities in this period are well-attested, but specific events for the year 729 are not clearly documented in surviving sources. The dating is approximate based on the broader historical trajectory.",
+      "cross_references": [
+        "Part of broader Umayyad expansion (7th\u20138th centuries)",
+        "Precedes the Battle of Tours (730 or 732)"
+      ]
+    },
+    {
+      "id": "729-002",
+      "title": "Pope Gregory II's opposition to Byzantine Iconoclasm",
+      "region": "Papal States, Byzantine Empire (Mediterranean)",
+      "coordinates_approx": "41.90, 12.49",
+      "category": "religious",
+      "description": "Pope Gregory II (r. 715\u2013731) was actively opposing Emperor Leo III's Iconoclastic policies, which had begun to be implemented in the late 720s. Gregory II issued letters and theological arguments defending the veneration of icons, positioning the Papacy against Byzantine imperial religious policy. This conflict contributed to a growing rift between the Western Church and the Byzantine Empire, and strengthened the Papacy's independence from Byzantine political authority. The dispute would continue to intensify over the following decades.",
+      "key_figures": [
+        "Pope Gregory II",
+        "Emperor Leo III (Byzantine)"
+      ],
+      "sources": [
+        {
+          "name": "Liber Pontificalis (Papal records)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Letters of Pope Gregory II (preserved in later compilations)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Pope Gregory II's opposition to Iconoclasm is well-attested, though the specific chronology of his letters and actions in 729 is not precisely documented.",
+      "cross_references": [
+        "Related to 730-002 (Iconoclastic Edict)",
+        "Part of broader Iconoclastic Controversy (726\u2013843)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No significant disconfirming evidence identified for events listed. However, the sparse documentation for 729 CE means that any events attributed to this specific year should be understood as approximate and potentially misdated by 1\u20132 years.",
+  "historiographic_note": "The year 729 CE is poorly documented in surviving sources. Most historical knowledge for this period comes from later compilations (9th\u201312th centuries) that synthesize earlier accounts, many of which are now lost. The surviving sources are heavily weighted toward the Mediterranean world (Byzantine Empire, Papacy, Umayyad Caliphate) and East Asia (Tang Dynasty). Sub-Saharan Africa, Northern Europe, and Central Asia are essentially absent from the written record for this specific year. Archaeological evidence is sparse and difficult to date to a single year.",
+  "graph_edges": [
+    {
+      "from": "729-002",
+      "to": "730-002",
+      "relation": "contemporary_with",
+      "note": "Pope Gregory II's opposition to Iconoclasm coincides with Emperor Leo III's Iconoclastic policies"
+    },
+    {
+      "from": "729-001",
+      "to": "730-001",
+      "relation": "led_to",
+      "note": "Umayyad military campaigns in the Mediterranean preceded the Battle of Tours"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "year": 728,
+  "year_label": "728 CE",
+  "era_context": "The early 8th century CE continues with the Umayyad Caliphate at its territorial zenith, the Tang Dynasty flourishing under Emperor Xuanzong, and the Frankish kingdom consolidating power under Charles Martel. The Byzantine Empire is experiencing internal religious and political tensions that will culminate in the Iconoclastic Controversy. This is a period of relative stability in the Mediterranean and East Asia, though with underlying tensions that will erupt in the coming decades.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe and Scandinavia (sparse written records)",
+    "Central Asia (limited primary sources)",
+    "Mesoamerica (archaeological record only)",
+    "South Asia (limited written sources in Western archives)"
+  ],
+  "events": [
+    {
+      "id": "728-001",
+      "title": "Continued Tang Dynasty administrative consolidation under Emperor Xuanzong",
+      "region": "Tang Dynasty, China",
+      "coordinates_approx": "34.27, 108.95",
+      "category": "political",
+      "description": "Emperor Xuanzong of Tang continued his administrative reforms and cultural patronage, consolidating the Tang Dynasty's power and prestige. The period saw the expansion of the civil service examination system, the development of a sophisticated bureaucracy, and the flourishing of arts and literature. The capital Chang'an was one of the world's largest and most cosmopolitan cities, with a population estimated at over one million. However, the rise of military governors (jiedushi) in frontier regions was beginning to create long-term instability.",
+      "key_figures": [
+        "Emperor Xuanzong of Tang",
+        "Li Linfu (Chancellor)"
+      ],
+      "sources": [
+        {
+          "name": "Jiu Tangshu (Old History of Tang)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Xin Tangshu (New History of Tang)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Chang'an",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The general trajectory of Tang power and cultural development in the early 8th century is well-attested in Chinese historical records and archaeological evidence.",
+      "cross_references": [
+        "Part of broader Tang cultural flourishing (7th\u20138th centuries)",
+        "Precedes the An Lushan Rebellion (755\u2013763)"
+      ]
+    },
+    {
+      "id": "728-002",
+      "title": "Umayyad Caliphate under Hisham I \u2014 administrative and military consolidation",
+      "region": "Umayyad Caliphate (Middle East, North Africa, Iberian Peninsula)",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "political",
+      "description": "Caliph Hisham I (r. 724\u2013743) was consolidating Umayyad power and administrative structures. The Caliphate was at its territorial maximum, controlling vast territories from Spain to Central Asia. Hisham I was known for his administrative reforms, including the reorganization of the military and the expansion of the bureaucracy. However, the Caliphate was also beginning to experience internal tensions, including religious disputes and the rise of provincial governors who would eventually challenge central authority.",
+      "key_figures": [
+        "Hisham I (Umayyad Caliph)",
+        "Umayyad provincial governors"
+      ],
+      "sources": [
+        {
+          "name": "Al-Tabari, History of the Prophets and Kings",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The reign of Hisham I and the general trajectory of Umayyad power in the early 8th century are well-attested in Islamic historical sources.",
+      "cross_references": [
+        "Part of broader Umayyad history (661\u2013750)",
+        "Precedes the Umayyad Caliphate's decline and fall (mid-8th century)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No significant disconfirming evidence identified for events listed. However, the sparse documentation for 728 CE means that any events attributed to this specific year should be understood as approximate.",
+  "historiographic_note": "The year 728 CE is poorly documented in surviving sources. Most historical knowledge for this period comes from later compilations that synthesize earlier accounts. The surviving sources are heavily weighted toward the Mediterranean world and East Asia. Sub-Saharan Africa, Northern Europe, Central Asia, and South Asia are essentially absent from the written record for this specific year. Archaeological evidence is sparse and difficult to date to a single year.",
+  "graph_edges": [
+    {
+      "from": "728-001",
+      "to": "730-003",
+      "relation": "contemporary_with",
+      "note": "Tang Dynasty consolidation under Xuanzong continued throughout the late 720s"
+    },
+    {
+      "from": "728-002",
+      "to": "730-001",
+      "relation": "led_to",
+      "note": "Umayyad consolidation under Hisham I preceded military campaigns leading to the Battle of Tours"
+    }
+  ]
+}
