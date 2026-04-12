@@ -1,0 +1,80 @@
+{
+  "year": -1736,
+  "year_label": "1737 BCE",
+  "era_context": "Hammurabi's reign in Babylon (r. 1792\u20131750 BCE), during the period of military expansion and consolidation. The Old Babylonian period was characterized by competing city-states in Mesopotamia, with Babylon rising to dominance. Egypt remained fragmented in the Second Intermediate Period. The Indus Valley Civilization was in its mature phase. In China, the traditional Xia dynasty was in its later stages (if it existed), though archaeological evidence remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Oceania",
+    "Central Asia (limited records)"
+  ],
+  "events": [
+    {
+      "id": "-1736-001",
+      "title": "Hammurabi's campaign against Elam",
+      "region": "Mesopotamia and Elam (southwestern Iran)",
+      "coordinates_approx": "32.0, 48.5",
+      "category": "military",
+      "description": "Hammurabi conducted military campaigns against Elam, a powerful kingdom to the east of Mesopotamia. Elam had long been a rival to Mesopotamian powers. The exact dates and outcomes of Hammurabi's Elamite campaigns are uncertain, but inscriptions suggest he achieved some military successes, though Elam remained independent and powerful. These campaigns were part of Hammurabi's broader strategy to establish Babylonian hegemony across the Fertile Crescent.",
+      "key_figures": [
+        "Hammurabi (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Hammurabi's inscriptions and year-names",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Babylonian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hammurabi's Elamite campaigns are attested in his inscriptions, but the precise dating and sequence are uncertain. Different chronologies place these events at different times within his reign. The outcomes are also unclear; Elam remained a major power, suggesting Hammurabi's victories were limited.",
+      "cross_references": [
+        "Part of Hammurabi's broader military expansion -1740 to -1730"
+      ]
+    },
+    {
+      "id": "-1736-002",
+      "title": "Indus Valley Civilization in mature phase",
+      "region": "Indus Valley (modern Pakistan and northwestern India)",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization was at its height during this period, with major urban centers like Harappa and Mohenjo-daro flourishing. These cities were characterized by sophisticated urban planning, standardized weights and measures, and an undeciphered script. Trade networks extended from Mesopotamia to the Arabian Peninsula. The civilization was remarkably stable and peaceful, with little evidence of warfare or fortifications. This period represents the peak of Indus Valley urban development before the civilization's decline in the mid-2nd millennium BCE.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Harappa, Mohenjo-daro, and other Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's mature phase is well-attested archaeologically. Radiocarbon dating and stratigraphic analysis place the mature phase at c. 2500\u20131900 BCE, with -1736 falling squarely within this period.",
+      "cross_references": [
+        "Part of broader Indus Valley Civilization development -2500 to -1900"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of Hammurabi's Elamite campaigns is often overstated in older histories as major victories; in reality, Elam remained independent and powerful, and Hammurabi's control over eastern territories was limited and contested. The Indus Valley Civilization's 'decline' in the mid-2nd millennium is sometimes attributed to invasion or conquest, but archaeological evidence suggests a more gradual process of urban abandonment and cultural transformation, possibly related to environmental or economic changes rather than external conquest.",
+  "historiographic_note": "Documentation for this year is sparse outside of Mesopotamia. Hammurabi's inscriptions provide some information about his military campaigns, but they are self-promotional and may exaggerate his achievements. The Indus Valley Civilization is known primarily through archaeology, with no contemporary written records that have been deciphered. Egypt's Second Intermediate Period is poorly documented in surviving sources. Most of the world outside these regions has no written records for this period.",
+  "graph_edges": [
+    {
+      "from": "-1736-001",
+      "to": "-1735-001",
+      "relation": "contemporary_with",
+      "note": "Hammurabi's campaigns against Elam and Larsa were part of the same period of expansion"
+    },
+    {
+      "from": "-1736-002",
+      "to": "-1900-001",
+      "relation": "part_of",
+      "note": "Indus Valley mature phase was a long period of stability and development"
+    }
+  ]
+}

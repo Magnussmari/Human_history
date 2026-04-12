@@ -1,0 +1,81 @@
+{
+  "year": -1747,
+  "year_label": "1748 BCE",
+  "era_context": "Middle Bronze Age; Hammurabi's Babylon was in the consolidation phase of his reign. Egypt's 12th Dynasty was nearing its end. The Indus Valley Civilization was in its mature phase. The Hittite Old Kingdom had not yet been established. In China, the Xia dynasty (traditional dating) was in its later period.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-1747-001",
+      "title": "Babylonian administrative consolidation under Hammurabi",
+      "region": "Mesopotamia (Babylon)",
+      "coordinates_approx": "32.5352, 44.4275",
+      "category": "political",
+      "description": "Hammurabi was consolidating administrative control over conquered territories. This period saw the development of legal and bureaucratic systems that would culminate in the Code of Hammurabi (compiled c. 1754 BCE). The king was establishing standardized legal procedures, weights and measures, and administrative hierarchies across his expanding realm. This administrative innovation was as significant as military conquest in establishing Babylon's dominance.",
+      "key_figures": [
+        "Hammurabi (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Cuneiform administrative tablets and legal texts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Code of Hammurabi (compiled c. 1754 BCE, reflecting earlier practices)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The administrative consolidation is well-attested in cuneiform records, but specific years are difficult to assign. Dating uncertainty is \u00b15 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1747-002",
+      "title": "Indus Valley trade networks \u2014 continued operation",
+      "region": "Indus Valley and Arabian Sea trade routes",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintained extensive trade networks with Mesopotamia, the Persian Gulf, and the Arabian Peninsula. Seals and artifacts from the Indus have been found in Mesopotamian sites, and vice versa, indicating active maritime and overland trade. This trade was crucial to the Indus economy and facilitated cultural exchange across a vast region.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Indus seals and artifacts in Mesopotamia",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian texts mentioning 'Meluhha' (likely the Indus Valley)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Trade between the Indus Valley and Mesopotamia is well-attested archaeologically and textually. The trade was continuous throughout the mature Indus period, though specific years cannot be pinpointed.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The extent and nature of Indus-Mesopotamian trade has been debated. Some scholars argue for direct trade, while others suggest intermediaries (particularly in the Persian Gulf). The identification of 'Meluhha' with the Indus Valley is widely accepted but not universally certain. Hammurabi's administrative innovations are sometimes overstated; many legal and bureaucratic practices predated him and were adopted from earlier Mesopotamian traditions.",
+  "historiographic_note": "Documentation for 1748 BCE remains limited to Mesopotamia and Egypt. The Indus Valley Civilization is known through archaeology but lacks deciphered written records for specific events. The historical record is heavily skewed toward elite political and military events; economic and social history is reconstructed from archaeological evidence. The absence of written records for most of the world reflects the distribution of literacy, not the absence of history.",
+  "graph_edges": [
+    {
+      "from": "-1747-001",
+      "to": "-1754-001",
+      "relation": "led_to",
+      "note": "Administrative consolidation led to the compilation of the Code of Hammurabi"
+    },
+    {
+      "from": "-1747-002",
+      "to": "-1745-003",
+      "relation": "contemporary_with",
+      "note": "Indus Valley trade was ongoing during the mature phase of the civilization"
+    }
+  ]
+}

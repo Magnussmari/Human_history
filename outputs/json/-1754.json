@@ -1,0 +1,86 @@
+{
+  "year": -1754,
+  "year_label": "1755 BCE",
+  "era_context": "The Old Babylonian period in Mesopotamia under Samsu-iluna; Egypt in the Second Intermediate Period with fragmented authority; early Shang dynasty in China; Mycenaean Early Bronze Age in Greece; mature Indus Valley Civilization in South Asia; emerging Hittite power in Anatolia; Minoan civilization flourishing on Crete.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-1754-001",
+      "title": "Babylonian administrative and legal activity under Samsu-iluna",
+      "region": "Mesopotamia (Babylon)",
+      "coordinates_approx": "32.5352, 44.4275",
+      "category": "legal",
+      "description": "Samsu-iluna continues the administrative and legal traditions established by his father Hammurabi. Cuneiform texts from this period show continued legal activity, including contracts, property disputes, and administrative decrees. The legal system reflects the Code of Hammurabi's influence, with standardized procedures for resolving disputes and recording transactions. Administrative texts show continued economic activity in agriculture, trade, and craft production, though resource constraints from military campaigns are evident.",
+      "key_figures": [
+        "Samsu-iluna (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Cuneiform administrative and legal texts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Babylonian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Samsu-iluna's administrative and legal activity is well-attested in cuneiform records, though specific year-by-year details are often lacking. The general pattern of administrative continuity is clear.",
+      "cross_references": [
+        "-1750-001",
+        "-1751-001",
+        "-1753-001"
+      ]
+    },
+    {
+      "id": "-1754-002",
+      "title": "Mycenaean Early Bronze Age development in Greece",
+      "region": "Greece (Peloponnese and Aegean)",
+      "coordinates_approx": "37.5, 23.0",
+      "category": "cultural",
+      "description": "The Mycenaean civilization is in its Early Bronze Age phase (c. 1600\u20131450 BCE), characterized by the development of fortified settlements and increasing social stratification. Archaeological evidence shows the emergence of elite warrior culture, with weapons and armor becoming more sophisticated. The period sees the development of early forms of Greek language and the beginning of the cultural synthesis that will characterize later Mycenaean civilization. Trade networks are expanding throughout the Mediterranean.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mycenaean sites (Mycenae, Tiryns, Pylos)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Mycenaean pottery and artifacts",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Mycenaean Early Bronze Age is well-established through archaeological evidence. Dating is based on stratigraphic analysis and correlation with other Mediterranean chronologies. The conventional dating places the Early Helladic III period (c. 2200\u20132000 BCE) and Early Bronze Age (c. 1600\u20131450 BCE), though some scholars propose different chronologies.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Mycenaean Early Bronze Age and the emergence of Mycenaean civilization is debated. Some scholars argue that the cultural developments attributed to the Early Bronze Age occurred earlier or later than the conventional chronology suggests. The relationship between the Mycenaean civilization and the earlier Helladic cultures is also debated, with some scholars arguing for greater continuity and others for more significant cultural discontinuity.",
+  "historiographic_note": "This year falls in a period of sparse written documentation outside of Mesopotamia. The Mycenaean civilization is known primarily through archaeology, with no extensive written records surviving from this early period (Linear B texts appear later). Egypt's Second Intermediate Period is notably poorly documented in surviving texts. Early Shang history relies on oracle bone inscriptions and later historiography. The historical record is heavily weighted toward Mesopotamian cuneiform sources and archaeological evidence from the Mediterranean and East Asia.",
+  "graph_edges": [
+    {
+      "from": "-1754-001",
+      "to": "-1750-001",
+      "relation": "contemporary_with",
+      "note": "Samsu-iluna's reign continues"
+    },
+    {
+      "from": "-1754-002",
+      "to": "-1450-001",
+      "relation": "part_of",
+      "note": "Mycenaean Early Bronze Age (c. 1600\u20131450 BCE)"
+    }
+  ]
+}

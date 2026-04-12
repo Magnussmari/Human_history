@@ -1,0 +1,81 @@
+{
+  "year": -1738,
+  "year_label": "1739 BCE",
+  "era_context": "Hammurabi's reign in Babylon (r. 1792\u20131750 BCE), during the period of military expansion and consolidation. Hammurabi was actively conquering neighboring city-states. Egypt was in the Second Intermediate Period. The Indus Valley Civilization was in its mature phase. In China, the traditional Xia dynasty was in its later stages, though archaeological confirmation remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Oceania",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-1738-001",
+      "title": "Hammurabi's military campaigns in northern Mesopotamia",
+      "region": "Mesopotamia (northern region)",
+      "coordinates_approx": "35.0, 42.0",
+      "category": "military",
+      "description": "Hammurabi conducted a series of military campaigns in northern Mesopotamia against various city-states and kingdoms. These campaigns were part of his broader strategy to consolidate Babylonian power and expand his realm. The exact sequence and outcomes of these campaigns are uncertain, but they culminated in the conquest of Mari (c. 1738 BCE) and the establishment of Babylonian hegemony over much of Mesopotamia. Hammurabi's year-names record various military victories during this period.",
+      "key_figures": [
+        "Hammurabi (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Hammurabi's inscriptions and year-names",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Babylonian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hammurabi's military campaigns are well-attested in his inscriptions, but the precise dating and sequence depend on the chronology chosen. The Middle Chronology places these campaigns in the 1740s\u20131730s BCE; the Low Chronology would place them in the 1680s\u20131670s BCE.",
+      "cross_references": [
+        "Part of broader Hammurabi expansion -1740 to -1730",
+        "Leads to -1737-001 (conquest of Mari)"
+      ]
+    },
+    {
+      "id": "-1738-002",
+      "title": "Indus Valley Civilization trade networks",
+      "region": "Indus Valley and surrounding regions (South Asia, Mesopotamia, Arabian Peninsula)",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintained extensive trade networks that connected it to Mesopotamia, the Arabian Peninsula, and other regions. Archaeological evidence shows that Indus Valley seals and artifacts have been found in Mesopotamian sites, and Mesopotamian goods have been found in Indus Valley cities. This trade was facilitated by maritime routes along the Arabian Sea and overland routes through the Iranian plateau. The trade networks were crucial to the Indus Valley economy and contributed to the civilization's prosperity and stability.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Indus Valley sites and Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence of Indus Valley trade networks is well-attested archaeologically. Indus Valley seals have been found in Mesopotamian sites, and the distribution of artifacts confirms long-distance trade. However, the specific mechanisms and organization of this trade are not well understood.",
+      "cross_references": [
+        "Part of broader Indus Valley Civilization development -2500 to -1900"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Hammurabi's military campaigns are sometimes presented as a unified 'conquest' of Mesopotamia, but in reality, his control was limited and contested. Northern Mesopotamia remained partially independent, and his southern conquests were not always permanent. The Indus Valley trade networks are sometimes overstated as evidence of a 'unified' Indus Valley state; in reality, the political organization of the Indus Valley Civilization remains poorly understood, and the extent of centralized control is debated.",
+  "historiographic_note": "Documentation for this year is sparse. Hammurabi's inscriptions provide some information, but they are self-promotional. The Indus Valley Civilization is known primarily through archaeology, with no contemporary written records that have been deciphered. Most of the world outside Mesopotamia and the Indus Valley has no written records for this period. The surviving sources are heavily skewed toward elite political and military history.",
+  "graph_edges": [
+    {
+      "from": "-1738-001",
+      "to": "-1737-001",
+      "relation": "led_to",
+      "note": "Northern campaigns culminated in the conquest of Mari"
+    },
+    {
+      "from": "-1738-002",
+      "to": "-1737-001",
+      "relation": "contemporary_with",
+      "note": "Indus Valley trade networks were active during the same period as Hammurabi's campaigns"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "year": -1751,
+  "year_label": "1752 BCE",
+  "era_context": "Continuation of the Old Babylonian period in Mesopotamia under Samsu-iluna; Egypt in the Second Intermediate Period with weakened central authority; the Shang dynasty in early China; Mycenaean Greece in the Early Bronze Age; the Indus Valley Civilization in its mature urban phase; the Hittites emerging as a regional power in Anatolia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia (limited archaeological record)"
+  ],
+  "events": [
+    {
+      "id": "-1751-001",
+      "title": "Continued Old Babylonian administration under Samsu-iluna",
+      "region": "Mesopotamia (Babylon)",
+      "coordinates_approx": "32.5352, 44.4275",
+      "category": "political",
+      "description": "Samsu-iluna maintains Babylonian control over southern Mesopotamia, though his military campaigns against the Kassites and other groups indicate ongoing pressure on Babylonian borders. Administrative texts from this period show continued economic activity in trade and agriculture, but also evidence of resource strain from military expenditures. The reign represents a period of consolidation rather than expansion compared to Hammurabi's era.",
+      "key_figures": [
+        "Samsu-iluna (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Cuneiform administrative and legal texts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Babylonian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Year-by-year events for Samsu-iluna's reign are not well-documented; this entry reflects the general character of his reign based on administrative records and king list chronology.",
+      "cross_references": [
+        "-1750-001"
+      ]
+    },
+    {
+      "id": "-1751-002",
+      "title": "Hittite consolidation in Anatolia",
+      "region": "Anatolia (Hittite territories)",
+      "coordinates_approx": "39.0, 34.0",
+      "category": "political",
+      "description": "The Hittites are consolidating power in central Anatolia during the Old Hittite period (c. 1750\u20131650 BCE). Archaeological and later textual evidence suggests increasing political organization and military capability, though detailed contemporary records are sparse. The Hittites are beginning to emerge as a significant regional power, though they have not yet achieved the dominance they will later exert.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Hittite sites (Bo\u011fazk\u00f6y/Hattusa)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Later Hittite texts and king lists",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The early Hittite period is poorly documented in contemporary sources. Dating and specific events are inferred from archaeological stratigraphy and later historical texts, creating significant uncertainty.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The extent of Hittite political organization and military power in the mid-18th century BCE is debated. Some scholars argue the Hittites were still primarily a confederation of city-states rather than a unified kingdom at this time. The dating of early Hittite rulers remains uncertain, with some chronologies placing key figures decades earlier or later.",
+  "historiographic_note": "This year falls in a period of sparse documentation outside of Mesopotamia. Egypt's Second Intermediate Period is notably poorly documented in surviving texts, creating a significant gap in our understanding of Egyptian history. The Indus Valley Civilization, despite its sophistication, left no deciphered written records. Early Hittite history relies heavily on later compilation and archaeological inference. The historical record is heavily skewed toward Mesopotamian cuneiform sources.",
+  "graph_edges": [
+    {
+      "from": "-1751-001",
+      "to": "-1750-001",
+      "relation": "contemporary_with",
+      "note": "Samsu-iluna's reign continues"
+    },
+    {
+      "from": "-1751-002",
+      "to": "-1650-001",
+      "relation": "part_of",
+      "note": "Old Hittite period (c. 1750\u20131650 BCE)"
+    }
+  ]
+}

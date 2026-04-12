@@ -1,0 +1,83 @@
+{
+  "year": -1748,
+  "year_label": "1749 BCE",
+  "era_context": "Middle Bronze Age; Hammurabi's Babylon was consolidating power in Mesopotamia. Egypt's 12th Dynasty was in its final years. The Indus Valley Civilization was in its mature phase. The Hittite Old Kingdom had not yet been established. In China, the Xia dynasty (traditional dating) was in its later period, though archaeological confirmation remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-1748-001",
+      "title": "Hammurabi's reign \u2014 mid-phase military and administrative activity",
+      "region": "Mesopotamia (Babylon)",
+      "coordinates_approx": "32.5352, 44.4275",
+      "category": "political",
+      "description": "Hammurabi continued his campaigns to consolidate Babylonian power. By this point in his reign (c. 1792\u20131750 BCE), he had already defeated several rival city-states and was working to integrate them into a unified Babylonian state. His reign represents a turning point in Mesopotamian history, establishing Babylon as the dominant power and introducing systematic legal codification.",
+      "key_figures": [
+        "Hammurabi (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative and military records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hammurabi's reign is well-attested, but specific events within individual years are difficult to date precisely. Uncertainty is \u00b15 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1748-002",
+      "title": "Egyptian 12th Dynasty \u2014 final administrative phase",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The 12th Dynasty of Egypt was in its final years (the dynasty ended c. 1795 BCE). Central authority continued to weaken, and the transition to the Second Intermediate Period was underway. This period saw the rise of the 13th Dynasty, which was much weaker and less centralized than the 12th. The fragmentation of political power was accelerating.",
+      "key_figures": [
+        "Amenemhat IV (12th Dynasty, r. c. 1808\u20131799 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists and administrative records",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of declining construction and centralization",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The end of the 12th Dynasty is dated to c. 1795 BCE, with uncertainty of \u00b110\u201320 years. The transition to the Second Intermediate Period was gradual.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of a sharp 'collapse' of the Middle Kingdom has been revised. Modern scholarship emphasizes gradual decline and transformation. The 13th Dynasty was not a complete break from the 12th but rather a continuation with reduced centralization. Hammurabi's reign is sometimes portrayed as a rapid conquest, but evidence suggests a more gradual consolidation over decades.",
+  "historiographic_note": "Documentation for 1749 BCE is limited to Mesopotamia and Egypt. The historical record reflects elite political and military events; economic and social history is reconstructed from archaeological evidence. The Indus Valley Civilization is known through archaeology but lacks deciphered written records. The absence of written records for most of the world should not be interpreted as historical emptiness.",
+  "graph_edges": [
+    {
+      "from": "-1748-001",
+      "to": "-1750-001",
+      "relation": "part_of",
+      "note": "Hammurabi's reign spans multiple years"
+    },
+    {
+      "from": "-1748-002",
+      "to": "-1795-001",
+      "relation": "led_to",
+      "note": "The decline of the 12th Dynasty led to the fragmentation of the Second Intermediate Period"
+    }
+  ]
+}

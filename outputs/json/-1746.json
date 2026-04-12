@@ -1,0 +1,83 @@
+{
+  "year": -1746,
+  "year_label": "1747 BCE",
+  "era_context": "Continuation of the Middle Bronze Age; Hammurabi's Babylon was consolidating power in Mesopotamia. Egypt's 12th Dynasty was in its final phase. The Indus Valley Civilization remained in its mature phase. The Hittites had not yet established their Old Kingdom. In China, the Xia dynasty (traditional dating) was in its later period, though archaeological confirmation remains debated.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-1746-001",
+      "title": "Hammurabi's military campaigns \u2014 northern expansion",
+      "region": "Mesopotamia (Babylon and surrounding regions)",
+      "coordinates_approx": "32.5352, 44.4275",
+      "category": "military",
+      "description": "During the mid-phase of his reign, Hammurabi was engaged in military campaigns to expand Babylonian control northward and consolidate power over rival city-states. His campaigns against Larsa, Eshnunna, and other rivals were ongoing during this period. These military successes laid the foundation for Babylon's emergence as the dominant power in Mesopotamia by the end of his reign.",
+      "key_figures": [
+        "Hammurabi (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List and administrative records",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform correspondence and military records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hammurabi's military campaigns are well-attested in cuneiform records, but specific years are difficult to assign with precision. The sequence of campaigns is known, but exact dating within his reign is uncertain by \u00b15 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1746-002",
+      "title": "Egyptian administrative fragmentation accelerates",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The authority of the Egyptian central government continued to weaken during the late 12th Dynasty. Provincial governors (nomarchs) were increasingly autonomous, and the state's ability to mobilize resources for large-scale projects diminished. This period marks the transition from the centralized Middle Kingdom to the fragmented Second Intermediate Period, a process that unfolded over several decades.",
+      "key_figures": [
+        "Amenemhat IV (12th Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative papyri and inscriptions",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of reduced monumental construction",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The decline of the Middle Kingdom is well-documented archaeologically and textually, but the process was gradual and cannot be pinpointed to specific years. Dating uncertainty is \u00b110\u201320 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The narrative of a sharp 'collapse' of the Middle Kingdom has been revised by modern scholarship, which emphasizes gradual decline and transformation rather than sudden catastrophe. The Second Intermediate Period was not a period of complete chaos but rather one of political fragmentation with continued cultural and economic activity. Hammurabi's campaigns are sometimes portrayed as rapid conquests, but evidence suggests a more gradual process of consolidation over decades.",
+  "historiographic_note": "The historical record for 1747 BCE is limited to Mesopotamia and Egypt. Mesopotamian sources are primarily administrative and legal texts; Egyptian sources reflect royal ideology and administrative records. The absence of written records for most of the world should not be interpreted as historical emptiness. Archaeological evidence from the Indus Valley and elsewhere indicates sophisticated civilizations, but without written records, specific events cannot be documented for individual years.",
+  "graph_edges": [
+    {
+      "from": "-1746-001",
+      "to": "-1745-001",
+      "relation": "contemporary_with",
+      "note": "Hammurabi's campaigns were ongoing throughout his reign"
+    },
+    {
+      "from": "-1746-002",
+      "to": "-1745-002",
+      "relation": "contemporary_with",
+      "note": "Egyptian decline was a continuous process across multiple years"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "year": -1735,
+  "year_label": "1736 BCE",
+  "era_context": "The Old Babylonian period under Hammurabi's reign (r. 1792\u20131750 BCE). Hammurabi was consolidating power in southern Mesopotamia, expanding Babylon from a minor city-state into a regional hegemon through military conquest and diplomacy. Egypt was in the Second Intermediate Period, fragmented between the Thirteenth Dynasty in the south and Asiatic rulers (Hyksos) in the north. The Indus Valley Civilization was in its mature phase. China's Xia dynasty was traditionally dated to this era, though archaeological confirmation remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Mesoamerica (no written records for this period)",
+    "Northern Europe (no written records)",
+    "Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-1735-001",
+      "title": "Hammurabi's conquest of Larsa",
+      "region": "Mesopotamia (southern Babylonia)",
+      "coordinates_approx": "32.5, 46.4",
+      "category": "military",
+      "description": "Hammurabi defeated Rim-Anum of Larsa, one of the last major rivals to Babylonian hegemony in southern Mesopotamia. This conquest consolidated Hammurabi's control over the Euphrates valley and eliminated the last significant independent city-state power in the region. The victory is recorded in Hammurabi's own inscriptions and later chronicles. This campaign was part of a broader series of military expansions (c. 1738\u20131735 BCE) that transformed Babylon from a regional power into the dominant Mesopotamian state.",
+      "key_figures": [
+        "Hammurabi (King of Babylon)",
+        "Rim-Anum (King of Larsa)"
+      ],
+      "sources": [
+        {
+          "name": "Hammurabi's inscriptions and year-names (Babylonian administrative records)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Babylonian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The conquest of Larsa is well-attested in Hammurabi's own records and administrative year-names. However, precise dating within Hammurabi's reign depends on the chronology chosen (Middle vs. Low Chronology); this date follows the Middle Chronology. The Low Chronology would place this event c. 1700 BCE.",
+      "cross_references": [
+        "Follows from -1738-001 (Hammurabi's earlier campaigns)",
+        "Part of broader Babylonian expansion -1740 to -1730"
+      ]
+    },
+    {
+      "id": "-1735-002",
+      "title": "Possible Hyksos consolidation in northern Egypt",
+      "region": "Egypt (Nile Delta and Lower Egypt)",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "political",
+      "description": "During the Second Intermediate Period, Asiatic rulers (Hyksos) were consolidating control over the Nile Delta and Lower Egypt. By the mid-18th century BCE, they had established a parallel kingdom in the north while the Thirteenth Dynasty ruled a weakened south. The exact chronology of Hyksos settlement and consolidation is highly contested; some scholars place major Hyksos expansion earlier (c. 1750 BCE), others later (c. 1650 BCE). Archaeological evidence from sites like Avaris shows Asiatic settlement, but precise dating remains uncertain.",
+      "key_figures": [
+        "Hyksos rulers (names and titles uncertain for this period)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Avaris (Tell el-Dab'a) and other Delta sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's History of Egypt (much later Greek compilation, 3rd century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Hyksos period is poorly dated. Manetho's account is unreliable and written over 1,000 years after the events. Archaeological stratigraphy at Avaris suggests Asiatic settlement by the mid-18th century, but the exact timeline of consolidation is debated. This event is assigned to -1735 by convention, but could range \u00b150 years.",
+      "cross_references": [
+        "Part of broader Second Intermediate Period fragmentation"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Hammurabi's reign and his military campaigns depends critically on which ancient chronology is adopted. The Middle Chronology (used here) places Hammurabi at 1792\u20131750 BCE; the Low Chronology places him at 1728\u20131686 BCE, shifting all events by ~60 years. Modern scholarship has not reached consensus. Additionally, the significance of the Larsa conquest is sometimes overstated in older histories as a 'unification' of Mesopotamia; in fact, Hammurabi's control was contested and incomplete, and northern Mesopotamia remained outside his direct rule. The Hyksos consolidation narrative is heavily dependent on Manetho, whose chronology is now recognized as unreliable; archaeological evidence suggests a more gradual process of settlement and integration rather than a sudden 'invasion.'",
+  "historiographic_note": "This year falls in a period of moderate documentation for Mesopotamia (Hammurabi's inscriptions and administrative records are relatively abundant) but sparse documentation for Egypt (the Second Intermediate Period is poorly recorded in surviving Egyptian sources, and we rely heavily on later Greek compilations and archaeology). Sub-Saharan Africa, the Americas, and most of Oceania have no written records for this period. The surviving sources are heavily skewed toward elite political and military history; economic, social, and cultural history are poorly attested. Mesopotamian sources are court-sponsored and may exaggerate Hammurabi's achievements.",
+  "graph_edges": [
+    {
+      "from": "-1735-001",
+      "to": "-1730-001",
+      "relation": "led_to",
+      "note": "Larsa conquest consolidated Babylonian power, enabling further expansion northward"
+    },
+    {
+      "from": "-1735-002",
+      "to": "-1650-001",
+      "relation": "part_of",
+      "note": "Hyksos consolidation was a gradual process spanning the Second Intermediate Period"
+    }
+  ]
+}

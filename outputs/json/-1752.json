@@ -1,0 +1,80 @@
+{
+  "year": -1752,
+  "year_label": "1753 BCE",
+  "era_context": "The Old Babylonian period in Mesopotamia under Samsu-iluna; Egypt in the Second Intermediate Period; early Shang dynasty in China; Mycenaean Early Bronze Age in Greece; mature Indus Valley Civilization in South Asia; emerging Hittite power in Anatolia; the Minoan civilization flourishing on Crete.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-1752-001",
+      "title": "Minoan civilization flourishing on Crete",
+      "region": "Crete and Aegean Islands",
+      "coordinates_approx": "35.3387, 25.1384",
+      "category": "cultural",
+      "description": "The Minoan civilization on Crete (c. 2700\u20131450 BCE) is in its Middle Minoan period (c. 2000\u20131700 BCE), characterized by sophisticated palace complexes at Knossos, Phaistos, and Malia. The civilization is known for advanced pottery, frescoes, and extensive maritime trade throughout the Mediterranean and Near East. The palaces serve as centers of religious, administrative, and economic activity. The civilization shows no evidence of fortifications, suggesting a maritime-based power structure rather than military dominance.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Minoan palace sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Minoan pottery and artifacts",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Minoan civilization is well-established through extensive archaeological evidence. Dating is based on stratigraphic analysis and correlation with Egyptian chronology.",
+      "cross_references": []
+    },
+    {
+      "id": "-1752-002",
+      "title": "Shang dynasty oracle bone divination practices",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.5, 108.0",
+      "category": "cultural",
+      "description": "The early Shang dynasty (c. 1600\u20131046 BCE) is developing sophisticated divination practices using oracle bones (scapulae and plastrons of animals). These bones are inscribed with questions and heated until they crack, with the patterns interpreted as answers from ancestors and deities. The practice provides evidence of early Chinese writing, religious beliefs, and administrative concerns. The oracle bone script is an ancestor of later Chinese writing systems.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological excavations at Anyang and other Shang sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Oracle bone divination is well-attested in the archaeological record, though the dating of specific oracle bones to particular years is uncertain. The conventional dating of the Shang dynasty (c. 1600\u20131046 BCE) is debated, with some scholars proposing earlier or later dates.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Shang dynasty remains contested. The traditional Chinese chronology places the Shang dynasty beginning c. 1600 BCE, but some scholars argue for dates as late as 1300 BCE based on archaeological evidence. This creates uncertainty about whether oracle bone practices were established by 1752 BCE or several centuries later. The Minoan civilization's lack of fortifications has been interpreted as evidence of peaceful trade-based power, but some scholars argue this reflects incomplete archaeological evidence rather than actual absence of military structures.",
+  "historiographic_note": "This year is characterized by sparse written documentation outside of Mesopotamia. The Minoan civilization is known almost entirely through archaeology, with no deciphered written records (Linear A remains undeciphered). Early Shang history relies on oracle bone inscriptions and later historiography (Shiji), creating significant dating uncertainty. Egypt's Second Intermediate Period is notably poorly documented. The historical record is heavily weighted toward Mesopotamian cuneiform sources and archaeological evidence from the Mediterranean and East Asia.",
+  "graph_edges": [
+    {
+      "from": "-1752-001",
+      "to": "-1450-001",
+      "relation": "part_of",
+      "note": "Minoan civilization (c. 2700\u20131450 BCE)"
+    },
+    {
+      "from": "-1752-002",
+      "to": "-1046-001",
+      "relation": "part_of",
+      "note": "Shang dynasty oracle bone tradition (c. 1600\u20131046 BCE)"
+    }
+  ]
+}

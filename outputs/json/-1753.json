@@ -1,0 +1,92 @@
+{
+  "year": -1753,
+  "year_label": "1754 BCE",
+  "era_context": "The Old Babylonian period in Mesopotamia under Samsu-iluna; Egypt in the Second Intermediate Period with fragmented authority; early Shang dynasty in China; Mycenaean Early Bronze Age in Greece; mature Indus Valley Civilization in South Asia; emerging Hittite power in Anatolia; Minoan civilization flourishing on Crete.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-1753-001",
+      "title": "Samsu-iluna's military campaigns in Mesopotamia",
+      "region": "Mesopotamia (Babylon and surrounding regions)",
+      "coordinates_approx": "32.5352, 44.4275",
+      "category": "military",
+      "description": "Samsu-iluna conducts military campaigns against the Kassites and other neighboring powers to maintain Babylonian control over southern Mesopotamia. These campaigns are documented in administrative texts and inscriptions, though specific details of individual campaigns are often sparse. The campaigns reflect ongoing pressure on Babylonian borders and the gradual erosion of Babylonian hegemony that characterized Samsu-iluna's reign. Military expenditures strain the Babylonian economy.",
+      "key_figures": [
+        "Samsu-iluna (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Cuneiform administrative and military texts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Babylonian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Samsu-iluna's military campaigns are well-attested in administrative records, though specific year-by-year details are often lacking. The general pattern of military activity is clear, but precise dating of individual campaigns is uncertain.",
+      "cross_references": [
+        "-1750-001",
+        "-1751-001"
+      ]
+    },
+    {
+      "id": "-1753-002",
+      "title": "Indus Valley trade networks extending to Mesopotamia",
+      "region": "South Asia (Indus Valley) and Mesopotamia",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains extensive trade networks extending to Mesopotamia, the Persian Gulf, and beyond. Archaeological evidence shows Indus seals and artifacts in Mesopotamian contexts, and Mesopotamian goods in Indus Valley sites. This trade is facilitated by maritime routes and involves exchange of raw materials (lapis lazuli, carnelian, copper) and finished goods. The trade networks suggest sophisticated commercial organization and long-distance communication.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Indus artifacts in Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian administrative texts mentioning Indus trade",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence of Indus Valley trade networks is well-established through archaeological evidence. The dating of specific trade connections is based on stratigraphic analysis and chronological correlation.",
+      "cross_references": [
+        "-1750-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The extent and nature of Indus Valley trade with Mesopotamia is debated. Some scholars argue that the trade was more limited and sporadic than the archaeological evidence suggests, with Indus goods reaching Mesopotamia through intermediaries rather than direct trade. The interpretation of Indus seals found in Mesopotamia as evidence of direct trade is contested by some scholars who argue they may represent gifts, prestige items, or indirect exchange.",
+  "historiographic_note": "This year falls in a period of sparse written documentation outside of Mesopotamia. The Indus Valley Civilization, despite its sophistication and extensive trade networks, left no deciphered written records, limiting our understanding of its political organization and economic systems. Egypt's Second Intermediate Period is notably poorly documented in surviving texts. Early Shang history relies on oracle bone inscriptions and later historiography. The historical record is heavily weighted toward Mesopotamian cuneiform sources and archaeological evidence.",
+  "graph_edges": [
+    {
+      "from": "-1753-001",
+      "to": "-1750-001",
+      "relation": "contemporary_with",
+      "note": "Samsu-iluna's reign continues with military campaigns"
+    },
+    {
+      "from": "-1753-002",
+      "to": "-1750-002",
+      "relation": "contemporary_with",
+      "note": "Indus Valley Civilization trade networks active"
+    }
+  ]
+}

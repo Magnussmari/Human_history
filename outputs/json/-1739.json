@@ -1,0 +1,88 @@
+{
+  "year": -1739,
+  "year_label": "1740 BCE",
+  "era_context": "Hammurabi's reign in Babylon (r. 1792\u20131750 BCE), during the period of military expansion. Hammurabi was consolidating power and beginning his campaigns of conquest. Egypt was in the Second Intermediate Period. The Indus Valley Civilization was in its mature phase. In China, the traditional Xia dynasty was in its later stages, though archaeological confirmation remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Oceania",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-1739-001",
+      "title": "Hammurabi's early military campaigns",
+      "region": "Mesopotamia (Babylonia and surrounding regions)",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "Hammurabi began his military campaigns to expand Babylonian power and consolidate control over neighboring city-states. These early campaigns were directed against various rivals and were part of a broader strategy to transform Babylon from a minor city-state into a regional hegemon. The exact sequence and outcomes of these early campaigns are uncertain, but they set the stage for Hammurabi's later major victories against Mari and Larsa. Hammurabi's year-names record military victories during this period.",
+      "key_figures": [
+        "Hammurabi (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Hammurabi's inscriptions and year-names",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Babylonian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hammurabi's early military campaigns are attested in his inscriptions, but the precise dating and sequence are uncertain. The assignment to -1739 is conventional; the actual dates could range \u00b15\u201310 years depending on the chronology chosen.",
+      "cross_references": [
+        "Part of broader Hammurabi expansion -1740 to -1730",
+        "Leads to -1738-001 (northern campaigns)"
+      ]
+    },
+    {
+      "id": "-1739-002",
+      "title": "Hittite Old Kingdom period",
+      "region": "Anatolia (modern Turkey)",
+      "coordinates_approx": "39.0, 34.0",
+      "category": "political",
+      "description": "The Hittite Old Kingdom was established in Anatolia during this period. The Hittites were an Indo-European people who established a kingdom in central Anatolia with their capital at Hattusa. The Old Kingdom period (c. 1750\u20131650 BCE) was characterized by the consolidation of Hittite power and the development of their distinctive military and political institutions. The Hittites would later become one of the major powers of the ancient Near East, but during this period they were still consolidating their position in Anatolia.",
+      "key_figures": [
+        "Hantili I (early Hittite ruler, traditional dating uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and king lists (later compilations)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Hattusa and other Anatolian sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Hittite Old Kingdom is dated archaeologically to c. 1750\u20131650 BCE, but the precise chronology is uncertain. The traditional dates from Hittite king lists are now recognized as unreliable. The assignment to -1739 is conventional and represents the approximate beginning of the Old Kingdom period.",
+      "cross_references": [
+        "Part of broader Hittite development -1750 to -1650"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Hammurabi's early campaigns are sometimes presented as a unified 'conquest' of Mesopotamia, but in reality, his expansion was gradual and contested. The Hittite Old Kingdom is sometimes presented as a period of rapid expansion and consolidation, but archaeological evidence suggests a more gradual process of state formation and territorial consolidation.",
+  "historiographic_note": "Documentation for this year is sparse. Hammurabi's inscriptions provide some information about his military campaigns, but they are self-promotional and may exaggerate his achievements. The Hittite Old Kingdom is known primarily through later king lists and archaeology, with limited contemporary written records. Most of the world outside Mesopotamia and Anatolia has no written records for this period.",
+  "graph_edges": [
+    {
+      "from": "-1739-001",
+      "to": "-1738-001",
+      "relation": "led_to",
+      "note": "Early campaigns set the stage for northern expansion"
+    },
+    {
+      "from": "-1739-002",
+      "to": "-1650-001",
+      "relation": "part_of",
+      "note": "Hittite Old Kingdom was a period of gradual consolidation"
+    }
+  ]
+}

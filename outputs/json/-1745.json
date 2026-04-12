@@ -1,0 +1,108 @@
+{
+  "year": -1745,
+  "year_label": "1746 BCE",
+  "era_context": "The Middle Bronze Age in the Levant and Egypt; the Middle Kingdom in Egypt was in decline, with the Second Intermediate Period beginning around this time. In Mesopotamia, the Old Babylonian period was ending; Hammurabi's dynasty was weakening. The Hittite Old Kingdom was not yet established. In the Indus Valley, the mature Harappan civilization was in its later phases. China's Xia dynasty (traditional dating) was in its later period, though archaeological confirmation remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (no contemporary written records)",
+    "Southeast Asia (minimal archaeological dating precision)",
+    "Pacific Islands (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-1745-001",
+      "title": "Reign of Hammurabi of Babylon \u2014 consolidation phase",
+      "region": "Mesopotamia (Babylon)",
+      "coordinates_approx": "32.5352, 44.4275",
+      "category": "political",
+      "description": "Hammurabi (r. c. 1792\u20131750 BCE) was in the mid-phase of his reign, having already conquered several neighboring city-states. By this period, he was consolidating Babylonian power in southern Mesopotamia and preparing for further expansion northward. His reign is marked by military campaigns and administrative reorganization. The famous Code of Hammurabi was likely compiled in the latter part of his reign (c. 1754 BCE), but the legal and administrative frameworks it codified were being developed during this period.",
+      "key_figures": [
+        "Hammurabi (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List (later compilation, but based on administrative records)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative tablets from Babylon",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hammurabi's reign dates are established within \u00b15 years by Mesopotamian chronology tied to astronomical observations and king lists. The specific events of 1746 BCE are less precisely datable.",
+      "cross_references": []
+    },
+    {
+      "id": "-1745-002",
+      "title": "Decline of the Egyptian Middle Kingdom",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The 12th Dynasty of Egypt (c. 1985\u20131795 BCE) was in its final decades. Central authority was weakening, and provincial governors were gaining autonomy. The transition to the Second Intermediate Period (c. 1795\u20131550 BCE) was underway, marked by fragmentation of political power and the eventual infiltration of Asiatic peoples (later called the Hyksos) into the Delta region. This period saw reduced monumental construction and administrative efficiency compared to the height of the Middle Kingdom.",
+      "key_figures": [
+        "Amenemhat III (12th Dynasty, r. c. 1855\u20131808 BCE, likely deceased by this date)",
+        "Amenemhat IV (12th Dynasty, r. c. 1808\u20131799 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists and administrative papyri",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of reduced construction activity",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Egyptian chronology for this period is tied to astronomical observations (Sothic dating) and king lists, with uncertainty of \u00b110\u201320 years. The transition to the Second Intermediate Period is well-attested but not precisely dated to individual years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1745-003",
+      "title": "Indus Valley Civilization \u2014 late mature phase",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (c. 2600\u20131900 BCE) was in its mature to late mature phase. Major urban centers like Mohenjo-daro and Harappa were still occupied and functioning, though some evidence suggests gradual decline in standardization and centralized control. Trade networks extended to Mesopotamia and the Arabian Peninsula. The civilization is notable for its undeciphered script, sophisticated urban planning, and standardized weights and measures.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, and other sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Indus Valley chronology is based on radiocarbon dating and stratigraphic analysis, with uncertainty of \u00b150\u2013100 years. The civilization's decline occurred gradually over several centuries, not at a single point.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Hammurabi's reign has been subject to significant revision. The 'Middle Chronology' (used here, placing Hammurabi c. 1792\u20131750 BCE) is now standard, but the 'Low Chronology' (c. 1696\u20131654 BCE) and 'High Chronology' (c. 1848\u20131806 BCE) remain in scholarly debate, affecting all Mesopotamian dates by up to 150 years. The Indus Valley Civilization's decline is often attributed to environmental factors (river course changes, drought) or invasion, but recent scholarship emphasizes gradual, multi-causal decline rather than catastrophic collapse. The identity and origins of the Hyksos remain contested; they were not a unified invasion force but rather a gradual infiltration of Asiatic peoples into Egypt.",
+  "historiographic_note": "Documentation for 1746 BCE is heavily skewed toward Mesopotamia and Egypt, where written records and administrative archives exist. The Indus Valley Civilization left no deciphered written records, limiting understanding of political events or individual rulers. Sub-Saharan Africa, Europe, and the Americas are essentially undocumented for this year. Mesopotamian sources are primarily administrative and religious texts, reflecting elite perspectives. Egyptian sources similarly reflect royal ideology. The absence of evidence for many regions should not be interpreted as absence of historical activity.",
+  "graph_edges": [
+    {
+      "from": "-1745-001",
+      "to": "-1750-001",
+      "relation": "part_of",
+      "note": "Hammurabi's reign spans multiple years; this year is part of his consolidation phase"
+    },
+    {
+      "from": "-1745-002",
+      "to": "-1795-001",
+      "relation": "led_to",
+      "note": "The decline of the Middle Kingdom led to the fragmentation of the Second Intermediate Period"
+    }
+  ]
+}

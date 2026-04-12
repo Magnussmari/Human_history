@@ -1,0 +1,80 @@
+{
+  "year": -1750,
+  "year_label": "1751 BCE",
+  "era_context": "The Middle Bronze Age in the Levant and Mesopotamia; the Old Babylonian period under Hammurabi's successors in southern Mesopotamia; the Middle Kingdom collapse in Egypt with the Second Intermediate Period beginning; the Shang dynasty in early development in China; Mycenaean civilization emerging in Greece; the Indus Valley Civilization at its mature phase in South Asia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse Bronze Age documentation)",
+    "Mesoamerica (limited chronological precision for this era)",
+    "Pacific Islands (oral traditions not yet recorded)"
+  ],
+  "events": [
+    {
+      "id": "-1750-001",
+      "title": "Reign of Samsu-iluna, King of Babylon",
+      "region": "Mesopotamia (Babylon)",
+      "coordinates_approx": "32.5352, 44.4275",
+      "category": "political",
+      "description": "Samsu-iluna (r. c. 1749\u20131712 BCE) continues the Old Babylonian dynasty following his father Hammurabi. His reign is marked by military campaigns against the Kassites and other neighboring powers, though his authority gradually weakens over his long reign. The period sees increasing pressure from external groups and internal fragmentation of Babylonian power. His reign represents the beginning of the decline of the Old Babylonian state.",
+      "key_figures": [
+        "Samsu-iluna (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative texts from Babylon",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Samsu-iluna's reign dates are established through king lists and cuneiform records, though exact year-by-year chronology remains debated. The conventional Middle Chronology places his accession c. 1749 BCE; the Low Chronology shifts this to c. 1697 BCE. This entry uses the Middle Chronology.",
+      "cross_references": []
+    },
+    {
+      "id": "-1750-002",
+      "title": "Indus Valley Civilization at mature phase",
+      "region": "South Asia (Indus Valley)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (c. 2600\u20131900 BCE) is at its mature phase, with major urban centers like Harappa and Mohenjo-daro functioning as centers of trade, craft production, and administration. The civilization is characterized by standardized weights and measures, planned urban layouts, and extensive trade networks extending to Mesopotamia and the Persian Gulf. Writing system remains undeciphered. No evidence of monumental temples or palaces suggests a different social organization than contemporary civilizations.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature phase of the Indus Valley Civilization is well-established through extensive archaeological evidence. Dating is based on radiocarbon analysis and stratigraphic correlation.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the Old Babylonian period remains contested between the Middle Chronology (placing Hammurabi c. 1792\u20131750 BCE) and the Low Chronology (c. 1740\u20131697 BCE). This affects the precise dating of Samsu-iluna's reign by up to 50 years. Additionally, the decline of Babylonian power under Samsu-iluna is sometimes overstated in older scholarship; recent analysis suggests a more gradual process of regional fragmentation rather than sudden collapse.",
+  "historiographic_note": "Documentation for this year is heavily weighted toward Mesopotamia, where cuneiform records provide administrative detail. The Indus Valley Civilization is known primarily through archaeology, with no deciphered written records to provide narrative context. Egypt's Second Intermediate Period is poorly documented in surviving texts. China's early Shang period relies on oracle bone inscriptions and later historiography (Shiji), creating significant dating uncertainty. The historical record is biased toward literate, centralized states with written administrative traditions.",
+  "graph_edges": [
+    {
+      "from": "-1750-001",
+      "to": "-1712-001",
+      "relation": "led_to",
+      "note": "Samsu-iluna's reign continues until c. 1712 BCE, ending the Old Babylonian period's strongest phase"
+    },
+    {
+      "from": "-1750-002",
+      "to": "-1900-001",
+      "relation": "part_of",
+      "note": "Mature Indus Valley Civilization phase (c. 2600\u20131900 BCE)"
+    }
+  ]
+}
