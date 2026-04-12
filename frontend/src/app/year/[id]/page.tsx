@@ -6,7 +6,7 @@ import Link from "next/link";
 import { motion } from "motion/react";
 import { ArrowLeft, MapPin, AlertTriangle, BookOpen, GitBranch, Info } from "lucide-react";
 import { fetchManifest, fetchAllYears } from "@/lib/data";
-import { DOC_LEVEL_CONFIG, getEraForYear, formatYear, CATEGORY_CONFIG } from "@/lib/constants";
+import { DOC_LEVEL_CONFIG, getEraForYear, formatYear, CATEGORY_CONFIG, safeCategoryConfig } from "@/lib/constants";
 import { EventCard } from "@/components/EventCard";
 import { cn } from "@/lib/utils";
 
@@ -216,7 +216,7 @@ export default function YearPage() {
                     fontWeight: 500,
                   }}
                 >
-                  {CATEGORY_CONFIG[cat].label}
+                  {safeCategoryConfig(cat).label}
                 </span>
               ))}
             </div>

@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { Search } from "lucide-react";
 import type { YearData } from "@/types/history";
 import { searchEvents } from "@/lib/data";
-import { CATEGORY_CONFIG } from "@/lib/constants";
+import { CATEGORY_CONFIG, safeCategoryConfig } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 interface SearchCommandProps {
@@ -204,10 +204,10 @@ export function SearchCommand({ years }: SearchCommandProps) {
                               <span
                                 className={cn(
                                   "rounded px-1.5 py-0 text-[10px] font-medium",
-                                  CATEGORY_CONFIG[r.event.category].color
+                                  safeCategoryConfig(r.event.category).color
                                 )}
                               >
-                                {CATEGORY_CONFIG[r.event.category].label}
+                                {safeCategoryConfig(r.event.category).label}
                               </span>
                               <span className="text-[10px] text-muted-foreground truncate max-w-[200px]">
                                 {r.event.region}

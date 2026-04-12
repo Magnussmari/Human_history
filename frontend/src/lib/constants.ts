@@ -54,3 +54,13 @@ export function formatYear(year: number): string {
   if (year < 0) return `${Math.abs(year)} BCE`;
   return `${year} CE`;
 }
+
+export function safeCategoryConfig(cat: string) {
+  return (CATEGORY_CONFIG as Record<string, { label: string; color: string; icon: string } | undefined>)[cat]
+    ?? { label: cat, color: "bg-muted text-muted-foreground", icon: "help-circle" };
+}
+
+export function safeCertaintyConfig(cert: string) {
+  return (CERTAINTY_CONFIG as Record<string, { label: string; color: string } | undefined>)[cert]
+    ?? { label: cert, color: "bg-muted text-muted-foreground" };
+}

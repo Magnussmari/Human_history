@@ -7,7 +7,7 @@ import {
   Church, Leaf, Compass, Scale, ChevronDown, Shield, Flame, BookOpen, Link2
 } from "lucide-react";
 import type { HistoryEvent, EventCategory, CertaintyLevel } from "@/types/history";
-import { CATEGORY_CONFIG, CERTAINTY_CONFIG } from "@/lib/constants";
+import { CATEGORY_CONFIG, CERTAINTY_CONFIG, safeCategoryConfig, safeCertaintyConfig } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
@@ -39,8 +39,8 @@ interface EventCardProps {
 
 export function EventCard({ event }: EventCardProps) {
   const [sourcesOpen, setSourcesOpen] = useState(false);
-  const catConfig = CATEGORY_CONFIG[event.category];
-  const certConfig = CERTAINTY_CONFIG[event.certainty];
+  const catConfig = safeCategoryConfig(event.category);
+  const certConfig = safeCertaintyConfig(event.certainty);
 
   return (
     <motion.div

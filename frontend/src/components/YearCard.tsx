@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import type { YearData } from "@/types/history";
-import { DOC_LEVEL_CONFIG, getEraForYear, CATEGORY_CONFIG } from "@/lib/constants";
+import { DOC_LEVEL_CONFIG, getEraForYear, CATEGORY_CONFIG, safeCategoryConfig } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 interface YearCardProps {
@@ -12,7 +12,7 @@ interface YearCardProps {
 
 export function YearCard({ year, index }: YearCardProps) {
   const era = getEraForYear(year.year);
-  const docConfig = DOC_LEVEL_CONFIG[year.documentation_level];
+  const docConfig = DOC_LEVEL_CONFIG[year.documentation_level] ?? { label: year.documentation_level, color: "text-muted-foreground", bars: 1 };
   const topCategories = [...new Set(year.events.map((e) => e.category))].slice(0, 4);
 
   return (
@@ -59,10 +59,10 @@ export function YearCard({ year, index }: YearCardProps) {
                 key={cat}
                 className={cn(
                   "rounded px-1.5 py-0.5 text-[10px] font-medium",
-                  CATEGORY_CONFIG[cat].color
+                  safeCategoryConfig(cat).color
                 )}
               >
-                {CATEGORY_CONFIG[cat].label}
+                {safeCategoryConfig(cat).label}
               </span>
             ))}
           </div>
