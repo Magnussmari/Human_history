@@ -1,0 +1,117 @@
+{
+  "year": 669,
+  "year_label": "669 CE",
+  "era_context": "The late 660s CE continue the early Islamic expansion, Byzantine-Arab conflict, and Tang Dynasty consolidation. The Umayyad Caliphate is in its early phase under Muawiyah I; the Byzantine Empire is defending against Arab incursions; and East Asia sees the Tang Dynasty at its height under Emperor Gaozong.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "669-001",
+      "title": "Arab raids on Byzantine territories in the Aegean and Mediterranean",
+      "region": "Byzantine Empire, Mediterranean",
+      "coordinates_approx": "39.0, 25.0",
+      "category": "military",
+      "description": "Umayyad Arab forces conduct raids on Byzantine-held islands and coastal territories in the Aegean and Mediterranean, including Crete and Cyprus. These raids are part of the broader Arab-Byzantine conflict and precede the formal siege of Constantinople (670\u2013677 CE). The raids disrupt Byzantine commerce and demonstrate Arab naval capability in the eastern Mediterranean.",
+      "key_figures": [
+        "Muawiyah I (Umayyad Caliph)",
+        "Constantine IV Pogonatus (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes the Confessor, Chronographia",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Byzantine scholarship",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Arab raids on Byzantine territories in the late 660s are well-attested, though specific dates and targets vary across sources. The year 669 is assigned by convention as part of the broader campaign.",
+      "cross_references": [
+        "670-001 (formal siege of Constantinople begins)"
+      ]
+    },
+    {
+      "id": "669-002",
+      "title": "Pallava-Chalukya conflict in South India",
+      "region": "South India, Deccan",
+      "coordinates_approx": "13.0, 79.0",
+      "category": "military",
+      "description": "The Pallava and Chalukya dynasties continue their struggle for dominance in South India. In 669 CE, military campaigns and territorial disputes characterize the relationship between these two major powers. The Pallavas, based in the Tamil region, and the Chalukyas, based in the Deccan, compete for control of trade routes and regional hegemony. The exact details of 669 CE campaigns are uncertain, but the broader conflict defines the era.",
+      "key_figures": [
+        "Pallava rulers (specific names uncertain for 669)",
+        "Chalukya rulers (specific names uncertain for 669)"
+      ],
+      "sources": [
+        {
+          "name": "Tamil inscriptions and temple records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Later Sanskrit chronicles and dynastic records",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Pallava-Chalukya conflict is well-documented over the 7th century, but specific events in 669 CE are not clearly dated in surviving sources. The year is assigned by convention within the broader conflict period.",
+      "cross_references": [
+        "642-001 (earlier Pallava-Chalukya conflicts)"
+      ]
+    },
+    {
+      "id": "669-003",
+      "title": "Tang Dynasty military campaigns in Korea (Goguryeo)",
+      "region": "East Asia, Korean Peninsula",
+      "coordinates_approx": "40.0, 127.0",
+      "category": "military",
+      "description": "The Tang Dynasty, under Emperor Gaozong, continues military pressure on the Korean kingdom of Goguryeo. These campaigns are part of the Tang's broader strategy to dominate East Asia and establish hegemony over the Korean Peninsula. The exact chronology of individual campaigns in 669 is uncertain, but Tang military activity in Korea is continuous during this period.",
+      "key_figures": [
+        "Emperor Gaozong of Tang",
+        "Goguryeo rulers (specific names uncertain for 669)"
+      ],
+      "sources": [
+        {
+          "name": "Tang histories and Chinese chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Korean historical records (later compilations)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Tang military campaigns against Goguryeo are well-documented for the 660s\u2013670s, but specific events in 669 are not precisely dated. The year is assigned within the broader campaign period.",
+      "cross_references": [
+        "668-001 (fall of Goguryeo)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The specific events of 669 CE are poorly documented compared to adjacent years. The Arab raids on Byzantine territories are attested for the late 660s, but 669 specifically is not clearly distinguished from 668 or 670 in surviving sources. Pallava-Chalukya conflicts are documented for the 7th century broadly, but 669 CE has no specific attested events. Tang campaigns in Korea are well-documented for the 660s\u2013670s, but 669 is not singled out.",
+  "historiographic_note": "The year 669 CE falls in a gap between well-documented events. The siege of Constantinople begins in 670; the fall of Goguryeo occurred in 668. Byzantine and Islamic sources provide general context but not specific 669 events. Chinese and Korean sources are similarly vague for this particular year. The historical record for 669 is thinner than for adjacent years.",
+  "graph_edges": [
+    {
+      "from": "669-001",
+      "to": "670-001",
+      "relation": "led_to",
+      "note": "Arab raids escalate into the formal siege of Constantinople in 670"
+    },
+    {
+      "from": "668-001",
+      "to": "669-003",
+      "relation": "contemporary_with",
+      "note": "Tang campaigns continue after the fall of Goguryeo in 668"
+    }
+  ]
+}
