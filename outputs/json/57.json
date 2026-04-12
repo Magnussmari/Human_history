@@ -1,0 +1,129 @@
+{
+  "year": 57,
+  "year_label": "57 CE",
+  "era_context": "Mid-reign of Nero (54\u201368 CE). The Roman Empire is stable territorially but experiencing increasing internal political tension. Nero's reign is entering a more troubled phase as he asserts greater personal authority. Britain is being consolidated under Roman rule. The Jewish-Roman relationship is deteriorating in Judaea.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia (China, India)",
+    "Mesoamerica",
+    "Northern Europe beyond Roman reach"
+  ],
+  "events": [
+    {
+      "id": "57-001",
+      "title": "Seneca's Growing Influence and Conflict with Nero",
+      "region": "Rome, Italia",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Lucius Annaeus Seneca, the Stoic philosopher and tutor to Nero, was at the height of his influence during this period, serving as one of Nero's chief advisors alongside Burrus, the Praetorian Prefect. However, tensions were beginning to emerge between Seneca's philosophical principles and Nero's increasingly autocratic behavior. Seneca's wealth and power were also generating resentment among other senators and courtiers. These tensions would eventually lead to Seneca's withdrawal from politics and his forced suicide in 65 CE. The year 57 CE represents a turning point in their relationship.",
+      "key_figures": [
+        "Seneca (Philosopher and Advisor)",
+        "Nero (Roman Emperor)",
+        "Burrus (Praetorian Prefect)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Annals 13\u201314",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Suetonius, Life of Nero",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History 61",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Seneca's influence and the tensions with Nero are well-documented in sources. The specific dating of events to 57 CE is approximate; Tacitus's chronology is sometimes imprecise.",
+      "cross_references": [
+        "65-001"
+      ]
+    },
+    {
+      "id": "57-002",
+      "title": "Roman Consolidation in Britain",
+      "region": "Britannia",
+      "coordinates_approx": "52.0, -2.0",
+      "category": "military",
+      "description": "Roman forces continued their consolidation of control over Britain, establishing forts and roads to facilitate military movement and taxation. Governor Gaius Suetonius Paulinus was systematically subduing native tribes and preparing for the final assault on the Druidic stronghold of Anglesey. The Roman military presence was becoming increasingly visible and oppressive to the native population, particularly through heavy taxation and the confiscation of lands. These actions created the conditions for Boudica's revolt in 60\u201361 CE.",
+      "key_figures": [
+        "Gaius Suetonius Paulinus (Roman Governor of Britain)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Agricola 14\u201316",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from British forts and roads",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader consolidation is well-attested; specific events in 57 CE are less clearly dated. Archaeological evidence confirms Roman military presence but cannot date specific activities to a single year.",
+      "cross_references": [
+        "58-002",
+        "60-001"
+      ]
+    },
+    {
+      "id": "57-003",
+      "title": "Parthian-Roman Diplomatic Tensions",
+      "region": "Mesopotamia, Armenia, Parthian Empire",
+      "coordinates_approx": "35.0, 45.0",
+      "category": "political",
+      "description": "Ongoing diplomatic and military tensions between Rome and the Parthian Empire over control of Armenia and influence in the eastern Mediterranean. Both powers sought to place their preferred candidates on the Armenian throne. These tensions were part of a long-standing rivalry that defined the geopolitical structure of the ancient world. The tensions would escalate into the Parthian War (66\u201371 CE) under Nero.",
+      "key_figures": [
+        "Nero (Roman Emperor)",
+        "Vologases I (Parthian King)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Annals 13\u201314",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History 61",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader context of Roman-Parthian rivalry is well-documented. Specific events in 57 CE are less clearly dated.",
+      "cross_references": [
+        "66-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for the events listed. Seneca's influence and the tensions with Nero are well-corroborated in sources. The dating of specific events to 57 CE is approximate; Tacitus's chronology is sometimes imprecise.",
+  "historiographic_note": "The year 57 CE is moderately well-documented in Roman literary sources, particularly Tacitus. However, sources are heavily focused on Rome and the imperial court; provincial perspectives are limited. For Britain, sources are entirely Roman and reflect the Roman military perspective. Archaeological evidence provides material confirmation of Roman military activities but cannot date specific campaigns precisely. The historical record is good for Roman political history but limited for provincial and non-Roman perspectives.",
+  "graph_edges": [
+    {
+      "from": "57-001",
+      "to": "65-001",
+      "relation": "led_to",
+      "note": "Tensions between Seneca and Nero led to Seneca's withdrawal and forced suicide in 65 CE"
+    },
+    {
+      "from": "57-002",
+      "to": "60-001",
+      "relation": "led_to",
+      "note": "Roman consolidation in Britain created the conditions for Boudica's revolt"
+    },
+    {
+      "from": "57-003",
+      "to": "66-001",
+      "relation": "led_to",
+      "note": "Parthian-Roman tensions escalated into the Parthian War (66\u201371 CE)"
+    }
+  ]
+}

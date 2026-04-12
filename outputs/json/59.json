@@ -1,0 +1,128 @@
+{
+  "year": 59,
+  "year_label": "59 CE",
+  "era_context": "Mid-reign of Nero (54\u201368 CE). The Roman Empire at its territorial peak. Nero's political position is becoming increasingly unstable; his matricide (murder of his mother Agrippina) occurred in this year, marking a turning point in his reign toward greater tyranny. Britain under Roman occupation following Claudius's conquest; Parthia remains Rome's eastern rival.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "59-001",
+      "title": "Murder of Agrippina the Younger by Nero",
+      "region": "Baiae, Campania, Italia",
+      "coordinates_approx": "40.8, 14.1",
+      "category": "political",
+      "description": "Nero orchestrated the murder of his mother, Agrippina the Younger, at Baiae on the Bay of Naples. Agrippina had been a powerful political figure and regent during Nero's early reign, but their relationship deteriorated as Nero sought independence and was influenced by his advisors, particularly Seneca and Burrus. After a failed attempt to drown her (a boat was deliberately damaged), Nero sent assassins to kill her. Her death marked a watershed in Nero's reign: it removed the last significant check on his power and signaled his descent into increasingly erratic and tyrannical behavior. The murder shocked the Senate and Roman society, though Nero's propaganda blamed Agrippina for plotting against him.",
+      "key_figures": [
+        "Nero (Roman Emperor)",
+        "Agrippina the Younger (Empress Mother)",
+        "Seneca (Advisor to Nero)",
+        "Burrus (Prefect of the Praetorian Guard)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Annals 14.1\u201313",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Suetonius, Life of Nero 34",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History 61.11\u201313",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The murder is well-attested in multiple contemporary and near-contemporary sources. The date (59 CE) is secure. Details of the murder plot vary slightly between sources, but the basic fact is certain.",
+      "cross_references": []
+    },
+    {
+      "id": "59-002",
+      "title": "Octavia Divorced and Exiled by Nero",
+      "region": "Rome, Italia",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Nero divorced his wife Octavia (daughter of Claudius and sister of Britannicus) and exiled her, allegedly on charges of infertility. In reality, Nero wished to marry Poppaea Sabina, a woman of lower status who had become his mistress. Octavia was a symbol of legitimacy through her connection to Claudius; her removal further isolated Nero from the Julio-Claudian establishment. She was later executed in 62 CE. This event demonstrated Nero's willingness to discard even the most prestigious connections for personal desire and foreshadowed his increasingly despotic behavior.",
+      "key_figures": [
+        "Nero (Roman Emperor)",
+        "Octavia (Empress, daughter of Claudius)",
+        "Poppaea Sabina (Nero's mistress)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Annals 14.60\u201361",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Suetonius, Life of Nero 35",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History 61.11",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The divorce and exile are well-documented in ancient sources. The date (59 CE) is secure.",
+      "cross_references": [
+        "62-001"
+      ]
+    },
+    {
+      "id": "59-003",
+      "title": "Continued Roman Military Operations in Britain",
+      "region": "Britannia (Wales and northern regions)",
+      "coordinates_approx": "52.0, -3.0",
+      "category": "military",
+      "description": "Roman forces under Governor Gaius Suetonius Paulinus continued campaigns to consolidate control over Britain, particularly in Wales and against the Druids of Anglesey. These campaigns were part of the broader Roman conquest initiated by Claudius in 43 CE. The subjugation of Wales and the destruction of Druidic centers were strategic priorities. These operations set the stage for Boudica's revolt in 60\u201361 CE.",
+      "key_figures": [
+        "Gaius Suetonius Paulinus (Roman Governor of Britain)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Agricola 14\u201316",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Wales and Anglesey",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader campaign is well-attested; specific events in 59 CE are less clearly dated. Tacitus provides the main narrative, but his chronology is sometimes imprecise.",
+      "cross_references": [
+        "60-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for the events listed. The murder of Agrippina and divorce of Octavia are well-corroborated across multiple sources. Some details of Agrippina's death vary between sources (e.g., the exact method of the initial assassination attempt), but the basic facts are secure.",
+  "historiographic_note": "The year 59 CE is richly documented in Roman literary sources, particularly Tacitus's Annals, which provides a detailed narrative of Nero's reign. However, these sources were written decades after the events and reflect anti-Neronian bias. The sources are heavily focused on the Roman elite and court politics; the perspectives of ordinary Romans, provincials, and non-Romans are largely absent. Archaeological evidence provides material confirmation of Roman military activities in Britain but cannot date specific campaigns to individual years. The historical record is excellent for Roman political history but limited for social and economic history.",
+  "graph_edges": [
+    {
+      "from": "59-001",
+      "to": "62-001",
+      "relation": "led_to",
+      "note": "Agrippina's death removed a restraint on Nero; his subsequent behavior became increasingly tyrannical, culminating in Octavia's execution"
+    },
+    {
+      "from": "59-002",
+      "to": "62-001",
+      "relation": "led_to",
+      "note": "Octavia's divorce and exile preceded her execution in 62 CE"
+    },
+    {
+      "from": "59-003",
+      "to": "60-001",
+      "relation": "led_to",
+      "note": "Roman military operations in Britain created the conditions for Boudica's revolt"
+    }
+  ]
+}

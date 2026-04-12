@@ -1,0 +1,122 @@
+{
+  "year": 58,
+  "year_label": "58 CE",
+  "era_context": "Mid-reign of Nero (54\u201368 CE). The Roman Empire under stable territorial control but with increasing internal political instability. Nero's reign is entering a more troubled phase. Britain is being consolidated under Roman rule. The Jewish-Roman relationship is deteriorating in Judaea. Early Christianity is spreading through the Mediterranean.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia (China, India)",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "58-001",
+      "title": "Nero's Affair with Poppaea Sabina Becomes Public",
+      "region": "Rome, Italia",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Nero's relationship with Poppaea Sabina, a woman of equestrian (not senatorial) rank, became increasingly public and scandalous. Poppaea was already married to Otho, a prominent senator. Nero's infatuation with her and his intention to marry her (which would require divorcing Octavia) created a major political crisis. Poppaea's influence over Nero grew steadily, and she became a key figure in court politics. This affair was symptomatic of Nero's increasing disregard for traditional Roman values and senatorial opinion.",
+      "key_figures": [
+        "Nero (Roman Emperor)",
+        "Poppaea Sabina",
+        "Otho (Senator, Poppaea's husband)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Annals 13.45\u201346",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Suetonius, Life of Nero 35",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The affair is well-attested in sources, though the exact chronology of when it became public is less precise. Tacitus places it in the context of 58 CE, but the dating is approximate.",
+      "cross_references": [
+        "59-002"
+      ]
+    },
+    {
+      "id": "58-002",
+      "title": "Roman Military Campaigns in Wales",
+      "region": "Britannia (Wales)",
+      "coordinates_approx": "52.5, -3.5",
+      "category": "military",
+      "description": "Roman forces under Governor Gaius Suetonius Paulinus continued their conquest of Wales, pushing deeper into the interior and subduing native tribes. These campaigns were part of the systematic Roman conquest of Britain initiated by Claudius in 43 CE. The Romans faced resistance from local tribes and from Druidic religious centers, which they viewed as sources of anti-Roman sentiment. Archaeological evidence shows Roman military installations (forts) being established throughout Wales during this period.",
+      "key_figures": [
+        "Gaius Suetonius Paulinus (Roman Governor of Britain)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Agricola 14",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Welsh forts and settlements",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader campaign is well-attested; specific events in 58 CE are less clearly dated. Tacitus provides the main narrative, but his chronology is sometimes imprecise.",
+      "cross_references": [
+        "59-003",
+        "60-001"
+      ]
+    },
+    {
+      "id": "58-003",
+      "title": "Jewish-Roman Tensions in Judaea",
+      "region": "Judaea, Roman Province",
+      "coordinates_approx": "31.9, 35.2",
+      "category": "political",
+      "description": "Tensions between the Jewish population and Roman authorities in Judaea continued to escalate during this period. Roman procurators were increasingly heavy-handed in their taxation and governance, and Jewish religious and nationalist sentiment was growing. Various messianic movements and resistance groups were emerging. These tensions would eventually lead to the First Jewish-Roman War (66\u201373 CE). The year 58 CE itself saw no major recorded uprising, but the underlying conditions were deteriorating.",
+      "key_figures": [
+        "Felix (Roman Procurator of Judaea, 52\u201360 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Josephus, Antiquities of the Jews 20.160\u2013181",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Tacitus, Histories 5.9\u201310",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general context of Jewish-Roman tensions is well-documented. Specific events in 58 CE are not clearly attested; this represents the broader state of affairs.",
+      "cross_references": [
+        "66-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for the events listed. The affair between Nero and Poppaea is well-corroborated. The dating of specific military campaigns in Britain to 58 CE is approximate; Tacitus's chronology is sometimes imprecise, and archaeological evidence cannot date events to a single year.",
+  "historiographic_note": "The year 58 CE is moderately well-documented in Roman literary sources, particularly Tacitus. However, sources are heavily focused on Rome and the imperial court; provincial perspectives are limited. For Britain, sources are entirely Roman and reflect the Roman military perspective. For Judaea, sources are limited to Josephus and Tacitus, both writing after the events. Archaeological evidence provides material confirmation of Roman military activities but cannot date specific campaigns precisely. The historical record is good for Roman political history but limited for provincial and non-Roman perspectives.",
+  "graph_edges": [
+    {
+      "from": "58-001",
+      "to": "59-002",
+      "relation": "led_to",
+      "note": "Nero's affair with Poppaea led to the divorce of Octavia in 59 CE"
+    },
+    {
+      "from": "58-002",
+      "to": "60-001",
+      "relation": "led_to",
+      "note": "Roman military campaigns in Wales created the conditions for Boudica's revolt"
+    },
+    {
+      "from": "58-003",
+      "to": "66-001",
+      "relation": "led_to",
+      "note": "Escalating Jewish-Roman tensions led to the First Jewish-Roman War"
+    }
+  ]
+}

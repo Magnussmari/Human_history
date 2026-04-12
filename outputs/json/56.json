@@ -1,0 +1,129 @@
+{
+  "year": 56,
+  "year_label": "56 CE",
+  "era_context": "Mid-reign of Nero (54\u201368 CE). The Roman Empire is stable territorially and administratively. Nero's reign is still in a relatively stable phase, with his advisors Seneca and Burrus exercising significant influence. Britain is being consolidated under Roman rule following Claudius's conquest in 43 CE. The Jewish-Roman relationship is deteriorating in Judaea.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia (China, India)",
+    "Mesoamerica",
+    "Northern Europe beyond Roman reach"
+  ],
+  "events": [
+    {
+      "id": "56-001",
+      "title": "Nero's Reign Stabilized Under Seneca and Burrus",
+      "region": "Rome, Italia",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "During the mid-50s CE, Nero's reign was relatively stable and well-governed, largely due to the influence of his advisors Lucius Annaeus Seneca (the Stoic philosopher) and Sextus Afranius Burrus (Praetorian Prefect). Together, they exercised significant restraint on Nero's more autocratic impulses and maintained the Senate's cooperation. This period is often characterized as the 'quinquennium Neronis' (five years of Nero), a time of relatively good governance. However, tensions were beginning to emerge as Nero sought greater personal authority and independence from his advisors. The year 56 CE represents the height of this stable period.",
+      "key_figures": [
+        "Nero (Roman Emperor)",
+        "Seneca (Philosopher and Advisor)",
+        "Burrus (Praetorian Prefect)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Annals 13.2",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Suetonius, Life of Nero 10",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History 61.4",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general characterization of this period as stable is well-attested in sources. The specific dating to 56 CE is approximate; the 'quinquennium Neronis' is traditionally dated to 54\u201359 CE, with 56 CE falling within this period.",
+      "cross_references": [
+        "57-001",
+        "59-001"
+      ]
+    },
+    {
+      "id": "56-002",
+      "title": "Roman Military Operations in Britain",
+      "region": "Britannia (Wales and northern regions)",
+      "coordinates_approx": "52.0, -3.0",
+      "category": "military",
+      "description": "Roman forces under Governor Gaius Suetonius Paulinus continued their systematic conquest and consolidation of Britain. Military campaigns focused on subduing native tribes in Wales and establishing a network of forts to facilitate control and taxation. The Romans were also targeting Druidic centers, which they viewed as sources of anti-Roman resistance. Archaeological evidence shows the expansion of Roman military installations throughout Britain during this period. These operations were laying the groundwork for the events that would lead to Boudica's revolt in 60\u201361 CE.",
+      "key_figures": [
+        "Gaius Suetonius Paulinus (Roman Governor of Britain)"
+      ],
+      "sources": [
+        {
+          "name": "Tacitus, Agricola 14\u201316",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from British forts, roads, and settlements",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader campaign is well-attested; specific events in 56 CE are less clearly dated. Archaeological evidence confirms Roman military presence and expansion but cannot date specific activities to a single year.",
+      "cross_references": [
+        "57-002",
+        "60-001"
+      ]
+    },
+    {
+      "id": "56-003",
+      "title": "Jewish-Roman Relations in Judaea",
+      "region": "Judaea, Roman Province",
+      "coordinates_approx": "31.9, 35.2",
+      "category": "political",
+      "description": "During this period, Jewish-Roman relations in Judaea were characterized by growing tension. Roman procurators were increasingly heavy-handed in their taxation and governance, and Jewish religious and nationalist sentiment was growing. Various messianic movements and resistance groups were emerging, though no major recorded uprising occurred in 56 CE specifically. The underlying conditions were deteriorating, setting the stage for the First Jewish-Roman War (66\u201373 CE). Roman procurator Felix (52\u201360 CE) was in office during this period.",
+      "key_figures": [
+        "Felix (Roman Procurator of Judaea, 52\u201360 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Josephus, Antiquities of the Jews 20.160\u2013181",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Tacitus, Histories 5.9\u201310",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general context of Jewish-Roman tensions is well-documented. Specific events in 56 CE are not clearly attested; this represents the broader state of affairs.",
+      "cross_references": [
+        "66-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for the events listed. The characterization of Nero's reign as stable during this period is well-corroborated in sources. The dating of specific military campaigns in Britain to 56 CE is approximate; Tacitus's chronology is sometimes imprecise.",
+  "historiographic_note": "The year 56 CE is moderately well-documented in Roman literary sources, particularly Tacitus. However, sources are heavily focused on Rome and the imperial court; provincial perspectives are limited. For Britain, sources are entirely Roman and reflect the Roman military perspective. For Judaea, sources are limited to Josephus and Tacitus, both writing after the events. Archaeological evidence provides material confirmation of Roman military activities but cannot date specific campaigns precisely. The historical record is good for Roman political history but limited for provincial and non-Roman perspectives.",
+  "graph_edges": [
+    {
+      "from": "56-001",
+      "to": "57-001",
+      "relation": "led_to",
+      "note": "The stable governance of this period began to deteriorate as Nero sought greater independence from his advisors"
+    },
+    {
+      "from": "56-002",
+      "to": "60-001",
+      "relation": "led_to",
+      "note": "Roman military operations in Britain created the conditions for Boudica's revolt"
+    },
+    {
+      "from": "56-003",
+      "to": "66-001",
+      "relation": "led_to",
+      "note": "Escalating Jewish-Roman tensions led to the First Jewish-Roman War"
+    }
+  ]
+}
