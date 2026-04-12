@@ -1,0 +1,88 @@
+{
+  "year": -1991,
+  "year_label": "1992 BCE",
+  "era_context": "The Late Bronze Age in the Eastern Mediterranean and Near East is entering its final crisis phase. Egypt under the late Twentieth Dynasty (Ramesses II's successors) faces economic and military pressures. The Hittite Empire is fragmenting. In Mesopotamia, the Kassite dynasty is in its final years. In the Indus Valley, post-Harappan regional cultures are established. In China, the Shang Dynasty continues its rule. This is a period of significant climatic stress (evidence of drought and famine across multiple regions) and population movement.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe and Scandinavia",
+    "Central Asia (limited archaeological precision)"
+  ],
+  "events": [
+    {
+      "id": "-1991-001",
+      "title": "Continued Sea Peoples incursions in the Eastern Mediterranean",
+      "region": "Eastern Mediterranean, Levant, Egypt",
+      "coordinates_approx": "32.0, 31.0",
+      "category": "military",
+      "description": "The Sea Peoples, a confederation of maritime raiders from unknown origins (possibly the Aegean, Anatolia, or the Levantine coast), continue raids and settlement attempts throughout the Eastern Mediterranean. Egyptian records, particularly from Ramesses III's reign, document multiple naval and land battles against these groups. The Sea Peoples are not a single ethnic group but a coalition of displaced populations, including Sherden, Peleset (possibly Philistines), Tjeker, Shkelesh, and Denyen. Their movements correlate with the broader Late Bronze Age collapse.",
+      "key_figures": [
+        "Ramesses III (Egyptian pharaoh directing defense)",
+        "Sea Peoples leaders (names largely unknown)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions at Medinet Habu, Year 5 and Year 8 of Ramesses III",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Harris Papyrus",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of destruction layers at coastal Levantine sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Egyptian records are explicit about Sea Peoples conflicts, but the precise dating of individual raids to specific years is uncertain. The Medinet Habu inscriptions are dated to Ramesses III's reign, but the exact year of composition relative to the events described is debated.",
+      "cross_references": []
+    },
+    {
+      "id": "-1991-002",
+      "title": "Kassite dynasty in Babylon approaches its end",
+      "region": "Mesopotamia, Babylon",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "The Kassite dynasty, which has ruled Babylon for over four centuries, is in its final years. The dynasty will end c. 1155 BCE with the conquest of Babylon by the Elamite king Shutruk-Nahhunte. During this period, Babylon faces pressure from Elamite expansion to the east and Aramean incursions from the west. Cuneiform records show administrative continuity but also signs of economic stress and reduced territorial control.",
+      "key_figures": [
+        "Kassite kings (names and regnal dates uncertain for this specific year)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian king lists and cuneiform administrative texts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Elamite inscriptions recording later conquest",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Kassite dynasty's end is well-documented, but the precise chronology of individual years in the late dynasty is uncertain. Babylonian king lists provide regnal lengths, but absolute dating is imprecise.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The 'Sea Peoples' are often portrayed as a unified invading force, but modern scholarship increasingly views them as a diverse coalition of displaced populations responding to systemic collapse rather than its primary cause. The Egyptian inscriptions at Medinet Habu, while explicit about military conflicts, may exaggerate Egyptian victories and minimize Egyptian losses. Some scholars argue that the Sea Peoples were partially absorbed into Levantine populations (e.g., the Philistines) rather than being entirely repelled.",
+  "historiographic_note": "This year falls within a period of significant historical disruption, but documentation is heavily skewed toward Egypt and Mesopotamia. The Egyptian temple inscriptions are propagandistic in nature and may distort the scale and outcome of conflicts. Cuneiform records from Mesopotamia are administrative and fragmentary. The broader picture of systemic collapse is clearer from archaeology (destruction layers, settlement abandonment) than from written sources. Regions outside the Eastern Mediterranean and Near East are essentially undocumented.",
+  "graph_edges": [
+    {
+      "from": "-1991-001",
+      "to": "-1990-001",
+      "relation": "contemporary_with",
+      "note": "Sea Peoples conflicts occur during Ramesses III's reign"
+    },
+    {
+      "from": "-1991-002",
+      "to": "-1985-003",
+      "relation": "led_to",
+      "note": "Kassite decline leads to Elamite conquest c. 1155 BCE"
+    }
+  ]
+}

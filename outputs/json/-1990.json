@@ -1,0 +1,92 @@
+{
+  "year": -1990,
+  "year_label": "1991 BCE",
+  "era_context": "The Late Bronze Age collapse is beginning in the Eastern Mediterranean and Near East. The New Kingdom of Egypt under Ramesses III is in its early reign (c. 1186\u20131155 BCE). The Hittite Empire in Anatolia remains a major power. In the Aegean, Late Helladic IIIC pottery styles indicate disruption and population movement. In Mesopotamia, Kassite rule in Babylon is ending. In the Indus Valley, post-Harappan cultures are established. In China, the Shang Dynasty is in its final centuries.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological dating precision for this period)",
+    "Mesoamerica (no written records; archaeological chronology uncertain)",
+    "Northern Europe (sparse settlement evidence)"
+  ],
+  "events": [
+    {
+      "id": "-1990-001",
+      "title": "Reign of Ramesses III begins (traditional dating)",
+      "region": "Egypt, New Kingdom",
+      "coordinates_approx": "26.0, 32.5",
+      "category": "political",
+      "description": "Ramesses III ascends to the throne of Egypt, traditionally dated to c. 1186 BCE (\u00b15 years). He is the last great pharaoh of the New Kingdom and will face significant external pressures from the Sea Peoples and internal economic strain. His reign is well-documented in temple inscriptions and papyri, particularly the Harris Papyrus, which records his military campaigns and administrative acts. His rule marks a transitional point before the decline of pharaonic power in the Third Intermediate Period.",
+      "key_figures": [
+        "Ramesses III (Pharaoh)",
+        "Setnakhte (predecessor)"
+      ],
+      "sources": [
+        {
+          "name": "Harris Papyrus (Papyrus Harris I)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Temple inscriptions at Medinet Habu",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on New Kingdom chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Egyptian king lists and temple records provide strong evidence, but absolute dating relies on astronomical calculations and radiocarbon calibration, which carry \u00b15\u201310 year uncertainty for this period.",
+      "cross_references": []
+    },
+    {
+      "id": "-1990-002",
+      "title": "Hittite Empire in decline; internal instability",
+      "region": "Anatolia, Hittite Empire",
+      "coordinates_approx": "35.5, 34.0",
+      "category": "political",
+      "description": "The Hittite Empire, once a superpower, is experiencing severe internal and external pressures. The empire will collapse within a few decades (c. 1180 BCE). Evidence from cuneiform tablets and archaeological stratigraphy shows administrative breakdown, military losses, and population displacement. The causes remain debated: invasion by the Sea Peoples, internal civil war, climate-driven famine, or a combination of these factors.",
+      "key_figures": [
+        "Suppiluliuma II (last known Hittite king, reign uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Cuneiform tablets from Bo\u011fazk\u00f6y (Hattusa)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological stratigraphy at Hattusa and other Hittite sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian records of conflicts with northern powers",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general decline is well-attested archaeologically, but the precise chronology and causation remain contested among scholars.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Ramesses III's reign (c. 1186 BCE) is based on astronomical calculations and king-list synchronisms, but some scholars argue for a lower chronology that would place these events 50\u2013100 years earlier. The 'Sea Peoples' invasion narrative, long accepted as a primary cause of Late Bronze Age collapse, is now viewed by some scholars as a symptom rather than a cause, with climate change and systemic economic failure playing larger roles. The collapse itself was not instantaneous but a process spanning decades.",
+  "historiographic_note": "Documentation for this year is heavily dependent on Egyptian temple records and Hittite cuneiform archives, both of which are elite-authored and may omit or distort events. The archaeological record shows clear disruption and settlement abandonment across the Eastern Mediterranean, but dating individual events to specific years is imprecise. Sub-Saharan Africa, the Americas, and much of northern Europe are essentially undocumented for this year.",
+  "graph_edges": [
+    {
+      "from": "-1990-001",
+      "to": "-1985-001",
+      "relation": "led_to",
+      "note": "Ramesses III's reign will include major military campaigns against the Sea Peoples and Libyans"
+    },
+    {
+      "from": "-1990-002",
+      "to": "-1985-002",
+      "relation": "led_to",
+      "note": "Hittite decline accelerates toward final collapse c. 1180 BCE"
+    }
+  ]
+}

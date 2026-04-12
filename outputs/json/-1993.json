@@ -1,0 +1,86 @@
+{
+  "year": -1993,
+  "year_label": "1994 BCE",
+  "era_context": "The Late Bronze Age is in its final crisis phase, approximately 10\u201320 years before the major collapses of the Hittite Empire and Mycenaean palatial centers. Egypt under Ramesses III (or his immediate predecessors) is a major power but facing increasing external and internal pressures. The Hittite Empire is fragmenting. Mycenaean Greece is in Late Helladic IIIC, experiencing settlement disruption. In Mesopotamia, the Kassite dynasty is in its final decades. In the Indus Valley, post-Harappan cultures are established. In China, the Shang Dynasty continues. This is a period of significant systemic stress across multiple civilizations.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-1993-001",
+      "title": "Hittite Empire in advanced state of collapse",
+      "region": "Anatolia, Hittite Empire",
+      "coordinates_approx": "35.5, 34.0",
+      "category": "political",
+      "description": "The Hittite Empire is in an advanced state of collapse, with central authority fragmenting and provincial control weakening. Cuneiform evidence shows administrative breakdown and military losses. The empire will cease to exist as a unified political entity within a few years (c. 1180 BCE). The causes remain debated among scholars: invasion by the Sea Peoples, internal civil war, climate-driven famine, or a combination of these factors. The collapse is not instantaneous but a process spanning several decades.",
+      "key_figures": [
+        "Suppiluliuma II (last known Hittite king, reign dates uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Cuneiform tablets from Bo\u011fazk\u00f6y (Hattusa), particularly letters and administrative texts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological stratigraphy at Hattusa showing destruction and abandonment",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general decline and collapse of the Hittite Empire is well-attested archaeologically and textually, but the precise chronology of individual years is uncertain. Cuneiform tablets provide evidence of crisis, but absolute dating is imprecise.",
+      "cross_references": [
+        "-1990-002"
+      ]
+    },
+    {
+      "id": "-1993-002",
+      "title": "Levantine coastal cities under pressure from Sea Peoples and internal conflict",
+      "region": "Levant, coastal cities (Sidon, Tyre, Byblos, Ugarit)",
+      "coordinates_approx": "33.5, 35.0",
+      "category": "military",
+      "description": "Levantine coastal cities are under increasing pressure from Sea Peoples incursions and internal conflict. Some cities (like Ugarit) have already been destroyed or abandoned in the preceding decades. Others (like Sidon and Tyre) are experiencing disruption but will survive and eventually flourish in the Iron Age. The archaeological record shows destruction layers and settlement abandonment at multiple sites. Egyptian records document military campaigns to defend or control the region.",
+      "key_figures": [
+        "Ramesses III (Egyptian pharaoh, if reign has begun)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological stratigraphy at Levantine coastal sites (Ugarit, Sidon, Tyre, Byblos)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian temple inscriptions and papyri",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The archaeological evidence for destruction and disruption at Levantine sites is clear, but the precise dating of individual destruction events to specific years is uncertain. Egyptian records provide some chronological anchors, but absolute dating is imprecise.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of the Late Bronze Age collapse as a sudden, catastrophic event driven by invasion is increasingly questioned by modern scholarship. Some scholars argue that the collapse was a longer process of systemic failure, with climate change, economic disruption, and population movement as primary drivers. The 'Sea Peoples' invasion narrative may reflect elite-authored sources (Egyptian inscriptions) that attributed collapse to external enemies rather than internal failure. Some cities in the Levant (like Sidon and Tyre) experienced disruption but survived and flourished in the Iron Age, suggesting that the collapse was not uniform or total.",
+  "historiographic_note": "Documentation for this year is heavily dependent on archaeological evidence (stratigraphy, pottery, settlement patterns) and Egyptian temple inscriptions. Cuneiform texts from the Hittite archives provide some contemporary information, but they are fragmentary and difficult to date precisely. The broader picture of systemic crisis is clearer from archaeology than from written sources. Elite-authored sources (Egyptian inscriptions, Hittite cuneiform) may distort events by emphasizing military conflicts and minimizing economic or environmental factors. Regions outside the Eastern Mediterranean and Near East are essentially undocumented.",
+  "graph_edges": [
+    {
+      "from": "-1993-001",
+      "to": "-1985-002",
+      "relation": "led_to",
+      "note": "Hittite collapse is completed c. 1180 BCE"
+    },
+    {
+      "from": "-1993-002",
+      "to": "-1990-001",
+      "relation": "contemporary_with",
+      "note": "Levantine conflicts occur during Ramesses III's reign"
+    }
+  ]
+}

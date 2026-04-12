@@ -1,0 +1,94 @@
+{
+  "year": -1994,
+  "year_label": "1995 BCE",
+  "era_context": "The Late Bronze Age is in its final decades before the major collapses of the 12th century BCE. Egypt is a major power, likely under Ramesses II or his immediate successors (the traditional dating places Ramesses III's reign c. 1186\u20131155 BCE, so this year may fall in the reign of a predecessor). The Hittite Empire is fragmenting. Mycenaean Greece is in Late Helladic IIIC. In Mesopotamia, the Kassite dynasty is in its final decades. In the Indus Valley, post-Harappan cultures are established. In China, the Shang Dynasty continues. This is a period of significant systemic stress, though the major collapses have not yet occurred.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-1994-001",
+      "title": "Egypt under late Nineteenth or early Twentieth Dynasty; continued military campaigns",
+      "region": "Egypt, New Kingdom",
+      "coordinates_approx": "26.0, 32.5",
+      "category": "political",
+      "description": "Egypt is a major power in the late 13th century BCE, likely under Ramesses II (r. c. 1279\u20131213 BCE) or one of his successors. The pharaoh is engaged in military campaigns to maintain control of Nubia and the Levant. Temple inscriptions and papyri document administrative activities, military campaigns, and religious ceremonies. The Egyptian state is economically strong but will face increasing pressures in the following decades.",
+      "key_figures": [
+        "Ramesses II or his successor (exact reign uncertain for this specific year)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions and reliefs from Egyptian temples",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on New Kingdom chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The dating of this year to the reign of Ramesses II or his successor is based on king lists and astronomical calculations, which carry \u00b15\u201310 year uncertainty. The specific events of this year are not well-documented.",
+      "cross_references": []
+    },
+    {
+      "id": "-1994-002",
+      "title": "Shang Dynasty in China; late period of rule",
+      "region": "China, Shang Dynasty",
+      "coordinates_approx": "34.0, 114.0",
+      "category": "political",
+      "description": "The Shang Dynasty in China is in its final centuries of rule. The dynasty will be overthrown by the Zhou Dynasty c. 1046 BCE (traditional dating; some scholars argue for a lower chronology). Oracle bone inscriptions and bronze vessels provide evidence of the Shang state's administrative and religious activities. The Shang are known for their advanced bronze-working technology, divination practices, and hierarchical social structure.",
+      "key_figures": [
+        "Shang kings (names uncertain for this specific year)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Bronze vessels and inscriptions",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian (compiled c. 109\u201391 BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Shang Dynasty's chronology is debated among scholars. Traditional Chinese dating places the Shang c. 1600\u20131046 BCE, but some scholars argue for a lower chronology. Oracle bone inscriptions provide contemporary evidence, but they do not typically record specific years in a way that allows precise dating of individual events.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of the Shang Dynasty (c. 1600\u20131046 BCE) is based on Chinese historical texts compiled centuries or millennia after the events described. Some scholars argue for a 'lower chronology' that would place the Shang Dynasty 50\u2013100 years later. The oracle bone inscriptions, while contemporary, do not provide a clear chronological framework that allows precise dating of individual years. The Egyptian chronology for this period is also debated, with some scholars arguing for a lower chronology that would shift these dates by 50\u2013100 years.",
+  "historiographic_note": "Documentation for this year is heavily dependent on Egyptian temple inscriptions and papyri, which are elite-authored and may distort events. Chinese oracle bone inscriptions provide contemporary evidence of Shang administrative and religious activities, but they are fragmentary and do not provide a clear chronological framework. The broader historical picture for this year is sparse; many regions are essentially undocumented. The dating of this year is based on king lists and astronomical calculations, which carry significant uncertainty.",
+  "graph_edges": [
+    {
+      "from": "-1994-001",
+      "to": "-1990-001",
+      "relation": "led_to",
+      "note": "Egyptian military power continues into the reign of Ramesses III"
+    },
+    {
+      "from": "-1994-002",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "Shang Dynasty continues until its overthrow by the Zhou Dynasty c. 1046 BCE"
+    }
+  ]
+}

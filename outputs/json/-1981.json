@@ -1,0 +1,79 @@
+{
+  "year": -1981,
+  "year_label": "1982 BCE",
+  "era_context": "Late Bronze Age II (c. 1450\u20131200 BCE). The world's major powers are the New Kingdom of Egypt, the Hittite Empire, Mycenaean Greece, the Shang Dynasty in China, and various Levantine city-states. International trade networks are extensive. This is approximately 200 years before the Late Bronze Age collapse.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia and Oceania"
+  ],
+  "events": [
+    {
+      "id": "-1981-001",
+      "title": "Ramesses II \u2014 continued reign and consolidation",
+      "region": "Egypt (New Kingdom, 19th Dynasty)",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Ramesses II continues his reign, maintaining Egyptian control over Nubia, the Levant, and the eastern Mediterranean. His building programme remains active. Administrative records and temple inscriptions document ongoing military campaigns, trade, and religious activities. The reign is characterised by stability and the projection of Egyptian power.",
+      "key_figures": [
+        "Ramesses II (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and administrative papyri",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses II's reign is well-attested, but year-by-year specificity is limited. This year falls within his documented reign.",
+      "cross_references": [
+        "-1980-001"
+      ]
+    },
+    {
+      "id": "-1981-002",
+      "title": "Mycenaean Greece \u2014 Late Helladic IIIB period, palace economies and trade",
+      "region": "Mycenaean Greece (Peloponnese and Aegean)",
+      "coordinates_approx": "37.7\u00b0N, 23.4\u00b0E",
+      "category": "economic",
+      "description": "Mycenaean palace centres (Mycenae, Pylos, Tiryns) are at their height, controlling regional trade networks and maintaining diplomatic relations with Egypt, the Hittites, and the Levant. Linear B tablets document administrative and economic activities. Bronze-working, pottery production, and maritime trade are flourishing. The palaces are centres of political and economic power.",
+      "key_figures": [
+        "Mycenaean palace rulers (names unknown; Linear B records refer to 'wanax' or king)"
+      ],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos and Mycenae",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from palace excavations",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Mycenaean chronology is based on pottery typology and stratigraphy. This year is assigned to the Late Helladic IIIB period (c. 1300\u20131190 BCE) with uncertainty of \u00b120\u201330 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence for events listed. However, the conventional dating of Mycenaean Greece and synchronisation with Egyptian chronology remains debated among scholars. Some propose alternative chronologies that would shift these dates significantly.",
+  "historiographic_note": "Documentation for this year is limited to elite, literate societies. Egyptian and Hittite records are relatively abundant; Mycenaean evidence comes from Linear B tablets and archaeology. Most of the world's population left no written record. The 'international Bronze Age' described here is a construct of interconnected elites; vast regions were unaffected by or unaware of these developments.",
+  "graph_edges": [
+    {
+      "from": "-1981-001",
+      "to": "-1980-001",
+      "relation": "led_to",
+      "note": "Continuation of Ramesses II's reign"
+    },
+    {
+      "from": "-1981-002",
+      "to": "-1980-002",
+      "relation": "contemporary_with",
+      "note": "Mycenaean and Hittite empires coexist; trade and diplomatic contact are documented"
+    }
+  ]
+}

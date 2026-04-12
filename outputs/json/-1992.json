@@ -1,0 +1,84 @@
+{
+  "year": -1992,
+  "year_label": "1993 BCE",
+  "era_context": "The Late Bronze Age is in its final decades of crisis. The Eastern Mediterranean and Near East are experiencing the convergence of multiple stressors: climate change (evidence of drought), population displacement, military conflicts, and systemic economic breakdown. Egypt remains a major power but is increasingly defensive. The Hittite Empire is fragmenting. Mycenaean Greece is in Late Helladic IIIC, a period of settlement disruption and cultural transformation. In Mesopotamia, the Kassite dynasty is in its final years. In the Indus Valley, post-Harappan cultures are established. In China, the Shang Dynasty continues.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-1992-001",
+      "title": "Drought and famine stress across the Eastern Mediterranean and Near East",
+      "region": "Eastern Mediterranean, Near East, Egypt",
+      "coordinates_approx": "32.0, 32.0",
+      "category": "environmental",
+      "description": "Paleoclimatic evidence (ice cores, tree rings, lake sediments) indicates a period of reduced precipitation and cooler temperatures across the Eastern Mediterranean and Near East during the late 13th and 12th centuries BCE. This environmental stress contributed to crop failures, famine, and population displacement. Egyptian records from Ramesses III's reign mention grain shortages and the need to import grain. The environmental crisis is now recognized by scholars as a primary driver of the Late Bronze Age collapse, working in conjunction with military conflicts and systemic economic failure.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Paleoclimatic data from ice cores (Greenland Ice Sheet Project, GISP2) and tree-ring chronologies",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian papyri mentioning grain shortages and famine",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on climate change and Bronze Age collapse",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Paleoclimatic evidence is robust and widely accepted, but the precise dating of individual drought episodes to specific years is uncertain. The correlation between climate stress and historical events is inferred rather than directly documented.",
+      "cross_references": []
+    },
+    {
+      "id": "-1992-002",
+      "title": "Mycenaean Greece in Late Helladic IIIC; settlement disruption and cultural change",
+      "region": "Aegean, Mycenaean Greece",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "cultural",
+      "description": "Mycenaean Greece is in the Late Helladic IIIC period (c. 1200\u20131050 BCE), characterized by significant settlement disruption, population movement, and cultural transformation. Major palatial centers (Mycenae, Pylos, Tiryns) have been destroyed or abandoned. Pottery styles change, writing (Linear B) disappears, and settlement patterns shift toward smaller, more dispersed communities. The causes of this disruption are debated: invasion, internal conflict, environmental stress, or a combination of factors. This period marks the transition from the Bronze Age to the Iron Age in Greece.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological stratigraphy and pottery typology from Mycenaean sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Linear B tablets from Pylos and other sites (dated to LHIIIB, before the disruption)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The archaeological evidence for settlement disruption and cultural change in Late Helladic IIIC is clear and well-documented. However, the precise causes and chronology of individual events remain debated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of the Late Bronze Age collapse as a sudden, catastrophic event driven by invasion is increasingly questioned. Modern scholarship emphasizes a longer process of systemic failure, with climate change, economic disruption, and population movement as primary drivers. The 'invasion' narrative may reflect elite-authored sources (Egyptian inscriptions) that attributed collapse to external enemies rather than internal failure. Some scholars argue that the disruption was less uniform across regions than previously thought, with some areas experiencing continuity while others experienced collapse.",
+  "historiographic_note": "Documentation for this year is heavily dependent on archaeological evidence (stratigraphy, pottery, settlement patterns) rather than written sources. Egyptian and Hittite texts provide some contemporary information, but they are elite-authored and may distort events. The broader picture of environmental stress is clearer from paleoclimatic data than from historical sources. The Aegean is documented primarily through archaeology; Linear B texts end before this period. Regions outside the Eastern Mediterranean and Near East are essentially undocumented.",
+  "graph_edges": [
+    {
+      "from": "-1992-001",
+      "to": "-1992-002",
+      "relation": "led_to",
+      "note": "Environmental stress contributes to Mycenaean settlement disruption"
+    },
+    {
+      "from": "-1992-001",
+      "to": "-1990-002",
+      "relation": "contemporary_with",
+      "note": "Climate stress affects Hittite Empire and other Near Eastern powers"
+    }
+  ]
+}
