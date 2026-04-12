@@ -1,0 +1,89 @@
+{
+  "year": 658,
+  "year_label": "658 CE",
+  "era_context": "Mid-7th century CE: The First Fitna (Islamic civil war) is ongoing between Ali ibn Abi Talib and Muawiyah ibn Abi Sufyan. The Byzantine Empire under Constans II is consolidating after the Arab-Byzantine wars. Tang Dynasty China is at its zenith under Emperor Gaozong. In Europe, Merovingian Frankish kingdoms are fragmenting; the Visigothic Kingdom in Iberia is declining.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Pre-Columbian Americas",
+    "Oceania",
+    "Northern Europe",
+    "India (limited written records for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "658-001",
+      "title": "Arbitration of Adhruh and continuation of the First Fitna",
+      "region": "Levant / Islamic Caliphate",
+      "coordinates_approx": "31.5\u00b0N, 35.5\u00b0E",
+      "category": "political",
+      "description": "Following the Battle of Siffin (657 CE), Ali ibn Abi Talib and Muawiyah ibn Abi Sufyan agreed to arbitration at Adhruh (or Dumat al-Jandal) to resolve their dispute over the caliphate. The arbitration process, which took place over 658\u2013659 CE, ultimately failed to resolve the conflict and led to further fragmentation within Ali's camp, including the emergence of the Kharijites as a distinct faction. This period marks the deepening of the Sunni-Shia schism and the political instability that would define the early Islamic period.",
+      "key_figures": [
+        "Ali ibn Abi Talib (Caliph)",
+        "Muawiyah ibn Abi Sufyan (Umayyad claimant)",
+        "Abu Musa al-Ash'ari (Ali's arbitrator)",
+        "Amr ibn al-As (Muawiyah's arbitrator)"
+      ],
+      "sources": [
+        {
+          "name": "Tabari, History of the Prophets and Kings, compiled 9th century",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Early Islamic historical tradition",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The arbitration is attested in Islamic historiography, though the precise dating and details vary across sources. Dating is approximate within \u00b11\u20132 years.",
+      "cross_references": [
+        "657-001 (Battle of Siffin)",
+        "661-001 (Establishment of Umayyad Caliphate)"
+      ]
+    },
+    {
+      "id": "658-002",
+      "title": "Byzantine-Arab naval conflict in the Mediterranean",
+      "region": "Mediterranean Sea / Byzantine Empire",
+      "coordinates_approx": "35.0\u00b0N, 18.0\u00b0E",
+      "category": "military",
+      "description": "During the reign of Constans II, Byzantine forces engaged in ongoing naval conflicts with Arab fleets in the Mediterranean. By 658 CE, the Byzantines were attempting to maintain control of key maritime routes and island territories against Arab expansion. These conflicts were part of the broader Arab-Byzantine wars that had been ongoing since the 630s CE and would continue for centuries.",
+      "key_figures": [
+        "Constans II (Byzantine Emperor, r. 641\u2013668 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes the Confessor, Chronicle (Chronographia), compiled early 9th century",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine historical tradition",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Byzantine-Arab naval conflicts are well-attested, but specific engagements in 658 CE are not precisely documented. Dating is approximate within \u00b15 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified. However, the precise sequence and dating of events during the First Fitna and the arbitration process are disputed among Islamic historians. Some sources place the arbitration in different years or with different outcomes.",
+  "historiographic_note": "658 CE is poorly documented in contemporary sources. Most information comes from later Islamic and Byzantine chronicles. The historical record is heavily weighted toward the Islamic Caliphate and Byzantine Empire; other regions are nearly absent. The arbitration process is attested in Islamic tradition but lacks contemporary documentary evidence.",
+  "graph_edges": [
+    {
+      "from": "658-001",
+      "to": "657-001",
+      "relation": "caused_by",
+      "note": "The arbitration followed directly from the Battle of Siffin."
+    },
+    {
+      "from": "658-001",
+      "to": "661-001",
+      "relation": "led_to",
+      "note": "The failed arbitration and continued conflict led to Muawiyah's eventual establishment of the Umayyad Caliphate."
+    }
+  ]
+}

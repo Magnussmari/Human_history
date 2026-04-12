@@ -1,0 +1,87 @@
+{
+  "year": 659,
+  "year_label": "659 CE",
+  "era_context": "Mid-7th century CE: The Umayyad Caliphate is consolidating power following the death of Caliph Uthman (656 CE) and the First Fitna (civil war). The Byzantine Empire under Constans II is recovering from the Arab-Byzantine wars. Tang Dynasty China under Emperor Gaozong is at its height. In Europe, Merovingian Frankish kingdoms are fragmenting; the Lombard Kingdom controls much of Italy.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Pre-Columbian Americas",
+    "Oceania",
+    "Northern Europe (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "659-001",
+      "title": "Battle of Siffin aftermath and consolidation of Muawiyah's power",
+      "region": "Levant / Islamic Caliphate",
+      "coordinates_approx": "35.5\u00b0N, 39.0\u00b0E",
+      "category": "political",
+      "description": "Following the Battle of Siffin (657 CE), Muawiyah ibn Abi Sufyan consolidated his position as a rival claimant to the caliphate against Ali ibn Abi Talib. By 659 CE, Muawiyah had secured control of the Levantine provinces and was building the naval and administrative infrastructure that would eventually lead to his establishment of the Umayyad Caliphate (661 CE). This period saw the crystallization of the Sunni-Shia split and the emergence of the Umayyad dynasty as a major power.",
+      "key_figures": [
+        "Muawiyah ibn Abi Sufyan (Umayyad claimant)",
+        "Ali ibn Abi Talib (Caliph, rival claimant)"
+      ],
+      "sources": [
+        {
+          "name": "Tabari, History of the Prophets and Kings (Tarikh al-Rusul wa-al-Muluk), compiled 9th century",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Early Islamic historical tradition (consensus of later sources)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outline of Muawiyah's consolidation is well-attested in Islamic historiography, though specific events in 659 CE are not precisely dated in contemporary sources. Dating is approximate within \u00b11\u20132 years.",
+      "cross_references": [
+        "657-001 (Battle of Siffin)",
+        "661-001 (Establishment of Umayyad Caliphate)"
+      ]
+    },
+    {
+      "id": "659-002",
+      "title": "Tang Dynasty naval expansion and control of the Silk Road",
+      "region": "China / Central Asia",
+      "coordinates_approx": "34.0\u00b0N, 108.0\u00b0E",
+      "category": "military",
+      "description": "Under Emperor Gaozong and his chancellor Zhangsun Wuji, the Tang Dynasty continued its military dominance in Central Asia, securing trade routes and establishing Chinese hegemony over the Silk Road. By 659 CE, Tang forces had defeated the Western Turks and were consolidating control over the Tarim Basin. This military success underpinned Tang economic prosperity and cultural influence across Eurasia.",
+      "key_figures": [
+        "Emperor Gaozong of Tang (r. 649\u2013683 CE)",
+        "Zhangsun Wuji (chancellor and regent)"
+      ],
+      "sources": [
+        {
+          "name": "Old Book of Tang (Jiu Tangshu), compiled 945 CE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "New Book of Tang (Xin Tangshu), compiled 1060 CE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Tang military campaigns in Central Asia are well-documented in Chinese historiography, though specific events in 659 CE are not always precisely dated. The broader pattern of Tang expansion is confirmed.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for the events listed. However, the precise dating of specific military campaigns and political consolidations in 659 CE is uncertain; sources often group events across multiple years without precise chronology.",
+  "historiographic_note": "659 CE is poorly documented in contemporary sources. Most information comes from later Islamic and Chinese chronicles compiled centuries after the events. Byzantine sources are sparse for this year. The historical record is heavily weighted toward the Islamic Caliphate and Tang China; European, African, and other regions are nearly absent from surviving documentation.",
+  "graph_edges": [
+    {
+      "from": "659-001",
+      "to": "657-001",
+      "relation": "caused_by",
+      "note": "Muawiyah's consolidation followed directly from the Battle of Siffin."
+    },
+    {
+      "from": "659-001",
+      "to": "661-001",
+      "relation": "led_to",
+      "note": "Muawiyah's consolidation of power in 659 CE led to his proclamation as Caliph in 661 CE."
+    }
+  ]
+}
