@@ -1,416 +1,265 @@
 {
   "year": 1099,
   "year_label": "1099 CE",
-  "era_context": "The First Crusade (1096\u20131099) reaches its climax with the Crusader conquest of Jerusalem. The Eastern Roman (Byzantine) Empire under Alexios I Komnenos has requested Western military aid against Seljuk Turkish expansion in Anatolia; instead, a massive independent army of Western knights, clergy, and commoners has marched across Europe and the Mediterranean, establishing Crusader states in the Levant. In East Asia, the Song Dynasty rules a prosperous but militarily pressured China; the Liao Dynasty controls the north. In the Islamic world, the Seljuk Empire fragments into regional sultanates. This year marks a watershed moment in Christian\u2013Islamic relations and the beginning of sustained Western colonial presence in the Eastern Mediterranean.",
+  "era_context": "The First Crusade reaches its climax with the capture of Jerusalem in July 1099. This event reshapes the geopolitical landscape of the Eastern Mediterranean and the Levant. Western Europe experiences a surge of religious fervor and military ambition. The Byzantine Empire under Alexios I Komnenos views the crusader success with mixed feelings\u2014relief at military assistance against the Seljuks, but concern about Western intentions. The Islamic world is shocked by the loss of Jerusalem and fragmented in its response. East Asia sees the Northern Song Dynasty in decline, with the Jurchen Jin Dynasty consolidating power in Manchuria.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Southeast Asia (sparse documentation)",
+    "Mesoamerica and North America (no written records in European tradition)"
+  ],
   "events": [
     {
       "id": "1099-001",
-      "title": "Crusaders capture Jerusalem",
-      "region": "Levant (modern Israel/Palestine)",
-      "coordinates_approx": "31.7683, 35.2137",
+      "title": "First Crusade: Crusaders Capture Jerusalem",
+      "region": "Levant (Jerusalem)",
+      "coordinates_approx": "31.78, 35.23",
       "category": "military",
-      "description": "On 15 July 1099, after a five-week siege, Crusader forces under Godfrey of Bouillon breach the walls of Jerusalem and take the city. The conquest is followed by large-scale massacre of Muslim and Jewish inhabitants\u2014contemporary sources report thousands killed, though exact numbers are disputed. The Crusaders establish the Kingdom of Jerusalem with Godfrey as its first ruler (titled 'Defender of the Holy Sepulchre' rather than 'King'). This event crystallises the religious and military objectives of the First Crusade and initiates nearly two centuries of Crusader rule in the Levant.",
+      "description": "After a three-week siege, crusader forces under Godfrey of Bouillon capture Jerusalem on July 15, 1099. The city, held by the Fatimid Caliphate, falls after the crusaders breach the walls and engage in fierce urban combat. The conquest is followed by a massacre of the city's Muslim and Jewish inhabitants\u2014estimates range from 10,000 to 70,000 killed, though modern scholarship suggests lower figures. The capture of Jerusalem fulfills the primary objective of the First Crusade and establishes the crusaders as a permanent military and political force in the Levant. Godfrey of Bouillon is proclaimed 'Defender of the Holy Sepulchre,' becoming the first crusader leader of Jerusalem.",
       "key_figures": [
-        "Godfrey of Bouillon (Crusader commander, first ruler of Jerusalem)",
+        "Godfrey of Bouillon (Crusader leader)",
         "Raymond of Toulouse (Crusader leader)",
-        "Tancred of Lecce (Norman knight)",
-        "Saladin (not yet prominent; born c. 1138)"
+        "Bohemond I (Crusader leader)",
+        "Tancred of Lecce (Crusader leader)",
+        "Iftikhar al-Dawla (Fatimid governor of Jerusalem)"
       ],
       "sources": [
         {
-          "name": "Gesta Francorum (Deeds of the Franks), attributed to an anonymous Norman knight, possibly Bohemond's chaplain",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Historia Belli Sacri by Fulcher of Chartres, eyewitness account",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Alexiad by Anna Komnena (written c. 1148), Byzantine perspective",
+          "name": "Fulcher of Chartres, Historia Hierosolymitana (History of the Journey to Jerusalem)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Al-Athir's Complete History (Kamil fi-l-Ta'rikh), Islamic chronicle compiled 13th century",
-          "type": "later_compilation",
+          "name": "Albert of Aachen, Historia Ierosolimitana",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Raymond of Aguilers, Historia Francorum",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Anna Komnena, Alexiad",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The date of 15 July 1099 is well-established in multiple contemporary Western sources. The massacre is attested in Crusader chronicles, though Islamic sources provide different casualty estimates. The political establishment of the Kingdom of Jerusalem is documented in charter evidence.",
+      "certainty_note": "The capture of Jerusalem is one of the most thoroughly documented events of the medieval period, attested in crusader, Byzantine, and Islamic sources. The date of July 15, 1099 is consistently reported.",
       "cross_references": [
-        "1096-001 (First Crusade launched)",
-        "1187-001 (Saladin recaptures Jerusalem)"
+        "1096-001 (First Crusade begins)",
+        "1100-001 (Baldwin I crowned king)"
       ]
     },
     {
       "id": "1099-002",
-      "title": "Establishment of the Kingdom of Jerusalem",
-      "region": "Levant",
-      "coordinates_approx": "31.7683, 35.2137",
+      "title": "Crusaders Establish the County of Edessa",
+      "region": "Upper Mesopotamia (Edessa, modern Turkey)",
+      "coordinates_approx": "37.16, 39.19",
       "category": "political",
-      "description": "Following the conquest of Jerusalem, Crusader leaders establish a feudal kingdom with Godfrey of Bouillon as its secular head. The kingdom encompasses Jerusalem, Jaffa, Ramla, and surrounding territories. A Latin Patriarchate is established to govern the Church in the conquered lands, replacing the Greek Orthodox hierarchy. The kingdom adopts a feudal structure modelled on Western European practice, with fiefs granted to Crusader nobles. This political entity will persist until 1187, when Saladin recaptures Jerusalem.",
+      "description": "Baldwin of Boulogne (later Baldwin I of Jerusalem) establishes the County of Edessa in Upper Mesopotamia, making it the first of the Crusader States to be formally organized as a feudal territory. Edessa, an ancient Christian city with a significant Armenian population, becomes a crucial stronghold for crusader control of northern Syria and Mesopotamia. The county serves as a buffer between the crusader-held Levant and the Islamic interior. Edessa would remain under crusader control until 1144, when it fell to the Zengid dynasty.",
       "key_figures": [
-        "Godfrey of Bouillon (first ruler)",
-        "Arnulf of Chocques (first Latin Patriarch of Jerusalem)"
+        "Baldwin of Boulogne (Count of Edessa, later King of Jerusalem)",
+        "Thoros II (Armenian ruler, ally of Baldwin)"
       ],
       "sources": [
         {
-          "name": "Gesta Francorum",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Fulcher of Chartres, Historia Hierosolymitana",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Fulcher of Chartres, Historia",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Albert of Aachen, Historia Ierosolimitana",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Charters and grants recorded in crusader archives",
-          "type": "epigraphic",
-          "contemporary": true
+          "name": "Matthew of Edessa, Armenian Chronicle",
+          "type": "chronicle",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The establishment of the kingdom and its feudal structure are documented in contemporary charters and chronicles. The appointment of the Latin Patriarch is recorded in ecclesiastical sources.",
+      "certainty_note": "The establishment of the County of Edessa is well-documented in crusader and Armenian sources. The date of 1099 is consistent across sources.",
       "cross_references": [
-        "1099-001 (Capture of Jerusalem)",
-        "1100-001 (Godfrey's death and succession)"
+        "1144-001 (Edessa falls to Zengids)",
+        "1100-001 (Baldwin I becomes king)"
       ]
     },
     {
       "id": "1099-003",
-      "title": "Bohemond I establishes the Principality of Antioch",
-      "region": "Northern Levant (modern Turkey/Syria)",
-      "coordinates_approx": "36.1627, 36.1567",
+      "title": "Crusaders Establish the Principality of Antioch",
+      "region": "Levant (Antioch, modern Turkey/Syria border)",
+      "coordinates_approx": "36.2, 36.2",
       "category": "political",
-      "description": "Bohemond of Taranto, a Norman adventurer and one of the principal Crusade commanders, consolidates control of Antioch (captured in June 1098) and establishes it as an independent Crusader principality. Bohemond claims the city as his personal conquest and resists pressure from other Crusade leaders and the Byzantine Emperor to cede it. The Principality of Antioch becomes the northernmost and longest-lasting of the Crusader states, surviving until 1268. Bohemond's assertion of independence from Byzantine overlordship marks a significant breach with Alexios I Komnenos.",
+      "description": "Bohemond I, a Norman adventurer and one of the principal crusader leaders, establishes the Principality of Antioch after capturing the city in October 1098. By 1099, Bohemond has consolidated his control and established a feudal principality. Antioch, one of the great cities of the ancient world and a major center of early Christianity, becomes the second major Crusader State. The principality encompasses much of northern Syria and parts of Cilicia. Bohemond rules as prince, creating a feudal hierarchy and establishing Latin Christian governance over a predominantly Greek Orthodox and Muslim population.",
       "key_figures": [
-        "Bohemond I of Taranto (founder of the Principality)",
-        "Alexios I Komnenos (Byzantine Emperor, claims overlordship)"
+        "Bohemond I of Taranto (Prince of Antioch)",
+        "Tancred of Lecce (Bohemond's nephew, military commander)"
       ],
       "sources": [
         {
-          "name": "Gesta Francorum",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Fulcher of Chartres, Historia Hierosolymitana",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Fulcher of Chartres, Historia",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Albert of Aachen, Historia Ierosolimitana",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Alexiad by Anna Komnena",
+          "name": "Anna Komnena, Alexiad",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Bohemond's control of Antioch and his establishment of the principality are well-documented in Crusader sources. The date of formal establishment is less precisely fixed than the capture of Jerusalem, but 1099 is the conventional date for the consolidation of his rule.",
+      "certainty_note": "Bohemond's establishment of the Principality of Antioch is well-documented in crusader and Byzantine sources. The consolidation occurred in 1098\u20131099.",
       "cross_references": [
-        "1098-002 (Capture of Antioch)",
-        "1268-001 (Fall of Antioch to Mamluks)"
+        "1098-001 (Antioch captured)",
+        "1268-001 (Antioch falls to Mamluks)"
       ]
     },
     {
       "id": "1099-004",
-      "title": "Completion of the First Crusade",
-      "region": "Eastern Mediterranean and Levant",
-      "coordinates_approx": null,
-      "category": "military",
-      "description": "The First Crusade, launched in 1096 by Pope Urban II, effectively concludes with the establishment of Crusader control over the Levantine coast and interior. The campaign has involved multiple armies from Western Europe, a journey of over 2,000 miles overland and by sea, and the conquest of major cities including Nicaea, Antioch, and Jerusalem. Surviving Crusaders either settle in the newly conquered territories or return to Europe. The Crusade has cost tens of thousands of lives and fundamentally altered the geopolitical balance in the Eastern Mediterranean, initiating a period of sustained Western military and colonial presence in the Islamic world.",
+      "title": "Crusaders Establish the County of Tripoli",
+      "region": "Levant (Tripoli, modern Lebanon)",
+      "coordinates_approx": "34.43, 35.84",
+      "category": "political",
+      "description": "Raymond of Toulouse, one of the principal crusader leaders, begins the establishment of the County of Tripoli in Lebanon. The county is formally established after the siege and capture of Tripoli in 1109, but Raymond's campaign to secure the territory begins in 1099. Tripoli becomes the fourth major Crusader State, controlling the coastal regions of Lebanon and parts of inland Syria. The county serves as a crucial link between the Principality of Antioch to the north and the Kingdom of Jerusalem to the south.",
       "key_figures": [
-        "Pope Urban II (initiator)",
-        "Godfrey of Bouillon",
-        "Bohemond I",
-        "Raymond of Toulouse",
-        "Robert of Normandy"
+        "Raymond of Toulouse (Crusader leader, founder of County of Tripoli)",
+        "Raymond II (Son of Raymond of Toulouse)"
       ],
       "sources": [
         {
-          "name": "Gesta Francorum",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Fulcher of Chartres, Historia Hierosolymitana",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Fulcher of Chartres, Historia",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Albert of Aachen, Historia Ierosolimitana",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Robert the Monk, Historia Iherosolymitana",
+          "name": "William of Tyre, Historia",
           "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The completion of the First Crusade is well-documented in multiple contemporary and near-contemporary sources. The date of 1099 marks the achievement of the primary objective (conquest of Jerusalem), though some Crusaders continued military operations into 1100.",
+      "certainty": "probable",
+      "certainty_note": "Raymond of Toulouse's campaign to establish the County of Tripoli began in 1099, but the formal establishment of the county occurred in 1109. The process is documented in crusader chronicles, though the exact chronology of individual campaigns is sometimes unclear.",
       "cross_references": [
-        "1096-001 (First Crusade launched)",
-        "1099-001 (Capture of Jerusalem)"
+        "1109-001 (Tripoli formally established)",
+        "1187-001 (Saladin captures Jerusalem)"
       ]
     },
     {
       "id": "1099-005",
-      "title": "Song Dynasty consolidates control in southern China",
-      "region": "China",
-      "coordinates_approx": "34.3416, 108.9398",
-      "category": "political",
-      "description": "The Song Dynasty, ruling southern China from Kaifeng, continues its administrative consolidation and cultural flourishing during the reign of Emperor Zhezong (r. 1085\u20131100). The Song maintains a sophisticated bureaucracy based on Confucian examination, a thriving commercial economy, and significant technological innovation (printing, gunpowder, naval technology). However, the dynasty faces persistent military pressure from the Liao Dynasty in the north and the Western Xia in the northwest. The Song's wealth and cultural achievements make it one of the most advanced civilisations of the era, but its military weakness relative to its neighbours remains a chronic strategic problem.",
+      "title": "Alexios I Komnenos Consolidates Byzantine Recovery in Anatolia",
+      "region": "Byzantine Empire (Anatolia)",
+      "coordinates_approx": "39.0, 35.0",
+      "category": "military",
+      "description": "Byzantine Emperor Alexios I Komnenos, having called for crusader assistance against the Seljuk Turks, now consolidates Byzantine territorial recovery in Anatolia following the crusader victories. The crusaders' success against the Seljuks has temporarily weakened Turkish dominance and allowed the Byzantines to recover some lost territories. Alexios carefully manages relations with the crusaders, seeking to maintain Byzantine influence while preventing them from becoming too powerful. This period marks the height of Alexios's military success, though tensions between Byzantine and crusader interests would soon emerge.",
       "key_figures": [
-        "Emperor Zhezong of Song (r. 1085\u20131100)",
-        "Sima Guang (recently deceased statesman and historian, d. 1086)"
+        "Alexios I Komnenos (Byzantine Emperor)",
+        "Godfrey of Bouillon (Crusader leader)"
       ],
       "sources": [
         {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government) by Sima Guang, compiled 1084",
+          "name": "Anna Komnena, Alexiad",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Song Shi (History of the Song Dynasty), compiled 14th century",
-          "type": "later_compilation",
+          "name": "Fulcher of Chartres, Historia Hierosolymitana",
+          "type": "chronicle",
           "contemporary": false
-        },
-        {
-          "name": "Archaeological evidence from Song-era sites",
-          "type": "archaeological",
-          "contemporary": true
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The political and administrative status of the Song Dynasty in 1099 is well-documented in Chinese historical records. The reign of Zhezong is clearly dated and his policies are recorded in official histories.",
+      "certainty": "probable",
+      "certainty_note": "Byzantine recovery in Anatolia is documented in the Alexiad and crusader chronicles. The specific territorial gains of 1099 are less precisely dated than major military campaigns.",
       "cross_references": [
-        "1127-001 (Jin Dynasty conquest of northern Song)"
+        "1096-001 (First Crusade begins)",
+        "1071-001 (Battle of Manzikert, Byzantine defeat)"
       ]
     },
     {
       "id": "1099-006",
-      "title": "Liao Dynasty maintains control of northern China and Manchuria",
-      "region": "Northern China and Manchuria",
-      "coordinates_approx": "41.8045, 123.4328",
-      "category": "political",
-      "description": "The Liao Dynasty, ruled by the Khitan people, continues to control the northern territories of China and Manchuria under Emperor Shengzong (r. 1031\u20131055, but his widow Empress Xiao continues as regent until 1075; his successor Xingzong rules 1055\u20131101). The Liao maintains a dual administrative system combining Khitan and Chinese institutions. The dynasty is militarily strong and economically prosperous, controlling key trade routes and maintaining a powerful cavalry force. The Liao\u2013Song border is relatively stable in 1099, though periodic conflicts occur. The Liao will eventually be conquered by the Jurchen Jin Dynasty in 1125.",
+      "title": "Islamic World Reacts to Loss of Jerusalem",
+      "region": "Islamic World (Egypt, Syria, Iraq, Persia)",
+      "coordinates_approx": "30.0, 40.0",
+      "category": "religious",
+      "description": "The Islamic world reacts with shock and outrage to the crusader capture of Jerusalem and the massacre of its inhabitants. The Fatimid Caliphate of Egypt, which had held Jerusalem, faces criticism for failing to defend the holy city. Islamic scholars and theologians begin to articulate a response to the crusader invasion, which would eventually lead to the concept of jihad (holy war) as a unifying force against the crusaders. The loss of Jerusalem becomes a rallying cry for Islamic resistance and contributes to the eventual rise of Saladin and the Ayyubid dynasty in the 12th century.",
       "key_figures": [
-        "Emperor Xingzong of Liao (r. 1055\u20131101)"
+        "Al-Afdal Shahanshah (Fatimid vizier)",
+        "Islamic scholars and theologians"
       ],
       "sources": [
         {
-          "name": "Liao Shi (History of the Liao Dynasty), compiled 14th century",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Song Shi (History of the Song Dynasty)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Archaeological evidence from Liao-era sites",
-          "type": "archaeological",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The political status and reign dates of the Liao Dynasty are well-established in Chinese historical records, though some details of internal administration are less clearly documented.",
-      "cross_references": [
-        "1125-001 (Jin Dynasty conquest of Liao)"
-      ]
-    },
-    {
-      "id": "1099-007",
-      "title": "Western Xia kingdom flourishes in northwest China",
-      "region": "Northwest China (modern Ningxia, Gansu, Shaanxi)",
-      "coordinates_approx": "38.4680, 106.2586",
-      "category": "political",
-      "description": "The Western Xia (Xi Xia) kingdom, founded by the Tangut people in 1038, continues to flourish as a major regional power in northwest China. Under the rule of Emperor Jingzong (r. 1086\u20131139), Western Xia controls the Silk Road trade routes and maintains a sophisticated state apparatus combining Tangut, Chinese, and Tibetan influences. The kingdom develops its own writing system (Tangut script) and maintains a powerful military. Western Xia is caught between the Song Dynasty to the south and the Liao Dynasty to the north, playing them against each other to maintain independence. The kingdom will eventually be conquered by the Mongols in 1227.",
-      "key_figures": [
-        "Emperor Jingzong of Western Xia (r. 1086\u20131139)"
-      ],
-      "sources": [
-        {
-          "name": "Song Shi (History of the Song Dynasty)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Liao Shi (History of the Liao Dynasty)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Archaeological evidence from Western Xia sites, including Tangut script inscriptions",
-          "type": "archaeological",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The existence and political status of Western Xia in 1099 are well-documented in Chinese historical records and confirmed by archaeological evidence, including Tangut-script inscriptions.",
-      "cross_references": [
-        "1227-001 (Mongol conquest of Western Xia)"
-      ]
-    },
-    {
-      "id": "1099-008",
-      "title": "Islamic world fragmented under Seljuk and regional sultanates",
-      "region": "Middle East and Central Asia",
-      "coordinates_approx": null,
-      "category": "political",
-      "description": "The Great Seljuk Empire, which had dominated the Islamic world in the 11th century, is fragmenting into regional sultanates and atabegs (military governors). The Seljuk Sultanate of Rum controls Anatolia; the Syrian Seljuks control parts of Syria and northern Mesopotamia; the Isfahan Seljuks control the Iranian plateau; and various atabegs control cities and regions with nominal Seljuk overlordship. This fragmentation weakens the Islamic world's ability to respond cohesively to the Crusader invasion. The Fatimid Caliphate, based in Egypt, maintains control of Egypt and parts of the Levantine coast but is in decline. The Abbasid Caliphate in Baghdad retains symbolic religious authority but minimal political power. This political fragmentation is a major factor enabling the Crusaders' initial success.",
-      "key_figures": [
-        "Malik Shah I (Great Seljuk Sultan, d. 1092)",
-        "Barkiyaruq (Seljuk Sultan, r. 1094\u20131105)",
-        "Al-Mustali (Fatimid Caliph, r. 1094\u20131101)",
-        "Al-Qadir (Abbasid Caliph, r. 1075\u20131094)"
-      ],
-      "sources": [
-        {
-          "name": "Al-Athir's Complete History (Kamil fi-l-Ta'rikh)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Ibn al-Qalanisi, History of Damascus",
+          "name": "Ibn al-Athir, Complete History",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus from modern Islamic history scholarship",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The fragmentation of the Seljuk Empire and the political status of regional sultanates in 1099 are well-documented in Islamic historical sources and confirmed by modern scholarship.",
-      "cross_references": [
-        "1099-001 (Crusader capture of Jerusalem)",
-        "1187-001 (Saladin's unification and recapture of Jerusalem)"
-      ]
-    },
-    {
-      "id": "1099-009",
-      "title": "Norman conquest of southern Italy and Sicily consolidates",
-      "region": "Southern Italy and Sicily",
-      "coordinates_approx": "37.5891, 14.0154",
-      "category": "political",
-      "description": "The Norman conquest of southern Italy and Sicily, begun in the 1030s, is largely complete by 1099. The Normans have established the County of Sicily under Roger I (d. 1101) and control much of southern Italy. The Norman rulers have adopted elements of Byzantine and Islamic administration and culture, creating a unique multicultural kingdom. The Normans' military success in the Mediterranean\u2014including their role in the First Crusade\u2014demonstrates their emergence as a major European power. This Norman kingdom will eventually become the Kingdom of Sicily under Roger II (crowned 1130), one of the most powerful and culturally sophisticated states of the 12th century.",
-      "key_figures": [
-        "Roger I, Count of Sicily (r. 1072\u20131101)",
-        "Robert Guiscard (d. 1085, earlier Norman leader)"
-      ],
-      "sources": [
-        {
-          "name": "Gesta Normannorum Ducum (Deeds of the Norman Dukes) by William of Jumi\u00e8ges, updated by later chroniclers",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Liber Pontificalis (Book of the Popes)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Charters and administrative documents from Norman Sicily",
-          "type": "epigraphic",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Norman consolidation of southern Italy and Sicily by 1099 is well-documented in contemporary charters and near-contemporary chronicles.",
-      "cross_references": [
-        "1130-001 (Roger II crowned King of Sicily)"
-      ]
-    },
-    {
-      "id": "1099-010",
-      "title": "Byzantine Empire under Alexios I Komnenos recovers from Seljuk defeats",
-      "region": "Byzantine Empire (Eastern Mediterranean and Balkans)",
-      "coordinates_approx": "41.0082, 28.9784",
-      "category": "political",
-      "description": "The Byzantine Emperor Alexios I Komnenos (r. 1081\u20131118) has initiated a recovery of Byzantine power after the catastrophic defeat at Manzikert (1071) and the loss of most of Anatolia to the Seljuks. Alexios has reorganised the military, stabilised the economy, and recovered some Anatolian territories. His request for Western mercenaries to aid against the Seljuks has inadvertently triggered the First Crusade, which has achieved the conquest of the Levant\u2014but not under Byzantine control. Alexios views the Crusaders with suspicion and seeks to limit their independence and maintain Byzantine overlordship. The relationship between Byzantium and the Crusader states will remain tense throughout the 12th century.",
-      "key_figures": [
-        "Alexios I Komnenos (Byzantine Emperor, r. 1081\u20131118)"
-      ],
-      "sources": [
-        {
-          "name": "Alexiad by Anna Komnena, daughter of Alexios I",
+          "name": "Usama ibn Munqidh, Book of Contemplation",
           "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Byzantine administrative documents and seals",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Historiographic consensus from Byzantine scholarship",
-          "type": "historiographic_consensus",
+          "name": "Various Islamic chronicles and theological texts",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Alexios I's reign and his policies toward the Crusaders are well-documented in the Alexiad and Byzantine administrative sources.",
+      "certainty": "probable",
+      "certainty_note": "The Islamic reaction to the loss of Jerusalem is documented in Islamic chronicles and theological texts, though these were often compiled later. The immediate emotional and political response is clear, but specific statements and reactions are sometimes difficult to date precisely to 1099.",
       "cross_references": [
-        "1096-001 (First Crusade launched)",
-        "1099-001 (Crusader capture of Jerusalem)"
+        "1187-001 (Saladin recaptures Jerusalem)",
+        "1096-001 (First Crusade begins)"
       ]
     }
   ],
-  "disconfirming_evidence": "The scale of the massacre at Jerusalem in 1099 is disputed. Crusader sources (Gesta Francorum, Fulcher of Chartres) report massive casualties, with some later sources claiming 70,000 deaths. However, modern scholarship suggests these figures are likely exaggerated; the actual death toll was probably in the thousands rather than tens of thousands. Islamic sources provide lower casualty estimates and emphasise the survival of many inhabitants. The religious significance attributed to the conquest by Western sources is not matched by contemporary Islamic sources, which treat it as a military defeat among many in a period of Seljuk fragmentation. The 'completion' of the First Crusade is somewhat artificial: fighting continued in the Levant for years after 1099, and the Crusade is sometimes dated to 1101 with the arrival of later contingents. Godfrey of Bouillon's refusal of the title 'King' is sometimes interpreted as religious humility, but may reflect practical political weakness and the contested nature of his authority among other Crusade leaders.",
-  "historiographic_note": "The historical record for 1099 is rich but heavily skewed toward Western Crusader perspectives. The primary sources (Gesta Francorum, Fulcher of Chartres) were written by participants in the Crusade and reflect their religious motivations and biases. Islamic sources for the Crusader conquest of Jerusalem are sparse and often compiled centuries later (e.g., Al-Athir's 13th-century history). Byzantine sources (the Alexiad) provide a different perspective but were written decades after the events and reflect Anna Komnena's particular agenda. The voices of the conquered Muslim and Jewish populations are almost entirely absent from surviving sources. Archaeological evidence from Jerusalem and other Crusader sites provides material context but cannot speak to the experiences of non-combatants. The historiography of the Crusades has been heavily influenced by later religious and nationalist agendas, making it necessary to read sources critically. Chinese sources for the Song, Liao, and Western Xia dynasties are more abundant and less obviously biased, though they reflect court perspectives. The fragmentation of the Islamic world in 1099 is well-documented in Islamic sources but often underemphasised in Western histories focused on the Crusade.",
+  "disconfirming_evidence": "The traditional narrative of the First Crusade as a triumphant religious and military success has been significantly complicated by modern scholarship. The massacre at Jerusalem, long celebrated in crusader chronicles, is now recognized as a war crime by modern standards, and the scale of the killing has been debated\u2014some modern historians argue that the numbers reported in crusader chronicles (70,000 or more) are exaggerated, while others defend them. Additionally, the characterization of the crusade as a purely religious endeavor obscures the significant economic, political, and personal motivations of the crusaders. The role of Byzantine diplomacy and manipulation in directing crusader movements is now recognized as more central than earlier Western-centric accounts suggested. Furthermore, the crusaders' treatment of local Christian populations (Greek Orthodox, Armenian, Coptic) was often hostile, contradicting the narrative of Christian unity. The 'success' of the crusade is also questioned by some scholars who emphasize the fragility of crusader control and the limited territorial gains relative to the enormous effort expended.",
+  "historiographic_note": "Documentation for 1099 is exceptionally rich for a medieval year, but heavily weighted toward Western European and Byzantine sources. Crusader chronicles (Fulcher of Chartres, Albert of Aachen, Raymond of Aguilers) dominate the narrative, creating a Western-centric bias. Islamic sources (Ibn al-Athir, Usama ibn Munqidh) provide important counternarratives but are often compiled later. The historical record privileges military and political events over social, economic, or cultural developments. The perspective is heavily focused on the Mediterranean and Near East; developments in Asia, Africa, and the Americas are entirely absent from contemporary documentation in the Western tradition. The massacre at Jerusalem is described in detail in crusader sources but often minimized or justified in Western historiography until recent decades.",
   "graph_edges": [
     {
       "from": "1099-001",
-      "to": "1096-001",
+      "to": "1100-001",
       "relation": "led_to",
-      "note": "The capture of Jerusalem was the primary objective of the First Crusade, launched in 1096."
+      "note": "The capture of Jerusalem in 1099 directly led to Baldwin I's establishment of the Kingdom of Jerusalem in 1100."
     },
     {
       "from": "1099-001",
       "to": "1187-001",
       "relation": "led_to",
-      "note": "The Crusader conquest of Jerusalem in 1099 initiated nearly a century of Crusader rule, ending with Saladin's recapture in 1187."
+      "note": "The crusader capture of Jerusalem in 1099 set the stage for Saladin's recapture in 1187."
     },
     {
       "from": "1099-002",
-      "to": "1099-001",
-      "relation": "part_of",
-      "note": "The establishment of the Kingdom of Jerusalem was a direct consequence of the conquest of the city."
+      "to": "1144-001",
+      "relation": "led_to",
+      "note": "The establishment of the County of Edessa in 1099 led to its fall to the Zengids in 1144."
     },
     {
       "from": "1099-003",
-      "to": "1098-002",
+      "to": "1268-001",
       "relation": "led_to",
-      "note": "Bohemond's establishment of the Principality of Antioch followed the capture of the city in 1098."
+      "note": "The establishment of the Principality of Antioch in 1099 led to its fall to the Mamluks in 1268."
     },
     {
-      "from": "1099-004",
-      "to": "1096-001",
+      "from": "1099-006",
+      "to": "1187-001",
       "relation": "led_to",
-      "note": "The completion of the First Crusade fulfilled the objectives set by Pope Urban II in 1096."
-    },
-    {
-      "from": "1099-008",
-      "to": "1099-001",
-      "relation": "caused_by",
-      "note": "The fragmentation of the Islamic world enabled the Crusaders' military success in 1099."
-    },
-    {
-      "from": "1099-010",
-      "to": "1096-001",
-      "relation": "caused_by",
-      "note": "Alexios I's request for Western military aid inadvertently triggered the First Crusade."
+      "note": "The Islamic reaction to the loss of Jerusalem in 1099 contributed to the eventual rise of Saladin and the recapture of Jerusalem in 1187."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:14:10.894856",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

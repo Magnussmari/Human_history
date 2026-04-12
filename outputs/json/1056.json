@@ -1,190 +1,156 @@
 {
   "year": 1056,
   "year_label": "1056 CE",
-  "era_context": "The mid-11th century was a period of significant transition and competition across Eurasia. In Western Europe, feudalism was consolidating, the Cluniac reform movement was gaining momentum, and the succession to the English throne was becoming uncertain. The Byzantine Empire under Constantine IX was at the height of its cultural influence but facing military challenges from the Seljuk Turks. The Islamic world was fragmenting under Seljuk pressure. In East Asia, the Northern Song Dynasty was at its height, while Japan's Heian period was in decline. This was an era of religious reform, military competition, and cultural flourishing.",
+  "era_context": "The mid-11th century witnessed the fragmentation of the Seljuk Empire across Anatolia and the Levant, the height of the Capetian dynasty in France under Henry I, the Norman consolidation of southern Italy, and the early phase of the Investiture Controversy between the papacy and the Holy Roman Empire. In East Asia, the Northern Song dynasty was in its mature phase, while the Liao dynasty dominated Manchuria and parts of northern China. The Byzantine Empire under Constantine IX Monomachos was experiencing internal political instability.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Central Asia and the Steppe",
-    "Northern Europe beyond major kingdoms",
-    "Mesoamerica and South America"
+    "Sub-Saharan Africa (limited written sources; archaeological record underexplored in training data)",
+    "Mesoamerica and North America (sparse contemporary documentation)",
+    "Southeast Asia (limited European and East Asian chronicle coverage)"
   ],
   "events": [
     {
       "id": "1056-001",
-      "title": "Emperor Henry III of the Holy Roman Empire dies; succession of Henry IV",
-      "region": "Holy Roman Empire / Germany",
-      "coordinates_approx": "50.1109, 8.6821",
+      "title": "Death of Henry III, Holy Roman Emperor; accession of Henry IV as a minor",
+      "region": "Holy Roman Empire, Central Europe",
+      "coordinates_approx": "50.5, 10.0",
       "category": "political",
-      "description": "Emperor Henry III, one of the most powerful rulers of the 11th century, died in October 1056. He was succeeded by his young son Henry IV, who was only six years old at the time of his accession. Henry III's death marked a crucial turning point in European history. The regency that followed was marked by instability and the rise of powerful princes and bishops. This succession crisis would have profound consequences for the relationship between the Empire and the Papacy, ultimately leading to the Investiture Controversy that would dominate the latter half of the 11th century.",
+      "description": "Henry III, one of the most powerful Holy Roman Emperors, died on 5 October 1056. His son Henry IV succeeded him at age six, creating a regency crisis that would dominate imperial politics for decades. This power vacuum weakened imperial authority and contributed to the rise of the papacy under Gregory VII, setting the stage for the Investiture Controversy. The minority of Henry IV allowed German princes and the Church to expand their independence.",
       "key_figures": [
-        "Emperor Henry III (deceased)",
-        "Henry IV (child emperor, age 6)",
-        "Agnes of Aquitaine (empress regent)",
+        "Henry III (deceased emperor)",
+        "Henry IV (child heir, age 6)",
         "Anno II, Archbishop of Cologne (regent)"
       ],
       "sources": [
         {
-          "name": "Lampert of Hersfeld, Annales (contemporary German chronicle)",
+          "name": "Lampert of Hersfeld, Annales",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Thietmar of Merseburg, Chronicon (earlier German chronicle, but relevant for context)",
+          "name": "Adam of Bremen, Gesta Hammaburgensis ecclesiae pontificum",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Henry III's death and Henry IV's succession are well-documented in contemporary German sources.",
+      "certainty_note": "Death date of 5 October 1056 is well-attested in contemporary chronicles. Henry IV's age and succession are unambiguous.",
       "cross_references": [
-        "1076-001 (Investiture Controversy)"
+        "1077-001 (Walk to Canossa, consequence of Henry IV's minority and later conflict with Gregory VII)"
       ]
     },
     {
       "id": "1056-002",
-      "title": "Pope Nicholas II elected; beginning of transformative pontificate",
-      "region": "Papal States / Western Europe",
-      "coordinates_approx": "41.9028, 12.4534",
-      "category": "religious",
-      "description": "Pope Nicholas II (Gerhard of Burgundy) was elected in December 1058, but his pontificate effectively began in 1056 with his appointment as cardinal and his emergence as a leading figure in the reform movement. Nicholas II would become one of the most transformative popes of the medieval period, establishing the framework for papal independence and ecclesiastical reform that would define the Investiture Controversy. His election marked a decisive victory for the reform faction within the Church and a shift away from the compromises of earlier popes.",
+      "title": "Anund Jacob of Sweden dies; succession of Stenkil",
+      "region": "Sweden",
+      "coordinates_approx": "60.5, 18.0",
+      "category": "political",
+      "description": "Anund Jacob, King of Sweden, died in 1056 after a reign marked by conflicts with Norway and internal consolidation. He was succeeded by Stenkil, who founded the Stenkil dynasty and is credited with strengthening Swedish royal authority and promoting Christianization. Stenkil's reign marked a transition toward a more centralized Swedish kingdom and closer ties with Western Christendom.",
       "key_figures": [
-        "Pope Nicholas II (Gerhard of Burgundy)",
-        "Cardinal Humbert (reformer)",
-        "Cardinal Peter Damian"
+        "Anund Jacob (deceased king)",
+        "Stenkil (new king)"
       ],
       "sources": [
         {
-          "name": "Liber Pontificalis",
-          "type": "chronicle",
+          "name": "Snorri Sturluson, Heimskringla (later compilation)",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Bonizo of Sutri, Liber ad amicum",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Swedish royal genealogies and chronicles",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Nicholas II's election is dated to December 1058, but his rise to prominence in the reform movement occurred earlier. The dating of 1056 is approximate for his emergence as a leading figure.",
-      "cross_references": [
-        "1059-001 (Papal Election Decree)"
-      ]
+      "certainty_note": "Dating of Anund Jacob's death to 1056 is based on later Scandinavian sources and genealogical reconstruction. Exact year may be \u00b11\u20132 years uncertain.",
+      "cross_references": []
     },
     {
       "id": "1056-003",
-      "title": "King Edward the Confessor of England continues reign; succession uncertain",
-      "region": "England",
-      "coordinates_approx": "51.5074, -0.1278",
+      "title": "Seljuk Turks consolidate control of Baghdad and central Iraq",
+      "region": "Iraq, Mesopotamia",
+      "coordinates_approx": "33.3, 44.4",
       "category": "political",
-      "description": "King Edward the Confessor of England continued his reign in 1056, but his advanced age and lack of direct heir created uncertainty about the succession. Edward (r. 1042\u20131066) was a pious but politically weak king who relied heavily on the powerful Godwin family and other nobles. The question of who would succeed Edward became increasingly pressing as he aged, and various claimants\u2014including Harold Godwinson, William of Normandy, and others\u2014began positioning themselves for the succession. This succession crisis would ultimately lead to the Norman Conquest of England in 1066.",
+      "description": "The Seljuk Turks, under Alp Arslan and the vizier Nizam al-Mulk, continued their rapid expansion into the Islamic heartland. By 1056, Seljuk authority was firmly established over Baghdad and much of central Iraq, effectively reducing the Abbasid Caliph to a figurehead. This marked the definitive end of Abbasid political power and the beginning of Seljuk dominance over the eastern Islamic world. The Seljuks' administrative reforms and military organization transformed the political landscape of the Middle East.",
       "key_figures": [
-        "King Edward the Confessor",
-        "Harold Godwinson (powerful earl)",
-        "William of Normandy (claimant)"
+        "Alp Arslan (Seljuk Sultan)",
+        "Nizam al-Mulk (Seljuk vizier)",
+        "Al-Qa'im (Abbasid Caliph, nominal authority)"
       ],
       "sources": [
         {
-          "name": "Anglo-Saxon Chronicle",
-          "type": "chronicle",
+          "name": "Seljuk-era chronicles and administrative records",
+          "type": "historiographic_consensus",
           "contemporary": true
         },
         {
-          "name": "William of Malmesbury, Gesta Regum Anglorum",
-          "type": "chronicle",
+          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Edward the Confessor's reign and the succession question are well-documented in English sources.",
+      "certainty": "probable",
+      "certainty_note": "Seljuk consolidation of Baghdad occurred over several years; 1056 represents the approximate date of full control, though the process began earlier.",
       "cross_references": [
-        "1066-001 (Norman Conquest of England)"
+        "1071-001 (Battle of Manzikert, further Seljuk expansion)"
       ]
     },
     {
       "id": "1056-004",
-      "title": "Seljuk Turks consolidate control of Baghdad and central Iraq",
-      "region": "Islamic Caliphate / Iraq",
-      "coordinates_approx": "33.3128, 44.3615",
+      "title": "Marrakech founded by the Almoravids",
+      "region": "Morocco, North Africa",
+      "coordinates_approx": "31.6, -8.0",
       "category": "political",
-      "description": "The Seljuk Turkish dynasty, which had entered Mesopotamia in the 1050s, continued to consolidate its control over Baghdad and central Iraq in 1056. The Abbasid Caliph, now a figurehead, remained in Baghdad but real power lay with the Seljuk Sultan and his vizier. This marked the effective end of Abbasid political independence and the beginning of Turkish dominance in the Islamic heartland. The Seljuks were establishing a new Islamic empire that would reshape the political geography of the Middle East.",
+      "description": "The Almoravid dynasty, a Berber Islamic reform movement from the Sahara, founded the city of Marrakech as their capital around 1056. This marked the beginning of Almoravid expansion from the Sahara into Morocco and eventually al-Andalus (Islamic Spain). Marrakech became a major center of Islamic learning and trade, and the Almoravids' military and religious zeal would reshape North African and Iberian politics for the next century.",
       "key_figures": [
-        "Alp Arslan (Seljuk Sultan)",
-        "Nizam al-Mulk (Seljuk vizier)",
-        "Al-Qa'im (Abbasid Caliph, figurehead)"
+        "Yusuf ibn Tashfin (Almoravid leader)",
+        "Abu Bakr ibn Umar (co-founder of Almoravid movement)"
       ],
       "sources": [
         {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh",
-          "type": "chronicle",
+          "name": "Ibn Khaldun, Muqaddimah and Ta'rikh",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Nizam al-Mulk, Siyasatnama",
-          "type": "primary_text",
+          "name": "Archaeological evidence from Marrakech",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Al-Idrisi, Nuzhat al-Mushtaq",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Seljuk consolidation in Iraq occurred gradually over the 1050s; the specific date of 1056 is approximate within \u00b12 years.",
+      "certainty": "approximate",
+      "certainty_note": "Foundation of Marrakech is traditionally dated to 1056, but some sources place it slightly earlier (1050s). Archaeological evidence confirms mid-11th-century urban development.",
       "cross_references": [
-        "1071-001 (Battle of Manzikert)"
+        "1086-001 (Battle of Sagrajas, Almoravid intervention in Spain)"
       ]
-    },
-    {
-      "id": "1056-005",
-      "title": "Northern Song Dynasty continues economic and cultural development",
-      "region": "China",
-      "coordinates_approx": "34.2658, 108.9398",
-      "category": "cultural",
-      "description": "The Northern Song Dynasty continued its period of economic and cultural flourishing in 1056. This was an era of significant technological innovation, including advances in printing, ceramics, and metallurgy. The Song economy was the most advanced in the world, with sophisticated financial systems, extensive domestic and international trade networks, and significant urbanization. However, the Song faced persistent military pressure from the Liao Dynasty in the north and the Western Xia in the northwest.",
-      "key_figures": [
-        "Emperor Shenzong (child emperor, under regency)",
-        "Empress Dowager (regent)"
-      ],
-      "sources": [
-        {
-          "name": "Sima Guang, Zizhi Tongjian",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Song official histories and records",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Song Dynasty records are extensive and well-preserved.",
-      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The characterization of Henry III's death as marking a 'crucial turning point' is somewhat teleological; contemporary observers did not necessarily view it as such. The regency that followed was unstable, but this was not unprecedented in medieval politics. The notion that the Investiture Controversy was 'inevitable' after Henry III's death is an oversimplification; the conflict emerged from specific decisions and circumstances, not from structural inevitability. The succession of Edward the Confessor is sometimes presented as creating an obvious succession crisis, but contemporary sources suggest the situation was more fluid and uncertain than later narratives suggest.",
-  "historiographic_note": "The year 1056 is well-documented in Western sources, particularly German chronicles (Lampert of Hersfeld) and English sources (Anglo-Saxon Chronicle). Byzantine and Islamic sources provide additional perspective. Chinese sources are extensive and detailed. However, there is a significant Western bias in surviving documentation. The historical record privileges political and military elites; economic and social conditions are less visible except in Song sources, which are more comprehensive. Scandinavian sources are sparse.",
+  "disconfirming_evidence": "The traditional dating of Marrakech's foundation to 1056 is sometimes disputed; some scholars argue for a date in the early 1050s based on archaeological stratigraphy. The extent of Seljuk 'control' of Baghdad in 1056 is debated\u2014some sources suggest the process of consolidation continued into the 1060s. Henry III's death date is uncontested, but the significance attributed to his minority in causing the Investiture Controversy is sometimes overstated; structural tensions between papacy and empire were already present.",
+  "historiographic_note": "Documentation for 1056 is moderate overall. Western European sources (chronicles from the Holy Roman Empire, France, and Italy) are relatively rich. Islamic sources are available but often compiled centuries later. Scandinavian sources are sparse and dependent on later genealogical reconstruction. African and Asian sources outside the Islamic world are minimal in surviving records. The bias toward European and Islamic history is pronounced; the histories of sub-Saharan Africa, Southeast Asia, and the Americas are nearly absent from contemporary documentation.",
   "graph_edges": [
     {
       "from": "1056-001",
-      "to": "1076-001",
+      "to": "1077-001",
       "relation": "led_to",
-      "note": "Henry III's death and Henry IV's minority created the conditions for the Investiture Controversy by weakening imperial authority and enabling papal independence."
-    },
-    {
-      "from": "1056-002",
-      "to": "1059-001",
-      "relation": "led_to",
-      "note": "Nicholas II's rise to prominence in the reform movement led to his election as pope and the issuance of the Papal Election Decree."
+      "note": "Henry IV's minority and weak regency contributed to papal assertiveness under Gregory VII, leading to the Investiture Controversy and the Walk to Canossa."
     },
     {
       "from": "1056-003",
-      "to": "1066-001",
+      "to": "1071-001",
       "relation": "led_to",
-      "note": "Edward the Confessor's aging and lack of heir created the succession crisis that led to the Norman Conquest."
+      "note": "Seljuk consolidation of the Islamic heartland set the stage for further expansion into Anatolia and conflict with the Byzantine Empire."
+    },
+    {
+      "from": "1056-004",
+      "to": "1086-001",
+      "relation": "led_to",
+      "note": "Almoravid establishment in Marrakech enabled their subsequent intervention in al-Andalus and the Battle of Sagrajas."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:27:03.872073",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

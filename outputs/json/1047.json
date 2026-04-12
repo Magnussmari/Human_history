@@ -1,132 +1,227 @@
 {
   "year": 1047,
   "year_label": "1047 CE",
-  "era_context": "The mid-11th century CE was a period of significant transformation across Eurasia. The Catholic Church was experiencing internal reform movements that would reshape ecclesiastical authority. The Byzantine Empire was experiencing internal instability and external pressure from Seljuk Turks and Norman adventurers. The Islamic world was fragmented among competing dynasties, with the Seljuk Turks rising to prominence. In East Asia, the Song Dynasty was consolidating its power while facing pressure from the Liao Dynasty in the north. This was a period of significant cultural, religious, and political change across multiple civilizations.",
-  "documentation_level": "sparse",
+  "era_context": "The mid-11th century was a period of religious ferment, military realignment, and economic expansion across Eurasia. The Byzantine Empire under Constantine IX Monomachos was experiencing internal religious tensions and external military pressure from the Seljuk Turks and Norman adventurers. Western Europe was in the pre-Conquest period, with feudalism consolidating and the Church undergoing reform. The Islamic world was fragmented among competing dynasties, with the Seljuk Turks rising to prominence. East Asia saw the prosperous but militarily vulnerable Song Dynasty facing pressure from the Liao Dynasty in the north. Japan was in the Heian period, with the Fujiwara regency at its height.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (very limited written sources)",
-    "Northern Europe beyond major kingdoms",
-    "Central Asia and the Steppe (sparse documentation)",
-    "Mesoamerica and South America (limited written sources for this period)"
+    "Sub-Saharan Africa (limited written sources)",
+    "Pre-Columbian Americas (no written records in most regions)",
+    "Oceania and Southeast Asia (sparse contemporary documentation)",
+    "Central Asia and the Steppe (limited written sources)"
   ],
   "events": [
     {
       "id": "1047-001",
-      "title": "Papal succession and ecclesiastical reform preparations",
-      "region": "Rome, Papal States",
-      "coordinates_approx": "41.90, 12.49",
-      "category": "religious",
-      "description": "In 1047, the papacy was in transition following the death of Pope Damasus II in 1048 (or possibly 1047, depending on the source). The period saw preparations for the election of Pope Leo IX, who would become one of the most significant reforming popes of the medieval period. The exact chronology of papal succession in this period is somewhat uncertain, with different sources giving slightly different dates. What is clear is that the papacy was moving toward a more active reform agenda in the late 1040s, setting the stage for the major reform councils and synods of the 1050s.",
+      "title": "Constantine IX Monomachos rules Byzantine Empire; reign established",
+      "region": "Byzantine Empire, Constantinople",
+      "coordinates_approx": "41.0, 28.9",
+      "category": "political",
+      "description": "In 1047, Constantine IX Monomachos (r. 1042\u20131055) had been ruling the Byzantine Empire for five years. His reign was marked by cultural patronage and the promotion of learning, but also by military vulnerabilities and religious tensions. Constantine was attempting to manage threats from the Seljuk Turks in Anatolia and Norman adventurers in southern Italy, but the Byzantine military was increasingly stretched thin. The religious tensions between the Byzantine Church and the Roman Church were intensifying, setting the stage for the Great Schism of 1054.",
       "key_figures": [
-        "Pope Damasus II (died 1048 or 1047)",
-        "Bruno of Egisheim (future Pope Leo IX)"
+        "Constantine IX Monomachos (Byzantine Emperor, r. 1042\u20131055)",
+        "Patriarch Michael Cerularius (Constantinople)"
       ],
       "sources": [
         {
-          "name": "Liber Pontificalis (Lives of the Popes)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Michael Psellus, Chronographia (contemporary chronicle)",
+          "type": "chronicle",
+          "contemporary": true
         },
         {
-          "name": "Papal documents and chronicles",
-          "type": "primary_text",
+          "name": "John Skylitzes, Synopsis Historiarum (later compilation)",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The exact date of Pope Damasus II's death and the succession of Leo IX is uncertain, with sources giving dates ranging from 1047 to 1049. The year 1047 is assigned by convention, but the chronology is disputed.",
+      "certainty": "confirmed",
+      "certainty_note": "Constantine IX's reign is well-documented in Byzantine sources, particularly in Psellus's contemporary account.",
       "cross_references": [
-        "Leads to Leo IX's election and reform initiatives (1048-001)",
-        "Part of broader Church reform movement (1040s\u20131120s)"
+        "Related to 1048-001 (Constantine IX's reign)",
+        "Leads to 1050-002 (Constantine IX's cultural patronage)"
       ]
     },
     {
       "id": "1047-002",
-      "title": "Seljuk Turkish expansion in the Levant and Anatolia",
-      "region": "Levant and Anatolia, Eastern Mediterranean",
-      "coordinates_approx": "37.0, 35.0",
-      "category": "military",
-      "description": "In 1047, Seljuk Turkish forces continued their expansion in the Levant and Anatolia, gradually establishing control over territories previously held by the Byzantine Empire and local Arab dynasties. The Seljuks, under the leadership of Tugrul Beg and his successors, were consolidating their power in the region and establishing the foundations of the Seljuk Empire that would dominate the eastern Mediterranean and Anatolia for the next two centuries. This expansion was part of the broader process of Turkification of Anatolia and the Levant that would fundamentally alter the region's demographics and political structure.",
+      "title": "Seljuk Turks consolidate power in Persia; military expansion continues",
+      "region": "Persia, Mesopotamia, Seljuk Empire",
+      "coordinates_approx": "35.0, 45.0",
+      "category": "political",
+      "description": "By 1047, the Seljuk Turkish dynasty had consolidated control over much of Persia and was continuing to expand westward. The Seljuks, who had migrated from Central Asia in the 10th century, were now the dominant military and political force in the Islamic world. The Seljuk expansion was driven by both military conquest and the gradual migration of Turkish tribes into settled regions. This expansion would have profound consequences for the Byzantine Empire, the Fatimid Caliphate, and eventually for the Crusades.",
       "key_figures": [
-        "Tugrul Beg (Seljuk Sultan)",
-        "Alp Arslan (Seljuk military leader, though he came to full power in 1063)"
+        "Alp Arslan (Seljuk Sultan, r. 1063\u20131072, but context relevant to 1047)",
+        "Seljuk military leaders and administrators"
       ],
       "sources": [
         {
-          "name": "Byzantine chronicles including Attaliates and Psellus",
+          "name": "Islamic chronicles (Ibn al-Athir, Al-Kamil fi al-Ta'rikh)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Islamic sources including later compilations",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Seljuk court records and inscriptions",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The general pattern of Seljuk expansion in this period is well-established, but specific events in 1047 are not individually documented in surviving sources. The date is assigned by historiographic convention.",
+      "certainty_note": "Seljuk consolidation in the mid-11th century is well-documented. Specific events and dates for 1047 are less certain.",
       "cross_references": [
-        "Part of broader Seljuk expansion (1040s\u20131090s)",
-        "Leads to Battle of Manzikert (1071-001)"
+        "Leads to 1048-002 (Seljuk consolidation)",
+        "Leads to 1071-001 (Battle of Manzikert)"
       ]
     },
     {
       "id": "1047-003",
-      "title": "Norman military activities in southern Italy",
-      "region": "Southern Italy, Calabria, Apulia",
-      "coordinates_approx": "40.5, 16.5",
+      "title": "Norman adventurers establish military presence in southern Italy",
+      "region": "Southern Italy, Apulia, Calabria",
+      "coordinates_approx": "40.5, 16.0",
       "category": "military",
-      "description": "In 1047, Norman military forces under Robert Guiscard and his kinsmen continued their campaigns in southern Italy, gradually consolidating their control over Calabria and Apulia. The Normans were employing advanced military tactics, including heavy cavalry charges, that gave them significant advantages over the Byzantine and Lombard forces they faced. The year 1047 represents a point in the ongoing process of Norman expansion that would eventually lead to the establishment of the Norman Kingdom of Sicily in the 1090s. The Normans' success was facilitated by the weakness of Byzantine military forces in the region and the fragmentation of local political authority.",
+      "description": "By 1047, Norman adventurers from Normandy had established themselves as a significant military force in southern Italy. These mercenaries and landless knights had come to Italy seeking fortune and land, and by 1047, they were becoming a permanent political force. The Normans were gradually displacing Byzantine and Lombard authority in the region. This period marks the beginning of the Norman conquest of southern Italy, which would be completed by the 1070s.",
       "key_figures": [
-        "Robert Guiscard (Norman military leader)",
-        "Roger I of Sicily (Robert's younger brother)"
+        "Robert Guiscard (Norman adventurer, later Duke of Apulia)",
+        "Roger I (Norman, later Count of Sicily)",
+        "William Iron Arm (Norman leader)"
       ],
       "sources": [
         {
-          "name": "Gesta Roberti Wiscardi by William of Apulia (written c. 1099, based on earlier traditions)",
-          "type": "later_compilation",
+          "name": "William of Apulia, Gesta Roberti Wiscardi (12th-century chronicle)",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Byzantine sources including Attaliates",
+          "name": "Byzantine sources (Psellus, Skylitzes)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Amatus of Montecassino, Historia Normannorum",
           "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The general trajectory of Norman expansion is well-documented, but specific events in 1047 are not individually detailed in surviving sources. The date represents the ongoing consolidation process.",
+      "certainty": "probable",
+      "certainty_note": "The broad outlines of Norman expansion are well-documented. Specific dates and details for 1047 are less certain; sources often compress or rearrange events.",
       "cross_references": [
-        "Part of broader Norman expansion (1030s\u20131100s)",
-        "Leads to Norman invasion of Sicily (1060s\u20131090s)"
+        "Leads to 1048-003 (Norman establishment in southern Italy)",
+        "Leads to 1060-001 (Norman invasion of Sicily)"
+      ]
+    },
+    {
+      "id": "1047-004",
+      "title": "Song Dynasty faces continued military pressure from Liao Dynasty",
+      "region": "China, Song-Liao frontier",
+      "coordinates_approx": "40.0, 116.0",
+      "category": "military",
+      "description": "In 1047, the Song Dynasty continued to face military pressure from the Liao Dynasty (Khitan) in the north. The Song had been paying tribute to the Liao for decades under the terms of the Treaty of Chanyuan (1005). The military imbalance\u2014the Song's reliance on mercenary forces and defensive strategies versus the Liao's cavalry superiority\u2014defined the geopolitical landscape of northern China. This tension would persist until the Jurchen Jin Dynasty displaced the Liao in the early 12th century.",
+      "key_figures": [
+        "Emperor Shenzong of Song (r. 1067\u20131085, but context relevant to 1047)",
+        "Liao rulers (Khitan dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Song official records and memorials",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese dynastic histories (Songshi)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Song-Liao military dynamic is well-documented in Chinese historical sources.",
+      "cross_references": [
+        "Related to 1005-001 (Treaty of Chanyuan)",
+        "Related to 1048-004 (Song military pressure)"
+      ]
+    },
+    {
+      "id": "1047-005",
+      "title": "Fujiwara regency dominates Japanese court; cultural flourishing",
+      "region": "Japan, Heian period",
+      "coordinates_approx": "35.0, 135.5",
+      "category": "cultural",
+      "description": "In 1047, Japan was in the height of the Heian period, with the Fujiwara family exercising near-absolute power over the imperial court through the regency system (sekkan). This was an era of extraordinary cultural achievement: the development of kana script, the composition of the Tale of Genji (early 11th century), and the flourishing of Buddhist art and architecture. However, the Fujiwara's political dominance was beginning to show signs of strain, as regional warrior clans (samurai) were accumulating power in the provinces.",
+      "key_figures": [
+        "Emperor Go-Reizei (r. 1045\u20131068)",
+        "Fujiwara no Yorimichi (regent, d. 1074)"
+      ],
+      "sources": [
+        {
+          "name": "Eiga Monogatari (Tale of Splendor), 12th-century chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Japanese court records and diaries (Nikki)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Fujiwara regency and cultural achievements are well-documented in Japanese sources.",
+      "cross_references": [
+        "Related to 1048-005 (Fujiwara regency)",
+        "Leads to 1051-005 (Heian cultural flourishing)"
+      ]
+    },
+    {
+      "id": "1047-006",
+      "title": "Fatimid Caliphate under al-Mustansir; economic and military challenges",
+      "region": "Egypt, Levant, Fatimid Caliphate",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "In 1047, the Fatimid Caliphate under al-Mustansir (r. 1036\u20131094) was experiencing economic strain and military challenges. The caliph had come to power as a child and was heavily dependent on his viziers and military commanders. By 1047, the Fatimid state was facing financial difficulties, military challenges from the Seljuks in the north, and internal factional conflicts. The period from 1047 onward would see increasing Fatimid weakness.",
+      "key_figures": [
+        "Al-Mustansir (Fatimid Caliph, r. 1036\u20131094)",
+        "Viziers and military commanders"
+      ],
+      "sources": [
+        {
+          "name": "Al-Maqrizi, Itti'az al-Hunafa (later compilation of Fatimid history)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Fatimid administrative documents and papyri",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Fatimid decline in the mid-11th century is well-established. Specific events and dates for 1047 are less certain.",
+      "cross_references": [
+        "Related to 1048-006 (Fatimid challenges)",
+        "Leads to 1071-002 (Seljuk conquest of Jerusalem)"
       ]
     }
   ],
-  "disconfirming_evidence": "The chronology of papal succession in the late 1040s is uncertain, with different sources giving conflicting dates for the deaths and elections of popes. Some sources place Pope Damasus II's death in 1047, while others place it in 1048 or 1049. This uncertainty undermines the precision of dating specific papal events to 1047. Additionally, the narrative of inevitable Norman triumph in southern Italy obscures the contingency of their success and the significant resistance they faced from Byzantine and local forces.",
-  "historiographic_note": "The historical record for 1047 is sparse and uncertain. Western European ecclesiastical history is documented through papal records and chronicles, but with some chronological uncertainty regarding papal succession. Byzantine history is documented through court chronicles, though with some bias toward Constantinople's perspective. Islamic history in this period is less densely documented in surviving sources, particularly for specific events in individual years. East Asian history is well-documented in Chinese sources but often underrepresented in Western historiography. The surviving sources tend to emphasize elite political and military events; economic, social, and cultural developments are less visible. There is a significant Western and Mediterranean bias in the sources that have survived and been translated into modern languages.",
+  "disconfirming_evidence": "Constantine IX's reign is sometimes portrayed as a period of Byzantine cultural achievement without acknowledging the serious military and political challenges he faced. The Norman expansion in southern Italy in 1047 is sometimes overstated; the Normans were still consolidating power and faced significant opposition. The Seljuk consolidation in Persia in 1047 was not yet complete; internal divisions persisted. The Fatimid Caliphate's weakness in 1047 is part of a longer process of decline that began in the 10th century; 1047 is not necessarily a critical turning point.",
+  "historiographic_note": "The historical record for 1047 is moderately rich for Europe, the Byzantine Empire, and East Asia, but heavily dependent on later compilations and chronicles. Western sources are often biased toward ecclesiastical and political elites. Islamic sources for this period are less abundant in English-language scholarship. Japanese sources are relatively abundant but were compiled centuries after the events they describe. The year 1047 is somewhat arbitrary as a historical marker; many processes and trends span multiple years or decades. The events of 1047 are largely continuations of patterns established in earlier years.",
   "graph_edges": [
     {
       "from": "1047-001",
       "to": "1048-001",
       "relation": "led_to",
-      "note": "Papal succession in 1047 led to Leo IX's election and reform initiatives in 1048"
+      "note": "Constantine IX's reign continued with cultural patronage and military challenges"
     },
     {
       "from": "1047-002",
-      "to": "1071-001",
+      "to": "1048-002",
       "relation": "led_to",
-      "note": "Seljuk expansion in 1047 continued over the following decades, culminating in the Battle of Manzikert in 1071"
+      "note": "Seljuk consolidation in 1047 continued in 1048"
     },
     {
       "from": "1047-003",
-      "to": "1060-001",
+      "to": "1048-003",
       "relation": "led_to",
-      "note": "Norman military activities in 1047 led to the Norman invasion of Sicily in the 1060s"
+      "note": "Norman establishment in southern Italy in 1047 led to further consolidation in 1048"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:29:46.456599",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,369 +1,246 @@
 {
   "year": 1097,
   "year_label": "1097 CE",
-  "era_context": "The First Crusade is in its second year, with Crusader armies advancing through Anatolia toward the Levant. The Eastern Roman (Byzantine) Empire under Alexios I Komnenos has requested Western military aid against Seljuk Turkish expansion; the Crusade has exceeded his expectations in scale and independence. The Islamic world is fragmented among competing Seljuk sultanates and the declining Fatimid Caliphate. In East Asia, the Song Dynasty rules southern China while the Liao Dynasty controls the north. This year marks the Crusaders' advance through Anatolia and the beginning of their conquest of major Levantine cities.",
+  "era_context": "The First Crusade is in its early phase, with crusader forces advancing through Anatolia toward Syria. The crusaders have recently defeated the Seljuks at the Battle of Dorylaeum and are consolidating their position in Anatolia. The Byzantine Empire under Alexios I Komnenos is cautiously supporting the crusaders while maintaining diplomatic relations with Islamic powers. The Islamic world is fragmented and struggling to mount a unified response to the crusader invasion. East Asia sees the Northern Song Dynasty in decline, with the Jurchen Jin Dynasty consolidating power in Manchuria.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [],
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Southeast Asia (sparse documentation)",
+    "Mesoamerica and North America (no written records in European tradition)"
+  ],
   "events": [
     {
       "id": "1097-001",
-      "title": "Crusaders advance through Anatolia toward the Levant",
+      "title": "First Crusade: Battle of Dorylaeum",
       "region": "Anatolia (modern Turkey)",
-      "coordinates_approx": null,
+      "coordinates_approx": "40.5, 30.5",
       "category": "military",
-      "description": "Following the Battle of Dorylaeum (1 July 1097), where the Crusaders defeated a Seljuk relief army, the Crusader forces advance southward through Anatolia. The Crusaders capture several cities including Nicaea (June 1097, in coordination with Byzantine forces), Dorylaeum, and other settlements. The advance is marked by severe hardship: the Crusaders face shortages of food and water, disease, and desertion. Many Crusaders die from hunger and exhaustion rather than in combat. The Crusaders' route takes them through the Anatolian plateau, a harsh and unfamiliar environment. Despite these hardships, the Crusaders maintain their military cohesion and continue their advance toward the Levant. By the end of 1097, the Crusaders have reached the northern Levant and are preparing to besiege Antioch.",
+      "description": "On July 1, 1097, crusader forces under Godfrey of Bouillon and Bohemond I defeat a Seljuk army led by Kilij Arslan I at the Battle of Dorylaeum in Anatolia. The battle is a major crusader victory that demonstrates the military effectiveness of the crusaders and breaks Seljuk dominance in Anatolia. The crusaders' heavy cavalry and disciplined formations prove superior to the Seljuk mounted archers. The victory opens the path for the crusaders to advance toward Syria and Jerusalem. The battle is a turning point in the First Crusade, establishing the crusaders as a formidable military force.",
       "key_figures": [
         "Godfrey of Bouillon (Crusader leader)",
-        "Bohemond of Taranto (Crusader commander)",
-        "Raymond of Toulouse (Crusader leader)",
-        "Robert of Normandy (Crusader leader)",
-        "Kilij Arslan I (Seljuk Sultan of Rum)"
+        "Bohemond I (Crusader leader)",
+        "Kilij Arslan I (Seljuk Sultan)"
       ],
       "sources": [
         {
-          "name": "Gesta Francorum (Deeds of the Franks)",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Fulcher of Chartres, Historia Hierosolymitana",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Fulcher of Chartres, Historia Belli Sacri",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Albert of Aachen, Historia Ierosolimitana",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Alexiad by Anna Komnena",
+          "name": "Anna Komnena, Alexiad",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Crusaders' advance through Anatolia is well-documented in multiple contemporary sources. The Battle of Dorylaeum is dated to 1 July 1097 in Crusader sources.",
+      "certainty_note": "The Battle of Dorylaeum is one of the most thoroughly documented events of the First Crusade, attested in crusader, Byzantine, and Islamic sources. The date of July 1, 1097 is consistently reported.",
       "cross_references": [
-        "1096-001 (First Crusade launched)",
-        "1098-001 (Crusaders besiege Antioch)"
+        "1096-001 (First Crusade begins)",
+        "1098-001 (Antioch captured)"
       ]
     },
     {
       "id": "1097-002",
-      "title": "Battle of Dorylaeum: Crusaders defeat Seljuk relief army",
-      "region": "Anatolia (modern Turkey)",
-      "coordinates_approx": "39.8242, 30.6667",
+      "title": "Crusaders Besiege Nicaea",
+      "region": "Anatolia (Nicaea, modern Turkey)",
+      "coordinates_approx": "40.43, 29.73",
       "category": "military",
-      "description": "On 1 July 1097, Crusader forces under Godfrey of Bouillon and Bohemond of Taranto defeat a Seljuk relief army commanded by Kilij Arslan I, Sultan of Rum, and his ally Duqaq of Damascus. The Seljuks attempt to ambush the Crusaders but are repelled by Crusader cavalry charges. The Crusaders suffer significant casualties but maintain their formation and eventually drive the Seljuks from the field. The victory is a major morale boost for the Crusaders and demonstrates their military effectiveness despite being far from home and in unfamiliar terrain. The victory enables the Crusaders to continue their advance through Anatolia.",
+      "description": "Following their victory at Dorylaeum, crusader forces under Godfrey of Bouillon and other leaders besiege the city of Nicaea (modern Iznik), a major Seljuk stronghold in Anatolia. The siege begins in May 1097 and lasts until June 19, 1097, when the city surrenders to Byzantine forces (who had been coordinating with the crusaders). The capture of Nicaea is a significant crusader victory and demonstrates the effectiveness of crusader-Byzantine cooperation. The city is returned to Byzantine control as part of the agreement between Alexios I Komnenos and the crusader leaders.",
       "key_figures": [
-        "Godfrey of Bouillon (Crusader commander)",
-        "Bohemond of Taranto (Crusader commander)",
-        "Kilij Arslan I (Seljuk Sultan of Rum)",
-        "Duqaq of Damascus (Seljuk ally)"
+        "Godfrey of Bouillon (Crusader leader)",
+        "Alexios I Komnenos (Byzantine Emperor)",
+        "Kilij Arslan I (Seljuk Sultan)"
       ],
       "sources": [
         {
-          "name": "Gesta Francorum",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Fulcher of Chartres, Historia Hierosolymitana",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Fulcher of Chartres, Historia",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Albert of Aachen, Historia Ierosolimitana",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Ibn al-Qalanisi, History of Damascus",
+          "name": "Anna Komnena, Alexiad",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Battle of Dorylaeum is well-documented in Crusader sources. The date of 1 July 1097 is firmly established. Islamic sources confirm the battle but provide fewer details.",
+      "certainty_note": "The siege of Nicaea is well-documented in crusader and Byzantine sources. The dates of May\u2013June 1097 are consistently reported.",
       "cross_references": [
-        "1097-001 (Crusaders advance through Anatolia)"
+        "1096-001 (First Crusade begins)",
+        "1097-001 (Battle of Dorylaeum)"
       ]
     },
     {
       "id": "1097-003",
-      "title": "Byzantine forces recover Nicaea from Seljuks",
+      "title": "Crusaders Advance Through Anatolia",
       "region": "Anatolia (modern Turkey)",
-      "coordinates_approx": "40.4306, 29.7273",
+      "coordinates_approx": "39.0, 35.0",
       "category": "military",
-      "description": "In June 1097, Byzantine forces under the command of Alexios I Komnenos, in coordination with the Crusaders, capture the city of Nicaea from the Seljuk Sultanate of Rum. Nicaea is a major city and the former capital of the Byzantine Empire. The recovery of Nicaea is a significant strategic victory for Byzantium and marks the beginning of Byzantine recovery of Anatolian territory. However, Alexios ensures that the Crusaders do not occupy the city, instead placing it under Byzantine control. This action demonstrates Alexios's determination to maintain Byzantine overlordship and his wariness of the independent Crusader forces. The capture of Nicaea is one of the few major victories that Byzantium achieves in coordination with the Crusaders.",
+      "description": "Following their victories at Nicaea and Dorylaeum, crusader forces advance through Anatolia toward Syria. The crusaders face significant logistical challenges, including supply shortages, disease, and the harsh terrain of Anatolia. Despite these challenges, the crusaders maintain their advance and establish a supply line from the Byzantine Empire. The advance through Anatolia in 1097 demonstrates the crusaders' determination and military organization, though the journey is marked by significant suffering and attrition.",
       "key_figures": [
-        "Alexios I Komnenos (Byzantine Emperor)",
-        "Kilij Arslan I (Seljuk Sultan of Rum)"
+        "Godfrey of Bouillon (Crusader leader)",
+        "Bohemond I (Crusader leader)",
+        "Raymond of Toulouse (Crusader leader)"
       ],
       "sources": [
         {
-          "name": "Alexiad by Anna Komnena",
-          "type": "primary_text",
+          "name": "Fulcher of Chartres, Historia Hierosolymitana",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Gesta Francorum",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Fulcher of Chartres, Historia",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Albert of Aachen, Historia Ierosolimitana",
+          "type": "chronicle",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The capture of Nicaea in June 1097 is well-documented in both Byzantine and Crusader sources. The date is firmly established.",
+      "certainty_note": "The crusader advance through Anatolia is well-documented in crusader chronicles. The specific dates and locations of individual stages of the advance are sometimes unclear, but the overall chronology is well-established.",
       "cross_references": [
-        "1097-001 (Crusaders advance through Anatolia)"
+        "1097-001 (Battle of Dorylaeum)",
+        "1098-001 (Antioch captured)"
       ]
     },
     {
       "id": "1097-004",
-      "title": "Crusader forces reach northern Levant",
-      "region": "Northern Levant (modern Syria/Turkey)",
-      "coordinates_approx": null,
+      "title": "Seljuk Sultanate Faces Crusader Invasion",
+      "region": "Anatolia (Seljuk territories)",
+      "coordinates_approx": "39.0, 35.0",
       "category": "military",
-      "description": "By the autumn of 1097, the Crusader forces have advanced through Anatolia and reached the northern Levant. The Crusaders have suffered significant casualties from combat, disease, and starvation, but the surviving forces remain militarily effective. The Crusaders begin to establish supply lines and prepare for the siege of Antioch, one of the major cities of the Levant. The advance through Anatolia has taken several months and has tested the Crusaders' endurance and cohesion. The arrival in the Levant marks a new phase of the Crusade, with the Crusaders now operating in a region with a more complex political situation and greater proximity to their ultimate objective, Jerusalem.",
-      "key_figures": [
-        "Godfrey of Bouillon",
-        "Bohemond of Taranto",
-        "Raymond of Toulouse",
-        "Robert of Normandy"
-      ],
-      "sources": [
-        {
-          "name": "Gesta Francorum",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Fulcher of Chartres, Historia",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The general sequence of the Crusaders' advance is well-documented, but the specific dates of arrival in the northern Levant are less precisely recorded.",
-      "cross_references": [
-        "1097-001 (Crusaders advance through Anatolia)",
-        "1098-001 (Crusaders besiege Antioch)"
-      ]
-    },
-    {
-      "id": "1097-005",
-      "title": "Song Dynasty under Emperor Zhezong faces military pressure from Liao",
-      "region": "China",
-      "coordinates_approx": "34.3416, 108.9398",
-      "category": "military",
-      "description": "The Song Dynasty under Emperor Zhezong (r. 1085\u20131100) faces ongoing military pressure from the Liao Dynasty in the north. The Song maintains a sophisticated bureaucracy and a thriving commercial economy, but its military weakness relative to the Liao remains a chronic strategic problem. In 1097, the Song is engaged in defensive operations along the northern frontier, attempting to maintain the status quo against Liao incursions. The Song's strategy is to rely on fortifications, diplomacy, and economic resources rather than on military superiority. The long-term military balance favours the Liao, which has superior cavalry forces.",
-      "key_figures": [
-        "Emperor Zhezong of Song (r. 1085\u20131100)"
-      ],
-      "sources": [
-        {
-          "name": "Song Shi (History of the Song Dynasty)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Archaeological evidence from Song-era sites",
-          "type": "archaeological",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The military situation of the Song Dynasty in 1097 is well-documented in Chinese historical records.",
-      "cross_references": [
-        "1099-005 (Song Dynasty consolidates control)"
-      ]
-    },
-    {
-      "id": "1097-006",
-      "title": "Liao Dynasty maintains military dominance in northern China",
-      "region": "Northern China and Manchuria",
-      "coordinates_approx": "41.8045, 123.4328",
-      "category": "military",
-      "description": "The Liao Dynasty under Emperor Xingzong (r. 1055\u20131101) maintains military dominance in northern China and Manchuria. The Liao's powerful cavalry forces and control of key trade routes give it strategic advantage over the Song Dynasty to the south. The Liao\u2013Song border is relatively stable in 1097, with periodic raids and skirmishes but no major military campaigns. The Liao's military strength is based on its Khitan warrior culture and its integration of Chinese administrative practices.",
-      "key_figures": [
-        "Emperor Xingzong of Liao (r. 1055\u20131101)"
-      ],
-      "sources": [
-        {
-          "name": "Liao Shi (History of the Liao Dynasty)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Song Shi (History of the Song Dynasty)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The military status of the Liao Dynasty in 1097 is well-documented in Chinese historical records.",
-      "cross_references": [
-        "1125-001 (Jin Dynasty conquest of Liao)"
-      ]
-    },
-    {
-      "id": "1097-007",
-      "title": "Western Xia kingdom maintains independence between Song and Liao",
-      "region": "Northwest China",
-      "coordinates_approx": "38.4680, 106.2586",
-      "category": "political",
-      "description": "The Western Xia kingdom under Emperor Jingzong (r. 1086\u20131139) maintains its independence by balancing between the Song Dynasty to the south and the Liao Dynasty to the north. Western Xia controls the Silk Road trade routes and maintains a sophisticated state apparatus. The kingdom's prosperity is based on trade, pastoral economy, and agricultural production in the oases of the Tarim Basin. In 1097, Western Xia is in a period of relative stability, though it faces periodic military pressure from both the Song and the Liao.",
-      "key_figures": [
-        "Emperor Jingzong of Western Xia (r. 1086\u20131139)"
-      ],
-      "sources": [
-        {
-          "name": "Song Shi (History of the Song Dynasty)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Archaeological evidence from Western Xia sites",
-          "type": "archaeological",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The political status of Western Xia in 1097 is well-documented in Chinese historical records and confirmed by archaeological evidence.",
-      "cross_references": [
-        "1099-007 (Western Xia kingdom flourishes)"
-      ]
-    },
-    {
-      "id": "1097-008",
-      "title": "Seljuk Sultanate of Rum faces Crusader invasion",
-      "region": "Anatolia (modern Turkey)",
-      "coordinates_approx": null,
-      "category": "military",
-      "description": "The Seljuk Sultanate of Rum, ruled by Kilij Arslan I, faces the invasion of the Crusader forces advancing through Anatolia. The Seljuks attempt to resist the Crusader advance through military action, but their forces are defeated at the Battle of Dorylaeum (1 July 1097). The Seljuks lose control of several major cities, including Nicaea, which is recovered by Byzantine forces in coordination with the Crusaders. The Seljuk Sultanate of Rum is forced to retreat southward and eastward, losing much of its western Anatolian territory. The Crusader invasion marks a major turning point in the history of Anatolia, initiating a period of Western military presence and eventually leading to the establishment of Crusader states in the Levant.",
+      "description": "The Seljuk Sultanate of Rum faces the full force of the crusader invasion in 1097. The defeats at Nicaea and Dorylaeum represent major losses for the Seljuks, who are forced to retreat eastward and abandon much of western Anatolia. The Seljuk Sultan Kilij Arslan I struggles to mount an effective response to the crusader advance, hampered by internal divisions and the need to defend against other threats (Byzantine, Danishmend Turks). The Seljuk losses in 1097 mark the beginning of a long process of territorial contraction that would eventually lead to the Seljuk sultanate being confined to central Anatolia.",
       "key_figures": [
         "Kilij Arslan I (Seljuk Sultan of Rum)"
       ],
       "sources": [
         {
-          "name": "Gesta Francorum",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Ibn al-Athir, Complete History",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Fulcher of Chartres, Historia",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Ibn al-Qalanisi, History of Damascus",
+          "name": "Anna Komnena, Alexiad",
           "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The Seljuk Sultanate of Rum's response to the Crusader invasion is well-documented in both Crusader and Islamic sources.",
+      "certainty": "probable",
+      "certainty_note": "The Seljuk response to the crusader invasion is documented in Islamic and Byzantine sources. The specific military situation in 1097 is less precisely dated than major battles.",
       "cross_references": [
-        "1097-002 (Battle of Dorylaeum)",
-        "1098-001 (Crusaders besiege Antioch)"
+        "1096-001 (First Crusade begins)",
+        "1098-001 (Antioch captured)"
       ]
     },
     {
-      "id": "1097-009",
-      "title": "Byzantine Empire under Alexios I coordinates with Crusaders",
-      "region": "Byzantine Empire (Anatolia and Balkans)",
-      "coordinates_approx": "41.0082, 28.9784",
-      "category": "military",
-      "description": "The Byzantine Emperor Alexios I Komnenos (r. 1081\u20131118) coordinates military operations with the Crusader forces advancing through Anatolia. Alexios provides supplies, guides, and military support to the Crusaders, and ensures that Byzantine forces participate in the capture of Nicaea. However, Alexios is wary of the independent Crusader forces and seeks to maintain Byzantine overlordship. Alexios requires the Crusader leaders to swear oaths of loyalty to the Byzantine Empire and to promise to return conquered territories to Byzantine control. These oaths are a source of tension between Alexios and the Crusaders, particularly Bohemond of Taranto, who has no intention of returning Antioch to Byzantine control.",
-      "key_figures": [
-        "Alexios I Komnenos (Byzantine Emperor)"
-      ],
-      "sources": [
-        {
-          "name": "Alexiad by Anna Komnena",
-          "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "Gesta Francorum",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Fulcher of Chartres, Historia",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Alexios I's coordination with the Crusaders is well-documented in both Byzantine and Crusader sources. The oaths sworn by the Crusader leaders are attested in multiple sources.",
-      "cross_references": [
-        "1097-001 (Crusaders advance through Anatolia)",
-        "1099-010 (Byzantine Empire under Alexios I)"
-      ]
-    },
-    {
-      "id": "1097-010",
-      "title": "Norman consolidation in southern Italy and Sicily continues",
-      "region": "Southern Italy and Sicily",
-      "coordinates_approx": "37.5891, 14.0154",
+      "id": "1097-005",
+      "title": "Byzantine-Crusader Cooperation in Anatolia",
+      "region": "Anatolia (Byzantine-Crusader territories)",
+      "coordinates_approx": "40.0, 30.0",
       "category": "political",
-      "description": "The Norman consolidation of southern Italy and Sicily continues under Roger I, Count of Sicily (r. 1072\u20131101). The Normans have largely completed their conquest of the region and are establishing a sophisticated administrative system. The Norman rulers adopt elements of Byzantine and Islamic culture, creating a unique multicultural kingdom. The Normans' military success in the Mediterranean\u2014including their role in the First Crusade\u2014demonstrates their emergence as a major European power.",
+      "description": "In 1097, Byzantine Emperor Alexios I Komnenos and the crusader leaders establish a working relationship based on mutual military interest. The Byzantines provide logistical support, intelligence, and military coordination to the crusaders in exchange for crusader assistance against the Seljuks. The cooperation is formalized through oaths of loyalty sworn by the crusader leaders to Alexios. However, tensions already exist between the Byzantines and crusaders, particularly over territorial claims and the treatment of local Christian populations. The cooperation in 1097 is pragmatic rather than ideological, and it will deteriorate as the crusade progresses.",
       "key_figures": [
-        "Roger I, Count of Sicily (r. 1072\u20131101)"
+        "Alexios I Komnenos (Byzantine Emperor)",
+        "Godfrey of Bouillon (Crusader leader)",
+        "Bohemond I (Crusader leader)"
       ],
       "sources": [
         {
-          "name": "Gesta Normannorum Ducum",
+          "name": "Anna Komnena, Alexiad",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Charters and administrative documents from Norman Sicily",
-          "type": "epigraphic",
-          "contemporary": true
+          "name": "Fulcher of Chartres, Historia Hierosolymitana",
+          "type": "chronicle",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Norman consolidation of southern Italy and Sicily in 1097 is well-documented in contemporary charters and near-contemporary chronicles.",
+      "certainty_note": "Byzantine-crusader cooperation in 1097 is well-documented in the Alexiad and crusader chronicles. The nature and extent of the cooperation is sometimes disputed by modern scholars.",
       "cross_references": [
-        "1099-009 (Norman conquest consolidates)"
+        "1096-001 (First Crusade begins)",
+        "1097-001 (Battle of Dorylaeum)"
+      ]
+    },
+    {
+      "id": "1097-006",
+      "title": "Islamic World Mobilizes Against Crusaders",
+      "region": "Islamic World (Syria, Iraq, Persia)",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "military",
+      "description": "In response to the crusader invasion, Islamic powers in Syria, Iraq, and Persia begin to mobilize against the crusaders. The Seljuk Sultanate, the Fatimid Caliphate, and various regional emirs attempt to coordinate a response to the crusader threat. However, the Islamic world is fragmented by internal conflicts and rivalries, making unified action difficult. The Seljuks and Fatimids are rivals, and regional emirs pursue their own interests. This fragmentation prevents the Islamic world from mounting an effective unified response to the crusaders in 1097, allowing the crusaders to advance relatively unopposed.",
+      "key_figures": [
+        "Kilij Arslan I (Seljuk Sultan)",
+        "Al-Afdal Shahanshah (Fatimid vizier)",
+        "Various regional emirs"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Various Islamic chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Islamic mobilization against the crusaders is documented in Islamic chronicles, though the specific events of 1097 are sometimes less precisely dated than major battles.",
+      "cross_references": [
+        "1096-001 (First Crusade begins)",
+        "1098-001 (Antioch captured)"
       ]
     }
   ],
-  "disconfirming_evidence": "The exact date of the Battle of Dorylaeum is sometimes given as 28 June 1097 rather than 1 July 1097, reflecting minor discrepancies in source dating. The role of Byzantine forces in the battle is disputed; Crusader sources emphasise the Crusaders' role, while Byzantine sources (the Alexiad) emphasise Byzantine coordination. The oaths sworn by the Crusader leaders to Alexios I are attested in Crusader sources, but the exact wording and binding nature of these oaths are disputed. Bohemond's later refusal to return Antioch to Byzantine control suggests that he either did not intend to keep the oath or interpreted it differently from Alexios. The casualty figures for the Crusaders' advance through Anatolia are not precisely documented; sources provide general descriptions of hardship but not specific numbers.",
-  "historiographic_note": "The historical record for 1097 is rich but heavily skewed toward Western Crusader perspectives. The primary sources (Gesta Francorum, Fulcher of Chartres) were written by participants in the Crusade and reflect their religious motivations and biases. Byzantine sources (the Alexiad) provide a different perspective but were written decades after the events and reflect Anna Komnena's particular agenda. Islamic sources for the Crusader advance through Anatolia are sparse and often compiled centuries later. The voices of the conquered Muslim and Jewish populations are almost entirely absent from surviving sources. Archaeological evidence from Anatolia and the Levant provides material context but cannot speak to the experiences of non-combatants. The historiography of the Crusades has been heavily influenced by later religious and nationalist agendas. Chinese sources for the Song, Liao, and Western Xia dynasties are more abundant and less obviously biased, though they reflect court perspectives.",
+  "disconfirming_evidence": "The traditional narrative of the First Crusade as a triumphant military campaign has been complicated by modern scholarship. The crusaders' victories at Nicaea and Dorylaeum, while significant, were not as overwhelming as crusader chronicles suggest. The Seljuks were not decisively defeated but rather chose to retreat and avoid pitched battles with the crusaders. The characterization of the crusaders as unified and disciplined obscures significant internal conflicts and rivalries among the crusader leaders. Additionally, the role of Byzantine diplomacy and manipulation in directing crusader movements is now recognized as more central than earlier Western-centric accounts suggested. The crusaders' treatment of local Christian populations (Greek Orthodox, Armenian, Coptic) was often hostile, contradicting the narrative of Christian unity. The logistical challenges faced by the crusaders in 1097 are often downplayed in traditional accounts, which emphasize military victories while minimizing the suffering and attrition caused by disease, starvation, and harsh terrain.",
+  "historiographic_note": "Documentation for 1097 is exceptionally rich for a medieval year, but heavily weighted toward Western European and Byzantine sources. Crusader chronicles (Fulcher of Chartres, Albert of Aachen) dominate the narrative, creating a Western-centric bias. Islamic sources (Ibn al-Athir) provide important counternarratives but are often compiled later. The historical record privileges military and political events over social, economic, or cultural developments. The perspective is heavily focused on the Mediterranean and Near East; developments in Asia, Africa, and the Americas are entirely absent from contemporary documentation in the Western tradition. The crusader sources often present events in a triumphalist manner, emphasizing divine favor and military prowess while downplaying logistical challenges, internal conflicts, and the suffering of non-combatants.",
   "graph_edges": [
     {
       "from": "1097-001",
       "to": "1097-002",
-      "relation": "part_of",
-      "note": "The Battle of Dorylaeum was part of the Crusaders' advance through Anatolia."
+      "relation": "led_to",
+      "note": "The victory at Dorylaeum enabled the crusaders to besiege Nicaea."
     },
     {
       "from": "1097-002",
-      "to": "1097-001",
+      "to": "1097-003",
       "relation": "led_to",
-      "note": "The victory at Dorylaeum enabled the Crusaders to continue their advance through Anatolia."
+      "note": "The capture of Nicaea allowed the crusaders to advance through Anatolia."
     },
     {
       "from": "1097-003",
-      "to": "1097-001",
-      "relation": "contemporary_with",
-      "note": "The Byzantine recovery of Nicaea occurred in June 1097, in coordination with the Crusaders' advance."
-    },
-    {
-      "from": "1097-001",
       "to": "1098-001",
       "relation": "led_to",
-      "note": "The Crusaders' advance through Anatolia in 1097 led to the siege of Antioch in 1098."
+      "note": "The crusader advance through Anatolia in 1097 led to the capture of Antioch in 1098."
     },
     {
-      "from": "1097-009",
+      "from": "1097-004",
+      "to": "1098-001",
+      "relation": "led_to",
+      "note": "Seljuk losses in 1097 contributed to the crusader capture of Antioch in 1098."
+    },
+    {
+      "from": "1097-005",
       "to": "1097-001",
       "relation": "part_of",
-      "note": "Alexios I's coordination with the Crusaders was part of the Crusaders' advance through Anatolia."
+      "note": "Byzantine-crusader cooperation was essential to the crusader victory at Dorylaeum."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:14:10.895273",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

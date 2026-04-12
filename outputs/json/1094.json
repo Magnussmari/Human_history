@@ -1,141 +1,213 @@
 {
   "year": 1094,
   "year_label": "1094 CE",
-  "era_context": "The High Middle Ages in Europe; the First Crusade is being preached and prepared following Pope Urban II's call at Clermont in 1095. The Byzantine Empire under Alexios I Komnenos faces pressure from Seljuk Turks in Anatolia. In East Asia, the Song Dynasty rules China while the Liao Dynasty controls the north; Japan is in the Heian period. The Islamic world is fragmented among competing dynasties and sultanates.",
+  "era_context": "The High Middle Ages in Europe; the papacy under Urban II consolidating ecclesiastical reform and asserting papal authority. The Byzantine Empire under Alexios I Komnenos faces continued Seljuk pressure in Anatolia. The Islamic world remains fragmented among competing dynasties. East Asia sees the Northern Song Dynasty in decline. Japan is in the Heian period under the Fujiwara regency.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written sources for this period)",
-    "Pre-Columbian Americas (no written records; archaeological evidence sparse for specific years)",
-    "Northern Europe beyond Scandinavia (limited documentation)"
+    "Sub-Saharan Africa",
+    "East Asia (limited documentation of specific events)",
+    "Americas"
   ],
   "events": [
     {
       "id": "1094-001",
-      "title": "El Cid captures Valencia from Almoravid control",
-      "region": "Iberian Peninsula (Valencia, Al-Andalus)",
+      "title": "El Cid (Rodrigo D\u00edaz) Captures Valencia from Muslim Rule",
+      "region": "Iberia (Valencia region, Spain)",
       "coordinates_approx": "39.47, -0.38",
       "category": "military",
-      "description": "Rodrigo D\u00edaz de Vivar, known as El Cid, completes the siege and conquest of Valencia after a prolonged campaign. This represents a major Christian victory in the Reconquista and establishes El Cid as an independent ruler of the city. Valencia becomes a Christian-held territory, though El Cid rules it as a semi-autonomous lord rather than as a vassal of the Castilian crown. The conquest is significant for the fragmentation of Almoravid power in Iberia and the advancement of Christian territorial gains.",
+      "description": "Rodrigo D\u00edaz de Vivar, known as El Cid (from the Arabic 'al-Sayyid,' meaning 'the Lord'), captured the city of Valencia from Muslim Taifa rule in 1094. El Cid, a Castilian knight who had previously served both Christian and Muslim rulers, besieged Valencia for several years before finally taking the city. Valencia had been ruled by the Taifa of Valencia, a small Muslim kingdom. El Cid's capture of Valencia represented a significant Christian advance during the Reconquista and established El Cid as a major military figure in Iberia. He ruled Valencia as an independent principality until his death in 1099, maintaining a complex political position between Christian and Muslim powers. The capture of Valencia was celebrated in later Spanish literature and legend, particularly in the 12th-century epic poem 'Cantar de Mio Cid.'",
       "key_figures": [
-        "Rodrigo D\u00edaz de Vivar, El Cid (military commander and ruler)",
-        "Yusuf ibn Tashfin (Almoravid leader, indirect)"
+        "Rodrigo D\u00edaz de Vivar, El Cid (Castilian knight and military commander)",
+        "Jimena (El Cid's wife)",
+        "Yusuf ibn Tashfin (Almoravid leader, indirect factor)"
       ],
       "sources": [
         {
-          "name": "Poema de Mio Cid (12th-century epic poem, based on oral tradition and later compilation)",
+          "name": "Cantar de Mio Cid (12th-century Spanish epic poem, based on historical events)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Chronicle of Alfonso VI (near-contemporary Castilian chronicle)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Historiographic consensus on El Cid's campaigns",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The conquest of Valencia is traditionally dated to 1094, though some sources place it in 1095. Near-contemporary chronicles support the date, but the exact chronology of the siege is uncertain. The Poema de Mio Cid is a later literary work, not a contemporary source.",
-      "cross_references": [
-        "1095-001 (First Crusade preaching, contemporary context)",
-        "1086-001 (Battle of Sagrajas, earlier Almoravid intervention in Iberia)"
-      ]
-    },
-    {
-      "id": "1094-002",
-      "title": "Alexios I Komnenos consolidates Byzantine military reforms",
-      "region": "Byzantine Empire (Constantinople and Anatolia)",
-      "coordinates_approx": "41.01, 28.98",
-      "category": "military",
-      "description": "Emperor Alexios I Komnenos continues his systematic military reorganization of the Byzantine Empire, including the recruitment of Varangian and Norman mercenaries and the restructuring of the theme system. These reforms are part of his broader strategy to stabilize the empire after the catastrophic loss of Anatolia to the Seljuks following the Battle of Manzikert (1071). The reforms lay groundwork for the later Byzantine recovery and the call for Western military aid that will lead to the First Crusade.",
-      "key_figures": [
-        "Alexios I Komnenos (Byzantine Emperor)",
-        "Anna Komnenos (daughter, historian)"
-      ],
-      "sources": [
-        {
-          "name": "Alexiad by Anna Komnenos (near-contemporary Byzantine chronicle, written early 12th century)",
-          "type": "chronicle",
+          "name": "Historia Roderici (12th-century Latin chronicle of El Cid)",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus on Alexios's military reforms",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The reforms are attested in the Alexiad and scholarly consensus, but the specific year 1094 is approximate for ongoing reforms rather than a discrete event. The process spanned multiple years.",
-      "cross_references": [
-        "1071-001 (Battle of Manzikert, context for reforms)",
-        "1095-002 (First Crusade call, consequence of Byzantine military weakness)"
-      ]
-    },
-    {
-      "id": "1094-003",
-      "title": "Death of Pope Gregory VII",
-      "region": "Papal States and Rome",
-      "coordinates_approx": "41.90, 12.45",
-      "category": "religious",
-      "description": "Pope Gregory VII dies in exile in Salerno on May 25, 1094, after a long conflict with the Holy Roman Emperor Henry IV over the investiture controversy. Gregory's papacy was marked by his assertion of papal authority over secular rulers, his excommunication of Henry IV, and his support for the Cluniac reform movement. His death marks a transition in the papacy and leaves the investiture dispute unresolved, though his successors will continue his reformist agenda. The papacy enters a period of relative weakness before the election of Urban II.",
-      "key_figures": [
-        "Pope Gregory VII (Hildebrand of Sovana)",
-        "Henry IV (Holy Roman Emperor, antagonist)"
-      ],
-      "sources": [
-        {
-          "name": "Liber Pontificalis (papal chronicle, updated near-contemporary)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Vita Gregorii VII (biography by Paul of Bernried, near-contemporary)",
-          "type": "chronicle",
+          "name": "Arabic chronicles of the Taifa period",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus on Gregory VII's death",
+          "name": "Historiographic consensus on El Cid and Valencia",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The date of Gregory VII's death (May 25, 1094) is well-attested in contemporary and near-contemporary papal records and chronicles.",
+      "certainty_note": "El Cid's capture of Valencia is dated to 1094 by scholarly consensus, though the siege lasted several years (1089\u20131094). Multiple sources confirm the event, though details vary.",
+      "cross_references": []
+    },
+    {
+      "id": "1094-002",
+      "title": "Anselm of Canterbury Becomes Archbishop",
+      "region": "England (Canterbury)",
+      "coordinates_approx": "51.28, 1.08",
+      "category": "religious",
+      "description": "Anselm of Aosta was appointed Archbishop of Canterbury in 1093 and formally consecrated in 1094. Anselm, an Italian-born Benedictine monk and theologian, became one of the most important ecclesiastical figures of the late 11th century. His appointment came during the investiture controversy, a major conflict between the papacy and secular rulers over the right to appoint bishops and other church officials. Anselm's tenure as Archbishop was marked by conflict with King William II Rufus over ecclesiastical authority and church property. Anselm was also a significant theological and philosophical figure, known for his work on the ontological argument for God's existence and his contributions to medieval scholasticism. His appointment represented the papacy's assertion of authority over the English church.",
+      "key_figures": [
+        "Anselm of Aosta (new Archbishop of Canterbury)",
+        "William II Rufus (King of England, in conflict with Anselm)",
+        "Pope Urban II (papal authority behind Anselm's appointment)"
+      ],
+      "sources": [
+        {
+          "name": "Eadmer, Historia Novorum (contemporary account by Anselm's companion)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Eadmer, Vita Anselmi (biography of Anselm)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Anselm's appointment and consecration as Archbishop of Canterbury in 1093\u20131094 is well-documented in contemporary sources, particularly Eadmer's accounts.",
+      "cross_references": []
+    },
+    {
+      "id": "1094-003",
+      "title": "Nizar al-Aziz, Fatimid Caliph, Dies",
+      "region": "Egypt (Cairo)",
+      "coordinates_approx": "30.04, 31.24",
+      "category": "political",
+      "description": "Al-Aziz Nizar ibn al-Mu'izz, the Fatimid Caliph of Egypt, died in 1094 after a reign of nearly 30 years (1065\u20131094). Al-Aziz had ruled during a period of Fatimid power and prosperity, expanding Fatimid influence in the eastern Mediterranean and maintaining control over Egypt, parts of the Levant, and North Africa. His death precipitated a succession crisis, as his young son Al-Mustansir II (also called Al-Musta'li) inherited the throne under the regency of the vizier Al-Afdal Shahanshah. The succession dispute and the rise of Al-Afdal as the effective ruler marked a shift in Fatimid politics and contributed to the fragmentation of Islamic power that would characterize the crusade era. Al-Aziz's death also coincided with the rise of the Seljuk Turks and the Almoravid movement in North Africa and Iberia.",
+      "key_figures": [
+        "Al-Aziz Nizar ibn al-Mu'izz (deceased Fatimid Caliph)",
+        "Al-Mustansir II (young successor)",
+        "Al-Afdal Shahanshah (vizier and regent)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Maqrizi, Itti'az al-Hunafa (14th-century Egyptian chronicle)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh (13th-century Islamic universal history)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Fatimid succession",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Al-Aziz's death in 1094 is confirmed by Islamic sources and scholarly consensus. The date is well-established in Fatimid chronology.",
+      "cross_references": []
+    },
+    {
+      "id": "1094-004",
+      "title": "Consolidation of Almoravid Power in North Africa and Iberia",
+      "region": "North Africa and Iberia (Morocco, Algeria, Spain)",
+      "coordinates_approx": "32.0, -5.0",
+      "category": "political",
+      "description": "The Almoravid dynasty, a Berber Islamic movement that had emerged in the Sahara in the 1050s, continued to consolidate power in North Africa and Iberia in 1094. The Almoravids, led by Yusuf ibn Tashfin, had crossed into Iberia in 1086 to support Muslim Taifa kingdoms against Christian reconquest. By 1094, the Almoravids were establishing themselves as a major power in both North Africa and Iberia, eventually absorbing the Taifa kingdoms and creating a unified Islamic state. The Almoravid movement represented a religious revival within Islam and a reaction against the fragmentation of the Taifa period. Their rise would significantly impact the Reconquista and the broader Mediterranean balance of power.",
+      "key_figures": [
+        "Yusuf ibn Tashfin (Almoravid leader)",
+        "Taifa rulers (increasingly subordinate to Almoravid authority)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Al-Marr\u0101kush\u012b, Mu'jib (13th-century Moroccan chronicle)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Almoravid expansion",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Almoravid consolidation of power was a gradual process spanning several decades (1086\u20131110s). 1094 is assigned as an approximate date for their continued expansion, but the exact chronology of individual campaigns is uncertain.",
       "cross_references": [
-        "1073-001 (Gregory VII's election)",
-        "1095-003 (Urban II's papacy and First Crusade)"
+        "1094-001 (El Cid's capture of Valencia, contemporary with Almoravid expansion)"
+      ]
+    },
+    {
+      "id": "1094-005",
+      "title": "Alexios I Komnenos Consolidates Byzantine Authority",
+      "region": "Byzantine Empire (Constantinople and Anatolia)",
+      "coordinates_approx": "41.01, 28.98",
+      "category": "political",
+      "description": "Emperor Alexios I Komnenos continued to consolidate Byzantine authority and military strength in 1094. Alexios had ruled since 1081 and had inherited an empire weakened by civil war, economic crisis, and military defeats. By 1094, he had stabilized the empire's finances, reformed the military, and begun to recover lost territories. Alexios's reign marked the beginning of the Komnenos dynasty's restoration of Byzantine power. His military reforms and diplomatic initiatives would lay the groundwork for his request for Western military aid against the Seljuks, which would eventually lead to the First Crusade. Alexios's reign also saw the development of the Varangian Guard and other military innovations.",
+      "key_figures": [
+        "Alexios I Komnenos (Byzantine Emperor)",
+        "Constantine X Doukas (Alexios's predecessor, deceased 1067)"
+      ],
+      "sources": [
+        {
+          "name": "Anna Komnena, Alexiad (written early 12th century, daughter's account of her father's reign)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine administrative records and seals",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Alexios I's reign",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Alexios I's consolidation of Byzantine authority by 1094 is well-documented in Byzantine sources and confirmed by modern scholarship.",
+      "cross_references": [
+        "1095-001 (Alexios's request for Western aid, leading to First Crusade)"
       ]
     }
   ],
-  "disconfirming_evidence": "The dating of El Cid's conquest of Valencia is disputed: some sources place it in 1095 rather than 1094. The Poema de Mio Cid, while culturally significant, is a 12th-century literary work and not a reliable historical source for precise chronology. Modern scholarship emphasizes that El Cid's rule of Valencia was brief (he died in 1099) and that the city's Christian control was not permanent\u2014it was retaken by Almoravid forces shortly after his death. The significance of El Cid in the Reconquista has been somewhat romanticized in later historiography.",
-  "historiographic_note": "The year 1094 is moderately well-documented in Western European sources (papal records, Iberian chronicles) but less well-attested in Byzantine, Islamic, or East Asian sources. The surviving records are heavily weighted toward ecclesiastical and military history; economic, social, and cultural developments are underrepresented. Islamic sources for this period are fragmentary and often focus on dynastic politics rather than specific years. The historical record reflects the biases of literate elites (clergy, nobility) and omits the experiences of peasants, merchants, and non-elite populations.",
+  "disconfirming_evidence": "El Cid's capture of Valencia is often romanticized in Spanish historiography as a heroic Christian victory during the Reconquista. However, modern scholarship emphasizes that El Cid was a mercenary who served both Christian and Muslim rulers, and that his motivations were primarily political and economic rather than religious. Additionally, El Cid's rule of Valencia was characterized by pragmatic coexistence with Muslim populations and neighboring Muslim rulers, not by religious conquest or conversion. The 'Cantar de Mio Cid,' while based on historical events, heavily mythologizes El Cid's character and achievements, and should not be read as a reliable historical source. The Almoravid consolidation of power is sometimes presented as a unified religious movement, but modern scholarship emphasizes the diversity of Almoravid motivations and the gradual, contested nature of their expansion.",
+  "historiographic_note": "The year 1094 is moderately well-documented in Western European sources (particularly regarding Anselm and English ecclesiastical affairs) and in Islamic sources (regarding Fatimid succession and Almoravid expansion). However, documentation is uneven: Western European sources are abundant for England and France, while Islamic sources are often fragmentary or compiled much later. Byzantine sources (Anna Komnena) provide a non-Western perspective but are written from the imperial court's viewpoint. East Asian sources are sparse in Western historiography, and African, American, and Oceanic regions are entirely absent from surviving documentation. The historiography of 1094 is shaped by the crusade narrative's retrospective importance, which can obscure other significant developments in the Islamic world and Byzantine Empire.",
   "graph_edges": [
     {
       "from": "1094-001",
       "to": "1099-001",
       "relation": "led_to",
-      "note": "El Cid's conquest of Valencia established Christian rule that would be contested after his death"
-    },
-    {
-      "from": "1094-003",
-      "to": "1095-003",
-      "relation": "led_to",
-      "note": "Gregory VII's death preceded Urban II's election and the First Crusade call"
+      "note": "El Cid's capture of Valencia established a Christian principality that would influence Iberian politics through his death in 1099"
     },
     {
       "from": "1094-002",
-      "to": "1095-002",
-      "relation": "led_to",
-      "note": "Alexios's military weakness prompted the Byzantine request for Western military aid"
+      "to": "1095-001",
+      "relation": "contemporary_with",
+      "note": "Anselm's appointment as Archbishop coincided with papal reform efforts that culminated in the Council of Clermont"
+    },
+    {
+      "from": "1094-003",
+      "to": "1095-001",
+      "relation": "contemporary_with",
+      "note": "Fatimid succession crisis and Al-Afdal's rise as regent affected Islamic political fragmentation during the crusade era"
+    },
+    {
+      "from": "1094-004",
+      "to": "1094-001",
+      "relation": "contemporary_with",
+      "note": "Almoravid expansion in Iberia was contemporary with El Cid's military campaigns"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:15:23.328557",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

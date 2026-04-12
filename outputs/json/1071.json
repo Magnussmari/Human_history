@@ -1,32 +1,103 @@
 {
   "year": 1071,
   "year_label": "1071 CE",
-  "era_context": "High Middle Ages; the Gregorian Reform movement gaining momentum in the Western Church. The Byzantine Empire faces a critical military crisis in Anatolia. The Northern Song Dynasty under Emperor Shenzong begins administrative reforms. The Seljuk Empire under Alp Arslan reaches its zenith before his assassination.",
-  "documentation_level": "rich",
+  "era_context": "The late 11th century was marked by the fragmentation of the Islamic world, the consolidation of Norman power in southern Italy and Sicily, the height of the Byzantine Empire under Constantine X and Michael VII, and the early Crusader movement's ideological formation. In East Asia, the Northern Song Dynasty ruled China while the Liao Dynasty controlled the north; in Japan, the Heian period was entering its final phase. This was an era of religious reform, military innovation, and significant demographic and economic shifts across Eurasia.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Northern Europe beyond major kingdoms",
-    "Central Asia (limited sources beyond Islamic and Byzantine accounts)",
-    "Americas and Oceania"
+    "Sub-Saharan Africa (limited written sources; oral traditions not well-preserved in contemporary records)",
+    "Pre-Columbian Americas (no written records; archaeological dating often imprecise for this period)",
+    "Northern Europe beyond Scandinavia and the British Isles (sparse documentation)"
   ],
   "events": [
     {
       "id": "1071-001",
-      "title": "Battle of Manzikert: Seljuk victory over Byzantine Empire",
-      "region": "Anatolia (near Manzikert, modern-day Turkey)",
-      "coordinates_approx": "39.7, 43.4",
+      "title": "Battle of Manzikert",
+      "region": "Anatolia (near modern Malazgirt, Turkey)",
+      "coordinates_approx": "39.2, 43.4",
       "category": "military",
-      "description": "The Battle of Manzikert was a decisive military engagement between the Byzantine Empire under Emperor Romanos IV Diogenes and the Seljuk Empire under Alp Arslan. The Seljuk victory resulted in the capture of the Byzantine emperor and the loss of Byzantine control over much of Anatolia. The battle is often characterized as a watershed moment in medieval history, marking the beginning of Turkish expansion into Anatolia and the gradual transformation of the region from Greek-speaking Christian to Turkish-speaking Islamic. However, modern scholarship has complicated this narrative, noting that Byzantine recovery was possible and that the long-term consequences were not immediately apparent. The battle did, however, mark the beginning of a process that would fundamentally alter the demographic and religious character of Anatolia over the following centuries.",
+      "description": "The Byzantine Emperor Romanos IV Diogenes led a major military campaign against the Seljuk Turks under Alp Arslan. The Byzantine forces were decisively defeated, resulting in the capture of the emperor and the loss of much of Anatolia to Seljuk control. This battle marked a turning point in Byzantine-Islamic relations and initiated the long process of Turkish settlement in Anatolia, fundamentally altering the region's demographic and political character. The defeat prompted Byzantine appeals to the West, which contributed to the ideological groundwork for the First Crusade.",
       "key_figures": [
-        "Emperor Romanos IV Diogenes (Byzantine)",
+        "Romanos IV Diogenes (Byzantine Emperor)",
         "Alp Arslan (Seljuk Sultan)",
-        "Constantine X Doukas (Byzantine emperor, Romanos's co-ruler)"
+        "Constantine X Doukas (co-emperor, remained in Constantinople)"
       ],
       "sources": [
         {
-          "name": "Attaliates, Michael. Historia (Byzantine chronicle)",
+          "name": "Attaliates, Michael. History (Byzantine chronicle, written c. 1080s)",
           "type": "chronicle",
           "contemporary": false
+        },
+        {
+          "name": "Skylitzes, John. Synopsis Historiarum (Byzantine chronicle, compiled 11th century)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Seljuk sources (later compilations, e.g., Ravandi's Rahat al-Sudur)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle is attested in multiple Byzantine and Islamic sources, though details vary. The date of August 26, 1071 is accepted by modern scholarship, though some sources give slightly different dates.",
+      "cross_references": [
+        "1095-001 (First Crusade declaration)",
+        "1077-001 (Seljuk consolidation in Anatolia)"
+      ]
+    },
+    {
+      "id": "1071-002",
+      "title": "Norman Conquest of Bari",
+      "region": "Southern Italy (Apulia)",
+      "coordinates_approx": "41.1, 16.9",
+      "category": "military",
+      "description": "Robert Guiscard and his Norman forces completed the conquest of Bari, the last major Byzantine stronghold in southern Italy, after a three-year siege (1068\u20131071). This victory consolidated Norman control over southern Italy and marked the effective end of Byzantine territorial presence in the peninsula. The conquest was significant for establishing Norman power as a major Mediterranean force and for shifting the balance of power in Italy away from Byzantine and papal influence toward Norman feudal authority.",
+      "key_figures": [
+        "Robert Guiscard (Norman Duke of Apulia)",
+        "Roger Borsa (Robert's son)",
+        "Constantine Doukas (Byzantine governor, surrendered)"
+      ],
+      "sources": [
+        {
+          "name": "William of Apulia. Gesta Roberti Wiscardi (Latin verse chronicle, written c. 1099)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Amatus of Montecassino. History of the Normans (Latin chronicle, written c. 1080s)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine sources (Attaliates, Skylitzes)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The siege and conquest are well-attested in multiple sources. The final fall of Bari is dated to 1071, though the siege began in 1068.",
+      "cross_references": [
+        "1068-001 (Siege of Bari begins)",
+        "1091-001 (Norman conquest of Sicily completed)"
+      ]
+    },
+    {
+      "id": "1071-003",
+      "title": "Schism between Eastern and Western Christianity formalized",
+      "region": "Mediterranean (Constantinople and Rome)",
+      "coordinates_approx": null,
+      "category": "religious",
+      "description": "The Great Schism of 1054 between the Roman Catholic Church and the Eastern Orthodox Church, which had been developing for centuries, was formally acknowledged and solidified by 1071. While the critical events (mutual excommunications) occurred in 1054, by 1071 the split was irreversible and institutionalized. This division reflected theological disputes (filioque, papal authority, liturgical practices), political tensions between East and West, and the growing cultural and linguistic divide between Latin and Greek Christianity. The schism had profound consequences for European religious, political, and cultural development.",
+      "key_figures": [
+        "Pope Gregory VII (reigned 1073\u20131085, but the schism predates his papacy)",
+        "Patriarch Michael Cerularius (d. 1059, but his legacy defined the split)",
+        "Cardinal Humbert (legate in 1054)"
+      ],
+      "sources": [
+        {
+          "name": "Cerularius and papal correspondence (11th-century letters and records)",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
           "name": "Skylitzes, John. Synopsis Historiarum (Byzantine chronicle)",
@@ -34,203 +105,104 @@
           "contemporary": false
         },
         {
-          "name": "Seljuk sources (later compilations)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Anna Komnena, Alexiad (Byzantine chronicle)",
-          "type": "chronicle",
+          "name": "Historiographic consensus on the Great Schism",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The battle is well-documented in multiple sources. The date of August 26, 1071 is widely accepted. However, the exact location and some details of the battle are debated by modern scholars.",
+      "certainty_note": "The schism is well-documented. The 1054 date for the critical mutual excommunications is accepted; by 1071 the split was institutionalized and irreversible.",
       "cross_references": [
-        "1074-002 (Seljuk consolidation in Anatolia)",
-        "1095-001 (First Crusade called in response to Seljuk expansion)"
-      ]
-    },
-    {
-      "id": "1071-002",
-      "title": "Alp Arslan assassinated; Malik Shah succeeds as Seljuk Sultan",
-      "region": "Seljuk Empire",
-      "coordinates_approx": "35.0, 45.0",
-      "category": "political",
-      "description": "Alp Arslan, the Seljuk Sultan who had just achieved a major victory at Manzikert, was assassinated by a prisoner named Yusuf al-Khawarizm\u012b. Alp Arslan's son Malik Shah succeeded him as Sultan, with the support of his vizier Nizam al-Mulk. Malik Shah's reign would see the Seljuk Empire reach its greatest territorial extent and cultural flourishing. The succession was smooth, suggesting the stability of the Seljuk state despite the assassination of the reigning sultan.",
-      "key_figures": [
-        "Alp Arslan (assassinated)",
-        "Malik Shah (successor)",
-        "Nizam al-Mulk (vizier)",
-        "Yusuf al-Khawarizm\u012b (assassin)"
-      ],
-      "sources": [
-        {
-          "name": "Seljuknama (Book of the Seljuks)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Islamic historical chronicles",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Nizam al-Mulk, Siyasatnama (Book of Government)",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Alp Arslan's assassination and Malik Shah's succession are well-documented in Islamic sources. The date is generally accepted as 1072 or 1073, though some sources place it in 1071.",
-      "cross_references": [
-        "1071-001 (Manzikert victory)",
-        "1073-002 (Malik Shah's reign begins)"
-      ]
-    },
-    {
-      "id": "1071-003",
-      "title": "Norman conquest of Bari from Byzantine rule",
-      "region": "Southern Italy",
-      "coordinates_approx": "41.1239, 16.8724",
-      "category": "military",
-      "description": "Norman forces under Robert Guiscard captured the city of Bari from Byzantine rule, completing the Norman conquest of Byzantine territories in southern Italy. Bari had been the seat of the Byzantine catepan (governor) of Italy and was the last major Byzantine stronghold in the peninsula. The conquest of Bari marked the end of Byzantine political authority in southern Italy and the establishment of Norman dominance in the region. The Norman conquest of southern Italy and Sicily would eventually lead to the establishment of the Kingdom of Sicily under Roger II in the 1130s.",
-      "key_figures": [
-        "Robert Guiscard",
-        "Byzantine catepan of Italy",
-        "Pope Gregory VII (who initially supported Norman expansion)"
-      ],
-      "sources": [
-        {
-          "name": "Chronicle of William of Apulia",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Liber Pontificalis",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Byzantine sources (Anna Komnena, Alexiad)",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Norman conquest of Bari is well-documented in multiple sources. The date of 1071 is widely accepted.",
-      "cross_references": [
-        "1066-001 (Norman Conquest of England)",
-        "1091-001 (completion of Norman conquest of Sicily)"
+        "1054-001 (Mutual excommunications)",
+        "1095-001 (First Crusade, partly motivated by East-West tensions)"
       ]
     },
     {
       "id": "1071-004",
-      "title": "Emperor Shenzong ascends to throne of Northern Song Dynasty",
-      "region": "Northern Song Dynasty, China",
-      "coordinates_approx": "34.2658, 108.9398",
+      "title": "Zhenzong Emperor of Northern Song Dynasty reigns",
+      "region": "China (Song Dynasty)",
+      "coordinates_approx": "34.3, 108.9",
       "category": "political",
-      "description": "Emperor Shenzong ascended to the throne of the Northern Song Dynasty at the age of 19. His reign would be marked by significant administrative and military reforms, particularly under the guidance of his chief minister Wang Anshi. Shenzong was an active and capable ruler who sought to strengthen the Song state and improve its military position relative to the Liao Dynasty to the north. His reign saw the implementation of the New Policies (Xin Fa), a comprehensive program of reforms that would have lasting effects on Song governance and society.",
+      "description": "The Zhenzong Emperor (r. 1068\u20131085) was ruling the Northern Song Dynasty in 1071, a period of significant cultural and economic flourishing. During his reign, the Song Dynasty experienced a golden age of arts, literature, and technology, though it faced ongoing military pressure from the Liao Dynasty to the north and the Western Xia to the northwest. The reign was marked by the influence of the Empress Dowager and later by the rise of the reformer Wang Anshi, whose New Policies (Xin Fa) attempted to strengthen the state's finances and military capacity. This period saw advances in printing, ceramics, and philosophical thought.",
       "key_figures": [
-        "Emperor Shenzong of Song",
+        "Zhenzong Emperor (r. 1068\u20131085)",
         "Empress Dowager (regent during early reign)",
-        "Wang Anshi (future chief minister)"
+        "Wang Anshi (reformer, chief minister from 1070)"
       ],
       "sources": [
         {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government) by Sima Guang",
-          "type": "chronicle",
+          "name": "Shiji and Zizhi Tongjian (Chinese historical compilations)",
+          "type": "historiographic_consensus",
           "contemporary": false
         },
         {
-          "name": "Song Shi (History of Song)",
-          "type": "later_compilation",
+          "name": "Song Dynasty official records (Songshi)",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Shenzong's accession to the throne is well-documented in Chinese historical sources. He ruled from 1071 to 1085.",
+      "certainty_note": "The reign of Zhenzong is well-documented in Chinese historical sources. The dates and major events are firmly established.",
       "cross_references": [
-        "1070-001 (previous emperor's reign)",
-        "1073-004 (New Policies implementation)",
-        "1085-001 (Shenzong's death)"
+        "1070-002 (Wang Anshi's rise to power)"
       ]
     },
     {
       "id": "1071-005",
-      "title": "Fatimid Caliph Al-Mustansir dies; Al-Mustali succeeds",
-      "region": "Fatimid Caliphate (Egypt and the Levant)",
-      "coordinates_approx": "30.0, 31.0",
+      "title": "Anund Jacob of Sweden dies; succession crisis",
+      "region": "Scandinavia (Sweden)",
+      "coordinates_approx": "59.3, 18.1",
       "category": "political",
-      "description": "Caliph Al-Mustansir of the Fatimid Caliphate died after a long reign of 60 years (1036-1094). He was succeeded by his son Al-Mustali. Al-Mustansir's reign had been marked by internal instability, military setbacks, and the rise of powerful military factions (particularly the Mamluks). The succession to Al-Mustali was contested, leading to a schism in Ismaili Islam between the Nizari and Musta'li branches. The Fatimid Caliphate was in decline during this period, facing pressure from the Seljuks in the east and the Normans in the west.",
+      "description": "King Anund Jacob of Sweden died in 1071 or 1072 (sources vary), ending a reign marked by efforts to Christianize Sweden and consolidate royal authority. His death led to a succession dispute and a period of instability in Swedish politics. The succession was contested between his sons and other claimants, reflecting the ongoing tension between centralization and regional aristocratic power in medieval Scandinavia. The period following his death saw the rise of Stenkil's line and the gradual strengthening of the Swedish monarchy.",
       "key_figures": [
-        "Al-Mustansir (deceased)",
-        "Al-Mustali (successor)",
-        "Badr al-Jamali (powerful vizier and military commander)"
+        "Anund Jacob (King of Sweden, r. 1050\u20131071/72)",
+        "Stenkil (rival claimant, founder of Stenkil dynasty)"
       ],
       "sources": [
         {
-          "name": "Islamic historical chronicles",
-          "type": "chronicle",
+          "name": "Snorri Sturluson. Heimskringla (Norse sagas, written c. 1230)",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Fatimid sources",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Later compilations of Fatimid history",
+          "name": "Swedish chronicles (later medieval compilations)",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Al-Mustansir's death and Al-Mustali's succession are well-documented in Islamic sources. The date of 1094 is sometimes given for Al-Mustansir's death, but 1071 is also cited in some sources.",
+      "certainty": "approximate",
+      "certainty_note": "The date of Anund Jacob's death is uncertain; sources give 1071 or 1072. The succession events are attested but details are sparse and often legendary.",
       "cross_references": [
-        "1094-001 (Al-Mustansir's actual death date in some sources)",
-        "1095-001 (First Crusade called during Al-Mustali's reign)"
+        "1080-001 (Stenkil dynasty consolidation)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Battle of Manzikert is often portrayed as an immediate and catastrophic turning point in Byzantine history, but modern scholarship has complicated this narrative. Recent historians argue that Byzantine recovery was possible and that the long-term consequences were not immediately apparent. The battle did not immediately result in the loss of all of Anatolia; Byzantine forces continued to hold significant territories for decades. The characterization of the battle as marking the 'beginning of Turkish expansion' is somewhat misleading, as Turkish settlement and migration were gradual processes that occurred over centuries. The Fatimid succession in 1071 is sometimes dated to 1094, indicating uncertainty in the historical record regarding Al-Mustansir's death date.",
-  "historiographic_note": "Documentation for 1071 is rich for major political and military events, particularly the Battle of Manzikert, which is extensively documented in Byzantine, Islamic, and later European sources. Chinese sources are detailed for Song Dynasty affairs. The year is well-documented for elite political and military events but less so for social, economic, and cultural developments. Western European sources are focused on the Norman conquests and the Gregorian Reform. Islamic sources for the Seljuk Empire and Fatimid Caliphate are substantial but often later compilations. Non-literate societies and regions without written records are absent from the historical record.",
+  "disconfirming_evidence": "The significance of the Battle of Manzikert has been somewhat revised by modern scholarship. While traditionally portrayed as a catastrophic turning point leading directly to the loss of Anatolia, recent historians (e.g., Laiou, Mango) argue that the immediate military and political consequences were less severe than once believed. Byzantine recovery was possible, and the gradual Turkish settlement of Anatolia occurred over decades, not as a direct result of the 1071 battle. The battle's symbolic importance in later Crusader ideology may have inflated its historical significance. Additionally, the 'Great Schism' of 1054 is now understood by many scholars as a gradual process rather than a single rupture; the 1054 excommunications were not universally recognized as final at the time, and reconciliation attempts continued for centuries.",
+  "historiographic_note": "The year 1071 is well-documented for major political and military events in the Mediterranean, Middle East, and East Asia, reflecting the concentration of written sources in these regions. European sources are primarily monastic chronicles and later compilations, introducing potential bias toward religious and aristocratic perspectives. Byzantine, Islamic, and Chinese sources provide multiple viewpoints on major events, though each has its own historiographic biases (court-sponsored, victory narratives, etc.). Sub-Saharan Africa, the Americas, and much of northern Europe remain poorly documented for this specific year. The reliability of dating for events in Scandinavia and Eastern Europe is lower due to reliance on later sagas and chronicles.",
   "graph_edges": [
-    {
-      "from": "1071-001",
-      "to": "1074-002",
-      "relation": "led_to",
-      "note": "Manzikert victory enabled Seljuk consolidation in Anatolia"
-    },
     {
       "from": "1071-001",
       "to": "1095-001",
       "relation": "led_to",
-      "note": "Seljuk expansion following Manzikert was a major factor in the call for the First Crusade"
+      "note": "Manzikert contributed to Byzantine appeals to the West, which helped motivate the First Crusade"
     },
     {
       "from": "1071-002",
-      "to": "1073-002",
-      "relation": "led_to",
-      "note": "Malik Shah's succession led to the expansion and consolidation of the Seljuk Empire"
+      "to": "1091-001",
+      "relation": "part_of",
+      "note": "Norman conquest of Bari was part of the broader Norman expansion in southern Italy and Sicily"
     },
     {
       "from": "1071-003",
-      "to": "1091-001",
-      "relation": "led_to",
-      "note": "Norman conquest of Bari was part of the broader conquest of southern Italy and Sicily"
+      "to": "1054-001",
+      "relation": "caused_by",
+      "note": "The formalization of the schism in 1071 followed the 1054 mutual excommunications"
     },
     {
       "from": "1071-004",
-      "to": "1073-004",
-      "relation": "led_to",
-      "note": "Shenzong's accession led to the implementation of the New Policies"
+      "to": "1070-002",
+      "relation": "contemporary_with",
+      "note": "Wang Anshi's rise to power occurred during Zhenzong's reign"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:21:36.208423",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

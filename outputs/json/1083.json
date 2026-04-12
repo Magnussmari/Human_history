@@ -1,148 +1,234 @@
 {
   "year": 1083,
   "year_label": "1083 CE",
-  "era_context": "The High Middle Ages; the Investiture Controversy continues between Pope Gregory VII and Emperor Henry IV; the Norman consolidation of southern Italy and Sicily under Robert Guiscard; the Seljuk Sultanate of Rum expanding in Anatolia; the Northern Song Dynasty in China under Emperor Shenzong.",
+  "era_context": "The late 11th century was a period of significant political consolidation and religious reform across Eurasia. The Seljuk Empire dominated the Middle East; the Norman kingdoms controlled England and southern Italy; the Reconquista was advancing in Iberia; the Song Dynasty ruled a prosperous but militarily pressured China; and the Byzantine Empire was recovering under the Komnenos dynasty. This era witnessed the height of feudalism in Western Europe, the flourishing of Islamic civilization, and the early stirrings of the Crusade movement.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Pre-Columbian Americas",
-    "Oceania",
-    "Central Asia (limited written sources)"
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe beyond Scandinavia (sparse documentation)",
+    "Central Asian steppe (known primarily through Chinese and Islamic sources)",
+    "Pre-Columbian Americas (no written records)",
+    "Southeast Asia (limited written sources)"
   ],
   "events": [
     {
       "id": "1083-001",
-      "title": "Emperor Henry IV's Continued Conflict with Pope Gregory VII",
-      "region": "Holy Roman Empire / Papal States",
-      "coordinates_approx": "50.0, 10.0",
-      "category": "political",
-      "description": "In 1083, Emperor Henry IV continued his struggle against Pope Gregory VII over the right to invest bishops and other ecclesiastical offices. Henry had been excommunicated in 1076 and again in 1080, but maintained his position as emperor. The conflict remained unresolved, with neither side able to achieve decisive victory. This ongoing dispute shaped European politics and would not be resolved until the Concordat of Worms in 1122, nearly four decades later. The conflict fundamentally challenged the relationship between secular and religious authority in medieval Christendom.",
+      "title": "Henry IV Marches on Rome; Investiture Controversy Escalates",
+      "region": "Italy (Rome and surrounding territories)",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "military",
+      "description": "In 1083, Holy Roman Emperor Henry IV marched on Rome with his army in an attempt to force Pope Gregory VII to recognize his authority over ecclesiastical appointments. This represented an escalation of the Investiture Controversy, in which Henry and Gregory were locked in a struggle over the right to invest bishops. Henry's march on Rome was a dramatic assertion of imperial authority and a challenge to papal independence. The conflict would culminate in Henry's siege of Rome in 1084 and Gregory VII's flight from the city.",
       "key_figures": [
-        "Henry IV (Holy Roman Emperor, r. 1056\u20131106)",
-        "Pope Gregory VII (r. 1015\u20131085)"
+        "Holy Roman Emperor Henry IV",
+        "Pope Gregory VII"
       ],
       "sources": [
         {
-          "name": "Lampert of Hersfeld, Annals",
-          "type": "chronicle",
+          "name": "Register of Gregory VII",
+          "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Liber Pontificalis",
+          "name": "Saxon Anonymous, Life of Henry IV",
           "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus on the Investiture Controversy",
-          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The ongoing nature of the Investiture Controversy in 1083 is well-documented in contemporary chronicles.",
+      "certainty_note": "Henry IV's march on Rome in 1083 is well-attested in contemporary and near-contemporary sources.",
       "cross_references": [
-        "1076-001 (First excommunication of Henry IV)",
-        "1080-001 (Second excommunication of Henry IV)",
-        "1084-001 (Death of Gregory VII)"
+        "1076-001 (Henry IV's excommunication)",
+        "1084-001 (Henry IV's siege of Rome)"
       ]
     },
     {
       "id": "1083-002",
-      "title": "Robert Guiscard's Campaigns in the Balkans",
-      "region": "Balkans / Byzantine Empire",
-      "coordinates_approx": "39.0, 21.0",
-      "category": "military",
-      "description": "Robert Guiscard, the Norman Duke of Apulia, launched military campaigns in the Balkans against Byzantine forces, seeking to expand Norman territorial control. These campaigns were part of a broader Norman expansion that threatened Byzantine interests in the region. The Byzantine Emperor Alexios I Komnenos (r. 1081\u20131118) was forced to respond to Norman aggression, which would eventually lead to his appeal for Western military aid\u2014a request that contributed to the calling of the First Crusade in 1095.",
+      "title": "Seljuk Empire: Malik Shah at Peak of Power",
+      "region": "Seljuk Empire (Persia, Mesopotamia, Anatolia)",
+      "coordinates_approx": "35.7, 51.4",
+      "category": "political",
+      "description": "Sultan Malik Shah (r. 1072\u20131092) ruled the Seljuk Empire at the height of its power in 1083. The empire controlled vast territories from Anatolia to Khorasan, making it one of the largest and most powerful states in the medieval world. Malik Shah's reign was characterized by administrative efficiency, military strength, and cultural patronage. The Nizamiyya madrasas, founded by his vizier Nizam al-Mulk, were flourishing as centers of Islamic learning and theology. The Seljuk Empire was a major player in Middle Eastern politics and a center of Islamic civilization.",
       "key_figures": [
-        "Robert Guiscard (Norman Duke of Apulia, c. 1015\u20131085)",
-        "Alexios I Komnenos (Byzantine Emperor, r. 1081\u20131118)"
+        "Malik Shah, Seljuk Sultan",
+        "Nizam al-Mulk, Vizier"
+      ],
+      "sources": [
+        {
+          "name": "Seljuk administrative records and later Islamic chronicles",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Malik Shah's reign and the Seljuk Empire's territorial extent are well-attested in Islamic sources.",
+      "cross_references": [
+        "1092-001 (Death of Malik Shah and Nizam al-Mulk)"
+      ]
+    },
+    {
+      "id": "1083-003",
+      "title": "Song Dynasty: Military Campaigns and Administrative Reforms",
+      "region": "China (Song Dynasty)",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "In 1083, the Song Dynasty under Emperor Shenzong (r. 1067\u20131085) was implementing administrative reforms and conducting military campaigns. The New Policies (Xin Fa) of Wang Anshi were being implemented to strengthen the state's military and fiscal capacity. The Song faced persistent military pressure from the Jurchen Jin Dynasty in the north and the Western Xia in the northwest. Despite these pressures, the Song Dynasty was prosperous and culturally advanced. Shenzong's reign would end in 1085 with the succession of his young son Emperor Zhezong.",
+      "key_figures": [
+        "Emperor Shenzong of Song",
+        "Wang Anshi (reformer)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Song official records and administrative documents",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Song Dynasty political and administrative history is well-documented in Chinese chronicles and official records.",
+      "cross_references": [
+        "1085-002 (Shenzong's death)"
+      ]
+    },
+    {
+      "id": "1083-004",
+      "title": "Byzantine Empire: Alexios I Komnenos Consolidates Power",
+      "region": "Byzantine Empire",
+      "coordinates_approx": "41.0, 28.9",
+      "category": "political",
+      "description": "Emperor Alexios I Komnenos (r. 1081\u20131118) continued his consolidation of Byzantine power in 1083. Having taken power after the catastrophic defeat at Manzikert (1071), Alexios implemented military reforms, reorganized the provincial administration, and worked to restore the empire's financial stability. In 1083, he was consolidating control over the Balkans and preparing for future conflicts with the Normans and the Seljuks. His reign marked the beginning of the Komnenos dynasty's restoration of Byzantine power and prestige.",
+      "key_figures": [
+        "Alexios I Komnenos, Byzantine Emperor"
       ],
       "sources": [
         {
           "name": "Anna Komnena, Alexiad",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine administrative records and military treatises",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Alexios I's reign and policies are well-documented in Byzantine sources.",
+      "cross_references": [
+        "1081-001 (Alexios I's accession)"
+      ]
+    },
+    {
+      "id": "1083-005",
+      "title": "Iberia: Christian Reconquista Advances; Alfonso VI Consolidates Gains",
+      "region": "Iberia (Castile and Le\u00f3n)",
+      "coordinates_approx": "39.86, -4.03",
+      "category": "military",
+      "description": "In 1083, Alfonso VI of Castile and Le\u00f3n was consolidating Christian gains in Iberia and preparing for further advances. The Reconquista was advancing, with Christian kingdoms gradually expanding their territories at the expense of Muslim al-Andalus. Alfonso VI was one of the most successful Christian rulers of the period, and his reign saw significant territorial expansion. The siege of Toledo would begin in 1084 and culminate in its capture in 1085, representing a major Christian victory.",
+      "key_figures": [
+        "Alfonso VI of Castile and Le\u00f3n"
+      ],
+      "sources": [
+        {
+          "name": "Chronicle of Alfonso VI; Estoria de Espa\u00f1a",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
           "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Alfonso VI's consolidation of Christian gains in 1083 is attested in sources, though specific events for this year are less detailed than for 1084-1085.",
+      "cross_references": [
+        "1084-005 (Toledo siege begins)",
+        "1085-001 (Toledo's capture)"
+      ]
+    },
+    {
+      "id": "1083-006",
+      "title": "Japan: Heian Period Court Politics",
+      "region": "Japan (Heian Period)",
+      "coordinates_approx": "35.0, 135.8",
+      "category": "cultural",
+      "description": "In 1083, Japan was in the Heian period, dominated by the Fujiwara regency system and characterized by significant cultural developments. The imperial court was a center of literary and artistic achievement, with the flourishing of Japanese literature, calligraphy, and painting. Emperor Shirakawa was ruling with Fujiwara regents, and the court was engaged in elaborate ceremonies and cultural patronage. The samurai warrior class was gradually gaining power, and the Fujiwara regency system was beginning to decline.",
+      "key_figures": [
+        "Emperor Shirakawa",
+        "Fujiwara regents"
+      ],
+      "sources": [
+        {
+          "name": "Nihon Kiryaku (Japanese historical record)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Eiga Monogatari (Tale of Splendor)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Japanese court politics and cultural developments are well-documented in Japanese historical records.",
+      "cross_references": [
+        "1086-008 (Shirakawa's abdication)"
+      ]
+    },
+    {
+      "id": "1083-007",
+      "title": "Norman Kingdom of Sicily: Consolidation of Conquest",
+      "region": "Southern Italy and Sicily",
+      "coordinates_approx": "37.5, 14.0",
+      "category": "political",
+      "description": "In 1083, the Norman conquest of southern Italy and Sicily was nearing completion. Robert Guiscard and his successors had been systematically conquering Byzantine and Muslim territories in the region since the 1050s. By 1083, Norman control was firmly established over most of southern Italy and Sicily, creating a powerful Norman kingdom that rivaled the Byzantine Empire and the Papal States. The Normans were consolidating their administrative control and integrating the diverse populations of their new territories.",
+      "key_figures": [
+        "Robert Guiscard (Norman leader)",
+        "Roger Guiscard (Norman leader)"
+      ],
+      "sources": [
+        {
+          "name": "William of Apulia, Gesta Roberti Wiscardi",
+          "type": "chronicle",
           "contemporary": false
         },
         {
           "name": "Amatus of Montecassino, History of the Normans",
           "type": "chronicle",
           "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus on Norman-Byzantine conflicts",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Norman campaigns in the Balkans in the early 1080s are attested in sources, though specific events in 1083 are less precisely dated.",
-      "cross_references": [
-        "1081-001 (Alexios I Komnenos becomes Byzantine Emperor)",
-        "1095-001 (First Crusade called, partly in response to Byzantine appeals)"
-      ]
-    },
-    {
-      "id": "1083-003",
-      "title": "Northern Song Dynasty Administration Under Emperor Shenzong",
-      "region": "China / Northern Song Dynasty",
-      "coordinates_approx": "34.0, 114.0",
-      "category": "political",
-      "description": "Emperor Shenzong of the Northern Song Dynasty (r. 1067\u20131085) continued his reign in 1083, overseeing a period of significant administrative and military reform. Shenzong's reign was marked by the New Policies (Xin Fa) initiated by the reformer Wang Anshi, which sought to strengthen the state through fiscal and military reforms. By 1083, these policies had been in effect for over a decade, reshaping Song governance and military capacity. Shenzong's reign represented a high point of Song power and administrative sophistication.",
-      "key_figures": [
-        "Shenzong (Emperor of Northern Song Dynasty, r. 1067\u20131085)",
-        "Wang Anshi (Reformer and Chancellor, c. 1021\u20131086)"
-      ],
-      "sources": [
-        {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government) by Sima Guang",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Song Shi (History of the Song Dynasty)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus on Song Dynasty administration",
-          "type": "historiographic_consensus",
-          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Shenzong's reign and the New Policies are well-documented in Chinese historical sources.",
+      "certainty_note": "Norman consolidation of southern Italy and Sicily by 1083 is well-documented in contemporary and near-contemporary chronicles.",
       "cross_references": [
-        "1067-001 (Shenzong becomes emperor)",
-        "1085-001 (Death of Shenzong)"
+        "1091-001 (Final Norman conquest of Sicily)"
       ]
     }
   ],
-  "disconfirming_evidence": "The significance of Robert Guiscard's Balkan campaigns in 1083 is sometimes overstated in Western sources; Byzantine sources (Anna Komnena) provide a different perspective, emphasizing Byzantine military successes and the eventual containment of Norman expansion. The direct causal link between these campaigns and the First Crusade is debated\u2014some scholars argue the Crusade was called for other reasons, though Byzantine military pressure was certainly a factor. The New Policies of Wang Anshi are sometimes portrayed as uniformly successful; modern scholarship notes they were controversial and had mixed results, with significant opposition from conservative officials.",
-  "historiographic_note": "Documentation for 1083 is moderate, with strong coverage of Western European and Byzantine sources, and good coverage of Chinese sources. The Investiture Controversy is extensively documented from multiple perspectives. Norman activities are well-attested. Chinese sources provide detailed information on Song Dynasty administration. Islamic sources are less detailed for specific events in 1083. The historical record is biased toward major political and military events; economic and social history are underrepresented. Western sources tend to emphasize European events; Asian sources are often consulted separately rather than integrated into a global narrative.",
+  "disconfirming_evidence": "The significance of Henry IV's march on Rome in 1083 is sometimes overstated as a complete assertion of imperial authority; while it was a dramatic gesture, it did not immediately resolve the Investiture Controversy. The Seljuk Empire's stability under Malik Shah is sometimes presented as more complete than it actually was; regional governors exercised considerable autonomy. The Song Dynasty's military weakness is sometimes portrayed as a permanent condition, but the Song actually had significant military capabilities and won important victories.",
+  "historiographic_note": "The year 1083 is moderately well-documented in Western European sources, particularly regarding the Investiture Controversy. Islamic sources provide good coverage of Seljuk affairs. Chinese sources are rich for Song Dynasty history. Byzantine sources are adequate but often written from a court perspective. Japanese sources are good for court history. However, sources are heavily weighted toward elite political, military, and religious events; the lives of common people, women, and non-literate societies are underrepresented. Sub-Saharan African, Northern European, and Central Asian histories are poorly represented in surviving written sources for this year.",
   "graph_edges": [
     {
       "from": "1083-001",
-      "to": "1076-001",
-      "relation": "part_of",
-      "note": "The 1083 conflict is part of the ongoing Investiture Controversy that began in 1076"
+      "to": "1084-001",
+      "relation": "led_to",
+      "note": "Henry IV's march on Rome in 1083 led to his siege of Rome in 1084"
     },
     {
       "from": "1083-002",
-      "to": "1081-001",
-      "relation": "contemporary_with",
-      "note": "Norman-Byzantine conflicts occurred during Alexios I's reign"
-    },
-    {
-      "from": "1083-003",
-      "to": "1067-001",
-      "relation": "part_of",
-      "note": "Shenzong's administrative policies were part of his broader reign"
+      "to": "1092-001",
+      "relation": "led_to",
+      "note": "Malik Shah's reign at peak in 1083 ended with his death in 1092"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T18:18:05.863351",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

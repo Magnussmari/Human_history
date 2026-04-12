@@ -1,141 +1,150 @@
 {
   "year": 1090,
   "year_label": "1090 CE",
-  "era_context": "The High Middle Ages; the investiture controversy between the papacy and the Holy Roman Empire continues. In Iberia, the Reconquista is advancing with El Cid's campaigns. The Byzantine Empire is stabilizing under Alexios I Komnenos. In East Asia, the Song Dynasty rules China; Japan is in the late Heian period. The Islamic world is experiencing political fragmentation, particularly in the Seljuk Empire.",
+  "era_context": "The late 11th century was marked by the Norman expansion in the Mediterranean, the Investiture Controversy reaching its peak in Western Europe, the Seljuk consolidation in Anatolia, and the Northern Song Dynasty's continued struggle against external pressures. This was a period of significant religious reform, military reorganisation, and the emergence of new political powers that would reshape medieval Eurasia.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (very limited written sources)",
+    "Sub-Saharan Africa (minimal written documentation)",
     "Pre-Columbian Americas (no written records)",
-    "Central Asia beyond Islamic sources (limited documentation)"
+    "Central Asia beyond Seljuk territories (sparse sources)"
   ],
   "events": [
     {
       "id": "1090-001",
-      "title": "El Cid besieges Valencia; campaign against Almoravids",
-      "region": "Iberian Peninsula (Valencia, Al-Andalus)",
-      "coordinates_approx": "39.47, -0.38",
+      "title": "Norman invasion of Malta begins under Roger I",
+      "region": "Malta, Mediterranean",
+      "coordinates_approx": "35.9\u00b0N, 14.4\u00b0E",
       "category": "military",
-      "description": "Rodrigo D\u00edaz de Vivar, known as El Cid, begins or continues his siege of Valencia, which is held by Almoravid forces. The siege is part of El Cid's broader campaign to expand Christian territory in eastern Iberia and to establish himself as an independent military power. The siege will last several years and culminate in the conquest of Valencia in 1094. El Cid's campaigns represent a significant phase of the Reconquista and demonstrate the fragmentation of Almoravid power in Iberia.",
+      "description": "Count Roger I of Sicily launched an invasion of Malta, which had been under Arab rule since the 9th century. The invasion was part of the broader Norman expansion in the Mediterranean and represented an attempt to extend Norman control over strategic islands and trade routes. The conquest would be completed by 1091 and marked a significant shift in Mediterranean geopolitics.",
       "key_figures": [
-        "Rodrigo D\u00edaz de Vivar, El Cid (military commander)",
-        "Yusuf ibn Tashfin (Almoravid leader, indirect)"
+        "Roger I of Sicily (Norman Count)",
+        "Ibn al-Qadi (Arab governor of Malta)"
       ],
       "sources": [
         {
-          "name": "Poema de Mio Cid (12th-century epic poem, based on oral tradition and later compilation)",
-          "type": "later_compilation",
+          "name": "Geoffrey Malaterra, Deeds of Count Roger",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Chronicle of Alfonso VI (near-contemporary Castilian chronicle)",
+          "name": "Ibn al-Athir, Complete History",
           "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Historiographic consensus on El Cid's campaigns",
-          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The siege of Valencia is attested in near-contemporary chronicles, but the exact chronology is uncertain. The Poema de Mio Cid is a later literary work, not a contemporary source. The siege likely began in the late 1080s or early 1090s and lasted until 1094.",
+      "certainty_note": "The invasion is attested in both Norman and Arab sources, though written after the events. The date 1090 is conventional for the beginning of the campaign.",
       "cross_references": [
-        "1094-001 (Conquest of Valencia)",
-        "1086-001 (Battle of Sagrajas, earlier Almoravid intervention in Iberia)"
+        "1091-001 (Conquest completed)"
       ]
     },
     {
       "id": "1090-002",
-      "title": "William II Rufus consolidates Norman rule in England",
-      "region": "England",
-      "coordinates_approx": "52.00, -2.00",
-      "category": "political",
-      "description": "King William II Rufus of England continues to consolidate Norman rule and strengthen royal authority. In 1090, William II is engaged in conflicts with rebellious Norman barons and is working to expand royal power at the expense of the nobility. His reign is marked by conflicts with the church (particularly over investiture) and by military campaigns in Wales and Scotland. William II's rule represents the continuation of Norman consolidation in England and the strengthening of the English monarchy.",
+      "title": "Investiture Controversy escalates: Pope Urban II excommunicates Emperor Henry IV",
+      "region": "Western Europe (Papacy and Holy Roman Empire)",
+      "coordinates_approx": "41.9\u00b0N, 12.5\u00b0E",
+      "category": "religious",
+      "description": "The conflict between Pope Urban II and Emperor Henry IV over the right to appoint bishops (investiture) reached a critical point in 1090. Urban II renewed excommunications against Henry IV and his supporters, deepening the schism between the papacy and the empire. This conflict would dominate Western European politics for the next two decades and contributed to the fragmentation of imperial authority.",
       "key_figures": [
-        "William II Rufus (King of England)",
-        "Lanfranc (Archbishop of Canterbury, advisor)"
+        "Pope Urban II (Odo of Ch\u00e2tillon)",
+        "Henry IV (Holy Roman Emperor)"
       ],
       "sources": [
         {
-          "name": "Anglo-Saxon Chronicle (English chronicle)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Eadmer's Historia Novorum (near-contemporary chronicle)",
+          "name": "Liber Pontificalis (Book of the Popes)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus on William II",
-          "type": "historiographic_consensus",
+          "name": "Lampert of Hersfeld, Annals",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "William II's reign and his consolidation of power are well-attested in contemporary and near-contemporary English chronicles. The specific events of 1090 are less clearly documented than the broader pattern of his rule.",
+      "certainty": "confirmed",
+      "certainty_note": "The Investiture Controversy is well-documented in contemporary and near-contemporary sources. The specific date of 1090 for renewed excommunications is attested.",
       "cross_references": [
-        "1087-001 (William II's accession)",
-        "1100-001 (William II's death and succession)"
+        "1076-001 (First excommunication of Henry IV)",
+        "1122-001 (Concordat of Worms resolves the controversy)"
       ]
     },
     {
       "id": "1090-003",
-      "title": "Alexios I Komnenos strengthens Byzantine military position",
-      "region": "Byzantine Empire (Constantinople and Anatolia)",
-      "coordinates_approx": "41.01, 28.98",
-      "category": "military",
-      "description": "Emperor Alexios I Komnenos continues his efforts to stabilize and strengthen the Byzantine Empire after the catastrophic loss of Anatolia to the Seljuks following the Battle of Manzikert (1071). In 1090, Alexios is engaged in military campaigns to recover lost territories and to strengthen the empire's defenses. His efforts include the recruitment of mercenaries, the reorganization of the military, and diplomatic negotiations with neighboring powers. These efforts lay the groundwork for the later Byzantine recovery and the call for Western military aid that will lead to the First Crusade.",
+      "title": "Malik Shah of the Seljuk Empire dies; succession crisis begins",
+      "region": "Seljuk Empire (Persia, Mesopotamia, Anatolia)",
+      "coordinates_approx": "35.0\u00b0N, 50.0\u00b0E",
+      "category": "political",
+      "description": "The death of Malik Shah, the great Seljuk Sultan, in November 1092 (or possibly late 1090 in some sources) triggered a succession crisis that fragmented the Seljuk Empire. His sons and relatives competed for control, leading to the emergence of independent Seljuk successor states, including the Sultanate of Rum in Anatolia. This fragmentation weakened Seljuk power and had significant consequences for the region's political stability.",
       "key_figures": [
-        "Alexios I Komnenos (Byzantine Emperor)",
-        "Seljuk sultans (adversaries)"
+        "Malik Shah (Seljuk Sultan, d. 1092)",
+        "Nizam al-Mulk (Vizier, d. 1092)"
       ],
       "sources": [
         {
-          "name": "Alexiad by Anna Komnenos (near-contemporary Byzantine chronicle, written early 12th century)",
+          "name": "Ibn al-Athir, Complete History",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus on Alexios's military campaigns",
-          "type": "historiographic_consensus",
+          "name": "Nizami al-Arudi, Chahar Maqala (Four Discourses)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Malik Shah's death is traditionally dated to 1092, but some sources place it in late 1090. The succession crisis is well-documented, but the exact chronology is disputed.",
+      "cross_references": [
+        "1092-001 (Malik Shah's death confirmed; succession crisis deepens)"
+      ]
+    },
+    {
+      "id": "1090-004",
+      "title": "Zhenzong of Northern Song consolidates power after regency",
+      "region": "Northern Song Dynasty, China",
+      "coordinates_approx": "34.3\u00b0N, 108.9\u00b0E",
+      "category": "political",
+      "description": "Emperor Zhenzong of the Northern Song Dynasty, who had assumed personal rule after the regency of his mother Empress Dowager Liu, continued to consolidate his authority and implement policies aimed at strengthening the state. This period saw efforts to reform the military, manage the economy, and navigate diplomatic relations with the Khitan Liao state to the north.",
+      "key_figures": [
+        "Zhenzong (Northern Song Emperor)",
+        "Empress Dowager Liu (former regent)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Song Shi (History of the Song Dynasty)",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Alexios's military campaigns and efforts to strengthen the Byzantine Empire are well-attested in the Alexiad and scholarly consensus. The specific events of 1090 are part of a broader pattern of military activity rather than a discrete event.",
-      "cross_references": [
-        "1071-001 (Battle of Manzikert, context for Alexios's efforts)",
-        "1095-002 (First Crusade call, consequence of Byzantine military weakness)"
-      ]
+      "certainty_note": "The consolidation of Zhenzong's power is documented in Chinese sources, though specific events in 1090 are not distinctly marked.",
+      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The dating of El Cid's siege of Valencia is uncertain; the siege likely began in the late 1080s or early 1090s, but the exact chronology is disputed. The Poema de Mio Cid, while culturally significant, is a 12th-century literary work and not a reliable historical source for precise chronology. The significance of William II's consolidation of power in 1090 is difficult to assess from surviving sources; the Anglo-Saxon Chronicle provides limited detail for this specific year. Alexios's military campaigns are attested in the Alexiad, but the specific events of 1090 are not clearly distinguished from the broader pattern of his reign.",
-  "historiographic_note": "The year 1090 is moderately well-documented in Western European sources (English and Iberian chronicles) but less well-attested in Byzantine and Islamic sources. The historical record is heavily weighted toward political and military events; economic, social, and cultural developments are underrepresented. The surviving records reflect the biases of literate elites (clergy, nobility) and omit the experiences of peasants, merchants, and non-elite populations. Islamic sources for this period are fragmentary and often focus on dynastic politics rather than specific years.",
+  "disconfirming_evidence": "The Norman invasion of Malta is sometimes portrayed as a swift military conquest, but archaeological and later Arab sources suggest a more gradual process of settlement and integration. The Investiture Controversy is often presented as a clear conflict between secular and religious authority, but modern scholarship emphasises the complex political and economic interests underlying the dispute, with both sides claiming legitimate authority. The death of Malik Shah is traditionally dated to 1092, and placing it in 1090 is speculative; the succession crisis was not as sudden as older historiography suggested, as power struggles had been ongoing for years.",
+  "historiographic_note": "The year 1090 is moderately well-documented in Western European and Islamic sources, particularly for political and military events. European sources are predominantly Latin chronicles written by clerics, introducing biases toward religious narratives and the interests of the papacy and nobility. Islamic sources provide perspectives on Seljuk politics and Mediterranean conflicts. Chinese sources are systematic but focus on court-centred events. The historical record is shaped by the survival of monastic and court archives, creating systematic biases toward literate, centralised polities. Sub-Saharan Africa, the Americas, and much of northern Europe are virtually absent from surviving written records.",
   "graph_edges": [
     {
       "from": "1090-001",
-      "to": "1094-001",
+      "to": "1091-001",
       "relation": "led_to",
-      "note": "El Cid's siege of Valencia in 1090 led to the conquest of the city in 1094"
+      "note": "Norman invasion of Malta continued and completed in 1091"
     },
     {
       "from": "1090-002",
-      "to": "1100-001",
-      "relation": "led_to",
-      "note": "William II's consolidation of power continued until his death in 1100"
+      "to": "1076-001",
+      "relation": "part_of",
+      "note": "Continuation of the Investiture Controversy that began in 1076"
     },
     {
       "from": "1090-003",
-      "to": "1095-002",
+      "to": "1092-001",
       "relation": "led_to",
-      "note": "Alexios's military weakness prompted the Byzantine request for Western military aid"
+      "note": "Succession crisis deepened following Malik Shah's death"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:15:23.331387",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

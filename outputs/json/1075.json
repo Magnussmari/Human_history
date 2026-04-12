@@ -1,29 +1,59 @@
 {
   "year": 1075,
   "year_label": "1075 CE",
-  "era_context": "The year 1075 marks a critical moment in the development of medieval European political thought and the relationship between secular and ecclesiastical authority. Pope Gregory VII issued the Dictatus Papae, asserting unprecedented claims to papal supremacy. This assertion would directly lead to the Investiture Controversy with Emperor Henry IV, culminating in Henry's excommunication in 1076 and submission at Canossa in 1077. Simultaneously, the Seljuk Empire was consolidating its power in Anatolia following Manzikert (1071), and the Northern Song Dynasty in China was implementing ambitious administrative reforms.",
-  "documentation_level": "moderate",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Pre-Columbian Americas",
-    "Northern and Eastern Europe beyond the Balkans",
-    "Central Asia and India"
-  ],
+  "era_context": "The Investiture Controversy is escalating in Europe; Pope Gregory VII and Emperor Henry IV are on a collision course. The Norman Conquest of England is 9 years past. In the Islamic world, the Seljuk Empire is consolidating power in Anatolia and the Levant. The Northern Song Dynasty continues to rule China under Emperor Shenzong, with Wang Anshi's reforms in full effect. Japan remains in the Heian period.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1075-001",
-      "title": "Pope Gregory VII Issues the Dictatus Papae (Papal Dictates)",
-      "region": "Papal States / Holy Roman Empire",
-      "coordinates_approx": "41.9028, 12.4534",
+      "title": "Pope Gregory VII excommunicates King Henry IV over investiture",
+      "region": "Holy Roman Empire and Papal States",
+      "coordinates_approx": "41.90, 12.49",
       "category": "religious",
-      "description": "In 1075, Pope Gregory VII issued the Dictatus Papae, a document asserting unprecedented claims to papal supremacy over secular rulers. The Dictatus Papae consisted of 27 propositions asserting that the Pope had supreme authority over the Church and could depose emperors and kings. Key claims included: the Pope alone could use imperial insignia; the Pope could depose emperors; secular rulers had no authority to appoint bishops; and the Pope was infallible in matters of faith. These radical assertions directly challenged the traditional understanding of the relationship between secular and ecclesiastical authority and provoked immediate resistance from Emperor Henry IV and other secular rulers. The Dictatus Papae became the theoretical foundation for the Investiture Controversy and represented a watershed moment in the development of medieval political thought.",
+      "description": "In 1075, Pope Gregory VII excommunicated King Henry IV of the Salian dynasty for his continued practice of investing bishops without papal consent. This was the first major excommunication in what would become the Investiture Controversy. Gregory VII had issued the Dictatus Papae in 1075, asserting papal supremacy over secular rulers in ecclesiastical matters. Henry IV's response was defiant\u2014he claimed the right to appoint bishops as part of his royal prerogative. This excommunication was a watershed moment: it demonstrated the papacy's willingness to use its spiritual authority as a political weapon and forced Henry to choose between submission and defiance.",
       "key_figures": [
         "Pope Gregory VII (Hildebrand of Sovana)",
-        "Emperor Henry IV of the Holy Roman Empire"
+        "King Henry IV (Salian dynasty)",
+        "Cardinal Humbert (papal legate, died 1061 but his legacy influenced Gregory)"
       ],
       "sources": [
         {
-          "name": "Registrum Gregorii VII (Register of Pope Gregory VII)",
+          "name": "Register of Pope Gregory VII (papal records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Lampert of Hersfeld, Annales (near-contemporary chronicle)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Bonizo of Sutri, Liber ad amicum (contemporary polemical account)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The excommunication is documented in Gregory VII's own register and multiple contemporary chronicles. The date is well-established.",
+      "cross_references": [
+        "1075-002 (Dictatus Papae)",
+        "1076-001 (Synod of Worms, Henry's response)"
+      ]
+    },
+    {
+      "id": "1075-002",
+      "title": "Pope Gregory VII issues the Dictatus Papae",
+      "region": "Papal States (Rome)",
+      "coordinates_approx": "41.90, 12.49",
+      "category": "religious",
+      "description": "In 1075, Pope Gregory VII issued the Dictatus Papae, a document asserting the supreme authority of the pope over all secular rulers and the church. The document contained 27 propositions, including claims that the pope could depose emperors, that no one could judge the pope, and that the pope's legates took precedence over all bishops. The Dictatus Papae was revolutionary for its time and became the ideological foundation for the Investiture Controversy. It represented a dramatic assertion of papal power and a challenge to the traditional balance between church and state in medieval Europe.",
+      "key_figures": [
+        "Pope Gregory VII"
+      ],
+      "sources": [
+        {
+          "name": "Register of Pope Gregory VII (papal records)",
           "type": "primary_text",
           "contemporary": true
         },
@@ -34,177 +64,159 @@
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Dictatus Papae is preserved in Gregory VII's register and is one of the best-documented statements of papal claims in the medieval period.",
+      "certainty_note": "The Dictatus Papae is preserved in Gregory VII's register and is one of the most important documents of medieval church history. Its date and content are well-established.",
       "cross_references": [
-        "1076 (Henry IV's excommunication)",
-        "1077 (Walk to Canossa)"
-      ]
-    },
-    {
-      "id": "1075-002",
-      "title": "Synod of Rome and Ecclesiastical Reform",
-      "region": "Papal States / Western Europe",
-      "coordinates_approx": "41.9028, 12.4534",
-      "category": "religious",
-      "description": "In 1075, Pope Gregory VII convened a synod in Rome that reinforced the prohibition on lay investiture and simony (the sale of ecclesiastical offices). The synod issued decrees against clerical marriage and the appointment of bishops by secular rulers. These decrees were part of the broader Gregorian Reform movement, which sought to purify the Church of corruption and assert its independence from secular control. The synod's decisions directly challenged the traditional practice of secular rulers appointing bishops and other high church officials, setting the stage for the Investiture Controversy with Emperor Henry IV.",
-      "key_figures": [
-        "Pope Gregory VII",
-        "Reformist bishops and cardinals"
-      ],
-      "sources": [
-        {
-          "name": "Registrum Gregorii VII",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Liber Pontificalis",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Gregory VII's synods and their decrees are documented in his register, though specific details of individual synods are sometimes conflated in surviving records.",
-      "cross_references": [
-        "1075-001 (Dictatus Papae)"
+        "1075-001 (Gregory VII's excommunication of Henry IV)"
       ]
     },
     {
       "id": "1075-003",
-      "title": "Seljuk Consolidation in Anatolia and the Levant",
-      "region": "Anatolia / Levant / Seljuk Empire",
-      "coordinates_approx": "39.0, 35.0",
+      "title": "Seljuk Sultan Malik Shah consolidates power in Persia and the Levant",
+      "region": "Seljuk Empire (Persia, Mesopotamia, Levant)",
+      "coordinates_approx": "35.0, 50.0",
       "category": "political",
-      "description": "Four years after their decisive victory at Manzikert (1071), the Seljuk Turks continued consolidating their control over Anatolia and expanding into the Levant. By 1075, the Seljuk Empire under Malik Shah was at the height of its power, controlling vast territories from Central Asia to Syria. The Seljuk expansion had fundamentally altered the demographic and political map of the Near East, displacing Byzantine and Armenian Christian populations and establishing Turkish Islamic rule. The Seljuk consolidation represented one of the most significant geopolitical shifts of the 11th century and would directly provoke the Byzantine emperor's appeal to the West, leading to the First Crusade (1096).",
+      "description": "In 1075, Malik Shah, the Seljuk Sultan, continued to consolidate his power over the vast Seljuk Empire, which stretched from Anatolia to Persia. Malik Shah's reign (1072\u20131092) was marked by administrative reforms, the patronage of scholars and poets, and the expansion of Seljuk influence. He was supported by his vizier Nizam al-Mulk, one of the most capable administrators of the medieval Islamic world. Under Malik Shah, the Seljuk Empire reached the height of its power and cultural achievement, becoming a major center of Islamic learning and art.",
       "key_figures": [
         "Malik Shah (Seljuk Sultan)",
-        "Nizam al-Mulk (Seljuk Vizier)"
+        "Nizam al-Mulk (Vizier)",
+        "Alp Arslan (Malik Shah's father, died 1072)"
       ],
       "sources": [
         {
-          "name": "Byzantine chronicles (Psellos, Skylitzes)",
-          "type": "chronicle",
+          "name": "Historiographic consensus on Seljuk history",
+          "type": "historiographic_consensus",
           "contemporary": false
         },
         {
-          "name": "Seljuk-nama",
+          "name": "Later Islamic chronicles (e.g., Juvayni's Tarikh-i Jahan-Gusha)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of Malik Shah's consolidation is well-established, but specific events in 1075 are not individually documented in contemporary sources.",
+      "cross_references": [
+        "1092-001 (Assassination of Nizam al-Mulk and death of Malik Shah)"
+      ]
+    },
+    {
+      "id": "1075-004",
+      "title": "Northern Song Dynasty: Wang Anshi appointed Chief Minister",
+      "region": "Northern Song China",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "In 1075, Wang Anshi was appointed Chief Minister (Chancellor) of the Northern Song Dynasty under Emperor Shenzong. Wang Anshi was a brilliant but controversial reformer who sought to strengthen the Song state through radical administrative and economic reforms known as the New Policies (Xin Fa). These included land reform, state monopolies on salt and iron, military reorganization, and new taxation systems. Wang Anshi's appointment marked the beginning of a period of intense political conflict between reformers and conservatives in the Song bureaucracy, a conflict that would define Song politics for decades.",
+      "key_figures": [
+        "Wang Anshi (Chief Minister, reformer)",
+        "Emperor Shenzong (Song Emperor)",
+        "Sima Guang (Conservative official, opponent of reforms)"
+      ],
+      "sources": [
+        {
+          "name": "Song Shi (History of the Song Dynasty, compiled in Yuan Dynasty)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus on Seljuk expansion",
+          "name": "Historiographic consensus on Song political history",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Seljuk expansion in Anatolia and the Levant is well-attested in both Byzantine and Islamic sources.",
+      "certainty_note": "Wang Anshi's appointment in 1075 is well-documented in Song historical records.",
       "cross_references": [
-        "1071 (Battle of Manzikert)",
-        "1096 (First Crusade)"
+        "1076-005 (Opposition to New Policies)",
+        "1076-006 (Wang Anshi's resignation)"
       ]
-    },
-    {
-      "id": "1075-004",
-      "title": "Northern Song Dynasty: Wang Anshi's New Policies Implementation",
-      "region": "China / Northern Song Empire",
-      "coordinates_approx": "34.2658, 108.9398",
-      "category": "political",
-      "description": "In China, the Northern Song Dynasty under Emperor Shenzong (reigned 1067\u20131085) was implementing Wang Anshi's New Policies (Xin Fa), a comprehensive program of administrative, financial, and military reforms. By 1075, these reforms were in full effect, including the establishment of a state monopoly on salt and iron, the creation of a government loan system to support farmers, military conscription reforms, and the reorganization of local administration. The New Policies were controversial and generated significant opposition from conservative scholars, but represented an ambitious attempt to strengthen the state's financial position and military capacity. The reforms demonstrated the sophistication of Song administrative thinking and the state's capacity for large-scale institutional change.",
-      "key_figures": [
-        "Emperor Shenzong of Song",
-        "Wang Anshi (reformer and statesman)",
-        "Sima Guang (conservative statesman and historian)"
-      ],
-      "sources": [
-        {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government) by Sima Guang",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Song Shi (History of the Song Dynasty)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Wang Anshi's collected writings and memorials",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Wang Anshi's reforms are extensively documented in Song historical records and in Wang Anshi's own writings.",
-      "cross_references": []
     },
     {
       "id": "1075-005",
-      "title": "Norman Consolidation in England and Southern Italy",
-      "region": "England / Southern Italy / Sicily",
-      "coordinates_approx": "51.5074, -0.1278",
-      "category": "political",
-      "description": "In 1075, the Norman kingdoms in England and Southern Italy were consolidating their power. In England, William the Conqueror's reign was in its mature phase, with Norman rule firmly established and a new feudal hierarchy imposed on the kingdom. In Southern Italy and Sicily, the Norman Kingdom was expanding its control, with Robert Guiscard and Roger I consolidating Norman power against Byzantine and Arab resistance. The Norman expansion represented one of the most significant political transformations of medieval Europe, with lasting consequences for the regions they conquered.",
+      "title": "Normans consolidate control of southern Italy and Sicily",
+      "region": "Southern Italy and Sicily",
+      "coordinates_approx": "37.5, 14.0",
+      "category": "military",
+      "description": "In 1075, the Norman conquest of southern Italy and Sicily was nearing completion. The Normans, led by Robert Guiscard and his brother Roger I, had been gradually conquering the region from the Byzantine Empire and Arab emirs since the 1050s. By 1075, Norman control was firmly established, and the process of integrating the diverse populations\u2014Greeks, Arabs, Lombards, and Normans\u2014was underway. This Norman conquest would have profound consequences for Mediterranean politics and culture, creating a unique multicultural kingdom that would become the Kingdom of Sicily.",
       "key_figures": [
-        "William the Conqueror (King of England and Duke of Normandy)",
-        "Robert Guiscard (Duke of Apulia and Calabria)",
-        "Roger I of Sicily (Count of Sicily)"
+        "Robert Guiscard (Norman Duke of Apulia)",
+        "Roger I (Norman Count of Sicily)",
+        "Pope Gregory VII (papal ally of the Normans)"
       ],
       "sources": [
         {
-          "name": "Anglo-Saxon Chronicle",
+          "name": "William of Apulia, Gesta Roberti Wiscardi (near-contemporary chronicle)",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "Orderic Vitalis, Ecclesiastical History",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Gesta Normannorum Ducum",
-          "type": "chronicle",
+          "name": "Historiographic consensus on Norman conquest",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Norman consolidation in England and Southern Italy is well-documented in contemporary and near-contemporary chronicles.",
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of Norman consolidation is well-established, but specific events in 1075 are not individually highlighted in contemporary sources.",
       "cross_references": [
-        "1066 (Norman Conquest of England)"
+        "1091-001 (Completion of Norman conquest of Sicily)"
+      ]
+    },
+    {
+      "id": "1075-006",
+      "title": "Seljuk Turks establish the Sultanate of Rum in Anatolia",
+      "region": "Anatolia (modern Turkey)",
+      "coordinates_approx": "39.0, 35.0",
+      "category": "political",
+      "description": "In the years following the Battle of Manzikert (1071), the Seljuk Turks established the Sultanate of Rum (Sultanate of R\u00fbm) in Anatolia, with its capital at Nicaea (later moved to Konya). By 1075, the sultanate was firmly established and expanding. The Sultanate of Rum would become one of the most important Seljuk successor states and would dominate Anatolia for nearly two centuries. The establishment of the sultanate represented a fundamental shift in the political and demographic character of Anatolia, from a Byzantine Greek-speaking region to a Turkish-speaking Islamic one.",
+      "key_figures": [
+        "Sulayman I (Founder of the Sultanate of Rum, ruled 1077\u20131086)",
+        "Malik Shah (Seljuk Sultan, overlord of Rum)"
+      ],
+      "sources": [
+        {
+          "name": "Historiographic consensus on Seljuk history",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Anna Komnena, Alexiad (Byzantine chronicle, early 12th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The establishment of the Sultanate of Rum is well-documented in later sources, but the exact date is debated. Some sources place it in 1077, others in 1075 or earlier. The process was gradual rather than a single founding event.",
+      "cross_references": [
+        "1071-001 (Battle of Manzikert)",
+        "1077-002 (Sulayman I's formal establishment of the sultanate)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Dictatus Papae is sometimes interpreted as a radical manifesto of papal supremacy, but modern scholars debate whether it was intended as a binding statement of doctrine or as a polemical assertion of ideals. Some scholars argue that Gregory VII's claims were more moderate than the Dictatus Papae suggests, and that the document may have been compiled from various statements rather than issued as a single coherent manifesto. The significance of the Dictatus Papae is sometimes overstated; while important for the development of political theory, its practical impact on governance was more limited. The Seljuk expansion is sometimes portrayed as a sudden catastrophe for Byzantium, but the process was gradual, and Byzantine military and diplomatic capacity remained significant.",
-  "historiographic_note": "Documentation for 1075 is moderate to good for Western European political and religious events, with the Dictatus Papae and Gregory VII's synods well-documented in contemporary sources. However, the record is heavily weighted toward elite political and religious events; economic, social, and demographic changes are less visible. Coverage of Asia is good for China, but sparse for Central Asia, India, and Southeast Asia. Sub-Saharan Africa and the Americas remain largely invisible in the surviving written record. The surviving sources reflect the perspectives of literate elites (clergy, court officials, chroniclers) and may distort the relative importance of events.",
+  "disconfirming_evidence": "The Dictatus Papae (1075-002) is sometimes presented as a formal papal decree, but modern scholarship suggests it may have been a personal memorandum or working document rather than an official pronouncement. Its exact status and intended audience remain debated. The excommunication of Henry IV (1075-001) is sometimes portrayed as immediately effective, but in reality, it had limited immediate impact outside the papacy's direct sphere of influence; many German bishops and nobles continued to support Henry. The establishment of the Sultanate of Rum (1075-006) is often dated to 1077 or even later; the process was gradual, and there is no single founding moment. Wang Anshi's appointment (1075-004) is sometimes dated to 1074; sources vary on the exact year.",
+  "historiographic_note": "The documentation for 1075 is rich for European events, particularly the Investiture Controversy, which is extensively covered in contemporary chronicles and papal records. However, the sources are heavily weighted toward the perspective of the papacy and the German church; secular and popular perspectives are largely absent. For East Asia, the Song historical records are detailed but were compiled centuries later. For the Islamic world, contemporary sources are sparse; most information comes from later compilations. The Norman conquest of southern Italy is well-documented in contemporary chronicles, but the perspective is heavily weighted toward the Norman conquerors. There is a significant Western bias in the surviving documentation for this year.",
   "graph_edges": [
     {
       "from": "1075-001",
-      "to": "1076-EXCOMMUNICATION",
-      "relation": "led_to",
-      "note": "Gregory VII's assertion of papal supremacy in the Dictatus Papae directly led to the conflict with Henry IV that culminated in Henry's excommunication in 1076."
+      "to": "1075-002",
+      "relation": "contemporary_with",
+      "note": "The excommunication and the Dictatus Papae were issued in the same year as part of Gregory VII's assertion of papal supremacy"
     },
     {
       "from": "1075-001",
-      "to": "1077-CANOSSA",
+      "to": "1076-001",
       "relation": "led_to",
-      "note": "The Dictatus Papae's assertion of papal supremacy set the stage for the Investiture Controversy that led to Henry IV's submission at Canossa in 1077."
+      "note": "Gregory VII's excommunication prompted Henry IV's response at the Synod of Worms"
     },
     {
-      "from": "1075-002",
-      "to": "1076-EXCOMMUNICATION",
+      "from": "1075-004",
+      "to": "1076-005",
       "relation": "led_to",
-      "note": "The Synod of Rome's prohibition on lay investiture directly challenged Henry IV's authority and contributed to the escalating conflict that led to his excommunication in 1076."
+      "note": "Wang Anshi's appointment led to opposition that would culminate in his resignation"
     },
     {
-      "from": "1075-003",
-      "to": "1096-FIRST_CRUSADE",
+      "from": "1071-001",
+      "to": "1075-006",
       "relation": "led_to",
-      "note": "Seljuk expansion in Anatolia and Byzantine military pressure directly prompted the Byzantine emperor's appeal to the West, triggering the First Crusade."
+      "note": "The Seljuk victory at Manzikert enabled the establishment of the Sultanate of Rum"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:19:57.015571",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

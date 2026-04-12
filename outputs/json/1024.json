@@ -1,183 +1,222 @@
 {
   "year": 1024,
   "year_label": "1024 CE",
-  "era_context": "The early 11th century CE spans the mature phase of the Islamic Golden Age, the consolidation of feudal Europe under the Salian dynasty, the height of the Song Dynasty in China, and the expansion of Hindu kingdoms in South India. The Byzantine Empire under the Macedonian Renaissance maintains cultural and military prominence in the Eastern Mediterranean. This is a period of significant technological diffusion, religious reform movements, and dynastic competition across Eurasia.",
+  "era_context": "The early 11th century was a period of consolidation and transition across Eurasia. In Western Europe, the Holy Roman Empire was transitioning from the Salian dynasty (beginning 1024 with Henry II), feudalism was becoming the dominant political structure, and the Cluniac reform was spreading. The Byzantine Empire was in the final years of the Macedonian dynasty. The Fatimid Caliphate controlled the eastern Mediterranean and Levant. The Song Dynasty in China was at the height of its administrative and technological sophistication. Islamic sultanates were expanding in South Asia. This era was marked by religious reform, technological diffusion, and intensifying long-distance trade.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records; oral traditions and archaeological evidence underrepresented in training data)",
-    "Mesoamerica and North America (Maya collapse aftermath; limited contemporary documentation)",
-    "Southeast Asia (sparse written records for this specific year)"
+    "Sub-Saharan Africa (limited written sources)",
+    "Mesoamerica and North America (sparse written records)",
+    "Southeast Asia (limited contemporary chronicles in European sources)"
   ],
   "events": [
     {
       "id": "1024-001",
-      "title": "Death of Basil II and succession of Constantine VIII",
-      "region": "Byzantine Empire",
-      "coordinates_approx": "39.0, 35.0",
+      "title": "Accession of Henry II as Holy Roman Emperor; beginning of Salian dynasty",
+      "region": "Holy Roman Empire (Central Europe, Germany, Italy)",
+      "coordinates_approx": "50.1109, 8.6821",
       "category": "political",
-      "description": "Basil II, known as Basil the Bulgar-Slayer, died on 13 December 1024 after a 49-year reign that had expanded Byzantine territory to its greatest extent since the Arab conquests. He was succeeded by his brother Constantine VIII, who had been co-emperor but largely inactive in governance. Constantine's reign marked a sharp decline in military effectiveness and the beginning of a period of internal instability that would characterize the mid-11th century Byzantine state. The succession was peaceful but the transition exposed the empire's dependence on Basil's personal military genius.",
+      "description": "Henry II (also known as Henry the Pious) was crowned Holy Roman Emperor in 1024 CE, marking the beginning of the Salian dynasty and the end of the Ottonian dynasty. Henry II was the first Holy Roman Emperor of the Salian line, which would rule the Holy Roman Empire until 1125. His accession was contested by some German nobles, but he secured his position through a combination of military strength and political alliances. Henry II's reign was marked by efforts to reform the Church, strengthen imperial authority, and defend the empire's borders against external threats. His reign would be significant for the development of the Holy Roman Empire's political structure and for the eventual conflict between the papacy and the empire over the investiture of bishops (the Investiture Controversy).",
       "key_figures": [
-        "Basil II (Emperor, r. 976\u20131025)",
-        "Constantine VIII (Emperor, r. 1025\u20131028)"
+        "Henry II (Holy Roman Emperor, r. 1024\u20131039)",
+        "Pope John XIX (r. 1024\u20131032, contemporary pope)"
       ],
       "sources": [
         {
-          "name": "Skylitzes, Synopsis Historiarum (11th-century Byzantine chronicle)",
+          "name": "Thietmar of Merseburg, Chronicle (contemporary German chronicle)",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "Psellos, Chronographia (11th-century Byzantine history)",
-          "type": "chronicle",
-          "contemporary": false
+          "name": "Adalbold of Utrecht, Life of Henry II (contemporary biography)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "German monastic chronicles and papal records",
+          "type": "historiographic_consensus",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Death date of Basil II is well-attested in Byzantine sources. Constantine VIII's succession is documented in contemporary chronicles.",
+      "certainty_note": "Henry II's accession date and the beginning of the Salian dynasty are well-documented in contemporary German and papal sources. Multiple contemporary chronicles confirm the date and significance.",
       "cross_references": [
-        "Relates to broader Byzantine decline trajectory of mid-11th century"
+        "Related to Investiture Controversy (11th century)",
+        "Part of Holy Roman Empire political development"
       ]
     },
     {
       "id": "1024-002",
-      "title": "Henry II crowned Holy Roman Emperor",
-      "region": "Holy Roman Empire / Germany",
-      "coordinates_approx": "50.0, 10.0",
-      "category": "political",
-      "description": "Henry II, Duke of Bavaria, was crowned Holy Roman Emperor on 14 February 1024 in Rome by Pope Benedict VIII, following the death of Henry III. Henry II was the last of the Salian dynasty's direct line and his election marked a transition in imperial authority. His reign was characterized by efforts to consolidate power in Germany and Italy, though he faced significant challenges from the papacy and German nobility. His coronation represented the continuation of the Salian dynasty's dominance in Central Europe.",
+      "title": "Expansion of the Ghaznavid Empire in South Asia under Mahmud of Ghazni",
+      "region": "South Asia (Ghaznavid Empire, present-day Afghanistan, Pakistan, northern India)",
+      "coordinates_approx": "34.5553, 69.2075",
+      "category": "military",
+      "description": "Mahmud of Ghazni (r. 997\u20131030) was at the height of his power in 1024 CE. The Ghaznavid Empire, centered in Ghazni (present-day Afghanistan), had expanded significantly under Mahmud's leadership through military campaigns in South Asia, Central Asia, and Persia. Mahmud was known for his raids into northern India, which brought wealth and prestige to the Ghaznavid state and facilitated the spread of Islam in South Asia. By 1024, Mahmud had established the Ghaznavid Empire as one of the major powers in the Islamic world. His military campaigns, while devastating to Hindu kingdoms, also facilitated cultural and religious exchange between the Islamic world and South Asia. Mahmud was also a patron of scholars, poets, and artists, contributing to the cultural flourishing of the Islamic world.",
       "key_figures": [
-        "Henry II (Holy Roman Emperor, r. 1024\u20131025)",
-        "Pope Benedict VIII"
+        "Mahmud of Ghazni (Ghaznavid Sultan, r. 997\u20131030)",
+        "Al-Biruni (scholar and polymath, contemporary)"
       ],
       "sources": [
         {
-          "name": "Thietmar of Merseburg, Chronicon (early 11th-century German chronicle)",
-          "type": "chronicle",
+          "name": "Al-Biruni, Kitab al-Hind (Book of India, contemporary account)",
+          "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Annales Altahenses Maiores (Bavarian monastery chronicle)",
-          "type": "chronicle",
+          "name": "Firdawsi, Shahnameh (Persian epic, compiled early 11th century)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Islamic historical chronicles and court records",
+          "type": "historiographic_consensus",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mahmud of Ghazni's reign and military campaigns are well-documented in Islamic sources, particularly Al-Biruni's contemporary account. The extent and significance of his campaigns are confirmed by multiple sources.",
+      "cross_references": [
+        "Related to spread of Islam in South Asia",
+        "Part of Islamic expansion in medieval period"
+      ]
+    },
+    {
+      "id": "1024-003",
+      "title": "Completion of the Firdawsi's Shahnameh (Persian epic)",
+      "region": "Persia (Ghaznavid Empire)",
+      "coordinates_approx": "34.5553, 69.2075",
+      "category": "cultural",
+      "description": "The Shahnameh (Book of Kings), the monumental Persian epic poem by Firdawsi, was completed around 1024 CE (or possibly slightly earlier, c. 1010). The Shahnameh is one of the longest epic poems in world literature, comprising over 50,000 couplets. It recounts the mythical and legendary history of Persia from its creation to the Islamic conquest. Firdawsi composed the Shahnameh under the patronage of the Ghaznavid Sultan Mahmud of Ghazni, though the relationship between poet and patron was reportedly contentious. The Shahnameh became the foundational text of Persian literature and culture, preserving pre-Islamic Persian mythology and history. Its completion in the early 11th century represented a major cultural achievement and contributed to the preservation of Persian cultural identity during the Islamic period.",
+      "key_figures": [
+        "Firdawsi (Persian poet, c. 940\u20131020)",
+        "Mahmud of Ghazni (patron)"
+      ],
+      "sources": [
+        {
+          "name": "Firdawsi, Shahnameh (the text itself, primary source)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Later biographical accounts of Firdawsi (e.g., Nizami Aruzi's Chahar Maqala)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Islamic historical chronicles mentioning Firdawsi",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The exact completion date of the Shahnameh is uncertain. Firdawsi likely completed it between 1010 and 1025 CE. The date 1024 is assigned by convention, but \u00b110 years is reasonable. Firdawsi's death date (c. 1020) is also uncertain.",
+      "cross_references": [
+        "Related to Ghaznavid cultural patronage",
+        "Part of Persian literary and cultural development"
+      ]
+    },
+    {
+      "id": "1024-004",
+      "title": "Song Dynasty technological innovations: printing and gunpowder weapons",
+      "region": "China (Song Dynasty)",
+      "coordinates_approx": "34.3416, 108.9398",
+      "category": "technological",
+      "description": "By 1024 CE, the Song Dynasty had developed and was actively using advanced printing technology and gunpowder weapons. Woodblock printing had been refined to a high degree of sophistication, enabling the mass production of books, government documents, and religious texts. The Song Dynasty was also developing early gunpowder weapons, including cannons and gunpowder-propelled projectiles. These technological innovations gave the Song Dynasty significant advantages in administration, communication, and military capability. However, the Song's military advantages were not sufficient to overcome the Liao Dynasty's cavalry superiority in open-field battles, leading to the military stalemate described above. The Song Dynasty's technological innovations would eventually spread to other parts of Eurasia, contributing to the global diffusion of printing and gunpowder technology.",
+      "key_figures": [
+        "Emperor Renzong of Song (r. 1022\u20131063)",
+        "Song Dynasty engineers and scholars"
+      ],
+      "sources": [
+        {
+          "name": "Sima Guang, Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Wujing Zongyao (Comprehensive Essentials for the Military, 11th-century military treatise)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of Song Dynasty printing and gunpowder weapons",
+          "type": "archaeological",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Coronation date and succession are well-documented in contemporary German and papal sources.",
-      "cross_references": []
-    },
-    {
-      "id": "1024-003",
-      "title": "Song Dynasty consolidation under Emperor Shenzong's regency",
-      "region": "Song Dynasty, China",
-      "coordinates_approx": "34.0, 108.0",
-      "category": "political",
-      "description": "In 1024, the Song Dynasty under the regency of Empress Liu (mother of the young Emperor Shenzong) continued its administrative consolidation and economic expansion. This period saw the maturation of the civil service examination system, the expansion of maritime trade, and significant technological advancement including the refinement of gunpowder weapons and printing technology. The Song maintained a complex tributary system with neighboring states and managed a sophisticated bureaucracy that would become a model for later dynasties.",
-      "key_figures": [
-        "Emperor Shenzong (r. 1067\u20131085, but in 1024 still a child)",
-        "Empress Liu (regent)"
-      ],
-      "sources": [
-        {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government, compiled by Sima Guang)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Song Shi (History of the Song Dynasty, official compilation)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "General trajectory of Song consolidation is well-documented; specific events of 1024 are less precisely dated in surviving sources.",
-      "cross_references": []
-    },
-    {
-      "id": "1024-004",
-      "title": "Completion of the Brihadesvara Temple in Thanjavur",
-      "region": "Chola Empire, South India",
-      "coordinates_approx": "10.78, 79.13",
-      "category": "cultural",
-      "description": "The Brihadesvara Temple in Thanjavur, commissioned by the Chola emperor Rajaraja I, was completed around 1010 CE, but continued to receive patronage and decoration through the early 11th century. By 1024, the temple stood as one of the greatest architectural achievements of the Chola period, featuring a 216-foot granite tower (vimana) and elaborate bronze sculptures. The temple represented the height of Chola artistic and engineering capability and served as a center of religious and cultural authority. The temple's construction and decoration involved innovations in stone-cutting, bronze-casting, and architectural planning that influenced South Indian temple design for centuries.",
-      "key_figures": [
-        "Rajaraja I (Chola emperor, r. 985\u20131014)",
-        "Rajendra I (Chola emperor, r. 1014\u20131044)"
-      ],
-      "sources": [
-        {
-          "name": "Archaeological evidence from the Brihadesvara Temple complex",
-          "type": "archaeological",
-          "contemporary": false
-        },
-        {
-          "name": "Chola inscriptions on temple walls",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Tamil literary sources (Silappatikaram and related texts)",
-          "type": "primary_text",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Temple completion is traditionally dated to 1010 CE; ongoing patronage and decoration continued through the 1020s. Exact year of final completion is approximate.",
-      "cross_references": []
+      "certainty_note": "Song Dynasty technological innovations in printing and gunpowder are well-documented in contemporary and near-contemporary sources. The Wujing Zongyao provides detailed descriptions of gunpowder weapons. Archaeological evidence confirms the use of these technologies.",
+      "cross_references": [
+        "Related to Song Dynasty administrative sophistication",
+        "Part of global technological diffusion in medieval period"
+      ]
     },
     {
       "id": "1024-005",
-      "title": "Al-Hakim bi-Amr Allah's reign in Fatimid Egypt",
-      "region": "Fatimid Caliphate, Egypt and Levant",
-      "coordinates_approx": "30.0, 31.0",
+      "title": "Byzantine-Fatimid diplomatic relations and trade",
+      "region": "Eastern Mediterranean (Byzantine Empire and Fatimid Caliphate)",
+      "coordinates_approx": "31.2357, 30.0444",
       "category": "political",
-      "description": "In 1024, the Fatimid Caliph Al-Hakim bi-Amr Allah (r. 996\u20131021) had recently died, and his son Al-Zahir li-Izaz Din Allah (r. 1021\u20131036) was consolidating power. The transition marked a shift from Al-Hakim's controversial and erratic reign\u2014marked by religious extremism and persecution of Christians and Jews\u2014to a more stable period. Al-Zahir's early years saw the restoration of order in Cairo and the re-establishment of normal trade relations. The Fatimid state maintained its position as a major Mediterranean power and continued its sophisticated administrative apparatus.",
+      "description": "In 1024 CE, the Byzantine Empire and the Fatimid Caliphate maintained complex diplomatic and trade relations. Despite religious differences, the two powers engaged in commerce, diplomatic exchanges, and occasional military cooperation against common enemies. The Byzantine Empire was declining in military power but remained wealthy and administratively sophisticated. The Fatimid Caliphate was at the height of its power and controlled major trade routes connecting Europe, Asia, and Africa. The relationship between the two powers was characterized by pragmatic cooperation in trade and diplomacy, even as they competed for influence in the eastern Mediterranean and Levant. This period of relative stability would eventually be disrupted by the rise of the Seljuk Turks in the late 11th century.",
       "key_figures": [
-        "Al-Zahir li-Izaz Din Allah (Fatimid Caliph, r. 1021\u20131036)",
-        "Al-Hakim bi-Amr Allah (predecessor, r. 996\u20131021)"
+        "Constantine VIII (Byzantine Emperor, r. 1025\u20131028)",
+        "Al-Zahir (Fatimid Caliph, r. 996\u20131026)"
       ],
       "sources": [
         {
-          "name": "Al-Maqrizi, Itti'az al-Hunafa (14th-century Mamluk historian)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Byzantine diplomatic records and chronicles",
+          "type": "historiographic_consensus",
+          "contemporary": true
         },
         {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Tarikh (12th-century Islamic historian)",
-          "type": "later_compilation",
+          "name": "Fatimid court records and Islamic chronicles",
+          "type": "historiographic_consensus",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of Byzantine-Fatimid trade (pottery, coins, artifacts)",
+          "type": "archaeological",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Al-Zahir's succession and early reign are documented in later Islamic chronicles; specific events of 1024 are less precisely dated.",
-      "cross_references": []
+      "certainty_note": "Byzantine-Fatimid relations are attested in multiple sources, though specific diplomatic events in 1024 are not always clearly documented. The general pattern of trade and diplomatic relations is confirmed by multiple sources.",
+      "cross_references": [
+        "Related to eastern Mediterranean trade networks",
+        "Precursor to Crusader conflicts (11th\u201313th centuries)"
+      ]
     }
   ],
-  "disconfirming_evidence": "The traditional dating of Henry II's coronation as Holy Roman Emperor in 1024 is sometimes disputed; some sources place it in 1025. The significance of the Brihadesvara Temple's completion date is debated\u2014some scholars argue the temple was functionally complete by 1010 CE, with later work being primarily decorative. The characterization of Al-Hakim bi-Amr Allah's reign as uniformly 'erratic' has been challenged by modern scholarship, which suggests his policies were more systematically motivated by theological and political considerations than earlier accounts suggested.",
-  "historiographic_note": "Documentation for 1024 is heavily weighted toward the Mediterranean world (Byzantine, Islamic, and European sources) and China (Song Dynasty records). South Asian sources are less abundant but archaeological evidence from temples provides material confirmation. Sub-Saharan Africa, the Americas, and much of Southeast Asia have minimal written documentation for this specific year. The surviving sources are predominantly elite-focused (court chronicles, religious texts) and may underrepresent popular movements, economic conditions, and non-elite perspectives. Islamic and Byzantine sources sometimes contain polemical elements that require careful interpretation.",
+  "disconfirming_evidence": "The characterization of Henry II's accession as the beginning of a new era of imperial strength is somewhat overstated. While Henry II was an effective ruler, the Holy Roman Empire remained fragmented and decentralized. His reign was marked by ongoing conflicts with German nobles and the papacy, and his authority was limited compared to contemporary monarchs like Cnut the Great or Mahmud of Ghazni. Additionally, the significance of the Shahnameh's completion is sometimes exaggerated in terms of its immediate cultural impact; while it became a foundational text of Persian literature, its influence was gradual and developed over centuries rather than being immediate.",
+  "historiographic_note": "Documentation for 1024 is moderate. European sources (monastic chronicles, papal records) are relatively abundant but Western-centric. Byzantine sources are detailed. Islamic sources (particularly for the Ghaznavid Empire and Fatimid Caliphate) are good but often compiled later. Chinese sources are comprehensive and contemporary. South Asian sources are moderate (epigraphic evidence and later compilations). Sub-Saharan Africa, Mesoamerica, and Southeast Asia remain significantly underrepresented. The surviving record reflects the biases of literate, institutionalized societies and overrepresents religious and political events relative to economic and social developments.",
   "graph_edges": [
     {
       "from": "1024-001",
-      "to": "1050-BYZANTINE_DECLINE",
+      "to": "1075-INVESTITURE_CONTROVERSY",
       "relation": "led_to",
-      "note": "Basil II's death marked the beginning of Byzantine military decline that would accelerate through the mid-11th century"
+      "note": "Henry II's reign established the Salian dynasty, which would be central to the Investiture Controversy"
     },
     {
       "from": "1024-002",
-      "to": "1056-INVESTITURE_CONTROVERSY",
+      "to": "1030-MAHMUD_DEATH",
       "relation": "part_of",
-      "note": "Henry II's reign was part of the broader Salian dynasty's engagement with papal authority that would culminate in the Investiture Controversy"
+      "note": "1024 falls within Mahmud of Ghazni's reign; his death in 1030 marked the beginning of Ghaznavid decline"
+    },
+    {
+      "from": "1024-003",
+      "to": "1024-002",
+      "relation": "contemporary_with",
+      "note": "Firdawsi's Shahnameh was completed under the patronage of Mahmud of Ghazni"
     },
     {
       "from": "1024-004",
-      "to": "1010-BRIHADESVARA_CONSTRUCTION",
-      "relation": "contemporary_with",
-      "note": "Temple decoration and patronage continued from initial construction phase"
+      "to": "1127-JIN_DYNASTY_CONQUEST",
+      "relation": "led_to",
+      "note": "Song Dynasty's technological innovations did not prevent eventual military defeat by the Jin Dynasty"
+    },
+    {
+      "from": "1024-005",
+      "to": "1096-FIRST_CRUSADE",
+      "relation": "led_to",
+      "note": "Byzantine-Fatimid relations and trade networks would be disrupted by the First Crusade"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:37:26.716354",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

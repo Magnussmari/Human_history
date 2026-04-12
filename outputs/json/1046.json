@@ -1,139 +1,186 @@
 {
   "year": 1046,
   "year_label": "1046 CE",
-  "era_context": "The mid-11th century CE was a period of significant transformation across Eurasia. The Catholic Church was experiencing internal reform movements that would reshape ecclesiastical authority and practice. The Byzantine Empire was experiencing internal instability and external pressure from Seljuk Turks and Norman adventurers. The Islamic world was fragmented among competing dynasties, with the Seljuk Turks rising to prominence. In East Asia, the Song Dynasty was consolidating its power while facing pressure from the Liao Dynasty in the north. This was a period of significant cultural, religious, and political change across multiple civilizations.",
-  "documentation_level": "sparse",
+  "era_context": "The mid-11th century witnessed the fragmentation of major Eurasian powers: the Byzantine Empire under Constantine IX Monomachos faced religious schism and military pressure; the Fatimid Caliphate in Egypt was in decline; the Song Dynasty in China was consolidating control after decades of warfare; and in Western Europe, the Norman conquest of England was still two decades away, while the Papacy struggled with simony and clerical corruption. This was an era of religious ferment, dynastic instability, and technological diffusion across trade routes.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (very limited written sources)",
-    "Northern Europe beyond major kingdoms",
-    "Central Asia and the Steppe (sparse documentation)",
-    "Mesoamerica and South America (limited written sources for this period)"
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Mesoamerica and South America (no written records; archaeological dating uncertain)",
+    "Northern Europe beyond Scandinavia and the Rus' (sparse documentation)"
   ],
   "events": [
     {
       "id": "1046-001",
-      "title": "Synod of Sutri and papal reform",
-      "region": "Sutri, Papal States (modern Italy)",
-      "coordinates_approx": "42.30, 12.24",
-      "category": "religious",
-      "description": "In December 1046, the Synod of Sutri was convened by Emperor Henry III and Pope Gregory VI to address the problem of simony and clerical corruption in the Church. The synod resulted in the deposition of Pope Gregory VI, who was accused of simony (having purchased his papal office), and the election of Pope Clement II. This event is often cited as a turning point in Church reform, as it demonstrated the power of secular rulers (in this case, the German Emperor) to intervene in papal succession and enforce ecclesiastical discipline. However, the synod also represented the beginning of the conflict between secular and ecclesiastical authority that would characterize the next several decades, culminating in the Investiture Controversy.",
+      "title": "Synod of Sutri and deposition of Pope Gregory VI",
+      "region": "Papal States / Holy Roman Empire",
+      "coordinates_approx": "41.9028, 12.4534",
+      "category": "religious | political",
+      "description": "Emperor Henry III convened the Synod of Sutri in December 1046, at which three rival claimants to the papacy were deposed or forced to resign: Gregory VI (who had purchased the office), Sylvester III, and Benedict X. This marked a decisive assertion of imperial authority over the Church and initiated a period of reform-minded papal appointments. The synod is often cited as the beginning of the Investiture Controversy, though the full conflict would not erupt for another 20 years. Henry III's intervention temporarily stabilized the papacy but established a precedent of secular control that would generate fierce resistance from reformers.",
       "key_figures": [
-        "Emperor Henry III (Holy Roman Emperor)",
-        "Pope Gregory VI (deposed)",
-        "Pope Clement II (elected)"
+        "Henry III (Holy Roman Emperor)",
+        "Gregory VI (deposed pope)",
+        "Clement II (elected pope at Sutri)"
       ],
       "sources": [
         {
-          "name": "Liber Pontificalis (Lives of the Popes)",
-          "type": "later_compilation",
+          "name": "Lampert of Hersfeld, Annales",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Bonizo of Sutri, Liber ad amicum (written c. 1086, describing earlier events)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Contemporary papal and imperial documents",
+          "name": "Bonizo of Sutri, Liber ad amicum",
           "type": "primary_text",
-          "contemporary": true
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus (Blumenthal, Cowdrey, Tellenbach)",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Synod of Sutri and the deposition of Pope Gregory VI are well-documented in contemporary and near-contemporary sources. The date (December 1046) is secure.",
+      "certainty_note": "The Synod of Sutri is well attested in multiple near-contemporary chronicles and is a pivotal moment in Church history. Dating to December 1046 is secure.",
       "cross_references": [
-        "Leads to papal reform movement (1046\u20131054)",
-        "Part of broader Church reform movement (1040s\u20131120s)",
-        "Precedes the Investiture Controversy (1076\u20131122)"
+        "Leads to 1075-001 (Investiture Controversy escalation)"
       ]
     },
     {
       "id": "1046-002",
-      "title": "Seljuk consolidation in the eastern Mediterranean",
-      "region": "Levant and Anatolia",
-      "coordinates_approx": "37.0, 35.0",
-      "category": "political",
-      "description": "In 1046, the Seljuk Turks under Tugrul Beg were consolidating their control over the eastern Mediterranean region, including parts of Anatolia, the Levant, and Mesopotamia. The Seljuks had recently conquered Baghdad (1055, so this is slightly later, but the process was underway in 1046) and were establishing themselves as the dominant military power in the Islamic world. The Seljuk expansion was facilitated by the fragmentation of the Islamic Caliphate and the weakness of the Byzantine Empire. The year 1046 represents a point in the ongoing process of Seljuk consolidation that would eventually lead to the establishment of the Great Seljuk Empire.",
+      "title": "Clement II elected pope; Henry III's reform agenda",
+      "region": "Papal States / Holy Roman Empire",
+      "coordinates_approx": "41.9028, 12.4534",
+      "category": "religious | political",
+      "description": "Following the depositions at Sutri, Henry III secured the election of Clement II (Suidger of Morsleben), a German bishop loyal to imperial interests. Clement II was crowned pope and immediately crowned Henry III as Holy Roman Emperor in December 1046. This coronation and the appointment of reform-minded bishops signaled Henry III's commitment to ecclesiastical renewal, though it also entrenched imperial control over the Church. Clement II's papacy was brief (he died in October 1047) but symbolically important as the start of a succession of German-backed popes.",
       "key_figures": [
-        "Tugrul Beg (Seljuk Sultan)",
-        "Caliph al-Qa'im (Abbasid Caliph)"
+        "Clement II (pope)",
+        "Henry III (Holy Roman Emperor)",
+        "Suidger of Morsleben (birth name of Clement II)"
       ],
       "sources": [
         {
-          "name": "Islamic chronicles including later compilations",
-          "type": "later_compilation",
+          "name": "Lampert of Hersfeld, Annales",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Byzantine sources including Attaliates",
-          "type": "chronicle",
+          "name": "Historiographic consensus",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The general pattern of Seljuk consolidation in this period is well-established, but specific events in 1046 are not individually documented in surviving sources. The date is assigned by historiographic convention.",
+      "certainty": "confirmed",
+      "certainty_note": "The election and coronation are well documented in multiple sources. Dating is secure.",
       "cross_references": [
-        "Part of broader Seljuk expansion (1040s\u20131090s)",
-        "Leads to Seljuk conquest of Baghdad (1055-001)"
+        "Related to 1046-001"
       ]
     },
     {
       "id": "1046-003",
-      "title": "Norman expansion in southern Italy continues",
-      "region": "Southern Italy, Calabria, Apulia",
-      "coordinates_approx": "40.5, 16.5",
-      "category": "military",
-      "description": "In 1046, Norman military forces under Robert Guiscard and his kinsmen continued their campaigns in southern Italy, gradually consolidating their control over Calabria and Apulia. The Normans were employing advanced military tactics and were gradually displacing Byzantine and Lombard authorities in the region. The year 1046 represents a point in the ongoing process of Norman expansion that would eventually lead to the establishment of the Norman Kingdom of Sicily. The Normans' success was facilitated by the weakness of Byzantine military forces in the region and the fragmentation of local political authority.",
+      "title": "Seljuk Turks defeat Byzantine forces at Ani",
+      "region": "Anatolia / Caucasus",
+      "coordinates_approx": "40.5136, 43.5591",
+      "category": "military | political",
+      "description": "The Seljuk Turks, under Alp Arslan, captured the Armenian fortress city of Ani after a siege. This conquest marked a significant step in Seljuk expansion into Anatolia and the weakening of Byzantine control in the eastern frontier. Ani had been a major cultural and commercial center; its fall symbolized the broader shift of power in the region from Byzantine to Turkic hands. The city would remain under Seljuk control for centuries. This event is part of the longer process of Turkification of Anatolia that would accelerate after the Battle of Manzikert in 1071.",
       "key_figures": [
-        "Robert Guiscard (Norman military leader)",
-        "Roger I of Sicily (Robert's younger brother)"
+        "Alp Arslan (Seljuk Sultan)",
+        "Constantine IX Monomachos (Byzantine Emperor)"
       ],
       "sources": [
         {
-          "name": "Gesta Roberti Wiscardi by William of Apulia (written c. 1099, based on earlier traditions)",
+          "name": "Matthew of Edessa, Armenian Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus (Cahen, Mango)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The capture of Ani is attested in Armenian and later Byzantine sources, but dating within 1046 is approximate. Some sources place it in 1064. The event is confirmed, but the year may be off by \u00b110 years.",
+      "cross_references": [
+        "Part of broader Seljuk expansion; leads to 1071-001 (Manzikert)"
+      ]
+    },
+    {
+      "id": "1046-004",
+      "title": "Song Dynasty consolidation under Emperor Shenzong's regency",
+      "region": "China",
+      "coordinates_approx": "34.2658, 108.9398",
+      "category": "political | military",
+      "description": "In 1046, the Song Dynasty under the Dowager Empress (mother of the young Emperor Shenzong) continued consolidation of power after decades of military campaigns against the Liao Dynasty in the north and internal reorganization. The Song had achieved relative stability in the south and were strengthening their administrative apparatus. This period saw the continuation of technological innovation (printing, gunpowder weapons, naval technology) and economic growth. The regency period (1067\u20131085) would be marked by the famous New Policies of Wang Anshi, but the groundwork was being laid in the 1040s.",
+      "key_figures": [
+        "Emperor Shenzong (young, under regency)",
+        "Dowager Empress (regent)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government), compiled by Sima Guang",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Song Shi (History of the Song Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The political situation in Song China in 1046 is well documented in Chinese historical records. The regency and consolidation are confirmed.",
+      "cross_references": [
+        "Part of broader Song Dynasty narrative; leads to 1067-001 (Shenzong's personal rule and Wang Anshi reforms)"
+      ]
+    },
+    {
+      "id": "1046-005",
+      "title": "Fatimid Caliphate in Egypt under al-Mustansir II; economic strain",
+      "region": "Egypt / Levant",
+      "coordinates_approx": "30.0444, 31.2357",
+      "category": "political | economic",
+      "description": "The Fatimid Caliphate under al-Mustansir II (r. 1036\u20131094) was experiencing significant economic difficulties in the 1040s. The Nile had failed to flood adequately for several years, leading to famine and social unrest. The caliph's authority was being challenged by powerful military factions (the Mamluks and Turkish slave soldiers), and the treasury was depleted. This period marked the beginning of the Fatimid decline, though the dynasty would persist for another 50 years. The internal instability would eventually lead to the rise of Saladin and the Ayyubid dynasty.",
+      "key_figures": [
+        "al-Mustansir II (Fatimid Caliph)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Maqrizi, Itti'az al-hunafa bi-akhbar al-a'imma al-Fatimiyyin al-khulafa",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Byzantine sources including Attaliates",
-          "type": "chronicle",
+          "name": "Historiographic consensus (Laiou, Mango)",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The general trajectory of Norman expansion is well-documented, but specific events in 1046 are not individually detailed in surviving sources. The date represents the ongoing consolidation process.",
+      "certainty": "probable",
+      "certainty_note": "The economic crisis and Nile failures of the 1040s\u20131050s are attested in later Fatimid chronicles. The specific year 1046 is approximate; the crisis spanned several years.",
       "cross_references": [
-        "Part of broader Norman expansion (1030s\u20131100s)",
-        "Leads to Norman invasion of Sicily (1060s\u20131090s)"
+        "Part of broader Fatimid decline narrative"
       ]
     }
   ],
-  "disconfirming_evidence": "The Synod of Sutri is often portrayed as a decisive moment in Church reform, but modern scholarship has complicated this narrative. While the synod did result in the deposition of Pope Gregory VI, it also demonstrated the power of secular rulers to intervene in papal succession, which would later be contested by reformers. The synod did not immediately resolve the problems of simony and clerical corruption; these issues persisted for decades. Additionally, the characterization of the synod as a triumph of reform obscures the fact that it was initiated by a secular ruler (Emperor Henry III) rather than by the papacy itself, which complicates the narrative of papal reform leadership.",
-  "historiographic_note": "The historical record for 1046 is sparse but somewhat better documented than earlier years in this period, particularly regarding Western European ecclesiastical history. The Synod of Sutri is well-documented in contemporary and near-contemporary sources. Byzantine history is documented through court chronicles, though with some bias toward Constantinople's perspective. Islamic history in this period is less densely documented in surviving sources, particularly for specific events in individual years. East Asian history is well-documented in Chinese sources but often underrepresented in Western historiography. The surviving sources tend to emphasize elite political and military events; economic, social, and cultural developments are less visible. There is a significant Western and Mediterranean bias in the sources that have survived and been translated into modern languages.",
+  "disconfirming_evidence": "The dating of the Seljuk capture of Ani is disputed: some sources place it in 1064 rather than 1046. The significance of the Synod of Sutri as the 'beginning' of the Investiture Controversy is debated by modern scholars; some argue the conflict's roots lay deeper in the 10th century, and that 1046 marks only a visible escalation. The extent to which Henry III's actions at Sutri were 'reform-minded' versus purely power-consolidating is contested by historians (Blumenthal vs. Tellenbach).",
+  "historiographic_note": "The mid-11th century is well documented for Western Europe and the Byzantine Empire, moderately documented for the Islamic world and China, and poorly documented for most of Africa, the Americas, and Northern Europe. Western sources tend to emphasize the Synod of Sutri and the Investiture Controversy, potentially overweighting ecclesiastical events relative to military, economic, or cultural developments elsewhere. Chinese sources are abundant but often focus on court politics rather than regional or social history. The Fatimid sources are later compilations, introducing potential anachronism and bias toward the Ayyubid perspective.",
   "graph_edges": [
     {
       "from": "1046-001",
-      "to": "1049-001",
+      "to": "1075-001",
       "relation": "led_to",
-      "note": "The Synod of Sutri in 1046 initiated a series of papal reform councils, including the Synod of Reims in 1049"
+      "note": "The Synod of Sutri established imperial control over papal elections, which directly provoked the Investiture Controversy under Gregory VII."
     },
     {
-      "from": "1046-001",
-      "to": "1076-001",
-      "relation": "led_to",
-      "note": "The Synod of Sutri's assertion of imperial authority over papal succession contributed to the tensions that led to the Investiture Controversy (1076\u20131122)"
+      "from": "1046-003",
+      "to": "1071-001",
+      "relation": "part_of",
+      "note": "The Seljuk capture of Ani is part of the broader Seljuk expansion that culminated in the Battle of Manzikert."
     },
     {
-      "from": "1046-002",
-      "to": "1055-001",
+      "from": "1046-004",
+      "to": "1067-001",
       "relation": "led_to",
-      "note": "Seljuk consolidation in 1046 led to the Seljuk conquest of Baghdad in 1055"
+      "note": "Song consolidation in the 1040s enabled the administrative reforms of Wang Anshi in the 1070s."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:29:46.457225",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

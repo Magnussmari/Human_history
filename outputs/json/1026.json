@@ -1,139 +1,193 @@
 {
   "year": 1026,
   "year_label": "1026 CE",
-  "era_context": "The early 11th century continues with the Song Dynasty in China, the Fatimid Caliphate in the Islamic world, the Ghaznavid Empire under Mahmud at its zenith, and Western Europe in the early feudal period. This is a time of significant cultural and technological advancement, religious ferment, military competition, and the expansion of long-distance trade networks. The period is marked by the growth of monastic institutions, the development of feudal hierarchies, and the beginning of the Crusade movement's ideological foundations.",
+  "era_context": "The early 11th century saw the consolidation of feudal Europe, the height of the Fatimid Caliphate in Egypt and the Levant, the Song Dynasty's scientific and administrative flourishing in China, and the expansion of Islamic sultanates in South Asia. The Byzantine Empire under Constantine VIII was in decline; the Holy Roman Empire fragmented under competing claims. This was an era of religious reform movements, technological diffusion (including the spread of the heavy plough and three-field rotation in Europe), and intensifying long-distance trade along the Silk Road and Indian Ocean routes.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written sources)",
-    "Pre-Columbian Americas (no Old World written records)",
-    "Northern and Eastern Europe beyond Rus' and Scandinavia",
-    "Southeast Asia and the Pacific (sparse documentation)"
+    "Sub-Saharan Africa (limited written sources; oral traditions and archaeological evidence underrepresented in training data)",
+    "Mesoamerica and North America (Maya and Ancestral Puebloan cultures; sparse written records)",
+    "Southeast Asia (limited contemporary chronicles in European sources)"
   ],
   "events": [
     {
       "id": "1026-001",
-      "title": "Accession of Conrad II as King of the Romans (Holy Roman Emperor-elect)",
-      "region": "Holy Roman Empire",
-      "coordinates_approx": "50.1109,8.6821",
+      "title": "Death of Caliph Al-Zahir and succession of Al-Mustansir II",
+      "region": "Fatimid Caliphate (Egypt, Levant, North Africa)",
+      "coordinates_approx": "30.0444, 31.2357",
       "category": "political",
-      "description": "Conrad II (Conrad the Salian) was elected King of the Romans in 1024 and formally crowned in 1026. This election marked the beginning of the Salian dynasty's rule in the Holy Roman Empire and represented a significant shift in imperial politics. Conrad II was the first king of the Salian line and sought to strengthen imperial authority against the nobility and the papacy. His election and coronation were contested by some German princes, but he ultimately consolidated his power and became one of the most important Holy Roman Emperors of the 11th century.",
+      "description": "Al-Zahir, the sixth Fatimid caliph, died in 1026 CE after a 30-year reign marked by military campaigns, administrative reforms, and cultural patronage. He was succeeded by his young son Al-Mustansir II, who would become one of the longest-reigning Fatimid caliphs (1026\u20131094). The transition occurred during a period of relative Fatimid strength, though succession of a minor would eventually lead to periods of regency and internal factional struggle. This succession shaped the political trajectory of the eastern Mediterranean and Levantine politics for the next seven decades.",
       "key_figures": [
-        "Conrad II (Holy Roman Emperor, r. 1024\u20131039)",
-        "Henry II (previous Holy Roman Emperor, d. 1024)"
+        "Al-Zahir (Fatimid Caliph, r. 996\u20131026)",
+        "Al-Mustansir II (Fatimid Caliph, r. 1026\u20131094)"
       ],
       "sources": [
         {
-          "name": "Wipo, Gesta Chuonradi Imperatoris",
-          "type": "chronicle",
+          "name": "Al-Maqrizi, Itti'az al-Hunafa bi-Akhbar al-A'imma al-Khulafa (History of the Fatimid Caliphs)",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Thietmar of Merseburg, Chronicon",
-          "type": "chronicle",
+          "name": "Ibn al-Athir, Al-Kamil fi al-Tarikh (The Complete History)",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Conrad II's election and coronation as King of the Romans in 1024\u20131026 is well-attested in contemporary and near-contemporary sources.",
-      "cross_references": [
-        "Precedes Conrad II's coronation as Holy Roman Emperor in Rome (1027)",
-        "Part of the Salian dynasty's rise to power"
-      ]
+      "certainty_note": "Fatimid succession dates are well-established in Islamic historiography, though primary contemporary documentation is limited. Multiple later chronicles agree on the date and succession.",
+      "cross_references": []
     },
     {
       "id": "1026-002",
-      "title": "Rajendra I's naval expedition to the Srivijaya Empire",
-      "region": "South Asia and Southeast Asia / Chola Empire and Srivijaya",
-      "coordinates_approx": "10.7870,79.1378 to 2.5000,102.0000",
-      "category": "military",
-      "description": "Rajendra I (Chola Emperor, r. 1014\u20131044) launched a major naval expedition against the Srivijaya Empire in Southeast Asia, extending Chola military power across the Indian Ocean. This expedition, which may have occurred in 1025\u20131026 or slightly later, resulted in the conquest of several Srivijaya territories and the establishment of Chola naval dominance in the region. The expedition demonstrated the Chola Empire's sophisticated maritime capabilities and its ambitions to control Indian Ocean trade routes. The conquest was commemorated in Chola inscriptions and represented the height of Chola imperial power.",
+      "title": "Consecration of the Church of the Holy Sepulchre (rebuilt)",
+      "region": "Jerusalem, Levant (under Fatimid control)",
+      "coordinates_approx": "31.7683, 35.2137",
+      "category": "religious",
+      "description": "The Church of the Holy Sepulchre in Jerusalem, which had been destroyed during the reign of Caliph Al-Hakim bi-Amr Allah (996\u20131021), was rebuilt and reconsecrated in 1026 CE under Caliph Al-Mustansir II. The reconstruction was permitted as part of a broader Fatimid policy of accommodation with Christian communities, though the process had been contentious. The reconsecration was a major event for Christian pilgrimage networks and symbolized the restoration of Christian access to one of Christianity's holiest sites. This event would have significant repercussions for Christian-Muslim relations in the Levant and contributed to the religious tensions that would eventually fuel the Crusades (beginning 1096).",
       "key_figures": [
-        "Rajendra I (Chola Emperor, r. 1014\u20131044)",
-        "Srivijaya rulers (unnamed in most sources)"
+        "Al-Mustansir II (Fatimid Caliph)",
+        "Patriarch of Jerusalem (identity uncertain in sources)"
       ],
       "sources": [
         {
-          "name": "Chola inscriptions (epigraphic evidence), particularly the Tanjore inscription",
-          "type": "epigraphic",
+          "name": "Yahya of Antioch, Chronicle (contemporary or near-contemporary)",
+          "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Tamil literary sources (Silappatikaram, Periyapuranam)",
+          "name": "Al-Maqrizi, Itti'az al-Hunafa",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Archaeological evidence from Southeast Asian sites",
-          "type": "archaeological",
+          "name": "Western pilgrimage accounts and monastic chronicles (10th\u201311th century)",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Rajendra I's naval expedition is well-attested in Chola inscriptions, but the precise date is uncertain. Sources place it between 1025 and 1030 CE. The expedition itself is not disputed, but the exact year is approximate.",
+      "certainty_note": "The reconsecration is attested in multiple sources, though exact dating (1026 vs. 1027) varies slightly. Yahya of Antioch provides near-contemporary testimony. The event is historically significant but dating precision is \u00b11 year.",
       "cross_references": [
-        "Part of Rajendra I's broader program of military expansion",
-        "Contemporary with the completion of the Brihadesvara Temple (c. 1028)",
-        "Demonstrates Chola maritime dominance in the Indian Ocean"
+        "Related to 1021 destruction under Al-Hakim",
+        "Precursor to Crusader interest in Jerusalem (1096+)"
       ]
     },
     {
       "id": "1026-003",
-      "title": "Caliph al-Zahir's continued reign and administrative consolidation",
-      "region": "Fatimid Caliphate / Islamic world",
-      "coordinates_approx": "30.0444,31.2357",
+      "title": "Reign of Anund Jacob of Sweden; consolidation of Christian kingship",
+      "region": "Sweden (Scandinavia)",
+      "coordinates_approx": "60.1282, 18.6435",
       "category": "political",
-      "description": "Caliph al-Zahir li-A'izam Allah (r. 1021\u20131036) continued his reign over the Fatimid Caliphate, consolidating administrative control and managing the complex political situation in the Levant and North Africa. Al-Zahir's reign was marked by efforts to restore stability after the destructive reign of his predecessor al-Hakim bi-Amr Allah (996\u20131021). Al-Zahir faced challenges from the Bedouin tribes, the Nizari Ismaili movement, and external military threats from the Byzantine Empire and the Ghaznavid Empire. His reign represented a period of relative stability and cultural flourishing in the Fatimid Caliphate.",
+      "description": "Anund Jacob (also called Anund the Great) ruled Sweden from approximately 1022 to 1066. By 1026, his reign was well-established, and he was actively consolidating Christian authority in Sweden, building churches and strengthening ties with the papacy and neighboring Christian kingdoms. His reign marked the transition of Sweden from a pagan to a Christian kingdom and the integration of Swedish nobility into the feudal structures of Western Europe. Anund Jacob's policies of Christianization and centralization had lasting effects on Scandinavian political development.",
       "key_figures": [
-        "Caliph al-Zahir li-A'izam Allah (Fatimid Caliph, r. 1021\u20131036)",
-        "Vizier al-Jarjara'i (chief administrator)"
+        "Anund Jacob (King of Sweden, r. ~1022\u20131066)"
       ],
       "sources": [
         {
-          "name": "Al-Maqrizi, Itti'az al-Hunafa bi-Akhbar al-A'imma al-Fatimiyyin (History of the Fatimid Caliphs), written 15th century",
-          "type": "later_compilation",
+          "name": "Adam of Bremen, Gesta Hammaburgensis Ecclesiae Pontificum (History of the Archbishops of Hamburg-Bremen)",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Tarikh (Complete History), written 12th\u201313th century",
+          "name": "Snorri Sturluson, Heimskringla (later Norse saga compilation)",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Al-Zahir's reign is well-attested in Islamic sources, but specific events of 1026 are not clearly documented. The year is part of a broader period of administrative consolidation.",
-      "cross_references": [
-        "Follows from al-Hakim's destructive reign (996\u20131021)",
-        "Contemporary with Ghaznavid Empire under Mahmud",
-        "Precedes the Seljuk rise to power (1040s)"
-      ]
+      "certainty_note": "Anund Jacob's reign dates are approximate (\u00b12\u20133 years). Adam of Bremen provides near-contemporary testimony from the late 11th century. Norse sagas are later compilations with legendary elements.",
+      "cross_references": []
+    },
+    {
+      "id": "1026-004",
+      "title": "Song Dynasty consolidation under Emperor Zhenzhong; technological and administrative peak",
+      "region": "China (Song Dynasty)",
+      "coordinates_approx": "34.3416, 108.9398",
+      "category": "political",
+      "description": "Emperor Zhenzhong of Song (r. 997\u20131022) had recently died, and his successor, Emperor Renzong (r. 1022\u20131063), was consolidating power in 1026. The Song Dynasty was at the height of its administrative sophistication and technological innovation. By this period, the Song had developed advanced printing technology, gunpowder weapons, sophisticated bureaucratic examination systems, and a thriving commercial economy. The year 1026 falls within a period of relative stability and prosperity, though the Song faced ongoing military pressure from the Liao Dynasty in the north. This era saw the flourishing of Neo-Confucian philosophy and the development of landscape painting.",
+      "key_figures": [
+        "Emperor Renzong of Song (r. 1022\u20131063)",
+        "Wang Anshi (statesman and reformer, b. 1021)"
+      ],
+      "sources": [
+        {
+          "name": "Sima Guang, Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Official Song Dynasty histories and court records",
+          "type": "historiographic_consensus",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Song Dynasty chronology is well-established through official court records and comprehensive later compilations. Emperor Renzong's reign dates are certain.",
+      "cross_references": []
+    },
+    {
+      "id": "1026-005",
+      "title": "Expansion of the Chola Empire in South India; maritime dominance",
+      "region": "South India (Chola Empire)",
+      "coordinates_approx": "11.1271, 79.8711",
+      "category": "political",
+      "description": "The Chola Empire under Rajendra Chola I (r. 1014\u20131044) was at the height of its power in 1026. Rajendra had recently completed his military campaigns in northern India and was consolidating control over maritime trade routes in the Indian Ocean. The Cholas were the dominant naval power in the region, controlling trade with Southeast Asia, China, and the Arab world. In 1026, the empire was experiencing economic prosperity driven by agricultural surplus, temple patronage, and maritime commerce. The Cholas were also major patrons of Tamil literature and temple architecture, contributing significantly to the cultural development of South India.",
+      "key_figures": [
+        "Rajendra Chola I (Chola Emperor, r. 1014\u20131044)"
+      ],
+      "sources": [
+        {
+          "name": "Chola inscriptions and temple records (epigraphic evidence)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Tamil literary texts (Silappatikaram, Manimekalai, and later Chola-era poetry)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Arab and Chinese merchant accounts (indirect evidence of Chola maritime power)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Chola chronology is well-established through epigraphic evidence (temple inscriptions and copper plates). Rajendra Chola I's reign dates are certain.",
+      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The precise date of Rajendra I's naval expedition is uncertain; sources place it between 1025 and 1030 CE, with some scholars arguing for a date closer to 1030. The expedition's extent and significance are also debated; some scholars argue that Chola control over Srivijaya territories was limited and temporary. No major disconfirming evidence undermines the significance of Conrad II's accession or al-Zahir's reign, but precision should not be overstated.",
-  "historiographic_note": "Documentation for 1026 is moderate but regionally uneven. Western European sources provide good coverage of Conrad II's political rise. South Asian sources (epigraphic evidence and later Tamil literature) document Rajendra I's military campaigns, though dating is approximate. Islamic sources document al-Zahir's reign, though specific events of 1026 are not clearly marked. Byzantine sources are available but less detailed for this specific year. Sub-Saharan Africa, the Americas, and much of Northern Europe remain poorly documented. The surviving record privileges elite political and military events over economic and social history.",
+  "disconfirming_evidence": "The significance of the Church of the Holy Sepulchre reconsecration in 1026 is sometimes overstated in Western historiography as a precursor to the Crusades. However, modern scholarship emphasizes that Christian-Muslim coexistence in the Levant remained relatively stable for another 70 years; the Crusades were triggered by specific geopolitical shifts (Seljuk expansion, Byzantine military decline) rather than religious tensions alone. The exact date of the reconsecration (1026 vs. 1027) is disputed in sources, and some scholars argue the reconstruction process was more gradual than a single consecration event suggests.",
+  "historiographic_note": "Documentation for 1026 is moderate overall. European sources are relatively abundant (monastic chronicles, papal records), but they are heavily Western-centric and often focus on religious and political elites. Islamic sources (particularly Fatimid and later compilations) are rich but often compiled centuries after events. Chinese sources are excellent and contemporary. South Asian sources are strong (epigraphic evidence) but less accessible to Western scholarship. Sub-Saharan Africa, Mesoamerica, and Southeast Asia are significantly underrepresented. The surviving record reflects the biases of literate, institutionalized societies (courts, monasteries, temples) and likely omits the experiences of peasants, merchants, and non-elite populations.",
   "graph_edges": [
     {
       "from": "1026-001",
-      "to": "1027-002",
+      "to": "1094-FATIMID_SUCCESSION",
       "relation": "led_to",
-      "note": "Conrad II's election as King of the Romans in 1024\u20131026 led to his coronation as Holy Roman Emperor in 1027"
+      "note": "Al-Mustansir II's long reign (1026\u20131094) shaped Fatimid politics for 68 years"
     },
     {
       "from": "1026-002",
-      "to": "1044-RAJENDRA_DEATH",
+      "to": "1096-FIRST_CRUSADE",
       "relation": "part_of",
-      "note": "The naval expedition is part of Rajendra I's broader program of military and maritime expansion"
+      "note": "Reconsecration of Holy Sepulchre contributed to Christian interest in Jerusalem, though not a direct cause of the Crusades"
     },
     {
       "from": "1026-003",
-      "to": "1040-SELJUK_RISE",
+      "to": "1066-NORMAN_CONQUEST",
+      "relation": "contemporary_with",
+      "note": "Anund Jacob's reign overlaps with the Norman Conquest of England; both represent Scandinavian/Norman integration into Western European feudalism"
+    },
+    {
+      "from": "1026-004",
+      "to": "1127-JIN_DYNASTY_RISE",
       "relation": "led_to",
-      "note": "Al-Zahir's administrative consolidation occurred during a period of relative stability that preceded the Seljuk rise to power"
+      "note": "Song Dynasty's military vulnerabilities in the north would eventually lead to Jin Dynasty conquest of northern China"
+    },
+    {
+      "from": "1026-005",
+      "to": "1044-RAJENDRA_CHOLA_DEATH",
+      "relation": "part_of",
+      "note": "1026 falls within Rajendra Chola I's reign; his death in 1044 marked the beginning of Chola decline"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:36:01.990618",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,211 +1,217 @@
 {
   "year": 1070,
   "year_label": "1070 CE",
-  "era_context": "High Middle Ages; the Gregorian Reform movement gaining momentum in the Western Church. The Byzantine Empire under Constantine X Doukas faces military pressure from the Seljuks in Anatolia. The Northern Song Dynasty under Emperor Yingzong continues governance; Emperor Shenzong will ascend in 1071. The Seljuk Empire under Alp Arslan is at its height. The Fatimid Caliphate is in decline.",
+  "era_context": "The year 1070 falls within the late 11th century, a period of significant religious reform, military conflict, and cultural development across Eurasia. The Byzantine Empire was recovering from the shock of Manzikert (1071), though the battle itself lay in the immediate future. The Norman conquest of southern Italy was nearing completion. In China, the Northern Song Dynasty was at its cultural and economic height. In the Islamic world, the Seljuk Turks were consolidating power in Anatolia and the Levant. This was an era of Gregorian reform in the Catholic Church, the rise of scholasticism, and the development of feudalism in Western Europe.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Northern Europe beyond major kingdoms",
-    "Central Asia (limited sources beyond Islamic and Byzantine accounts)",
-    "Americas and Oceania"
+    "Sub-Saharan Africa (limited written sources)",
+    "Pre-Columbian Americas (no written records)",
+    "Northern and Eastern Europe beyond major kingdoms (sparse documentation)",
+    "Central Asia and the Steppe (limited sources beyond Islamic and Chinese records)"
   ],
   "events": [
     {
       "id": "1070-001",
-      "title": "Wang Anshi becomes chief minister of Northern Song Dynasty",
-      "region": "Northern Song Dynasty, China",
-      "coordinates_approx": "34.2658, 108.9398",
-      "category": "political",
-      "description": "Wang Anshi, a renowned scholar and reformer, was appointed as chief minister (prime minister) of the Northern Song Dynasty under Emperor Yingzong. Wang Anshi was a proponent of comprehensive administrative and economic reforms designed to strengthen the Song state and increase its revenue. His appointment marked the beginning of a period of significant reform that would continue under Emperor Shenzong (who ascended in 1071). Wang Anshi's reforms, collectively known as the New Policies (Xin Fa), would have lasting effects on Song governance and society, though they were controversial and faced opposition from conservative officials.",
+      "title": "Siege of Bari continues under Robert Guiscard",
+      "region": "Southern Italy (Apulia)",
+      "coordinates_approx": "41.1, 16.9",
+      "category": "military",
+      "description": "Robert Guiscard's siege of the Byzantine city of Bari, which began in 1068, was ongoing in 1070. The Norman forces maintained pressure on the city, which was defended by Byzantine garrison forces. The siege would conclude in 1071 with the Norman victory. This prolonged siege demonstrated Norman military capability and determination to eliminate Byzantine presence from southern Italy, a key step in establishing Norman dominance in the Mediterranean.",
       "key_figures": [
-        "Wang Anshi (chief minister)",
-        "Emperor Yingzong of Song",
-        "Sima Guang (conservative opponent of reforms)"
+        "Robert Guiscard (Norman Duke)",
+        "Roger Borsa (Robert's son, participating in siege)",
+        "Constantine Doukas (Byzantine governor)"
       ],
       "sources": [
         {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government) by Sima Guang",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Song Shi (History of Song)",
+          "name": "William of Apulia. Gesta Roberti Wiscardi",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Writings of Wang Anshi",
+          "name": "Amatus of Montecassino. History of the Normans",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The siege is well-attested in Norman chronicles. The three-year duration (1068\u20131071) is accepted by modern scholarship.",
+      "cross_references": [
+        "1068-001 (Siege begins)",
+        "1071-002 (Siege concludes)"
+      ]
+    },
+    {
+      "id": "1070-002",
+      "title": "Wang Anshi becomes Chief Councillor of Song Dynasty",
+      "region": "China (Northern Song Dynasty)",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Wang Anshi, a renowned scholar and reformer, was appointed Chief Councillor (Prime Minister) of the Northern Song Dynasty in 1070. He immediately began implementing his 'New Policies' (Xin Fa), a comprehensive program of administrative, military, and economic reform designed to strengthen the state and increase revenue. His reforms included the establishment of a state loan system, military reforms, and agricultural improvements. These policies were controversial and faced opposition from conservative scholars and officials, but they represented an ambitious attempt at state modernization. Wang Anshi's tenure marked a significant moment in Chinese political and intellectual history.",
+      "key_figures": [
+        "Wang Anshi (Chief Councillor, 1070\u20131076)",
+        "Zhenzong Emperor (reigning emperor)",
+        "Sima Guang (conservative opponent of reforms)"
+      ],
+      "sources": [
+        {
+          "name": "Songshi (Official History of the Song Dynasty)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Wang Anshi's collected writings and memorials",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Wang Anshi's appointment as chief minister is well-documented in Chinese historical sources. He served in this role from 1070 to 1074, and again from 1075 to 1076.",
+      "certainty_note": "Wang Anshi's appointment and the implementation of his New Policies are well-documented in Chinese historical sources. The date of 1070 is firmly established.",
       "cross_references": [
-        "1071-004 (Shenzong's accession)",
-        "1073-004 (New Policies implementation)",
-        "1086-001 (reversal of New Policies after Shenzong's death)"
-      ]
-    },
-    {
-      "id": "1070-002",
-      "title": "Byzantine-Norman conflict in southern Italy",
-      "region": "Southern Italy",
-      "coordinates_approx": "41.0, 16.0",
-      "category": "military",
-      "description": "The Byzantine Empire and Norman forces continued their conflict over control of southern Italy. The Normans, under Robert Guiscard, were gradually expanding their control over Byzantine territories in the peninsula. The conflict was part of the broader Norman expansion in the Mediterranean and would eventually result in the complete displacement of Byzantine authority from southern Italy. The Normans would capture Bari in 1071, completing their conquest of Byzantine southern Italy.",
-      "key_figures": [
-        "Robert Guiscard",
-        "Byzantine catepan of Italy",
-        "Pope Gregory VII (who initially supported Norman expansion)"
-      ],
-      "sources": [
-        {
-          "name": "Chronicle of William of Apulia",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Liber Pontificalis",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Byzantine sources (Anna Komnena, Alexiad)",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The broader context of Byzantine-Norman conflict is well-documented; specific events in 1070 are less clearly delineated.",
-      "cross_references": [
-        "1071-003 (Norman conquest of Bari)",
-        "1091-001 (completion of Norman conquest of Sicily)"
+        "1076-001 (Wang Anshi's fall from power)",
+        "1071-004 (Zhenzong's reign)"
       ]
     },
     {
       "id": "1070-003",
-      "title": "Seljuk expansion under Alp Arslan continues",
-      "region": "Seljuk Empire (Anatolia, Syria, and the Levant)",
-      "coordinates_approx": "35.0, 40.0",
-      "category": "military",
-      "description": "The Seljuk Empire under Alp Arslan continued its expansion and consolidation of power. Alp Arslan was at the height of his power and prestige, having recently achieved military victories and expanded Seljuk territory. The Seljuks were gradually displacing Byzantine and Arab authority in Anatolia and the Levant. This period of expansion would culminate in the Battle of Manzikert in 1071, where Alp Arslan would achieve a decisive victory over the Byzantine Emperor Romanos IV Diogenes.",
+      "title": "Pope Gregory VII elected; begins Gregorian Reform",
+      "region": "Papal States (Rome)",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "religious",
+      "description": "Hildebrand of Sovana was elected Pope Gregory VII in 1073 (not 1070, but his rise to prominence and influence began earlier). However, in 1070, the reform movement that would bear his name was already well underway under his influence as papal legate. The Gregorian Reform aimed to eliminate simony (the sale of church offices), enforce clerical celibacy, and assert papal authority over secular rulers. These reforms were revolutionary and led to significant conflicts with secular powers, most notably the Investiture Controversy with the Holy Roman Emperor. The reform movement represented a major reassertion of ecclesiastical independence and authority.",
       "key_figures": [
-        "Alp Arslan (Seljuk Sultan)",
-        "Nizam al-Mulk (vizier)"
+        "Hildebrand of Sovana (future Pope Gregory VII, cardinal and papal legate in 1070)",
+        "Pope Alexander II (reigning pope, 1061\u20131073)",
+        "Henry IV (Holy Roman Emperor, future opponent of Gregory VII)"
       ],
       "sources": [
         {
-          "name": "Seljuknama (Book of the Seljuks)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Registrum Gregorii VII (Pope Gregory VII's register of letters)",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Islamic historical chronicles",
+          "name": "Bonizo of Sutri. Liber ad amicum (Latin chronicle, written c. 1085)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Byzantine sources",
-          "type": "chronicle",
+          "name": "Medieval papal chronicles and histories",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The broader context of Seljuk expansion is well-documented; specific events in 1070 are less clearly delineated.",
+      "certainty_note": "The Gregorian Reform was underway by 1070, though Gregory VII's election occurred in 1073. The reform movement's origins and development are well-documented, but attributing specific events to 1070 requires careful dating.",
       "cross_references": [
-        "1071-001 (Battle of Manzikert)",
-        "1071-002 (Alp Arslan's assassination)"
+        "1073-001 (Gregory VII's election as pope)",
+        "1077-001 (Walk to Canossa, climax of Investiture Controversy)"
       ]
     },
     {
       "id": "1070-004",
-      "title": "Pope Gregory VII consolidates reform agenda",
-      "region": "Papal States / Western Christendom",
-      "coordinates_approx": "41.9028, 12.4534",
-      "category": "religious",
-      "description": "Pope Gregory VII (who had been elected in 1073, but this entry refers to his activities as archdeacon and papal legate before his election) continued to consolidate the Gregorian Reform agenda within the Western Church. The reform movement sought to purify the church of simony (the sale of church offices), clerical marriage, and lay investiture. Gregory VII was a key figure in this movement and would become pope in 1073, where he would aggressively pursue these reforms and come into conflict with secular rulers, particularly Emperor Henry IV.",
+      "title": "Seljuk Turks consolidate control of Baghdad region",
+      "region": "Mesopotamia (Islamic Caliphate)",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "By 1070, the Seljuk Turks had consolidated their control over much of the Islamic world, including the Baghdad region, where they served as protectors of the Abbasid Caliph. The Seljuks had defeated the Fatimid Egyptians and established themselves as the dominant military and political force in the central Islamic lands. This consolidation marked the end of the period of fragmentation that had characterized the 10th and early 11th centuries. The Seljuk period saw a revival of Sunni orthodoxy, the development of the madrasa (theological school) system, and significant cultural and intellectual achievements.",
       "key_figures": [
-        "Hildebrand of Sovana (future Pope Gregory VII)",
-        "Pope Alexander II (reigning pope)"
+        "Alp Arslan (Seljuk Sultan, r. 1063\u20131072)",
+        "Nizam al-Mulk (Seljuk vizier, chief administrator)",
+        "Al-Qa'im (Abbasid Caliph, r. 1031\u20131075)"
       ],
       "sources": [
         {
-          "name": "Life of Gregory VII by Paul of Bernried",
-          "type": "chronicle",
+          "name": "Ibn al-Athir. Al-Kamil fi al-Ta'rikh (Complete History, written c. 1230)",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Liber Pontificalis",
+          "name": "Nizami Aruzi. Chahar Maqala (Four Discourses, written c. 1150)",
           "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Seljuk consolidation",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The broader context of the Gregorian Reform is well-documented; specific events in 1070 are less clearly delineated. This entry is somewhat speculative, as Gregory VII did not become pope until 1073.",
+      "certainty": "confirmed",
+      "certainty_note": "The Seljuk consolidation of power in the Islamic world by 1070 is well-established in Islamic historical sources. The process occurred gradually over the 1050s\u20131070s.",
       "cross_references": [
-        "1073-001 (Gregory VII becomes pope)",
-        "1074-001 (Gregory VII's conflict with Henry IV)"
+        "1071-001 (Battle of Manzikert, Alp Arslan's victory)",
+        "1092-001 (Assassination of Nizam al-Mulk)"
       ]
     },
     {
       "id": "1070-005",
-      "title": "Fatimid Caliphate faces internal instability and military pressure",
-      "region": "Fatimid Caliphate (Egypt and the Levant)",
-      "coordinates_approx": "30.0, 31.0",
-      "category": "political",
-      "description": "The Fatimid Caliphate under Caliph Al-Mustansir faced significant internal instability and military pressure from external forces. The Fatimid state was experiencing economic difficulties, military setbacks, and the rise of powerful military factions (particularly the Mamluks). The Seljuks were expanding into the Levant, displacing Fatimid authority. The Fatimid Caliphate was in decline during this period and would continue to lose territory and influence over the following decades.",
+      "title": "Lanfranc of Bec becomes Archbishop of Canterbury",
+      "region": "England (Kingdom of England)",
+      "coordinates_approx": "51.3, 1.1",
+      "category": "religious",
+      "description": "Lanfranc of Bec, a renowned Norman scholar and theologian, was appointed Archbishop of Canterbury in 1070 by King William the Conqueror. Lanfranc was a key figure in the Norman Conquest's aftermath, helping to integrate the Norman and Anglo-Saxon churches and establishing Canterbury as a center of learning and ecclesiastical authority. His appointment represented the consolidation of Norman control over the English church and the implementation of church reforms aligned with the broader Gregorian Reform movement. Lanfranc's tenure lasted until his death in 1089 and was marked by significant ecclesiastical reorganization.",
       "key_figures": [
-        "Caliph Al-Mustansir",
-        "Badr al-Jamali (powerful vizier and military commander)",
-        "Mamluk military factions"
+        "Lanfranc of Bec (Archbishop of Canterbury, 1070\u20131089)",
+        "William the Conqueror (King of England, r. 1066\u20131087)",
+        "Stigand (previous Archbishop, deposed)"
       ],
       "sources": [
         {
-          "name": "Islamic historical chronicles",
+          "name": "Anglo-Saxon Chronicle (English chronicle, various versions)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Fatimid sources",
+          "name": "Eadmer of Canterbury. Historia Novorum (History of Recent Events, written c. 1100)",
           "type": "chronicle",
           "contemporary": false
+        },
+        {
+          "name": "Lanfranc's letters and writings",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The broader context of Fatimid decline is well-documented; specific events in 1070 are less clearly delineated.",
+      "certainty": "confirmed",
+      "certainty_note": "Lanfranc's appointment as Archbishop of Canterbury in 1070 is well-documented in English and Norman sources. The date is firmly established.",
       "cross_references": [
-        "1071-005 (Al-Mustansir's death and succession)",
-        "1095-001 (First Crusade called during period of Fatimid decline)"
+        "1066-001 (Norman Conquest of England)",
+        "1089-001 (Lanfranc's death)"
       ]
     }
   ],
-  "disconfirming_evidence": "Wang Anshi's reforms are sometimes portrayed as uniformly progressive and beneficial, but modern historians note that they were controversial even among Song officials and had mixed results. Some of the reforms were economically disruptive and faced significant opposition. The characterization of the Fatimid Caliphate as simply 'in decline' is somewhat oversimplified; the Fatimids maintained significant power and influence in Egypt and parts of the Levant despite external pressures. The Gregorian Reform is sometimes portrayed as a unified movement, but it was actually a complex process involving multiple actors and competing interests.",
-  "historiographic_note": "Documentation for 1070 is moderate for major political and military events. Chinese sources are detailed for Song Dynasty affairs, particularly regarding Wang Anshi's appointment. Western European sources are focused on the Norman expansion and the Gregorian Reform. Byzantine sources provide information on the empire's military challenges. Islamic sources for the Seljuk Empire and Fatimid Caliphate are substantial but often later compilations. The year is well-documented for elite political events but less so for social, economic, and cultural developments. Non-literate societies and regions without written records are absent from the historical record.",
+  "disconfirming_evidence": "The traditional narrative of the Gregorian Reform as a unified, coherent movement initiated by Gregory VII has been complicated by modern scholarship. Historians now recognize that reform efforts were diverse, sometimes contradictory, and involved many actors before Gregory VII's election. The reform was not simply a top-down papal initiative but involved complex interactions between papal, episcopal, monastic, and lay actors. Additionally, the characterization of the Seljuk consolidation as a straightforward 'conquest' of Islamic lands obscures the complex political negotiations and the continued autonomy of local rulers under Seljuk suzerainty. The Seljuks were not a unified monolithic force but a confederation of Turkish dynasties with varying degrees of centralization.",
+  "historiographic_note": "The year 1070 is moderately well-documented for major political and religious events in Western Europe, the Byzantine Empire, and East Asia. European sources are primarily monastic chronicles and later compilations, introducing potential bias toward ecclesiastical perspectives and the concerns of the Norman elite. Islamic sources for this period are often later compilations (12th\u201313th centuries), which may reflect later interpretations of events. Chinese sources are comprehensive and contemporary, providing reliable documentation of Song Dynasty affairs. The documentation for Scandinavia, Eastern Europe, and regions outside the major civilizational centers remains sparse. The reliability of dating for events in these peripheral regions is lower.",
   "graph_edges": [
     {
       "from": "1070-001",
-      "to": "1073-004",
+      "to": "1071-002",
       "relation": "led_to",
-      "note": "Wang Anshi's appointment as chief minister led to the implementation of the New Policies under Shenzong"
+      "note": "The siege of Bari in 1070 concluded with Norman victory in 1071"
     },
     {
       "from": "1070-002",
-      "to": "1071-003",
+      "to": "1076-001",
       "relation": "led_to",
-      "note": "Byzantine-Norman conflict in southern Italy led to the Norman conquest of Bari in 1071"
+      "note": "Wang Anshi's New Policies, implemented from 1070, eventually led to his fall from power in 1076"
     },
     {
       "from": "1070-003",
-      "to": "1071-001",
+      "to": "1073-001",
       "relation": "led_to",
-      "note": "Seljuk expansion under Alp Arslan led to the Battle of Manzikert in 1071"
+      "note": "The Gregorian Reform movement, underway in 1070, culminated in Gregory VII's election in 1073"
+    },
+    {
+      "from": "1070-005",
+      "to": "1066-001",
+      "relation": "caused_by",
+      "note": "Lanfranc's appointment as Archbishop was a consequence of the Norman Conquest of England in 1066"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:21:36.208575",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

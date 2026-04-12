@@ -1,166 +1,212 @@
 {
   "year": 1069,
   "year_label": "1069 CE",
-  "era_context": "The High Middle Ages in Europe; the Norman Conquest of England (1066) has recently consolidated, while the Investiture Controversy between papacy and Holy Roman Empire intensifies. In the Islamic world, the Seljuk Empire expands in Anatolia and the Levant. In East Asia, the Northern Song Dynasty rules China; the Liao Dynasty controls the north. Byzantine Empire under Constantine X Doukas faces pressure from Seljuks in Anatolia.",
+  "era_context": "The year 1069 falls within the late 11th century, a period of significant transformation across Eurasia. The Norman Conquest of England had occurred three years earlier (1066), and its consolidation was ongoing. The Byzantine Empire was facing increasing pressure from the Seljuk Turks in Anatolia. In China, the Northern Song Dynasty was experiencing a cultural and economic golden age. The Islamic world was undergoing reorganization under Seljuk leadership. In Western Europe, the Gregorian Reform movement was gaining momentum, and feudalism was becoming the dominant political and social system. This was an era of religious fervor, military innovation, and intellectual development.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records for this period)",
-    "Pre-Columbian Americas (no written chronology in European calendar)",
-    "Oceania and Pacific Islands (oral traditions not systematically recorded)"
+    "Sub-Saharan Africa (limited written sources)",
+    "Pre-Columbian Americas (no written records)",
+    "Northern and Eastern Europe beyond major kingdoms (sparse documentation)",
+    "Central Asia and the Steppe (limited sources beyond Islamic and Chinese records)"
   ],
   "events": [
     {
       "id": "1069-001",
-      "title": "Council of Rome and Papal Reform",
-      "region": "Papal States / Rome",
-      "coordinates_approx": "41.9028, 12.4534",
-      "category": "religious",
-      "description": "Pope Alexander II convenes a council in Rome addressing clerical celibacy, simony, and lay investiture. This represents a key moment in the Gregorian Reform movement, which sought to free the Church from secular control and enforce moral discipline among clergy. The council's decrees would intensify conflict with the Holy Roman Emperor Henry IV over the next two decades.",
+      "title": "Siege of Bari continues; Norman consolidation in southern Italy",
+      "region": "Southern Italy (Apulia)",
+      "coordinates_approx": "41.1, 16.9",
+      "category": "military",
+      "description": "The Norman siege of Bari, which began in 1068, continued into 1069. Robert Guiscard maintained pressure on the Byzantine-held city as part of his broader campaign to eliminate Byzantine presence from southern Italy. The siege would ultimately conclude in 1071 with Norman victory. The ongoing siege demonstrated the Norman commitment to consolidating their control over southern Italy and their willingness to undertake prolonged military campaigns to achieve their objectives.",
       "key_figures": [
-        "Pope Alexander II",
-        "Cardinal Hildebrand (later Gregory VII)"
+        "Robert Guiscard (Norman Duke of Apulia)",
+        "Roger Borsa (Robert's son)",
+        "Constantine Doukas (Byzantine governor)"
       ],
       "sources": [
         {
-          "name": "Liber Pontificalis and papal registers",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "William of Apulia. Gesta Roberti Wiscardi",
+          "type": "later_compilation",
+          "contemporary": false
         },
         {
-          "name": "Bonizo of Sutri, Liber de vita christiana",
+          "name": "Amatus of Montecassino. History of the Normans",
           "type": "chronicle",
-          "contemporary": true
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Multiple contemporary ecclesiastical sources document the council and its decrees.",
+      "certainty_note": "The siege's duration (1068\u20131071) is well-attested. The specific events of 1069 are less detailed in sources, but the siege's continuation is confirmed.",
       "cross_references": [
-        "1075-001 (Investiture Controversy escalation)",
-        "1077-001 (Walk to Canossa)"
+        "1068-001 (Siege begins)",
+        "1071-002 (Siege concludes)"
       ]
     },
     {
       "id": "1069-002",
-      "title": "Norman Consolidation in England and Succession Disputes",
-      "region": "England / Normandy",
-      "coordinates_approx": "52.5, -1.5",
-      "category": "political",
-      "description": "Three years after the Norman Conquest, William the Conqueror continues consolidating power in England, replacing Anglo-Saxon nobility with Norman lords. Tensions emerge over succession and the status of Normandy relative to England. The Domesday Book survey (begun 1086) will later document this reorganisation, but 1069 itself sees continued rebellion and reorganisation of the English church under Norman bishops.",
+      "title": "Council of Winchester held in England",
+      "region": "England (Kingdom of England)",
+      "coordinates_approx": "51.1, -1.3",
+      "category": "religious",
+      "description": "A major ecclesiastical council was held at Winchester in 1069, one of several councils convened by King William the Conqueror and his ecclesiastical advisors to reorganize the English church following the Norman Conquest. These councils addressed issues of church discipline, the integration of Norman and Anglo-Saxon clergy, and the implementation of church reforms. The councils represented William's assertion of control over the English church and his alignment with the broader Gregorian Reform movement, though William maintained significant royal authority over ecclesiastical appointments.",
       "key_figures": [
-        "William I (the Conqueror)",
-        "Lanfranc, Archbishop of Canterbury"
+        "William the Conqueror (King of England)",
+        "Lanfranc of Bec (papal legate and future Archbishop of Canterbury)",
+        "Stigand (Anglo-Saxon Archbishop of Canterbury, being phased out)"
       ],
       "sources": [
         {
-          "name": "Anglo-Saxon Chronicle",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Orderic Vitalis, Ecclesiastical History",
+          "name": "Anglo-Saxon Chronicle (English chronicle, various versions)",
           "type": "chronicle",
           "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Well-documented in contemporary and near-contemporary chronicles.",
-      "cross_references": [
-        "1066-001 (Norman Conquest)",
-        "1086-001 (Domesday Book)"
-      ]
-    },
-    {
-      "id": "1069-003",
-      "title": "Seljuk Expansion and Byzantine Military Pressure",
-      "region": "Anatolia / Byzantine Empire",
-      "coordinates_approx": "39.0, 35.0",
-      "category": "military",
-      "description": "The Seljuk Turks, having defeated the Byzantines at Manzikert in 1071 (future event), continue expanding into Anatolia. By 1069, Seljuk raids and settlement are increasing pressure on Byzantine frontier defences. Emperor Constantine X Doukas attempts to manage the threat through diplomacy and military campaigns, but the empire's resources are stretched. This period marks the beginning of the long Byzantine retreat from Anatolia.",
-      "key_figures": [
-        "Constantine X Doukas (Byzantine Emperor)",
-        "Alp Arslan (Seljuk Sultan, d. 1072)"
-      ],
-      "sources": [
-        {
-          "name": "Psellus and Attaleiates, Byzantine historians",
-          "type": "chronicle",
-          "contemporary": true
         },
         {
-          "name": "Seljuk administrative records (later compilation)",
-          "type": "later_compilation",
+          "name": "Eadmer of Canterbury. Historia Novorum",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Norman chronicles (William of Apulia, Orderic Vitalis)",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Byzantine sources confirm Seljuk pressure; exact dating of raids varies by source.",
+      "certainty_note": "Multiple councils were held in England in the late 1060s and early 1070s. The specific date of 1069 for a Winchester council is attested in some sources, but details are sparse.",
       "cross_references": [
-        "1071-001 (Battle of Manzikert)"
+        "1066-001 (Norman Conquest of England)",
+        "1070-005 (Lanfranc becomes Archbishop of Canterbury)"
       ]
     },
     {
-      "id": "1069-004",
-      "title": "Northern Song Dynasty Administrative Reforms",
-      "region": "China / Song Empire",
+      "id": "1069-003",
+      "title": "Zhenzong Emperor consolidates power in Song Dynasty",
+      "region": "China (Northern Song Dynasty)",
       "coordinates_approx": "34.3, 108.9",
       "category": "political",
-      "description": "The Northern Song Dynasty under Emperor Shenzong (r. 1067\u20131085) continues implementing administrative and military reforms. In 1069, the reformist minister Wang Anshi gains influence, proposing the 'New Policies' (Xin Fa) to strengthen state finances and military capacity. These reforms include land redistribution, state monopolies on salt and iron, and new taxation schemes. They are controversial and face resistance from conservative literati.",
+      "description": "In 1069, the Zhenzong Emperor (r. 1068\u20131085) was consolidating his personal authority over the Northern Song Dynasty, moving away from regency by the Empress Dowager. This transition marked the beginning of a period of significant political and administrative activity, including the eventual rise of Wang Anshi as Chief Councillor in 1070. The year 1069 was part of a broader period of Song Dynasty strength, characterized by economic prosperity, cultural achievement, and military challenges from the Liao Dynasty to the north.",
       "key_figures": [
-        "Emperor Shenzong",
-        "Wang Anshi (reformist minister)",
-        "Sima Guang (conservative opposition)"
+        "Zhenzong Emperor (r. 1068\u20131085)",
+        "Empress Dowager (regent, gradually losing power)",
+        "Wang Anshi (rising political figure)"
       ],
       "sources": [
         {
-          "name": "Shiji (Records of the Grand Historian) and Song official histories",
+          "name": "Songshi (Official History of the Song Dynasty)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Wang Anshi's memorials and writings",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Extensively documented in Song official records and Wang Anshi's own writings.",
+      "certainty_note": "The Zhenzong Emperor's reign and the transition from regency are well-documented in Chinese historical sources. The dates and major political developments are firmly established.",
       "cross_references": [
-        "1067-001 (Shenzong's accession)"
+        "1070-002 (Wang Anshi becomes Chief Councillor)",
+        "1071-004 (Zhenzong's reign continues)"
+      ]
+    },
+    {
+      "id": "1069-004",
+      "title": "Seljuk Turks under Alp Arslan continue expansion in Anatolia",
+      "region": "Anatolia (Seljuk Sultanate of Rum)",
+      "coordinates_approx": "39.0, 35.0",
+      "category": "military",
+      "description": "In 1069, the Seljuk Sultan Alp Arslan (r. 1063\u20131072) continued his military campaigns in Anatolia, gradually expanding Seljuk control over Byzantine territories. These campaigns, which would culminate in the decisive Battle of Manzikert in 1071, represented a systematic effort to conquer and settle Anatolia. The Seljuk expansion was part of a broader pattern of Turkish migration and settlement in Anatolia, which would fundamentally transform the region's demographic and cultural character over the following centuries.",
+      "key_figures": [
+        "Alp Arslan (Seljuk Sultan, r. 1063\u20131072)",
+        "Nizam al-Mulk (Seljuk vizier)",
+        "Constantine X Doukas (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir. Al-Kamil fi al-Ta'rikh",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine sources (Skylitzes, Attaliates)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Seljuk expansion",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Seljuk expansion in Anatolia during the 1060s\u20131070s is well-attested. Specific events of 1069 are less detailed in sources, but the general pattern of expansion is confirmed.",
+      "cross_references": [
+        "1071-001 (Battle of Manzikert)",
+        "1077-001 (Seljuk consolidation in Anatolia)"
+      ]
+    },
+    {
+      "id": "1069-005",
+      "title": "Hereward the Wake leads English resistance to Norman rule",
+      "region": "England (East Anglia)",
+      "coordinates_approx": "52.5, 0.5",
+      "category": "military",
+      "description": "In 1069, Hereward the Wake, an Anglo-Saxon noble, led a rebellion against Norman rule in East Anglia, particularly in the Fenlands. The rebellion was part of broader Anglo-Saxon resistance to the Norman Conquest, which had occurred three years earlier. Hereward's revolt, which lasted until approximately 1071, represented one of the last significant Anglo-Saxon challenges to Norman authority. The rebellion was eventually suppressed, but it demonstrated the persistence of Anglo-Saxon resistance and the challenges faced by the Normans in consolidating their control over England.",
+      "key_figures": [
+        "Hereward the Wake (Anglo-Saxon rebel leader)",
+        "William the Conqueror (Norman King of England)",
+        "Sweyn II Estridsson (King of Denmark, provided some support)"
+      ],
+      "sources": [
+        {
+          "name": "Gesta Herewardi (Life of Hereward, written c. 12th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Anglo-Saxon Chronicle (English chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Orderic Vitalis. Ecclesiastical History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hereward's rebellion is attested in English sources, though the Gesta Herewardi is a later, legendary account. The rebellion's dates (c. 1069\u20131071) are approximate, and many details are legendary or disputed.",
+      "cross_references": [
+        "1066-001 (Norman Conquest of England)",
+        "1071-006 (Hereward's rebellion suppressed)"
       ]
     }
   ],
-  "disconfirming_evidence": "The significance of the 1069 Council of Rome is sometimes overstated in Western historiography as a singular turning point; modern scholarship emphasises that Gregorian Reform was a gradual process spanning decades, with earlier councils (e.g., 1059) and later conflicts (1075+) being equally or more significant. The 'consolidation' of Norman England is often presented as complete by 1069, but recent scholarship notes persistent Anglo-Saxon resistance and cultural continuity well into the 1070s\u20131080s.",
-  "historiographic_note": "Documentation for 1069 is heavily weighted toward Western Europe and the Byzantine Empire, with rich ecclesiastical and political records. East Asian sources (Chinese chronicles) are detailed but often compiled centuries later. Islamic sources for Seljuk activities are sparse for this specific year. Sub-Saharan Africa, the Americas, and Oceania have no written records for this year in surviving sources. The surviving record reflects the literacy and record-keeping practices of literate elites (clergy, court scribes, nobility) and likely omits the experiences of peasants, merchants, and non-literate populations.",
+  "disconfirming_evidence": "The traditional narrative of Hereward the Wake as a heroic Anglo-Saxon resistance leader has been significantly complicated by modern scholarship. The Gesta Herewardi, the primary source for his life, is a 12th-century legendary account written long after the events, and many of its details are unreliable or invented. Modern historians debate the extent of Hereward's actual rebellion and his historical significance. Some scholars argue that the rebellion was smaller and less significant than the legendary account suggests, and that Hereward may have been a relatively minor figure whose story was later romanticized. Additionally, the characterization of the Norman Conquest as a simple 'conquest' obscures the complex processes of integration and negotiation between Norman and Anglo-Saxon elites that occurred over decades.",
+  "historiographic_note": "The year 1069 is moderately well-documented for major political and military events in Western Europe, the Byzantine Empire, and East Asia. European sources are primarily monastic chronicles and later compilations, introducing potential bias toward ecclesiastical perspectives and the concerns of the Norman elite. The documentation for Anglo-Saxon resistance to Norman rule is particularly problematic, as most surviving sources were written by Norman or Norman-sympathetic authors. Islamic sources for this period are often later compilations, which may reflect later interpretations of events. Chinese sources are comprehensive and contemporary, providing reliable documentation of Song Dynasty affairs. The documentation for Scandinavia, Eastern Europe, and regions outside the major civilizational centers remains sparse.",
   "graph_edges": [
     {
       "from": "1069-001",
-      "to": "1075-001",
+      "to": "1071-002",
       "relation": "led_to",
-      "note": "Papal reform momentum from 1069 council directly contributed to the Investiture Controversy escalation in 1075."
+      "note": "The siege of Bari in 1069 continued and concluded with Norman victory in 1071"
     },
     {
       "from": "1069-002",
-      "to": "1066-001",
-      "relation": "caused_by",
-      "note": "Norman consolidation in 1069 is a direct consequence of the 1066 Conquest."
+      "to": "1070-005",
+      "relation": "led_to",
+      "note": "The ecclesiastical reorganization begun at Winchester in 1069 continued with Lanfranc's appointment as Archbishop in 1070"
     },
     {
       "from": "1069-003",
-      "to": "1071-001",
+      "to": "1070-002",
       "relation": "led_to",
-      "note": "Seljuk pressure in 1069 culminated in the decisive Battle of Manzikert in 1071."
+      "note": "Zhenzong's consolidation of power in 1069 enabled Wang Anshi's rise to Chief Councillor in 1070"
     },
     {
-      "from": "1069-004",
-      "to": "1093-001",
-      "relation": "part_of",
-      "note": "Wang Anshi's reforms of 1069 are part of the broader Song Dynasty reform movement of the late 11th century."
+      "from": "1069-005",
+      "to": "1071-006",
+      "relation": "led_to",
+      "note": "Hereward's rebellion, which began in 1069, was suppressed by 1071"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:23:09.988580",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,109 +1,110 @@
 {
   "year": 1066,
   "year_label": "1066 CE",
-  "era_context": "The High Middle Ages; a pivotal year in European history. The Norman Conquest of England fundamentally reshapes English political, social, and cultural structures. In the Byzantine Empire, Constantine X Doukas rules and faces increasing pressure from the Seljuk Turks in Anatolia. The Islamic world sees continued Seljuk expansion under Alp Arslan. In East Asia, the Northern Song Dynasty is in a period of relative stability under Emperor Yingzong, though military and fiscal challenges persist.",
+  "era_context": "The mid-11th century witnessed the fragmentation of feudal Europe, the height of the Byzantine Empire under Constantine X, the consolidation of the Seljuk Turks in Anatolia, and the Song Dynasty's scientific and commercial flourishing in China. This year marks a pivotal moment in Western European political history with the Norman Conquest of England, fundamentally reshaping the island's governance, culture, and language for centuries.",
   "documentation_level": "rich",
-  "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Pre-Columbian Americas",
-    "Oceania and Pacific Islands",
-    "Central Asia and the Steppe (limited written records)"
-  ],
+  "geographic_coverage_gaps": [],
   "events": [
     {
       "id": "1066-001",
-      "title": "Norman Conquest of England: Battle of Hastings",
-      "region": "England / Normandy",
-      "coordinates_approx": "50.8, 0.5",
+      "title": "Battle of Hastings and Norman Conquest of England",
+      "region": "England, Normandy",
+      "coordinates_approx": "50.9, 0.5",
       "category": "military",
-      "description": "On 14 October 1066, William, Duke of Normandy, defeats King Harold Godwinson of England at the Battle of Hastings. Harold is killed in the battle, and William's victory opens the path to the English throne. William is crowned King of England on 25 December 1066 (Christmas Day). The Norman Conquest fundamentally transforms English society, replacing Anglo-Saxon nobility with Norman lords, introducing feudalism, and reshaping the English church. The conquest has profound long-term consequences for English language, culture, law, and political structure. It also establishes a Norman dynasty that will rule England for over a century.",
+      "description": "On 14 October 1066, William, Duke of Normandy, defeated King Harold Godwinson at Hastings in East Sussex. Harold was killed in the battle, and William's victory secured his claim to the English throne. The Norman Conquest fundamentally transformed English governance, introducing Norman-French feudalism, replacing the Anglo-Saxon aristocracy with Norman nobles, and eventually merging Norman-French and Anglo-Saxon cultures into what became Middle English. This event initiated the Anarchy of succession and established a new royal dynasty that would rule England for over three centuries.",
       "key_figures": [
-        "William I (the Conqueror)",
-        "Harold Godwinson (defeated king)",
-        "Duke William of Normandy"
+        "William, Duke of Normandy (later William I of England)",
+        "Harold Godwinson (King of England)",
+        "Duke William II of Normandy (William's father, deceased)",
+        "Tostig Godwinson (Harold's brother, allied with William)"
       ],
       "sources": [
         {
-          "name": "Anglo-Saxon Chronicle",
-          "type": "chronicle",
+          "name": "Bayeux Tapestry",
+          "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Bayeux Tapestry (embroidered narrative, contemporary or near-contemporary)",
-          "type": "archaeological",
-          "contemporary": true
-        },
-        {
-          "name": "Orderic Vitalis, Ecclesiastical History",
+          "name": "Anglo-Saxon Chronicle (E-version)",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         },
         {
           "name": "William of Jumi\u00e8ges, Gesta Normannorum Ducum",
           "type": "chronicle",
           "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Battle Abbey site",
+          "type": "archaeological",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Battle of Hastings is one of the most thoroughly documented events of the medieval period, with multiple contemporary and near-contemporary sources, including the Bayeux Tapestry.",
+      "certainty_note": "The date, location, and outcome are attested in multiple near-contemporary sources and the Bayeux Tapestry. The battle's occurrence is beyond dispute.",
       "cross_references": [
-        "1067-003 (Norman consolidation)",
-        "1086-001 (Domesday Book)"
+        "1065-001 (Edward the Confessor's death and succession dispute)",
+        "1066-002 (Battle of Stamford Bridge)"
       ]
     },
     {
       "id": "1066-002",
-      "title": "Battle of Stamford Bridge: Harold Godwinson Defeats Norwegian Invasion",
-      "region": "England / Yorkshire",
-      "coordinates_approx": "54.1, -0.8",
+      "title": "Battle of Stamford Bridge",
+      "region": "England (Yorkshire)",
+      "coordinates_approx": "54.0, -0.8",
       "category": "military",
-      "description": "On 25 September 1066, King Harold Godwinson of England defeats King Harald Hardrada of Norway at the Battle of Stamford Bridge in Yorkshire. Harald Hardrada is killed, and the Norwegian invasion of England is repelled. This victory is a significant achievement for Harold, but it comes at a cost: his army is exhausted and depleted when he must march south to face William of Normandy at Hastings just three weeks later (14 October 1066). The timing of these two battles is crucial to understanding the Norman Conquest.",
+      "description": "On 25 September 1066, King Harold Godwinson of England defeated King Harald Hardrada of Norway and Tostig Godwinson (Harold's estranged brother) at Stamford Bridge in Yorkshire. This victory secured Harold's northern frontier but exhausted his forces. Harold was forced to march south rapidly to meet William of Normandy's invasion, arriving at Hastings only three weeks later with depleted troops. The battle eliminated the Norwegian threat to England but indirectly contributed to Harold's defeat at Hastings by preventing him from fielding a fully rested army.",
       "key_figures": [
-        "Harold Godwinson (English King)",
-        "Harald Hardrada (Norwegian King, d. 1066)",
-        "Tostig Godwinson (Harold's brother, allied with Harald)"
+        "Harold Godwinson (King of England)",
+        "Harald Hardrada (King of Norway)",
+        "Tostig Godwinson (former Earl of Northumbria)"
       ],
       "sources": [
         {
-          "name": "Anglo-Saxon Chronicle",
+          "name": "Anglo-Saxon Chronicle (D and E versions)",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Snorri Sturluson, Heimskringla (compiled 13th century)",
+          "name": "Snorri Sturluson, Heimskringla (Saga of Harald Hardrada)",
           "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Florence of Worcester, Chronicle",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Battle of Stamford Bridge is well-documented in contemporary English sources and later Scandinavian sources.",
+      "certainty_note": "The date (25 September), location, and outcome are attested in Anglo-Saxon Chronicle and Norse sagas. The battle's historical reality is secure.",
       "cross_references": [
-        "1066-001 (Battle of Hastings)"
+        "1066-001 (Battle of Hastings, three weeks later)"
       ]
     },
     {
       "id": "1066-003",
-      "title": "Death of Edward the Confessor and Succession Dispute",
+      "title": "Death of Edward the Confessor and Succession Crisis",
       "region": "England",
       "coordinates_approx": "51.5, -0.1",
       "category": "political",
-      "description": "King Edward the Confessor of England dies on 5 January 1066, ending a reign of 24 years (r. 1042\u20131066). Edward's death triggers a succession dispute. Harold Godwinson, Earl of Wessex, claims the throne and is crowned on 6 January 1066. However, William, Duke of Normandy, also claims the throne, asserting that Edward had promised him the succession and that Harold had sworn an oath to support his claim. This dispute is the immediate cause of the Norman Conquest. The succession crisis is further complicated by the claim of Harald Hardrada of Norway, who invades England in September 1066.",
+      "description": "Edward the Confessor, King of England, died on 5 January 1066 after a reign of 24 years. His death without a direct heir precipitated a succession crisis that would define the year. Harold Godwinson, Earl of Wessex and the most powerful English noble, was crowned king by the Witan (the Anglo-Saxon council of nobles) on 6 January. However, William, Duke of Normandy, claimed that Edward had promised him the throne years earlier, and Harald Hardrada of Norway also asserted a claim. This triple succession dispute led directly to the invasions and battles of 1066.",
       "key_figures": [
-        "Edward the Confessor (d. 1066)",
-        "Harold Godwinson (claimant, crowned)",
+        "Edward the Confessor (King of England, deceased)",
+        "Harold Godwinson (Earl of Wessex, crowned king)",
         "William, Duke of Normandy (claimant)",
-        "Harald Hardrada (claimant)"
+        "Harald Hardrada (King of Norway, claimant)"
       ],
       "sources": [
         {
-          "name": "Anglo-Saxon Chronicle",
+          "name": "Anglo-Saxon Chronicle (multiple versions)",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Bayeux Tapestry",
-          "type": "archaeological",
-          "contemporary": true
+          "name": "Vita \u00c6dwardi Regis (Life of Edward the Confessor)",
+          "type": "primary_text",
+          "contemporary": false
         },
         {
           "name": "William of Jumi\u00e8ges, Gesta Normannorum Ducum",
@@ -112,7 +113,7 @@
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Edward's death and the succession dispute are well-documented in contemporary sources.",
+      "certainty_note": "Edward's death date (5 January 1066) and Harold's coronation (6 January) are attested in contemporary Anglo-Saxon Chronicle. The succession dispute is well-documented.",
       "cross_references": [
         "1066-001 (Battle of Hastings)",
         "1066-002 (Battle of Stamford Bridge)"
@@ -120,125 +121,171 @@
     },
     {
       "id": "1066-004",
-      "title": "Seljuk Expansion and Alp Arslan's Military Campaigns",
-      "region": "Anatolia / Levant / Seljuk Empire",
-      "coordinates_approx": "39.0, 35.0",
+      "title": "Norman Invasion Fleet Departs from Saint-Valery-sur-Somme",
+      "region": "Normandy, France",
+      "coordinates_approx": "50.2, 1.6",
       "category": "military",
-      "description": "Alp Arslan, Sultan of the Seljuk Empire, continues military campaigns to expand Seljuk control in Anatolia and the Levant. In 1066, Seljuk forces capture several Byzantine fortifications and consolidate control over key territories. Alp Arslan's campaigns are part of a broader strategy to establish Seljuk dominance in the region and challenge Byzantine authority. These campaigns set the stage for the decisive Battle of Manzikert (1071), where Alp Arslan will defeat the Byzantine Emperor Romanos IV Diogenes.",
+      "description": "William of Normandy's invasion fleet, assembled over months at the mouth of the Somme River, departed for England in late September 1066. The fleet consisted of approximately 700 ships carrying an estimated 7,000\u201312,000 troops, including cavalry, archers, and infantry. The crossing took advantage of favorable winds and tides. The fleet landed at Pevensey in East Sussex on 28 September 1066, establishing a beachhead that William used to consolidate his forces before marching inland to meet Harold's army at Hastings on 14 October.",
+      "key_figures": [
+        "William, Duke of Normandy (commander)",
+        "William FitzOsbern (Norman noble, military commander)",
+        "Odo, Bishop of Bayeux (William's half-brother, military commander)"
+      ],
+      "sources": [
+        {
+          "name": "Bayeux Tapestry",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "William of Jumi\u00e8ges, Gesta Normannorum Ducum",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Orderic Vitalis, Ecclesiastical History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The departure from Saint-Valery, the fleet size, and the landing at Pevensey on 28 September are attested in multiple sources including the Bayeux Tapestry.",
+      "cross_references": [
+        "1066-001 (Battle of Hastings, two weeks later)"
+      ]
+    },
+    {
+      "id": "1066-005",
+      "title": "Halley's Comet Observed Across Europe and Asia",
+      "region": "Global",
+      "coordinates_approx": null,
+      "category": "scientific",
+      "description": "Halley's Comet appeared in the night sky in April\u2013May 1066, visible across Europe, Asia, and the Middle East. The comet was recorded in numerous contemporary sources and was interpreted by many as an omen. In England, the appearance was associated with the Norman Conquest and the political upheaval of the year. The comet is prominently depicted in the Bayeux Tapestry, where it appears above the figure of King Harold, suggesting contemporary observers linked the celestial phenomenon to the succession crisis and invasion. The comet's appearance provides an independent astronomical confirmation of the year's dating.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Bayeux Tapestry",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese astronomical records (Song Dynasty)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Modern astronomical calculations (orbital mechanics)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The comet's appearance in 1066 is confirmed by multiple contemporary sources across three continents and by modern astronomical calculations of Halley's Comet's orbital period (~76 years).",
+      "cross_references": []
+    },
+    {
+      "id": "1066-006",
+      "title": "Seljuk Turks Consolidate Control of Anatolia",
+      "region": "Anatolia (modern Turkey)",
+      "coordinates_approx": "39.0, 35.0",
+      "category": "political",
+      "description": "The Seljuk Turks, who had defeated the Byzantine Empire at the Battle of Manzikert in 1071, were consolidating their control over central and eastern Anatolia during the 1060s. By 1066, the Seljuk sultanate under Alp Arslan was firmly established as the dominant military power in the region, though Byzantine enclaves remained in the west. The Seljuk advance represented a fundamental shift in the geopolitical balance of the Eastern Mediterranean and would eventually lead to the Crusades (beginning in 1096) as the Byzantine Empire sought Western military assistance to recover lost territories.",
       "key_figures": [
         "Alp Arslan (Seljuk Sultan)",
         "Constantine X Doukas (Byzantine Emperor)"
       ],
       "sources": [
         {
+          "name": "Seljuk administrative records and coins",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
           "name": "Byzantine chronicles (Psellus, Attaleiates)",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "Seljuk administrative records and later compilations",
-          "type": "later_compilation",
+          "name": "Arab geographers (al-Muqaddasi, al-Idrisi)",
+          "type": "primary_text",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Seljuk expansion is confirmed; the specific chronology of 1066 campaigns is less precisely documented than later events.",
+      "certainty_note": "The consolidation of Seljuk control occurred over the 1060s\u20131070s. The specific status in 1066 is inferred from the broader trajectory of Seljuk expansion and Byzantine retreat, confirmed by numismatic and administrative evidence.",
       "cross_references": [
-        "1071-001 (Battle of Manzikert)"
+        "1071-001 (Battle of Manzikert, five years later)"
       ]
     },
     {
-      "id": "1066-005",
-      "title": "Northern Song Dynasty: Military and Administrative Challenges",
-      "region": "China / Song Empire",
+      "id": "1066-007",
+      "title": "Song Dynasty Advances in Printing and Naval Technology",
+      "region": "China",
       "coordinates_approx": "34.3, 108.9",
-      "category": "political",
-      "description": "The Northern Song Dynasty under Emperor Yingzong (r. 1064\u20131067) faces ongoing military and fiscal challenges. In 1066, the Song court is engaged in managing threats from the Liao Dynasty in the north and internal economic pressures. The Song military is relatively weak compared to earlier periods, and the court seeks to strengthen state finances and military capacity. These challenges will intensify under Shenzong (who ascends in 1067) and lead to the ambitious reforms of Wang Anshi (1069+).",
+      "category": "technological",
+      "description": "The Song Dynasty (960\u20131279) was in its period of greatest technological and commercial flourishing during the 1060s. By 1066, Song craftsmen had perfected woodblock printing for both text and color images, developed advanced shipbuilding techniques including the magnetic compass for navigation, and expanded maritime trade networks across the Indian Ocean and South China Sea. The Song government was actively promoting technological innovation and commercial expansion. These advances would eventually diffuse westward via the Silk Road and maritime trade, influencing European technology centuries later.",
       "key_figures": [
-        "Emperor Yingzong",
-        "Song court officials"
+        "Emperor Shenzong of Song (reigned 1067\u20131085, but policies established under predecessors)"
       ],
       "sources": [
         {
-          "name": "Song official histories (Songshi)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Sima Guang, Zizhi Tongjian",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The broader context of Song military and fiscal challenges is well-documented; specific events of 1066 are less precisely dated.",
-      "cross_references": [
-        "1067-001 (Shenzong's accession)"
-      ]
-    },
-    {
-      "id": "1066-006",
-      "title": "Papal Authority and Church Reform Under Pope Alexander II",
-      "region": "Papal States / Rome",
-      "coordinates_approx": "41.9028, 12.4534",
-      "category": "religious",
-      "description": "Pope Alexander II (r. 1061\u20131073) continues his papacy, advancing the Gregorian Reform agenda. In 1066, the papacy is engaged in efforts to enforce clerical celibacy, combat simony, and reduce lay investiture. The pope's authority is increasingly asserted against secular rulers, particularly the Holy Roman Emperor Henry IV. The Gregorian Reform movement is gaining momentum and will lead to the Investiture Controversy in the 1070s.",
-      "key_figures": [
-        "Pope Alexander II",
-        "Cardinal Hildebrand (later Gregory VII)",
-        "Holy Roman Emperor Henry IV"
-      ],
-      "sources": [
-        {
-          "name": "Liber Pontificalis and papal registers",
+          "name": "Song administrative records and technical manuals",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Bonizo of Sutri, Liber de vita christiana",
+          "name": "Archaeological evidence from Song shipwrecks and printing workshops",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Sima Guang, Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
           "type": "chronicle",
-          "contemporary": true
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Papal reform efforts are well-documented in ecclesiastical sources.",
-      "cross_references": [
-        "1075-001 (Investiture Controversy escalation)"
-      ]
+      "certainty_note": "Song technological achievements in printing, navigation, and shipbuilding are confirmed by archaeological evidence, surviving technical manuals, and administrative records. The dating to the 1060s is secure.",
+      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The Norman Conquest is often portrayed as a sudden, complete transformation of English society; modern scholarship emphasises significant continuities in English law, administration, and culture, with Norman dominance being more gradual and contested than once believed. The claim that Edward the Confessor 'promised' the throne to William is disputed; Norman sources assert this, but English sources are silent or ambiguous. The Bayeux Tapestry is sometimes treated as an objective historical record, but modern scholarship recognises it as a Norman propaganda narrative with a specific political agenda. Alp Arslan's military campaigns are sometimes portrayed as uniformly successful; Byzantine sources suggest more complex outcomes with some Byzantine victories and strategic retreats.",
-  "historiographic_note": "Documentation for 1066 is rich, particularly for the Norman Conquest and English succession dispute, which are among the most thoroughly documented events of the medieval period. Multiple contemporary and near-contemporary sources exist, including the Bayeux Tapestry, the Anglo-Saxon Chronicle, and Norman chronicles. However, these sources reflect Norman and English perspectives; Islamic and Byzantine sources for the same year are less detailed. East Asian sources are detailed but compiled centuries later. The surviving record is heavily weighted toward elite political and military events; the experiences of peasants, merchants, and non-literate populations are largely invisible. Sub-Saharan Africa, the Americas, and Oceania have no written records for this year.",
+  "disconfirming_evidence": "The traditional narrative of the Norman Conquest as a clean, decisive victory establishing a new order has been complicated by modern scholarship. Recent archaeological and genetic studies suggest that Norman settlement in England was less complete than once believed, with significant Anglo-Saxon populations and cultural practices persisting in rural areas. The 'Norman Yoke' theory\u2014that the Conquest imposed a foreign aristocracy on a unified Anglo-Saxon nation\u2014is now recognized as oversimplified; pre-1066 England was itself politically fragmented and culturally diverse. Additionally, some historians argue that Harold Godwinson's claim to the throne was not obviously illegitimate, and that William's claim rested partly on disputed promises and Norman propaganda. The Bayeux Tapestry, while invaluable, is itself a Norman-commissioned work and reflects Norman perspectives on the succession dispute.",
+  "historiographic_note": "The historical record for 1066 is exceptionally rich for Western Europe, particularly England and Normandy, due to the Bayeux Tapestry, Anglo-Saxon Chronicle, and numerous Norman chronicles written within a generation of events. However, this abundance creates a Western-centric bias in the historical record. The year's significance in English and European history has led to disproportionate scholarly attention to the Norman Conquest, while equally important events in Asia, the Middle East, and Africa receive less documentation in Western sources. The Bayeux Tapestry and Anglo-Saxon Chronicle are both products of the Norman victory and reflect Norman interests; alternative perspectives from the Anglo-Saxon nobility or the common people are largely absent. Byzantine, Islamic, and Chinese sources for 1066 are less abundant in Western scholarship but provide crucial context for understanding global developments.",
   "graph_edges": [
     {
-      "from": "1066-003",
-      "to": "1066-001",
-      "relation": "led_to",
-      "note": "Edward the Confessor's death and the succession dispute directly triggered the Norman Conquest."
-    },
-    {
-      "from": "1066-002",
-      "to": "1066-001",
-      "relation": "led_to",
-      "note": "Harold's victory at Stamford Bridge exhausted his forces, contributing to his defeat at Hastings three weeks later."
+      "from": "1066-001",
+      "to": "1066-003",
+      "relation": "caused_by",
+      "note": "The succession crisis following Edward the Confessor's death directly led to the Norman invasion and Battle of Hastings"
     },
     {
       "from": "1066-001",
-      "to": "1067-003",
-      "relation": "led_to",
-      "note": "The Norman Conquest led directly to Norman consolidation in England in 1067."
+      "to": "1066-002",
+      "relation": "contemporary_with",
+      "note": "Both battles occurred in 1066 as part of the succession crisis; Stamford Bridge preceded Hastings by three weeks"
     },
     {
       "from": "1066-004",
-      "to": "1071-001",
+      "to": "1066-001",
       "relation": "led_to",
-      "note": "Seljuk expansion in 1066 set the stage for the Battle of Manzikert in 1071."
+      "note": "The Norman invasion fleet's departure and landing directly led to the Battle of Hastings"
+    },
+    {
+      "from": "1066-005",
+      "to": "1066-001",
+      "relation": "contemporary_with",
+      "note": "Halley's Comet appeared in April\u2013May 1066, during the succession crisis and invasion"
+    },
+    {
+      "from": "1066-001",
+      "to": "1071-001",
+      "relation": "contemporary_with",
+      "note": "The Norman Conquest and Seljuk consolidation in Anatolia were contemporary developments reshaping medieval Eurasia"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:23:09.990580",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

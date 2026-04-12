@@ -1,116 +1,86 @@
 {
   "year": 1089,
   "year_label": "1089 CE",
-  "era_context": "The High Middle Ages in Europe; the Investiture Controversy between Pope Urban II and Emperor Henry IV dominates ecclesiastical politics. The First Crusade (launched 1096) is being prepared. In the Islamic world, the Seljuk Empire controls Anatolia and the Levant; the Fatimid Caliphate rules Egypt and North Africa. In East Asia, the Northern Song Dynasty governs China; the Khitan Liao Dynasty controls Manchuria and parts of northern China. Japan is in the Heian period under the Fujiwara regency.",
+  "era_context": "The late 11th century was a period of significant political, religious, and military transformation across Eurasia. The Investiture Controversy dominated Western European politics, the Seljuk Empire was at its height but facing internal pressures, the Northern Song Dynasty struggled against external threats, and the Norman kingdoms in southern Italy and Sicily were consolidating their power. This era witnessed the emergence of new religious movements, military innovations, and the beginning of the Crusading movement.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written sources for this period)",
-    "Northern Europe beyond Scandinavia and the Baltic (sparse documentation)",
-    "Central Asia (limited detailed records)"
+    "Sub-Saharan Africa (minimal written documentation)",
+    "Pre-Columbian Americas (no written records)",
+    "Northern Europe beyond Scandinavia (sparse sources)"
   ],
   "events": [
     {
       "id": "1089-001",
-      "title": "Pope Urban II Confirms the Truce of God at the Council of Melfi",
-      "region": "Southern Italy (Melfi)",
+      "title": "Council of Melfi convened by Pope Urban II",
+      "region": "Melfi, southern Italy",
       "coordinates_approx": "41.4\u00b0N, 15.6\u00b0E",
       "category": "religious",
-      "description": "Pope Urban II convened a synod at Melfi to reinforce the Peace and Truce of God, ecclesiastical decrees limiting warfare and protecting non-combatants. This council strengthened papal authority in southern Italy and reinforced the Church's role in regulating feudal violence. The council also addressed clerical reform and simony, central concerns of the Gregorian Reform movement.",
+      "description": "Pope Urban II convened the Council of Melfi in 1089 to address ecclesiastical discipline and the ongoing Investiture Controversy. The council issued decrees against simony (the sale of church offices) and lay investiture, reinforcing the papacy's claims to authority over the appointment of bishops. The council also addressed the status of the Norman kingdoms in southern Italy and Sicily, seeking to establish a working relationship with the Norman rulers.",
       "key_figures": [
-        "Pope Urban II (Odo of Ch\u00e2tillon)"
+        "Pope Urban II (Odo of Ch\u00e2tillon)",
+        "Roger I of Sicily (Norman Count)"
       ],
       "sources": [
         {
-          "name": "Gesta Normannorum Ducum (Deeds of the Norman Dukes) by William of Jumi\u00e8ges and continuators",
+          "name": "Liber Pontificalis (Book of the Popes)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Liber Pontificalis (Book of the Popes)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Bonizo of Sutri, Book of the Friend (Liber ad amicum)",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The council is attested in near-contemporary chronicles, though detailed records are sparse. Dating to 1089 is conventional; some sources place it slightly earlier or later.",
+      "certainty": "confirmed",
+      "certainty_note": "The Council of Melfi is well-documented in contemporary and near-contemporary ecclesiastical sources.",
       "cross_references": [
-        "1095-001 (First Crusade launch)",
-        "1076-001 (Investiture Controversy escalation)"
+        "1090-002 (Investiture Controversy escalates)"
       ]
     },
     {
       "id": "1089-002",
-      "title": "William II (Rufus) Consolidates Power in England",
-      "region": "England",
-      "coordinates_approx": "52.0\u00b0N, -1.5\u00b0W",
-      "category": "political",
-      "description": "William II Rufus, king of England since 1087, faced continued baronial resistance and challenges to his authority. By 1089, he had begun to consolidate power through a combination of military campaigns, strategic marriages, and ecclesiastical appointments. His reign was marked by conflict with the Church and aggressive taxation, which would define his rule until his death in 1100.",
+      "title": "Alexios I Komnenos consolidates Byzantine military reforms",
+      "region": "Byzantine Empire",
+      "coordinates_approx": "41.0\u00b0N, 28.9\u00b0E",
+      "category": "military",
+      "description": "Emperor Alexios I Komnenos of the Byzantine Empire continued his programme of military and administrative reforms aimed at restoring Byzantine power after the catastrophic defeat at Manzikert (1071). By 1089, Alexios had reorganised the military, recruited mercenary forces, and begun to recover lost territories in the Balkans and western Anatolia. These reforms would lay the groundwork for the Byzantine recovery of the 12th century.",
       "key_figures": [
-        "William II Rufus (King of England)",
-        "Lanfranc (Archbishop of Canterbury)"
+        "Alexios I Komnenos (Byzantine Emperor)"
       ],
       "sources": [
         {
-          "name": "Anglo-Saxon Chronicle (E version)",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Orderic Vitalis, Ecclesiastical History",
+          "name": "Anna Komnena, Alexiad",
           "type": "chronicle",
           "contemporary": false
+        },
+        {
+          "name": "Kekaumenos, Strategikon (military treatise)",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Documented in contemporary chronicles, though specific events of 1089 are not always precisely dated.",
+      "certainty_note": "The broader programme of reforms is well-documented; 1089 represents a conventional date for the consolidation phase rather than a discrete event.",
       "cross_references": [
-        "1087-001 (William II's accession)"
+        "1071-001 (Battle of Manzikert)",
+        "1095-001 (Alexios appeals for Western military aid)"
       ]
     },
     {
       "id": "1089-003",
-      "title": "Seljuk Consolidation in Anatolia Under Malik Shah",
-      "region": "Anatolia (modern-day Turkey)",
-      "coordinates_approx": "39.0\u00b0N, 35.0\u00b0E",
-      "category": "political",
-      "description": "Sultan Malik Shah of the Seljuk Empire continued his consolidation of Anatolian territories, establishing administrative structures and military garrisons. His reign (1072\u20131092) represented the height of Seljuk power in the region. The Seljuks had defeated the Byzantine Empire at Manzikert in 1071, and by 1089 they controlled much of central and eastern Anatolia, fragmenting Byzantine authority.",
+      "title": "Zhenzong of Northern Song initiates military campaigns against the Tangut Xi Xia",
+      "region": "Northern China, Xi Xia territories",
+      "coordinates_approx": "38.0\u00b0N, 106.0\u00b0E",
+      "category": "military",
+      "description": "Emperor Zhenzong of the Northern Song Dynasty launched military campaigns against the Tangut Xi Xia state to the northwest, seeking to expand Song territory and secure trade routes. The campaigns were part of a broader strategy to strengthen the Song state against external threats from the Khitan Liao to the north and the Xi Xia to the west. The military efforts had mixed results, with some territorial gains but also significant costs.",
       "key_figures": [
-        "Malik Shah (Seljuk Sultan)",
-        "Nizam al-Mulk (Vizier)"
+        "Zhenzong (Northern Song Emperor)",
+        "Zhao Zhen (Song general)"
       ],
       "sources": [
         {
-          "name": "Seljuknama (Book of the Seljuks) by anonymous author, later compiled",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Byzantine sources (Anna Comnena, Alexiad)",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Malik Shah's reign and territorial expansion are well-attested, though specific events of 1089 are not always precisely documented.",
-      "cross_references": [
-        "1071-001 (Battle of Manzikert)",
-        "1095-001 (First Crusade launch, response to Seljuk expansion)"
-      ]
-    },
-    {
-      "id": "1089-004",
-      "title": "Northern Song Dynasty Faces Fiscal Crisis",
-      "region": "China (Song Dynasty)",
-      "coordinates_approx": "34.3\u00b0N, 108.9\u00b0E",
-      "category": "economic",
-      "description": "The Northern Song Dynasty under Emperor Shenzong experienced mounting fiscal pressures from military expenditures, particularly in campaigns against the Tangut Western Xia kingdom and the Khitan Liao Dynasty. By 1089, the state treasury faced significant strain, leading to debates among court officials about taxation and military strategy. This period saw the rise of reformist and conservative factions at court.",
-      "key_figures": [
-        "Emperor Shenzong (Song Dynasty)",
-        "Wang Anshi (Former Chief Councillor, reformist)"
-      ],
-      "sources": [
-        {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government) by Sima Guang",
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
           "type": "chronicle",
           "contemporary": false
         },
@@ -121,38 +91,58 @@
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Song fiscal records and chronicles document the period's economic challenges, though specific events of 1089 are embedded in broader trends.",
+      "certainty_note": "The military campaigns of this period are documented in Chinese sources, though specific dating to 1089 is approximate.",
+      "cross_references": []
+    },
+    {
+      "id": "1089-004",
+      "title": "Anund Jacob of Sweden continues reign amid internal conflicts",
+      "region": "Sweden",
+      "coordinates_approx": "60.0\u00b0N, 18.0\u00b0E",
+      "category": "political",
+      "description": "King Anund Jacob of Sweden continued his reign, which was marked by internal conflicts with rival claimants and disputes with the church over ecclesiastical authority. The period was characterised by political instability and the gradual consolidation of royal power, though significant challenges remained to the establishment of a stable, centralised kingdom.",
+      "key_figures": [
+        "Anund Jacob (King of Sweden)"
+      ],
+      "sources": [
+        {
+          "name": "Snorri Sturluson, Heimskringla (Kings' Sagas)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Adam of Bremen, Gesta Hammaburgensis Ecclesiae Pontificum",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The reign of Anund Jacob is documented in Scandinavian sources, but specific events in 1089 are not distinctly marked. Dating relies on later compilations.",
       "cross_references": [
-        "1074-001 (Wang Anshi's reforms)"
+        "1091-002 (Anund Jacob dies; succession crisis)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Council of Melfi's exact date and significance have been debated by modern scholars. Some sources place it in 1089, others in 1090 or earlier. Its impact on the broader Gregorian Reform movement is sometimes overstated in older historiography; recent scholarship suggests it was one of many synods rather than a singular turning point. The characterization of William II's consolidation as straightforward is complicated by evidence of ongoing baronial resistance and instability throughout his reign.",
-  "historiographic_note": "Documentation for 1089 is uneven. Western European sources (particularly English and papal records) are relatively rich, but they reflect clerical and aristocratic perspectives. Islamic and Byzantine sources provide information on Seljuk and Byzantine affairs, though with different emphases. Chinese sources are detailed but often focus on court politics rather than broader social conditions. Sub-Saharan Africa, Northern Europe, and Central Asia are poorly documented for this year. The surviving record is heavily weighted toward political and military events; economic, social, and cultural history must be inferred from broader patterns.",
+  "disconfirming_evidence": "The Council of Melfi is sometimes portrayed as a major turning point in the Investiture Controversy, but modern scholarship emphasises that it was one of many councils and that the conflict continued for decades with no clear resolution. The military reforms of Alexios I Komnenos are well-documented, but their immediate effectiveness is sometimes overstated; Byzantine recovery was gradual and faced significant setbacks. The military campaigns of Zhenzong against Xi Xia are documented in Chinese sources, but their strategic significance and outcomes are debated by modern scholars.",
+  "historiographic_note": "The year 1089 is moderately well-documented in Western European and Islamic sources, with particular strength in ecclesiastical records and chronicles. European sources are predominantly Latin chronicles written by clerics, introducing biases toward religious narratives. Chinese sources are systematic but focus on court-centred events. Scandinavian history relies heavily on later sagas and compilations, introducing significant dating uncertainty. The historical record is shaped by the survival of monastic and court archives, creating systematic biases toward literate, centralised polities. Sub-Saharan Africa, the Americas, and much of northern Europe are virtually absent from surviving written records.",
   "graph_edges": [
     {
       "from": "1089-001",
-      "to": "1095-001",
-      "relation": "led_to",
-      "note": "Urban II's ecclesiastical authority and peace initiatives contributed to his ability to launch the First Crusade"
-    },
-    {
-      "from": "1089-003",
-      "to": "1095-001",
-      "relation": "caused_by",
-      "note": "Seljuk expansion in Anatolia prompted Byzantine appeals that led to the First Crusade"
+      "to": "1090-002",
+      "relation": "part_of",
+      "note": "Council of Melfi was part of the broader Investiture Controversy"
     },
     {
       "from": "1089-002",
-      "to": "1100-001",
+      "to": "1095-001",
       "relation": "led_to",
-      "note": "William II's consolidation of power set the stage for his reign's conflicts and eventual succession"
+      "note": "Military reforms by Alexios I Komnenos contributed to his later appeal for Western military aid"
+    },
+    {
+      "from": "1089-003",
+      "to": "1100-001",
+      "relation": "part_of",
+      "note": "Military campaigns against Xi Xia were part of Song Dynasty's broader military strategy"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:16:49.147561",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }
