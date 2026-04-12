@@ -1,0 +1,112 @@
+{
+  "year": -2115,
+  "year_label": "2115 BCE",
+  "era_context": "The Egyptian First Intermediate Period is well-established, with competing regional dynasties controlling different parts of Egypt. The Gutian period in Mesopotamia continues, with the Ur III dynasty's rise imminent (c. 2112 BCE). The Indus Valley civilization remains at its peak. In China, the Xia Dynasty (if historical) continues its early development.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe and the Steppe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-2115-001",
+      "title": "First Intermediate Period in Egypt; regional dynasties consolidate power",
+      "region": "Egypt (Upper and Lower)",
+      "coordinates_approx": "26.5, 30.5",
+      "category": "political",
+      "description": "The First Intermediate Period continues, with regional dynasties consolidating their power bases. The Eleventh Dynasty (Theban) in Upper Egypt and the Ninth/Tenth Dynasties (Heracleopolitan) in Lower Egypt are the dominant powers. The Seventh and Eighth Dynasties (Memphis-based) claim nominal authority but control little territory. This period is characterized by political fragmentation, reduced monumental construction, and the absence of a dominant central authority. The Eleventh Dynasty will eventually reunify Egypt around 2055 BCE.",
+      "key_figures": [
+        "Rulers of the Ninth, Tenth, and Eleventh Dynasties (names and chronology uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List and other Egyptian king lists",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Nomarch tomb inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Upper and Lower Egypt",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The existence of the First Intermediate Period is well-established; however, the precise chronology of individual dynasties and years remains uncertain, with variations of \u00b110\u201320 years depending on the chronological system.",
+      "cross_references": [
+        "Part of First Intermediate Period c. 2181\u20132055 BCE"
+      ]
+    },
+    {
+      "id": "-2115-002",
+      "title": "Gutian period in Mesopotamia; approaching end with rise of Ur III dynasty",
+      "region": "Mesopotamia",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "The Gutian period continues, though it is approaching its end. The Sumerian King List records Gutian rulers, though contemporary documentation remains sparse. Within a few years (c. 2112 BCE), Ur-Nammu will establish the Ur III dynasty, which will reunify Mesopotamia and establish one of the ancient world's most centralized and bureaucratic states. The transition from Gutian fragmentation to Ur III centralization represents a major shift in Mesopotamian political organization.",
+      "key_figures": [
+        "Gutian rulers (names preserved in later Sumerian King List)",
+        "Ur-Nammu (founder of Ur III dynasty, not yet in power but about to emerge)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Gutian period is attested in later sources; contemporary documentation is sparse. The precise dating of the transition to Ur III remains debated, with some scholars placing it as early as 2120 BCE and others as late as 2100 BCE.",
+      "cross_references": [
+        "Precedes Ur III consolidation c. 2112 BCE"
+      ]
+    },
+    {
+      "id": "-2115-003",
+      "title": "Harappan civilization at peak; continued urban development and trade",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "The Harappan civilization continues to flourish, with major urban centers fully occupied and extensive trade networks active. Archaeological evidence suggests continued maritime trade with Mesopotamia and the Persian Gulf. The civilization's standardized systems and urban planning remain in place. No major disruptions are evident in the archaeological record. The civilization will begin to decline around 1900 BCE, but that decline is still nearly 800 years in the future.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations and settlement surveys across the Indus Valley",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan civilization's continuity during this period is well-established through archaeology.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the First Intermediate Period and the Gutian period remains contested among scholars. Some chronological systems place the end of the Gutian period and the rise of Ur III as early as 2120 BCE, while others place it as late as 2100 BCE. The chronology of the Egyptian dynasties during the First Intermediate Period is particularly uncertain. No contemporary written records from this specific year exist that would allow precise dating.",
+  "historiographic_note": "The historical record for this year is sparse and heavily dependent on later compilations and archaeological inference. Egyptian sources are biased toward elite and royal perspectives. Mesopotamian sources are similarly limited, with the Sumerian King List being the primary source for Gutian chronology, though it is a later compilation with known inaccuracies. The Harappan civilization is known almost entirely through archaeology, with no deciphered written records to illuminate specific events.",
+  "graph_edges": [
+    {
+      "from": "-2115-002",
+      "to": "-2112-UR_III_CONSOLIDATION",
+      "relation": "led_to",
+      "note": "Gutian period ended with Ur III consolidation under Ur-Nammu"
+    },
+    {
+      "from": "-2115-001",
+      "to": "-2055-MIDDLE_KINGDOM_REUNIFICATION",
+      "relation": "led_to",
+      "note": "First Intermediate Period fragmentation eventually led to Middle Kingdom reunification"
+    }
+  ]
+}

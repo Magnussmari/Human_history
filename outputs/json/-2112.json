@@ -1,0 +1,87 @@
+{
+  "year": -2112,
+  "year_label": "2112 BCE",
+  "era_context": "Late Akkadian period; Gutian incursions ongoing. Egyptian Old Kingdom in its final phase; First Intermediate Period imminent. Indus Valley Civilization in mature phase. Traditional Xia Dynasty in early phase (chronology debated). Bronze Age established across Eurasia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-2112-001",
+      "title": "Akkadian Empire in advanced state of collapse",
+      "region": "Mesopotamia",
+      "coordinates_approx": "32.5, 44.0",
+      "category": "political",
+      "description": "The Akkadian Empire is fragmenting into city-states and regional powers. Cuneiform records show minimal central authority. The Gutian invasions continue; some scholars place the final Akkadian collapse around this time, though the process is gradual. The transition from Akkadian to Gutian hegemony is not a single event but a process spanning several decades (c. 2150\u20132130 BCE).",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Akkadian administrative texts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general process is well attested; specific year-by-year dating is uncertain.",
+      "cross_references": [
+        "Part of Akkadian collapse (c. 2200\u20132130 BCE)"
+      ]
+    },
+    {
+      "id": "-2112-002",
+      "title": "Egyptian Old Kingdom final years; Sixth Dynasty near end",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Sixth Dynasty is in its final years. Central authority has largely collapsed; nomarchs rule independently. The transition to the First Intermediate Period (c. 2184\u20132055 BCE) is imminent. The exact date of the Sixth Dynasty's end is debated, but it falls within the range of c. 2184\u20132170 BCE.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Nomarch inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general decline is well documented; precise dating is uncertain (\u00b120\u201330 years).",
+      "cross_references": [
+        "Part of Old Kingdom collapse"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed.",
+  "historiographic_note": "This year is essentially undocumented. No specific events are recorded. The entries represent the continuation of broader trends. Chronological uncertainty is substantial (\u00b130\u201350 years).",
+  "graph_edges": [
+    {
+      "from": "-2112-001",
+      "to": "-2154-gutian_conquest",
+      "relation": "led_to",
+      "note": "Akkadian collapse leads to Gutian hegemony"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "year": -2116,
+  "year_label": "2116 BCE",
+  "era_context": "The Egyptian Old Kingdom has effectively ended; the First Intermediate Period (c. 2181\u20132055 BCE) is now underway, characterized by political fragmentation and the rise of competing regional dynasties. The Gutian period in Mesopotamia continues. The Indus Valley civilization remains at its peak. In China, the Xia Dynasty (if historical) continues its early development.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe and the Steppe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-2116-001",
+      "title": "First Intermediate Period in Egypt; rise of competing regional dynasties",
+      "region": "Egypt (Upper and Lower)",
+      "coordinates_approx": "26.5, 30.5",
+      "category": "political",
+      "description": "The First Intermediate Period is now well-established, with the unified Egyptian state fragmented into competing regional powers. The Seventh and Eighth Dynasties (based in Memphis) claim nominal authority but control little territory. Meanwhile, the Ninth and Tenth Dynasties (Heracleopolitan) control Lower Egypt, and the Eleventh Dynasty (Theban) controls Upper Egypt. This period is characterized by political instability, reduced monumental construction, and the absence of a dominant central authority. The period will end around 2055 BCE with the reunification of Egypt under the Eleventh Dynasty.",
+      "key_figures": [
+        "Rulers of the Seventh, Eighth, Ninth, Tenth, and Eleventh Dynasties (names and chronology uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List and other Egyptian king lists",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Nomarch tomb inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of settlement patterns and reduced monumental construction",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The existence of the First Intermediate Period is well-established; however, the precise chronology of individual dynasties and years remains uncertain, with variations of \u00b110\u201320 years depending on the chronological system.",
+      "cross_references": [
+        "Follows from Old Kingdom collapse c. 2180 BCE",
+        "Precedes Middle Kingdom reunification c. 2055 BCE"
+      ]
+    },
+    {
+      "id": "-2116-002",
+      "title": "Gutian period continues in Mesopotamia; city-states operate independently",
+      "region": "Mesopotamia",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "The Gutian period continues, with Mesopotamian city-states operating independently or in loose coalitions. The Sumerian King List records Gutian rulers, though contemporary documentation remains sparse. This period is characterized by political fragmentation and reduced inter-regional trade compared to the Akkadian period. The Gutian period will end with the rise of Ur-Nammu and the Ur III dynasty around 2112 BCE.",
+      "key_figures": [
+        "Gutian rulers (names preserved in later Sumerian King List)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Gutian period is attested in later sources; contemporary documentation is sparse, and chronology remains debated.",
+      "cross_references": [
+        "Part of broader Gutian period c. 2154\u20132112 BCE"
+      ]
+    },
+    {
+      "id": "-2116-003",
+      "title": "Harappan civilization at peak; extensive trade networks and urban development",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "The Harappan civilization continues to flourish, with major urban centers fully occupied and extensive trade networks active. Archaeological evidence suggests continued maritime trade with Mesopotamia and the Persian Gulf. The civilization's standardized systems of weights, measures, and urban planning remain in place. No major disruptions are evident in the archaeological record.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations and settlement surveys across the Indus Valley",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan civilization's continuity during this period is well-established through archaeology.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the First Intermediate Period is contested. Some scholars place its beginning as early as 2180 BCE, while others argue for dates closer to 2150 BCE. The chronology of the competing dynasties during this period is particularly uncertain, with the Turin King List providing conflicting information. The Gutian chronology is similarly uncertain. No contemporary written records from this specific year exist for Egypt or Mesopotamia that would allow precise dating.",
+  "historiographic_note": "The historical record for this year is sparse and heavily dependent on later compilations and archaeological inference. Egyptian sources are biased toward elite and royal perspectives, and the surviving records from the First Intermediate Period are fragmentary. Mesopotamian sources are similarly limited. The Harappan civilization is known almost entirely through archaeology, with no deciphered written records.",
+  "graph_edges": [
+    {
+      "from": "-2116-001",
+      "to": "-2055-MIDDLE_KINGDOM_REUNIFICATION",
+      "relation": "led_to",
+      "note": "First Intermediate Period fragmentation eventually led to Middle Kingdom reunification"
+    }
+  ]
+}

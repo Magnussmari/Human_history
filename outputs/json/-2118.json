@@ -1,0 +1,108 @@
+{
+  "year": -2118,
+  "year_label": "2118 BCE",
+  "era_context": "Continuation of the Old Kingdom's final phase in Egypt; the Akkadian Empire's collapse is now nearly complete, with Gutian control spreading across Mesopotamia. The Indus Valley civilization remains at its peak. In China, the Xia Dynasty (if historical) continues its early development, though archaeological evidence remains contested and sparse.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe and the Steppe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia (limited archaeological evidence for this period)"
+  ],
+  "events": [
+    {
+      "id": "-2118-001",
+      "title": "Continued decline of centralized Egyptian authority; regional autonomy increases",
+      "region": "Egypt (Upper and Lower)",
+      "coordinates_approx": "26.5, 30.5",
+      "category": "political",
+      "description": "The Sixth Dynasty's grip on power continues to weaken as provincial governors consolidate their authority and resources. Tomb inscriptions from nomarchs increasingly emphasize their local achievements rather than loyalty to the pharaoh. The breakdown of the Old Kingdom's administrative apparatus accelerates, with reduced evidence of large-scale state projects or military campaigns. This period marks the deepening transition toward the First Intermediate Period.",
+      "key_figures": [
+        "Pepi II (traditional reign extending into this period, though dating is uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Nomarch tomb inscriptions and administrative records from Upper Egypt",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of reduced monumental construction and administrative activity",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad trend is well-established; precise dating of individual years within the Sixth Dynasty remains uncertain.",
+      "cross_references": [
+        "Continuation of trend from -2119-001"
+      ]
+    },
+    {
+      "id": "-2118-002",
+      "title": "Gutian control consolidates across Mesopotamia; Akkadian political authority effectively ends",
+      "region": "Mesopotamia",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "The Gutians, a non-Semitic people from the Zagros Mountains, establish control over much of Mesopotamia following the final collapse of Akkadian central authority. Mesopotamian city-states, particularly in Sumer, experience a period of political fragmentation and reduced inter-regional trade. The Gutian period (c. 2154\u20132112 BCE, though dating varies) is characterized by political instability and the absence of a dominant imperial power. This period will end with the rise of the Ur III dynasty under Ur-Nammu.",
+      "key_figures": [
+        "Gutian leaders (largely unrecorded in contemporary sources; names preserved in later Sumerian King List)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List (later compilation preserving older traditions)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of settlement patterns and reduced monumental construction",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Gutian period is attested in later sources; contemporary documentation is sparse. The precise chronology remains debated among scholars.",
+      "cross_references": [
+        "Continuation of trend from -2119-002"
+      ]
+    },
+    {
+      "id": "-2118-003",
+      "title": "Harappan civilization maintains extensive trade networks; possible expansion of settlements",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "The Harappan civilization continues to flourish, with evidence of ongoing maritime trade with Mesopotamia and the Persian Gulf region. Archaeological evidence suggests possible expansion of settlements into peripheral regions. The civilization's standardized systems of weights, measures, and urban planning remain in place. No major disruptions are evident in the archaeological record for this year.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations and settlement surveys across the Indus Valley",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan civilization's continuity during this period is well-established through archaeology.",
+      "cross_references": [
+        "Contemporary with Mesopotamian political fragmentation"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Akkadian collapse and the Gutian period remains contested. Some scholars argue for earlier dates (c. 2200 BCE), while others propose later dates (c. 2130 BCE). The Sumerian King List, the primary source for Gutian chronology, is a later compilation with known inaccuracies and may conflate or distort historical events. Egyptian chronology for this period is similarly uncertain, with alternative chronologies placing events several decades earlier or later.",
+  "historiographic_note": "The historical record for this year is heavily dependent on later compilations (particularly the Sumerian King List) and archaeological inference. Contemporary written records are sparse. The Egyptian record remains biased toward royal and elite perspectives. The Harappan civilization is known almost entirely through archaeology, with no deciphered written records to illuminate political or military events.",
+  "graph_edges": [
+    {
+      "from": "-2118-001",
+      "to": "-2100-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "Continued fragmentation led to First Intermediate Period"
+    },
+    {
+      "from": "-2118-002",
+      "to": "-2112-UR_III_CONSOLIDATION",
+      "relation": "led_to",
+      "note": "Gutian period preceded Ur III consolidation"
+    }
+  ]
+}

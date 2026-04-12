@@ -1,0 +1,138 @@
+{
+  "year": -2123,
+  "year_label": "2123 BCE",
+  "era_context": "Continuation of the late Old Kingdom in Egypt with accelerating decentralization. Naram-Sin's Akkadian Empire remains at its territorial extent in Mesopotamia. The Indus Valley Civilization continues its mature urban phase. This year falls within a period of significant climatic stress across the Old World, with evidence of aridification affecting both Egypt and Mesopotamia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "East Asia (limited precision for Xia Dynasty chronology)"
+  ],
+  "events": [
+    {
+      "id": "-2123-001",
+      "title": "Continued fragmentation of Egyptian central authority; nomarchal autonomy deepens",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "The process of decentralization that began in the late Sixth Dynasty continues. Regional governors consolidate power and resources, reducing the pharaoh's ability to command labor for monumental construction or military campaigns. This period sees the rise of local elite tombs and the decline of royal pyramid construction. The transition from Old Kingdom to First Intermediate Period is now well underway, though the formal end of the Sixth Dynasty is traditionally dated to c. 2181 BCE.",
+      "key_figures": [
+        "Pepi II (Pharaoh, Sixth Dynasty, if still reigning)",
+        "Regional nomarchs (names largely unrecorded)"
+      ],
+      "sources": [
+        {
+          "name": "Nomarchal autobiographical inscriptions (Siut, Moalla, Aswan)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Decline in royal administrative papyri",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The gradual nature of the Old Kingdom's decline is well-established, but precise year-by-year events are not documented. This entry describes a process rather than a discrete event.",
+      "cross_references": [
+        "Continuation of -2124-001",
+        "Part of broader First Intermediate Period transition"
+      ]
+    },
+    {
+      "id": "-2123-002",
+      "title": "Naram-Sin's Akkadian Empire maintains territorial control; administrative consolidation",
+      "region": "Mesopotamia, Levant",
+      "coordinates_approx": "43.0, 34.0",
+      "category": "political",
+      "description": "Naram-Sin continues to consolidate Akkadian administrative systems across conquered territories. Akkadian becomes the lingua franca of administration, replacing Sumerian in many contexts. However, pressure from the Gutians in the north and environmental stress (reduced rainfall affecting agriculture) begin to strain the empire's resources, though collapse is still several decades away.",
+      "key_figures": [
+        "Naram-Sin (Akkadian Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian administrative tablets and inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested, but specific events within individual years are rarely documented. This entry infers administrative continuity from broader patterns.",
+      "cross_references": [
+        "Continuation of -2124-002",
+        "Precedes Akkadian collapse c. -2200 to -2150 BCE"
+      ]
+    },
+    {
+      "id": "-2123-003",
+      "title": "Evidence of climate stress (aridification) affecting Old World agricultural systems",
+      "region": "Egypt, Mesopotamia, Levant, Indus Valley",
+      "coordinates_approx": null,
+      "category": "environmental",
+      "description": "Paleoclimatic evidence (ice cores, lake sediments, tree rings) indicates a period of reduced precipitation and increased aridity across the Old World during the late 3rd millennium BCE. This climate shift, often called the '4.2 kiloyear event' or 'Late 3rd Millennium Aridification Event,' correlates with the collapse of multiple civilizations and empires, including the Akkadian Empire and the Old Kingdom of Egypt. The stress on agricultural production likely contributed to social instability and political fragmentation.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Ice core records (Greenland, Antarctica)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Lake sediment cores (Dead Sea, Lake Huleh, Mesopotamian lakes)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Tree ring chronologies (dendrochronology)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Scholarly synthesis (e.g., Weiss et al., 1993; Cullen et al., 2000)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Paleoclimatic evidence for aridification in this period is robust and well-dated. The causal link to civilizational collapse is inferred but widely accepted by scholars.",
+      "cross_references": [
+        "Contemporary with -2124-001 and -2124-002",
+        "Contributes to understanding of -2123-001 and -2123-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The 4.2 kiloyear event is well-established paleoclimatically, but its role in causing civilizational collapse is debated. Some scholars argue that climate stress was a contributing factor rather than the primary cause, and that internal political fragmentation and military pressure (e.g., Gutian invasions) were equally important. The Akkadian Empire's collapse is sometimes attributed primarily to invasion rather than climate. The Egyptian Old Kingdom's decline may have been driven more by institutional exhaustion and elite competition than by environmental stress alone.",
+  "historiographic_note": "This year is poorly documented in written sources. The primary evidence comes from paleoclimatic reconstruction and archaeological stratigraphy rather than contemporary texts. Egyptian and Mesopotamian sources are sparse for this specific year. The Indus Valley Civilization's undeciphered script limits understanding of its response to climate stress. The interpretation of climate data as a causal factor in historical events is inherently speculative and subject to scholarly debate.",
+  "graph_edges": [
+    {
+      "from": "-2123-003",
+      "to": "-2124-001",
+      "relation": "part_of",
+      "note": "Climate stress contributes to Egyptian Old Kingdom fragmentation"
+    },
+    {
+      "from": "-2123-003",
+      "to": "-2124-002",
+      "relation": "part_of",
+      "note": "Climate stress contributes to Akkadian Empire's eventual collapse"
+    },
+    {
+      "from": "-2123-001",
+      "to": "-2123-003",
+      "relation": "contemporary_with",
+      "note": "Egyptian political fragmentation occurs during period of climate stress"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "year": -2122,
+  "year_label": "2122 BCE",
+  "era_context": "The late Old Kingdom in Egypt is in its final phase; the Sixth Dynasty is approaching its traditional end date (c. 2181 BCE). Naram-Sin's Akkadian Empire continues to dominate Mesopotamia but faces increasing pressure from the Gutians and environmental stress. The Indus Valley Civilization remains in its mature urban phase. Paleoclimatic stress continues across the Old World.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2122-001",
+      "title": "Sixth Dynasty of Egypt approaches its end; royal authority further diminished",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "The Sixth Dynasty is in its final decades. The pharaoh's authority is now largely confined to Lower Egypt and the immediate Nile Delta region. Upper Egypt is effectively ruled by autonomous nomarchs who maintain only nominal allegiance to the crown. The transition to the First Intermediate Period (Seventh and Eighth Dynasties) is imminent. Royal monuments are rare; elite private tombs dominate the archaeological record.",
+      "key_figures": [
+        "Pepi II or his successor (identity and reign length disputed)",
+        "Regional nomarchs"
+      ],
+      "sources": [
+        {
+          "name": "Nomarchal inscriptions and tombs",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of reduced royal construction",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The end of the Sixth Dynasty is traditionally dated to c. 2181 BCE, but this date is uncertain by \u00b120\u201350 years. The process of decline is well-attested; specific events in individual years are not.",
+      "cross_references": [
+        "Continuation of -2124-001 and -2123-001",
+        "Leads to First Intermediate Period c. -2180 BCE"
+      ]
+    },
+    {
+      "id": "-2122-002",
+      "title": "Naram-Sin's reign nears its end; Akkadian Empire shows signs of stress",
+      "region": "Mesopotamia, Levant",
+      "coordinates_approx": "43.0, 34.0",
+      "category": "political",
+      "description": "Naram-Sin's reign (traditionally dated 2254\u20132218 BCE) is in its final years. The Akkadian Empire is beginning to experience serious pressure from Gutian incursions in the north and from the effects of climate-induced agricultural failure. Administrative records show signs of disruption. However, the empire's rapid collapse will occur after Naram-Sin's death, under his successors.",
+      "key_figures": [
+        "Naram-Sin (Akkadian Emperor, near end of reign)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian administrative tablets",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested, but the exact year of his death is uncertain. Different chronological systems place it between c. 2218 and 2200 BCE.",
+      "cross_references": [
+        "Continuation of -2124-002 and -2123-002",
+        "Precedes Akkadian collapse c. -2200 to -2150 BCE"
+      ]
+    },
+    {
+      "id": "-2122-003",
+      "title": "Indus Valley Civilization continues mature phase; trade networks remain active",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization remains in its mature phase. Urban centers continue to function with standardized systems of weights, measures, and administration. Trade with Mesopotamia and the Persian Gulf continues, though some scholars suggest that trade volumes may have begun to decline due to Akkadian Empire's instability. The civilization shows no signs of imminent collapse at this time.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations and stratigraphy",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian trade records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's continued flourishing at this time is archaeologically confirmed. The mature phase is conventionally dated 2600\u20131900 BCE.",
+      "cross_references": [
+        "Continuation of -2124-003",
+        "Precedes Indus Valley decline c. -1900 BCE"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Naram-Sin's reign (2254\u20132218 BCE) is subject to chronological debate; some scholars place it 50\u2013100 years earlier or later. The Akkadian Empire's collapse is sometimes attributed primarily to invasion (Gutians) rather than climate stress, though most modern scholarship sees both as contributing factors. The Egyptian Old Kingdom's end date is similarly uncertain. The Indus Valley Civilization's trade with Mesopotamia is inferred from archaeological evidence (seals, weights) rather than from written records, and the extent of trade disruption due to Akkadian instability is speculative.",
+  "historiographic_note": "This year is poorly documented in written sources. The primary evidence comes from administrative tablets (Akkadian), inscriptions (Egyptian nomarchs), and archaeological stratigraphy (Indus Valley). Egyptian sources are biased toward elite perspectives and are sparse for this period. Mesopotamian sources are concentrated in southern Iraq. The Indus Valley Civilization's undeciphered script limits understanding of its political and economic organization. Chronological uncertainty of \u00b150 years is inherent in this period.",
+  "graph_edges": [
+    {
+      "from": "-2122-001",
+      "to": "-2100-series",
+      "relation": "led_to",
+      "note": "End of Sixth Dynasty leads to First Intermediate Period"
+    },
+    {
+      "from": "-2122-002",
+      "to": "-2100-series",
+      "relation": "led_to",
+      "note": "Akkadian Empire's stress leads to rapid collapse after Naram-Sin's death"
+    },
+    {
+      "from": "-2122-001",
+      "to": "-2122-002",
+      "relation": "contemporary_with",
+      "note": "Egyptian and Akkadian political crises occur simultaneously"
+    }
+  ]
+}
