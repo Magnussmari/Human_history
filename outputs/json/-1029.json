@@ -1,0 +1,81 @@
+{
+  "year": -1029,
+  "year_label": "1030 BCE",
+  "era_context": "The Late Bronze Age collapse is in its final stages or recently concluded (c. 1200\u20131050 BCE). The Eastern Mediterranean and Near East are experiencing profound political fragmentation: the great palace civilisations of the Mycenaean world, the Hittite Empire, and the Late Bronze Age Levantine city-states have largely disappeared. Egypt under the late Ramessid dynasty (Ramesses IX\u2013XI) is in relative decline, with power fragmenting between the pharaoh and the high priests of Amun at Thebes. The Iron Age is beginning in some regions. In the Aegean, the Geometric period is emerging. In Mesopotamia, Assyria is in a period of weakness (Middle Assyrian period ending). In the Levant, Phoenician city-states and early Iron Age kingdoms are consolidating. In South Asia, the Vedic period is well established in the Indo-Gangetic plain.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this specific year)",
+    "East Asia (Chinese sources for this period are sparse; Shang dynasty had ended c. 1046 BCE, Zhou dynasty beginning)",
+    "Mesoamerica (no written records; archaeological dating is approximate)",
+    "Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-1029-001",
+      "title": "Reign of Ramesses XI of Egypt (approximate period)",
+      "region": "Egypt",
+      "coordinates_approx": "25.5, 32.5",
+      "category": "political",
+      "description": "Ramesses XI, the last pharaoh of the Twentieth Dynasty, is ruling Egypt during a period of significant internal fragmentation. His reign (c. 1099\u20131069 BCE, with -1029 falling within this period) is marked by the growing power of the priesthood of Amun at Thebes, which increasingly rivals pharaonic authority. The High Priests of Amun effectively control Upper Egypt, while the pharaoh's authority is strongest in Lower Egypt and the Delta. This bifurcation of power is a defining feature of the late Ramessid period and foreshadows the political fragmentation of the Third Intermediate Period.",
+      "key_figures": [
+        "Ramesses XI (Pharaoh of Egypt)",
+        "High Priests of Amun at Thebes"
+      ],
+      "sources": [
+        {
+          "name": "Karnak temple inscriptions and administrative papyri (e.g., Papyrus Harris I, compiled near end of Ramesses XI's reign)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Egyptological scholarship (Kitchen, Dodson, et al.)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses XI's reign is well-attested in inscriptions and administrative records, but precise year-by-year events are often difficult to date. The period c. 1030 BCE falls securely within his reign, but specific events for this exact year are not documented.",
+      "cross_references": []
+    },
+    {
+      "id": "-1029-002",
+      "title": "Consolidation of Phoenician city-states in the Levant",
+      "region": "Levant (Phoenicia)",
+      "coordinates_approx": "33.5, 35.5",
+      "category": "political",
+      "description": "In the aftermath of the Late Bronze Age collapse, Phoenician city-states such as Tyre, Sidon, and Byblos are consolidating their power and expanding maritime trade networks. By the early 11th century BCE (within which -1029 falls), these cities are becoming the dominant maritime powers of the Eastern Mediterranean, filling the vacuum left by the collapse of Mycenaean and Hittite trade networks. This period marks the beginning of Phoenician commercial and colonial expansion that will define the Iron Age Mediterranean.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Phoenician city-states (Tyre, Sidon, Byblos); stratigraphy and artefactual assemblages",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Later Greek and Roman sources (Herodotus, Strabo) on Phoenician history",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Phoenician consolidation in the early Iron Age is well-established archaeologically, but specific events for -1029 are not documented. Dating is approximate to the broader period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Late Bronze Age collapse itself remains debated: some scholars argue for a more gradual process of decline rather than a catastrophic collapse, and the precise chronology of the transition to the Iron Age varies by region. The extent of Phoenician continuity from the Late Bronze Age versus emergence as a distinct Iron Age phenomenon is also contested. No specific disconfirming evidence identified for events listed above, as few specific events are attested for this year.",
+  "historiographic_note": "The historical record for -1029 is extremely sparse. We have no contemporary records of specific events for this year. Our knowledge comes from: (1) inscriptions and administrative records from Egypt that span longer periods; (2) archaeological stratigraphy from the Levant and Aegean; (3) later Greek and Roman compilations. The record is heavily skewed toward Egypt and the Eastern Mediterranean; other regions are virtually undocumented. Biases include: Egyptian sources privilege the pharaonic perspective; archaeological evidence is unevenly distributed geographically; later sources may project Iron Age conditions backward.",
+  "graph_edges": [
+    {
+      "from": "-1029-001",
+      "to": "-1069-RAMESSES_XI_ACCESSION",
+      "relation": "part_of",
+      "note": "Ramesses XI's reign spans approximately 1099\u20131069 BCE"
+    },
+    {
+      "from": "-1029-002",
+      "to": "-0900-PHOENICIAN_EXPANSION",
+      "relation": "led_to",
+      "note": "Phoenician consolidation in this period led to major colonial expansion in the 9th\u20138th centuries BCE"
+    }
+  ]
+}

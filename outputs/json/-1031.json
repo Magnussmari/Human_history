@@ -1,0 +1,89 @@
+{
+  "year": -1031,
+  "year_label": "1031 BCE",
+  "era_context": "Early Iron Age transition continuing across the Mediterranean and Near East. Egypt in the late Twentieth Dynasty, approaching the fragmentation of the Twenty-first Dynasty; Western Zhou Dynasty in China; Vedic period in South Asia; Phoenician expansion; Aramean and Neo-Hittite kingdoms consolidating; Greece in the Geometric period.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-1031-001",
+      "title": "Fragmentation of Egyptian authority \u2014 rise of the High Priests of Amun",
+      "region": "Egypt (Thebes/Upper Egypt)",
+      "coordinates_approx": "25.7, 32.6",
+      "category": "political",
+      "description": "By the late Twentieth Dynasty (c. 1070 BCE onward), the High Priests of Amun at Thebes had accumulated such wealth and power that they effectively ruled Upper Egypt independently of the pharaoh, who controlled Lower Egypt from the Delta. This bifurcation of authority would formalize into the Twenty-first Dynasty (c. 1070\u2013945 BCE), where the High Priests ruled as a parallel dynasty. The year 1031 BCE falls within this period of transition, when the priesthood's power was becoming undeniable. This represented a fundamental shift in Egyptian political structure.",
+      "key_figures": [
+        "High Priests of Amun (names uncertain for this specific year)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus records and temple inscriptions from Thebes",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from Egyptological scholarship",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad trend of priestly power accumulation is well-attested; however, the specific year 1031 BCE is not marked by a documented event. The year is assigned as representative of the transition period. Egyptian chronology has \u00b110\u201315 year uncertainty.",
+      "cross_references": []
+    },
+    {
+      "id": "-1031-002",
+      "title": "Western Zhou administrative consolidation \u2014 feudal hierarchy development",
+      "region": "China (Central Plains and Yellow River valley)",
+      "coordinates_approx": "34.5, 109.0",
+      "category": "political",
+      "description": "The Western Zhou Dynasty continued its consolidation of power through the development of a feudal system of vassal states. The Zhou king granted fiefs to relatives and allies, who ruled as regional lords while maintaining ritual and political subordination to the Zhou court. This system, known as the fengjian system, was becoming increasingly formalized during the 11th century BCE. By 1031 BCE, the Zhou had established a network of vassal states that would persist for centuries, creating a decentralized but hierarchical political structure.",
+      "key_figures": [
+        "King Zhao of Zhou (r. c. 1052\u20131002 BCE, traditional dates)"
+      ],
+      "sources": [
+        {
+          "name": "Bronze inscriptions and oracle bone records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Zhou sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The development of the Zhou feudal system is archaeologically and textually attested, but precise dating is uncertain by \u00b120\u201330 years. King Zhao's reign is traditionally dated c. 1052\u20131002 BCE, but these dates are debated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The narrative of a 'unified' Zhou feudal system may be overstated; archaeological evidence suggests a more fragmented, regionally diverse political landscape with varying degrees of Zhou control. The High Priests of Amun's rise to power is sometimes portrayed as a sudden usurpation, but modern scholarship emphasizes the gradual accumulation of wealth and authority over generations. The traditional dating of the Twenty-first Dynasty's beginning (c. 1070 BCE) is debated; some scholars propose dates as late as 1050 BCE.",
+  "historiographic_note": "Egyptian sources for this period are primarily temple records and administrative documents, which focus on religious and economic activities rather than political events. The narrative of priestly power is constructed from these fragmentary sources. Chinese sources rely heavily on the Shiji, compiled over 1,000 years after these events, and on oracle bone inscriptions, which are difficult to interpret. The archaeological record for both regions is supplementary but increasingly important for understanding the period.",
+  "graph_edges": [
+    {
+      "from": "-1031-001",
+      "to": "-1070-TWENTY_FIRST_DYNASTY",
+      "relation": "part_of",
+      "note": "The fragmentation of Egyptian authority during the late Twentieth Dynasty led to the formal establishment of the Twenty-first Dynasty."
+    },
+    {
+      "from": "-1031-002",
+      "to": "-771-ZHOU_FRAGMENTATION",
+      "relation": "led_to",
+      "note": "The Zhou feudal system established during this period would eventually fragment during the Spring and Autumn period."
+    }
+  ]
+}

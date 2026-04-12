@@ -1,0 +1,109 @@
+{
+  "year": -1039,
+  "year_label": "1040 BCE",
+  "era_context": "Late Bronze Age to Early Iron Age transition. Egypt under Ramesses XI (20th Dynasty) is in the early-to-middle phase of his reign. Assyria under Ashur-dan I is consolidating power. The Levant is experiencing political reorganization following the Late Bronze Age collapse. Greece is in the Early Iron Age (Protogeometric period). Anatolia is fragmented among Neo-Hittite kingdoms and other regional powers. The broader Mediterranean is characterized by significant population movements and the emergence of new maritime trading networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "East Asia",
+    "Mesoamerica and the Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-1039-001",
+      "title": "Ramesses XI ascends or consolidates power in Egypt",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Ramesses XI (r. c. 1099\u20131069 BCE) is in the early phase of his reign. He inherits a kingdom already weakened by the loss of imperial territories and the rise of the Theban priesthood. His reign will be characterized by attempts to maintain pharaonic authority while adapting to the new political realities of the post-Bronze Age collapse world.",
+      "key_figures": [
+        "Ramesses XI (Pharaoh)",
+        "Ramesses X (predecessor)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists and temple records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptological consensus (Dodson & Hilton, The Complete Royal Families of Ancient Egypt)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses XI's reign dates are well-established through king lists and temple records. The year -1039 falls within his documented reign.",
+      "cross_references": []
+    },
+    {
+      "id": "-1039-002",
+      "title": "Ashur-dan I's early campaigns and consolidation",
+      "region": "Mesopotamia",
+      "coordinates_approx": "36.1, 43.3",
+      "category": "military",
+      "description": "Ashur-dan I (r. c. 1178\u20131133 BCE) is in the early-to-middle phase of his reign. He campaigns against neighboring powers and works to consolidate Assyrian control over northern Mesopotamia. His reign marks the beginning of Assyria's resurgence as a major regional power.",
+      "key_figures": [
+        "Ashur-dan I (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian king lists and annals",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashur-dan I's reign is well-attested in Assyrian records; specific year-by-year chronology is less certain.",
+      "cross_references": []
+    },
+    {
+      "id": "-1039-003",
+      "title": "Phoenician city-states consolidate maritime trade networks",
+      "region": "The Levant (Phoenicia)",
+      "coordinates_approx": "33.5, 35.0",
+      "category": "economic",
+      "description": "Phoenician city-states such as Tyre, Sidon, and Byblos are consolidating their control over Mediterranean maritime trade networks in the aftermath of the Late Bronze Age collapse. These cities are becoming the primary intermediaries for trade between Egypt, Mesopotamia, Anatolia, and the Aegean. This economic shift will have profound consequences for the Mediterranean world over the next several centuries.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Levantine coastal sites (e.g., Tyre, Sidon, Byblos)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Later Greek sources (e.g., Herodotus) describing Phoenician trade",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trend of Phoenician maritime expansion is well-documented archaeologically; the specific year is assigned by convention.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of the Late Bronze Age 'collapse' as a sudden, catastrophic event has been significantly revised by recent scholarship. Archaeological evidence suggests a more gradual process of transformation, with significant continuities in settlement patterns, trade networks, and cultural practices. The 'collapse' may be more accurately characterized as a period of reorganization and adaptation rather than wholesale destruction. Additionally, the rise of Phoenician maritime power is sometimes portrayed as a sudden emergence, but archaeological evidence suggests a more gradual development of their trading networks over several centuries.",
+  "historiographic_note": "Documentation for this year is sparse and heavily weighted toward Egypt and Mesopotamia. The Levantine and Mediterranean worlds are known primarily through fragmentary archaeological evidence and later Greek traditions. Sub-Saharan Africa, Central Asia, East Asia, and the Americas are essentially undocumented for this specific year in surviving sources. The perspectives of non-elite populations, women, enslaved peoples, and ordinary merchants are largely absent from the historical record. The sources that do survive are heavily biased toward elite, court-sponsored narratives.",
+  "graph_edges": [
+    {
+      "from": "-1039-001",
+      "to": "-1035-001",
+      "relation": "part_of",
+      "note": "Ramesses XI's reign spans from c. 1099\u20131069 BCE, encompassing both -1039 and -1035"
+    },
+    {
+      "from": "-1039-002",
+      "to": "-1035-002",
+      "relation": "part_of",
+      "note": "Ashur-dan I's reign spans from c. 1178\u20131133 BCE, encompassing both -1039 and -1035"
+    },
+    {
+      "from": "-1039-003",
+      "to": "-1000-PHOENICIAN_EXPANSION",
+      "relation": "led_to",
+      "note": "Phoenician maritime consolidation in this period leads to their dominance of Mediterranean trade in subsequent centuries"
+    }
+  ]
+}

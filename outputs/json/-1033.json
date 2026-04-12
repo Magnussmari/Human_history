@@ -1,0 +1,86 @@
+{
+  "year": -1033,
+  "year_label": "1033 BCE",
+  "era_context": "Continuation of the early Iron Age transition. Egypt under late Twentieth Dynasty; Phoenician expansion accelerating; Zhou Dynasty in China (Western Zhou period); Vedic period in South Asia; Mycenaean successor states in Greece; Aramean and Neo-Hittite kingdoms rising in the Levant.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia (limited archaeological record)"
+  ],
+  "events": [
+    {
+      "id": "-1033-001",
+      "title": "Continued Libyan settlement and integration in Egypt",
+      "region": "Egypt (Nile Delta and Lower Egypt)",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "demographic",
+      "description": "Libyan groups, initially entering Egypt as mercenaries and refugees during the late Nineteenth and Twentieth Dynasties, were becoming increasingly integrated into Egyptian society. By the early 11th century BCE, Libyan families held significant military and administrative positions. This demographic shift would eventually lead to Libyan dynasties ruling Egypt by the 22nd Dynasty (~945 BCE). The process was gradual and not uniformly documented year-by-year.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Papyrus records and temple inscriptions mentioning Libyan names and titles",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from Egyptological scholarship",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad trend of Libyan integration is well-attested; however, specific events in 1033 BCE are not documented. The year is assigned as representative of this ongoing process.",
+      "cross_references": []
+    },
+    {
+      "id": "-1033-002",
+      "title": "Zhou Dynasty consolidation in China \u2014 Western Zhou period",
+      "region": "China (Yellow River valley and Central Plains)",
+      "coordinates_approx": "34.5, 109.0",
+      "category": "political",
+      "description": "The Western Zhou Dynasty (c. 1046\u2013771 BCE) was in its early-to-middle period of consolidation and expansion. The Zhou had overthrown the Shang Dynasty and were establishing a feudal system of vassal states. By 1033 BCE, the Zhou court was organizing the realm through a network of regional lords bound by kinship and ritual obligation. This period saw the development of bronze technology and the elaboration of ritual practices that would define Chinese civilization.",
+      "key_figures": [
+        "King Zhao of Zhou (r. c. 1052\u20131002 BCE, traditional dates)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian \u2014 compiled c. 109 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bronze inscriptions (Shang shu and Zhou bronzes)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Anyang and other Zhou sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Chinese chronology for the early Zhou is uncertain by \u00b120\u201330 years. King Zhao's reign dates are traditionally given as c. 1052\u20131002 BCE, placing 1033 BCE within his rule, but these dates are debated. The Shiji was compiled over 1,000 years after these events.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of King Zhao of Zhou's reign has been questioned by modern scholars; some propose dates shifted by 20\u201330 years. The Shiji's account of early Zhou history is now understood to contain legendary and mythological elements alongside historical fact. The narrative of a unified, centralized Zhou state is somewhat idealized; archaeological evidence suggests a more fragmented, regionally diverse political landscape. The 'Mandate of Heaven' ideology attributed to the Zhou conquest may be a later rationalization rather than a contemporary justification.",
+  "historiographic_note": "Chinese historical records are abundant but compiled centuries or millennia after the events. Early Zhou chronology relies heavily on the Shiji and oracle bone inscriptions, both of which have interpretive challenges. Egyptian sources remain propagandistic and focused on royal and temple activities; the lives of ordinary people and regional variations are poorly documented. The archaeological record for this period in China is rich; in the Levant and Egypt, it is supplementary to written sources.",
+  "graph_edges": [
+    {
+      "from": "-1033-002",
+      "to": "-1046-ZHOU_CONQUEST",
+      "relation": "part_of",
+      "note": "King Zhao's reign continues the consolidation begun by the Zhou conquest of the Shang."
+    },
+    {
+      "from": "-1033-002",
+      "to": "-771-ZHOU_FRAGMENTATION",
+      "relation": "led_to",
+      "note": "The Western Zhou system established during this period would eventually fragment during the Spring and Autumn period."
+    }
+  ]
+}

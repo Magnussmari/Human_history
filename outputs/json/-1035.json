@@ -1,0 +1,89 @@
+{
+  "year": -1035,
+  "year_label": "1036 BCE",
+  "era_context": "The Late Bronze Age collapse is in its final stages or recently concluded (c. 1200\u20131050 BCE). The Eastern Mediterranean and Near East are experiencing political fragmentation, population displacement, and the emergence of Iron Age polities. Egypt under the late Ramessid period (20th Dynasty) is in decline; the New Kingdom is ending. The Levant sees the rise of early Aramean and Phoenician city-states. Greece is in the Early Iron Age (Protogeometric period). Assur is reasserting Mesopotamian power under the Middle Assyrian Empire.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "East Asia (China, early Zhou dynasty records are sparse for this specific year)",
+    "Mesoamerica and the Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-1035-001",
+      "title": "Reign of Ramesses XI (Egypt) \u2014 Late 20th Dynasty",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Ramesses XI, the last pharaoh of the 20th Dynasty, is in the latter part of his reign (c. 1099\u20131069 BCE). His rule marks the final phase of the New Kingdom and the effective end of pharaonic control over Nubia and the Levantine territories. The High Priests of Amun at Thebes have become increasingly autonomous, foreshadowing the political fragmentation of the Third Intermediate Period. Egypt's international prestige and military power have substantially declined from the Ramesside peak.",
+      "key_figures": [
+        "Ramesses XI (Pharaoh)",
+        "Herihor (High Priest of Amun, increasingly powerful)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak temple inscriptions and Theban tomb records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyri from the Ramesside period (e.g., Papyrus Harris I)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptological consensus (Dodson & Hilton, The Complete Royal Families of Ancient Egypt)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses XI's reign dates are well-established through king lists, temple records, and astronomical dating. The specific year -1035 falls within his documented reign.",
+      "cross_references": []
+    },
+    {
+      "id": "-1035-002",
+      "title": "Ashur-dan I consolidates Assyrian power in Mesopotamia",
+      "region": "Mesopotamia (Assyria)",
+      "coordinates_approx": "36.1, 43.3",
+      "category": "political",
+      "description": "Ashur-dan I (r. c. 1178\u20131133 BCE) is in the middle of his reign, a period of significant Assyrian expansion and consolidation. He campaigns against the Arameans and other neighboring powers, extending Assyrian control over northern Mesopotamia and parts of the Levant. His reign marks a major phase in the reassertion of Assyrian imperial power after the disruptions of the Late Bronze Age collapse.",
+      "key_figures": [
+        "Ashur-dan I (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian king lists and annals (cuneiform inscriptions)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Synchronistic History (cuneiform chronicle comparing Assyrian and Babylonian rulers)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashur-dan I's reign is well-attested in Assyrian records, though the exact year-by-year chronology of his campaigns is sometimes uncertain. Dating relies on Mesopotamian king lists and cross-references with Egyptian chronology.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact synchronization of Egyptian and Mesopotamian chronologies for this period remains debated. Some scholars propose alternative chronologies (low, middle, or high chronology) that shift dates by 50\u2013150 years. The significance of Ramesses XI's reign has been reassessed in recent scholarship: rather than a simple decline, some historians now view the late 20th Dynasty as a period of institutional adaptation and the emergence of a more decentralized but stable administrative system. The 'collapse' narrative itself has been complicated by recent archaeological work suggesting more continuity than previously assumed.",
+  "historiographic_note": "Documentation for this year is sparse and heavily weighted toward Egypt and Mesopotamia, where written records survive. The Egyptian record is rich but reflects court and temple perspectives; the experiences of common people, soldiers, and provincial populations are largely absent. Assyrian records are similarly elite-focused. The broader Mediterranean and Levantine world is known primarily through fragmentary archaeological evidence and later Greek traditions. Sub-Saharan Africa, Central Asia, East Asia, and the Americas are essentially undocumented for this specific year in surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-1035-001",
+      "to": "-1030-RAMESSES_XI_DEATH",
+      "relation": "led_to",
+      "note": "Ramesses XI's reign ends c. 1069 BCE, leading to the Third Intermediate Period and the division of Egypt"
+    },
+    {
+      "from": "-1035-002",
+      "to": "-1025-ASHUR_DAN_CAMPAIGNS",
+      "relation": "part_of",
+      "note": "Ashur-dan I's campaigns continue throughout his reign, consolidating Assyrian hegemony"
+    }
+  ]
+}
