@@ -1,0 +1,107 @@
+{
+  "year": -1176,
+  "year_label": "1176 BCE",
+  "era_context": "The Eastern Mediterranean and Near East are in the midst of systemic collapse. The Hittite Empire fell c. 1180 BCE. Egypt under Ramesses III is mobilising against Sea Peoples invasions. Mycenaean Greece is in terminal decline. The Levantine city-states are fragmenting. In China, the Shang dynasty is in its final decades. This is a period of unprecedented disruption: climate stress (possibly volcanic), migration, warfare, and the breakdown of long-distance trade networks are reshaping the political map of the ancient world.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (sparse written records)",
+    "Central Asia and the Steppe (limited contemporary documentation)",
+    "Mesoamerica (no written records)",
+    "Pacific and Oceania (no contemporary records)"
+  ],
+  "events": [
+    {
+      "id": "-1176-001",
+      "title": "Sea Peoples Invasions of Egypt and the Levant (Ramesses III's Fourth Year)",
+      "region": "Egypt, Levant, Eastern Mediterranean",
+      "coordinates_approx": "31.0, 31.0",
+      "category": "military",
+      "description": "Ramesses III faces coordinated invasions by multiple Sea Peoples groups. Egyptian sources (Medinet Habu reliefs) describe attacks on the Delta and coastal regions. The invasions are part of a broader pattern of migration and warfare that has destabilised the Eastern Mediterranean for the preceding decade. The exact composition and origins of the Sea Peoples remain debated, but Egyptian sources identify groups including Peleset, Tjeker, Shekelesh, Denyen, and Weshesh. These invasions represent the culmination of pressure that has been building since c. 1200 BCE. The Egyptian response is military mobilisation and fortification of the Delta.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple reliefs and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Contemporary Egyptian monumental evidence. The fourth regnal year of Ramesses III is well-established in Egyptological chronology.",
+      "cross_references": [
+        "Precedes Battle of the Delta (-1175-001) by one year"
+      ]
+    },
+    {
+      "id": "-1176-002",
+      "title": "Continued Depopulation and Abandonment of Mycenaean Sites",
+      "region": "Greece (Peloponnese, Aegean)",
+      "coordinates_approx": "37.5, 23.0",
+      "category": "demographic",
+      "description": "Mycenaean palatial centres continue to be abandoned or depopulated. Archaeological evidence from multiple sites (Pylos, Mycenae, Tiryns, Athens) shows declining occupation and loss of palatial administration. Population movements are occurring, with some groups migrating to Cyprus, the Levant, and possibly Egypt. The transition from Bronze Age to Iron Age is underway. Linear B script is no longer in use. This marks the deepening of the Greek Dark Ages.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mycenaean sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Stratigraphic and pottery evidence from multiple sites confirms depopulation in this period.",
+      "cross_references": [
+        "Part of broader Late Bronze Age collapse"
+      ]
+    },
+    {
+      "id": "-1176-003",
+      "title": "Shang Dynasty: Final Years of Rule",
+      "region": "China (Central Plains)",
+      "coordinates_approx": "34.5, 113.0",
+      "category": "political",
+      "description": "The Shang dynasty continues in its terminal phase. King Zhou remains in power but is increasingly isolated. Zhou pressure from the west is mounting. Oracle bone inscriptions from this period are sparse, suggesting administrative breakdown. The transition to Zhou rule will occur within the next few years. This year falls within the final decade of Shang rule.",
+      "key_figures": [
+        "King Zhou (last Shang ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Oracle bone inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Dating is approximate based on traditional chronology and later chronicles. Modern chronology places the Shang-Zhou transition at c. 1050\u20131045 BCE, but this is debated.",
+      "cross_references": [
+        "Precedes Shang-Zhou transition (c. -1046 to -1045)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Sea Peoples invasions described in Egyptian sources may be exaggerated or conflated with earlier and later events. Some scholars argue that the 'Sea Peoples' were not a unified ethnic or political group but rather a diverse collection of raiders, refugees, and mercenaries. The identification of specific groups (Peleset, Tjeker, etc.) with later known peoples (Philistines, etc.) is debated. The Mycenaean collapse is sometimes attributed to invasion by Sea Peoples, but archaeological evidence does not consistently support this; internal factors (climate, economic disruption, social breakdown) may have been more significant.",
+  "historiographic_note": "Egyptian sources dominate the historical record for this year. Mycenaean Greece is known only through archaeology. Chinese history relies on later compilations and oracle bones. The 'Late Bronze Age collapse' is a modern historiographic framework; ancient sources do not describe events in these terms. Egyptian sources are propagandistic and may overstate military successes and understate the extent of Egyptian decline. The Sea Peoples remain poorly understood and are a subject of ongoing scholarly debate.",
+  "graph_edges": [
+    {
+      "from": "-1176-001",
+      "to": "-1175-001",
+      "relation": "led_to",
+      "note": "Sea Peoples invasions of this year lead to Battle of the Delta the following year"
+    },
+    {
+      "from": "-1176-002",
+      "to": "-1100-GREEK_DARK_AGES",
+      "relation": "part_of",
+      "note": "Mycenaean depopulation is part of broader Greek Dark Ages transition"
+    }
+  ]
+}

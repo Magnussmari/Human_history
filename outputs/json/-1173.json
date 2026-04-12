@@ -1,0 +1,89 @@
+{
+  "year": -1173,
+  "year_label": "1173 BCE",
+  "era_context": "Ramesses III's reign continues amid the Late Bronze Age collapse. The Sea Peoples remain a significant military and political threat to Egypt. The Hittite Empire has fallen. Mycenaean civilization is in its final stages of collapse. Across the Eastern Mediterranean, centralized palace economies are failing, populations are migrating, and trade networks are severely disrupted.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica",
+    "Central Asia and the Steppe (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-1173-001",
+      "title": "Ramesses III's Sixth Regnal Year: Naval and Military Campaigns Against Sea Peoples Coalition",
+      "region": "Egypt (New Kingdom) and Eastern Mediterranean",
+      "coordinates_approx": "26.0, 32.5",
+      "category": "military",
+      "description": "Ramesses III's sixth regnal year is marked by intensified military campaigns against the Sea Peoples. The Medinet Habu reliefs depict a major naval battle in the Nile Delta, in which Egyptian forces claim victory against a coalition of Sea Peoples including the Peleset (possibly Philistines), Tjeker, Shekelesh, and others. The pharaoh's inscriptions claim to have captured and settled some of these groups as mercenaries or prisoners. The exact chronology and outcome of these battles remain debated, but they represent a critical moment in the defense of Egypt against external invasion.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple reliefs and inscriptions (Pylon VIII and adjacent walls)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Regnal year dating is secure from Egyptian chronology. The specific events are recorded in temple reliefs, but their exact sequence and historical accuracy are debated. The 'naval battle' may conflate multiple engagements or be partly propagandistic.",
+      "cross_references": [
+        "-1174-001 (Ramesses III's earlier campaigns)",
+        "-1177-001 (Ramesses III's accession)"
+      ]
+    },
+    {
+      "id": "-1173-002",
+      "title": "Deir el-Medina Labor Strikes and Administrative Crisis in Egypt",
+      "region": "Egypt (Thebes region)",
+      "coordinates_approx": "25.74, 32.60",
+      "category": "economic",
+      "description": "The workers' village of Deir el-Medina experiences labor strikes and unrest, likely related to delayed payment of grain rations and general resource scarcity during Ramesses III's reign. Ostraca (pottery shards used for writing) from this period document worker complaints and administrative responses. These strikes represent one of the earliest recorded instances of organized labor protest and reflect the internal economic strain on Egypt despite military successes against external threats.",
+      "key_figures": [
+        "Ramesses III (Pharaoh)",
+        "Deir el-Medina workers and foremen"
+      ],
+      "sources": [
+        {
+          "name": "Ostraca from Deir el-Medina (pottery shards with hieratic inscriptions)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Deir el-Medina settlement",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The strikes are well-attested in ostraca, but their precise dating within Ramesses III's reign is debated. They likely occurred in his later regnal years (years 5\u201310), so placement in year 6 is approximate.",
+      "cross_references": [
+        "-1174-001 (broader context of Ramesses III's reign)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Medinet Habu reliefs depicting the naval battle against the Sea Peoples are royal propaganda and may significantly exaggerate Egyptian military success. Some scholars argue that Egypt's 'victory' was actually a negotiated settlement or that the Sea Peoples were not decisively defeated but rather settled within Egyptian territory as mercenaries or vassals. The identification of specific Sea Peoples groups (Peleset, Tjeker, etc.) with later historical peoples (e.g., Philistines) is debated and may conflate distinct populations. The dating of these events to Ramesses III's sixth regnal year assumes conventional Egyptian chronology, which is contested by some scholars who advocate for a 'low chronology' shift of 50\u2013100 years.",
+  "historiographic_note": "The record for 1173 BCE is almost entirely dependent on Egyptian sources, particularly the Medinet Habu temple reliefs and administrative documents from Deir el-Medina. This creates a strong bias toward Egyptian perspectives and may overstate Egyptian military achievements. The Sea Peoples themselves left no written records in this period, so their motivations, organization, and actual military capabilities are inferred from Egyptian and Levantine sources. The Deir el-Medina ostraca provide rare insight into non-elite perspectives and economic conditions, but they are fragmentary and their precise dating is uncertain. Archaeological evidence from the Levant and Aegean would provide crucial context but is often poorly dated.",
+  "graph_edges": [
+    {
+      "from": "-1173-001",
+      "to": "-1174-001",
+      "relation": "led_to",
+      "note": "Continuation of military campaigns against the Sea Peoples from the previous year"
+    },
+    {
+      "from": "-1173-002",
+      "to": "-1174-001",
+      "relation": "contemporary_with",
+      "note": "Labor strikes at Deir el-Medina reflect the broader economic strain during Ramesses III's military campaigns"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "year": -1184,
+  "year_label": "1184 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u20131150 BCE). The Eastern Mediterranean and Near East are experiencing systemic disruption: the Mycenaean palace civilisations of Greece are in terminal decline, the Hittite Empire has recently fallen (c. 1180 BCE), Egypt under Ramesses III faces invasions by the Sea Peoples, and trade networks that sustained Bronze Age complexity are fragmenting. This is a moment of civilisational stress across multiple regions simultaneously.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "East Asia (limited Chinese sources for this period)",
+    "Mesoamerica and South America",
+    "Northern Europe"
+  ],
+  "events": [
+    {
+      "id": "-1184-001",
+      "title": "Ramesses III repels Sea Peoples invasions (Year 8 of reign)",
+      "region": "Egypt, Eastern Mediterranean",
+      "coordinates_approx": "30.8\u00b0N, 31.3\u00b0E",
+      "category": "military",
+      "description": "Ramesses III of Egypt faces coordinated naval and land invasions by coalitions of Sea Peoples (Sherden, Tjeker, Peleset, and others) attempting to settle in or raid the Nile Delta and Levantine coast. The pharaoh mobilises Egyptian naval and military forces to repel these attacks, which represent one of the largest documented migration/invasion events of the Late Bronze Age. The conflict is recorded in detail on temple reliefs at Medinet Habu, providing rare contemporary visual and textual documentation of the Sea Peoples crisis. The invasions are part of a broader pattern of Mediterranean disruption that contributes to the collapse of established Bronze Age states.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)",
+        "Leaders of Sea Peoples coalitions (names not individually preserved)"
+      ],
+      "sources": [
+        {
+          "name": "Temple reliefs and inscriptions at Medinet Habu (Mortuary Temple of Ramesses III)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I (administrative record compiled under Ramesses III)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Contemporary Egyptian temple reliefs and administrative papyri provide detailed accounts. Dating to Year 8 of Ramesses III's reign is secure (c. 1184\u20131182 BCE based on conventional Egyptian chronology, though absolute dating remains debated \u00b110\u201320 years).",
+      "cross_references": [
+        "Related to broader Sea Peoples migrations and Eastern Mediterranean disruption c. 1200\u20131150 BCE",
+        "Precedes final collapse of Hittite Empire (c. 1180 BCE)"
+      ]
+    },
+    {
+      "id": "-1184-002",
+      "title": "Continued decline of Mycenaean palace centres in Greece",
+      "region": "Greece (Peloponnese, Aegean)",
+      "coordinates_approx": "37.5\u00b0N, 23.0\u00b0E",
+      "category": "political",
+      "description": "The major Mycenaean palace centres (Mycenae, Tiryns, Pylos, Thebes) are in advanced stages of abandonment or destruction. By 1184 BCE, most palatial administrative systems have ceased functioning; Linear B record-keeping has ended; and populations are dispersing or migrating. The causes remain debated\u2014invasion, internal conflict, environmental stress, systems collapse\u2014but the archaeological record shows clear discontinuity in settlement patterns, material culture, and writing systems. This marks the effective end of the Bronze Age Aegean civilisation that had dominated the region for centuries.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological stratigraphy and pottery sequences from Mycenaean sites (Mycenae, Tiryns, Pylos)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Linear B tablets (latest datable examples from Pylos and Knossos, c. 1200\u20131180 BCE)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Archaeological evidence for palace destruction and abandonment is clear; absolute dating of final destruction layers is debated (\u00b110\u201320 years), but the general timeframe of c. 1200\u20131150 BCE is secure.",
+      "cross_references": [
+        "Part of broader Late Bronze Age collapse phenomenon",
+        "Contemporary with Sea Peoples invasions and Hittite collapse"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The 'Late Bronze Age collapse' as a unified, synchronous phenomenon has been questioned by recent scholarship. Some scholars argue for more gradual, region-specific declines rather than a single catastrophic event. The role of the Sea Peoples in causing (vs. resulting from) state collapse remains contested; some evidence suggests they were symptom rather than primary cause. Egyptian sources may overstate the military threat posed by Sea Peoples invasions for propagandistic purposes. The dating of Ramesses III's reign itself is subject to ongoing debate in Egyptology, with some scholars proposing dates 20\u201330 years earlier or later than the conventional chronology used here.",
+  "historiographic_note": "The historical record for 1184 BCE is dominated by Egyptian and Hittite sources; Greek evidence is purely archaeological (no contemporary written records survive from Greece itself after Linear B ends). This creates a significant bias toward Near Eastern and Egyptian perspectives. The 'Sea Peoples' are known primarily through Egyptian and Hittite descriptions; their own origins, organisation, and motivations remain poorly understood. Sub-Saharan Africa, Central Asia, and East Asia are essentially absent from the surviving record for this year, not because nothing happened there but because sources either do not survive or were not created in written form. The narrative of 'collapse' itself may reflect modern historiographic frameworks imposed on ancient disruption.",
+  "graph_edges": [
+    {
+      "from": "-1184-001",
+      "to": "-1180-001",
+      "relation": "part_of",
+      "note": "Ramesses III's campaigns against Sea Peoples continue through his reign; related events occur in subsequent years"
+    },
+    {
+      "from": "-1184-002",
+      "to": "-1200-COLLAPSE",
+      "relation": "part_of",
+      "note": "Final phase of Mycenaean palace collapse, part of broader Late Bronze Age disruption beginning c. 1200 BCE"
+    }
+  ]
+}

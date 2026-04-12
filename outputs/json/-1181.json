@@ -1,0 +1,88 @@
+{
+  "year": -1181,
+  "year_label": "1181 BCE",
+  "era_context": "Late Bronze Age collapse aftermath. The Hittite Empire has recently collapsed (c. 1180 BCE). Egypt under Ramesses III continues to maintain state institutions and military capacity despite external pressures. Mycenaean Greece is fully post-palatial. The Eastern Mediterranean is in a period of reduced connectivity and disrupted trade networks. This is a transitional period between the Bronze Age and the Early Iron Age.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "East Asia",
+    "Mesoamerica and South America",
+    "Northern Europe",
+    "Levantine interior"
+  ],
+  "events": [
+    {
+      "id": "-1181-001",
+      "title": "Ramesses III's Year 11: continued reign and military readiness",
+      "region": "Egypt",
+      "coordinates_approx": "30.8\u00b0N, 31.3\u00b0E",
+      "category": "political",
+      "description": "In the eleventh year of his reign, Ramesses III continues to govern Egypt and maintain military readiness against external threats. While specific campaigns for this year are not well-documented, the broader pattern shows the pharaoh sustaining state institutions and managing the transition to a post-collapse Eastern Mediterranean world. Egyptian administrative records suggest continued resource allocation to military, temple, and bureaucratic institutions.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus Harris I and administrative papyri",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Temple inscriptions at Medinet Habu",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Dating to Year 11 of Ramesses III is based on regnal year counts in Egyptian sources. Specific events for this year are not well-documented; the broader context is secure.",
+      "cross_references": [
+        "Part of Ramesses III's reign (c. 1186\u20131155 BCE)",
+        "Reflects Egyptian state capacity in the post-collapse period"
+      ]
+    },
+    {
+      "id": "-1181-002",
+      "title": "Anatolia in the aftermath of Hittite collapse",
+      "region": "Anatolia",
+      "coordinates_approx": "39.5\u00b0N, 34.5\u00b0E",
+      "category": "political",
+      "description": "In the year following the Hittite Empire's collapse (c. 1180 BCE), Anatolia is fragmenting into smaller successor states and kingdoms. The former Hittite heartland is no longer unified under a central imperial authority. Smaller polities\u2014including the Neo-Hittite states that will emerge in the Iron Age\u2014are beginning to consolidate power in various regions. This represents a fundamental reorganisation of Anatolian political geography.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Anatolian sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Later Iron Age inscriptions and texts (evidence for successor states)",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Anatolian fragmentation following Hittite collapse is secure from archaeological evidence. Specific political developments in 1181 BCE are not well-documented.",
+      "cross_references": [
+        "Follows from Hittite collapse (c. 1180 BCE)",
+        "Precedes emergence of Neo-Hittite states in Iron Age"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The specific events of 1181 BCE are poorly documented. The dating of the Hittite collapse to c. 1180 BCE is based on the latest cuneiform texts, but this date is uncertain (\u00b15\u201310 years). The causes of Hittite collapse and the subsequent fragmentation of Anatolia remain debated. The notion that the Hittite collapse was caused by Sea Peoples invasions is one hypothesis among several; other scholars emphasise internal conflict or environmental stress.",
+  "historiographic_note": "1181 BCE is a year where the historical record is extremely fragmentary. Egyptian sources continue, but Hittite sources have ended, and Greek sources are absent. This creates a perspective heavily skewed toward Egypt. The aftermath of the Hittite collapse is poorly documented; most evidence for successor states comes from later Iron Age sources. The broader context of the Late Bronze Age collapse remains one of the most debated topics in ancient history.",
+  "graph_edges": [
+    {
+      "from": "-1181-002",
+      "to": "-1180-002",
+      "relation": "part_of",
+      "note": "Anatolian fragmentation is the immediate aftermath of Hittite collapse"
+    },
+    {
+      "from": "-1181-001",
+      "to": "-1180-001",
+      "relation": "part_of",
+      "note": "Ramesses III's reign continues through this period"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "year": -1171,
+  "year_label": "1171 BCE",
+  "era_context": "Ramesses III's reign continues in its eighth year. The Late Bronze Age collapse is in its final stages across the Eastern Mediterranean. Egypt remains economically strained despite military consolidation. The Hittite Empire has been defunct for nearly a decade. Mycenaean Greece has largely collapsed into the Early Iron Age. Levantine city-states are experiencing severe disruption.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-1171-001",
+      "title": "Ramesses III's Eighth Regnal Year: Continued Economic Strain and Administrative Challenges",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "26.0, 32.5",
+      "category": "economic",
+      "description": "Ramesses III's eighth regnal year is marked by continued economic difficulties. Administrative records show declining resources, reduced temple endowments, and ongoing labor unrest. The pharaoh's building projects are scaled back compared to earlier New Kingdom rulers. Despite military successes against external threats, Egypt's internal economy shows signs of systemic strain. The reign represents a transition from the height of New Kingdom power to a period of reduced centralized authority.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Administrative papyri from Thebes and Memphis",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Medinet Habu temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Regnal year dating is secure. The economic conditions are inferred from administrative records and temple inscriptions, but their precise dating within the year is uncertain.",
+      "cross_references": [
+        "-1172-001 (preceding administrative reorganization)",
+        "-1173-002 (labor unrest at Deir el-Medina)"
+      ]
+    },
+    {
+      "id": "-1171-002",
+      "title": "Emergence of Iron Age Societies in the Levant and Aegean",
+      "region": "Eastern Mediterranean (Levant, Aegean, Anatolia)",
+      "coordinates_approx": "35.0, 25.0",
+      "category": "technological",
+      "description": "Archaeological evidence indicates the gradual emergence of iron-working technology in the Levant and Aegean during this period. Iron tools and weapons begin to appear in the archaeological record, though bronze remains the dominant metal. This technological transition is part of the broader shift from the Bronze Age to the Iron Age, which occurs unevenly across the Mediterranean world over the course of the 12th century BCE. The adoption of iron-working is associated with the disruption of tin trade networks during the Late Bronze Age collapse.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Levantine and Aegean sites (metal artifacts, metallurgical analysis)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on the Bronze Age to Iron Age transition",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The emergence of iron-working is archaeologically attested but not precisely dated year-by-year. The transition occurs over several decades, and 1171 BCE is placed within this period by convention.",
+      "cross_references": [
+        "-1174-002 (broader collapse context)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The narrative of a sharp 'Bronze Age collapse' followed by an 'Iron Age' is increasingly questioned by scholars who argue for a more gradual transition and regional variation. Some regions (e.g., Egypt, parts of the Levant) maintained continuity, while others (e.g., Greece, Anatolia) experienced more severe disruption. The adoption of iron-working was not a sudden technological revolution but a gradual process driven by multiple factors, including the disruption of tin trade and the availability of iron ore. The dating of the transition to 1171 BCE is arbitrary and reflects modern periodization rather than ancient historical reality.",
+  "historiographic_note": "The historical record for 1171 BCE remains heavily dependent on Egyptian sources and archaeological evidence. Written sources from the Levant, Aegean, and Anatolia are absent or fragmentary. The administrative papyri from Egypt provide insight into economic conditions but are biased toward elite perspectives. Archaeological evidence from across the Mediterranean provides material context but is poorly dated and difficult to correlate with specific historical events. The broader transition from the Bronze Age to the Iron Age is better understood through archaeology than through written sources, yet archaeological dating carries significant uncertainties (\u00b120\u201350 years).",
+  "graph_edges": [
+    {
+      "from": "-1171-001",
+      "to": "-1172-001",
+      "relation": "led_to",
+      "note": "Continued economic strain following administrative reorganization"
+    },
+    {
+      "from": "-1171-002",
+      "to": "-1174-002",
+      "relation": "part_of",
+      "note": "Iron Age emergence is part of the broader Late Bronze Age collapse and transition"
+    }
+  ]
+}

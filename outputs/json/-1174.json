@@ -1,0 +1,85 @@
+{
+  "year": -1174,
+  "year_label": "1174 BCE",
+  "era_context": "The Late Bronze Age collapse is underway. The New Kingdom of Egypt under Ramesses III faces unprecedented threats from the Sea Peoples and internal instability. The Hittite Empire has recently fallen (c. 1180 BCE). Mycenaean Greece is in terminal decline. Across the Eastern Mediterranean and Near East, palace economies are fragmenting, trade networks disrupting, and populations migrating or being displaced.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe (archaeological record exists but sparse)",
+    "East Asia (Chinese records do not extend to this date with precision)",
+    "Mesoamerica (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-1174-001",
+      "title": "Ramesses III's Fifth Regnal Year: Continued Defense Against Sea Peoples and Internal Threats",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "26.0, 32.5",
+      "category": "military",
+      "description": "Ramesses III, now in his fifth year of rule, continues military campaigns against the Sea Peoples and manages internal administrative crises. The Medinet Habu temple reliefs document ongoing conflicts with coalition forces attacking the Delta. Domestically, the reign is marked by labor strikes (notably the Deir el-Medina strikes of this period) and resource scarcity. The pharaoh's military responses are recorded in temple inscriptions, though the exact chronology of individual campaigns remains debated among Egyptologists.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple reliefs and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I (later compilation, but records Ramesses III's reign)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Regnal year dating is secure from Egyptian king lists, but the specific events of year 5 are reconstructed from temple reliefs whose exact chronological sequence is debated. Dating to 1174 BCE assumes conventional Egyptian chronology (\u00b12\u20133 years possible).",
+      "cross_references": [
+        "-1177-001 (Ramesses III's accession)",
+        "-1173-001 (continuation of Sea Peoples conflicts)"
+      ]
+    },
+    {
+      "id": "-1174-002",
+      "title": "Continued Fragmentation of Mycenaean Greece and Aegean Trade Collapse",
+      "region": "Greece and Aegean",
+      "coordinates_approx": "38.5, 23.0",
+      "category": "economic",
+      "description": "The Mycenaean palatial system continues its collapse. Linear B writing has disappeared from most sites. Trade networks that connected the Aegean to Egypt, the Levant, and Anatolia are severely disrupted. Archaeological evidence shows settlement abandonment, reduced pottery production, and loss of centralized administration across the Greek mainland and islands. This year falls within the broader period of the Late Bronze Age collapse (c. 1200\u20131150 BCE), though no specific event is attested to this exact year.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mycenaean sites (stratigraphy, pottery, settlement patterns)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Late Bronze Age collapse",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "No specific event is dated to 1174 BCE. This entry describes the broader context. The collapse is archaeologically attested but not precisely dated year-by-year; 1174 BCE falls within the collapse period by conventional chronology.",
+      "cross_references": [
+        "-1177-002 (broader collapse context)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The conventional dating of Ramesses III's reign and the Sea Peoples conflicts relies heavily on Egyptian king lists and temple inscriptions, which are subject to ongoing chronological debate. Some scholars argue for a 'low chronology' that would shift these events by 50\u2013100 years. Additionally, the identification of the 'Sea Peoples' as a unified ethnic or political entity is disputed; they may represent multiple, unrelated migration events or raiding groups. The Medinet Habu reliefs, while contemporary, are propagandistic royal inscriptions and may exaggerate Egyptian military successes or minimize defeats.",
+  "historiographic_note": "The historical record for 1174 BCE is heavily dependent on Egyptian sources, particularly temple reliefs and administrative papyri. This creates a significant Western-centric and Egypt-centric bias. The Hittite archives (which would provide Anatolian perspective) end c. 1180 BCE. Levantine sources are fragmentary. Greek sources are entirely absent for this period (Linear B ends c. 1200 BCE; alphabetic writing does not emerge until c. 1000 BCE). Archaeological evidence from the Aegean, Levant, and Anatolia provides material context but lacks precise dating. The broader Late Bronze Age collapse is better understood through archaeology than through written sources, yet archaeological dating carries \u00b120\u201350 year uncertainties for this period.",
+  "graph_edges": [
+    {
+      "from": "-1174-001",
+      "to": "-1177-001",
+      "relation": "part_of",
+      "note": "Ramesses III's fifth regnal year is part of his broader reign and military campaigns against the Sea Peoples"
+    },
+    {
+      "from": "-1174-002",
+      "to": "-1200-001",
+      "relation": "part_of",
+      "note": "Continued fragmentation of Mycenaean Greece is part of the broader Late Bronze Age collapse (c. 1200\u20131150 BCE)"
+    }
+  ]
+}
