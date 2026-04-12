@@ -1,0 +1,106 @@
+{
+  "year": -1821,
+  "year_label": "1822 BCE",
+  "era_context": "Continuation of the Middle Bronze Age across Eurasia. Egypt's 13th Dynasty is fragmenting, with regional governors gaining autonomy. Babylonia under Samsu-iluna maintains territorial control. The Hittite Old Kingdom is consolidating. The Indus Valley Civilization remains at its mature phase. This is a period of regional stability punctuated by localized conflicts and trade.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania",
+    "Americas",
+    "East Asia (Chinese records begin later)"
+  ],
+  "events": [
+    {
+      "id": "-1821-001",
+      "title": "Samsu-iluna's military campaigns (traditional dating)",
+      "region": "Mesopotamia (Babylonia and surrounding regions)",
+      "coordinates_approx": "32.5352, 44.4275",
+      "category": "military",
+      "description": "Samsu-iluna is recorded in cuneiform sources as conducting military campaigns against the Kassites to the east and other neighboring powers. These campaigns are part of a broader pattern of Babylonian expansion and consolidation during the Old Babylonian period. The exact years of individual campaigns are uncertain, as cuneiform records often group events by regnal year without absolute dating.",
+      "key_figures": [
+        "Samsu-iluna (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Cuneiform administrative and military records from Babylon",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Cuneiform records document campaigns but do not provide absolute dates. Modern chronology places Samsu-iluna's reign within a range of \u00b150 years depending on which chronological system is used.",
+      "cross_references": [
+        "-1820-001"
+      ]
+    },
+    {
+      "id": "-1821-002",
+      "title": "Egyptian 13th Dynasty fragmentation continues",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.8206, 30.8025",
+      "category": "political",
+      "description": "The 13th Dynasty of Egypt, which began around -1795, is experiencing progressive loss of centralized control. Regional governors (nomarchs) in Upper and Lower Egypt are consolidating local power. This period marks the transition toward the Second Intermediate Period, when Egypt will be divided among multiple competing dynasties. Archaeological and textual evidence shows administrative fragmentation.",
+      "key_figures": [
+        "13th Dynasty pharaohs (names and order disputed)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian King Lists (Abydos, Turin Papyrus)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Administrative papyri and inscriptions from Upper Egypt",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The 13th Dynasty is poorly documented; the Turin Papyrus lists many kings but their chronological order and reign lengths are disputed. This assignment reflects the general period of fragmentation, not a specific event.",
+      "cross_references": []
+    },
+    {
+      "id": "-1821-003",
+      "title": "Indus Valley trade networks active",
+      "region": "Indus Valley and Persian Gulf trade routes",
+      "coordinates_approx": "27.1751, 68.1313",
+      "category": "economic",
+      "description": "Archaeological evidence shows that the Indus Valley Civilization maintains extensive trade networks with Mesopotamia, the Persian Gulf, and possibly the Arabian Peninsula. Indus seals and standardized weights are found in Mesopotamian sites, indicating organized long-distance commerce. This trade is a hallmark of the mature Harappan phase.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Indus seals found in Mesopotamian contexts (Ur, Lagash, etc.)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Standardized Indus weights and measures",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Trade networks are well-established archaeologically. The timing of specific trade routes and their intensity varies, but the mature Harappan phase (c. 2500\u20131900 BCE) is characterized by extensive commerce.",
+      "cross_references": [
+        "-1820-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Egyptian 13th Dynasty is so poorly documented that some scholars question whether it represents a continuous dynasty or a collection of competing regional rulers. The traditional narrative of 'fragmentation' may overstate the degree of centralized control that existed earlier. Additionally, the exact timing of the transition from the 12th to 13th Dynasty is debated; some scholars place it earlier or later than -1795. The Indus Valley trade networks, while archaeologically confirmed, show no evidence of written records documenting specific transactions or trade agreements, limiting our understanding of how trade was organized.",
+  "historiographic_note": "This year is characterized by sparse documentation. Mesopotamian cuneiform records are the most abundant, but they are undated in absolute terms. Egyptian sources are fragmentary and often lack precise chronological anchors. The Indus Valley Civilization left no deciphered written records of political or economic events. The absence of contemporary records from most regions means that major developments in China, the Americas, and sub-Saharan Africa are entirely invisible. Older scholarship heavily favored Mesopotamian and Egyptian sources; more recent work has attempted to integrate Hittite, Indus Valley, and other regional evidence, but significant gaps remain.",
+  "graph_edges": [
+    {
+      "from": "-1821-002",
+      "to": "-1750-001",
+      "relation": "led_to",
+      "note": "The fragmentation of the 13th Dynasty eventually leads to the Second Intermediate Period and the rise of the 15th Dynasty (Hyksos)."
+    },
+    {
+      "from": "-1821-003",
+      "to": "-1800-002",
+      "relation": "contemporary_with",
+      "note": "Indus Valley trade networks continue throughout the mature Harappan phase."
+    }
+  ]
+}

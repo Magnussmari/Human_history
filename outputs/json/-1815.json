@@ -1,0 +1,93 @@
+{
+  "year": -1815,
+  "year_label": "1816 BCE",
+  "era_context": "The Late Bronze Age collapse is approximately 200 years in the future. The Near East is dominated by the Hittite Empire at its height under \u0160uppiluliuma I or his successors; Egypt is in the Eighteenth Dynasty under Amenhotep III or early Nineteenth Dynasty; Mycenaean Greece is in the Late Helladic IIIA period; the Shang Dynasty controls the Yellow River valley in China. This is an era of palace-centered bureaucratic states, long-distance trade networks (tin from Central Asia, cedar from the Levant), and chariot-based military dominance.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; archaeological evidence exists but is underrepresented in curated historical syntheses)",
+    "Mesoamerica (no writing system yet; archaeological record is fragmentary)",
+    "Northern Europe and the Steppe (oral traditions not yet recorded; archaeological evidence sparse for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-1815-001",
+      "title": "Reign of Amenhotep III continues or transitions to Akhenaten (Egypt)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "The exact regnal year of Amenhotep III's reign or the early years of Akhenaten's rule remain subject to Egyptological debate. If Amenhotep III was still reigning, Egypt was at the height of its New Kingdom power, with extensive diplomatic correspondence (Amarna Letters) with Hittite, Mitanni, and Levantine rulers. If Akhenaten had already begun his reign, religious and artistic revolution was underway, with the shift toward Atenism and the eventual move to Akhetaten. The dating of this transition is contested among Egyptologists, with some placing Akhenaten's accession around 1353 BCE and others around 1336 BCE (conventional chronology).",
+      "key_figures": [
+        "Amenhotep III (Pharaoh, if still reigning)",
+        "Akhenaten (Pharaoh, if reign had begun)",
+        "Tiye (Great Royal Wife, mother of Akhenaten)"
+      ],
+      "sources": [
+        {
+          "name": "Amarna Letters (diplomatic correspondence)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Karnak temple inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptological consensus on New Kingdom chronology (von Beckerath, Krauss, Hornung)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian chronology for the mid-18th Dynasty remains debated. Conventional chronology places this year within the reigns of Amenhotep III or Akhenaten, but the exact regnal year is uncertain by \u00b110\u201315 years depending on the chronological system used (conventional, low, or high chronology).",
+      "cross_references": []
+    },
+    {
+      "id": "-1815-002",
+      "title": "Hittite Empire under \u0160uppiluliuma I or successor (Anatolia)",
+      "region": "Anatolia (modern Turkey), Hittite Empire",
+      "coordinates_approx": "39.9\u00b0N, 34.6\u00b0E",
+      "category": "political",
+      "description": "The Hittite Empire was a major power in Anatolia and the Levant during this period. \u0160uppiluliuma I (r. c. 1344\u20131322 BCE, conventional chronology) expanded Hittite territory through military campaigns in Syria and northern Mesopotamia, establishing the empire as a peer of Egypt and Babylon. If \u0160uppiluliuma I was still reigning in 1816 BCE, his reign was characterized by military consolidation and diplomatic correspondence with Egypt (the Amarna Letters mention Hittite rulers). The exact events of this specific year are not well-documented in surviving sources.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite Great King, if reigning)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal annals and treaties (cuneiform tablets from Bo\u011fazk\u00f6y)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Amarna Letters (Egyptian diplomatic correspondence mentioning Hittites)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Hittite chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hittite chronology is tied to Egyptian chronology through synchronisms in the Amarna Letters and later peace treaties. Dating is uncertain by \u00b110\u201315 years depending on the chronological system used.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Eighteenth Dynasty transition (Amenhotep III to Akhenaten) and the Hittite Empire's chronology are both subject to significant scholarly debate. Some scholars argue for a 'low chronology' that would place these events 50\u2013100 years earlier than the conventional chronology used here. Additionally, the historical significance of events in 1816 BCE is difficult to assess because no specific events are reliably attested to this particular year; the era context is based on broader regnal periods and archaeological evidence rather than year-specific documentation.",
+  "historiographic_note": "The historical record for 1816 BCE is extremely sparse. No contemporary sources explicitly date events to this specific year. Our knowledge comes from regnal lists, king lists, and archaeological stratigraphy that allow us to estimate which rulers were reigning at this time. Egyptian and Hittite sources are the most abundant for this era, but they are heavily biased toward royal and military affairs. The Amarna Letters provide diplomatic correspondence but are not dated to specific years. Sub-Saharan Africa, Mesoamerica, and much of Europe and the Steppe are essentially invisible in the written record for this year. The chronology itself is contested: different scholars using different methodologies (radiocarbon dating, astronomical calculations, synchronisms with Egyptian king lists) arrive at dates that can differ by 50\u2013100 years. This year's placement is conventional but not certain.",
+  "graph_edges": [
+    {
+      "from": "-1815-001",
+      "to": "-1353-001",
+      "relation": "led_to",
+      "note": "Amenhotep III's reign (if still ongoing) eventually led to the transition to Akhenaten's reign and the Amarna Period."
+    },
+    {
+      "from": "-1815-002",
+      "to": "-1274-001",
+      "relation": "led_to",
+      "note": "\u0160uppiluliuma I's military expansion and diplomatic framework eventually led to the Battle of Kadesh and the Egyptian-Hittite peace treaty under Ramesses II."
+    }
+  ]
+}

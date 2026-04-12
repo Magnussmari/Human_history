@@ -1,0 +1,81 @@
+{
+  "year": -1829,
+  "year_label": "1830 BCE",
+  "era_context": "The Middle Bronze Age in the Levant and Egypt; the Middle Kingdom period in Egypt under the 12th Dynasty (Amenemhat III reign, circa 1860\u20131814 BCE). In Mesopotamia, the Old Babylonian period is well established; Hammurabi's reign (1792\u20131750 BCE) lies slightly in the future. The Indus Valley Civilization is in its mature phase. Minoan Crete is in the Middle Minoan II period. This is an era of relative stability in Egypt, with strong central authority, active trade networks, and monumental construction.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe (pre-literate societies, archaeological record only)",
+    "Central Asia and the Steppe (sparse written documentation)",
+    "Mesoamerica (no written records; archaeological dating uncertain)",
+    "East Asia beyond the Shang oracle bones (which begin circa 1250 BCE)"
+  ],
+  "events": [
+    {
+      "id": "-1829-001",
+      "title": "Reign of Amenemhat III continues; Nubian campaigns and Sinai mining operations",
+      "region": "Egypt, Nubia, Sinai Peninsula",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Amenemhat III of Egypt's 12th Dynasty continues his long reign, characterized by military campaigns into Nubia to secure gold and resources, and intensive mining operations in the Sinai for turquoise and copper. These operations are attested in numerous stelae and administrative records. The pharaoh maintains tight control over trade routes and resource extraction, consolidating Egyptian power in the region.",
+      "key_figures": [
+        "Amenemhat III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Stelae from Semna and Kumma (Nubian fortresses); administrative papyri from the Middle Kingdom",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Sinai mining sites (Wadi Maghara, Serabit el-Khadim)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Amenemhat III's reign is well-documented through contemporary inscriptions and administrative records. His regnal year can be estimated within \u00b12 years based on king lists and astronomical data.",
+      "cross_references": []
+    },
+    {
+      "id": "-1829-002",
+      "title": "Indus Valley Civilization at peak urban development",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization remains in its mature phase, with major urban centers such as Harappa and Mohenjo-daro functioning as sophisticated trading hubs. Standardized weights, measures, and seals indicate organized commerce. The civilization's script remains undeciphered, limiting direct historical narrative, but archaeological evidence shows extensive trade networks extending to Mesopotamia, the Persian Gulf, and Central Asia.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, Dholavira, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and standardized weights",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's chronology is established through radiocarbon dating and stratigraphic analysis. The mature phase is dated to approximately 2500\u20131900 BCE, placing 1830 BCE firmly within this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Amenemhat III's reign has been subject to revision. Traditional Egyptian chronology placed him circa 1860\u20131814 BCE, but some scholars argue for a slightly later date (circa 1855\u20131808 BCE) based on astronomical data and revised radiocarbon calibrations. The exact year 1830 BCE may fall within his reign or slightly before, depending on the chronological system used. No disconfirming evidence identified for the Indus Valley Civilization's continued flourishing at this time.",
+  "historiographic_note": "Documentation for 1830 BCE is heavily weighted toward Egypt and the Indus Valley, where archaeological and epigraphic evidence is substantial. Mesopotamian records for this period are less detailed than for the reign of Hammurabi (which follows). Sub-Saharan Africa, Northern Europe, and the Americas have no written records for this year; knowledge is limited to archaeological inference. The surviving sources are biased toward monumental and administrative records; the lives of ordinary people are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-1829-001",
+      "to": "-1814-AMENEMHAT_III_DEATH",
+      "relation": "led_to",
+      "note": "Amenemhat III's reign continues until approximately 1814 BCE"
+    },
+    {
+      "from": "-1829-002",
+      "to": "-1900-INDUS_DECLINE",
+      "relation": "part_of",
+      "note": "The Indus Valley Civilization's mature phase, which will decline after circa 1900 BCE"
+    }
+  ]
+}

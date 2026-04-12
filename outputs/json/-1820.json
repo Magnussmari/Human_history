@@ -1,0 +1,108 @@
+{
+  "year": -1820,
+  "year_label": "1821 BCE",
+  "era_context": "The Middle Bronze Age in the Levant and Egypt; the Middle Kingdom of Egypt is in decline, with the 13th Dynasty fragmenting. In Mesopotamia, the Old Babylonian period is established under Hammurabi's successors. The Hittite Old Kingdom is consolidating power in Anatolia. In the Indus Valley, the mature Harappan civilization is at its height. This is a period of regional consolidation and interstate diplomacy across Eurasia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this specific year)",
+    "Northern Europe (sparse written records)",
+    "Oceania and Pacific (no written records)",
+    "Americas (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-1820-001",
+      "title": "Reign of Samsu-iluna of Babylon (approximate dating)",
+      "region": "Mesopotamia (Babylonia)",
+      "coordinates_approx": "32.5352, 44.4275",
+      "category": "political",
+      "description": "Samsu-iluna, son of Hammurabi, continues Babylonian rule during a period of territorial consolidation and internal administration. His reign is marked by military campaigns against the Kassites and other neighboring powers, though the exact chronology of his reign remains debated among scholars. The Old Babylonian period is characterized by cuneiform administrative records and legal codes.",
+      "key_figures": [
+        "Samsu-iluna (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List (later compilation with traditional dating)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative tablets from Babylon",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Babylonian chronology for this period is contested. The 'Middle Chronology' places Samsu-iluna's reign c. 1749\u20131712 BCE; the 'Low Chronology' places it c. 1686\u20131649 BCE. Assignment to -1820 follows traditional convention but carries \u00b150-year uncertainty.",
+      "cross_references": [
+        "Follows from -1830-001 (Hammurabi's reign)"
+      ]
+    },
+    {
+      "id": "-1820-002",
+      "title": "Hittite consolidation under Old Kingdom rulers",
+      "region": "Anatolia (Hittite Empire)",
+      "coordinates_approx": "40.7469, 34.5571",
+      "category": "political",
+      "description": "The Hittite Old Kingdom, centered at Hattusa, is consolidating territorial control in central Anatolia during this period. Kings such as Hantili I and his successors are establishing administrative systems and military structures that will define the Hittite state. Archaeological evidence from Hattusa shows palace construction and administrative reorganization.",
+      "key_figures": [
+        "Hittite Old Kingdom rulers (names and exact chronology uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and palace archives from Bo\u011fazk\u00f6y",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Hittite King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hittite chronology for the Old Kingdom is uncertain; dating relies on synchronisms with Egyptian and Babylonian records. This assignment is conventional; actual events may fall within \u00b130 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1820-003",
+      "title": "Mature Harappan civilization at peak extent",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.1751, 68.1313",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (Harappan culture) is at its mature phase, with large urban centers such as Mohenjo-daro and Harappa functioning as administrative and trade hubs. Archaeological evidence shows sophisticated urban planning, standardized weights and measures, and extensive trade networks extending to Mesopotamia and the Persian Gulf. The civilization's writing system remains undeciphered.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, and other Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and standardized artifacts",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature Harappan phase is well-established archaeologically, dated c. 2500\u20131900 BCE by radiocarbon and stratigraphic analysis. Assignment to -1820 is within this established range.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Babylonian kings, including Samsu-iluna, has been significantly revised by modern scholarship. The 'Low Chronology' now preferred by many scholars places Samsu-iluna's reign roughly 60\u2013100 years later than the 'Middle Chronology' used in older textbooks. This creates uncertainty about whether events assigned to -1820 actually occurred in this year or in -1770 or -1760. Additionally, the Hittite Old Kingdom chronology is notoriously uncertain, with some scholars proposing dates 50+ years different from conventional assignments. The Harappan civilization's decline is sometimes attributed to environmental factors (Indus River course changes, drought) rather than invasion, contradicting older narratives of 'Aryan invasion.'",
+  "historiographic_note": "Documentation for this year is heavily dependent on later compilations (King Lists, chronicles written centuries after events) and archaeological stratigraphy. Mesopotamian cuneiform records are abundant but often undated or dated by regnal years whose absolute chronology is disputed. Egyptian records are sparse for this period of the 13th Dynasty's decline. Hittite records are fragmentary and difficult to date precisely. The Indus Valley Civilization left no deciphered written records of historical events, only material culture. Significant bias exists toward Mesopotamian and Egyptian sources in older scholarship; Hittite and Indus Valley evidence has been better integrated only in recent decades. The absence of written records from most of the world means that major developments in China, the Americas, and sub-Saharan Africa are entirely invisible in this year-by-year framework.",
+  "graph_edges": [
+    {
+      "from": "-1820-001",
+      "to": "-1810-001",
+      "relation": "led_to",
+      "note": "Samsu-iluna's reign continues into the following decade; his military campaigns shape Babylonian territorial extent."
+    },
+    {
+      "from": "-1820-003",
+      "to": "-1800-001",
+      "relation": "led_to",
+      "note": "The mature Harappan phase gradually transitions toward decline in the following centuries; environmental and social factors contribute."
+    }
+  ]
+}
