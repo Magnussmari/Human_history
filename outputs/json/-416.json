@@ -1,0 +1,107 @@
+{
+  "year": -416,
+  "year_label": "416 BCE",
+  "era_context": "Classical Greece in the second decade of the Peloponnesian War. Athens remains a dominant naval power but faces increasing strain from prolonged conflict. The war has settled into a pattern of raids, naval campaigns, and diplomatic maneuvering. Sparta and its Peloponnesian League continue to challenge Athenian hegemony. The Persian Empire remains a distant but significant factor in regional politics.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Interior of the Indian subcontinent",
+    "East Asia (Chinese sources exist but are not integrated here)"
+  ],
+  "events": [
+    {
+      "id": "-416-001",
+      "title": "Athenian conquest and massacre of Melos",
+      "region": "Melos (Aegean island)",
+      "coordinates_approx": "36.79, 24.43",
+      "category": "military",
+      "description": "Athens sends a military expedition to the island of Melos, which had remained neutral in the Peloponnesian War. After a siege, the Melians surrender. The Athenians execute all adult males (estimated at 400\u2013500) and enslave the women and children, then repopulate the island with Athenian colonists. This act of brutal imperialism becomes emblematic of Athenian power politics and is immortalized in Thucydides' account through the 'Melian Dialogue,' a philosophical debate between Athenian envoys and Melian leaders on justice and power.",
+      "key_figures": [
+        "Athenian commanders (unnamed in sources)",
+        "Melian leadership"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book V",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, Life of Alcibiades",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Thucydides provides a detailed account, including the famous Melian Dialogue. The basic facts of the conquest and massacre are well-attested.",
+      "cross_references": []
+    },
+    {
+      "id": "-416-002",
+      "title": "Spartan fortification of Decelea",
+      "region": "Decelea, Attica",
+      "coordinates_approx": "38.15, 23.85",
+      "category": "military",
+      "description": "Following advice from Alcibiades (who had recently defected to Sparta), the Spartans establish a permanent fortified base at Decelea in northern Attica, just 20 kilometers from Athens. This base serves as a staging point for raids into Athenian territory and disrupts Athenian agriculture and trade. The fortification represents a significant escalation in Spartan strategy and contributes substantially to Athenian economic strain.",
+      "key_figures": [
+        "Spartan ephors",
+        "Alcibiades (strategic advisor)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book VII",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Xenophon, Hellenica",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Thucydides attributes the decision to fortify Decelea to Alcibiades' advice, but the exact dating (416 vs. 413 BCE) is debated. Most scholars place the actual fortification in 413 BCE, though the decision may have been made in 416 BCE.",
+      "cross_references": [
+        "-415-004 (Alcibiades' advice to Sparta)"
+      ]
+    },
+    {
+      "id": "-416-003",
+      "title": "Athenian naval operations in the Aegean",
+      "region": "Aegean Sea",
+      "coordinates_approx": "39.0, 25.0",
+      "category": "military",
+      "description": "Athens conducts ongoing naval campaigns to maintain control of its maritime empire and suppress revolts among subject states. These operations are part of the broader strategy to sustain Athenian power during the Peloponnesian War. The Athenian navy remains superior to Spartan forces but faces increasing challenges from allied fleets and Persian-backed operations.",
+      "key_figures": [
+        "Athenian naval commanders (various)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book V",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Thucydides provides general accounts of Athenian naval activity during this period, but specific operations in 416 BCE are not always clearly dated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Melian conquest to 416 BCE is based on Thucydides' narrative placement, but some modern scholars have questioned the exact chronology. The 'Melian Dialogue' is widely recognized by modern scholars as a literary composition by Thucydides rather than a verbatim record of actual negotiations; it represents Thucydides' philosophical interpretation of the event rather than historical documentation. The massacre itself is confirmed, but the exact number of victims is uncertain. The fortification of Decelea is often dated to 413 BCE rather than 416 BCE in modern scholarship, though the strategic decision may have been made earlier.",
+  "historiographic_note": "The historical record for 416 BCE relies almost entirely on Thucydides, whose account is shaped by Athenian perspectives and his own philosophical interests. The Melian Dialogue, while famous, is a literary device and should not be read as historical dialogue. Spartan sources are absent; our understanding of Spartan strategy comes through Thucydides' interpretation. Archaeological evidence for the conquest of Melos is limited. The sources emphasize political and military narrative; economic impacts, social conditions, and non-elite perspectives are largely absent.",
+  "graph_edges": [
+    {
+      "from": "-416-001",
+      "to": "-415-001",
+      "relation": "contemporary_with",
+      "note": "The Melian conquest occurs in the same year as the departure of the Sicilian Expedition, both representing Athenian imperial overreach"
+    },
+    {
+      "from": "-416-002",
+      "to": "-415-004",
+      "relation": "caused_by",
+      "note": "The fortification of Decelea is a direct result of Alcibiades' strategic advice to Sparta"
+    }
+  ]
+}

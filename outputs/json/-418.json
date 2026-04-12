@@ -1,0 +1,80 @@
+{
+  "year": -418,
+  "year_label": "418 BCE",
+  "era_context": "Classical Greece in the Peloponnesian War, now in its fourteenth year. Athens remains a dominant naval power but faces increasing strain from prolonged conflict. Sparta and its allies continue to challenge Athenian hegemony through military campaigns. The war has entered a phase of attrition, with both sides seeking advantage through diplomacy and military maneuvering. The Persian Empire remains a distant but significant factor in regional politics.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Interior of the Indian subcontinent",
+    "East Asia",
+    "Detailed records of non-Greek Mediterranean regions"
+  ],
+  "events": [
+    {
+      "id": "-418-001",
+      "title": "Battle of Mantinea",
+      "region": "Mantinea, Arcadia",
+      "coordinates_approx": "37.61, 22.81",
+      "category": "military",
+      "description": "A major hoplite battle is fought between Spartan forces (allied with Mantinea and other Peloponnesian states) and an Athenian-allied coalition (including Argos, Mantinea's rival, and other states). The battle is one of the largest hoplite engagements of the Peloponnesian War. Sparta achieves a decisive victory, demonstrating the superiority of Spartan hoplite tactics and leadership. The victory strengthens Sparta's position in the Peloponnese and undermines the anti-Spartan coalition that Athens had been attempting to build.",
+      "key_figures": [
+        "Spartan commanders (including Agis II, ephor)",
+        "Athenian and allied commanders"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book V",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Xenophon, Hellenica",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Agesilaus",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Thucydides provides a detailed account of the Battle of Mantinea, including troop numbers, tactics, and outcomes. The battle is one of the best-documented engagements of the Peloponnesian War.",
+      "cross_references": []
+    },
+    {
+      "id": "-418-002",
+      "title": "Spartan consolidation of power in the Peloponnese",
+      "region": "Peloponnese",
+      "coordinates_approx": "37.5, 23.0",
+      "category": "political",
+      "description": "Following the victory at Mantinea, Sparta consolidates its dominance in the Peloponnese. The defeat of the anti-Spartan coalition undermines Athenian efforts to build a counterbalance to Spartan power. Sparta's position as the leading land power in Greece is reinforced.",
+      "key_figures": [
+        "Spartan ephors and commanders"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book V",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation of Spartan power following Mantinea is a logical consequence of the battle, though specific political actions in 418 BCE are not always clearly documented.",
+      "cross_references": [
+        "-418-001 (Battle of Mantinea)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Battle of Mantinea is well-documented, but modern scholarship has questioned some details of Thucydides' account, particularly regarding troop numbers and the exact tactical disposition of forces. The significance of the battle in the broader context of the Peloponnesian War has been debated; some modern scholars argue that while Sparta won a tactical victory, the strategic impact was limited, as the war continued for another thirteen years without decisive resolution.",
+  "historiographic_note": "The historical record for 418 BCE is relatively rich due to Thucydides' detailed account of the Battle of Mantinea. However, the account is shaped by Thucydides' perspective and his access to Athenian sources; Spartan and Peloponnesian perspectives are filtered through his interpretation. Archaeological evidence for the battle is limited. The sources emphasize military and political narrative; economic and social impacts are underrepresented. The battle is famous in military history but may be overemphasized in the broader narrative of the Peloponnesian War.",
+  "graph_edges": [
+    {
+      "from": "-418-001",
+      "to": "-418-002",
+      "relation": "led_to",
+      "note": "The Spartan victory at Mantinea leads to consolidation of Spartan power in the Peloponnese"
+    }
+  ]
+}
