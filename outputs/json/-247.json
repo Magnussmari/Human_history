@@ -1,0 +1,61 @@
+{
+  "year": -247,
+  "year_label": "247 BCE",
+  "era_context": "The mid-3rd century BCE Hellenistic world, with the Seleucid Empire and Ptolemaic Egypt as the dominant powers in the eastern Mediterranean. Rome is consolidating its position in the western Mediterranean and preparing for further expansion. In China, the late Warring States period is transitioning toward the Qin unification (traditionally dated to -221). India is under Mauryan rule, likely in the reign of Asoka's successors. The Parthian tribes are beginning to assert independence from Seleucid control.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa: no written records",
+    "Northern Europe: minimal archaeological evidence",
+    "Mesoamerica: no year-specific records",
+    "Southeast Asia: minimal written records",
+    "Central Asia: limited records of Parthian activities"
+  ],
+  "events": [
+    {
+      "id": "-247-001",
+      "title": "Antiochus Hierax consolidates control of Asia Minor in rebellion against Seleucus II",
+      "region": "Asia Minor (Seleucid Empire)",
+      "coordinates_approx": "35.0, 39.0",
+      "category": "political",
+      "description": "Antiochus Hierax, the younger brother of Seleucus II, continued his rebellion against central Seleucid authority in Asia Minor. By this period, Antiochus Hierax had established himself as a rival power center, controlling significant territories in western Asia Minor. This internal division of the Seleucid Empire weakened its ability to respond to external threats, particularly from Egypt and Parthia. The conflict between the brothers would persist for years.",
+      "key_figures": [
+        "Antiochus Hierax (rebel Seleucid prince)",
+        "Seleucus II Callinicus (Seleucid king)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories (fragments)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The existence of Antiochus Hierax's rebellion is well-attested, but the precise chronology of events within his revolt is uncertain. The year -247 falls within the documented period of his rebellion (circa 246-226 BCE), but specific events are not always dated to individual years.",
+      "cross_references": [
+        "-246-002",
+        "-245-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The chronology of Antiochus Hierax's rebellion is poorly attested in surviving sources. Some modern scholars have questioned whether the rebellion was as significant or as long-lasting as traditional accounts suggest. The exact dates of key events in the conflict are debated, and some sources may conflate different periods of unrest. Contemporary Seleucid sources do not survive to confirm the narrative of events in -247 specifically.",
+  "historiographic_note": "The historical record for -247 is extremely thin. No major events are specifically dated to this year in surviving sources. The information provided is inferred from the broader context of Seleucid internal conflicts during this period. The sources are entirely dependent on later Greek historians writing centuries after the events. There is a significant risk of anachronism and projection of later political narratives onto this period. The absence of contemporary sources from the Seleucid court, Parthian territories, or other regions means the historical picture is highly incomplete.",
+  "graph_edges": [
+    {
+      "from": "-247-001",
+      "to": "-246-002",
+      "relation": "caused_by",
+      "note": "Antiochus Hierax's rebellion was a response to Seleucus II's accession"
+    },
+    {
+      "from": "-247-001",
+      "to": "-240-001",
+      "relation": "led_to",
+      "note": "The internal conflict continued and affected Seleucid responses to external threats"
+    }
+  ]
+}

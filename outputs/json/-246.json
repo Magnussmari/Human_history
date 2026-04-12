@@ -1,0 +1,106 @@
+{
+  "year": -246,
+  "year_label": "246 BCE",
+  "era_context": "The Hellenistic world in the mid-3rd century BCE. Ptolemy III Euergetes has recently ascended to the throne of Egypt following the death of Ptolemy II Philadelphus. The Seleucid Empire under Seleucus II is facing internal instability. Rome is consolidating power in the western Mediterranean after the First Punic War. In China, the Qin Dynasty has recently collapsed (210 BCE in traditional dating, but the exact chronology of the Warring States period's end is debated). India remains under Mauryan rule.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa: no written records",
+    "Northern Europe: sparse archaeological evidence",
+    "Mesoamerica: no year-specific records",
+    "Southeast Asia: minimal written records from this period"
+  ],
+  "events": [
+    {
+      "id": "-246-001",
+      "title": "Ptolemy III Euergetes ascends to the Egyptian throne",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Ptolemy III Euergetes became pharaoh of Egypt following the death of his father Ptolemy II Philadelphus. He inherited a wealthy and stable kingdom with strong naval power. Ptolemy III was known for his military ambitions and would soon launch campaigns to expand Ptolemaic influence, particularly in the Levant and against the Seleucid Empire. His reign marked a period of Egyptian cultural flourishing and military assertiveness.",
+      "key_figures": [
+        "Ptolemy III Euergetes (new Ptolemaic pharaoh)",
+        "Ptolemy II Philadelphus (predecessor, deceased)"
+      ],
+      "sources": [
+        {
+          "name": "Manetho, History of Egypt (via Josephus and Eusebius)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Papyrological records from Egypt",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Porphyry's chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The accession of Ptolemy III is well-documented in Egyptian administrative records and confirmed by multiple later Greek sources. The date of -246 is the scholarly consensus for his accession.",
+      "cross_references": [
+        "-245-002",
+        "-240-001"
+      ]
+    },
+    {
+      "id": "-246-002",
+      "title": "Seleucus II Callinicus becomes king of the Seleucid Empire",
+      "region": "Seleucid Empire",
+      "coordinates_approx": "35.0, 35.0",
+      "category": "political",
+      "description": "Seleucus II Callinicus ascended to the Seleucid throne following the death of his father Antiochus II Theos. His reign would be marked by internal conflict with his brother Antiochus Hierax and external pressure from Parthian tribes in the east and Egyptian expansion in the west. The accession of Seleucus II marks the beginning of a period of relative decline for the Seleucid Empire compared to its earlier zenith.",
+      "key_figures": [
+        "Seleucus II Callinicus (new Seleucid king)",
+        "Antiochus II Theos (predecessor, deceased)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Porphyry's chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The accession of Seleucus II is well-established in Hellenistic chronology, though the exact date is derived from later sources. Modern scholarship places his accession at 246 BCE with high confidence.",
+      "cross_references": [
+        "-245-001",
+        "-244-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Ptolemy III's accession to -246 is based on Manetho's chronology as preserved through later Greek sources (Josephus, Eusebius). Some modern scholars have proposed minor adjustments (\u00b11-2 years) based on astronomical calculations and papyrological evidence, but -246 remains the consensus date. The exact circumstances of Antiochus II's death and the succession of Seleucus II are disputed; some sources suggest internal conflict or even assassination, while others present it as a straightforward succession. Contemporary Seleucid sources do not survive to confirm the narrative.",
+  "historiographic_note": "The historical record for -246 relies almost entirely on later Greek and Roman sources, creating significant bias toward Hellenistic perspectives. Egyptian papyri provide administrative confirmation of Ptolemy III's reign but limited narrative detail. No contemporary Seleucid royal inscriptions survive. The sources are heavily influenced by later political narratives and may not accurately reflect the actual circumstances of these successions. The absence of sources from the Parthian perspective, Indian perspective, or Chinese perspective means the global historical picture is severely incomplete.",
+  "graph_edges": [
+    {
+      "from": "-246-001",
+      "to": "-240-001",
+      "relation": "led_to",
+      "note": "Ptolemy III's accession led to his subsequent military campaigns"
+    },
+    {
+      "from": "-246-002",
+      "to": "-245-001",
+      "relation": "led_to",
+      "note": "Seleucus II's accession immediately led to internal conflicts"
+    },
+    {
+      "from": "-246-001",
+      "to": "-246-002",
+      "relation": "contemporary_with",
+      "note": "Two major Hellenistic successions occurred in the same year"
+    }
+  ]
+}

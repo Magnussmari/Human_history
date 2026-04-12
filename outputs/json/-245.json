@@ -1,0 +1,87 @@
+{
+  "year": -245,
+  "year_label": "245 BCE",
+  "era_context": "The Hellenistic world in the mid-3rd century BCE, dominated by the Seleucid Empire under Seleucus II Callinicus, the Ptolemaic Kingdom under Ptolemy III Euergetes, and the rising power of Rome following its victory in the First Punic War (ended -241). In China, the Qin Dynasty had collapsed and the Han Dynasty was not yet established; the Warring States period had given way to fragmentation. India was under the Mauryan Empire in its later phase under Asoka's successors.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa: minimal written records survive",
+    "Northern Europe: sparse archaeological evidence for this specific year",
+    "Mesoamerica: no written records for this period; Maya civilization was in the Classic period but specific events are not dated to individual years"
+  ],
+  "events": [
+    {
+      "id": "-245-001",
+      "title": "Seleucus II Callinicus faces internal rebellion and Parthian pressure",
+      "region": "Seleucid Empire (Syria, Mesopotamia, Persia)",
+      "coordinates_approx": "35.0, 35.0",
+      "category": "political",
+      "description": "Seleucus II Callinicus, ruling the Seleucid Empire, faced significant internal instability. His brother Antiochus Hierax controlled parts of Asia Minor and was in open rebellion. Simultaneously, Parthian tribes were increasing pressure on the eastern borders of the Seleucid realm, beginning the long process of erosion that would eventually lead to Parthian independence. This period marks the beginning of the Seleucid decline from its zenith under Seleucus I and Antiochus I.",
+      "key_figures": [
+        "Seleucus II Callinicus (Seleucid king)",
+        "Antiochus Hierax (rebel brother)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories (fragments on Seleucid affairs)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outline of Seleucus II's reign and conflicts with his brother is well-attested, but precise dating of individual years within his reign (246-226 BCE) is uncertain. The year -245 falls within the period of documented conflict.",
+      "cross_references": [
+        "-246-001",
+        "-244-001"
+      ]
+    },
+    {
+      "id": "-245-002",
+      "title": "Ptolemy III Euergetes consolidates power in Egypt",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Ptolemy III Euergetes, having recently ascended to the throne (circa -246), was consolidating his control over Egypt and its overseas possessions. He was known for his military campaigns and cultural patronage. This period saw the Ptolemaic Kingdom at a height of power and prosperity, with strong naval dominance in the eastern Mediterranean.",
+      "key_figures": [
+        "Ptolemy III Euergetes (Ptolemaic pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Manetho, History of Egypt (via later compilations)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Papyrological evidence from Egypt",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ptolemy III's reign dates are well-established (246-222 BCE), but specific events within individual years are often not precisely dated in surviving sources.",
+      "cross_references": [
+        "-246-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of events in the Seleucid Empire during this period relies heavily on later Greek historians (Appian, Polybius) writing centuries after the events. Modern scholarship has questioned some traditional chronologies of Seleucid succession and internal conflicts. The exact year of Seleucus II's accession and the timeline of his conflicts with Antiochus Hierax are debated; some sources place key events a year or two differently. No contemporary Seleucid royal inscriptions survive for this specific year to confirm the narrative.",
+  "historiographic_note": "The historical record for -245 is dominated by Hellenistic Greek sources, creating a Western-centric bias. Egyptian records (papyri) provide administrative detail but limited narrative. Chinese sources from this period are more abundant but do not record events in the Mediterranean. The Seleucid Empire left few contemporary written records; most knowledge comes from later Greek historians with their own biases. The absence of contemporary Parthian records means the eastern perspective on Seleucid-Parthian relations is entirely lost.",
+  "graph_edges": [
+    {
+      "from": "-245-001",
+      "to": "-244-001",
+      "relation": "led_to",
+      "note": "Seleucid internal conflicts continued and escalated in subsequent years"
+    },
+    {
+      "from": "-245-001",
+      "to": "-226-001",
+      "relation": "part_of",
+      "note": "Part of the broader decline of Seleucid power during Seleucus II's reign"
+    }
+  ]
+}
