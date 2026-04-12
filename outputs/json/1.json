@@ -1,0 +1,89 @@
+{
+  "year": 1,
+  "year_label": "1 CE",
+  "era_context": "The final years of Augustus's reign (27 BCE \u2013 14 CE) in the Roman Empire. Augustus was in his mid-70s and in declining health. In China, Wang Mang's Xin dynasty was in its early years (9\u201323 CE), implementing controversial reforms. In India, the Satavahana Empire was dominant. This was a period of relative stability in the Mediterranean world, though the succession question loomed large. The year 1 CE marks the conventional boundary between the BCE and CE eras in the proleptic Gregorian calendar.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Mesoamerica",
+    "Oceania",
+    "Most of Asia beyond China and India"
+  ],
+  "events": [
+    {
+      "id": "1-001",
+      "title": "Augustus reigning in the Roman Empire",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Augustus, the founder of the Roman Empire and its first emperor, was reigning in 1 CE. He had ruled for over 40 years and was in his mid-70s. The empire was at peace, with stable frontiers and a functioning administrative system. Tiberius was being groomed as his successor. Augustus would die in 14 CE, and the succession would pass smoothly to Tiberius, establishing the precedent for dynastic succession in the Roman Empire.",
+      "key_figures": [
+        "Augustus (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Suetonius, Life of Augustus",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History (Book 56)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Augustus's reign dates (27 BCE \u2013 14 CE) are well-established. The fact that he was alive and reigning in 1 CE is certain.",
+      "cross_references": [
+        "14-001 (Augustus's death)"
+      ]
+    },
+    {
+      "id": "1-002",
+      "title": "Wang Mang's Xin dynasty in early years",
+      "region": "China",
+      "coordinates_approx": "35.0, 110.0",
+      "category": "political",
+      "description": "Wang Mang, who had usurped the throne in 9 CE, was implementing administrative and economic reforms in the early years of his Xin dynasty. These reforms were designed to restore what he believed were ancient Zhou practices and included land redistribution, price controls, and state monopolies. However, these policies were generating significant resistance from landowners and merchants, and natural disasters were compounding the effects. The dynasty would eventually collapse in 23 CE due to a combination of policy failures, natural disasters, and peasant rebellions.",
+      "key_figures": [
+        "Wang Mang (Emperor of Xin dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Han Shu (History of the Han), compiled by Ban Gu",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Later Chinese dynastic histories",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Wang Mang's reign dates (9\u201323 CE) are well-established. The general nature of his reforms is documented in Chinese sources, though the specific timeline and effects in 1 CE are not precisely attested.",
+      "cross_references": [
+        "9-002 (Wang Mang's usurpation)",
+        "23-001 (Fall of Xin dynasty)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed.",
+  "historiographic_note": "The historical record for 1 CE is extremely sparse. Almost nothing specific is known about this particular year beyond the fact that Augustus was reigning in Rome and Wang Mang was ruling in China. The year 1 CE is significant in the proleptic Gregorian calendar as the boundary between BCE and CE, but this is a modern convention and would have had no meaning to people living at the time. The vast majority of the world is absent from the historical record for this year.",
+  "graph_edges": [
+    {
+      "from": "1-001",
+      "to": "14-001",
+      "relation": "led_to",
+      "note": "Augustus's reign ended with his death in 14 CE"
+    },
+    {
+      "from": "1-002",
+      "to": "23-001",
+      "relation": "led_to",
+      "note": "Wang Mang's early reforms eventually led to the collapse of his dynasty"
+    }
+  ]
+}

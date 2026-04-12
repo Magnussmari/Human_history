@@ -1,0 +1,93 @@
+{
+  "year": 3,
+  "year_label": "3 CE",
+  "era_context": "The final decade of Augustus's reign (27 BCE \u2013 14 CE) in the Roman Empire. Augustus was in his mid-70s and in declining health; Tiberius was being groomed as his successor. In China, Wang Mang's Xin dynasty was in its early years (9\u201323 CE), implementing controversial reforms. In India, the Satavahana Empire was dominant. This was a period of relative peace in the Mediterranean world, though frontier tensions persisted.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Mesoamerica",
+    "Oceania",
+    "Most of Asia beyond China and India"
+  ],
+  "events": [
+    {
+      "id": "3-001",
+      "title": "Augustus in declining health; succession preparations",
+      "region": "Roman Empire, Italy",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Augustus, who had ruled the Roman Empire for over 40 years, was in his mid-70s and in declining health by 3 CE. The succession was a matter of significant concern for the stability of the empire. Tiberius, Augustus's adopted son and chosen heir, was being positioned to assume power. The period was marked by careful political maneuvering to ensure a smooth transition and to prevent rival factions from challenging Tiberius's succession. Augustus would die in 14 CE, and Tiberius would assume power without significant opposition.",
+      "key_figures": [
+        "Augustus (Roman Emperor)",
+        "Tiberius (heir apparent)",
+        "Senate and military leadership"
+      ],
+      "sources": [
+        {
+          "name": "Suetonius, Life of Augustus",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History (Book 56)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Augustus's age and health in his final years are well-documented. The specific events of 3 CE are not individually attested, but the broader context of succession preparation is clear from multiple sources.",
+      "cross_references": [
+        "14-001 (Augustus's death and Tiberius's accession)"
+      ]
+    },
+    {
+      "id": "3-002",
+      "title": "Wang Mang's Xin dynasty faces early resistance",
+      "region": "China",
+      "coordinates_approx": "35.0, 110.0",
+      "category": "political",
+      "description": "Wang Mang's usurpation in 9 CE and subsequent administrative reforms were generating significant resistance by 3 CE. His attempts to redistribute land, establish price controls, and create state monopolies disrupted traditional economic relationships and alienated powerful landowners and merchants. Natural disasters, including droughts and floods, were compounding the effects of his policies and creating widespread hardship. These conditions were laying the groundwork for the peasant rebellions and regional uprisings that would eventually topple his dynasty in 23 CE.",
+      "key_figures": [
+        "Wang Mang (Emperor of Xin dynasty)",
+        "Landowners and merchants opposing reforms",
+        "Peasant communities affected by policies and natural disasters"
+      ],
+      "sources": [
+        {
+          "name": "Han Shu (History of the Han), compiled by Ban Gu",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Later Chinese dynastic histories",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Wang Mang's reign and general policies are well-documented, but the specific timeline of resistance and unrest in 3 CE is not precisely attested. This entry describes the broader context of growing opposition to his rule.",
+      "cross_references": [
+        "9-002 (Wang Mang's usurpation)",
+        "23-001 (Fall of Xin dynasty)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Augustus's final years as a period of peaceful succession preparation has been questioned by some scholars, who point to tensions and uncertainties in the transition. The extent to which Wang Mang's policies were responsible for the unrest that followed, versus natural disasters and other factors, is debated among scholars.",
+  "historiographic_note": "The historical record for 3 CE is extremely sparse. Most information about this year is inferred from broader narratives of the periods in which it falls. Roman sources are limited and biased toward elite political narratives. Chinese sources are more abundant but often hostile to Wang Mang. The vast majority of the world's population and regions are absent from the historical record for this year.",
+  "graph_edges": [
+    {
+      "from": "3-001",
+      "to": "14-001",
+      "relation": "led_to",
+      "note": "Augustus's declining health and succession preparations led to Tiberius's accession"
+    },
+    {
+      "from": "3-002",
+      "to": "23-001",
+      "relation": "led_to",
+      "note": "Growing resistance to Wang Mang's policies contributed to the eventual collapse of his dynasty"
+    }
+  ]
+}

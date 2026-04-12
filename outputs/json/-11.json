@@ -1,0 +1,103 @@
+{
+  "year": -11,
+  "year_label": "11 BCE",
+  "era_context": "The late Augustan period continues; Augustus is in his early 70s and increasingly concerned with succession. The Western Han dynasty in China is in its final decades. The Parthian Empire is stable under Orodes II. In India, the Satavahana dynasty is consolidating power in the Deccan. This is a period of relative peace in the Mediterranean, but underlying political tensions are building.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Central Asia",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-11-001",
+      "title": "Gaius Caesar's campaign in Armenia",
+      "region": "Roman Empire, Armenia",
+      "coordinates_approx": "40.0, 45.0",
+      "category": "military",
+      "description": "Gaius Caesar, the adopted grandson of Augustus, was conducting military operations in Armenia as part of Rome's eastern strategy. This campaign was intended to establish Roman dominance in the region and secure the eastern frontier. The campaign would culminate in Gaius's wounding and subsequent death in 10 BCE, making this year a crucial point in the succession crisis.",
+      "key_figures": [
+        "Gaius Caesar (Roman military commander)",
+        "Augustus (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Suetonius, Life of Augustus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Dio Cassius, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The campaign is well-attested in sources, but the exact chronology of events in Armenia is somewhat uncertain. The campaign likely spanned 12-10 BCE.",
+      "cross_references": [
+        "Leads to -10-001 (Gaius Caesar's death)"
+      ]
+    },
+    {
+      "id": "-11-002",
+      "title": "Augustus's health concerns and succession planning",
+      "region": "Roman Empire, Rome",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Augustus, now in his early 70s, was increasingly preoccupied with ensuring a stable succession. The aging emperor was experiencing health problems and was acutely aware of the need to secure the principate for the next generation. This period saw intensive political maneuvering among potential heirs and their supporters.",
+      "key_figures": [
+        "Augustus (Roman Emperor)",
+        "Tiberius (stepson of Augustus)",
+        "Gaius Caesar (adopted grandson)"
+      ],
+      "sources": [
+        {
+          "name": "Suetonius, Life of Augustus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Dio Cassius, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Augustus's health concerns are well-documented in later sources, but specific events for -11 are not distinctly recorded.",
+      "cross_references": []
+    },
+    {
+      "id": "-11-003",
+      "title": "Western Han Dynasty internal strife",
+      "region": "China, Han Dynasty",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "The Western Han court under Emperor Cheng continued to be marked by factional disputes between the imperial family, the Shi family (maternal relatives), and court eunuchs. This period saw increasing corruption and the weakening of central authority, contributing to the eventual collapse of the Western Han.",
+      "key_figures": [
+        "Emperor Cheng of Han",
+        "Shi Xian (eunuch)"
+      ],
+      "sources": [
+        {
+          "name": "Han Shu (Book of Han)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general political situation is well-documented, but specific events for -11 are not distinctly recorded.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative presents Gaius Caesar's Armenian campaign as a major military undertaking, but some modern scholars suggest it was more limited in scope than later sources imply. The exact nature of the military objectives and the degree of success are disputed.",
+  "historiographic_note": "The historical record for 11 BCE is dominated by Roman sources, particularly later compilations. Chinese sources provide information about Han court politics but are similarly retrospective. There is a significant bias toward political and military history; economic and social history are underrepresented. The perspective is largely that of the elite.",
+  "graph_edges": [
+    {
+      "from": "-11-001",
+      "to": "-10-001",
+      "relation": "led_to",
+      "note": "Gaius Caesar's Armenian campaign led to his wounding and death in 10 BCE"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "year": -9,
+  "year_label": "9 BCE",
+  "era_context": "The Roman Empire under Augustus continues its period of stability and consolidation. The Western Han dynasty in China is under Emperor Xuan, approaching the end of his reign (he died in 49 BCE). Judaea remains under Herod the Great's rule. The Satavahana dynasty continues its expansion in India. This period represents the height of stability across the major civilizations of Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Oceania and Pacific islands",
+    "Mesoamerica",
+    "Central Asia (limited written sources)"
+  ],
+  "events": [
+    {
+      "id": "-9-001",
+      "title": "Augustus's reign; continued administrative consolidation",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.90, 12.50",
+      "category": "political",
+      "description": "Augustus continues his rule over the Roman Empire, maintaining the Pax Romana through careful military organization and administrative reform. The empire was at peace, with military resources focused on frontier security. Augustus's reign saw the development of a professional military, improved taxation systems, and the integration of diverse provinces into a unified administrative structure. The economy was prosperous, supported by improved infrastructure and trade networks.",
+      "key_figures": [
+        "Augustus Caesar (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Res Gestae Divi Augusti",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ovid, Metamorphoses",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Augustus's reign and general policies are well-documented through contemporary sources.",
+      "cross_references": []
+    },
+    {
+      "id": "-9-002",
+      "title": "Emperor Xuan of Han; continued military campaigns and cultural patronage",
+      "region": "China (Western Han)",
+      "coordinates_approx": "34.27, 108.95",
+      "category": "military",
+      "description": "Emperor Xuan continues his reign over the Western Han, conducting military campaigns against the Xiongnu and other northern peoples. The Han military remained strong and effective. Xuan was also a patron of the arts and literature, supporting scholars and artists. The economy was prosperous, with trade networks expanding along what would later be called the Silk Road. This period represents the height of Han power and cultural achievement.",
+      "key_figures": [
+        "Emperor Xuan of Han"
+      ],
+      "sources": [
+        {
+          "name": "Han Shu (Book of Han)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Han sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Emperor Xuan's reign is well-documented in Chinese historical records.",
+      "cross_references": []
+    },
+    {
+      "id": "-9-003",
+      "title": "Herod the Great's reign in Judaea; continued building projects",
+      "region": "Judaea",
+      "coordinates_approx": "31.95, 35.20",
+      "category": "cultural",
+      "description": "Herod I continues his rule as client king of Judaea, maintaining stability and conducting ambitious building projects. His reign was characterized by a balance between Jewish religious traditions and Hellenistic culture. Major construction projects included the renovation of the Second Temple, the fortress of Masada, and the city of Caesarea Maritima. These projects served to enhance Herod's prestige and to integrate Judaea into the broader Hellenistic world.",
+      "key_figures": [
+        "Herod I (King of Judaea)"
+      ],
+      "sources": [
+        {
+          "name": "Josephus, Antiquities of the Jews",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Herodian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Herod's reign is well-attested overall, but specific events within individual years lack contemporary documentation.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for the events listed. However, the significance of 9 BCE as a distinct historical year is not marked by any major turning point in surviving sources.",
+  "historiographic_note": "The historical record for 9 BCE is dominated by Mediterranean and Chinese sources. Roman sources emphasize Augustus's achievements; Chinese sources reflect court perspectives. Judaea's history is known primarily through Josephus, writing centuries later. The broader world remains largely undocumented for this specific year. Archaeological evidence provides important correctives to textual sources, particularly for Herod's building projects.",
+  "graph_edges": [
+    {
+      "from": "-9-001",
+      "to": "-8-001",
+      "relation": "part_of",
+      "note": "Continuation of Augustus's reign and the Pax Romana"
+    },
+    {
+      "from": "-9-002",
+      "to": "-8-002",
+      "relation": "part_of",
+      "note": "Continuation of Emperor Xuan's reign and Han prosperity"
+    },
+    {
+      "from": "-9-003",
+      "to": "-8-003",
+      "relation": "part_of",
+      "note": "Continuation of Herod's building program and rule"
+    }
+  ]
+}

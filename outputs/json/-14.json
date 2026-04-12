@@ -1,0 +1,140 @@
+{
+  "year": -14,
+  "year_label": "14 BCE",
+  "era_context": "The late Augustan period; Augustus is in his late 60s and increasingly concerned with succession. The Western Han dynasty in China is in decline under Emperor Cheng. The Parthian Empire is stable. In India, the Satavahana dynasty is expanding. This is a period of relative peace in the Mediterranean world, but underlying political tensions are building.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Central Asia",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-14-001",
+      "title": "Drusus the Younger's Rhine campaigns",
+      "region": "Roman Empire, Germania",
+      "coordinates_approx": "51.0, 8.0",
+      "category": "military",
+      "description": "Drusus the Younger continued his military campaigns against Germanic tribes along the Rhine frontier. These campaigns were part of Augustus's strategy to expand Roman control in northern Europe. Drusus's military successes made him a prominent figure in Rome and a potential heir to Augustus.",
+      "key_figures": [
+        "Drusus the Younger (Roman military commander)",
+        "Tiberius (father of Drusus)",
+        "Augustus (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Dio Cassius, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Tacitus, Annals and Germania",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Drusus's campaigns on the Rhine are well-attested, but the exact chronology is somewhat uncertain. The campaigns likely spanned 12-9 BCE.",
+      "cross_references": [
+        "Part of broader Rhine campaign narrative (-12 to -9 BCE)"
+      ]
+    },
+    {
+      "id": "-14-002",
+      "title": "Augustus's final years and succession planning",
+      "region": "Roman Empire, Rome",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Augustus, now in his late 60s, was increasingly preoccupied with ensuring a stable succession. The aging emperor was acutely aware of the need to secure the principate for the next generation. This period saw intensive political maneuvering among potential heirs and their supporters. Augustus would die in 14 CE, making this year a crucial point in the succession crisis.",
+      "key_figures": [
+        "Augustus (Roman Emperor)",
+        "Tiberius (stepson of Augustus)",
+        "Gaius Caesar (adopted grandson)",
+        "Lucius Caesar (adopted grandson)"
+      ],
+      "sources": [
+        {
+          "name": "Suetonius, Life of Augustus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Dio Cassius, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Augustus's political activities are well-documented in later sources, but specific events for -14 are not distinctly recorded.",
+      "cross_references": [
+        "Leads to 14-001 (Augustus's death and Tiberius's succession)"
+      ]
+    },
+    {
+      "id": "-14-003",
+      "title": "Western Han Dynasty under Emperor Cheng",
+      "region": "China, Han Dynasty",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Cheng of Han was ruling during a period of increasing court factionalism and eunuch influence. The year -14 falls within a period of political instability marked by the dominance of the Shi family and growing power of court eunuchs. This period saw the weakening of central authority and the rise of regional warlords.",
+      "key_figures": [
+        "Emperor Cheng of Han",
+        "Shi Xian (eunuch)"
+      ],
+      "sources": [
+        {
+          "name": "Han Shu (Book of Han)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general political situation is well-documented, but specific events for -14 are not distinctly recorded.",
+      "cross_references": []
+    },
+    {
+      "id": "-14-004",
+      "title": "Parthian-Roman relations",
+      "region": "Parthian Empire and Roman Empire",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "The Parthian Empire under Orodes II maintained a tense but stable relationship with Rome. Trade along the Silk Road was beginning to develop, though direct diplomatic contact was limited. The balance of power in the eastern Mediterranean and Near East was a central concern for both Augustus and the Parthian leadership.",
+      "key_figures": [
+        "Orodes II (Parthian King)",
+        "Augustus (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Strabo, Geography",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Dio Cassius, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general diplomatic situation is well-attested, but specific events for -14 are not distinctly recorded.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No significant disconfirming evidence identified for events listed. The characterization of Drusus's campaigns as successful is generally accepted, though some modern scholars emphasize the limitations and costs of these campaigns.",
+  "historiographic_note": "The historical record for 14 BCE is dominated by Roman sources, particularly later compilations. Chinese sources provide information about Han court politics but are similarly retrospective. There is a significant bias toward political and military history; economic and social history are underrepresented. The perspective is largely that of the elite.",
+  "graph_edges": [
+    {
+      "from": "-14-002",
+      "to": "14-001",
+      "relation": "led_to",
+      "note": "Augustus's death in 14 CE marked the end of the succession crisis and the beginning of Tiberius's reign"
+    },
+    {
+      "from": "-14-001",
+      "to": "-9-001",
+      "relation": "led_to",
+      "note": "Drusus's Rhine campaigns continued until his death in 9 BCE"
+    }
+  ]
+}

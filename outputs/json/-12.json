@@ -1,0 +1,148 @@
+{
+  "year": -12,
+  "year_label": "12 BCE",
+  "era_context": "The late Augustan period; Augustus is consolidating his power and increasingly concerned with succession. The Western Han dynasty in China is in decline under Emperor Cheng. The Parthian Empire is stable. In India, the Satavahana dynasty is expanding. This is a period of relative peace in the Mediterranean world, but underlying tensions are building.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Central Asia",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-12-001",
+      "title": "Tiberius's retirement to Rhodes",
+      "region": "Roman Empire, Rhodes",
+      "coordinates_approx": "36.4, 28.2",
+      "category": "political",
+      "description": "Tiberius, the stepson of Augustus and a prominent military commander, withdrew from public life and retired to the island of Rhodes. This withdrawal was motivated by political tensions at court, particularly his rivalry with Gaius Caesar and Lucius Caesar, the adopted grandsons of Augustus. Tiberius's retirement lasted approximately seven years and was a significant political event, as it removed a major figure from the succession struggle.",
+      "key_figures": [
+        "Tiberius (stepson of Augustus)",
+        "Augustus (Roman Emperor)",
+        "Gaius Caesar (adopted grandson)"
+      ],
+      "sources": [
+        {
+          "name": "Suetonius, Life of Tiberius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Dio Cassius, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Tacitus, Annals",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Tiberius's retirement to Rhodes is well-attested in multiple sources. The date of 12 BCE is generally accepted by modern scholars.",
+      "cross_references": [
+        "Leads to -5-001 (Tiberius's recall from Rhodes)"
+      ]
+    },
+    {
+      "id": "-12-002",
+      "title": "Drusus the Younger's military campaigns on the Rhine",
+      "region": "Roman Empire, Germania",
+      "coordinates_approx": "51.0, 8.0",
+      "category": "military",
+      "description": "Drusus the Younger, the son of Tiberius and a promising military commander, was conducting campaigns against Germanic tribes along the Rhine frontier. These campaigns were part of Augustus's strategy to expand Roman control in northern Europe. Drusus's military successes made him a popular figure in Rome and a potential heir to Augustus.",
+      "key_figures": [
+        "Drusus the Younger (Roman military commander)",
+        "Tiberius (father of Drusus)",
+        "Augustus (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Suetonius, Life of Claudius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Dio Cassius, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Tacitus, Annals and Germania",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Drusus's campaigns on the Rhine are well-attested, but the exact chronology is somewhat uncertain. The campaigns likely spanned 12-9 BCE.",
+      "cross_references": [
+        "Leads to -9-001 (Drusus's death)"
+      ]
+    },
+    {
+      "id": "-12-003",
+      "title": "Western Han Dynasty under Emperor Cheng",
+      "region": "China, Han Dynasty",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Cheng of Han was ruling during a period of increasing court factionalism and eunuch influence. The year -12 falls within a period of political instability marked by the dominance of the Shi family and growing power of court eunuchs. This period saw the weakening of central authority and the rise of regional warlords.",
+      "key_figures": [
+        "Emperor Cheng of Han",
+        "Shi Xian (eunuch)"
+      ],
+      "sources": [
+        {
+          "name": "Han Shu (Book of Han)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general political situation is well-documented, but specific events for -12 are not distinctly recorded.",
+      "cross_references": []
+    },
+    {
+      "id": "-12-004",
+      "title": "Satavahana expansion in the Deccan",
+      "region": "India, Deccan",
+      "coordinates_approx": "18.0, 75.0",
+      "category": "political",
+      "description": "The Satavahana dynasty was consolidating and expanding its power in the Deccan region of India during this period. This was a time of economic growth and cultural flourishing, with increased trade connections to the Mediterranean world and Southeast Asia.",
+      "key_figures": [
+        "Satavahana rulers (dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Puranas (Hindu texts)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Deccan sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Satavahana chronology is notoriously uncertain, with different scholars proposing different dates. The period around -12 is plausible but not definitively established.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative presents Tiberius's retirement to Rhodes as a withdrawal from politics due to personal grievances, but some modern scholars argue that it was a calculated political move to avoid conflict with Augustus and the younger heirs. The exact motivations remain disputed. Drusus's campaigns on the Rhine are sometimes portrayed as unqualified successes, but modern scholarship suggests they were more limited in scope and faced significant resistance.",
+  "historiographic_note": "The historical record for 12 BCE is dominated by Roman sources, particularly later compilations. Chinese sources provide information about Han court politics but are similarly retrospective. Indian sources are sparse and often legendary. There is a significant bias toward political and military history; economic and social history are underrepresented. The perspective is largely that of the elite.",
+  "graph_edges": [
+    {
+      "from": "-12-001",
+      "to": "-5-001",
+      "relation": "led_to",
+      "note": "Tiberius's retirement to Rhodes lasted until his recall in 5 BCE"
+    },
+    {
+      "from": "-12-002",
+      "to": "-9-001",
+      "relation": "led_to",
+      "note": "Drusus's Rhine campaigns continued until his death in 9 BCE"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "year": -6,
+  "year_label": "6 BCE",
+  "era_context": "Continuation of the early Pax Romana under Augustus. The Roman Empire is consolidating its territorial gains and administrative structures. In China, Emperor Xuan of the Western Han continues his reign. In Judaea, Herod the Great remains in power as a Roman client. The Satavahana dynasty continues its expansion in India. This period represents relative stability across the major civilizations of Eurasia, with trade networks beginning to intensify.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe beyond Roman frontier",
+    "Oceania and Pacific islands",
+    "Mesoamerica (limited chronological precision)"
+  ],
+  "events": [
+    {
+      "id": "-6-001",
+      "title": "Augustus's reign continues; military campaigns on frontiers",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.90, 12.50",
+      "category": "military",
+      "description": "Augustus continues military consolidation of the Roman Empire's frontiers. This period saw ongoing campaigns in various provinces to suppress banditry, secure borders, and maintain order. The empire was not engaged in major conquest but rather in stabilization and administrative integration of previously conquered territories. Military spending and organization were reformed to support the Pax Romana.",
+      "key_figures": [
+        "Augustus Caesar (Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Res Gestae Divi Augusti",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Suetonius, Life of Augustus",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Augustus's general policies and military organization are well-documented, though specific campaigns in 6 BCE are not individually dated in surviving sources.",
+      "cross_references": []
+    },
+    {
+      "id": "-6-002",
+      "title": "Emperor Xuan of Han; continued stability and prosperity",
+      "region": "China (Western Han)",
+      "coordinates_approx": "34.27, 108.95",
+      "category": "political",
+      "description": "Emperor Xuan continues his reign over the Western Han, maintaining the stability and prosperity that characterized his rule. The Han military remained strong, with campaigns against the Xiongnu and other northern peoples. The economy was flourishing, supported by the Silk Road trade networks that were developing during this period. Cultural and artistic achievements continued to mark this era.",
+      "key_figures": [
+        "Emperor Xuan of Han"
+      ],
+      "sources": [
+        {
+          "name": "Han Shu (Book of Han)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Han sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Emperor Xuan's reign is well-documented in Chinese historical records.",
+      "cross_references": []
+    },
+    {
+      "id": "-6-003",
+      "title": "Herod the Great's rule in Judaea; continued construction and consolidation",
+      "region": "Judaea",
+      "coordinates_approx": "31.95, 35.20",
+      "category": "political",
+      "description": "Herod I continues his rule as client king of Judaea. His reign was characterized by ambitious building projects, including the renovation of the Second Temple in Jerusalem, the construction of fortifications, and the establishment of new cities. Herod maintained order through a combination of patronage and repression, balancing the interests of the Jewish population with Roman strategic requirements.",
+      "key_figures": [
+        "Herod I (King of Judaea)"
+      ],
+      "sources": [
+        {
+          "name": "Josephus, Antiquities of the Jews",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Herod's reign is well-attested overall, but specific events within individual years lack contemporary documentation.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for the general political situation in 6 BCE. However, the significance of this particular year is not marked by any major historical rupture or turning point in surviving sources. It is largely an arbitrary point within broader historical processes.",
+  "historiographic_note": "The historical record for 6 BCE is dominated by Mediterranean and Chinese sources. Roman sources emphasize Augustus's achievements and policies; Chinese sources reflect court perspectives. Judaea's history is known primarily through Josephus, writing in the 1st century CE, introducing potential distortions and anachronisms. The broader world\u2014Africa, Northern Europe, the Americas, and most of Asia\u2014remains largely undocumented for this specific year. The sources available are biased toward elite political and military history.",
+  "graph_edges": [
+    {
+      "from": "-6-001",
+      "to": "-5-002",
+      "relation": "part_of",
+      "note": "Continuation of Augustus's broader consolidation strategy"
+    },
+    {
+      "from": "-6-002",
+      "to": "-5-003",
+      "relation": "part_of",
+      "note": "Continuation of Emperor Xuan's reign and Han prosperity"
+    }
+  ]
+}
