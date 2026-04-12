@@ -1,0 +1,85 @@
+{
+  "year": -3165,
+  "year_label": "3165 BCE",
+  "era_context": "Early Bronze Age in the Eastern Mediterranean and Near East. Egypt's Early Dynastic Period (c. 3100\u20132686 BCE) is consolidating unified rule under the First Dynasty. Mesopotamian city-states are developing complex administrative systems; Uruk remains a dominant cultural and economic centre. In the Indus Valley, early settlements are expanding toward what will become the Harappan civilisation. Writing systems are nascent or recently invented across multiple regions.",
+  "documentation_level": "minimal",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "East Asia beyond the Yellow River valley (limited early records)",
+    "The Americas (no written records; archaeological evidence sparse and regionally variable)"
+  ],
+  "events": [
+    {
+      "id": "-3165-001",
+      "title": "Consolidation of Egyptian First Dynasty rule",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "The First Dynasty of Egypt (c. 3100\u20132890 BCE) is in its mid-phase, with centralised pharaonic authority extending over Upper and Lower Egypt. Administrative structures, including a nascent bureaucracy and standardised taxation systems, are being formalised. Royal tombs at Abydos and Memphis reflect increasing monumental investment and resource control. This period marks the transition from proto-dynastic consolidation to stable centralised rule.",
+      "key_figures": [
+        "Pharaoh (identity uncertain; possibly Djer or Djet, depending on chronological scheme)"
+      ],
+      "sources": [
+        {
+          "name": "Abydos King List (later compilation, 19th Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Abydos and Memphis royal cemeteries",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Palermo Stone (5th Dynasty inscription recording earlier reigns)",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian chronology for the Early Dynastic Period remains contested. Conventional dating places this year within the First Dynasty, but absolute dates vary by \u00b150\u2013100 years depending on the chronological system used (high, middle, or low chronology). Individual pharaohs' regnal years are uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "-3165-002",
+      "title": "Uruk cultural dominance in southern Mesopotamia",
+      "region": "Mesopotamia (southern Iraq)",
+      "coordinates_approx": "31.96, 44.01",
+      "category": "cultural",
+      "description": "Uruk remains the largest and most influential city-state in Mesopotamia during the late Uruk period (c. 3200\u20132900 BCE). The city is a centre of cuneiform writing development, monumental architecture (including the Eanna temple complex), and long-distance trade networks extending to the Indus Valley, the Levant, and Anatolia. Uruk's influence is cultural and economic rather than militarily imperial at this stage.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Uruk (Warka), particularly the Eanna precinct",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Cuneiform tablets from Uruk (administrative and economic records)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Uruk's dominance in this period is well-attested archaeologically. Absolute dating relies on stratigraphic correlation and radiocarbon calibration, with uncertainties of \u00b150\u2013100 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Egyptian chronology for the Early Dynastic Period is fundamentally disputed. The 'high chronology' places the First Dynasty c. 3100\u20132890 BCE; the 'low chronology' places it c. 3000\u20132800 BCE. This creates \u00b1100-year uncertainty for any specific year in this range. Additionally, the identity of individual pharaohs and the length of their reigns are debated; the Abydos King List, our primary source, was compiled ~1,500 years after the events it records and may reflect later political biases. Mesopotamian chronology is similarly contested, with competing systems (Babylonian, Assyrian, and radiocarbon-based) differing by decades to centuries.",
+  "historiographic_note": "Documentation for 3165 BCE is extremely sparse and heavily dependent on archaeological stratigraphy, which provides relative but not absolute chronology. Written records from Egypt and Mesopotamia exist but are fragmentary, administrative in nature, and often compiled centuries or millennia after the events they purport to record. The surviving record is heavily skewed toward monumental and elite activities; the lives of the vast majority of the population are invisible. Chronological systems remain contested among Egyptologists and Mesopotamian scholars, introducing fundamental uncertainty into any specific dating.",
+  "graph_edges": [
+    {
+      "from": "-3165-001",
+      "to": "-3100-001",
+      "relation": "part_of",
+      "note": "Continuation of First Dynasty consolidation"
+    },
+    {
+      "from": "-3165-002",
+      "to": "-3200-001",
+      "relation": "part_of",
+      "note": "Uruk's cultural dominance extends from the late Uruk period"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "year": -3150,
+  "year_label": "3150 BCE",
+  "era_context": "Early Bronze Age Egypt at the threshold of the Early Dynastic Period. The unification of Upper and Lower Egypt under a single pharaonic state is traditionally dated to this era, marking the transition from the Predynastic period and the beginning of recorded Egyptian history. Contemporaneously, Mesopotamia was entering the Early Dynastic I period, with city-states like Uruk, Lagash, and Ur consolidating power. The Indus Valley Civilization was in its early phases of urban development.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "Central Asia (limited contemporary sources)",
+    "The Americas (no written records; archaeological evidence sparse)"
+  ],
+  "events": [
+    {
+      "id": "-3150-001",
+      "title": "Unification of Egypt under Narmer (traditional dating)",
+      "region": "Egypt (Upper and Lower Nile Valley)",
+      "coordinates_approx": "26.2\u00b0N, 31.7\u00b0E",
+      "category": "political",
+      "description": "The traditional date for the unification of Upper and Lower Egypt under a single pharaonic state, attributed to Narmer (also called Menes in later tradition). This event marks the beginning of the Early Dynastic Period and the start of recorded Egyptian history. The Narmer Palette, a ceremonial stone carving, depicts the subjugation of Lower Egypt and is the primary archaeological evidence for this political consolidation. The unification established the first centralized state in the Mediterranean world and initiated the Old Kingdom era.",
+      "key_figures": [
+        "Narmer (Pharaoh, unifier of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Narmer Palette (ceremonial stone carving)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca (later compilation, 3rd century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Turin King List (New Kingdom compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The Narmer Palette is contemporary archaeological evidence, but its exact dating and interpretation are debated. The traditional assignment to 3150 BCE is a scholarly convention; some scholars place Narmer's reign 50\u2013100 years earlier or later. The palette's narrative is ceremonial and may not reflect a single military campaign.",
+      "cross_references": []
+    },
+    {
+      "id": "-3150-002",
+      "title": "Establishment of Memphis as Egyptian capital",
+      "region": "Egypt (Lower Egypt, Nile Delta region)",
+      "coordinates_approx": "30.3\u00b0N, 31.2\u00b0E",
+      "category": "political",
+      "description": "Narmer is traditionally credited with founding Memphis (Ineb-Hedj, 'White Walls') as the capital of unified Egypt, positioned at the junction of Upper and Lower Egypt. Memphis served as the administrative and religious center of the Early Dynastic and Old Kingdom periods. The city's strategic location facilitated control over both regions and became the seat of pharaonic power for over a millennium.",
+      "key_figures": [
+        "Narmer (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Manetho's Aegyptiaca",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Memphis excavations",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Memphis was certainly a major center by the Early Dynastic Period, but the exact founding date and Narmer's role are inferred from later sources and archaeological stratigraphy rather than contemporary records.",
+      "cross_references": [
+        "-3150-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Modern scholarship disputes the traditional dating of Narmer's unification. Some Egyptologists argue the unification occurred over a longer period (perhaps 3200\u20133000 BCE) rather than as a single event in 3150 BCE. The Narmer Palette's interpretation as a historical record of conquest is contested; some scholars view it as primarily ceremonial or symbolic. Additionally, evidence suggests Lower Egypt may have already been partially unified before Narmer's reign. The concept of 'unification' itself may be a later historiographic construct imposed on a more gradual process of consolidation.",
+  "historiographic_note": "The historical record for 3150 BCE is extremely thin. Dating relies heavily on the Narmer Palette (an artifact of uncertain interpretation), later king lists compiled centuries after the events, and Manetho's Aegyptiaca (written in the 3rd century BCE, drawing on lost earlier sources). Egyptian chronology for this period remains contested among scholars, with alternative chronologies placing key events 50\u2013200 years earlier or later. The surviving sources are heavily weighted toward elite, court-centered narratives and monumental inscriptions; the experiences of common people, women, and non-elite populations are almost entirely absent. Archaeological evidence from this period is limited and often difficult to date precisely.",
+  "graph_edges": [
+    {
+      "from": "-3150-001",
+      "to": "-3150-002",
+      "relation": "part_of",
+      "note": "The establishment of Memphis was a direct consequence of the political unification of Egypt."
+    },
+    {
+      "from": "-3150-001",
+      "to": "-3100-EARLY_DYNASTIC_CONSOLIDATION",
+      "relation": "led_to",
+      "note": "Narmer's unification initiated the Early Dynastic Period and the development of pharaonic state institutions."
+    }
+  ]
+}
