@@ -1,0 +1,98 @@
+{
+  "year": -545,
+  "year_label": "545 BCE",
+  "era_context": "Mid-6th century BCE: Cyrus II's Achaemenid Persian Empire is consolidating control over Asia Minor and the eastern Mediterranean following the conquest of Lydia (546 BCE). In Greece, the Archaic period is in its final decades; Athens remains under Peisistratos's tyranny, and Sparta dominates the Peloponnese. In China, the Spring and Autumn period continues with interstate competition and warfare. In India, the Mahajanapadas are consolidating; the Buddha is in his teaching career.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Southeast Asia",
+    "Central Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "-545-001",
+      "title": "Persian consolidation of Ionian Greek city-states",
+      "region": "Ionia, Asia Minor",
+      "coordinates_approx": "37.5, 27.0",
+      "category": "political",
+      "description": "Following the conquest of Lydia in 546 BCE, Cyrus II's forces complete the subjugation of the Ionian Greek city-states. The process of consolidation includes the establishment of Persian administrative control, the imposition of tribute, and the integration of Ionian cities into the satrap system. Some Ionian Greeks emigrate westward to escape Persian rule, contributing to the colonization of southern Italy and Sicily. The conquest marks the end of Greek political independence in Asia Minor for nearly two centuries.",
+      "key_figures": [
+        "Cyrus II (Achaemenid Great King)",
+        "Ionian city leaders (names vary by source)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories (Book I)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation of Persian control over Ionia is well-attested, but the precise dating (546\u2013545 BCE or extending into 544 BCE) is uncertain. The process may have been gradual rather than a single event.",
+      "cross_references": [
+        "Follows from -546-001 (Conquest of Lydia)",
+        "Part of broader Persian expansion",
+        "Precedes Ionian Revolt (-500)"
+      ]
+    },
+    {
+      "id": "-545-002",
+      "title": "State of Jin dominates northern China",
+      "region": "China, State of Jin",
+      "coordinates_approx": "37.0, 112.0",
+      "category": "political",
+      "description": "During the Spring and Autumn period, the state of Jin, one of the major powers in northern China, continues to dominate the region through military strength and diplomatic alliances. Jin's power is based on its control of the Yellow River valley and its ability to form coalitions with other states. This period marks the height of Jin's influence before its eventual fragmentation in the 5th century BCE.",
+      "key_figures": [
+        "Jin rulers (specific names uncertain for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chunqiu (Spring and Autumn Annals)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Chunqiu provides a year-by-year record, but it is terse and often lacks detail. Sima Qian's Shiji, written ~400 years later, provides narrative context but may conflate or reorder events. Specific events for 545 BCE are not clearly distinguished.",
+      "cross_references": [
+        "Part of broader Spring and Autumn period interstate competition",
+        "Contemporary with similar power dynamics in other Chinese states"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of the completion of Persian control over Ionia is uncertain; some sources place it in 546 BCE, others in 545 BCE, and some extend it into 544 BCE or later. The process may have been gradual, with some cities resisting longer than others. For China, the Chunqiu is a bare chronicle that does not provide sufficient detail to confirm specific political events for 545 BCE; later historians may have invented or embellished details.",
+  "historiographic_note": "For the Near East, sources are dominated by Greek historiographers writing centuries later, with minimal contemporary Persian documentation. For China, the Chunqiu is contemporary but extremely terse; most narrative detail comes from much later compilations like the Shiji. Archaeological evidence (pottery, inscriptions, stratigraphy) can confirm broad patterns but rarely pinpoints specific years. The historical record is heavily skewed toward the Mediterranean, Near East, and China; other regions are virtually undocumented for this year.",
+  "graph_edges": [
+    {
+      "from": "-545-001",
+      "to": "-546-001",
+      "relation": "follows_from",
+      "note": "Consolidation of Ionian control followed the conquest of Lydia"
+    },
+    {
+      "from": "-545-001",
+      "to": "-500-001",
+      "relation": "led_to",
+      "note": "Persian control of Ionia eventually led to the Ionian Revolt"
+    },
+    {
+      "from": "-545-002",
+      "to": "-400-001",
+      "relation": "part_of",
+      "note": "Jin's dominance continued throughout the Spring and Autumn period until its fragmentation"
+    }
+  ]
+}

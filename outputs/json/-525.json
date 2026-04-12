@@ -1,25 +1,28 @@
 {
   "year": -525,
   "year_label": "525 BCE",
-  "era_context": "The Achaemenid Persian Empire under Cambyses II is consolidating control over Egypt following the conquest of 525 BCE. In Greece, the Archaic period is transitioning toward the Classical; Athens is under the Peisistratid tyranny. In India, the Buddha (Siddhartha Gautama) is in his mid-life teaching phase, having attained enlightenment approximately 20 years prior. China is in the Spring and Autumn period, with the state of Lu prominent in intellectual circles.",
+  "era_context": "Late Archaic Greece; Darius I's reign in the Achaemenid Empire (522\u2013486 BCE). Hippias rules Athens. In India, the Buddha's teaching mission is underway. China is in the Spring and Autumn period with regional fragmentation. The Mediterranean world is experiencing rapid urbanisation and cultural development. This year marks a significant military campaign by Darius I in the Near East.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records)",
-    "Northern Europe (pre-literate societies)",
-    "Mesoamerica (Maya records exist but are sparse for this specific year)",
-    "Oceania (no written records)"
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "The Americas",
+    "Oceania",
+    "Central Asia (limited written records)",
+    "India (limited synchronised dating)"
   ],
   "events": [
     {
       "id": "-525-001",
-      "title": "Cambyses II completes conquest of Egypt; Battle of Pelusium",
-      "region": "Egypt, Nile Delta",
-      "coordinates_approx": "31.0, 31.1",
+      "title": "Darius I conquers Egypt",
+      "region": "Egypt / Achaemenid Empire",
+      "coordinates_approx": "26.0, 29.0",
       "category": "military",
-      "description": "Cambyses II of Persia defeats the Egyptian pharaoh Psamtik III at Pelusium, effectively ending the 26th Dynasty (Saite period) and incorporating Egypt into the Achaemenid Empire. The battle is described as decisive, with Persian forces using psychological tactics (reportedly driving cats and sacred animals before their lines to demoralize Egyptian defenders). This marks the beginning of Persian rule over Egypt, lasting until the 4th century BCE.",
+      "description": "Darius I, having consolidated his power in Persia and the Near East, launches a military campaign to conquer Egypt. The Persian forces, led by Darius himself or his general Cambyses (depending on the source), defeat the Egyptian forces at the Battle of Pelusium. Egypt falls under Persian control, ending the 26th Dynasty (Saite period) and beginning the 27th Dynasty (Persian period). This conquest extends Darius's empire to include the richest and most ancient civilisation of the Mediterranean world, significantly enhancing Persian power and prestige.",
       "key_figures": [
-        "Cambyses II (Persian Great King)",
-        "Psamtik III (Egyptian pharaoh)"
+        "Darius I (King of Kings, Achaemenid Empire)",
+        "Psamtik III (last pharaoh of the 26th Dynasty)",
+        "Cambyses II (possibly involved, though he died in 522 BCE)"
       ],
       "sources": [
         {
@@ -28,7 +31,41 @@
           "contemporary": false
         },
         {
-          "name": "Manetho, Aegyptiaca (preserved in later sources)",
+          "name": "Behistun Inscription (Old Persian cuneiform)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho, History of Egypt (via later compilations)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The conquest of Egypt by Darius I is well attested in both Persian (Behistun Inscription) and Egyptian sources. The date of 525 BCE is accepted by modern Egyptologists and ancient historians, though Herodotus's account contains some legendary elements.",
+      "cross_references": [
+        "-529-001 (Consolidation of Persian control in Egypt)"
+      ]
+    },
+    {
+      "id": "-525-002",
+      "title": "Battle of Pelusium: Persian victory over Egypt",
+      "region": "Pelusium, Egypt",
+      "coordinates_approx": "31.08, 31.68",
+      "category": "military",
+      "description": "The decisive battle in which Persian forces defeat the Egyptian army at Pelusium, a fortified city on Egypt's northeastern frontier. Herodotus provides a legendary account involving the use of cats (sacred to the Egyptians) as a psychological weapon, though this is likely apocryphal. The battle marks the end of Egyptian independence and the beginning of Persian rule. The victory is swift and decisive, suggesting superior Persian military organisation and tactics.",
+      "key_figures": [
+        "Darius I (Persian commander)",
+        "Psamtik III (Egyptian pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories, Book III.10-11",
           "type": "later_compilation",
           "contemporary": false
         },
@@ -39,96 +76,26 @@
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The conquest of Egypt by Cambyses is well-attested in multiple traditions. The specific year 525 BCE is derived from Egyptian chronology and Persian records. Herodotus provides narrative detail, though written ~80 years after the event.",
+      "certainty_note": "The battle is attested in both Persian and Egyptian sources. The date of 525 BCE is widely accepted. Herodotus's account of the cats is considered legendary, but the fact of the battle and Persian victory is confirmed.",
       "cross_references": [
-        "Relates to broader Achaemenid expansion; precedes Cambyses' campaigns in Nubia and Libya"
-      ]
-    },
-    {
-      "id": "-525-002",
-      "title": "Buddha's teachings in Magadha; consolidation of sangha",
-      "region": "Magadha, northeastern India (modern Bihar)",
-      "coordinates_approx": "25.2, 85.3",
-      "category": "religious",
-      "description": "The Buddha (Siddhartha Gautama) is in his mid-teaching career, approximately 20 years after his enlightenment at Bodh Gaya. He is actively teaching in the Magadha region under the patronage of King Bimbisara, establishing monastic communities (sangha) and refining the Dharma. This period sees the consolidation of early Buddhist doctrine and the growth of the monastic order, which will become central to Buddhism's institutional structure.",
-      "key_figures": [
-        "Siddhartha Gautama / Buddha",
-        "Bimbisara (King of Magadha)",
-        "Sariputta and Moggallana (early disciples)"
-      ],
-      "sources": [
-        {
-          "name": "Pali Canon (Sutta Pitaka, Vinaya Pitaka)",
-          "type": "oral_tradition",
-          "contemporary": false
-        },
-        {
-          "name": "Sanskrit Buddhist texts (Mahayana traditions)",
-          "type": "oral_tradition",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The Buddha's life dates are debated among scholars. Traditional dates place his enlightenment around 544 BCE and his death around 486 BCE. Modern scholarship suggests dates ranging from 563\u2013483 BCE to 480\u2013400 BCE. This entry assumes the traditional chronology; the specific year 525 BCE is approximate within a \u00b120 year range.",
-      "cross_references": [
-        "Part of broader religious ferment in India during the 6th\u20135th centuries BCE (Upanishadic period, rise of heterodox movements)"
-      ]
-    },
-    {
-      "id": "-525-003",
-      "title": "Peisistratid tyranny in Athens; cultural patronage",
-      "region": "Athens, Attica",
-      "coordinates_approx": "37.97, 23.73",
-      "category": "political",
-      "description": "Hippias, son of Peisistratus, rules Athens as tyrant. The Peisistratid regime (established 546 BCE) continues its program of cultural patronage, including support for the Panathenaic Festival and the development of Athenian pottery and sculpture. This period sees the flourishing of Archaic Greek art and the consolidation of Athenian identity, though political freedom remains restricted under tyrannical rule.",
-      "key_figures": [
-        "Hippias (Athenian tyrant)",
-        "Hipparchus (brother, co-ruler)"
-      ],
-      "sources": [
-        {
-          "name": "Aristotle, Constitution of the Athenians",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Herodotus, Histories",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Athenian pottery and inscriptions",
-          "type": "archaeological",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Peisistratid tyranny is well-documented in later Greek sources and confirmed by archaeological evidence. The specific year 525 BCE falls within the documented reign of Hippias.",
-      "cross_references": [
-        "Precedes the assassination of Hipparchus in 514 BCE and the eventual overthrow of the tyranny in 510 BCE"
+        "-525-001 (Darius's conquest of Egypt)"
       ]
     }
   ],
-  "disconfirming_evidence": "Herodotus's account of the Battle of Pelusium, particularly the anecdote about sacred animals being driven before Persian lines, is questioned by modern scholars as potentially apocryphal or exaggerated. The dating of the Buddha's life remains one of the most contested issues in Buddhist and Indian chronology; some scholars place his enlightenment as late as 400 BCE, which would make the year 525 BCE fall before his enlightenment rather than 20 years after. The significance of Athenian tyranny in 525 BCE is sometimes overstated in Western historiography; the regime was stable and culturally productive, not universally oppressive.",
-  "historiographic_note": "The year 525 BCE is well-documented for the Mediterranean and Near East (Persian and Greek sources), moderately documented for India (Buddhist texts, though with chronological uncertainty), and poorly documented for most of the rest of the world. Egyptian sources are limited to administrative records and temple inscriptions; Greek sources are retrospective (Herodotus, Aristotle). Buddhist chronology relies on oral tradition compiled centuries after the events. Sub-Saharan Africa, northern Europe, and East Asia have minimal or no written records for this specific year. The surviving sources reflect the interests of literate elites (Persian court, Greek city-states, Indian monasteries) and likely omit the experiences of peasants, slaves, and non-literate populations.",
+  "disconfirming_evidence": "Herodotus's account of the Battle of Pelusium includes the famous (and almost certainly apocryphal) story of Persian soldiers using cats as a psychological weapon, exploiting Egyptian reverence for the animal. Modern scholars dismiss this as legendary embellishment. Additionally, some sources attribute the conquest to Cambyses II (Darius's predecessor, who died in 522 BCE), while others credit Darius I. The Behistun Inscription, Darius's own account, does not explicitly mention Egypt, which has led some scholars to question whether Darius personally led the campaign or inherited control from Cambyses. However, the consensus is that the conquest occurred in 525 BCE under Darius's reign, even if the details of his personal involvement are uncertain.",
+  "historiographic_note": "The conquest of Egypt is one of the best-documented events of this period, attested in both Persian and Egyptian sources. However, the sources have different biases: Herodotus, writing a century later, includes legendary elements and may have confused the roles of Cambyses and Darius. Egyptian sources, written by the priesthood under Persian rule, may have been influenced by political considerations. The Behistun Inscription, Darius's official account, is contemporary but selective in what it records. Modern Egyptology has integrated archaeological evidence (pottery, inscriptions, administrative records) to construct a more reliable chronology. The conquest marks a major shift in Mediterranean and Near Eastern politics, bringing Egypt under foreign rule for the first time in its recorded history.",
   "graph_edges": [
     {
       "from": "-525-001",
-      "to": "-486-001",
-      "relation": "led_to",
-      "note": "Cambyses' conquest of Egypt initiates Persian rule; Persian control continues until Alexander's conquest in 332 BCE"
+      "to": "-525-002",
+      "relation": "part_of",
+      "note": "The Battle of Pelusium is the military engagement that secured Darius's conquest of Egypt"
     },
     {
-      "from": "-525-002",
-      "to": "-486-001",
-      "relation": "contemporary_with",
-      "note": "Buddha's teaching career overlaps with the reign of Bimbisara; both figures are roughly contemporary"
-    },
-    {
-      "from": "-525-003",
-      "to": "-514-001",
+      "from": "-525-001",
+      "to": "-404-001",
       "relation": "led_to",
-      "note": "Peisistratid rule continues until the assassination of Hipparchus in 514 BCE"
+      "note": "Persian rule of Egypt lasts until 404 BCE"
     }
   ]
 }

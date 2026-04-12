@@ -1,0 +1,91 @@
+{
+  "year": -549,
+  "year_label": "549 BCE",
+  "era_context": "Mid-6th century BCE: The Achaemenid Persian Empire under Cyrus II is consolidating control over the Near East and Central Asia following the conquest of Lydia (546 BCE) and Babylon (539 BCE). In Greece, the Archaic period is in its final phase; Athens is under the tyranny of Peisistratos, while Sparta dominates the Peloponnese. In China, the Spring and Autumn period continues with competing states; Confucius is a young man. In India, the Mahajanapadas are consolidating; the Buddha and Mahavira are active or recently active.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Southeast Asia (limited sources)"
+  ],
+  "events": [
+    {
+      "id": "-549-001",
+      "title": "Cyrus II consolidates Persian control over Anatolia and the Levant",
+      "region": "Achaemenid Empire, Anatolia, Levant",
+      "coordinates_approx": "38.0, 35.0",
+      "category": "political",
+      "description": "Following the conquest of Lydia in 546 BCE, Cyrus II's forces continue subjugating Greek city-states in Ionia and consolidating Persian administrative control over former Lydian territories. This period marks the establishment of the satrap system and the integration of Anatolia into the empire. The conquest of Ionian Greeks represents a major shift in the balance of power in the eastern Mediterranean, ending Greek independence in Asia Minor for nearly two centuries.",
+      "key_figures": [
+        "Cyrus II (Achaemenid Great King)",
+        "Croesus (former King of Lydia, now under Persian control)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories (Book I)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Xenophon, Cyropaedia",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad timeline of Cyrus's conquests is well-established, but precise dating of individual campaigns within 549\u2013545 BCE is uncertain. Herodotus and Xenophon wrote centuries later and contain legendary elements.",
+      "cross_references": [
+        "Follows from -546-001 (Conquest of Lydia)",
+        "Part of broader Persian expansion -550 to -530"
+      ]
+    },
+    {
+      "id": "-549-002",
+      "title": "Peisistratos consolidates tyranny in Athens",
+      "region": "Athens, Attica",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Peisistratos, having seized power in Athens around 560 BCE, consolidates his rule through the mid-6th century. He uses mercenary forces and maintains popular support through public works, including the early development of the Acropolis and support for the Panathenaic Festival. His regime represents a transitional form of government between aristocratic oligarchy and democracy, and his patronage of the arts and literature marks a cultural flourishing.",
+      "key_figures": [
+        "Peisistratos (Tyrant of Athens)",
+        "Solon (earlier reformer, deceased by this period)"
+      ],
+      "sources": [
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Herodotus, Histories (Book I)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Peisistratos's reign is well-attested in later sources, but precise chronology within his rule (560\u2013527 BCE) has uncertainties of \u00b15 years. Ancient sources sometimes conflate his multiple seizures of power.",
+      "cross_references": [
+        "Part of broader Archaic Greek political development",
+        "Precedes democratic reforms of Cleisthenes (-508)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Cyrus II's conquest of Ionia is debated; some scholars place the final subjugation of Greek cities as late as 540 BCE or as early as 547 BCE. The legendary elements in Xenophon's Cyropaedia (e.g., Cyrus's education, his relationship with Croesus) are not corroborated by contemporary sources and likely reflect later Greek literary invention. Peisistratos's popularity and the extent of his public works program are sometimes overstated in later Athenian sources, which may have been influenced by pro-democratic bias.",
+  "historiographic_note": "Documentation for 549 BCE is heavily dependent on Greek historiographers writing 100\u2013400 years after the events, particularly Herodotus and Aristotle. Persian sources (inscriptions, administrative records) are sparse for this specific year. Athenian sources are biased toward the city-state's own narrative and often conflate or reorder events. Archaeological evidence (pottery, inscriptions, stratigraphy) provides some corroboration but is not year-specific. The historical record is skewed toward the Mediterranean and Near East; events in China, India, and other regions are known only through much later compilations.",
+  "graph_edges": [
+    {
+      "from": "-549-001",
+      "to": "-546-001",
+      "relation": "part_of",
+      "note": "Continuation of Cyrus II's conquest campaign that culminated in the fall of Lydia"
+    },
+    {
+      "from": "-549-002",
+      "to": "-508-001",
+      "relation": "led_to",
+      "note": "Peisistratos's tyranny and cultural patronage created conditions for later democratic reforms under Cleisthenes"
+    }
+  ]
+}

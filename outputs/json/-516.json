@@ -1,67 +1,64 @@
 {
   "year": -516,
   "year_label": "516 BCE",
-  "era_context": "The Achaemenid Persian Empire under Darius I is at its height, having consolidated control over vast territories. In Greece, the early Classical period is establishing democratic and oligarchic institutions; Athens is stabilizing after Cleisthenes' reforms. In China, the Spring and Autumn period continues with competing states vying for hegemony. In India, the Mahajanapadas are forming; the Buddha's life and teachings (if historical) may be occurring in this period depending on chronological tradition.",
+  "era_context": "Darius I's Achaemenid Empire is in its seventh year of rule. In Greece, Athens is consolidating democratic institutions. In Jerusalem, the Second Temple is being rebuilt following the Babylonian exile; this is a period of religious and political reorganization in Judea under Persian suzerainty. In China, the Spring and Autumn period continues.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
     "Northern Europe",
     "Mesoamerica",
-    "Southeast Asia",
-    "Central Asia",
-    "Most of the Indian subcontinent"
+    "Most of Southeast Asia",
+    "Pacific Islands",
+    "Most of India",
+    "Most of China"
   ],
   "events": [
     {
       "id": "-516-001",
-      "title": "Completion of the Second Temple in Jerusalem",
-      "region": "Judah, Jerusalem",
+      "title": "Completion of the Second Temple in Jerusalem (traditional dating)",
+      "region": "Jerusalem, Judea, Persian Empire",
       "coordinates_approx": "31.78, 35.24",
       "category": "religious",
-      "description": "The Second Temple in Jerusalem is completed and dedicated, marking the restoration of the Jewish temple after its destruction by Nebuchadnezzar II in 586 BCE. The temple's reconstruction was authorized by the Persian king Cyrus II (or his successors) as part of Persian policy allowing subject peoples to restore their religious institutions. The completion of the temple is a significant moment in Jewish religious and cultural identity, enabling the resumption of temple sacrifice and worship.",
+      "description": "The Second Temple in Jerusalem was completed and dedicated, according to the biblical book of Ezra and later Jewish tradition. The temple had been under reconstruction since the return of Jewish exiles from Babylon under Persian auspices, beginning around 538 BCE. The completion of the temple marked the restoration of the central religious institution of the Jewish community and symbolized the reestablishment of Jewish religious and communal life in Judea under Persian rule. The dedication ceremony is described in Ezra 6:15\u201318. This event was significant for Jewish religious continuity and for the development of Second Temple Judaism.",
       "key_figures": [
-        "Zerubbabel (governor of Judah)",
-        "Joshua (high priest)",
-        "Darius I (Persian king, authorizing the completion)"
+        "Zerubbabel (governor of Judea)",
+        "Joshua son of Jozadak (high priest)",
+        "Darius I (Persian King, patron)"
       ],
       "sources": [
         {
-          "name": "Book of Ezra (Hebrew Bible)",
+          "name": "Book of Ezra, chapters 5\u20136",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Josephus, Antiquities of the Jews",
+          "name": "Josephus, Antiquities of the Jews, Book XI",
           "type": "later_compilation",
           "contemporary": false
-        },
-        {
-          "name": "Haggai (Hebrew Bible, prophetic book)",
-          "type": "primary_text",
-          "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The Book of Ezra dates the temple's completion to the 6th year of Darius I's reign, which corresponds to 516 BCE in the conventional chronology. However, the dating of Darius I's reign and the reliability of Ezra's chronology are debated. Some scholars place the completion in 515 BCE or later.",
+      "certainty": "traditional",
+      "certainty_note": "The biblical book of Ezra dates the temple's completion to the sixth year of Darius I's reign (Ezra 6:15), which corresponds to 516 BCE in the proleptic Gregorian calendar. However, this dating is based on biblical chronology, which is debated by modern scholars. Some scholars argue the temple was completed earlier (c. 520 BCE) or later (c. 515 BCE). No contemporary Persian or archaeological evidence precisely confirms the date.",
       "cross_references": [
-        "Follows from -539-001 (Cyrus II's edict allowing temple restoration)"
+        "Related to the Babylonian exile and return (c. 538 BCE)",
+        "Part of the broader Persian policy of allowing subject peoples to maintain religious institutions"
       ]
     }
   ],
-  "disconfirming_evidence": "The dating of the Second Temple's completion is disputed. The Book of Ezra states it was completed in the 6th year of Darius I, but the exact correspondence to 516 BCE depends on when Darius I's reign is dated. Some scholars argue for 515 BCE instead. Additionally, the historicity of some details in Ezra (such as the role of Zerubbabel and the exact sequence of events) is questioned by modern scholars. Archaeological evidence for the temple itself is limited, making independent verification difficult.",
-  "historiographic_note": "The primary source for the Second Temple's completion is the Book of Ezra, a later compilation written centuries after the events it describes. The book was composed during or after the Persian period but reflects traditions and possibly earlier documents. Josephus, writing in the 1st century CE, provides additional detail but relies on earlier sources including Ezra. No contemporary Persian sources explicitly mention the temple's completion. Archaeological evidence from Jerusalem is limited for this period. The account is shaped by Jewish religious tradition and may emphasize religious significance over historical precision.",
+  "disconfirming_evidence": "The dating of the Second Temple's completion is disputed. Modern scholars debate whether Ezra 6:15's reference to 'the sixth year of Darius' refers to 516 BCE or whether the temple was completed earlier or later. Some scholars argue that the biblical chronology is unreliable and that archaeological evidence does not clearly support the traditional date. The historicity of Zerubbabel and Joshua is also debated; some scholars view them as legendary or semi-legendary figures. Additionally, the extent to which the Second Temple was a 'restoration' versus a new construction is unclear from available evidence.",
+  "historiographic_note": "The primary source for this event is the biblical book of Ezra, which was compiled centuries after the events it describes and reflects the theological and political concerns of its authors. No contemporary Persian administrative records or inscriptions confirm the temple's completion date. Archaeological evidence from Jerusalem in this period is limited and does not provide clear confirmation of the traditional date. The account is biased toward Jewish religious and communal perspectives; Persian administrative or military records, if they existed, would provide a different viewpoint.",
   "graph_edges": [
     {
       "from": "-516-001",
-      "to": "-539-001",
-      "relation": "caused_by",
-      "note": "Cyrus II's edict authorizing temple restoration"
+      "to": "-538-001",
+      "relation": "led_to",
+      "note": "Completion of the temple follows the return of exiles from Babylon under Cyrus II"
     },
     {
       "from": "-516-001",
-      "to": "-70-001",
-      "relation": "led_to",
-      "note": "The Second Temple remained the center of Jewish worship until its destruction in 70 CE"
+      "to": "70-001",
+      "relation": "part_of",
+      "note": "The Second Temple stood for approximately 586 years until its destruction by Rome in 70 CE"
     }
   ]
 }

@@ -1,0 +1,107 @@
+{
+  "year": -530,
+  "year_label": "530 BCE",
+  "era_context": "The mid-6th century BCE spans the late Archaic period in Greece, the reign of Cyrus II (the Great) and early Achaemenid consolidation in Persia, the later years of the Zhou Dynasty in China (Spring and Autumn period), and the early development of Vedic culture in South Asia. This is an era of philosophical ferment, imperial expansion, and the emergence of written historical consciousness in multiple civilisations.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; archaeological record incomplete)",
+    "Northern Europe and the Steppe (sparse contemporary documentation)",
+    "Mesoamerica (no written records; archaeological dating uncertain for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-530-001",
+      "title": "Pythagoras founds the Pythagorean community at Croton",
+      "region": "Magna Graecia (southern Italy)",
+      "coordinates_approx": "39.08, 17.13",
+      "category": "cultural",
+      "description": "Pythagoras, the Greek mathematician and philosopher, established a religious and philosophical community at Croton in southern Italy. The community combined mathematical inquiry, mystical practice, and political influence. This marks the beginning of an influential intellectual movement that shaped Greek philosophy and mathematics for centuries. The Pythagorean order became known for secrecy, communal living, and the belief that numbers underlie reality.",
+      "key_figures": [
+        "Pythagoras of Samos (philosopher, mathematician)"
+      ],
+      "sources": [
+        {
+          "name": "Diogenes La\u00ebrtius, Lives and Opinions of Eminent Philosophers (3rd century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Iamblichus, Life of Pythagoras (3rd century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The founding date of the Pythagorean community is traditionally placed around 530 BCE, but no contemporary sources document it. Later biographical sources (Diogenes La\u00ebrtius, Iamblichus) are separated from the event by 800+ years and may conflate or misdate. Modern scholarship accepts ~530 BCE as conventional but acknowledges uncertainty of \u00b110 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-530-002",
+      "title": "Cyrus II consolidates control over Lydia and western Anatolia",
+      "region": "Achaemenid Empire (Anatolia, Mesopotamia)",
+      "coordinates_approx": "38.5, 35.0",
+      "category": "political",
+      "description": "Following his conquest of Lydia (c. 546 BCE), Cyrus II (the Great) consolidated Persian control over the wealthy western Anatolian territories and their Greek city-states. This period saw the integration of Lydian administrative systems into the Achaemenid bureaucracy and the establishment of Persian satraps. The conquest brought vast wealth to Persia and marked the beginning of Persian dominance over the eastern Mediterranean world.",
+      "key_figures": [
+        "Cyrus II (Achaemenid Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories (5th century BCE)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Xenophon, Cyropaedia (4th century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The conquest of Lydia is dated to c. 546 BCE by Herodotus; consolidation would have extended into the 530s. No contemporary Persian inscriptions date this specific phase, but Greek sources and later Persian tradition support the chronology within \u00b15 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-530-003",
+      "title": "Spring and Autumn period: State of Lu under Duke Zhao",
+      "region": "Eastern Zhou China (State of Lu)",
+      "coordinates_approx": "35.6, 117.0",
+      "category": "political",
+      "description": "In the State of Lu (in present-day Shandong), Duke Zhao (r. 541\u2013510 BCE) was ruling during a period of increasing interstate conflict and the gradual consolidation of power among larger states. This era saw the development of early Chinese statecraft, the role of hereditary nobility, and the emergence of the concept of the 'Mandate of Heaven.' Lu was one of the culturally significant states and would later be the birthplace of Confucius.",
+      "key_figures": [
+        "Duke Zhao of Lu (ruler of Lu)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian (1st century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chunqiu (Spring and Autumn Annals)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Duke Zhao's reign dates are well-established in Chinese historical records (541\u2013510 BCE). The Chunqiu provides near-contemporary documentation of major events during this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Pythagoras's migration to Croton and the founding of his community is highly uncertain. Some modern scholars place it as late as 520 BCE or as early as 540 BCE. The biographical tradition is heavily mythologized, and no contemporary Greek sources document the event. The significance attributed to the Pythagorean community in later Greek intellectual history may be exaggerated by Neoplatonic sources (Iamblichus, Porphyry) writing centuries later. Regarding Cyrus II: the exact chronology of his western campaigns remains debated among scholars, with some sources suggesting the Lydian conquest occurred slightly earlier (c. 547 BCE) or later (c. 545 BCE).",
+  "historiographic_note": "The historical record for 530 BCE is uneven. Greek sources (Herodotus, later biographies) are abundant but often written 50\u2013100+ years after events and contain legendary material. Chinese sources (Chunqiu, Shiji) are more systematic but compiled retrospectively. Persian sources are sparse and mostly epigraphic (inscriptions of Cyrus II and successors); contemporary Persian narratives of this period do not survive. The record is heavily skewed toward elite political and military events; economic, social, and cultural life outside court circles is largely invisible. Sub-Saharan Africa, northern Europe, and the Americas have no written documentation for this year.",
+  "graph_edges": [
+    {
+      "from": "-530-001",
+      "to": "-500-PYTHAGORAS_INFLUENCE",
+      "relation": "led_to",
+      "note": "Pythagorean philosophy influenced Greek mathematics and mysticism for centuries"
+    },
+    {
+      "from": "-530-002",
+      "to": "-480-PERSIAN_WARS",
+      "relation": "led_to",
+      "note": "Persian consolidation of western Anatolia set conditions for later conflict with Greek city-states"
+    }
+  ]
+}

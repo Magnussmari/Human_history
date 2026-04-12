@@ -1,85 +1,96 @@
 {
   "year": -524,
   "year_label": "524 BCE",
-  "era_context": "The late Archaic period in Greece; the Persian Achaemenid Empire under Darius I is consolidating control across the Near East, Egypt, and into Central Asia. In China, the Spring and Autumn period continues with competing states fragmenting Zhou authority. In India, the Buddha (Siddhartha Gautama) is traditionally dated to have died around this period, though dating remains contested. The Mediterranean is witnessing the rise of Athenian democracy and the consolidation of the Greek polis system.",
+  "era_context": "The late Archaic period in Greece; the Persian Achaemenid Empire under Darius I is consolidating control across the Near East, Egypt, and into Central Asia. In China, the Spring and Autumn period continues with competing states fragmenting Zhou authority. In India, the Buddha (Siddhartha Gautama) is traditionally dated to have lived during this era, though exact dates are disputed. The Mediterranean is dominated by Greek city-states and Phoenician traders.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written sources)",
+    "Sub-Saharan Africa (limited written records)",
     "Northern Europe (pre-literate societies)",
-    "Mesoamerica (limited synchronization with Old World calendars)",
-    "Southeast Asia (sparse contemporary records)"
+    "Mesoamerica (Maya records not yet systematically dated to this period)",
+    "Oceania (no written records)"
   ],
   "events": [
     {
       "id": "-524-001",
-      "title": "Death of Siddhartha Gautama (Buddha) \u2014 Traditional Date",
-      "region": "Magadha, Indian subcontinent (modern Bihar/Nepal border region)",
-      "coordinates_approx": "27.2\u00b0N, 85.3\u00b0E",
-      "category": "religious",
-      "description": "According to Buddhist tradition, Siddhartha Gautama, the founder of Buddhism, attained parinirvana (final liberation) at Kushinagar in the Malla kingdom. This event marks the end of the Buddha's earthly life and the beginning of the institutional development of Buddhism. However, modern scholarship places the Buddha's death anywhere from 544 BCE to 400 BCE, with 486 BCE and 483 BCE also widely cited. The traditional date of 544 BCE (or 524 BCE in some reckonings) derives from Buddhist chronicles compiled centuries later.",
-      "key_figures": [
-        "Siddhartha Gautama (the Buddha)",
-        "Ananda (cousin and attendant)",
-        "Mahakassapa (successor)"
-      ],
-      "sources": [
-        {
-          "name": "Mahaparinirvana Sutta (Pali Canon)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Buddhist chronicles (Dipavamsa, Mahavamsa)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "traditional",
-      "certainty_note": "No contemporary written records exist. The date is derived from Buddhist textual traditions compiled 200\u2013400 years after the event. Modern scholarship has not reached consensus; dating varies by \u00b160 years.",
-      "cross_references": []
-    },
-    {
-      "id": "-524-002",
-      "title": "Darius I Consolidates Persian Control in Egypt",
-      "region": "Egypt, Persian Achaemenid Empire",
-      "coordinates_approx": "30.0\u00b0N, 31.0\u00b0E",
+      "title": "Darius I consolidates Persian control over Egypt",
+      "region": "Egypt / Achaemenid Persian Empire",
+      "coordinates_approx": "30.0, 31.0",
       "category": "political",
-      "description": "Darius I, having conquered Egypt in 525 BCE, continues administrative consolidation and the integration of Egypt into the Persian imperial system. He establishes Persian-style governance structures while respecting Egyptian religious traditions, presenting himself as pharaoh and patron of Egyptian temples. This period sees the construction of the Suez Canal (an ancient precursor) and increased trade integration between Egypt and the Persian heartland.",
+      "description": "Darius I, having conquered Egypt in 525 BCE, continues administrative consolidation and integration of Egypt into the Persian satrapy system. He presents himself as pharaoh and respects Egyptian religious institutions to secure loyalty. This period marks the beginning of stable Persian rule over Egypt, though local resistance persists. The integration of Egypt into the Persian tribute system significantly increases Persian wealth and military resources.",
       "key_figures": [
-        "Darius I (Persian Great King)",
-        "Egyptian priesthood (collaborating with Persian rule)"
+        "Darius I (King of Persia)",
+        "Egyptian priesthood"
       ],
       "sources": [
         {
           "name": "Herodotus, Histories (Book III)",
-          "type": "primary_text",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Egyptian temple inscriptions and administrative papyri",
+          "name": "Behistun Inscription (trilingual cuneiform)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian temple inscriptions and administrative records",
           "type": "epigraphic",
           "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Herodotus wrote ~80 years after these events. Egyptian administrative records confirm Persian rule but do not date specific actions to this year precisely.",
+      "certainty_note": "Darius's conquest of Egypt is dated to 525 BCE with high confidence; consolidation activities in 524 BCE are inferred from administrative continuity and temple records, but no specific event is dated precisely to this year.",
+      "cross_references": [
+        "-525-001 (Darius conquers Egypt)"
+      ]
+    },
+    {
+      "id": "-524-002",
+      "title": "Possible date of Buddha's birth (traditional dating)",
+      "region": "Shakya Kingdom / Northern India (modern Nepal/Uttar Pradesh border)",
+      "coordinates_approx": "27.5, 85.0",
+      "category": "religious",
+      "description": "According to some traditional Buddhist chronologies, Siddhartha Gautama (the Buddha) was born in 624 BCE; however, alternative chronologies place his birth in 563 BCE, 560 BCE, or other dates. The year 524 BCE falls within the period when, according to some traditions, Siddhartha was an ascetic seeking enlightenment. The exact dating of the Buddha's life remains one of the most contested problems in Asian historiography, with scholarly consensus favouring dates between 563\u2013483 BCE or 480\u2013400 BCE.",
+      "key_figures": [
+        "Siddhartha Gautama (Buddha)",
+        "Suddhodana (father, Shakya king)"
+      ],
+      "sources": [
+        {
+          "name": "Pali Canon (Tripitaka)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Sanskrit Buddhist texts (Mahayana traditions)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chinese Buddhist chronologies (e.g., Sima Qian's Shiji references)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "No contemporary sources document the Buddha's life. All dates are reconstructed from texts compiled centuries or millennia after the events. Modern scholarship is deeply divided; the most commonly cited range is 563\u2013483 BCE or 480\u2013400 BCE. The year 524 BCE is one of many proposed dates and has no stronger evidential basis than alternatives.",
       "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The date of the Buddha's death is one of the most contested issues in Buddhist and Indian history. While 524 BCE is cited in some traditional reckonings, modern scholarship favors dates ranging from 544 BCE to 400 BCE, with 486 BCE and 483 BCE being particularly common in academic literature. The Theravada tradition places it at 544 BCE; the Mahayana tradition at 483 BCE. No contemporary evidence exists to confirm any of these dates. The significance attributed to this event in Buddhist tradition is undisputed, but the historical dating is unreliable.",
-  "historiographic_note": "Documentation for 524 BCE is extremely sparse. For India, we rely almost entirely on Buddhist textual traditions compiled centuries after the events they describe, with no contemporary written records. For Persia, Herodotus provides the main Greek perspective, but he wrote decades later and had limited access to Persian administrative records. Egyptian sources are administrative and religious in nature, not narrative histories. Chinese sources (Spring and Autumn Annals) are more contemporary but focus on local states and do not provide global perspective. The historical record is heavily skewed toward elite political and religious events; economic, social, and technological developments are largely invisible.",
+  "disconfirming_evidence": "The dating of the Buddha's life is highly contested. While some traditional Buddhist chronologies place events in 524 BCE, modern scholarship has largely abandoned attempts to pinpoint exact dates and instead works with broad ranges (563\u2013483 BCE or 480\u2013400 BCE). The Pali Canon contains no internal chronological markers that allow precise dating. Archaeological evidence from Lumbini (traditional birthplace) does not provide definitive dating for the Buddha's life. The inclusion of this event at 524 BCE reflects traditional dating conventions but should not be interpreted as historical confirmation.",
+  "historiographic_note": "Documentation for 524 BCE is extremely sparse. The Persian administrative system under Darius I is well-attested through inscriptions and later Greek sources, but specific events in individual years are rarely dated precisely. For India and the Buddha, all sources are post-hoc compilations with significant chronological uncertainty. The historical record is heavily skewed toward the Persian Empire and Mediterranean regions; events in China, India, and other regions are either undated or dated through later traditions. Oral transmission and religious significance have shaped the preservation of narratives far more than contemporary documentation.",
   "graph_edges": [
     {
       "from": "-524-001",
-      "to": "-486-001",
-      "relation": "contradicts",
-      "note": "Alternative dating of Buddha's death places it at 486 BCE rather than 524 BCE"
+      "to": "-525-001",
+      "relation": "led_to",
+      "note": "Consolidation follows the initial conquest of Egypt by Darius I in 525 BCE"
     },
     {
       "from": "-524-002",
-      "to": "-525-001",
-      "relation": "led_to",
-      "note": "Continuation of Persian consolidation following the conquest of Egypt in 525 BCE"
+      "to": "-480-001",
+      "relation": "part_of",
+      "note": "Buddha's life and teachings span a period of approximately 80 years; exact chronology remains disputed"
     }
   ]
 }

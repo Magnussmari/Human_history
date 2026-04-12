@@ -1,0 +1,91 @@
+{
+  "year": -548,
+  "year_label": "548 BCE",
+  "era_context": "Mid-6th century BCE: Cyrus II's Achaemenid Empire is at the height of its early expansion. In Greece, the Archaic period continues; Athens remains under Peisistratos's tyranny. In China, the Spring and Autumn period is marked by interstate conflict and the rise of powerful states like Chu and Jin. In India, the Mahajanapadas are consolidating political power; the Buddha is likely in his early teaching career (if traditional dates are accepted).",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Southeast Asia",
+    "Central Asia (limited contemporary sources)"
+  ],
+  "events": [
+    {
+      "id": "-548-001",
+      "title": "Cyrus II campaigns in Central Asia and the Steppe",
+      "region": "Central Asia, Scythian territories",
+      "coordinates_approx": "45.0, 65.0",
+      "category": "military",
+      "description": "Cyrus II extends Persian control eastward into Central Asia, campaigning against Scythian and other nomadic peoples. These campaigns establish Persian dominance over the Silk Road trade routes and secure the northeastern frontier of the empire. The exact extent and dating of these campaigns are uncertain, but they represent a major phase of Persian imperial expansion.",
+      "key_figures": [
+        "Cyrus II (Achaemenid Great King)",
+        "Scythian leaders (names unknown)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories (Book I, IV)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Herodotus describes Cyrus's campaigns against the Massagetae and other Central Asian peoples, but dating is highly uncertain (\u00b110 years). No contemporary Persian or Scythian sources confirm the specific year.",
+      "cross_references": [
+        "Part of broader Persian expansion -560 to -530",
+        "Precedes Cyrus's death in Central Asia (traditional date -530)"
+      ]
+    },
+    {
+      "id": "-548-002",
+      "title": "State of Chu expands in the Yangtze River valley",
+      "region": "China, Yangtze River valley",
+      "coordinates_approx": "30.0, 115.0",
+      "category": "political",
+      "description": "During the Spring and Autumn period, the state of Chu, one of the major powers in southern China, continues its expansion and consolidation of territory in the Yangtze River valley. Chu's military strength and cultural influence grow, making it a rival to the northern states of Jin and Qi. This period marks the development of Chu's distinctive culture and administrative systems.",
+      "key_figures": [
+        "Chu rulers (specific names uncertain for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chunqiu (Spring and Autumn Annals)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Chunqiu provides a year-by-year record, but it is terse and often lacks detail. Sima Qian's Shiji, written ~400 years later, provides narrative context but may conflate or reorder events. Specific events for 548 BCE are not clearly distinguished.",
+      "cross_references": [
+        "Part of broader Spring and Autumn period interstate competition",
+        "Contemporary with similar expansions by Jin and Qi states"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Herodotus's account of Cyrus's death in battle against the Massagetae (traditionally dated to 530 BCE or later) is disputed by modern scholars; some suggest he died in Babylon or that the account is legendary. The precise chronology of Cyrus's Central Asian campaigns is highly uncertain and may be conflated with later Persian campaigns under Darius I. For China, the Chunqiu is a bare chronicle that does not provide sufficient detail to confirm specific political events for 548 BCE; later historians may have invented or embellished details.",
+  "historiographic_note": "For the Near East, sources are dominated by Greek historiographers writing centuries later, with minimal contemporary Persian documentation. For China, the Chunqiu is contemporary but extremely terse; most narrative detail comes from much later compilations like the Shiji. Archaeological evidence (pottery, inscriptions, stratigraphy) can confirm broad patterns but rarely pinpoints specific years. The historical record is heavily skewed toward the Mediterranean, Near East, and China; other regions are virtually undocumented for this year.",
+  "graph_edges": [
+    {
+      "from": "-548-001",
+      "to": "-530-001",
+      "relation": "led_to",
+      "note": "Cyrus's Central Asian campaigns culminated in his death in the region (traditional account)"
+    },
+    {
+      "from": "-548-002",
+      "to": "-500-001",
+      "relation": "part_of",
+      "note": "Chu's expansion continued throughout the Spring and Autumn period"
+    }
+  ]
+}

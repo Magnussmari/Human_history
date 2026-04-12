@@ -1,0 +1,112 @@
+{
+  "year": -507,
+  "year_label": "507 BCE",
+  "era_context": "Early Classical Greece in the aftermath of Cleisthenes' democratic reforms; Darius I's Persian Empire at its height; Confucius active in China; Iron Age societies across Europe and the Mediterranean.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Greek/Roman contact",
+    "Central Asia and the Steppe",
+    "Mesoamerica",
+    "Most of the Indian subcontinent"
+  ],
+  "events": [
+    {
+      "id": "-507-001",
+      "title": "Consolidation of Athenian democracy after Cleisthenes' reforms",
+      "region": "Athens, Greece",
+      "coordinates_approx": "37.97\u00b0N, 23.73\u00b0E",
+      "category": "political",
+      "description": "In the year following the Spartan intervention and Cleomenes' withdrawal, Athens consolidated its new democratic institutions. The Council of 500 (Boule) was functioning, the ten new tribes were organizing political participation, and the Assembly (Ekklesia) was becoming the primary decision-making body. This period marks the transition from aristocratic oligarchy to a more inclusive (though still limited to male citizens) democratic system. The reforms faced resistance from conservative elements but were ultimately successful in redistributing political power.",
+      "key_figures": [
+        "Cleisthenes (reformer)",
+        "Athenian citizens (male, adult)"
+      ],
+      "sources": [
+        {
+          "name": "Aristotle, Constitution of the Athenians, written ~330 BCE",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Herodotus, Histories, written ~440 BCE",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation of democratic institutions is inferred from the broader narrative of Cleisthenes' reforms and their aftermath. No specific events are recorded for 507 BCE itself, but the institutional development is well-attested in later sources.",
+      "cross_references": [
+        "Follows from -506-001 and -506-002"
+      ]
+    },
+    {
+      "id": "-507-002",
+      "title": "Persian Empire under Darius I\u2014territorial consolidation",
+      "region": "Persian Empire (Achaemenid)",
+      "coordinates_approx": "35.0\u00b0N, 50.0\u00b0E",
+      "category": "political",
+      "description": "Darius I continued to consolidate and administer the vast Persian Empire, which stretched from Egypt to the Indus Valley. He implemented administrative reforms, standardized weights and measures, and promoted the use of Aramaic as a lingua franca for imperial administration. The empire was at its territorial zenith, and Darius was engaged in organizing the satrapies (provinces) and collecting tribute. This period represents the height of Achaemenid power and organization.",
+      "key_figures": [
+        "Darius I (Persian Great King, r. 522\u2013486 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Behistun Inscription (cuneiform, trilingual), commissioned by Darius I",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Herodotus, Histories, written ~440 BCE",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Darius I's reign and administrative activities are well-documented in contemporary inscriptions (Behistun) and later Greek sources. The broad outline of his consolidation is confirmed.",
+      "cross_references": []
+    },
+    {
+      "id": "-507-003",
+      "title": "Confucius's influence in Lu\u2014moral and political philosophy",
+      "region": "State of Lu, China",
+      "coordinates_approx": "35.6\u00b0N, 117.2\u00b0E",
+      "category": "cultural",
+      "description": "Confucius continued his role as a moral and political advisor in the State of Lu, developing and refining his philosophical teachings. His emphasis on ritual propriety (li), filial piety (xiao), and virtuous governance was gaining influence among the educated elite. Though he held no major political office at this time, his reputation as a sage and teacher was growing. His teachings would eventually transform Chinese civilization, though this transformation occurred largely after his death.",
+      "key_figures": [
+        "Confucius (Kong Qiu, philosopher)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled ~109 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Lunyu (Analects), compiled by disciples",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Confucius's life and teaching career are traditionally dated, but no contemporary documentation exists. The Analects and Shiji were compiled centuries later and may contain legendary material.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No specific events are recorded for Athens in 507 BCE; the consolidation of democracy is inferred from the broader narrative. The exact chronology of Cleisthenes' reforms and their implementation remains debated. Confucius's activities in 507 BCE are entirely inferred from traditional chronologies with no contemporary documentation.",
+  "historiographic_note": "The historical record for 507 BCE is sparse. Greek sources (Herodotus, Aristotle) provide narrative context but no specific events for this year. Persian sources (Behistun Inscription) document Darius I's reign but not specific events in 507 BCE. Chinese sources are entirely dependent on later compilations. Archaeological evidence is minimal. The record is heavily biased toward elite political and military events; economic, social, and cultural developments are largely invisible except through inference.",
+  "graph_edges": [
+    {
+      "from": "-507-001",
+      "to": "-506-001",
+      "relation": "led_to",
+      "note": "Consolidation of Cleisthenes' democratic reforms"
+    },
+    {
+      "from": "-507-002",
+      "to": "-490-001",
+      "relation": "led_to",
+      "note": "Darius I's consolidation of the Persian Empire set the stage for the Persian Wars"
+    }
+  ]
+}

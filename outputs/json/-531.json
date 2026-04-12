@@ -1,0 +1,106 @@
+{
+  "year": -531,
+  "year_label": "531 BCE",
+  "era_context": "Continuation of the mid-6th century BCE: Achaemenid consolidation under Cyrus II, the Greek Archaic period with increasing interstate competition, the Spring and Autumn period in China, and the early Vedic period in South Asia. This year falls within a broader era of state formation, philosophical inquiry, and the development of written historical traditions.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written sources)",
+    "Northern Europe and Scandinavia (no written documentation)",
+    "Mesoamerica and South America (no written records)",
+    "Southeast Asia (minimal written sources; archaeological record incomplete)"
+  ],
+  "events": [
+    {
+      "id": "-531-001",
+      "title": "Cyrus II campaigns in Central Asia and the eastern frontier",
+      "region": "Achaemenid Empire (Central Asia, Bactria)",
+      "coordinates_approx": "37.0, 68.0",
+      "category": "military",
+      "description": "Cyrus II continued his military campaigns to consolidate and expand Persian control eastward into Central Asia, including the regions of Bactria and Sogdiana. These campaigns secured the eastern frontier of the Achaemenid Empire and brought wealthy trade-route territories under Persian suzerainty. The exact chronology of these campaigns is uncertain, but they occurred during the 530s BCE as part of Cyrus's broader imperial consolidation.",
+      "key_figures": [
+        "Cyrus II (Achaemenid Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories (5th century BCE)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography (1st century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The chronology of Cyrus II's eastern campaigns is poorly attested. Herodotus provides narrative but not precise dates. Modern scholars place these campaigns in the 530s\u2013520s BCE, but the specific year is uncertain. No contemporary Persian inscriptions detail these campaigns.",
+      "cross_references": []
+    },
+    {
+      "id": "-531-002",
+      "title": "Greek colonies and trade expansion in the Mediterranean",
+      "region": "Mediterranean (Greek city-states and colonies)",
+      "coordinates_approx": "38.0, 20.0",
+      "category": "economic",
+      "description": "During the 530s BCE, Greek city-states continued active colonization and trade expansion throughout the Mediterranean and Black Sea regions. This period saw the flourishing of trade networks, the development of early coinage, and increased cultural exchange. Cities like Corinth, Athens, and Miletus were major trading hubs. This economic expansion laid the foundation for the later classical Greek world.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Greek colonies and trade sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Herodotus, Histories (5th century BCE)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Archaeological evidence (pottery, coins, settlement patterns) confirms intensive Greek trade and colonization during the 6th century BCE. The specific year 531 BCE cannot be isolated, but the broader trend is well-established.",
+      "cross_references": []
+    },
+    {
+      "id": "-531-003",
+      "title": "Confucius born (traditional date: 551 BCE; alternative chronologies place birth in 530s)",
+      "region": "Eastern Zhou China (State of Lu)",
+      "coordinates_approx": "35.6, 117.0",
+      "category": "cultural",
+      "description": "The traditional date for the birth of Kong Qiu (Confucius) is given as 551 BCE in Chinese sources, but some modern scholars and alternative chronologies place his birth in the 530s BCE. Confucius would become the most influential philosopher in Chinese history, shaping ethics, governance, and social relations for millennia. The uncertainty in his birth date reflects the limitations of early Chinese chronology.",
+      "key_figures": [
+        "Kong Qiu / Confucius (philosopher)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian (1st century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Lunyu (Analects of Confucius)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The traditional date of 551 BCE is given in the Shiji, but this was compiled ~500 years after Confucius's lifetime. Modern scholars debate whether the traditional date is accurate or off by 10\u201320 years. No contemporary sources document Confucius's birth.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of Cyrus II's eastern campaigns is highly disputed. Some sources suggest these campaigns occurred earlier (540s BCE) or later (520s BCE). The exact sequence and dating of Persian imperial expansion remain uncertain due to the scarcity of contemporary Persian sources. Regarding Confucius: the traditional birth date of 551 BCE is questioned by modern scholars. Some argue for dates in the 530s or even 540s BCE. The Shiji's chronology for early Chinese history is known to be unreliable, with systematic errors of several years or more. The significance of Confucius in 531 BCE is anachronistic\u2014he was an unknown child at this time, and his influence only emerged decades later.",
+  "historiographic_note": "The historical record for 531 BCE is sparse and heavily dependent on later compilations. Greek sources are fragmentary and often anecdotal. Chinese sources (Shiji, Chunqiu) are more systematic but compiled centuries after events and contain chronological errors. Persian sources are minimal; contemporary inscriptions do not document events of this specific year. The record is dominated by elite political and military narratives; economic and social history is reconstructed primarily from archaeological evidence (pottery, coins, settlement patterns). Large regions of the world (Africa, northern Europe, the Americas, Southeast Asia) have no written documentation for this year.",
+  "graph_edges": [
+    {
+      "from": "-531-001",
+      "to": "-530-002",
+      "relation": "contemporary_with",
+      "note": "Part of Cyrus II's broader imperial consolidation"
+    },
+    {
+      "from": "-531-003",
+      "to": "-500-CONFUCIUS_TEACHINGS",
+      "relation": "led_to",
+      "note": "Birth (or childhood) of Confucius; his teachings would shape Chinese civilization"
+    }
+  ]
+}

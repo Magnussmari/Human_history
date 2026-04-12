@@ -1,0 +1,87 @@
+{
+  "year": -536,
+  "year_label": "536 BCE",
+  "era_context": "Mid-6th century BCE: Achaemenid Persia under Cyrus II is consolidating its western territories; Greek city-states remain independent but increasingly aware of Persian power; China is in the Spring and Autumn period with competing states; the Mediterranean is experiencing increased colonisation and trade. This is an era of intellectual ferment in Ionia and early philosophical schools.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania",
+    "Pre-Columbian Americas",
+    "Central Asia (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-536-001",
+      "title": "Polycrates of Samos consolidates naval power in the Aegean",
+      "region": "Samos, Aegean Sea, Ionia",
+      "coordinates_approx": "37.75, 26.98",
+      "category": "political",
+      "description": "Polycrates, tyrant of Samos, strengthens his control over the island and extends Samian naval influence throughout the Aegean. He builds a powerful fleet, establishes Samos as a major maritime power, and engages in piracy and trade. His rule is marked by cultural patronage (supporting poets and artists) and political maneuvering between Greek city-states and the rising Persian Empire. Polycrates's power will eventually attract Persian attention and lead to his downfall.",
+      "key_figures": [
+        "Polycrates (tyrant of Samos)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories (Book III)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Thucydides, History of the Peloponnesian War",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Polycrates's reign is dated c. 540\u2013522 BCE by ancient sources. His consolidation of power likely occurred in the early part of his reign; 536 BCE is approximate.",
+      "cross_references": [
+        "Precedes -522-001 (Polycrates's death under Persian pressure)"
+      ]
+    },
+    {
+      "id": "-536-002",
+      "title": "Anaximander of Miletus develops early map and cosmology",
+      "region": "Ionia, Miletus",
+      "coordinates_approx": "37.36, 27.27",
+      "category": "scientific",
+      "description": "Anaximander, a student of Thales, is credited with creating one of the first maps of the known world and developing a cosmological model in which the Earth is cylindrical and suspended in space. He proposes that the fundamental substance is the 'apeiron' (the infinite or boundless), advancing natural philosophy beyond Thales's water-based monism. His work represents a major step in Greek geometry, geography, and rational cosmology.",
+      "key_figures": [
+        "Anaximander of Miletus (natural philosopher, mathematician, geographer)"
+      ],
+      "sources": [
+        {
+          "name": "Aristotle, Physics and Metaphysics",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diogenes La\u00ebrtius, Lives of the Philosophers",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "Anaximander is traditionally dated to c. 610\u2013546 BCE, with his most active period in the mid-6th century. No contemporary documentation of his work survives; all accounts are from later sources.",
+      "cross_references": [
+        "Related to -535-002 (Thales, his predecessor in Ionian natural philosophy)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the dating of Polycrates's reign and his consolidation of power is uncertain; some sources place his rise to power as late as 535 BCE or as early as 545 BCE. The details of his naval activities and piracy are largely from Herodotus, written a century later, and may be exaggerated or legendary. Anaximander's map and cosmological theories are known only through later philosophical accounts; no contemporary written or archaeological evidence survives.",
+  "historiographic_note": "The year 536 BCE is poorly documented in contemporary sources. Most information comes from Greek historians writing 100\u2013400 years later (Herodotus, Thucydides, Diogenes La\u00ebrtius). Persian sources are sparse for this period. Chinese sources (Spring and Autumn Annals) provide records of East Asian events but are not translated or widely known in Western scholarship. The record is heavily biased toward Greek elites and intellectual figures; political and military events in Persia, Egypt, and other regions are underrepresented. Archaeological evidence for this year is minimal.",
+  "graph_edges": [
+    {
+      "from": "-536-001",
+      "to": "-522-001",
+      "relation": "led_to",
+      "note": "Polycrates's rise to power eventually leads to Persian pressure and his death"
+    },
+    {
+      "from": "-536-002",
+      "to": "-535-002",
+      "relation": "contemporary_with",
+      "note": "Anaximander and Thales are both active in Ionian natural philosophy"
+    }
+  ]
+}
