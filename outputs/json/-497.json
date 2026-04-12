@@ -1,0 +1,77 @@
+{
+  "year": -497,
+  "year_label": "497 BCE",
+  "era_context": "Early Classical Greece; Darius I rules the Achaemenid Persian Empire. The Ionian Revolt is in its second or third year. Athens is consolidating democratic institutions. Sparta dominates the Peloponnese. In China, the Spring and Autumn period is in its final decades. In India, the Buddha is in his final years or recently deceased (chronology disputed). The Mediterranean world is experiencing increased trade and cultural exchange.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "Most of the Indian subcontinent (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-497-001",
+      "title": "Ionian Revolt: Death of Aristagoras; leadership transitions",
+      "region": "Ionia and Thrace, Persian Empire",
+      "coordinates_approx": "38.5, 27.0",
+      "category": "military",
+      "description": "Aristagoras, the tyrant of Miletus who initiated the Ionian Revolt around 499 BCE, died around 497 BCE (exact date uncertain). According to Herodotus, he fled Miletus and was killed in Thrace while attempting to establish a colony. His death marked a transition in the revolt's leadership. The rebellion continued under other leaders, but the loss of its primary instigator weakened the movement's cohesion.",
+      "key_figures": [
+        "Aristagoras (tyrant of Miletus, died c. 497 BCE)",
+        "Histiaeus (former tyrant, became involved after Aristagoras' death)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories (Book V, 124-126)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Herodotus records Aristagoras' death in Thrace, but does not provide a precise date. The year 497 BCE is a scholarly estimate based on the timeline of the Ionian Revolt (499\u2013493 BCE). The exact year could be 498 or 496 BCE.",
+      "cross_references": [
+        "Part of -495-003 (Ionian Revolt)"
+      ]
+    },
+    {
+      "id": "-497-002",
+      "title": "Possible archonship of Hippocrates in Athens",
+      "region": "Athens, Attica, Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Hippocrates is traditionally listed as archon of Athens in 497 BCE, though the Athenian archon list has chronological uncertainties. Little is known about his tenure. This archonship falls during the early democratic period, before the Persian Wars.",
+      "key_figures": [
+        "Hippocrates (Athenian archon)"
+      ],
+      "sources": [
+        {
+          "name": "Aristotle, Constitution of the Athenians (archon list)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Athenian archon list is a later compilation with known chronological uncertainties. The date 497 BCE is traditional but not independently verified.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Herodotus does not provide a specific year for Aristagoras' death, only that it occurred in Thrace. Modern scholars have estimated it to around 497 BCE based on the overall timeline of the Ionian Revolt, but this is not a confirmed date. The archonship of Hippocrates is listed in later sources but is not independently attested and may be subject to the same chronological uncertainties as the broader archon list.",
+  "historiographic_note": "497 BCE is poorly documented in surviving sources. The main narrative comes from Herodotus, writing ~50 years later, and from later compilations of the Athenian archon list. No contemporary written records exist for this year. Archaeological evidence from destroyed Ionian cities provides some context but cannot be precisely dated to individual years. For most of the world outside the Mediterranean and China, no written records exist for this period. The historical record for 497 BCE is thin and heavily dependent on later Greek sources.",
+  "graph_edges": [
+    {
+      "from": "-497-001",
+      "to": "-495-003",
+      "relation": "part_of",
+      "note": "Aristagoras' death was part of the broader Ionian Revolt"
+    },
+    {
+      "from": "-497-001",
+      "to": "-494-001",
+      "relation": "led_to",
+      "note": "Leadership transition after Aristagoras' death contributed to the eventual collapse of the Ionian Revolt"
+    }
+  ]
+}

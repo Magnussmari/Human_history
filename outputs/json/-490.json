@@ -1,0 +1,107 @@
+{
+  "year": -490,
+  "year_label": "490 BCE",
+  "era_context": "Classical Greece in the early 5th century BCE, during the Persian Wars. The Achaemenid Persian Empire under Darius I was at its territorial zenith, having conquered Egypt and the Ionian Greek cities. Greek city-states, particularly Athens and Sparta, were consolidating power and developing democratic or oligarchic institutions. This decade marks the pivotal conflict between Greek independence and Persian imperial expansion.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [],
+  "events": [
+    {
+      "id": "-490-001",
+      "title": "Battle of Marathon",
+      "region": "Attica, Greece",
+      "coordinates_approx": "38.1\u00b0N, 24.0\u00b0E",
+      "category": "military",
+      "description": "The Athenian hoplite army, commanded by Miltiades, defeated a Persian expeditionary force led by Datis and Artaphernes near the town of Marathon. The Greeks, numbering approximately 10,000\u201311,000, faced a Persian force estimated at 20,000\u201325,000. The Athenian victory halted the first major Persian invasion attempt and became a defining moment in Greek identity and the broader Greco-Persian conflict. The battle demonstrated the effectiveness of Greek hoplite tactics against Persian infantry and cavalry, and it emboldened Greek resistance to further Persian expansion.",
+      "key_figures": [
+        "Miltiades (Athenian general)",
+        "Datis (Persian commander)",
+        "Artaphernes (Persian commander)",
+        "Callimachus (Athenian polemarch)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories, Book VI",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Miltiades",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological surveys of the Marathon plain",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Pausanias, Description of Greece",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle is attested in multiple ancient sources and is archaeologically supported. The date of 490 BCE is established by Herodotus and confirmed by modern chronological consensus. Specific casualty figures and tactical details vary among sources but the core event is certain.",
+      "cross_references": [
+        "Follows from -492-001 (Persian invasion preparations)",
+        "Leads to -480-001 (Second Persian invasion under Xerxes)"
+      ]
+    },
+    {
+      "id": "-490-002",
+      "title": "Ostracism of Aristides in Athens",
+      "region": "Athens, Greece",
+      "coordinates_approx": "37.97\u00b0N, 23.73\u00b0E",
+      "category": "political",
+      "description": "Aristides, an Athenian statesman and general known for his justice and integrity, was ostracized by popular vote in the Athenian assembly. The ostracism was likely driven by political rivalry with Themistocles and factional tensions within the Athenian demos. Aristides' removal from Athens for ten years reflected internal political competition even as the city faced external Persian threat. His ostracism is sometimes dated to 482 BCE, but ancient sources place it in the 480s, with some evidence suggesting 490 or shortly thereafter.",
+      "key_figures": [
+        "Aristides (Athenian statesman)",
+        "Themistocles (rival politician)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Aristides",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Themistocles",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The ostracism of Aristides is attested in multiple sources, but the precise date is disputed. Ancient sources vary between 490 and 482 BCE. Modern scholarship leans toward 482 BCE, making this entry approximate for 490 BCE.",
+      "cross_references": [
+        "Related to -490-001 (post-Marathon political dynamics)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional account of Marathon, particularly casualty figures and the narrative of a decisive Greek victory against overwhelming odds, has been subject to modern scholarly revision. Some scholars argue that Persian casualty figures (6,400 according to Herodotus) are inflated and that the Persian force may have been smaller than traditionally estimated. Additionally, the strategic significance of Marathon has been debated: some historians argue it was a minor engagement that did not fundamentally alter Persian strategic plans, which proceeded with the invasion under Xerxes a decade later. The ostracism of Aristides is traditionally dated to 482 BCE by most modern scholars, not 490 BCE, making its inclusion here uncertain.",
+  "historiographic_note": "The historical record for 490 BCE is dominated by Herodotus, writing 40\u201350 years after the events. His account is the primary narrative source for Marathon and is generally reliable for major events, but contains legendary elements and Persian casualty figures that are likely exaggerated. Archaeological evidence from the Marathon plain is limited but supports the occurrence of a major battle. Athenian sources are biased toward celebrating the victory and may minimize Persian strength. Persian sources are almost entirely absent from the surviving record, creating a one-sided narrative. The dating of Aristides' ostracism remains uncertain in the sources.",
+  "graph_edges": [
+    {
+      "from": "-490-001",
+      "to": "-480-001",
+      "relation": "led_to",
+      "note": "Marathon victory emboldened Greek resistance but did not prevent Xerxes' invasion; became a rallying point for Greek unity"
+    },
+    {
+      "from": "-490-001",
+      "to": "-490-002",
+      "relation": "contemporary_with",
+      "note": "Political tensions in Athens during and after Marathon campaign"
+    },
+    {
+      "from": "-492-001",
+      "to": "-490-001",
+      "relation": "led_to",
+      "note": "Darius I's invasion preparations led to the Marathon campaign"
+    }
+  ]
+}

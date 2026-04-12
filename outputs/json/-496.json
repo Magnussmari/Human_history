@@ -1,0 +1,89 @@
+{
+  "year": -496,
+  "year_label": "496 BCE",
+  "era_context": "Early Classical Greece during the reign of Darius I of Persia. Athens is in the early democratic period post-Cleisthenes; Sparta is the dominant Greek military power. The Ionian Revolt against Persian rule is ongoing. In China, the Spring and Autumn period is nearing its end (ends 476 BCE). In India, the Buddha's final years or recent death (depending on chronology). The Mediterranean is experiencing increased Greek colonisation and trade.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia (limited Greek sources)"
+  ],
+  "events": [
+    {
+      "id": "-496-001",
+      "title": "Ionian Revolt continues; Persian military response intensifies",
+      "region": "Ionia and eastern Aegean, Persian Empire",
+      "coordinates_approx": "38.5, 27.0",
+      "category": "military",
+      "description": "The Ionian Revolt (c. 499\u2013493 BCE) was in its middle phase around 496 BCE. Persian forces under Darius I were systematically suppressing the rebellion. The revolt had spread to include Aeolia, the Hellespont, and Cyprus. By this year, Persian military pressure was mounting, and several Ionian cities were being reconquered or besieged. The revolt would be fully suppressed by 493 BCE with the destruction of Miletus.",
+      "key_figures": [
+        "Darius I (Persian Great King)",
+        "Aristagoras (leader of revolt, died c. 497 BCE)",
+        "Histiaeus (former tyrant, involved in later stages)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories (Book V-VI)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from destroyed Ionian cities",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Ionian Revolt's general timeline is well-established, but specific events within individual years are difficult to date precisely. 496 BCE falls within the documented revolt period, but no specific event is definitively assigned to this year.",
+      "cross_references": [
+        "Part of -495-003 (Ionian Revolt)"
+      ]
+    },
+    {
+      "id": "-496-002",
+      "title": "Possible archonship of Callimachus in Athens",
+      "region": "Athens, Attica, Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Callimachus served as archon (chief magistrate) of Athens in what is traditionally dated to 496 BCE, though the Athenian archon list has chronological uncertainties. Callimachus would later be remembered as the polemarch (military commander) at the Battle of Marathon in 490 BCE. His archonship would have been during the early democratic period, before the major Persian invasions.",
+      "key_figures": [
+        "Callimachus (Athenian archon and later polemarch)"
+      ],
+      "sources": [
+        {
+          "name": "Aristotle, Constitution of the Athenians (list of archons)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Aristides",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Athenian archon list is known from later sources and has chronological uncertainties of \u00b11\u20132 years. Callimachus' archonship is traditionally dated to 496 BCE, but this date is not independently confirmed.",
+      "cross_references": [
+        "Relates to -490-001 (Battle of Marathon)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific events are definitively dated to 496 BCE in the historical record. The Ionian Revolt is confirmed as ongoing, but no particular battle, siege, or political event can be securely assigned to this year rather than adjacent years. The archonship of Callimachus is traditionally dated to 496 BCE, but the Athenian archon list has known chronological problems, and this date may be off by 1\u20132 years.",
+  "historiographic_note": "496 BCE falls in a period of moderate documentation for Greece but sparse documentation for the wider world. Greek sources (Herodotus, later compilations) provide the main narrative, but they were written decades or centuries after the events. The Athenian archon list is a later compilation with known gaps and uncertainties. For non-Greek regions, contemporary sources are virtually absent. This year is poorly attested in the historical record; it may be that no events of major historical significance occurred in this specific year, or that such events were not recorded by surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-496-001",
+      "to": "-494-001",
+      "relation": "led_to",
+      "note": "Continued Persian suppression of Ionian Revolt led to destruction of Miletus"
+    },
+    {
+      "from": "-496-002",
+      "to": "-490-001",
+      "relation": "led_to",
+      "note": "Callimachus' archonship preceded his role as polemarch at Marathon"
+    }
+  ]
+}

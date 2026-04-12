@@ -1,0 +1,90 @@
+{
+  "year": -501,
+  "year_label": "501 BCE",
+  "era_context": "The early Classical period is consolidating. Athens is in the early stages of democratic experimentation under Cleisthenes' reforms. The Persian Achaemenid Empire under Darius I is at its height, controlling vast territories from Egypt to the Indus Valley. In India, the Buddha and Mahavira are in their final years or recently deceased. China remains fragmented in the Spring and Autumn period. This is a transitional year with few dramatic events recorded in surviving sources, but the underlying political and intellectual currents are shaping the century to come.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written records; archaeological evidence exists but is underrepresented)",
+    "Mesoamerica (no written records; Maya civilisation is developing)",
+    "Northern Europe and the Steppe (sparse written documentation)",
+    "Southeast Asia (limited written records from this period)"
+  ],
+  "events": [
+    {
+      "id": "-501-001",
+      "title": "Athenian Archonship and Early Democratic Administration",
+      "region": "Attica, Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "In 501 BCE, Athens continues to function under the democratic system established by Cleisthenes' reforms. The archons (chief magistrates) are elected or selected by lot from among the citizens. The Council of 500 (Boule) meets regularly to conduct state business. While the system is still young and faces resistance from conservative aristocrats, it is becoming institutionalised. The year itself is not marked by any major political crisis or military campaign in the surviving sources, but the administrative machinery of Athenian democracy is operating.",
+      "key_figures": [
+        "Athenian archons (names not recorded in surviving sources for this specific year)",
+        "Members of the Boule (Council of 500)"
+      ],
+      "sources": [
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Athenian archon lists (later compilation, fragmentary)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The existence of democratic institutions in Athens by 501 BCE is well-established, but specific events or archons for this particular year are not recorded in surviving sources. The archon lists are incomplete and often unreliable for this period.",
+      "cross_references": [
+        "Part of the broader Cleisthenic reforms (-509 to -500)",
+        "Leads to the Athenian response to Persian threats (-490 onwards)"
+      ]
+    },
+    {
+      "id": "-501-002",
+      "title": "Persian Satrapy System Consolidates in Asia Minor",
+      "region": "Asia Minor (Anatolia), Persian Achaemenid Empire",
+      "coordinates_approx": "39.0, 35.0",
+      "category": "political",
+      "description": "The Persian satrapy system, established under Darius I, is functioning smoothly across Asia Minor by 501 BCE. The satrap (provincial governor) of Lydia and other satrapies collect taxes, maintain order, and report to the Great King in Susa. The Greek cities of Ionia are under Persian control, paying tribute and providing naval support. The system is efficient and allows the Achaemenid Empire to govern vast territories with a relatively small administrative apparatus. However, the burden of Persian rule and taxation will eventually provoke Greek resistance.",
+      "key_figures": [
+        "Darius I (Achaemenid Great King)",
+        "Satrap of Lydia and other Asia Minor satrapies (names not recorded for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories, Book III (description of satrapies)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Inscriptions of Darius (Behistun Inscription, Susa inscriptions)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The satrapy system is well-documented in Persian inscriptions and Greek sources. By 501 BCE, it is firmly established and functioning.",
+      "cross_references": [
+        "Part of Achaemenid administrative consolidation (-550 to -330)",
+        "Leads to Ionian Revolt (-500 to -494)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific events are recorded for 501 BCE in surviving sources. The year is historically significant only as part of the broader context of early Classical Athens and the Achaemenid Empire. No disconfirming evidence is identified because no major claims are made about this particular year.",
+  "historiographic_note": "501 BCE is a poorly documented year. No major events are recorded in surviving Greek, Persian, Indian, or Chinese sources. The historical record for this year consists mainly of the continuation of broader trends (Athenian democracy, Persian imperial administration) rather than discrete events. The absence of recorded events does not mean nothing happened; it reflects the limitations of the surviving historical record, which tends to emphasise dramatic events (wars, deaths of rulers, religious upheavals) over routine administration.",
+  "graph_edges": [
+    {
+      "from": "-501-001",
+      "to": "-500-001",
+      "relation": "part_of",
+      "note": "Athenian democratic administration is part of the ongoing Cleisthenic reforms."
+    },
+    {
+      "from": "-501-002",
+      "to": "-500-002",
+      "relation": "contemporary_with",
+      "note": "Persian satrapy system is functioning in parallel with Persian control of Egypt."
+    }
+  ]
+}

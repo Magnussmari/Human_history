@@ -1,0 +1,99 @@
+{
+  "year": -491,
+  "year_label": "491 BCE",
+  "era_context": "Classical Greece in the early 5th century BCE, in the immediate aftermath of the Battle of Marathon (490 BCE). Athens was consolidating its victory and its position as a leading Greek power. The Persian Empire remained a threat, though the immediate invasion had been repelled. Greek city-states were beginning to form alliances in anticipation of future Persian aggression. This period saw significant political and military reorganization in Greece.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Persian Empire internal affairs",
+    "Western Mediterranean (Sicily, Southern Italy)",
+    "Northern Europe and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-491-001",
+      "title": "Athenian Preparations and Naval Expansion",
+      "region": "Athens, Greece",
+      "coordinates_approx": "37.97\u00b0N, 23.73\u00b0E",
+      "category": "military",
+      "description": "In the year following Marathon, Athens undertook significant military preparations, including expansion of its navy and fortification of the city. Themistocles, rising in political influence, advocated for naval expansion and the development of the port at Piraeus. These preparations were driven by the recognition that the Persian threat remained and that future conflicts would require naval superiority. The Athenian assembly voted to use revenues from the silver mines at Laurion to fund trireme construction, a decision that would transform Athens into a naval power.",
+      "key_figures": [
+        "Themistocles (Athenian statesman and general)",
+        "Miltiades (Athenian general, post-Marathon)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Themistocles",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Herodotus, Histories, Book VII",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Athenian naval expansion is well-attested, but the precise dating of specific decisions to 491 BCE is uncertain. Ancient sources place the major naval expansion in the 480s, with some evidence suggesting it began in the early 490s.",
+      "cross_references": [
+        "Follows from -490-001 (Marathon victory)",
+        "Leads to -480-001 (Xerxes' invasion and naval battles)"
+      ]
+    },
+    {
+      "id": "-491-002",
+      "title": "Darius I's Continued Rule and Persian Consolidation",
+      "region": "Persian Empire (Achaemenid)",
+      "coordinates_approx": "35.0\u00b0N, 50.0\u00b0E",
+      "category": "political",
+      "description": "Darius I continued to rule the Achaemenid Persian Empire, which remained the dominant power in the Near East and western Asia. Following the failure of the Marathon expedition, Darius was occupied with consolidating Persian control over Egypt and the eastern provinces. The Persian Empire was at its territorial peak, stretching from Egypt to the Indus Valley. Darius was aging (he would die in 486 BCE) and was likely planning succession arrangements for his son Xerxes.",
+      "key_figures": [
+        "Darius I (Persian Great King)",
+        "Xerxes (heir apparent)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories, Books III and VII",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Behistun Inscription (cuneiform)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Aeschylus, Persae (The Persians)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Darius I's reign and the general state of the Persian Empire in 491 BCE are well-attested. His death in 486 BCE is confirmed by multiple sources.",
+      "cross_references": [
+        "Related to -490-001 (Marathon expedition)",
+        "Leads to -486-001 (Darius I's death and Xerxes' accession)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of Athenian naval expansion decisions to 491 BCE is uncertain; most modern scholars place the major naval building program in the 480s, particularly after 483 BCE when the Laurion silver strike is traditionally dated. The sources do not provide a clear year-by-year account of Athenian military preparations in 491 BCE specifically.",
+  "historiographic_note": "The historical record for 491 BCE is sparse compared to 490 BCE. Most surviving sources focus on the Marathon campaign and the later Xerxes invasion, with less attention to the intervening year. Persian sources are almost entirely absent. The account relies heavily on later Greek historians, particularly Herodotus and Plutarch, who may have compressed or rearranged events. Archaeological evidence for this specific year is minimal.",
+  "graph_edges": [
+    {
+      "from": "-491-001",
+      "to": "-480-001",
+      "relation": "led_to",
+      "note": "Athenian naval expansion enabled resistance to Xerxes' invasion"
+    },
+    {
+      "from": "-491-002",
+      "to": "-486-001",
+      "relation": "led_to",
+      "note": "Darius I's reign ended with his death; Xerxes succeeded him"
+    }
+  ]
+}

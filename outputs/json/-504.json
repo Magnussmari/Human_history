@@ -1,0 +1,60 @@
+{
+  "year": -504,
+  "year_label": "504 BCE",
+  "era_context": "The early Classical period is consolidating. Athens has recently expelled its tyrants (509 BCE) and is implementing Cleisthenes' democratic reforms. The Persian Achaemenid Empire under Darius I is at its height, controlling vast territories. In India, the Buddha and Mahavira are in their final years. China remains fragmented in the Spring and Autumn period. This year is not marked by major recorded events in surviving sources, but the underlying political and intellectual currents are shaping the century to come.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written records)",
+    "Mesoamerica (no written records)",
+    "Northern Europe and the Steppe (sparse written documentation)",
+    "Southeast Asia (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-504-001",
+      "title": "Cleisthenes' Ostracism Law Possibly Enacted",
+      "region": "Attica, Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "legal",
+      "description": "The ostracism law (ostrakismos), which allows Athenian citizens to vote annually to exile a prominent citizen for ten years, may have been enacted around 504 BCE, though the dating is uncertain. The law is designed to prevent the rise of tyrants by allowing the people to remove a potentially dangerous leader without trial or execution. The first recorded use of ostracism is in 487 BCE (against Hipparchus), but the law itself may have been established earlier. The institution becomes a distinctive feature of Athenian democracy, reflecting the citizens' fear of tyranny and their commitment to popular sovereignty.",
+      "key_figures": [
+        "Cleisthenes (Athenian reformer, possibly the author of the law)",
+        "Athenian assembly (voting body)"
+      ],
+      "sources": [
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Aristides",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The dating of the ostracism law is uncertain. Aristotle suggests it was enacted by Cleisthenes, but the first recorded use is in 487 BCE. Modern scholars debate whether it was enacted in the 500s BCE or later. The date 504 BCE is a conventional approximation.",
+      "cross_references": [
+        "Part of Cleisthenic democratic reforms (-509 to -500)",
+        "First used in -487-001 (ostracism of Hipparchus)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the ostracism law is highly disputed. Aristotle attributes it to Cleisthenes, but modern scholars question whether it was enacted as early as 504 BCE or whether it was a later addition to the democratic system. The first recorded use of ostracism is in 487 BCE, which suggests the law may have been enacted closer to that date. Some scholars argue that ostracism was not a formal law but rather an informal practice that became institutionalised over time.",
+  "historiographic_note": "504 BCE is poorly documented in surviving sources. The ostracism law is the only event tentatively assigned to this year, but its dating is uncertain. The surviving sources (Aristotle, Plutarch) were written centuries after the events they describe and may conflate or misdate earlier reforms. The historical record for this period is heavily dependent on later compilations and biographical accounts, which are prone to legendary embellishment and chronological uncertainty.",
+  "graph_edges": [
+    {
+      "from": "-504-001",
+      "to": "-487-001",
+      "relation": "led_to",
+      "note": "The ostracism law (if enacted in 504 BCE) is first used in 487 BCE to exile Hipparchus."
+    },
+    {
+      "from": "-504-001",
+      "to": "-509-001",
+      "relation": "part_of",
+      "note": "The ostracism law is part of the broader Cleisthenic democratic reforms."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "year": -492,
+  "year_label": "492 BCE",
+  "era_context": "Classical Greece in the early 5th century BCE, during the reign of Darius I of Persia. The Persian Empire was consolidating its power and preparing for expansion into Greece. Greek city-states were independent but increasingly aware of Persian military threat. This year marks the beginning of the Persian Wars, with the first Persian invasion attempt under Darius I.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Persian Empire internal administration",
+    "Western Mediterranean",
+    "Northern Europe and the Steppe",
+    "Sub-Saharan Africa"
+  ],
+  "events": [
+    {
+      "id": "-492-001",
+      "title": "First Persian Invasion of Greece (Mardonius Expedition)",
+      "region": "Greece, Thrace, Macedonia",
+      "coordinates_approx": "40.0\u00b0N, 23.0\u00b0E",
+      "category": "military",
+      "description": "Darius I sent a large military expedition under the command of Mardonius to conquer Greece and expand Persian control into Europe. The expedition included a substantial army and navy. Mardonius successfully conquered Thrace and Macedonia, bringing them under Persian control. However, the Persian fleet was severely damaged by a storm off Mount Athos, and the expedition was forced to retreat. The campaign demonstrated Persian military capability but also revealed vulnerabilities. The expedition's failure to reach southern Greece meant that the major Greek city-states remained independent, though the threat of future Persian invasion was now clear.",
+      "key_figures": [
+        "Mardonius (Persian general)",
+        "Darius I (Persian Great King)",
+        "Artaphernes (Persian satrap)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories, Book VI",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Miltiades",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Mardonius expedition is well-attested in ancient sources, particularly Herodotus. The date of 492 BCE is established by chronological consensus. The storm off Mount Athos is a famous detail in the historical record.",
+      "cross_references": [
+        "Leads to -490-001 (Marathon expedition)",
+        "Part of broader Persian Wars conflict"
+      ]
+    },
+    {
+      "id": "-492-002",
+      "title": "Thrace and Macedonia Subjugated by Persia",
+      "region": "Thrace and Macedonia",
+      "coordinates_approx": "41.0\u00b0N, 24.0\u00b0E",
+      "category": "political",
+      "description": "As part of the Mardonius expedition, Thrace and Macedonia were brought under Persian control. These regions became Persian satrapies, obligated to provide tribute and military support to the Achaemenid Empire. The subjugation of these territories extended Persian power into Europe and positioned Persia for future campaigns against southern Greece. The conquest was relatively swift, suggesting limited organized resistance from the local populations.",
+      "key_figures": [
+        "Mardonius (Persian general)",
+        "Amyntas I (King of Macedonia, likely submitted)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories, Book VI",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The subjugation of Thrace and Macedonia by Mardonius is attested in multiple ancient sources. The date of 492 BCE is established by chronological consensus.",
+      "cross_references": [
+        "Related to -492-001 (Mardonius expedition)",
+        "Leads to -480-001 (Xerxes' invasion route through Macedonia)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The extent of Mardonius' success in 492 BCE is debated by modern scholars. Some argue that the expedition was more limited in scope than Herodotus suggests, and that the storm off Mount Athos may have been exaggerated or mythologized. The precise number of troops involved and the extent of territory conquered remain uncertain. Additionally, the degree to which Thrace and Macedonia were 'conquered' versus 'submitted' or 'allied' is unclear from the sources.",
+  "historiographic_note": "The historical record for 492 BCE relies almost entirely on Herodotus, writing 40+ years after the events. His account is generally reliable for major military campaigns but may contain legendary elements, particularly regarding the storm off Mount Athos. Persian sources are absent from the surviving record. The perspective is entirely Greek, potentially biasing the narrative toward emphasizing Persian aggression and Greek resistance. Archaeological evidence for this specific year is minimal.",
+  "graph_edges": [
+    {
+      "from": "-492-001",
+      "to": "-490-001",
+      "relation": "led_to",
+      "note": "Mardonius expedition's failure prompted Darius to send the Marathon expedition"
+    },
+    {
+      "from": "-492-002",
+      "to": "-480-001",
+      "relation": "led_to",
+      "note": "Persian control of Thrace and Macedonia provided a base for Xerxes' invasion"
+    }
+  ]
+}

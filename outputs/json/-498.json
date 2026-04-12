@@ -1,0 +1,83 @@
+{
+  "year": -498,
+  "year_label": "498 BCE",
+  "era_context": "Early Classical Greece; Darius I rules the Achaemenid Persian Empire. The Ionian Revolt is in its second year (c. 499\u2013493 BCE). Athens is consolidating democratic reforms. Sparta is the dominant Greek military power. In China, the Spring and Autumn period is in its final decades. In India, the Buddha is in his final years or recently deceased (chronology highly disputed). The Mediterranean world is experiencing increased trade and cultural exchange.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "Most of the Indian subcontinent"
+  ],
+  "events": [
+    {
+      "id": "-498-001",
+      "title": "Ionian Revolt: Expansion to Cyprus and the Hellespont",
+      "region": "Ionia, Cyprus, Hellespont, Persian Empire",
+      "coordinates_approx": "38.5, 27.0",
+      "category": "military",
+      "description": "During the Ionian Revolt (c. 499\u2013493 BCE), the rebellion expanded beyond Ionia to include Cyprus and cities along the Hellespont around 498 BCE. The revolt spread to Aeolia and other regions. This expansion represented the peak of the rebellion's geographic reach before Persian forces began systematic reconquest. The involvement of Cyprus and the Hellespont increased the strategic threat to Persian control of the eastern Mediterranean.",
+      "key_figures": [
+        "Aristagoras (leader of revolt)",
+        "Darius I (Persian Great King)",
+        "Onesilos (leader of Cypriot revolt)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories (Book V)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Cyprus and Ionian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The expansion of the Ionian Revolt to Cyprus and the Hellespont is attested in Herodotus, but the precise year is not specified. 498 BCE is a scholarly estimate based on the overall timeline of the revolt. The expansion likely occurred in the second year of the revolt, which would place it around 498 BCE.",
+      "cross_references": [
+        "Part of -495-003 (Ionian Revolt)"
+      ]
+    },
+    {
+      "id": "-498-002",
+      "title": "Possible archonship of Phrynichus in Athens",
+      "region": "Athens, Attica, Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Phrynichus is traditionally listed as archon of Athens in 498 BCE, though the Athenian archon list has chronological uncertainties. Phrynichus was a prominent Athenian politician of the early democratic period. Little specific information survives about his archonship.",
+      "key_figures": [
+        "Phrynichus (Athenian archon and politician)"
+      ],
+      "sources": [
+        {
+          "name": "Aristotle, Constitution of the Athenians (archon list)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Athenian archon list is a later compilation with known chronological uncertainties of \u00b11\u20132 years. The date 498 BCE is traditional but not independently verified.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Herodotus does not provide a specific year for the expansion of the Ionian Revolt to Cyprus and the Hellespont. The date 498 BCE is a scholarly estimate based on the overall timeline of the revolt (499\u2013493 BCE), but it could be 497 or 499 BCE. The archonship of Phrynichus is listed in later sources but is not independently confirmed and may be subject to chronological uncertainties.",
+  "historiographic_note": "498 BCE is poorly documented in surviving sources. The main narrative comes from Herodotus, writing ~50 years later. No contemporary written records exist for this year. Archaeological evidence from destroyed Ionian and Cypriot sites provides some context but cannot be precisely dated to individual years. The Athenian archon list is a later compilation with known gaps and uncertainties. For most of the world outside the Mediterranean, no written records exist for this period.",
+  "graph_edges": [
+    {
+      "from": "-498-001",
+      "to": "-495-003",
+      "relation": "part_of",
+      "note": "Expansion of Ionian Revolt was part of the broader rebellion"
+    },
+    {
+      "from": "-498-001",
+      "to": "-494-001",
+      "relation": "led_to",
+      "note": "Expanded revolt eventually led to Persian suppression and destruction of Miletus"
+    }
+  ]
+}
