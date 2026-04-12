@@ -1,0 +1,84 @@
+{
+  "year": -1505,
+  "year_label": "1506 BCE",
+  "era_context": "Late Bronze Age, mid-second millennium BCE. The New Kingdom of Egypt under Thutmose I is consolidating power in the Levant and Nubia. The Hittite Old Kingdom is active in Anatolia. Mycenaean Greece is in the Late Helladic II period. The Shang Dynasty dominates the Yellow River valley in China. This is an era of palace-based bureaucratic states, long-distance trade networks (tin, lapis lazuli, cedar), and increasing military sophistication.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Southeast Asia and the Pacific (sparse written records)",
+    "The Americas (no written records; archaeological dating uncertain)",
+    "Northern Europe (minimal contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1505-001",
+      "title": "Thutmose I campaigns in the Levant and Syria",
+      "region": "Egypt, Levant, Syria",
+      "coordinates_approx": "32.5, 35.0",
+      "category": "military",
+      "description": "Thutmose I of Egypt (r. ~1504\u20131492 BCE) conducts military campaigns to consolidate Egyptian control over the Levantine territories and push northward into Syria. These campaigns establish Egyptian hegemony over the region and secure trade routes for valuable commodities including cedar from the Levantine coast. The campaigns are documented in temple inscriptions at Karnak and represent a major expansion of New Kingdom Egyptian power.",
+      "key_figures": [
+        "Thutmose I (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions and reliefs (Thutmose I campaign records)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on New Kingdom Egyptian chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Thutmose I's reign is well-attested in Egyptian sources, but precise dating of individual campaigns within his reign varies by \u00b12\u20133 years depending on chronological system used (conventional vs. low chronology).",
+      "cross_references": [
+        "-1504-001 (Thutmose I's accession)"
+      ]
+    },
+    {
+      "id": "-1505-002",
+      "title": "Hittite Old Kingdom consolidation under Hantili I",
+      "region": "Anatolia (Hittite heartland)",
+      "coordinates_approx": "40.5, 34.5",
+      "category": "political",
+      "description": "Hantili I of the Hittites (r. ~1525\u20131500 BCE, dates disputed) rules during a period of internal consolidation and expansion of Hittite power in central Anatolia. The Old Kingdom Hittites are establishing administrative structures and military organization that will define the later empire. Evidence comes from later Hittite historical texts and fragmentary contemporary records.",
+      "key_figures": [
+        "Hantili I (Hittite King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite historical texts (later compilations, e.g., Telepinu Edict)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Hattusa and other Anatolian sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hittite Old Kingdom chronology is notoriously uncertain. Dates for Hantili I range from ~1525\u20131500 BCE across different scholarly systems. Assignment to -1505 is conventional but carries \u00b110\u201315 year uncertainty.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Thutmose I's reign and campaigns is subject to ongoing scholarly debate. Some scholars using 'low chronology' place Thutmose I's reign 50\u2013100 years later than conventional dating. The Hittite Old Kingdom chronology is particularly disputed; some scholars argue for a 'short chronology' that would place Hantili I significantly later. No single event listed here has unambiguous contemporary dating to this specific year.",
+  "historiographic_note": "Documentation for this year is heavily dependent on Egyptian temple inscriptions and later Hittite compilations. Egyptian sources are abundant but often propagandistic (emphasizing pharaonic military success). Hittite sources are fragmentary and mostly later compilations. There is virtually no contemporary written record from the Levant, Syria, or Anatolia outside of Egyptian and Hittite sources. Archaeological evidence (pottery, stratigraphy, destruction layers) provides some independent confirmation but is difficult to date precisely to individual years. The historical record is skewed toward the major palace-based states; the experiences of smaller polities, rural populations, and non-literate societies are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-1505-001",
+      "to": "-1500-001",
+      "relation": "part_of",
+      "note": "Thutmose I's Levantine campaigns are part of a broader pattern of New Kingdom Egyptian expansion in the 16th\u201315th centuries BCE"
+    },
+    {
+      "from": "-1505-002",
+      "to": "-1450-001",
+      "relation": "led_to",
+      "note": "Hittite Old Kingdom consolidation under Hantili I eventually leads to the rise of the Hittite New Kingdom in the 14th century BCE"
+    }
+  ]
+}

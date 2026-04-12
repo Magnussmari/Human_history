@@ -1,0 +1,85 @@
+{
+  "year": -1491,
+  "year_label": "1491 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Thutmose III. The Mycenaean civilization in Greece is flourishing. In Mesopotamia, the Kassite dynasty rules Babylon. The Shang Dynasty continues in China. This period is characterized by extensive international trade networks, palace-centered economies, and the dominance of chariot-based military technology.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania",
+    "Americas",
+    "Central Asia (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-1491-001",
+      "title": "Thutmose III's consolidation of Levantine territories",
+      "region": "Egypt, Levant",
+      "coordinates_approx": "33.5, 35.5",
+      "category": "political",
+      "description": "Following earlier military campaigns, Thutmose III consolidates Egyptian administrative control over conquered Levantine territories. Egyptian officials are installed in key cities; tribute systems are formalized; and Egyptian military garrisons are established. This administrative consolidation transforms the Levant from a zone of military conquest into an integrated part of the Egyptian imperial system, generating substantial wealth through taxation and trade monopolies.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri and ostraca",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation of Levantine control is well-attested in Egyptian sources, but precise year-by-year dating within Thutmose III's reign carries \u00b12-5 year uncertainty.",
+      "cross_references": [
+        "-1490-001"
+      ]
+    },
+    {
+      "id": "-1491-002",
+      "title": "Mycenaean palace economies at their height",
+      "region": "Greece (Mycenaean civilization)",
+      "coordinates_approx": "37.7, 23.0",
+      "category": "economic",
+      "description": "The Mycenaean palace centers (Mycenae, Tiryns, Pylos) are at the height of their economic and political power. Linear B tablets from this period document complex administrative systems managing agricultural production, textile manufacture, and long-distance trade. Mycenaean merchants trade with Egypt, the Levant, and Anatolia, exchanging olive oil, wine, and crafted goods for tin, copper, and luxury items. The palace economies are characterized by centralized control, specialized labor, and extensive record-keeping.",
+      "key_figures": [
+        "Mycenaean palace rulers (specific identities uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos, Mycenae, and Tiryns",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from palace excavations",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Mycenaean civilization is well-attested archaeologically, but precise dating to -1491 relies on pottery chronology and radiocarbon dating, with \u00b125-50 year margins of error.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The extent of Egyptian administrative control over the Levant is debated. Some scholars argue that Egyptian hegemony was more fragile and contested than royal inscriptions suggest, with local rulers maintaining significant autonomy. Mycenaean chronology is uncertain; some scholars place the height of Mycenaean palace economies earlier or later than conventional dating. The Linear B tablets provide rich administrative detail but are biased toward palace concerns and may not represent the full economic reality of Mycenaean society.",
+  "historiographic_note": "For -1491, documentation is concentrated in Egypt and the Aegean. Egyptian sources are royal propaganda celebrating military and administrative achievements. Mycenaean Linear B tablets provide administrative detail but are limited to palace records. The perspective of conquered or tributary peoples is largely absent. Mesopotamian sources for this period are less detailed than Egyptian or Mycenaean records. The broader Mediterranean and Near Eastern world is documented only through fragmentary evidence.",
+  "graph_edges": [
+    {
+      "from": "-1491-001",
+      "to": "-1490-001",
+      "relation": "led_to",
+      "note": "Administrative consolidation follows military campaigns"
+    },
+    {
+      "from": "-1491-002",
+      "to": "-1490-002",
+      "relation": "contemporary_with",
+      "note": "Mycenaean and Shang economies operate in parallel but without direct contact"
+    }
+  ]
+}

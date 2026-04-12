@@ -1,0 +1,92 @@
+{
+  "year": -1494,
+  "year_label": "1494 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Thutmose III. The Mycenaean civilization is flourishing in Greece. The Kassite dynasty rules Babylon. The Shang Dynasty continues in China. This period is characterized by extensive international trade networks, palace-centered economies, and military consolidation of imperial power. The eastern Mediterranean is dominated by Egyptian hegemony.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania",
+    "Americas",
+    "Central Asia",
+    "India"
+  ],
+  "events": [
+    {
+      "id": "-1494-001",
+      "title": "Thutmose III's military campaigns in the Levant",
+      "region": "Egypt, Levant, Syria",
+      "coordinates_approx": "33.5, 35.5",
+      "category": "military",
+      "description": "Thutmose III continues his systematic military campaigns to consolidate Egyptian control over Levantine and Syrian territories. These campaigns are documented in the Karnak temple inscriptions and represent part of his broader strategy to establish Egyptian hegemony over the eastern Mediterranean. The campaigns involve rapid mobilization of chariot forces, siege warfare, and the subjugation of local rulers who are then incorporated into the Egyptian tributary system. The success of these campaigns establishes Egypt as the dominant power in the eastern Mediterranean.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions (Annals of Thutmose III)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Thutmose III's campaigns are well-documented, but precise year-by-year dating within his 54-year reign carries \u00b12-5 year uncertainty. The assignment to -1494 is based on conventional Egyptian chronology.",
+      "cross_references": [
+        "-1490-001",
+        "-1491-001",
+        "-1492-001",
+        "-1493-001"
+      ]
+    },
+    {
+      "id": "-1494-002",
+      "title": "Mycenaean trade networks in the eastern Mediterranean",
+      "region": "Greece, Aegean, eastern Mediterranean",
+      "coordinates_approx": "37.7, 23.0",
+      "category": "economic",
+      "description": "Mycenaean merchants and traders are active throughout the eastern Mediterranean, exchanging goods with Egypt, the Levant, Anatolia, and Cyprus. Mycenaean pottery and artifacts are found in Egyptian contexts, and Egyptian goods are found in Mycenaean palaces. This trade network facilitates the exchange of luxury goods, raw materials (tin, copper), and agricultural products (olive oil, wine). The trade networks are documented through archaeological evidence and Linear B tablets, which record the organization of trade and the movement of goods.",
+      "key_figures": [
+        "Mycenaean palace rulers and merchants (specific identities uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos, Mycenae, and Tiryns",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from palace excavations and pottery analysis",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Mycenaean trade networks are well-attested archaeologically, but precise dating to -1494 relies on pottery chronology and radiocarbon dating, with \u00b125-50 year margins of error.",
+      "cross_references": [
+        "-1491-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The extent of Egyptian control over the Levant is debated. Some scholars argue that Egyptian hegemony was more fragile and contested than royal inscriptions suggest. Mycenaean chronology is uncertain; some scholars place the height of Mycenaean trade networks earlier or later than conventional dating. The Linear B tablets provide rich administrative detail but are biased toward palace concerns and may not represent the full economic reality of Mycenaean society.",
+  "historiographic_note": "For -1494, documentation is concentrated in Egypt and the Aegean. Egyptian sources are royal propaganda celebrating military achievements. Mycenaean Linear B tablets and archaeological evidence provide detail on trade networks and palace economies. The perspective of conquered or tributary peoples is largely absent. Mesopotamian sources for this period are less detailed than Egyptian sources. The broader world\u2014Africa, Asia, the Americas\u2014is largely undocumented in written sources. Chronological uncertainty is significant; different scholarly systems can place events 50-100+ years apart.",
+  "graph_edges": [
+    {
+      "from": "-1494-001",
+      "to": "-1493-001",
+      "relation": "led_to",
+      "note": "Continued military campaigns consolidate Egyptian hegemony"
+    },
+    {
+      "from": "-1494-002",
+      "to": "-1493-002",
+      "relation": "contemporary_with",
+      "note": "Mycenaean trade networks and Shang oracle bone divination operate in parallel without direct contact"
+    },
+    {
+      "from": "-1494-002",
+      "to": "-1494-001",
+      "relation": "contemporary_with",
+      "note": "Mycenaean trade networks operate within the context of Egyptian hegemony in the eastern Mediterranean"
+    }
+  ]
+}

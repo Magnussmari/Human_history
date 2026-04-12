@@ -1,0 +1,82 @@
+{
+  "year": -1490,
+  "year_label": "1490 BCE",
+  "era_context": "Late Bronze Age, approximately mid-18th Dynasty Egypt under Thutmose III's reign. The New Kingdom Egyptian empire is at its height of territorial expansion. In Mesopotamia, the Middle Babylonian period is underway. The Mycenaean civilization dominates the Aegean. In China, the Shang Dynasty continues its rule. This is an era of palace economies, long-distance trade networks, and military consolidation of imperial power.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this specific year)",
+    "Northern Europe (sparse written records)",
+    "Oceania (no written records; archaeological dating uncertain)",
+    "Americas (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-1490-001",
+      "title": "Thutmose III's military campaigns in the Levant",
+      "region": "Egypt, Levant (modern Syria, Lebanon, Palestine)",
+      "coordinates_approx": "33.5, 35.5",
+      "category": "military",
+      "description": "Thutmose III, one of Egypt's greatest military commanders, continues his systematic campaigns to consolidate Egyptian control over the Levantine territories. These campaigns, documented in temple inscriptions at Karnak, establish Egyptian hegemony over Canaan and Syria, securing trade routes and tribute. The campaigns are characterized by rapid mobilization, siege warfare, and the use of chariotry. These military successes form the foundation of Egypt's 18th Dynasty imperial power and reshape the geopolitical balance of the eastern Mediterranean.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions (Annals of Thutmose III)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Deir el-Bahari temple reliefs",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Thutmose III's reign is well-documented, but precise year-by-year dating within his 54-year reign relies on Egyptian regnal chronology, which has \u00b12-5 year uncertainties. This event is assigned to -1490 based on conventional chronological reconstructions.",
+      "cross_references": []
+    },
+    {
+      "id": "-1490-002",
+      "title": "Shang Dynasty oracle bone divination practices",
+      "region": "China (Anyang, Henan Province)",
+      "coordinates_approx": "36.1, 114.3",
+      "category": "cultural",
+      "description": "During the Shang Dynasty, oracle bone divination (scapulimancy) is a central practice of royal governance and religious authority. Bones and turtle shells are heated and inscribed with questions about harvests, warfare, and divine will. The resulting cracks are interpreted as answers from ancestors and deities. These practices, evidenced by thousands of excavated oracle bones from Anyang, reveal the Shang state's administrative structure, military campaigns, and cosmological beliefs. The inscriptions on these bones constitute the earliest known Chinese writing system.",
+      "key_figures": [
+        "Shang Dynasty rulers (specific ruler for -1490 uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bones excavated from Anyang",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Oracle bone practice is confirmed for the Shang Dynasty broadly, but precise dating to -1490 is uncertain. Shang chronology remains debated; conventional dating places this period within the Shang, but \u00b150-100 year uncertainties exist.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of Thutmose III's individual campaigns remains contested. Some scholars argue that the Karnak inscriptions conflate multiple campaigns or reorder events for narrative effect. Additionally, the conventional Egyptian chronology used to place these events at -1490 is debated; some scholars propose a 'low chronology' that would shift these dates forward by 50-150 years. Shang Dynasty chronology is particularly uncertain; some scholars place the Shang much later than traditional dating, which would shift oracle bone practices to a later period.",
+  "historiographic_note": "Documentation for -1490 is heavily skewed toward Egypt and China, where written records and archaeological evidence are rich. The Egyptian record is dominated by royal inscriptions celebrating military victories, which may overstate Egyptian control and understate local resistance. Chinese oracle bones provide unique insight into Shang governance but are biased toward royal concerns. The Levantine perspective on Egyptian campaigns is largely absent from surviving records. Sub-Saharan Africa, the Americas, and Oceania have no written records for this year; any historical reconstruction relies on archaeological inference with large dating margins of error.",
+  "graph_edges": [
+    {
+      "from": "-1490-001",
+      "to": "-1489-001",
+      "relation": "led_to",
+      "note": "Thutmose III's campaigns establish Egyptian hegemony that persists through the following decades"
+    },
+    {
+      "from": "-1490-002",
+      "to": "-1489-002",
+      "relation": "contemporary_with",
+      "note": "Oracle bone divination continues as a central Shang practice"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "year": -1492,
+  "year_label": "1492 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt. Thutmose III is consolidating his empire. The Mycenaean civilization is flourishing in Greece. The Kassite dynasty rules Babylon. The Shang Dynasty continues in China. This is an era of palace-centered economies, extensive trade networks, and military consolidation of imperial power across multiple civilizations.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania",
+    "Americas",
+    "Central Asia",
+    "India (limited written records for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-1492-001",
+      "title": "Thutmose III's military campaigns continue in Syria",
+      "region": "Egypt, Syria, Levant",
+      "coordinates_approx": "34.5, 36.5",
+      "category": "military",
+      "description": "Thutmose III continues his systematic military campaigns in Syria, consolidating Egyptian control over northern Levantine territories. These campaigns are documented in the Karnak temple inscriptions and represent part of his broader strategy to establish Egyptian hegemony over the eastern Mediterranean. The campaigns involve siege warfare, chariot-based tactics, and the subjugation of local rulers who are then incorporated into the Egyptian tributary system.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions (Annals of Thutmose III)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Thutmose III's campaigns are well-documented, but precise year-by-year dating within his 54-year reign carries \u00b12-5 year uncertainty. The assignment to -1492 is based on conventional Egyptian chronology.",
+      "cross_references": [
+        "-1490-001",
+        "-1491-001"
+      ]
+    },
+    {
+      "id": "-1492-002",
+      "title": "Kassite Babylon under Kurigalzu I",
+      "region": "Mesopotamia (Babylon)",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "The Kassite dynasty rules Babylon during this period. Kurigalzu I (or a contemporary Kassite ruler) maintains Babylon's position as a major power in Mesopotamia. The Kassites, originally from the Zagros Mountains, have adopted Babylonian culture and administrative practices. Babylon maintains trade relationships with Egypt, the Levant, and Anatolia. The Kassite period is characterized by relative stability and the development of a distinctive Kassite-Babylonian culture.",
+      "key_figures": [
+        "Kurigalzu I or contemporary Kassite ruler (Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian king lists and chronicles",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform inscriptions from Babylon",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Kassite chronology is debated among scholars. The conventional dating places Kurigalzu I's reign in the 15th century BCE, but \u00b125-50 year uncertainties exist. The assignment to -1492 is approximate.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The extent and success of Thutmose III's Syrian campaigns are debated. Some scholars argue that Egyptian control was more limited and contested than royal inscriptions suggest. Kassite chronology is particularly uncertain; different scholarly systems place the Kassite period at different absolute dates, with potential shifts of 50-100+ years. The conventional dating used here may not reflect the true chronological position of Kassite Babylon.",
+  "historiographic_note": "For -1492, documentation is concentrated in Egypt and Mesopotamia. Egyptian sources are royal propaganda. Mesopotamian sources are fragmentary and often later compilations. The Mycenaean world is documented through archaeology and Linear B tablets but lacks detailed historical narrative for this specific year. The broader world\u2014Africa, Asia, the Americas\u2014is largely undocumented in written sources. Chronological uncertainty increases significantly for this period; different scholarly systems can place events 50-100+ years apart.",
+  "graph_edges": [
+    {
+      "from": "-1492-001",
+      "to": "-1491-001",
+      "relation": "led_to",
+      "note": "Continued military campaigns support administrative consolidation"
+    },
+    {
+      "from": "-1492-002",
+      "to": "-1491-002",
+      "relation": "contemporary_with",
+      "note": "Kassite Babylon and Mycenaean Greece operate as contemporary powers with indirect trade contact"
+    }
+  ]
+}
