@@ -1,0 +1,123 @@
+{
+  "year": 181,
+  "year_label": "181 CE",
+  "era_context": "The Han Dynasty is in its final decades, weakened by court factionalism and eunuch dominance. The Roman Empire under Commodus faces internal conspiracies and military pressure on multiple frontiers. In India, the Satavahana Dynasty controls the Deccan and maritime trade routes. This is a period of imperial overextension and the emergence of forces that will reshape Eurasia\u2014religious movements, military strongmen, and barbarian pressure on imperial frontiers.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "181-001",
+      "title": "Han Dynasty court factionalism and eunuch dominance",
+      "region": "Eastern Han China, capital Luoyang",
+      "coordinates_approx": "34.6, 112.4",
+      "category": "political",
+      "description": "The Han court is dominated by competing factions: the eunuchs (who control the imperial household) and the literati-officials (who control the bureaucracy). This year marks a continuation of the power struggle that has characterized the late Han period. The eunuchs' dominance prevents effective governance and contributes to the administrative collapse that will enable the Yellow Turban Rebellion in the following years.",
+      "key_figures": [
+        "Emperor Lingdi (Han Emperor, r. 168\u2013189 CE)",
+        "Eunuch faction leaders"
+      ],
+      "sources": [
+        {
+          "name": "Book of the Later Han (Hou Han Shu), compiled 5th century CE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Records of the Three Kingdoms (Sanguozhi) by Chen Shou",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Court factionalism is well-attested for the late Han period, but specific events in 181 CE are not clearly distinguished in surviving sources. The year is assigned by convention to represent the broader trend.",
+      "cross_references": [
+        "Part of broader Han decline documented from 160s CE onward",
+        "Led directly to Yellow Turban Rebellion in 184\u2013185 CE"
+      ]
+    },
+    {
+      "id": "181-002",
+      "title": "Commodus becomes sole emperor after Marcus Aurelius's death",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Emperor Commodus, who became co-emperor with his father Marcus Aurelius in 177 CE, now rules alone following his father's death in 180 CE. Commodus's reign is characterized by political instability, military pressure on multiple frontiers, and increasing reliance on the Praetorian Guard. This year marks the consolidation of his autocratic rule and the beginning of the political crisis that will destabilize the Roman Empire.",
+      "key_figures": [
+        "Commodus (Roman Emperor, r. 180\u2013192 CE)",
+        "Praetorian Prefect Perennis"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta, Life of Commodus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Commodus's accession to sole rule in 180 CE is well-attested. The year 181 CE marks the consolidation of his power.",
+      "cross_references": [
+        "Led to the political crisis of the 180s\u2013190s CE"
+      ]
+    },
+    {
+      "id": "181-003",
+      "title": "Satavahana Dynasty maritime trade expansion",
+      "region": "Deccan Plateau, India; maritime trade routes to Red Sea and beyond",
+      "coordinates_approx": "18.0, 75.0",
+      "category": "economic | exploration",
+      "description": "The Satavahana Dynasty, which controls the Deccan Plateau, continues to expand its maritime trade networks. Satavahana merchants and ships operate along the coasts of India and across the Arabian Sea to the Red Sea, Egypt, and beyond. This trade is facilitated by the monsoon winds and brings wealth to the dynasty through the export of spices, gems, and textiles. The Satavahana control of these trade routes is a major source of their power and influence.",
+      "key_figures": [
+        "Satavahana rulers (specific names vary by source)"
+      ],
+      "sources": [
+        {
+          "name": "Periplus of the Erythraean Sea (1st\u20132nd century CE Greek merchant guide)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Satavahana ports and trade sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Satavahana maritime trade is well-attested in the Periplus and archaeological evidence, but specific events in 181 CE are not clearly distinguished in surviving sources. The year is assigned by convention to represent the broader trend.",
+      "cross_references": [
+        "Part of broader Indian Ocean trade network that flourished in the 1st\u20133rd centuries CE"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The extent of eunuch dominance in Han politics is sometimes overstated in traditional sources, which were written by literati-officials who were their rivals. Modern scholarship suggests a more complex picture of factional balance. The characterization of Commodus as purely incompetent is also debated\u2014some scholars argue he was a capable administrator dealing with impossible circumstances. The Satavahana Dynasty's exact political structure and the extent of their maritime control are debated among scholars.",
+  "historiographic_note": "Han sources on court politics are written by the literati faction, which had reason to blame eunuchs for imperial decline. Roman sources on Commodus are heavily biased by senators he antagonized. The Periplus of the Erythraean Sea is a valuable source on Indian Ocean trade, but it reflects the perspective of Greek merchants and may not fully represent Satavahana perspectives. The exact chronology of events in 181 CE is uncertain; ancient sources record events by reign-year rather than absolute dating.",
+  "graph_edges": [
+    {
+      "from": "181-001",
+      "to": "184-001",
+      "relation": "led_to",
+      "note": "Court factionalism and administrative collapse enabled the Yellow Turban Rebellion"
+    },
+    {
+      "from": "181-002",
+      "to": "192-001",
+      "relation": "led_to",
+      "note": "Commodus's autocratic rule led to his assassination in 192 CE"
+    },
+    {
+      "from": "181-003",
+      "to": "concept: Indian Ocean Trade Network",
+      "relation": "part_of",
+      "note": "Satavahana maritime trade was a major component of the Indian Ocean trade network"
+    }
+  ]
+}

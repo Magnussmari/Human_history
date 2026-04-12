@@ -1,0 +1,81 @@
+{
+  "year": 184,
+  "year_label": "184 CE",
+  "era_context": "The Han Dynasty is in severe crisis. The Yellow Turban Rebellion erupts this year (or possibly late 183 CE), marking the beginning of the end for imperial stability. Simultaneously, the Roman Empire under Commodus faces internal conspiracies and military pressure. In India, the Satavahana Dynasty continues to dominate the Deccan. This is a pivotal year for the emergence of new religious and political forces that will reshape Eurasia over the next century.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Central Asia (limited Chinese records)"
+  ],
+  "events": [
+    {
+      "id": "184-001",
+      "title": "Yellow Turban Rebellion outbreak (alternative dating)",
+      "region": "Eastern Han China, Jizhou and surrounding provinces",
+      "coordinates_approx": "36.5, 115.0",
+      "category": "religious | military | political",
+      "description": "Zhang Jue and his Daoist-inspired movement launch their uprising against Han imperial authority. The rebellion combines religious messianism with peasant grievance, organizing followers through secret cells and promising a new cosmic age. The movement spreads rapidly across northern China. Some sources date the rebellion's outbreak to 184 CE rather than 185 CE; the exact chronology remains debated among scholars.",
+      "key_figures": [
+        "Zhang Jue (rebel leader)",
+        "Zhang Bao (brother)",
+        "Zhang Liang (brother)"
+      ],
+      "sources": [
+        {
+          "name": "Records of the Three Kingdoms (Sanguozhi) by Chen Shou",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Book of the Later Han (Hou Han Shu)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Multiple sources give both 184 and 185 CE as the outbreak date. Modern scholarship (de Crespigny) suggests the rebellion began in late 184 CE and escalated in 185 CE. The exact dating is uncertain by \u00b11 year.",
+      "cross_references": [
+        "See 185-001 for fuller discussion"
+      ]
+    },
+    {
+      "id": "184-002",
+      "title": "Commodus consolidates power after conspiracy",
+      "region": "Roman Empire, centered on Rome",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political | military",
+      "description": "Emperor Commodus, having faced multiple conspiracies and assassination attempts in previous years, continues to consolidate autocratic power. He increasingly relies on the Praetorian Guard and favors, marginalizing the Senate. This year marks a continuation of the political instability that characterizes his reign, with purges of suspected enemies and the elevation of military strongmen.",
+      "key_figures": [
+        "Commodus (Roman Emperor)",
+        "Praetorian Prefect Perennis (military strongman)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta, Life of Commodus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Commodus's political instability is well-attested, but specific events in 184 CE are not clearly distinguished in surviving sources.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Yellow Turban Rebellion's outbreak is the primary point of contention. Some modern scholars argue it began in late 184 CE, others in 185 CE. The traditional narrative treats it as purely a religious rebellion, but recent scholarship emphasizes economic and administrative collapse as root causes. The rebellion's religious character itself is debated\u2014was it Daoist, syncretic, or proto-Buddhist?",
+  "historiographic_note": "Han sources on this period are abundant but written after the fact. Roman sources on Commodus are heavily biased against him, written by senators he antagonized. The exact chronology of events in 184 CE is uncertain due to the way ancient sources record events by reign-year rather than absolute dating.",
+  "graph_edges": [
+    {
+      "from": "184-001",
+      "to": "189-001",
+      "relation": "led_to",
+      "note": "Yellow Turban Rebellion destabilized Han Dynasty, leading to its collapse"
+    }
+  ]
+}

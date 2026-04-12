@@ -1,0 +1,93 @@
+{
+  "year": 185,
+  "year_label": "185 CE",
+  "era_context": "The Han Dynasty in China is in its final decades, weakened by court factionalism, eunuch power, and rural unrest. The Roman Empire under Commodus faces military pressure on multiple frontiers and internal instability. In India, the Satavahana Dynasty controls the Deccan and maritime trade routes. This is an era of imperial overextension and the emergence of popular religious movements that will reshape Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Northern Europe beyond Roman frontier (sparse archaeological record)",
+    "Southeast Asia (limited contemporary Chinese records)"
+  ],
+  "events": [
+    {
+      "id": "185-001",
+      "title": "Yellow Turban Rebellion begins in Han China",
+      "region": "Eastern Han China, primarily Jizhou and surrounding provinces",
+      "coordinates_approx": "36.5, 115.0",
+      "category": "religious | military | political",
+      "description": "Zhang Jue and his brothers Zhang Bao and Zhang Liang launch a massive Daoist-inspired peasant uprising against Han imperial authority. The movement, organized through secret societies and religious cells, combines Daoist mysticism with egalitarian ideology and promises of a new cosmic age (the 'Way of Great Peace'). The rebellion rapidly spreads across northern China, drawing hundreds of thousands of followers. This event marks the beginning of the end for Han Dynasty stability and introduces organized religious rebellion as a political force in Chinese history.",
+      "key_figures": [
+        "Zhang Jue (rebel leader, self-proclaimed 'Heavenly General')",
+        "Zhang Bao (brother, military commander)",
+        "Zhang Liang (brother, military commander)",
+        "He Jin (Han general who initially suppresses the rebellion)"
+      ],
+      "sources": [
+        {
+          "name": "Records of the Three Kingdoms (Sanguozhi) by Chen Shou, 3rd century CE",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Book of the Later Han (Hou Han Shu), compiled 5th century CE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Daoist texts including the 'Scripture of Great Peace' (Taiping Jing), attributed to Zhang Jue",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The rebellion is well-attested in multiple Han and post-Han sources. The date of 184 CE is sometimes given in sources, but 185 CE is also recorded in some chronicles. The exact month is uncertain.",
+      "cross_references": [
+        "Follows from decades of Han decline documented in 170s\u2013180s CE",
+        "Led directly to the collapse of Han Dynasty authority by 189 CE"
+      ]
+    },
+    {
+      "id": "185-002",
+      "title": "Roman military operations on the Danube frontier",
+      "region": "Danube River frontier, Roman provinces of Moesia and Dacia",
+      "coordinates_approx": "44.5, 25.0",
+      "category": "military | political",
+      "description": "Emperor Commodus authorizes continued military campaigns against Germanic and Sarmatian tribes pressing the Danube frontier. These operations are part of ongoing efforts to stabilize the northern border, though sources suggest they are increasingly reactive rather than strategically coherent. The campaigns drain imperial resources and contribute to the military spending crisis that will destabilize Rome in the following decades.",
+      "key_figures": [
+        "Commodus (Roman Emperor)",
+        "Praetorian Prefect Perennis (military administrator)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta, Life of Commodus (4th century compilation, unreliable)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History (early 3rd century CE)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Danube frontier operations are attested for this period, but specific events in 185 CE are not clearly distinguished in surviving sources from broader campaigns of the 180s.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact date of the Yellow Turban Rebellion's outbreak is disputed. Some sources give 184 CE, others 185 CE. Modern scholarship (e.g., Rafe de Crespigny) suggests the rebellion may have begun in late 184 CE and escalated dramatically in 185 CE. The traditional narrative portrays it as a purely religious movement, but recent scholarship emphasizes its roots in economic grievance and Han administrative collapse. The rebellion's 'Daoist' character is also debated\u2014some scholars argue it was more syncretic, blending folk religion, messianism, and proto-Buddhist elements.",
+  "historiographic_note": "The Han sources on the Yellow Turban Rebellion are abundant but written after the fact, often by scholars serving successor dynasties. They tend to emphasize the rebellion's 'heterodox' religious character to justify Han suppression, potentially downplaying legitimate grievances. Roman sources for Commodus are notoriously hostile (written by senators he antagonized) and often unreliable on military details. The Danube frontier is poorly documented in surviving texts; archaeological evidence from the region is sparse for this specific year.",
+  "graph_edges": [
+    {
+      "from": "185-001",
+      "to": "189-001",
+      "relation": "led_to",
+      "note": "Yellow Turban Rebellion directly destabilized Han authority, leading to the fall of the dynasty by 189 CE"
+    },
+    {
+      "from": "185-001",
+      "to": "concept: Religious Rebellion in East Asia",
+      "relation": "part_of",
+      "note": "First major organized religious rebellion in Chinese history; model for later movements"
+    }
+  ]
+}

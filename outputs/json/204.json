@@ -1,0 +1,120 @@
+{
+  "year": 204,
+  "year_label": "204 CE",
+  "era_context": "Septimius Severus continues his reign, consolidating military autocracy in Rome. In China, the warlord period is intensifying; Cao Cao is rising to dominance in the north while other regional powers compete. The Parthian Empire under Vologases V is experiencing internal strain. This is a period of imperial transition and fragmentation across major Eurasian powers.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Oceania",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "204-001",
+      "title": "Septimius Severus celebrates Ludi Saeculares (Secular Games) in Rome",
+      "region": "Roman Empire (Rome)",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "religious",
+      "description": "Septimius Severus holds the Ludi Saeculares (Secular Games), a major religious and public spectacle held every 110 years to mark a new saeculum (age). The games include gladiatorial combats, wild beast hunts, theatrical performances, and religious ceremonies. This is a significant propaganda tool for Severus, demonstrating imperial power and piety. The games are documented in inscriptions and later historical accounts. They serve to legitimize Severus' rule and celebrate the Severan dynasty.",
+      "key_figures": [
+        "Septimius Severus (Roman Emperor)",
+        "Caracalla (Caesar)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History, Book 76",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Inscriptions from Rome (CIL VI)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historia Augusta",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Ludi Saeculares of 204 CE are well-attested in inscriptions and multiple historical sources. Cassius Dio provides detailed accounts written within ~50 years.",
+      "cross_references": [
+        "Part of broader Severan consolidation (193\u2013211 CE)"
+      ]
+    },
+    {
+      "id": "204-002",
+      "title": "Cao Cao defeats Yuan Tan at Nanpi",
+      "region": "Northern China (Hebei Province)",
+      "coordinates_approx": "37.5, 116.5",
+      "category": "military",
+      "description": "Cao Cao defeats Yuan Tan, son of the late warlord Yuan Shao, at the Battle of Nanpi. Yuan Tan had been attempting to maintain his family's power in the northeast, but Cao Cao's superior military organization and strategy prove decisive. This victory consolidates Cao Cao's control over the northern territories and eliminates a major rival. Yuan Tan is killed in the battle or its aftermath. This is a crucial step in Cao Cao's path to dominance.",
+      "key_figures": [
+        "Cao Cao (Warlord)",
+        "Yuan Tan (Warlord, son of Yuan Shao)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi (Chronicles of the Three Kingdoms) by Chen Shou, compiled ~280 CE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian by Sima Guang",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Battle of Nanpi is recorded in Chinese historiography, but precise dating varies slightly (some sources place it in 205 CE). The Sanguozhi was compiled ~75 years after events.",
+      "cross_references": [
+        "Follows from 202-001 (Yuan Shao's death)",
+        "Part of Cao Cao's consolidation (205-002)"
+      ]
+    },
+    {
+      "id": "204-003",
+      "title": "Plague outbreak in Roman Empire",
+      "region": "Roman Empire (widespread)",
+      "coordinates_approx": null,
+      "category": "environmental",
+      "description": "A plague (possibly smallpox or measles) spreads through the Roman Empire, causing significant mortality. The plague is attested in literary sources and may have contributed to demographic stress. The exact extent and mortality are difficult to quantify from surviving sources, but contemporary accounts suggest substantial impact on urban populations. This is part of a broader pattern of epidemic disease in the 2nd\u20133rd centuries CE.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History, Book 76",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Later medical and historical compilations",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Plague outbreaks in this period are attested in sources, but precise dating and identification of the disease are uncertain. Cassius Dio mentions plague but does not provide detailed chronology.",
+      "cross_references": [
+        "Part of broader pattern of epidemic disease in Roman Empire (2nd\u20133rd centuries)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Battle of Nanpi's date is disputed in scholarship; some sources place it in 205 CE rather than 204 CE. The significance of the Ludi Saeculares has been reassessed: while important as propaganda, modern scholars debate whether it genuinely reflected popular sentiment or was primarily an elite spectacle. The plague of 204 CE is mentioned in sources but may be conflated with other outbreaks; its actual extent is unknown.",
+  "historiographic_note": "Roman sources for 204 CE are moderately abundant but written decades or centuries after events. Chinese sources derive from later compilations with inherent dating uncertainties. Parthian history remains poorly documented. The historical record is heavily weighted toward elite political and military events; demographic, economic, and social history are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "204-002",
+      "to": "205-002",
+      "relation": "part_of",
+      "note": "Battle of Nanpi is part of Cao Cao's broader consolidation of northern China"
+    },
+    {
+      "from": "204-001",
+      "to": "205-001",
+      "relation": "contemporary_with",
+      "note": "Both Rome and China are experiencing major political consolidation under strong leaders"
+    }
+  ]
+}

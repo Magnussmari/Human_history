@@ -1,0 +1,97 @@
+{
+  "year": 189,
+  "year_label": "189 CE",
+  "era_context": "The Han Dynasty in China is in advanced collapse following the Yellow Turban Rebellion (184\u2013205 CE). Dong Zhuo's coup occurred in 190 CE, but the warlord fragmentation was already underway. The Roman Empire under Commodus is experiencing political instability in the final years before his assassination (192 CE). The Kushan Empire continues to dominate Central Asia and the Indian subcontinent under Kanishka II or his successors.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Mesoamerica",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "189-001",
+      "title": "Yellow Turban Rebellion: Continued conflict and regional warlord consolidation",
+      "region": "Han Dynasty China, multiple provinces",
+      "coordinates_approx": null,
+      "category": "military",
+      "description": "The Yellow Turban Rebellion, which began in 184 CE, continued into 189 CE with ongoing military campaigns by Han forces and regional warlords. By 189 CE, the rebellion had been largely suppressed militarily, but the process of suppression had empowered regional military commanders (warlords) who would soon challenge Han central authority. The rebellion's aftermath created the conditions for Dong Zhuo's coup in 190 CE and the subsequent warlord period.",
+      "key_figures": [
+        "Zhang Jue (Yellow Turban leader, died 184 CE)",
+        "Zhang Bao (successor)",
+        "Cao Cao (Han general suppressing rebellion)"
+      ],
+      "sources": [
+        {
+          "name": "Records of the Three Kingdoms (Sanguozhi) by Chen Shou",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Book of the Later Han (Hou Han Shu) by Fan Ye",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Yellow Turban Rebellion is well-attested, but specific events in 189 CE are less clearly documented than the rebellion's beginning (184 CE) or its major battles. The date 189 CE is assigned by convention to represent the continuation of the conflict.",
+      "cross_references": [
+        "Follows from 184-001 (Yellow Turban Rebellion begins)",
+        "Leads to 190-001 (Dong Zhuo's coup)"
+      ]
+    },
+    {
+      "id": "189-002",
+      "title": "Roman Empire: Commodus's reign continues amid political tension",
+      "region": "Roman Empire",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "In 189 CE, the emperor Commodus continued his increasingly erratic rule, which had begun in 180 CE. By 189 CE, opposition to his rule was mounting among the Senate and military. The political instability that would culminate in his assassination in late 192 CE was building throughout this period. Commodus's reign is characterized by financial mismanagement, military neglect, and the emperor's personal involvement in gladiatorial combat, which was seen as beneath imperial dignity.",
+      "key_figures": [
+        "Commodus (emperor, r. 180\u2013192 CE)",
+        "Cleander (prefect of the Praetorian Guard, executed 190 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Historia Augusta (Scriptores Historiae Augustae), compiled 4th century CE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cassius Dio, Roman History, Book 72, written early 3rd century CE",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Commodus's reign is well-documented, but the Historia Augusta is notoriously unreliable and contains legendary elements. Modern scholarship has questioned the degree to which Commodus was personally responsible for the empire's problems versus structural issues.",
+      "cross_references": [
+        "Part of broader period of Roman political instability (180\u2013193 CE)",
+        "Leads to 192-001 (Commodus's assassination)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Modern scholarship has revised earlier assessments of Commodus's reign as uniformly disastrous. Some historians argue that the Historia Augusta's portrayal of Commodus as a deranged tyrant is exaggerated and reflects later political biases. The Yellow Turban Rebellion's suppression is sometimes portrayed as a complete Han victory, but modern scholars recognize that the rebellion's aftermath actually weakened Han central authority by empowering regional warlords.",
+  "historiographic_note": "The historical record for 189 CE is sparse compared to 190 CE. Chinese sources focus on the Yellow Turban Rebellion's suppression, but specific events in 189 CE are less clearly documented. Roman sources are similarly retrospective and unreliable. The Historia Augusta, written in the 4th century CE, is the primary source for Commodus's reign but is known to contain fabrications and legendary material. No contemporary primary sources survive for either region.",
+  "graph_edges": [
+    {
+      "from": "189-001",
+      "to": "184-001",
+      "relation": "part_of",
+      "note": "The Yellow Turban Rebellion continued from 184 CE through 189 CE"
+    },
+    {
+      "from": "189-001",
+      "to": "190-001",
+      "relation": "led_to",
+      "note": "The suppression of the Yellow Turban Rebellion empowered warlords who would challenge Han authority"
+    },
+    {
+      "from": "189-002",
+      "to": "192-001",
+      "relation": "led_to",
+      "note": "The political instability of Commodus's reign culminated in his assassination in 192 CE"
+    }
+  ]
+}

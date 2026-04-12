@@ -1,0 +1,81 @@
+{
+  "year": 183,
+  "year_label": "183 CE",
+  "era_context": "The Han Dynasty is in its final decades, weakened by court factionalism and eunuch dominance. The Roman Empire under Commodus faces internal instability and military pressure on multiple frontiers. In India, the Satavahana Dynasty controls the Deccan. This is a period of imperial overextension and the emergence of forces that will reshape Eurasia\u2014religious movements, military strongmen, and barbarian pressure on imperial frontiers.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Southeast Asia",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "183-001",
+      "title": "Han Dynasty court factionalism intensifies",
+      "region": "Eastern Han China, capital Luoyang",
+      "coordinates_approx": "34.6, 112.4",
+      "category": "political",
+      "description": "The Han court is dominated by competing factions: the eunuchs (who control the imperial household) and the literati-officials (who control the bureaucracy). This year marks a continuation of the power struggle that has characterized the late Han period. The eunuchs' dominance prevents effective governance and contributes to the administrative collapse that will enable the Yellow Turban Rebellion in the following years. The factional conflict weakens the imperial center's ability to respond to provincial crises.",
+      "key_figures": [
+        "Emperor Lingdi (Han Emperor, r. 168\u2013189 CE)",
+        "Eunuch faction leaders (names vary in sources)"
+      ],
+      "sources": [
+        {
+          "name": "Book of the Later Han (Hou Han Shu), compiled 5th century CE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Records of the Three Kingdoms (Sanguozhi) by Chen Shou",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Court factionalism is well-attested for the late Han period, but specific events in 183 CE are not clearly distinguished in surviving sources. The year is assigned by convention to represent the broader trend.",
+      "cross_references": [
+        "Part of broader Han decline documented from 160s CE onward",
+        "Led directly to Yellow Turban Rebellion in 184\u2013185 CE"
+      ]
+    },
+    {
+      "id": "183-002",
+      "title": "Roman military operations on multiple frontiers",
+      "region": "Roman Empire, Danube and Rhine frontiers",
+      "coordinates_approx": "50.0, 10.0",
+      "category": "military",
+      "description": "Emperor Commodus authorizes military operations on the Danube and Rhine frontiers against Germanic and Sarmatian tribes. These campaigns are part of ongoing efforts to stabilize the northern border, though they are increasingly reactive and resource-draining. The military spending crisis contributes to the economic and political instability that will characterize the late 2nd and early 3rd centuries.",
+      "key_figures": [
+        "Commodus (Roman Emperor)",
+        "Praetorian Prefect Perennis"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Frontier operations are attested for this period, but specific events in 183 CE are not clearly distinguished in surviving sources.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The extent of eunuch dominance in Han politics is sometimes overstated in traditional sources, which were written by literati-officials who were their rivals. Modern scholarship suggests a more complex picture of factional balance. The characterization of late Han as purely 'declining' is also debated\u2014some scholars emphasize continued economic vitality and cultural flourishing even as political authority fragmented.",
+  "historiographic_note": "Han sources on court politics are abundant but written by the literati faction, which had reason to blame eunuchs for imperial decline. Roman sources on Commodus are heavily biased. The exact chronology of events in 183 CE is uncertain; ancient sources record events by reign-year rather than absolute dating.",
+  "graph_edges": [
+    {
+      "from": "183-001",
+      "to": "184-001",
+      "relation": "led_to",
+      "note": "Court factionalism and administrative collapse enabled the Yellow Turban Rebellion"
+    }
+  ]
+}

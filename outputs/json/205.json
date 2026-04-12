@@ -1,0 +1,130 @@
+{
+  "year": 205,
+  "year_label": "205 CE",
+  "era_context": "The Roman Empire under Septimius Severus (r. 193\u2013211 CE) is consolidating power after civil war. The Severan dynasty is establishing military autocracy, increasing army pay and privileges. In China, the Han Dynasty has collapsed (220 CE is the formal end, but effective authority fragmented by this date); regional warlords compete for dominance in the Three Kingdoms period. In India, the Satavahana Empire is declining in the Deccan. This is an era of imperial transition and fragmentation across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Roman frontier (sparse archaeological record for this specific year)",
+    "Oceania and Pacific islands (no written records)"
+  ],
+  "events": [
+    {
+      "id": "205-001",
+      "title": "Septimius Severus campaigns in Britannia",
+      "region": "Roman Britain / Caledonia",
+      "coordinates_approx": "56.5, -4.0",
+      "category": "military",
+      "description": "Emperor Septimius Severus, seeking military glory and to consolidate his regime, launches a major campaign into Caledonia (Scotland) with his sons Caracalla and Geta. The campaign aims to subjugate the Picts and secure the northern frontier. Severus mobilizes substantial forces and establishes supply lines, but the terrain and resistance prove costly. The campaign continues through 207 CE with mixed results; Severus will die in York in 211 CE.",
+      "key_figures": [
+        "Septimius Severus (Roman Emperor)",
+        "Caracalla (Caesar, later Emperor)",
+        "Geta (Caesar, later co-Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History, Books 75\u201376",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta (Severus)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Roman forts in Scotland (Newstead, etc.)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Campaign dates are well-attested in multiple sources; Cassius Dio wrote within ~50 years. Archaeological evidence confirms Roman military presence and activity in this period.",
+      "cross_references": [
+        "Follows from 193-001 (Severus' rise to power)",
+        "Leads to 211-001 (Severus' death in York)"
+      ]
+    },
+    {
+      "id": "205-002",
+      "title": "Cao Cao consolidates power in northern China",
+      "region": "Northern China (Han Empire successor states)",
+      "coordinates_approx": "35.0, 115.0",
+      "category": "political",
+      "description": "Cao Cao, warlord and de facto ruler of the northern Han territories, continues to consolidate administrative and military control. By 205 CE, he has defeated major rivals including Yuan Shao (d. 202 CE) and is establishing the foundations of what will become the Wei state. He implements land reforms, recruits talented administrators, and builds a centralized military bureaucracy. This period marks the transition from warlord fragmentation toward the formal Three Kingdoms division (220 CE).",
+      "key_figures": [
+        "Cao Cao (Warlord, later King of Wei)",
+        "Xun Yu (strategist and administrator)"
+      ],
+      "sources": [
+        {
+          "name": "Records of Wei (Wei Shu), part of Sanguozhi (Chronicles of the Three Kingdoms) by Chen Shou, compiled ~280 CE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government) by Sima Guang, compiled 11th century",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Cao Cao's consolidation is well-documented in later Chinese historiography, but precise dating of individual administrative reforms is often approximate. The Sanguozhi was compiled ~75 years after events, drawing on earlier records now lost.",
+      "cross_references": [
+        "Follows from 202-001 (Yuan Shao's death)",
+        "Leads to 220-001 (Cao Pi proclaims Wei Dynasty)"
+      ]
+    },
+    {
+      "id": "205-003",
+      "title": "Parthian Empire under Vologases V faces internal instability",
+      "region": "Parthian Empire (Mesopotamia, Persia, Central Asia)",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "Vologases V (r. ~191\u2013208 CE) rules the Parthian Empire during a period of internal fragmentation and dynastic tension. By 205 CE, the empire is experiencing succession disputes and weakening central authority. Regional vassal kings assert greater independence. This instability will contribute to Parthian vulnerability in conflicts with Rome and will eventually lead to civil war after Vologases V's death.",
+      "key_figures": [
+        "Vologases V (Parthian King of Kings)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Numismatic evidence (Parthian coins)",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Parthian chronology is notoriously uncertain; dates of Vologases V's reign vary by \u00b15 years in scholarship. Coin evidence confirms his rule but provides limited detail on internal events.",
+      "cross_references": [
+        "Contemporary with 205-001 (Severus' Britannia campaign)",
+        "Leads to 208-001 (Parthian civil war)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of Severus' Caledonian campaign has been reassessed by modern scholarship. While traditionally portrayed as a major military triumph, recent archaeological and historical analysis suggests the campaign achieved limited territorial gains and was costly in resources. The 'Picts' were not a unified enemy but fragmented groups, and Roman control of Caledonia remained tenuous. Some scholars argue Severus' primary motivation was domestic legitimacy rather than strategic necessity. The campaign's long-term impact on the northern frontier was minimal.",
+  "historiographic_note": "Roman sources for 205 CE are relatively abundant (Cassius Dio, Historia Augusta, inscriptions), but these are often written decades or centuries after events and reflect imperial court perspectives. Chinese sources for Cao Cao's consolidation derive from later compilations (Sanguozhi, 3rd century; Zizhi Tongjian, 11th century) and may conflate or reorder events. Parthian history is poorly documented in surviving sources; most information comes from Roman accounts (hostile perspective) and numismatic evidence. Sub-Saharan Africa, the Americas, and most of Northern Europe are absent from surviving written records for this year.",
+  "graph_edges": [
+    {
+      "from": "205-001",
+      "to": "211-001",
+      "relation": "led_to",
+      "note": "Severus' Caledonian campaign continues until his death in York in 211 CE"
+    },
+    {
+      "from": "205-002",
+      "to": "220-001",
+      "relation": "led_to",
+      "note": "Cao Cao's consolidation of northern China leads to the formal establishment of the Wei state in 220 CE"
+    },
+    {
+      "from": "205-001",
+      "to": "205-003",
+      "relation": "contemporary_with",
+      "note": "Both Rome and Parthia are experiencing internal consolidation and dynastic stress in this period"
+    }
+  ]
+}

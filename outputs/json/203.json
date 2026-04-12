@@ -1,0 +1,130 @@
+{
+  "year": 203,
+  "year_label": "203 CE",
+  "era_context": "Septimius Severus is firmly established as Roman Emperor, consolidating military autocracy. In China, the warlord period is intensifying; Cao Cao continues to expand his power. The Parthian Empire is experiencing internal instability. This is an era of imperial consolidation and dynastic transition across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Roman frontier",
+    "Oceania",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "203-001",
+      "title": "Caracalla and Geta proclaimed joint Caesars",
+      "region": "Roman Empire",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Septimius Severus formally elevates his sons Caracalla (born Lucius Septimius Bassianus) and Geta to the rank of Caesar, making them co-heirs to the throne. This is a significant dynastic move, establishing a succession plan and elevating the young princes to prominence. Caracalla is approximately 15 years old; Geta is approximately 12. The elevation is celebrated with coins, inscriptions, and public ceremonies. This decision will have major consequences for the empire's future, as the brothers' relationship is tense and will lead to civil conflict after Severus' death.",
+      "key_figures": [
+        "Septimius Severus (Roman Emperor)",
+        "Caracalla (Caesar, later Emperor)",
+        "Geta (Caesar, later co-Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History, Book 76",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historia Augusta (Caracalla, Geta)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Numismatic evidence (coins of Caracalla and Geta as Caesars)",
+          "type": "numismatic",
+          "contemporary": true
+        },
+        {
+          "name": "Inscriptions from Rome and provinces",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The elevation of Caracalla and Geta to Caesar is well-attested in numismatic and epigraphic evidence, as well as in historical sources. The date 203 CE is widely accepted.",
+      "cross_references": [
+        "Leads to 211-002 (Severus' death and succession conflict)",
+        "Leads to 212-001 (Caracalla's murder of Geta)"
+      ]
+    },
+    {
+      "id": "203-002",
+      "title": "Cao Cao defeats Liu Bei at Xuzhou",
+      "region": "Northern China (Xuzhou region)",
+      "coordinates_approx": "34.3, 117.2",
+      "category": "military",
+      "description": "Cao Cao defeats Liu Bei, a rival warlord, in a military campaign in the Xuzhou region. Liu Bei is forced to flee and seek refuge with other warlords. This victory further consolidates Cao Cao's control over central and northern China. Liu Bei will eventually emerge as a major rival and founder of the Shu Han state, but in 203 CE he is still a secondary power. The campaign demonstrates Cao Cao's military superiority and strategic acumen.",
+      "key_figures": [
+        "Cao Cao (Warlord)",
+        "Liu Bei (Warlord, later founder of Shu Han)"
+      ],
+      "sources": [
+        {
+          "name": "Sanguozhi (Chronicles of the Three Kingdoms) by Chen Shou",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian by Sima Guang",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The campaign against Liu Bei is recorded in Chinese historiography, but precise dating is uncertain. Some sources place it in 202 or 204 CE. The Sanguozhi was compiled ~75 years after events.",
+      "cross_references": [
+        "Part of Cao Cao's consolidation (205-002)",
+        "Leads to Liu Bei's eventual rise as founder of Shu Han (221 CE)"
+      ]
+    },
+    {
+      "id": "203-003",
+      "title": "Vologases V of Parthia faces succession pressure",
+      "region": "Parthian Empire",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "Vologases V continues to rule the Parthian Empire, but internal pressures mount. Regional vassal kings assert greater independence, and succession disputes emerge within the royal family. The empire is experiencing a period of decentralization and weakening central authority. These internal conflicts will intensify after Vologases V's death (~208 CE) and contribute to Parthian vulnerability in conflicts with Rome.",
+      "key_figures": [
+        "Vologases V (Parthian King of Kings)"
+      ],
+      "sources": [
+        {
+          "name": "Cassius Dio, Roman History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Numismatic evidence (Parthian coins)",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Parthian chronology is uncertain; dates vary by \u00b15 years. Numismatic evidence confirms Vologases V's rule but provides limited detail on internal events.",
+      "cross_references": [
+        "Contemporary with 203-001 (Caracalla and Geta proclaimed Caesars)",
+        "Leads to 208-001 (Parthian civil war)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The elevation of Caracalla and Geta to Caesar in 203 CE is well-attested, but some sources suggest the date may be 202 CE. The significance of this event has been reassessed: while traditionally portrayed as a harmonious succession plan, modern scholarship emphasizes the tensions between the brothers and questions whether Severus genuinely intended joint rule or was hedging his bets. The campaign against Liu Bei is dated variously in sources; 203 CE is conventional but not certain.",
+  "historiographic_note": "Roman sources for 203 CE are moderately abundant but written decades or centuries after events. Numismatic and epigraphic evidence provides contemporary confirmation of major political events. Chinese sources derive from later compilations with inherent dating uncertainties. Parthian history remains poorly documented. The historical record is heavily weighted toward elite political and military events.",
+  "graph_edges": [
+    {
+      "from": "203-001",
+      "to": "211-002",
+      "relation": "led_to",
+      "note": "Caracalla and Geta's elevation as joint Caesars sets up succession conflict after Severus' death"
+    },
+    {
+      "from": "203-002",
+      "to": "221-001",
+      "relation": "led_to",
+      "note": "Cao Cao's defeat of Liu Bei contributes to the eventual emergence of Liu Bei as founder of Shu Han"
+    }
+  ]
+}
