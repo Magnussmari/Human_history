@@ -1,238 +1,259 @@
 {
   "year": 1237,
   "year_label": "1237 CE",
-  "era_context": "The early-to-mid 13th century is dominated by the Mongol expansion under Genghis Khan's successors, particularly Batu Khan in the west and M\u00f6ngke Khan in the east. The Islamic world is fragmented among competing dynasties, including the Ayyubid Sultanate in Egypt and the Levant, the Khwarazmian Empire (recently conquered by the Mongols), and various smaller sultanates. In Europe, the Crusader states persist in the Levant, feudal kingdoms consolidate power, and the Papacy exerts significant influence. East Asia sees the Jin Dynasty in decline and the Song Dynasty controlling the south. This era is marked by unprecedented military mobility, technological exchange, and the beginning of the Pax Mongolica.",
+  "era_context": "The mid-13th century: the Mongol Empire under \u00d6gedei Khan (r. 1229\u20131241) is expanding westward into Eastern Europe and consolidating control over Central Asia. In Europe, the Crusader states in the Levant face mounting pressure; the Reconquista continues in Iberia. In East Asia, the Jin Dynasty has recently fallen to the Mongols (1234); the Song Dynasty controls southern China. In the Islamic world, the Abbasid Caliphate remains nominally supreme but politically fractured.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (minimal written documentation)",
-    "Southeast Asia (limited European sources; local chronicles underrepresented)",
-    "Oceania and Pacific regions",
-    "Pre-Columbian Americas (no written records in European tradition)"
+    "Sub-Saharan Africa (limited contemporary written sources)",
+    "Southeast Asia (sparse European and Islamic documentation)",
+    "Oceania and Pacific (no written records)",
+    "Central Asia (limited contemporary documentation of non-Mongol populations)"
   ],
   "events": [
     {
       "id": "1237-001",
-      "title": "Mongol invasion of Russia begins under Batu Khan",
-      "region": "Russia and the Steppe",
-      "coordinates_approx": "52.0, 48.0",
+      "title": "Mongol invasion of Russia begins; Batu Khan's western campaign authorized",
+      "region": "Russia, Central Asia",
+      "coordinates_approx": "50.0, 50.0",
       "category": "military",
-      "description": "Batu Khan, grandson of Genghis Khan and commander of the western Mongol forces, launches the invasion of Russia with a massive army estimated at 100,000\u2013150,000 troops. The Mongols cross the Volga River and begin the systematic conquest of the Russian principalities. The invasion is characterized by rapid movement, devastating cavalry tactics, and the destruction of cities that resist. This campaign will result in the subjugation of all Russian principalities by 1240 and establish Mongol dominance over Russia for the next two centuries.",
+      "description": "In 1237, Mongol forces under Batu Khan (grandson of Genghis Khan) launched the invasion of Russia, authorized by \u00d6gedei Khan. The invasion began with the conquest of the Volga Bulgars and the subjugation of the Kipchak peoples. The Mongol forces, numbering perhaps 50,000\u2013150,000 (estimates vary widely), were organized into multiple columns. The invasion would continue for several years, culminating in the conquest of most of Russia by 1240. The invasion was devastating, with widespread destruction of cities, churches, and infrastructure. The conquest established Mongol suzerainty over the Russian principalities, which would last until the 15th century.",
       "key_figures": [
         "Batu Khan (Mongol commander)",
-        "M\u00f6ngke Khan (Great Khan, overseeing the campaign)",
-        "Yuri II of Vladimir (Russian prince, leading resistance)"
+        "Subutai (Mongol general)",
+        "\u00d6gedei Khan (Great Khan, authorizing the campaign)"
       ],
       "sources": [
         {
-          "name": "Novgorod First Chronicle (Russian primary source)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Juvayni, Tarikh-i jahan-gusha (History of the World-Conqueror)",
+          "name": "Novgorod First Chronicle (Novgorodskaya Pervaya Letopis), compiled 13th century with contemporary accounts",
           "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Rashid al-Din, Jami' al-tawarikh (Compendium of Chronicles)",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The invasion of Russia in 1237 is extensively documented in Russian chronicles and confirmed by Persian sources. The date is well-established across multiple independent sources.",
-      "cross_references": [
-        "1238-001 (Siege of Vladimir)",
-        "1240-001 (Fall of Kiev)"
-      ]
-    },
-    {
-      "id": "1237-002",
-      "title": "Mongol conquest of Ryazan",
-      "region": "Russia (Ryazan principality)",
-      "coordinates_approx": "54.6, 39.7",
-      "category": "military",
-      "description": "In the opening phase of the Russian invasion, Batu Khan's forces attack and conquer the city of Ryazan, one of the first major Russian cities to fall to the Mongols. The city is sacked, its population killed or enslaved, and its wealth plundered. The conquest of Ryazan demonstrates the vulnerability of Russian principalities to Mongol military tactics and serves as a warning to other Russian cities. The fall of Ryazan marks the beginning of the end for independent Russian political authority.",
-      "key_figures": [
-        "Batu Khan (Mongol commander)",
-        "Yuri of Ryazan (Russian prince, killed in the siege)"
-      ],
-      "sources": [
-        {
-          "name": "Novgorod First Chronicle",
-          "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Ryazan Chronicle",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Multiple contemporary Russian chronicles document the fall of Ryazan in 1237. The date and outcome are well-established.",
-      "cross_references": [
-        "1237-001 (Mongol invasion of Russia begins)",
-        "1238-001 (Siege of Vladimir)"
-      ]
-    },
-    {
-      "id": "1237-003",
-      "title": "Mongol forces consolidate control of the Volga region",
-      "region": "Volga region and southern Russia",
-      "coordinates_approx": "50.0, 45.0",
-      "category": "military",
-      "description": "Following the conquest of Ryazan, Batu Khan's forces move northward and consolidate control of the Volga region, establishing supply lines and bases for further operations. The Mongols systematically destroy or subjugate the smaller principalities and settlements in the region. This consolidation phase is critical to the success of the broader invasion, as it secures the Mongols' rear and establishes the logistical infrastructure necessary for the conquest of the major Russian cities.",
-      "key_figures": [
-        "Batu Khan (Mongol commander)"
-      ],
-      "sources": [
-        {
-          "name": "Novgorod First Chronicle",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Juvayni, Tarikh-i jahan-gusha",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Russian chronicles confirm the Mongol consolidation in the Volga region, though the exact timeline and extent of operations are less precisely documented than the major city conquests.",
-      "cross_references": [
-        "1237-001 (Mongol invasion of Russia begins)",
-        "1238-001 (Siege of Vladimir)"
-      ]
-    },
-    {
-      "id": "1237-004",
-      "title": "Mongol forces under M\u00f6ngke Khan continue conquest of the Jin Dynasty",
-      "region": "Northern China",
-      "coordinates_approx": "39.9, 116.4",
-      "category": "military",
-      "description": "In East Asia, M\u00f6ngke Khan's Mongol forces continue their systematic conquest of the Jin Dynasty in northern China. The Jin Dynasty, already weakened by decades of Mongol pressure and internal strife, loses further territory and population. The Jin capital at Kaifeng faces increasing pressure from Mongol forces. This campaign is part of the broader Mongol conquest of China that will result in the complete subjugation of the Jin Dynasty by 1234.",
-      "key_figures": [
-        "M\u00f6ngke Khan (Mongol Great Khan)",
-        "Wanyan Shouxu (Jin Emperor)"
-      ],
-      "sources": [
-        {
-          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
+          "name": "Juvayni, Ata-Malik. Tarikh-i jahan-gusha (History of the World Conqueror), compiled mid-13th century",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Shiji and later Chinese historiographic compilations",
+          "name": "Historiographic consensus from Russian medieval studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The beginning of the Mongol invasion of Russia in 1237 is well-attested in Russian chronicles and Islamic sources. The date is confirmed by multiple sources.",
+      "cross_references": [
+        "1238-001 (Mongol invasion of Russia continues; siege of Vladimir)",
+        "1239-001 (Mongol invasion of Russia continues; conquest of Ryazan and Tver)",
+        "1240-003 (Mongol conquest of Vladimir and northeastern Russia)"
+      ]
+    },
+    {
+      "id": "1237-002",
+      "title": "Mongol conquest of the Volga Bulgars; subjugation of the Kipchak peoples",
+      "region": "Volga region, Kipchak Steppe (Central Asia)",
+      "coordinates_approx": "54.0, 48.0",
+      "category": "military",
+      "description": "In 1237, Mongol forces under Batu Khan conquered the Volga Bulgars and began the subjugation of the Kipchak peoples. The conquest of the Volga Bulgars was a significant achievement, as they were a major power in the region. The subjugation of the Kipchak peoples was ongoing and would be completed by 1240. This conquest secured the Mongol western flank and provided a base for the invasion of Russia and Eastern Europe.",
+      "key_figures": [
+        "Batu Khan (Mongol commander)",
+        "Subutai (Mongol general)"
+      ],
+      "sources": [
+        {
+          "name": "Juvayni, Tarikh-i jahan-gusha",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Rashid al-Din. Jami' al-tawarikh (Compendium of Chronicles), early 14th century",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Mongol and Central Asian studies",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The broad trajectory of Mongol conquest in northern China is well-established, though precise dating of individual campaigns in 1237 is less certain than for European campaigns.",
+      "certainty_note": "The conquest of the Volga Bulgars is attested in Islamic sources, but the exact date is uncertain. The subjugation of the Kipchak peoples occurred over several years (roughly 1237\u20131240).",
       "cross_references": [
-        "1234-001 (Fall of Jin Dynasty)",
-        "1238-004 (Mongol campaigns continue)"
+        "1237-001 (beginning of Mongol invasion of Russia)",
+        "1240-002 (Mongol conquest of the Caucasus and Kipchak Steppe)"
+      ]
+    },
+    {
+      "id": "1237-003",
+      "title": "\u00d6gedei Khan's reign continues; Mongol Empire at height of territorial expansion",
+      "region": "Mongol Empire (Central Asia, East Asia, Eastern Europe)",
+      "coordinates_approx": "48.0, 106.0",
+      "category": "political",
+      "description": "In 1237, \u00d6gedei Khan (r. 1229\u20131241) continued his reign as the second Great Khan of the Mongol Empire. His reign was marked by the expansion of the empire to its greatest territorial extent. \u00d6gedei authorized the invasion of Russia and Eastern Europe, which would be carried out by Batu Khan. \u00d6gedei was known for his administrative acumen and his patronage of Mongol culture. His reign would end with his death in late 1241, triggering a succession crisis.",
+      "key_figures": [
+        "\u00d6gedei Khan (Great Khan)",
+        "T\u00f6regene Khatun (wife, future regent)"
+      ],
+      "sources": [
+        {
+          "name": "Juvayni, Tarikh-i jahan-gusha",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Rashid al-Din. Jami' al-tawarikh",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Mongol studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "\u00d6gedei's reign and his authorization of the invasion of Russia are well-attested in Islamic and Mongol sources.",
+      "cross_references": [
+        "1241-001 (\u00d6gedei's death)"
+      ]
+    },
+    {
+      "id": "1237-004",
+      "title": "Song Dynasty consolidates control of southern China; military preparations against Mongols",
+      "region": "Song Dynasty (southern China)",
+      "coordinates_approx": "30.0, 115.0",
+      "category": "political",
+      "description": "In 1237, the Song Dynasty continued to consolidate its control of southern China and made military preparations against the Mongol threat to the north. The Song Dynasty, under the reign of Emperor Lizong (r. 1224\u20131264), maintained a precarious peace with the Mongol Empire. The Song Dynasty invested in military technology and fortified its northern borders. However, the Song Dynasty faced mounting pressure from Mongol expansion and would eventually fall to the Mongols in 1279.",
+      "key_figures": [
+        "Emperor Lizong (Song Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Zhu Xi and others. Zizhi Tongjian Gangmu (Outline and Details of the Comprehensive Mirror for Aid in Government), compiled 12th\u201313th centuries",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Chinese medieval studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Song Dynasty's consolidation of southern China and its military preparations are well-attested in Chinese sources.",
+      "cross_references": [
+        "1234-001 (fall of Jin Dynasty to Mongols)",
+        "1279-001 (fall of Song Dynasty to Mongols)"
       ]
     },
     {
       "id": "1237-005",
-      "title": "Ayyubid Sultanate consolidates power under As-Salih Ayyub",
-      "region": "Egypt and the Levant",
-      "coordinates_approx": "30.0, 31.2",
+      "title": "Ayyubid Sultanate faces internal divisions and external threats",
+      "region": "Egypt, Levant",
+      "coordinates_approx": "30.0, 31.0",
       "category": "political",
-      "description": "As-Salih Ayyub consolidates his position as Sultan of Egypt, establishing a more centralized authority within the Ayyubid Sultanate. However, the broader Ayyubid state remains fragmented, with various branches of the family controlling different territories. As-Salih Ayyub's consolidation is achieved partly through the use of Mamluk military forces, which increasingly become the real power behind the throne. This period marks the gradual transition from Ayyubid to Mamluk dominance in Egypt.",
+      "description": "In 1237, the Ayyubid Sultanate faced internal divisions and external threats from both the Crusader states and the rising Mamluk power. The Ayyubid family was fragmented, with various branches competing for power. The Mamluks, originally slave-soldiers of the Ayyubids, were gradually asserting independent political authority. The rise of the Mamluks represented a significant shift in the political balance of the Islamic world.",
       "key_figures": [
-        "As-Salih Ayyub (Sultan of Egypt)",
-        "Shajar al-Durr (Concubine and future sultanate founder)"
+        "As-Salih Ayyub (Ayyubid Sultan, r. 1240\u20131249)"
       ],
       "sources": [
         {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh",
-          "type": "chronicle",
+          "name": "Ibn al-Athir. Al-Kamil fi al-tarikh (The Complete History), compiled early 13th century with later additions",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Al-Maqrizi, Kitab al-Suluk",
-          "type": "later_compilation",
+          "name": "Historiographic consensus from Islamic medieval studies",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Islamic sources document As-Salih Ayyub's consolidation of power, though the precise timeline and extent of his authority are less clearly delineated than in later years.",
+      "certainty": "confirmed",
+      "certainty_note": "The internal divisions of the Ayyubid Sultanate are well-attested in Islamic sources.",
       "cross_references": [
-        "1238-005 (Ayyubid fragmentation continues)",
-        "1250-001 (Mamluk Sultanate formally established)"
+        "1240-007 (Mamluk Sultanate consolidates power in Egypt)"
       ]
     },
     {
       "id": "1237-006",
-      "title": "Crusader states in the Levant face pressure from Islamic forces",
-      "region": "Levant (Crusader states)",
-      "coordinates_approx": "33.3, 35.2",
+      "title": "Crusader states in the Levant continue to decline; military pressure from Islamic powers",
+      "region": "Crusader states (Levant)",
+      "coordinates_approx": "33.0, 35.0",
       "category": "military",
-      "description": "The Crusader states in the Levant, including the Kingdom of Acre and the County of Tripoli, face increasing military pressure from Islamic forces, particularly the Ayyubid Sultanate. While the Ayyubid state is internally fragmented, it maintains sufficient military strength to threaten Crusader territories. This period marks the beginning of the end for the Crusader presence in the Levant, which will be largely eliminated by the end of the 13th century.",
+      "description": "In 1237, the Crusader states in the Levant continued to face military and political pressure from Islamic powers. The Crusaders had lost much of their territorial holdings following the fall of Jerusalem to Saladin in 1187. The Sixth Crusade (1228\u20131229) had temporarily recovered Jerusalem, but the city would be lost again in 1244. The Crusader presence in the Levant was further weakened by internal divisions and the rise of the Mamluks.",
       "key_figures": [
-        "Various Crusader lords and princes",
+        "Frederick II (Holy Roman Emperor, involved in Sixth Crusade)",
         "As-Salih Ayyub (Ayyubid Sultan)"
       ],
       "sources": [
         {
-          "name": "William of Tyre, Historia (later compilation)",
+          "name": "William of Tyre. Historia (History of the Crusades), compiled 12th century with later continuations",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh",
-          "type": "chronicle",
+          "name": "Historiographic consensus from Crusade studies",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The general pressure on Crusader states in the mid-13th century is well-documented, though specific military engagements in 1237 are less clearly attested.",
+      "certainty": "confirmed",
+      "certainty_note": "The military and political pressure on the Crusader states is well-attested in European and Islamic sources.",
       "cross_references": [
-        "1291-001 (Fall of Acre, end of Crusader presence)"
+        "1244-001 (loss of Jerusalem to Islamic forces)",
+        "1291-001 (fall of Acre, end of Crusader presence in the Levant)"
+      ]
+    },
+    {
+      "id": "1237-007",
+      "title": "Reconquista continues in Iberia; Christian kingdoms advance against Islamic Granada",
+      "region": "Iberia (Spain, Portugal)",
+      "coordinates_approx": "37.0, -3.0",
+      "category": "military",
+      "description": "In 1237, the Reconquista continued in Iberia, with Christian kingdoms advancing against the Islamic Emirate of Granada and other Islamic territories. The Christian kingdoms of Castile, Aragon, and Portugal were gradually expanding their territories at the expense of Islamic powers. The Reconquista would continue until 1492, when the Emirate of Granada fell to the Catholic Monarchs.",
+      "key_figures": [
+        "Ferdinand III of Castile (r. 1217\u20131252)",
+        "James I of Aragon (r. 1213\u20131276)"
+      ],
+      "sources": [
+        {
+          "name": "Historiographic consensus from Iberian medieval studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The continuation of the Reconquista is well-attested in European sources.",
+      "cross_references": [
+        "1492-001 (fall of Granada, end of Reconquista)"
       ]
     }
   ],
-  "disconfirming_evidence": "While the Mongol invasion of Russia in 1237 is well-documented, some sources date the beginning of the invasion to late 1236 or early 1238, reflecting the difficulty of precise dating in medieval chronicles. The significance of 1237 as the definitive start date is somewhat conventional; the invasion was a gradual process that began with reconnaissance and raiding before the full-scale conquest. The Jin Dynasty's decline in 1237 is part of a gradual process spanning decades, not a dramatic collapse in a single year. The Ayyubid consolidation under As-Salih Ayyub is a complex political process with multiple competing interpretations in Islamic sources.",
-  "historiographic_note": "Documentation for 1237 is rich for European and Russian events, particularly the Mongol invasion, which is extensively covered in Russian chronicles and confirmed by Persian sources. Islamic sources provide information on the Ayyubid political situation and the Crusader-Islamic conflict, though with less precision for individual years. Chinese sources document the Jin Dynasty's decline, but with less detail for individual years. The historical record is heavily weighted toward military and political events; economic, social, and cultural developments are underrepresented. The perspective is that of literate elites in Europe, the Islamic world, and East Asia; the experiences of common people, women, and non-literate societies are largely absent. The Mongol invasion is documented from both the Mongol/Persian perspective and the Russian perspective, providing a relatively balanced view of this major event.",
+  "disconfirming_evidence": "The dating of the beginning of the Mongol invasion of Russia is uncertain; some sources place it in 1236 or 1237, others in 1238. The scale of the Mongol forces is disputed, with estimates varying widely. Modern scholarship has questioned the reliability of medieval Russian casualty figures, which are often exaggerated. The narrative of the Mongol invasions as a unified campaign under \u00d6gedei's direct command has been complicated by recent scholarship, which emphasizes the autonomy of regional commanders like Batu Khan. Some scholars argue that the invasion was not a single coordinated campaign but rather a series of separate operations.",
+  "historiographic_note": "The historical record for 1237 is moderate for European and Russian events, with contemporary and near-contemporary chronicles providing accounts of the Mongol invasions. The Novgorod First Chronicle provides a contemporary Russian perspective. Islamic sources (Juvayni, Rashid al-Din) provide Mongol perspectives but were compiled decades or centuries later. Chinese sources provide context for the Song Dynasty. There is a significant bias toward European, Islamic, and Chinese sources; the impact on Central Asian and Caucasian populations is less well-documented. The perspective of the conquered Russian and Volga Bulgar populations is largely absent from surviving sources, though the Novgorod Chronicle provides some Russian viewpoint.",
   "graph_edges": [
-    {
-      "from": "1237-001",
-      "to": "1237-002",
-      "relation": "led_to",
-      "note": "The Mongol invasion of Russia led directly to the conquest of Ryazan"
-    },
-    {
-      "from": "1237-002",
-      "to": "1237-003",
-      "relation": "led_to",
-      "note": "The conquest of Ryazan enabled the Mongol consolidation of the Volga region"
-    },
     {
       "from": "1237-001",
       "to": "1238-001",
       "relation": "led_to",
-      "note": "The Mongol invasion of Russia in 1237 led to the siege of Vladimir in 1238"
+      "note": "Beginning of Mongol invasion of Russia in 1237 led to siege of Vladimir in 1238"
     },
     {
-      "from": "1237-004",
-      "to": "1234-001",
-      "relation": "led_to",
-      "note": "Mongol campaigns in 1237 contribute to the final collapse of the Jin Dynasty in 1234"
+      "from": "1237-002",
+      "to": "1237-001",
+      "relation": "contemporary_with",
+      "note": "Conquest of Volga Bulgars and invasion of Russia occurred in the same year"
     },
     {
-      "from": "1237-005",
-      "to": "1250-001",
+      "from": "1237-003",
+      "to": "1237-001",
       "relation": "led_to",
-      "note": "The Ayyubid consolidation in 1237 sets the stage for the Mamluk takeover in 1250"
+      "note": "\u00d6gedei Khan authorized the invasion of Russia in 1237"
+    },
+    {
+      "from": "1237-001",
+      "to": "1240-001",
+      "relation": "led_to",
+      "note": "Mongol invasion of Russia in 1237 led to invasion of Hungary and Poland in 1240"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:16:48.832193",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,25 +1,26 @@
 {
   "year": 1262,
   "year_label": "1262 CE",
-  "era_context": "The High Middle Ages; the Mongol Empire is fragmenting into regional khanates. Kublai Khan is consolidating power in the East against his brother Ariq B\u00f6ke. The Papacy is engaged in political conflicts with European powers. The Crusader states in the Levant are in their final decades. The Mali Empire is rising in West Africa; the Delhi Sultanate is expanding in India.",
+  "era_context": "The High Middle Ages; the Mongol civil war between Kublai Khan and Ariq B\u00f6ke ongoing; the Mamluk Sultanate under Baibars consolidating power after Ain Jalut (1260); the Reconquista advancing in Iberia; the Papacy engaged in conflict with secular rulers over temporal authority; tensions rising in England between crown and barons.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (minimal written records)",
-    "Southeast Asia (sparse documentation)",
-    "Oceania (no written records)",
-    "Eastern Europe beyond Poland and Hungary (limited sources)"
+    "Sub-Saharan Africa (minimal written documentation)",
+    "Southeast Asia (sparse European sources; local records underrepresented)",
+    "Pre-Columbian Americas (no written records in European tradition)",
+    "Central Asia and the Steppe (limited documentation outside Mongol administrative records)"
   ],
   "events": [
     {
       "id": "1262-001",
-      "title": "Mongol civil war: Kublai Khan vs. Ariq B\u00f6ke (ongoing)",
-      "region": "Mongolia, China",
-      "coordinates_approx": "47.0, 106.0",
+      "title": "Mongol Civil War Between Kublai Khan and Ariq B\u00f6ke Continues",
+      "region": "Mongol Empire, East Asia, Central Asia",
+      "coordinates_approx": "47.92, 106.88",
       "category": "military",
-      "description": "The civil war between Kublai Khan and his brother Ariq B\u00f6ke continued in 1262, with Kublai consolidating military advantages in the south and east. This conflict, which began in 1260 following the death of their brother M\u00f6ngke, was determining the future structure of the Mongol Empire. Kublai's strategy involved securing control of China and the eastern territories while Ariq B\u00f6ke attempted to maintain traditional Mongol power in the steppes. The war would conclude in 1264 with Kublai's victory.",
+      "description": "The Mongol civil war between Kublai Khan and his brother Ariq B\u00f6ke, which had begun in 1260, continued in 1262. The conflict was a struggle for succession to the Great Khanate following the death of M\u00f6ngke Khan in 1259. Kublai Khan, based in the east with support from Mongol forces in China, was gradually gaining the upper hand over Ariq B\u00f6ke, who controlled the Mongol heartland in Central Asia. The war would continue for several more years, with Ariq B\u00f6ke eventually being defeated in 1264\u20131265. This conflict represented a major fracture in Mongol unity and contributed to the eventual division of the Mongol Empire into separate khanates.",
       "key_figures": [
-        "Kublai Khan (M\u00f6ngke's successor)",
-        "Ariq B\u00f6ke (rival claimant)"
+        "Kublai Khan (Great Khan claimant)",
+        "Ariq B\u00f6ke (rival claimant)",
+        "M\u00f6ngke Khan (deceased predecessor)"
       ],
       "sources": [
         {
@@ -28,172 +29,192 @@
           "contemporary": false
         },
         {
-          "name": "Jami' al-tawarikh (Rashid al-Din)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The civil war is well-documented in Yuan and Persian sources. The year 1262 falls within the documented conflict period.",
-      "cross_references": [
-        "1260-001 (Start of civil war)",
-        "1264-002 (Conclusion of civil war)"
-      ]
-    },
-    {
-      "id": "1262-002",
-      "title": "Baibars' military campaigns in the Levant",
-      "region": "Syria, Palestine, Mesopotamia",
-      "coordinates_approx": "34.5, 36.0",
-      "category": "military",
-      "description": "Sultan Baibars of the Mamluk Sultanate continued his military campaigns to consolidate control over the Levantine territories and resist Ilkhanate expansion. In 1262, Baibars was engaged in campaigns against remaining Crusader strongholds and Ilkhanate forces. His military campaigns were part of a broader strategy to establish Mamluk hegemony in the eastern Mediterranean and to eliminate the last vestiges of Crusader power in the region.",
-      "key_figures": [
-        "Baibars (Mamluk Sultan, r. 1260\u20131277)"
-      ],
-      "sources": [
-        {
-          "name": "Al-Maqrizi, Kitab al-Suluk",
+          "name": "Jami' al-tawarikh (Compendium of Chronicles, Rashid al-Din)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Tarikh",
-          "type": "chronicle",
+          "name": "Historiographic consensus on Mongol succession",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Baibars' military activities are well-documented in general; specific campaigns in 1262 are less precisely dated.",
+      "certainty_note": "The Mongol civil war is well-documented in later compilations, but contemporary sources are limited. The year 1262 falls within the conflict period (1260\u20131264/1265).",
       "cross_references": [
-        "1260-002 (Battle of Ain Jalut)",
-        "1268-001 (Baibars' conquest of Antioch)"
+        "1260-002 (Start of Mongol civil war)",
+        "1264-002 (Ariq B\u00f6ke's defeat)"
+      ]
+    },
+    {
+      "id": "1262-002",
+      "title": "Baibars' Consolidation of Mamluk Power and Campaigns Against Crusaders",
+      "region": "Mamluk Sultanate, Egypt, Syria, Palestine",
+      "coordinates_approx": "30.04, 31.24",
+      "category": "military",
+      "description": "Sultan Baibars al-Bunduqdari, who had ruled since 1260, continued his military campaigns to consolidate Mamluk control over Egypt and the Levant and to reduce Crusader strongholds. By 1262, Baibars had established himself as a strong military leader and was systematically expanding Mamluk territorial control. His campaigns against the Crusader states were part of a broader strategy to eliminate Christian military presence in the eastern Mediterranean and to establish Mamluk hegemony in the region. Baibars was also consolidating his administrative control and establishing the Mamluk Sultanate as a stable political entity.",
+      "key_figures": [
+        "Baibars al-Bunduqdari (Mamluk Sultan)",
+        "Crusader leaders in the Levant"
+      ],
+      "sources": [
+        {
+          "name": "Mamluk administrative records and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Ibn al-Athir and later Arab historians",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Mamluk consolidation",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Baibars' reign and general military activities are well-documented, but specific campaigns in 1262 are less precisely dated in surviving sources. The year falls within his consolidation period (1260\u20131277).",
+      "cross_references": [
+        "1260-001 (Battle of Ain Jalut)",
+        "1265-004 (Siege of Caesarea by Baibars)"
       ]
     },
     {
       "id": "1262-003",
-      "title": "Alexander Nevsky's death",
-      "region": "Novgorod, Russia",
-      "coordinates_approx": "59.93, 30.36",
+      "title": "Llywelyn ap Gruffydd's Consolidation of Power in Wales",
+      "region": "Principality of Gwynedd, Wales",
+      "coordinates_approx": "53.17, -3.82",
       "category": "political",
-      "description": "Alexander Nevsky, Prince of Novgorod and Vladimir, died on 14 November 1262. Alexander had been a dominant figure in Russian politics for decades, known for his military victories against the Swedes (1240) and the Teutonic Knights (1242), and for his diplomatic negotiations with the Mongol Golden Horde. His death marked the end of an era of strong leadership in northwestern Russia and was followed by succession disputes among his sons.",
+      "description": "Llywelyn ap Gruffydd, Prince of Gwynedd, was consolidating his power over much of Wales by 1262. He had defeated his brother Dafydd and was expanding his authority over other Welsh principalities. By 1262, he was emerging as the dominant Welsh prince, though his position remained contested by English interests and rival Welsh lords. His rise to power represented the last major period of Welsh independence before English conquest under Edward I.",
       "key_figures": [
-        "Alexander Nevsky (Prince of Novgorod and Vladimir, d. 1262)"
+        "Llywelyn ap Gruffydd (Prince of Gwynedd)",
+        "Dafydd ap Gruffydd (brother, rival)",
+        "Henry III of England (overlord, though with limited effective control)"
       ],
       "sources": [
         {
-          "name": "Novgorod First Chronicle",
+          "name": "Brut y Tywysogion (Chronicle of the Princes)",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Life of Alexander Nevsky (hagiographic text, 13th century)",
+          "name": "English royal records and chronicles",
           "type": "primary_text",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "Russian chronicles (various compilations)",
-          "type": "chronicle",
+          "name": "Historiographic consensus on Welsh medieval history",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Alexander Nevsky's death date (14 November 1262) is well-established in Russian chronicles. However, some sources date his death to 1263; modern scholarship generally accepts 1262.",
+      "certainty_note": "Llywelyn's rise to dominance in Wales by the early 1260s is well-documented in both Welsh and English sources. The year 1262 marks a key point in his consolidation of power.",
       "cross_references": [
-        "1240-001 (Battle of the Neva)",
-        "1242-001 (Battle of Lake Peipus)"
+        "1277-001 (First Welsh War of Edward I)",
+        "Part of broader Welsh independence narrative"
       ]
     },
     {
       "id": "1262-004",
-      "title": "Uprising in Constantinople against Latin rule",
-      "region": "Byzantine Empire (Constantinople)",
-      "coordinates_approx": "41.01, 28.98",
-      "category": "political",
-      "description": "In 1262, the Byzantine Greeks, led by Michael VIII Palaiologus, launched a successful uprising against Latin rule in Constantinople. The Latin Empire, established after the Fourth Crusade (1204), had ruled Constantinople for 58 years. The Byzantine uprising, supported by the Genoese, resulted in the recapture of Constantinople and the restoration of the Byzantine Empire. This event marked the end of Latin rule in Constantinople and the beginning of the late Byzantine period.",
+      "title": "Alfonso X of Castile's Continued Reconquista and Intellectual Patronage",
+      "region": "Kingdom of Castile, Iberia",
+      "coordinates_approx": "40.27, -3.75",
+      "category": "cultural",
+      "description": "Alfonso X of Castile, known as 'El Sabio' (the Wise), continued his military campaigns against Islamic Granada and other Muslim territories in Iberia, while also serving as a major patron of learning and culture. By 1262, he had established himself as a significant intellectual patron, commissioning translations and compilations of knowledge. His reign represented a synthesis of Christian, Muslim, and Jewish intellectual traditions in medieval Iberia, and his cultural patronage had lasting influence on European learning.",
       "key_figures": [
-        "Michael VIII Palaiologus (Byzantine emperor)",
-        "Baldwin II (Latin emperor, deposed)"
+        "Alfonso X of Castile (King)",
+        "Scholars and translators at Alfonso's court"
       ],
       "sources": [
         {
-          "name": "Pachymeres, Historia (Byzantine chronicle, 13th century)",
+          "name": "Cr\u00f3nica de Alfonso X (Royal chronicle)",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Villehardouin, Conquest of Constantinople (earlier account of the Fourth Crusade)",
-          "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "Byzantine and Genoese records",
+          "name": "Works commissioned by Alfonso (Estoria de Espanya, etc.)",
           "type": "primary_text",
           "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Alfonso X",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The recapture of Constantinople in 1262 is well-documented in Byzantine, Genoese, and Latin sources. The date (25 July 1262) is well-established.",
+      "certainty_note": "Alfonso X's cultural patronage and intellectual activities are well-documented in surviving works and chronicles. His reign (1252\u20131284) is one of the best-documented periods of medieval Iberian history.",
       "cross_references": [
-        "1204-001 (Fourth Crusade and establishment of Latin Empire)",
-        "1261-001 (Michael VIII's preparations for the uprising)"
+        "Part of broader Reconquista narrative",
+        "Related to medieval intellectual synthesis in Iberia"
       ]
     },
     {
       "id": "1262-005",
-      "title": "Restoration of the Byzantine Empire",
-      "region": "Byzantine Empire",
-      "coordinates_approx": "39.0, 35.0",
+      "title": "Tensions Rise Between English Crown and Barons",
+      "region": "England",
+      "coordinates_approx": "52.13, -1.50",
       "category": "political",
-      "description": "Following the successful recapture of Constantinople, Michael VIII Palaiologus formally restored the Byzantine Empire and was crowned emperor. The restoration of Byzantine rule marked the end of the Latin Empire and the beginning of the Palaiologus dynasty's rule. Michael VIII's restoration of the Byzantine Empire was a significant geopolitical event that shifted the balance of power in the eastern Mediterranean and the Balkans.",
+      "description": "Tensions between King Henry III of England and the baronial nobility were rising in 1262, setting the stage for the Second Barons' War that would erupt in 1263\u20131264. The disputes centered on royal authority, baronial privileges, the influence of foreign advisors (particularly the Lusignan family), and the implementation of the Provisions of Oxford (1258), which had attempted to limit royal power. By 1262, these tensions had become acute, and the conflict would soon escalate into open warfare.",
       "key_figures": [
-        "Michael VIII Palaiologus (Byzantine emperor, r. 1259\u20131282)"
+        "Henry III of England (King)",
+        "Simon de Montfort, Earl of Leicester (baronial leader)",
+        "Edward, Prince of Wales (Henry's son)"
       ],
       "sources": [
         {
-          "name": "Pachymeres, Historia",
+          "name": "Chronicle of William of Rishanger",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Byzantine imperial records",
+          "name": "Annals of Dunstable",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Royal administrative records",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The restoration of the Byzantine Empire in 1262 is well-documented in Byzantine sources.",
+      "certainty_note": "The rising tensions between crown and barons in 1262 are well-documented in contemporary chronicles and administrative records. The year marks the prelude to the Second Barons' War.",
       "cross_references": [
-        "1262-004 (Recapture of Constantinople)",
-        "1204-001 (Fourth Crusade)"
+        "1263-001 (Second Barons' War escalates)",
+        "1264-001 (Battle of Lewes)"
       ]
     }
   ],
-  "disconfirming_evidence": "Alexander Nevsky is often portrayed as a heroic defender of Russian Orthodoxy against Western aggression, but modern scholarship emphasizes his pragmatic accommodation with the Mongol Golden Horde, which some historians view as a form of collaboration. His reputation as a saint and national hero is partly hagiographic. Additionally, the recapture of Constantinople in 1262 is sometimes presented as a triumphant restoration of Byzantine power, but the late Byzantine Empire that followed was significantly weakened and would eventually fall to the Ottomans in 1453. Michael VIII's restoration was more of a temporary recovery than a genuine restoration of Byzantine strength.",
-  "historiographic_note": "Documentation for 1262 is strong for Western Europe (especially the Byzantine Empire and the Papacy), Scandinavia, and the Mongol Empire, but weaker for the Islamic world, Asia beyond the Mongol sphere, and Africa. The recapture of Constantinople is exceptionally well-documented in Byzantine, Genoese, and Latin sources. Alexander Nevsky's death is well-recorded in Russian chronicles, though some dating uncertainty exists. By contrast, events in the Song Dynasty, the Delhi Sultanate, and sub-Saharan Africa are either poorly documented or absent from surviving sources. The historical record reflects the bias of surviving documentary traditions toward Europe and the Mongol court.",
+  "disconfirming_evidence": "The Mongol civil war is sometimes presented as a clear struggle between 'eastern' and 'western' Mongol factions; however, the conflict involved complex political negotiations and alliances that do not fit neatly into geographic categories. Baibars' campaigns are sometimes presented as uniformly successful; however, his military efforts faced resistance and setbacks, and the Crusader states persisted for another two decades. Llywelyn ap Gruffydd's rise is sometimes presented as inevitable; however, his position remained contested, and his authority was challenged by both English interests and rival Welsh lords. Alfonso X's cultural patronage is sometimes romanticized as a uniquely enlightened synthesis of cultures; however, his reign also saw significant religious tensions and conflicts. The tensions between English crown and barons are sometimes presented as a simple conflict between 'progressive' and 'reactionary' forces; however, both sides were defending what they saw as legitimate rights and privileges.",
+  "historiographic_note": "Documentation for 1262 is good for European events (England, Wales, Iberia) due to abundant contemporary chronicles and administrative records. Mongol sources are primarily later compilations (Yuan Shi, Jami' al-tawarikh) and reflect editorial perspectives of later dynasties. Mamluk sources are available but often less precise about specific dates within a year. The historical record is heavily weighted toward political, military, and religious events; economic and social developments are underrepresented. Non-European regions (Africa, Southeast Asia, the Americas) are essentially absent from surviving written sources for this year. The period leading up to the Second Barons' War is exceptionally well-documented due to the abundance of English administrative records and chronicles.",
   "graph_edges": [
-    {
-      "from": "1262-004",
-      "to": "1262-005",
-      "relation": "led_to",
-      "note": "The recapture of Constantinople led directly to the formal restoration of the Byzantine Empire."
-    },
-    {
-      "from": "1204-001",
-      "to": "1262-004",
-      "relation": "led_to",
-      "note": "The Fourth Crusade's establishment of the Latin Empire in 1204 led to its overthrow in 1262."
-    },
     {
       "from": "1262-001",
       "to": "1264-002",
-      "relation": "part_of",
-      "note": "The 1262 continuation of the Mongol civil war is part of the broader conflict that concluded in 1264."
+      "relation": "led_to",
+      "note": "Mongol civil war continued and reached critical point with Ariq B\u00f6ke's defeat in 1264"
+    },
+    {
+      "from": "1262-002",
+      "to": "1265-004",
+      "relation": "led_to",
+      "note": "Baibars' consolidation of power in 1262 enabled continued campaigns against Crusaders"
+    },
+    {
+      "from": "1262-003",
+      "to": "1266-004",
+      "relation": "led_to",
+      "note": "Llywelyn's consolidation of power in 1262 continued through 1266"
+    },
+    {
+      "from": "1262-005",
+      "to": "1263-001",
+      "relation": "led_to",
+      "note": "Rising tensions between crown and barons in 1262 escalated into Second Barons' War in 1263"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:04:08.125553",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

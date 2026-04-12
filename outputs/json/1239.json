@@ -1,165 +1,253 @@
 {
   "year": 1239,
   "year_label": "1239 CE",
-  "era_context": "The 13th century is marked by the fragmentation of the Mongol Empire following Genghis Khan's death (1227), the Crusader presence in the Levant under Louis IX of France, the rise of the Mamluk Sultanate in Egypt, and the consolidation of major European kingdoms. In East Asia, the Jin Dynasty faces pressure from the Mongols, while the Song Dynasty controls southern China. This is an era of religious ferment, technological advancement (particularly in printing and metallurgy in Asia), and intense military competition across Eurasia.",
+  "era_context": "The mid-13th century: the Mongol Empire under \u00d6gedei Khan (r. 1229\u20131241) is expanding westward into Eastern Europe and consolidating control over Central Asia and Russia. In Europe, the Crusader states in the Levant face mounting pressure; the Reconquista continues in Iberia. In East Asia, the Jin Dynasty has recently fallen to the Mongols (1234); the Song Dynasty controls southern China. In the Islamic world, the Abbasid Caliphate remains nominally supreme but politically fractured.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written sources for this period)",
-    "Southeast Asia (sparse European documentation; local chronicles less accessible)",
-    "Oceania and Pacific regions"
+    "Sub-Saharan Africa (limited contemporary written sources)",
+    "Southeast Asia (sparse European and Islamic documentation)",
+    "Oceania and Pacific (no written records)",
+    "Central Asia (limited contemporary documentation of non-Mongol populations)"
   ],
   "events": [
     {
       "id": "1239-001",
-      "title": "Mongol siege of Baidar Pass and Crimean campaigns",
-      "region": "Crimea and southern Russia",
-      "coordinates_approx": "44.5, 34.0",
+      "title": "Mongol invasion of Russia continues; conquest of Ryazan and Tver",
+      "region": "Russia (Ryazan, Tver principalities)",
+      "coordinates_approx": "54.6, 41.6",
       "category": "military",
-      "description": "Batu Khan's Mongol forces continue their western campaigns, consolidating control over the Crimean peninsula and the southern steppes. This campaign is part of the broader Mongol invasion of Eastern Europe and the establishment of the Golden Horde. The conquest of these territories disrupts existing trade networks and establishes Mongol dominance over the Black Sea region.",
+      "description": "In 1239, Mongol forces under Batu Khan continued their invasion of Russia, conquering the principalities of Ryazan and Tver. The invasion, which began in 1237, was methodical and devastating. The Mongols employed siege warfare and psychological tactics to break resistance. By 1239, the conquest of much of western and central Russia was complete, though some northern principalities (including Novgorod) escaped direct conquest. The conquest of Russia established Mongol suzerainty over the Russian principalities, which would last until the 15th century.",
       "key_figures": [
         "Batu Khan (Mongol commander)",
-        "M\u00f6ngke Khan (Great Khan, overseeing campaigns)"
+        "Yuri II (Grand Prince of Vladimir, killed in 1238)"
       ],
       "sources": [
         {
-          "name": "Juvayni, Tarikh-i jahan-gusha (History of the World-Conqueror)",
+          "name": "Novgorod First Chronicle (Novgorodskaya Pervaya Letopis), compiled 13th century with contemporary accounts",
           "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Juvayni, Ata-Malik. Tarikh-i jahan-gusha (History of the World Conqueror), compiled mid-13th century",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Rashid al-Din, Jami' al-tawarikh (Compendium of Chronicles)",
-          "type": "chronicle",
+          "name": "Historiographic consensus from Russian medieval studies",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Mongol campaigns in this region are well-attested in Persian and Islamic sources, though precise dating of individual engagements varies by source. The year 1239 is assigned by historiographic consensus for this phase of the Crimean campaign.",
+      "certainty": "confirmed",
+      "certainty_note": "The conquest of Ryazan and Tver is well-attested in Russian chronicles. The dates are confirmed by multiple sources.",
       "cross_references": [
-        "1237-001 (Mongol invasion of Russia begins)",
-        "1240-001 (Fall of Kiev)"
+        "1237-001 (beginning of Mongol invasion of Russia)",
+        "1240-003 (Mongol conquest of Vladimir and northeastern Russia)"
       ]
     },
     {
       "id": "1239-002",
-      "title": "Louis IX of France launches preparations for Seventh Crusade",
-      "region": "France and Mediterranean",
-      "coordinates_approx": "48.8, 2.3",
-      "category": "religious",
-      "description": "King Louis IX (later Saint Louis) of France begins organizing the Seventh Crusade, which will depart in 1248. In 1239, he negotiates with the Papacy, raises funds through taxation and ecclesiastical support, and gathers military and logistical resources. This crusade represents a major commitment of European resources and reflects the continued religious fervor and political ambitions of the French monarchy in the eastern Mediterranean.",
+      "title": "Mongol forces advance toward the Caucasus and the Black Sea region",
+      "region": "Caucasus, Black Sea coast",
+      "coordinates_approx": "45.0, 45.0",
+      "category": "military",
+      "description": "In 1239, Mongol forces under Batu Khan advanced toward the Caucasus and the Black Sea region, consolidating control over the Kipchak Steppe and preparing for further westward expansion. The conquest of the Caucasus and the subjugation of the Cumans (Polovtsy) were completed by 1240. This advance secured the Mongol western flank and provided a base for the invasion of Hungary and Poland in 1240\u20131241.",
       "key_figures": [
-        "Louis IX of France (King)",
-        "Pope Gregory IX (ecclesiastical support)"
+        "Batu Khan (Mongol commander)",
+        "Subutai (Mongol general)"
       ],
       "sources": [
         {
-          "name": "Jean de Joinville, Life of Saint Louis",
-          "type": "primary_text",
+          "name": "Juvayni, Tarikh-i jahan-gusha",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Matthew Paris, Chronica Majora",
-          "type": "chronicle",
-          "contemporary": true
+          "name": "Historiographic consensus from Mongol and Central Asian studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Extensive contemporary documentation from French and English chronicles confirms Louis IX's crusade preparations in the late 1230s and early 1240s.",
+      "certainty": "approximate",
+      "certainty_note": "The advance toward the Caucasus occurred over several years (roughly 1237\u20131240). The exact chronology is less clear than for the Russian conquest, as sources are sparse for this region.",
       "cross_references": [
-        "1248-001 (Seventh Crusade departs)"
+        "1237-001 (beginning of Mongol expansion westward)",
+        "1240-002 (Mongol conquest of the Caucasus and Kipchak Steppe)"
       ]
     },
     {
       "id": "1239-003",
-      "title": "Mongol conquest of the Jin Dynasty accelerates",
-      "region": "Northern China",
-      "coordinates_approx": "39.9, 116.4",
-      "category": "military",
-      "description": "The Mongol forces under M\u00f6ngke Khan intensify their assault on the Jin Dynasty, which has ruled northern China since 1115. The Jin Dynasty, weakened by internal strife and previous Mongol incursions, loses further territory. This campaign is part of the systematic Mongol conquest of China that will culminate in the complete fall of the Jin Dynasty in 1234 and the eventual conquest of the Song Dynasty.",
+      "title": "\u00d6gedei Khan's reign continues; Mongol Empire at territorial zenith",
+      "region": "Mongol Empire (Central Asia, East Asia, Eastern Europe)",
+      "coordinates_approx": "48.0, 106.0",
+      "category": "political",
+      "description": "In 1239, \u00d6gedei Khan (r. 1229\u20131241) continued his reign as the second Great Khan of the Mongol Empire. His reign was marked by the expansion of the empire to its greatest territorial extent, encompassing territories from the Pacific Ocean to Eastern Europe. \u00d6gedei was known for his administrative acumen and his patronage of Mongol culture. His reign would end with his death in late 1241, triggering a succession crisis.",
       "key_figures": [
-        "M\u00f6ngke Khan (Mongol Great Khan)",
-        "Wanyan Shouxu (Jin Emperor)"
+        "\u00d6gedei Khan (Great Khan)",
+        "T\u00f6regene Khatun (wife, future regent)"
       ],
       "sources": [
         {
-          "name": "Shiji (Records of the Grand Historian) and later compilations",
-          "type": "historiographic_consensus",
+          "name": "Juvayni, Tarikh-i jahan-gusha",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
+          "name": "Rashid al-Din. Jami' al-tawarikh (Compendium of Chronicles), early 14th century",
           "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Mongol studies",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The broad trajectory of Mongol conquest in northern China is well-established, though precise dating of individual campaigns in 1239 is less certain. Chinese sources and Yuan Dynasty records provide the primary documentation.",
+      "certainty": "confirmed",
+      "certainty_note": "\u00d6gedei's reign and the territorial extent of the Mongol Empire are well-attested in Islamic and Mongol sources.",
       "cross_references": [
-        "1234-001 (Fall of Jin Dynasty)",
-        "1279-001 (Mongol conquest of Song Dynasty complete)"
+        "1241-001 (\u00d6gedei's death)"
       ]
     },
     {
       "id": "1239-004",
-      "title": "Mamluk Sultanate consolidates power in Egypt",
-      "region": "Egypt",
-      "coordinates_approx": "30.0, 31.2",
+      "title": "Song Dynasty continues consolidation of southern China; military preparations against Mongols",
+      "region": "Song Dynasty (southern China)",
+      "coordinates_approx": "30.0, 115.0",
       "category": "political",
-      "description": "The Mamluk Sultanate, established in 1250, is not yet formally in power in 1239, but the military slave system that will define it is already entrenched in the Ayyubid Sultanate. In 1239, the Ayyubid dynasty under As-Salih Ayyub faces internal fragmentation and relies increasingly on Mamluk military forces. This period marks the gradual shift of power from the Ayyubid family to the Mamluk military elite, a transition that will be complete by mid-century.",
+      "description": "In 1239, the Song Dynasty continued to consolidate its control of southern China and made military preparations against the Mongol threat to the north. The Song Dynasty, under the reign of Emperor Lizong (r. 1224\u20131264), maintained a precarious peace with the Mongol Empire. The Song Dynasty invested in military technology, including early gunpowder weapons, and fortified its northern borders. However, the Song Dynasty faced mounting pressure from Mongol expansion and would eventually fall to the Mongols in 1279.",
       "key_figures": [
-        "As-Salih Ayyub (Ayyubid Sultan)",
-        "Shajar al-Durr (Concubine and future sultanate founder)"
+        "Emperor Lizong (Song Dynasty)"
       ],
       "sources": [
         {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh (The Complete History)",
-          "type": "chronicle",
+          "name": "Zhu Xi and others. Zizhi Tongjian Gangmu (Outline and Details of the Comprehensive Mirror for Aid in Government), compiled 12th\u201313th centuries",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Al-Maqrizi, Kitab al-Suluk (Book of Conduct)",
-          "type": "later_compilation",
+          "name": "Historiographic consensus from Chinese medieval studies",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The rise of the Mamluks is well-documented in Islamic sources, though the precise timeline of power shifts within the Ayyubid court in 1239 is less certain. Historiographic consensus places this period as a critical transition phase.",
+      "certainty": "confirmed",
+      "certainty_note": "The Song Dynasty's consolidation of southern China and its military preparations are well-attested in Chinese sources.",
       "cross_references": [
-        "1250-001 (Mamluk Sultanate formally established)"
+        "1234-001 (fall of Jin Dynasty to Mongols)",
+        "1279-001 (fall of Song Dynasty to Mongols)"
+      ]
+    },
+    {
+      "id": "1239-005",
+      "title": "Ayyubid Sultanate faces internal divisions; Mamluk power rising",
+      "region": "Egypt, Levant",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "In 1239, the Ayyubid Sultanate faced internal divisions and political instability, as various branches of the Ayyubid family competed for power. The Mamluks, originally slave-soldiers of the Ayyubids, were gradually asserting independent political authority. The rise of the Mamluks represented a significant shift in the political balance of the Islamic world and would eventually lead to the establishment of the Mamluk Sultanate in the mid-13th century.",
+      "key_figures": [
+        "As-Salih Ayyub (Ayyubid Sultan, r. 1240\u20131249)",
+        "Shajar al-Durr (wife of As-Salih Ayyub, future regent)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir. Al-Kamil fi al-tarikh (The Complete History), compiled early 13th century with later additions",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Islamic medieval studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The internal divisions of the Ayyubid Sultanate and the rise of Mamluk power are well-attested in Islamic sources.",
+      "cross_references": [
+        "1240-007 (Mamluk Sultanate consolidates power in Egypt)"
+      ]
+    },
+    {
+      "id": "1239-006",
+      "title": "Crusader states in the Levant continue to decline; loss of Jerusalem in 1244 foreshadowed",
+      "region": "Crusader states (Levant)",
+      "coordinates_approx": "33.0, 35.0",
+      "category": "military",
+      "description": "In 1239, the Crusader states in the Levant continued to face military and political pressure from Islamic powers. The Crusaders had lost much of their territorial holdings following the fall of Jerusalem to Saladin in 1187. The Sixth Crusade (1228\u20131229) had temporarily recovered Jerusalem, but the city would be lost again in 1244. The Crusader presence in the Levant was further weakened by internal divisions and the rise of the Mamluks.",
+      "key_figures": [
+        "Frederick II (Holy Roman Emperor, involved in Sixth Crusade)",
+        "As-Salih Ayyub (Ayyubid Sultan)"
+      ],
+      "sources": [
+        {
+          "name": "William of Tyre. Historia (History of the Crusades), compiled 12th century with later continuations",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Crusade studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The military and political pressure on the Crusader states is well-attested in European and Islamic sources.",
+      "cross_references": [
+        "1244-001 (loss of Jerusalem to Islamic forces)",
+        "1291-001 (fall of Acre, end of Crusader presence in the Levant)"
+      ]
+    },
+    {
+      "id": "1239-007",
+      "title": "Reconquista continues in Iberia; Christian kingdoms advance against Islamic Granada",
+      "region": "Iberia (Spain, Portugal)",
+      "coordinates_approx": "37.0, -3.0",
+      "category": "military",
+      "description": "In 1239, the Reconquista continued in Iberia, with Christian kingdoms advancing against the Islamic Emirate of Granada and other Islamic territories. The Christian kingdoms of Castile, Aragon, and Portugal were gradually expanding their territories at the expense of Islamic powers. The Reconquista would continue until 1492, when the Emirate of Granada fell to the Catholic Monarchs.",
+      "key_figures": [
+        "Ferdinand III of Castile (r. 1217\u20131252)",
+        "James I of Aragon (r. 1213\u20131276)"
+      ],
+      "sources": [
+        {
+          "name": "Historiographic consensus from Iberian medieval studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The continuation of the Reconquista is well-attested in European sources.",
+      "cross_references": [
+        "1492-001 (fall of Granada, end of Reconquista)"
       ]
     }
   ],
-  "disconfirming_evidence": "The significance of 1239 as a discrete historical turning point is limited. While Mongol campaigns and Crusade preparations are well-attested, the year itself marks no major treaty, battle conclusion, or political transition. Some sources date the intensification of Mongol campaigns against the Jin Dynasty to 1238 or 1240 rather than 1239, reflecting the difficulty of precise dating for military campaigns in this era. The Mamluk transition is a gradual process spanning decades, not a discrete event in 1239.",
-  "historiographic_note": "Documentation for 1239 is uneven. European sources (particularly English and French chronicles) provide rich detail on Crusade preparations and political developments in Western Europe. Islamic and Persian sources offer substantial information on Mongol campaigns and the Ayyubid-Mamluk transition. Chinese sources document the Jin Dynasty's decline, though with less precision for individual years. Sub-Saharan Africa, Southeast Asia, and the Americas are essentially absent from surviving written records for this year. The historical record is shaped by the interests of literate elites in Europe, the Islamic world, and East Asia; military and political events dominate over economic, social, or cultural developments.",
+  "disconfirming_evidence": "The dating of specific Mongol conquests in Russia is uncertain; some sources place events in 1238, others in 1239 or 1240. The scale of the Mongol forces is disputed, with estimates varying widely. Modern scholarship has questioned the reliability of medieval European and Russian casualty figures, which are often exaggerated. The narrative of the Mongol invasions as a unified campaign under \u00d6gedei's direct command has been complicated by recent scholarship, which emphasizes the autonomy of regional commanders like Batu Khan.",
+  "historiographic_note": "The historical record for 1239 is moderate for European and Russian events, with contemporary and near-contemporary chronicles providing accounts of the Mongol invasions. Islamic sources (Juvayni, Rashid al-Din) provide Mongol perspectives but were compiled decades or centuries later. Chinese sources provide context for the Song Dynasty. There is a significant bias toward European, Islamic, and Chinese sources; the impact on Central Asian and Caucasian populations is less well-documented. The perspective of the conquered populations is largely absent from surviving sources.",
   "graph_edges": [
     {
       "from": "1239-001",
-      "to": "1237-001",
-      "relation": "part_of",
-      "note": "Continuation of the broader Mongol invasion of Eastern Europe"
+      "to": "1240-003",
+      "relation": "led_to",
+      "note": "Conquest of Ryazan and Tver in 1239 led to further conquest of Vladimir and northeastern Russia in 1240"
     },
     {
       "from": "1239-002",
-      "to": "1248-001",
+      "to": "1240-001",
       "relation": "led_to",
-      "note": "Preparations in 1239 lead to the departure of the Seventh Crusade in 1248"
+      "note": "Advance toward Caucasus and Black Sea in 1239 enabled invasion of Hungary and Poland in 1240"
     },
     {
       "from": "1239-003",
-      "to": "1234-001",
+      "to": "1241-001",
       "relation": "led_to",
-      "note": "Intensified Mongol campaigns in 1239 contribute to the final collapse of the Jin Dynasty in 1234"
+      "note": "\u00d6gedei's reign ended with his death in 1241, triggering succession crisis"
     },
     {
-      "from": "1239-004",
-      "to": "1250-001",
+      "from": "1239-005",
+      "to": "1240-007",
       "relation": "led_to",
-      "note": "The Mamluk consolidation process in 1239 culminates in the formal establishment of the Mamluk Sultanate in 1250"
+      "note": "Internal divisions of Ayyubid Sultanate led to consolidation of Mamluk power"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:16:48.830562",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

@@ -1,292 +1,215 @@
 {
   "year": 1260,
   "year_label": "1260 CE",
-  "era_context": "The High Middle Ages; the Mongol Empire is fragmenting into regional khanates following M\u00f6ngke Khan's death. Kublai Khan is consolidating power in the East. The Papacy is engaged in political conflicts with European powers. The Crusader states in the Levant are in their final decades. The Mali Empire is rising in West Africa; the Delhi Sultanate is expanding in India.",
-  "documentation_level": "rich",
+  "era_context": "Mid-13th century: the Mongol Empire is fragmenting into regional khanates following the death of M\u00f6ngke Khan. The Mamluk Sultanate is rising as a major power in the Eastern Mediterranean. The Byzantine Empire is preparing to recapture Constantinople from the Latin Empire. Western Europe is dominated by feudal monarchies and the Papacy. The Crusader states in the Levant are in terminal decline.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa (minimal written records)",
-    "Southeast Asia (sparse documentation)",
+    "Southeast Asia (sparse European documentation)",
+    "Northern and Eastern Europe (limited sources in Western archives)",
     "Oceania (no written records)"
   ],
   "events": [
     {
       "id": "1260-001",
-      "title": "Start of the Mongol civil war (Kublai Khan vs. Ariq B\u00f6ke)",
-      "region": "Mongolia, China",
-      "coordinates_approx": "47.0, 106.0",
+      "title": "Battle of Ain Jalut: Mamluk victory over Mongol forces",
+      "region": "Ain Jalut (Galilee), Levant",
+      "coordinates_approx": "32.5, 35.3",
       "category": "military",
-      "description": "Following the death of M\u00f6ngke Khan in 1259, a civil war erupted between his brothers Kublai Khan and Ariq B\u00f6ke over succession to the Mongol Empire. Kublai, who had been governing China, claimed the title of Great Khan, while Ariq B\u00f6ke, who controlled the Mongol heartland, also claimed supreme authority. This conflict lasted until 1264 and fundamentally altered the structure of the Mongol Empire, leading to its fragmentation into regional khanates and the establishment of the Yuan Dynasty under Kublai Khan's rule. The civil war involved complex alliances among Mongol princes and regional commanders.",
+      "description": "On 3 September 1260, Mamluk forces under Sultan Qutuz and general Baibars defeated a Mongol army commanded by Kitbuqa at Ain Jalut in Galilee. This battle is traditionally regarded as a turning point in world history: it halted the Mongol advance into the Levant and Egypt, prevented the conquest of the Islamic heartland, and established the Mamluk Sultanate as the dominant power in the Eastern Mediterranean. The Mongols had previously sacked Baghdad (1258) and seemed unstoppable; Ain Jalut demonstrated that they were not invincible. However, modern scholarship has nuanced this narrative, noting that the Mongol force was relatively small and that the Mongols' strategic focus was on China, not the Levant.",
       "key_figures": [
-        "Kublai Khan (M\u00f6ngke's successor, r. 1260\u20131294)",
-        "Ariq B\u00f6ke (rival claimant)",
-        "M\u00f6ngke Khan (predecessor, d. 1259)"
+        "Qutuz (Mamluk Sultan)",
+        "Baibars al-Bunduqdari (Mamluk general, future Sultan)",
+        "Kitbuqa (Mongol commander)"
       ],
       "sources": [
         {
-          "name": "Yuan Shi (Official History of the Yuan Dynasty, compiled 14th century)",
+          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh (continued by later authors; contemporary accounts embedded in later compilations)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Jami' al-tawarikh (Rashid al-Din's universal history, early 14th century)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Mamluk administrative records and military chronicles",
+          "type": "epigraphic",
+          "contemporary": true
         },
         {
-          "name": "Marco Polo, Travels (late 13th century account)",
-          "type": "primary_text",
+          "name": "Historiographic consensus from Islamic and Mongol studies (Reuven Amitai, Peter Jackson)",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The start of the civil war in 1260 is well-documented in Yuan and Persian sources. The date is historiographic consensus.",
+      "certainty_note": "The battle is well-attested in multiple sources and the date of 3 September 1260 is standard in historiography. However, the strategic significance attributed to it has been revised by modern scholarship.",
       "cross_references": [
-        "1259-001 (M\u00f6ngke Khan's death)",
-        "1264-002 (Conclusion of civil war)"
+        "1258-001 (Mongol sack of Baghdad)",
+        "1261-004 (Baibars' consolidation of Mamluk power)"
       ]
     },
     {
       "id": "1260-002",
-      "title": "Battle of Ain Jalut",
-      "region": "Palestine (near Nazareth)",
-      "coordinates_approx": "32.75, 35.27",
-      "category": "military",
-      "description": "On 3 September 1260, the Mamluk Sultanate of Egypt, led by Sultan Baibars, defeated the Ilkhanate (Mongol state in Persia) at the Battle of Ain Jalut. This was the first major defeat of a Mongol army in the field and marked a turning point in the geopolitics of the eastern Mediterranean and the Middle East. The Mamluk victory halted Ilkhanate expansion into the Levant and established the Mamluk Sultanate as the dominant Islamic power in the region. The battle also had significant symbolic importance, demonstrating that Mongol armies were not invincible.",
-      "key_figures": [
-        "Baibars (Mamluk Sultan)",
-        "Qutuz (Mamluk Sultan, killed in battle)",
-        "Hulagu Khan (Ilkhanate ruler)",
-        "Kitbuqa (Ilkhanate commander)"
-      ],
-      "sources": [
-        {
-          "name": "Al-Maqrizi, Kitab al-Suluk (History of the Mamluks, compiled 15th century)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Tarikh (chronicle covering this period)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Jami' al-tawarikh (Rashid al-Din)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Mamluk and Ilkhanate records",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Battle of Ain Jalut is one of the most well-documented battles of the 13th century, attested in multiple contemporary and near-contemporary sources from both Islamic and Mongol traditions. The date (3 September 1260) is well-established.",
-      "cross_references": [
-        "1260-003 (Baibars' rise to power)",
-        "1277-001 (Battle of Elbistan, later Mamluk-Ilkhanate conflict)"
-      ]
-    },
-    {
-      "id": "1260-003",
-      "title": "Baibars' rise to power in the Mamluk Sultanate",
-      "region": "Egypt",
-      "coordinates_approx": "30.0, 31.0",
+      "title": "Death of M\u00f6ngke Khan and succession crisis in the Mongol Empire",
+      "region": "Mongolia, Mongol Empire",
+      "coordinates_approx": "47.9, 106.9",
       "category": "political",
-      "description": "Following the Mamluk victory at Ain Jalut, Baibars, a Mamluk commander, consolidated his power and became the dominant figure in the Mamluk Sultanate. Baibars had been instrumental in the victory at Ain Jalut and used his military prestige to secure political power. He would rule as Sultan from 1260 to 1277 and is considered one of the greatest Mamluk rulers. His rise to power marked the beginning of the Mamluk Sultanate's golden age and the establishment of Mamluk hegemony in the eastern Mediterranean.",
+      "description": "M\u00f6ngke Khan, the fourth Great Khan of the Mongol Empire, died in 1260 (exact date uncertain, possibly August). His death triggered a succession crisis that would fragment the unified Mongol Empire into competing khanates. Kublai Khan, M\u00f6ngke's brother, claimed the title of Great Khan, but faced opposition from Ariq B\u00f6ke, another brother. The conflict between Kublai and Ariq B\u00f6ke lasted until 1264 and marked the effective end of centralized Mongol rule. This succession dispute had profound consequences for the future of the Mongol world, leading to the establishment of the Yuan Dynasty in China under Kublai and the independence of the other khanates (Golden Horde, Chagatai, Ilkhanate).",
       "key_figures": [
-        "Baibars (Mamluk commander, later Sultan)",
-        "Qutuz (Mamluk Sultan, Baibars' predecessor)"
-      ],
-      "sources": [
-        {
-          "name": "Al-Maqrizi, Kitab al-Suluk",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Tarikh",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Mamluk records",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Baibars' rise to power in 1260 is well-documented in Mamluk sources. The date is historiographic consensus.",
-      "cross_references": [
-        "1260-002 (Battle of Ain Jalut)",
-        "1277-001 (Baibars' death and succession)"
-      ]
-    },
-    {
-      "id": "1260-004",
-      "title": "Kublai Khan's establishment of the Yuan Dynasty",
-      "region": "China, Mongolia",
-      "coordinates_approx": "39.9, 116.4",
-      "category": "political",
-      "description": "In 1260, Kublai Khan proclaimed himself Great Khan and established the Yuan Dynasty, claiming succession to the Mongol Empire. Kublai's proclamation was contested by his brother Ariq B\u00f6ke, leading to the civil war that lasted until 1264. However, Kublai's establishment of the Yuan Dynasty marked the beginning of a new era in which the Mongol Empire would be centered in China rather than the steppes. The Yuan Dynasty would eventually conquer all of China and rule until 1368.",
-      "key_figures": [
-        "Kublai Khan (founder of Yuan Dynasty)",
-        "M\u00f6ngke Khan (predecessor)"
-      ],
-      "sources": [
-        {
-          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Jami' al-tawarikh (Rashid al-Din)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Kublai Khan's proclamation as Great Khan in 1260 is well-documented in Yuan sources. The date is historiographic consensus.",
-      "cross_references": [
-        "1260-001 (Start of Mongol civil war)",
-        "1279-001 (Final conquest of Song Dynasty)"
-      ]
-    },
-    {
-      "id": "1260-005",
-      "title": "M\u00f6ngke Khan's death (occurred in 1259, but effects manifest in 1260)",
-      "region": "Mongolia",
-      "coordinates_approx": "47.0, 106.0",
-      "category": "political",
-      "description": "M\u00f6ngke Khan, the fourth Great Khan of the Mongol Empire, died in August 1259 (some sources say July). His death triggered a succession crisis that led to the civil war between his brothers Kublai Khan and Ariq B\u00f6ke. M\u00f6ngke's death marked the end of an era of unified Mongol expansion and the beginning of the fragmentation of the Mongol Empire into regional khanates. The effects of his death became fully apparent in 1260 with the outbreak of the civil war.",
-      "key_figures": [
-        "M\u00f6ngke Khan (Great Khan, d. 1259)",
-        "Kublai Khan (successor)",
+        "M\u00f6ngke Khan (deceased Great Khan)",
+        "Kublai Khan (claimant to Great Khan title)",
         "Ariq B\u00f6ke (rival claimant)"
       ],
       "sources": [
         {
-          "name": "Yuan Shi",
+          "name": "Yuanshi (Official History of the Yuan Dynasty, compiled 14th century)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Jami' al-tawarikh (Rashid al-Din)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "M\u00f6ngke Khan's death in 1259 is well-documented in Yuan and Persian sources. The date is historiographic consensus, though some sources vary by a few months.",
-      "cross_references": [
-        "1260-001 (Start of Mongol civil war)",
-        "1260-004 (Kublai Khan's establishment of Yuan Dynasty)"
-      ]
-    },
-    {
-      "id": "1260-006",
-      "title": "Alexander IV's death and papal succession",
-      "region": "Papal States, Italy",
-      "coordinates_approx": "41.9, 12.45",
-      "category": "religious",
-      "description": "Pope Alexander IV died on 25 May 1260, ending a papacy marked by conflict with the Hohenstaufen dynasty and efforts to strengthen papal authority. Alexander IV's death left the Papacy in a period of transition, with the papal throne vacant until the election of Urban IV in August 1261. The interregnum between Alexander IV and Urban IV was a period of political maneuvering among European powers seeking to influence the papal succession.",
-      "key_figures": [
-        "Alexander IV (Pope, d. 1260)",
-        "Urban IV (successor, elected 1261)"
-      ],
-      "sources": [
-        {
-          "name": "Papal registers and bulls",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Liber Pontificalis",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Alexander IV's death on 25 May 1260 is well-documented in papal records.",
-      "cross_references": [
-        "1261-003 (Urban IV's election)"
-      ]
-    },
-    {
-      "id": "1260-007",
-      "title": "Crusader strongholds under threat in the Levant",
-      "region": "Levant (Syria, Palestine)",
-      "coordinates_approx": "34.5, 36.0",
-      "category": "military",
-      "description": "Following the Mamluk victory at Ain Jalut, Crusader strongholds in the Levant were increasingly under threat from Mamluk expansion. In 1260, the remaining Crusader states (primarily the Kingdom of Acre and scattered fortresses) were facing military pressure from the Mamluks. The Crusader presence in the Levant, which had lasted nearly two centuries since the First Crusade (1096), was entering its final phase. The Mamluks would systematically eliminate the remaining Crusader strongholds over the next two decades.",
-      "key_figures": [
-        "Baibars (Mamluk Sultan)",
-        "Crusader rulers in Acre and other strongholds"
-      ],
-      "sources": [
-        {
-          "name": "Al-Maqrizi, Kitab al-Suluk",
+          "name": "Jami' al-tawarikh by Rashid al-Din (early 14th century, Persian history of the Mongols)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Crusader chronicles and records",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Historiographic consensus from Mongol studies (Allsen, Jackson, Reuven Amitai)",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The general threat to Crusader strongholds is well-documented; specific events in 1260 are less precisely dated.",
+      "certainty_note": "The death of M\u00f6ngke Khan in 1260 is confirmed, but the exact date is uncertain (sources vary between summer and autumn 1260). The succession crisis and its consequences are well-documented, though specific events within 1260 are less precisely dated.",
       "cross_references": [
-        "1268-001 (Baibars' conquest of Antioch)",
-        "1291-001 (Fall of Acre, end of Crusader presence)"
+        "1259-002 (M\u00f6ngke Khan's illness and decline)",
+        "1264-002 (Final defeat of Ariq B\u00f6ke)"
+      ]
+    },
+    {
+      "id": "1260-003",
+      "title": "Assassination of Qutuz and rise of Baibars as Mamluk Sultan",
+      "region": "Egypt, Mamluk Sultanate",
+      "coordinates_approx": "30.0444, 31.2357",
+      "category": "political",
+      "description": "Following the Mamluk victory at Ain Jalut on 3 September 1260, Sultan Qutuz was assassinated on 24 October 1260, likely by Baibars and his faction. Baibars then seized the sultanate, establishing a dynasty that would rule Egypt and the Levant for centuries. Qutuz's assassination was a turning point in Mamluk history: it marked the transition from the Bahri Mamluk faction to Baibars' faction and established the precedent of military coup within the Mamluk system. Baibars would prove to be one of the most effective and long-lived Mamluk sultans, ruling until 1277.",
+      "key_figures": [
+        "Qutuz (assassinated Mamluk Sultan)",
+        "Baibars al-Bunduqdari (assassin and new Sultan)"
+      ],
+      "sources": [
+        {
+          "name": "Mamluk chronicles and administrative records (contemporary and near-contemporary)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Ibn al-Athir and later Mamluk historians",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The assassination and Baibars' seizure of power are well-documented in Mamluk sources. The date of 24 October 1260 is standard.",
+      "cross_references": [
+        "1260-001 (Battle of Ain Jalut, which preceded Qutuz's assassination)",
+        "1277-001 (Death of Baibars)"
+      ]
+    },
+    {
+      "id": "1260-004",
+      "title": "Kublai Khan proclaimed Great Khan by his supporters",
+      "region": "Mongolia and China, Mongol Empire",
+      "coordinates_approx": "47.9, 106.9",
+      "category": "political",
+      "description": "In 1260, following the death of M\u00f6ngke Khan, Kublai Khan was proclaimed Great Khan by his supporters in a kurultai (assembly) held in Mongolia. However, this proclamation was contested by Ariq B\u00f6ke, who also claimed the title and held support among the traditional Mongol nobility. The conflict between Kublai and Ariq B\u00f6ke would dominate Mongol politics until 1264. Kublai's claim to the Great Khan title was based on his position as M\u00f6ngke's brother and his control of the eastern Mongol territories and China, but the legitimacy of his election was disputed.",
+      "key_figures": [
+        "Kublai Khan (proclaimed Great Khan)",
+        "Ariq B\u00f6ke (rival claimant)",
+        "M\u00f6ngke Khan (deceased predecessor)"
+      ],
+      "sources": [
+        {
+          "name": "Yuanshi (Official History of the Yuan Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Jami' al-tawarikh by Rashid al-Din",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Mongol studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Kublai's proclamation as Great Khan in 1260 is attested in sources, but the exact date and circumstances are less precisely documented than later events. The contested nature of his claim is well-established.",
+      "cross_references": [
+        "1260-002 (Death of M\u00f6ngke Khan)",
+        "1264-002 (Final defeat of Ariq B\u00f6ke and Kublai's consolidation)"
+      ]
+    },
+    {
+      "id": "1260-005",
+      "title": "Papal interregnum following death of Alexander IV",
+      "region": "Papal States, Italy",
+      "coordinates_approx": "41.9028, 12.4534",
+      "category": "religious",
+      "description": "Pope Alexander IV died on 25 May 1260, leaving the Papacy vacant. The papal conclave to elect his successor did not convene until August 1261, creating a 15-month interregnum. This vacancy reflected the political instability of the Papal States and the difficulty of assembling cardinals during a period of conflict between the Papacy and the Hohenstaufen dynasty. The long interregnum was unusual and highlighted the challenges facing the medieval Papacy.",
+      "key_figures": [
+        "Alexander IV (deceased Pope)",
+        "Urban IV (elected successor, August 1261)"
+      ],
+      "sources": [
+        {
+          "name": "Liber Pontificalis (papal chronicle)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Annales Ecclesiastici by Baronius",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The death of Alexander IV and the interregnum are well-documented in papal records. The date of 25 May 1260 is standard.",
+      "cross_references": [
+        "1261-002 (Election of Urban IV)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Battle of Ain Jalut is often portrayed as a decisive turning point that halted Mongol expansion permanently, but modern scholarship emphasizes that the Ilkhanate remained a major power in the Middle East and that Mongol expansion continued in other regions. The battle's significance is sometimes overstated in terms of its immediate geopolitical impact. Additionally, Baibars is sometimes romanticized as a great Islamic hero, but modern scholarship notes his ruthlessness, his use of terror as a political tool, and his complex relationship with the Mamluk military elite. The characterization of the Crusader states as being in terminal decline by 1260 is somewhat anachronistic; while they were under pressure, they still controlled significant territory and resources. The fall of Acre in 1291 was not inevitable in 1260.",
-  "historiographic_note": "Documentation for 1260 is exceptionally rich, particularly for the Battle of Ain Jalut, which is one of the most well-documented battles of the medieval period. The Mongol civil war is well-documented in Yuan and Persian sources. The Mamluk rise to power is documented in Islamic sources. By contrast, events in the Song Dynasty, the Delhi Sultanate, and sub-Saharan Africa are either poorly documented or absent from surviving sources. The historical record for 1260 reflects the bias of surviving documentary traditions toward the Islamic world, the Mongol court, and Western Europe. The Battle of Ain Jalut's prominence in historical narratives may reflect the significance attributed to it by later historians rather than its immediate impact.",
+  "disconfirming_evidence": "The Battle of Ain Jalut is often presented in popular history as a decisive turning point that 'stopped the Mongol conquest of the world.' Modern scholarship, particularly by Reuven Amitai and Peter Jackson, has nuanced this narrative significantly. The Mongol force at Ain Jalut was relatively small (perhaps 10,000\u201315,000 troops) and was not the main Mongol army. The Mongols' strategic focus was on China and consolidating their eastern territories, not on conquering the Islamic world. The battle was important for establishing Mamluk dominance in the Levant, but it did not represent a fundamental check on Mongol expansion\u2014the Mongols had already achieved their primary objectives in the Middle East (sack of Baghdad, 1258). Additionally, the succession crisis following M\u00f6ngke Khan's death was not solely caused by his death but reflected deeper tensions within the Mongol system regarding the balance between centralized authority and regional khanate autonomy.",
+  "historiographic_note": "Documentation for 1260 is good for the Mediterranean world (Mamluk, Byzantine, Papal sources) but relies heavily on later compilations rather than contemporary records. Mamluk sources are abundant but often focus on military campaigns and political intrigue rather than social or economic conditions. Mongol sources are official histories compiled decades or centuries after the events. The record is heavily weighted toward political and military events; the experiences of ordinary people, economic conditions, and cultural developments are underrepresented. The assassination of Qutuz is well-documented in Mamluk sources, but the exact circumstances and motivations are debated by modern scholars.",
   "graph_edges": [
     {
       "from": "1260-001",
-      "to": "1264-002",
-      "relation": "led_to",
-      "note": "The start of the Mongol civil war in 1260 led to Kublai Khan's final consolidation of power in 1264."
+      "to": "1258-001",
+      "relation": "caused_by",
+      "note": "The Mamluk victory at Ain Jalut was a response to the Mongol threat established by the sack of Baghdad in 1258"
+    },
+    {
+      "from": "1260-003",
+      "to": "1260-001",
+      "relation": "caused_by",
+      "note": "Baibars' rise to power followed the Mamluk victory at Ain Jalut, which he helped secure"
     },
     {
       "from": "1260-002",
-      "to": "1260-003",
-      "relation": "led_to",
-      "note": "The Battle of Ain Jalut led directly to Baibars' rise to power in the Mamluk Sultanate."
+      "to": "1259-002",
+      "relation": "caused_by",
+      "note": "The succession crisis in 1260 was triggered by M\u00f6ngke Khan's death in 1259"
     },
     {
       "from": "1260-004",
-      "to": "1279-001",
-      "relation": "led_to",
-      "note": "Kublai Khan's establishment of the Yuan Dynasty in 1260 led to the final conquest of the Song Dynasty in 1279."
+      "to": "1260-002",
+      "relation": "caused_by",
+      "note": "Kublai's proclamation as Great Khan was a response to M\u00f6ngke Khan's death"
     },
     {
       "from": "1260-005",
-      "to": "1260-001",
+      "to": "1261-002",
       "relation": "led_to",
-      "note": "M\u00f6ngke Khan's death in 1259 led to the outbreak of the Mongol civil war in 1260."
-    },
-    {
-      "from": "1260-006",
-      "to": "1261-003",
-      "relation": "led_to",
-      "note": "Alexander IV's death in 1260 led to the papal interregnum and Urban IV's election in 1261."
-    },
-    {
-      "from": "1260-002",
-      "to": "1268-001",
-      "relation": "part_of",
-      "note": "The 1260 Mamluk victory at Ain Jalut is part of the broader Mamluk campaign to eliminate Crusader strongholds, which continued with the conquest of Antioch in 1268."
+      "note": "The papal interregnum following Alexander IV's death in 1260 ended with Urban IV's election in 1261"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:04:08.125751",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

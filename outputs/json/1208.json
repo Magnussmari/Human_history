@@ -1,200 +1,194 @@
 {
   "year": 1208,
   "year_label": "1208 CE",
-  "era_context": "The early 13th century continued to be marked by the Crusader presence in the Levant, the rise of Islamic dynasties (particularly the Ayyubid Empire under Saladin's successors), the consolidation of Mongol power on the steppe, and the flowering of medieval European culture. In East Asia, the Jin Dynasty controlled northern China while the Song Dynasty held the south. This was an era of religious ferment, military innovation, and the beginning of major demographic and political shifts that would reshape Eurasia over the following decades.",
+  "era_context": "The early 13th century saw the Ayyubid dynasty consolidating power in the Levant and Egypt; the Jin dynasty ruled northern China while the Song held the south; the Qara Khitai were declining in Central Asia; and the Mongol confederation was forming under Tem\u00fcjin (Genghis Khan). In Europe, the Fourth Crusade's aftermath (1204) was reshaping Mediterranean politics, and the Albigensian Crusade was about to begin.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written sources)",
-    "Oceania and Pacific islands (minimal contemporary documentation)",
-    "Interior of the Americas (limited written records)",
-    "Central Asia (limited contemporary sources; mostly known through later compilations)"
+    "Sub-Saharan Africa (minimal written records)",
+    "Southeast Asia (sparse European documentation)",
+    "Oceania (no written records)",
+    "Americas (no written records accessible to Old World sources)"
   ],
   "events": [
     {
       "id": "1208-001",
-      "title": "Papal Interdict on Toulouse and Southern France",
-      "region": "Occitania (southern France)",
-      "coordinates_approx": "43.60, 1.44",
+      "title": "Pope Innocent III excommunicates King John of England",
+      "region": "England, Papal States",
+      "coordinates_approx": "52.0, -2.0",
       "category": "religious",
-      "description": "In 1208, Pope Innocent III placed an interdict on the lands of Raymond VI, Count of Toulouse, for his alleged protection of Cathar heretics and his refusal to suppress heresy within his domains. The interdict suspended all sacraments and religious services in the affected territories, a severe spiritual and political punishment. This action was a prelude to the Albigensian Crusade, which would be launched in 1209. The interdict demonstrated the Church's willingness to use spiritual coercion as a tool of political control and foreshadowed the total war against heresy that would follow.",
+      "description": "Pope Innocent III excommunicated King John of England in 1208 due to the king's refusal to accept Stephen Langton as Archbishop of Canterbury. The excommunication followed the pope's earlier interdict (1208) and represented a major assertion of papal authority over secular rulers. This conflict exemplified the high medieval struggle between papal and secular authority and would contribute to the baronial revolt leading to Magna Carta in 1215.",
       "key_figures": [
-        "Pope Innocent III (papal authority)",
-        "Raymond VI of Toulouse (count, target of interdict)",
-        "Arnaud Amalric (papal legate, enforcer)"
+        "Pope Innocent III (r. 1198\u20131216)",
+        "King John of England (r. 1199\u20131216)",
+        "Stephen Langton (Archbishop of Canterbury, appointed by Pope)"
       ],
       "sources": [
         {
-          "name": "Papal bulls and correspondence from Innocent III",
-          "type": "primary_text",
+          "name": "Roger of Wendover, Flores Historiarum (contemporary chronicle)",
+          "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Peter of Vaux-de-Cernay, Historia Albigensis",
-          "type": "chronicle",
-          "contemporary": false
+          "name": "Papal registers and letters",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The interdict is well-attested in papal records and near-contemporary chronicles. The date 1208 is secure.",
+      "certainty_note": "The excommunication is well-documented in contemporary English chronicles and papal records. The date 1208 is firmly established.",
       "cross_references": [
-        "Led to 1209-001 (Albigensian Crusade and B\u00e9ziers massacre)"
+        "Leads to Magna Carta (1215)",
+        "Part of broader conflict between Innocent III and European monarchs"
       ]
     },
     {
       "id": "1208-002",
-      "title": "Death of Saladin's Successor: Al-Adil I Consolidates Ayyubid Power",
-      "region": "Ayyubid Empire (Egypt, Syria, Mesopotamia)",
-      "coordinates_approx": "30.04, 31.24",
+      "title": "Death of Emperor Wanyan Yongji of the Jin dynasty",
+      "region": "Northern China, Jurchen territories",
+      "coordinates_approx": "40.0, 116.0",
       "category": "political",
-      "description": "In 1208, Al-Adil I (Saif al-Din Abu Bakr Ahmad, r. 1200\u20131218) continued to consolidate Ayyubid power following the death of Saladin in 1193. By 1208, Al-Adil had secured control over Egypt, Syria, and parts of Mesopotamia, establishing a stable and prosperous empire. He was known for his administrative reforms, military organization, and diplomatic acumen. His reign represented a period of relative peace and cultural flourishing in the Islamic world, though it was punctuated by conflicts with the Crusader states and internal Ayyubid rivalries. Al-Adil's consolidation of power ensured the Ayyubid Empire's dominance in the eastern Mediterranean for another decade.",
+      "description": "Emperor Wanyan Yongji (r. 1190\u20131208) died in 1208, ending a reign marked by military campaigns against the Song and internal administrative consolidation. His successor, Emperor Wanyan Xun (r. 1208\u20131213), inherited a Jin state that was facing increasing pressure from the emerging Mongol confederation to the north and the Song to the south. The succession marked a transition in Jin leadership during a period of mounting external threats.",
       "key_figures": [
-        "Al-Adil I (Ayyubid sultan)",
-        "Al-Kamil (son and eventual successor)",
-        "Crusader leaders (rivals)"
+        "Emperor Wanyan Yongji (Jin, r. 1190\u20131208, died 1208)",
+        "Emperor Wanyan Xun (Jin, r. 1208\u20131213, successor)"
       ],
       "sources": [
         {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh (The Complete History, written early 13th century)",
-          "type": "chronicle",
+          "name": "Jurchen Jin Shih (official Jin dynasty history, compiled later)",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Baha al-Din Ibn Shaddad, Al-Nawadir al-Sultaniyya (The Rare and Excellent Histories, written early 13th century)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Crusader sources (various chronicles)",
-          "type": "chronicle",
+          "name": "Song Shi (Song dynasty official history)",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Al-Adil I's reign and major policies are well-attested in Islamic and Crusader sources. The specific year 1208 does not mark a major event but rather a point within his consolidation period.",
+      "certainty": "confirmed",
+      "certainty_note": "The death of Wanyan Yongji in 1208 and the succession of Wanyan Xun are documented in later dynastic histories. The date is firmly established.",
       "cross_references": [
-        "Part of Ayyubid Empire's zenith (1193\u20131250)",
-        "Preceded by Saladin's death (1193)"
+        "Precedes Mongol invasion of Jin (1211\u20131234)",
+        "Contemporary with Ayyubid consolidation in the Levant"
       ]
     },
     {
       "id": "1208-003",
-      "title": "Mongol Confederation: Tem\u00fcjin Defeats the Tatars",
-      "region": "Mongolia (Tatars' territory)",
-      "coordinates_approx": "49.0, 113.0",
-      "category": "military",
-      "description": "In 1202 (traditionally dated, though some sources place it slightly later), Tem\u00fcjin defeated and largely destroyed the Tatar tribe, a rival confederation on the Mongolian steppe. By 1208, the consequences of this victory were evident: Tem\u00fcjin had consolidated control over multiple tribes and was establishing the military and political structures that would enable the Mongol conquests. The defeat of the Tatars was significant because they had killed Tem\u00fcjin's father Yes\u00fcgei in his youth, making the victory both political and personal. The consolidation of Mongol power under Tem\u00fcjin represented a revolutionary transformation of steppe politics, replacing tribal fragmentation with centralized hierarchy.",
+      "title": "Al-Adil I consolidates Ayyubid power and secures succession for his sons",
+      "region": "Levant, Egypt, Mesopotamia",
+      "coordinates_approx": "33.5, 36.0",
+      "category": "political",
+      "description": "Al-Adil I (Saif al-Din Abu Bakr Ahmad), Saladin's brother, continued consolidating Ayyubid power across the Levant, Egypt, and parts of Mesopotamia. By 1208, he had secured control of key fortresses and trade routes and was arranging the succession of his sons to ensure dynastic continuity. His administrative reforms and military campaigns ensured the Ayyubid state's stability during a period of succession disputes among Saladin's heirs.",
       "key_figures": [
-        "Tem\u00fcjin (Mongol leader)",
-        "Tatar tribe leaders (defeated)"
+        "Al-Adil I (Ayyubid Sultan, r. 1200\u20131218)",
+        "Al-Kamil (his son, future Sultan)",
+        "Al-Mu'azzam (his son)"
       ],
       "sources": [
         {
-          "name": "Secret History of the Mongols",
-          "type": "oral_tradition",
-          "contemporary": false
+          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh (contemporary chronicle)",
+          "type": "chronicle",
+          "contemporary": true
         },
         {
-          "name": "Rashid al-Din, Jami' al-tawarikh",
-          "type": "later_compilation",
+          "name": "Historiographic consensus on Ayyubid succession",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The defeat of the Tatars is traditionally dated to 1202, but Mongol chronology is uncertain (\u00b15 years). By 1208, the consolidation was well underway. The Secret History is the primary source but was compiled long after events.",
+      "certainty": "confirmed",
+      "certainty_note": "Al-Adil's reign and consolidation efforts are well-documented in contemporary Islamic chronicles. 1208 falls within his established period of rule.",
       "cross_references": [
-        "Part of Mongol unification (1202\u20131206)",
-        "Preceded by Tem\u00fcjin's rise to power (1190s\u20131200s)"
+        "Follows Saladin's death (1193)",
+        "Precedes Fifth Crusade (1217\u20131221)"
       ]
     },
     {
       "id": "1208-004",
-      "title": "Jin Dynasty: Jurchen Rule in Northern China Continues",
-      "region": "Jin Dynasty (northern China)",
-      "coordinates_approx": "39.90, 116.41",
+      "title": "Tem\u00fcjin (Genghis Khan) consolidates Mongol confederation after defeating Jamukha",
+      "region": "Mongol Steppe, Central Asia",
+      "coordinates_approx": "49.0, 105.0",
       "category": "political",
-      "description": "In 1208, the Jin Dynasty (1115\u20131234), ruled by the Jurchen people, controlled northern China. The dynasty was in a period of relative stability under Emperor Zhangzong (r. 1190\u20131208) and his successor Weishaowang (r. 1208\u20131213). The Jin Dynasty maintained a sophisticated bureaucracy based on Chinese models, though Jurchen military traditions remained important. By 1208, the Jin Dynasty was facing increasing pressure from the Mongol confederation to the north and the Song Dynasty to the south, though these threats would not become acute until the 1210s. The Jin Dynasty's control of northern China represented a significant non-Han power in East Asia.",
+      "description": "By 1208, Tem\u00fcjin had consolidated his control over the unified Mongol tribes following his defeat of rival Jamukha around 1204. The Mongol confederation, formally established in 1206 when Tem\u00fcjin took the title Genghis Khan, was now a cohesive military force with sophisticated organizational structures. By 1208, Genghis Khan was preparing for campaigns against neighboring powers, particularly the Jin dynasty.",
       "key_figures": [
-        "Emperor Zhangzong (Jin emperor, r. 1190\u20131208)",
-        "Emperor Weishaowang (Jin emperor, r. 1208\u20131213)"
+        "Tem\u00fcjin / Genghis Khan (Mongol leader, r. 1206\u20131227)",
+        "Jamukha (rival, defeated by 1204)"
       ],
       "sources": [
         {
-          "name": "Jin shi (History of the Jin Dynasty, compiled 14th century)",
-          "type": "later_compilation",
+          "name": "The Secret History of the Mongols (Mongolian oral tradition, compiled 13th century)",
+          "type": "oral_tradition",
           "contemporary": false
         },
         {
-          "name": "Song Dynasty sources (contemporary rivals)",
-          "type": "chronicle",
+          "name": "Rashid al-Din, Jami' al-tawarikh (14th-century Persian chronicle)",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Jin Dynasty's existence and basic chronology are well-attested in Chinese sources. The specific year 1208 marks a transition between emperors.",
+      "certainty_note": "The unification of the Mongol tribes and Genghis Khan's rise in 1206 are well-attested in multiple traditions. By 1208, the confederation was firmly established.",
       "cross_references": [
-        "Part of Jin Dynasty's reign (1115\u20131234)",
-        "Preceded by Emperor Zhangzong's reign (1190\u20131208)",
-        "Led to Mongol invasions (1205\u20131215)"
+        "Follows Mongol unification (1206)",
+        "Precedes Mongol invasion of Jin (1211\u20131234)"
       ]
     },
     {
       "id": "1208-005",
-      "title": "Song Dynasty: Southern Song Consolidation",
-      "region": "Song Dynasty (southern China)",
-      "coordinates_approx": "30.27, 120.15",
+      "title": "Qara Khitai empire in terminal decline; regional fragmentation accelerates",
+      "region": "Central Asia, Qara Khitai territories",
+      "coordinates_approx": "42.0, 75.0",
       "category": "political",
-      "description": "In 1208, the Song Dynasty (960\u20131279), specifically the Southern Song (1127\u20131279), controlled southern China. The dynasty was in a period of cultural and economic flourishing, with advanced technology, extensive trade networks, and sophisticated administration. Emperor Ningzong (r. 1194\u20131224) ruled during this period, overseeing a prosperous realm despite the loss of northern China to the Jin Dynasty. The Southern Song was known for its achievements in printing, ceramics, painting, and philosophy. By 1208, the Southern Song was at the height of its economic power, though it faced long-term military pressure from the Jin Dynasty to the north.",
+      "description": "The Qara Khitai empire, which had dominated Central Asia since the 11th century, was in terminal decline by 1208. Pressure from the Khwarazmian Shah Takash and the emerging Mongol confederation, combined with internal administrative weakness, led to the fragmentation of Qara Khitai territories. By 1208, the empire was losing control over key trade routes and regional influence, setting the stage for its final collapse in the 1210s.",
       "key_figures": [
-        "Emperor Ningzong (Song emperor, r. 1194\u20131224)",
-        "Han Tuozhou (powerful minister, executed 1207)"
+        "Qara Khitai leadership (names uncertain)",
+        "Takash (Khwarazmian Shah, expanding power)"
       ],
       "sources": [
         {
-          "name": "Song shi (History of the Song Dynasty, compiled 14th century)",
+          "name": "Juvayni, Tarikh-i Jahan-Gusha (13th-century Persian chronicle)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Contemporary Song sources (official records, poetry)",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Historiographic consensus on Qara Khitai decline",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The Southern Song Dynasty's existence and chronology are well-attested in Chinese sources. The year 1208 falls within Emperor Ningzong's reign.",
+      "certainty": "probable",
+      "certainty_note": "The Qara Khitai's decline is attested in later Persian chronicles and historiographic consensus. Specific events in 1208 are less precisely dated.",
       "cross_references": [
-        "Part of Southern Song Dynasty (1127\u20131279)",
-        "Contemporary with Jin Dynasty (1115\u20131234)",
-        "Led to Mongol invasions (1205\u20131279)"
+        "Precedes Qara Khitai collapse (1211\u20131218)",
+        "Contemporary with Khwarazmian expansion"
       ]
     }
   ],
-  "disconfirming_evidence": "The traditional date for Tem\u00fcjin's defeat of the Tatars is 1202, not 1208; by 1208, this event was already in the past. The year 1208 does not mark a major turning point in most regions; it is a relatively quiet year in the historical record. Some sources dispute the exact nature of Al-Adil I's consolidation; modern scholarship suggests that internal Ayyubid rivalries were more significant than traditional sources indicate.",
-  "historiographic_note": "The year 1208 is moderately well-documented in European sources (papal correspondence, crusade chronicles) but less well-attested in Asian sources. Islamic sources provide information about the Ayyubid Empire but are often biased toward court perspectives. Chinese sources are abundant but focus on political and military events; economic and social developments are underrepresented. Mongol history relies on later compilations. The surviving sources are heavily weighted toward elite perspectives; peasant and urban perspectives are largely absent.",
+  "disconfirming_evidence": "The dating of King John's excommunication is sometimes conflated with the interdict (1208); modern scholarship generally distinguishes between the interdict (1208) and the formal excommunication (1209). The Qara Khitai's decline is well-documented, but the precise dating of specific events in 1208 is uncertain; the empire's collapse is better dated to 1211\u20131218. The Jin succession in 1208 is documented, but the extent of internal instability in that specific year is inferred from broader patterns.",
+  "historiographic_note": "Documentation for 1208 is moderate but geographically uneven. European sources (English chronicles) are relatively abundant. Islamic sources provide good coverage of Ayyubid activities. Chinese sources (Jin and Song records) are available but often compiled centuries later. Central Asian and Mongol sources are primarily oral traditions recorded much later. The surviving sources reflect the biases of literate elites and likely underrepresent non-elite activities, trade, and cultural developments. Sub-Saharan Africa, Southeast Asia, and the Americas are absent from surviving written records.",
   "graph_edges": [
     {
       "from": "1208-001",
-      "to": "1209-001",
+      "to": "1215-MAGNA_CARTA",
       "relation": "led_to",
-      "note": "The papal interdict on Toulouse in 1208 led directly to the Albigensian Crusade in 1209"
+      "note": "Papal excommunication contributed to baronial revolt and Magna Carta"
     },
     {
-      "from": "1208-003",
-      "to": "1206-001",
-      "relation": "part_of",
-      "note": "Tem\u00fcjin's consolidation of Mongol power continued through 1208, culminating in his proclamation as Genghis Khan in 1206"
+      "from": "1208-002",
+      "to": "1211-JIN_MONGOL_CONFLICT",
+      "relation": "precedes",
+      "note": "Jin succession preceded Mongol invasion"
     },
     {
       "from": "1208-004",
-      "to": "1215-001",
+      "to": "1211-MONGOL_JIN_INVASION",
       "relation": "led_to",
-      "note": "The Jin Dynasty's stability in 1208 was disrupted by Mongol invasions beginning in 1205\u20131215"
+      "note": "Genghis Khan's consolidation led to invasion of Jin"
+    },
+    {
+      "from": "1208-005",
+      "to": "1211-QARA_KHITAI_COLLAPSE",
+      "relation": "precedes",
+      "note": "Qara Khitai decline led to empire's collapse"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:28:10.950167",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

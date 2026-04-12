@@ -1,170 +1,117 @@
 {
   "year": 1245,
   "year_label": "1245 CE",
-  "era_context": "The mid-13th century: the Crusader states are in their final decades; the Ayyubid Sultanate is fragmenting; the Mamluk Sultanate is emerging; the Mongol Empire is expanding under M\u00f6ngke Khan; in Europe, feudalism is evolving; in East Asia, the Song Dynasty faces pressure from the Mongols.",
+  "era_context": "The mid-13th century: the Mongol Empire was consolidating its vast territorial gains under the aging \u00d6gedei Khan's successors. In Europe, the papacy was engaged in conflict with the Holy Roman Emperor Frederick II. The Song Dynasty in southern China was under increasing military pressure from the Jin Dynasty and Mongol forces. The Mamluk Sultanate was rising in Egypt following the decline of Ayyubid power.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
     "Southeast Asia",
     "Oceania",
-    "Central Asia (limited written records beyond Mongol sources)"
+    "Central Asian steppe (limited written records; mostly inferred from later sources)"
   ],
   "events": [
     {
       "id": "1245-001",
-      "title": "First Council of Lyon",
-      "region": "Lyon, France",
-      "coordinates_approx": "45.7640, 4.8357",
+      "title": "First Council of Lyon convened by Pope Innocent IV",
+      "region": "Papal States, Lyon, France",
+      "coordinates_approx": "45.76, 4.84",
       "category": "religious",
-      "description": "Pope Innocent IV convenes the First Council of Lyon, a major ecumenical council of the Catholic Church. The council addresses heresy, church discipline, and the Crusades. Notably, the council discusses the Mongol threat and attempts to establish diplomatic relations with the Mongol Empire. The council also condemns Emperor Frederick II of the Holy Roman Empire, marking a major conflict between papal and imperial authority. The council's decisions will shape Catholic Church policy for decades.",
+      "description": "Pope Innocent IV convened the First Council of Lyon (also called the Thirteenth Ecumenical Council) to address major ecclesiastical and political issues, including the conflict with Holy Roman Emperor Frederick II, the crusade against the Cathars, and the organization of crusades against the Mongols and Muslims. The council lasted from June to November 1245 and resulted in the excommunication and deposition of Frederick II, a major assertion of papal authority over secular rulers. The council also issued decrees on ecclesiastical reform and authorized new crusading efforts.",
       "key_figures": [
         "Pope Innocent IV (convener)",
-        "Emperor Frederick II (condemned)",
-        "Mongol envoys (observers)"
+        "Frederick II, Holy Roman Emperor (deposed)",
+        "Cardinal Odo of Ch\u00e2tillon (papal legate)"
       ],
       "sources": [
         {
-          "name": "Council of Lyon records",
+          "name": "Concilium Lugdunense I (Council records)",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Papal chronicles",
+          "name": "Chronicles of Matthew Paris",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The First Council of Lyon is well-documented in papal and ecclesiastical sources. The council took place in June 1245. Multiple contemporary sources confirm the date and major decisions.",
-      "cross_references": [
-        "1254-001 (Second Council of Lyon)",
-        "1227-001 (Pope Gregory IX excommunicates Frederick II)"
-      ]
+      "certainty_note": "The council is extensively documented in contemporary ecclesiastical records and chronicles.",
+      "cross_references": []
     },
     {
       "id": "1245-002",
-      "title": "M\u00f6ngke Khan's kurultai and election as Great Khan",
-      "region": "Mongolia, Central Asia",
-      "coordinates_approx": "47.9, 106.9",
+      "title": "Mongol embassy to Pope Innocent IV",
+      "region": "Papal States, Lyon, France / Mongol Empire",
+      "coordinates_approx": "45.76, 4.84",
       "category": "political",
-      "description": "M\u00f6ngke Khan is elected as Great Khan at a kurultai (assembly) in 1251, though some sources place key events in 1245. M\u00f6ngke consolidates Mongol power and initiates administrative reforms, establishing the Mongol Empire's bureaucratic structure. M\u00f6ngke's reign marks a shift from purely military conquest toward systematic governance. His election is contested by some Mongol princes, but he emerges victorious and establishes himself as the supreme authority over the Mongol Empire.",
+      "description": "During the First Council of Lyon, Pope Innocent IV received Mongol envoys, likely sent by the Mongol Great Khan (possibly G\u00fcy\u00fck Khan, who was elected in 1246, or his predecessor). This embassy represented one of the first direct diplomatic contacts between the Mongol Empire and the Western Christian Church. The pope responded by sending Franciscan friars (including John of Plano Carpini) as envoys to the Mongol court, initiating a period of diplomatic and missionary contact that would continue for several decades. These embassies were motivated by mutual curiosity and the possibility of alliances against Islamic powers.",
       "key_figures": [
-        "M\u00f6ngke Khan (elected Great Khan)",
-        "Kublai Khan (brother, supporter)",
-        "Batu Khan (Golden Horde leader, supporter)"
+        "Pope Innocent IV (recipient)",
+        "Mongol envoys (names not recorded in Western sources)",
+        "John of Plano Carpini (Franciscan friar, papal envoy)"
       ],
       "sources": [
         {
-          "name": "Rashid al-Din, Jami' al-tawarikh",
-          "type": "later_compilation",
+          "name": "Historia Mongolorum by John of Plano Carpini",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chronicles of Matthew Paris",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The embassy is attested in Western sources, but the exact date and the identity of the Mongol sender are uncertain. Some sources place the embassy in 1246 or 1247. The timing relative to the council is inferred from Matthew Paris's account.",
+      "cross_references": [
+        "1246-001 (M\u00f6ngke Khan's election)"
+      ]
+    },
+    {
+      "id": "1245-003",
+      "title": "Mongol campaign against the Jin Dynasty in northern China",
+      "region": "Northern China, Jin Dynasty territory",
+      "coordinates_approx": "39.90, 116.41",
+      "category": "military",
+      "description": "Mongol forces under the command of M\u00f6ngke Khan (or his predecessors) continued their systematic conquest of the Jin Dynasty's remaining territories in northern China. The Jin Dynasty, once a major power, had been reduced to a rump state in Henan and Shandong provinces. Mongol campaigns in 1245 and surrounding years gradually eliminated Jin resistance, with the dynasty's final collapse occurring in 1234 (though some sources extend Jin resistance into the 1240s). The conquest of Jin territories was crucial to Mongol expansion and the eventual unification of China under Kublai Khan.",
+      "key_figures": [
+        "M\u00f6ngke Khan (Mongol commander)",
+        "Jin Dynasty rulers (names vary by source)"
+      ],
+      "sources": [
+        {
+          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Yuan Shi",
+          "name": "Jin Shi (History of the Jin Dynasty)",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "The kurultai is traditionally dated to 1251, but some sources place key events in 1245. The exact year is uncertain by \u00b16 years. M\u00f6ngke's consolidation of power is well-attested in both Islamic and Chinese sources.",
+      "certainty_note": "The Jin Dynasty's collapse is well-documented, but the specific events of 1245 are difficult to isolate from the broader conquest narrative. The date is assigned by convention within the period of Jin resistance (1234\u20131250s).",
       "cross_references": [
-        "1251-001 (M\u00f6ngke Khan's formal election)",
-        "1258-001 (Mongol conquest of Baghdad)"
-      ]
-    },
-    {
-      "id": "1245-003",
-      "title": "Ayyubid Sultan Ayyub ibn Muhammad consolidates power in Egypt",
-      "region": "Egypt, Levant",
-      "coordinates_approx": "30.0444, 31.2357",
-      "category": "political",
-      "description": "Sultan Ayyub ibn Muhammad consolidates his power in Egypt, establishing himself as the dominant Ayyubid ruler. Ayyub strengthens the Mamluk military system and begins to rely increasingly on Turkish slave soldiers rather than on the traditional Ayyubid military aristocracy. This shift marks a crucial transition in the power structure of the Eastern Mediterranean. Ayyub's reign (1240\u20131249) will see the establishment of the Mamluk system that will dominate the region for centuries.",
-      "key_figures": [
-        "Ayyub ibn Muhammad (Sultan of Egypt)",
-        "Shajar al-Durr (wife, future regent)"
-      ],
-      "sources": [
-        {
-          "name": "Ibn al-Athir, Complete History",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Al-Maqrizi, History of the Copts",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Ayyub's consolidation of power is attested in Islamic sources, but the exact chronology is uncertain. The process was gradual, occurring over several years in the 1240s. Dating is uncertain by \u00b12 years.",
-      "cross_references": [
-        "1249-001 (Seventh Crusade lands at Damietta)",
-        "1250-001 (Succession crisis after Ayyub's death)"
-      ]
-    },
-    {
-      "id": "1245-004",
-      "title": "Reconquista advances: Ja\u00e9n falls to Castile",
-      "region": "Iberian Peninsula, Andalusia",
-      "coordinates_approx": "37.7667, -3.7833",
-      "category": "military",
-      "description": "King Ferdinand III of Castile captures the city of Ja\u00e9n from Muslim forces, a significant victory in the Reconquista. The fall of Ja\u00e9n opens the way for further Christian advances into southern Iberia and brings the Castilian forces closer to Seville. The city's capture is celebrated in Christian chronicles as a triumph of faith and military prowess. Ja\u00e9n becomes an important Christian stronghold in the Guadalquivir valley.",
-      "key_figures": [
-        "Ferdinand III of Castile (King, military commander)",
-        "Muslim defenders of Ja\u00e9n"
-      ],
-      "sources": [
-        {
-          "name": "Chronicle of Ferdinand III",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Christian chronicles of the Reconquista",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The fall of Ja\u00e9n is attested in Christian sources, but the exact date is sometimes uncertain. Some sources place it in 1245, others in 1246. Dating is uncertain by \u00b11 year.",
-      "cross_references": [
-        "1247-001 (Siege of Seville begins)",
-        "1248-001 (Fall of Seville)"
+        "1234-001 (Jin Dynasty collapse)"
       ]
     }
   ],
-  "disconfirming_evidence": "The First Council of Lyon is often portrayed as a triumph of papal authority over the Holy Roman Empire. However, modern scholarship emphasizes that Frederick II's condemnation had limited practical effect, and the conflict between papal and imperial authority continued for decades. The council's attempts to establish diplomatic relations with the Mongols are sometimes portrayed as successful, but modern scholarship emphasizes the limited success of these early diplomatic efforts. M\u00f6ngke Khan's election is traditionally dated to 1251, not 1245, making the assignment of this event to 1245 questionable. The fall of Ja\u00e9n is sometimes portrayed as a straightforward military victory, but modern scholarship emphasizes the complexity of the siege and the negotiated nature of the surrender.",
-  "historiographic_note": "The year 1245 is well-documented in European sources (particularly for the Council of Lyon and the Reconquista) and reasonably well-documented in Islamic sources. However, the historical record is heavily weighted toward political, military, and religious events. East Asian, Central Asian, and African history for this year is underrepresented. The sources themselves are often biased: European sources emphasize the Council of Lyon and the Reconquista, Islamic sources emphasize the Ayyubid consolidation and Mamluk rise, and Mongol sources are filtered through later compilations. The year is moderately well-documented overall, but with significant geographic and thematic gaps.",
+  "disconfirming_evidence": "The date and significance of the Mongol embassy to the pope are disputed. Some sources place it in 1246 or 1247, and the identity of the Mongol sender is uncertain\u2014it may not have been an official embassy from the Great Khan but rather from a regional Mongol commander. The Western sources (Matthew Paris, John of Plano Carpini) may have inflated the significance of the contact or misunderstood the Mongol intentions. The Jin Dynasty's status in 1245 is also ambiguous; while the dynasty is traditionally dated to have ended in 1234, some sources suggest pockets of Jin resistance persisted into the 1240s or even 1250s, making the exact timeline of conquest unclear.",
+  "historiographic_note": "The historical record for 1245 is dominated by Western ecclesiastical sources (the Council of Lyon records and Matthew Paris's chronicles), which naturally emphasize European events and perspectives. Mongol sources are sparse for this year; most information about Mongol activities comes from later compilations. Chinese sources (Yuan Shi, Jin Shi) provide information about the Jin Dynasty but were written centuries after the events. The experiences of ordinary people, particularly in China and Central Asia, are largely absent. The Mongol embassy to the pope is a fascinating example of early cross-cultural contact, but Western sources may have misinterpreted or exaggerated its significance.",
   "graph_edges": [
     {
       "from": "1245-001",
-      "to": "1254-001",
-      "relation": "led_to",
-      "note": "The First Council of Lyon is followed by the Second Council of Lyon in 1254."
+      "to": "1245-002",
+      "relation": "contemporary_with",
+      "note": "The Mongol embassy to the pope occurred during or around the First Council of Lyon"
     },
     {
       "from": "1245-002",
-      "to": "1251-001",
+      "to": "1246-001",
       "relation": "led_to",
-      "note": "Events in 1245 lead to M\u00f6ngke Khan's formal election as Great Khan in 1251."
-    },
-    {
-      "from": "1245-003",
-      "to": "1249-001",
-      "relation": "led_to",
-      "note": "Ayyub's consolidation of power enables the Mamluk response to the Seventh Crusade in 1249."
-    },
-    {
-      "from": "1245-004",
-      "to": "1247-001",
-      "relation": "led_to",
-      "note": "The fall of Ja\u00e9n in 1245 opens the way for the siege of Seville in 1247."
+      "note": "The Mongol embassy may have been sent by or on behalf of M\u00f6ngke Khan, whose election occurred in 1246"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:09:47.117170",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

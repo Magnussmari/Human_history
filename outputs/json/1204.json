@@ -1,62 +1,171 @@
 {
   "year": 1204,
   "year_label": "1204 CE",
-  "era_context": "The early 13th century witnessed the fragmentation of the medieval Mediterranean world. The Fourth Crusade had just sacked Constantinople (1204), dismantling the Byzantine Empire and establishing Latin rule. In Western Europe, feudal monarchies were consolidating power; in the Islamic world, the Ayyubid dynasty under Saladin's successors controlled the Levant and Egypt; in East Asia, the Jin Dynasty ruled northern China while the Song Dynasty held the south, and the Mongol confederation was beginning to coalesce under Tem\u00fcjin (future Genghis Khan). This was a period of religious conflict, dynastic transition, and the early stirrings of Eurasian connectivity.",
-  "documentation_level": "moderate",
+  "era_context": "1204 was a pivotal year in medieval history. The Fourth Crusade sacked Constantinople, ending the Byzantine Empire's control of its capital and fragmenting Orthodox Christendom. In the Islamic world, the Ayyubid Sultanate was consolidating power under al-Malik al-Adil. In Central Asia, Tem\u00fcjin was consolidating Mongol tribal power. In Europe, King John of England was losing his continental territories to Philip II Augustus of France. In East Asia, the Jin Dynasty controlled northern China while the Song Dynasty ruled the south; Japan's Kamakura shogunate was establishing military rule.",
+  "documentation_level": "rich",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written sources for this period)",
-    "Southeast Asia (sparse European documentation; local chronicles exist but underrepresented in Western scholarship)",
-    "Pre-Columbian Americas (no written records; archaeological evidence only)"
+    "Sub-Saharan Africa",
+    "Mesoamerica and South America",
+    "Northern and Eastern Europe beyond major kingdoms",
+    "Southeast Asia (limited contemporary records)"
   ],
   "events": [
     {
       "id": "1204-001",
-      "title": "Sack of Constantinople by the Fourth Crusade",
-      "region": "Byzantine Empire (Constantinople/Istanbul)",
-      "coordinates_approx": "41.0082, 28.9784",
+      "title": "Fourth Crusade sacks Constantinople; Latin Empire established",
+      "region": "Byzantine Empire, Constantinople",
+      "coordinates_approx": "41.0, 28.9",
       "category": "military",
-      "description": "On 13 April 1204, Crusader forces breached the walls of Constantinople and systematically looted the city, massacring civilians and clergy. The Latin crusaders, ostensibly bound for the Holy Land, had been diverted by Venetian merchants and Byzantine political factions. The sack resulted in the establishment of the Latin Empire (1204\u20131261), the fragmentation of Byzantine territories into successor states (Nicaea, Epirus, Trebizond), and the permanent rupture between the Roman Catholic and Eastern Orthodox churches. The event marked the effective end of the Byzantine Empire as a Mediterranean superpower and redistributed immense wealth and relics to Western Europe.",
+      "description": "The Fourth Crusade, originally intended to recapture Jerusalem, was diverted to Constantinople by Venetian merchants and crusader leaders. On April 13, 1204, crusader forces breached the city's walls and sacked it, massacring civilians and looting treasures. The Byzantine Emperor Alexios III Angelos fled. The crusaders established the Latin Empire, with Baldwin of Flanders crowned as the first Latin Emperor. This event marked the end of the Byzantine Empire's control of Constantinople (though Byzantine successor states continued in Nicaea, Epirus, and Trebizond), fragmented Orthodox Christianity, and demonstrated the vulnerability of the once-great Byzantine state. The sack was a catastrophic blow to Byzantine civilization and had lasting consequences for Christian unity.",
       "key_figures": [
-        "Alexios V Doukas Angelos (Byzantine Emperor, deposed)",
-        "Boniface of Montferrat (Latin Crusade leader)",
-        "Enrico Dandolo (Venetian Doge, aged ~90)",
-        "Baldwin of Flanders (first Latin Emperor)"
+        "Baldwin of Flanders (first Latin Emperor)",
+        "Alexios III Angelos (Byzantine Emperor, fled)",
+        "Enrico Dandolo (Venetian Doge)",
+        "Boniface of Montferrat (Crusade leader)",
+        "Theodore I Laskaris (future Byzantine Emperor in Nicaea)"
       ],
       "sources": [
         {
-          "name": "Geoffrey of Villehardouin, Chronicle of the Fourth Crusade (Conqu\u00eate de Constantinople)",
+          "name": "Geoffrey of Villehardouin, Chronicle of the Fourth Crusade",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Robert of Clari, The Conquest of Constantinople",
+          "name": "Robert of Clari, Conquest of Constantinople",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Nicetas Choniates, History (Byzantine account)",
+          "name": "Nicetas Choniates, History (Byzantine perspective)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Venetian chronicles and records",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The sack of Constantinople on April 13, 1204, is one of the most thoroughly documented events of the medieval period, attested in multiple contemporary sources from crusaders, Byzantines, and Venetians.",
+      "cross_references": [
+        "Follows Third Crusade (1189\u20131192)",
+        "Precedes Latin Empire's consolidation (1205\u20131210)",
+        "Precedes Fourth Crusade's aftermath and Byzantine recovery (1261)"
+      ]
+    },
+    {
+      "id": "1204-002",
+      "title": "King John loses Normandy to Philip II Augustus; Angevin collapse accelerates",
+      "region": "Normandy, Anjou, England, France",
+      "coordinates_approx": "49.0, 0.0",
+      "category": "military",
+      "description": "King John of England's military campaign to recover lost territories in France reached its nadir in 1204. After initial setbacks in 1202\u20131203, John's remaining forces in Normandy were defeated by Philip II Augustus's armies. The fall of Rouen (the Norman capital) in July 1204 marked the effective end of English control of Normandy. The loss of Normandy, Anjou, Maine, and other Angevin holdings was catastrophic for the English crown, shifting the balance of power decisively toward the French monarchy. This military failure intensified baronial discontent in England and set the stage for the baronial revolt and Magna Carta (1215).",
+      "key_figures": [
+        "King John Lackland (King of England)",
+        "Philip II Augustus (King of France)",
+        "William des Roches (French commander)",
+        "English and Norman barons (discontented)"
+      ],
+      "sources": [
+        {
+          "name": "Roger of Wendover, Flowers of History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Matthew Paris, Chronica Majora",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "French royal records and chronicles",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Multiple contemporary eyewitness accounts from both Crusader and Byzantine perspectives; date of 13 April 1204 is well-established in all sources.",
+      "certainty_note": "The fall of Rouen and loss of Normandy in 1204 are well-documented in both English and French sources. The date July 1204 is firmly established.",
       "cross_references": [
-        "Follows from 1202-001 (Fourth Crusade assembly)",
-        "Led to 1261-001 (Byzantine reconquest of Constantinople)"
+        "Follows Richard the Lionheart's death (1199)",
+        "Precedes baronial revolt and Magna Carta (1215)",
+        "Related to papal disputes (1205 onwards)"
       ]
     },
     {
-      "id": "1204-002",
-      "title": "Death of Saladin's successor: Ayyubid succession crisis",
-      "region": "Ayyubid Sultanate (Egypt, Levant, Mesopotamia)",
-      "coordinates_approx": "30.0444, 31.2357",
+      "id": "1204-003",
+      "title": "Death of Minamoto Yoriie; Hojo regency consolidates in Kamakura shogunate",
+      "region": "Japan, Kamakura",
+      "coordinates_approx": "35.3, 139.5",
       "category": "political",
-      "description": "Following the death of Saladin in 1193, his sons and emirs had competed for control of the Ayyubid domains. By 1204, the sultanate had fractured into semi-autonomous regional powers: Al-Adil I (Saladin's brother) controlled Egypt and Syria, while other Ayyubid princes ruled Aleppo, Damascus, and the Jazira. This decentralization, though politically unstable, allowed the Ayyubids to resist Crusader pressure and maintain control of the Levantine coast. The fragmentation would persist until Saladin's great-nephew As-Salih Ayyub attempted reunification in the 1240s.",
+      "description": "Minamoto Yoriie, the second shogun of the Kamakura shogunate, died in 1204 (some sources give 1199, but 1204 is more widely accepted). His death marked a turning point in the shogunate's development. The Hojo clan, who had been regents (shikken) since Yoriie's minority, consolidated their power following his death. Yoriie's younger brother Minamoto Sanetomo became the third shogun, but real power remained with the Hojo regents. This established the pattern of the Hojo regency dominating the shogunate for the next century, effectively creating a dual power structure in which the shogun was a figurehead and the Hojo regent held actual authority.",
       "key_figures": [
-        "Al-Adil I (Ayyubid Sultan of Egypt and Syria)",
-        "Al-Aziz Isa (Ayyubid ruler of Aleppo)",
-        "Al-Mu'azzam Isa (Ayyubid ruler of Damascus)"
+        "Minamoto Yoriie (second shogun, deceased)",
+        "Minamoto Sanetomo (third shogun, minor)",
+        "Hojo Tokimasa (Hojo regent)",
+        "Hojo Masako (Yoriie's mother, Hojo clan leader)"
+      ],
+      "sources": [
+        {
+          "name": "Azuma Kagami (Mirror of the East, Kamakura period chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Heike Monogatari (Tale of the Heike, later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The date of Yoriie's death is given as 1204 in most sources, though some older sources place it in 1199. The Azuma Kagami is a near-contemporary chronicle, but it was compiled after the events it describes. The consolidation of Hojo power is well-attested.",
+      "cross_references": [
+        "Follows establishment of Kamakura shogunate (1185)",
+        "Precedes Hojo regency's dominance (1204\u20131333)"
+      ]
+    },
+    {
+      "id": "1204-004",
+      "title": "Tem\u00fcjin defeats Jamukha and consolidates Mongol confederation",
+      "region": "Mongolia, Central Asia",
+      "coordinates_approx": "49.0, 113.0",
+      "category": "military",
+      "description": "Tem\u00fcjin, in his campaign to unify the Mongol tribes, defeated Jamukha, a rival khan and former ally, in 1204. Jamukha had emerged as Tem\u00fcjin's principal rival for supremacy among the Mongol confederation. The defeat of Jamukha removed the last major obstacle to Tem\u00fcjin's unification of the Mongol tribes. This victory was a crucial step toward Tem\u00fcjin's proclamation as Genghis Khan in 1206. The consolidation of Mongol power under a single leader would have profound consequences for Eurasian history.",
+      "key_figures": [
+        "Tem\u00fcjin (Mongol leader)",
+        "Jamukha (rival khan, defeated and executed)",
+        "Toghrul Khan / Ong Khan (Kerait ally)"
+      ],
+      "sources": [
+        {
+          "name": "Secret History of the Mongols",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Jami' al-tawarikh (Rashid al-Din)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The defeat of Jamukha is attested in multiple later sources, and 1204 is the date given in most accounts. However, the exact date is uncertain due to reliance on later compilations. The event's occurrence and significance are not disputed.",
+      "cross_references": [
+        "Part of Tem\u00fcjin's consolidation campaign (1190s\u20131206)",
+        "Precedes proclamation as Genghis Khan (1206)"
+      ]
+    },
+    {
+      "id": "1204-005",
+      "title": "Al-Malik al-Adil consolidates Ayyubid control of Egypt and the Levant",
+      "region": "Egypt, Levant, Ayyubid Sultanate",
+      "coordinates_approx": "30.0, 31.2",
+      "category": "political",
+      "description": "Al-Malik al-Adil (Saphadin), brother of Saladin, had been consolidating Ayyubid power following the death of Saladin's son al-Malik al-Aziz Isa. By 1204, al-Adil had secured control of Egypt, Syria, and the Levantine territories, reunifying the fractured Ayyubid domains. This consolidation strengthened the Ayyubid state against both Crusader remnants and internal rivals, establishing a stable succession and enabling sustained military campaigns against the Crusaders in the following years.",
+      "key_figures": [
+        "Al-Malik al-Adil (Saphadin, Ayyubid Sultan)",
+        "Al-Kamil Muhammad (al-Adil's son, heir)",
+        "Ayyubid emirs and governors"
       ],
       "sources": [
         {
@@ -65,182 +174,51 @@
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus on Ayyubid fragmentation",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The broad pattern of Ayyubid decentralization is well-documented; specific events in 1204 are less precisely dated in sources.",
-      "cross_references": [
-        "Part of broader Ayyubid succession crisis (1193\u20131250)"
-      ]
-    },
-    {
-      "id": "1204-003",
-      "title": "Tem\u00fcjin consolidates power among Mongol tribes",
-      "region": "Mongol Steppe (Central Asia)",
-      "coordinates_approx": "49.5, 104.0",
-      "category": "political",
-      "description": "In 1204, the future Genghis Khan, then known as Tem\u00fcjin, defeated his rival Tatars and Kereit allies in a series of battles on the Mongol steppe. These victories consolidated his control over the fragmented Mongol confederation and eliminated competing tribal leaders. Tem\u00fcjin's strategy of absorbing defeated tribes into his own confederation, rather than simply plundering them, created a more cohesive political unit. This year marks a critical step toward the unification of the Mongol tribes, which would culminate in his proclamation as Genghis Khan in 1206.",
-      "key_figures": [
-        "Tem\u00fcjin (future Genghis Khan)",
-        "Tatars (defeated rival tribe)",
-        "Kereit (former allies, later rivals)"
-      ],
-      "sources": [
-        {
-          "name": "Secret History of the Mongols (Mongol Yuanzhao)",
-          "type": "oral_tradition",
-          "contemporary": false
-        },
-        {
-          "name": "Rashid al-Din, Jami' al-tawarikh (Compendium of Chronicles)",
+          "name": "Al-Maqrizi, History of Egypt (Kitab al-Suluk)",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The Secret History was compiled after Tem\u00fcjin's death; dating of specific battles to 1204 is approximate. Scholars generally accept the broad sequence but debate exact chronology.",
-      "cross_references": [
-        "Led to 1206-001 (Tem\u00fcjin proclaimed Genghis Khan)"
-      ]
-    },
-    {
-      "id": "1204-004",
-      "title": "Establishment of the Latin Empire in Constantinople",
-      "region": "Constantinople (Latin Empire)",
-      "coordinates_approx": "41.0082, 28.9784",
-      "category": "political",
-      "description": "Following the sack of Constantinople, the Crusader leaders established the Latin Empire, with Baldwin of Flanders crowned as the first Latin Emperor. The empire controlled Constantinople and surrounding territories but faced immediate resistance from Byzantine successor states and local populations. The Latin Empire would prove short-lived and economically fragile, dependent on Venetian naval support and unable to effectively govern the vast territories claimed by the Byzantine crown. Its existence (1204\u20131261) represented a fundamental disruption of Mediterranean political order.",
-      "key_figures": [
-        "Baldwin I of Flanders (first Latin Emperor)",
-        "Henry of Flanders (Baldwin's brother, regent)",
-        "Enrico Dandolo (Venetian Doge, de facto power broker)"
-      ],
-      "sources": [
-        {
-          "name": "Geoffrey of Villehardouin, Chronicle of the Fourth Crusade",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Robert of Clari, The Conquest of Constantinople",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
       "certainty": "confirmed",
-      "certainty_note": "Coronation of Baldwin I is well-documented in contemporary Crusader sources; date is secure.",
+      "certainty_note": "The consolidation of al-Adil's rule is well-attested in Islamic chronicles. The date 1204 marks the completion of this process.",
       "cross_references": [
-        "Follows from 1204-001 (Sack of Constantinople)",
-        "Led to 1261-001 (Byzantine reconquest)"
-      ]
-    },
-    {
-      "id": "1204-005",
-      "title": "Partition of Byzantine territories among Crusaders and Venice",
-      "region": "Eastern Mediterranean (former Byzantine Empire)",
-      "coordinates_approx": "39.0, 25.0",
-      "category": "political",
-      "description": "The Treaty of Partition (negotiated in 1204) divided Byzantine territories among the Crusader leaders and Venice. Venice secured key maritime strongholds (Crete, the Ionian Islands, parts of the Peloponnese, and trading posts in the Aegean), while Crusader knights established feudal fiefs in mainland Greece and the islands. This arrangement created a patchwork of Latin and Venetian rule that fragmented Byzantine administrative unity and opened the Mediterranean to Venetian commercial dominance. The partition also enabled the survival of Byzantine successor states (Nicaea, Epirus, Trebizond) in unconquered territories.",
-      "key_figures": [
-        "Enrico Dandolo (Venetian Doge, chief negotiator)",
-        "Boniface of Montferrat (Crusader leader)",
-        "Baldwin of Flanders (Latin Emperor)"
-      ],
-      "sources": [
-        {
-          "name": "Geoffrey of Villehardouin, Chronicle of the Fourth Crusade",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Historiographic consensus on the Treaty of Partition",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The partition is documented in Crusader chronicles and confirmed by subsequent Venetian and Latin administrative records.",
-      "cross_references": [
-        "Follows from 1204-001 (Sack of Constantinople)",
-        "Part of 1204-004 (Establishment of Latin Empire)"
-      ]
-    },
-    {
-      "id": "1204-006",
-      "title": "Relocation of Byzantine imperial treasures and relics to Western Europe",
-      "region": "Constantinople to Western Europe",
-      "coordinates_approx": null,
-      "category": "cultural",
-      "description": "During and after the sack of Constantinople, Crusader forces and Venetian merchants systematically looted the city's churches, palaces, and treasuries. Immense quantities of gold, silver, jewels, manuscripts, and religious relics were transported to Western Europe. The relics of saints, including fragments claimed to be from the True Cross and the Crown of Thorns, were distributed to churches across France, Italy, and the Low Countries. This redistribution of Byzantine cultural and religious patrimony had profound symbolic consequences: it reinforced Western Christian claims to spiritual authority and weakened Byzantine cultural prestige. Many of these treasures remain in Western European churches and museums today.",
-      "key_figures": [
-        "Crusader and Venetian looters (unnamed)",
-        "Pope Innocent III (recipient of reports, tacit approval)"
-      ],
-      "sources": [
-        {
-          "name": "Geoffrey of Villehardouin, Chronicle of the Fourth Crusade",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Robert of Clari, The Conquest of Constantinople",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Church records and relic inventories (Western European)",
-          "type": "primary_text",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The looting is extensively documented in contemporary Crusader accounts and confirmed by the presence of Byzantine artifacts in Western European collections.",
-      "cross_references": [
-        "Follows from 1204-001 (Sack of Constantinople)"
+        "Follows Saladin's death (1193)",
+        "Precedes al-Adil's campaigns against Crusaders (1207\u20131212)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Fourth Crusade is often portrayed as a catastrophic betrayal of the Crusading ideal, but some modern scholarship (e.g., Jonathan Phillips) argues that the diversion to Constantinople was not entirely unplanned and that the Crusaders faced genuine logistical and financial pressures that made the conquest seem strategically rational at the time. Additionally, while the sack is universally condemned as destructive, some historians note that the Latin Empire's rule, though short-lived, did not immediately destroy Byzantine administrative structures and that some Byzantine elites collaborated with or benefited from Latin rule. The narrative of total cultural destruction has been somewhat moderated by recent scholarship emphasizing continuity and hybrid governance. However, the fundamental fact of the sack and its catastrophic impact on Byzantine power remains uncontested.",
-  "historiographic_note": "The year 1204 is exceptionally well-documented for the Fourth Crusade and Constantinople, thanks to multiple contemporary eyewitness accounts from both Crusader and Byzantine perspectives. However, documentation of events in other regions (Ayyubid succession, Mongol steppe politics) relies on later compilations and oral traditions with less precise dating. The sources for the Crusade are heavily weighted toward Western perspectives; Byzantine and Islamic accounts provide counternarratives but are less abundant in surviving manuscripts. The looting of Constantinople is extensively documented, but the full extent of cultural loss remains debated. For the Mongol steppe, the Secret History is the primary source but was compiled generations after the events it describes, introducing chronological uncertainty.",
+  "disconfirming_evidence": "The date of Minamoto Yoriie's death is disputed; some sources place it in 1199 rather than 1204. The Azuma Kagami, though a valuable source, was compiled after the events and may contain errors or later interpolations. The dating of Tem\u00fcjin's defeat of Jamukha is uncertain; some sources place it in 1202 or within a range of 1202\u20131204. The exact sequence of Tem\u00fcjin's early campaigns is problematic due to reliance on later compilations. Regarding the Fourth Crusade, while the sack of Constantinople is thoroughly documented, some details (such as casualty figures and the extent of looting) are disputed or exaggerated in contemporary sources.",
+  "historiographic_note": "The Fourth Crusade is exceptionally well-documented from multiple perspectives (crusader, Byzantine, Venetian), making it one of the best-attested events of the medieval period. However, crusader sources are often triumphalist, while Byzantine sources are understandably hostile. The loss of Normandy is well-documented in English and French sources, though English sources tend to blame John's incompetence while French sources emphasize Philip's military skill. Japanese sources on the Kamakura shogunate are valuable but compiled after the events; the Azuma Kagami is near-contemporary but still subject to editorial bias. Mongol sources remain problematic: all are later compilations. Islamic sources on the Ayyubids are richer but often focus on military campaigns rather than administrative detail. Sub-Saharan Africa, the Americas, and much of Northern Europe are absent from contemporary documentation.",
   "graph_edges": [
     {
       "from": "1204-001",
-      "to": "1204-004",
+      "to": "1261-LATIN_EMPIRE_FALL",
       "relation": "led_to",
-      "note": "Sack of Constantinople directly resulted in establishment of Latin Empire"
+      "note": "Fourth Crusade sack of Constantinople established the Latin Empire, which fell in 1261"
     },
     {
       "from": "1204-001",
-      "to": "1204-005",
-      "relation": "led_to",
-      "note": "Sack enabled the partition of Byzantine territories"
+      "to": "1204-BYZANTINE_FRAGMENTATION",
+      "relation": "part_of",
+      "note": "Sack of Constantinople fragmented the Byzantine Empire into successor states"
     },
     {
-      "from": "1204-001",
-      "to": "1204-006",
+      "from": "1204-002",
+      "to": "1215-MAGNA_CARTA",
       "relation": "led_to",
-      "note": "Sack resulted in looting of treasures and relics"
+      "note": "Loss of Normandy intensified baronial discontent leading to Magna Carta"
     },
     {
       "from": "1204-003",
-      "to": "1206-001",
+      "to": "1333-KAMAKURA_SHOGUNATE_FALL",
       "relation": "led_to",
-      "note": "Tem\u00fcjin's consolidation of power in 1204 culminated in his proclamation as Genghis Khan in 1206"
+      "note": "Hojo regency consolidation in 1204 established the pattern lasting until 1333"
     },
     {
       "from": "1204-004",
-      "to": "1261-001",
+      "to": "1206-001",
       "relation": "led_to",
-      "note": "Latin Empire's establishment led eventually to its overthrow and Byzantine reconquest in 1261"
+      "note": "Tem\u00fcjin's defeat of Jamukha enabled his proclamation as Genghis Khan in 1206"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:29:57.448424",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

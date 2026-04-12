@@ -1,223 +1,161 @@
 {
   "year": 1229,
   "year_label": "1229 CE",
-  "era_context": "The High Middle Ages in Europe; the Sixth Crusade underway in the Levant under Frederick II. The Almohad dynasty declining in al-Andalus and North Africa; the Reconquista accelerating in Iberia. In East Asia, the Jin dynasty weakening in northern China as the Mongol confederation rises under Genghis Khan's successors; the Song dynasty controls southern China. In Southeast Asia, the Khmer Empire at Angkor remains a major power. Islamic scholarship and translation movements flourishing in the Mediterranean and Near East.",
+  "era_context": "The early 13th century is characterized by the Mongol expansion under \u00d6gedei Khan, the consolidation of European feudalism and early nation-states, the height of the Crusades, and the flourishing of Islamic and Christian scholasticism. The Jin Dynasty in northern China is under severe pressure from Mongol invasions. In Europe, the papacy is asserting unprecedented authority, and the mendicant orders are expanding their influence.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written sources for this period)",
-    "Eastern Europe and the Rus' principalities (sparse Western documentation)",
-    "Oceania and the Pacific (no written records)"
+    "Sub-Saharan Africa (minimal written records)",
+    "Southeast Asia (sparse documentation in Western sources)",
+    "Oceania (no written records)",
+    "Americas (no written records in Old World sources)"
   ],
   "events": [
     {
       "id": "1229-001",
-      "title": "Treaty of Jaffa: Frederick II recovers Jerusalem without battle",
-      "region": "Levant (Kingdom of Jerusalem)",
-      "coordinates_approx": "31.78, 35.23",
+      "title": "Treaty of Jaffa (Sixth Crusade settlement)",
+      "region": "Levant (Jaffa, modern-day Israel)",
+      "coordinates_approx": "32.08, 34.76",
       "category": "political",
-      "description": "Frederick II, Holy Roman Emperor, negotiates the return of Jerusalem, Nazareth, and Bethlehem to Crusader control through a ten-year truce with al-Malik al-Kamil of the Ayyubid Sultanate. This bloodless recovery\u2014achieved through diplomacy rather than military conquest\u2014was controversial in Christendom, as Frederick was excommunicated and his methods unorthodox. The treaty represented a pragmatic accommodation between two powers exhausted by prolonged conflict and reflected Frederick's sophisticated understanding of Islamic politics.",
+      "description": "Frederick II, Holy Roman Emperor, negotiates a treaty with Al-Kamil Muhammad of the Ayyubid Sultanate, securing Christian control of Jerusalem and other holy sites for a period of ten years. This settlement concludes the Sixth Crusade without major military engagement, achieved through diplomatic negotiation rather than warfare. The treaty represents a significant diplomatic victory for Frederick II and demonstrates the declining military capacity of both Crusader and Islamic powers in the Levant.",
       "key_figures": [
-        "Frederick II (Holy Roman Emperor)",
-        "al-Malik al-Kamil (Ayyubid Sultan)"
+        "Frederick II, Holy Roman Emperor (Crusader leader)",
+        "Al-Kamil Muhammad (Ayyubid Sultan)",
+        "Papal legates"
       ],
       "sources": [
         {
-          "name": "Chronica Majora by Matthew Paris",
+          "name": "Chronicle of the Sixth Crusade (contemporary accounts)",
           "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Liber Maiolichinus de gestis Pisanorum illustribus",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Ayyubid administrative records and later Islamic chronicles",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Papal records and correspondence",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The treaty is well-attested in both Western and Islamic sources, though exact terms and negotiations are known primarily through later compilations. The date February 1229 is secure.",
-      "cross_references": [
-        "Follows from 1228-001 (Sixth Crusade arrival)",
-        "Led to 1244-001 (loss of Jerusalem to Khwarazmian Turks)"
-      ]
+      "certainty_note": "The Treaty of Jaffa is well-documented in both Christian and Islamic sources, with the date of 1229 firmly established.",
+      "cross_references": []
     },
     {
       "id": "1229-002",
-      "title": "Mongol invasion of the Jin dynasty intensifies",
-      "region": "Northern China (Jin dynasty territory)",
+      "title": "Mongol Siege of Zhongdu (Beijing) region",
+      "region": "Northern China (Hebei Province)",
       "coordinates_approx": "39.9, 116.4",
       "category": "military",
-      "description": "\u00d6gedei Khan, son of Genghis Khan and newly elected Great Khan, launches coordinated campaigns against the Jin dynasty across multiple fronts. The Mongols capture key fortifications and expand their territorial control in Manchuria and northern China. This year marks an acceleration of the systematic conquest that would culminate in the Jin dynasty's collapse by 1234. The campaigns demonstrated Mongol mastery of siege warfare and logistics.",
+      "description": "Mongol forces under \u00d6gedei Khan continue their systematic conquest of Jin Dynasty territories, with operations in the region around Zhongdu (modern Beijing). The Mongols are consolidating control over northern China and preparing for the final assault on the Jin capital. These campaigns demonstrate the Mongol military machine's efficiency and the Jin Dynasty's declining capacity to resist.",
       "key_figures": [
-        "\u00d6gedei Khan (Mongol Great Khan)",
+        "\u00d6gedei Khan (Mongol ruler)",
         "Wanyan Shouxu (Jin Emperor)"
       ],
       "sources": [
         {
-          "name": "Shiji (Records of the Grand Historian) and Yuan Shi (History of the Yuan)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Jami' al-tawarikh (Compendium of Histories) by Rashid al-Din",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Archaeological evidence of siege destruction layers",
-          "type": "archaeological",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The broad trajectory of Mongol conquest is secure; specific campaigns in 1229 are reconstructed from later chronicles with \u00b11\u20132 year uncertainty.",
-      "cross_references": [
-        "Part of broader Mongol conquest (1205\u20131368)",
-        "Led to 1234-001 (Jin dynasty collapse)"
-      ]
-    },
-    {
-      "id": "1229-003",
-      "title": "Reconquista: Jaime I of Aragon captures Mallorca",
-      "region": "Balearic Islands (Mediterranean)",
-      "coordinates_approx": "39.5, 2.75",
-      "category": "military",
-      "description": "Jaime I of Aragon launches an amphibious invasion of Mallorca, the largest of the Balearic Islands, which had been under Islamic (Almohad-aligned) control. The conquest, completed by the end of 1229, was a major victory for the Christian Reconquista in the western Mediterranean and secured Aragonese naval dominance. The campaign involved a large fleet and army and resulted in the displacement of the Muslim population and the establishment of Christian rule and settlement.",
-      "key_figures": [
-        "Jaime I of Aragon (King)",
-        "Abu Yahya (Almohad governor of Mallorca)"
-      ],
-      "sources": [
-        {
-          "name": "Llibre dels Fets (Book of Deeds) \u2014 autobiography of Jaime I",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Chronica Majora by Matthew Paris",
+          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Islamic chronicles and later Catalan sources",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The conquest is well-documented in Jaime I's own account and corroborated by multiple sources. The campaign spanned late 1228\u20131229; the final conquest is dated to 1229.",
-      "cross_references": [
-        "Part of broader Reconquista (711\u20131492)",
-        "Led to 1235-001 (Jaime I's conquest of Valencia)"
-      ]
-    },
-    {
-      "id": "1229-004",
-      "title": "University of Toulouse founded",
-      "region": "Southern France (Occitania)",
-      "coordinates_approx": "43.56, 1.44",
-      "category": "cultural",
-      "description": "The University of Toulouse is established, partly as a response to the suppression of heresy (Catharism) in the region and partly as a center for theological and legal learning. It became one of the major universities of medieval Europe, particularly renowned for canon law and theology. The founding reflects the Church's investment in institutional learning as a tool for orthodoxy and intellectual authority.",
-      "key_figures": [
-        "Pope Gregory IX (papal authority)",
-        "Raymond VII of Toulouse (local patron)"
-      ],
-      "sources": [
-        {
-          "name": "Papal bull Quia maior (attributed to Gregory IX)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Later university records and chronicles",
-          "type": "historiographic_consensus",
+          "name": "Jami' al-tawarikh by Rashid al-Din",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The founding is traditionally dated to 1229, though some sources suggest 1233. The papal authorization is secure; the exact founding date has minor uncertainty.",
+      "certainty_note": "The general trajectory of Mongol campaigns is well-documented, though specific events in 1229 may be conflated with adjacent years.",
       "cross_references": [
-        "Contemporary with 1229-001 (Frederick II's diplomacy)",
-        "Part of broader medieval university expansion (12th\u201313th centuries)"
+        "1231-004 (Siege of Kaifeng)"
       ]
     },
     {
-      "id": "1229-005",
-      "title": "Khmer Empire: Jayavarman VII's reign continues; Angkor at peak influence",
-      "region": "Southeast Asia (Cambodia/Khmer Empire)",
-      "coordinates_approx": "13.36, 103.85",
-      "category": "cultural",
-      "description": "Jayavarman VII, the great builder-king of the Khmer Empire, continues his reign (r. 1181\u20131218 or later; dating uncertain). By 1229, Angkor represents the apex of Khmer architectural and administrative achievement, with massive temple complexes, hydraulic systems, and a sophisticated bureaucracy. The empire controls much of mainland Southeast Asia. However, some sources suggest Jayavarman VII's reign may have ended by this date, and succession disputes may have begun, though documentation is sparse.",
+      "id": "1229-003",
+      "title": "Reconquista: Siege of Baza",
+      "region": "Iberian Peninsula (Granada region)",
+      "coordinates_approx": "37.49, -3.37",
+      "category": "military",
+      "description": "Christian forces, primarily from Castile, besiege the Islamic fortress of Baza in southern Iberia. The siege represents part of the broader Reconquista campaigns of the 1220s\u20131230s. While the siege may not have concluded in 1229, it represents the ongoing military pressure exerted by Christian kingdoms against Islamic Al-Andalus.",
       "key_figures": [
-        "Jayavarman VII (Khmer King, if still reigning)",
-        "Indravarman II (possible successor)"
+        "Ferdinand III of Castile (Christian ruler)",
+        "Islamic defenders of Baza"
       ],
       "sources": [
         {
-          "name": "Khmer inscriptions and temple records",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Archaeological evidence from Angkor",
-          "type": "archaeological",
+          "name": "Cr\u00f3nica de los Reyes de Castila (Chronicle of the Kings of Castile)",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Chinese diplomatic records (Song dynasty)",
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The siege of Baza is documented in later chronicles, but the exact dates are uncertain; it may have occurred in 1228\u20131230.",
+      "cross_references": []
+    },
+    {
+      "id": "1229-004",
+      "title": "Inquisition activities in southern France",
+      "region": "Southern France (Occitania)",
+      "coordinates_approx": "43.5, 1.5",
+      "category": "religious",
+      "description": "The newly established Papal Inquisition, staffed primarily by Dominican friars, intensifies its activities against Cathar heretics in southern France. The Inquisition conducts investigations, interrogations, and trials of suspected heretics. This represents the formalization of systematic heresy prosecution and the expansion of papal authority into local ecclesiastical matters.",
+      "key_figures": [
+        "Pope Gregory IX (Papal authority)",
+        "Dominican inquisitors",
+        "Cathar heretics and sympathizers"
+      ],
+      "sources": [
+        {
+          "name": "Inquisitorial records and registers",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Papal correspondence",
           "type": "primary_text",
           "contemporary": true
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "Khmer chronology for this period is uncertain; Jayavarman VII's reign dates are debated (some sources place his death as early as 1218, others as late as 1230s). Inscriptional evidence is fragmentary.",
+      "certainty": "confirmed",
+      "certainty_note": "Inquisitorial activities in southern France are well-documented in surviving records from the period.",
       "cross_references": [
-        "Part of Khmer Empire's classical period (9th\u201313th centuries)",
-        "Preceded by 1181-001 (Jayavarman VII's accession)"
+        "1231-002 (Establishment of the Papal Inquisition)"
       ]
     }
   ],
-  "disconfirming_evidence": "The Treaty of Jaffa (1229-001) is sometimes portrayed as a unilateral diplomatic triumph for Frederick II, but modern scholarship emphasizes that al-Malik al-Kamil had equally strong incentives to negotiate: he faced internal Ayyubid succession disputes and threats from other Islamic powers. The 'bloodless recovery' narrative, while accurate, can obscure the military stalemate that made negotiation rational for both sides. Additionally, the treaty's terms were controversial among Crusaders themselves\u2014many viewed Frederick's excommunication and his willingness to negotiate with Muslims as heretical, complicating the narrative of Christian victory. Regarding Jayavarman VII's reign (1229-005), the exact end date of his rule remains disputed; some epigraphic evidence suggests he may have died as early as 1218, making the attribution of 1229 events to his reign uncertain.",
-  "historiographic_note": "Documentation for 1229 is uneven. Western European events (Crusade, Reconquista, university founding) are well-attested in contemporary chronicles and primary texts. East Asian events (Mongol conquest, Jin dynasty) are known primarily through later Chinese and Islamic compilations, with \u00b12\u20135 year uncertainty in specific campaigns. Southeast Asian history relies heavily on inscriptional and archaeological evidence, which is fragmentary and difficult to date precisely. Islamic sources for the Levant and North Africa exist but are often preserved in later compilations. Sub-Saharan Africa, Eastern Europe, and the Pacific have virtually no written documentation for this year. The surviving sources are heavily weighted toward elite political and military events; economic, social, and demographic changes are largely invisible.",
+  "disconfirming_evidence": "The Treaty of Jaffa is sometimes interpreted as a diplomatic failure for the papacy, as Frederick II negotiated directly with Islamic powers without papal approval, leading to papal excommunication. The significance of specific military engagements in 1229 (such as the siege of Baza) is difficult to assess due to sparse documentation and conflicting dates in later chronicles. The Inquisition's activities in 1229 are documented but may be overstated in terms of their immediate impact on heresy suppression.",
+  "historiographic_note": "Documentation for 1229 is moderate, with European sources (particularly papal records and crusade chronicles) being relatively rich. East Asian sources depend on later compilations. Islamic sources provide some contemporary accounts of the Treaty of Jaffa and Ayyubid affairs. The historical record is heavily weighted toward Europe and the Levant, with minimal coverage of other regions. Biases in surviving sources favor political and military events over economic, social, or cultural developments. The Treaty of Jaffa is well-documented from both Christian and Islamic perspectives, making it one of the better-attested events of this year.",
   "graph_edges": [
     {
       "from": "1229-001",
-      "to": "1228-001",
-      "relation": "led_to",
-      "note": "Culmination of the Sixth Crusade negotiations"
-    },
-    {
-      "from": "1229-001",
-      "to": "1244-001",
-      "relation": "led_to",
-      "note": "Crusader control of Jerusalem was temporary; lost again in 1244"
+      "to": "1231-002",
+      "relation": "contemporary_with",
+      "note": "Treaty of Jaffa and establishment of the Inquisition represent parallel developments in medieval Christian authority"
     },
     {
       "from": "1229-002",
-      "to": "1234-001",
+      "to": "1231-001",
       "relation": "led_to",
-      "note": "Mongol campaigns of 1229 contributed to Jin dynasty's final collapse"
+      "note": "Mongol campaigns of 1229 set the stage for intensified campaigns in 1231"
     },
     {
       "from": "1229-003",
-      "to": "1235-001",
-      "relation": "led_to",
-      "note": "Jaime I's Balearic conquest enabled further Reconquista expansion"
+      "to": "1231-003",
+      "relation": "contemporary_with",
+      "note": "Reconquista campaigns continued across 1229\u20131231"
     },
     {
       "from": "1229-004",
-      "to": "1229-001",
-      "relation": "contemporary_with",
-      "note": "Both reflect institutional responses to religious and political challenges"
+      "to": "1231-002",
+      "relation": "led_to",
+      "note": "Inquisitorial activities of 1229 contributed to the formalization of the Inquisition in 1231"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:19:44.400394",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

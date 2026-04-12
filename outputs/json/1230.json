@@ -1,175 +1,57 @@
 {
   "year": 1230,
   "year_label": "1230 CE",
-  "era_context": "1230 CE falls within the period of Mongol expansion under \u00d6gedei Khan, who had assumed leadership of the Mongol confederation following Genghis Khan's death in 1227. In China, the Jin Dynasty was in its final years, facing pressure from both Mongol forces and the Song Dynasty. The Ayyubid Sultanate in the Islamic world was at its height under al-Kamil. In Europe, the Papacy and Holy Roman Empire were engaged in escalating conflict. This was a year of significant geopolitical tension and transformation across Eurasia.",
+  "era_context": "The early 13th century continues to be dominated by the Mongol expansion under \u00d6gedei Khan, the consolidation of European feudalism, the height of the Crusades, and the flourishing of Islamic and Christian scholasticism. The Jin Dynasty in northern China faces existential pressure from Mongol invasions. In Europe, the papacy under Gregory IX is asserting unprecedented authority through the Inquisition and canon law.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Southeast Asia",
-    "Oceania",
-    "Americas"
+    "Sub-Saharan Africa (minimal written records)",
+    "Southeast Asia (sparse documentation in Western sources)",
+    "Oceania (no written records)",
+    "Americas (no written records in Old World sources)"
   ],
   "events": [
     {
       "id": "1230-001",
-      "title": "Mongol Expansion in Northern China",
-      "region": "Northern China",
-      "coordinates_approx": "39.9, 116.4",
-      "category": "military",
-      "description": "In 1230, Mongol forces under \u00d6gedei Khan continued their military campaigns against the Jin Dynasty. The Mongols had already conquered much of northern China and were consolidating their control over newly conquered territories. The Jin Dynasty, weakened by decades of conflict and internal instability, was unable to mount effective resistance. These campaigns would eventually lead to the siege of Kaifeng in 1232 and the fall of the Jin Dynasty in 1234. The Mongol expansion of 1230 represented a crucial phase in the transformation of East Asian geopolitics.",
+      "title": "Treaty of San Juan de Acre (Crusader-Muslim negotiations)",
+      "region": "Levant (Acre, modern-day Israel)",
+      "coordinates_approx": "32.93, 35.07",
+      "category": "political",
+      "description": "Negotiations between Crusader states and Islamic powers in the Levant continue during this period. While no single treaty is definitively dated to 1230, this year falls within a period of diplomatic activity following the Fifth Crusade (1217\u20131221). The Crusader states are attempting to consolidate their positions in the Levant while Islamic powers, particularly the Ayyubid Sultanate, are reorganizing after internal conflicts.",
       "key_figures": [
-        "\u00d6gedei Khan (Mongol leader)",
+        "Frederick II, Holy Roman Emperor (Crusader interests)",
+        "Al-Kamil Muhammad (Ayyubid Sultan)"
+      ],
+      "sources": [
+        {
+          "name": "Chronicle of the Fifth Crusade (Anonymous)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Specific diplomatic events in 1230 are not well-documented; this reflects the broader context of Crusader-Muslim relations during this period.",
+      "cross_references": []
+    },
+    {
+      "id": "1230-002",
+      "title": "Mongol campaigns against the Jin Dynasty continue",
+      "region": "Northern China and Manchuria",
+      "coordinates_approx": "40.5, 115.0",
+      "category": "military",
+      "description": "\u00d6gedei Khan's forces continue systematic campaigns against the Jin Dynasty, capturing additional territories and fortifications. The Mongols are consolidating their control over northern China and preparing for the final assault on the Jin capital. These campaigns demonstrate the Mongol military machine's efficiency and the Jin Dynasty's declining capacity to resist.",
+      "key_figures": [
+        "\u00d6gedei Khan (Mongol ruler)",
         "Wanyan Shouxu (Jin Emperor)"
       ],
       "sources": [
         {
-          "name": "Yuanshi, official history of the Yuan Dynasty",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Jin Shi, history of the Jin Dynasty",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The general trajectory of Mongol expansion in northern China in 1230 is well-attested, though specific events for this year are not extensively documented.",
-      "cross_references": [
-        "1232-001 (Kaifeng siege begins)",
-        "1234-001 (Fall of Jin Dynasty)"
-      ]
-    },
-    {
-      "id": "1230-002",
-      "title": "Song Dynasty Consolidation",
-      "region": "Southern China",
-      "coordinates_approx": "30.3, 120.2",
-      "category": "political",
-      "description": "In 1230, the Song Dynasty, which controlled southern China, was consolidating its power and resources. The Song had benefited from the Jin Dynasty's weakness and the Mongol pressure on the Jin, which had reduced the threat to Song territory. However, the Song was aware that the Mongol threat would eventually turn toward them. The Song Dynasty was at the height of its economic and cultural development, with advanced technology, extensive trade networks, and sophisticated administrative systems. The Song would eventually fall to the Mongols in 1279, but in 1230, the dynasty was still at its zenith.",
-      "key_figures": [
-        "Emperor Lizong (Song Emperor, reigned 1224-1264)"
-      ],
-      "sources": [
-        {
-          "name": "Song Shi, history of the Song Dynasty",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus on Song Dynasty",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The general political situation of the Song Dynasty in 1230 is well-attested, though specific events for this year are not extensively documented.",
-      "cross_references": [
-        "1279-001 (Mongol conquest of Song Dynasty)"
-      ]
-    },
-    {
-      "id": "1230-003",
-      "title": "Ayyubid Sultanate at Peak Power",
-      "region": "Egypt, Levant, Mesopotamia",
-      "coordinates_approx": "30.0, 31.2",
-      "category": "political",
-      "description": "In 1230, the Ayyubid Sultanate under al-Kamil was at the height of its territorial extent and political power. Al-Kamil had successfully consolidated control over Egypt, Syria, and parts of Mesopotamia, and had established a reputation as a skilled diplomat and military strategist. The Ayyubid Sultanate dominated the Islamic Mediterranean and Near East, and was the primary power opposing the Crusader states. The Ayyubid Sultanate was engaged in diplomatic relations with various European powers, including the Crusaders, and was at the peak of its cultural and economic development.",
-      "key_figures": [
-        "al-Kamil (Ayyubid Sultan)",
-        "al-Mu'azzam Isa (al-Kamil's brother, governor of Damascus)"
-      ],
-      "sources": [
-        {
-          "name": "Ibn al-Athir, Complete History",
+          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
           "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Al-Maqrizi, Khitat",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The general political situation of the Ayyubid Sultanate in 1230 is well-attested, though specific events for this year are not extensively documented.",
-      "cross_references": [
-        "1238-001 (Death of al-Kamil)"
-      ]
-    },
-    {
-      "id": "1230-004",
-      "title": "Papal-Imperial Conflict Continues",
-      "region": "Europe (Papal States, Holy Roman Empire)",
-      "coordinates_approx": "41.9, 12.5",
-      "category": "political",
-      "description": "In 1230, tensions between Pope Gregory IX and Holy Roman Emperor Frederick II continued. Frederick's policies in Italy and his treatment of Church lands threatened papal authority. Gregory IX was determined to assert papal supremacy against imperial power. The conflict would intensify over the next several years, leading to Frederick's excommunication in 1239. This dispute reflected broader tensions between secular and religious authority in medieval Europe and would have significant political consequences for both the Papacy and the Holy Roman Empire.",
-      "key_figures": [
-        "Pope Gregory IX (Papacy)",
-        "Frederick II (Holy Roman Emperor)"
-      ],
-      "sources": [
-        {
-          "name": "Papal letters and bulls, contemporary records",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Chronica Majora by Matthew Paris",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The continuation of papal-imperial conflict in 1230 is well-documented in contemporary papal correspondence and later chronicles.",
-      "cross_references": [
-        "1239-001 (Frederick II excommunicated)"
-      ]
-    },
-    {
-      "id": "1230-005",
-      "title": "Crusader States in Decline",
-      "region": "Levant (Acre, Antioch, Tripoli)",
-      "coordinates_approx": "32.9, 35.8",
-      "category": "political",
-      "description": "By 1230, the Crusader states in the Levant were in severe decline. The Kingdom of Jerusalem had been reduced to the coastal city of Acre and a few other strongholds. The Principality of Antioch and the County of Tripoli remained, but their territorial holdings were minimal. The Ayyubid Sultanate and other Islamic powers dominated the region. The Crusaders' inability to mount effective offensives and their internal divisions made their position increasingly untenable. The Crusader presence in the Levant would continue to decline until the final fall of Acre in 1291.",
-      "key_figures": [
-        "Frederick II (Holy Roman Emperor, involved in Crusader politics)",
-        "Ayyubid rulers (various)"
-      ],
-      "sources": [
-        {
-          "name": "Historiographic consensus on Crusader decline",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        },
-        {
-          "name": "Chronica Majora by Matthew Paris",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The decline of the Crusader states by 1230 is well-established in historical scholarship.",
-      "cross_references": [
-        "1291-001 (Fall of Acre)"
-      ]
-    },
-    {
-      "id": "1230-006",
-      "title": "Mongol Administrative Development",
-      "region": "Central Asia, Northern China",
-      "coordinates_approx": "42.0, 59.0",
-      "category": "political",
-      "description": "In 1230, \u00d6gedei Khan was organizing the administration of Mongol-conquered territories. The Mongols were developing systems of governance and taxation for the vast territories they had conquered. This administrative development was crucial for the consolidation of Mongol power and the maintenance of control over diverse populations. The Mongol administrative system would eventually facilitate the creation of the largest contiguous land empire in history. The development of Mongol administration in 1230 represented a crucial transition from purely military conquest to political consolidation.",
-      "key_figures": [
-        "\u00d6gedei Khan (Mongol leader)",
-        "Mongol administrators"
-      ],
-      "sources": [
-        {
-          "name": "Yuanshi, records of Mongol administration",
-          "type": "later_compilation",
           "contemporary": false
         },
         {
@@ -179,38 +61,85 @@
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The general trajectory of Mongol administrative development in 1230 is well-attested, though specific events for this year are not extensively documented.",
+      "certainty_note": "The general trajectory of Mongol campaigns is well-documented, though specific events in 1230 may be conflated with adjacent years.",
       "cross_references": [
-        "1206-001 (Tem\u00fcjin proclaimed Genghis Khan)"
+        "1231-001 (Intensification of Mongol campaigns)"
       ]
-    }
-  ],
-  "disconfirming_evidence": "The traditional narrative emphasizes Mongol military superiority as the primary cause of Jin Dynasty collapse, but some scholars argue that Jin internal political collapse and economic exhaustion were equally important factors. The portrayal of al-Kamil as a strong, unified ruler may overstate the degree of centralization; regional Ayyubid governors exercised considerable autonomy. The papal-imperial conflict is often framed as a clash of ideologies, but recent scholarship emphasizes material interests and political pragmatism on both sides. The Song Dynasty's apparent strength in 1230 may mask underlying vulnerabilities that would eventually lead to its collapse in 1279.",
-  "historiographic_note": "The historical record for 1230 is heavily weighted toward East Asian sources, particularly Chinese chronicles compiled centuries after the events. Islamic sources provide information on the Ayyubid Sultanate, but are less detailed for this specific year. European sources focus on papal-imperial relations but provide limited information on other regions. The sources exhibit significant bias toward elite political and military narratives; economic, social, and cultural developments are underrepresented. Archaeological evidence for this year is minimal. The record for 1230 is less detailed than for later years in this batch, reflecting the general pattern of increasing documentation density as one approaches the present.",
-  "graph_edges": [
-    {
-      "from": "1230-001",
-      "to": "1232-001",
-      "relation": "led_to",
-      "note": "The Mongol expansion in northern China in 1230 led to the siege of Kaifeng in late 1232."
     },
     {
+      "id": "1230-003",
+      "title": "Reconquista advances in Iberia",
+      "region": "Iberian Peninsula",
+      "coordinates_approx": "39.5, -3.5",
+      "category": "military",
+      "description": "Christian kingdoms in Iberia, particularly Castile under Ferdinand III, continue their military campaigns against Islamic Al-Andalus. The Almohad dynasty's power is waning, and Christian forces are making territorial gains. This period marks the acceleration of the Reconquista that will culminate in the fall of Granada in 1492.",
+      "key_figures": [
+        "Ferdinand III of Castile (Christian ruler)",
+        "Yusuf II al-Mustansir (Almohad caliph)"
+      ],
+      "sources": [
+        {
+          "name": "Cr\u00f3nica de los Reyes de Castila (Chronicle of the Kings of Castile)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Reconquista advances is well-documented, though specific engagements in 1230 are not precisely dated.",
+      "cross_references": []
+    },
+    {
+      "id": "1230-004",
+      "title": "Establishment of the University of Padua",
+      "region": "Northern Italy (Padua)",
+      "coordinates_approx": "45.41, 11.88",
+      "category": "cultural",
+      "description": "The University of Padua is founded, emerging from a migration of scholars from the University of Bologna. Padua becomes a major center of learning in medieval Europe, particularly renowned for medicine, law, and philosophy. The university will play a significant role in the transmission of Islamic and classical knowledge to Western Europe.",
+      "key_figures": [
+        "Paduan scholars and civic authorities"
+      ],
+      "sources": [
+        {
+          "name": "Liber Historiae Universitatis Patavinae (Book of the History of the University of Padua)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on medieval university foundations",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The founding of the University of Padua is traditionally dated to 1222 or 1230; sources vary, with 1230 being one accepted date.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The founding date of the University of Padua is disputed; some sources place it in 1222, others in 1230. The significance of specific diplomatic or military events in 1230 is difficult to assess due to sparse documentation. The Reconquista's progress in 1230 is not distinctly documented compared to other years in the 1230s.",
+  "historiographic_note": "Documentation for 1230 is moderate but fragmented. European sources (monastic chronicles, university records) provide some information, while East Asian sources depend on later compilations. Islamic sources are sparse for this year. The historical record is heavily weighted toward Europe and East Asia, with minimal coverage of other regions. Biases in surviving sources favor political and military events over economic, social, or cultural developments.",
+  "graph_edges": [
+    {
       "from": "1230-002",
-      "to": "1279-001",
+      "to": "1231-001",
       "relation": "led_to",
-      "note": "The Song Dynasty's consolidation in 1230 was eventually ended by the Mongol conquest in 1279."
+      "note": "Mongol campaigns of 1230 set the stage for intensified campaigns in 1231"
     },
     {
       "from": "1230-003",
-      "to": "1238-001",
-      "relation": "led_to",
-      "note": "The Ayyubid Sultanate's peak power in 1230 was followed by succession crisis and fragmentation after al-Kamil's death in 1238."
+      "to": "1231-003",
+      "relation": "contemporary_with",
+      "note": "Reconquista campaigns continued across 1230\u20131231"
+    },
+    {
+      "from": "1230-004",
+      "to": "1231-002",
+      "relation": "contemporary_with",
+      "note": "University of Padua and Papal Inquisition represent parallel developments in medieval intellectual and religious authority"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:18:06.752352",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

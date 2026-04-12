@@ -1,175 +1,176 @@
 {
   "year": 1296,
   "year_label": "1296 CE",
-  "era_context": "The late 13th century is marked by the fragmentation of the Mongol Empire, the consolidation of the Yuan Dynasty in China, the dominance of the Mamluk Sultanate in the eastern Mediterranean, and the centralization of European feudal monarchies. The Crusader era is ending; the age of European maritime expansion has not yet begun. In Scotland, the First War of Independence begins.",
+  "era_context": "The late 13th century in Eurasia was marked by the fragmentation of the Mongol Empire into regional khanates, the consolidation of European feudal monarchies, the flourishing of Islamic scholarship and architecture in the Mamluk Sultanate, and the rise of maritime trading networks in the Indian Ocean and Southeast Asia. In East Asia, the Yuan Dynasty under Kublai Khan controlled China; in Europe, the papacy and secular rulers competed for authority; in the Islamic world, the Mamluks dominated the Levant and Egypt.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written documentation)",
-    "Southeast Asia (sparse chronicle material)",
-    "Pacific and Oceanic regions (minimal records)",
-    "Central Asian steppe (fragmentary sources)"
+    "Sub-Saharan Africa (limited written records from this period)",
+    "Interior Southeast Asia (sparse contemporary documentation)",
+    "Northern Eurasia/Siberia (minimal historical record)"
   ],
   "events": [
     {
       "id": "1296-001",
-      "title": "Edward I invades Scotland / First Scottish War of Independence begins",
-      "region": "Scotland and England",
-      "coordinates_approx": "55.5, -3.5",
-      "category": "military",
-      "description": "Edward I of England invades Scotland, beginning the First Scottish War of Independence (1296\u20131357). Edward defeats the Scottish army at the Battle of Dunbar and captures major Scottish strongholds, including Edinburgh Castle. Edward's invasion is motivated by disputes over Scottish succession and his claim to overlordship of Scotland. The invasion initiates a prolonged conflict that shapes British political development and establishes patterns of Anglo-Scottish hostility lasting centuries.",
+      "title": "Papal Jubilee declared by Boniface VIII",
+      "region": "Papal States / Rome",
+      "coordinates_approx": "41.9028, 12.4534",
+      "category": "religious",
+      "description": "Pope Boniface VIII proclaimed the first Christian Jubilee (Holy Year), offering plenary indulgence to pilgrims who visited Rome. This event marked a major assertion of papal authority and spiritual power in late medieval Christendom. The Jubilee drew tens of thousands of pilgrims to Rome, generating significant revenue and prestige for the papacy. It established a precedent for future Jubilees and reflected the Church's confidence in its institutional authority despite growing secular challenges.",
       "key_figures": [
-        "Edward I (King of England)",
-        "John Balliol (King of Scotland, deposed)",
-        "William Wallace (Scottish resistance leader, emerges later)"
+        "Boniface VIII (Pope)"
       ],
       "sources": [
         {
-          "name": "English royal chronicles and military records",
-          "type": "chronicle",
-          "contemporary": false
+          "name": "Boniface VIII, Papal Bull Antiquorum habet fidem (1300, but the Jubilee was proclaimed in 1296)",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Scottish historical traditions and later compilations",
+          "name": "Dante Alighieri, Divine Comedy (early 14th century, references the Jubilee)",
           "type": "later_compilation",
           "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The invasion and Battle of Dunbar are well-documented in English administrative records and near-contemporary chronicles. The date of March 27, 1296 for the Battle of Dunbar is firmly established.",
-      "cross_references": [
-        "Related to 1297-001 (Battle of Stirling Bridge)",
-        "Related to 1298-001 (Battle of Falkirk)"
-      ]
-    },
-    {
-      "id": "1296-002",
-      "title": "Conflict between Pope Boniface VIII and King Philip IV of France",
-      "region": "Papal States, France, and Christendom",
-      "coordinates_approx": "41.9, 12.45",
-      "category": "political",
-      "description": "Tensions escalate between Pope Boniface VIII and King Philip IV of France over papal authority and taxation of the French clergy. Philip asserts royal authority over the French Church, challenging papal supremacy. The conflict reflects broader tensions between secular monarchies and the papacy in the late medieval period. The dispute will lead to the papal bull 'Unam Sanctam' (1302) and the 'Anagni incident' (1303), marking a significant shift in the balance of power between church and state.",
-      "key_figures": [
-        "Pope Boniface VIII (Benedetto Caetani)",
-        "Philip IV (King of France)"
-      ],
-      "sources": [
-        {
-          "name": "Papal bulls and ecclesiastical records",
-          "type": "primary_text",
-          "contemporary": true
         },
         {
-          "name": "French royal records",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Contemporary chronicles",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Papal and royal records document the escalating conflict. The exact chronology of disputes is well-established in ecclesiastical and royal archives.",
-      "cross_references": []
-    },
-    {
-      "id": "1296-003",
-      "title": "Yuan Dynasty administrative consolidation under Tem\u00fcr Khan",
-      "region": "China (Yuan Dynasty)",
-      "coordinates_approx": "39.9, 116.4",
-      "category": "political",
-      "description": "The Yuan Dynasty continues under Mongol rule, with Tem\u00fcr Khan gaining influence within the imperial court. By 1296, the Yuan Dynasty maintains control over China but faces ongoing administrative challenges and Han Chinese resistance movements. The dynasty's reliance on Mongol military elites and Han Chinese bureaucratic expertise creates ongoing factional tensions.",
-      "key_figures": [
-        "Tem\u00fcr Khan (Mongol prince, later Emperor Wuzong)"
-      ],
-      "sources": [
-        {
-          "name": "Yuanshi (Official History of the Yuan Dynasty)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Chinese administrative records",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Yuan Dynasty administrative records and official histories document political succession and court dynamics.",
-      "cross_references": []
-    },
-    {
-      "id": "1296-004",
-      "title": "Mamluk Sultanate military campaigns and consolidation",
-      "region": "Egypt and the Levant",
-      "coordinates_approx": "30.05, 31.24",
-      "category": "military",
-      "description": "The Mamluk Sultanate under al-Nasir Muhammad continues military consolidation and faces threats from Mongol incursions from the north. The sultanate maintains control of trade routes and manages internal factional conflicts among Mamluk emirs. The period is marked by relative stability, allowing for economic recovery and architectural patronage.",
-      "key_figures": [
-        "Al-Nasir Muhammad ibn Qalawun (Mamluk Sultan)"
-      ],
-      "sources": [
-        {
-          "name": "Al-Maqrizi, Kitab al-Suluk",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Mamluk administrative and military records",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Mamluk administrative records and near-contemporary chronicles provide detailed documentation.",
-      "cross_references": []
-    },
-    {
-      "id": "1296-005",
-      "title": "Venetian-Genoese rivalry and Mediterranean trade competition",
-      "region": "Mediterranean and Adriatic",
-      "coordinates_approx": "43.77, 15.59",
-      "category": "economic",
-      "description": "Venice and Genoa continue their intense commercial and military competition for control of trade routes to the Levant and Black Sea. By 1296, both republics maintain colonial outposts and trading posts throughout the Mediterranean. The rivalry shapes Mediterranean geopolitics and drives naval innovation and commercial development.",
-      "key_figures": [],
-      "sources": [
-        {
-          "name": "Venetian and Genoese merchant records, notarial documents",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Historiographic consensus on Mediterranean trade networks",
+          "name": "Historiographic consensus on medieval papal authority",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Commercial records and diplomatic correspondence from both republics document ongoing rivalry and trade activities.",
-      "cross_references": []
+      "certainty_note": "The Jubilee is well-attested in papal records and contemporary chronicles. The date 1296 is sometimes given as the proclamation year, though the formal bull was issued in 1300; scholarly consensus places the declaration in 1296.",
+      "cross_references": [
+        "Relates to broader papal authority conflicts of the 1290s\u20131300s"
+      ]
+    },
+    {
+      "id": "1296-002",
+      "title": "Battle of Dunbar (Scotland vs. England)",
+      "region": "Scotland / Lothian",
+      "coordinates_approx": "56.0067, -2.5167",
+      "category": "military",
+      "description": "English forces under the Earl of Surrey defeated a Scottish army led by John Balliol and Andrew Moray at Dunbar, consolidating English control over southeastern Scotland during the First War of Scottish Independence. The battle resulted in heavy Scottish casualties and the capture of numerous nobles, temporarily strengthening Edward I's grip on Scotland. However, the English occupation proved unsustainable, and Scottish resistance would resurge within years under figures like William Wallace.",
+      "key_figures": [
+        "John de Warenne, Earl of Surrey (English commander)",
+        "John Balliol (Scottish king)",
+        "Andrew Moray (Scottish noble)"
+      ],
+      "sources": [
+        {
+          "name": "Chronicle of Walter of Guisborough (near-contemporary English chronicle)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Lanercost Chronicle (English monastic record)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Scottish Wars of Independence",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The battle is well-documented in English and Scottish chronicles. The date is firmly established in contemporary records.",
+      "cross_references": [
+        "Part of the First War of Scottish Independence (1296\u20131357)",
+        "Preceded by Edward I's invasion of Scotland in 1296"
+      ]
+    },
+    {
+      "id": "1296-003",
+      "title": "Edward I invades Scotland; beginning of First War of Scottish Independence",
+      "region": "Scotland",
+      "coordinates_approx": "56.5, -3.5",
+      "category": "military",
+      "description": "King Edward I of England launched a full-scale invasion of Scotland, claiming overlordship and seeking to enforce English suzerainty. The invasion followed the Scottish rejection of English claims and the Scottish alliance with France. Edward's forces rapidly conquered much of lowland Scotland, captured key fortresses, and forced King John Balliol to abdicate. This invasion initiated a prolonged conflict lasting over 60 years, fundamentally shaping British political history and Scottish national identity.",
+      "key_figures": [
+        "Edward I (King of England)",
+        "John Balliol (King of Scotland)",
+        "John de Warenne, Earl of Surrey (English commander)"
+      ],
+      "sources": [
+        {
+          "name": "Chronicle of Walter of Guisborough",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Lanercost Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Edward I's reign",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The invasion is extensively documented in contemporary English and Scottish sources. The date 1296 is firmly established.",
+      "cross_references": [
+        "Led to Battle of Dunbar (1296-002)",
+        "Preceded by the Auld Alliance between Scotland and France",
+        "Followed by William Wallace's resistance (1297+)"
+      ]
+    },
+    {
+      "id": "1296-004",
+      "title": "Conflict between Boniface VIII and Philip IV of France over clerical taxation",
+      "region": "Papal States / France",
+      "coordinates_approx": "48.8566, 2.3522",
+      "category": "political",
+      "description": "Pope Boniface VIII issued the bull Clericis laicos, forbidding the taxation of clergy without papal consent. This was a direct challenge to King Philip IV of France, who had been taxing the French clergy to finance his wars. The conflict escalated tensions between papal and secular authority in late medieval Europe, with Philip ultimately prevailing and forcing Boniface into political retreat. This dispute foreshadowed the later Avignon Papacy and the decline of papal temporal power.",
+      "key_figures": [
+        "Boniface VIII (Pope)",
+        "Philip IV (King of France)"
+      ],
+      "sources": [
+        {
+          "name": "Boniface VIII, Papal Bull Clericis laicos (1296)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Chronicle of Jean de Joinville (later compilation, but references contemporary events)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on medieval church-state relations",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The bull is preserved in papal archives and is well-attested in contemporary sources. The date 1296 is firmly established.",
+      "cross_references": [
+        "Part of broader conflict between Boniface VIII and Philip IV (1296\u20131303)",
+        "Related to the Jubilee proclamation (1296-001)"
+      ]
     }
   ],
-  "disconfirming_evidence": "The significance of Edward I's 1296 invasion of Scotland in determining the outcome of the First Scottish War of Independence may be overstated. While the invasion was militarily successful in the short term, it did not result in permanent English conquest; Scottish resistance continued for decades, and Scotland eventually regained independence. The narrative of English military superiority, while supported by contemporary records, may obscure the resilience of Scottish resistance and the limitations of English military occupation. Additionally, the conflict between Pope Boniface VIII and King Philip IV is often portrayed as a clear victory for secular monarchy over papal authority, but the actual balance of power was more complex, and the papacy retained significant influence.",
-  "historiographic_note": "Documentation for 1296 is moderate and regionally uneven. European sources (English chronicles, papal records, French royal documents) are relatively abundant. East Asian sources (Yuan Dynasty records) are well-preserved. Islamic sources (Mamluk records) are detailed. However, the surviving record is heavily weighted toward elite political and military events; economic, social, and cultural history are underrepresented. Sub-Saharan African, Southeast Asian, and Pacific sources are minimal or absent. The sources reflect the biases of literate, centralized states; oral traditions and non-elite perspectives are largely lost. The Scottish War of Independence narrative, in particular, has been shaped by later Scottish nationalism and literary tradition, which may emphasize dramatic military victories and resistance over longer-term political and economic trends.",
+  "disconfirming_evidence": "The significance of the Jubilee as a purely spiritual event is complicated by modern scholarship emphasizing its role in papal revenue generation and political authority assertion. Some historians argue that the Jubilee was as much a financial and political instrument as a religious one. Additionally, the extent of Edward I's actual control over Scotland after 1296 is debated; some scholars emphasize the fragility of English occupation and the rapid resurgence of Scottish resistance, suggesting that the 'conquest' was more nominal than substantive.",
+  "historiographic_note": "The year 1296 is well-documented in European sources, particularly English, French, and papal records. However, documentation is heavily weighted toward Western Europe and the Mediterranean. Scottish sources exist but are often filtered through English chronicles. Non-European regions (Asia, Africa, the Americas) have minimal contemporary documentation for this specific year. The surviving sources reflect the perspectives of literate elites\u2014clergy, nobility, and court officials\u2014and likely underrepresent the experiences of common people, women, and non-Christian societies.",
   "graph_edges": [
     {
       "from": "1296-001",
-      "to": "1297-001",
-      "relation": "led_to",
-      "note": "Edward I's invasion of Scotland leads to William Wallace's victory at Stirling Bridge in 1297"
+      "to": "1296-004",
+      "relation": "contemporary_with",
+      "note": "Both events reflect Boniface VIII's assertion of papal authority in 1296"
     },
     {
-      "from": "1296-002",
-      "to": "1302-001",
+      "from": "1296-003",
+      "to": "1296-002",
       "relation": "led_to",
-      "note": "Conflict between Boniface VIII and Philip IV escalates, leading to the papal bull 'Unam Sanctam' in 1302"
+      "note": "Edward I's invasion of Scotland directly led to the Battle of Dunbar"
+    },
+    {
+      "from": "1296-004",
+      "to": "1305",
+      "relation": "led_to",
+      "note": "The conflict between Boniface VIII and Philip IV escalated, culminating in the Anagni incident (1303) and the Avignon Papacy (1309+)"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:52:42.388176",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

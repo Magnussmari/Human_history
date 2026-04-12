@@ -1,122 +1,193 @@
 {
   "year": 1286,
   "year_label": "1286 CE",
-  "era_context": "The late 13th century continued to be defined by Mongol dominance in Asia, Mamluk control of the Eastern Mediterranean, and European feudal fragmentation. The Yuan Dynasty under Kublai Khan was at its territorial zenith. In Southeast Asia, Thai kingdoms were consolidating power while Khmer influence waned. The Papacy was in transition. Islamic scholarship and trade networks remained globally significant.",
+  "era_context": "The late 13th century CE saw the fragmentation of Mongol unity following Kublai Khan's reign, the consolidation of the Yuan Dynasty in China, the Mamluk Sultanate's dominance in the Eastern Mediterranean and Levant, and the rise of Ottoman power in Anatolia. In Europe, the High Middle Ages were giving way to the Late Medieval period, marked by feudal complexity, papal-secular conflict, and early nation-state formation. The Reconquista in Iberia was nearing completion.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Northern and Eastern Europe (beyond major kingdoms)",
-    "Pacific Islands and Oceania",
-    "Central Asian steppe politics",
-    "Indian subcontinent (limited specific records)"
+    "Sub-Saharan Africa (limited written records; oral traditions not systematically documented)",
+    "Southeast Asia (sparse European sources; local chronicles less accessible to Western scholarship)",
+    "Pacific Islands and Oceania (minimal contemporary documentation)"
   ],
   "events": [
     {
       "id": "1286-001",
-      "title": "Mongol Invasion of Vietnam (Continued Campaign)",
-      "region": "Southeast Asia (Vietnam)",
-      "coordinates_approx": "21.03, 105.85",
-      "category": "military",
-      "description": "The Mongol invasion of Vietnam continued in 1286 as part of a multi-year campaign (1285-1287) by Kublai Khan to conquer the Tran Dynasty. The Vietnamese, under General Tran Hung Dao and Emperor Tran Nhan Tong, continued to resist Mongol forces using guerrilla tactics and naval warfare. The campaign would ultimately result in Vietnamese victory in 1287, but 1286 represented a critical year of sustained conflict and Vietnamese resistance.",
+      "title": "Kublai Khan's death and succession crisis in Yuan Dynasty",
+      "region": "Yuan Dynasty (China, Mongolia)",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "Kublai Khan, founder of the Yuan Dynasty and grandson of Genghis Khan, died on 18 February 1286 (or early 1287 by some sources). His death marked a critical juncture in Mongol succession and Yuan stability. Tem\u00fcr Khan (Kublai's grandson) eventually succeeded him, but the transition exposed factional tensions within the Mongol elite. The succession dispute weakened central authority and contributed to the gradual decline of Mongol unity across Eurasia.",
       "key_figures": [
-        "Tran Hung Dao (Vietnamese general)",
-        "Tran Nhan Tong (Tran Emperor)",
-        "Kublai Khan (Yuan Emperor)"
+        "Kublai Khan (deceased Yuan emperor)",
+        "Tem\u00fcr Khan (successor, r. 1294\u20131307)"
       ],
       "sources": [
         {
-          "name": "Dai Viet Su Ky Toan Thu (Complete History of Great Viet, compiled 15th century)",
+          "name": "Yuan Shi (History of the Yuan Dynasty), compiled 14th century",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Yuan Shi (Official Yuan Dynasty history)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Marco Polo, Description of the World (Divisament dou Monde)",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Mongol invasion campaign of 1285-1287 is well-attested in both Vietnamese and Chinese sources. 1286 is a secure point within this campaign.",
+      "certainty_note": "Death date well-attested in Yuan records and contemporary European accounts. Succession process documented in official histories, though some sources vary on exact dates by 1\u20132 years.",
       "cross_references": [
-        "Part of broader Mongol expansion attempts in Southeast Asia",
-        "Precedes Vietnamese victory in 1287"
+        "1294-001 (Tem\u00fcr Khan's formal enthronement)"
       ]
     },
     {
       "id": "1286-002",
-      "title": "Scottish Wars of Independence (Battle of Dunbar)",
-      "region": "Scotland (British Isles)",
-      "coordinates_approx": "56.00, -2.52",
-      "category": "military",
-      "description": "In 1286, Scotland was in a state of succession crisis following the death of King Alexander III in 1286 (note: Alexander III died on March 19, 1286). This triggered the Scottish succession dispute that would lead to the Wars of Independence. The death of Alexander III without a direct heir created a power vacuum that would be filled by Edward I of England's intervention and the subsequent rise of William Wallace and Robert the Bruce.",
+      "title": "Mamluk Sultanate consolidation under Qalawun",
+      "region": "Mamluk Sultanate (Egypt, Levant, Hijaz)",
+      "coordinates_approx": "30.0, 31.2",
+      "category": "political",
+      "description": "Sultan al-Mansur Qalawun (r. 1279\u20131290) consolidated Mamluk power in Egypt and the Levant, defeating the Crusader stronghold of Acre in 1291 (siege began in 1286). In 1286, Qalawun was actively preparing for the final assault on Acre, which would mark the end of the Crusader presence in the Levant. His military and administrative reforms strengthened the Mamluk state and established it as the dominant Islamic power in the Eastern Mediterranean.",
       "key_figures": [
-        "Alexander III (Scottish King, died 1286)",
-        "Edward I (English King)",
-        "Margaret, Maid of Norway (Alexander III's granddaughter)"
+        "Al-Mansur Qalawun (Mamluk Sultan)",
+        "Al-Ashraf Khalil (his son, later successor)"
       ],
       "sources": [
         {
-          "name": "Scottish chronicles (Fordun, Wyntoun, and others, compiled later)",
-          "type": "later_compilation",
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh), continued by later chroniclers",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "English chronicles (contemporary and near-contemporary)",
-          "type": "chronicle",
+          "name": "Al-Maqrizi, History of the Mamluks (Kitab al-Suluk)",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Alexander III's death on March 19, 1286 is well-documented. The date is secure.",
+      "certainty_note": "Qalawun's reign and military campaigns are well-documented in Islamic chronicles. The Acre campaign is dated to 1291, with preparations in 1286\u20131290.",
       "cross_references": [
-        "Precedes Wars of Scottish Independence (1296-1357)",
-        "Leads to Edward I's intervention in Scotland"
+        "1291-001 (Fall of Acre)"
       ]
     },
     {
       "id": "1286-003",
-      "title": "Kublai Khan Consolidates Yuan Control Over China",
-      "region": "Yuan Dynasty (China)",
-      "coordinates_approx": "35.86, 104.20",
+      "title": "Osman I founds the Ottoman Empire in Anatolia",
+      "region": "Anatolia (Ottoman Beylik)",
+      "coordinates_approx": "39.5, 29.0",
       "category": "political",
-      "description": "The Yuan Dynasty under Kublai Khan continued administrative consolidation and integration of Han Chinese bureaucratic traditions in 1286. The 1280s saw increasing Han Chinese influence in Yuan governance, with examination systems and Confucian scholarship gaining prominence. These reforms aimed to create a hybrid Mongol-Han Chinese administrative system.",
+      "description": "Osman I (Osman Bey), a Turkoman warrior and son of Ertu\u011frul, declared independence from the declining Seljuk Sultanate of Rum and founded the Ottoman Beylik (principality) in northwestern Anatolia. The exact date of this declaration is traditionally given as 1299, but some sources place early Ottoman consolidation in the 1280s. By 1286, Osman was establishing himself as a regional power, conducting raids against Byzantine territories and consolidating control over the S\u00f6\u011f\u00fct region. This marked the beginning of what would become the Ottoman Empire, one of history's longest-lasting imperial states.",
       "key_figures": [
-        "Kublai Khan (Yuan Emperor)"
+        "Osman I (founder of Ottoman Beylik)",
+        "Ertu\u011frul (father)"
       ],
       "sources": [
         {
-          "name": "Yuan Shi (Official Yuan Dynasty history, compiled 14th century)",
+          "name": "Ottoman chronicles (Tev\u00e2rih-i \u00c2l-i Osm\u00e2n), compiled 15th\u201316th centuries",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine sources (Pachymeres, Cantacuzenus)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ottoman founding is traditionally dated to 1299, but early consolidation likely occurred in the 1280s\u20131290s. Byzantine sources confirm Turkoman raids in this period. Exact dating is uncertain due to later Ottoman historiography's symbolic emphasis on 1299.",
+      "cross_references": [
+        "1299-001 (Traditional Ottoman founding date)"
+      ]
+    },
+    {
+      "id": "1286-004",
+      "title": "Mongol invasions of Japan (Koan campaign) repelled",
+      "region": "Japan (Kamakura Shogunate)",
+      "coordinates_approx": "35.7, 139.7",
+      "category": "military",
+      "description": "The second major Mongol invasion of Japan (the Koan campaign, 1281\u20131286) was repelled by Japanese forces under the Kamakura Shogunate. By 1286, the immediate threat had passed, though Mongol raids continued sporadically. The invasions, led by Kublai Khan's Yuan Dynasty, failed due to Japanese naval defenses, typhoons (attributed to divine intervention in Japanese tradition), and the resilience of the samurai warrior class. The repulsion of the Mongols strengthened Japanese national identity and the authority of the Shogunate.",
+      "key_figures": [
+        "H\u014dj\u014d Tokimune (Kamakura regent)",
+        "Kublai Khan (Yuan emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Heike Monogatari (Tale of the Heike) and related Japanese chronicles",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Yuan Shi (History of the Yuan Dynasty)",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Administrative reforms were ongoing throughout the 1280s. Specific attribution to 1286 is approximate.",
+      "certainty": "confirmed",
+      "certainty_note": "The Mongol invasions of Japan are well-documented in both Japanese and Chinese sources. The Koan campaign dates to 1281\u20131286, with the final repulsion by 1286.",
       "cross_references": [
-        "Part of Yuan Dynasty consolidation (1271-1368)"
+        "1281-001 (Second Mongol invasion begins)"
+      ]
+    },
+    {
+      "id": "1286-005",
+      "title": "Scottish Wars of Independence: conflict between Scotland and England intensifies",
+      "region": "Scotland and Northern England",
+      "coordinates_approx": "56.0, -3.5",
+      "category": "military",
+      "description": "Following the death of Alexander III of Scotland in 1286, a succession crisis erupted that would lead to English intervention and the outbreak of the Scottish Wars of Independence. In 1286, the Scottish nobility faced the question of succession, with the young Margaret, Maid of Norway (Alexander III's granddaughter) as the heir. This power vacuum invited Edward I of England to assert claims over Scotland, setting the stage for decades of conflict that would define late medieval British history.",
+      "key_figures": [
+        "Alexander III (deceased King of Scotland)",
+        "Margaret, Maid of Norway (heir)",
+        "Edward I of England (claimant)"
+      ],
+      "sources": [
+        {
+          "name": "Chronicle of John of Fordun (Chronica Gentis Scotorum)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "English royal records and chronicles (Matthew of Westminster, etc.)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Alexander III's death in 1286 is well-documented. The succession crisis and its consequences are extensively recorded in Scottish and English chronicles.",
+      "cross_references": [
+        "1296-001 (Edward I invades Scotland)"
       ]
     }
   ],
-  "disconfirming_evidence": "The death of Alexander III in 1286 is sometimes portrayed as a sudden catastrophe that immediately triggered the Wars of Independence, but modern scholarship emphasizes that the succession crisis took several years to develop into open conflict. The Wars of Independence did not begin until 1296 with Edward I's invasion. Additionally, the traditional narrative emphasizes English aggression, but modern scholars note that Scottish nobles initially invited English mediation in the succession dispute.",
-  "historiographic_note": "Documentation for 1286 is moderate but regionally uneven. Scottish and English sources are relatively abundant for the succession crisis, though often written from partisan perspectives. Vietnamese sources are later compilations subject to nationalist embellishment. Chinese sources (Yuan Shi) are official court histories compiled centuries later. Sub-Saharan Africa, the Indian subcontinent, Northern Europe, and the Pacific are underrepresented or absent from surviving documentation. The historical record privileges military and political events over economic, social, or cultural developments.",
+  "disconfirming_evidence": "The traditional date of Ottoman founding (1299) is sometimes pushed back to the 1280s by modern scholarship, but the exact year of Osman I's declaration of independence remains disputed. Some sources suggest the Ottoman Beylik emerged gradually rather than through a single founding event. The Mongol invasions of Japan are sometimes romanticized in Japanese tradition as divinely ordained (the 'kamikaze' or divine wind), but modern scholarship emphasizes Japanese military competence and naval tactics as primary factors in repulsion.",
+  "historiographic_note": "Documentation for 1286 is moderate to good for East Asia (Yuan China, Japan) and the Islamic world (Mamluk Sultanate), with strong European sources for Scotland and the Mediterranean. However, sources are heavily skewed toward elite political and military history; economic, social, and cultural developments are underrepresented. Ottoman sources are problematic, being compiled centuries after events and shaped by later imperial ideology. Sub-Saharan African and Southeast Asian histories are severely underrepresented in available sources.",
   "graph_edges": [
     {
-      "from": "1286-002",
-      "to": "1296-Edward_I_invasion_Scotland",
+      "from": "1286-001",
+      "to": "1294-001",
       "relation": "led_to",
-      "note": "Alexander III's death triggered succession crisis that led to Edward I's intervention"
+      "note": "Kublai Khan's death led to succession dispute resolved by Tem\u00fcr Khan's enthronement"
     },
     {
-      "from": "1286-001",
-      "to": "1287-Vietnamese_victory",
+      "from": "1286-002",
+      "to": "1291-001",
       "relation": "led_to",
-      "note": "Continued Mongol invasion campaign in Vietnam"
+      "note": "Qalawun's preparations in 1286 culminated in the fall of Acre in 1291"
+    },
+    {
+      "from": "1286-003",
+      "to": "1299-001",
+      "relation": "led_to",
+      "note": "Early Ottoman consolidation in 1280s led to formal founding declaration in 1299"
+    },
+    {
+      "from": "1286-004",
+      "to": "1281-001",
+      "relation": "part_of",
+      "note": "Final phase of the Koan campaign (1281\u20131286)"
+    },
+    {
+      "from": "1286-005",
+      "to": "1296-001",
+      "relation": "led_to",
+      "note": "Scottish succession crisis of 1286 led to Edward I's invasion in 1296"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T15:55:17.729644",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

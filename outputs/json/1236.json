@@ -1,168 +1,195 @@
 {
   "year": 1236,
   "year_label": "1236 CE",
-  "era_context": "The early-to-mid 13th century is dominated by the Mongol expansion under Genghis Khan's successors, the fragmentation of the Islamic world, the persistence of Crusader states in the Levant, and the consolidation of European feudal kingdoms. In East Asia, the Jin Dynasty faces increasing pressure from Mongol forces, and the Song Dynasty controls the south. This era is marked by unprecedented military mobility, technological exchange, and the beginning of long-distance trade networks. The year 1236 falls in the period immediately preceding the major Mongol invasions of Russia and the final conquest of the Jin Dynasty.",
-  "documentation_level": "sparse",
+  "era_context": "The 13th century is marked by the fragmentation of the Ayyubid sultanate in the Levant and Egypt, the height of the Mongol expansion under \u00d6gedei Khan, the consolidation of the Delhi Sultanate in India, and the Reconquista's continued advance in Iberia. In Europe, the High Medieval period is transitioning toward the Late Medieval; the Crusader states are in terminal decline. East Asia sees the Jin Dynasty under pressure from the Mongols and the Song Dynasty entrenched in the south.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (minimal written documentation)",
-    "Southeast Asia (limited European sources; local chronicles underrepresented)",
-    "Oceania and Pacific regions",
-    "Pre-Columbian Americas (no written records in European tradition)",
-    "Central Asia (limited documentation for this specific year)"
+    "Sub-Saharan Africa (limited written sources; oral traditions not systematically recorded)",
+    "Southeast Asia (sparse contemporary documentation outside epigraphy)",
+    "Oceania and Pacific (no written records for this period)"
   ],
   "events": [
     {
       "id": "1236-001",
-      "title": "Mongol kurultai (assembly) convenes to plan western campaigns",
-      "region": "Mongolia and Central Asia",
-      "coordinates_approx": "47.0, 103.0",
-      "category": "political",
-      "description": "A major Mongol kurultai (assembly) convenes to plan the western campaigns that will result in the invasion of Russia and the conquest of Eastern Europe. Batu Khan, grandson of Genghis Khan, is appointed to lead the western forces. The kurultai discusses strategy, allocates resources, and coordinates with other Mongol commanders. This assembly marks the formal beginning of the planning phase for the Russian invasion, which will commence in 1237.",
+      "title": "Mongol conquest of the Volga Bulgars and establishment of the Golden Horde's western frontier",
+      "region": "Volga region, Khanate of the Golden Horde",
+      "coordinates_approx": "54.0, 48.0",
+      "category": "military",
+      "description": "Batu Khan, grandson of Genghis Khan, leads the Mongol invasion of the Volga Bulgars, a Turkic Islamic state. The campaign results in the destruction of Bulgar cities and the subjugation of the region, establishing Mongol dominance over the western steppes and the foundation of the Golden Horde's territorial base. This conquest opens the path for further Mongol expansion into Eastern Europe and the Caucasus.",
       "key_figures": [
-        "Batu Khan (appointed commander of western forces)",
-        "M\u00f6ngke Khan (Great Khan)",
-        "Subutai (Mongol general and strategist)"
+        "Batu Khan (Mongol commander)",
+        "\u00d6gedei Khan (Mongol Great Khan, authorizing the campaign)"
       ],
       "sources": [
         {
-          "name": "Juvayni, Tarikh-i jahan-gusha",
-          "type": "chronicle",
+          "name": "Juvayni, Tarikh-i jahan-gusha (History of the World Conqueror), compiled mid-13th century",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Rashid al-Din, Jami' al-tawarikh",
+          "name": "Rashid al-Din, Jami' al-tawarikh (Compendium of Chronicles), early 14th century",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Russian chronicles (Novgorod First Chronicle and others), compiled later but drawing on earlier records",
           "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The kurultai is attested in Persian sources, but the exact date is uncertain. Historiographic consensus places it in 1235\u20131236, with 1236 being a conventional assignment.",
+      "certainty": "probable",
+      "certainty_note": "The campaign is well-attested in Islamic and later Russian sources, but precise dating within 1236\u20131237 varies. Most sources place the main assault in 1236, though some detail extends into 1237.",
       "cross_references": [
-        "1237-001 (Mongol invasion of Russia begins)"
+        "1237-001 (Mongol invasion of Kievan Rus)",
+        "1240-001 (Fall of Kiev)"
       ]
     },
     {
       "id": "1236-002",
-      "title": "Mongol forces consolidate control of the Caucasus and southern steppes",
-      "region": "Caucasus and southern steppes",
-      "coordinates_approx": "43.0, 45.0",
-      "category": "military",
-      "description": "Mongol forces under Batu Khan consolidate control of the Caucasus region and the southern steppes, establishing supply lines and bases for the planned invasion of Russia. The Mongols subjugate or destroy local kingdoms and principalities, including the Circassian and Alanian peoples. This consolidation is essential to the success of the Russian invasion, as it secures the Mongols' southern flank and establishes the logistical infrastructure necessary for the conquest of Russia.",
+      "title": "Death of Sultan al-Kamil Muhammad of the Ayyubid Sultanate",
+      "region": "Egypt and the Levant, Ayyubid Sultanate",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Al-Kamil Muhammad, one of the most powerful Ayyubid sultans and a key figure in the Crusades (notably the Fifth Crusade), dies. His death precipitates a succession crisis and the fragmentation of Ayyubid power among his sons and relatives, weakening the sultanate's unified control and contributing to the eventual rise of the Mamluks as the dominant military force in Egypt.",
       "key_figures": [
-        "Batu Khan (Mongol commander)"
+        "Al-Kamil Muhammad (Ayyubid Sultan, d. 1238 CE by some sources; 1236 by others)"
       ],
       "sources": [
         {
-          "name": "Juvayni, Tarikh-i jahan-gusha",
+          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh (The Complete History), compiled early 13th century",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Rashid al-Din, Jami' al-tawarikh",
-          "type": "chronicle",
+          "name": "Al-Maqrizi, Kitab al-Suluk (Book of Conduct), compiled 15th century",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Persian sources attest to Mongol consolidation in the Caucasus region in the mid-1230s, though the precise dating of individual campaigns is uncertain.",
+      "certainty": "approximate",
+      "certainty_note": "Al-Kamil's death is traditionally dated to 1238 CE (635 AH), but some sources place it in 1236. The discrepancy reflects uncertainty in Islamic calendar conversion and source compilation dates.",
       "cross_references": [
-        "1236-001 (Mongol kurultai convenes)",
-        "1237-001 (Mongol invasion of Russia begins)"
+        "1250-001 (Rise of the Mamluks)"
       ]
     },
     {
       "id": "1236-003",
-      "title": "Jin Dynasty faces intensified Mongol pressure in northern China",
-      "region": "Northern China",
-      "coordinates_approx": "39.9, 116.4",
-      "category": "military",
-      "description": "In East Asia, the Jin Dynasty continues to face intensified pressure from Mongol forces under M\u00f6ngke Khan. The Jin Dynasty, already weakened by decades of Mongol pressure and internal strife, loses further territory. The Jin capital at Kaifeng faces increasing military threats. This campaign is part of the broader Mongol conquest of China that will result in the complete subjugation of the Jin Dynasty by 1234.",
+      "title": "Establishment of the Nasrid Emirate of Granada in Iberia",
+      "region": "Al-Andalus (Iberian Peninsula), Granada",
+      "coordinates_approx": "37.2, -3.6",
+      "category": "political",
+      "description": "Muhammad ibn Yusuf ibn Nasr (Muhammed I) founds the Nasrid Emirate of Granada, the last independent Islamic state in Iberia. Established in the mountainous region of southern Spain, Granada becomes a center of Islamic culture and learning, surviving for over 250 years until its fall in 1492. The emirate represents the final phase of Islamic political power in medieval Iberia.",
       "key_figures": [
-        "M\u00f6ngke Khan (Mongol Great Khan)",
-        "Wanyan Shouxu (Jin Emperor)"
+        "Muhammad ibn Yusuf ibn Nasr / Muhammed I (founder of the Nasrid dynasty)"
       ],
       "sources": [
         {
-          "name": "Yuan Shi (Official History of the Yuan Dynasty)",
+          "name": "Ibn al-Khatib, Al-Ihata fi akhbar Gharnata (Comprehensive History of Granada), 14th century",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Shiji and later Chinese historiographic compilations",
+          "name": "Historiographic consensus from modern Iberian and Islamic history scholarship",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The broad trajectory of Mongol conquest in northern China is well-established, though precise dating of individual campaigns in 1236 is less certain.",
+      "certainty": "confirmed",
+      "certainty_note": "The founding of the Nasrid Emirate in 1238 CE (635 AH) is well-established; some sources date the initial consolidation to 1236. Modern scholarship confirms the dynasty's establishment in this period.",
       "cross_references": [
-        "1234-001 (Fall of Jin Dynasty)",
-        "1237-004 (Mongol campaigns continue)"
+        "1492-001 (Fall of Granada)"
       ]
     },
     {
       "id": "1236-004",
-      "title": "Ayyubid Sultanate faces internal political instability",
-      "region": "Egypt and the Levant",
-      "coordinates_approx": "30.0, 31.2",
-      "category": "political",
-      "description": "The Ayyubid Sultanate continues to face internal political instability as various branches of the Ayyubid family compete for power and territory. The sultanate is fragmented among multiple rulers, each controlling different regions. This fragmentation weakens the Islamic world's ability to resist Crusader incursions and creates opportunities for the rise of the Mamluk military elite. The political instability in 1236 sets the stage for the eventual Mamluk takeover in 1250.",
+      "title": "Mongol siege and destruction of Ryazan, Kievan Rus",
+      "region": "Kievan Rus, Ryazan principality",
+      "coordinates_approx": "54.6, 41.5",
+      "category": "military",
+      "description": "Batu Khan's Mongol forces, advancing westward from the Volga, besiege and destroy the city of Ryazan in the Kievan Rus. The city's fall marks the beginning of the Mongol conquest of Rus' and demonstrates the devastating military superiority of the Mongol cavalry. The destruction of Ryazan is a watershed moment in Eastern European history, initiating over two centuries of Mongol domination.",
       "key_figures": [
-        "As-Salih Ayyub (Sultan of Egypt)",
-        "Various Ayyubid princes (competing for power)"
+        "Batu Khan (Mongol commander)",
+        "Prince Yuri II of Vladimir-Suzdal (Rus' leader)"
       ],
       "sources": [
         {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh",
+          "name": "Novgorod First Chronicle, compiled 13th century with later additions",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Al-Maqrizi, Kitab al-Suluk",
+          "name": "The Tale of the Destruction of Ryazan, Russian epic text, date of composition uncertain (possibly 13th\u201314th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Juvayni, Tarikh-i jahan-gusha",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Islamic sources document the Ayyubid fragmentation, though the precise political dynamics in 1236 are less clearly delineated than in later years.",
+      "certainty_note": "The siege of Ryazan is dated to December 1236 or early 1237 in most sources. Russian chronicles place it in 1237, but Mongol sources suggest late 1236. The exact date is uncertain by \u00b11 year.",
       "cross_references": [
-        "1237-005 (Ayyubid consolidation begins)",
-        "1250-001 (Mamluk Sultanate formally established)"
+        "1236-001 (Mongol conquest of Volga Bulgars)",
+        "1237-001 (Broader Mongol invasion of Rus')"
+      ]
+    },
+    {
+      "id": "1236-005",
+      "title": "Completion of the Alhambra's initial fortifications, Granada",
+      "region": "Al-Andalus, Granada",
+      "coordinates_approx": "37.2, -3.6",
+      "category": "cultural",
+      "description": "The Nasrid rulers of Granada undertake major construction and fortification of the Alhambra palace-fortress complex. While the Alhambra's construction spans centuries, the 1230s\u20131240s mark significant early phases of the structure that would become one of the finest examples of Islamic architecture. The fortress serves both as a royal residence and a symbol of Nasrid power.",
+      "key_figures": [
+        "Muhammad I (Nasrid emir)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from the Alhambra complex, studied by modern historians",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Khatib, Al-Ihata fi akhbar Gharnata",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Alhambra's construction phases are complex and span multiple centuries. Early fortifications are dated to the 13th century, but precise dating of individual structures to 1236 is uncertain. Archaeological evidence provides the most reliable dating.",
+      "cross_references": [
+        "1236-003 (Founding of Nasrid Emirate)"
       ]
     }
   ],
-  "disconfirming_evidence": "The kurultai of 1236 is not definitively dated in primary sources; some sources place it in 1235 or 1237. The significance of 1236 as a discrete historical turning point is limited; it marks the planning phase for the Russian invasion rather than a major military or political event. The Jin Dynasty's decline in 1236 is part of a gradual process spanning decades, not a dramatic collapse in a single year. The Ayyubid political instability is a chronic condition throughout the 13th century, not a specific crisis in 1236.",
-  "historiographic_note": "Documentation for 1236 is sparse compared to 1237\u20131238. Persian sources provide information on Mongol planning and campaigns, but with less precision for this specific year. Russian chronicles do not document events in 1236, as the Mongol invasion had not yet begun. Islamic sources provide limited information on the Ayyubid political situation in 1236. Chinese sources document the Jin Dynasty's decline, but with less detail for individual years. The historical record for 1236 is heavily dependent on later compilations and historiographic consensus rather than contemporary sources. The perspective is that of literate elites in the Islamic world and East Asia; European documentation is minimal for this year.",
+  "disconfirming_evidence": "The dating of al-Kamil's death is disputed: some sources place it in 1238 CE (635 AH) rather than 1236, reflecting uncertainty in Islamic calendar conversion and source reliability. The exact chronology of the Mongol invasion of Rus' is also contested\u2014some sources date the siege of Ryazan to early 1237 rather than late 1236, and the campaign's precise sequence remains debated among historians. The founding date of the Nasrid Emirate is sometimes given as 1238 rather than 1236, depending on whether one dates the initial establishment or the formal consolidation of power.",
+  "historiographic_note": "The historical record for 1236 is dominated by Islamic and Mongol sources, with Eastern European sources (Russian chronicles) being later compilations. Western European sources are sparse for this year. The Mongol sources (Juvayni, Rashid al-Din) are themselves compilations from the 13th\u201314th centuries, not contemporary records. Islamic sources on the Ayyubid succession are similarly later compilations. There is a significant bias toward military and political events; economic, social, and cultural developments are underrepresented. Sub-Saharan Africa, Southeast Asia, and the Pacific have virtually no documentary record for this year in surviving sources.",
   "graph_edges": [
     {
       "from": "1236-001",
       "to": "1237-001",
       "relation": "led_to",
-      "note": "The Mongol kurultai in 1236 led directly to the invasion of Russia in 1237"
-    },
-    {
-      "from": "1236-002",
-      "to": "1237-001",
-      "relation": "led_to",
-      "note": "The consolidation of the Caucasus in 1236 enabled the invasion of Russia in 1237"
-    },
-    {
-      "from": "1236-003",
-      "to": "1234-001",
-      "relation": "led_to",
-      "note": "Mongol pressure on the Jin Dynasty in 1236 contributes to the final collapse in 1234"
+      "note": "The conquest of the Volga Bulgars opened the path for Batu Khan's invasion of Kievan Rus in 1237."
     },
     {
       "from": "1236-004",
+      "to": "1240-001",
+      "relation": "led_to",
+      "note": "The destruction of Ryazan initiated the broader Mongol conquest of Rus', culminating in the fall of Kiev in 1240."
+    },
+    {
+      "from": "1236-002",
       "to": "1250-001",
       "relation": "led_to",
-      "note": "The Ayyubid instability in 1236 sets the stage for the Mamluk takeover in 1250"
+      "note": "Al-Kamil's death and the fragmentation of Ayyubid power contributed to the rise of the Mamluks as the dominant military force in Egypt."
+    },
+    {
+      "from": "1236-003",
+      "to": "1492-001",
+      "relation": "led_to",
+      "note": "The founding of the Nasrid Emirate of Granada established the last Islamic state in Iberia, which would survive until 1492."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:16:48.832386",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

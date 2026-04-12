@@ -1,28 +1,25 @@
 {
   "year": 1251,
   "year_label": "1251 CE",
-  "era_context": "The mid-13th century was marked by the height of Mongol expansion under M\u00f6ngke Khan, the consolidation of Mamluk power in Egypt, the decline of the Ayyubid Sultanate, the continued development of Gothic architecture and scholasticism in Western Europe, and the Song Dynasty's struggle against Mongol pressure in China. The Crusader states in the Levant were in terminal decline.",
+  "era_context": "The mid-13th century saw the fragmentation of the Mongol Empire into regional khanates following M\u00f6ngke Khan's reign (1251\u20131259). In Europe, the Crusader states were in terminal decline after the fall of Acre (1291 was still decades away, but the trajectory was clear). The Song Dynasty in southern China faced increasing Mongol pressure. The Mamluk Sultanate dominated the eastern Mediterranean and Levant. This was an era of religious ferment: the Inquisition was active in southern France, and mendicant orders (Franciscans, Dominicans) were expanding their influence across Christendom.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Southeast Asia",
-    "Oceania",
-    "Central Asia (limited written sources)"
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Southeast Asia (sparse European documentation; local chronicles less accessible)",
+    "Oceania (no written records)"
   ],
   "events": [
     {
       "id": "1251-001",
-      "title": "M\u00f6ngke Khan elected Great Khan; Mongol Empire reorganized",
-      "region": "Mongolia / Mongol Empire",
+      "title": "M\u00f6ngke Khan elected Great Khan of the Mongol Empire",
+      "region": "Mongolia; Mongol Empire",
       "coordinates_approx": "47.9, 106.9",
       "category": "political",
-      "description": "M\u00f6ngke Khan, son of Tolui and grandson of Genghis Khan, was elected Great Khan (Khagan) at a kurultai (assembly) in Karakorum. This election followed the death of G\u00fcy\u00fck Khan in 1248 and a period of regency under Oghul Qaimish. M\u00f6ngke's election marked a significant shift in Mongol politics, as power passed from the line of \u00d6gedei to the line of Tolui. M\u00f6ngke immediately began reorganizing the Mongol Empire's administration and appointed his brothers Kublai and Hulagu to lead major military campaigns. His reign marked the beginning of the end for Mongol unity, as the empire began to fragment into semi-autonomous khanates.",
+      "description": "M\u00f6ngke Khan (M\u00f6ngke Qa\u03b3an), brother of Kublai Khan, was elected as the fourth Great Khan of the Mongol Empire at a kurultai (assembly) held in Mongolia. His election marked a consolidation of power within the Tolui line of Genghis Khan's descendants and initiated a period of administrative reform and religious tolerance. M\u00f6ngke's reign (1251\u20131259) saw the continuation of Mongol expansion into China and the Levant, and he appointed his brothers Kublai and H\u00fcleg\u00fc to lead major campaigns. His election was contested by some branches of the Mongol nobility but ultimately secured.",
       "key_figures": [
         "M\u00f6ngke Khan (elected Great Khan)",
-        "G\u00fcy\u00fck Khan (predecessor, died 1248)",
-        "Oghul Qaimish (regent, G\u00fcy\u00fck's widow)",
-        "Kublai Khan (brother, appointed to lead campaign against Song)",
-        "Hulagu Khan (brother, appointed to lead campaign against Abbasid Caliphate)"
+        "Kublai Khan (brother, later successor)",
+        "H\u00fcleg\u00fc Khan (brother, founder of Ilkhanate)"
       ],
       "sources": [
         {
@@ -42,92 +39,88 @@
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "M\u00f6ngke Khan's election in 1251 is well-attested in multiple sources, including Mongol, Islamic, and Chinese chronicles.",
+      "certainty_note": "The election of M\u00f6ngke Khan in 1251 is well-attested in multiple Mongol and Islamic sources, though the exact date (some sources place it in 1251, others suggest late 1250) has minor variation. The kurultai location and attendees are documented in later compilations.",
       "cross_references": [
-        "1248-001 (G\u00fcy\u00fck Khan's death)",
-        "1254-001 (Kublai Khan's rise to prominence)",
-        "1256-001 (Hulagu's conquest of Alamut)"
+        "1259-001 (M\u00f6ngke's death and succession crisis)",
+        "1256-001 (H\u00fcleg\u00fc's campaign in Persia)"
       ]
     },
     {
       "id": "1251-002",
-      "title": "Seventh Crusade: Louis IX of France returns from the Holy Land",
-      "region": "Levant and Mediterranean",
-      "coordinates_approx": "32.9267, 35.0673",
-      "category": "military",
-      "description": "King Louis IX of France, having led the Seventh Crusade (1248\u20131254), was still engaged in military operations in the Levant in 1251. The crusade had captured Damietta in Egypt in 1249 but suffered a major defeat at the Battle of Fariskur in 1250. By 1251, Louis had regrouped and was consolidating Crusader positions in Acre and other Levantine strongholds. The crusade ultimately failed to achieve its objectives of conquering Egypt or recovering Jerusalem, and Louis would eventually return to France in 1254.",
+      "title": "Pastoureaux uprising in France",
+      "region": "France (Languedoc, Aquitaine, \u00cele-de-France)",
+      "coordinates_approx": "46.5, 2.0",
+      "category": "religious",
+      "description": "A popular religious movement known as the Pastoureaux (Shepherds) erupted in France, initially led by a charismatic figure claiming divine inspiration. The movement attracted thousands of peasants and lower clergy, who marched toward the Holy Land with the stated goal of recovering Jerusalem through prayer and moral reform rather than military force. The movement quickly turned violent, targeting Jews and clergy perceived as corrupt. The uprising was suppressed by royal and ecclesiastical authorities within months, but it reflected deep popular discontent with the failures of the Crusades and the Church's perceived corruption.",
       "key_figures": [
-        "Louis IX of France (Crusade leader)",
-        "Ayyubid and Mamluk forces (opposing forces)",
-        "Crusader military orders (Templars, Hospitallers)"
+        "An unnamed shepherd or visionary (leader, identity disputed)",
+        "King Louis IX of France (suppressor)"
       ],
       "sources": [
         {
-          "name": "Jean de Joinville, Life of Saint Louis",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Crusader chronicles and correspondence",
+          "name": "Chronicle of Jean de Joinville",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Islamic chronicles (Ibn al-Athir, al-Maqrizi)",
+          "name": "Grandes Chroniques de France",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Matthew Paris, Chronica Majora",
           "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Louis IX's participation in the Seventh Crusade and his presence in the Levant in 1251 are well-documented in contemporary sources.",
+      "certainty_note": "The Pastoureaux uprising of 1251 is well-documented in contemporary and near-contemporary chronicles. The exact date (spring/summer 1251) is secure, though details of the leadership and precise scale vary between sources.",
       "cross_references": [
-        "1248-001 (Seventh Crusade begins)",
-        "1249-001 (Capture of Damietta)",
-        "1250-001 (Battle of Fariskur; Crusade defeat)",
-        "1254-001 (Louis IX returns to France)"
+        "1320-001 (Later Pastoureaux uprising, similar movement)"
       ]
     },
     {
       "id": "1251-003",
-      "title": "Mamluk Sultanate consolidates power in Egypt",
-      "region": "Egypt",
-      "coordinates_approx": "30.0, 31.0",
-      "category": "political",
-      "description": "The Mamluk Sultanate, which had seized power in Egypt in 1250 following the death of the last Ayyubid sultan, continued to consolidate its control in 1251. The Mamluks, a military caste of slave-soldiers, established a new political order that would dominate Egypt and the Levant for over two centuries. By 1251, the Mamluk sultans had secured their authority over Egypt and were beginning to organize the sultanate's administration and military structure. The Mamluks' victory over the Seventh Crusade at Fariskur in 1250 had strengthened their position.",
+      "title": "H\u00fcleg\u00fc Khan begins preparations for campaign against the Assassins and Persia",
+      "region": "Mongol Empire; Persia; Levant",
+      "coordinates_approx": "35.0, 51.0",
+      "category": "military",
+      "description": "Following his election, M\u00f6ngke Khan appointed his brother H\u00fcleg\u00fc to lead a major military campaign against the Nizari Ismaili Assassins (Hashashiyun) and to consolidate Mongol control over Persia and the Levant. H\u00fcleg\u00fc began assembling a vast army and organizing logistics for what would become the Ilkhanate. The campaign would culminate in the siege of Alamut (1256) and the destruction of the Assassin strongholds. This appointment marked the formal establishment of the Ilkhanate as a distinct Mongol khanate.",
       "key_figures": [
-        "Aybak (first Mamluk sultan, ruled 1250\u20131257)",
-        "Shajar al-Durr (regent, widow of the last Ayyubid sultan)"
+        "H\u00fcleg\u00fc Khan (appointed commander)",
+        "M\u00f6ngke Khan (appointer)",
+        "Nasir al-Din al-Tusi (Persian scholar, later advisor to H\u00fcleg\u00fc)"
       ],
       "sources": [
         {
-          "name": "Islamic chronicles (Ibn al-Athir, al-Maqrizi)",
-          "type": "chronicle",
+          "name": "Jami' al-tawarikh by Rashid al-Din",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Mamluk administrative records",
-          "type": "primary_text",
+          "name": "Ilkhanid administrative records (fragmentary)",
+          "type": "epigraphic",
           "contemporary": true
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The Mamluk consolidation of power in Egypt is well-documented in Islamic sources.",
+      "certainty": "probable",
+      "certainty_note": "The appointment of H\u00fcleg\u00fc and the beginning of campaign preparations in 1251 are attested in Islamic and Mongol sources, though the exact timing of the appointment relative to M\u00f6ngke's election is sometimes conflated in sources. The campaign itself is well-documented from 1256 onward.",
       "cross_references": [
-        "1250-001 (Mamluk seizure of power)",
-        "1260-001 (Battle of Ain Jalut; Mamluk victory over Mongols)"
+        "1256-001 (Siege of Alamut)",
+        "1258-001 (Sack of Baghdad)"
       ]
     },
     {
       "id": "1251-004",
-      "title": "Song Dynasty under pressure from Mongol expansion",
-      "region": "China (Song Dynasty territory)",
-      "coordinates_approx": "30.0, 115.0",
-      "category": "military",
-      "description": "The Song Dynasty in southern China faced increasing military pressure from Mongol forces under M\u00f6ngke Khan's leadership. By 1251, M\u00f6ngke had appointed his brother Kublai to lead a major campaign against the Song, which would begin in earnest in 1253. The Song Dynasty, which had ruled China for nearly three centuries, was in terminal decline, facing both external Mongol pressure and internal administrative challenges.",
+      "title": "Kublai Khan appointed to govern Mongol territories in China",
+      "region": "Mongolia; China",
+      "coordinates_approx": "39.0, 116.0",
+      "category": "political",
+      "description": "M\u00f6ngke Khan appointed his brother Kublai to oversee Mongol-held territories in northern China and to prepare for the conquest of the Song Dynasty in the south. Kublai began establishing administrative structures and gathering resources for the long campaign that would eventually result in the fall of the Song and the establishment of the Yuan Dynasty. This appointment set Kublai on the path to becoming one of history's most powerful rulers.",
       "key_figures": [
-        "M\u00f6ngke Khan (Mongol Great Khan)",
-        "Kublai Khan (Mongol commander)",
-        "Song Emperor (various, including Lizong)"
+        "Kublai Khan (appointed governor)",
+        "M\u00f6ngke Khan (appointer)",
+        "Batu Khan (cousin, ruler of the Golden Horde)"
       ],
       "sources": [
         {
@@ -136,74 +129,39 @@
           "contemporary": false
         },
         {
-          "name": "Song Shi (Official History of the Song Dynasty)",
-          "type": "chronicle",
+          "name": "Jami' al-tawarikh by Rashid al-Din",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Song Dynasty's military pressure from Mongol forces is well-documented in both Yuan and Song official histories.",
+      "certainty_note": "Kublai's appointment to govern Chinese territories is well-attested in Yuan and Islamic sources. The date of 1251 is consistent with the timing of M\u00f6ngke's election and the reorganization of the empire.",
       "cross_references": [
-        "1253-001 (Kublai Khan begins campaign against Song)",
-        "1279-001 (Fall of the Song Dynasty)"
-      ]
-    },
-    {
-      "id": "1251-005",
-      "title": "Acre remains principal Crusader stronghold in the Levant",
-      "region": "Levant (Acre, modern-day Israel)",
-      "coordinates_approx": "32.9267, 35.0673",
-      "category": "political",
-      "description": "Acre continued to serve as the principal Crusader stronghold in the Levant in 1251, despite the failure of the Seventh Crusade and increasing pressure from Mamluk Egypt. The city was a major trading hub and the capital of the Crusader Kingdom of Acre. However, the Crusader presence was increasingly precarious, facing both external military threats and internal factional conflicts among Crusader nobles and military orders.",
-      "key_figures": [
-        "King Henry of Lusignan (King of Cyprus and titular King of Jerusalem)",
-        "Crusader military orders (Templars, Hospitallers, Teutonic Knights)"
-      ],
-      "sources": [
-        {
-          "name": "Crusader chronicles and correspondence",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Archaeological evidence from Acre",
-          "type": "archaeological",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Acre's status as the principal Crusader stronghold in 1251 is well-documented in contemporary Crusader and Islamic sources.",
-      "cross_references": [
-        "1291-001 (Fall of Acre)"
+        "1271-001 (Kublai Khan proclaimed emperor of Yuan Dynasty)",
+        "1279-001 (Fall of Song Dynasty)"
       ]
     }
   ],
-  "disconfirming_evidence": "The characterization of M\u00f6ngke Khan's election as marking 'the beginning of the end for Mongol unity' is somewhat anachronistic; the fragmentation of the Mongol Empire was a gradual process that became apparent only after M\u00f6ngke's death in 1259. The Seventh Crusade's status in 1251 is sometimes characterized as more successful than it actually was; contemporary sources indicate significant military setbacks and logistical challenges.",
-  "historiographic_note": "The historical record for 1251 is moderately rich in Western Europe, the Islamic world, and East Asia. Mongol sources are available but often compiled later. Crusader sources from the Levant are abundant but reflect the perspective of a declining colonial enterprise. Chinese sources on the Song Dynasty are extensive but may reflect Yuan-era bias. African, Southeast Asian, and Oceanic sources remain sparse.",
+  "disconfirming_evidence": "The Pastoureaux uprising is sometimes dated to 1251 or 1320; modern scholarship (particularly Cohn and Nirenberg) has questioned whether the 1251 uprising was as large or as violent as later chronicles suggest, noting that accounts may have been conflated with the 1320 uprising or exaggerated for rhetorical effect. The identity and role of the movement's leader(s) remain obscure. Additionally, some sources suggest the Pastoureaux were not primarily anti-Jewish but anti-clerical, though anti-Jewish violence is attested in some accounts.",
+  "historiographic_note": "The year 1251 is well-documented for Mongol political history, drawing on both Islamic and East Asian sources. European sources (particularly French chronicles) provide good coverage of the Pastoureaux uprising. However, the record is heavily weighted toward elite political and military events; the experiences of ordinary people, economic conditions, and developments in regions outside the Mongol Empire and Western Europe are underrepresented. Sub-Saharan African, Southeast Asian, and Oceanic history for this year is essentially absent from surviving written sources.",
   "graph_edges": [
     {
       "from": "1251-001",
-      "to": "1254-001",
+      "to": "1251-003",
       "relation": "led_to",
-      "note": "M\u00f6ngke's election in 1251 led to Kublai's rise to prominence in 1254."
+      "note": "M\u00f6ngke's election enabled the appointment of H\u00fcleg\u00fc to lead the Persian campaign"
+    },
+    {
+      "from": "1251-001",
+      "to": "1251-004",
+      "relation": "led_to",
+      "note": "M\u00f6ngke's election enabled the appointment of Kublai to govern Chinese territories"
     },
     {
       "from": "1251-002",
-      "to": "1254-001",
-      "relation": "contemporary_with",
-      "note": "Louis IX's Seventh Crusade was ongoing in 1251, the same period as Kublai's rise."
-    },
-    {
-      "from": "1251-004",
-      "to": "1279-001",
-      "relation": "led_to",
-      "note": "Mongol pressure on the Song Dynasty in 1251 led to the dynasty's fall in 1279."
+      "to": "1320-001",
+      "relation": "part_of",
+      "note": "The Pastoureaux movement recurred in 1320; both reflect popular religious ferment and Crusade fatigue"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:08:23.897361",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

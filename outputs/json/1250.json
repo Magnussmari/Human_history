@@ -1,167 +1,64 @@
 {
   "year": 1250,
   "year_label": "1250 CE",
-  "era_context": "The mid-13th century was marked by the height of Mongol expansion, the consolidation of Mamluk power in Egypt following the collapse of the Ayyubid Sultanate, the continued development of Gothic architecture and scholasticism in Western Europe, and the Song Dynasty's struggle against Mongol pressure in China. The Crusader states in the Levant were in terminal decline.",
-  "documentation_level": "rich",
+  "era_context": "The year 1250 marks a pivotal moment in the eastern Mediterranean and Middle East. The Seventh Crusade (1248\u20131254), led by King Louis IX of France, was in its second year, having captured Damietta in Egypt but facing mounting difficulties. The Mamluk Sultanate, newly consolidated under the Bahri Mamluks, was preparing to counter the Crusader invasion. In Asia, the Mongol Empire under M\u00f6ngke Khan's predecessor G\u00fcy\u00fck was in the final year of his reign, with succession disputes brewing. The Song Dynasty in southern China continued to resist Mongol pressure. This was a moment of transition and conflict across multiple theaters.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
-    "Southeast Asia",
+    "Southeast Asia (limited written sources)",
     "Oceania",
-    "Central Asia (limited written sources beyond Mongol records)"
+    "Eastern Europe and the Steppe (sparse documentation outside Mongol sources)"
   ],
   "events": [
     {
       "id": "1250-001",
-      "title": "Mamluk Sultanate seizes power in Egypt; Ayyubid Sultanate ends",
-      "region": "Egypt",
-      "coordinates_approx": "30.0, 31.0",
-      "category": "political",
-      "description": "Following the death of the last Ayyubid sultan, As-Salih Ayyub, in 1249, the Mamluk military caste seized power in Egypt in 1250. The Mamluks, slave-soldiers who had served the Ayyubid sultans, established a new political order that would dominate Egypt and the Levant for over two centuries. The first Mamluk sultan, Aybak, was proclaimed in 1250, with the widow of As-Salih Ayyub, Shajar al-Durr, serving as regent. This marked the end of the Ayyubid dynasty and the beginning of the Mamluk Sultanate, one of the most powerful Islamic states of the medieval period.",
+      "title": "Battle of Fariskur and capture of King Louis IX of France",
+      "region": "Egypt (Nile Delta)",
+      "coordinates_approx": "31.3, 31.3",
+      "category": "military",
+      "description": "The Seventh Crusade, led by King Louis IX of France, suffered a catastrophic defeat at the Battle of Fariskur (also called the Battle of al-Mansurah) in the Nile Delta. After initial successes, including the capture of Damietta, the Crusader army was trapped and decimated by Mamluk forces under the command of Emir Baibars and other Mamluk emirs. King Louis IX was captured along with much of his army. This defeat marked the effective end of the Seventh Crusade and demonstrated the military superiority of the Mamluk Sultanate. Louis was later ransomed for a large sum and the return of Damietta. The battle was a turning point in the struggle for control of the Levant and Egypt.",
       "key_figures": [
-        "Aybak (first Mamluk sultan)",
-        "Shajar al-Durr (regent, widow of As-Salih Ayyub)",
-        "As-Salih Ayyub (last Ayyubid sultan, died 1249)"
+        "King Louis IX of France (captured)",
+        "Emir Baibars (Mamluk commander)",
+        "Turanshah (Ayyubid sultan, nominal ruler)",
+        "Jean de Joinville (Crusader chronicler, captured)"
       ],
       "sources": [
         {
-          "name": "Ibn al-Athir, Complete History",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Al-Maqrizi, History of the Mamluks",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Mamluk administrative records and inscriptions",
+          "name": "Jean de Joinville, Life of Saint Louis (Vie de Saint Louis)",
           "type": "primary_text",
           "contemporary": true
+        },
+        {
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Mamluk administrative records and chronicles",
+          "type": "chronicle",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Mamluk seizure of power in 1250 is well-documented in multiple Islamic sources, including contemporary administrative records and later chronicles.",
+      "certainty_note": "The Battle of Fariskur and the capture of Louis IX in 1250 are among the best-documented events of the Crusades, attested in both Crusader and Islamic sources. The date (April 1250) is secure.",
       "cross_references": [
-        "1249-001 (Death of As-Salih Ayyub)",
-        "1260-001 (Battle of Ain Jalut; Mamluk victory over Mongols)"
+        "1248-001 (Seventh Crusade begins)",
+        "1254-001 (Louis IX ransomed and returns to France)"
       ]
     },
     {
       "id": "1250-002",
-      "title": "Battle of Fariskur: Seventh Crusade defeated by Mamluk forces",
-      "region": "Egypt (Nile Delta)",
-      "coordinates_approx": "31.2357, 31.4891",
-      "category": "military",
-      "description": "The Seventh Crusade, led by King Louis IX of France, suffered a major defeat at the Battle of Fariskur in the Nile Delta. The Crusaders, who had captured Damietta in 1249, were attempting to advance toward Cairo but were surrounded and defeated by Mamluk forces under the command of Baibars and other Mamluk emirs. King Louis IX was captured and held for ransom. This defeat marked the effective end of the Seventh Crusade and demonstrated the military superiority of the newly established Mamluk Sultanate.",
-      "key_figures": [
-        "Louis IX of France (Crusade leader, captured)",
-        "Baibars (Mamluk commander)",
-        "Turanshah (Ayyubid sultan, died during battle)",
-        "Crusader military orders (Templars, Hospitallers)"
-      ],
-      "sources": [
-        {
-          "name": "Jean de Joinville, Life of Saint Louis",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Crusader chronicles and correspondence",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Islamic chronicles (Ibn al-Athir, al-Maqrizi)",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Battle of Fariskur is well-documented in both Crusader and Islamic sources. The date 1250 is standard in historiography.",
-      "cross_references": [
-        "1248-001 (Seventh Crusade begins)",
-        "1249-001 (Capture of Damietta)",
-        "1254-001 (Louis IX returns to France)"
-      ]
-    },
-    {
-      "id": "1250-003",
-      "title": "Frederick II, Holy Roman Emperor, dies; succession disputed",
-      "region": "Holy Roman Empire (Germany and Italy)",
-      "coordinates_approx": "48.0, 10.0",
-      "category": "political",
-      "description": "Frederick II, Holy Roman Emperor and King of Sicily, died on December 13, 1250, in Castel Fiorentino in southern Italy. Frederick's death marked the end of the Hohenstaufen dynasty's dominance in the Holy Roman Empire and Italy. His son Conrad IV inherited the Kingdom of Sicily and claimed the imperial title, but his authority was contested by papal forces and rival claimants. Frederick's death initiated a period of political fragmentation in the Holy Roman Empire and Italy, with the papacy seeking to eliminate Hohenstaufen power.",
-      "key_figures": [
-        "Frederick II (Holy Roman Emperor, died 1250)",
-        "Conrad IV (Frederick's son, successor)",
-        "Pope Innocent IV (papal authority, opponent of Frederick)"
-      ],
-      "sources": [
-        {
-          "name": "Chronica Majora by Matthew Paris",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Papal registers and correspondence",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "German and Italian chronicles",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Frederick II's death on December 13, 1250, is well-documented in contemporary sources.",
-      "cross_references": [
-        "1254-001 (Manfred of Sicily consolidates power)",
-        "1266-001 (Battle of Benevento; Hohenstaufen defeat)"
-      ]
-    },
-    {
-      "id": "1250-004",
-      "title": "Seventh Crusade: Louis IX captured and ransomed",
-      "region": "Egypt",
-      "coordinates_approx": "30.0, 31.0",
-      "category": "military",
-      "description": "Following the Crusader defeat at Fariskur, King Louis IX of France was captured by Mamluk forces. He was held for ransom and eventually released in 1250 after the payment of a substantial sum. Louis's capture and ransom marked a humiliating moment for the Crusader cause and demonstrated the military and financial superiority of the Mamluk Sultanate. Despite his capture, Louis remained in the Levant for several more years, attempting to consolidate Crusader positions in Acre and other strongholds.",
-      "key_figures": [
-        "Louis IX of France (captured and ransomed)",
-        "Baibars (Mamluk commander)",
-        "Crusader military orders (Templars, Hospitallers)"
-      ],
-      "sources": [
-        {
-          "name": "Jean de Joinville, Life of Saint Louis",
-          "type": "chronicle",
-          "contemporary": true
-        },
-        {
-          "name": "Crusader chronicles and correspondence",
-          "type": "primary_text",
-          "contemporary": true
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Louis IX's capture and ransom are well-documented in contemporary Crusader sources.",
-      "cross_references": [
-        "1250-002 (Battle of Fariskur)",
-        "1254-001 (Louis IX returns to France)"
-      ]
-    },
-    {
-      "id": "1250-005",
-      "title": "G\u00fcy\u00fck Khan dies; Mongol succession crisis begins",
-      "region": "Mongolia / Mongol Empire",
+      "title": "Death of G\u00fcy\u00fck Khan; succession crisis in the Mongol Empire",
+      "region": "Mongolia; Mongol Empire",
       "coordinates_approx": "47.9, 106.9",
       "category": "political",
-      "description": "G\u00fcy\u00fck Khan, Great Khan of the Mongol Empire and son of \u00d6gedei Khan, died in 1248 (some sources give 1250). His death initiated a succession crisis that would be resolved with the election of M\u00f6ngke Khan in 1251. During the interregnum, Oghul Qaimish, G\u00fcy\u00fck's widow, served as regent. G\u00fcy\u00fck's death marked a turning point in Mongol politics, as power began to shift from the line of \u00d6gedei to the line of Tolui.",
+      "description": "G\u00fcy\u00fck Khan, the third Great Khan of the Mongol Empire (r. 1246\u20131248), died in 1248 or early 1250 (sources vary). His death precipitated a succession crisis, as his widow Oghul Qaimish attempted to maintain power as regent. However, the Tolui line (descendants of Genghis Khan's youngest son Tolui) challenged her authority. This crisis would be resolved in 1251 with the election of M\u00f6ngke Khan, a member of the Tolui line. The succession dispute weakened central Mongol authority and contributed to the increasing autonomy of the regional khanates (Golden Horde, Chagatai Khanate, Ilkhanate).",
       "key_figures": [
-        "G\u00fcy\u00fck Khan (Great Khan, died 1248 or 1250)",
-        "Oghul Qaimish (regent, G\u00fcy\u00fck's widow)",
-        "M\u00f6ngke Khan (successor, elected 1251)"
+        "G\u00fcy\u00fck Khan (deceased)",
+        "Oghul Qaimish (widow, regent)",
+        "M\u00f6ngke Khan (challenger, future Great Khan)",
+        "Batu Khan (Golden Horde, kingmaker)"
       ],
       "sources": [
         {
@@ -173,78 +70,114 @@
           "name": "Yuan Shi (Official History of the Yuan Dynasty)",
           "type": "chronicle",
           "contemporary": false
+        },
+        {
+          "name": "Secret History of the Mongols",
+          "type": "oral_tradition",
+          "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "G\u00fcy\u00fck Khan's death is variously dated to 1248 or 1250 in different sources. Modern scholarship increasingly favors 1248, but some sources give 1250.",
+      "certainty_note": "G\u00fcy\u00fck Khan's death is attested in multiple sources, but the exact date is disputed. Some sources place it in 1248, others in 1250. The succession crisis and Oghul Qaimish's regency are well-documented, but the precise timeline of events between G\u00fcy\u00fck's death and M\u00f6ngke's election in 1251 is unclear.",
       "cross_references": [
-        "1248-001 (G\u00fcy\u00fck Khan's death, alternative dating)",
-        "1251-001 (M\u00f6ngke Khan elected)"
+        "1251-001 (M\u00f6ngke Khan elected Great Khan)",
+        "1246-001 (G\u00fcy\u00fck Khan's election)"
       ]
     },
     {
-      "id": "1250-006",
-      "title": "Cologne Cathedral construction continues; Gothic architecture flourishes",
-      "region": "Germany (Cologne)",
-      "coordinates_approx": "50.9406, 6.9573",
-      "category": "cultural",
-      "description": "The construction of Cologne Cathedral, begun in 1248, continued in 1250 as a major project of Gothic architecture in the Holy Roman Empire. The cathedral's construction would span centuries, but by 1250, the choir and lower sections of the nave were under active construction. Cologne Cathedral represented the height of Gothic architectural achievement and was a symbol of the city's wealth and religious devotion.",
+      "id": "1250-003",
+      "title": "Assassination of Turanshah and rise of the Bahri Mamluks",
+      "region": "Egypt; Levant",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Turanshah, the last Ayyubid sultan of Egypt, was assassinated by Mamluk emirs, particularly Emir Baibars and his faction. Turanshah had attempted to reduce Mamluk power and favor his own slave soldiers, which provoked the Mamluks to eliminate him. His death marked the end of the Ayyubid Dynasty in Egypt and the beginning of Mamluk Sultanate rule. The Bahri Mamluks (so named because they were housed on the Nile island of Roda, or 'bahar' meaning river) consolidated power and would dominate Egypt and the Levant for the next two and a half centuries. This event was a direct consequence of the Crusader invasion and the military pressures it created.",
       "key_figures": [
-        "Archbishop Konrad von Hochstaden (patron)",
-        "Master builders and craftsmen (construction)"
+        "Turanshah (assassinated Ayyubid sultan)",
+        "Emir Baibars (Mamluk conspirator, future sultan)",
+        "Shajar al-Durr (widow of previous sultan, regent)"
       ],
       "sources": [
         {
-          "name": "Architectural and archaeological evidence from Cologne Cathedral",
-          "type": "archaeological",
+          "name": "Ibn al-Athir, Complete History",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Cathedral records and documents",
+          "name": "Mamluk chronicles and administrative records",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Jean de Joinville, Life of Saint Louis",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Cologne Cathedral's construction in 1250 is well-documented in architectural and archaeological evidence.",
+      "certainty_note": "Turanshah's assassination in 1250 is well-attested in both Islamic and Crusader sources. The date (May 1250) is secure. The event is a watershed in Middle Eastern history.",
       "cross_references": [
-        "1248-001 (Cologne Cathedral construction begins)",
-        "1880-001 (Cologne Cathedral completed)"
+        "1250-001 (Battle of Fariskur, context for Mamluk rise)",
+        "1260-001 (Battle of Ain Jalut, Baibars defeats Mongols)"
+      ]
+    },
+    {
+      "id": "1250-004",
+      "title": "Ransom negotiations for King Louis IX begin",
+      "region": "Egypt; Levant",
+      "coordinates_approx": "31.3, 31.3",
+      "category": "political",
+      "description": "Following his capture at Fariskur, King Louis IX of France was held for ransom by the Mamluk Sultanate. Negotiations began for his release, which would ultimately require the payment of 400,000 dinars and the return of the city of Damietta to Muslim control. The ransom was paid partly by the French crown and partly by the military orders (Templars and Hospitallers). Louis's captivity lasted several months, during which he was treated with relative courtesy befitting his royal status. The ransom and the return of Damietta represented a significant diplomatic and military victory for the Mamluks.",
+      "key_figures": [
+        "King Louis IX of France (captive)",
+        "Emir Baibars (Mamluk negotiator)",
+        "Queen Blanche of Castile (Louis's mother, regent of France)",
+        "The Templars and Hospitallers (ransom contributors)"
+      ],
+      "sources": [
+        {
+          "name": "Jean de Joinville, Life of Saint Louis",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Grandes Chroniques de France",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Mamluk administrative records",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The ransom negotiations and the terms of Louis's release are well-documented in contemporary Crusader sources and later Islamic chronicles. The date (summer/autumn 1250) is secure.",
+      "cross_references": [
+        "1250-001 (Battle of Fariskur and capture)",
+        "1254-001 (Louis IX ransomed and departs Egypt)"
       ]
     }
   ],
-  "disconfirming_evidence": "The date of G\u00fcy\u00fck Khan's death is disputed: some sources place it in 1248, others in 1250. Modern scholarship increasingly favors 1248. The characterization of the Mamluk seizure of power as a clear 'end' to the Ayyubid dynasty may be overstated; some Ayyubid princes continued to hold territory in Syria for several more years. The Battle of Fariskur is sometimes dated to August 1250, but some sources give slightly different dates. Frederick II's death is well-documented, but the succession dispute that followed was more complex than a simple transfer of power to Conrad IV.",
-  "historiographic_note": "The historical record for 1250 is rich in Western Europe, the Islamic world, and East Asia. Multiple contemporary sources document the Seventh Crusade, the Mamluk seizure of power, and Frederick II's death. Mongol sources are available but often compiled later. The sources for the Seventh Crusade are particularly abundant, reflecting the importance of the crusade in Western European historiography. Islamic sources on the Mamluk seizure of power are extensive and detailed. Chinese sources on the Song Dynasty are abundant. However, African, Southeast Asian, and Oceanic sources remain sparse.",
+  "disconfirming_evidence": "The exact date of G\u00fcy\u00fck Khan's death is disputed in sources; some place it in 1248, others in 1250. Modern scholarship (Reuven Amitai, Jean Richard) has questioned whether the Seventh Crusade was as poorly planned or as inevitably doomed as some accounts suggest, noting that the Crusaders' initial successes (capture of Damietta) were significant and that the campaign's failure resulted from specific tactical errors and logistical problems rather than inherent Crusader weakness. The role of Baibars in Turanshah's assassination is attested in later sources but not in contemporary accounts; some modern scholars suggest the assassination may have been more collective than traditionally portrayed.",
+  "historiographic_note": "The year 1250 is exceptionally well-documented for the eastern Mediterranean and Middle East, thanks to the Seventh Crusade and the detailed accounts left by participants like Jean de Joinville. Islamic sources (particularly Mamluk chronicles) provide complementary perspectives. However, the record is heavily weighted toward military and political events; economic, social, and cultural developments are underrepresented. The Mongol succession crisis is documented in later compilations but lacks contemporary sources. Sub-Saharan Africa, Southeast Asia, and Oceania are essentially absent from the historical record for this year.",
   "graph_edges": [
     {
       "from": "1250-001",
-      "to": "1260-001",
-      "relation": "led_to",
-      "note": "The Mamluk seizure of power in 1250 enabled their victory over the Mongols at Ain Jalut in 1260."
-    },
-    {
-      "from": "1250-002",
-      "to": "1250-001",
+      "to": "1250-003",
       "relation": "contemporary_with",
-      "note": "The Battle of Fariskur in 1250 occurred during the same period as the Mamluk seizure of power."
+      "note": "The Crusader invasion and the Mamluk response to it created the conditions for Turanshah's assassination"
     },
     {
       "from": "1250-003",
-      "to": "1266-001",
+      "to": "1250-004",
       "relation": "led_to",
-      "note": "Frederick II's death in 1250 led to the succession disputes that culminated in the Hohenstaufen defeat at Benevento in 1266."
+      "note": "The Mamluk consolidation of power enabled them to negotiate Louis's ransom from a position of strength"
     },
     {
-      "from": "1250-004",
-      "to": "1254-001",
+      "from": "1250-002",
+      "to": "1251-001",
       "relation": "led_to",
-      "note": "Louis IX's capture and ransom in 1250 led to his eventual return to France in 1254."
+      "note": "G\u00fcy\u00fck's death and the succession crisis led directly to M\u00f6ngke Khan's election in 1251"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:08:23.898247",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

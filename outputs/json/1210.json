@@ -1,196 +1,199 @@
 {
   "year": 1210,
   "year_label": "1210 CE",
-  "era_context": "The early 13th century was marked by the fragmentation of the Angevin Empire under King John of England, the consolidation of Capetian France under Philip II Augustus, the dominance of the Ayyubid sultanate in the Levant under al-Malik al-Adil, and the rise of Tem\u00fcjin in Mongolia. In Europe, the Albigensian Crusade had just begun (1209), and the political crisis in England was building. This was a period of religious reform, crusading zeal, political instability, and the emergence of new centralising powers.",
+  "era_context": "The early 13th century continued with the Ayyubid dynasty managing the post-Crusade Levant; the Jin dynasty ruled northern China while the Song held the south; the Qara Khitai were in terminal decline in Central Asia; and the nascent Mongol confederation was consolidating power on the steppe. In Europe, the Fourth Crusade's aftermath (1204) was still reshaping Mediterranean politics, and the Albigensian Crusade was underway in southern France.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa (minimal written records)",
-    "Southeast Asia (fragmentary sources)",
+    "Southeast Asia (sparse European documentation)",
     "Oceania (no written records)",
-    "Eastern Europe and the Balkans (limited documentation)"
+    "Americas (no written records accessible to Old World sources)"
   ],
   "events": [
     {
       "id": "1210-001",
-      "title": "Albigensian Crusade: Early Campaigns in Occitania",
-      "region": "Occitania (southern France)",
-      "coordinates_approx": "43.5, 2.0",
-      "category": "military",
-      "description": "The Albigensian Crusade, launched in 1209 against Cathar heretics in southern France, continued with campaigns in 1210. Crusader forces under papal legate Amaury of Montfort conducted operations in the Languedoc region, besieging and capturing several castles and towns. The crusade was marked by extreme violence and the systematic destruction of Cathar communities. The year 1210 was part of the crusade's early phase, which would continue intensively until the 1220s. The crusade resulted in the gradual integration of southern France into the French kingdom and the destruction of Occitan culture.",
+      "title": "Pope Innocent III's excommunication of King John of England",
+      "region": "England, Papal States",
+      "coordinates_approx": "52.0, -2.0",
+      "category": "religious",
+      "description": "Pope Innocent III placed England under interdict in 1208 and excommunicated King John in 1209\u20131210 over disputes regarding the Archbishop of Canterbury and papal authority. By 1210, the interdict was in full effect, suspending most religious services in England and creating severe political and social pressure on the king. This conflict would eventually contribute to the baronial revolt that led to Magna Carta in 1215. The dispute exemplified the high medieval struggle between secular and ecclesiastical authority.",
       "key_figures": [
-        "Amaury of Montfort (crusade leader)",
-        "Pope Innocent III (papal authority)",
-        "Raymond V of Toulouse (defender of Occitania)"
+        "Pope Innocent III (r. 1198\u20131216)",
+        "King John of England (r. 1199\u20131216)",
+        "Stephen Langton (Archbishop of Canterbury, appointed by Pope)"
       ],
       "sources": [
         {
-          "name": "Peter of Vaux-de-Cernay, Historia Albigensis (chronicle)",
+          "name": "Roger of Wendover, Flores Historiarum (contemporary chronicle)",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Song of the Albigensian Crusade (Chanson de la Croisade Albigeoise)",
+          "name": "Matthew Paris, Chronica Majora (later compilation, 13th century)",
           "type": "later_compilation",
           "contemporary": false
+        },
+        {
+          "name": "Papal registers and letters",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The continuation of the crusade in 1210 is attested in crusade chronicles, but specific events and dates for individual campaigns are sometimes conflated or uncertain.",
+      "certainty": "confirmed",
+      "certainty_note": "The interdict and excommunication are well-documented in contemporary English chronicles and papal records. The dates 1208\u20131210 are firmly established.",
       "cross_references": [
-        "1209-001 (Launch of the Albigensian Crusade)"
+        "Leads to Magna Carta (1215)",
+        "Part of broader conflict between Innocent III and European monarchs"
       ]
     },
     {
       "id": "1210-002",
-      "title": "King John of England's Welsh Campaign",
-      "region": "Wales and England",
-      "coordinates_approx": "52.5, -3.5",
+      "title": "Albigensian Crusade: Siege of Minerve",
+      "region": "Occitania, southern France",
+      "coordinates_approx": "43.3, 2.8",
       "category": "military",
-      "description": "In 1210, King John of England conducted a military campaign in Wales to reassert English authority over the Welsh princes. The campaign was partially successful, with John capturing several Welsh castles and forcing the Welsh princes to submit to English overlordship. However, the campaign was costly in terms of military resources and financial expenditure, and it contributed to the baronial discontent that would lead to the baronial revolt of 1215. The Welsh campaign demonstrated John's determination to maintain English dominance in the British Isles, but it also highlighted the financial strain of his military ambitions.",
+      "description": "The Albigensian Crusade (1209\u20131229), launched by Pope Innocent III against Cathar heretics in southern France, saw the siege and capture of Minerve in 1210. The crusaders, led by Simon de Montfort, massacred the Cathar population and consolidated control over the region. The siege of Minerve exemplified the brutal suppression of religious dissent and the use of crusading rhetoric to justify conquest and territorial expansion by northern French nobility.",
       "key_figures": [
-        "King John of England",
-        "Welsh princes (collective)",
-        "Llywelyn the Great (Prince of Gwynedd)"
+        "Simon de Montfort (Crusade leader)",
+        "Pope Innocent III (instigator)",
+        "Raymond V of Toulouse (local count, initially opposed)"
       ],
       "sources": [
         {
-          "name": "Roger of Wendover, Flores Historiarum (chronicle)",
+          "name": "Peter of Vaux-de-Cernay, Historia Albigensis (contemporary chronicle, written 1212\u20131218)",
           "type": "chronicle",
-          "contemporary": true
+          "contemporary": false
         },
         {
-          "name": "Matthew Paris, Chronica Majora (compiled mid-13th century)",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "William of Tudela, Song of the Albigensian Crusade (contemporary poem)",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Welsh campaign of 1210 is well-documented in English chronicles. The date and general outcome are secure.",
+      "certainty_note": "The siege of Minerve in 1210 is well-attested in contemporary and near-contemporary sources. The date and scale of the massacre are documented.",
       "cross_references": [
-        "1215-001 (Magna Carta, consequence of baronial discontent)"
+        "Part of Albigensian Crusade (1209\u20131229)",
+        "Precedes further crusader advances in Occitania"
       ]
     },
     {
       "id": "1210-003",
-      "title": "Tem\u00fcjin's Consolidation of Mongol Power",
-      "region": "Mongolia",
-      "coordinates_approx": "49.5, 114.0",
-      "category": "political",
-      "description": "Tem\u00fcjin continued his consolidation of Mongol tribes and the elimination of rival leaders. In 1210, he was approaching the height of his power, having defeated the Tatars, Kereit, and other tribes. His confederation was becoming increasingly unified and militarised. The process would culminate in his proclamation as Genghis Khan in 1206 (note: the dating of this proclamation is debated; some sources place it in 1206, others suggest it occurred later). By 1210, Tem\u00fcjin was the dominant figure on the Mongol steppe, and his confederation was preparing for expansion beyond Mongolia.",
+      "title": "Al-Adil I's military campaigns consolidate Ayyubid control in Mesopotamia",
+      "region": "Mesopotamia, Levant",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Al-Adil I continued his consolidation of Ayyubid power, conducting campaigns in Mesopotamia to secure control over key fortresses and trade routes. By 1210, he had effectively neutralized internal dynastic rivals and established firm Ayyubid dominance from Egypt through the Levant to parts of Mesopotamia. These campaigns ensured the stability of the Ayyubid state and prevented fragmentation during the succession period following Saladin's death.",
       "key_figures": [
-        "Tem\u00fcjin (future Genghis Khan)",
-        "Jamukha (rival confederation leader)",
-        "Toghrul Khan (Kereit ally)"
+        "Al-Adil I (Ayyubid Sultan, r. 1200\u20131218)",
+        "Al-Kamil (his son, future Sultan)"
       ],
       "sources": [
         {
-          "name": "Secret History of the Mongols (compiled 13th century, oral tradition basis)",
-          "type": "oral_tradition",
-          "contemporary": false
-        },
-        {
-          "name": "Rashid al-Din, Jami' al-tawarikh (early 14th century)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The exact chronology of Tem\u00fcjin's consolidation is uncertain. The Secret History provides the primary account, but it was compiled decades after the events. Dating to 1210 is approximate; the actual events may have occurred \u00b12\u20133 years from this date.",
-      "cross_references": [
-        "1206-001 (Tem\u00fcjin's proclamation as Genghis Khan)"
-      ]
-    },
-    {
-      "id": "1210-004",
-      "title": "Ayyubid Consolidation Under Al-Malik Al-Adil",
-      "region": "Levant and Egypt",
-      "coordinates_approx": "30.0, 31.0",
-      "category": "political",
-      "description": "Al-Malik al-Adil continued to consolidate Ayyubid power in Egypt and the Levant. In 1210, the Ayyubid sultanate was at the height of its territorial extent and military power. Al-Adil was an effective administrator and military leader who maintained the stability of the sultanate and defended it against Crusader incursions. The period was one of relative peace and consolidation, with the Ayyubids preparing for future conflicts with the Crusaders. Al-Adil's reign (1200\u20131218) was marked by effective governance and the maintenance of Ayyubid dominance in the eastern Mediterranean.",
-      "key_figures": [
-        "Al-Malik al-Adil (Ayyubid sultan)",
-        "Al-Malik al-Kamil (his son, future successor)"
-      ],
-      "sources": [
-        {
-          "name": "Ibn al-Athir, al-Kamil fi al-Ta'rikh (chronicle)",
+          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh (contemporary chronicle)",
           "type": "chronicle",
           "contemporary": true
         },
         {
-          "name": "Historiographic consensus on Ayyubid history",
+          "name": "Historiographic consensus on Ayyubid military campaigns",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The general state of Ayyubid consolidation in 1210 is well-attested, but no specific major event is recorded for this year. The characterisation is based on the broader context of al-Adil's reign.",
+      "certainty_note": "Al-Adil's reign and general military activities are well-documented, but specific campaigns in 1210 are less precisely dated in surviving sources.",
       "cross_references": [
-        "1200-001 (Al-Adil's accession to power)"
+        "Follows Saladin's death (1193)",
+        "Part of broader Ayyubid consolidation (1200\u20131218)"
+      ]
+    },
+    {
+      "id": "1210-004",
+      "title": "Jin dynasty under Emperor Wanyan Xun faces internal instability",
+      "region": "Northern China, Jurchen territories",
+      "coordinates_approx": "40.0, 116.0",
+      "category": "political",
+      "description": "Emperor Wanyan Xun (r. 1208\u20131213) faced internal administrative challenges and factional disputes within the Jin court. By 1210, the Jin dynasty was experiencing bureaucratic strain and military pressure from both the Song to the south and the emerging Mongol confederation to the north. These internal weaknesses would contribute to the Jin's vulnerability when Genghis Khan launched his invasion in 1205\u20131206 (with major campaigns beginning around 1211\u20131215).",
+      "key_figures": [
+        "Emperor Wanyan Xun (Jin, r. 1208\u20131213)",
+        "Jin court officials and generals"
+      ],
+      "sources": [
+        {
+          "name": "Jurchen Jin Shih (official Jin dynasty history, compiled later)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Song Shi (Song dynasty official history)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Jin internal instability in this period is attested in later dynastic histories, but specific events in 1210 are not precisely dated. The broader context of Jin decline is well-established.",
+      "cross_references": [
+        "Precedes Mongol invasion of Jin (1211\u20131234)",
+        "Contemporary with Song-Jin frontier tensions"
       ]
     },
     {
       "id": "1210-005",
-      "title": "Papal Authority and Ecclesiastical Reform",
-      "region": "Papal States (Rome)",
-      "coordinates_approx": "41.9, 12.5",
-      "category": "religious",
-      "description": "Pope Innocent III continued to exercise unprecedented papal authority in 1210, intervening in the affairs of European kingdoms and promoting ecclesiastical reform. In 1210, Innocent III was consolidating his power and preparing for the Fourth Lateran Council (1215), which would define Catholic orthodoxy and intensify heresy persecution. The papal authority was exercised through the threat of excommunication, interdict, and crusade. The year 1210 was part of Innocent III's most active period of papal intervention in secular affairs, which would continue until his death in 1216.",
+      "title": "Genghis Khan consolidates Mongol confederation and prepares campaigns against Jin",
+      "region": "Mongol Steppe, Central Asia",
+      "coordinates_approx": "49.0, 105.0",
+      "category": "political",
+      "description": "By 1210, Genghis Khan (Tem\u00fcjin) had firmly consolidated his control over the unified Mongol tribes and was organizing military campaigns against the Jin dynasty. The Mongol confederation, formed in 1206, was now a cohesive military force with sophisticated organizational structures. Genghis Khan's campaigns against the Jin would begin in earnest around 1211\u20131215, fundamentally altering the political landscape of Asia.",
       "key_figures": [
-        "Pope Innocent III",
-        "European monarchs (collective)"
+        "Tem\u00fcjin / Genghis Khan (Mongol leader, r. 1206\u20131227)",
+        "Mongol generals and tribal leaders"
       ],
       "sources": [
         {
-          "name": "Papal registers and diplomatic correspondence",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "The Secret History of the Mongols (Mongolian oral tradition, compiled 13th century)",
+          "type": "oral_tradition",
+          "contemporary": false
         },
         {
-          "name": "Historiographic consensus on Innocent III's papacy",
-          "type": "historiographic_consensus",
+          "name": "Rashid al-Din, Jami' al-tawarikh (14th-century Persian chronicle)",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The general state of papal authority in 1210 is well-attested, but no specific major event is recorded for this year. The characterisation is based on the broader context of Innocent III's reign.",
+      "certainty_note": "Genghis Khan's consolidation of the Mongol confederation by 1206 is well-attested. His preparations for campaigns against the Jin in 1210 are inferred from the timing of major campaigns beginning around 1211\u20131215.",
       "cross_references": [
-        "1215-002 (Fourth Lateran Council)"
+        "Follows Mongol unification (1206)",
+        "Precedes Mongol invasion of Jin (1211\u20131234)"
       ]
     }
   ],
-  "disconfirming_evidence": "The significance of King John's Welsh campaign in 1210 has been somewhat revised by modern scholarship. While traditionally portrayed as a successful assertion of English authority, some historians argue that the campaign's long-term consequences were limited and that Welsh resistance continued. The campaign's role in contributing to baronial discontent may be overstated; the major sources of baronial discontent were John's loss of Normandy (1202\u20131204) and his conflicts with the Church. The Albigensian Crusade sources are heavily biased toward the crusaders' perspective, and the characterisation of the crusade as a religious crusade is contested by some scholars. The Mongol consolidation campaigns are difficult to date precisely, and the exact chronology remains uncertain.",
-  "historiographic_note": "The year 1210 is moderately well-documented for Western Europe, with good chronicle sources for England and France. Islamic sources provide coverage of the Ayyubid sphere. Mongol history relies on later compilations and oral traditions, introducing significant dating uncertainty. The surviving sources are heavily weighted toward political and military events; economic, social, and cultural developments are underrepresented. The sources are biased toward the perspectives of the powerful and marginalise the experiences of common people, heretics, and conquered populations. The Albigensian Crusade sources are particularly biased toward the crusaders' perspective; Cathar and Occitan sources are largely absent.",
+  "disconfirming_evidence": "The dating of King John's excommunication is sometimes given as 1209 rather than 1210; modern scholarship generally places the formal excommunication in 1209 with the interdict in full effect by 1210. The Siege of Minerve is well-documented, but some sources dispute the exact casualty figures and the extent of the massacre. The Jin dynasty's internal instability in 1210 is inferred from broader patterns of decline rather than specific documented events in that year.",
+  "historiographic_note": "Documentation for 1210 is moderate but geographically uneven. European sources (English chronicles, Crusade narratives) are relatively abundant. Islamic sources provide good coverage of Ayyubid activities. Chinese sources (Jin and Song records) are available but often compiled centuries later. Central Asian and Mongol sources are primarily oral traditions recorded much later. The surviving sources reflect the biases of literate elites and likely underrepresent non-elite activities, trade, and cultural developments. Sub-Saharan Africa, Southeast Asia, and the Americas are absent from surviving written records.",
   "graph_edges": [
     {
       "from": "1210-001",
-      "to": "1209-001",
-      "relation": "part_of",
-      "note": "Continuation of the Albigensian Crusade"
+      "to": "1215-MAGNA_CARTA",
+      "relation": "led_to",
+      "note": "Papal pressure and interdict contributed to baronial revolt and Magna Carta"
     },
     {
       "from": "1210-002",
-      "to": "1215-001",
-      "relation": "led_to",
-      "note": "John's military campaigns contributed to baronial discontent and Magna Carta"
+      "to": "1229-ALBIGENSIAN_CRUSADE_END",
+      "relation": "part_of",
+      "note": "Siege of Minerve was part of broader Albigensian Crusade"
     },
     {
-      "from": "1210-003",
-      "to": "1206-001",
-      "relation": "part_of",
-      "note": "Tem\u00fcjin's consolidation campaigns"
+      "from": "1210-004",
+      "to": "1211-JIN_MONGOL_CONFLICT",
+      "relation": "precedes",
+      "note": "Jin internal instability preceded Mongol invasion"
     },
     {
       "from": "1210-005",
-      "to": "1215-002",
+      "to": "1211-MONGOL_JIN_INVASION",
       "relation": "led_to",
-      "note": "Innocent III's papal authority led to the Fourth Lateran Council"
+      "note": "Genghis Khan's consolidation led to invasion of Jin"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:25:07.956897",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

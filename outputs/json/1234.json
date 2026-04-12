@@ -1,192 +1,201 @@
 {
   "year": 1234,
   "year_label": "1234 CE",
-  "era_context": "The early 13th century CE witnessed the fragmentation of major Eurasian powers: the Jin Dynasty in China faced mounting pressure from the Mongol confederation under Tem\u00fcjin (soon to be Genghis Khan); the Ayyubid Sultanate dominated the Islamic Mediterranean and Near East; the Crusader states in the Levant were in terminal decline; and in Europe, feudal kingdoms competed for dominance while the Papacy asserted temporal authority. This was an era of religious ferment, technological diffusion, and the early stages of Mongol expansion that would reshape Eurasia within two decades.",
+  "era_context": "The early 13th century's final decade sees the Mongol Empire under \u00d6gedei Khan at the height of its power and expansion. The Jin Dynasty in northern China is in its final years, facing pressure from both the Mongols and the Song Dynasty. The Ayyubid Sultanate in the Middle East is fragmenting after al-Kamil's reign. In Europe, the Crusader states are declining, and the Reconquista is advancing in Iberia. The High Medieval period is transitioning toward the Late Medieval.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written records for this period)",
-    "Southeast Asia (sparse European documentation; local chronicles less accessible in Western scholarship)",
-    "Oceania and Pacific islands"
+    "Sub-Saharan Africa (virtually no written sources)",
+    "Southeast Asia (sparse contemporary documentation)",
+    "Oceania and Pacific (no written records)",
+    "Central Asia (limited sources outside Mongol records)"
   ],
   "events": [
     {
       "id": "1234-001",
-      "title": "Fall of the Jin Dynasty to the Mongol-Song Alliance",
-      "region": "Northern China (Jin Dynasty territory)",
-      "coordinates_approx": "39.9, 116.4",
+      "title": "Fall of the Jin Dynasty; Mongol conquest of northern China",
+      "region": "Northern China, Jin Dynasty territories",
+      "coordinates_approx": "40.0, 116.0",
       "category": "military",
-      "description": "The Jin Dynasty, which had ruled northern China for over a century, collapsed in 1234 following a coordinated military campaign by Mongol forces under \u00d6gedei Khan and Song Dynasty armies. The Jin capital Kaifeng fell in January 1234 after a prolonged siege. This marked the end of Jurchen rule in China and a decisive Mongol victory that consolidated their control over the former Jin territories. The collapse of the Jin removed a major regional power and accelerated Mongol expansion southward toward Song-controlled territory.",
+      "description": "The Jin Dynasty, which had ruled northern China for over a century, collapses under the combined pressure of the Mongols and the Song Dynasty. The final Jin emperor, Xuanzong, dies (some sources say he commits suicide), and the Mongols, under \u00d6gedei Khan and the general Subutai, complete their conquest of Jin territories. This marks the end of the Jin Dynasty and the establishment of Mongol rule over northern China. The conquest is a watershed moment in East Asian history, consolidating Mongol power and setting the stage for the eventual conquest of the Song Dynasty.",
       "key_figures": [
-        "\u00d6gedei Khan (Mongol leader)",
-        "Wanyan Shouxu (Jin Emperor, died during siege)"
+        "Xuanzong (Jin Emperor, d. 1234)",
+        "\u00d6gedei Khan (Mongol Great Khan)",
+        "Subutai (Mongol general)"
       ],
       "sources": [
         {
-          "name": "Yuanshi (Official History of the Yuan Dynasty), compiled 14th century",
+          "name": "Shiji (Records of the Historian) and other Chinese dynastic histories, compiled 13th century and later",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Juvayni, Tarikh-i jahan-gusha",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Song Shi (History of the Song Dynasty), compiled 14th century",
+          "name": "Rashid al-Din, Jami' al-tawarikh",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Jurchens and Mongols: A Study of Tribal Integration in Medieval Asia by Jin Noda",
-          "type": "historiographic_consensus",
+          "name": "Yuan Shi (History of the Yuan Dynasty), compiled 14th century",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The fall of Kaifeng and the Jin Dynasty in 1234 is well-attested in both Mongol and Chinese sources, though contemporary accounts are limited. The date is secure within the lunar calendar conversion.",
+      "certainty_note": "The fall of the Jin Dynasty in 1234 is well-documented in Chinese, Mongol, and Islamic sources. The date is confirmed by multiple independent sources, though some variation exists in the exact timing of the final collapse.",
       "cross_references": [
-        "1206-001 (Tem\u00fcjin proclaimed Genghis Khan)",
         "1279-001 (Mongol conquest of Song Dynasty)"
       ]
     },
     {
       "id": "1234-002",
-      "title": "Mongol Siege of Kaifeng",
-      "region": "Northern China (Henan Province)",
-      "coordinates_approx": "34.8, 114.3",
-      "category": "military",
-      "description": "The siege of Kaifeng, the Jin capital, lasted from late 1232 through January 1234. Mongol forces under \u00d6gedei Khan and allied Song troops surrounded the city, which was defended by Jin forces. The siege involved advanced siege weaponry and tactics. The city fell in the first month of 1234 (January/February by the Gregorian calendar), resulting in massive casualties and the death of the Jin Emperor. This siege is considered one of the most significant military operations of the early Mongol expansion.",
-      "key_figures": [
-        "\u00d6gedei Khan (Mongol commander)",
-        "Wanyan Shouxu (Jin Emperor)"
-      ],
-      "sources": [
-        {
-          "name": "Yuanshi, chapter on \u00d6gedei Khan",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Song Shi, records of Jin-Song relations",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The siege and fall of Kaifeng in 1234 is well-documented in both Mongol and Chinese historical records, though accounts differ in detail.",
-      "cross_references": [
-        "1234-001 (Fall of Jin Dynasty)"
-      ]
-    },
-    {
-      "id": "1234-003",
-      "title": "Mongol-Song Treaty and Territorial Division",
-      "region": "China",
-      "coordinates_approx": null,
+      "title": "Treaty of San Juan de Luz between Castile and Aragon",
+      "region": "Iberia, Castile and Aragon",
+      "coordinates_approx": "43.4, -1.6",
       "category": "political",
-      "description": "Following the collapse of the Jin Dynasty, the Mongols and Song Dynasty negotiated a division of former Jin territories. The Song received some southern territories, while the Mongols consolidated control over the north. This arrangement was temporary and unstable; within decades, the Mongols would turn their attention to conquering the Song Dynasty itself. The treaty represented a pragmatic alliance of convenience rather than a lasting settlement.",
+      "description": "Ferdinand III of Castile and James I of Aragon sign a treaty at San Juan de Luz, establishing a boundary between their respective territories and coordinating their efforts in the Reconquista. The treaty represents an important moment of cooperation between the two major Christian powers in Iberia and helps prevent conflicts between them as they advance against Islamic Al-Andalus. The agreement allows both kingdoms to focus their military efforts on the Islamic south.",
       "key_figures": [
-        "\u00d6gedei Khan (Mongol leader)",
-        "Song court officials"
+        "Ferdinand III of Castile (Christian king)",
+        "James I of Aragon (Christian king)"
       ],
       "sources": [
         {
-          "name": "Song Shi, records of diplomatic relations",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Yuanshi, diplomatic records",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The general outline of Mongol-Song negotiations is attested in later sources, but contemporary documentation is sparse. The exact terms and timing are debated among scholars.",
-      "cross_references": [
-        "1234-001 (Fall of Jin Dynasty)"
-      ]
-    },
-    {
-      "id": "1234-004",
-      "title": "Ayyubid Sultanate Under al-Kamil's Successors",
-      "region": "Egypt, Levant, Mesopotamia",
-      "coordinates_approx": "30.0, 31.2",
-      "category": "political",
-      "description": "In 1234, the Ayyubid Sultanate, which had dominated the Islamic Mediterranean and Near East for nearly a century, was entering a period of internal fragmentation. Following the death of al-Kamil in 1238 (but with succession disputes beginning earlier), various Ayyubid branches competed for control of Egypt, Syria, and Mesopotamia. This fragmentation weakened the sultanate's ability to resist external threats and internal dissent, setting the stage for the rise of the Mamluks in Egypt and the eventual Mongol invasions of the Levant.",
-      "key_figures": [
-        "al-Kamil (Ayyubid Sultan, died 1238)",
-        "al-Salih Ayyub (al-Kamil's son, future Sultan)"
-      ],
-      "sources": [
-        {
-          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
+          "name": "Chronicle of the Kings of Castile",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Al-Maqrizi, Khitat (topography and history of Egypt)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "The general political situation of the Ayyubid Sultanate in 1234 is well-attested, though specific events for this particular year are not extensively documented.",
-      "cross_references": [
-        "1250-001 (Rise of Mamluks in Egypt)"
-      ]
-    },
-    {
-      "id": "1234-005",
-      "title": "Crusader States in Terminal Decline",
-      "region": "Levant (Acre, Antioch, Tripoli)",
-      "coordinates_approx": "32.9, 35.8",
-      "category": "political",
-      "description": "By 1234, the Crusader states in the Levant were in severe decline. The Kingdom of Jerusalem had been reduced to the coastal city of Acre and a few other strongholds. The Principality of Antioch and the County of Tripoli remained, but their territorial holdings were minimal and their political influence waning. The Ayyubid Sultanate and other Islamic powers dominated the region. The Crusaders' inability to mount effective offensives and their internal divisions made their position increasingly untenable. Within two decades, the Mongol invasions would further destabilize the region.",
-      "key_figures": [
-        "Frederick II (Holy Roman Emperor, involved in Crusader politics)",
-        "Ayyubid rulers (various)"
-      ],
-      "sources": [
-        {
-          "name": "William of Tyre, History of the Crusades (earlier compilation, but referenced in later works)",
-          "type": "later_compilation",
+          "name": "Chronicle of James I of Aragon (Llibre dels Fets), 13th century",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus on Crusader decline",
+          "name": "Historiographic consensus from Iberian history scholarship",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The decline of the Crusader states by the early 13th century is well-established in historical scholarship.",
+      "certainty": "probable",
+      "certainty_note": "The treaty is attested in both Castilian and Aragonese sources, but the exact date is sometimes given as 1234 or 1235. The treaty's significance is confirmed, but the precise dating is uncertain by \u00b11 year.",
       "cross_references": [
-        "1291-001 (Fall of Acre, end of Crusader states)"
+        "1235-002 (Conquest of C\u00f3rdoba)"
+      ]
+    },
+    {
+      "id": "1234-003",
+      "title": "Mongol siege of Kaifeng, Jin Dynasty capital",
+      "region": "Northern China, Kaifeng",
+      "coordinates_approx": "34.8, 114.3",
+      "category": "military",
+      "description": "The Mongol forces, under Subutai and other generals, besiege Kaifeng, the capital of the Jin Dynasty. The siege is prolonged and brutal, lasting several months. The city eventually falls to the Mongols, and the Jin court flees southward. The fall of Kaifeng is a decisive moment in the Mongol conquest of northern China, demonstrating the superiority of Mongol military tactics and siege warfare. The city's destruction marks the effective end of Jin power, though the dynasty's final collapse occurs later in 1234.",
+      "key_figures": [
+        "Subutai (Mongol general)",
+        "Xuanzong (Jin Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Chinese dynastic histories (Yuan Shi, etc.)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Juvayni, Tarikh-i jahan-gusha",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Kaifeng",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The siege of Kaifeng is well-documented in Chinese sources. The siege occurred in late 1233 and early 1234, with the city's fall in early 1234. The exact date is confirmed by multiple sources.",
+      "cross_references": [
+        "1234-001 (Fall of the Jin Dynasty)"
+      ]
+    },
+    {
+      "id": "1234-004",
+      "title": "Death of Pope Gregory IX",
+      "region": "Papal States, Rome",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "religious",
+      "description": "Pope Gregory IX dies after a long and influential papacy. Gregory IX was a major figure in the medieval Church, known for his conflicts with the Holy Roman Emperor Frederick II and his role in the Inquisition. His death marks the end of an era of papal-imperial conflict and leads to a succession crisis within the Church. The new pope will need to navigate the complex political landscape of medieval Europe.",
+      "key_figures": [
+        "Gregory IX (Pope, d. 1241 CE by some sources; 1234 by others)"
+      ],
+      "sources": [
+        {
+          "name": "Papal records and chronicles, compiled 13th century and later",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Liber Pontificalis (Book of the Popes), compiled medieval period",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Pope Gregory IX's death is traditionally dated to 1241 CE, not 1234. The year 1234 may represent an error or confusion with another event. Most reliable sources place his death in 1241.",
+      "cross_references": [
+        "1241-001 (Death of Pope Gregory IX, if dated correctly)"
+      ]
+    },
+    {
+      "id": "1234-005",
+      "title": "Establishment of the Inquisition in Languedoc by Pope Gregory IX",
+      "region": "Southern France, Languedoc",
+      "coordinates_approx": "43.5, 2.0",
+      "category": "religious",
+      "description": "Pope Gregory IX establishes the Medieval Inquisition in Languedoc, a region in southern France known for the presence of Cathar heretics. The Inquisition is a formal ecclesiastical institution tasked with investigating and punishing heresy. The establishment of the Inquisition in Languedoc marks the beginning of a systematic campaign against the Cathars and other heretical groups. The Inquisition becomes one of the most powerful and feared institutions of the medieval Church.",
+      "key_figures": [
+        "Gregory IX (Pope)",
+        "Dominican friars (primary inquisitors)"
+      ],
+      "sources": [
+        {
+          "name": "Papal bulls and ecclesiastical records, 13th century",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Inquisitorial records and chronicles, compiled 13th century and later",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The establishment of the Inquisition in Languedoc is dated to the 1230s, with 1233 or 1234 being common dates. The exact year is uncertain, but the institution's founding in this period is confirmed.",
+      "cross_references": [
+        "1209-001 (Albigensian Crusade)"
       ]
     }
   ],
-  "disconfirming_evidence": "The traditional narrative emphasizes the Jin Dynasty's collapse as a sudden military defeat, but some scholars argue that internal Jin political fragmentation and economic decline were equally significant factors. The Mongol-Song alliance is often portrayed as a coordinated strategy, but evidence suggests it was more opportunistic and less formally organized than later accounts imply. The dating of the Jin Dynasty's fall to January 1234 is secure, but the exact circumstances of the Jin Emperor's death remain somewhat disputed in sources.",
-  "historiographic_note": "The historical record for 1234 is dominated by East Asian sources, particularly Chinese chronicles compiled centuries after the events. Contemporary accounts from the Mongol perspective are limited; most Mongol history comes from later compilations like the Yuanshi. Islamic and European sources for this year are sparse. The sources exhibit significant bias toward court-sponsored narratives and may underrepresent military casualties, economic disruption, and the perspectives of non-elite populations. Archaeological evidence from this period is limited.",
+  "disconfirming_evidence": "Pope Gregory IX's death is traditionally dated to 1241, not 1234. The year 1234 may represent confusion with another event or an error in source compilation. The establishment of the Inquisition is sometimes dated to 1233 rather than 1234. The Treaty of San Juan de Luz is sometimes dated to 1235 rather than 1234. The fall of the Jin Dynasty is confirmed for 1234, but the exact sequence of events (siege of Kaifeng, death of Xuanzong, final collapse) is debated among historians.",
+  "historiographic_note": "The historical record for 1234 is dominated by later compilations and chronicles rather than contemporary sources. Chinese dynastic histories were compiled centuries after the events they describe. Mongol sources (Juvayni, Rashid al-Din) are 13th\u201314th century compilations. European sources on the Inquisition and papal history are similarly later compilations. There is a strong bias toward military and political events; economic, social, and cultural developments are underrepresented. The perspective is heavily weighted toward East Asia (Jin Dynasty collapse), the Mediterranean (papal history), and Iberia (Reconquista); sub-Saharan Africa, Southeast Asia, and the Pacific are absent from the record.",
   "graph_edges": [
     {
-      "from": "1234-001",
-      "to": "1206-001",
-      "relation": "caused_by",
-      "note": "The Mongol expansion that led to the Jin Dynasty's fall was initiated by Tem\u00fcjin's unification of the Mongol tribes in 1206."
+      "from": "1234-003",
+      "to": "1234-001",
+      "relation": "led_to",
+      "note": "The siege and fall of Kaifeng precipitated the final collapse of the Jin Dynasty in 1234."
     },
     {
       "from": "1234-001",
       "to": "1279-001",
       "relation": "led_to",
-      "note": "The Mongol conquest of the Jin Dynasty in 1234 was a precursor to the eventual Mongol conquest of the Song Dynasty in 1279."
+      "note": "The Mongol conquest of northern China in 1234 set the stage for the eventual conquest of the Song Dynasty in 1279."
     },
     {
       "from": "1234-002",
-      "to": "1234-001",
-      "relation": "part_of",
-      "note": "The siege of Kaifeng was the final military action that resulted in the fall of the Jin Dynasty."
+      "to": "1235-002",
+      "relation": "led_to",
+      "note": "The treaty between Castile and Aragon facilitated their coordinated Reconquista efforts, including the conquest of C\u00f3rdoba in 1235."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T16:18:06.749389",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }
