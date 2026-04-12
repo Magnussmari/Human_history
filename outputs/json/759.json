@@ -1,0 +1,126 @@
+{
+  "year": 759,
+  "year_label": "759 CE",
+  "era_context": "The mid-8th century CE continues with the Abbasid Caliphate consolidating power following the 750 CE revolution, the Tang Dynasty managing the aftermath of the An Lushan Rebellion (755\u2013763 CE), and the Frankish Kingdom expanding under Pepin III. This is a period of significant political reorganization across Eurasia, with new dynasties and empires establishing administrative systems and military structures.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe beyond Frankish territories",
+    "Southeast Asia (limited contemporary documentation)",
+    "Americas (no written records; archaeological evidence sparse for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "759-001",
+      "title": "An Lushan Rebellion Continues in Tang China",
+      "region": "Tang China (Northern territories)",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "military",
+      "description": "The An Lushan Rebellion, which began in 755 CE, continues to devastate Tang territories. An Lushan himself died in 757 CE, but his son An Qingxu continues the rebellion with support from Uyghur allies. The Tang Dynasty, under Emperor Suzong (r. 756\u2013762 CE), struggles to suppress the rebellion and maintain control over northern China. This conflict causes massive civilian casualties, economic disruption, and territorial fragmentation.",
+      "key_figures": [
+        "Emperor Suzong of Tang",
+        "An Qingxu (son of An Lushan, rebel leader)",
+        "Guo Ziyi (Tang general)"
+      ],
+      "sources": [
+        {
+          "name": "New Book of Tang (Xin Tang Shu)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Old Book of Tang (Jiu Tang Shu)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The An Lushan Rebellion is extensively documented in Chinese chronicles. The continuation of the rebellion in 759 CE is well-attested, though specific military engagements may be undated.",
+      "cross_references": [
+        "755-001 (An Lushan Rebellion begins)",
+        "757-001 (An Lushan's death)",
+        "763-001 (Rebellion suppressed)"
+      ]
+    },
+    {
+      "id": "759-002",
+      "title": "Abbasid Caliphate Suppresses Umayyad Remnants",
+      "region": "Islamic Caliphate (Iraq, Persia, Levant)",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "The Abbasid Caliphate under al-Mansur continues to eliminate remaining Umayyad loyalists and consolidate central authority. This period sees the integration of Persian administrative practices and the strengthening of the Khorasan Guard. The Abbasid state is establishing itself as a more centralized, bureaucratic empire compared to the decentralized Umayyad system.",
+      "key_figures": [
+        "al-Mansur (Abbasid Caliph, r. 754\u2013775 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Tabari, History of the Prophets and Kings",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Al-Mas'udi, Meadows of Gold",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Abbasid consolidation is well-documented in later Islamic historiography, but specific events in 759 CE are often undated or conflated with broader trends of the 750s\u2013760s.",
+      "cross_references": [
+        "750-001 (Abbasid Revolution)",
+        "760-001 (Abbasid consolidation continues)"
+      ]
+    },
+    {
+      "id": "759-003",
+      "title": "Frankish Military Campaigns under Pepin III",
+      "region": "Frankish Kingdom (Western Europe)",
+      "coordinates_approx": "48.8, 2.3",
+      "category": "military",
+      "description": "Pepin III continues military campaigns to expand and consolidate Frankish power. Campaigns against Aquitaine, Saxony, and other neighboring territories are conducted to extend Frankish hegemony. These military operations establish the foundation for Charlemagne's later expansionist campaigns.",
+      "key_figures": [
+        "Pepin III (Frankish King)"
+      ],
+      "sources": [
+        {
+          "name": "Royal Frankish Annals (Annales Regni Francorum)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Einhard, Life of Charlemagne",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Frankish military campaigns are documented in Carolingian-era chronicles, but specific campaigns in 759 CE are often undated or conflated with broader patterns of expansion.",
+      "cross_references": [
+        "751-002 (Pepin III's coronation)",
+        "768-001 (Pepin III's death)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for events listed. However, the specific significance of 759 CE as a distinct year is difficult to establish because many sources treat the 755\u2013763 CE period (the An Lushan Rebellion) as a continuous conflict without precise annual dating. The Abbasid consolidation is documented, but 759 CE is not marked as a particularly significant year in surviving sources.",
+  "historiographic_note": "Documentation for 759 CE is sparse. Chinese chronicles provide the most detailed coverage, focusing on the An Lushan Rebellion. Islamic sources (later compilations) offer general accounts of Abbasid consolidation but rarely date specific events to individual years. Frankish sources are even sparser for this year. The record is heavily weighted toward military and political history; economic, social, and cultural developments are largely absent. The year 759 CE does not appear to be marked as particularly significant in any surviving historical tradition, suggesting that major events may have been undated or that this year was relatively quiet in terms of recorded history.",
+  "graph_edges": [
+    {
+      "from": "759-001",
+      "to": "763-001",
+      "relation": "led_to",
+      "note": "The continuation of the An Lushan Rebellion in 759 CE eventually led to its suppression in 763 CE"
+    },
+    {
+      "from": "759-002",
+      "to": "762-001",
+      "relation": "part_of",
+      "note": "Abbasid consolidation continued throughout al-Mansur's reign, culminating in the founding of Baghdad"
+    },
+    {
+      "from": "759-003",
+      "to": "768-001",
+      "relation": "led_to",
+      "note": "Pepin III's military campaigns established the foundation for Charlemagne's expansionist policies"
+    }
+  ]
+}

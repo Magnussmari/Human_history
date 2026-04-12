@@ -1,0 +1,86 @@
+{
+  "year": 758,
+  "year_label": "758 CE",
+  "era_context": "The mid-8th century CE continues with the Abbasid Caliphate consolidating power, the Tang Dynasty struggling with the An Lushan Rebellion (755\u2013763 CE), and the Frankish Kingdom expanding under Pepin III. This period marks significant political reorganization and military conflict across Eurasia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe beyond Frankish territories",
+    "Southeast Asia (limited contemporary documentation)",
+    "Americas (no written records)"
+  ],
+  "events": [
+    {
+      "id": "758-001",
+      "title": "An Lushan Rebellion Continues; Tang Dynasty in Crisis",
+      "region": "Tang China (Northern territories)",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "military",
+      "description": "The An Lushan Rebellion continues to devastate Tang territories. An Qingxu, the son of the deceased An Lushan, leads the rebellion with support from Uyghur allies. The Tang Dynasty under Emperor Suzong faces severe military, economic, and administrative challenges. The rebellion has caused massive civilian casualties, disrupted the economy, and fragmented Tang territorial control.",
+      "key_figures": [
+        "Emperor Suzong of Tang",
+        "An Qingxu (rebel leader)",
+        "Guo Ziyi (Tang general)"
+      ],
+      "sources": [
+        {
+          "name": "New Book of Tang (Xin Tang Shu)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Old Book of Tang (Jiu Tang Shu)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The An Lushan Rebellion is extensively documented in Chinese chronicles. The continuation of the rebellion in 758 CE is well-attested.",
+      "cross_references": [
+        "755-001 (An Lushan Rebellion begins)",
+        "757-001 (An Lushan's death)",
+        "763-001 (Rebellion suppressed)"
+      ]
+    },
+    {
+      "id": "758-002",
+      "title": "Abbasid Caliphate Consolidates Administrative Authority",
+      "region": "Islamic Caliphate (Iraq, Persia, Levant)",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "The Abbasid Caliphate under al-Mansur continues to consolidate administrative authority and suppress remaining Umayyad loyalists. The integration of Persian administrative practices into the Islamic state continues, establishing a more centralized bureaucratic system. The Abbasid state is becoming increasingly distinct from the decentralized Umayyad system it replaced.",
+      "key_figures": [
+        "al-Mansur (Abbasid Caliph, r. 754\u2013775 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Tabari, History of the Prophets and Kings",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Abbasid consolidation is documented in later Islamic historiography, but specific events in 758 CE are often undated.",
+      "cross_references": [
+        "750-001 (Abbasid Revolution)",
+        "762-001 (Baghdad foundation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for events listed. However, 758 CE is not marked as a particularly significant year in surviving sources. The An Lushan Rebellion is treated as a continuous conflict (755\u2013763 CE) without precise annual dating for most events.",
+  "historiographic_note": "Documentation for 758 CE is sparse. Chinese chronicles provide the most detailed coverage of the An Lushan Rebellion, but specific events in 758 CE are often undated. Islamic sources offer general accounts of Abbasid consolidation but rarely date specific events to individual years. The year 758 CE does not appear to be marked as particularly significant in surviving historical traditions.",
+  "graph_edges": [
+    {
+      "from": "758-001",
+      "to": "763-001",
+      "relation": "led_to",
+      "note": "The continuation of the An Lushan Rebellion in 758 CE eventually led to its suppression in 763 CE"
+    },
+    {
+      "from": "758-002",
+      "to": "762-001",
+      "relation": "part_of",
+      "note": "Abbasid consolidation continued throughout al-Mansur's reign"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "year": 753,
+  "year_label": "753 CE",
+  "era_context": "The mid-8th century CE continues with the Abbasid Caliphate in its early consolidation phase, the Tang Dynasty approaching the crisis of the An Lushan Rebellion, and the Frankish kingdom expanding its influence in Western Europe. The Byzantine Empire remains engaged in Iconoclasm and frontier conflicts. This year falls in a period of significant geopolitical realignment across Eurasia, with major powers consolidating or facing internal challenges.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Northern Europe beyond Frankish realm",
+    "Southeast Asia and Indian subcontinent (limited contemporary records)",
+    "Americas (no written records)"
+  ],
+  "events": [
+    {
+      "id": "753-001",
+      "title": "Abbasid consolidation of power in Persia and Iraq",
+      "region": "Abbasid Caliphate (Iraq, Persia, Levant)",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "Under Caliph al-Mansur (r. 754\u2013775, but with significant influence before his formal accession), the Abbasid Caliphate continues consolidating control over the Islamic heartland. The year 753 CE falls in the final year of al-Saffah's reign and the transition to al-Mansur's rule. This period sees the suppression of remaining Umayyad loyalists, the establishment of a centralized bureaucracy, and the recruitment of Persian administrative talent. The Abbasids are laying the groundwork for their new capital at Baghdad, which will be founded in 762 CE.",
+      "key_figures": [
+        "Al-Saffah (Abbasid Caliph, r. 750\u2013754)",
+        "Al-Mansur (heir apparent, future Caliph)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Tabari, History of the Prophets and Kings, compiled early 10th century",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Numismatic evidence (coins minted under al-Saffah)",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader context of Abbasid consolidation is confirmed, but specific events in 753 CE are not precisely documented. This entry reflects the era context and the trajectory of Abbasid development.",
+      "cross_references": [
+        "Follows from 750-001 (Abbasid revolution)",
+        "Leads to 754-002 (al-Mansur's accession)"
+      ]
+    },
+    {
+      "id": "753-002",
+      "title": "Tang Dynasty military and administrative developments",
+      "region": "Tang Dynasty, China",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Xuanzong of Tang continues to govern during a period of relative stability, though underlying tensions are building. The military system is being restructured with increasing reliance on non-Han commanders in frontier positions. The empire's administrative apparatus remains strong, but factional conflicts within the court are intensifying. The year 753 CE represents the final years of relative peace before the An Lushan Rebellion (755 CE) destabilizes the empire.",
+      "key_figures": [
+        "Emperor Xuanzong of Tang (r. 712\u2013756)"
+      ],
+      "sources": [
+        {
+          "name": "Jiu Tangshu (Old History of Tang), compiled 945 CE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Xin Tangshu (New History of Tang), compiled 1060 CE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Specific events in 753 CE are not clearly documented in surviving sources. This entry reflects the broader era context and the trajectory leading to the An Lushan Rebellion.",
+      "cross_references": [
+        "Leads to 755-001 (An Lushan Rebellion)"
+      ]
+    },
+    {
+      "id": "753-003",
+      "title": "Byzantine-Bulgarian frontier conflicts",
+      "region": "Byzantine Empire and Bulgaria (Balkans)",
+      "coordinates_approx": "42.5, 25.0",
+      "category": "military",
+      "description": "The Byzantine Empire under Constantine V continues military operations against the First Bulgarian Empire. Frontier raids and skirmishes characterize this period, as both powers contest control of the Balkans. These conflicts are part of a longer pattern of Byzantine-Bulgarian rivalry that will intensify in the 9th century. The exact events of 753 CE are poorly documented, but the broader military context is clear from later chronicles.",
+      "key_figures": [
+        "Constantine V (Byzantine Emperor, r. 741\u2013775)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes the Confessor, Chronicle, compiled early 9th century",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broader context of Byzantine-Bulgarian conflict is confirmed, but specific events in 753 CE are not clearly dated in surviving sources.",
+      "cross_references": [
+        "Part of longer Byzantine-Bulgarian conflict (7th\u201311th centuries)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for events listed. However, the sparse documentation for 753 CE means that any events attributed to this year are largely inferred from broader era context rather than specific contemporary sources. The significance of this year is primarily as a transition point between al-Saffah and al-Mansur in the Abbasid Caliphate, and as the final year of relative peace in the Tang Dynasty before the An Lushan Rebellion.",
+  "historiographic_note": "Documentation for 753 CE is extremely sparse. Most surviving sources are later compilations (9th\u201311th centuries) that do not provide precise year-by-year detail for this period. The historical record is heavily skewed toward major political transitions (Abbasid succession) and long-term trends (Tang military reorganization, Byzantine-Bulgarian conflicts) rather than specific events. Sub-Saharan Africa, Southeast Asia, and the Americas are absent from the historical record. The surviving sources are shaped by institutional interests and may omit or downplay events that do not fit the narrative of imperial consolidation or religious authority.",
+  "graph_edges": [
+    {
+      "from": "753-001",
+      "to": "754-002",
+      "relation": "led_to",
+      "note": "Abbasid consolidation under al-Saffah led to al-Mansur's accession in 754 CE"
+    },
+    {
+      "from": "753-002",
+      "to": "755-001",
+      "relation": "led_to",
+      "note": "Tang administrative developments and military reorganization created conditions for the An Lushan Rebellion"
+    }
+  ]
+}
