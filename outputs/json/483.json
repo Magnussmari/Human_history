@@ -1,0 +1,95 @@
+{
+  "year": 483,
+  "year_label": "483 CE",
+  "era_context": "The Eastern Roman Empire under Zeno faces the aftermath of the Henotikon (482), which attempted to reconcile Monophysite and Chalcedonian Christianity but instead deepened the schism. The empire is threatened by Isaurian factionalism, Persian pressure, and Balkan instability. In China, the Northern Wei Dynasty continues Sinicization reforms. In the West, Germanic kingdoms consolidate rule. This is a period of religious ferment and political fragmentation across the Mediterranean and beyond.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "483-001",
+      "title": "Monophysite Schism Deepens Following Henotikon",
+      "region": "Eastern Roman Empire (Egypt, Syria, Constantinople)",
+      "coordinates_approx": "31.2357, 30.0444",
+      "category": "religious",
+      "description": "The Henotikon of 482, issued by Zeno to reconcile Monophysite and Chalcedonian factions, fails to achieve its goal. By 483, the schism has deepened. Monophysite bishops in Egypt and Syria reject the compromise, while Chalcedonian bishops in Constantinople and the West view it as heretical. The Patriarch of Alexandria and the Patriarch of Constantinople are in communion crisis. This religious division will persist for centuries and weaken Byzantine unity.",
+      "key_figures": [
+        "Zeno (Emperor)",
+        "Acacius of Constantinople (Patriarch)",
+        "Peter Mongus (Patriarch of Alexandria, Monophysite)"
+      ],
+      "sources": [
+        {
+          "name": "John of Ephesus, Ecclesiastical History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Theophanes the Confessor, Chronicle",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Evagrius Scholasticus, Ecclesiastical History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The deepening of the schism in the early 480s is well-attested in ecclesiastical sources, though no specific event is dated to 483. The year is assigned as a marker of the crisis.",
+      "cross_references": [
+        "482-001 (Henotikon issued)",
+        "518-001 (Schism formally healed under Justin I)"
+      ]
+    },
+    {
+      "id": "483-002",
+      "title": "Northern Wei Capital Preparation for Relocation",
+      "region": "Northern China (Northern Wei Dynasty)",
+      "coordinates_approx": "39.9042, 116.4074",
+      "category": "political",
+      "description": "The Xiaowen Emperor continues preparations for the relocation of the Northern Wei capital from Datong to Luoyang, a major Sinicization initiative. This move, completed in 494, represents the shift of the dynasty's center of gravity from the Tuoba heartland to the Han Chinese cultural heartland. By 483, the decision is made and preparations are underway.",
+      "key_figures": [
+        "Xiaowen Emperor (Northern Wei)"
+      ],
+      "sources": [
+        {
+          "name": "Wei Shu (Book of Wei)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The capital relocation is well-documented but the year 483 is not specifically marked. The date is inferred from the broader timeline of Sinicization reforms.",
+      "cross_references": [
+        "494-001 (Capital relocated to Luoyang)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific historical event is dated to 483 in surviving sources. The Monophysite schism deepening is inferred from the aftermath of the Henotikon (482) and the broader context of the 480s\u2013490s, not from events specifically attested to 483. The year itself is not marked as significant in any surviving chronicle.",
+  "historiographic_note": "The year 483 is poorly documented. Information comes from later compilations (Theophanes, Evagrius, John of Ephesus) written centuries after the events. Byzantine sources are biased toward Constantinople and religious matters; Chinese sources favor the imperial court. No contemporary records survive that specifically mark 483 as significant. The historical record for this year is essentially reconstructed from broader trends and later retrospective accounts.",
+  "graph_edges": [
+    {
+      "from": "483-001",
+      "to": "482-001",
+      "relation": "led_to",
+      "note": "Henotikon leads to deepening schism"
+    },
+    {
+      "from": "483-002",
+      "to": "494-001",
+      "relation": "led_to",
+      "note": "Preparations lead to capital relocation"
+    }
+  ]
+}

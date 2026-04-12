@@ -1,0 +1,89 @@
+{
+  "year": 492,
+  "year_label": "492 CE",
+  "era_context": "The late 5th century continues with the consolidation of Germanic kingdoms in the former Western Roman Empire. The Eastern Roman (Byzantine) Empire under Anastasius I (r. 491\u2013518) is establishing itself after his accession in 491. The Sasanid Persian Empire remains a major power in the Near East. In East Asia, the Northern Wei Dynasty rules northern China under Emperor Xiaowen. This is a period of post-Roman political reorganization in the West and religious controversy in the East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (virtually no written sources)",
+    "Northern Europe beyond Germanic kingdoms (minimal documentation)",
+    "Central Asia and Steppe regions (limited records)",
+    "Americas and Oceania (no contemporary written records)"
+  ],
+  "events": [
+    {
+      "id": "492-001",
+      "title": "Theodoric Consolidates Ostrogothic Rule in Italy",
+      "region": "Ostrogothic Kingdom (Italy)",
+      "coordinates_approx": "41.9028, 12.4964",
+      "category": "political",
+      "description": "Theodoric the Ostrogoth continues to consolidate his rule over Italy following his victory over Odoacer in 493 (or possibly 492, sources vary on the exact date). He works to establish a functioning administration that preserves Roman institutions while maintaining Ostrogothic military dominance. Theodoric appoints Roman administrators, including Cassiodorus, to key positions in his government. He maintains nominal recognition from the Byzantine Emperor Anastasius I. By 492, Theodoric's rule appears increasingly stable, though tensions between the Arian Ostrogothic elite and the Catholic Roman population remain.",
+      "key_figures": [
+        "Theodoric the Ostrogoth (King of the Ostrogoths)",
+        "Cassiodorus (Roman administrator)"
+      ],
+      "sources": [
+        {
+          "name": "Cassiodorus, Variae",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Procopius, History of the Wars",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The exact date of Theodoric's victory over Odoacer is debated in sources; some place it in 492, others in 493. The consolidation of his rule is attested in Cassiodorus's correspondence, but the specific events of 492 are not precisely documented.",
+      "cross_references": [
+        "493-001 (Theodoric defeats Odoacer, alternative dating)",
+        "526-001 (Theodoric's death)"
+      ]
+    },
+    {
+      "id": "492-002",
+      "title": "Anastasius I Establishes Religious and Fiscal Policies",
+      "region": "Eastern Roman Empire (Byzantine Empire)",
+      "coordinates_approx": "40.7128, 28.9789",
+      "category": "religious",
+      "description": "Emperor Anastasius I, in his first year of rule (491\u2013492), begins to establish his religious and fiscal policies. He is known for his sympathy toward Monophysite Christianity, which will generate significant controversy throughout his reign. Anastasius also implements fiscal reforms aimed at stabilizing the Byzantine economy and building up the imperial treasury. These early policies set the tone for his entire reign and will shape Byzantine politics for decades.",
+      "key_figures": [
+        "Anastasius I (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Procopius, History of the Wars and Secret History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Theophanes the Confessor, Chronicle",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Anastasius I's religious and fiscal policies are well-attested in Byzantine sources, though these were written decades or centuries after his reign. The specific events of 492 are not precisely documented.",
+      "cross_references": [
+        "491-001 (Anastasius I's accession)",
+        "518-001 (Anastasius I's death)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Theodoric's victory over Odoacer is uncertain; some sources place it in 492, others in 493. This uncertainty reflects the limitations of the historical record for this period. Additionally, the extent of Anastasius I's Monophysite sympathies has been debated by modern scholars, with some arguing that his actual theological position was more nuanced than later sources suggest.",
+  "historiographic_note": "The year 492 CE falls within a period of sparse documentation. Byzantine and later Western sources provide some information about the major political entities, but these sources were written decades or centuries after the events and often reflect the biases of their authors. The exact dating of events in this period is often uncertain, as sources disagree on specific dates. Chinese dynastic histories provide information about the Northern Wei, but again these are later compilations. The historical record is heavily skewed toward the Mediterranean world; information about northern Europe, sub-Saharan Africa, Central Asia, and the Americas is virtually absent from contemporary or near-contemporary sources.",
+  "graph_edges": [
+    {
+      "from": "492-001",
+      "to": "526-001",
+      "relation": "part_of",
+      "note": "Theodoric's consolidation in 492 is part of his broader reign (493\u2013526)."
+    },
+    {
+      "from": "492-002",
+      "to": "518-001",
+      "relation": "part_of",
+      "note": "Anastasius I's policies established in 492 continued throughout his reign until his death in 518."
+    }
+  ]
+}

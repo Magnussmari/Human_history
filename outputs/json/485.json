@@ -1,0 +1,119 @@
+{
+  "year": 485,
+  "year_label": "485 CE",
+  "era_context": "The Eastern Roman (Byzantine) Empire under Zeno faces religious schism over Christological doctrine; the Western Roman Empire has collapsed, replaced by Germanic kingdoms (Ostrogothic Italy, Visigothic Iberia, Frankish Gaul). In China, the Northern Wei Dynasty (Tuoba) rules the north while the Southern Dynasties fragment the south. Persia under the Sassanid Empire remains a major power. This is the age of late antiquity, marked by religious ferment, political fragmentation, and the slow transformation of classical institutions.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond the Rhine (sparse archaeological record)",
+    "Central Asia (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "485-001",
+      "title": "Zeno's Death and Accession of Anastasius I",
+      "region": "Eastern Roman Empire (Constantinople)",
+      "coordinates_approx": "41.0082, 28.9784",
+      "category": "political",
+      "description": "Emperor Zeno dies on 9 April 491 (not 485; see certainty note). However, 485 marks a critical moment in his reign when religious tensions over the Monophysite controversy intensify, leading to the Henotikon (482) and its aftermath. Zeno's attempts to reconcile Monophysite and Chalcedonian factions through imperial decree fail, deepening the schism. This period establishes the religious fault lines that will dominate Byzantine politics for decades.",
+      "key_figures": [
+        "Zeno (Emperor of the Eastern Roman Empire)",
+        "Acacius of Constantinople (Patriarch)"
+      ],
+      "sources": [
+        {
+          "name": "Procopius, History of the Wars",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "John of Ephesus, Ecclesiastical History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Theophanes the Confessor, Chronicle",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Zeno's death is dated to 491, not 485. The year 485 is significant for the intensification of Monophysite controversy during his reign, but no specific dated event is attested to this exact year. Assigned here as a marker of the broader religious crisis.",
+      "cross_references": [
+        "482-001 (Henotikon issued)",
+        "491-001 (Zeno's death)"
+      ]
+    },
+    {
+      "id": "485-002",
+      "title": "Northern Wei Consolidation under Xiaowen Emperor",
+      "region": "Northern China (Northern Wei Dynasty)",
+      "coordinates_approx": "39.9042, 116.4074",
+      "category": "political",
+      "description": "The Xiaowen Emperor (r. 471\u2013499) continues his Sinicization reforms, promoting Han Chinese culture, language, and administrative practices within the Tuoba-ruled Northern Wei. By 485, these reforms are well underway, including the adoption of Han surnames by the Tuoba nobility and the shift of the capital from Datong to Luoyang (completed 494). These reforms strengthen central authority but provoke resistance from conservative Tuoba aristocrats.",
+      "key_figures": [
+        "Xiaowen Emperor (Northern Wei)",
+        "Empress Dowager Wenming (regent until 490)"
+      ],
+      "sources": [
+        {
+          "name": "Wei Shu (Book of Wei), compiled by Sima Guang",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Sinicization reforms are well-attested in Chinese historiography, though specific events within 485 are not individually dated in surviving sources. The broader reform program is confirmed.",
+      "cross_references": [
+        "494-001 (Capital moved to Luoyang)"
+      ]
+    },
+    {
+      "id": "485-003",
+      "title": "Visigothic Kingdom Consolidation in Iberia",
+      "region": "Visigothic Kingdom (Iberia)",
+      "coordinates_approx": "40.4637, -3.7492",
+      "category": "political",
+      "description": "Under King Leovigild (r. 568\u2013586), the Visigothic Kingdom expands territorial control and centralizes authority. By 485, the kingdom is in an earlier phase of consolidation under earlier rulers. The Visigothic state is establishing itself as the dominant power in the Iberian Peninsula, replacing Roman provincial structures with Germanic law and administration.",
+      "key_figures": [
+        "Visigothic nobility and kings of the period"
+      ],
+      "sources": [
+        {
+          "name": "Isidore of Seville, History of the Goths",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chronicle of John of Biclaro",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "No specific event is dated to 485 in Visigothic sources. This entry marks the broader consolidation phase of the kingdom during the late 5th century. Dating is approximate.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Zeno's death to 485 is incorrect; he died in 491. No major event of confirmed historical significance is specifically attested to the year 485 in surviving sources. The Monophysite controversy was ongoing but no decisive moment is dated to this year. The Northern Wei Sinicization reforms are well-documented but not tied to specific events in 485.",
+  "historiographic_note": "The historical record for 485 is sparse. Most information comes from later compilations (Theophanes, Procopius, Sima Guang) written centuries after the events. Byzantine sources are biased toward Constantinople and religious matters; Chinese sources favor the imperial court. Western European sources are minimal, reflecting the fragmentation of literacy after the Western Roman collapse. The year 485 itself is poorly marked in surviving chronologies.",
+  "graph_edges": [
+    {
+      "from": "485-001",
+      "to": "482-001",
+      "relation": "part_of",
+      "note": "Religious crisis of which 485 is a continuation"
+    },
+    {
+      "from": "485-002",
+      "to": "494-001",
+      "relation": "led_to",
+      "note": "Sinicization reforms lead to capital relocation"
+    }
+  ]
+}

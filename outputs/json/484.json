@@ -1,0 +1,90 @@
+{
+  "year": 484,
+  "year_label": "484 CE",
+  "era_context": "The Eastern Roman Empire under Zeno continues to navigate religious schism and external threats from Persia and the Balkans. The Monophysite controversy, formalized in the Henotikon (482), creates deep divisions within the Church. In China, the Northern Wei Dynasty pursues Sinicization under the Xiaowen Emperor. The Western Germanic kingdoms consolidate their rule over former Roman territories. This period represents the transformation of the late antique world into the early medieval.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "484-001",
+      "title": "Isaurian Revolt and Religious Tensions in the Eastern Roman Empire",
+      "region": "Eastern Roman Empire (Isauria and Constantinople)",
+      "coordinates_approx": "37.5, 33.5",
+      "category": "political",
+      "description": "Tensions between the Isaurian military faction (which supported Zeno) and the civilian aristocracy intensify. The Monophysite controversy, exacerbated by Zeno's Henotikon, creates factions within the military and church. By 484, these tensions are acute but have not yet erupted into open conflict. The Isaurians, who form the backbone of Zeno's military support, are increasingly resented by the Constantinople elite.",
+      "key_figures": [
+        "Zeno (Emperor)",
+        "Isaurian military commanders"
+      ],
+      "sources": [
+        {
+          "name": "Procopius, History of the Wars",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Theophanes the Confessor, Chronicle",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "No specific event is dated to 484. The broader tensions are well-attested but the year 484 is not specifically marked in sources.",
+      "cross_references": [
+        "482-001 (Henotikon)",
+        "491-002 (Isaurian revolt erupts)"
+      ]
+    },
+    {
+      "id": "484-002",
+      "title": "Northern Wei Administrative Reforms Continue",
+      "region": "Northern China (Northern Wei Dynasty)",
+      "coordinates_approx": "39.9042, 116.4074",
+      "category": "political",
+      "description": "The Xiaowen Emperor continues implementing Sinicization policies, including the adoption of Han Chinese administrative practices, language standardization, and the promotion of Han culture within the Tuoba elite. These reforms strengthen the state but generate resistance from conservative Tuoba aristocrats who fear loss of their ethnic identity and privileges.",
+      "key_figures": [
+        "Xiaowen Emperor (Northern Wei)",
+        "Empress Dowager Wenming"
+      ],
+      "sources": [
+        {
+          "name": "Wei Shu (Book of Wei)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The reforms are well-documented but no specific event is dated to 484.",
+      "cross_references": [
+        "485-002 (Broader Sinicization context)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major historical event is specifically dated to 484 in surviving sources. The year is not marked as significant in Byzantine, Chinese, or Western sources. The Isaurian tensions described are inferred from the broader context of the 480s\u2013490s rather than from events specifically attested to 484.",
+  "historiographic_note": "The year 484 is poorly documented. Most information comes from later compilations written centuries after the events. Byzantine sources focus on Constantinople and religious matters; Chinese sources favor the imperial court. No contemporary records survive that specifically mark 484 as significant. The historical record for this year is essentially a gap filled by inference from broader trends.",
+  "graph_edges": [
+    {
+      "from": "484-001",
+      "to": "482-001",
+      "relation": "part_of",
+      "note": "Continuation of religious crisis"
+    },
+    {
+      "from": "484-002",
+      "to": "485-002",
+      "relation": "contemporary_with",
+      "note": "Parallel Sinicization efforts"
+    }
+  ]
+}

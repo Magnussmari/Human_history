@@ -1,0 +1,108 @@
+{
+  "year": 488,
+  "year_label": "488 BCE",
+  "era_context": "The late 480s BCE, a period of transition in the Greek world following the Marathon campaign and before the second Persian invasion. In Athens, political tensions are rising, and the ostracism system is being used to remove prominent figures. In Persia, Darius I is aging and will die within a few years, leading to succession questions. In China, the Spring and Autumn Period continues with ongoing interstate conflicts.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Persia (no surviving contemporary sources)",
+    "China (limited specific records)",
+    "India (minimal documentation)",
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "488-001",
+      "title": "Trial and Death of Miltiades",
+      "region": "Athens, Greece",
+      "coordinates_approx": "37.97\u00b0N, 23.73\u00b0E",
+      "category": "political",
+      "description": "Miltiades, the celebrated victor of Marathon, was tried in Athens on charges related to his failed expedition to Paros. He was convicted and sentenced to pay a large fine (50 talents). Unable to pay, he was imprisoned, where he died from a gangrenous wound sustained during the Parian siege. His death marked the end of his political dominance in Athens and reflected the city's volatile politics, where even successful generals could face prosecution. The trial also demonstrates the Athenian democratic system's suspicion of military power.",
+      "key_figures": [
+        "Miltiades (Athenian general)",
+        "Xanthippus (prosecutor, father of Pericles)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories, Book VI",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Miltiades",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pausanias, Description of Greece",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The trial and death of Miltiades are attested in ancient sources, but the precise date is uncertain. Most scholars place it around 488 BCE, but some sources suggest 489 or 487 BCE. The exact charges and circumstances are debated.",
+      "cross_references": [
+        "489-001 (Parian expedition)",
+        "490-001 (Battle of Marathon)"
+      ]
+    },
+    {
+      "id": "488-002",
+      "title": "Ostracism of Aristides in Athens",
+      "region": "Athens, Greece",
+      "coordinates_approx": "37.97\u00b0N, 23.73\u00b0E",
+      "category": "political",
+      "description": "Aristides, an Athenian statesman and general known for his justice and integrity, was ostracized (exiled for ten years) through the democratic process of ostracism. The ostracism was likely driven by political rivals, possibly including Themistocles. Aristides' removal from Athens deprived the city of a respected leader during a period of increasing Persian threat. He would later be recalled and play a significant role in the Greek response to the second Persian invasion.",
+      "key_figures": [
+        "Aristides (Athenian statesman and general)",
+        "Themistocles (Athenian statesman and rival)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Aristides",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Herodotus, Histories",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Aristides' ostracism is attested in multiple sources, but the precise date is debated. Ancient sources place it sometime in the 480s BCE, with 488 or 487 being the most commonly cited dates. The exact political circumstances are unclear.",
+      "cross_references": [
+        "480-001 (Second Persian invasion, Aristides' recall)",
+        "479-001 (Battle of Plataea, Aristides' role)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of both Miltiades' trial and Aristides' ostracism is uncertain and disputed among scholars. Some sources place these events in 489 or 487 BCE rather than 488 BCE. The chronology of early 5th-century Athens is notoriously difficult to establish precisely, as ancient sources often provide relative rather than absolute dates. Additionally, the political narratives surrounding these events may have been shaped by later Athenian historiography to fit particular interpretations of Athenian democracy and leadership.",
+  "historiographic_note": "The historical record for 488 BCE is dominated by Athenian sources, particularly Plutarch's biographical works, which were written centuries after the events. Herodotus provides some information but is not always precise about dating. No contemporary Athenian documents survive for this year. The focus on Athens reflects the bias of surviving sources; events in other Greek cities or in the Persian Empire are largely undocumented. The trial of Miltiades and the ostracism of Aristides are presented in later sources as part of a narrative about Athenian democracy and leadership, which may have influenced how these events were recorded and interpreted.",
+  "graph_edges": [
+    {
+      "from": "488-001",
+      "to": "489-001",
+      "relation": "caused_by",
+      "note": "Miltiades' trial resulted from the failure of his Parian expedition"
+    },
+    {
+      "from": "488-001",
+      "to": "490-001",
+      "relation": "contradicts",
+      "note": "The trial of Marathon's victor reflects the volatile nature of Athenian politics despite military success"
+    },
+    {
+      "from": "488-002",
+      "to": "480-001",
+      "relation": "led_to",
+      "note": "Aristides' ostracism removed him from Athens, but he was recalled to help defend against the second Persian invasion"
+    }
+  ]
+}

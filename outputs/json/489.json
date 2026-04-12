@@ -1,0 +1,97 @@
+{
+  "year": 489,
+  "year_label": "489 BCE",
+  "era_context": "The year following the Battle of Marathon, during the continued consolidation of Persian power under Darius I and the aftermath of the failed expedition to Greece. In Greece, the city-states are reassessing their positions relative to Persian power. In China, the Spring and Autumn Period continues with regional competition among states. In India, the Mahajanapadas are developing as distinct political entities.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Persia (no surviving contemporary sources for this year)",
+    "China (limited specific records for this year)",
+    "India (minimal documentation)",
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "489-001",
+      "title": "Miltiades' Expedition to Paros",
+      "region": "Aegean Sea, Greece",
+      "coordinates_approx": "37.1\u00b0N, 25.1\u00b0E",
+      "category": "military",
+      "description": "Following his victory at Marathon, the Athenian general Miltiades led an expedition against the island of Paros, which had supported the Persians during the recent invasion. The expedition was unsuccessful; Miltiades was unable to capture the city and was wounded during the siege. He returned to Athens in disgrace. This campaign represents the first major Athenian military action after Marathon and reflects the city's attempt to consolidate its position in the Aegean and punish Persian allies.",
+      "key_figures": [
+        "Miltiades (Athenian general)",
+        "Hegesipyle (Parian priestess, according to legend)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories, Book VI",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Miltiades",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pausanias, Description of Greece",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The expedition is attested in ancient sources, but the precise date is uncertain. Herodotus places it after Marathon, and most scholars date it to 489 BCE, though some place it slightly later. The failure and Miltiades' subsequent trial are well-documented.",
+      "cross_references": [
+        "490-001 (Battle of Marathon)",
+        "488-001 (Miltiades' trial and death)"
+      ]
+    },
+    {
+      "id": "489-002",
+      "title": "Darius I Consolidates Persian Control in the Aegean",
+      "region": "Persian Empire / Aegean",
+      "coordinates_approx": "null",
+      "category": "political",
+      "description": "Following the failure of the Marathon expedition, Darius I continued efforts to consolidate Persian control over the Aegean islands and the eastern Mediterranean. This involved diplomatic negotiations, the installation of Persian-friendly tyrants, and the collection of tribute. The process was gradual and faced resistance from Greek city-states, but by the end of the decade, most Aegean islands were under Persian suzerainty or influence.",
+      "key_figures": [
+        "Darius I (Persian Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories, Book VI",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general process of Persian consolidation is well-attested, but specific events and dates for 489 BCE are not clearly documented. This entry represents the broader historical trend rather than a discrete event.",
+      "cross_references": [
+        "490-001 (Battle of Marathon)",
+        "480-001 (Second Persian invasion)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Miltiades' Parian expedition is disputed. Some scholars place it in 488 or 487 BCE rather than 489 BCE. The ancient sources do not provide a precise date, and chronological reconstruction depends on assumptions about the sequence of events. Additionally, the legendary elements in the account (e.g., the priestess Hegesipyle's role) suggest that later embellishment may have obscured the historical facts.",
+  "historiographic_note": "The historical record for 489 BCE is extremely thin. Most information comes from Herodotus, writing decades later, and later biographical sources on Miltiades. No contemporary documents survive. The focus on Miltiades reflects the Athenian bias in surviving sources; events in other Greek cities or in the Persian Empire are largely undocumented for this year. The absence of Persian sources means we have no record of Persian activities or perspectives for this period.",
+  "graph_edges": [
+    {
+      "from": "489-001",
+      "to": "490-001",
+      "relation": "led_to",
+      "note": "Miltiades' success at Marathon led to his appointment to lead the Parian expedition"
+    },
+    {
+      "from": "489-001",
+      "to": "488-001",
+      "relation": "led_to",
+      "note": "The failure of the Parian expedition led to Miltiades' trial and subsequent death"
+    },
+    {
+      "from": "489-002",
+      "to": "490-001",
+      "relation": "caused_by",
+      "note": "Persian consolidation efforts were a response to the failure at Marathon"
+    }
+  ]
+}
