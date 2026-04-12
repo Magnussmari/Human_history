@@ -1,0 +1,73 @@
+{
+  "year": -776,
+  "year_label": "776 BCE",
+  "era_context": "The early Iron Age Mediterranean and Near East. Shalmaneser III continues his reign in Assyria. Greece remains in the Geometric period. The traditional date for the first Olympic Games falls in this year according to later Greek chronographers, though this dating is highly disputed. Egypt is fragmented. China's Western Zhou is declining.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-776-001",
+      "title": "Traditional date of the first Olympic Games (disputed)",
+      "region": "Greece (Elis, Peloponnese)",
+      "coordinates_approx": "37.64, 23.63",
+      "category": "cultural",
+      "description": "Greek tradition, as recorded by later historians (Pausanias, Eusebius), assigns the first Olympic Games to 776 BCE. However, this date is almost certainly a conventional retroactive assignment by later chronographers rather than a historical fact. The Olympic Games likely developed gradually over the 8th century BCE as a religious festival at the sanctuary of Zeus at Olympia, but the precise date of their origin is unknowable from surviving evidence. The traditional date became canonical in later Greek chronology and was used as a reference point for dating other events.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Pausanias, Description of Greece (2nd century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Eusebius, Chronicle (4th century CE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Olympia sanctuary",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "The date 776 BCE is a traditional assignment by Greek chronographers writing 700+ years after the supposed event. No contemporary evidence supports this specific date. Archaeological evidence from Olympia shows the sanctuary was in use by the 8th century BCE, but does not pinpoint the origin of the Games. Modern scholarship treats this date as a conventional marker rather than historical fact.",
+      "cross_references": []
+    },
+    {
+      "id": "-776-002",
+      "title": "Continued Geometric pottery production and trade in the Aegean",
+      "region": "Greece and the Aegean",
+      "coordinates_approx": "38.5, 24.0",
+      "category": "economic",
+      "description": "Geometric pottery continues to be produced and traded throughout the Aegean, indicating growing economic interconnection among Greek communities. Pottery from Corinth and Athens is distributed widely, suggesting the emergence of regional trade networks. This period marks the gradual recovery of the Greek world from the Bronze Age collapse and the beginning of the archaic period's cultural and economic dynamism.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from pottery distribution studies",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Pottery distribution and typology are well-established through archaeological survey and excavation. Dating within the Geometric period is approximate (\u00b110\u201315 years).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional date of 776 BCE for the first Olympic Games is rejected by modern scholarship as a retroactive invention. Pausanias and Eusebius were assigning a date to an event whose actual origin was lost to history. Archaeological evidence from Olympia does not support a specific founding date; the sanctuary shows continuous use from at least the 9th century BCE onward, with no clear break marking the 'founding' of the Games. The date 776 BCE was likely chosen for chronological convenience by later Greek chronographers and became canonical through repetition.",
+  "historiographic_note": "The Olympic Games tradition illustrates a fundamental problem in ancient history: the conflation of legendary tradition with historical fact. Later Greek historians, working centuries after the events they described, imposed a chronological framework on earlier history that was partly invented. The surviving sources for this year are almost entirely from later compilations or archaeology; no contemporary written records exist for most of the Greek world. The Near East (Assyria) has better documentation, but the Mediterranean world remains poorly documented in contemporary sources.",
+  "graph_edges": [
+    {
+      "from": "-776-001",
+      "to": "-776-002",
+      "relation": "contemporary_with",
+      "note": "The traditional Olympic Games date coincides with the height of the Geometric period in Greece"
+    }
+  ]
+}

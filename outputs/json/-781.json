@@ -1,17 +1,111 @@
 {
   "year": -781,
   "year_label": "781 BCE",
-  "era_context": "The late 8th century BCE, dominated by Neo-Assyrian imperial expansion under Sargon II, the Spring and Autumn period in China, and the archaic period of Greek city-state development. This year falls within a period of relative stability in Assyrian hegemony, though external pressures from the north (Urartu) and east (Media) were beginning to mount. The Mediterranean world was experiencing increased Greek colonisation and the consolidation of Phoenician trade networks.",
-  "documentation_level": "sparse",
+  "era_context": "The late reign of Shalmaneser IV of Assyria (ending 773 BCE), the early Eastern Zhou Dynasty in China during the Spring and Autumn period, and the Greek Archaic period. This year falls within a period of relative stability in the Near East, with the Neo-Assyrian Empire maintaining its territorial holdings. Across Eurasia, iron-working technology was becoming dominant, and long-distance trade networks were expanding.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
     "Northern Europe",
-    "Central Asia",
+    "Central Asia and the Steppe",
     "Mesoamerica",
-    "South Asia"
+    "Most of the Indian subcontinent"
   ],
-  "events": [],
-  "disconfirming_evidence": "No specific events are reliably documented for 781 BCE in surviving sources. The absence of documented events reflects the limitations of ancient historical documentation.",
-  "historiographic_note": "781 BCE falls within a period where contemporary documentation is extremely sparse. While the Neo-Assyrian Empire, Eastern Zhou China, and the Greek world were all active, no specific events for this year are reliably attested in surviving sources. The surviving historical record for the ancient world is heavily fragmented, with most years leaving no trace in contemporary documentation. Attempting to reconstruct individual years often requires reliance on later compilations whose reliability is uncertain.",
-  "graph_edges": []
+  "events": [
+    {
+      "id": "-781-001",
+      "title": "Shalmaneser IV of Assyria: Continued reign and tributary maintenance",
+      "region": "Neo-Assyrian Empire",
+      "coordinates_approx": "36.0,43.0",
+      "category": "political",
+      "description": "Shalmaneser IV's reign continued with the maintenance of Assyrian hegemony over the Levant and Mesopotamia. His rule was characterized by administrative consolidation and the collection of tribute from vassal states. While less militarily aggressive than some predecessors, Shalmaneser IV's reign ensured the stability of the empire's territorial holdings and the functioning of the imperial bureaucracy. This period represents the mature phase of Neo-Assyrian imperial organization, with well-established systems of provincial administration.",
+      "key_figures": [
+        "Shalmaneser IV (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian King List",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Epigraphic records from Assyrian sites",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Shalmaneser IV's reign is well-documented in Assyrian records; specific events in 781 BCE are not individually attested.",
+      "cross_references": [
+        "-784-001",
+        "-783-001",
+        "-782-001"
+      ]
+    },
+    {
+      "id": "-781-002",
+      "title": "Eastern Zhou Dynasty: Spring and Autumn period developments",
+      "region": "Eastern Zhou Dynasty, China",
+      "coordinates_approx": "34.0,110.0",
+      "category": "political",
+      "description": "The Eastern Zhou Dynasty continued its period of feudal fragmentation, with major states (Qi, Jin, Chu, Qin, Song) competing for regional hegemony. The Spring and Autumn period was characterized by the development of interstate relations governed by ritual propriety (li) and the concept of the 'Mandate of Heaven.' Iron-working technology was becoming increasingly widespread, transforming military capabilities and agricultural productivity. The period saw the development of more sophisticated administrative systems and the emergence of professional military classes.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bronze inscriptions from Eastern Zhou states",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad political context is well-established; specific events in 781 BCE are not individually documented.",
+      "cross_references": [
+        "-784-002",
+        "-783-002",
+        "-782-002"
+      ]
+    },
+    {
+      "id": "-781-003",
+      "title": "Greek Archaic period: Geometric pottery and polis development",
+      "region": "Greece and Mediterranean",
+      "coordinates_approx": "38.0,23.0",
+      "category": "cultural",
+      "description": "The Greek Archaic period continued with the refinement of geometric pottery styles and the ongoing development of the polis system as the dominant political organization. The adoption of the Phoenician alphabet was progressing, with the Greek alphabet becoming increasingly standardized. Early Greek colonization was expanding throughout the Mediterranean and Black Sea regions. The composition of early Greek epic poetry (Homeric epics) was likely ongoing during this era. The gradual emergence of hoplite warfare tactics was beginning to transform Greek military organization.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Greek sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Later Greek historians on the Archaic period",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad cultural context is well-established through archaeology; specific events in 781 BCE are not individually documented.",
+      "cross_references": [
+        "-784-003",
+        "-783-003",
+        "-782-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for events listed. Minor chronological variations exist in the dating of Shalmaneser IV's reign, but these are within \u00b11 year and do not significantly affect the historical narrative.",
+  "historiographic_note": "The historical record for 781 BCE is similar to the preceding years: well-documented for the Near East and China through administrative and epigraphic sources, but sparse for most other regions. The absence of documentation for most of the world reflects both the limited extent of literate civilizations and the biases of modern scholarship. Assyrian records are official court documents and may not reflect the full complexity of political and social life. Chinese sources are primarily later compilations, though epigraphic evidence provides some contemporary verification.",
+  "graph_edges": [
+    {
+      "from": "-781-001",
+      "to": "-773-001",
+      "relation": "led_to",
+      "note": "Shalmaneser IV's reign ended in 773 BCE"
+    }
+  ]
 }

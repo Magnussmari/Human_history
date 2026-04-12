@@ -1,53 +1,51 @@
 {
   "year": -789,
   "year_label": "789 BCE",
-  "era_context": "The Iron Age II Levant and Eastern Mediterranean. The Neo-Assyrian Empire under Sargon II's predecessors is consolidating power in Mesopotamia. The Kingdom of Israel under Jeroboam II has recently ended (c. 747 BCE), and the northern kingdom faces Assyrian pressure. In Greece, the Archaic period is underway; city-states are developing written law codes and colonizing the Mediterranean. Egypt is fragmented under the late 22nd Dynasty, with competing power centers in Upper and Lower Egypt.",
+  "era_context": "The Iron Age II Levant and Eastern Mediterranean. The Neo-Assyrian Empire under Sargon II's predecessors was consolidating power in Mesopotamia. The Kingdom of Israel under Jeroboam II had recently ended (c. -746 BCE), and the region was fragmenting into smaller polities under Assyrian pressure. In Greece, the Archaic period was underway; the alphabet was spreading and city-states were consolidating. Egypt was in the Third Intermediate Period, politically fragmented.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
-    "East Asia (China during early Zhou period)",
-    "South Asia (Vedic India)",
+    "South Asia (Vedic period India)",
+    "East Asia (early Zhou China)",
     "Mesoamerica",
-    "Northern Europe"
+    "Oceania"
   ],
   "events": [
     {
       "id": "-789-001",
-      "title": "Reign of Shalmaneser IV of Assyria (probable dates)",
+      "title": "Reign of Shalmaneser IV of Assyria (approximate dates)",
       "region": "Neo-Assyrian Empire, Mesopotamia",
       "coordinates_approx": "35.5, 36.0",
       "category": "political",
-      "description": "Shalmaneser IV ruled the Neo-Assyrian Empire during a period of relative stability and consolidation following his father Adad-nirari III's campaigns. His reign saw continued administrative organization of conquered territories and maintenance of Assyrian hegemony over the Levantine states. The exact chronology of this period remains debated among scholars, with some sources placing his reign slightly earlier or later. His military campaigns were less extensively documented than his predecessors', suggesting either a period of consolidation or gaps in the surviving record.",
+      "description": "Shalmaneser IV ruled the Neo-Assyrian Empire during a period of relative stability and consolidation. His reign saw continued military campaigns in the Levant and maintenance of Assyrian hegemony, though he was less expansionist than his predecessors. The empire's administrative and military infrastructure was refined during this period.",
       "key_figures": [
         "Shalmaneser IV (King of Assyria)"
       ],
       "sources": [
         {
           "name": "Assyrian King List",
-          "type": "chronicle",
+          "type": "epigraphic",
           "contemporary": false
         },
         {
-          "name": "Epigraphic evidence from Assyrian palaces",
-          "type": "epigraphic",
-          "contemporary": true
+          "name": "Synchronistic History of Assyria and Babylonia",
+          "type": "later_compilation",
+          "contemporary": false
         }
       ],
       "certainty": "approximate",
-      "certainty_note": "Assyrian chronology for this period is debated. The Middle Chronology places Shalmaneser IV's reign c. 783\u2013771 BCE; the Low Chronology shifts dates forward by ~50 years. This entry uses conventional dating but acknowledges \u00b110 year uncertainty.",
-      "cross_references": [
-        "Follows from -796-001 (Adad-nirari III's reign)"
-      ]
+      "certainty_note": "Shalmaneser IV's reign is dated c. 783\u2013773 BCE by most scholars, placing 789 BCE within his rule. However, exact year-by-year events are not well-documented in surviving sources.",
+      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The dating of Shalmaneser IV's reign is contested. Some scholars argue for a longer or shorter reign based on different chronological systems (Middle vs. Low Chronology). The significance of his reign is often downplayed in favor of more militarily active predecessors and successors, but this may reflect gaps in surviving documentation rather than actual historical quietude.",
-  "historiographic_note": "Documentation for this year is sparse and heavily dependent on Assyrian administrative records and king lists compiled centuries after the events. Egyptian and Levantine sources for this period are fragmentary. The Assyrian record is biased toward military campaigns and royal achievements; administrative or economic activities are underrepresented. Chronological uncertainty of \u00b110 years is standard for this period.",
+  "disconfirming_evidence": "The dating of Shalmaneser IV's reign is subject to the 'Assyrian chronology problem'\u2014a scholarly debate over whether to use the 'high' or 'low' chronology, which can shift dates by 50+ years. Some sources place his reign earlier or later. No specific events are reliably attested to 789 BCE alone.",
+  "historiographic_note": "Documentation for this year is minimal. Assyrian king lists provide reign lengths, but contemporary inscriptions detailing specific campaigns or events for 789 BCE are not known to survive. The historical record is dominated by Mesopotamian and Levantine sources; other regions are essentially invisible in the archaeological and textual record for this specific year.",
   "graph_edges": [
     {
       "from": "-789-001",
-      "to": "-783-001",
+      "to": "-746-001",
       "relation": "led_to",
-      "note": "Shalmaneser IV's reign transitions to that of his successor"
+      "note": "Shalmaneser IV's reign preceded the fall of the Kingdom of Israel under Assyrian pressure"
     }
   ]
 }

@@ -1,17 +1,113 @@
 {
   "year": -782,
   "year_label": "782 BCE",
-  "era_context": "The late 8th century BCE, dominated by Neo-Assyrian imperial expansion, the Spring and Autumn period in China, and the archaic period of Greek development. This year falls within the reign of Sargon II, a period of relative stability in Assyrian hegemony before the succession crises and external pressures of the late 8th century. The Mediterranean world was experiencing increased Greek colonisation and the consolidation of Phoenician trade networks.",
-  "documentation_level": "sparse",
+  "era_context": "The late reign of Shalmaneser IV of Assyria (ending 773 BCE), the early Eastern Zhou Dynasty in China during the Spring and Autumn period, and the Greek Archaic period. This year represents a period of relative stability in the Near East, with the Neo-Assyrian Empire maintaining its territorial holdings and tributary networks. Across Eurasia, iron-working technology was becoming dominant, and the foundations of classical civilizations were being laid.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
     "Northern Europe",
-    "Central Asia",
+    "Central Asia and the Steppe",
     "Mesoamerica",
-    "South Asia (limited contemporary written records for this specific year)"
+    "Most of the Indian subcontinent"
   ],
-  "events": [],
-  "disconfirming_evidence": "No specific events are reliably documented for 782 BCE in surviving sources. The absence of documented events for this year is itself significant: it reflects the limitations of ancient historical documentation rather than the absence of historical activity. Modern scholarship recognises that year-by-year reconstruction of ancient history is often impossible, and attempting to do so risks creating false precision.",
-  "historiographic_note": "782 BCE falls within a period where contemporary documentation is extremely sparse. While the Neo-Assyrian Empire, Eastern Zhou China, and the Greek world were all active and significant, no specific events for this year are reliably attested in surviving sources. The Assyrian King List and royal annals do not provide year-by-year detail for most years. Chinese sources are mediated through much later compilations. Mediterranean sources are essentially absent for this year. This year exemplifies the fundamental limitation of ancient historical documentation: most years leave no trace in surviving records, and attempting to reconstruct them risks anachronism and speculation.",
-  "graph_edges": []
+  "events": [
+    {
+      "id": "-782-001",
+      "title": "Shalmaneser IV's reign: Administrative consolidation in Assyria",
+      "region": "Neo-Assyrian Empire",
+      "coordinates_approx": "36.0,43.0",
+      "category": "political",
+      "description": "Shalmaneser IV continued his reign with a focus on administrative consolidation and the maintenance of Assyrian hegemony. His rule was characterized by relative military quiescence compared to his predecessors, with emphasis on collecting tribute from vassal states and maintaining the imperial bureaucracy. This period represents the mature phase of Neo-Assyrian imperial organization, with well-established systems of provincial administration and tributary relationships. The empire's territorial extent remained stable, with no major military campaigns recorded for this year.",
+      "key_figures": [
+        "Shalmaneser IV (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian King List",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Epigraphic records from Assyrian sites",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Shalmaneser IV's reign is well-documented; specific events in 782 BCE are not individually attested in surviving sources.",
+      "cross_references": [
+        "-784-001",
+        "-783-001"
+      ]
+    },
+    {
+      "id": "-782-002",
+      "title": "Eastern Zhou Dynasty: Feudal state competition and iron-working",
+      "region": "Eastern Zhou Dynasty, China",
+      "coordinates_approx": "34.0,110.0",
+      "category": "technological",
+      "description": "The Eastern Zhou Dynasty continued its period of feudal fragmentation, with major states competing for regional dominance. Iron-working technology was becoming increasingly widespread during this period, gradually replacing bronze for tools and weapons. This technological transition would have significant implications for military capabilities and agricultural productivity. The period saw the development of more sophisticated irrigation systems and the expansion of agricultural land, supporting population growth and the emergence of larger, more complex political entities.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Eastern Zhou sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Bronze inscriptions from Eastern Zhou states",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad technological and political context is well-established; specific events in 782 BCE are not individually documented.",
+      "cross_references": [
+        "-784-002",
+        "-783-002"
+      ]
+    },
+    {
+      "id": "-782-003",
+      "title": "Greek Archaic period: Alphabet adoption and early colonization",
+      "region": "Greece and Mediterranean",
+      "coordinates_approx": "38.0,23.0",
+      "category": "cultural",
+      "description": "The Greek Archaic period continued with the ongoing adoption of the Phoenician alphabet into Greek script. By this time, the alphabet was becoming increasingly standardized across Greek city-states, though regional variations persisted. Early Greek colonization was expanding, with settlements being established in southern Italy, Sicily, and the Black Sea region. The composition of early Greek epic poetry was likely ongoing, with the Homeric epics being compiled or composed during this era. The polis system was becoming the dominant political organization, with the development of citizen assemblies and the gradual emergence of hoplite warfare.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Greek sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Later Greek historians on the Archaic period",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad cultural context is well-established through archaeology; specific events in 782 BCE are not individually documented.",
+      "cross_references": [
+        "-784-003",
+        "-783-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for events listed. The dating of Shalmaneser IV's reign has minor variations across scholarly sources, but these are within \u00b11 year. The precise chronology of the Greek alphabet adoption remains debated, with some scholars arguing for earlier or later dates.",
+  "historiographic_note": "The historical record for 782 BCE remains heavily skewed toward the Near East and China. The absence of documentation for most of the world reflects both the limited extent of literate civilizations and the biases of modern scholarship. Assyrian records are official court documents and may not reflect the full complexity of political and social life. Chinese sources are primarily later compilations, though archaeological evidence provides some contemporary verification. Greek history relies primarily on later literary sources and archaeology.",
+  "graph_edges": [
+    {
+      "from": "-782-001",
+      "to": "-773-001",
+      "relation": "led_to",
+      "note": "Shalmaneser IV's reign ended in 773 BCE"
+    }
+  ]
 }

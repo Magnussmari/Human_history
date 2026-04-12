@@ -1,0 +1,84 @@
+{
+  "year": -809,
+  "year_label": "809 BCE",
+  "era_context": "The Iron Age II Levant and Eastern Mediterranean. The Neo-Assyrian Empire under Shalmaneser III is in its expansionist phase, conducting annual military campaigns into Syria-Palestine. The Kingdom of Israel under Jehu is tributary to Assyria. Egypt is fragmented under the late 21st Dynasty. The Greek city-states are in the Geometric period, with colonization beginning. Phoenician maritime networks dominate Mediterranean trade.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Central Asia and the Steppes (sparse contemporary documentation)",
+    "East Asia beyond general dynastic chronology",
+    "Mesoamerica (no written records for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-809-001",
+      "title": "Shalmaneser III's military campaign into Syria-Palestine",
+      "region": "Levant, Syria-Palestine",
+      "coordinates_approx": "35.0, 34.5",
+      "category": "military",
+      "description": "Shalmaneser III of Assyria conducted one of his annual campaigns into the Levantine territories, consolidating Assyrian hegemony over Syrian and Palestinian kingdoms. These campaigns were part of a systematic strategy to extract tribute and maintain vassal relationships. The campaigns are documented in Assyrian royal inscriptions and reliefs, which record tribute from various kingdoms including Israel, Tyre, and Sidon. Such campaigns established the pattern of Assyrian dominance that would define the region for the next century.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)",
+        "Jehu (King of Israel, tributary)"
+      ],
+      "sources": [
+        {
+          "name": "Shalmaneser III Annals and Monolith Inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Assyrian Palace Reliefs from Kalhu (Nimrud)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Shalmaneser III's regnal years are well-established in Assyrian chronology. Annual campaigns are documented in multiple contemporary royal inscriptions. The specific year falls within his documented campaign sequence (858\u2013824 BCE).",
+      "cross_references": [
+        "Relates to broader Assyrian expansion documented from -858 onwards",
+        "Precedes intensification of Assyrian pressure on Israel in -805"
+      ]
+    },
+    {
+      "id": "-809-002",
+      "title": "Possible dating of early Greek colonization in the Western Mediterranean",
+      "region": "Greece, Italy, Sicily",
+      "coordinates_approx": "38.0, 15.0",
+      "category": "exploration",
+      "description": "The period around 809 BCE marks the traditional or approximate beginning of Greek colonization in the Western Mediterranean, though dating is highly uncertain. Archaeological evidence suggests Greek settlement in southern Italy and Sicily began in the 8th century BCE, with some sites possibly occupied by the early 9th century. This expansion was driven by population pressure, trade opportunities, and the search for agricultural land. The movement established the foundation for Magna Graecia and transformed Mediterranean trade networks.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Pithekoussai (Ischia) and Cumae",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The dating of early Greek colonization is debated. Archaeological evidence suggests settlement began in the 8th century BCE, possibly extending into the early 9th. Traditional dates are often placed around 750 BCE, but recent scholarship suggests earlier occupation. Assignment to 809 BCE is conventional and uncertain by \u00b150 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Greek colonization has been significantly revised downward in recent decades. Earlier scholarship placed the beginning of Greek settlement in the West around 750 BCE; modern archaeological work suggests occupation may have begun as early as the 9th century BCE, making the precise year 809 BCE somewhat arbitrary. Additionally, the extent of Greek presence in the early phase remains debated\u2014some sites show Phoenician or mixed occupation rather than purely Greek settlement. The significance of 809 BCE specifically is historiographic convention rather than marked by any documented event.",
+  "historiographic_note": "The historical record for 809 BCE is dominated by Assyrian sources, which are abundant and contemporary but reflect the perspective of the imperial center. Levantine and Greek sources are sparse or absent for this specific year. The record is heavily weighted toward political-military events; economic, social, and cultural developments are underrepresented. Sub-Saharan Africa, Central Asia, and East Asia are essentially absent from contemporary documentation available to modern scholars.",
+  "graph_edges": [
+    {
+      "from": "-809-001",
+      "to": "-805-001",
+      "relation": "led_to",
+      "note": "Shalmaneser III's campaigns established tributary relationships that intensified under his successors"
+    },
+    {
+      "from": "-809-002",
+      "to": "-750-COLONIZATION",
+      "relation": "part_of",
+      "note": "Early phase of Greek colonization movement that accelerated in the 8th century BCE"
+    }
+  ]
+}

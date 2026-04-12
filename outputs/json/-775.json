@@ -1,0 +1,74 @@
+{
+  "year": -775,
+  "year_label": "775 BCE",
+  "era_context": "The early Iron Age Mediterranean and Near East. The Neo-Assyrian Empire under Shalmaneser III is consolidating power in Mesopotamia and the Levant. Greece is in the Geometric period, with the polis system beginning to emerge. The Phoenician city-states dominate Mediterranean trade. In China, the Western Zhou dynasty is in decline, approaching the Spring and Autumn period. Egypt is fragmented under the late 22nd Dynasty.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "Mesoamerica (limited written records; Maya civilization not yet dominant)",
+    "Oceania (oral traditions not yet recorded)"
+  ],
+  "events": [
+    {
+      "id": "-775-001",
+      "title": "Shalmaneser III's campaigns in the Levant",
+      "region": "Mesopotamia, Syria, Phoenicia, Israel",
+      "coordinates_approx": "35.5, 34.5",
+      "category": "military",
+      "description": "Shalmaneser III of Assyria continues his military expansion westward, conducting campaigns against coalitions of Levantine states including Damascus, Israel, and Phoenician cities. These campaigns are part of the broader Neo-Assyrian imperial project to dominate the eastern Mediterranean and extract tribute. The campaigns are documented in Assyrian royal inscriptions and represent the consolidation of Assyrian hegemony over the region, which will define Near Eastern politics for the next century.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Shalmaneser III royal inscriptions (Monolith Inscription, Kurkh Stele)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Assyrian King List",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Shalmaneser III's reign is well-documented in Assyrian inscriptions. His campaigns in the Levant are attested in multiple contemporary royal texts and the Kurkh Stele, which records a coalition against him at Qarqar (traditionally dated 853 BCE, but campaigns in this period are confirmed).",
+      "cross_references": []
+    },
+    {
+      "id": "-775-002",
+      "title": "Geometric pottery tradition flourishing in Greece",
+      "region": "Greece (Attica, Corinth, Euboea)",
+      "coordinates_approx": "38.0, 23.5",
+      "category": "cultural",
+      "description": "The Geometric period in Greece (c. 900\u2013700 BCE) is at its height, characterized by distinctive pottery with geometric patterns, abstract designs, and early figurative representations. This period marks the recovery from the Bronze Age collapse and the gradual emergence of the polis system. Geometric pottery is widely distributed across the Aegean and indicates increasing inter-regional trade and cultural exchange.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from excavations at Athens, Corinth, and Euboea",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Typological analysis of pottery sequences",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Geometric period is well-established through stratigraphic and typological analysis of pottery. Dating within the period is approximate (\u00b110\u201320 years) but the broader cultural context is secure.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Shalmaneser III's campaigns is debated. Traditional chronologies place the Battle of Qarqar in 853 BCE, but some scholars propose alternative dates within a range of \u00b110 years. The significance of individual campaigns versus the broader imperial strategy is sometimes overstated in older historiography; recent scholarship emphasizes the coalition-building and resistance of Levantine states rather than simple Assyrian dominance.",
+  "historiographic_note": "Documentation for 775 BCE is heavily skewed toward the Near East and Mediterranean, where written records (Assyrian inscriptions, later Greek sources) survive. China's historical record is more fragmentary for this period. Sub-Saharan Africa, northern Europe, and the Americas have virtually no written documentation; knowledge comes entirely from archaeology, which is unevenly distributed. The surviving sources are predominantly from imperial courts (Assyria) or later compilations (Greek historians writing centuries later), introducing potential bias toward elite perspectives and military narratives.",
+  "graph_edges": [
+    {
+      "from": "-775-001",
+      "to": "-853-001",
+      "relation": "part_of",
+      "note": "Shalmaneser III's campaigns in the 770s are part of his broader military program that culminates in the Battle of Qarqar (853 BCE in traditional chronology)"
+    }
+  ]
+}

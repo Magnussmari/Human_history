@@ -1,0 +1,71 @@
+{
+  "year": -777,
+  "year_label": "777 BCE",
+  "era_context": "The early Iron Age. Shalmaneser III's reign continues in Assyria. Greece is in the Geometric period. Egypt is fragmented under the late 22nd Dynasty and the rise of the 23rd Dynasty. China's Western Zhou is in decline. The Mediterranean is dominated by Phoenician trade networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "India (limited written records for this period)"
+  ],
+  "events": [
+    {
+      "id": "-777-001",
+      "title": "Shalmaneser III's continued military campaigns",
+      "region": "Mesopotamia and the Levant",
+      "coordinates_approx": "35.5, 34.5",
+      "category": "military",
+      "description": "Shalmaneser III continues his military campaigns in the Levant and northern Syria, consolidating Assyrian control and extracting tribute from vassal states. These campaigns are part of the systematic expansion of the Neo-Assyrian Empire that will dominate the Near East for the next two centuries. The campaigns are documented in Assyrian royal inscriptions and represent the military-administrative apparatus that defines this era.",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Shalmaneser III royal inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shalmaneser III's reign is well-documented, but the specific events of individual years are sometimes difficult to date precisely. The inscriptions often group campaigns by regnal year, but the exact chronology within his reign has some uncertainty (\u00b12\u20133 years).",
+      "cross_references": []
+    },
+    {
+      "id": "-777-002",
+      "title": "Phoenician maritime trade networks at their height",
+      "region": "Mediterranean, Levant, North Africa",
+      "coordinates_approx": "35.0, 20.0",
+      "category": "economic",
+      "description": "Phoenician city-states (Tyre, Sidon, Byblos) dominate Mediterranean trade in the 8th century BCE. Phoenician merchants and colonists establish trading posts and settlements throughout the Mediterranean, including North Africa (Carthage's traditional founding date is 814 BCE, but Phoenician presence in the region predates this). Phoenician influence on Greek culture, writing systems, and trade is profound during this period.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Phoenician settlements and shipwrecks",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Later Greek and Roman sources (Herodotus, Livy)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Phoenician maritime dominance in the 8th century BCE is well-established through archaeological evidence of settlements, pottery distribution, and shipwrecks. The specific dating of individual trading posts varies, but the broader pattern is secure.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the extent of Phoenician 'colonization' versus trading post establishment is debated; some scholars argue that Phoenician presence was more mercantile than colonial in many regions, with limited permanent settlement outside the Levant.",
+  "historiographic_note": "Documentation for 777 BCE is sparse and heavily weighted toward the Near East (Assyrian inscriptions) and the Mediterranean (archaeological evidence). The historical record is dominated by military and economic narratives from elite perspectives. Sub-Saharan Africa, northern Europe, and most of Asia have virtually no written documentation for this year. The sources that do exist are often biased toward imperial narratives (Assyrian inscriptions) or later reconstructions (Greek and Roman historians writing centuries later).",
+  "graph_edges": [
+    {
+      "from": "-777-001",
+      "to": "-775-001",
+      "relation": "part_of",
+      "note": "Shalmaneser III's campaigns in 777 BCE are part of his broader military program"
+    }
+  ]
+}

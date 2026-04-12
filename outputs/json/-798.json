@@ -1,48 +1,93 @@
 {
   "year": -798,
   "year_label": "798 BCE",
-  "era_context": "Continuation of the early Iron Age II. Shalmaneser III remains active in Assyrian military expansion. The Western Zhou dynasty in China is approaching its traditional collapse date (771 BCE). In the Mediterranean, Greek city-states continue their development and alphabet adoption. Egypt remains fragmented under the late 21st Dynasty.",
+  "era_context": "The early Iron Age Mediterranean and Near East. The Neo-Assyrian Empire is consolidating regional dominance. The Greek Archaic period is in its early phases. Phoenician maritime networks are at their height. In China, the Western Zhou dynasty is approaching its final collapse (traditionally dated to 771 BCE). Egypt remains fragmented.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
+    "Americas",
     "Northern Europe",
-    "Central Asia and the Steppe",
-    "Mesoamerica",
-    "India (limited contemporary written records for this specific year)"
+    "Central Asia",
+    "South Asia (limited contemporary records)"
   ],
   "events": [
     {
       "id": "-798-001",
-      "title": "Shalmaneser III's continued military consolidation in Mesopotamia and the Levant",
-      "region": "Assyria, Mesopotamia, Levant",
-      "coordinates_approx": "35.5, 36.0",
-      "category": "military",
-      "description": "Shalmaneser III continues his systematic campaigns to expand and consolidate Assyrian control. These campaigns are documented in royal inscriptions and form part of the broader Neo-Assyrian imperial project. The campaigns extract tribute and establish vassal relationships with neighboring states.",
+      "title": "Western Zhou dynasty in decline",
+      "region": "China",
+      "coordinates_approx": "34.0,109.0",
+      "category": "political",
+      "description": "The Western Zhou dynasty (c. 1046\u2013771 BCE) was in its final decades. By 798 BCE, the central authority of the Zhou kings was weakening, with regional lords (zhuhou) accumulating power. The traditional account attributes this decline to the reign of King You (r. 781\u2013771 BCE), whose policies allegedly alienated the nobility. Archaeological evidence from this period shows continued bronze-working and agricultural development, but political fragmentation is evident in the distribution of bronze vessels and inscriptions.",
       "key_figures": [
-        "Shalmaneser III (King of Assyria)"
+        "King You of Zhou (r. 781\u2013771 BCE)"
       ],
       "sources": [
         {
-          "name": "Shalmaneser III's royal inscriptions and palace reliefs",
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled c. 109 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bronze inscriptions (oracle bone script and bronzeware)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Zhou sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Western Zhou collapse is traditionally dated to 771 BCE. The reign of King You is attested in later chronicles, but contemporary bronze inscriptions do not provide year-specific detail. The broader context of decline is archaeologically supported.",
+      "cross_references": [
+        "Relates to -771-001 (traditional date of Western Zhou collapse)"
+      ]
+    },
+    {
+      "id": "-798-002",
+      "title": "Phoenician maritime expansion",
+      "region": "Phoenicia, Mediterranean",
+      "coordinates_approx": "33.5,35.5",
+      "category": "exploration",
+      "description": "Phoenician city-states (Tyre, Sidon, Byblos) were at the height of their maritime dominance in the 8th century BCE. By 798 BCE, Phoenician traders and colonists were establishing settlements throughout the Mediterranean, including in North Africa (Carthage's traditional founding date is 814 BCE, but Phoenician presence in the region predates this). Phoenician ships were the most advanced in the Mediterranean, and their alphabet was being adopted by Greek traders.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Phoenician settlements and shipwrecks",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Greek historiography (Herodotus, Strabo) on Phoenician expansion",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Phoenician inscriptions and epigraphic evidence",
           "type": "epigraphic",
           "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Shalmaneser III's reign is well-attested. Specific annual attribution is approximate, based on the known pattern of his campaigns.",
-      "cross_references": [
-        "-799-001"
-      ]
+      "certainty_note": "Phoenician maritime dominance in the 8th century BCE is well-established archaeologically. Specific events for 798 BCE are not documented; this entry describes the broader context of Phoenician expansion during this period.",
+      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "No specific events are documented for 798 BCE in surviving sources. The entry reflects the continuation of known patterns rather than a documented event. No disconfirming evidence identified.",
-  "historiographic_note": "The year 798 BCE is not marked by any documented event in surviving sources. The historical record for this year is essentially a blank, filled only by inference from the broader pattern of Shalmaneser III's reign. This illustrates the sparseness of annual-level documentation even for relatively well-documented regions and periods.",
+  "disconfirming_evidence": "The traditional date of the Western Zhou collapse (771 BCE) is based on later chronicles and is not independently confirmed by contemporary sources. Some modern scholars argue for a more gradual decline rather than a sudden collapse. The exact dating of King You's reign and the circumstances of the Zhou collapse remain debated. Phoenician settlement chronologies in the western Mediterranean are also contested, with some sites showing earlier or later occupation than traditionally assumed.",
+  "historiographic_note": "Documentation for 798 BCE is minimal. No contemporary written records specifically document events of this year. The historical record relies on later compilations (Chinese chronicles, Greek historiography) and archaeological evidence. The surviving sources are heavily weighted toward the Mediterranean and China; vast regions remain archaeologically silent. Chronological uncertainty is significant, with margins of \u00b15\u201310 years common for this period.",
   "graph_edges": [
     {
       "from": "-798-001",
-      "to": "-799-001",
+      "to": "-771-001",
+      "relation": "led_to",
+      "note": "The decline of Western Zhou authority in this period culminated in the traditional collapse date of 771 BCE"
+    },
+    {
+      "from": "-798-002",
+      "to": "-814-001",
       "relation": "contemporary_with",
-      "note": "Continuation of Shalmaneser III's military program"
+      "note": "Phoenician maritime expansion of this era includes the traditional founding of Carthage (814 BCE)"
     }
   ]
 }

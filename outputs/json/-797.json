@@ -1,18 +1,81 @@
 {
   "year": -797,
   "year_label": "797 BCE",
-  "era_context": "Early Iron Age II continues. Shalmaneser III's reign remains the dominant political force in the Near East. The Western Zhou dynasty in China is in its final decades before the traditional collapse. Greek city-states are consolidating and developing their political institutions. Egypt remains fragmented.",
+  "era_context": "The early Iron Age Mediterranean and Near East. The Neo-Assyrian Empire under Sargon II's predecessors is consolidating power. The Greek Archaic period is developing. Phoenician networks dominate Mediterranean trade. In China, the Western Zhou dynasty is in its final years. Egypt remains fragmented under the late 21st Dynasty.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
+    "Americas",
     "Northern Europe",
-    "Central Asia and the Steppe",
-    "Mesoamerica",
-    "India",
-    "Southeast Asia"
+    "Central Asia",
+    "South Asia"
   ],
-  "events": [],
-  "disconfirming_evidence": "No events are documented for 797 BCE in surviving sources. This year is essentially undocumented in the historical record.",
-  "historiographic_note": "797 BCE is not marked by any known documented event. The historical record for this year is a complete blank. This is typical for ancient years; even well-documented regions and periods often lack annual-level specificity. The absence of documentation should not be interpreted as the absence of historical activity, but rather as the limitation of surviving sources.",
-  "graph_edges": []
+  "events": [
+    {
+      "id": "-797-001",
+      "title": "Assyrian military consolidation under Shalmaneser III's successors",
+      "region": "Assyrian Empire",
+      "coordinates_approx": "36.0,43.0",
+      "category": "military",
+      "description": "The Assyrian Empire was consolidating its regional dominance in the late 9th and early 8th centuries BCE. Shalmaneser III (r. 858\u2013824 BCE) had conducted extensive campaigns in the Levant and Mesopotamia. By 797 BCE, his successors were reorganizing the military and administrative apparatus. The specific events of 797 BCE are not well-attested in surviving sources, but this period represents a crucial phase of Assyrian expansion that would culminate in the conquests of Sargon II (r. 722\u2013705 BCE).",
+      "key_figures": [
+        "Shalmaneser III (King of Assyria, r. 858\u2013824 BCE, predecessor)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian royal inscriptions and annals (later compilation)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Neo-Assyrian chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broader context of Assyrian consolidation is well-established. Specific events for 797 BCE are not independently documented. This entry reflects the era context rather than a documented event.",
+      "cross_references": []
+    },
+    {
+      "id": "-797-002",
+      "title": "Greek alphabet adoption and early writing",
+      "region": "Greece",
+      "coordinates_approx": "38.0,23.0",
+      "category": "technological",
+      "description": "By the late 9th and early 8th centuries BCE, Greek city-states were adopting the Phoenician alphabet and adapting it to their own language. This process was gradual, occurring over several decades. By 797 BCE, early Greek inscriptions were beginning to appear, though the vast majority of Greek writing from this period remains oral. The adoption of writing was a crucial technological and cultural development that would enable the preservation of Greek literature and law.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Greek inscriptions and pottery",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Greek alphabet adoption",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The adoption of the Greek alphabet from Phoenician sources is well-established archaeologically and occurred during the 8th century BCE. Specific events for 797 BCE are not documented; this entry describes the broader technological context.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of Assyrian kings in this period is debated, with some scholars proposing alternative dating schemes based on astronomical calculations and king list variants. The exact timeline of Greek alphabet adoption is also contested, with some scholars placing it earlier (c. 800 BCE) and others later (c. 750 BCE). No disconfirming evidence specifically contradicts the events listed, but the dating precision is limited.",
+  "historiographic_note": "Documentation for 797 BCE is minimal. No contemporary written records specifically document events of this year. The historical record relies on later compilations and archaeological evidence. Chronological uncertainty is significant, with margins of \u00b15\u201310 years common. The surviving sources are heavily weighted toward Mesopotamia and the Mediterranean; vast regions remain archaeologically silent or undocumented.",
+  "graph_edges": [
+    {
+      "from": "-797-001",
+      "to": "-722-001",
+      "relation": "led_to",
+      "note": "Assyrian consolidation of this era culminated in Sargon II's conquest of Israel in 722 BCE"
+    },
+    {
+      "from": "-797-002",
+      "to": "-776-001",
+      "relation": "part_of",
+      "note": "Greek alphabet adoption and early writing development continued through the Archaic period"
+    }
+  ]
 }

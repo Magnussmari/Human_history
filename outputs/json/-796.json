@@ -1,50 +1,95 @@
 {
   "year": -796,
   "year_label": "796 BCE",
-  "era_context": "Early Iron Age II. Shalmaneser III continues his reign and military campaigns. The Western Zhou dynasty in China is in its final years. Greek city-states are developing their political and cultural institutions. Egypt remains fragmented under competing power centers.",
+  "era_context": "The early Iron Age Mediterranean and Near East. The Neo-Assyrian Empire is consolidating regional power. The Greek Archaic period is in its early phases. Phoenician maritime networks dominate Mediterranean trade. In China, the Western Zhou dynasty is approaching its final collapse (traditionally dated to 771 BCE). Egypt remains fragmented.",
   "documentation_level": "sparse",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa",
+    "Americas",
     "Northern Europe",
-    "Central Asia and the Steppe",
-    "Mesoamerica",
-    "India",
-    "Southeast Asia"
+    "Central Asia",
+    "South Asia"
   ],
   "events": [
     {
       "id": "-796-001",
-      "title": "Shalmaneser III's military campaigns continue",
-      "region": "Assyria, Mesopotamia, Levant",
-      "coordinates_approx": "35.5, 36.0",
-      "category": "military",
-      "description": "Shalmaneser III's military campaigns continue as part of his broader program of Assyrian expansion and consolidation. These campaigns are documented in royal inscriptions and reliefs from his palace at Kalhu.",
+      "title": "Western Zhou political fragmentation",
+      "region": "China",
+      "coordinates_approx": "34.0,109.0",
+      "category": "political",
+      "description": "The Western Zhou dynasty was in its final decades of decline. By 796 BCE, regional lords (zhuhou) were consolidating power at the expense of the central Zhou authority. The traditional account attributes this to the misrule of King You (r. 781\u2013771 BCE), though modern scholars debate the extent and nature of this decline. Archaeological evidence from this period shows continued bronze production and agricultural development, but the distribution of bronzes and inscriptions indicates increasing regional autonomy.",
       "key_figures": [
-        "Shalmaneser III (King of Assyria)"
+        "King You of Zhou (r. 781\u2013771 BCE)"
       ],
       "sources": [
         {
-          "name": "Shalmaneser III's royal inscriptions and palace reliefs from Kalhu",
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled c. 109 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bronze inscriptions and oracle bone script",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Zhou sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Western Zhou decline is well-established in later chronicles and supported by archaeological evidence. The specific dating of events within this period is uncertain, with margins of \u00b15 years common.",
+      "cross_references": [
+        "Related to -798-001 (Western Zhou decline)"
+      ]
+    },
+    {
+      "id": "-796-002",
+      "title": "Phoenician trade networks in the Mediterranean",
+      "region": "Phoenicia, Mediterranean",
+      "coordinates_approx": "33.5,35.5",
+      "category": "economic",
+      "description": "Phoenician city-states were at the height of their maritime and commercial dominance in the 8th century BCE. By 796 BCE, Phoenician merchants were conducting extensive trade throughout the Mediterranean, exchanging cedar, purple dye, metalwork, and other goods for grain, wine, and raw materials. Phoenician colonies and trading posts were being established in North Africa, Sicily, and the western Mediterranean. This commercial network was crucial to the economic development of the Mediterranean world.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Phoenician settlements and shipwrecks",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Greek historiography (Herodotus, Strabo) on Phoenician trade",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Phoenician inscriptions and epigraphic evidence",
           "type": "epigraphic",
           "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Shalmaneser III's reign is well-attested (858\u2013824 BCE). Specific annual attribution is approximate.",
+      "certainty_note": "Phoenician maritime dominance and trade networks in the 8th century BCE are well-established archaeologically. Specific events for 796 BCE are not documented; this entry describes the broader economic context.",
       "cross_references": [
-        "-799-001",
-        "-798-001"
+        "Related to -798-002 (Phoenician maritime expansion)"
       ]
     }
   ],
-  "disconfirming_evidence": "No specific events are documented for 796 BCE. The entry reflects the continuation of known patterns rather than a documented event.",
-  "historiographic_note": "796 BCE is not marked by any specific documented event. The historical record is sparse and relies on inference from the broader pattern of Shalmaneser III's reign.",
+  "disconfirming_evidence": "The traditional narrative of Western Zhou decline under King You is questioned by some modern scholars, who argue for a more gradual process of decentralization rather than a sudden collapse. The exact causes and timeline of the Zhou collapse remain debated. Phoenician trade chronologies are also contested, with some scholars proposing earlier or later dates for the establishment of certain colonies and trading posts.",
+  "historiographic_note": "Documentation for 796 BCE is minimal. No contemporary written records specifically document events of this year. The historical record relies on later compilations and archaeological evidence. Chronological uncertainty is significant, with margins of \u00b15\u201310 years common. The surviving sources are heavily weighted toward the Mediterranean and China; vast regions remain archaeologically silent.",
   "graph_edges": [
     {
       "from": "-796-001",
-      "to": "-799-001",
-      "relation": "part_of",
-      "note": "Continuation of Shalmaneser III's military program"
+      "to": "-771-001",
+      "relation": "led_to",
+      "note": "Western Zhou political fragmentation culminated in the traditional collapse date of 771 BCE"
+    },
+    {
+      "from": "-796-002",
+      "to": "-814-001",
+      "relation": "contemporary_with",
+      "note": "Phoenician trade networks of this era include the traditional founding of Carthage (814 BCE)"
     }
   ]
 }
