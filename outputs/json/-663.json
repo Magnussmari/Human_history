@@ -1,0 +1,98 @@
+{
+  "year": -663,
+  "year_label": "663 BCE",
+  "era_context": "Ashurbanipal's reign (668\u2013627 BCE) continued at its height. Egypt under Psamtik I was consolidating the Twenty-sixth Dynasty. The Greek Archaic period was advancing with increasing hoplite warfare and the development of the polis system. Phoenician city-states (Tyre, Sidon, Byblos) maintained maritime dominance under Assyrian suzerainty. The Iron Age Levant was politically fragmented but economically vibrant.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Central Asia and the Steppe",
+    "Early Iron Age India and Southeast Asia",
+    "Pre-Columbian Americas"
+  ],
+  "events": [
+    {
+      "id": "-663-001",
+      "title": "Ashurbanipal's sack of Thebes (No-Amon) in Egypt",
+      "region": "Egypt, Upper Egypt (Thebes/Waset)",
+      "coordinates_approx": "25.7, 32.6",
+      "category": "military",
+      "description": "Ashurbanipal's forces, responding to Egyptian resistance or rebellion, sacked the great city of Thebes (Egyptian: Waset; Greek: Thebes or No-Amon), one of the most important religious and administrative centres of Egypt. The destruction was thorough and symbolic, demonstrating Assyrian military dominance and the vulnerability of even the greatest Egyptian cities. The sack of Thebes became legendary in the ancient world and is referenced in later Greek sources (notably the prophet Nahum). This campaign reasserted Assyrian hegemony over Upper Egypt and eliminated potential centres of resistance to Psamtik I's rule.",
+      "key_figures": [
+        "Ashurbanipal (King of Assyria)",
+        "Psamtik I (Egyptian pharaoh, Twenty-sixth Dynasty \u2014 nominally allied or subordinate)"
+      ],
+      "sources": [
+        {
+          "name": "Ashurbanipal's annals (cuneiform inscriptions, Nineveh)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Nahum 3:8\u201310 (Biblical reference to the fall of Thebes, later compilation but referencing this event)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian historical records and archaeological evidence from Thebes",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashurbanipal's annals claim the sack of Thebes, but the exact date is debated. Egyptian chronology places this campaign c. 663 BCE, but some scholars argue for 664 or 662 BCE. The event is well-attested in Assyrian sources but less clearly documented in Egyptian records, suggesting it may have been a traumatic event that later Egyptian sources downplayed.",
+      "cross_references": [
+        "Related to -664-001 (earlier Assyrian intervention in Egypt)",
+        "Precedes -660-001 (further Assyrian campaigns)"
+      ]
+    },
+    {
+      "id": "-663-002",
+      "title": "Corinthian colonisation of Syracuse in Sicily",
+      "region": "Sicily, Syracuse",
+      "coordinates_approx": "37.1, 15.3",
+      "category": "exploration",
+      "description": "Corinthian colonists, under the leadership of Archias (according to later tradition), established the colony of Syracuse on the eastern coast of Sicily. Syracuse would become one of the most powerful Greek city-states in the western Mediterranean, rivalling Athens and Corinth itself by the 5th century BCE. The colony was strategically positioned to control trade routes and agricultural hinterland, and it quickly became a centre of Doric Greek culture and military power.",
+      "key_figures": [
+        "Archias (legendary founder of Syracuse, according to Thucydides and later sources)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War (Book VI.3) \u2014 later account, written c. 400 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence: early Greek pottery and settlement layers at Syracuse",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Strabo, Geography (later Roman-period compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The traditional date of Syracuse's foundation is 733 BCE according to some sources, but other scholars place it c. 663 BCE. The discrepancy reflects uncertainty in Greek chronology for the Archaic period. Archaeological evidence suggests Greek settlement at Syracuse by the mid-7th century, but the exact founding date is debated within \u00b120 years.",
+      "cross_references": [
+        "Related to -664-002 (Corinthian expansion)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Ashurbanipal's sack of Thebes is contested. Some scholars place it in 664 BCE, others in 662 BCE. The Assyrian annals may have conflated multiple campaigns or exaggerated the extent of destruction. Egyptian sources are largely silent on this event, which is suspicious and may indicate that the sack was less complete or less significant than Assyrian propaganda suggests. Regarding Syracuse, the traditional foundation date of 733 BCE (from Eusebius and other sources) contradicts the 663 BCE date given by some scholars. Modern archaeology has not definitively resolved this discrepancy, and the 'Archias' founder figure may be legendary.",
+  "historiographic_note": "The record for 663 BCE is heavily weighted toward Assyrian imperial sources, which are propagandistic and may exaggerate military victories. Egyptian sources are fragmentary and often omit or minimise foreign military interventions. Greek sources for this period are almost entirely later compilations (Thucydides, Strabo) written 200+ years after the events, and they often conflate or misdate early colonisation. Archaeological evidence from Sicily and Egypt provides some independent verification but cannot pinpoint exact years. The absence of contemporary Greek written sources for this period is a major gap.",
+  "graph_edges": [
+    {
+      "from": "-663-001",
+      "to": "-664-001",
+      "relation": "contemporary_with",
+      "note": "Part of the same Assyrian campaign season in Egypt"
+    },
+    {
+      "from": "-663-002",
+      "to": "-650-001",
+      "relation": "part_of",
+      "note": "Syracuse's foundation was part of the broader Greek colonisation movement"
+    }
+  ]
+}

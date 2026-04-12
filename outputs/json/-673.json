@@ -1,0 +1,81 @@
+{
+  "year": -673,
+  "year_label": "673 BCE",
+  "era_context": "The Neo-Assyrian Empire under Esarhaddon continues its consolidation of power. In Egypt, the 26th Dynasty (Saite period) is beginning to emerge as a native Egyptian power, though still under Assyrian suzerainty. In Greece, the Archaic period continues with ongoing city-state development and colonization. In China, the Spring and Autumn period continues with regional states competing for dominance.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "South Asia (limited written records for this period)"
+  ],
+  "events": [
+    {
+      "id": "-673-001",
+      "title": "Esarhaddon's administrative reorganization of conquered territories",
+      "region": "Neo-Assyrian Empire",
+      "coordinates_approx": "35.0, 34.0",
+      "category": "political",
+      "description": "Esarhaddon continues the administrative consolidation of the Assyrian Empire, implementing policies of mass deportation and resettlement to prevent rebellion and redistribute populations. This period sees the formalization of Assyrian provincial administration, with appointed governors overseeing conquered territories. The policy of forced population movement becomes a hallmark of Assyrian imperial practice, affecting populations from Mesopotamia to Egypt. These administrative reforms strengthen Assyrian control but also create resentment among subject peoples.",
+      "key_figures": [
+        "Esarhaddon (King of Assyria, r. 681\u2013669 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Esarhaddon's Annals and administrative texts (cuneiform)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Esarhaddon's administrative policies are well-documented in contemporary cuneiform sources. The specific year 673 BCE falls within his reign and the period of consolidation.",
+      "cross_references": [
+        "-674-001"
+      ]
+    },
+    {
+      "id": "-673-002",
+      "title": "Psamtik I's rise to prominence in Egypt (traditional dating)",
+      "region": "Egypt",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "According to Egyptian tradition, Psamtik I (664\u2013610 BCE) begins his rise to power during this period, though the exact chronology is disputed. Psamtik I will eventually establish the 26th Dynasty (Saite period) and restore Egyptian independence from Assyrian control. The traditional dating places his early career in the 670s BCE, though some scholars argue for a slightly later date. His rise represents the beginning of a native Egyptian revival that will culminate in the expulsion of Assyrian forces.",
+      "key_figures": [
+        "Psamtik I (future Pharaoh of Egypt, r. 664\u2013610 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Manetho, Aegyptiaca (later compilation, 3rd century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The dating of Psamtik I's early career is uncertain. Traditional sources place his rise in the 670s BCE, but the exact year is not firmly established. Egyptian chronology for this period has been subject to revision by modern scholars.",
+      "cross_references": [
+        "-664-PSAMTIK_I_REIGN"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Psamtik I's rise is based on Manetho's Aegyptiaca, written over 300 years after the events. Modern Egyptologists debate whether Psamtik I's rise should be dated to the 670s or 660s BCE. Some scholars argue that the Saite period began later than traditionally thought. The significance of 673 BCE specifically is not marked by any documented event; it is assigned here by convention within Esarhaddon's reign.",
+  "historiographic_note": "The historical record for 673 BCE is again dominated by Assyrian sources. Egyptian sources are present but less detailed and subject to later reinterpretation. Greek sources remain absent from contemporary records. The record is heavily weighted toward political and military events. The dating of Egyptian events in this period is particularly uncertain due to reliance on later compilations like Manetho.",
+  "graph_edges": [
+    {
+      "from": "-673-001",
+      "to": "-674-001",
+      "relation": "part_of",
+      "note": "Continuation of Esarhaddon's consolidation of Assyrian power"
+    },
+    {
+      "from": "-673-002",
+      "to": "-664-PSAMTIK_I_REIGN",
+      "relation": "led_to",
+      "note": "Psamtik I's rise in the 670s leads to his establishment of the 26th Dynasty and Egyptian independence"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "year": -668,
+  "year_label": "668 BCE",
+  "era_context": "Ashurbanipal's first full regnal year as King of Assyria. The Neo-Assyrian Empire is at the height of its power, controlling territories from Egypt to the Persian Gulf. Egypt is divided between Nubian and native Egyptian dynasties. Greece continues its Archaic development. China's Spring and Autumn period sees ongoing interstate conflict.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-668-001",
+      "title": "Ashurbanipal's consolidation of Assyrian power and early military campaigns",
+      "region": "Neo-Assyrian Empire, Mesopotamia, Levant",
+      "coordinates_approx": "43.2, 36.1",
+      "category": "military",
+      "description": "During his first full year of reign, Ashurbanipal moved to consolidate Assyrian control over vassal states and suppress any challenges to his authority. He conducted campaigns in the Levant and received tribute from various kingdoms. These early campaigns established the pattern of military aggression that would characterise his reign and extend Assyrian hegemony across the known world.",
+      "key_figures": [
+        "Ashurbanipal (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Ashurbanipal's annals and inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashurbanipal's campaigns are documented in his inscriptions, but the precise chronology of individual campaigns is sometimes uncertain. Dating within \u00b12 years.",
+      "cross_references": [
+        "-669-001 (Ashurbanipal's accession)"
+      ]
+    },
+    {
+      "id": "-668-002",
+      "title": "Shamash-shum-ukin installed as King of Babylon",
+      "region": "Babylon, Mesopotamia",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "Ashurbanipal appointed his brother Shamash-shum-ukin as King of Babylon, maintaining Assyrian control over the southern Mesopotamian kingdom while allowing a degree of local autonomy. This arrangement would hold for approximately 20 years before tensions erupted into civil war. The appointment reflects Ashurbanipal's strategy of delegating authority to trusted family members while maintaining ultimate Assyrian hegemony.",
+      "key_figures": [
+        "Ashurbanipal (King of Assyria)",
+        "Shamash-shum-ukin (King of Babylon, appointed)"
+      ],
+      "sources": [
+        {
+          "name": "Ashurbanipal's inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Babylonian Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The appointment of Shamash-shum-ukin is well-attested in Assyrian and Babylonian sources. Dating is secure within \u00b11 year.",
+      "cross_references": [
+        "-652-001 (Shamash-shum-ukin's rebellion)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Some scholars debate whether Shamash-shum-ukin was appointed in 668 BCE or slightly later (667 BCE). The Babylonian Chronicle provides a near-contemporary reference, but minor chronological discrepancies exist in different scholarly reconstructions. No major disconfirming evidence undermines the basic narrative.",
+  "historiographic_note": "Documentation for 668 BCE is strong, relying primarily on Ashurbanipal's own inscriptions and the Babylonian Chronicle. These sources are state-sponsored and propagandistic, emphasising Assyrian military achievements and royal ideology. The perspective of conquered peoples and the broader social and economic impacts of Assyrian rule are largely absent from surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-668-002",
+      "to": "-652-001",
+      "relation": "led_to",
+      "note": "Shamash-shum-ukin's appointment as King of Babylon eventually led to his rebellion against Ashurbanipal"
+    }
+  ]
+}

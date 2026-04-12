@@ -1,0 +1,88 @@
+{
+  "year": -674,
+  "year_label": "674 BCE",
+  "era_context": "The Late Iron Age in the Eastern Mediterranean and Near East. The Neo-Assyrian Empire under Esarhaddon (681\u2013669 BCE) is at its territorial zenith, having conquered Egypt and consolidated control over Mesopotamia, the Levant, and Anatolia. In Greece, the Archaic period is underway; city-states are consolidating power and beginning colonization. In China, the Spring and Autumn period is in progress under the Zhou dynasty's nominal authority, with regional states competing for hegemony.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological evidence)",
+    "Mesoamerica (limited synchronization with Old World chronologies)"
+  ],
+  "events": [
+    {
+      "id": "-674-001",
+      "title": "Esarhaddon's consolidation of Assyrian control over Egypt and the Levant",
+      "region": "Neo-Assyrian Empire, Egypt, Levant",
+      "coordinates_approx": "35.0, 34.0",
+      "category": "political",
+      "description": "Esarhaddon, king of Assyria (681\u2013669 BCE), continues his campaign to secure Assyrian hegemony over Egypt and the eastern Mediterranean. By 674 BCE, Assyrian administrative control extends from Mesopotamia through the Levant into Lower Egypt. This represents the apex of Neo-Assyrian territorial expansion. The consolidation involves the deportation of populations, the installation of Assyrian governors, and the extraction of tribute from vassal states. This period establishes the model of imperial administration that will define the Assyrian state until its collapse in 609 BCE.",
+      "key_figures": [
+        "Esarhaddon (King of Assyria, r. 681\u2013669 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Esarhaddon's Annals (cuneiform inscriptions from Nineveh and Babylon)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian records and temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Esarhaddon's reign and campaigns are well-documented in contemporary cuneiform sources and Egyptian records. The date 674 BCE falls within his documented period of Egyptian campaigns (671\u2013669 BCE).",
+      "cross_references": [
+        "Relates to -671-001 (Esarhaddon's invasion of Egypt)"
+      ]
+    },
+    {
+      "id": "-674-002",
+      "title": "Greek colonization and city-state consolidation in the Archaic period",
+      "region": "Greece, Ionia, Southern Italy, Sicily",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "exploration",
+      "description": "During the 7th century BCE, Greek city-states intensify colonization efforts throughout the Mediterranean and Black Sea regions. By 674 BCE, colonies have been established in Sicily (Syracuse, Gela), Southern Italy (Cumae), and the Black Sea (Sinope, Trapezus). This expansion is driven by population pressure, internal conflict, and the search for agricultural land and trade opportunities. The colonization process facilitates the spread of Greek culture, alphabet, and political institutions, and establishes trade networks that will define the Classical Greek world.",
+      "key_figures": [
+        "Archias of Corinth (traditional founder of Syracuse, though dating is uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book VI (later compilation but drawing on earlier sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from colonial sites (pottery, settlement patterns)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of Greek colonization in the 7th century is well-established archaeologically. Specific dates for individual colonies are often uncertain; traditional dates from later sources (Thucydides, Strabo) may be off by 10\u201320 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Greek colonies relies heavily on later literary sources (Thucydides, Strabo) written centuries after the events. Archaeological evidence suggests some colonies were established earlier or later than traditionally dated. For example, the founding of Syracuse is traditionally dated to 733 BCE, but archaeological evidence is ambiguous. The significance of 674 BCE specifically is not marked by any major event in Greek history; the year is chosen here to represent the broader colonization process of the 7th century.",
+  "historiographic_note": "The historical record for 674 BCE is dominated by Assyrian sources, which are abundant and contemporary. Egyptian sources provide corroboration but are less detailed. Greek sources are entirely from later compilations (5th\u20134th century BCE and later), introducing potential distortions. The record is heavily weighted toward political and military events; economic and social history are less well-documented. Sub-Saharan Africa, Northern Europe, and the Americas are essentially absent from the written record for this year.",
+  "graph_edges": [
+    {
+      "from": "-674-001",
+      "to": "-671-001",
+      "relation": "part_of",
+      "note": "Esarhaddon's consolidation of Egyptian control is part of his broader campaign of conquest and administration (681\u2013669 BCE)"
+    },
+    {
+      "from": "-674-002",
+      "to": "-600-GREEK_ARCHAIC",
+      "relation": "part_of",
+      "note": "Greek colonization in the 7th century is part of the broader Archaic period (800\u2013480 BCE)"
+    }
+  ]
+}

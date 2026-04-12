@@ -1,0 +1,86 @@
+{
+  "year": -664,
+  "year_label": "664 BCE",
+  "era_context": "The Late Assyrian Empire under Ashurbanipal (668\u2013627 BCE) was at its territorial zenith, dominating Mesopotamia, the Levant, Egypt, and parts of Anatolia. In Egypt, the Twenty-sixth Dynasty (Saite Period) was consolidating power after the expulsion of Kushite rule. Greece was in the Archaic period, with city-states developing hoplite warfare and early colonisation. The Iron Age Levant saw Phoenician maritime expansion and the consolidation of smaller kingdoms under Assyrian vassalage.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Central Asia and the Steppe (sparse contemporary records)",
+    "Early Iron Age Italy and Western Mediterranean (archaeological record incomplete)"
+  ],
+  "events": [
+    {
+      "id": "-664-001",
+      "title": "Battle of the Nile Delta (Pelusium) \u2014 Assyrian intervention in Egypt",
+      "region": "Egypt, Nile Delta",
+      "coordinates_approx": "31.0, 31.5",
+      "category": "military",
+      "description": "Ashurbanipal's forces, under the command of his general Esarhaddon's successor, intervened in Egyptian politics to support Psamtik I (founder of the Twenty-sixth Dynasty) against the Kushite Twenty-fifth Dynasty. The Assyrian army defeated the Kushite forces and their Egyptian allies, securing Egyptian vassalage to Assyria and establishing Psamtik I as the dominant pharaoh. This campaign consolidated Assyrian hegemony over the eastern Mediterranean and ensured a compliant Egypt for the next two decades.",
+      "key_figures": [
+        "Ashurbanipal (King of Assyria)",
+        "Psamtik I (Egyptian pharaoh, Twenty-sixth Dynasty)",
+        "Taharqa or Tantamani (Kushite pharaoh, Twenty-fifth Dynasty \u2014 defeated)"
+      ],
+      "sources": [
+        {
+          "name": "Ashurbanipal's annals (cuneiform inscriptions from Nineveh)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian historical records and Saite Period chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The date 664 BCE for this campaign is derived from Egyptian chronology and Assyrian king-list synchronisms. Some sources place the final Kushite expulsion slightly earlier (c. 667 BCE); the exact year of Psamtik I's consolidation is debated within \u00b13 years.",
+      "cross_references": [
+        "Related to -667-001 (earlier Assyrian intervention in Egypt)",
+        "Precedes -660-001 (Ashurbanipal's Nubian campaign)"
+      ]
+    },
+    {
+      "id": "-664-002",
+      "title": "Corinthian pottery and early Greek colonisation expansion",
+      "region": "Greece, Corinth; Mediterranean colonies",
+      "coordinates_approx": "37.9, 23.0",
+      "category": "cultural",
+      "description": "Corinthian pottery workshops were producing the distinctive black-figure and orientalising wares that dominated Mediterranean trade in the mid-7th century BCE. Corinthian colonists were actively establishing settlements in Sicily (Syracuse, Corcyra), southern Italy, and the western Mediterranean. This period marks the height of Corinthian commercial and cultural influence before Athenian dominance in the 5th century.",
+      "key_figures": [
+        "Corinthian potters and merchants (unnamed in sources)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence: Corinthian pottery deposits and settlement stratigraphy in Sicily and southern Italy",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Thucydides, History of the Peloponnesian War (Book VI) \u2014 later account of colonisation",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Pottery typology and archaeological stratigraphy provide secure dating. The mid-7th century is well-established for Corinthian expansion.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Psamtik I's consolidation and the final expulsion of Kushite rule remains debated. Some Egyptologists place the decisive Assyrian intervention as early as 667 BCE, while others extend it to 660 BCE. The traditional narrative of a clean Assyrian victory may oversimplify a more gradual process of Egyptian reassertion. Additionally, the extent of Assyrian direct control over Egypt after 664 BCE is disputed; Psamtik I may have been nominally vassalised but increasingly independent.",
+  "historiographic_note": "The historical record for 664 BCE is dominated by Assyrian and Egyptian sources, both of which are court-sponsored and may emphasise military victory and political legitimacy over economic or social realities. Greek sources for this period are sparse and often legendary. Sub-Saharan African and Central Asian events are almost entirely absent from surviving documentation. The Assyrian record is rich but reflects imperial ideology; Egyptian sources from the Saite Period are fragmentary. Modern chronology depends heavily on synchronisms between Assyrian king-lists and Egyptian regnal dates, which introduce \u00b12\u20133 year uncertainties.",
+  "graph_edges": [
+    {
+      "from": "-664-001",
+      "to": "-660-001",
+      "relation": "led_to",
+      "note": "Ashurbanipal's consolidation of Egyptian vassalage enabled further campaigns in Nubia and the Levant"
+    },
+    {
+      "from": "-664-002",
+      "to": "-650-001",
+      "relation": "part_of",
+      "note": "Corinthian colonisation was part of the broader Archaic Greek expansion movement"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "year": -669,
+  "year_label": "669 BCE",
+  "era_context": "The Neo-Assyrian Empire under Esarhaddon (681\u2013669 BCE) represents the height of Assyrian territorial expansion and administrative sophistication. Egypt is fragmented under the Late Period, with Nubian (Kushite) and native Egyptian dynasties competing for control. In Greece, the Archaic period is underway; city-states are consolidating power and beginning colonisation. China's Spring and Autumn period sees the decline of Zhou royal authority and the rise of regional hegemon states.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (Maya and Olmec records are sparse for this specific year)",
+    "Southeast Asia (minimal contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-669-001",
+      "title": "Death of Esarhaddon; Ashurbanipal becomes King of Assyria",
+      "region": "Neo-Assyrian Empire (Mesopotamia)",
+      "coordinates_approx": "43.2, 36.1",
+      "category": "political",
+      "description": "Esarhaddon, who had rebuilt Assyrian power after civil war, died in 669 BCE. His son Ashurbanipal succeeded him, becoming one of the most powerful and culturally significant Assyrian kings. Ashurbanipal would expand the empire to its greatest territorial extent and establish the famous Library of Nineveh. The succession was contested but ultimately secured, marking the beginning of Ashurbanipal's 42-year reign.",
+      "key_figures": [
+        "Ashurbanipal (King of Assyria, r. 668\u2013627 BCE)",
+        "Esarhaddon (predecessor, d. 669 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Ashurbanipal's inscriptions and royal annals",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Babylonian Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ashurbanipal's accession is well-attested in Assyrian royal inscriptions and synchronises with Babylonian records. The date 668 BCE (or 669 BCE depending on regnal year counting) is secure within \u00b11 year.",
+      "cross_references": [
+        "Relates to -681-001 (Esarhaddon's accession)",
+        "Precedes -663-001 (Sack of Thebes)"
+      ]
+    },
+    {
+      "id": "-669-002",
+      "title": "Ashurbanipal's early campaigns in the Levant and Egypt",
+      "region": "Levant, Egypt, Neo-Assyrian Empire",
+      "coordinates_approx": "35.0, 32.0",
+      "category": "military",
+      "description": "In the early years of his reign, Ashurbanipal consolidated Assyrian control over the Levantine vassal states and prepared for intervention in Egypt. He received tribute from Phoenician cities and other Levantine kingdoms. These campaigns were part of a broader strategy to secure Assyrian hegemony over the eastern Mediterranean and to challenge Egyptian influence in the region.",
+      "key_figures": [
+        "Ashurbanipal (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Ashurbanipal's annals and inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashurbanipal's early campaigns are documented in his inscriptions, but the precise chronology of individual campaigns in the first years of his reign is sometimes uncertain. Dating is approximate within \u00b12 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Esarhaddon's death and Ashurbanipal's accession has been debated by scholars. Some sources place it in 668 BCE rather than 669 BCE, depending on whether regnal years are counted inclusively or exclusively. The Babylonian Chronicle provides a near-contemporary check, but minor discrepancies exist in different scholarly reconstructions. No major disconfirming evidence undermines the basic narrative of succession.",
+  "historiographic_note": "The Neo-Assyrian period is exceptionally well-documented through royal inscriptions, administrative texts, and later chronicles. However, these sources are heavily biased toward royal ideology and military achievements. Ashurbanipal's own inscriptions are propagandistic and may exaggerate military successes. The perspective of conquered peoples is largely absent. Babylonian and Egyptian sources provide some counterbalance but are also state-sponsored.",
+  "graph_edges": [
+    {
+      "from": "-669-001",
+      "to": "-668-001",
+      "relation": "led_to",
+      "note": "Ashurbanipal's accession initiated his reign and subsequent military campaigns"
+    },
+    {
+      "from": "-669-001",
+      "to": "-663-001",
+      "relation": "led_to",
+      "note": "Ashurbanipal's consolidation of power enabled the later sack of Thebes"
+    }
+  ]
+}

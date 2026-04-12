@@ -1,0 +1,115 @@
+{
+  "year": -670,
+  "year_label": "670 BCE",
+  "era_context": "The Neo-Assyrian Empire under Esarhaddon is at its territorial peak, having just conquered Egypt. In Greece, the Archaic period continues with ongoing city-state development and colonization. In China, the Spring and Autumn period continues with regional competition. In the Mediterranean, Phoenician and Greek trade networks are expanding.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-670-001",
+      "title": "Esarhaddon's consolidation of Assyrian control over Egypt and the Levant",
+      "region": "Neo-Assyrian Empire, Egypt, Levant",
+      "coordinates_approx": "35.0, 34.0",
+      "category": "political",
+      "description": "In the year following his invasion of Egypt, Esarhaddon consolidates Assyrian control over Egypt and the Levant. Assyrian governors are established in major cities, and tribute is extracted from vassal states. The consolidation involves the suppression of rebellions and the deportation of potentially rebellious populations. Esarhaddon's administrative system becomes a model for later empires. The consolidation of Assyrian control represents the apex of Neo-Assyrian territorial expansion, though maintaining control over such a vast empire proves challenging.",
+      "key_figures": [
+        "Esarhaddon (King of Assyria, r. 681\u2013669 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Esarhaddon's Annals (cuneiform inscriptions)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative records and temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Esarhaddon's consolidation of control following his Egyptian invasion is well-documented in contemporary sources. The year 670 BCE falls within his documented period of consolidation.",
+      "cross_references": [
+        "-671-001",
+        "-671-003"
+      ]
+    },
+    {
+      "id": "-670-002",
+      "title": "Greek colonization and trade expansion in the Mediterranean",
+      "region": "Greece, Mediterranean, Black Sea",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "exploration",
+      "description": "Greek city-states continue their colonization efforts throughout the Mediterranean and Black Sea regions during the 7th century BCE. By 670 BCE, Greek colonies have been established in Sicily, Southern Italy, the Aegean, and the Black Sea. This expansion is driven by population pressure, internal conflict, and the search for trade opportunities. Greek colonization facilitates the spread of Greek culture, alphabet, and political institutions. The establishment of trade networks connects Greece with Egypt, the Levant, and the Black Sea region, facilitating the exchange of goods, ideas, and technologies.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from colonial sites (pottery, settlement patterns, inscriptions)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Later Greek sources (Thucydides, Strabo)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of Greek colonization in the 7th century is well-established archaeologically. Specific dates for individual colonies are often uncertain; traditional dates from later sources may be off by 10\u201320 years.",
+      "cross_references": [
+        "-674-002"
+      ]
+    },
+    {
+      "id": "-670-003",
+      "title": "Phoenician trade and colonization in the Mediterranean",
+      "region": "Phoenicia, Mediterranean, North Africa",
+      "coordinates_approx": "33.0, 35.0",
+      "category": "exploration",
+      "description": "Phoenician city-states, particularly Tyre and Sidon, continue their extensive trade and colonization activities throughout the Mediterranean. By 670 BCE, Phoenician colonies have been established in North Africa (including Carthage, traditionally founded in 814 BCE), Spain, and the western Mediterranean. Phoenician trade networks connect the Mediterranean with Egypt, the Levant, and beyond. The Phoenicians are known for their maritime skills, their development of the alphabet, and their role as intermediaries in Mediterranean trade. However, Phoenician independence is threatened by Assyrian expansion; Tyre and Sidon are vassals of the Assyrian Empire.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Phoenician sites and colonies (pottery, inscriptions, settlement patterns)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Later Greek and Roman sources (Herodotus, Livy)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Phoenician trade and colonization in the 7th century is well-attested archaeologically. The traditional dating of Carthage's founding (814 BCE) is based on later sources and is subject to scholarly debate. The extent of Phoenician activity in 670 BCE specifically is not precisely documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Carthage's founding to 814 BCE is based on later sources (Livy, Strabo) and is subject to scholarly debate. Archaeological evidence suggests that Carthage may have been founded later, possibly in the 8th or 7th century BCE. The extent of Phoenician independence during this period is also debated; some sources suggest that Phoenician city-states were more tightly controlled by Assyria than traditional narratives indicate. The significance of 670 BCE specifically is not marked by any major event in Phoenician or Greek history; the year is chosen here to represent the broader pattern of Mediterranean colonization and trade.",
+  "historiographic_note": "The historical record for 670 BCE is dominated by Assyrian sources for the Near East and Egypt. Greek and Phoenician sources are absent from contemporary records; our knowledge of Greek and Phoenician activities in this period comes primarily from archaeological evidence and later literary sources. The record is heavily weighted toward political and military events; economic and social history are less well-documented. The perspective of colonized peoples and the social and economic impact of colonization are not well-represented in surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-670-001",
+      "to": "-671-001",
+      "relation": "part_of",
+      "note": "Consolidation of Assyrian control following the invasion of Egypt"
+    },
+    {
+      "from": "-670-002",
+      "to": "-600-GREEK_ARCHAIC",
+      "relation": "part_of",
+      "note": "Greek colonization in the 7th century is part of the broader Archaic period"
+    },
+    {
+      "from": "-670-003",
+      "to": "-600-PHOENICIAN_TRADE",
+      "relation": "part_of",
+      "note": "Phoenician trade and colonization in the 7th century is part of the broader pattern of Phoenician expansion"
+    }
+  ]
+}

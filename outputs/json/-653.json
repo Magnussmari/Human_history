@@ -1,0 +1,113 @@
+{
+  "year": -653,
+  "year_label": "653 BCE",
+  "era_context": "Mid-7th century BCE: Neo-Assyrian Empire at its height under Esarhaddon, Greek archaic period with ongoing colonization, early Zhou Dynasty in China, and the rise of the 26th Dynasty in Egypt. This era is marked by imperial consolidation, alphabetic literacy expansion, and the development of hoplite warfare.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-653-001",
+      "title": "Assyrian military operations and vassal state management",
+      "region": "Neo-Assyrian Empire, Levant",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "military",
+      "description": "Esarhaddon continued the administrative and military consolidation of Assyrian territories. By 653 BCE, the empire was managing an extensive network of vassal states through a combination of military garrisons, deportation policies, and tribute extraction. The Assyrian administrative system was among the most sophisticated of the ancient world, with detailed records of tribute, military organization, and provincial governance.",
+      "key_figures": [
+        "Esarhaddon (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Esarhaddon's royal inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Cuneiform administrative records from Nineveh",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Esarhaddon's reign is well-documented; specific annual events have \u00b12\u20133 year uncertainty in absolute dating.",
+      "cross_references": [
+        "-654-001"
+      ]
+    },
+    {
+      "id": "-653-002",
+      "title": "Greek pottery and trade development",
+      "region": "Greece, Mediterranean",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "economic",
+      "description": "The mid-7th century BCE saw the development of distinctive Greek pottery styles, particularly Corinthian and Attic wares, which became major trade commodities. By 653 BCE, Greek merchants were establishing trade networks across the Mediterranean. Pottery evidence shows increasing standardization and mass production, indicating growing commercial sophistication. These trade networks facilitated cultural exchange and the spread of alphabetic writing.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from pottery deposits and shipwrecks",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Ceramic analysis and typology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Pottery dating is based on stratigraphic context and typological sequences; specific annual dating is uncertain, with \u00b110\u201320 year margins typical for this period.",
+      "cross_references": [
+        "-654-002"
+      ]
+    },
+    {
+      "id": "-653-003",
+      "title": "Nubian resistance to Assyrian expansion",
+      "region": "Egypt, Nubia",
+      "coordinates_approx": "20.0, 32.0",
+      "category": "military",
+      "description": "The Nubian kingdom, under rulers like Taharqa, resisted Assyrian expansion into Egypt. By 653 BCE, the conflict between Nubian and Assyrian interests in Egypt was ongoing. The Nubian 25th Dynasty had been displaced by Assyrian pressure, and the 26th Dynasty (Saite period) was beginning to consolidate power with some Assyrian support. This period saw significant political realignment in the eastern Mediterranean and North Africa.",
+      "key_figures": [
+        "Taharqa (Nubian Pharaoh)",
+        "Psamtik I (26th Dynasty Egypt, beginning his reign c. 664 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and royal stelae",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Nubian archaeological evidence",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Egyptian and Nubian chronology for this period is relatively well-established through king lists and astronomical data, with \u00b11\u20132 year uncertainty.",
+      "cross_references": [
+        "-654-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The extent of Nubian political power and Assyrian military success in Egypt is debated. Some scholars argue that Assyrian control of Egypt was more limited and shorter-lived than traditional accounts suggest. The dating of the transition from the 25th to 26th Dynasty has been revised by some scholars, potentially affecting the chronology of events in this year.",
+  "historiographic_note": "The record for 653 BCE is dominated by Assyrian cuneiform sources and Egyptian temple inscriptions. Greek sources are later compilations. The bias toward imperial and elite perspectives is pronounced; the experiences of common people, enslaved populations, and non-state societies are largely absent from surviving records.",
+  "graph_edges": [
+    {
+      "from": "-653-001",
+      "to": "-654-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of Esarhaddon's military and administrative consolidation"
+    },
+    {
+      "from": "-653-003",
+      "to": "-664-001",
+      "relation": "part_of",
+      "note": "Part of the broader conflict over Egypt between Nubian and Assyrian powers"
+    }
+  ]
+}

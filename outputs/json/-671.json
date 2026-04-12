@@ -1,0 +1,134 @@
+{
+  "year": -671,
+  "year_label": "671 BCE",
+  "era_context": "The Neo-Assyrian Empire under Esarhaddon reaches its territorial zenith. Esarhaddon's invasion of Egypt in 671 BCE marks a major military achievement. In Greece, the Archaic period continues. In China, the Spring and Autumn period continues with regional competition.",
+  "documentation_level": "rich",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-671-001",
+      "title": "Esarhaddon's invasion and conquest of Egypt",
+      "region": "Egypt, Levant, Neo-Assyrian Empire",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "military",
+      "description": "In 671 BCE, Esarhaddon launches a major military campaign against Egypt, invading from the Levant and defeating the Egyptian forces. Esarhaddon captures Memphis, the capital of Lower Egypt, and establishes Assyrian control over Egypt. This conquest represents the apex of Neo-Assyrian territorial expansion. Esarhaddon installs Assyrian governors and extracts tribute from Egypt. However, Egyptian resistance continues, and Assyrian control over Egypt proves difficult to maintain. This invasion is one of the most significant military achievements of Esarhaddon's reign and is extensively documented in contemporary sources.",
+      "key_figures": [
+        "Esarhaddon (King of Assyria, r. 681\u2013669 BCE)",
+        "Taharqa (Pharaoh of Egypt, r. 690\u2013664 BCE, opponent of Esarhaddon)"
+      ],
+      "sources": [
+        {
+          "name": "Esarhaddon's Annals (cuneiform inscriptions from Nineveh and Babylon)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian records and temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho, Aegyptiaca (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Esarhaddon's invasion of Egypt in 671 BCE is well-documented in contemporary cuneiform sources and Egyptian records. The date is firmly established.",
+      "cross_references": [
+        "-674-001",
+        "-673-001",
+        "-672-001"
+      ]
+    },
+    {
+      "id": "-671-002",
+      "title": "Taharqa's resistance to Assyrian invasion",
+      "region": "Egypt, Nubia",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "military",
+      "description": "Taharqa, the Nubian pharaoh of Egypt (r. 690\u2013664 BCE), leads Egyptian resistance to Esarhaddon's invasion. Taharqa commands Egyptian forces against the Assyrian army but is defeated and forced to retreat southward. Taharqa's defeat marks the end of the 25th Dynasty (Nubian) and the beginning of Assyrian control over Egypt. However, Taharqa continues to rule in Upper Egypt and Nubia, maintaining a degree of independence. Taharqa's reign represents the last major period of Nubian dominance in Egypt before the rise of the native Egyptian 26th Dynasty.",
+      "key_figures": [
+        "Taharqa (Pharaoh of Egypt and Nubia, r. 690\u2013664 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Esarhaddon's Annals (cuneiform)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho, Aegyptiaca (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Taharqa's defeat by Esarhaddon in 671 BCE is well-documented in both Assyrian and Egyptian sources. The date is firmly established.",
+      "cross_references": [
+        "-671-001"
+      ]
+    },
+    {
+      "id": "-671-003",
+      "title": "Establishment of Assyrian administrative control over Egypt",
+      "region": "Egypt, Neo-Assyrian Empire",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Following his military victory, Esarhaddon establishes Assyrian administrative control over Egypt. Assyrian governors are installed in major Egyptian cities, and Egyptian tribute is extracted to support the Assyrian state. The Assyrian administration attempts to integrate Egypt into the Assyrian imperial system, though Egyptian resistance and the difficulty of maintaining control over such a distant territory prove challenging. This period of Assyrian control over Egypt lasts until approximately 664 BCE, when Psamtik I and the native Egyptian 26th Dynasty reassert Egyptian independence.",
+      "key_figures": [
+        "Esarhaddon (King of Assyria, r. 681\u2013669 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Esarhaddon's Annals (cuneiform)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative records and temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The establishment of Assyrian administrative control over Egypt following Esarhaddon's invasion is well-documented in contemporary sources.",
+      "cross_references": [
+        "-671-001",
+        "-671-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "While Esarhaddon's invasion of Egypt in 671 BCE is well-documented, the extent and durability of Assyrian control over Egypt is debated by modern scholars. Some sources suggest that Assyrian control was limited to Lower Egypt and the Delta region, while Upper Egypt and Nubia remained under Taharqa's control. The traditional narrative of complete Assyrian conquest may overstate the degree of control actually achieved. Additionally, the date of Taharqa's death and the transition to the 26th Dynasty is subject to scholarly debate, with some scholars arguing for a date closer to 664 BCE rather than 690 BCE for Taharqa's reign.",
+  "historiographic_note": "The historical record for 671 BCE is rich in contemporary sources, particularly Assyrian cuneiform inscriptions and Egyptian temple records. However, the sources are not neutral: Assyrian sources emphasize military victory and control, while Egyptian sources may emphasize resistance and continuity. The record is heavily weighted toward political and military events. The perspective of conquered peoples and the social and economic impact of Assyrian rule are less well-documented. The dating of Egyptian events in this period has been subject to revision by modern Egyptologists.",
+  "graph_edges": [
+    {
+      "from": "-671-001",
+      "to": "-671-002",
+      "relation": "contradicts",
+      "note": "Esarhaddon's invasion and conquest is opposed by Taharqa's resistance"
+    },
+    {
+      "from": "-671-001",
+      "to": "-671-003",
+      "relation": "led_to",
+      "note": "Esarhaddon's military victory leads to the establishment of Assyrian administrative control"
+    },
+    {
+      "from": "-671-003",
+      "to": "-664-PSAMTIK_I_REIGN",
+      "relation": "led_to",
+      "note": "Assyrian control over Egypt is eventually overthrown by Psamtik I and the 26th Dynasty"
+    }
+  ]
+}

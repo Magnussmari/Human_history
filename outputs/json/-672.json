@@ -1,0 +1,78 @@
+{
+  "year": -672,
+  "year_label": "672 BCE",
+  "era_context": "The Neo-Assyrian Empire under Esarhaddon is at its territorial peak. Egypt is under Assyrian control but experiencing internal political shifts. In Greece, the Archaic period continues with city-state consolidation and the development of hoplite warfare. In China, the Spring and Autumn period continues with regional competition.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-672-001",
+      "title": "Esarhaddon's continued military campaigns and administrative consolidation",
+      "region": "Neo-Assyrian Empire, Egypt, Levant",
+      "coordinates_approx": "35.0, 34.0",
+      "category": "military",
+      "description": "Esarhaddon continues military campaigns to suppress rebellions and consolidate Assyrian control over conquered territories. The year 672 BCE falls within the period of his Egyptian campaigns and the consolidation of Assyrian administration. Esarhaddon's military strategy combines direct conquest with the installation of loyal governors and the deportation of potentially rebellious populations. These campaigns maintain Assyrian hegemony but also generate resistance among subject peoples.",
+      "key_figures": [
+        "Esarhaddon (King of Assyria, r. 681\u2013669 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Esarhaddon's Annals (cuneiform inscriptions)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Esarhaddon's reign and military campaigns are well-documented in contemporary sources. The year 672 BCE falls within his documented period of activity.",
+      "cross_references": [
+        "-674-001",
+        "-673-001"
+      ]
+    },
+    {
+      "id": "-672-002",
+      "title": "Development of hoplite warfare in Greece",
+      "region": "Greece",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "military",
+      "description": "During the 7th century BCE, Greek city-states develop the hoplite phalanx, a formation of heavily armed infantry soldiers. This military innovation emerges gradually over the century and becomes the dominant form of Greek warfare by the Classical period. The hoplite system is enabled by improvements in bronze and iron working, the development of the hoplon (round shield), and the adoption of the spear as the primary weapon. The hoplite phalanx becomes central to Greek political and social organization, as military service becomes tied to citizenship.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from graves and settlements (weapons, armor)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Later Greek sources (Homer, Hesiod, though their dating is disputed)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The development of hoplite warfare is well-attested archaeologically through weapons and armor. The exact timeline is uncertain; the hoplite system emerges gradually over the 7th century and becomes dominant by the 6th century BCE.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of hoplite warfare emerging suddenly in the 7th century has been challenged by modern scholarship. Archaeological evidence suggests a more gradual development, with hoplite-style equipment appearing in the 8th century and becoming standardized over the 7th century. The connection between hoplite warfare and democratic institutions, often emphasized in older scholarship, is now seen as more complex and variable across different city-states.",
+  "historiographic_note": "The historical record for 672 BCE remains dominated by Assyrian sources. Greek sources are absent from contemporary records. The development of hoplite warfare is reconstructed primarily from archaeological evidence (weapons, armor, grave goods) rather than written sources. The record is heavily weighted toward political and military events; economic and social history are less well-documented.",
+  "graph_edges": [
+    {
+      "from": "-672-001",
+      "to": "-674-001",
+      "relation": "part_of",
+      "note": "Continuation of Esarhaddon's consolidation of Assyrian power"
+    },
+    {
+      "from": "-672-002",
+      "to": "-500-GREEK_CLASSICAL",
+      "relation": "led_to",
+      "note": "Development of hoplite warfare in the 7th century leads to the dominance of the phalanx in Classical Greek warfare"
+    }
+  ]
+}
