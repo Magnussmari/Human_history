@@ -1,0 +1,95 @@
+{
+  "year": -2634,
+  "year_label": "2634 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Egypt; the Old Kingdom of Egypt is in its later phases (Dynasty 5\u20136 transition, c. 2500\u20132350 BCE). Mesopotamia is in the Early Dynastic III period, with city-states competing for regional dominance. The Indus Valley Civilization is in its mature phase. Writing systems are established in Egypt, Mesopotamia, and the Indus Valley. Long-distance trade networks connect these civilizations.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "East Asia beyond the Indus Valley region",
+    "The Americas (no written records; archaeological evidence is fragmentary)"
+  ],
+  "events": [
+    {
+      "id": "-2634-001",
+      "title": "Reign of Pepi II (Neferkare) \u2014 Old Kingdom Egypt",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Pepi II, the sixth pharaoh of Dynasty 6, is traditionally dated to have reigned for 64 years (c. 2278\u20132184 BCE in conventional chronology), though modern Egyptologists debate the actual length and dating. His reign saw continued administrative centralization and the construction of pyramids at Saqqara. The later part of his reign coincided with the decline of Old Kingdom authority, with provincial governors (nomarchs) gaining increasing autonomy. His death is often cited as marking the beginning of the First Intermediate Period.",
+      "key_figures": [
+        "Pepi II (Neferkare) \u2014 Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Abydos King List (Temple of Seti I, 13th century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Turin King List (Papyrus, 13th century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pyramid Texts and inscriptions at Saqqara",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Pepi II's pyramid complex",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Pepi II's reign is attested in king lists and pyramid inscriptions, but absolute dating is uncertain. Conventional chronology places him c. 2278\u20132184 BCE, but some scholars argue for shorter reigns or different dating frameworks. The year -2634 falls within the traditional range but is not precisely anchored.",
+      "cross_references": []
+    },
+    {
+      "id": "-2634-002",
+      "title": "Mature Indus Valley Civilization \u2014 Urban centers and trade",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization is at its peak during this period, with major urban centers such as Harappa and Mohenjo-daro fully developed. These cities feature planned street grids, standardized weights and measures, and extensive trade networks extending to Mesopotamia, the Persian Gulf, and Central Asia. Seals with undeciphered script are used for commercial transactions. The civilization demonstrates sophisticated urban planning, drainage systems, and craft specialization, though the political structure remains poorly understood.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa and Mohenjo-daro (20th\u201321st centuries)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and weights",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian trade records mentioning 'Meluhha' (Indus Valley)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's mature phase is well-attested archaeologically. Absolute dating relies on radiocarbon and stratigraphic analysis; the mature phase is conventionally dated c. 2600\u20131900 BCE.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The length of Pepi II's reign (64 years in tradition) is disputed by modern scholars. Some argue for a much shorter reign (c. 20\u201330 years) based on reanalysis of king list data and archaeological evidence. The significance of his reign as a turning point toward the First Intermediate Period is also debated; some scholars see continuity rather than sharp decline. The Indus Valley Civilization's political organization and the nature of its trade networks remain subjects of scholarly debate, with interpretations ranging from decentralized city-states to a unified empire.",
+  "historiographic_note": "For Egypt, the historical record relies heavily on king lists compiled centuries after the events and on inscriptional evidence from tombs and temples, which may be propagandistic. The dating of the Old Kingdom is contested; different chronological systems (conventional, low, high) place Pepi II at different absolute dates. For the Indus Valley, the undeciphered script limits understanding of political and religious structures. Archaeological evidence is rich but interpretation is constrained by the absence of readable historical texts.",
+  "graph_edges": [
+    {
+      "from": "-2634-001",
+      "to": "-2184-001",
+      "relation": "led_to",
+      "note": "Pepi II's death traditionally marks the transition to the First Intermediate Period"
+    },
+    {
+      "from": "-2634-002",
+      "to": "-1900-001",
+      "relation": "part_of",
+      "note": "Mature Indus Valley Civilization phase, which persists until c. 1900 BCE"
+    }
+  ]
+}

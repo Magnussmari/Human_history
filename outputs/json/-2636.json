@@ -1,0 +1,84 @@
+{
+  "year": -2636,
+  "year_label": "2636 BCE",
+  "era_context": "Early Dynastic Period III in Mesopotamia; Old Kingdom Egypt (Dynasty IV). Akkadian city-states rising. Indus Valley Civilization in mature urban phase. Bronze Age expansion across Eurasia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "-2636-001",
+      "title": "Continuation of Old Kingdom Egypt Dynasty IV rule",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "Dynasty IV pharaonic rule continued with centralized state authority. Monumental construction and religious-administrative infrastructure remained at peak capacity. The state's ability to mobilize labor and resources for pyramid construction and temple maintenance demonstrates sophisticated bureaucratic organization and economic surplus extraction.",
+      "key_figures": [
+        "Khufu or Khafre (Pharaoh, Dynasty IV)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Giza and other Old Kingdom sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Chronological uncertainty \u00b120\u201330 years for Old Kingdom dating.",
+      "cross_references": [
+        "-2635-001"
+      ]
+    },
+    {
+      "id": "-2636-002",
+      "title": "Indus Valley Civilization trade networks active",
+      "region": "Indus Valley and Persian Gulf trade routes",
+      "coordinates_approx": "27.5, 72.0",
+      "category": "economic",
+      "description": "Archaeological evidence indicates active maritime and overland trade between the Indus Valley and Mesopotamia, the Persian Gulf, and possibly the Arabian Peninsula. Indus seals have been found in Mesopotamian contexts, and Mesopotamian goods appear in Indus sites. This trade facilitated exchange of goods (lapis lazuli, carnelian, timber, textiles) and possibly ideas.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological finds of Indus seals in Mesopotamian contexts (Ur, Lagash, etc.)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Cuneiform references to 'Meluhha' (likely Indus Valley) in Mesopotamian texts",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Trade networks are well-attested archaeologically for the mature Indus phase (c. 2600\u20131900 BCE).",
+      "cross_references": [
+        "-2635-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence for events in 2636 BCE. Chronological uncertainty remains the primary issue.",
+  "historiographic_note": "This year is virtually indistinguishable from 2635 BCE in terms of documented events. The historical record for this period is sparse and relies on archaeological evidence and later compilations. No contemporary written records specifically document events of 2636 BCE.",
+  "graph_edges": [
+    {
+      "from": "-2636-001",
+      "to": "-2635-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of same dynasty and period"
+    },
+    {
+      "from": "-2636-002",
+      "to": "-2635-002",
+      "relation": "contemporary_with",
+      "note": "Indus trade networks active throughout mature phase"
+    }
+  ]
+}

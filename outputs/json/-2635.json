@@ -1,0 +1,120 @@
+{
+  "year": -2635,
+  "year_label": "2635 BCE",
+  "era_context": "Early Dynastic Period III in Mesopotamia; Old Kingdom Egypt (Dynasty IV, mid-reign of Khufu or successor). Akkadian city-states rising in northern Mesopotamia; Indus Valley Civilization in mature phase. Bronze Age in full development across Eurasia. Writing systems (cuneiform, hieroglyphics) established but still evolving.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeology)",
+    "Central Asia (limited contemporary sources)",
+    "Americas (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-2635-001",
+      "title": "Reign of Khufu or successor pharaoh (Dynasty IV Egypt)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "The Old Kingdom Dynasty IV was at its height during this period. Khufu (r. c. 2589\u20132566 BCE) or his immediate successor ruled Egypt with centralized authority. Monumental construction projects, including the Great Pyramid complex, represent the peak of Old Kingdom architectural ambition and state organization. The pharaoh was understood as a living god, and the state mobilized vast resources for funerary monuments and religious infrastructure.",
+      "key_figures": [
+        "Khufu (Pharaoh, Dynasty IV) or Khafre (successor)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (via Josephus and Eusebius)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Giza pyramid complex",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Absolute dating of Old Kingdom Egypt remains debated. Radiocarbon and astronomical methods suggest Khufu's reign c. 2589\u20132566 BCE, placing 2635 BCE in or near his reign or that of his immediate successor. Chronological uncertainty \u00b120\u201330 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-2635-002",
+      "title": "Mature Indus Valley Civilization urban phase",
+      "region": "Indus Valley, South Asia (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.5, 72.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization was in its mature urban phase, with large planned cities such as Harappa and Mohenjo-daro at their peak. These cities featured standardized weights and measures, sophisticated drainage systems, and evidence of long-distance trade networks extending to Mesopotamia and the Persian Gulf. The civilization's undeciphered script appears on seals and pottery. Social organization was complex but non-militaristic (few weapons found); governance structure remains unclear.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Seals and inscriptions from Indus sites",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Radiocarbon dating and stratigraphic evidence place the mature Indus phase c. 2600\u20131900 BCE. 2635 BCE falls within this period with high confidence.",
+      "cross_references": []
+    },
+    {
+      "id": "-2635-003",
+      "title": "Akkadian city-states consolidating power in Mesopotamia",
+      "region": "Mesopotamia, northern Babylonia",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "During the Early Dynastic Period III, Akkadian-speaking city-states in northern Mesopotamia were increasing in prominence relative to Sumerian city-states to the south. This period saw intensifying competition for control of trade routes and agricultural land. Akkadian rulers were beginning to adopt Sumerian administrative practices and religious frameworks. The stage was being set for the later Akkadian Empire under Sargon of Akkad (c. 2334\u20132279 BCE).",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative texts from Mesopotamian sites",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Tell Brak, Nippur, and other sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The rise of Akkadian power is documented in later king lists and cuneiform records, but precise dating of individual rulers in this period is uncertain. Chronological systems for Mesopotamia vary by \u00b150\u2013100 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The absolute chronology of the Old Kingdom Egypt and Early Dynastic Mesopotamia remains contested. Some scholars advocate for a 'low chronology' that would place these events 100\u2013150 years later than traditional dating. The Indus Valley Civilization's decline and the causes of its abandonment (c. 1900 BCE) are debated; some scholars propose climate change, others invasion or internal collapse. No disconfirming evidence directly contradicts the events listed, but their precise dating should be treated as approximate.",
+  "historiographic_note": "This period is documented through archaeological evidence and later written compilations, but contemporary written records are sparse outside Egypt and Mesopotamia. Egyptian chronology relies heavily on king lists compiled centuries later and astronomical calculations; Mesopotamian chronology depends on cuneiform administrative texts and the Sumerian King List, which contains legendary elements. The Indus Valley Civilization is known almost entirely from archaeology; its writing remains undeciphered, limiting understanding of political and religious structures. Bias toward literate civilizations means non-literate societies (Europe, sub-Saharan Africa, much of Asia) are nearly invisible in the historical record.",
+  "graph_edges": [
+    {
+      "from": "-2635-001",
+      "to": "-2589-001",
+      "relation": "part_of",
+      "note": "Khufu's reign (c. 2589\u20132566 BCE) encompasses or precedes 2635 BCE depending on chronological system used"
+    },
+    {
+      "from": "-2635-002",
+      "to": "-1900-001",
+      "relation": "led_to",
+      "note": "Mature Indus phase leads to civilization's decline c. 1900 BCE"
+    },
+    {
+      "from": "-2635-003",
+      "to": "-2334-001",
+      "relation": "led_to",
+      "note": "Akkadian consolidation in ED III leads to Sargon's empire c. 2334 BCE"
+    }
+  ]
+}

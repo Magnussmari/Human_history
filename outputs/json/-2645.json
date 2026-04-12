@@ -1,0 +1,79 @@
+{
+  "year": -2645,
+  "year_label": "2645 BCE",
+  "era_context": "Egypt's Old Kingdom, Dynasty IV (c. 2613\u20132494 BCE). The age of the great pyramid builders: Khufu, Khafre, and Menkaure ruled during this period. Simultaneously, the Akkadian Empire under Sargon of Akkad was consolidating power in Mesopotamia (c. 2334\u20132279 BCE, though dating remains debated). In the Indus Valley, the Harappan civilization was in its mature phase. China's Xia Dynasty was traditionally dated to this era, though archaeological confirmation remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Southeast Asia (minimal archaeological dating precision)",
+    "Mesoamerica (no written records for this period)",
+    "Northern Europe (no contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-2645-001",
+      "title": "Reign of Khafre, Pharaoh of Egypt (Dynasty IV)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.9787, 31.1345",
+      "category": "political",
+      "description": "Khafre ruled Egypt during the Old Kingdom, traditionally dated c. 2558\u20132532 BCE, though some chronologies place him slightly later. He commissioned the construction of the Great Sphinx of Giza and the Pyramid of Khafre at the Giza plateau. His reign represents the continuation of monumental state architecture and centralized pharaonic power. The exact year of his reign within this period remains subject to Egyptian chronological debate, as multiple competing chronologies exist (high, middle, and low chronologies differ by decades).",
+      "key_figures": [
+        "Khafre (Pharaoh of Egypt, Dynasty IV)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Giza pyramid complex",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Khafre's reign is well-attested archaeologically through monuments and inscriptions, but absolute dating to specific years remains uncertain due to competing Egyptian chronologies. The Turin King List provides regnal lengths, but the absolute anchor point for the Old Kingdom is debated among Egyptologists.",
+      "cross_references": []
+    },
+    {
+      "id": "-2645-002",
+      "title": "Harappan Civilization in Mature Phase",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.5, 72.5",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (Harappan culture) was in its mature phase during this period (c. 2600\u20131900 BCE). Major urban centers such as Mohenjo-daro and Harappa were fully developed, featuring planned street grids, standardized weights and measures, and a still-undeciphered script. Trade networks extended to Mesopotamia and the Persian Gulf. This civilization represents one of the world's earliest urban societies with sophisticated administrative systems, though its political structure and religious beliefs remain poorly understood due to the undeciphered script.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro and Harappa",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus Valley seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and characteristics of the Harappan civilization in this period are confirmed by extensive archaeological evidence. Absolute dating relies on radiocarbon calibration and stratigraphic analysis, with broad consensus on the mature phase dating to c. 2600\u20131900 BCE.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional Egyptian chronology placing Khafre's reign c. 2558\u20132532 BCE is disputed by scholars advocating for alternative chronologies. The 'low chronology' would place this period several decades later. Additionally, the Xia Dynasty, traditionally dated to overlap with this period in Chinese historiography, has no confirmed archaeological evidence and may be legendary or significantly later than traditionally claimed. The undeciphered Indus script prevents confirmation of political structures or specific historical events, making narrative history impossible for this civilization.",
+  "historiographic_note": "Documentation for 2645 BCE is heavily skewed toward Egypt and the Indus Valley, where archaeological evidence is substantial. Egyptian chronology for the Old Kingdom remains contested among scholars, with competing systems differing by 50\u2013100+ years. Mesopotamian records from this period are sparse. Chinese historical records are retrospective compilations written centuries or millennia later. Sub-Saharan Africa, Southeast Asia, and the Americas have no written records for this year. The surviving record reflects the archaeological visibility of monumental cultures and the preservation biases of arid climates (Egypt) and alluvial deposits (Indus Valley).",
+  "graph_edges": [
+    {
+      "from": "-2645-001",
+      "to": "-2645-002",
+      "relation": "contemporary_with",
+      "note": "Khafre's reign in Egypt and the Harappan mature phase occurred simultaneously, representing two of the world's major civilizations in the mid-3rd millennium BCE."
+    }
+  ]
+}

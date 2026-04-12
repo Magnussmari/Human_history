@@ -1,0 +1,78 @@
+{
+  "year": -2638,
+  "year_label": "2638 BCE",
+  "era_context": "Early Dynastic Period III in Mesopotamia; Old Kingdom Egypt (Dynasty IV). Akkadian city-states consolidating. Indus Valley Civilization mature phase. Bronze Age expansion.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "-2638-001",
+      "title": "Old Kingdom Egypt Dynasty IV pharaonic rule",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "Dynasty IV maintained centralized control over Egypt. The state's administrative apparatus, supported by the priesthood and bureaucracy, managed the Nile valley's resources. Monumental construction projects continued, reflecting the state's power and the pharaoh's divine status.",
+      "key_figures": [
+        "Khufu or Khafre (Pharaoh, Dynasty IV)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Old Kingdom sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Chronological uncertainty \u00b120\u201330 years for Old Kingdom dating.",
+      "cross_references": [
+        "-2635-001",
+        "-2636-001",
+        "-2637-001"
+      ]
+    },
+    {
+      "id": "-2638-002",
+      "title": "Indus Valley Civilization in mature phase",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.5, 72.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization continued in its mature urban phase. Cities were fully developed with sophisticated infrastructure. Trade networks connected the civilization to Mesopotamia and the Persian Gulf. The undeciphered script was in use, and standardized weights and measures facilitated commerce.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Indus sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Radiocarbon dating places mature Indus phase c. 2600\u20131900 BCE.",
+      "cross_references": [
+        "-2635-002",
+        "-2636-002",
+        "-2637-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence for 2638 BCE. The year is archaeologically indistinguishable from surrounding years.",
+  "historiographic_note": "This year is part of a stable period in documented civilizations. The historical record is sparse and relies on archaeological evidence. No contemporary written records document 2638 BCE specifically.",
+  "graph_edges": [
+    {
+      "from": "-2638-001",
+      "to": "-2635-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of Dynasty IV rule"
+    },
+    {
+      "from": "-2638-002",
+      "to": "-2635-002",
+      "relation": "contemporary_with",
+      "note": "Indus civilization in stable mature phase"
+    }
+  ]
+}
