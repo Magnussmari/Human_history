@@ -1,0 +1,89 @@
+{
+  "year": -619,
+  "year_label": "619 BCE",
+  "era_context": "The late Archaic period in Greece; the Neo-Babylonian Empire under Nabopolassar consolidating power in Mesopotamia; the Zhou Dynasty in China during the Spring and Autumn period; the Iron Age in the Mediterranean and Near East. This is a transitional era marked by the rise of city-states in Greece, imperial consolidation in Mesopotamia, and the early development of written philosophy and statecraft.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "South America",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-619-001",
+      "title": "Nabopolassar consolidates Neo-Babylonian control over southern Mesopotamia",
+      "region": "Mesopotamia (Babylonia)",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "Nabopolassar, founder of the Neo-Babylonian Empire, continues consolidation of power in southern Mesopotamia following his rise around 626 BCE. By 619 BCE, he has secured control over Babylon and surrounding territories, establishing the administrative and military foundations that will enable his son Nebuchadnezzar II to build the empire into a major regional power. This period marks the transition from Assyrian hegemony to Babylonian dominance in the Near East.",
+      "key_figures": [
+        "Nabopolassar (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (ABC 1)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Berossus, Babyloniaca (via Josephus)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Nabopolassar's reign is well-attested from 626 BCE onward, but specific events within individual years in the 620s BCE are less precisely dated. The consolidation process is confirmed, but exact chronology within this decade is approximate.",
+      "cross_references": [
+        "-626-001 (Nabopolassar's rise)",
+        "-612-001 (Fall of Nineveh)"
+      ]
+    },
+    {
+      "id": "-619-002",
+      "title": "Thales of Miletus active in natural philosophy",
+      "region": "Ionia (Asia Minor)",
+      "coordinates_approx": "37.7, 27.3",
+      "category": "scientific",
+      "description": "Thales of Miletus, traditionally dated to flourish around 600 BCE but with activity possibly extending into the 620s\u2013610s BCE, is engaged in early investigations into natural phenomena and geometry. He is credited with predicting a solar eclipse (traditionally dated to 585 BCE, but his active period may span this era) and with foundational work in geometry and cosmology. Thales represents the emergence of natural philosophy in the Greek world, moving away from purely mythological explanations toward rational inquiry.",
+      "key_figures": [
+        "Thales of Miletus (Philosopher)"
+      ],
+      "sources": [
+        {
+          "name": "Diogenes La\u00ebrtius, Lives of the Philosophers",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Aristotle, Metaphysics",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Thales' exact dates are notoriously uncertain. Ancient sources place his floruit (peak activity) around 600 BCE, but the range 620\u2013580 BCE is plausible. No contemporary sources document his work; all accounts come from much later sources.",
+      "cross_references": [
+        "-585-001 (Traditional eclipse prediction)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Thales is highly disputed. While tradition places him around 600 BCE, some scholars argue his activity extended into the early 6th century or even the late 7th century. The famous eclipse prediction attributed to him is dated by tradition to 585 BCE, but modern scholarship questions whether Thales actually made this prediction or whether it was a later invention. The precise chronology of Nabopolassar's early reign is also debated; some sources suggest slightly different dates for his consolidation of power.",
+  "historiographic_note": "Documentation for this year is heavily skewed toward Mesopotamia and the eastern Mediterranean. Babylonian chronicles provide administrative records, but they are not contemporary and were compiled later. Greek sources for this period are almost entirely retrospective, written centuries after the events. There is virtually no reliable documentation for most of the world outside the Mediterranean, Near East, and China. The historical record is shaped by the survival of written sources in these regions and the interests of later Greek and Roman historians in preserving accounts of early Greek philosophy.",
+  "graph_edges": [
+    {
+      "from": "-619-001",
+      "to": "-612-001",
+      "relation": "led_to",
+      "note": "Nabopolassar's consolidation of power enabled the military campaigns that culminated in the fall of Nineveh"
+    },
+    {
+      "from": "-619-002",
+      "to": "-585-001",
+      "relation": "part_of",
+      "note": "Thales' philosophical activity spans this period and the traditional eclipse prediction"
+    }
+  ]
+}

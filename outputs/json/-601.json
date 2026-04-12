@@ -1,0 +1,93 @@
+{
+  "year": -601,
+  "year_label": "601 BCE",
+  "era_context": "Late Archaic Greece; Neo-Babylonian Empire under Nebuchadnezzar II. Spring and Autumn period in China. Early Upanishadic period in India. Egypt under Late Period dynasties. The Iron Age is fully established across the Mediterranean and Near East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia beyond China",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia",
+    "Southeast Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-601-001",
+      "title": "Nebuchadnezzar II's Egyptian campaign and battle with Egypt",
+      "region": "Mesopotamia, Levant, Egypt",
+      "coordinates_approx": "30.0\u00b0N, 31.0\u00b0E",
+      "category": "military",
+      "description": "According to the Babylonian Chronicle, Nebuchadnezzar II conducted a military campaign into Egypt in 601 BCE. The chronicle records that Nebuchadnezzar and the Egyptian pharaoh (likely Necho II or his successor) engaged in battle, with both sides suffering heavy casualties. The campaign did not result in a decisive Babylonian victory or conquest of Egypt, and Nebuchadnezzar withdrew. This campaign represents the limits of Babylonian expansion and the continued independence of Egypt.",
+      "key_figures": [
+        "Nebuchadnezzar II (King of Babylon)",
+        "Necho II or successor (Pharaoh of Egypt, traditional dating)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (BM 21946)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Josephus, Against Apion, citing Egyptian and Babylonian sources",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Babylonian Chronicle provides contemporary documentation of this campaign. The date 601 BCE is well-established in cuneiform records. The outcome (mutual withdrawal without decisive victory) is clearly stated in the chronicle.",
+      "cross_references": [
+        "Related to broader Nebuchadnezzar campaigns -605 onwards",
+        "Marks limit of Babylonian expansion toward Egypt"
+      ]
+    },
+    {
+      "id": "-601-002",
+      "title": "Tyre siege continues (year 4\u20135 of siege)",
+      "region": "Phoenicia, Levant",
+      "coordinates_approx": "33.27\u00b0N, 35.19\u00b0E",
+      "category": "military",
+      "description": "The siege of Tyre by Nebuchadnezzar II continues in its fourth or fifth year. The city maintains resistance despite the blockade. The siege would ultimately last approximately 13 years (605\u2013592 BCE), making it one of the longest sieges in ancient history. The prolonged nature of the siege reflects both Tyre's strong fortifications and the difficulty of reducing a well-supplied island city.",
+      "key_figures": [
+        "Nebuchadnezzar II (King of Babylon)",
+        "Ethbaal III (King of Tyre, traditional dating)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (BM 21946)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Josephus, Against Apion",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Babylonian Chronicle documents the siege's duration and general progress. Specific events for 601 BCE are not individually detailed, but the siege's continuation is well-established.",
+      "cross_references": [
+        "Part of -604-001 (Tyre siege)",
+        "Concludes in -592-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Babylonian Chronicle's account of the 601 BCE Egyptian campaign is the only contemporary source. Later Greek sources (Herodotus, Diodorus Siculus) provide conflicting or supplementary accounts of Babylonian-Egyptian relations, but they are written centuries later and may conflate different campaigns. The exact identity of the Egyptian pharaoh involved is uncertain; Necho II (610\u2013595 BCE) is the traditional attribution, but the chronology of Egyptian dynasties in this period is debated.",
+  "historiographic_note": "The historical record for 601 BCE is dominated by the Babylonian Chronicle, which provides near-contemporary documentation of Nebuchadnezzar's campaigns. Greek sources are absent for this year. Egyptian sources are sparse and do not provide detailed accounts of the campaign. The bias toward Babylonian military history is pronounced; economic, social, and cultural developments are invisible. The survival of the Babylonian Chronicle is itself a matter of chance\u2014it survives because it was inscribed on clay tablets, which are more durable than papyrus or other materials used by other civilizations.",
+  "graph_edges": [
+    {
+      "from": "-601-001",
+      "to": "-604-001",
+      "relation": "part_of",
+      "note": "Part of broader Nebuchadnezzar campaigns in the Levant and Near East"
+    },
+    {
+      "from": "-601-001",
+      "to": "-601-002",
+      "relation": "contemporary_with",
+      "note": "Egyptian campaign occurs during ongoing Tyre siege"
+    }
+  ]
+}

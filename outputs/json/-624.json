@@ -1,0 +1,84 @@
+{
+  "year": -624,
+  "year_label": "624 BCE",
+  "era_context": "The early 6th century BCE spans the late Archaic period in Greece, the height of the Neo-Babylonian Empire under Nebuchadnezzar II, the reign of the Zhou Dynasty in China (Spring and Autumn period), and the early Iron Age in the Mediterranean and Near East. This era saw the emergence of early Greek philosophy, the consolidation of imperial power in Mesopotamia, and significant technological and cultural developments across Eurasia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (limited contemporary documentation)",
+    "Southeast Asia (sparse archaeological record for this period)"
+  ],
+  "events": [
+    {
+      "id": "-624-001",
+      "title": "Birth of Thales of Miletus (traditional date)",
+      "region": "Ionia (modern Turkey)",
+      "coordinates_approx": "37.74, 27.26",
+      "category": "cultural",
+      "description": "Thales, traditionally dated to 624 BCE, is credited as the first Greek philosopher and mathematician. He is said to have predicted a solar eclipse (likely the eclipse of 585 BCE, creating chronological uncertainty), studied geometry, and proposed that water is the fundamental substance of all matter. His work marked a shift from mythological to rational explanations of natural phenomena, establishing the foundations of Western philosophy and natural science.",
+      "key_figures": [
+        "Thales of Miletus (philosopher, mathematician)"
+      ],
+      "sources": [
+        {
+          "name": "Diogenes La\u00ebrtius, Lives and Opinions of Eminent Philosophers",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Aristotle, Metaphysics",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The traditional birth date of 624 BCE comes from later sources, particularly Diogenes La\u00ebrtius (3rd century CE). No contemporary documentation exists. The date is conventional and may be off by a decade or more. Some scholars place his floruit (active period) around 585 BCE based on the eclipse tradition.",
+      "cross_references": [
+        "Relates to -585-001 (eclipse prediction)"
+      ]
+    },
+    {
+      "id": "-624-002",
+      "title": "Nebuchadnezzar II consolidates Neo-Babylonian power",
+      "region": "Mesopotamia (Babylon)",
+      "coordinates_approx": "32.54, 44.42",
+      "category": "political",
+      "description": "Nebuchadnezzar II (r. 605\u2013562 BCE) was in the early years of his reign, having ascended to the throne in 605 BCE. By 624 BCE, he had begun major construction projects and military campaigns to consolidate Babylonian hegemony over the former Assyrian territories. This period saw the expansion of Babylon's administrative and military infrastructure, setting the stage for the empire's greatest territorial extent.",
+      "key_figures": [
+        "Nebuchadnezzar II (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (cuneiform tablets)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Berossus, Babyloniaca (via Josephus)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Nebuchadnezzar's reign dates are well-established from cuneiform sources. The specific events of 624 BCE are less precisely documented, but his consolidation of power in the early years of his reign is well-attested.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional birth date of Thales (624 BCE) is disputed by modern scholarship. Some scholars argue for dates ranging from 640\u2013620 BCE, and the eclipse prediction attributed to him is more reliably dated to 585 BCE, suggesting Thales may have been active later than 624 BCE. The exact year 624 BCE may be a conventional assignment rather than a historically grounded date.",
+  "historiographic_note": "Documentation for 624 BCE is heavily skewed toward Mesopotamia and the eastern Mediterranean, where cuneiform and later Greek sources survive. The year is poorly attested in contemporary records; most information comes from later compilations and traditions. Chinese sources (Spring and Autumn Annals) exist but are not detailed for this specific year. Sub-Saharan Africa, northern Europe, and the Americas have no written records for this period.",
+  "graph_edges": [
+    {
+      "from": "-624-001",
+      "to": "-585-001",
+      "relation": "led_to",
+      "note": "Thales' eclipse prediction is traditionally associated with the eclipse of 585 BCE, suggesting his active period extended well beyond his traditional birth date."
+    },
+    {
+      "from": "-624-002",
+      "to": "-605-001",
+      "relation": "part_of",
+      "note": "Continuation of Nebuchadnezzar II's reign and consolidation of power begun in 605 BCE."
+    }
+  ]
+}

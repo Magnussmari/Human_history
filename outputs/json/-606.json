@@ -1,0 +1,116 @@
+{
+  "year": -606,
+  "year_label": "606 BCE",
+  "era_context": "The late 7th century BCE is in its final years. The Assyrian Empire is on the brink of collapse, with the Medo-Babylonian coalition closing in. Babylon under Nabopolassar is consolidating its position as the dominant Mesopotamian power. Egypt under Necho II is attempting to assert influence in the Levant. The Eastern Mediterranean sees continued Greek expansion and cultural development.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia and the Steppe",
+    "East Asia beyond Chinese records"
+  ],
+  "events": [
+    {
+      "id": "-606-001",
+      "title": "Assyrian Empire in final stages of collapse; Nineveh under siege pressure",
+      "region": "Mesopotamia, Assyrian Empire",
+      "coordinates_approx": "43.0, 36.0",
+      "category": "military",
+      "description": "By 606 BCE, the Assyrian Empire is in its death throes. The Medo-Babylonian coalition has conquered most Assyrian territories, and the heartland around Nineveh is increasingly isolated. The last Assyrian kings are attempting to organize resistance, but their military capacity is severely diminished. Within six years, Nineveh will fall and the Assyrian Empire will cease to exist. This year represents the penultimate phase of one of history's greatest imperial collapses.",
+      "key_figures": [
+        "Nabopolassar (Neo-Babylonian king)",
+        "Cyaxares (Median king)",
+        "Sin-shar-ishkun or Ashur-uballit II (Last Assyrian kings, identity disputed)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (ABC 1)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Assyrian king lists",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Assyrian collapse is well-documented, but the specific events of 606 BCE are not always clearly delineated in surviving sources. The year is assigned based on the documented timeline of the Medo-Babylonian campaign.",
+      "cross_references": [
+        "Leads to -612-001 (Fall of Nineveh)"
+      ]
+    },
+    {
+      "id": "-606-002",
+      "title": "Necho II consolidates Egyptian power and prepares for Levantine intervention",
+      "region": "Egypt, 26th Dynasty (Saite period)",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Necho II, now several years into his reign, is consolidating Egyptian power and preparing for military intervention in the Levant. He is aware of the Assyrian collapse and sees an opportunity to expand Egyptian influence in Syria and Palestine. He is also concerned about Babylonian expansion and seeks to maintain a balance of power. Over the next few years, Necho will attempt to support Assyrian remnants and resist Babylonian hegemony.",
+      "key_figures": [
+        "Necho II (Egyptian pharaoh, 26th Dynasty, r. 610\u2013595 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Herodotus, Histories (Book II)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Necho II's reign and general foreign policy are documented, but specific events for 606 BCE are not always clearly dated. The year is assigned based on the documented timeline of his reign and the broader geopolitical situation.",
+      "cross_references": [
+        "Leads to -605-002 (Necho II's military campaign at Carchemish)"
+      ]
+    },
+    {
+      "id": "-606-003",
+      "title": "Josiah of Judah continues consolidation of power and religious reform",
+      "region": "Kingdom of Judah, Levant",
+      "coordinates_approx": "31.9, 35.2",
+      "category": "religious",
+      "description": "King Josiah of Judah continues his reign and the consolidation of Judean power in the power vacuum left by Assyrian decline. His religious reforms, including the repair of the Temple and the promotion of monotheistic worship, are ongoing. Josiah is also expanding Judean territorial control, incorporating former Assyrian territories in the north. By 606 BCE, Josiah has established himself as a significant regional power.",
+      "key_figures": [
+        "Josiah (King of Judah, r. 640\u2013609 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "2 Kings 22\u201323 (Hebrew Bible)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "2 Chronicles 34\u201335",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The biblical account of Josiah's reign is the primary source, but it was written centuries after the events. Archaeological evidence for Josiah's reforms and territorial expansion is limited. The dating of specific events in his reign remains debated.",
+      "cross_references": [
+        "Related to -609-001 (Assyrian decline, which enabled Judah's expansion)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The identity of the last Assyrian king(s) is disputed. Some sources refer to Sin-shar-ishkun, others to Ashur-uballit II. The chronology of the final Assyrian collapse is also debated, with some scholars placing key events a few years earlier or later than traditional dating. Additionally, the extent of Josiah's territorial expansion and the historical basis for his religious reforms remain contested among scholars.",
+  "historiographic_note": "Documentation for 606 BCE is moderate but concentrated in Mesopotamian and biblical sources. The Babylonian Chronicle provides a Near Eastern perspective, while Hebrew biblical texts offer a Levantine view. Egyptian sources are limited to administrative records. Greek sources are sparse and retrospective. The absence of sources from the Steppe, Central Asia, and sub-Saharan Africa reflects both the limited literacy of these regions and the Eurocentric bias of surviving sources. The biblical account of Josiah reflects the theological interests of later Judean scribes and may not accurately represent 7th-century political and religious reality.",
+  "graph_edges": [
+    {
+      "from": "-606-001",
+      "to": "-612-001",
+      "relation": "led_to",
+      "note": "The 606 BCE state of Assyrian collapse directly led to Nineveh's fall six years later."
+    },
+    {
+      "from": "-606-002",
+      "to": "-605-002",
+      "relation": "led_to",
+      "note": "Necho II's consolidation of power and preparation for intervention set the stage for his military campaign at Carchemish."
+    }
+  ]
+}

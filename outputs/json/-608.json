@@ -1,0 +1,106 @@
+{
+  "year": -608,
+  "year_label": "608 BCE",
+  "era_context": "The late 7th century BCE continues with the Assyrian Empire in rapid decline and the Neo-Babylonian Empire ascending. The Eastern Mediterranean sees intensified Greek colonization and the emergence of early Greek philosophy. Egypt under Psamtik I remains a regional power. The Levantine kingdoms (Judah, Israel's remnants, Phoenician city-states) navigate the power vacuum left by Assyrian retreat.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia and the Steppe",
+    "East Asia beyond Chinese records"
+  ],
+  "events": [
+    {
+      "id": "-608-001",
+      "title": "Nabopolassar's military campaigns against Assyrian territories continue",
+      "region": "Mesopotamia and the Levant",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "military",
+      "description": "Nabopolassar continues his systematic conquest of Assyrian-held territories in Mesopotamia and the Levant. In alliance with the Median king Cyaxares, Babylonian forces advance northward and westward, reducing Assyrian garrisons and incorporating former Assyrian provinces into the Neo-Babylonian sphere. These campaigns are part of the coordinated Medo-Babylonian strategy to dismember the Assyrian Empire entirely.",
+      "key_figures": [
+        "Nabopolassar (Neo-Babylonian king)",
+        "Cyaxares (Median king)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (ABC 1)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Babylonian Chronicle records Nabopolassar's campaigns in broad strokes, but specific events for individual years are sometimes conflated or undated. 608 BCE falls within the documented period of his expansion, but the exact events of this specific year are not always clearly delineated.",
+      "cross_references": [
+        "Part of the broader Assyrian collapse documented in -612-001"
+      ]
+    },
+    {
+      "id": "-608-002",
+      "title": "Josiah of Judah likely begins religious reforms",
+      "region": "Kingdom of Judah, Levant",
+      "coordinates_approx": "31.9, 35.2",
+      "category": "religious",
+      "description": "King Josiah of Judah (r. 640\u2013609 BCE) is recorded in biblical sources as having initiated major religious reforms, including the repair of the Temple and the discovery of the 'Book of the Law' (likely an early version of Deuteronomy). While the biblical account dates these reforms to his 18th regnal year (622 BCE by traditional chronology), some scholars place the beginning of reforms earlier. By 608 BCE, Josiah's religious and political consolidation of Judah was well underway, taking advantage of Assyrian weakness to assert independence.",
+      "key_figures": [
+        "Josiah (King of Judah, r. 640\u2013609 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "2 Kings 22\u201323 (Hebrew Bible)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "2 Chronicles 34\u201335",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The biblical account of Josiah's reforms is the primary source, but it was written centuries after the events and reflects theological rather than strictly historical interests. Archaeological evidence for the reforms is limited. The dating of specific reform phases remains debated.",
+      "cross_references": [
+        "Related to -609-001 (Assyrian decline, which enabled Judah's independence)"
+      ]
+    },
+    {
+      "id": "-608-003",
+      "title": "Greek colonization and trade expansion in the Mediterranean",
+      "region": "Eastern Mediterranean, Greek city-states",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "exploration",
+      "description": "Greek city-states continue their colonial expansion and trade networks throughout the Mediterranean and Black Sea regions. By the early 6th century BCE, Greek settlements are established from Spain to the Levant. This period sees the intensification of Greek-Phoenician competition for trade and colonial territory. The movement of Greek merchants and settlers is reshaping Mediterranean demographics and cultural exchange.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Herodotus, Histories",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of Greek pottery and settlements",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Greek colonization is well-attested archaeologically through pottery, settlement patterns, and inscriptions. The broad chronology is secure, though specific dates for individual colonies vary by \u00b110\u201320 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Josiah's reforms is highly contested. The biblical account places the discovery of the 'Book of the Law' in his 18th regnal year, which would be 622 BCE if his reign began in 640 BCE. However, some scholars argue the reforms began earlier or later, or that the biblical narrative conflates multiple reform phases. Additionally, the historical existence and extent of Josiah's reforms are debated\u2014some scholars view the biblical account as a later theological construction with limited historical basis.",
+  "historiographic_note": "Documentation for 608 BCE is moderate but concentrated in Mesopotamian and biblical sources. The Babylonian Chronicle provides a Near Eastern perspective, while Hebrew biblical texts offer a Levantine view. Greek sources are sparse and often retrospective. Egyptian sources are limited to internal administrative records. The absence of sources from the Steppe, Central Asia, and sub-Saharan Africa reflects both the limited literacy of these regions and the Eurocentric bias of surviving sources. The biblical account of Josiah reflects the theological interests of later Judean scribes and may not accurately represent 7th-century political and religious reality.",
+  "graph_edges": [
+    {
+      "from": "-608-001",
+      "to": "-612-001",
+      "relation": "part_of",
+      "note": "Nabopolassar's 608 BCE campaigns are part of the broader Medo-Babylonian strategy that culminated in the fall of Nineveh in 612 BCE."
+    },
+    {
+      "from": "-608-002",
+      "to": "-609-001",
+      "relation": "caused_by",
+      "note": "Josiah's ability to consolidate power and initiate reforms was enabled by Assyrian decline following Ashurbanipal's death."
+    }
+  ]
+}

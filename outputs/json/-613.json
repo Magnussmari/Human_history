@@ -1,0 +1,113 @@
+{
+  "year": -613,
+  "year_label": "613 BCE",
+  "era_context": "The Assyrian Empire is in terminal collapse following the fall of Ashur in 614 BCE. Sinsharishkun attempts to maintain a rump state centered on Nineveh. Nabopolassar and Cyaxares continue their coordinated campaigns. Egypt under Psamtik II maintains cautious neutrality. Greece continues its Archaic development; the alphabet is becoming standardized.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-613-001",
+      "title": "Assyrian remnant state consolidates around Nineveh",
+      "region": "Mesopotamia, northern Assyria",
+      "coordinates_approx": "36.35, 43.14",
+      "category": "political",
+      "description": "Following the loss of Ashur, Sinsharishkun relocates the Assyrian court and remaining administrative apparatus to Nineveh, the second capital. This represents a desperate attempt to preserve Assyrian independence and territorial integrity. However, the loss of the religious center at Ashur and the empire's heartland severely undermines Assyrian legitimacy and military capacity. The state survives for approximately two more years before final collapse.",
+      "key_figures": [
+        "Sinsharishkun (King of Assyria, r. 627\u2013612 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (ABC 3)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Nineveh",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The relocation is inferred from the loss of Ashur and the continuation of Assyrian resistance at Nineveh. Contemporary documentation is limited; the Babylonian Chronicle focuses on Babylonian and Median actions rather than Assyrian internal reorganization.",
+      "cross_references": [
+        "Follows from -614-001",
+        "Leads to -612-001"
+      ]
+    },
+    {
+      "id": "-613-002",
+      "title": "Babylonian-Median campaigns continue against Assyrian remnants",
+      "region": "Mesopotamia, Assyria",
+      "coordinates_approx": "35.5, 42.0",
+      "category": "military",
+      "description": "Nabopolassar and Cyaxares pursue remaining Assyrian forces and territories. The Babylonian Chronicle records ongoing military operations, though specific battles and locations for 613 BCE are not always clearly dated. These campaigns systematically eliminate Assyrian territorial holdings and military capacity, setting the stage for the final assault on Nineveh in 612 BCE.",
+      "key_figures": [
+        "Nabopolassar (King of Babylon)",
+        "Cyaxares (King of Media)",
+        "Sinsharishkun (King of Assyria, defending)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (ABC 3)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Babylonian Chronicle confirms ongoing campaigns but does not provide year-by-year detail for every operation. The dating of specific events to 613 BCE versus 614 or 612 BCE involves some scholarly interpretation.",
+      "cross_references": [
+        "Contemporary with -613-001",
+        "Part of broader campaign (-614 to -612)"
+      ]
+    },
+    {
+      "id": "-613-003",
+      "title": "Egypt maintains neutrality amid Mesopotamian upheaval",
+      "region": "Egypt, 26th Dynasty",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Under Psamtik II (r. 595\u2013589 BCE), Egypt maintains a cautious foreign policy, neither supporting Assyria nor directly intervening in Mesopotamian affairs. Egypt's primary concern is maintaining its own territorial integrity and regional influence, particularly in the Levant. This neutrality reflects Egypt's relative weakness compared to the Assyrian Empire's heyday, though the 26th Dynasty is experiencing a cultural and economic renaissance.",
+      "key_figures": [
+        "Psamtik II (King of Egypt, r. 595\u2013589 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative records and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Herodotus, Histories II",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian records do not provide detailed year-by-year accounts of foreign policy decisions. The characterization of Egyptian neutrality is inferred from the absence of Egyptian military intervention in Mesopotamian sources and from Egypt's known strategic position.",
+      "cross_references": [
+        "Contemporary with -613-001 and -613-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise chronology of events in 613 BCE is uncertain. Some scholars have proposed that certain campaigns attributed to 614 or 612 BCE may have occurred in 613 BCE, or vice versa. The Babylonian Chronicle, while invaluable, does not provide exhaustive year-by-year detail for every military operation. The exact sequence and dating of Assyrian defensive efforts is therefore approximate rather than confirmed.",
+  "historiographic_note": "The historical record for 613 BCE is heavily dependent on the Babylonian Chronicle, which naturally emphasizes Babylonian and Median actions over Assyrian responses. Assyrian sources are essentially absent for this period. Egyptian sources provide minimal information about events in Mesopotamia. The Greek sources (Herodotus) are too distant in time to provide reliable detail for specific events in 613 BCE. Archaeological evidence from Nineveh and other Assyrian sites provides material confirmation of destruction and occupation but limited narrative information.",
+  "graph_edges": [
+    {
+      "from": "-613-001",
+      "to": "-612-001",
+      "relation": "led_to",
+      "note": "Nineveh becomes the last Assyrian stronghold; falls in 612 BCE"
+    },
+    {
+      "from": "-613-002",
+      "to": "-612-001",
+      "relation": "led_to",
+      "note": "Continued Babylonian-Median campaigns weaken Assyria further; culminate in Nineveh's siege"
+    }
+  ]
+}

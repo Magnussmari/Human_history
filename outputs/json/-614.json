@@ -1,0 +1,130 @@
+{
+  "year": -614,
+  "year_label": "614 BCE",
+  "era_context": "The late Assyrian Empire under Sinsharishkun (627\u2013612 BCE) faces terminal decline amid civil instability and external pressure. The Neo-Babylonian Empire under Nabopolassar (626\u2013605 BCE) consolidates power in southern Mesopotamia. The Median Empire under Cyaxares expands in the north and east. Egypt under the 26th Dynasty (Saite period) maintains regional influence. Greece enters the Archaic period; the city-state system is crystallizing.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe (pre-literate societies)",
+    "East Asia beyond fragmentary records",
+    "Mesoamerica (no contemporary written records in this period)"
+  ],
+  "events": [
+    {
+      "id": "-614-001",
+      "title": "Ashur falls to Median-Babylonian coalition",
+      "region": "Mesopotamia, Assyrian heartland",
+      "coordinates_approx": "35.46, 36.09",
+      "category": "military",
+      "description": "The ancient city of Ashur, religious and administrative capital of the Assyrian Empire, is besieged and destroyed by forces under Cyaxares of Media and Nabopolassar of Babylon. This marks a decisive blow to Assyrian power and territorial integrity. The fall of Ashur precipitates the final collapse of the empire within two years. The destruction is attested in Babylonian chronicles and confirmed by archaeological evidence of burning and destruction layers.",
+      "key_figures": [
+        "Cyaxares (King of Media)",
+        "Nabopolassar (King of Babylon)",
+        "Sinsharishkun (King of Assyria, defending)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (ABC 3, BM 21901)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological excavation at Ashur (Assur), German Oriental Society",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Herodotus, Histories I.103\u2013106",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Babylonian Chronicle provides near-contemporary record; archaeological destruction layers confirm the event. Dating to 614 BCE is secure within \u00b11 year.",
+      "cross_references": [
+        "Follows from -626-001 (Nabopolassar's rise)",
+        "Leads to -612-001 (Nineveh's fall)"
+      ]
+    },
+    {
+      "id": "-614-002",
+      "title": "Cyaxares consolidates Median hegemony in western Asia",
+      "region": "Media, Mesopotamia, Anatolia",
+      "coordinates_approx": "35.0, 50.0",
+      "category": "political",
+      "description": "Following the destruction of Ashur, Cyaxares of Media emerges as the dominant power in western Asia, controlling territories from the Zagros Mountains to Anatolia. This consolidation reflects decades of Median expansion under his reign and establishes Media as a peer power to Babylon. The Median Empire will remain a major regional force until its conquest by Persia in 553 BCE.",
+      "key_figures": [
+        "Cyaxares (King of Media, r. 625\u2013585 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories I.96\u2013106",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Babylonian Chronicle",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Herodotus provides narrative framework; Babylonian sources confirm Median military power. Exact territorial extent is inferred from later sources and is approximate.",
+      "cross_references": [
+        "Contemporary with -614-001",
+        "Part of broader Median expansion (-625 to -553)"
+      ]
+    },
+    {
+      "id": "-614-003",
+      "title": "Nabopolassar secures Babylonian control of southern Mesopotamia",
+      "region": "Babylon, southern Mesopotamia",
+      "coordinates_approx": "32.54, 44.42",
+      "category": "political",
+      "description": "Nabopolassar consolidates Neo-Babylonian power in the south, eliminating remaining Assyrian enclaves and establishing Babylon as the undisputed regional hegemon. This period sees the restoration of Babylonian temples, economic recovery, and the beginning of the cultural renaissance that will define the reign of his son Nebuchadnezzar II.",
+      "key_figures": [
+        "Nabopolassar (King of Babylon, r. 626\u2013605 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (ABC 3)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Berossus, Babyloniaca (via Josephus, Against Apion)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Babylonian Chronicle provides detailed contemporary record of Nabopolassar's campaigns and consolidation.",
+      "cross_references": [
+        "Follows from -626-001",
+        "Leads to -605-001 (Nebuchadnezzar's accession)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Ashur's fall has been debated. Some scholars, following older Assyrian king list chronologies, placed it in 613 BCE; modern consensus, based on the Babylonian Chronicle and refined astronomical dating, places it in 614 BCE. The degree of Median involvement versus Babylonian primacy in the siege has been discussed, with some sources emphasizing Nabopolassar's role more heavily than Cyaxares'. However, the coalition nature of the attack is well-established.",
+  "historiographic_note": "The record for 614 BCE is relatively rich due to the Babylonian Chronicle, a near-contemporary administrative document. However, the Assyrian perspective is largely lost\u2014Assyrian royal inscriptions cease after Sinsharishkun's reign, and we rely on Babylonian and later Greek sources for Assyrian events. The Median perspective is mediated through Herodotus, written nearly two centuries later, introducing potential distortions. Archaeological evidence from Ashur itself provides material confirmation but limited narrative detail.",
+  "graph_edges": [
+    {
+      "from": "-614-001",
+      "to": "-612-001",
+      "relation": "led_to",
+      "note": "Fall of Ashur weakens Assyria fatally; Nineveh falls two years later"
+    },
+    {
+      "from": "-614-001",
+      "to": "-614-002",
+      "relation": "contemporary_with",
+      "note": "Ashur's fall is part of Cyaxares' consolidation of Median power"
+    },
+    {
+      "from": "-614-002",
+      "to": "-553-001",
+      "relation": "led_to",
+      "note": "Median hegemony established in 614 BCE; ends with Persian conquest in 553 BCE"
+    }
+  ]
+}

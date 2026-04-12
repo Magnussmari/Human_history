@@ -1,0 +1,51 @@
+{
+  "year": -602,
+  "year_label": "602 BCE",
+  "era_context": "Late Archaic Greece; Neo-Babylonian Empire at its height under Nebuchadnezzar II. Spring and Autumn period in China. Early Upanishadic period in India. Egypt under Late Period dynasties. The Iron Age dominates the Mediterranean and Near East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia beyond China",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia",
+    "Southeast Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-602-001",
+      "title": "Nebuchadnezzar II's Levantine campaigns (ongoing)",
+      "region": "Mesopotamia, Levant, Phoenicia",
+      "coordinates_approx": "32.5\u00b0N, 35.0\u00b0E",
+      "category": "military",
+      "description": "Nebuchadnezzar II's military campaigns in the Levant continue. The siege of Tyre remains ongoing. Babylonian administrative records document the continuation of military operations and resource allocation for the campaign. This year falls within the well-documented campaign period of 605\u2013592 BCE.",
+      "key_figures": [
+        "Nebuchadnezzar II (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (BM 21946)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Babylonian Chronicle documents the general campaign period. Specific events for 602 BCE are not individually attested in surviving records, but the campaign's continuation is well-established.",
+      "cross_references": [
+        "Part of -604-001 (Tyre siege)",
+        "Continuation of -605 onwards campaigns"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed.",
+  "historiographic_note": "Documentation for 602 BCE is minimal. The Babylonian Chronicle provides the only substantial contemporary source, and it does not isolate specific events for this year. Greek sources are absent. Archaeological evidence from the Levant is limited. The historical record for this year is essentially a blank slate, with only the general context of Nebuchadnezzar's reign providing any framework.",
+  "graph_edges": [
+    {
+      "from": "-602-001",
+      "to": "-604-001",
+      "relation": "part_of",
+      "note": "Continuation of Tyre siege and Levantine campaigns"
+    }
+  ]
+}

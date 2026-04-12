@@ -1,0 +1,99 @@
+{
+  "year": -604,
+  "year_label": "604 BCE",
+  "era_context": "The late Archaic period in Greece; the Neo-Babylonian Empire under Nebuchadnezzar II's reign (605\u2013562 BCE) dominates Mesopotamia and the Levant. The Iron Age is well established across the Mediterranean, Near East, and Europe. In China, the Spring and Autumn period continues under competing states. In India, the Vedic period transitions toward early Upanishadic thought. Egypt is under Persian rule following the conquest of 525 BCE (anachronistically: this is before that conquest, so Egypt remains under the Late Period dynasties).",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia beyond China",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-604-001",
+      "title": "Nebuchadnezzar II's campaigns in the Levant and siege of Tyre",
+      "region": "Mesopotamia, Levant, Phoenicia",
+      "coordinates_approx": "32.3\u00b0N, 35.2\u00b0E",
+      "category": "military",
+      "description": "Nebuchadnezzar II, king of the Neo-Babylonian Empire, conducts military campaigns against Levantine states and besieges the Phoenician city of Tyre. This siege would last approximately 13 years (605\u2013592 BCE according to most sources). The campaign consolidates Babylonian hegemony over the region and marks the decline of Phoenician naval power. The siege is attested in both Babylonian administrative records and later Greek sources.",
+      "key_figures": [
+        "Nebuchadnezzar II (King of Babylon)",
+        "Ethbaal III (King of Tyre, traditional dating)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (BM 21946)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Josephus, Against Apion, citing Phoenician records",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Babylonian Chronicle provides near-contemporary documentation of Nebuchadnezzar's campaigns. The exact year of the siege's beginning is debated (605 vs. 604 BCE), with 605 BCE more commonly cited in modern scholarship, but 604 BCE falls within the campaign period.",
+      "cross_references": [
+        "Relates to -592-001 (end of Tyre siege)",
+        "Part of broader Neo-Babylonian expansion -605 onwards"
+      ]
+    },
+    {
+      "id": "-604-002",
+      "title": "Possible Athenian archonship of Solon or near-contemporary reforms",
+      "region": "Attica, Greece",
+      "coordinates_approx": "37.97\u00b0N, 23.73\u00b0E",
+      "category": "political",
+      "description": "Traditional dating places Solon's archonship and reforms in 594 BCE, but some ancient sources and modern scholars place elements of Athenian constitutional reform in the early 6th century. The exact chronology of Solon's reforms remains contested. If reforms occurred near 604 BCE, they would represent early attempts to address debt slavery and aristocratic privilege in Athens, laying groundwork for later democratic development.",
+      "key_figures": [
+        "Solon (Archon, traditional dating 594 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Solon",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diogenes La\u00ebrtius, Lives of Eminent Philosophers",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "Solon's archonship is traditionally dated to 594 BCE by the Athenian archon list, but this list itself is reconstructed and contains errors. No contemporary documentation of Solon's reforms survives. The date 604 BCE is speculative and included here only to flag the broader uncertainty in early Athenian chronology.",
+      "cross_references": [
+        "Part of broader Archaic Greek political development"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Solon's archonship is highly disputed. While tradition places it at 594 BCE, some scholars argue for dates as late as 580 BCE or as early as 600 BCE. The Athenian archon list, our primary source, is a later reconstruction with known gaps and errors. The Babylonian Chronicle's dating of Nebuchadnezzar's campaigns is generally reliable, but the exact year the Tyre siege began (604 vs. 605 BCE) remains debated among Assyriologists, with 605 BCE now more commonly preferred.",
+  "historiographic_note": "Documentation for 604 BCE is heavily skewed toward Mesopotamia and the Near East, where cuneiform records and later Greek sources provide some detail. Greek history of this period relies almost entirely on later compilations (Plutarch, Aristotle, Diogenes La\u00ebrtius) written 400+ years after the events, with no contemporary inscriptions or papyri. The Athenian archon list is a reconstruction of uncertain reliability. Sub-Saharan Africa, East Asia beyond China, and the Americas are essentially undocumented for this year in surviving sources. The bias toward elite political and military events is pronounced; economic, social, and cultural developments are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-604-001",
+      "to": "-592-001",
+      "relation": "led_to",
+      "note": "Nebuchadnezzar's siege of Tyre continues and concludes in 592 BCE"
+    },
+    {
+      "from": "-604-001",
+      "to": "-605-001",
+      "relation": "part_of",
+      "note": "Part of broader Neo-Babylonian expansion campaigns beginning 605 BCE"
+    }
+  ]
+}

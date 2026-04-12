@@ -1,0 +1,93 @@
+{
+  "year": -615,
+  "year_label": "615 BCE",
+  "era_context": "The late Archaic period in Greece; the Neo-Babylonian Empire under Nabopolassar in the final phase of Assyrian collapse; the Spring and Autumn period in China; the Iron Age in the Mediterranean and Near East. This year falls within the critical period of transition from Assyrian to Babylonian hegemony in Mesopotamia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "South America",
+    "Southeast Asia",
+    "Pacific Islands",
+    "India",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-615-001",
+      "title": "Nabopolassar captures Ashur, the Assyrian religious capital",
+      "region": "Mesopotamia (Assyria)",
+      "coordinates_approx": "35.46, 43.27",
+      "category": "military",
+      "description": "Nabopolassar's forces capture Ashur, the ancient religious and administrative capital of the Assyrian Empire. This represents a major blow to Assyrian power and prestige. The capture of Ashur is a pivotal moment in the collapse of the Assyrian Empire, which had dominated Mesopotamia and the Near East for centuries. Following this victory, Nabopolassar consolidates control over northern Mesopotamia and prepares for the final assault on Nineveh, the Assyrian political capital, which falls in 612 BCE.",
+      "key_figures": [
+        "Nabopolassar (King of Babylon)",
+        "Sin-shar-ishkun (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (ABC 1)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Berossus, Babyloniaca (via Josephus)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Babylonian Chronicle records the capture of Ashur, and the date of 615 BCE is widely accepted by modern scholars, though some sources place it in 614 BCE. The event is confirmed in the chronicle, but the exact year is subject to \u00b11 year uncertainty.",
+      "cross_references": [
+        "-616-001 (Nabopolassar's campaigns)",
+        "-612-001 (Fall of Nineveh)"
+      ]
+    },
+    {
+      "id": "-615-002",
+      "title": "Median forces under Cyaxares advance in northern Mesopotamia",
+      "region": "Mesopotamia and the Zagros Mountains",
+      "coordinates_approx": "36.0, 46.0",
+      "category": "military",
+      "description": "The Median Empire under Cyaxares, expanding from the Zagros Mountains region, advances into northern Mesopotamia and coordinates with Nabopolassar against the declining Assyrian Empire. The Medes and Babylonians form an alliance (or at least coordinate their actions) to bring down Assyrian power. This period marks the emergence of the Median Empire as a major regional power in the Near East, a role it will maintain until the rise of Persia under Cyrus II in the mid-6th century BCE.",
+      "key_figures": [
+        "Cyaxares (King of the Medes)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Babylonian Chronicle (ABC 1)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Herodotus and the Babylonian Chronicle both attest to Median involvement in the fall of Assyria, but the precise chronology and nature of the Median-Babylonian coordination is debated. The date of Cyaxares' reign is uncertain (estimates range from 625\u2013585 BCE or 600\u2013585 BCE), making year-specific dating difficult.",
+      "cross_references": [
+        "-615-001 (Capture of Ashur)",
+        "-612-001 (Fall of Nineveh)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the capture of Ashur is disputed. Some scholars place it in 614 BCE rather than 615 BCE. The nature and extent of Median-Babylonian coordination is also debated; some sources suggest they were independent actors rather than formal allies. Herodotus' account of the Median Empire is considered unreliable by modern scholars in many details, and the chronology of Cyaxares' reign is highly uncertain. The Babylonian Chronicle, while more reliable, is not contemporary and may contain errors or conflations.",
+  "historiographic_note": "Documentation for 615 BCE comes primarily from the Babylonian Chronicle and later Greek sources (Herodotus, Berossus). There are no contemporary Assyrian sources for this period, as the Assyrian Empire was in collapse. The historical record is shaped by Babylonian and later Greek perspectives on the fall of Assyria. Information about the Median Empire is particularly sparse and comes largely from Greek sources, which are often unreliable for this period. Events outside Mesopotamia and the Near East are essentially undocumented.",
+  "graph_edges": [
+    {
+      "from": "-615-001",
+      "to": "-612-001",
+      "relation": "led_to",
+      "note": "The capture of Ashur weakened Assyria and led directly to the fall of Nineveh"
+    },
+    {
+      "from": "-615-002",
+      "to": "-612-001",
+      "relation": "led_to",
+      "note": "Median advances contributed to the final collapse of Assyrian power"
+    }
+  ]
+}

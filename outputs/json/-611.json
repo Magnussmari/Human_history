@@ -1,0 +1,121 @@
+{
+  "year": -611,
+  "year_label": "611 BCE",
+  "era_context": "The immediate aftermath of Nineveh's fall. The Assyrian Empire is effectively destroyed, though scattered resistance continues. Nabopolassar consolidates Babylonian control. Cyaxares maintains Median hegemony in the north. Egypt remains cautiously neutral. Greece continues its Archaic period; the city-state system is fully developed.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-611-001",
+      "title": "Assyrian remnants attempt to reorganize under Ashuruballit II",
+      "region": "Mesopotamia, Harran",
+      "coordinates_approx": "36.86, 39.02",
+      "category": "political",
+      "description": "Following the fall of Nineveh, surviving Assyrian forces and officials attempt to maintain Assyrian independence by establishing a rump state centered on Harran, an ancient Assyrian city in northern Mesopotamia. Ashuruballit II, the last Assyrian king, leads this desperate effort to preserve Assyrian sovereignty. However, the loss of Nineveh, the religious center at Ashur, and the bulk of Assyrian military capacity makes this effort ultimately futile. The Assyrian state will survive for only two more years before final collapse in 609 BCE.",
+      "key_figures": [
+        "Ashuruballit II (Last King of Assyria, r. 612\u2013609 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (ABC 3)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Assyrian King List",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Babylonian Chronicle confirms the existence of Ashuruballit II and ongoing Assyrian resistance. However, detailed information about the reorganization at Harran is limited. The dating and sequence of events in 611 BCE versus 610 or 609 BCE involves some scholarly interpretation.",
+      "cross_references": [
+        "Follows from -612-001",
+        "Leads to -609-001 (Final collapse at Harran)"
+      ]
+    },
+    {
+      "id": "-611-002",
+      "title": "Babylonian-Median forces pursue Assyrian remnants",
+      "region": "Mesopotamia, northern Syria",
+      "coordinates_approx": "35.5, 40.0",
+      "category": "military",
+      "description": "Nabopolassar and Cyaxares continue military operations against Assyrian forces, systematically eliminating remaining pockets of Assyrian resistance and consolidating their territorial gains. These campaigns are less dramatic than the siege of Nineveh but are crucial in ensuring that Assyrian power cannot be reconstituted. The Babylonian Chronicle records ongoing military activity, though specific battles and locations for 611 BCE are not always clearly distinguished from adjacent years.",
+      "key_figures": [
+        "Nabopolassar (King of Babylon)",
+        "Cyaxares (King of Media)",
+        "Ashuruballit II (King of Assyria, defending)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (ABC 3)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Babylonian Chronicle confirms ongoing campaigns but does not provide year-by-year detail for every operation. The precise dating of specific events to 611 BCE versus adjacent years involves scholarly interpretation.",
+      "cross_references": [
+        "Contemporary with -611-001",
+        "Part of broader campaign (-612 to -609)"
+      ]
+    },
+    {
+      "id": "-611-003",
+      "title": "Babylonian-Median border established along the Euphrates",
+      "region": "Mesopotamia, Syria",
+      "coordinates_approx": "35.0, 40.0",
+      "category": "political",
+      "description": "As Assyrian power collapses, Nabopolassar and Cyaxares establish a de facto border between their respective spheres of influence. Babylon controls Mesopotamia and the Levant; Media controls Anatolia and the eastern highlands. This division of the former Assyrian territories establishes a balance of power that will persist until the rise of Persia. The border is not formally demarcated but is understood through the distribution of military forces and territorial claims.",
+      "key_figures": [
+        "Nabopolassar (King of Babylon)",
+        "Cyaxares (King of Media)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Herodotus, Histories I.103\u2013106",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The establishment of a border is inferred from the distribution of Babylonian and Median military forces and territorial claims. No formal treaty or explicit border demarcation is recorded for 611 BCE; the border emerges gradually over the period 612\u2013609 BCE.",
+      "cross_references": [
+        "Contemporary with -611-001 and -611-002",
+        "Part of broader reorganization of western Asia (-612 to -609)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise chronology of events in 611 BCE is uncertain. Some scholars have proposed that certain campaigns or events attributed to 611 BCE may have occurred in 612 or 610 BCE. The Babylonian Chronicle does not provide exhaustive year-by-year detail for every military operation. The exact sequence and dating of Assyrian defensive efforts and the establishment of the Babylonian-Median border is therefore approximate rather than confirmed. The identity and reign dates of Ashuruballit II have been debated, with some scholars proposing alternative chronologies.",
+  "historiographic_note": "The historical record for 611 BCE is heavily dependent on the Babylonian Chronicle, which naturally emphasizes Babylonian and Median actions over Assyrian responses. Assyrian sources are essentially absent for this period. Egyptian sources provide minimal information about events in Mesopotamia. The Greek sources (Herodotus) are too distant in time to provide reliable detail for specific events in 611 BCE. Archaeological evidence from Harran and other sites provides material confirmation of occupation and destruction but limited narrative information.",
+  "graph_edges": [
+    {
+      "from": "-611-001",
+      "to": "-609-001",
+      "relation": "led_to",
+      "note": "Ashuruballit II's attempt to reorganize at Harran fails; final collapse in 609 BCE"
+    },
+    {
+      "from": "-611-002",
+      "to": "-609-001",
+      "relation": "led_to",
+      "note": "Continued Babylonian-Median campaigns weaken Assyria further; culminate in final collapse"
+    },
+    {
+      "from": "-611-003",
+      "to": "-553-001",
+      "relation": "led_to",
+      "note": "Babylonian-Median border established; persists until Persian conquest in 553 BCE"
+    }
+  ]
+}

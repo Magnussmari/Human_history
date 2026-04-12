@@ -1,0 +1,57 @@
+{
+  "year": -616,
+  "year_label": "616 BCE",
+  "era_context": "The late Archaic period in Greece; the Neo-Babylonian Empire under Nabopolassar consolidating power; the Spring and Autumn period in China; the Iron Age in the Mediterranean and Near East. This period is marked by the decline of Assyrian power and the rise of Babylon as a regional hegemon.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "South America",
+    "Southeast Asia",
+    "Pacific Islands",
+    "India",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-616-001",
+      "title": "Nabopolassar campaigns against Assyrian territories",
+      "region": "Mesopotamia and the Levant",
+      "coordinates_approx": "35.0, 43.0",
+      "category": "military",
+      "description": "Nabopolassar continues military campaigns against Assyrian-controlled territories in northern Mesopotamia and the Levant. These campaigns are part of the broader collapse of Assyrian power that accelerated after the death of Ashurbanipal around 631 BCE. By 616 BCE, Nabopolassar is actively expanding Babylonian control northward, setting the stage for the final assault on Nineveh in 612 BCE. The exact chronology of individual campaigns is uncertain, but this period marks the transition from Assyrian to Babylonian hegemony.",
+      "key_figures": [
+        "Nabopolassar (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (ABC 1)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Berossus, Babyloniaca (via Josephus)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Babylonian Chronicle provides a general chronology of Nabopolassar's campaigns, but specific dates within the 620s\u2013610s BCE are approximate. The chronicle was compiled later and may not preserve precise annual dating.",
+      "cross_references": [
+        "-619-001 (Nabopolassar's consolidation)",
+        "-612-001 (Fall of Nineveh)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Nabopolassar's campaigns in the 620s\u2013610s BCE is debated among scholars. Some sources suggest different dates for specific military actions. The Babylonian Chronicle, while valuable, is not contemporary and may conflate or reorder events. The precise year-by-year sequence of campaigns is uncertain.",
+  "historiographic_note": "Documentation for 616 BCE is limited to Mesopotamian sources, primarily the Babylonian Chronicle and later compilations based on it. There are no contemporary written records from other regions. The historical record is shaped by the interests of Babylonian scribes in recording the rise of their own empire and the decline of Assyria. Events in other parts of the world are essentially undocumented for this year.",
+  "graph_edges": [
+    {
+      "from": "-616-001",
+      "to": "-612-001",
+      "relation": "led_to",
+      "note": "Nabopolassar's campaigns culminated in the siege and fall of Nineveh"
+    }
+  ]
+}
