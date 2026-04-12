@@ -1,0 +1,90 @@
+{
+  "year": -3048,
+  "year_label": "3048 BCE",
+  "era_context": "Early Bronze Age III; Old Kingdom Egypt (Dynasty IV); Early Dynastic III Mesopotamia. This period is characterized by established state systems, monumental architecture, and developing long-distance trade networks. Egypt is at the height of its Old Kingdom power under the Dynasty IV pharaohs. Mesopotamian city-states are competing for regional dominance. Writing systems are mature and increasingly used for administrative purposes.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "The Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-3048-001",
+      "title": "Khafre's reign; Old Kingdom Egypt",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "Khafre continues his reign as pharaoh of Egypt during the Old Kingdom. The state maintains its centralized power structure and continues monumental building projects. The pharaoh's authority is absolute, and the administrative system is functioning effectively. Trade with neighboring regions (Nubia, the Levant, the Aegean) is active. The Nile's annual inundation provides the agricultural surplus necessary to support the state and its building projects.",
+      "key_figures": [
+        "Khafre (Pharaoh, Dynasty IV)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Giza and other Old Kingdom sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Khafre's reign is well-attested archaeologically, but absolute dating remains uncertain.",
+      "cross_references": [
+        "Part of Old Kingdom period (-3100 to -2181)"
+      ]
+    },
+    {
+      "id": "-3048-002",
+      "title": "Early Dynastic III Mesopotamia; city-state competition",
+      "region": "Mesopotamia (modern Iraq)",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "During the Early Dynastic III period, Mesopotamian city-states are competing for control of agricultural land, water resources, and trade routes. The political landscape is fragmented, with no single power dominating the region. Cities like Lagash, Umma, Uruk, and Ur maintain their independence and engage in both conflict and trade. Cuneiform writing is increasingly used for administrative and economic purposes.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform tablets from Mesopotamian sites",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The chronology of Early Dynastic III is uncertain. Assignment to -3048 is conventional.",
+      "cross_references": [
+        "Part of Early Dynastic III period"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The absolute chronology of the Old Kingdom and Early Dynastic Mesopotamia is contested. Some scholars argue for significantly different dates. The significance of specific years in this period is difficult to assess because events are not precisely dated in surviving sources.",
+  "historiographic_note": "The year -3048 is not documented by any specific contemporary records. All information is inferred from broader archaeological and chronological frameworks. The historical record is heavily skewed toward Egypt and Mesopotamia; other regions are essentially absent from written documentation.",
+  "graph_edges": [
+    {
+      "from": "-3048-001",
+      "to": "-3045-001",
+      "relation": "contemporary_with",
+      "note": "Khafre's reign spans multiple years"
+    },
+    {
+      "from": "-3048-002",
+      "to": "-3045-002",
+      "relation": "contemporary_with",
+      "note": "Mesopotamian city-state competition is ongoing"
+    }
+  ]
+}

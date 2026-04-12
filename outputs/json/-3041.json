@@ -1,0 +1,94 @@
+{
+  "year": -3041,
+  "year_label": "3041 BCE",
+  "era_context": "Early Bronze Age III; the Akkadian Empire under Naram-Sin remains at or near its peak territorial extent. In Egypt, Dynasty VI continues under Pepi II, with ongoing administrative decentralization. The Indus Valley Civilization is in its mature phase (c. 2600\u20131900 BCE). In the Levant and Anatolia, city-states and regional powers coexist with Akkadian influence or control. This is a period of high political complexity and competition for regional hegemony.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written records)",
+    "Northern Europe (pre-literate)",
+    "East Asia beyond Shang-era regions (limited documentation)",
+    "Oceania (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-3041-001",
+      "title": "Akkadian military campaigns and administrative consolidation under Naram-Sin",
+      "region": "Mesopotamia, Levant, Anatolia, Zagros Mountains",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "military",
+      "description": "Naram-Sin continues military campaigns to consolidate and expand Akkadian control. His inscriptions record victories over the Lullubi (mountain peoples of the Zagros), the Martu (Amorites), and other groups. He establishes administrative centers and garrisons throughout conquered territories. His deification as a god (attested in inscriptions and the Naram-Sin Stele) represents an unprecedented claim to divine status by a Mesopotamian ruler, reflecting the height of Akkadian imperial ideology. However, these campaigns are resource-intensive and may be straining the empire's economic capacity.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin inscriptions (cuneiform texts from Mesopotamia and the Levant)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Naram-Sin Stele (epigraphic evidence)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Akkadian administrative sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's campaigns are well-attested in contemporary inscriptions. However, the exact chronology and extent of his conquests are debated. The year -3041 is assigned by conventional chronological conversion.",
+      "cross_references": [
+        "Related to -3040-001; precedes Akkadian collapse"
+      ]
+    },
+    {
+      "id": "-3041-002",
+      "title": "Indus Valley Civilization in mature phase",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (c. 2600\u20131900 BCE) is in its mature phase, characterized by large urban centers such as Harappa and Mohenjo-daro. These cities feature planned street grids, sophisticated drainage systems, standardized weights and measures, and a distinctive undeciphered script. Trade networks extend to Mesopotamia, the Persian Gulf, and Central Asia. The civilization is notable for its apparent lack of monumental religious architecture and the absence of clear evidence of centralized political authority, suggesting a decentralized or merchant-based governance model. This period represents one of the world's earliest urban civilizations.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus script (undeciphered seals and tablets)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from South Asian archaeology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and characteristics of the Indus Valley Civilization are well-established through extensive archaeological evidence. Dating is based on radiocarbon and stratigraphic analysis, with the mature phase conventionally dated c. 2600\u20131900 BCE.",
+      "cross_references": [
+        "Contemporary with Akkadian Empire and Old Kingdom Egypt"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The extent of Akkadian territorial control claimed in inscriptions is disputed. Some scholars argue that Naram-Sin's inscriptions exaggerate his reach and that actual administrative control was limited to core Mesopotamian regions and nearby areas. The causes of the Akkadian Empire's rapid collapse (within a generation of Naram-Sin's death) are debated; some scholars emphasize internal administrative failure, while others point to climate change (drought, reduced Nile flooding affecting trade networks) or external invasion (Gutians). The Indus Valley Civilization's governance structure and the reasons for its eventual decline remain poorly understood and are subjects of ongoing scholarly debate.",
+  "historiographic_note": "Sources for this year are limited to royal inscriptions, administrative texts, and archaeological evidence. The Akkadian sources are propagandistic in nature and may exaggerate military successes and territorial extent. Egyptian sources are similarly elite-focused. The Indus Valley Civilization is known primarily through archaeology, as its script remains undeciphered; this limits understanding of political, economic, and social structures. Absolute dating relies on conventional chronological frameworks that are debated. The record is heavily biased toward elite political and military history in Mesopotamia and Egypt; the Indus Valley Civilization's internal dynamics are poorly understood.",
+  "graph_edges": [
+    {
+      "from": "-3041-001",
+      "to": "-3040-001",
+      "relation": "contemporary_with",
+      "note": "Naram-Sin's campaigns continued throughout his reign"
+    },
+    {
+      "from": "-3041-002",
+      "to": "-3040-002",
+      "relation": "contemporary_with",
+      "note": "The Indus Valley Civilization and Old Kingdom Egypt were contemporaneous"
+    }
+  ]
+}

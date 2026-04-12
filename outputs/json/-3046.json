@@ -1,0 +1,86 @@
+{
+  "year": -3046,
+  "year_label": "3046 BCE",
+  "era_context": "Early Bronze Age III; Old Kingdom Egypt (Dynasty IV\u2013V); Early Dynastic III Mesopotamia. Monumental architecture, centralized state power, and long-distance trade are hallmarks of this era. Writing systems are mature and increasingly used for administrative purposes. The Indus Valley Civilization is developing urban centers. This is a period of relative stability in Egypt and Mesopotamia, though regional conflicts are endemic.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "The Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-3046-001",
+      "title": "Khafre's reign continues; monumental building projects",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "cultural",
+      "description": "Khafre's reign continues with ongoing construction of the Giza pyramid complex and associated temples. The Great Sphinx, traditionally attributed to Khafre, may have been completed or was under construction during this period. These projects required massive labor mobilization, resource extraction, and administrative coordination. The construction of such monuments reflects the pharaoh's divine status and the state's capacity to command resources.",
+      "key_figures": [
+        "Khafre (Pharaoh, Dynasty IV)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Giza",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Khafre's building projects are well-attested archaeologically, but the precise timeline of construction is uncertain. The Great Sphinx's attribution to Khafre is traditional but debated by some scholars.",
+      "cross_references": [
+        "Part of -3045-001 (Khafre's reign)"
+      ]
+    },
+    {
+      "id": "-3046-002",
+      "title": "Indus Valley Civilization urban development",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization is in its early urban phase (Early Harappan or Harappan I period, c. 3300\u20132600 BCE). Cities like Harappa and Mohenjo-daro are developing or have recently been established. These settlements show evidence of planned urban layouts, standardized weights and measures, and long-distance trade networks. The civilization's writing system remains undeciphered, limiting our understanding of political and social organization.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa and Mohenjo-daro",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The chronology of the Indus Valley Civilization is debated. Radiocarbon dating and stratigraphic evidence suggest urban development began c. 3300\u20132600 BCE, but the precise timeline within this range is uncertain. Assignment to -3046 is conventional.",
+      "cross_references": [
+        "Contemporary with Old Kingdom Egypt and Early Dynastic Mesopotamia",
+        "Precedes the mature Harappan phase (c. 2600\u20131900 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The attribution of the Great Sphinx to Khafre is traditional but not universally accepted. Some scholars argue for earlier or later dating based on geological and archaeological evidence. The Indus Valley Civilization's chronology is contested; some scholars argue for earlier dates (c. 3500 BCE) based on new radiocarbon evidence, which would place urban development earlier than traditionally thought.",
+  "historiographic_note": "The year -3046 is poorly documented. Most events are inferred from broader archaeological and chronological frameworks rather than specific dated records. Egyptian sources are more abundant than Mesopotamian sources for this period. The Indus Valley Civilization is known primarily through archaeology; no contemporary written records provide specific dates or events. The historical record is heavily skewed toward Egypt and Mesopotamia; other regions are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-3046-001",
+      "to": "-3045-001",
+      "relation": "contemporary_with",
+      "note": "Khafre's reign spans multiple years with continuous building projects"
+    },
+    {
+      "from": "-3046-002",
+      "to": "-2600-001",
+      "relation": "led_to",
+      "note": "Early Indus Valley development led to the mature Harappan civilization"
+    }
+  ]
+}

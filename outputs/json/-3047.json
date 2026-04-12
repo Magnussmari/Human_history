@@ -1,0 +1,90 @@
+{
+  "year": -3047,
+  "year_label": "3047 BCE",
+  "era_context": "Early Bronze Age III; Old Kingdom Egypt (Dynasty IV); Early Dynastic III Mesopotamia. This is a period of established state systems, monumental architecture, and developing trade networks. Egypt is at the height of its Old Kingdom power. Mesopotamian city-states are competing for regional dominance. Writing systems are mature and widely used. The Indus Valley Civilization is in its early urban phase.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "The Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-3047-001",
+      "title": "Khafre's reign; Old Kingdom Egypt at peak power",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "Khafre's reign represents the continuation of Old Kingdom centralized power and monumental ambition. The pharaoh's authority is absolute, and the state's capacity to mobilize labor and resources for pyramid construction is at its height. The administrative system developed under earlier pharaohs (Khufu, Djoser) is functioning effectively. Trade with Nubia, the Levant, and the Aegean is active, bringing luxury goods and raw materials to Egypt.",
+      "key_figures": [
+        "Khafre (Pharaoh, Dynasty IV)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Giza and other Old Kingdom sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Khafre's reign is well-attested archaeologically, but absolute dating remains uncertain due to chronological debates in Egyptology.",
+      "cross_references": [
+        "Part of broader Old Kingdom period (-3100 to -2181)"
+      ]
+    },
+    {
+      "id": "-3047-002",
+      "title": "Mesopotamian city-state conflicts and trade",
+      "region": "Mesopotamia (modern Iraq)",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "economic",
+      "description": "During the Early Dynastic III period, Mesopotamian city-states are engaged in both conflict and trade. Cities like Lagash, Umma, Uruk, and Ur are competing for control of agricultural land, water resources, and trade routes. Long-distance trade networks extend to the Indus Valley, the Persian Gulf, and the Levant. Cuneiform writing is increasingly used for administrative and economic purposes, including the recording of temple inventories and trade transactions.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform tablets from Lagash and Uruk",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The chronology of Early Dynastic III is uncertain, with debates about the length of individual reigns and the sequence of rulers. Assignment to -3047 is conventional.",
+      "cross_references": [
+        "Part of Early Dynastic III period (c. 2900\u20132334 BCE in traditional dating)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The absolute chronology of the Old Kingdom and Early Dynastic Mesopotamia remains contested. Some scholars argue for significantly different dates than those used here. The significance of specific years in this period is difficult to assess because events are not precisely dated in surviving sources.",
+  "historiographic_note": "The year -3047 is not documented by any specific contemporary records. All information is inferred from broader archaeological and chronological frameworks. Egyptian sources are more abundant than Mesopotamian sources. The historical record is heavily skewed toward Egypt and Mesopotamia; other regions are essentially absent from written documentation.",
+  "graph_edges": [
+    {
+      "from": "-3047-001",
+      "to": "-3045-001",
+      "relation": "contemporary_with",
+      "note": "Khafre's reign spans multiple years"
+    },
+    {
+      "from": "-3047-002",
+      "to": "-3045-002",
+      "relation": "contemporary_with",
+      "note": "Mesopotamian conflicts and trade are ongoing during this period"
+    }
+  ]
+}

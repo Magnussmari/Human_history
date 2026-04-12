@@ -1,0 +1,96 @@
+{
+  "year": -3040,
+  "year_label": "3040 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Egypt; the Old Kingdom of Egypt is in its final phase (Dynasty VI, c. 2345\u20132181 BCE in conventional chronology, though absolute dating remains debated). In Mesopotamia, the Akkadian Empire under Naram-Sin is at or near its territorial zenith. The Indus Valley Civilization is in its mature phase. This period marks the transition toward the First Intermediate Period in Egypt and the decline of centralized Akkadian power.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe (pre-literate societies, archaeological record thin)",
+    "East Asia beyond the Shang dynasty region (limited contemporary documentation)",
+    "Oceania and the Pacific (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-3040-001",
+      "title": "Akkadian Empire under Naram-Sin at territorial maximum",
+      "region": "Mesopotamia (modern Iraq, Syria, parts of Turkey and Iran)",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "Naram-Sin (r. c. 2254\u20132218 BCE in conventional chronology) continues his reign as the fourth king of the Akkadian Empire. By this period, he has conquered vast territories from the Persian Gulf to the Mediterranean and declared himself a god. His military campaigns and administrative reforms represent the apex of Akkadian centralization, though internal instability and external pressure from the Gutians and other groups are beginning to undermine imperial cohesion. The empire's reach extends into Anatolia, the Levant, and the Zagros Mountains.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad, self-deified)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin Stele (limestone stele from Susa, c. 2254\u20132218 BCE)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Akkadian royal inscriptions and administrative texts (cuneiform tablets)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus from Assyriology (Liverani, Charpin, Postgate)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested in contemporary inscriptions and administrative records. However, absolute dating of the Akkadian period remains contested; conventional chronology places him c. 2254\u20132218 BCE, but some scholars argue for dates up to 200 years later. The year -3040 is assigned by proleptic Gregorian conversion of conventional Akkadian chronology.",
+      "cross_references": [
+        "Relates to -3041 (continued Akkadian dominance) and -3039 (eventual collapse)"
+      ]
+    },
+    {
+      "id": "-3040-002",
+      "title": "Old Kingdom Egypt (Dynasty VI) in decline",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "During the reign of Pepi II (c. 2278\u20132184 BCE in conventional chronology), the Old Kingdom of Egypt is experiencing administrative fragmentation and loss of central authority. Provincial governors (nomarchs) are accumulating power and wealth, and the state's ability to mobilize labor for monumental construction is diminishing. This period marks the transition toward the First Intermediate Period, characterized by political decentralization and the rise of regional powers. The Nile's flood levels may have been variable, contributing to economic stress.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt, Dynasty VI)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists (Turin Papyrus, Abydos King List)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Autobiographical inscriptions of nomarchs (e.g., Uni, Harkhuf)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Old Kingdom sites (pyramid complexes, administrative centers)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Pepi II's reign is well-documented in Egyptian sources, though his exact dates are debated. Conventional chronology places him c. 2278\u20132184 BCE. The decline of the Old Kingdom is archaeologically and textually attested, though the precise timeline of administrative collapse is uncertain.",
+      "cross_references": [
+        "Part of broader Old Kingdom decline; leads to First Intermediate Period"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The conventional chronology placing Naram-Sin and Pepi II in the mid-third millennium BCE is not universally accepted. Some scholars (e.g., Heinsohn, Courville) propose significantly lower chronologies, placing these figures 200\u2013300 years later. Additionally, the extent of Naram-Sin's territorial control is debated; some scholars argue that his inscriptions exaggerate his reach, and that actual Akkadian administrative control was more limited than traditionally portrayed. The causes of the Old Kingdom's decline\u2014whether primarily internal administrative failure, climate change (Nile flood variability), or external pressure\u2014remain contested among Egyptologists.",
+  "historiographic_note": "Documentation for this year is sparse and heavily dependent on later king lists, administrative texts, and inscriptions that may have been composed for propagandistic purposes. The Akkadian sources are primarily royal inscriptions and administrative records, which tend to emphasize the king's achievements and may distort political reality. Egyptian sources similarly reflect elite perspectives. Absolute dating relies on astronomical calculations, radiocarbon dating (with large error margins for this period), and conventional chronological frameworks that are themselves debated. The record is biased toward elite political and military history; economic, social, and demographic conditions are poorly documented. Archaeological evidence from this period is unevenly distributed geographically.",
+  "graph_edges": [
+    {
+      "from": "-3040-001",
+      "to": "-3039-001",
+      "relation": "led_to",
+      "note": "Naram-Sin's overextension and internal instability contributed to the rapid collapse of the Akkadian Empire within a generation"
+    },
+    {
+      "from": "-3040-002",
+      "to": "-3039-002",
+      "relation": "led_to",
+      "note": "Continued decline of Old Kingdom authority led to the First Intermediate Period"
+    }
+  ]
+}

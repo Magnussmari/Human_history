@@ -1,0 +1,96 @@
+{
+  "year": -3042,
+  "year_label": "3042 BCE",
+  "era_context": "Early Bronze Age III; the Akkadian Empire under Naram-Sin is in its mature phase. In Egypt, Dynasty VI continues under Pepi II, with ongoing administrative fragmentation. The Indus Valley Civilization is in its mature phase. In the Levant and Anatolia, city-states coexist with Akkadian influence. This period represents the height of Akkadian imperial power before its rapid decline.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written records)",
+    "Northern Europe (pre-literate)",
+    "East Asia beyond Shang-era regions (limited documentation)",
+    "Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-3042-001",
+      "title": "Akkadian Empire at territorial zenith under Naram-Sin",
+      "region": "Mesopotamia, Levant, Anatolia, Zagros Mountains, Persian Gulf coast",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "Naram-Sin's reign represents the apex of Akkadian imperial expansion and centralization. His inscriptions record control over vast territories from the Persian Gulf to the Mediterranean and into Anatolia. He establishes a sophisticated administrative system with appointed governors and military garrisons. His deification and the adoption of the title 'King of the Four Quarters' reflect unprecedented claims to universal dominion. However, maintaining this empire requires constant military campaigns and resource extraction, which may be creating internal strain and resentment among conquered peoples and even within the Akkadian heartland.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad, self-deified)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin inscriptions and administrative texts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Naram-Sin Stele",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Akkadian sites and conquered territories",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign and territorial extent are well-attested in contemporary sources. However, absolute dating and the precise extent of actual (versus claimed) control remain debated.",
+      "cross_references": [
+        "Part of broader Akkadian imperial narrative; precedes collapse"
+      ]
+    },
+    {
+      "id": "-3042-002",
+      "title": "Old Kingdom Egypt (Dynasty VI) continued administrative decline",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "During Pepi II's reign, the Old Kingdom continues to experience administrative fragmentation. Provincial governors accumulate wealth and power, and the state's ability to mobilize labor and resources is diminishing. Monumental construction projects decline in scale and frequency. The Nile's flood levels may have been variable, contributing to economic stress and reduced agricultural productivity. This period marks the transition toward the First Intermediate Period, characterized by the rise of regional powers and the loss of centralized pharaonic authority.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt, Dynasty VI)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists and administrative records",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Autobiographical inscriptions of nomarchs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Old Kingdom sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The decline of the Old Kingdom is well-attested archaeologically and textually. However, the precise chronology and causes remain debated.",
+      "cross_references": [
+        "Part of broader Old Kingdom decline narrative"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The extent of Akkadian territorial control is disputed; some scholars argue that inscriptions exaggerate actual administrative reach. The rapid collapse of the Akkadian Empire within a generation of Naram-Sin's death suggests that the empire was inherently unstable, possibly due to overextension, internal resistance, or external pressure. The causes of the Old Kingdom's decline are debated; climate change (Nile flood variability) may have played a role, but internal administrative failure is also emphasized by scholars.",
+  "historiographic_note": "Sources are limited to royal inscriptions, administrative texts, and archaeological evidence. The record is heavily biased toward elite political and military history. Akkadian sources are propagandistic and may exaggerate achievements. Egyptian sources reflect elite perspectives. Absolute dating relies on conventional chronological frameworks that are debated. The record is sparse for regions outside Mesopotamia and Egypt.",
+  "graph_edges": [
+    {
+      "from": "-3042-001",
+      "to": "-3041-001",
+      "relation": "contemporary_with",
+      "note": "Naram-Sin's reign continued"
+    },
+    {
+      "from": "-3042-002",
+      "to": "-3041-002",
+      "relation": "contemporary_with",
+      "note": "Old Kingdom decline continued"
+    }
+  ]
+}

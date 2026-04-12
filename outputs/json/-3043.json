@@ -1,0 +1,78 @@
+{
+  "year": -3043,
+  "year_label": "3043 BCE",
+  "era_context": "Early Bronze Age III; the Akkadian Empire under Naram-Sin is in its mature phase, having recently consolidated vast territorial conquests. In Egypt, Dynasty VI continues under Pepi II, with ongoing administrative decentralization. The Indus Valley Civilization is in its mature phase. In the Levant and Anatolia, city-states coexist with Akkadian influence. This period represents the height of Akkadian imperial power.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written records)",
+    "Northern Europe (pre-literate)",
+    "East Asia beyond Shang-era regions (limited documentation)",
+    "Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-3043-001",
+      "title": "Naram-Sin's reign and Akkadian imperial consolidation",
+      "region": "Mesopotamia, Levant, Anatolia, Zagros Mountains",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "Naram-Sin continues his reign as the fourth king of the Akkadian Empire, consolidating control over vast territories. His military campaigns against the Lullubi, Martu, and other groups are ongoing. He establishes administrative centers and implements a centralized bureaucratic system. His deification and adoption of the title 'King of the Four Quarters' represent the apex of Akkadian imperial ideology. The empire's reach extends from the Persian Gulf to the Mediterranean and into Anatolia. However, maintaining this empire requires constant military campaigns and resource extraction.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin inscriptions and administrative texts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Akkadian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested in contemporary sources. However, absolute dating and the precise extent of control remain debated.",
+      "cross_references": [
+        "Related to -3042-001 and -3041-001"
+      ]
+    },
+    {
+      "id": "-3043-002",
+      "title": "Indus Valley Civilization mature phase",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization continues in its mature phase, characterized by large urban centers, sophisticated urban planning, standardized weights and measures, and extensive trade networks. The civilization's apparent lack of monumental religious architecture and centralized political authority suggests a decentralized governance model, possibly based on merchant or craft guilds. Trade connections extend to Mesopotamia, the Persian Gulf, and Central Asia. This period represents one of the world's earliest and most sophisticated urban civilizations.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus script (undeciphered seals and tablets)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization is well-established through extensive archaeological evidence. Dating is based on radiocarbon and stratigraphic analysis.",
+      "cross_references": [
+        "Contemporary with Akkadian Empire and Old Kingdom Egypt"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The extent of Akkadian territorial control claimed in inscriptions is disputed by some scholars, who argue that actual administrative control was more limited than inscriptions suggest. The Indus Valley Civilization's governance structure and the reasons for its eventual decline remain poorly understood.",
+  "historiographic_note": "Sources are limited to royal inscriptions, administrative texts, and archaeological evidence. The record is heavily biased toward elite political and military history. Akkadian sources are propagandistic. The Indus Valley Civilization is known primarily through archaeology; its script remains undeciphered. Absolute dating relies on conventional chronological frameworks that are debated.",
+  "graph_edges": [
+    {
+      "from": "-3043-001",
+      "to": "-3042-001",
+      "relation": "contemporary_with",
+      "note": "Naram-Sin's reign continued"
+    }
+  ]
+}

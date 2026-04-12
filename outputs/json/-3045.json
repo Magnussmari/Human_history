@@ -1,0 +1,99 @@
+{
+  "year": -3045,
+  "year_label": "3045 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Egypt; the Old Kingdom of Egypt is in its mature phase (Dynasty IV\u2013V). In Mesopotamia, the Early Dynastic Period III is underway, with city-states like Lagash, Umma, and Uruk competing for regional dominance. The Indus Valley Civilization is in its early phases. Writing systems (cuneiform, hieroglyphics) are established but still evolving. Long-distance trade networks are developing across the Eastern Mediterranean, Persian Gulf, and Indian Ocean.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "East Asia beyond the Indus Valley region",
+    "The Americas (no written records; archaeological evidence is fragmentary)"
+  ],
+  "events": [
+    {
+      "id": "-3045-001",
+      "title": "Reign of Khafre, Egyptian pharaoh (Dynasty IV)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "Khafre rules Egypt during the Old Kingdom, continuing the monumental building tradition of his predecessors. He is credited with constructing the Great Sphinx of Giza and the second pyramid of the Giza complex. His reign represents the height of Old Kingdom centralized power and resource mobilization. The exact dates of his reign are debated, with estimates ranging from c. 2558\u20132532 BCE to c. 2520\u20132494 BCE depending on chronological system used.",
+      "key_figures": [
+        "Khafre (Pharaoh, Dynasty IV)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Giza pyramid complex",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Khafre's reign is well-attested in Egyptian king lists and monumental evidence, but absolute dating of the Old Kingdom remains contested. Different chronological systems (high, middle, low) place this reign within a 50\u2013100 year window. The assignment to -3045 follows the middle chronology but is approximate.",
+      "cross_references": [
+        "Follows from -3051 (Khufu's reign)",
+        "Precedes -3039 (Menkaure's reign)"
+      ]
+    },
+    {
+      "id": "-3045-002",
+      "title": "Lagash\u2013Umma conflict escalation in Mesopotamia",
+      "region": "Mesopotamia (modern southern Iraq), city-states of Lagash and Umma",
+      "coordinates_approx": "31.95, 46.10",
+      "category": "military",
+      "description": "The long-standing territorial dispute between the city-states of Lagash and Umma over control of the Guedena (a fertile plain) intensifies during this period. Both cities are competing for water rights and agricultural land. Enakale of Umma and Eannatum of Lagash are key figures in this conflict. The wars are documented in later Sumerian chronicles and inscriptions, though precise dating is uncertain. These conflicts represent early examples of organized interstate warfare in recorded history.",
+      "key_figures": [
+        "Eannatum of Lagash (military leader)",
+        "Enakale of Umma (rival ruler)"
+      ],
+      "sources": [
+        {
+          "name": "Stele of the Vultures (Lagash, c. 2450 BCE in traditional dating)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Inscriptions of Eannatum",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Lagash\u2013Umma conflicts are well-attested in Sumerian sources, but their absolute chronology is highly uncertain. Traditional dating places the Stele of the Vultures c. 2450 BCE, but this may be off by 50\u2013100 years. Assignment to -3045 is conventional and should be treated as approximate.",
+      "cross_references": [
+        "Part of broader Early Dynastic III period conflicts",
+        "Precedes the rise of Akkad under Sargon (-2334)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The absolute chronology of the Old Kingdom and Early Dynastic Mesopotamia is contested. Some scholars argue for a 'low chronology' that would place Khafre's reign c. 200 years later than the middle chronology used here. The significance of the Lagash\u2013Umma conflicts may be overstated in surviving sources, which are Lagash-centric and may reflect propaganda rather than objective historical importance. No contemporary written records from Umma survive to corroborate Lagash accounts.",
+  "historiographic_note": "The historical record for -3045 is heavily dependent on Egyptian monumental inscriptions and Sumerian king lists, both of which are subject to chronological uncertainty and political bias. Egyptian sources are abundant but focus on elite activities (royal building, religious ritual). Mesopotamian sources are fragmentary and often compiled centuries after the events they describe. Sub-Saharan Africa, Europe, and most of Asia are essentially absent from the written record at this date, though archaeological evidence suggests complex societies were developing. The 'history' of this year is largely a history of Egypt and Mesopotamia; other regions are invisible in surviving documentation.",
+  "graph_edges": [
+    {
+      "from": "-3045-001",
+      "to": "-3039-001",
+      "relation": "led_to",
+      "note": "Khafre's reign established the monumental tradition continued by his successor Menkaure"
+    },
+    {
+      "from": "-3045-002",
+      "to": "-2334-001",
+      "relation": "part_of",
+      "note": "Lagash\u2013Umma conflicts are part of the broader Early Dynastic period that preceded Akkadian unification"
+    }
+  ]
+}

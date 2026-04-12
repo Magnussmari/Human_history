@@ -1,0 +1,79 @@
+{
+  "year": -3035,
+  "year_label": "3035 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Egypt; Old Kingdom Egypt (Dynasty IV\u2013V transition period). Mesopotamia in the Early Dynastic III period with competing city-states. The Indus Valley Civilization is in its mature phase. Writing systems (cuneiform, Egyptian hieroglyphics) are well-established but literacy remains restricted to scribal elites. Long-distance trade networks connect Mesopotamia, the Indus Valley, and Egypt.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "East Asia (Chinese Bronze Age chronology for this period remains debated)",
+    "The Americas (no written records; archaeological evidence sparse)",
+    "Oceania (limited archaeological data)"
+  ],
+  "events": [
+    {
+      "id": "-3035-001",
+      "title": "Reign of Khafre, Egyptian Old Kingdom",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.98, 31.13",
+      "category": "political",
+      "description": "Khafre (also Chephren) is believed to have reigned during this period as the fourth king of Dynasty IV, though exact dates remain debated. He is credited with commissioning the Great Sphinx of Giza and the pyramid complex at Giza. His reign represents the apex of Old Kingdom pyramid construction and centralized pharaonic power. The scale of monument construction reflects extraordinary state organization and resource mobilization.",
+      "key_figures": [
+        "Khafre (Pharaoh, Dynasty IV)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Giza pyramid complex",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Khafre's reign is traditionally dated to c. 2558\u20132532 BCE in conventional chronology, but absolute dating of Old Kingdom Egypt remains uncertain by \u00b150\u2013100 years. Radiocarbon dating of organic materials from his pyramid complex provides some constraint but conflicts with traditional Egyptological chronologies.",
+      "cross_references": []
+    },
+    {
+      "id": "-3035-002",
+      "title": "Mature Indus Valley Civilization urban centers",
+      "region": "Indus Valley, South Asia (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization is at its height, with major urban centers such as Harappa and Mohenjo-daro fully developed. These cities exhibit sophisticated urban planning, standardized weights and measures, and extensive trade networks. The undeciphered Indus script appears on seals and pottery. No monumental temples or palaces have been identified, suggesting a different form of social organization than contemporary Mesopotamian or Egyptian civilizations.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa and Mohenjo-daro (Marshall, Wheeler, and subsequent teams)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature phase of the Indus Valley Civilization is archaeologically well-attested. Absolute dating relies on radiocarbon analysis and stratigraphic correlation; the civilization is generally dated 2600\u20131900 BCE, placing -3035 within the mature phase.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of Old Kingdom Egypt remains contested. Some scholars argue for a 'low chronology' that would place Khafre's reign significantly later than the traditional dating used here. The Indus Valley Civilization's social structure and political organization remain poorly understood; the absence of monumental royal architecture has led some scholars to propose a decentralized or theocratic model rather than a centralized state, contradicting earlier interpretations.",
+  "historiographic_note": "Documentation for -3035 is heavily weighted toward Egypt and the Indus Valley, where archaeological evidence is substantial. Mesopotamian records from this period are fragmentary and often legendary. The chronology of the Old Kingdom remains one of Egyptology's most contentious issues, with competing systems differing by a century or more. Sub-Saharan Africa, East Asia, and the Americas are essentially undocumented for this year in written sources.",
+  "graph_edges": [
+    {
+      "from": "-3035-001",
+      "to": "-3035-002",
+      "relation": "contemporary_with",
+      "note": "Khafre's reign and the mature Indus Valley Civilization overlap; both represent peaks of early urban civilization."
+    }
+  ]
+}
