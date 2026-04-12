@@ -1,0 +1,131 @@
+{
+  "year": 402,
+  "year_label": "402 CE",
+  "era_context": "The Western Roman Empire is under severe military pressure from Germanic invasions. Stilicho is the dominant military figure, serving as regent for the young Emperor Honorius. The Eastern Roman Empire is experiencing similar Germanic pressure but maintains greater institutional stability. In China, the Eastern Jin dynasty is in its final decades. The Sassanid Persian Empire dominates the Middle East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Americas",
+    "Oceania",
+    "East Asia (limited Western sources)"
+  ],
+  "events": [
+    {
+      "id": "402-001",
+      "title": "Battle of Pollentia",
+      "region": "Western Roman Empire (Italy)",
+      "coordinates_approx": "45.3, 8.0",
+      "category": "military",
+      "description": "The Roman general Stilicho defeated the Visigothic king Alaric I at the Battle of Pollentia (near modern Turin) in April 402 CE. This battle was a significant Roman military victory that temporarily halted Alaric's invasion of Italy. However, Alaric was not decisively defeated and was able to withdraw with his forces intact. The battle demonstrated Stilicho's military competence but also revealed the fragility of Roman military power; despite the victory, Rome could not permanently expel the Visigoths from the empire's territories. The battle is celebrated in Claudian's contemporary panegyric but is interpreted differently by modern scholars regarding its strategic significance.",
+      "key_figures": [
+        "Flavius Stilicho (Roman general and regent)",
+        "Alaric I (Visigothic king)"
+      ],
+      "sources": [
+        {
+          "name": "Claudian, De bello Gothico (contemporary panegyric poem)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Orosius, Historiae adversum paganos",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Zosimus, Historia Nova",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Battle of Pollentia in 402 CE is attested in multiple sources. Claudian's account is contemporary and detailed, though propagandistic. The date and basic facts are not disputed, though interpretations of the battle's significance vary.",
+      "cross_references": [
+        "403-001 (Alaric's continued threat)",
+        "410-001 (Alaric's eventual sack of Rome)"
+      ]
+    },
+    {
+      "id": "402-002",
+      "title": "Honorius moves the capital of the Western Roman Empire to Ravenna",
+      "region": "Western Roman Empire (Italy)",
+      "coordinates_approx": "44.4, 12.2",
+      "category": "political",
+      "description": "Following the threat posed by Alaric's invasion, the Western Roman Emperor Honorius relocated the imperial capital from Milan to Ravenna, a fortified city on the Adriatic coast. Ravenna was more defensible than Milan and had better access to naval forces. This move symbolized the shift in Roman strategic priorities from controlling the interior of Italy to securing coastal and defensible positions. Ravenna would remain the capital of the Western Roman Empire (and later the Ostrogothic kingdom) until the fall of the Western Empire in 476 CE. The move reflects the increasing militarization and fragmentation of Roman imperial authority.",
+      "key_figures": [
+        "Honorius (Western Roman Emperor)",
+        "Flavius Stilicho (regent and military commander)"
+      ],
+      "sources": [
+        {
+          "name": "Claudian, De bello Gothico",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Orosius, Historiae adversum paganos",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The relocation of the capital to Ravenna is attested in contemporary and near-contemporary sources. The date of 402 CE is generally accepted, though some sources suggest it may have occurred slightly earlier or later.",
+      "cross_references": [
+        "476-001 (Fall of the Western Roman Empire, with Ravenna as the final capital)"
+      ]
+    },
+    {
+      "id": "402-003",
+      "title": "Stilicho's military dominance in the Western Roman Empire",
+      "region": "Western Roman Empire",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "By 402 CE, Stilicho had consolidated near-absolute military and political power in the Western Roman Empire as regent for the young Emperor Honorius. His victory at Pollentia enhanced his prestige and authority. However, his position was increasingly resented by the Roman aristocracy, who viewed him as a barbarian usurper (he was half-Vandal). His dominance would be short-lived; within four years (406 CE), he would be overthrown and executed. The period of 402\u2013406 CE represents the apex of Stilicho's power and the beginning of the final collapse of Western Roman imperial authority.",
+      "key_figures": [
+        "Flavius Stilicho (Roman general and regent)",
+        "Honorius (Western Roman Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Claudian, De bello Gothico and other panegyrics",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Orosius, Historiae adversum paganos",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Stilicho's dominance in 402 CE is well-attested in contemporary sources, particularly Claudian's panegyrics. The political dynamics and resentment against him are documented in later sources.",
+      "cross_references": [
+        "406-002 (Stilicho's fall and execution)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of the Battle of Pollentia is disputed by modern scholars. Some argue that it was not a decisive victory and that Alaric was able to negotiate favorable terms or simply withdraw with his forces intact. The battle may have been more of a tactical success than a strategic turning point. Some scholars question whether Stilicho's victory actually prevented Alaric from invading Italy or merely delayed the inevitable. The relocation of the capital to Ravenna is sometimes interpreted as a sign of Roman weakness and retreat rather than strategic adaptation.",
+  "historiographic_note": "The historical record for 402 CE is heavily dependent on Claudian's panegyric, which is a contemporary but explicitly propagandistic source designed to glorify Stilicho and Honorius. Later sources (Orosius, Zosimus) are compilations that may contain errors or distortions. The perspective of Alaric and the Visigoths is entirely absent. The sources are biased toward the imperial court and military elite; the experiences of the civilian population, provincial populations, and non-elite groups are not documented. Events in other regions of the world are essentially absent from Western historical records.",
+  "graph_edges": [
+    {
+      "from": "402-001",
+      "to": "403-001",
+      "relation": "led_to",
+      "note": "Stilicho's victory at Pollentia in 402 CE temporarily halted Alaric's invasion, but Alaric continued to threaten the Eastern Empire in 403 CE."
+    },
+    {
+      "from": "402-002",
+      "to": "476-001",
+      "relation": "led_to",
+      "note": "The relocation of the capital to Ravenna in 402 CE established the final seat of Western Roman imperial authority until 476 CE."
+    },
+    {
+      "from": "402-001",
+      "to": "410-001",
+      "relation": "led_to",
+      "note": "Stilicho's victory at Pollentia in 402 CE was temporary; Alaric eventually invaded Italy and sacked Rome in 410 CE."
+    }
+  ]
+}

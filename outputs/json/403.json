@@ -1,0 +1,82 @@
+{
+  "year": 403,
+  "year_label": "403 CE",
+  "era_context": "The Western Roman Empire is experiencing severe military and political stress. Stilicho is consolidating power as regent for the young Honorius. Germanic tribes are pressing on multiple frontiers. The Eastern Roman Empire under Theodosius II is relatively more stable. In China, the Eastern Jin dynasty is in decline; the Liu Song dynasty will be established in 420 CE. The Sassanid Persian Empire dominates the Middle East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Americas",
+    "Oceania",
+    "East Asia (limited Western sources)"
+  ],
+  "events": [
+    {
+      "id": "403-001",
+      "title": "Alaric I's invasion of the Eastern Roman Empire",
+      "region": "Eastern Roman Empire (Balkans, Greece)",
+      "coordinates_approx": "39.0, 22.0",
+      "category": "military",
+      "description": "Alaric I, the Visigothic king, invaded the Eastern Roman Empire, ravaging the Balkans and Greece. He besieged Athens and plundered the Peloponnese. The Eastern Roman general Stilicho (who was also regent in the West) pursued Alaric and defeated him at the Battle of Pollentia in 402 CE (or possibly 403 CE, depending on source). However, Alaric was not decisively defeated and continued to pose a threat to the Eastern Empire. This invasion demonstrated the vulnerability of even the wealthier Eastern Empire to Germanic military pressure and set the stage for Alaric's later invasion of Italy (410 CE).",
+      "key_figures": [
+        "Alaric I (Visigothic king)",
+        "Flavius Stilicho (Roman general)"
+      ],
+      "sources": [
+        {
+          "name": "Claudian, De bello Gothico (contemporary panegyric)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Orosius, Historiae adversum paganos",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Zosimus, Historia Nova",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Alaric's invasion of the Eastern Empire and Stilicho's response are attested in multiple sources, but the exact chronology is disputed. The Battle of Pollentia is sometimes dated to 402 CE and sometimes to 403 CE. Claudian's account is contemporary but propagandistic.",
+      "cross_references": [
+        "402-001 (Battle of Pollentia, possibly this year)",
+        "410-001 (Alaric's sack of Rome)"
+      ]
+    },
+    {
+      "id": "403-002",
+      "title": "Arcadius's death and succession in Eastern Roman Empire",
+      "region": "Eastern Roman Empire",
+      "coordinates_approx": "41.0, 29.0",
+      "category": "political",
+      "description": "The Eastern Roman Emperor Arcadius died on May 1, 408 CE (not 403 CE, but this is a correction to the research parameters). However, if the year 403 CE is intended, no major succession event occurred in the Eastern Empire that year. Arcadius reigned from 395 to 408 CE. His reign was marked by the dominance of the eunuch Eutropius and later the influence of his sister Pulcheria. The Eastern Empire remained relatively stable during this period despite Germanic invasions.",
+      "key_figures": [
+        "Arcadius (Eastern Roman Emperor, reigned 395\u2013408 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Socrates Scholasticus, Ecclesiastical History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Arcadius's reign dates are well-established. No major event occurred in 403 CE specifically in the Eastern Empire's succession.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of Alaric's invasion and the Battle of Pollentia is disputed. Some sources place the battle in 402 CE, others in 403 CE. The significance of Stilicho's victory is also debated; some scholars argue that Alaric was not decisively defeated and that the 'victory' was more of a negotiated settlement or temporary reprieve. The extent of Alaric's ravaging of Greece is uncertain; some sources may exaggerate the damage.",
+  "historiographic_note": "The historical record for 403 CE is sparse and heavily dependent on Claudian's panegyric, which is a political document designed to glorify Stilicho. Later sources (Orosius, Zosimus) are compilations that may contain errors or distortions. Contemporary records from the Eastern Empire are limited. The perspective of Alaric and the Visigoths is entirely absent from surviving sources. Events in other regions of the world are essentially absent from Western historical records.",
+  "graph_edges": [
+    {
+      "from": "403-001",
+      "to": "410-001",
+      "relation": "led_to",
+      "note": "Alaric's invasion of the Eastern Empire in 403 CE was a precursor to his invasion of Italy and sack of Rome in 410 CE."
+    }
+  ]
+}
