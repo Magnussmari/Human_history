@@ -1,0 +1,88 @@
+{
+  "year": -1146,
+  "year_label": "1147 BCE",
+  "era_context": "The Late Bronze Age collapse is in full progress. Egypt under Ramesses III remains relatively stable but is losing influence in the Levant. The Hittite Empire is in its final years, with the capital Hattusa likely destroyed or about to be destroyed. Mycenaean Greece is in the post-palatial period. The Shang Dynasty in China is in its final years. This is a period of unprecedented systemic transformation across multiple civilisations.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica",
+    "Most of the Indian subcontinent"
+  ],
+  "events": [
+    {
+      "id": "-1146-001",
+      "title": "Hattusa destroyed and abandoned; end of Hittite Empire",
+      "region": "Anatolia (modern Turkey)",
+      "coordinates_approx": "40.5\u00b0N, 34.5\u00b0E",
+      "category": "military",
+      "description": "The Hittite capital Hattusa is destroyed and abandoned, marking the end of the Hittite Empire as a political entity. The destruction is attributed to invasion (possibly by the Sea Peoples or other groups), internal conflict, or a combination of factors. The city is not significantly reoccupied for centuries. The destruction of Hattusa marks the end of one of the ancient world's great powers and is a key event in the Late Bronze Age collapse. The Hittite cuneiform tradition ends abruptly.",
+      "key_figures": [
+        "Suppiluliuma II (Last Great King of the Hittites, possibly deceased by this date)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Bo\u011fazk\u00f6y (Hattusa)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Final Hittite cuneiform texts",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The destruction of Hattusa is archaeologically confirmed. Absolute dating is debated, with estimates ranging from 1200\u20131150 BCE. -1146 is assigned as approximate based on conventional chronology.",
+      "cross_references": [
+        "Part of broader Late Bronze Age collapse",
+        "Marks the end of the Hittite Empire"
+      ]
+    },
+    {
+      "id": "-1146-002",
+      "title": "Ramesses III's reign continues; Egyptian power in Levant declining",
+      "region": "Egypt and Levant",
+      "coordinates_approx": "30.8\u00b0N, 31.3\u00b0E",
+      "category": "political",
+      "description": "Ramesses III remains on the Egyptian throne, but Egyptian influence in the Levant is declining. The loss of the Hittite Empire and the disruption of trade networks have reduced Egypt's ability to project power in the region. Egypt retains control of Nubia and some Levantine territories, but the era of Egyptian imperial dominance is ending. The long-term trend is one of declining royal authority and increasing power of the priesthood of Amun.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Temple inscriptions at Medinet Habu",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Ramesses III's reign is well-documented, but specific events in any given year are difficult to date precisely.",
+      "cross_references": [
+        "Part of Ramesses III's reign (c. 1186\u20131155 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The destruction of Hattusa is often dated to around 1180 BCE, which would place it earlier than -1146. Some scholars argue for a date closer to 1200 BCE, while others propose dates as late as 1150 BCE. The causes of the destruction remain debated; while invasion by the Sea Peoples is a common explanation, internal conflict, famine, or earthquake have also been proposed. The extent of Egyptian decline in the Levant is debated; some scholars argue that Egypt retained more influence than others suggest.",
+  "historiographic_note": "This year is poorly documented. Egyptian sources remain the most detailed, but they are limited to official records and temple inscriptions. Hittite sources end abruptly with the destruction of Hattusa. Levantine evidence is primarily archaeological. The broader context of the Late Bronze Age collapse is increasingly understood as a complex, multi-causal phenomenon involving climate change, migration, warfare, and systemic economic stress. The destruction of Hattusa is one of the most significant events of this period and is archaeologically well-attested, though the precise dating and causes remain contested.",
+  "graph_edges": [
+    {
+      "from": "-1146-001",
+      "to": "-1100-001",
+      "relation": "part_of",
+      "note": "Destruction of Hattusa is a key event in the Late Bronze Age collapse"
+    },
+    {
+      "from": "-1146-002",
+      "to": "-1100-001",
+      "relation": "part_of",
+      "note": "Decline of Egyptian power is part of the broader Late Bronze Age collapse"
+    }
+  ]
+}

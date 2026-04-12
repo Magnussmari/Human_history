@@ -1,0 +1,92 @@
+{
+  "year": -1144,
+  "year_label": "1145 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u20131050 BCE). The Eastern Mediterranean and Near East are experiencing severe disruption: the Mycenaean palatial civilization has recently fallen; the Hittite Empire collapsed c. 1180 BCE; Egypt under Ramesses III faces invasions and internal strain; the Iron Age is beginning in some regions. Cuneiform literacy and palace-centered economies are fragmenting; sea peoples and population movements destabilize established powers.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse written sources; archaeological record incomplete)",
+    "East Asia (Chinese records exist but are not well-integrated into Western historiography for this specific year)",
+    "Mesoamerica (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-1144-001",
+      "title": "Ramesses III's Eighth Regnal Year; Continued Defense Against Sea Peoples and Internal Instability",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "military",
+      "description": "Ramesses III, pharaoh of Egypt's 20th Dynasty, continues his reign during a period of severe external and internal pressure. The Sea Peoples remain a threat to Egyptian territorial integrity and trade routes. Internally, the state faces economic strain, labor unrest (including the famous strikes of Deir el-Medina workers), and administrative fragmentation. This year falls within the documented period of Ramesses III's military campaigns and administrative struggles, though no specific dated event is recorded for this exact year.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple inscriptions and reliefs; Papyrus Harris I",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyri from Deir el-Medina (worker records and administrative documents)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ramesses III's regnal years are well-established through temple inscriptions and papyri, but no specific event is dated to this exact year. The year is assigned based on regnal chronology (Ramesses III reigned c. 1186\u20131155 BCE), placing this in his eighth year.",
+      "cross_references": [
+        "-1142-001 (Ramesses III's continued reign)",
+        "-1180-001 (Hittite collapse, context for Sea Peoples crisis)"
+      ]
+    },
+    {
+      "id": "-1144-002",
+      "title": "Late Bronze Age Collapse: Continued Disruption of Eastern Mediterranean Trade Networks",
+      "region": "Eastern Mediterranean (Cyprus, Levant, Anatolia, Greece)",
+      "coordinates_approx": "35.0, 32.0",
+      "category": "economic",
+      "description": "The Late Bronze Age collapse continues to disrupt established trade networks and palatial economies across the Eastern Mediterranean. Cyprus, a major copper-producing center, experiences economic and political instability. Mycenaean-style pottery and trade goods become increasingly rare in the archaeological record. The collapse of centralized palace economies leads to localized, subsistence-based settlements. This year falls within the broader period of systemic collapse rather than a single datable event.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Cyprus, the Levant, and Greece (settlement patterns, pottery typology, absence of palatial administrative records)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Late Bronze Age collapse chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Late Bronze Age collapse is a broad phenomenon dated c. 1200\u20131050 BCE. This year falls within that window, but no specific event is datable to 1144 BCE. The collapse is inferred from archaeological absence rather than documented events.",
+      "cross_references": [
+        "-1142-002 (Continued collapse)",
+        "-1200-001 (Onset of Late Bronze Age collapse)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of the Late Bronze Age collapse as a sudden, catastrophic event driven primarily by 'Sea Peoples' invasions has been substantially revised by modern scholarship. Recent work (Cline, Knapp, and others) emphasizes multiple, interconnected causes: climate change (drought), systems collapse, internal instability, and migration\u2014with the 'Sea Peoples' being one symptom rather than the primary cause. The collapse was not simultaneous across all regions; some areas (Egypt, Assyria) survived with reduced power, while others (Mycenaean Greece, the Hittite Empire) experienced near-total collapse. No specific event is recorded for 1144 BCE, making it impossible to identify disconfirming evidence for this particular year.",
+  "historiographic_note": "The historical record for 1144 BCE is extremely sparse. Our knowledge of this period comes almost entirely from Egyptian temple inscriptions (Medinet Habu, Karnak), papyri (Papyrus Harris I, Deir el-Medina records), and archaeological evidence (settlement patterns, pottery, absence of palatial records). The Egyptian sources are biased toward royal and administrative perspectives; they emphasize military victories and downplay internal economic crisis. The archaeological record is incomplete and subject to dating uncertainty (\u00b120\u201330 years for this period). Non-Egyptian civilizations (Hittites, Mycenaeans, Levantine city-states) left few written records for this year; our knowledge of them is almost entirely archaeological. The broader context of the Late Bronze Age collapse is well-established, but specific events for individual years are rarely datable.",
+  "graph_edges": [
+    {
+      "from": "-1144-001",
+      "to": "-1142-001",
+      "relation": "contemporary_with",
+      "note": "Ramesses III's reign spans multiple years; these entries document the same pharaoh's ongoing struggles."
+    },
+    {
+      "from": "-1144-002",
+      "to": "-1200-001",
+      "relation": "part_of",
+      "note": "The Late Bronze Age collapse is a multi-century process; 1144 BCE falls within its duration."
+    },
+    {
+      "from": "-1144-001",
+      "to": "-1180-001",
+      "relation": "caused_by",
+      "note": "The collapse of the Hittite Empire (c. 1180 BCE) contributed to the destabilization that Ramesses III faced."
+    }
+  ]
+}

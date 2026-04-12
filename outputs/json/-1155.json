@@ -1,0 +1,85 @@
+{
+  "year": -1155,
+  "year_label": "1155 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u20131050 BCE), transitioning into the Early Iron Age. Ramesses III of Egypt has just died (c. 1155 BCE); Ramesses IV begins his reign. Ashur-dan I of Assyria is consolidating power. Mycenaean Greece is fully post-palatial. The Hittite Empire has been extinct for ~30 years. This is the threshold between the Bronze Age and Iron Age: the old palatial systems have collapsed, and new political, economic, and technological structures are emerging.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia and the Steppe",
+    "South Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-1155-001",
+      "title": "Ramesses IV Ascends to the Throne \u2014 Transition of Power in Egypt",
+      "region": "Egypt",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "political",
+      "description": "Ramesses IV (r. c. 1155\u20131149 BCE) ascends to the throne following the death of Ramesses III. His reign is marked by continued military activity (particularly against Libyan incursions) and significant building projects, including work on the tomb of Ramesses III and other monuments. However, his reign also sees the continued erosion of pharaonic authority as temple lands and priesthoods accumulate wealth and power. Ramesses IV's reign is relatively short (c. 6 years) and represents a transitional period between the military dominance of Ramesses III and the further decline of the Twentieth Dynasty.",
+      "key_figures": [
+        "Ramesses IV (Pharaoh of Egypt, r. c. 1155\u20131149 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus Harris I and other administrative papyri",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Temple inscriptions and tomb records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses IV's accession date is well-established in Egyptian chronology (c. 1155 BCE). His regnal dates are secure (c. 1155\u20131149 BCE), though there is minor scholarly debate about the exact length of his reign (\u00b11 year).",
+      "cross_references": [
+        "Follows death of Ramesses III (c. 1155 BCE)",
+        "Part of the Twentieth Dynasty (c. 1186\u20131069 BCE)",
+        "Precedes Ramesses V (c. 1149\u20131144 BCE)"
+      ]
+    },
+    {
+      "id": "-1155-002",
+      "title": "Iron Age Emergence in the Levant and Eastern Mediterranean",
+      "region": "Eastern Mediterranean and Levant",
+      "coordinates_approx": "34.0, 35.0",
+      "category": "technological",
+      "description": "By 1155 BCE, iron working is becoming more widespread in the Eastern Mediterranean and Levant, though bronze remains the dominant metal for weapons and tools. The transition from Bronze Age to Iron Age is not a sudden technological shift but a gradual process of adoption and adaptation. Iron tools and weapons offer advantages in durability and availability of raw materials, but the technology is still developing. This technological transition is part of the broader systemic change that characterizes the Late Bronze Age collapse and the emergence of Iron Age societies.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Levantine and Mediterranean sites (metallurgical analysis, artifact typology)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The gradual adoption of iron working in the Eastern Mediterranean is archaeologically well-attested. However, the precise dating of the transition from Bronze Age to Iron Age varies by region (c. 1200\u20131000 BCE). The process was gradual and uneven, with some regions adopting iron earlier than others.",
+      "cross_references": [
+        "Part of the Late Bronze Age collapse and Iron Age transition",
+        "Related to technological and economic changes in the Eastern Mediterranean"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of a sharp 'Bronze Age collapse' followed by an 'Iron Age' is increasingly questioned by modern scholarship. The transition was gradual and uneven, with significant regional variation. Some societies (e.g., Egypt, Assyria, Phoenicia) experienced disruption but maintained continuity, while others (e.g., Mycenaean Greece, the Hittite Empire) experienced more severe collapse. Additionally, the adoption of iron working was not the primary cause of the collapse but rather a consequence of broader systemic changes. The dating of the transition varies significantly by region, and the terms 'Bronze Age' and 'Iron Age' are modern scholarly constructs that may not reflect ancient realities.",
+  "historiographic_note": "Documentation for 1155 BCE is heavily dependent on Egyptian sources (papyri and temple inscriptions), which provide detailed administrative and military information but are propagandistic in nature. Assyrian sources (king lists and inscriptions) are formulaic and provide limited narrative detail. Archaeological evidence from the Levant and Eastern Mediterranean provides material context but is difficult to date precisely to individual years. There are no contemporary written records from Greece, Anatolia, or most other regions. The historical narrative is heavily shaped by the survival of Egyptian and Assyrian sources, creating a bias toward these regions and away from others. The absence of written records from most of the world creates a significant gap in our understanding of this period.",
+  "graph_edges": [
+    {
+      "from": "-1155-001",
+      "to": "-1149-001",
+      "relation": "led_to",
+      "note": "Ramesses IV's reign continues until c. 1149 BCE, followed by Ramesses V"
+    },
+    {
+      "from": "-1155-002",
+      "to": "-1000-001",
+      "relation": "part_of",
+      "note": "Iron Age emergence is part of the broader technological and systemic transition of the Late Bronze Age collapse"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "year": -1156,
+  "year_label": "1156 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u20131050 BCE), transitioning into the Early Iron Age. Ramesses III of Egypt is in the final year of his reign (dies c. 1155 BCE). Ashur-dan I of Assyria is consolidating power. Mycenaean Greece is fully post-palatial. The Hittite Empire has been extinct for ~30 years. This is a period of systemic transformation: the end of the Bronze Age palatial world and the emergence of Iron Age societies with different political, economic, and technological structures.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia and the Steppe",
+    "South Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-1156-001",
+      "title": "Ramesses III's Death and Succession Crisis \u2014 End of an Era",
+      "region": "Egypt",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "political",
+      "description": "Ramesses III dies c. 1155 BCE (some sources place this in 1156 BCE). His death marks the end of the last great pharaoh of the Twentieth Dynasty and the beginning of a period of declining pharaonic authority. His successor, Ramesses IV, inherits a state weakened by military expenditures, economic strain, and the growing power of the priesthood of Amun. The transition is relatively peaceful, but it signals the beginning of the end of the New Kingdom's imperial power. Egypt will remain a significant regional power but will never again dominate the Eastern Mediterranean as it did under the Nineteenth and early Twentieth Dynasties.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt, r. c. 1186\u20131155 BCE)",
+        "Ramesses IV (Pharaoh of Egypt, r. c. 1155\u20131149 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus Harris I and other administrative papyri",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "King lists and temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses III's death date is traditionally placed c. 1155 BCE, but some Egyptologists argue for 1156 BCE or even 1154 BCE. The uncertainty is \u00b11\u20132 years. The succession to Ramesses IV is well-documented, but the exact date of the transition is debated.",
+      "cross_references": [
+        "End of Ramesses III's reign (c. 1186\u20131155 BCE)",
+        "Beginning of Ramesses IV's reign (c. 1155\u20131149 BCE)",
+        "Part of the decline of the New Kingdom"
+      ]
+    },
+    {
+      "id": "-1156-002",
+      "title": "Phoenician Expansion \u2014 Tyre and Sidon Rise as Regional Powers",
+      "region": "Levant (Phoenicia)",
+      "coordinates_approx": "33.5, 35.2",
+      "category": "economic",
+      "description": "In the aftermath of the Late Bronze Age collapse, Phoenician cities (particularly Tyre and Sidon) are emerging as the dominant maritime powers in the Eastern Mediterranean. By 1156 BCE, these cities are establishing trade networks and colonial settlements that will define the Iron Age Mediterranean. The Phoenicians are among the few societies that not only survived the Bronze Age collapse but actually benefited from it, as the disruption of larger empires created opportunities for smaller, maritime-focused polities.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Phoenician sites (Tyre, Sidon, Byblos, etc.)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Later Greek and Roman accounts of Phoenician expansion",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The rise of Phoenician power in the Iron Age is well-attested archaeologically and in later sources. However, the precise dating of the beginning of this expansion (whether c. 1200, 1180, or 1150 BCE) is debated. The process was gradual rather than sudden.",
+      "cross_references": [
+        "Part of the Late Bronze Age collapse and Iron Age transition",
+        "Precedes Phoenician colonial expansion (e.g., Carthage, c. 814 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Ramesses III as the 'last great pharaoh' is somewhat exaggerated. While his reign was militarily active and he successfully repelled invasions, the economic cost was significant, and his successors were not necessarily weaker or less capable\u2014they simply operated in a different geopolitical context. Additionally, the dating of Ramesses III's death is uncertain; some scholars place it in 1154 BCE or even 1152 BCE, creating a margin of error of \u00b12\u20133 years. The rise of Phoenician power is often portrayed as a sudden emergence, but it was a gradual process of adaptation to changing circumstances rather than a dramatic transformation.",
+  "historiographic_note": "Documentation for 1156 BCE is heavily dependent on Egyptian sources (papyri and temple inscriptions), which are propagandistic and focus on royal achievements. The succession of Ramesses IV is well-documented in administrative papyri, but the broader geopolitical context is less clear. Phoenician sources are almost entirely absent; our knowledge of Phoenician expansion comes from later Greek and Roman accounts and from archaeological evidence. There are no contemporary written records from Greece, Mesopotamia, or most other regions. The historical narrative is heavily shaped by the survival of Egyptian sources and the absence of Phoenician written records, creating a bias toward Egyptian perspectives.",
+  "graph_edges": [
+    {
+      "from": "-1156-001",
+      "to": "-1155-001",
+      "relation": "led_to",
+      "note": "Ramesses III's death leads to succession of Ramesses IV and decline of pharaonic authority"
+    },
+    {
+      "from": "-1156-002",
+      "to": "-1000-001",
+      "relation": "led_to",
+      "note": "Phoenician expansion in the Iron Age leads to colonial settlements and trade networks"
+    }
+  ]
+}

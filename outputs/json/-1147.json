@@ -1,0 +1,85 @@
+{
+  "year": -1147,
+  "year_label": "1148 BCE",
+  "era_context": "The Late Bronze Age collapse continues unabated. Egypt under Ramesses III remains the most stable major power, though its influence in the Levant is waning. The Hittite Empire is in its final years. Mycenaean Greece is fully in the post-palatial period. The Shang Dynasty in China is approaching its final years. This is a period of unprecedented systemic stress and transformation across multiple civilisations.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica",
+    "Most of the Indian subcontinent"
+  ],
+  "events": [
+    {
+      "id": "-1147-001",
+      "title": "Ugarit destroyed and abandoned",
+      "region": "Levant (modern Syria)",
+      "coordinates_approx": "35.6\u00b0N, 35.8\u00b0E",
+      "category": "military",
+      "description": "The great Late Bronze Age city of Ugarit, a major commercial and cultural centre, is destroyed and abandoned. The destruction is attributed to the Sea Peoples invasions, though some scholars argue for internal conflict or a combination of factors. The city's destruction marks the end of a cosmopolitan, multi-ethnic trading hub that had flourished for centuries. The destruction layer at Ugarit is archaeologically well-attested and is often used as a chronological marker for the Late Bronze Age collapse. The city is never significantly reoccupied.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Ras Shamra (Ugarit)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Ugaritic cuneiform texts (final records)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The destruction of Ugarit is archaeologically confirmed. Absolute dating is debated, with estimates ranging from 1200\u20131150 BCE. -1147 is assigned as approximate based on conventional chronology.",
+      "cross_references": [
+        "Part of broader Sea Peoples invasions and Late Bronze Age collapse"
+      ]
+    },
+    {
+      "id": "-1147-002",
+      "title": "Shang Dynasty in final years; oracle bone records sparse",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.5\u00b0N, 114.0\u00b0E",
+      "category": "political",
+      "description": "The Shang Dynasty is in its final years under King Di Xin. Oracle bone records from this period are sparse and difficult to interpret. According to later Chinese sources, Di Xin's rule is marked by internal conflict and the growing power of the Zhou people in the west. The Zhou are preparing to challenge Shang authority, and the conquest is imminent. The transition from Shang to Zhou will mark the end of the Bronze Age in China and the beginning of the Zhou Dynasty.",
+      "key_figures": [
+        "Di Xin / Zhou Xin (Last Shang King)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions from Shang sites",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The final years of the Shang Dynasty are poorly documented in contemporary sources. Oracle bone records are sparse and difficult to date precisely. The traditional date for the Zhou conquest is 1046 BCE, but this is contested by modern scholars.",
+      "cross_references": [
+        "Leads to Zhou conquest within ~2 years (traditional dating)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The destruction of Ugarit is often cited as a key marker of the Late Bronze Age collapse, but the precise dating and causes remain debated. Some scholars argue that the destruction was not as sudden or catastrophic as once believed, and that some continuity of settlement and trade occurred. The attribution to the Sea Peoples is based partly on Egyptian sources and partly on archaeological inference; alternative explanations (internal conflict, earthquake, famine) have been proposed. The Shang-Zhou transition is traditionally dated to 1046 BCE, but some scholars argue for earlier dates, which would place the final Shang years in the 1050s or 1060s BCE rather than the 1140s.",
+  "historiographic_note": "This year is poorly documented. Egyptian sources remain the most detailed, but they are limited to official records and temple inscriptions. Levantine evidence is primarily archaeological, with limited written records. Chinese sources are legendary and compiled centuries later. The broader context of the Late Bronze Age collapse is increasingly understood as a complex, multi-causal phenomenon, but the precise sequence of events and their relative importance remain contested. The destruction of Ugarit is one of the few events from this year that is archaeologically well-attested.",
+  "graph_edges": [
+    {
+      "from": "-1147-001",
+      "to": "-1100-001",
+      "relation": "part_of",
+      "note": "Destruction of Ugarit is part of the Late Bronze Age collapse"
+    },
+    {
+      "from": "-1147-002",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "Final years of Shang Dynasty lead to Zhou conquest"
+    }
+  ]
+}

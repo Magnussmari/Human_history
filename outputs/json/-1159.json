@@ -1,0 +1,87 @@
+{
+  "year": -1159,
+  "year_label": "1159 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u20131050 BCE). The Eastern Mediterranean and Near East are experiencing severe disruption: the Hittite Empire has recently fallen (c. 1180 BCE), Egypt under Ramesses III faces invasions by the Sea Peoples, Mycenaean Greece is in terminal decline, and major trade networks are fragmenting. Assyria is in a period of relative weakness; the Iron Age is beginning in some regions. This is an era of migration, warfare, and the breakdown of palatial Bronze Age systems.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia (China during Shang-Zhou transition)",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-1159-001",
+      "title": "Ramesses III's Eighth Regnal Year \u2014 Continued Sea Peoples Conflicts",
+      "region": "Egypt (Nile Delta and Eastern Mediterranean)",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "military",
+      "description": "Ramesses III of Egypt (r. c. 1186\u20131155 BCE) continues military campaigns against the Sea Peoples and Libyan incursions into the Delta. By this point in his reign, Egypt has repelled multiple waves of invasion but at considerable cost to state resources. The Medinet Habu temple reliefs document these conflicts, though the precise chronology of individual campaigns remains debated. These conflicts mark the final phase of Egyptian dominance in the Eastern Mediterranean and accelerate the transition from the Bronze Age to the Iron Age.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple reliefs and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses III's regnal dates are well-established (c. 1186\u20131155 BCE), placing this year in his eighth regnal year. However, the precise dating and sequence of individual Sea Peoples campaigns within his reign is debated by Egyptologists; some scholars compress or reorder campaigns based on textual and archaeological evidence.",
+      "cross_references": [
+        "Follows from broader Sea Peoples invasions (c. 1200\u20131150 BCE)",
+        "Part of Late Bronze Age collapse"
+      ]
+    },
+    {
+      "id": "-1159-002",
+      "title": "Decline of Mycenaean Palatial Centers \u2014 Continued Abandonment",
+      "region": "Greece (Peloponnese and Aegean)",
+      "coordinates_approx": "37.5, 23.0",
+      "category": "cultural",
+      "description": "By 1159 BCE, the major Mycenaean palatial centers (Mycenae, Pylos, Tiryns) have been abandoned or severely depopulated over the preceding 50 years. Linear B writing has ceased; monumental architecture is no longer maintained. Population dispersal, local warfare, and possibly climate stress have fragmented the Mycenaean world. This period marks the transition from the Bronze Age to the Early Iron Age in Greece, with significant loss of literacy and centralized authority.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological stratigraphy from Mycenae, Pylos, Tiryns, and other Peloponnesian sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Absence of Linear B tablets after c. 1200 BCE",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The abandonment of Mycenaean centers is archaeologically well-attested. However, the precise dating of individual site destructions and the causes (invasion, internal conflict, climate, or combination) remain debated. The process was gradual rather than catastrophic at a single moment.",
+      "cross_references": [
+        "Part of Late Bronze Age collapse",
+        "Contemporary with Sea Peoples migrations"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of a sudden, unified 'Bronze Age collapse' caused primarily by Sea Peoples invasions is increasingly questioned by modern scholarship. Recent work (e.g., by Cline, Knapp, and others) emphasizes multiple, overlapping causes: climate change (drought), internal conflicts, systems collapse, and migration\u2014with the Sea Peoples as one factor among many, not the sole cause. Additionally, the extent of 'collapse' varies regionally; some areas (e.g., Phoenicia, parts of Assyria) experienced disruption but continuity, not total collapse. The dating of specific events within this period remains uncertain, with margins of \u00b110\u201320 years common.",
+  "historiographic_note": "The historical record for 1159 BCE is heavily dependent on Egyptian temple reliefs and papyri (which are propagandistic and may exaggerate military victories), archaeological stratigraphy (which provides material evidence but limited narrative detail), and later Greek traditions (which are often legendary or symbolic). There are no contemporary written records from Greece, the Hittite lands, or most of the Levant for this specific year. The causes and precise sequence of the Late Bronze Age collapse remain one of the most contested topics in ancient history, with scholars divided between catastrophist, gradualist, and multi-causal interpretations. Western Mediterranean and Near Eastern sources dominate; African, Asian, and American contexts are largely absent from the record.",
+  "graph_edges": [
+    {
+      "from": "-1159-001",
+      "to": "-1155-001",
+      "relation": "led_to",
+      "note": "Ramesses III's military campaigns continue; his reign ends c. 1155 BCE"
+    },
+    {
+      "from": "-1159-002",
+      "to": "-1100-001",
+      "relation": "part_of",
+      "note": "Mycenaean collapse is part of the broader Late Bronze Age collapse (c. 1200\u20131050 BCE)"
+    }
+  ]
+}

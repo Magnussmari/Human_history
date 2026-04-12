@@ -1,0 +1,106 @@
+{
+  "year": -1162,
+  "year_label": "1162 BCE",
+  "era_context": "Late Bronze Age collapse in its mature phase. Egypt under Ramesses III is managing a complex political and military situation. The Hittite Empire remains defunct. The Eastern Mediterranean is characterized by disrupted trade, population movements, and the emergence of new political entities (Philistines, Neo-Hittite states). In China, the Shang Dynasty is in its final decades. This is an era of transformation and instability across multiple civilizations.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia and Steppe",
+    "Mesoamerica",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-1162-001",
+      "title": "Ramesses III's Seventh Regnal Year: Continued Military and Administrative Activity",
+      "region": "Egypt",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "political",
+      "description": "In his seventh regnal year (c. 1176\u20131175 BCE), Ramesses III continues his reign with documented military and administrative activities. Temple inscriptions and administrative papyri record ongoing management of the kingdom, including military organization and temple endowments. The pharaoh's reign is characterized by sustained effort to maintain Egyptian power and territorial integrity despite external pressures. This year represents the middle period of his reign, before the later decline in royal authority.",
+      "key_figures": [
+        "Ramesses III (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses III's regnal chronology is established, but absolute dating is debated (\u00b110\u201315 years). The seventh regnal year is documented in temple and administrative records.",
+      "cross_references": [
+        "-1163-001 (Sixth regnal year)"
+      ]
+    },
+    {
+      "id": "-1162-002",
+      "title": "Neo-Hittite States: Emergence of Successor Polities in Anatolia",
+      "region": "Anatolia (modern Turkey)",
+      "coordinates_approx": "38.5, 35.0",
+      "category": "political",
+      "description": "Following the collapse of the Hittite Empire c. 1180 BCE, successor states are consolidating in Anatolia and northern Syria. These Neo-Hittite or Syro-Hittite states (such as Carchemish, Malatya, and others) are establishing themselves as regional powers, maintaining some cultural and linguistic continuity with the Hittite tradition while adapting to the new political landscape. By 1162 BCE, these states are developing distinct identities and engaging in regional diplomacy and trade.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Anatolian and Syrian sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Later Hittite and Aramean inscriptions",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The emergence of Neo-Hittite states is archaeologically attested, but precise dating of individual state formations is uncertain. The process is gradual, spanning several decades. Dating to 1162 BCE is approximate within \u00b120 years.",
+      "cross_references": [
+        "-1180-001 (Hittite Empire collapse)"
+      ]
+    },
+    {
+      "id": "-1162-003",
+      "title": "Shang Dynasty: Late Shang Ritual and Administrative Practices",
+      "region": "China (Yinxu)",
+      "coordinates_approx": "36.0, 114.5",
+      "category": "cultural",
+      "description": "Oracle bone inscriptions from this period continue to document Shang divination, ritual, and administrative practices. The inscriptions show ongoing concerns with harvests, military campaigns, and celestial phenomena. By 1162 BCE, the Shang Dynasty is approaching its final collapse (traditionally dated to 1046 BCE), but contemporary evidence shows a civilization still maintaining complex institutional structures. The oracle bone script is well-developed and widely used for administrative and religious purposes.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions from Yinxu",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Oracle bones are contemporary evidence, but precise dating to 1162 BCE is uncertain. Shang chronology is debated (\u00b150 years). The inscriptions themselves are well-preserved but fragmentary.",
+      "cross_references": [
+        "-1163-003 (Late Shang oracle bones)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The emergence of Neo-Hittite states is sometimes portrayed as a direct continuation of Hittite civilization, but modern scholarship emphasizes the discontinuity and transformation involved. These states adopted some Hittite cultural elements but were fundamentally new political entities. The dating of Neo-Hittite state formation is uncertain; some scholars place major consolidation later (c. 1100 BCE). Ramesses III's continued authority is documented in temple inscriptions, but these are propagandistic and may overstate his actual power. The Shang Dynasty's final years remain poorly documented; the traditional date of 1046 BCE for the Zhou conquest is increasingly questioned by scholars.",
+  "historiographic_note": "This year continues the pattern of Egyptian-centric documentation for the Eastern Mediterranean and Near East. Archaeological evidence from Anatolia and Syria provides material culture data but limited political information. Chinese oracle bones are contemporary but fragmentary and difficult to interpret. The broader narrative of 'Late Bronze Age collapse' remains a modern historiographic construct. Significant gaps exist for Africa, South Asia, and the Americas. The sources that do exist are often propagandistic (Egyptian temple inscriptions) or fragmentary (oracle bones, archaeological remains).",
+  "graph_edges": [
+    {
+      "from": "-1162-001",
+      "to": "-1163-001",
+      "relation": "contemporary_with",
+      "note": "Ramesses III's seventh regnal year follows the sixth regnal year"
+    },
+    {
+      "from": "-1162-002",
+      "to": "-1180-001",
+      "relation": "caused_by",
+      "note": "Neo-Hittite state emergence is a direct consequence of Hittite Empire collapse"
+    }
+  ]
+}

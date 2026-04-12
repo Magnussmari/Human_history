@@ -1,0 +1,119 @@
+{
+  "year": -1145,
+  "year_label": "1146 BCE",
+  "era_context": "The Late Bronze Age collapse is in full progress. The Hittite Empire has recently been destroyed. Egypt under Ramesses III is the most stable major power but is losing influence in the Levant. Mycenaean Greece is in the post-palatial period. The Shang Dynasty in China is in its final years. This is a period of unprecedented systemic transformation and instability across multiple civilisations.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica",
+    "Most of the Indian subcontinent"
+  ],
+  "events": [
+    {
+      "id": "-1145-001",
+      "title": "Aftermath of Hittite collapse; Anatolia fragmented",
+      "region": "Anatolia",
+      "coordinates_approx": "40.5\u00b0N, 34.5\u00b0E",
+      "category": "political",
+      "description": "In the aftermath of the destruction of Hattusa, Anatolia is fragmented into smaller, independent polities. The unified Hittite state is gone, and the region is divided among various groups, including the Phrygians and other Indo-European peoples. Some Hittite cultural and political traditions survive in smaller Neo-Hittite city-states in northern Syria, but the great empire is no more. This fragmentation is part of the broader Late Bronze Age collapse and marks a major shift in the political geography of the Near East.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Anatolian sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Later Greek sources (Herodotus, etc.) mentioning post-Hittite Anatolia",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The fragmentation of Anatolia after the Hittite collapse is well-attested archaeologically, but the precise chronology of individual events is uncertain.",
+      "cross_references": [
+        "Follows from destruction of Hattusa in -1146 or earlier"
+      ]
+    },
+    {
+      "id": "-1145-002",
+      "title": "Ramesses III's reign in middle years; consolidation of power",
+      "region": "Egypt",
+      "coordinates_approx": "30.8\u00b0N, 31.3\u00b0E",
+      "category": "political",
+      "description": "Ramesses III continues to consolidate power in Egypt, though the long-term trend is one of declining royal authority relative to the priesthood of Amun. The pharaoh maintains control over the military and administrative apparatus, but the priesthood's wealth and land holdings continue to grow. This tension between royal and priestly power will become increasingly acute after Ramesses III's death and will contribute to the fragmentation of Egypt in the later New Kingdom.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Temple inscriptions at Medinet Habu",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Ramesses III's reign is well-documented, but specific events in any given year are difficult to date precisely.",
+      "cross_references": [
+        "Part of Ramesses III's reign (c. 1186\u20131155 BCE)"
+      ]
+    },
+    {
+      "id": "-1145-003",
+      "title": "Shang Dynasty in final years; Zhou conquest imminent",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.5\u00b0N, 114.0\u00b0E",
+      "category": "political",
+      "description": "The Shang Dynasty is in its final years under King Di Xin. The Zhou people, a vassal state in the west, are preparing to challenge Shang authority. According to later Chinese sources, Di Xin's rule is marked by internal conflict and the growing power of the Zhou. The conquest is imminent and will occur within the next few years (traditionally dated to 1046 BCE, though some scholars place it earlier). This transition will mark the end of the Bronze Age in China and the beginning of the Zhou Dynasty.",
+      "key_figures": [
+        "Di Xin / Zhou Xin (Last Shang King)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions from Shang sites",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The final years of the Shang Dynasty are poorly documented in contemporary sources. Oracle bone records are sparse. The traditional date for the Zhou conquest is 1046 BCE, but this is contested by modern scholars.",
+      "cross_references": [
+        "Leads to Zhou conquest within ~1 year (traditional dating)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The fragmentation of Anatolia after the Hittite collapse is well-attested, but the precise chronology and the identity of the groups responsible for the destruction of Hattusa remain debated. The Shang-Zhou transition is traditionally dated to 1046 BCE, but some scholars argue for earlier dates, which would place the final Shang years in the 1050s or 1060s BCE rather than the 1140s. The extent of Ramesses III's power and the nature of his relationship with the priesthood of Amun are debated.",
+  "historiographic_note": "This year is poorly documented. Egyptian sources remain the most detailed, but they are limited to official records and temple inscriptions. Hittite sources have ended. Levantine and Anatolian evidence is primarily archaeological. Chinese sources are legendary and compiled centuries later. The broader context of the Late Bronze Age collapse is increasingly understood as a complex, multi-causal phenomenon involving climate change, migration, warfare, and systemic economic stress. The fragmentation of Anatolia is one of the most significant consequences of the Hittite collapse.",
+  "graph_edges": [
+    {
+      "from": "-1145-001",
+      "to": "-1100-001",
+      "relation": "part_of",
+      "note": "Fragmentation of Anatolia is part of the Late Bronze Age collapse"
+    },
+    {
+      "from": "-1145-002",
+      "to": "-1100-001",
+      "relation": "part_of",
+      "note": "Ramesses III's reign is part of the broader context of the Late Bronze Age collapse"
+    },
+    {
+      "from": "-1145-003",
+      "to": "-1046-001",
+      "relation": "led_to",
+      "note": "Final years of Shang Dynasty lead to Zhou conquest"
+    }
+  ]
+}

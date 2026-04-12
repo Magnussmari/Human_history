@@ -1,0 +1,91 @@
+{
+  "year": -1157,
+  "year_label": "1157 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u20131050 BCE). Egypt under Ramesses III is in the final decade of his reign. The Eastern Mediterranean world continues to fragment. Mycenaean Greece is fully post-palatial, with population dispersal and loss of centralized authority. The Hittite Empire has been extinct for ~25 years. Assyria is beginning a period of gradual recovery under Ashur-dan I (r. c. 1178\u20131133 BCE). This is a transitional era between the Bronze Age and Iron Age systems.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia",
+    "Mesoamerica",
+    "Northern Europe",
+    "Central Asia and the Steppe",
+    "South Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-1157-001",
+      "title": "Ashur-dan I's Early Reign \u2014 Assyrian Recovery Begins",
+      "region": "Assyria (Mesopotamia)",
+      "coordinates_approx": "36.0, 43.0",
+      "category": "political",
+      "description": "Ashur-dan I (r. c. 1178\u20131133 BCE) is in the early years of his reign, beginning a period of Assyrian recovery and expansion after a period of weakness during the Late Bronze Age collapse. He undertakes military campaigns to restore Assyrian control over territories in northern Mesopotamia and the Levant. His reign marks the beginning of the Middle Assyrian period's resurgence, though full imperial power will not be restored until later kings like Ashurnasirpal II (r. 883\u2013859 BCE).",
+      "key_figures": [
+        "Ashur-dan I (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian King List",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Inscriptions from Ashur and other Assyrian sites",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashur-dan I's regnal dates are established by the Assyrian King List (c. 1178\u20131133 BCE), placing 1157 BCE in his early reign. However, the specific events and campaigns of this particular year are not individually documented in surviving inscriptions.",
+      "cross_references": [
+        "Part of Ashur-dan I's reign (c. 1178\u20131133 BCE)",
+        "Precedes later Assyrian expansion under Ashurnasirpal II (883\u2013859 BCE)"
+      ]
+    },
+    {
+      "id": "-1157-002",
+      "title": "Ramesses III's Final Years \u2014 Economic Strain and Labor Unrest in Egypt",
+      "region": "Egypt",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "economic",
+      "description": "By 1157 BCE, Ramesses III is in the final years of his reign (he dies c. 1155 BCE). The Egyptian state is experiencing significant economic strain due to the costs of military campaigns against the Sea Peoples and Libyans, as well as the expansion of temple lands and priesthoods. Labor unrest is documented in papyri, including strikes by workers at Deir el-Medina (the village of tomb workers). These economic pressures will contribute to the decline of pharaonic authority in the subsequent Twentieth Dynasty.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Papyri from Deir el-Medina documenting labor disputes",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses III's regnal dates are secure (c. 1186\u20131155 BCE), placing 1157 BCE in his final decade. Labor unrest at Deir el-Medina is documented in papyri, though the precise dating of individual strikes to specific years is uncertain.",
+      "cross_references": [
+        "Part of Ramesses III's reign (c. 1186\u20131155 BCE)",
+        "Leads to decline of pharaonic authority in the Twentieth Dynasty"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The narrative of Ashur-dan I as a 'restorer' of Assyrian power is somewhat exaggerated in later Assyrian propaganda. Modern scholarship suggests his recovery was gradual and limited in scope, with Assyria remaining a regional rather than imperial power until much later (Ashurnasirpal II, 9th century BCE). Additionally, the extent of Egyptian economic crisis under Ramesses III is debated; some scholars argue that the state remained relatively stable, while others emphasize systemic decline. The labor strikes at Deir el-Medina, while documented, may reflect local grievances rather than empire-wide crisis.",
+  "historiographic_note": "Documentation for 1157 BCE is sparse and regionally fragmented. Egyptian sources (papyri and temple inscriptions) provide the most detailed information, but they are propagandistic and focus on royal achievements rather than economic or social realities. Assyrian sources (king lists and inscriptions) are formulaic and provide limited narrative detail. There are no contemporary written records from Greece, the Levant, or most other regions. Archaeological evidence provides material context but is difficult to date precisely to individual years. The historical narrative is heavily shaped by the survival of Egyptian and Assyrian sources, creating a bias toward these regions and away from others.",
+  "graph_edges": [
+    {
+      "from": "-1157-002",
+      "to": "-1155-001",
+      "relation": "led_to",
+      "note": "Ramesses III dies c. 1155 BCE; economic strain continues under successors"
+    },
+    {
+      "from": "-1157-001",
+      "to": "-1100-001",
+      "relation": "part_of",
+      "note": "Ashur-dan I's recovery is part of Assyria's gradual resurgence in the Iron Age"
+    }
+  ]
+}
