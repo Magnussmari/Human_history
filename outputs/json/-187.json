@@ -1,0 +1,104 @@
+{
+  "year": -187,
+  "year_label": "187 BCE",
+  "era_context": "The Seleucid Empire under Seleucus II faces continued fragmentation and external pressure. The Han Dynasty under Emperor Jing consolidates power following the Rebellion of the Seven States. Rome expands its dominance in the Mediterranean and Balkans. The Ptolemaic Dynasty controls Egypt and the eastern Mediterranean. In India, regional kingdoms compete for power in the absence of a unified Mauryan Empire.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia (Parthian Empire emerging but sources are sparse)"
+  ],
+  "events": [
+    {
+      "id": "-187-001",
+      "title": "Seleucus II continues military campaigns in Anatolia",
+      "region": "Seleucid Empire (Anatolia, Syria)",
+      "coordinates_approx": "37.0,35.0",
+      "category": "military",
+      "description": "Seleucus II Callinicus continues military operations to maintain control over Anatolia and resist Ptolemaic expansion. These campaigns are part of ongoing efforts to stabilize the Seleucid Empire, which faces pressure from Egypt, rising Parthian power in the east, and internal dissent. The campaigns have limited success, reflecting the structural decline of Seleucid central authority.",
+      "key_figures": [
+        "Seleucus II Callinicus (Seleucid King)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Seleucus II's reign is well-dated (246\u2013226 BCE), but specific campaigns in 187 BCE are not independently documented. The year is assigned by convention.",
+      "cross_references": []
+    },
+    {
+      "id": "-187-002",
+      "title": "Han Dynasty consolidation continues under Emperor Jing",
+      "region": "Han Dynasty China",
+      "coordinates_approx": "34.0,108.0",
+      "category": "political",
+      "description": "Emperor Jing continues the process of centralizing Han authority and reducing the power of regional kingdoms. Administrative reforms strengthen the imperial bureaucracy and establish mechanisms for controlling local nobility. This period of consolidation is crucial for the later expansionist policies of Emperor Wu (r. 141\u201387 BCE).",
+      "key_figures": [
+        "Emperor Jing of Han (Han Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Han shu (Book of Han) by Ban Gu",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Emperor Jing's reign and general administrative policies are well-documented. Specific events in 187 BCE are not independently dated.",
+      "cross_references": []
+    },
+    {
+      "id": "-187-003",
+      "title": "Roman expansion in Spain and North Africa",
+      "region": "Roman Republic (Spain, North Africa)",
+      "coordinates_approx": "40.0,-3.0",
+      "category": "military",
+      "description": "Rome continues consolidation of its control over former Carthaginian territories in Spain and North Africa. Military campaigns are undertaken to suppress local resistance and establish Roman administrative authority. These campaigns are part of Rome's broader strategy to transform the Mediterranean into a Roman-dominated sphere.",
+      "key_figures": [
+        "Roman military commanders (specific names not consistently recorded)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome, Books 39\u201340",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Roman military activity in Spain and North Africa during this period is well-attested in general terms, but specific campaigns in 187 BCE are not independently dated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No major events are specifically dated to 187 BCE in primary sources. The year falls within broader historical processes (Seleucid decline, Han consolidation, Roman expansion) that span decades. Modern scholarship emphasizes that these processes are continuous rather than marked by discrete annual events. The assignment of events to 187 BCE is largely conventional and does not reflect contemporary documentation of specific occurrences in this year.",
+  "historiographic_note": "Documentation for 187 BCE is sparse and relies heavily on later compilations. No contemporary sources specifically record events of this year. Chinese sources (Shiji, Han shu) provide general information about Emperor Jing's reign but lack precision for individual years. Western sources (Livy, Polybius, Appian) are similarly general for this period. The historical record for 187 BCE is essentially a reconstruction based on broader chronological frameworks and general knowledge of the period. Archaeological evidence (coins, inscriptions) provides some independent confirmation of political chronologies but is limited for specific annual events.",
+  "graph_edges": [
+    {
+      "from": "-187-002",
+      "to": "-141-001",
+      "relation": "led_to",
+      "note": "Han consolidation under Emperor Jing enabled the expansionist policies of Emperor Wu"
+    },
+    {
+      "from": "-187-003",
+      "to": "-146-001",
+      "relation": "part_of",
+      "note": "Roman consolidation in Spain and North Africa continued through the mid-2nd century BCE"
+    }
+  ]
+}

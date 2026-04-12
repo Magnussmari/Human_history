@@ -1,0 +1,90 @@
+{
+  "year": -191,
+  "year_label": "191 BCE",
+  "era_context": "The Syrian War (192-188 BCE) is in its second year. Antiochus III has retreated from Greece but continues to fight the Romans in Asia Minor. Rome is consolidating its dominance in the Mediterranean and is preparing for a major offensive against the Seleucid Empire. Egypt under Ptolemy V remains weak and is increasingly dependent on Roman support. China under Emperor Wen continues a period of stability.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica and South America",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-191-001",
+      "title": "Battle of the Hellespont; Roman naval victory over Seleucid fleet",
+      "region": "Hellespont (Dardanelles Strait)",
+      "coordinates_approx": "40.3, 26.2",
+      "category": "military",
+      "description": "Roman naval forces under Gaius Livius defeat the Seleucid fleet at the Hellespont (Dardanelles Strait). The battle is a significant Roman victory that establishes Roman naval superiority in the eastern Mediterranean and cuts off Antiochus III's supply lines and reinforcements from Asia Minor. The victory is a turning point in the Syrian War, as it prevents Antiochus from receiving support from his homeland and isolates his forces in Greece and Asia Minor. The battle demonstrates Roman naval power and the decline of Seleucid naval capabilities.",
+      "key_figures": [
+        "Gaius Livius (Roman naval commander)",
+        "Hannibal (Seleucid naval advisor, possibly present)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome (Book 37)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories (Book 13)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Battle of the Hellespont is attested in multiple sources, but the exact date is uncertain. Most sources place it in 191 BCE, but some suggest 190 BCE. The dating is secure within \u00b11 year.",
+      "cross_references": [
+        "-192-001 (Outbreak of Syrian War)",
+        "-190-001 (Battle of Magnesia)"
+      ]
+    },
+    {
+      "id": "-191-002",
+      "title": "Continued Roman military operations in Asia Minor",
+      "region": "Asia Minor (Seleucid Empire)",
+      "coordinates_approx": "35.0, 35.0",
+      "category": "military",
+      "description": "Roman forces continue military operations against Antiochus III in Asia Minor. The Romans are gradually pushing Antiochus's forces back and consolidating their control over the region. These operations are part of the broader strategy to defeat Antiochus and establish Roman dominance in the eastern Mediterranean. The operations are generally successful, though they are not as dramatic as the naval victory at the Hellespont.",
+      "key_figures": [
+        "Lucius Cornelius Scipio (Roman commander)",
+        "Antiochus III (Seleucid King)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome (Book 37)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories (Book 13)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Roman military operations in 191 BCE is well-documented, but specific events are not distinctly attested. This entry represents the continuation of a known pattern of Roman expansion.",
+      "cross_references": [
+        "-192-001",
+        "-190-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of the Battle of the Hellespont is disputed in modern scholarship. Some sources place it in 190 BCE rather than 191 BCE. The significance of the battle in the overall course of the Syrian War is also debated; some scholars argue that it was less decisive than traditional accounts suggest. However, the general narrative of Roman naval superiority is well-established.",
+  "historiographic_note": "The Syrian War is well-documented through Greek and Roman historians, particularly Livy and Polybius. However, the sources are heavily weighted toward the Roman perspective. Seleucid viewpoints are underrepresented. The dating of events in this era is generally reliable to within \u00b11-2 years. The war is extensively studied by modern scholars and is a major focus of Hellenistic history.",
+  "graph_edges": [
+    {
+      "from": "-191-001",
+      "to": "-190-001",
+      "relation": "led_to",
+      "note": "The Roman naval victory at the Hellespont contributed to the conditions that led to the Battle of Magnesia"
+    },
+    {
+      "from": "-191-002",
+      "to": "-190-001",
+      "relation": "part_of",
+      "note": "Roman military operations in 191 BCE are part of the broader campaign that culminated in the Battle of Magnesia"
+    }
+  ]
+}

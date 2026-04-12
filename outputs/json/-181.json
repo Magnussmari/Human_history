@@ -1,0 +1,111 @@
+{
+  "year": -181,
+  "year_label": "181 BCE",
+  "era_context": "Continuation of the early Hellenistic period with the same major powers: Seleucid Empire under Antiochus III, Ptolemaic Egypt under the newly-acceded Ptolemy VI, and Rome's growing influence in the Mediterranean. The Han Dynasty in China continues its consolidation under Emperor Wen. This year falls within a period of relative stability in the Mediterranean before the major conflicts of the 170s BCE.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica",
+    "India (limited contemporary Greek sources)"
+  ],
+  "events": [
+    {
+      "id": "-181-001",
+      "title": "Continued Seleucid military operations in southern Syria",
+      "region": "Seleucid Empire (Syria, Phoenicia)",
+      "coordinates_approx": "34.5, 35.5",
+      "category": "military",
+      "description": "Antiochus III continues military consolidation of Seleucid territories in southern Syria and Phoenicia, building on campaigns from the previous year. These operations are part of a sustained effort to recover territories lost to Ptolemaic Egypt and to strengthen Seleucid control over the eastern Mediterranean trade routes. The campaigns are generally successful but do not yet provoke direct Roman intervention.",
+      "key_figures": [
+        "Antiochus III (Seleucid King)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Polybius provides the main source, but specific events of 181 BCE are not always clearly distinguished from those of 180 or 182 BCE. Dating is approximate within \u00b12 years.",
+      "cross_references": [
+        "-180-001"
+      ]
+    },
+    {
+      "id": "-181-002",
+      "title": "Regency crisis in Ptolemaic Egypt",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Following the death of Ptolemy V, the young Ptolemy VI Philometor is placed under regency. Power struggles emerge among the regents, including Ptolemy VI's mother Cleopatra I and other court factions. This internal instability weakens Egypt's ability to respond to Seleucid expansion and sets the stage for future conflicts. The regency period is marked by administrative challenges and the consolidation of power by competing court factions.",
+      "key_figures": [
+        "Ptolemy VI Philometor (young Ptolemaic King)",
+        "Cleopatra I (regent, mother of Ptolemy VI)"
+      ],
+      "sources": [
+        {
+          "name": "Papyri from Egypt (administrative records)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Egyptian papyri document the regency period, but specific events of 181 BCE are not always clearly dated. The regency crisis is well-attested but the precise chronology of individual events is uncertain.",
+      "cross_references": [
+        "-180-002"
+      ]
+    },
+    {
+      "id": "-181-003",
+      "title": "Han Dynasty administrative reforms under Emperor Wen",
+      "region": "Han Dynasty China",
+      "coordinates_approx": "34.0, 109.0",
+      "category": "political",
+      "description": "Emperor Wen continues administrative reforms aimed at reducing the power of regional princes and strengthening central authority. These reforms include the promotion of Confucian scholars in government and the establishment of a more meritocratic bureaucracy. The reforms are part of a longer process of Han consolidation that will continue through the reign of Emperor Jing.",
+      "key_figures": [
+        "Emperor Wen of Han"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Han Dynasty sources document the general trajectory of administrative reform, but specific events of 181 BCE are not always clearly distinguished from those of surrounding years.",
+      "cross_references": [
+        "-180-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The specific events of 181 BCE are poorly distinguished in surviving sources from those of 180 or 182 BCE. Polybius, the main source for Seleucid-Ptolemaic affairs, does not always provide year-by-year precision. Modern scholarship has questioned whether the Seleucid campaigns of this period were as militarily significant as older historiography suggested\u2014they may have been more limited in scope than previously believed.",
+  "historiographic_note": "The historical record for 181 BCE is sparse and relies heavily on sources written decades or centuries after the events. Polybius is the most detailed source for Mediterranean affairs, but he was writing in the 2nd century BCE about events from the early 2nd century BCE. Chinese sources are more contemporary but focus on internal Han affairs. Egyptian papyri provide administrative evidence but are not narrative sources. The year 181 BCE is not a major turning point in any surviving historical tradition, which may explain the lack of detailed contemporary documentation.",
+  "graph_edges": [
+    {
+      "from": "-181-001",
+      "to": "-180-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of Seleucid military operations from the previous year"
+    },
+    {
+      "from": "-181-002",
+      "to": "-170-001",
+      "relation": "led_to",
+      "note": "Regency instability in Egypt contributed to Seleucid aggression in the Sixth Syrian War"
+    }
+  ]
+}

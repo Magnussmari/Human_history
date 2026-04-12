@@ -1,0 +1,115 @@
+{
+  "year": -186,
+  "year_label": "186 BCE",
+  "era_context": "The Seleucid Empire continues its struggle for stability under Seleucus II. The Han Dynasty under Emperor Jing consolidates power in the aftermath of the Rebellion of the Seven States. Rome expands its influence in the eastern Mediterranean and Balkans. In India, the Mauryan Empire has fragmented; regional powers compete for dominance. Egypt under the Ptolemies maintains control of the eastern Mediterranean.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica (Maya civilization active but sparse records for this year)",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-186-001",
+      "title": "Bacchanalian Conspiracy suppressed in Rome",
+      "region": "Roman Republic (Italy)",
+      "coordinates_approx": "41.9,12.5",
+      "category": "religious",
+      "description": "The Roman Senate, alarmed by the spread of Bacchic (Dionysian) mystery cults, issues the Senatus Consultum de Bacchanalibus (Decree Concerning the Bacchanals), suppressing unauthorized Bacchic worship throughout Roman territory. The decree is motivated by concerns that the cults pose a threat to public order and Roman religious orthodoxy. This represents one of the earliest large-scale religious suppressions in Roman history and reflects the Senate's anxiety about foreign religious practices and their potential for social disruption. Archaeological evidence (inscriptions) and Livy's account confirm the suppression, though the extent of the conspiracy is debated by modern scholars.",
+      "key_figures": [
+        "The Roman Senate (collective authority)",
+        "Spurius Postumius (consul, 174 BCE; may have been involved in earlier investigations)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome, Book 39, chapters 8\u201319 (detailed account of the Bacchanalian affair)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Inscription CIL I\u00b2 581 (Senatus Consultum de Bacchanalibus, found at Tiriolo, Calabria)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Pliny the Elder, Natural History (references to the suppression)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The date of 186 BCE is established by Livy's narrative and confirmed by the epigraphic evidence of the senatus consultum. The inscription provides contemporary documentation of the decree itself.",
+      "cross_references": []
+    },
+    {
+      "id": "-186-002",
+      "title": "Han Dynasty administrative reforms under Emperor Jing",
+      "region": "Han Dynasty China",
+      "coordinates_approx": "34.0,108.0",
+      "category": "political",
+      "description": "Emperor Jing continues administrative consolidation, reducing the power of regional kingdoms and strengthening central imperial authority. These reforms are part of a broader process of Han centralization that accelerates under his successor, Emperor Wu. The period 186\u2013180 BCE sees the Han court stabilizing after the Rebellion of the Seven States and implementing policies to prevent future regional challenges to imperial power.",
+      "key_figures": [
+        "Emperor Jing of Han (Han Emperor)",
+        "Dou Ying (Chancellor)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Han shu (Book of Han) by Ban Gu",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Emperor Jing's reign and general administrative policies are well-documented, but specific reforms in 186 BCE are not independently dated. The year is assigned by convention within his reign (157\u2013141 BCE).",
+      "cross_references": []
+    },
+    {
+      "id": "-186-003",
+      "title": "Roman military campaigns in Macedon and the Balkans",
+      "region": "Macedon and Balkans",
+      "coordinates_approx": "40.5,21.5",
+      "category": "military",
+      "description": "Roman forces continue campaigns to consolidate control over Macedon and the Balkans following the Second Macedonian War (200\u2013196 BCE). These campaigns are part of Rome's broader strategy to establish hegemony in the eastern Mediterranean and prevent any single power from challenging Roman dominance. The campaigns are generally successful, though resistance from local populations and rival powers continues.",
+      "key_figures": [
+        "Roman military commanders (specific names not consistently recorded for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome, Books 39\u201340",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories, Books 18\u201320",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Roman military activity in this region during this period is well-attested, but specific campaigns in 186 BCE are not independently dated. The year is assigned by convention.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The Bacchanalian Conspiracy of 186 BCE is the only event in this year with strong contemporary documentation (the epigraphic decree). Modern scholarship has questioned Livy's account of the 'conspiracy,' suggesting that the Senate's suppression was motivated more by concerns about social disorder and foreign influence than by evidence of an actual organized threat. Some scholars argue that Livy's narrative is rhetorical elaboration designed to justify the Senate's authoritarian response. The extent of the suppression and the number of executions reported by Livy (7,000 according to some accounts) are disputed by modern historians as likely exaggerated.",
+  "historiographic_note": "The year 186 BCE is well-documented for Roman history due to the Bacchanalian decree, which provides contemporary epigraphic evidence. However, for other regions (Han China, Seleucid Empire, Macedon), documentation relies on later compilations written decades or centuries after the events. Chinese sources are detailed but reflect court-sponsored historiography. Roman sources (Livy, Polybius) are generally reliable for major political and military developments but may lack precision for specific years. The bias toward Roman and Mediterranean history in surviving sources means that developments in Asia, Africa, and other regions are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-186-001",
+      "to": "-200-001",
+      "relation": "part_of",
+      "note": "The Bacchanalian suppression reflects broader Roman concerns about foreign religious practices and social order in the post-Second Punic War period"
+    },
+    {
+      "from": "-186-002",
+      "to": "-141-001",
+      "relation": "led_to",
+      "note": "Han administrative reforms under Emperor Jing enabled the expansionist policies of Emperor Wu"
+    }
+  ]
+}

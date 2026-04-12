@@ -1,0 +1,114 @@
+{
+  "year": -177,
+  "year_label": "177 BCE",
+  "era_context": "Mid-Hellenistic period continuing. Antiochus IV Epiphanes rules the Seleucid Empire; Ptolemy VI Philometor (under regency) rules Egypt; Han Dynasty expands in China. Roman power grows in the Mediterranean. This year falls within a period of relative stability before major conflicts erupt.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-177-001",
+      "title": "Seleucid-Ptolemaic tensions: Diplomatic maneuvering",
+      "region": "Eastern Mediterranean (Seleucid Empire and Ptolemaic Egypt)",
+      "coordinates_approx": "32.0, 34.0",
+      "category": "political",
+      "description": "Tensions between the Seleucid Empire and Ptolemaic Egypt increase as Antiochus IV seeks to expand Seleucid influence in the Levant and Egypt. Diplomatic missions and negotiations occur, with Rome increasingly acting as arbiter. These tensions will culminate in the Syrian Wars of the 170s and 160s BCE.",
+      "key_figures": [
+        "Antiochus IV Epiphanes (Seleucid King)",
+        "Ptolemy VI Philometor (Ptolemaic King)",
+        "Cleopatra I (Ptolemaic regent)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Livy, History of Rome (Books 41\u201345)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Seleucid-Ptolemaic tensions during this period are well-attested, but specific events in 177 BCE are not clearly documented. The year is assigned by convention within a broader period of escalating conflict.",
+      "cross_references": [
+        "-170-001 (Syrian War begins)"
+      ]
+    },
+    {
+      "id": "-177-002",
+      "title": "Han Dynasty: Expansion of administrative control",
+      "region": "Han China",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "The Han Dynasty continues to consolidate administrative control over newly conquered territories in Central Asia and the north. This period sees the establishment of military colonies and the extension of Chinese bureaucratic systems into frontier regions. These administrative innovations support long-term Han expansion and the development of trade networks.",
+      "key_figures": [
+        "Emperor Xuan of Han"
+      ],
+      "sources": [
+        {
+          "name": "Han Shu (Book of Han)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Han administrative expansion during this period is attested in Chinese chronicles, but specific dating to 177 BCE is uncertain. The year is assigned within a broader period of consolidation.",
+      "cross_references": [
+        "-175-002 (Han expansion begins)"
+      ]
+    },
+    {
+      "id": "-177-003",
+      "title": "Judea under Seleucid rule: Religious and political tensions",
+      "region": "Judea (Seleucid province)",
+      "coordinates_approx": "31.9, 35.2",
+      "category": "religious",
+      "description": "Tensions between the Seleucid authorities and Jewish communities in Judea increase as Hellenization policies are enforced. The high priesthood becomes a site of political conflict, with competing factions seeking Seleucid favor. These tensions foreshadow the Maccabean Revolt.",
+      "key_figures": [
+        "Onias III (Jewish high priest)",
+        "Jason (rival high priest)"
+      ],
+      "sources": [
+        {
+          "name": "2 Maccabees",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Josephus, Antiquities of the Jews",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Tensions in Judea during this period are well-attested, but specific dating to 177 BCE is uncertain. Sources describe a gradual escalation of conflict without precise annual markers.",
+      "cross_references": [
+        "-174-001 (Onias III deposition)",
+        "-167-001 (Maccabean Revolt)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific events are securely dated to 177 BCE in surviving sources. The events listed above are inferred from broader historical trends and assigned to this year by convention. It is possible that no significant events occurred in 177 BCE specifically, and the year is merely a point within longer processes of political and religious change.",
+  "historiographic_note": "The historical record for 177 BCE is sparse. No contemporary sources document events of this specific year. Our knowledge is derived from later chronicles (Polybius, Livy, Josephus, Han Shu) that describe broader trends without precise annual dating. The record is heavily weighted toward the Mediterranean and China; other regions are essentially absent. This year may be historically significant only as a point within longer processes.",
+  "graph_edges": [
+    {
+      "from": "-177-001",
+      "to": "-170-001",
+      "relation": "led_to",
+      "note": "Diplomatic tensions escalated into the Syrian War"
+    },
+    {
+      "from": "-177-003",
+      "to": "-174-001",
+      "relation": "led_to",
+      "note": "Religious tensions led to the deposition of Onias III"
+    }
+  ]
+}

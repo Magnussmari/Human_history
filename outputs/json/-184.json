@@ -1,0 +1,89 @@
+{
+  "year": -184,
+  "year_label": "184 BCE",
+  "era_context": "The early Hellenistic period continues with the same major powers and dynamics. The Seleucid Empire under Antiochus III is consolidating territorial control in the eastern Mediterranean; Ptolemaic Egypt is weakened by regency struggles following the death of Ptolemy V; Rome is not yet directly involved in Eastern Mediterranean conflicts but is consolidating power in the western Mediterranean. The Han Dynasty in China continues its consolidation under Emperor Wen. This year falls within a relatively stable period before the major conflicts of the 170s BCE.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica",
+    "India",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-184-001",
+      "title": "Seleucid military operations in the eastern Mediterranean",
+      "region": "Seleucid Empire (Syria, Phoenicia, Coele-Syria)",
+      "coordinates_approx": "34.5, 35.5",
+      "category": "military",
+      "description": "Antiochus III continues military operations to consolidate Seleucid control over territories in the eastern Mediterranean. These campaigns are part of a sustained effort to recover territories lost to Ptolemaic Egypt and to strengthen Seleucid dominance in the region. The operations are generally successful and do not yet provoke direct Roman intervention.",
+      "key_figures": [
+        "Antiochus III (Seleucid King)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Polybius is the main source, but specific events of 184 BCE are not clearly distinguished from those of surrounding years. Dating is approximate within \u00b13\u20134 years.",
+      "cross_references": [
+        "-180-001",
+        "-181-001",
+        "-182-001",
+        "-183-001"
+      ]
+    },
+    {
+      "id": "-184-002",
+      "title": "Ptolemaic Egypt in regency period following Ptolemy V's death",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Following the death of Ptolemy V (c. 180 BCE), Ptolemy VI Philometor is placed under regency. The regency period is marked by internal power struggles and administrative challenges. Egypt's military capacity is weakened by internal divisions, making it vulnerable to Seleucid expansion. The regency will continue until Cleopatra I's death around 176 BCE.",
+      "key_figures": [
+        "Ptolemy VI Philometor (young king)",
+        "Cleopatra I (regent)"
+      ],
+      "sources": [
+        {
+          "name": "Papyri from Egypt (administrative records)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The regency of Cleopatra I is well-attested, but the specific events of 184 BCE are not clearly documented. Dating is approximate within \u00b12\u20133 years.",
+      "cross_references": [
+        "-180-002",
+        "-181-002",
+        "-182-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The year 184 BCE is not a major turning point in any surviving historical tradition. Specific events of this year are poorly documented. Modern scholarship has questioned whether the Seleucid campaigns of this period were as significant as older historiography suggested. The year 184 BCE appears to be a continuation of trends visible in 180\u2013183 BCE with no major new developments.",
+  "historiographic_note": "The historical record for 184 BCE is extremely sparse. No major events are clearly documented for this specific year in surviving sources. Polybius, the main source for Mediterranean affairs, does not provide year-by-year precision for this period. Egyptian papyri provide administrative evidence but are not narrative sources. The year 184 BCE is not a major turning point in any surviving historical tradition, which explains the near-complete absence of contemporary documentation. This year is essentially a continuation of the trends visible in 180\u2013183 BCE. The dating of Ptolemy V's death to c. 180 BCE is approximate, and some sources place it in 181 or 182 BCE, which affects the precise dating of the regency period.",
+  "graph_edges": [
+    {
+      "from": "-184-001",
+      "to": "-180-001",
+      "relation": "part_of",
+      "note": "Part of the broader Seleucid consolidation campaign in Syria"
+    },
+    {
+      "from": "-184-002",
+      "to": "-170-001",
+      "relation": "led_to",
+      "note": "Continued regency instability in Egypt contributed to Seleucid aggression in the Sixth Syrian War"
+    }
+  ]
+}

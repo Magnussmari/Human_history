@@ -1,0 +1,89 @@
+{
+  "year": -193,
+  "year_label": "193 BCE",
+  "era_context": "Continuation of the Late Hellenistic period. Antiochus III is consolidating Seleucid power in the eastern Mediterranean and Asia Minor. Egypt is destabilized by the regency of the young Ptolemy V. Rome is expanding its influence in the Mediterranean following the Second Punic War. China under Emperor Wen is experiencing a period of relative stability and economic growth in the Western Han dynasty.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica and South America",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-193-001",
+      "title": "Antiochus III continues consolidation of Seleucid territories",
+      "region": "Seleucid Empire (Asia Minor, Levant)",
+      "coordinates_approx": "35.0, 35.0",
+      "category": "military",
+      "description": "Antiochus III continues his military campaigns to consolidate Seleucid control over territories in Asia Minor and the Levant. These campaigns are part of his broader strategy to restore the Seleucid Empire to its former glory and to challenge rival powers, particularly the Ptolemaic Kingdom and emerging Roman influence. The campaigns are generally successful, though they will eventually bring Antiochus into conflict with Rome.",
+      "key_figures": [
+        "Antiochus III (Seleucid King)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories (Book 5)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Antiochus III's reign is well-documented, but specific events in 193 BCE are not distinctly attested. This entry represents the continuation of a known pattern of expansion.",
+      "cross_references": [
+        "-194-001",
+        "-192-001"
+      ]
+    },
+    {
+      "id": "-193-002",
+      "title": "Hannibal flees Carthage; seeks refuge with Antiochus III",
+      "region": "Eastern Mediterranean (Carthage to Seleucid Empire)",
+      "coordinates_approx": "35.0, 35.0",
+      "category": "political",
+      "description": "Hannibal, the famous Carthaginian general defeated by Rome in the Second Punic War, flees Carthage after being accused of treason by political rivals. He seeks refuge with Antiochus III of the Seleucid Empire, offering his military expertise. This event marks a significant moment in the geopolitics of the Mediterranean, as Hannibal becomes an advisor to one of Rome's major rivals. His presence at Antiochus's court will influence Seleucid strategy and eventually contribute to the outbreak of the Syrian War (192-188 BCE).",
+      "key_figures": [
+        "Hannibal (Carthaginian general)",
+        "Antiochus III (Seleucid King)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome (Book 33)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Hannibal",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The flight of Hannibal and his refuge with Antiochus III are well-attested in multiple sources, but the exact date is uncertain. Most sources place this event around 195-193 BCE. The dating is secure within \u00b12 years.",
+      "cross_references": [
+        "-201-001 (End of Second Punic War)",
+        "-192-002 (Syrian War outbreak)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Hannibal's flight to Antiochus III is disputed. Some sources place it as early as 195 BCE, while others suggest 193 or even 192 BCE. The traditional date of 195 BCE is more commonly cited in modern scholarship. Additionally, the significance of Hannibal's presence at Antiochus's court may be overstated in some accounts; while he did serve as an advisor, his influence on Seleucid strategy is debated.",
+  "historiographic_note": "The period is well-documented through Greek and Roman historians, particularly Polybius and Livy. However, the sources are heavily weighted toward Greek and Roman perspectives. Carthaginian and Seleucid viewpoints are underrepresented. The dating of events in this era is generally reliable to within \u00b11-2 years.",
+  "graph_edges": [
+    {
+      "from": "-193-002",
+      "to": "-192-002",
+      "relation": "led_to",
+      "note": "Hannibal's presence at Antiochus's court influenced Seleucid strategy and contributed to the outbreak of the Syrian War"
+    },
+    {
+      "from": "-193-001",
+      "to": "-192-001",
+      "relation": "part_of",
+      "note": "Antiochus III's continued consolidation of territories in 193 BCE is part of the broader expansion that led to conflict with Rome"
+    }
+  ]
+}

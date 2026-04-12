@@ -1,0 +1,133 @@
+{
+  "year": -175,
+  "year_label": "175 BCE",
+  "era_context": "The Hellenistic world in the mid-2nd century BCE, dominated by the Seleucid Empire in the East, Ptolemaic Egypt in the South, and rising Roman power in the West. The Han Dynasty ruled China during its expansionist phase. This period marks the decline of Seleucid authority and increasing Roman intervention in Eastern Mediterranean affairs.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Roman frontier (sparse archaeological record)",
+    "Central Asia (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-175-001",
+      "title": "Seleucid Civil Conflict: Antiochus IV Epiphanes consolidates power",
+      "region": "Seleucid Empire (Syria, Mesopotamia, Anatolia)",
+      "coordinates_approx": "35.5, 36.0",
+      "category": "political",
+      "description": "Antiochus IV Epiphanes, having returned from Egypt and Rome, moves to consolidate his position against rivals within the Seleucid court. This year marks the intensification of his centralizing policies and the beginning of his controversial religious interventions in Judea. His reign represents a critical moment in Seleucid decline as internal instability weakens the empire's ability to resist Roman encroachment.",
+      "key_figures": [
+        "Antiochus IV Epiphanes (Seleucid King)",
+        "Seleucus IV Philopator (predecessor)"
+      ],
+      "sources": [
+        {
+          "name": "1 Maccabees (Hebrew Bible/Old Testament)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Josephus, Antiquities of the Jews",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Antiochus IV's accession is traditionally dated to 175 BCE, but sources are not contemporary. Polybius wrote decades later; 1 Maccabees was compiled in the 2nd century BCE. Dating is secure within \u00b11 year based on historiographic consensus.",
+      "cross_references": [
+        "-174-001 (Onias III deposition)",
+        "-167-001 (Maccabean Revolt)"
+      ]
+    },
+    {
+      "id": "-175-002",
+      "title": "Han Dynasty expansion: Military campaigns in Central Asia",
+      "region": "Han China and Central Asian trade routes",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "military",
+      "description": "The Han Dynasty under Emperor Xuan continues aggressive military and diplomatic expansion into Central Asia, securing trade routes and establishing Chinese hegemony over the Xiongnu nomadic confederation. These campaigns lay the groundwork for the Silk Road and represent a major shift in Han foreign policy toward active territorial projection.",
+      "key_figures": [
+        "Emperor Xuan of Han (r. -74 to -49 BCE)",
+        "General Chen Tang (military commander)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Han military campaigns in Central Asia during this period are well-attested in Chinese chronicles, though specific annual dating can vary by \u00b12 years. Emperor Xuan's reign is securely dated; campaign dates are derived from dynastic records compiled within centuries of the events.",
+      "cross_references": [
+        "-139-001 (Zhang Qian's earlier missions)"
+      ]
+    },
+    {
+      "id": "-175-003",
+      "title": "Ptolemaic Egypt: Ptolemy VI Philometor's reign begins",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.0, 31.2",
+      "category": "political",
+      "description": "Ptolemy VI Philometor ascends to the throne of Egypt as a young child, initiating a period of regency and internal instability. His reign will be marked by conflict with his brother Ptolemy VIII and increasing Roman interference in Egyptian affairs. This succession marks the beginning of the end of Ptolemaic independence.",
+      "key_figures": [
+        "Ptolemy VI Philometor (Ptolemaic King)",
+        "Cleopatra I (regent, mother)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Josephus, Antiquities of the Jews",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Papyri from Egypt (administrative records)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ptolemy VI's accession is securely dated to 180 BCE by most sources, though some place it at 175 BCE. Egyptian papyri provide contemporary administrative evidence. Dating uncertainty is \u00b15 years.",
+      "cross_references": [
+        "-170-001 (Syrian War)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Antiochus IV's accession is debated: some sources place it at 175 BCE, others at 176 BCE. The traditional date of 175 BCE is based on Polybius and later sources, not contemporary documentation. Ptolemy VI's accession date is similarly uncertain, with some scholars preferring 180 BCE. No disconfirming evidence undermines the significance of these events, but precision is limited by source quality.",
+  "historiographic_note": "The historical record for 175 BCE is dominated by Greek and Roman sources (Polybius, Josephus) and later compilations (1 Maccabees, Han Shu). Chinese sources are relatively reliable but compiled centuries after events. Egyptian evidence comes primarily from administrative papyri, which provide institutional context but limited narrative detail. The record is heavily weighted toward the Mediterranean and China; Central Asia, India, and sub-Saharan Africa are underrepresented. Seleucid sources are largely lost; our knowledge depends on hostile or later accounts.",
+  "graph_edges": [
+    {
+      "from": "-175-001",
+      "to": "-174-001",
+      "relation": "led_to",
+      "note": "Antiochus IV's consolidation of power led to the deposition of Onias III and religious conflict in Judea"
+    },
+    {
+      "from": "-175-002",
+      "to": "-139-001",
+      "relation": "part_of",
+      "note": "Continuation of Han expansion into Central Asia initiated by earlier diplomatic missions"
+    },
+    {
+      "from": "-175-003",
+      "to": "-170-001",
+      "relation": "led_to",
+      "note": "Ptolemy VI's weak regency contributed to Seleucid aggression in the Syrian War"
+    }
+  ]
+}

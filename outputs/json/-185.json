@@ -1,0 +1,109 @@
+{
+  "year": -185,
+  "year_label": "185 BCE",
+  "era_context": "The Seleucid Empire under Seleucus II Callinicus faces internal fragmentation and external pressure from Ptolemaic Egypt and rising Parthian power in the east. The Han Dynasty in China consolidates control after the Rebellion of the Seven States (154\u2013151 BCE). Rome is in the early phase of Mediterranean expansion following the Second Punic War (218\u2013201 BCE). The Mauryan Empire in India has collapsed; regional kingdoms compete for dominance.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Northern Europe beyond Roman contact zones",
+    "Mesoamerica (Maya records exist but are sparse for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-185-001",
+      "title": "Seleucus II Callinicus campaigns in Anatolia and Syria",
+      "region": "Seleucid Empire (Anatolia, Syria, Mesopotamia)",
+      "coordinates_approx": "37.0,35.0",
+      "category": "military",
+      "description": "Seleucus II, ruling the Seleucid Empire, undertakes military campaigns to consolidate control over Anatolia and reassert authority in Syria following the earlier War of the Brothers (246\u2013241 BCE). These campaigns are part of a broader effort to stabilize the empire against Ptolemaic encroachment and internal dissent. The campaigns have limited documented success, reflecting the structural weakness of Seleucid central authority in this period.",
+      "key_figures": [
+        "Seleucus II Callinicus (Seleucid King)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Syrian Wars; Polybius, Histories (Books 5\u20136, covering Seleucid affairs)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Seleucid chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Seleucus II's reign is dated 246\u2013226 BCE with reasonable confidence from numismatic and chronicle evidence, but specific campaigns in 185 BCE are not independently dated to this precise year. Assignment is approximate within his reign.",
+      "cross_references": []
+    },
+    {
+      "id": "-185-002",
+      "title": "Han Dynasty consolidation under Emperor Jing",
+      "region": "Han Dynasty China",
+      "coordinates_approx": "34.0,108.0",
+      "category": "political",
+      "description": "Emperor Jing of Han (r. 157\u2013141 BCE) consolidates central authority following the suppression of the Rebellion of the Seven States (154\u2013151 BCE). By 185 BCE, the Han court has reasserted control over regional kingdoms and begun administrative reforms to strengthen imperial governance. This period marks the stabilization of Han rule after internal conflict and sets the stage for the expansionist policies of Emperor Wu.",
+      "key_figures": [
+        "Emperor Jing of Han (Han Emperor)",
+        "Dou Ying (Chancellor, died 180 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled ~109 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Han shu (Book of Han) by Ban Gu, compiled 1st century CE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Emperor Jing's reign dates are well-established (157\u2013141 BCE). Events within his reign are dated through chronicle sources, which are generally reliable for major political developments but may lack precision for specific years.",
+      "cross_references": []
+    },
+    {
+      "id": "-185-003",
+      "title": "Roman expansion in the Mediterranean: Post-Second Punic War consolidation",
+      "region": "Roman Republic and Mediterranean",
+      "coordinates_approx": "41.9,12.5",
+      "category": "political",
+      "description": "In the aftermath of the Second Punic War (218\u2013201 BCE), Rome consolidates its position as the dominant Mediterranean power. By 185 BCE, Roman forces are engaged in campaigns against Macedon and in the Balkans, and Rome is establishing hegemony over former Carthaginian territories in Spain and North Africa. This period sees the rise of Roman military dominance and the beginning of Rome's transformation into an imperial power.",
+      "key_figures": [
+        "Scipio Africanus (retired from public life, died 183 BCE)",
+        "Manius Acilius Glabrio (Roman consul, active in Macedonian campaigns)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome (Books 39\u201340, covering 200\u2013186 BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories (Books 18\u201320, covering Mediterranean affairs)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Roman chronology for this period is well-established through consular lists and Livy's narrative. Specific military campaigns are dated with reasonable confidence, though some details may be rhetorical elaboration.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The significance of 185 BCE as a distinct historical turning point is not strongly supported by sources. Rather, this year falls within broader processes of consolidation and transition (Han stabilization, Seleucid decline, Roman expansion) that span decades. No major events are specifically dated to 185 BCE in primary sources; the year is assigned by modern chronological convention. Modern scholarship emphasizes that the 'Rebellion of the Seven States' (154\u2013151 BCE) was the crucial Han turning point, not events in 185 BCE specifically.",
+  "historiographic_note": "Documentation for 185 BCE is heavily dependent on later compilations (Livy, Sima Qian, Appian) written 100\u2013300 years after the events. These sources are generally reliable for major political and military developments but often lack precision for specific years and may conflate or reorder events. Chinese sources (Shiji, Han shu) are more detailed for Han Dynasty affairs but reflect court-sponsored historiography. Western sources are biased toward Roman and Hellenistic perspectives; information on Parthian, Indian, and other regions is sparse. Archaeological evidence (coins, inscriptions) provides some independent confirmation of political chronologies but is limited for specific annual events.",
+  "graph_edges": [
+    {
+      "from": "-185-002",
+      "to": "-141-001",
+      "relation": "led_to",
+      "note": "Han consolidation under Emperor Jing enabled the expansionist policies of Emperor Wu (r. 141\u201387 BCE)"
+    },
+    {
+      "from": "-185-001",
+      "to": "-175-001",
+      "relation": "part_of",
+      "note": "Seleucid military campaigns continued throughout Seleucus II's reign (246\u2013226 BCE)"
+    }
+  ]
+}

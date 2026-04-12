@@ -1,0 +1,122 @@
+{
+  "year": -179,
+  "year_label": "179 BCE",
+  "era_context": "Mid-Hellenistic period. Antiochus IV Epiphanes rules the Seleucid Empire (having recently ascended or about to ascend); Ptolemy VI Philometor rules Egypt under the regency of Cleopatra I; Han Dynasty expands in China. This year falls at the transition between the reign of Seleucus IV and Antiochus IV, or within the early years of Antiochus IV's rule.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Americas",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-179-001",
+      "title": "Seleucid succession: Transition of power in the Seleucid Empire",
+      "region": "Seleucid Empire",
+      "coordinates_approx": "35.5, 36.0",
+      "category": "political",
+      "description": "The Seleucid Empire experiences a succession crisis or transition as Antiochus IV Epiphanes consolidates power. Whether this year marks his accession (traditionally dated to 175 BCE) or falls within his early reign, it represents a critical moment in Seleucid history. The transition of power is marked by internal conflict and the assertion of Antiochus IV's authority over rival claimants.",
+      "key_figures": [
+        "Antiochus IV Epiphanes (Seleucid King)",
+        "Seleucus IV Philopator (predecessor)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "1 Maccabees",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Josephus, Antiquities of the Jews",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The dating of Antiochus IV's accession is uncertain, with sources placing it between 176 and 175 BCE. Some scholars prefer 179 BCE. The uncertainty reflects the lack of contemporary documentation and reliance on later chronicles.",
+      "cross_references": [
+        "-175-001 (Antiochus IV's accession, alternative dating)"
+      ]
+    },
+    {
+      "id": "-179-002",
+      "title": "Han Dynasty: Expansion and military consolidation",
+      "region": "Han China and frontier regions",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "military",
+      "description": "The Han Dynasty continues military campaigns to expand control over Central Asia and suppress nomadic resistance. These campaigns establish Chinese military superiority and secure trade routes that will become the Silk Road. The period marks the peak of Han expansionism under Emperor Xuan.",
+      "key_figures": [
+        "Emperor Xuan of Han"
+      ],
+      "sources": [
+        {
+          "name": "Han Shu (Book of Han)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Han military campaigns during this period are attested in Chinese chronicles, but specific dating to 179 BCE is uncertain. Dates are derived from dynastic records compiled centuries later.",
+      "cross_references": [
+        "-175-002 (Han expansion)"
+      ]
+    },
+    {
+      "id": "-179-003",
+      "title": "Ptolemaic Egypt: Cleopatra I's regency",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.0, 31.2",
+      "category": "political",
+      "description": "Cleopatra I continues as regent for her young son Ptolemy VI Philometor. Egyptian administration remains stable, though the kingdom faces increasing pressure from Seleucid expansion and Roman intervention. The regency period is marked by careful diplomacy to maintain Egyptian independence and territorial integrity.",
+      "key_figures": [
+        "Cleopatra I (regent)",
+        "Ptolemy VI Philometor (young king)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian papyri",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Cleopatra I's regency is well-attested in papyri and Greek sources. She died around 176 BCE, so she was regent in 179 BCE.",
+      "cross_references": [
+        "-175-003 (Ptolemy VI's accession)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Antiochus IV's accession is disputed among scholars. While 175 BCE is the traditional date, some sources and modern scholars prefer 176 or 179 BCE. This uncertainty reflects the lack of contemporary documentation and the reliance on later chronicles with varying chronologies. No disconfirming evidence undermines the significance of the Seleucid succession, but precision is limited.",
+  "historiographic_note": "The historical record for 179 BCE is sparse and derived entirely from later sources. No contemporary documentation exists for this specific year. The record is Mediterranean and East Asian-focused; other regions are absent. The year may be historically significant only as a point within longer processes of political change, particularly the Seleucid succession.",
+  "graph_edges": [
+    {
+      "from": "-179-001",
+      "to": "-175-001",
+      "relation": "part_of",
+      "note": "Part of the Seleucid succession process"
+    },
+    {
+      "from": "-179-001",
+      "to": "-167-001",
+      "relation": "led_to",
+      "note": "Antiochus IV's consolidation of power eventually led to the Maccabean Revolt"
+    }
+  ]
+}

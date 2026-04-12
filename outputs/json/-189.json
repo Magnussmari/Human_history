@@ -1,0 +1,119 @@
+{
+  "year": -189,
+  "year_label": "189 BCE",
+  "era_context": "The Syrian War (192\u2013188 BCE) between Rome and Antiochus III is ongoing, with the conflict approaching its conclusion at the Treaty of Apamea (188 BCE). The Han Dynasty under Emperor Jing consolidates power following the Rebellion of the Seven States (154\u2013151 BCE). The Seleucid Empire under Antiochus III faces military defeat and the prospect of severe territorial losses. Egypt under the Ptolemies maintains control of the eastern Mediterranean. In India, the Mauryan Empire has fragmented; regional kingdoms compete for power.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-189-001",
+      "title": "Battle of Magnesia: Roman victory over Antiochus III",
+      "region": "Magnesia (Anatolia, modern-day Turkey)",
+      "coordinates_approx": "38.5,27.4",
+      "category": "military",
+      "description": "The Battle of Magnesia (190 BCE, but sometimes dated to 189 BCE in some sources) is fought between Roman forces under Scipio Africanus and the Seleucid army under Antiochus III. The Roman victory is decisive and effectively concludes the Syrian War. Antiochus III is forced to accept the Treaty of Apamea (188 BCE), which severely limits Seleucid power and establishes Rome as the dominant Mediterranean power. The battle marks a turning point in the balance of power in the eastern Mediterranean and demonstrates Roman military superiority.",
+      "key_figures": [
+        "Scipio Africanus (Roman general)",
+        "Antiochus III (Seleucid King)",
+        "Lucius Cornelius Scipio (brother of Scipio Africanus, Roman legate)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome, Book 37, chapters 37\u201344 (detailed account of the Battle of Magnesia)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories, Book 16, chapters 18\u201322 (account of the battle)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Syrian Wars, chapters 31\u201332",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Battle of Magnesia is dated to 190 BCE by most modern scholars, though some ancient sources place it in 189 BCE. The discrepancy is minor and reflects uncertainty in ancient chronological systems. The battle itself is well-documented and its historical significance is undisputed.",
+      "cross_references": [
+        "-188-001"
+      ]
+    },
+    {
+      "id": "-189-002",
+      "title": "Han Dynasty consolidation under Emperor Jing",
+      "region": "Han Dynasty China",
+      "coordinates_approx": "34.0,108.0",
+      "category": "political",
+      "description": "Emperor Jing of Han continues administrative consolidation and strengthening of central imperial authority. The Han court implements reforms to reduce the power of regional kingdoms and establish mechanisms for controlling local nobility. This period of consolidation is crucial for the stability of the Han Dynasty and sets the stage for the expansionist policies of Emperor Wu (r. 141\u201387 BCE).",
+      "key_figures": [
+        "Emperor Jing of Han (Han Emperor, r. 157\u2013141 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Han shu (Book of Han) by Ban Gu",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Emperor Jing's reign and general administrative policies are well-documented. Specific events in 189 BCE are not independently dated.",
+      "cross_references": []
+    },
+    {
+      "id": "-189-003",
+      "title": "Roman military campaigns in Spain and the Balkans",
+      "region": "Roman Republic (Spain, Balkans)",
+      "coordinates_approx": "40.0,-3.0",
+      "category": "military",
+      "description": "Rome continues military campaigns to consolidate control over Spain and the Balkans. These campaigns are part of Rome's broader strategy to establish hegemonic control over the Mediterranean and suppress local resistance to Roman authority. The campaigns are generally successful, though resistance from local populations continues.",
+      "key_figures": [
+        "Roman military commanders (specific names not consistently recorded)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome, Books 37\u201338",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Roman military activity in Spain and the Balkans during this period is well-attested in general terms, but specific campaigns in 189 BCE are not independently dated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Battle of Magnesia is disputed between 190 and 189 BCE in ancient sources. Most modern scholars favor 190 BCE, but the discrepancy reflects genuine uncertainty in ancient chronological systems. Livy's account of the battle emphasizes Roman superiority and Seleucid weakness, but modern scholarship has noted that Antiochus III's army was formidable and the outcome was not predetermined. Some scholars argue that Livy's narrative exaggerates Roman military prowess and underestimates Seleucid capabilities. The battle's role in establishing Roman dominance is undisputed, but the extent of Seleucid decline attributable to this single battle is debated.",
+  "historiographic_note": "The year 189 BCE is well-documented for the Battle of Magnesia, which is attested in multiple ancient sources (Livy, Polybius, Appian). However, the dating of the battle to 189 or 190 BCE reflects uncertainty in ancient chronological systems. For other regions and events, documentation relies on later compilations. Chinese sources provide general information about Emperor Jing's reign but lack precision for individual years. The historical record for 189 BCE is dominated by the Battle of Magnesia; other developments in this year are poorly documented or not independently dated. The bias toward Mediterranean history in surviving sources means that developments in Asia, Africa, and other regions are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-189-001",
+      "to": "-188-001",
+      "relation": "led_to",
+      "note": "The Battle of Magnesia led directly to the Treaty of Apamea (188 BCE)"
+    },
+    {
+      "from": "-189-001",
+      "to": "-192-001",
+      "relation": "part_of",
+      "note": "The Battle of Magnesia was the decisive engagement of the Syrian War (192\u2013188 BCE)"
+    },
+    {
+      "from": "-189-002",
+      "to": "-141-001",
+      "relation": "led_to",
+      "note": "Han consolidation under Emperor Jing enabled the expansionist policies of Emperor Wu"
+    }
+  ]
+}

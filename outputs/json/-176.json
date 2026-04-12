@@ -1,0 +1,121 @@
+{
+  "year": -176,
+  "year_label": "176 BCE",
+  "era_context": "Continuation of the mid-Hellenistic period with Seleucid consolidation, Ptolemaic instability, and Han expansion. The Roman Republic is increasingly active in Eastern Mediterranean diplomacy. This year falls within the reign of Antiochus IV Epiphanes and the regency of Cleopatra I in Egypt.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia (limited detail)",
+    "Mesoamerica and South America"
+  ],
+  "events": [
+    {
+      "id": "-176-001",
+      "title": "Antiochus IV's religious and administrative reforms in the Seleucid Empire",
+      "region": "Seleucid Empire",
+      "coordinates_approx": "35.5, 36.0",
+      "category": "religious",
+      "description": "Antiochus IV continues his program of Hellenization and centralization, promoting Greek culture and religious practices throughout his realm. These policies, while intended to unify the empire, provoke resistance in Judea and other regions with strong indigenous religious traditions. The imposition of Greek religious practices on Jewish communities will eventually trigger the Maccabean Revolt.",
+      "key_figures": [
+        "Antiochus IV Epiphanes (Seleucid King)"
+      ],
+      "sources": [
+        {
+          "name": "1 Maccabees",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "2 Maccabees",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Antiochus IV's Hellenization policies are well-attested but not precisely dated to individual years. Sources describe them as occurring during his reign (175\u2013164 BCE) without specifying 176 BCE. Dating is approximate within \u00b15 years.",
+      "cross_references": [
+        "-175-001 (Antiochus IV's accession)",
+        "-167-001 (Maccabean Revolt)"
+      ]
+    },
+    {
+      "id": "-176-002",
+      "title": "Han Dynasty: Continued military consolidation in the north",
+      "region": "Han China and northern frontier",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "military",
+      "description": "Han military forces continue operations against Xiongnu nomads and consolidate control over northern territories. These campaigns strengthen Han control of trade routes and establish Chinese military superiority in the region. The period marks the transition from defensive to offensive Han foreign policy.",
+      "key_figures": [
+        "Emperor Xuan of Han"
+      ],
+      "sources": [
+        {
+          "name": "Han Shu (Book of Han)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Han military campaigns during this period are attested in Chinese chronicles, but specific annual dating is uncertain. Dates are derived from dynastic records compiled centuries later.",
+      "cross_references": [
+        "-175-002 (Han expansion)"
+      ]
+    },
+    {
+      "id": "-176-003",
+      "title": "Ptolemaic Egypt: Cleopatra I's regency continues",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.0, 31.2",
+      "category": "political",
+      "description": "Cleopatra I continues as regent for her young son Ptolemy VI. Egyptian administrative structures remain stable, but the kingdom's international position weakens as Seleucid power grows and Roman influence increases. The regency period is marked by careful diplomacy to maintain Egyptian independence.",
+      "key_figures": [
+        "Cleopatra I (regent)",
+        "Ptolemy VI Philometor (young king)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian papyri",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Cleopatra I's regency is well-attested in papyri and Greek sources. Her death occurred around 176 BCE, marking a significant transition in Egyptian governance.",
+      "cross_references": [
+        "-175-003 (Ptolemy VI's accession)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of Antiochus IV's religious reforms is uncertain; some scholars place the most aggressive policies later in his reign (around 167 BCE) rather than in the mid-170s. The significance of 176 BCE specifically is not well-established in sources; it may be an arbitrary point within a longer process of Hellenization. Cleopatra I's death date is sometimes placed at 176 BCE and sometimes at 175 BCE, reflecting uncertainty in the source tradition.",
+  "historiographic_note": "Sources for 176 BCE are similar to those for 175 BCE: primarily Greek and Roman chronicles (Polybius) and later compilations (Maccabees, Han Shu). Contemporary Egyptian papyri provide administrative evidence but limited narrative. The record remains Mediterranean and East Asian-focused, with Central Asia and other regions underrepresented. Seleucid sources are largely lost.",
+  "graph_edges": [
+    {
+      "from": "-176-001",
+      "to": "-167-001",
+      "relation": "led_to",
+      "note": "Antiochus IV's religious policies directly provoked the Maccabean Revolt"
+    },
+    {
+      "from": "-176-003",
+      "to": "-170-001",
+      "relation": "led_to",
+      "note": "Cleopatra I's death weakened Egyptian governance and contributed to Seleucid aggression"
+    }
+  ]
+}

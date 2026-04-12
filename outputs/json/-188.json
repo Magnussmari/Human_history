@@ -1,0 +1,123 @@
+{
+  "year": -188,
+  "year_label": "188 BCE",
+  "era_context": "The Seleucid Empire under Seleucus II faces continued pressure from Ptolemaic Egypt and rising Parthian power. The Han Dynasty under Emperor Jing consolidates central authority. Rome expands its dominance in the Mediterranean following the Second Punic War. Egypt under the Ptolemies maintains control of the eastern Mediterranean. In India, the Mauryan Empire has fragmented; regional kingdoms compete for power.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-188-001",
+      "title": "Treaty of Apamea: Rome and Antiochus III aftermath",
+      "region": "Seleucid Empire and Roman Republic",
+      "coordinates_approx": "35.7,36.8",
+      "category": "political",
+      "description": "The aftermath of the Treaty of Apamea (188 BCE), which concluded the Syrian War (192\u2013188 BCE) between Rome and Antiochus III, continues to shape the political landscape of the eastern Mediterranean. The treaty severely limits Seleucid power, requiring Antiochus III to cede territories and pay indemnities. By 188 BCE, the treaty is being implemented, and the Seleucid Empire is fragmenting under the weight of these obligations. Antiochus III dies in 187 BCE, and his successor Seleucus II faces the consequences of the treaty.",
+      "key_figures": [
+        "Antiochus III (Seleucid King, died 187 BCE)",
+        "Seleucus II Callinicus (Seleucid King, r. 246\u2013226 BCE, but ruling after 187 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome, Book 38 (detailed account of the Syrian War and Treaty of Apamea)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories, Books 20\u201321 (covering the Syrian War and its aftermath)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Treaty of Apamea is dated to 188 BCE with high confidence from multiple ancient sources. The treaty is one of the most significant diplomatic events of the period and is well-documented.",
+      "cross_references": [
+        "-192-001"
+      ]
+    },
+    {
+      "id": "-188-002",
+      "title": "Han Dynasty administrative consolidation under Emperor Jing",
+      "region": "Han Dynasty China",
+      "coordinates_approx": "34.0,108.0",
+      "category": "political",
+      "description": "Emperor Jing of Han continues administrative reforms to strengthen central imperial authority and reduce the power of regional kingdoms. These reforms are crucial for the stability of the Han Dynasty and set the stage for the expansionist policies of Emperor Wu. The period 188\u2013180 BCE sees the Han court consolidating power and establishing mechanisms for controlling local nobility.",
+      "key_figures": [
+        "Emperor Jing of Han (Han Emperor, r. 157\u2013141 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Han shu (Book of Han) by Ban Gu",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Emperor Jing's reign and general administrative policies are well-documented. Specific events in 188 BCE are not independently dated.",
+      "cross_references": []
+    },
+    {
+      "id": "-188-003",
+      "title": "Roman military consolidation in the Mediterranean",
+      "region": "Roman Republic (Mediterranean)",
+      "coordinates_approx": "41.9,12.5",
+      "category": "military",
+      "description": "Rome consolidates its position as the dominant Mediterranean power following the Treaty of Apamea. Roman forces are engaged in campaigns to suppress local resistance in Spain, North Africa, and the Balkans. This period marks the beginning of Rome's transformation into an imperial power with hegemonic control over the Mediterranean.",
+      "key_figures": [
+        "Roman Senate and military commanders"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome, Books 38\u201339",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories, Books 20\u201321",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Roman military activity in this period is well-attested in general terms, but specific campaigns in 188 BCE are not independently dated.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The Treaty of Apamea is dated to 188 BCE with high confidence, but modern scholarship has debated its exact terms and implementation. Some scholars argue that Livy's account exaggerates the severity of the treaty's impact on the Seleucid Empire, while others contend that the treaty was less punitive than traditionally portrayed. The treaty's role in the subsequent fragmentation of the Seleucid Empire is also debated; some scholars emphasize internal factors (succession disputes, regional rebellions) over external pressure from Rome.",
+  "historiographic_note": "The year 188 BCE is well-documented for the Treaty of Apamea, which is attested in multiple ancient sources (Livy, Polybius, Appian). However, for other regions and events, documentation relies on later compilations. Chinese sources provide general information about Emperor Jing's reign but lack precision for individual years. The historical record for 188 BCE is dominated by the Treaty of Apamea; other developments in this year are poorly documented or not independently dated. The bias toward Mediterranean history in surviving sources means that developments in Asia, Africa, and other regions are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-188-001",
+      "to": "-192-001",
+      "relation": "caused_by",
+      "note": "The Treaty of Apamea concluded the Syrian War (192\u2013188 BCE)"
+    },
+    {
+      "from": "-188-001",
+      "to": "-175-001",
+      "relation": "led_to",
+      "note": "The Treaty of Apamea's consequences contributed to the fragmentation of the Seleucid Empire in subsequent decades"
+    },
+    {
+      "from": "-188-002",
+      "to": "-141-001",
+      "relation": "led_to",
+      "note": "Han consolidation under Emperor Jing enabled the expansionist policies of Emperor Wu"
+    }
+  ]
+}

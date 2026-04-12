@@ -1,0 +1,127 @@
+{
+  "year": -180,
+  "year_label": "180 BCE",
+  "era_context": "The early Hellenistic period in the Eastern Mediterranean and Near East, following the fragmentation of Alexander's empire into competing dynasties. The Seleucid Empire controls Syria and Mesopotamia under Antiochus III; Egypt is ruled by the Ptolemaic dynasty; Rome is consolidating power in the western Mediterranean and beginning eastward expansion. In China, the Han Dynasty is in its early consolidation phase under the Western Han rulers. This is an era of intense dynastic competition, cultural synthesis, and the emergence of Rome as a Mediterranean superpower.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe beyond Roman contact",
+    "Central Asia (sparse contemporary documentation)",
+    "Mesoamerica (no written records in this period)"
+  ],
+  "events": [
+    {
+      "id": "-180-001",
+      "title": "Antiochus III campaigns in Coele-Syria and Phoenicia",
+      "region": "Seleucid Empire (Syria, Phoenicia, Coele-Syria)",
+      "coordinates_approx": "34.5, 35.5",
+      "category": "military",
+      "description": "Antiochus III (the Great) conducts military campaigns to reassert Seleucid control over southern Syria and Phoenicia, regions that had been lost to Ptolemaic Egypt during the Third Syrian War. These campaigns are part of his broader strategy to restore Seleucid territorial dominance in the eastern Mediterranean. The campaigns are largely successful, strengthening Antiochus's position before his later confrontation with Rome.",
+      "key_figures": [
+        "Antiochus III (Seleucid King)"
+      ],
+      "sources": [
+        {
+          "name": "Polybius, Histories (Books 5\u20138)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Livy, History of Rome (Ab Urbe Condita)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Polybius wrote within a century of these events and had access to Seleucid records. Dating is approximate within \u00b12 years based on synchronization with other dated events.",
+      "cross_references": [
+        "Relates to -192-001 (Antiochus III's later conflict with Rome)"
+      ]
+    },
+    {
+      "id": "-180-002",
+      "title": "Death of Ptolemy V Epiphanes; accession of Ptolemy VI Philometor",
+      "region": "Ptolemaic Egypt",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Ptolemy V Epiphanes, ruler of Egypt since 210 BCE, dies after a reign marked by internal instability and loss of territorial control to the Seleucids. He is succeeded by his young son Ptolemy VI Philometor, whose reign will be characterized by regency struggles and continued conflict with the Seleucid Empire. This succession marks a critical moment in Ptolemaic decline and sets the stage for increased Roman intervention in Eastern Mediterranean affairs.",
+      "key_figures": [
+        "Ptolemy V Epiphanes (deceased Ptolemaic King)",
+        "Ptolemy VI Philometor (new Ptolemaic King)"
+      ],
+      "sources": [
+        {
+          "name": "Manetho, History of Egypt (via Josephus and Eusebius)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Polybius, Histories",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Papyri from Egypt (administrative records)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Death date of Ptolemy V is well-attested in Egyptian papyri and Greek historical sources. Succession of Ptolemy VI is documented in multiple sources.",
+      "cross_references": [
+        "Part of broader Ptolemaic dynastic history"
+      ]
+    },
+    {
+      "id": "-180-003",
+      "title": "Han Dynasty consolidation under Emperor Wen",
+      "region": "Han Dynasty China",
+      "coordinates_approx": "34.0, 109.0",
+      "category": "political",
+      "description": "Emperor Wen of Han (r. 180\u2013157 BCE) continues the stabilization of the Han Dynasty following the Rebellion of the Seven States (ended 154 BCE). His reign is characterized by administrative consolidation, reduction of princely powers, and the promotion of Confucian scholars in government. This period marks the transition from the chaotic early Han period to the more stable middle Han era, with emphasis on civil governance over military expansion.",
+      "key_figures": [
+        "Emperor Wen of Han",
+        "Empress Dou (regent/influential figure)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Han Dynasty chronology is well-established through multiple Chinese historical sources and archaeological evidence. Emperor Wen's reign dates are secure.",
+      "cross_references": [
+        "Part of Han Dynasty political consolidation narrative"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Antiochus III's campaigns in Coele-Syria remains debated among scholars; some sources place certain campaigns in 181 or 179 BCE rather than 180 BCE. The significance of these campaigns has been somewhat overstated in older historiography\u2014they were part of a longer process of Seleucid recovery rather than a decisive turning point. Modern scholarship emphasizes that Ptolemaic Egypt remained a significant power despite these losses.",
+  "historiographic_note": "The historical record for 180 BCE is dominated by Greek and Roman sources (Polybius, Livy), which privilege Mediterranean and Near Eastern events. Chinese sources (Shiji, Han Shu) are detailed but compiled centuries after the events. Egyptian sources are limited to administrative papyri and later compilations. Sub-Saharan Africa, Northern Europe, and the Americas are essentially absent from contemporary documentation. The surviving record reflects the interests of literate elites in the Mediterranean and China and likely underrepresents economic, social, and cultural developments outside these spheres.",
+  "graph_edges": [
+    {
+      "from": "-180-001",
+      "to": "-192-001",
+      "relation": "led_to",
+      "note": "Antiochus III's successful campaigns in Syria emboldened him to challenge Rome, leading to the Syrian War"
+    },
+    {
+      "from": "-180-002",
+      "to": "-170-001",
+      "relation": "led_to",
+      "note": "Ptolemy VI's accession and regency struggles led to the Sixth Syrian War with the Seleucids"
+    },
+    {
+      "from": "-180-003",
+      "to": "-141-001",
+      "relation": "part_of",
+      "note": "Part of the broader Han Dynasty consolidation that continued through the reigns of Wen and Jing"
+    }
+  ]
+}
