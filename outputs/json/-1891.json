@@ -1,0 +1,85 @@
+{
+  "year": -1891,
+  "year_label": "1892 BCE",
+  "era_context": "Continuation of the Middle Kingdom in Egypt under Amenemhat III; the Old Babylonian period in Mesopotamia with competing city-states; the mature phase of the Indus Valley Civilization. In China, the traditional Xia Dynasty period continues (though archaeological evidence remains contested). This year falls within a relatively stable period in the eastern Mediterranean and Near East before major upheavals of the late Bronze Age.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-1891-001",
+      "title": "Amenemhat III continues reign in Egypt",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Amenemhat III's reign continues during this year. His administration maintains the prosperity and stability of the 12th Dynasty. Extensive building projects, including temples and irrigation infrastructure, continue. The pharaoh's authority extends over Nubia to the south and maintains trade relationships with the Levant and the Aegean.",
+      "key_figures": [
+        "Amenemhat III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List and Abydos King List",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Temple inscriptions and administrative papyri",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Dating based on king lists and archaeological evidence; absolute chronology uncertain by \u00b120\u201330 years.",
+      "cross_references": [
+        "-1890-001"
+      ]
+    },
+    {
+      "id": "-1891-002",
+      "title": "Indus Valley Civilization trade networks active",
+      "region": "Indus Valley and broader trade networks",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains extensive trade networks connecting the Indus region to Mesopotamia, the Persian Gulf, and possibly the Levant. Archaeological evidence shows standardized weights, measures, and seals used in commerce. Goods such as lapis lazuli, carnelian, and timber are exchanged across vast distances. This trade is a defining feature of the civilization's mature phase.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of trade goods and seals from Indus sites and Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals with standardized symbols",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Trade networks are well-attested archaeologically through the distribution of goods and seals. Absolute dating is based on stratigraphic correlation and radiocarbon analysis.",
+      "cross_references": [
+        "-1890-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence for events in this year. However, the extent and organization of Indus Valley trade networks remain debated; some scholars argue for more decentralized, local exchange rather than a unified trade system. Egyptian chronology continues to be contested between high and low chronologies.",
+  "historiographic_note": "Documentation is sparse and similar to -1890. Egyptian and Mesopotamian administrative records provide the most detailed information, but these are biased toward elite and economic activities. The Indus Valley Civilization's undeciphered script limits understanding. No written records exist for most of the world outside the Near East and South Asia.",
+  "graph_edges": [
+    {
+      "from": "-1891-001",
+      "to": "-1890-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of Amenemhat III's reign"
+    },
+    {
+      "from": "-1891-002",
+      "to": "-1890-002",
+      "relation": "contemporary_with",
+      "note": "Continuation of Indus Valley trade networks"
+    }
+  ]
+}

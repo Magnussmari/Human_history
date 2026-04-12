@@ -1,0 +1,90 @@
+{
+  "year": -1880,
+  "year_label": "1881 BCE",
+  "era_context": "The Middle Bronze Age in the Levant and Egypt; the Middle Kingdom of Egypt is in decline, with the 13th Dynasty fragmenting. In Mesopotamia, the Old Babylonian period is established under Hammurabi's successors. The Hittite Old Kingdom is consolidating power in Anatolia. In the Aegean, the Middle Minoan period continues on Crete. This is an era of regional consolidation, palace economies, and increasing inter-regional trade networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological dating precision for this period)",
+    "East Asia (Chinese sources for this period are sparse and often legendary)",
+    "The Americas (no written records; archaeological context is limited)",
+    "Northern Europe (minimal archaeological evidence for specific year-level events)"
+  ],
+  "events": [
+    {
+      "id": "-1880-001",
+      "title": "Reign of Ammisaduqa of Babylon (approximate period)",
+      "region": "Mesopotamia, Babylon",
+      "coordinates_approx": "32.5352, 44.4275",
+      "category": "political",
+      "description": "Ammisaduqa, son of Ammiditana, is attested as ruling Babylon during this period. His reign is documented in the Babylonian King List and administrative tablets. He is known for astronomical observations recorded in the 'Ammisaduqa Omen Series,' which lists lunar eclipses and other celestial phenomena. These records are among the earliest systematic astronomical observations in human history. His reign represents the continuation of Old Babylonian administrative and scribal culture.",
+      "key_figures": [
+        "Ammisaduqa (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List (Sumerian King List tradition)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ammisaduqa Omen Series (cuneiform tablets)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative tablets from Babylon",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ammisaduqa's reign is traditionally dated to c. 1646\u20131626 BCE in the Middle Chronology, but the Ultra-Low Chronology places it c. 1550\u20131530 BCE. Assignment to -1880 follows the High Chronology convention used in some Egyptological frameworks. The exact year is uncertain by \u00b110\u201315 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1880-002",
+      "title": "Continued fragmentation of Egyptian 13th Dynasty",
+      "region": "Egypt, Nile Delta and Upper Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The 13th Dynasty of Egypt, which began c. 1803 BCE, continues to fragment into competing regional powers. Central authority weakens, and the Nile Delta becomes increasingly vulnerable to infiltration by Asiatic populations (later termed 'Hyksos'). This period marks the transition toward the Second Intermediate Period. Archaeological evidence from settlement patterns and administrative records shows declining centralization.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Turin King List (Ramesside compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological stratigraphy from Tell el-Dab'a and other Delta sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List inscriptions",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The 13th Dynasty's chronology is debated. The process of fragmentation is archaeologically attested but not tied to specific years. Dating is approximate within \u00b120 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the 13th Dynasty and the transition to the Second Intermediate Period is one of the most contested areas in Egyptology. The High Chronology (used here) places these events c. 1880 BCE, but the Middle Chronology dates them c. 1750 BCE, and the Low Chronology c. 1650 BCE\u2014a 230-year spread. No contemporary Egyptian sources explicitly date the fragmentation to a specific year. The 'Hyksos invasion' narrative, long treated as a sudden military conquest, is now understood by many scholars as a gradual infiltration and settlement process, not a datable event.",
+  "historiographic_note": "The historical record for 1881 BCE is heavily dependent on Mesopotamian administrative texts and Egyptian king lists, both of which are compilations made centuries or millennia after the events they describe. Egyptian chronology for this period relies on astronomical calculations (Sothic dating) and king list lengths, both of which have significant margins of error. Mesopotamian dating is more secure due to the Ammisaduqa Omen Series, but even this has \u00b110\u201315 year uncertainty. The record is biased toward elite political and administrative events; economic, social, and technological changes are visible only through archaeology. Sub-Saharan Africa, East Asia, and the Americas are essentially absent from the written record.",
+  "graph_edges": [
+    {
+      "from": "-1880-001",
+      "to": "-1850-001",
+      "relation": "led_to",
+      "note": "Ammisaduqa's reign is part of the Old Babylonian succession; his successors continued the dynasty until its fall c. 1595 BCE."
+    },
+    {
+      "from": "-1880-002",
+      "to": "-1750-001",
+      "relation": "led_to",
+      "note": "The fragmentation of the 13th Dynasty accelerated the transition to the Second Intermediate Period and the rise of the 15th Dynasty (Hyksos)."
+    }
+  ]
+}

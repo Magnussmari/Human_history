@@ -1,0 +1,85 @@
+{
+  "year": -1882,
+  "year_label": "1883 BCE",
+  "era_context": "Middle Bronze Age in the Eastern Mediterranean and Near East. The Old Babylonian period is in its mature phase. Egypt's 13th Dynasty is fragmenting. The Hittite Old Kingdom is consolidating. Minoan Crete is at the height of its palace culture. In the Levant, city-states like Byblos, Sidon, and Tyre are engaged in maritime trade. This is an era of palace economies, cuneiform administration, and inter-regional trade networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia",
+    "South Asia",
+    "The Americas",
+    "Northern Europe",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-1882-001",
+      "title": "Levantine maritime trade networks active",
+      "region": "Levant, Eastern Mediterranean",
+      "coordinates_approx": "34.0, 35.5",
+      "category": "economic",
+      "description": "Phoenician and other Levantine city-states are engaged in extensive maritime trade throughout the Eastern Mediterranean. Byblos, in particular, is a major exporter of cedar and importer of Egyptian goods. Archaeological evidence from shipwrecks (such as the Uluburun wreck, dated to c. 1300 BCE, but representing a continuation of earlier trade patterns) and port sites shows the movement of tin, copper, cedar, lapis lazuli, and other luxury goods. These trade networks connected Egypt, Mesopotamia, Anatolia, Crete, and the Levantine coast.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Egyptian texts mentioning Byblos and Levantine trade (e.g., Tale of Sinuhe, Execration Texts)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from port sites and shipwrecks",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Pottery and artifact distribution across the Mediterranean",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Trade networks are archaeologically attested through artifact distribution and port site excavations. The specific year 1883 BCE is not documented; this entry describes the general economic context of the period.",
+      "cross_references": []
+    },
+    {
+      "id": "-1882-002",
+      "title": "Egyptian 13th Dynasty administrative decline",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The 13th Dynasty of Egypt continues to experience administrative fragmentation and loss of centralized control. The number of kings increases (the Turin King List records over 60 kings for the 13th Dynasty, many with very short reigns), suggesting political instability and rapid succession. Regional governors gain autonomy. The Nile Delta becomes increasingly open to settlement by Asiatic populations. This period marks the transition toward the Second Intermediate Period.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological stratigraphy from Egyptian sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The 13th Dynasty's chronology is uncertain by \u00b120\u201330 years. The process of fragmentation is archaeologically attested but not tied to specific years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The extent and nature of Levantine trade in the early second millennium BCE is debated. Some scholars emphasize the dominance of Egyptian and Mesopotamian trade networks, with Levantine cities as intermediaries; others argue for more autonomous Levantine agency. The 'Phoenician' label is anachronistic for this period; these were Canaanite city-states. The Egyptian 13th Dynasty's decline is often portrayed as a sudden collapse, but archaeological evidence suggests a gradual process of fragmentation over several generations.",
+  "historiographic_note": "For 1883 BCE, the historical record is sparse and heavily dependent on archaeology. Egyptian king lists provide names and (disputed) reign lengths, but no contemporary sources date specific events to this year. Levantine trade is inferred from artifact distribution and later Egyptian texts mentioning trade partners. The record is biased toward elite, palatial, and commercial activities; agricultural, demographic, and technological changes are visible only through archaeology. The lives of non-elite populations are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-1882-001",
+      "to": "-1300-001",
+      "relation": "led_to",
+      "note": "Levantine maritime trade networks continued and intensified through the Late Bronze Age, as evidenced by the Uluburun wreck and other sources."
+    },
+    {
+      "from": "-1882-002",
+      "to": "-1750-001",
+      "relation": "led_to",
+      "note": "The fragmentation of the 13th Dynasty accelerated the rise of the 15th Dynasty (Hyksos) in the Delta."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "year": -1893,
+  "year_label": "1894 BCE",
+  "era_context": "Middle Kingdom Egypt under Amenemhat III; Old Babylonian Mesopotamia; mature Indus Valley Civilization. This year falls within a period of relative stability and prosperity in the Near East and South Asia. In China, the traditional Xia Dynasty continues. The broader context is one of established civilizations with developed administrative, religious, and economic systems.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-1893-001",
+      "title": "Amenemhat III's reign continues in Egypt",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Amenemhat III's reign continues to be marked by stability and prosperity. The pharaoh maintains control over Egypt and its territories, including Nubia. Building projects continue, and the administration manages the complex systems of taxation, labor, and resource distribution that sustain the Egyptian state. The 12th Dynasty remains at its height.",
+      "key_figures": [
+        "Amenemhat III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "King lists and temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Administrative records and papyri",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Dating based on king lists and archaeological evidence; absolute chronology uncertain by \u00b120\u201330 years.",
+      "cross_references": [
+        "-1890-001",
+        "-1891-001",
+        "-1892-001"
+      ]
+    },
+    {
+      "id": "-1893-002",
+      "title": "Mesopotamian city-states and trade in Old Babylonian period",
+      "region": "Mesopotamia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "economic",
+      "description": "Mesopotamian city-states continue to engage in trade, diplomacy, and occasional conflict. Cuneiform records document commercial transactions, legal disputes, and administrative activities. The region is characterized by political fragmentation, with no single power dominating. Trade routes connect Mesopotamia to the Indus Valley, the Levant, and Anatolia.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Cuneiform tablets from various Mesopotamian sites",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Mesopotamian political and economic activities are well-documented in cuneiform sources. Absolute dating is based on king lists and astronomical calculations; uncertainty is \u00b110\u201320 years.",
+      "cross_references": [
+        "-1890-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, the extent of trade connections between Mesopotamia and the Indus Valley remains debated; some scholars argue for more limited direct contact than traditionally assumed.",
+  "historiographic_note": "Documentation is sparse and similar to previous years. Egyptian and Mesopotamian sources are relatively abundant but elite-focused. The Indus Valley Civilization's undeciphered script limits understanding. Most of the world has no written records for this period.",
+  "graph_edges": [
+    {
+      "from": "-1893-001",
+      "to": "-1890-001",
+      "relation": "part_of",
+      "note": "Continuation of Amenemhat III's reign"
+    },
+    {
+      "from": "-1893-002",
+      "to": "-1890-003",
+      "relation": "contemporary_with",
+      "note": "Mesopotamian city-states continue in Old Babylonian period"
+    }
+  ]
+}

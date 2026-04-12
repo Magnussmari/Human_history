@@ -1,0 +1,115 @@
+{
+  "year": -1890,
+  "year_label": "1891 BCE",
+  "era_context": "The Middle Bronze Age in the Levant and Egypt; the Middle Kingdom in Egypt under the 12th Dynasty (Amenemhat III's reign, c. 1860\u20131814 BCE). In Mesopotamia, the Old Babylonian period is well underway; Hammurabi's reign begins c. 1792 BCE, so this year falls in the pre-Hammurabi era of competing city-states. The Indus Valley Civilization is in its mature phase. In China, the Xia Dynasty is traditionally dated to this period, though archaeological confirmation remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (no written records of this period)",
+    "Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-1890-001",
+      "title": "Reign of Amenemhat III in Egypt (traditional dating)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Amenemhat III, pharaoh of Egypt's 12th Dynasty, is traditionally dated to c. 1860\u20131814 BCE, placing him active during this year. His reign is marked by extensive building projects, including the Labyrinth at Hawara and the completion of irrigation works. He consolidated Egyptian power and maintained stability during the Middle Kingdom's height. His reign represents the apex of 12th Dynasty prosperity before the dynasty's decline.",
+      "key_figures": [
+        "Amenemhat III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (temple inscriptions)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Hawara and Dahshur (temple and pyramid remains)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Egyptian chronology for the Middle Kingdom is established through king lists, astronomical data, and archaeological stratigraphy, but absolute dating remains uncertain by \u00b120\u201330 years. The traditional dating of Amenemhat III's reign to c. 1860\u20131814 BCE is widely accepted but debated; some scholars place it slightly earlier or later.",
+      "cross_references": []
+    },
+    {
+      "id": "-1890-002",
+      "title": "Indus Valley Civilization at mature phase",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (c. 2600\u20131900 BCE) is in its mature phase during this period. Major urban centers such as Harappa and Mohenjo-daro are fully developed, with sophisticated urban planning, standardized weights and measures, and extensive trade networks. The civilization's undeciphered script appears on seals and pottery. No evidence of large-scale warfare or monumental temples suggests a relatively egalitarian, trade-focused society.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature phase of the Indus Valley Civilization is well-attested archaeologically. Absolute dating relies on radiocarbon analysis and stratigraphic correlation; the mature phase is generally dated c. 2600\u20131900 BCE with moderate confidence.",
+      "cross_references": []
+    },
+    {
+      "id": "-1890-003",
+      "title": "Old Babylonian period: competing city-states in Mesopotamia",
+      "region": "Mesopotamia (modern Iraq)",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "During this year, Mesopotamia is fragmented among competing city-states and regional powers. Hammurabi of Babylon has not yet begun his expansionist campaigns (which begin c. 1792 BCE). The region is characterized by shifting alliances, trade, and periodic conflict. Cuneiform records from this period document administrative, legal, and commercial activities across multiple polities.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Cuneiform tablets from various Mesopotamian sites (administrative and legal texts)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "King lists and chronicles (later compilations)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The political fragmentation of Mesopotamia in the early Old Babylonian period is well-documented in cuneiform sources. Absolute dating is based on king lists and astronomical calculations; uncertainty is \u00b110\u201320 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of the Middle Kingdom in Egypt and the Old Babylonian period in Mesopotamia is debated among scholars. Some Egyptologists advocate for a 'low chronology' that would place these events 100\u2013150 years later; others support a 'high chronology' placing them earlier. The Indus Valley Civilization's decline (traditionally dated c. 1900 BCE) may have been more gradual than once thought, with some sites showing occupation into the second millennium. No disconfirming evidence directly contradicts the events listed, but their absolute dating remains contested.",
+  "historiographic_note": "Documentation for this year is sparse and heavily dependent on king lists, archaeological stratigraphy, and radiocarbon dating. Egyptian and Mesopotamian sources are relatively abundant but are administrative and religious in nature, biased toward elite activities. The Indus Valley Civilization's undeciphered script limits understanding of its political and social organization. Sub-Saharan Africa, northern Europe, and the Americas have no written records for this period. Chinese sources for the Xia Dynasty are legendary and not independently verified archaeologically.",
+  "graph_edges": [
+    {
+      "from": "-1890-001",
+      "to": "-1814-001",
+      "relation": "led_to",
+      "note": "Amenemhat III's reign ends c. 1814 BCE, leading to the decline of the 12th Dynasty"
+    },
+    {
+      "from": "-1890-002",
+      "to": "-1900-001",
+      "relation": "part_of",
+      "note": "Mature phase of Indus Valley Civilization, which declines c. 1900 BCE"
+    },
+    {
+      "from": "-1890-003",
+      "to": "-1792-001",
+      "relation": "led_to",
+      "note": "Fragmented Mesopotamian city-states lead to Hammurabi's rise and unification c. 1792 BCE"
+    }
+  ]
+}

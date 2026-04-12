@@ -1,0 +1,86 @@
+{
+  "year": -1881,
+  "year_label": "1882 BCE",
+  "era_context": "Continuation of the Middle Bronze Age in the Eastern Mediterranean and Near East. The Old Babylonian period is in its mature phase under Ammisaduqa or his predecessor. Egypt's 13th Dynasty continues its slow decline. The Hittite Old Kingdom is consolidating territorial control in Anatolia. Minoan Crete is in the Middle Minoan IIIA period, with palace complexes at Knossos and Phaistos at their height. This is an era of palace-centered economies, cuneiform literacy, and long-distance trade networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia and the Indian subcontinent",
+    "The Americas",
+    "Northern and Central Europe",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-1881-001",
+      "title": "Minoan palace culture at its height (Middle Minoan IIIA period)",
+      "region": "Crete, Aegean",
+      "coordinates_approx": "35.3, 25.0",
+      "category": "cultural",
+      "description": "The palace complexes of Minoan Crete, particularly at Knossos and Phaistos, are at their architectural and artistic peak during the Middle Minoan IIIA period. These palaces served as administrative, religious, and economic centers. Evidence of extensive trade networks with Egypt, the Levant, and Anatolia is visible in imported goods and Minoan pottery found throughout the Eastern Mediterranean. The Linear A script is in use for administrative purposes, though it remains undeciphered. Frescoes depicting religious ceremonies, nature scenes, and elite activities provide insight into Minoan society.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Knossos, Phaistos, and Mallia (Evans, Pernier, Hazzidakis)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Linear A tablets from palace archives",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Minoan pottery and frescoes",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Middle Minoan IIIA period is archaeologically well-attested through stratigraphy and pottery typology. Absolute dating relies on Egyptian synchronisms and radiocarbon calibration, with uncertainty of \u00b150\u2013100 years. Assignment to 1882 BCE follows conventional chronology but is approximate.",
+      "cross_references": []
+    },
+    {
+      "id": "-1881-002",
+      "title": "Hittite consolidation under the Old Kingdom",
+      "region": "Anatolia, Hittite heartland",
+      "coordinates_approx": "39.5, 34.5",
+      "category": "political",
+      "description": "The Hittite Old Kingdom, established c. 1650 BCE, continues to consolidate power in central Anatolia. Kings of this period (possibly Hantili I or his successors) are engaged in campaigns to secure territorial control and suppress internal rebellions. Cuneiform records from Hattusa document military campaigns, treaties, and administrative reorganization. The Hittites are adopting and adapting Mesopotamian administrative practices and cuneiform writing.",
+      "key_figures": [
+        "Hittite Old Kingdom rulers (identity uncertain for this specific year)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and annals (cuneiform tablets from Hattusa)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Hattusa excavations",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hittite chronology for the Old Kingdom is uncertain by \u00b120\u201330 years. The specific events of 1882 BCE are not individually documented; this entry describes the general political context.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Minoan Middle Minoan IIIA is debated. Some scholars place it earlier (c. 1900\u20131800 BCE), while others place it later (c. 1750\u20131650 BCE). The 'Minoan civilization' label itself is a modern construct; the Minoans did not use this term. The extent of Minoan political centralization is unclear\u2014whether the palaces were ruled by a single king or represented competing regional powers remains disputed. Hittite Old Kingdom chronology is similarly uncertain, with some scholars proposing dates 50\u2013100 years earlier or later than conventional estimates.",
+  "historiographic_note": "For 1882 BCE, the historical record is almost entirely archaeological. No contemporary written sources explicitly date events to this year. Minoan history is known almost entirely through archaeology; Linear A remains undeciphered, so administrative and religious texts cannot be read. Hittite history is better documented through cuneiform texts, but these are often undated or dated relative to king lists with uncertain absolute chronology. The record is heavily biased toward elite, palatial culture; the lives of farmers, herders, and non-elite populations are largely invisible. Trade networks are inferred from pottery distribution, not from explicit trade records.",
+  "graph_edges": [
+    {
+      "from": "-1881-001",
+      "to": "-1700-001",
+      "relation": "led_to",
+      "note": "The Minoan palace culture continued until the Late Minoan period; the palaces were destroyed c. 1700 BCE (or later, depending on chronology) and rebuilt."
+    },
+    {
+      "from": "-1881-002",
+      "to": "-1650-001",
+      "relation": "part_of",
+      "note": "Part of the broader Hittite Old Kingdom consolidation process."
+    }
+  ]
+}
