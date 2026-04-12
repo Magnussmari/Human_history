@@ -1,0 +1,106 @@
+{
+  "year": -2060,
+  "year_label": "2060 BCE",
+  "era_context": "The Old Kingdom of Egypt is in terminal decline; the Sixth Dynasty (c. 2278\u20132184 BCE) is fragmenting into regional power bases. Simultaneously, the Akkad Empire in Mesopotamia has collapsed (c. 2154 BCE), leaving a power vacuum filled by competing city-states and the rising Ur III state. In the Indus Valley, the mature Harappan civilization is at its height, with extensive trade networks. In China, the Xia Dynasty (traditional dates 2070\u20131600 BCE) is in its early phase according to traditional chronology, though archaeological confirmation remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Mesoamerica (no written records for this period)",
+    "Northern Europe (pre-literate)",
+    "Southeast Asia (minimal archaeological data for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-2060-001",
+      "title": "Decline of Egyptian Old Kingdom authority; rise of regional nomarchs",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "By 2060 BCE, the centralized authority of the Egyptian Old Kingdom has severely weakened. Regional governors (nomarchs) increasingly exercise autonomous power over their territories, particularly in Upper Egypt. This fragmentation, visible in tomb inscriptions and administrative records, marks the transition toward the First Intermediate Period. The Sixth Dynasty pharaohs, though nominally ruling, lack the resources to maintain the monumental building programs and centralized bureaucracy of earlier reigns.",
+      "key_figures": [
+        "Pepi II (Sixth Dynasty pharaoh, traditional reign c. 2278\u20132184 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of nomarchs (e.g., Ankhtifi, Sirenput); Sixth Dynasty administrative papyri",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Old Kingdom decline",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The process of decentralization is well-attested in inscriptions and administrative records, though the precise dating of individual transitions within the Sixth Dynasty remains uncertain by \u00b15\u201310 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-2060-002",
+      "title": "Akkad Empire collapse and Ur III emergence in southern Mesopotamia",
+      "region": "Mesopotamia (southern)",
+      "coordinates_approx": "31.0, 46.0",
+      "category": "political",
+      "description": "Following the collapse of the Akkad Empire (c. 2154 BCE), southern Mesopotamia enters a period of fragmentation. By 2060 BCE, the city-state of Ur is consolidating power under the Ur III dynasty (c. 2112\u20132004 BCE according to the Middle Chronology). Ur III will establish one of the most administratively sophisticated states of the ancient world, with extensive cuneiform records documenting centralized bureaucracy, taxation, and labor organization.",
+      "key_figures": [
+        "Ur-Nammu (founder of Ur III dynasty, traditional reign c. 2112\u20132095 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Ur III administrative tablets and king lists (Sumerian King List)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Ur and other southern Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Ur III dynasty is well-documented through thousands of cuneiform tablets, but absolute dating depends on chronological systems (Middle vs. Low Chronology) that differ by \u00b150\u2013100 years. 2060 BCE falls in the transitional period before Ur III's full consolidation.",
+      "cross_references": []
+    },
+    {
+      "id": "-2060-003",
+      "title": "Mature Harappan civilization at peak extent and organization",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (c. 2600\u20131900 BCE) is in its mature phase around 2060 BCE. Major urban centers such as Mohenjo-daro and Harappa are fully developed, with standardized weights, measures, and urban planning. Extensive trade networks connect the Indus to Mesopotamia, the Persian Gulf, and Central Asia. The civilization is characterized by undeciphered script, sophisticated drainage systems, and apparent absence of monumental religious architecture\u2014features that distinguish it from contemporary civilizations.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, Dholavira, and other sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions (undeciphered)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature Harappan phase is well-established archaeologically. Absolute dating relies on radiocarbon calibration and stratigraphic correlation, with \u00b150\u2013100 year uncertainty typical for this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of the Xia Dynasty (2070\u20131600 BCE) remains unconfirmed by contemporary archaeological evidence. No inscriptions or artifacts definitively attributable to a 'Xia' state have been identified; the dynasty may be legendary or may represent a much smaller polity than traditional texts suggest. The chronology of the Old Kingdom decline is also debated: some scholars argue the process was more gradual than the sharp 'collapse' narrative suggests, with regional power-sharing beginning earlier in the Sixth Dynasty.",
+  "historiographic_note": "Documentation for 2060 BCE is heavily skewed toward Egypt and Mesopotamia, where written records exist. The Indus Valley Civilization is known through archaeology but remains largely silent on political events due to undeciphered script. Sub-Saharan Africa, the Americas, and most of Europe are entirely absent from the written record. The Egyptian and Mesopotamian sources are administrative and monumental in nature, likely underrepresenting non-elite activities and potentially biasing our understanding toward elite political narratives.",
+  "graph_edges": [
+    {
+      "from": "-2060-001",
+      "to": "-2070-001",
+      "relation": "part_of",
+      "note": "Continuation of Old Kingdom decline process"
+    },
+    {
+      "from": "-2060-002",
+      "to": "-2050-001",
+      "relation": "led_to",
+      "note": "Ur III consolidation and expansion"
+    }
+  ]
+}
