@@ -1,0 +1,131 @@
+{
+  "year": -91,
+  "year_label": "91 BCE",
+  "era_context": "The Social War (91\u201388 BCE) is in full swing, devastating the Italian peninsula. Rome's Italian allies have risen in revolt over denial of citizenship rights. Simultaneously, the Late Republic is experiencing severe internal political factionalism. In the East, Mithridates VI is consolidating power. The Han Dynasty under Emperor Wu continues its expansion in Central Asia. Egypt under Ptolemy IX is unstable.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "India (limited contemporary written sources)"
+  ],
+  "events": [
+    {
+      "id": "-91-001",
+      "title": "Social War outbreak: Italian allies revolt against Rome",
+      "region": "Italian Peninsula",
+      "coordinates_approx": "41.5, 12.5",
+      "category": "military",
+      "description": "The Social War begins when Rome's Italian allies, denied full Roman citizenship despite centuries of military service, rise in armed rebellion. The revolt is triggered by the assassination of the tribune Marcus Livius Drusus, who had championed their cause. The Italian allies establish a rival state, Italia, with a capital at Corfinium and their own senate and magistrates. The war will last three years and kill an estimated 300,000 combatants, fundamentally reshaping Roman society.",
+      "key_figures": [
+        "Marcus Livius Drusus (tribune, assassinated)",
+        "Quintus Pompeius Strabo (Roman general)",
+        "Lucius Julius Caesar (Roman general)",
+        "Gaius Marius (elder statesman)",
+        "Poppaedius Silo (Marsic leader)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Civil Wars, Book I",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Livy, History of Rome (via Orosius and other epitomators)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Velleius Paterculus, Roman History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The outbreak of the Social War in 91 BCE is firmly attested in multiple ancient sources. The assassination of Drusus and the subsequent revolt are well-documented, though some details vary between sources.",
+      "cross_references": [
+        "Leads to -90-001 (Social War concludes)",
+        "Leads to -88-001 (Sulla's march on Rome, partly enabled by war's aftermath)"
+      ]
+    },
+    {
+      "id": "-91-002",
+      "title": "Mithridates VI expands Pontic influence in the eastern Mediterranean",
+      "region": "Kingdom of Pontus, Anatolia, Black Sea",
+      "coordinates_approx": "40.5, 36.0",
+      "category": "political",
+      "description": "Mithridates VI continues to expand Pontic power, establishing hegemony over Greek cities in the Black Sea region and extending influence into Cappadocia and Bithynia. He is positioning himself as a rival to Rome and the declining Seleucid dynasty. His court attracts Greek intellectuals and military advisors, creating a cosmopolitan Hellenistic power base.",
+      "key_figures": [
+        "Mithridates VI Eupator (King of Pontus)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Mithridatic Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trajectory of Mithridates' expansion is well-attested; specific events in 91 BCE are not individually documented in surviving sources.",
+      "cross_references": [
+        "Leads to -88-002 (First Mithridatic War)"
+      ]
+    },
+    {
+      "id": "-91-003",
+      "title": "Han Dynasty continues Xiongnu campaigns and Central Asian consolidation",
+      "region": "Han China, Central Asia, Steppe",
+      "coordinates_approx": "39.0, 105.0",
+      "category": "military",
+      "description": "Emperor Wu's military campaigns against the Xiongnu nomads and for control of Central Asian trade routes continue. The Han are consolidating their position as the dominant power in East Asia and establishing the foundations of the Silk Road network. These campaigns are costly but strategically important for securing trade and preventing nomadic incursions.",
+      "key_figures": [
+        "Emperor Wu of Han",
+        "General Wei Qing (if still active; died c. -106 BCE, so likely deceased)",
+        "General Ho Qubing (died -117 BCE, so deceased)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Han campaigns are well-documented in Chinese sources, though specific events in 91 BCE are not individually highlighted. The broader campaign framework is secure.",
+      "cross_references": [
+        "Part of broader Han expansion (c. -140 to -90 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Some modern scholars debate the exact trigger and dating of the Social War's outbreak. While 91 BCE is the traditional date, some sources place key events in 90 BCE. The assassination of Drusus is sometimes dated to late 91 or early 90 BCE. The war's causes are also debated: some emphasize economic grievances and land distribution, while others stress political exclusion. The traditional narrative of a unified 'Italian' revolt may oversimplify the diverse motivations of different allied communities.",
+  "historiographic_note": "The Social War is heavily documented in Roman sources, but these are largely written by Roman victors decades or centuries later. Italian and Italic perspectives are almost entirely lost. The war's impact on Italian communities is poorly understood archaeologically. Chinese sources for this period are rich but entirely focused on Han internal affairs and Central Asian campaigns; there is no awareness of Western events. The historical record is sharply divided between Mediterranean and East Asian documentation, with no cross-cultural perspective.",
+  "graph_edges": [
+    {
+      "from": "-91-001",
+      "to": "-90-001",
+      "relation": "led_to",
+      "note": "The Social War's outbreak leads directly to its conclusion and the enfranchisement of Italian allies."
+    },
+    {
+      "from": "-91-001",
+      "to": "-88-001",
+      "relation": "led_to",
+      "note": "The Social War's disruption of Roman politics and military resources contributes to the conditions for Sulla's march on Rome."
+    }
+  ]
+}

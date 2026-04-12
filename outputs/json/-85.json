@@ -1,0 +1,135 @@
+{
+  "year": -85,
+  "year_label": "85 BCE",
+  "era_context": "The Late Roman Republic in its final decades of civil instability. Mithridates VI Eupator rules the Pontic Kingdom in Asia Minor and has recently invaded Roman territories. In China, the Han Dynasty under Emperor Xuan consolidates power after earlier succession crises. The Mediterranean world is fractured between Roman factions, Eastern Hellenistic kingdoms, and rising regional powers.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Roman frontier knowledge",
+    "Central Asia (sparse contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-85-001",
+      "title": "Mithridates VI invades Greece; Roman response under Sulla",
+      "region": "Greece, Asia Minor, Eastern Mediterranean",
+      "coordinates_approx": "39.0, 21.8",
+      "category": "military",
+      "description": "Mithridates VI of Pontus, having invaded Roman Asia in 88 BCE, continues military operations in Greece. Roman general Lucius Cornelius Sulla, having secured his position in Italy after the Social War, prepares to cross into Greece to confront Mithridates' forces. This marks the beginning of the First Mithridatic War's Greek phase. The conflict will reshape the Eastern Mediterranean balance of power and contribute to Rome's internal instability.",
+      "key_figures": [
+        "Mithridates VI Eupator (King of Pontus)",
+        "Lucius Cornelius Sulla (Roman general and consul)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Mithridatic Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Sulla",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Livy, History of Rome (fragmentary for this period)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outline of Mithridatic War chronology is secure from multiple sources, though precise dating of individual campaigns within 88\u201385 BCE varies slightly among ancient sources. Appian and Plutarch are separated from events by ~250 years.",
+      "cross_references": [
+        "Follows from -88-001 (Mithridates' invasion of Asia)",
+        "Leads to -84-001 (Treaty of Dardanus)"
+      ]
+    },
+    {
+      "id": "-85-002",
+      "title": "Han Dynasty consolidation under Emperor Xuan; administrative reforms",
+      "region": "China",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Xuan of Han (r. 74\u201349 BCE) continues his reign, which is marked by strong centralization and the reassertion of imperial authority after the turmoil of the Changyi Incident (74 BCE). Xuan appoints capable administrators and strengthens the examination system for bureaucratic recruitment. This period sees the Han Dynasty reach a peak of internal stability and territorial control, with successful military campaigns against the Xiongnu and expansion of trade routes.",
+      "key_figures": [
+        "Emperor Xuan of Han (Liu Xun)",
+        "Huo Guang (regent, died 68 BCE but influential in this period)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, continued by Sima Tan",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Han Dynasty chronology is well-established through Chinese historical records. Emperor Xuan's reign dates (74\u201349 BCE) are secure, and his administrative policies are documented in detail in the Han Shu.",
+      "cross_references": [
+        "Part of broader Han Dynasty consolidation (r. 206 BCE \u2013 220 CE)",
+        "Contemporary with Roman civil wars"
+      ]
+    },
+    {
+      "id": "-85-003",
+      "title": "Sulla's forces land in Greece; siege of Athens begins",
+      "region": "Greece, Attica",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "military",
+      "description": "Lucius Cornelius Sulla lands in Greece with his legions and begins the siege of Athens, which is held by forces loyal to Mithridates VI and the Roman faction of Marius. The siege will last approximately one year and result in the destruction of much of the city. This campaign is part of Sulla's strategy to drive Mithridates out of Greece and reassert Roman control over the Eastern Mediterranean.",
+      "key_figures": [
+        "Lucius Cornelius Sulla (Roman general)",
+        "Aristion (tyrant of Athens, Mithridatic ally)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Mithridatic Wars, Book 1",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Sulla",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pausanias, Description of Greece",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The siege of Athens is well-attested in ancient sources, though the exact chronology within 86\u201385 BCE is debated. Most scholars place the siege's conclusion in 86 BCE, but some sources suggest it extended into 85 BCE.",
+      "cross_references": [
+        "Part of First Mithridatic War (-88 to -84 BCE)",
+        "Leads to destruction of Athens and subsequent Roman occupation"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of Sulla's Greek campaigns is contested. Some modern scholars argue the siege of Athens concluded in 86 BCE rather than 85 BCE, based on numismatic and archaeological evidence. The extent of destruction attributed to Sulla's siege has also been debated\u2014some scholars suggest earlier Mithridatic occupation caused more damage than Sulla's forces. Additionally, the characterization of Aristion as a 'tyrant' reflects Roman propaganda; his legitimacy in the eyes of Athenian democrats is disputed.",
+  "historiographic_note": "The historical record for 85 BCE is dominated by Roman sources, particularly Appian and Plutarch, both writing 200+ years after events. Greek perspectives on the Mithridatic Wars are largely lost. Chinese sources are abundant and contemporary (or near-contemporary), providing reliable documentation of Han Dynasty affairs. The bias toward Roman military history reflects the survival of Roman-authored texts and the relative scarcity of Greek historical writing from this period. Archaeological evidence from Athens and Asia Minor provides material corroboration but is limited in scope.",
+  "graph_edges": [
+    {
+      "from": "-85-001",
+      "to": "-85-003",
+      "relation": "part_of",
+      "note": "Mithridatic invasion and Sulla's response are components of the same military conflict"
+    },
+    {
+      "from": "-85-003",
+      "to": "-84-001",
+      "relation": "led_to",
+      "note": "Sulla's military success in Greece leads to negotiations and the Treaty of Dardanus"
+    },
+    {
+      "from": "-85-002",
+      "to": "-84-002",
+      "relation": "contemporary_with",
+      "note": "Han Dynasty consolidation occurs simultaneously with Roman civil conflicts, representing parallel processes of centralization in different empires"
+    }
+  ]
+}

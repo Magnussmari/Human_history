@@ -1,0 +1,126 @@
+{
+  "year": -72,
+  "year_label": "72 BCE",
+  "era_context": "The Roman Republic is in the final stages of resolving the Sertorian War, which has lasted nearly a decade. The Third Mithridatic War continues with Lucullus advancing deeper into Pontus. Spartacus's slave revolt is in its second year (or first, depending on dating), with the rebellion growing in strength and threatening Roman control of southern Italy. In China, the Han Dynasty under Emperor Xuan continues its consolidation. Egypt remains under Ptolemy XII.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-72-001",
+      "title": "Assassination of Sertorius; end of Sertorian War",
+      "region": "Hispania (Roman Spain)",
+      "coordinates_approx": "40.0, -4.0",
+      "category": "political",
+      "description": "Sertorius is assassinated by his own officers, including Perpenna Vento, who conspire against him. The assassination effectively ends the Sertorian War, though Pompey and Metellus Pius must still defeat Perpenna and the remaining rebel forces. Sertorius's death marks the final consolidation of optimate power in the Republic after Sulla's dictatorship. The war has lasted nearly a decade and has cost tens of thousands of lives.",
+      "key_figures": [
+        "Sertorius (Lusitanian general, assassinated)",
+        "Perpenna Vento (Roman officer, conspirator)",
+        "Pompey the Great (Roman commander)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Sertorius",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Civil Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Sertorius's assassination in 72 BCE is well-attested in multiple sources. The date is secure.",
+      "cross_references": [
+        "-80-001 (start of Sertorian War)",
+        "-71-001 (final defeat of Perpenna)"
+      ]
+    },
+    {
+      "id": "-72-002",
+      "title": "Spartacus defeats Roman forces at the Battle of Mount Vesuvius",
+      "region": "Campania, Italy",
+      "coordinates_approx": "40.8, 14.4",
+      "category": "military",
+      "description": "Spartacus's rebel army, now numbering in the tens of thousands, defeats a Roman force sent to suppress the revolt. The rebels establish themselves more firmly in southern Italy, with Spartacus demonstrating remarkable military acumen in organizing and leading enslaved people and gladiators against professional Roman legions. The revolt continues to grow, attracting more enslaved people and even some free poor.",
+      "key_figures": [
+        "Spartacus (Thracian gladiator and rebel leader)",
+        "Crixus (Galatian co-leader)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Crassus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Civil Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Spartacus's victories in 72 BCE are attested in multiple sources, though specific battles are sometimes conflated or misdated. The general outline is secure.",
+      "cross_references": [
+        "-73-001 (start of Spartacus revolt)",
+        "-71-001 (end of revolt)"
+      ]
+    },
+    {
+      "id": "-72-003",
+      "title": "Lucullus continues advance in Pontus; siege of Sinope",
+      "region": "Pontus (northern Anatolia)",
+      "coordinates_approx": "41.7, 35.2",
+      "category": "military",
+      "description": "Lucullus continues his campaign against Mithridates VI, advancing into the heartland of Pontus. He besieges and captures the city of Sinope, a major port and center of Pontic power. This victory further consolidates Roman control of Anatolia and demonstrates Lucullus's continued military success, though the war will continue for several more years as Mithridates retreats to the east.",
+      "key_figures": [
+        "Lucius Licinius Lucullus (Roman commander)",
+        "Mithridates VI Eupator (King of Pontus)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Lucullus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Mithridatic Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Lucullus's capture of Sinope is attested in sources, though the exact date (72 or 71 BCE) is sometimes uncertain. The general sequence of events is secure.",
+      "cross_references": [
+        "-75-001 (start of Third Mithridatic War)",
+        "-63-001 (end of war)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Lucullus's capture of Sinope is disputed between 72 and 71 BCE in ancient sources. Additionally, while Sertorius's assassination is well-attested, the precise circumstances and the degree of his officers' dissatisfaction are somewhat obscured by later sources that may have been influenced by Pompey's propaganda. The historical record for Spartacus's specific battles in 72 BCE is less detailed than for later years of the revolt.",
+  "historiographic_note": "The historical record for 72 BCE is moderate but dependent on later compilations. Plutarch and Appian remain the primary sources. No contemporary records survive. The sources are generally favorable to the optimates and to Lucullus, and may underrepresent the perspectives of Sertorius, Perpenna, or Spartacus. The assassination of Sertorius is a turning point in Roman history, but the sources may conflate or misdate specific military engagements. Archaeological evidence from Hispania, Pontus, and Campania provides some corroboration.",
+  "graph_edges": [
+    {
+      "from": "-72-001",
+      "to": "-71-001",
+      "relation": "led_to",
+      "note": "Sertorius's assassination leads to the final defeat of the rebel forces under Perpenna"
+    },
+    {
+      "from": "-72-002",
+      "to": "-71-001",
+      "relation": "led_to",
+      "note": "Spartacus's continued victories lead to the final suppression of the revolt in 71 BCE"
+    },
+    {
+      "from": "-72-003",
+      "to": "-63-001",
+      "relation": "part_of",
+      "note": "Lucullus's campaign continues as part of the Third Mithridatic War"
+    }
+  ]
+}

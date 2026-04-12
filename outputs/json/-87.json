@@ -1,0 +1,135 @@
+{
+  "year": -87,
+  "year_label": "87 BCE",
+  "era_context": "The First Mithridatic War is in full swing, with Sulla's forces advancing through Greece against Mithridates VI's armies. Rome remains fractured by civil conflict. The Han Dynasty under Emperor Xuan continues its consolidation and expansion. The Mediterranean world is in flux as Rome reasserts control over its Eastern territories.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia (beyond Han Dynasty sphere)"
+  ],
+  "events": [
+    {
+      "id": "-87-001",
+      "title": "Siege of Athens continues; Sulla's forces besiege the city",
+      "region": "Greece, Attica",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "military",
+      "description": "Lucius Cornelius Sulla's forces continue their siege of Athens, which is held by forces loyal to Mithridates VI and the Marian faction in Rome. The siege is characterized by starvation and attrition. Sulla's forces construct siege works and attempt to starve the city into submission. The siege will continue into 86 BCE before the city falls. This prolonged campaign demonstrates the strategic importance of Athens and the determination of both sides to control Greece.",
+      "key_figures": [
+        "Lucius Cornelius Sulla (Roman general)",
+        "Aristion (tyrant of Athens)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Mithridatic Wars, Book 1",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Sulla",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Athens",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The siege of Athens is well-attested in ancient sources. The exact chronology of the siege (whether it began in 87 or 88 BCE and concluded in 86 or 87 BCE) is debated among modern scholars. Most place the siege's conclusion in 86 BCE, but some sources suggest it extended into 85 BCE.",
+      "cross_references": [
+        "Part of First Mithridatic War",
+        "Leads to -86-001 (capture of Athens)"
+      ]
+    },
+    {
+      "id": "-87-002",
+      "title": "Mithridates VI consolidates control in Asia Minor; prepares for confrontation with Sulla",
+      "region": "Asia Minor, Pontus",
+      "coordinates_approx": "40.5, 35.5",
+      "category": "military",
+      "description": "Mithridates VI Eupator, having invaded Roman Asia in 88 BCE, consolidates his control over the region and prepares his forces for confrontation with Sulla's advancing legions. Mithridates appoints capable generals, including Archelaus, to command his armies. The Pontic king mobilizes resources from his kingdom and allied territories to support the war effort. This period represents the height of Mithridates' power and territorial expansion.",
+      "key_figures": [
+        "Mithridates VI Eupator (King of Pontus)",
+        "Archelaus (Pontic general)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Mithridatic Wars, Book 1",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Sulla",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outline of Mithridates' military preparations is secure from multiple sources, though specific details of his strategic planning are not well-documented in surviving sources. The characterization of this period as the 'height' of Mithridates' power is historiographic consensus.",
+      "cross_references": [
+        "Part of First Mithridatic War",
+        "Leads to -86-002 (Battle of Chaeronea)"
+      ]
+    },
+    {
+      "id": "-87-003",
+      "title": "Han Dynasty continues administrative consolidation; examination system strengthened",
+      "region": "China",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "Emperor Xuan of Han continues his reign, marked by strong centralization and administrative reform. The Han examination system for bureaucratic recruitment is further developed, allowing for the selection of capable officials based on merit rather than purely on aristocratic birth. This period sees the Han Dynasty reach a peak of internal stability and effective governance. Xuan's policies strengthen the imperial bureaucracy and reduce the power of regional aristocrats.",
+      "key_figures": [
+        "Emperor Xuan of Han (Liu Xun)",
+        "Huo Guang (regent, influential until his death in 68 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Han Dynasty chronology and administrative policies are well-documented in Chinese historical records. Emperor Xuan's reign dates and his administrative reforms are secure.",
+      "cross_references": [
+        "Part of Han Dynasty consolidation (206 BCE \u2013 220 CE)",
+        "Contemporary with Roman civil conflicts"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the siege of Athens is contested. Some modern scholars argue the siege began in 88 BCE and concluded in 86 BCE, while others suggest it began in 87 BCE and concluded in 85 BCE. The extent of Mithridates' control over Asia Minor is sometimes overstated in ancient sources; some regions maintained semi-autonomous status. The characterization of the Han examination system as fully 'merit-based' is debated; aristocratic privilege continued to play a significant role in official selection.",
+  "historiographic_note": "The historical record for 87 BCE is dominated by Roman sources concerning the Mithridatic Wars, with Greek perspectives largely lost. Chinese sources provide reliable documentation of Han Dynasty affairs. The bias toward military and political events reflects the nature of surviving sources. Archaeological evidence from Greece and Asia Minor provides material corroboration but is limited in scope. The survival of Roman-authored texts creates a Western-centric bias in the historical record.",
+  "graph_edges": [
+    {
+      "from": "-87-001",
+      "to": "-86-001",
+      "relation": "led_to",
+      "note": "Continued siege of Athens leads to its capture in 86 BCE"
+    },
+    {
+      "from": "-87-002",
+      "to": "-86-002",
+      "relation": "led_to",
+      "note": "Mithridates' military preparations lead to confrontation with Sulla at Chaeronea"
+    },
+    {
+      "from": "-87-003",
+      "to": "-86-003",
+      "relation": "contemporary_with",
+      "note": "Han Dynasty administrative consolidation occurs simultaneously with Roman military campaigns"
+    }
+  ]
+}

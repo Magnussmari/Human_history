@@ -1,0 +1,124 @@
+{
+  "year": -93,
+  "year_label": "93 BCE",
+  "era_context": "The Social War is in its first full year of fighting, devastating the Italian peninsula. Rome is mobilizing military resources on an unprecedented scale. The Late Republic is experiencing severe internal political strain. In the East, Mithridates VI is consolidating Pontic power. The Han Dynasty under Emperor Wu is at its height, with ongoing military campaigns in Central Asia. Egypt under Ptolemy IX is unstable.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "India",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-93-001",
+      "title": "Social War: Intense fighting continues across Italian peninsula",
+      "region": "Italian Peninsula",
+      "coordinates_approx": "41.5, 12.5",
+      "category": "military",
+      "description": "The Social War continues with major military campaigns by Roman generals Pompeius Strabo and Lucius Julius Caesar against the Italian allies. The war is characterized by siege warfare, pitched battles, and devastating casualties on both sides. The Italian allies, despite establishing their own state (Italia) with a capital at Corfinium, are gradually being worn down by Rome's superior resources. The conflict is reshaping the political and military landscape of the peninsula.",
+      "key_figures": [
+        "Gnaeus Pompeius Strabo (Roman general)",
+        "Lucius Julius Caesar (Roman general)",
+        "Poppaedius Silo (Marsic leader)",
+        "Gaius Marius (elder statesman)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Civil Wars, Book I",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Livy, History of Rome (via epitomators)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The continuation of the Social War in 93 BCE is attested in sources, but specific battles are not individually dated. The year is assigned based on the war's overall three-year duration (91\u201388 BCE).",
+      "cross_references": [
+        "Part of -91-001 (Social War outbreak)",
+        "Leads to -90-001 (Social War concludes)"
+      ]
+    },
+    {
+      "id": "-93-002",
+      "title": "Mithridates VI expands Pontic power; builds military and diplomatic networks",
+      "region": "Kingdom of Pontus, Black Sea, Anatolia",
+      "coordinates_approx": "40.5, 36.0",
+      "category": "political",
+      "description": "Mithridates VI continues to expand Pontic influence in the Black Sea region and Anatolia. He is building a powerful military machine, recruiting mercenaries and establishing alliances with Greek cities and neighboring rulers. His court becomes a center of Hellenistic culture and learning, attracting scholars and military experts. He is positioning himself as a major power in the eastern Mediterranean.",
+      "key_figures": [
+        "Mithridates VI Eupator (King of Pontus)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Mithridatic Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general trajectory of Mithridates' expansion is well-attested; specific events in 93 BCE are not individually documented in surviving sources.",
+      "cross_references": [
+        "Leads to -88-002 (First Mithridatic War)"
+      ]
+    },
+    {
+      "id": "-93-003",
+      "title": "Han Dynasty campaigns against Xiongnu; Central Asian expansion continues",
+      "region": "Han China, Central Asia, Steppe",
+      "coordinates_approx": "39.0, 105.0",
+      "category": "military",
+      "description": "Emperor Wu's military campaigns against the Xiongnu nomads and for control of Central Asian trade routes continue. The Han are consolidating their position as the dominant power in East Asia and establishing the foundations of the Silk Road. These campaigns are costly but strategically important for securing trade routes and preventing nomadic incursions into Han territory.",
+      "key_figures": [
+        "Emperor Wu of Han"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Han campaigns are well-documented in Chinese sources; specific events in 93 BCE are not individually highlighted but fit the broader campaign framework.",
+      "cross_references": [
+        "Part of broader Han expansion (c. -140 to -90 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The specific battles and campaigns of 93 BCE are not individually documented in surviving sources. The traditional narrative of the Social War as a unified conflict may oversimplify the diverse nature of the revolt. Some modern scholars emphasize regional variations in the causes and conduct of the war.",
+  "historiographic_note": "The Social War is documented primarily through Roman sources written decades or centuries after the events. Italian and Italic perspectives are almost entirely absent. Archaeological evidence provides some corrective but is unevenly distributed. Chinese sources are rich for Han activities but entirely focused on the imperial perspective. The historical record is sharply divided geographically.",
+  "graph_edges": [
+    {
+      "from": "-93-001",
+      "to": "-91-001",
+      "relation": "part_of",
+      "note": "The 93 BCE campaigns are part of the broader Social War that began in 91 BCE."
+    },
+    {
+      "from": "-93-001",
+      "to": "-90-001",
+      "relation": "led_to",
+      "note": "The continuation of the Social War in 93 BCE leads toward its conclusion in 90 BCE."
+    }
+  ]
+}

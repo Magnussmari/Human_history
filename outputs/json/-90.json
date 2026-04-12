@@ -1,0 +1,123 @@
+{
+  "year": -90,
+  "year_label": "90 BCE",
+  "era_context": "The Late Roman Republic, in the aftermath of the Social War (91\u201388 BCE). Italy and the Mediterranean world are fractured by civil conflict between optimates (conservative aristocrats) and populares (reformist factions). Mithridates VI of Pontus is expanding eastward. The Seleucid and Ptolemaic dynasties are in decline. In China, the Han Dynasty under Emperor Wu is at its height, consolidating control over Central Asia and the Silk Road.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Northern Europe beyond Roman contact zones",
+    "Mesoamerica (no written records contemporary with this year)"
+  ],
+  "events": [
+    {
+      "id": "-90-001",
+      "title": "Social War concludes; Italian allies granted Roman citizenship",
+      "region": "Italian Peninsula, Roman Republic",
+      "coordinates_approx": "41.5, 12.5",
+      "category": "political",
+      "description": "The Social War (91\u201388 BCE), fought between Rome and its Italian allies over citizenship rights, formally ends. The lex Plautia Papiria and related legislation grant Roman citizenship to surviving Italian communities. This resolves the immediate military crisis but leaves deep political scars and redistributes power within the Roman state. The war had killed an estimated 300,000 combatants and destabilized the peninsula.",
+      "key_figures": [
+        "Lucius Julius Caesar (general)",
+        "Gnaeus Pompeius Strabo (general)",
+        "Marius (elder statesman)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Civil Wars, Book I",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Livy, History of Rome (surviving fragments via Orosius)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The end of the Social War is well-attested in multiple sources, though precise dating of the final settlement varies slightly (88\u201387 BCE in some accounts). The lex Plautia Papiria is dated to 89 BCE by most scholars, with final enfranchisement extending into 90\u201388 BCE.",
+      "cross_references": [
+        "Follows from -91-001 (Social War outbreak)",
+        "Leads to -88-001 (First Mithridatic War and Sulla's march on Rome)"
+      ]
+    },
+    {
+      "id": "-90-002",
+      "title": "Mithridates VI consolidates Pontic power; prepares eastward expansion",
+      "region": "Kingdom of Pontus, Anatolia and Black Sea region",
+      "coordinates_approx": "40.5, 36.0",
+      "category": "political",
+      "description": "Mithridates VI Eupator, king of Pontus, strengthens his position in the eastern Mediterranean and Black Sea region. He is consolidating control over client states and preparing for conflict with Rome and the Seleucids. His court becomes a center of Hellenistic culture and military innovation. This period marks the beginning of his rise to become Rome's most formidable eastern rival.",
+      "key_figures": [
+        "Mithridates VI Eupator (King of Pontus)"
+      ],
+      "sources": [
+        {
+          "name": "Appian, Mithridatic Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography, Book XII",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation of Mithridates' power is attested in later sources, but precise dating of individual actions in 90 BCE is uncertain. The broader trajectory is clear; specific events this year are inferred from the general historical narrative.",
+      "cross_references": [
+        "Leads to -88-002 (First Mithridatic War begins)"
+      ]
+    },
+    {
+      "id": "-90-003",
+      "title": "Han Dynasty consolidates control of the Tarim Basin and Silk Road",
+      "region": "Han China, Central Asia",
+      "coordinates_approx": "39.0, 105.0",
+      "category": "military",
+      "description": "Under Emperor Wu, Han military expeditions continue to secure trade routes and establish hegemony over the Tarim Basin. The campaigns against the Xiongnu and control of oasis cities like Samarkand and Bukhara are consolidating. This period marks the height of Han territorial expansion and the establishment of the Silk Road as a major trade and diplomatic network.",
+      "key_figures": [
+        "Emperor Wu of Han",
+        "General Wei Qing (deceased by this date, but his legacy dominates)",
+        "General Ho Qubing (deceased by this date)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Han Shu (Book of Han) by Ban Gu",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Han consolidation of Central Asia is well-documented in Chinese sources, though specific events in 90 BCE are not individually highlighted. The broader campaign framework is secure; this entry reflects the ongoing state of affairs.",
+      "cross_references": [
+        "Part of broader Han expansion (c. -140 to -90 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of the end of the Social War to 88 BCE is sometimes pushed back to 89 BCE by modern scholars based on numismatic and epigraphic evidence. The significance of 90 BCE specifically is somewhat arbitrary\u2014the war's conclusion was gradual rather than a single decisive moment. Some sources emphasize that the lex Plautia Papiria (89 BCE) was the formal grant, making 89 BCE more significant than 90 BCE for this event.",
+  "historiographic_note": "The historical record for 90 BCE is dominated by Roman and Greek sources, creating a Western-centric bias. Chinese sources are rich but focus on Han internal affairs and Central Asian campaigns; the perspective is imperial and court-centered. Italian and Italic perspectives on the Social War are largely lost, filtered through Roman victors' accounts. Archaeological evidence (coins, inscriptions, settlement patterns) provides some corrective but is unevenly distributed geographically.",
+  "graph_edges": [
+    {
+      "from": "-90-001",
+      "to": "-88-001",
+      "relation": "led_to",
+      "note": "The Social War's conclusion and political instability it created set the stage for Sulla's march on Rome and the First Mithridatic War."
+    },
+    {
+      "from": "-90-003",
+      "to": "-90-002",
+      "relation": "contemporary_with",
+      "note": "Han consolidation of Central Asia and Mithridates' expansion were occurring simultaneously in different regions, with no direct interaction but eventual geopolitical consequences."
+    }
+  ]
+}
