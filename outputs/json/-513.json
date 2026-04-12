@@ -1,0 +1,94 @@
+{
+  "year": -513,
+  "year_label": "513 BCE",
+  "era_context": "The late Archaic period in Greece; the reign of Darius I in the Achaemenid Persian Empire; the Spring and Autumn period in China; the Iron Age in the Mediterranean. Greek city-states continue to develop their political institutions; Persian imperial expansion reaches its zenith; Chinese states remain fragmented.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Oceania",
+    "Americas",
+    "India (beyond Persian sphere)",
+    "East Asia (China, Korea, Japan)"
+  ],
+  "events": [
+    {
+      "id": "-513-001",
+      "title": "Darius I's Scythian campaign",
+      "region": "Scythian steppes north of the Black Sea and Danube, Achaemenid Persian Empire",
+      "coordinates_approx": "48.0, 35.0",
+      "category": "military",
+      "description": "Darius I led a massive military expedition into Scythia (the steppes north of the Black Sea and Danube River) to subjugate the Scythian peoples and extend Persian control northward. The campaign was logistically ambitious, involving the construction of a pontoon bridge across the Danube. However, the Scythians, masters of steppe warfare, avoided pitched battle and harassed the Persian supply lines. Darius was unable to force a decisive engagement and eventually withdrew, claiming victory but having failed to conquer Scythia. The campaign demonstrated both the reach of Persian imperial ambition and its limits.",
+      "key_figures": [
+        "Darius I (Achaemenid Great King)",
+        "Scythian leaders (unnamed in sources)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories, Book IV",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Herodotus provides a detailed account of the Scythian campaign, but he wrote ~80 years after the events and was not a contemporary witness. The date 513 BCE is derived from Herodotus's chronology and is accepted by modern scholarship, though with uncertainty of \u00b11\u20132 years. The campaign is confirmed as historical, but details are disputed.",
+      "cross_references": [
+        "Part of Darius I's broader expansion",
+        "Contemporary with Persian consolidation in Ionia"
+      ]
+    },
+    {
+      "id": "-513-002",
+      "title": "Cleisthenes begins democratic reforms in Athens",
+      "region": "Athens, Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Cleisthenes, an Athenian aristocrat, began implementing radical political reforms that would lay the foundation for Athenian democracy. These reforms included the reorganization of the citizen body into ten new tribes (phylai) based on geography rather than kinship, the creation of the Council of 500 (Boule), and the institution of ostracism. The reforms were designed to break the power of aristocratic clans and distribute political power more broadly among free male citizens. This period marks the beginning of the transition from tyranny to democratic governance in Athens.",
+      "key_figures": [
+        "Cleisthenes (Athenian reformer)",
+        "Hippias (tyrant of Athens, opponent of reforms)"
+      ],
+      "sources": [
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Herodotus, Histories, Book V",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Aristotle and Herodotus both discuss Cleisthenes' reforms, but the precise chronology is uncertain. Aristotle places the reforms after the fall of Hippias (510 BCE), but some modern scholars argue they began earlier, around 513\u2013510 BCE. The date 513 BCE is assigned here as a representative point within the reform period, but \u00b13 years is reasonable.",
+      "cross_references": [
+        "Follows from -514-001 (assassination of Hipparchus)",
+        "Leads to -510-001 (fall of Hippias)",
+        "Leads to development of Athenian democracy"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The chronology of Cleisthenes' reforms is disputed. Aristotle's account suggests they occurred after 510 BCE, but some modern scholars (e.g., based on epigraphic evidence) argue for an earlier date. Additionally, the extent to which Cleisthenes' reforms were genuinely 'democratic' is debated; they redistributed power among the aristocracy and excluded women, slaves, and non-landowners. The reforms were also not universally popular and faced resistance from traditional aristocratic factions.",
+  "historiographic_note": "The historical record for 513 BCE is dominated by Greek and Persian sources, both filtered through later literary traditions. Herodotus is the primary source for the Scythian campaign, but he was not contemporary and had access to Persian and Greek accounts that may have been propagandistic. Aristotle's account of Cleisthenes is more reliable but still written ~200 years after the events. No contemporary inscriptions or documents survive for this year. Non-Mediterranean civilizations are entirely absent from the record.",
+  "graph_edges": [
+    {
+      "from": "-513-001",
+      "to": "-513-002",
+      "relation": "contemporary_with",
+      "note": "Darius I's Scythian campaign and Cleisthenes' democratic reforms occurred in the same year, representing the expansion of Persian imperialism and the emergence of Athenian democracy"
+    },
+    {
+      "from": "-513-002",
+      "to": "-510-001",
+      "relation": "led_to",
+      "note": "Cleisthenes' reforms contributed to the political instability that led to the fall of Hippias"
+    }
+  ]
+}

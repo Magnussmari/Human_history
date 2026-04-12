@@ -1,0 +1,99 @@
+{
+  "year": -515,
+  "year_label": "515 BCE",
+  "era_context": "The Achaemenid Persian Empire under Darius I is consolidating its vast territorial holdings and administrative systems. In Greece, the early Classical period is establishing itself; Athens is stabilizing under democratic reforms while other city-states develop their own political systems. In China, the Spring and Autumn period continues with competing states vying for hegemony. In India, the Mahajanapadas are forming as larger political units.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia (limited contemporary sources)"
+  ],
+  "events": [
+    {
+      "id": "-515-001",
+      "title": "Second Temple Dedication in Jerusalem (alternative dating)",
+      "region": "Judah, Jerusalem",
+      "coordinates_approx": "31.78, 35.24",
+      "category": "religious",
+      "description": "The Second Temple in Jerusalem is completed and dedicated, marking the restoration of the Jewish temple after its destruction by Nebuchadnezzar II in 586 BCE. The temple's reconstruction was authorized by the Persian king Cyrus II as part of Persian policy allowing subject peoples to restore their religious institutions. The completion of the temple is a significant moment in Jewish religious and cultural identity, enabling the resumption of temple sacrifice and worship. Some scholars date this event to 515 BCE rather than 516 BCE based on alternative chronological calculations.",
+      "key_figures": [
+        "Zerubbabel (governor of Judah)",
+        "Joshua (high priest)",
+        "Darius I (Persian king)"
+      ],
+      "sources": [
+        {
+          "name": "Book of Ezra (Hebrew Bible)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Josephus, Antiquities of the Jews",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Haggai (Hebrew Bible, prophetic book)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Book of Ezra dates the temple's completion to the 6th year of Darius I's reign. Depending on the exact dating of Darius I's accession, this could correspond to either 516 or 515 BCE. Modern scholarship is divided on the precise year.",
+      "cross_references": [
+        "Alternative dating of -516-001"
+      ]
+    },
+    {
+      "id": "-515-002",
+      "title": "Darius I's Consolidation of the Satrapy System",
+      "region": "Achaemenid Persian Empire",
+      "coordinates_approx": "35.0, 45.0",
+      "category": "political",
+      "description": "Darius I's administrative reorganization of the Persian Empire into satrapies (provinces) is well-established by this period. Each satrapy is governed by a satrap responsible for taxation, military recruitment, and local administration. The Royal Road system connects the empire, enabling rapid communication and troop movement. Standardized weights, measures, and coinage (the daric gold coin) facilitate trade and taxation across diverse regions. These innovations enable the empire to function as a coherent political entity despite vast distances and diverse populations.",
+      "key_figures": [
+        "Darius I (King of Persia)"
+      ],
+      "sources": [
+        {
+          "name": "Behistun Inscription (Old Persian cuneiform)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Herodotus, Histories, Book III",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Persepolis Apadana reliefs (archaeological)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The satrapy system is attested in contemporary Persian inscriptions, reliefs, and later Greek sources. By 515 BCE, the system was well-established, though it evolved gradually over Darius's reign.",
+      "cross_references": [
+        "Part of broader administrative consolidation begun in -522"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Second Temple's completion is disputed between 516 and 515 BCE. The Book of Ezra's chronology is not independently verified and may contain errors or anachronisms. Some scholars question whether the temple was actually completed in the 6th year of Darius I's reign as stated in Ezra, or whether the text reflects later traditions. The satrapy system, while confirmed by multiple sources, was not implemented uniformly or simultaneously across the empire; attributing its completion to a single year oversimplifies a gradual process.",
+  "historiographic_note": "For 515 BCE, sources are primarily Persian inscriptions and reliefs (contemporary) and Greek sources written decades or centuries later. The Book of Ezra is a later compilation reflecting Jewish religious tradition. Persian sources do not explicitly mention the temple's completion, creating uncertainty about the exact date. Greek sources (Herodotus) provide information about Persian administration but are retrospective and sometimes unreliable. Chinese sources (Spring and Autumn Annals) are extremely terse for this period. Indian sources are largely absent from contemporary records. The historical record is skewed toward the Mediterranean and Near East.",
+  "graph_edges": [
+    {
+      "from": "-515-001",
+      "to": "-539-001",
+      "relation": "caused_by",
+      "note": "Cyrus II's edict authorizing temple restoration"
+    },
+    {
+      "from": "-515-002",
+      "to": "-490-001",
+      "relation": "led_to",
+      "note": "The satrapy system enabled Persian mobilization for the invasion of Greece"
+    }
+  ]
+}

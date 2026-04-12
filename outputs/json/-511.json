@@ -1,0 +1,87 @@
+{
+  "year": -511,
+  "year_label": "511 BCE",
+  "era_context": "The late Archaic period in Greece; the reign of Darius I in the Achaemenid Persian Empire; the Spring and Autumn period in China; the Iron Age in the Mediterranean. This year marks the final phase of the Peisistratid tyranny in Athens and the conclusion of Darius I's Scythian campaign.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Oceania",
+    "Americas",
+    "India",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-511-001",
+      "title": "Darius I withdraws from Scythia",
+      "region": "Scythian steppes, Danube River, Achaemenid Persian Empire",
+      "coordinates_approx": "48.0, 35.0",
+      "category": "military",
+      "description": "Darius I's Scythian campaign concluded with the Persian withdrawal from Scythian territory. The campaign, which had lasted approximately two years (513\u2013511 BCE), failed to achieve its objective of subjugating the Scythians. The Scythians' mastery of steppe warfare and their avoidance of pitched battle frustrated Persian military strategy. Darius withdrew with his army largely intact but without territorial gains. The campaign demonstrated the limits of Persian imperial expansion and the effectiveness of nomadic military tactics against conventional armies.",
+      "key_figures": [
+        "Darius I (Achaemenid Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories, Book IV",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Herodotus provides the primary account of the campaign's conclusion, but the precise date of withdrawal is uncertain. 511 BCE is a conventional date derived from Herodotus's chronology, with uncertainty of \u00b11\u20132 years.",
+      "cross_references": [
+        "Conclusion of -513-001 and -512-001",
+        "Part of Darius I's reign"
+      ]
+    },
+    {
+      "id": "-511-002",
+      "title": "Hippias remains tyrant of Athens; political tensions escalate",
+      "region": "Athens, Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "In Athens, Hippias remained in power as tyrant, but his rule was increasingly unstable. The assassination of his brother Hipparchus in 514 BCE had destabilized the Peisistratid tyranny, and Hippias responded with increased repression. Cleisthenes' democratic reforms were creating new political structures that challenged traditional aristocratic power. The combination of these factors created a volatile political situation that would lead to Hippias's overthrow within a year.",
+      "key_figures": [
+        "Hippias (tyrant of Athens)",
+        "Cleisthenes (Athenian reformer)"
+      ],
+      "sources": [
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book VI",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The political situation in Athens during 511 BCE is inferred from broader accounts of the period. No specific events are recorded for this year, but the general trajectory of increasing instability is well-attested.",
+      "cross_references": [
+        "Follows from -514-001 (assassination of Hipparchus)",
+        "Leads to -510-001 (fall of Hippias)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "Herodotus's account of Darius I's withdrawal from Scythia presents it as a successful strategic retreat, but some modern scholars argue that Darius was effectively forced to withdraw due to supply problems and military pressure. The narrative of Hippias's increasing repression after 514 BCE is attested in later sources, but the specific events and timeline are uncertain.",
+  "historiographic_note": "Sources for 511 BCE are sparse and dominated by Greek accounts. Herodotus and Aristotle remain the primary sources, but both were writing well after the events. No contemporary inscriptions or documents survive for this year. The historical record is heavily biased toward elite political and military events in the Mediterranean and Near East. Non-Mediterranean civilizations are entirely absent from the surviving record.",
+  "graph_edges": [
+    {
+      "from": "-511-001",
+      "to": "-513-001",
+      "relation": "part_of",
+      "note": "Conclusion of Darius I's Scythian campaign"
+    },
+    {
+      "from": "-511-002",
+      "to": "-510-001",
+      "relation": "led_to",
+      "note": "Political instability in Athens under Hippias led to his overthrow in 510 BCE"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "year": -514,
+  "year_label": "514 BCE",
+  "era_context": "The late Archaic period in Greece; the early reign of Darius I in the Achaemenid Persian Empire; the Spring and Autumn period in China under various warring states; the Iron Age in the Mediterranean and Near East. Greek city-states are consolidating power; Persian imperial expansion is accelerating; Chinese states are fragmenting into competing regional powers.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia (beyond Persian sphere)",
+    "Oceania",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "-514-001",
+      "title": "Harmodius and Aristogeiton assassination of Hipparchus",
+      "region": "Athens, Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political",
+      "description": "Two Athenian youths, Harmodius and Aristogeiton, assassinated Hipparchus, the younger brother of the tyrant Hippias, during the Panathenaic festival. The killing was motivated by personal grievance rather than political ideology, but it became mythologized as a tyrannicide and a blow against tyranny. The assassination did not immediately end Hippias's rule but destabilized it and contributed to the eventual overthrow of the tyranny four years later. The pair became celebrated as the first tyrannicides in Athenian democratic tradition.",
+      "key_figures": [
+        "Harmodius (assassin)",
+        "Aristogeiton (assassin)",
+        "Hipparchus (victim, son of Peisistratos)",
+        "Hippias (tyrant of Athens)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book VI",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Plato, Symposium",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The event is attested in multiple ancient sources, but all are written well after the fact (Thucydides ~80 years later, Aristotle ~200 years later). The date 514 BCE is conventional; Thucydides places it in the archonship of Callimachus. Modern scholarship accepts the event as historical but notes that the mythologization began immediately.",
+      "cross_references": [
+        "Follows from broader Peisistratid tyranny",
+        "Leads to -510-001 (fall of Hippias)"
+      ]
+    },
+    {
+      "id": "-514-002",
+      "title": "Darius I consolidates Persian control over Ionia",
+      "region": "Ionia (Asia Minor), Achaemenid Persian Empire",
+      "coordinates_approx": "37.5, 27.0",
+      "category": "political",
+      "description": "Following his consolidation of power in Mesopotamia and Egypt, Darius I strengthened Persian administrative control over the Greek city-states of Ionia on the coast of Asia Minor. This period saw the imposition of Persian-appointed tyrants and the extraction of tribute. The Ionian cities, though culturally Greek, were now firmly under Persian suzerainty. This domination would remain a source of tension and would eventually contribute to the Ionian Revolt (499 BCE) and the subsequent Greco-Persian Wars.",
+      "key_figures": [
+        "Darius I (Achaemenid Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories, Book III\u2013V",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Darius I's reign",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation of Ionian control under Darius I is well-attested in Herodotus and later sources, but the precise chronology of individual administrative actions is uncertain. The period 520\u2013510 BCE saw intensified Persian control; 514 BCE is assigned as a representative date within this process.",
+      "cross_references": [
+        "Part of broader Darius I expansion",
+        "Leads to -499-001 (Ionian Revolt)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The assassination of Hipparchus is often presented in modern popular history as a blow against tyranny, but Thucydides and Aristotle both emphasize that it was motivated by personal resentment (Aristogeiton's lover was rejected by Hipparchus) rather than democratic ideology. The mythologization of Harmodius and Aristogeiton as 'tyrannicides' occurred after the fact and obscures the actual political dynamics. Additionally, the assassination did not immediately weaken Hippias's rule; he actually became more repressive afterward.",
+  "historiographic_note": "Sources for this year are entirely Greek and Persian, filtered through later literary traditions. Athenian sources (Thucydides, Aristotle, Plato) are written 80\u2013200 years after the events and reflect Athenian democratic ideology of the 4th century BCE. Persian sources are largely lost; we rely on Greek accounts of Persian actions. Chinese, Indian, and other non-Mediterranean civilizations are entirely absent from surviving records for this specific year. The historical record is heavily biased toward elite political and military events in the Mediterranean and Near East.",
+  "graph_edges": [
+    {
+      "from": "-514-001",
+      "to": "-510-001",
+      "relation": "led_to",
+      "note": "The assassination of Hipparchus destabilized the Peisistratid tyranny and contributed to its overthrow in 510 BCE"
+    },
+    {
+      "from": "-514-002",
+      "to": "-499-001",
+      "relation": "led_to",
+      "note": "Persian consolidation of Ionian control created grievances that sparked the Ionian Revolt"
+    }
+  ]
+}

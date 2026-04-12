@@ -1,0 +1,125 @@
+{
+  "year": -520,
+  "year_label": "520 BCE",
+  "era_context": "Darius I continues to consolidate his rule over the Achaemenid Persian Empire, with the final suppression of rebellions and the establishment of his administrative system. In Greece, the Archaic period continues; Athens is moving toward democratic reforms. In China, the Spring and Autumn period sees the rise of Confucius as a teacher and philosopher. In India, the early Buddhist sangha is organizing and spreading. In Judea, the Second Temple is being rebuilt under Persian sponsorship.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-520-001",
+      "title": "Final Suppression of Rebellions in the Persian Empire",
+      "region": "Persian Achaemenid Empire (Babylon, Egypt, Media)",
+      "coordinates_approx": "35.0\u00b0N, 50.0\u00b0E",
+      "category": "military",
+      "description": "Darius I completes the suppression of the final rebellions that began following the succession crisis of 522 BCE. The Behistun Inscription records that by 520 BCE, Darius has defeated all major rebel forces and consolidated his control over the empire. The last significant rebellion, in Babylon, is suppressed. This marks the end of the succession crisis period and the beginning of Darius I's reign as the undisputed Great King of the Persian Empire.",
+      "key_figures": [
+        "Darius I (Persian Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Behistun Inscription (Darius I)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Behistun Inscription provides a contemporary account of the final suppression of rebellions.",
+      "cross_references": [
+        "-521-001"
+      ]
+    },
+    {
+      "id": "-520-002",
+      "title": "Reconstruction of the Second Temple in Jerusalem",
+      "region": "Judea, Persian Achaemenid Empire",
+      "coordinates_approx": "31.7\u00b0N, 35.2\u00b0E",
+      "category": "religious",
+      "description": "Under the sponsorship of Darius I, the Jewish community in Judea continues the reconstruction of the Second Temple in Jerusalem, which had been destroyed by the Babylonians in 586 BCE. The reconstruction began around 537 BCE under Cyrus the Great's decree and continues under Darius I's rule. By 520 BCE, the temple is nearing completion. The reconstruction is a significant event in Jewish history, marking the restoration of the central religious institution of the Jewish people and the reestablishment of Jewish religious practice after the Babylonian exile.",
+      "key_figures": [
+        "Darius I (Persian Great King, sponsor)",
+        "Zerubbabel (Jewish governor)",
+        "Joshua (Jewish high priest)",
+        "Haggai (Jewish prophet)",
+        "Zechariah (Jewish prophet)"
+      ],
+      "sources": [
+        {
+          "name": "Book of Haggai (Hebrew Bible)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Book of Zechariah (Hebrew Bible)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Book of Ezra (Hebrew Bible)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from the Temple Mount",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Books of Haggai and Zechariah are contemporary or near-contemporary sources that mention the temple reconstruction. The exact date of completion is not specified; 520 BCE is assigned by convention based on the chronology in Haggai and Zechariah.",
+      "cross_references": []
+    },
+    {
+      "id": "-520-003",
+      "title": "Confucius Begins His Teaching Career in China",
+      "region": "Lu, Spring and Autumn period China",
+      "coordinates_approx": "35.6\u00b0N, 117.0\u00b0E",
+      "category": "cultural",
+      "description": "Confucius (Kong Qiu, 551\u2013479 BCE), the Chinese philosopher and teacher, begins his career as a teacher and advisor around 520 BCE (or possibly a few years earlier or later; the exact date is uncertain). He travels through various Chinese states, teaching his philosophy of ethics, governance, and social harmony. His teachings emphasize filial piety, respect for authority, and the importance of ritual and propriety. Confucius's philosophy would profoundly influence Chinese civilization and later spread to other East Asian societies.",
+      "key_figures": [
+        "Confucius (Kong Qiu, philosopher and teacher)"
+      ],
+      "sources": [
+        {
+          "name": "Analects (Lunyu), compiled by disciples",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Sima Qian, Records of the Grand Historian (Shiji)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The exact date of Confucius's birth (551 BCE) and the beginning of his teaching career are not precisely documented. Traditional sources place his birth in 551 BCE and suggest he began teaching around 520 BCE, but these dates are approximate. Modern scholarship debates the exact chronology.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact date of the completion of the Second Temple is not specified in biblical sources; 520 BCE is assigned by convention based on the chronology in Haggai and Zechariah, but some scholars place the completion a few years later. The date of Confucius's birth and the beginning of his teaching career are also uncertain; some sources place his birth in 552 BCE or 550 BCE, and the beginning of his teaching career may have been a few years earlier or later than 520 BCE.",
+  "historiographic_note": "The year 520 BCE is moderately well-documented, with sources from the Persian Empire (Behistun Inscription), Judea (biblical texts), and China (later compilations). However, the sources are biased toward elite political, military, and religious events. The Behistun Inscription is propaganda commissioned by Darius I. The biblical texts are religious in nature and may reflect theological concerns as much as historical facts. The Chinese sources are compiled centuries after the events they describe. Economic, social, and technological developments are largely invisible in the surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-520-001",
+      "to": "-521-001",
+      "relation": "led_to",
+      "note": "Final suppression of rebellions completes the process begun in 521 BCE"
+    },
+    {
+      "from": "-520-002",
+      "to": "-537-001",
+      "relation": "led_to",
+      "note": "Continuation of temple reconstruction begun under Cyrus the Great"
+    },
+    {
+      "from": "-520-003",
+      "to": "-479-001",
+      "relation": "led_to",
+      "note": "Beginning of Confucius's teaching career, which continues until his death in 479 BCE"
+    }
+  ]
+}

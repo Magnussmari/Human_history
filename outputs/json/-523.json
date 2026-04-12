@@ -1,0 +1,79 @@
+{
+  "year": -523,
+  "year_label": "523 BCE",
+  "era_context": "The late Archaic period in Greece continues; Darius I rules the Achaemenid Persian Empire at its height. In China, the Spring and Autumn period sees ongoing interstate conflict. In India, the post-Buddha period begins (if traditional dating is accepted), with the early sangha (monastic community) organizing. The Mediterranean world is experiencing the consolidation of the Greek city-state system and early democratic experiments.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-523-001",
+      "title": "Darius I's Scythian Campaign \u2014 Preparation and Mobilization",
+      "region": "Persian Empire, Scythian steppes (modern southern Russia/Ukraine)",
+      "coordinates_approx": "45.0\u00b0N, 40.0\u00b0E",
+      "category": "military",
+      "description": "Darius I begins preparations for his major military campaign against the Scythians north of the Black Sea, a campaign that would be launched around 513 BCE. In 523 BCE, Darius is consolidating resources, recruiting troops, and establishing supply lines. This represents the Persian Empire's attempt to extend control into the steppes and secure the northern frontier. The campaign itself would prove inconclusive, but the mobilization demonstrates the scale of Persian imperial ambition.",
+      "key_figures": [
+        "Darius I (Persian Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories (Book IV)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Herodotus provides the main account, written ~80 years after events. The exact year of preparation is not specified in sources; 523 BCE is assigned by convention as part of the broader campaign preparation period.",
+      "cross_references": [
+        "-513-001"
+      ]
+    },
+    {
+      "id": "-523-002",
+      "title": "Early Sangha Organization in India \u2014 Post-Buddha Period",
+      "region": "Magadha and surrounding kingdoms, Indian subcontinent",
+      "coordinates_approx": "25.0\u00b0N, 85.0\u00b0E",
+      "category": "religious",
+      "description": "Following the Buddha's death (if dated to 524 BCE), the early Buddhist sangha (monastic community) begins formal organization under the leadership of Mahakassapa and other senior disciples. The First Buddhist Council is traditionally dated to shortly after the Buddha's parinirvana, though the exact date is disputed. This period sees the codification of Buddhist teachings (Dharma) and monastic rules (Vinaya), establishing the institutional framework that would allow Buddhism to spread across Asia.",
+      "key_figures": [
+        "Mahakassapa (sangha leader)",
+        "Ananda (keeper of teachings)",
+        "Other senior disciples"
+      ],
+      "sources": [
+        {
+          "name": "Buddhist textual traditions (Pali Canon, Sanskrit texts)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The First Council's date is traditionally placed within a few years of the Buddha's death, but the exact year is not specified in sources. Dating depends entirely on the disputed date of the Buddha's parinirvana.",
+      "cross_references": [
+        "-524-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Scythian campaign preparation is speculative; Herodotus does not provide a precise chronology for the mobilization phase. The traditional dating of the First Buddhist Council is also highly uncertain, with some scholars placing it decades after the Buddha's death or questioning whether it occurred at all in the form described in the texts.",
+  "historiographic_note": "For 523 BCE, sources are even sparser than for 524 BCE. Herodotus remains the primary source for Persian military activities, but his account is retrospective and sometimes contradicted by later sources. Buddhist textual traditions provide information about religious developments but are compiled centuries after the events. Chinese sources (Spring and Autumn Annals) continue to focus on local states. No contemporary written records from this year survive in any region.",
+  "graph_edges": [
+    {
+      "from": "-523-001",
+      "to": "-513-001",
+      "relation": "led_to",
+      "note": "Preparation phase leads to the actual Scythian campaign ~10 years later"
+    },
+    {
+      "from": "-523-002",
+      "to": "-524-001",
+      "relation": "caused_by",
+      "note": "Sangha organization follows the Buddha's death"
+    }
+  ]
+}

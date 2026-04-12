@@ -1,0 +1,67 @@
+{
+  "year": -516,
+  "year_label": "516 BCE",
+  "era_context": "The Achaemenid Persian Empire under Darius I is at its height, having consolidated control over vast territories. In Greece, the early Classical period is establishing democratic and oligarchic institutions; Athens is stabilizing after Cleisthenes' reforms. In China, the Spring and Autumn period continues with competing states vying for hegemony. In India, the Mahajanapadas are forming; the Buddha's life and teachings (if historical) may be occurring in this period depending on chronological tradition.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia",
+    "Most of the Indian subcontinent"
+  ],
+  "events": [
+    {
+      "id": "-516-001",
+      "title": "Completion of the Second Temple in Jerusalem",
+      "region": "Judah, Jerusalem",
+      "coordinates_approx": "31.78, 35.24",
+      "category": "religious",
+      "description": "The Second Temple in Jerusalem is completed and dedicated, marking the restoration of the Jewish temple after its destruction by Nebuchadnezzar II in 586 BCE. The temple's reconstruction was authorized by the Persian king Cyrus II (or his successors) as part of Persian policy allowing subject peoples to restore their religious institutions. The completion of the temple is a significant moment in Jewish religious and cultural identity, enabling the resumption of temple sacrifice and worship.",
+      "key_figures": [
+        "Zerubbabel (governor of Judah)",
+        "Joshua (high priest)",
+        "Darius I (Persian king, authorizing the completion)"
+      ],
+      "sources": [
+        {
+          "name": "Book of Ezra (Hebrew Bible)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Josephus, Antiquities of the Jews",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Haggai (Hebrew Bible, prophetic book)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Book of Ezra dates the temple's completion to the 6th year of Darius I's reign, which corresponds to 516 BCE in the conventional chronology. However, the dating of Darius I's reign and the reliability of Ezra's chronology are debated. Some scholars place the completion in 515 BCE or later.",
+      "cross_references": [
+        "Follows from -539-001 (Cyrus II's edict allowing temple restoration)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Second Temple's completion is disputed. The Book of Ezra states it was completed in the 6th year of Darius I, but the exact correspondence to 516 BCE depends on when Darius I's reign is dated. Some scholars argue for 515 BCE instead. Additionally, the historicity of some details in Ezra (such as the role of Zerubbabel and the exact sequence of events) is questioned by modern scholars. Archaeological evidence for the temple itself is limited, making independent verification difficult.",
+  "historiographic_note": "The primary source for the Second Temple's completion is the Book of Ezra, a later compilation written centuries after the events it describes. The book was composed during or after the Persian period but reflects traditions and possibly earlier documents. Josephus, writing in the 1st century CE, provides additional detail but relies on earlier sources including Ezra. No contemporary Persian sources explicitly mention the temple's completion. Archaeological evidence from Jerusalem is limited for this period. The account is shaped by Jewish religious tradition and may emphasize religious significance over historical precision.",
+  "graph_edges": [
+    {
+      "from": "-516-001",
+      "to": "-539-001",
+      "relation": "caused_by",
+      "note": "Cyrus II's edict authorizing temple restoration"
+    },
+    {
+      "from": "-516-001",
+      "to": "-70-001",
+      "relation": "led_to",
+      "note": "The Second Temple remained the center of Jewish worship until its destruction in 70 CE"
+    }
+  ]
+}
