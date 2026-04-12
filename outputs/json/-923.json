@@ -1,0 +1,85 @@
+{
+  "year": -923,
+  "year_label": "923 BCE",
+  "era_context": "Continuation of the early Iron Age II. Ashurnasirpal II remains in the midst of his military campaigns and capital construction. In Egypt, the 22nd Dynasty continues under Osorkon I (922\u2013887 BCE). In the Levant, various city-states and kingdoms (Damascus, Tyre, Israel, Judah) exist as independent or semi-independent entities, some beginning to feel Assyrian pressure. In Greece, the Geometric period continues; in China, the Western Zhou dynasty is in its later phases.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "India (limited written records for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-923-001",
+      "title": "Ashurnasirpal II's continued military campaigns in the Levant",
+      "region": "Syria, Phoenicia, northern Levant",
+      "coordinates_approx": "35.0,36.0",
+      "category": "military",
+      "description": "Ashurnasirpal II continues his systematic subjugation of Levantine kingdoms and city-states. His annals record campaigns against various Syrian and Phoenician cities, extracting tribute and establishing Assyrian overlordship. These campaigns extend Assyrian influence southward and westward, bringing kingdoms such as Byblos, Sidon, and Tyre into the Assyrian tributary system. The campaigns are characterized by siege warfare, mass deportations, and the installation of Assyrian governors or loyal vassal rulers.",
+      "key_figures": [
+        "Ashurnasirpal II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Ashurnasirpal II",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Kalhu and other Assyrian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashurnasirpal II's campaigns are well-documented, but the precise year-by-year sequence within his reign is not always clear from surviving inscriptions. 923 BCE falls within his reign and is consistent with the documented campaign sequence.",
+      "cross_references": [
+        "-924-001"
+      ]
+    },
+    {
+      "id": "-923-002",
+      "title": "Osorkon I's reign in Egypt (22nd Dynasty)",
+      "region": "Egypt",
+      "coordinates_approx": "26.0,31.0",
+      "category": "political",
+      "description": "Osorkon I (922\u2013887 BCE) rules Egypt as the second pharaoh of the 22nd Dynasty (Libyan). His reign is marked by relative stability and the continuation of Libyan military and administrative control over Egypt. Osorkon I maintains the temple economy and religious institutions established by his predecessor Shoshenq I. However, the power of the high priests of Amun at Thebes continues to grow, gradually eroding pharaonic authority in Upper Egypt. The reign represents a period of gradual internal fragmentation despite outward stability.",
+      "key_figures": [
+        "Osorkon I (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists and temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on 22nd Dynasty chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Osorkon I's reign dates are established through Egyptian chronology, though absolute dating of the 22nd Dynasty remains subject to scholarly debate (\u00b15\u201310 years). The conventional dating places his reign at 922\u2013887 BCE.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the 22nd Dynasty of Egypt remains contested among Egyptologists. Some scholars propose a 'low chronology' that would shift Osorkon I's dates by several decades. However, the conventional 'middle chronology' used here is the most widely accepted. For Ashurnasirpal II, the year-by-year sequence of campaigns is not always precisely datable from surviving inscriptions.",
+  "historiographic_note": "Documentation for 923 BCE is similar to 924 BCE: strong for Mesopotamia and Egypt, sparse for other regions. The Egyptian record is primarily epigraphic (temple inscriptions, king lists) and archaeological. The Assyrian record is similarly based on royal inscriptions and archaeology. The Levantine record is fragmentary and often dependent on later sources or archaeological evidence. No contemporary written sources exist for Greece, China, or other regions during this year. The bias toward imperial and elite history is pronounced.",
+  "graph_edges": [
+    {
+      "from": "-923-001",
+      "to": "-924-001",
+      "relation": "led_to",
+      "note": "Continuation of Ashurnasirpal II's military expansion program"
+    },
+    {
+      "from": "-923-002",
+      "to": "-922-OSORKON_START",
+      "relation": "part_of",
+      "note": "Osorkon I's reign spans 922\u2013887 BCE"
+    }
+  ]
+}

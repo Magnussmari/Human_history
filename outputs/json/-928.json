@@ -1,0 +1,93 @@
+{
+  "year": -928,
+  "year_label": "928 BCE",
+  "era_context": "Continuation of the early Iron Age II in the Levant. The kingdoms of Israel and Judah are now firmly established as separate political entities, each pursuing independent foreign policies and internal consolidation. Egypt's 22nd Dynasty continues under Osorkon I. Phoenician maritime trade networks are expanding throughout the Mediterranean. Assyria remains relatively weak, allowing regional powers in the Levant greater autonomy.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia (limited specific records for this year)",
+    "Americas",
+    "Northern Europe and Scandinavia"
+  ],
+  "events": [
+    {
+      "id": "-928-001",
+      "title": "Continued reign of Rehoboam of Judah; possible Egyptian military campaign",
+      "region": "Kingdom of Judah and Egypt, Levant",
+      "coordinates_approx": "31.9,-35.2",
+      "category": "military",
+      "description": "Rehoboam's reign continues. According to biblical sources, in the fifth year of Rehoboam's reign (traditionally dated to 925 BCE, though some scholars place it c. 920 BCE), the Egyptian pharaoh Shishak (Shoshenq I) invaded Judah and Israel, capturing numerous cities and extracting tribute. However, the dating of Shishak's campaign is debated; some scholars place it earlier (c. 930 BCE) or later (c. 920 BCE). If the campaign occurred in 928 BCE, it would represent a major military and economic shock to the region. The Karnak temple reliefs of Shoshenq I list conquered cities, providing Egyptian corroboration, though the exact dating remains uncertain.",
+      "key_figures": [
+        "Rehoboam (King of Judah)",
+        "Shoshenq I / Shishak (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "1 Kings 14:25\u201328 (Hebrew Bible/Old Testament)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "2 Chronicles 12:2\u20139 (Hebrew Bible/Old Testament)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Karnak temple reliefs and inscriptions of Shoshenq I",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The biblical account places Shishak's invasion in the fifth year of Rehoboam's reign. If Rehoboam began c. 930 BCE, this would place the invasion c. 925 BCE. However, chronological uncertainty of \u00b15\u201310 years is common for this period. The Egyptian evidence (Karnak reliefs) confirms a campaign by Shoshenq I into the Levant but does not provide a precise date. Some scholars argue the campaign occurred c. 920 BCE or even later.",
+      "cross_references": [
+        "Contemporary with -928-002 (Jeroboam I's reign continues)",
+        "Part of broader pattern of Egyptian-Levantine interaction"
+      ]
+    },
+    {
+      "id": "-928-002",
+      "title": "Jeroboam I's reign continues; consolidation of northern Kingdom of Israel",
+      "region": "Kingdom of Israel, Levant",
+      "coordinates_approx": "32.5,-35.0",
+      "category": "political",
+      "description": "Jeroboam I continues to rule the northern Kingdom of Israel. Archaeological evidence from northern Levantine sites (e.g., Samaria, Megiddo, Hazor) shows continued settlement, fortification, and economic activity during this period. The kingdom's economy was based on agriculture, trade, and control of routes through the Jezreel Valley. Jeroboam's reign is characterized by the establishment of a stable, independent political structure separate from Judah.",
+      "key_figures": [
+        "Jeroboam I (King of Israel)"
+      ],
+      "sources": [
+        {
+          "name": "1 Kings 12\u201314 (Hebrew Bible/Old Testament)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological survey and excavation of Iron Age II northern Levantine sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Jeroboam's reign is traditionally dated c. 930\u2013909 BCE. Archaeological evidence confirms settlement and activity in northern Levantine sites during Iron Age II, but does not independently confirm specific events or dates for 928 BCE.",
+      "cross_references": [
+        "Contemporary with -928-001 (Rehoboam's reign and possible Egyptian invasion)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Shoshenq I's campaign into the Levant is one of the most contentious issues in ancient Near Eastern chronology. The biblical text places it in the fifth year of Rehoboam's reign, but the absolute date depends on when Rehoboam's reign began, which is itself disputed. Some scholars place Shoshenq's campaign as early as 945 BCE (high chronology) or as late as 920 BCE (low chronology). The Karnak reliefs list cities conquered by Shoshenq I, but the list includes both Judahite and Israelite cities, and some scholars question whether all listed cities were actually conquered or whether the list is partly propagandistic. Additionally, archaeological evidence for destruction layers corresponding to Shoshenq's campaign is inconsistent across sites, with some showing destruction in the 10th century and others in the 9th century. The biblical narrative may conflate or redate the campaign for theological purposes.",
+  "historiographic_note": "For 928 BCE, the historical record remains heavily dependent on biblical sources and Egyptian temple reliefs, both of which have significant limitations. The biblical text was compiled centuries after the events and reflects theological concerns. The Egyptian reliefs are contemporary but are royal propaganda and may not accurately represent the extent or nature of the campaign. Archaeological evidence from Levantine sites provides material context but does not independently confirm specific events or dates. The chronological uncertainty for this period is substantial, with scholarly estimates for key events differing by 10\u201330 years. The record is biased toward major political and military events; economic, social, and cultural developments are poorly documented.",
+  "graph_edges": [
+    {
+      "from": "-928-001",
+      "to": "-925-001",
+      "relation": "led_to",
+      "note": "Shishak's campaign (if dated to 928 or nearby years) may have weakened both kingdoms and influenced subsequent political developments"
+    },
+    {
+      "from": "-928-001",
+      "to": "-928-002",
+      "relation": "contemporary_with",
+      "note": "Rehoboam and Jeroboam rule simultaneously; Shishak's campaign affects both kingdoms"
+    }
+  ]
+}

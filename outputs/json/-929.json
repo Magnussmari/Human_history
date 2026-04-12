@@ -1,0 +1,98 @@
+{
+  "year": -929,
+  "year_label": "929 BCE",
+  "era_context": "The early Iron Age II in the Levant and Eastern Mediterranean. The United Monarchy of Israel under Solomon has recently ended; the kingdom has split into Israel (north) and Judah (south). Egypt's 22nd Dynasty (Libyan) rules the Nile Valley. Assyria is in a period of relative weakness following the reign of Ashurnasirpal II. The Phoenician city-states (Tyre, Sidon, Byblos) are at the height of their maritime and commercial power. Greece is in the Early Iron Age, with the Geometric period in full development.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "East Asia (Chinese sources exist but are sparse for this specific year)",
+    "Americas (no written records; archaeological evidence is fragmentary)"
+  ],
+  "events": [
+    {
+      "id": "-929-001",
+      "title": "Reign of Rehoboam of Judah continues; consolidation of southern kingdom",
+      "region": "Kingdom of Judah, Levant",
+      "coordinates_approx": "31.9,-35.2",
+      "category": "political",
+      "description": "Rehoboam, son of Solomon, continues his reign over the southern kingdom of Judah following the schism of the United Monarchy (traditionally dated to 930 BCE). Archaeological evidence from Judahite sites shows modest fortification activity and administrative consolidation during this period. The kingdom's economy was based on agriculture, trade, and control of routes to the Red Sea. Rehoboam's reign is marked by attempts to stabilize the kingdom after the traumatic division.",
+      "key_figures": [
+        "Rehoboam (King of Judah)"
+      ],
+      "sources": [
+        {
+          "name": "1 Kings 12\u201314 (Hebrew Bible/Old Testament)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "2 Chronicles 10\u201312 (Hebrew Bible/Old Testament)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological survey of Judahite Iron Age II sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The biblical chronology places Rehoboam's reign c. 930\u2013913 BCE, but absolute dating for this period is debated. The split of the monarchy is traditionally dated to 930 BCE; 929 BCE falls within Rehoboam's reign by conventional reckoning, though some scholars place the schism later (c. 920 BCE).",
+      "cross_references": [
+        "Follows from -930-001 (division of the United Monarchy)",
+        "Precedes -913-001 (end of Rehoboam's reign)"
+      ]
+    },
+    {
+      "id": "-929-002",
+      "title": "Jeroboam I consolidates rule over northern Kingdom of Israel",
+      "region": "Kingdom of Israel, Levant",
+      "coordinates_approx": "32.5,-35.0",
+      "category": "political",
+      "description": "Jeroboam I, who led the rebellion against Rehoboam, continues to establish the northern Kingdom of Israel as a separate political entity. He establishes religious centers at Bethel and Dan to prevent his subjects from traveling to Jerusalem (in Judah) for worship. Archaeological evidence from northern Levantine sites shows continued settlement and economic activity. Jeroboam's reign marks the beginning of a long period of political division and intermittent conflict between Israel and Judah.",
+      "key_figures": [
+        "Jeroboam I (King of Israel)"
+      ],
+      "sources": [
+        {
+          "name": "1 Kings 12\u201314 (Hebrew Bible/Old Testament)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from northern Levantine Iron Age II sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Jeroboam's reign is traditionally dated c. 930\u2013909 BCE. The biblical account is the primary source, supplemented by archaeological survey. Absolute dating remains uncertain; some scholars propose dates 10\u201320 years later.",
+      "cross_references": [
+        "Contemporary with -929-001 (Rehoboam's reign)",
+        "Part of broader pattern of Israel-Judah division (-930 onwards)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional biblical chronology placing the schism of the United Monarchy at 930 BCE is disputed by modern scholarship. Some scholars, particularly those using low chronology models, place the division of Israel and Judah as late as 920 BCE or even later. The archaeological evidence for a unified 'United Monarchy' under David and Solomon is itself contested; some scholars argue the early Judahite and Israelite kingdoms were smaller and less centralized than biblical accounts suggest. The Tel Dan Stele (9th century BCE) mentions 'House of David,' confirming the dynasty's existence, but does not resolve the chronological debate. Additionally, the biblical narrative of Jeroboam's religious innovations (golden calves at Bethel and Dan) may reflect later theological polemic rather than historical fact.",
+  "historiographic_note": "The historical record for this year is heavily dependent on the biblical text (1 Kings, 2 Chronicles), which was compiled centuries after the events it describes and reflects theological concerns of later editors. Archaeological evidence from Iron Age II Levantine sites provides material context but does not independently confirm specific events or dates for 929 BCE. Egyptian and Assyrian records from this period do not mention Judah or Israel by name, limiting external corroboration. The chronology of early Iron Age Levant remains one of the most contentious issues in ancient Near Eastern studies, with competing 'high,' 'middle,' and 'low' chronologies differing by 50\u2013100 years. Bias toward Judahite sources (the Hebrew Bible) means the northern Kingdom of Israel is less well documented.",
+  "graph_edges": [
+    {
+      "from": "-929-001",
+      "to": "-930-001",
+      "relation": "caused_by",
+      "note": "Rehoboam's reign begins as a consequence of the schism of the United Monarchy"
+    },
+    {
+      "from": "-929-002",
+      "to": "-930-001",
+      "relation": "caused_by",
+      "note": "Jeroboam's rule of Israel begins as a consequence of the schism"
+    },
+    {
+      "from": "-929-001",
+      "to": "-929-002",
+      "relation": "contemporary_with",
+      "note": "Rehoboam and Jeroboam rule simultaneously as rival kings"
+    }
+  ]
+}

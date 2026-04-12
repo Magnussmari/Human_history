@@ -1,0 +1,92 @@
+{
+  "year": -930,
+  "year_label": "930 BCE",
+  "era_context": "Ashur-dan II's reign in Assyria (934\u2013912 BCE) is in its final years. Egypt remains under the 22nd Dynasty (Libyan). The Levant is fragmented into city-states and kingdoms. Greece is in the Early Iron Age. This period marks the transition toward the more aggressive Neo-Assyrian expansion of the 9th century BCE.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "India",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-930-001",
+      "title": "Division of the United Monarchy in Israel/Judah (traditional dating)",
+      "region": "Levant (Israel/Judah)",
+      "coordinates_approx": "35.2, 31.9",
+      "category": "political",
+      "description": "According to the Hebrew Bible (1 Kings 12), the death of Solomon and the accession of his son Rehoboam led to a rebellion by the northern tribes under Jeroboam I, resulting in the division of the United Monarchy into the Kingdom of Israel (north) and the Kingdom of Judah (south). Traditional biblical chronology places this event c. 930 BCE, though modern scholarship dates it anywhere from c. 950 BCE to c. 900 BCE depending on the chronological system used. This division had profound consequences for the political history of the Levant and is a pivotal moment in the history of ancient Israel.",
+      "key_figures": [
+        "Solomon (King of Israel, deceased)",
+        "Rehoboam (King of Judah, r. c. 930\u2013913 BCE)",
+        "Jeroboam I (King of Israel, r. c. 930\u2013909 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "1 Kings 11\u201312 (Hebrew Bible, later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "2 Chronicles 10 (Hebrew Bible, later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Tel Dan Stele (9th century BCE, mentions 'House of David')",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The division of the monarchy is attested in the Hebrew Bible, but the biblical chronology is disputed by modern scholars. Archaeological evidence for a 'United Monarchy' under David and Solomon is contested; some scholars argue the kingdoms were smaller and less centralized than the biblical account suggests. The dating of this event varies by \u00b120\u201350 years depending on the chronological system used. The Tel Dan Stele (9th century BCE) mentions the 'House of David,' confirming the existence of a Davidic dynasty, but does not directly date the division.",
+      "cross_references": [
+        "Precedes the reign of Rehoboam of Judah (c. 930\u2013913 BCE)",
+        "Precedes the reign of Jeroboam I of Israel (c. 930\u2013909 BCE)",
+        "Related to the broader political fragmentation of the Levant in the Iron Age"
+      ]
+    },
+    {
+      "id": "-930-002",
+      "title": "Ashur-dan II's reign nears its end; consolidation of Assyrian power",
+      "region": "Mesopotamia (Assyria)",
+      "coordinates_approx": "43.0, 36.2",
+      "category": "political",
+      "description": "By 930 BCE, Ashur-dan II's reign (934\u2013912 BCE) was in its final years. His military campaigns and administrative reforms had successfully restored Assyrian power after a period of weakness. The consolidation of Assyrian control over Upper Mesopotamia and the subjugation of Aramean tribes set the stage for the more aggressive expansion of his successors, particularly Adad-nirari II (911\u2013891 BCE). Ashur-dan II's reign marks the beginning of the Neo-Assyrian Empire's rise to dominance.",
+      "key_figures": [
+        "Ashur-dan II (King of Assyria, r. 934\u2013912 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian King List and royal inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ashur-dan II's reign dates are well-established in Assyrian chronology. The consolidation of power is attested in his inscriptions.",
+      "cross_references": [
+        "Leads to the reign of Adad-nirari II (911\u2013891 BCE)",
+        "Part of the broader Neo-Assyrian expansion"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the division of the United Monarchy is highly contested. The traditional biblical chronology places it c. 930 BCE, but modern scholars using different chronological systems date it anywhere from c. 950 BCE to c. 900 BCE. Some scholars argue that the 'United Monarchy' under David and Solomon was smaller and less centralized than the biblical account suggests, or that it may not have existed at all in the form described in the Bible. Archaeological evidence for a large, centralized kingdom in the 10th century BCE is limited. The Tel Dan Stele (9th century BCE) confirms the existence of a 'House of David,' but does not provide direct evidence for the division of the monarchy or its dating. The biblical account may reflect later theological concerns rather than historical fact. Additionally, some scholars argue that the division may have been a gradual process rather than a sudden event in a single year.",
+  "historiographic_note": "The historical record for 930 BCE is heavily dependent on the Hebrew Bible, which was compiled centuries after the events it describes and reflects theological rather than purely historical concerns. The biblical chronology is not universally accepted by modern scholars, and alternative chronological systems place events of this period at different dates. Archaeological evidence for the United Monarchy and its division is limited and contested. Assyrian sources from this period are more reliable for Mesopotamian events, but provide little information about the Levant. The absence of contemporary Levantine sources (inscriptions, administrative records) for this period makes it difficult to verify the biblical account. The year 930 BCE is assigned by convention based on biblical chronology, but the actual date of the division may differ by several decades.",
+  "graph_edges": [
+    {
+      "from": "-930-001",
+      "to": "-913-REHOBOAM_SHOSHENQ_CAMPAIGN",
+      "relation": "led_to",
+      "note": "The division of the monarchy may have weakened the Levantine kingdoms, making them vulnerable to Shoshenq I's campaign (c. 925 BCE)"
+    },
+    {
+      "from": "-930-002",
+      "to": "-911-ADAD_NIRARI_II_SUCCESSION",
+      "relation": "led_to",
+      "note": "Ashur-dan II's consolidation of Assyrian power enabled the more aggressive expansion of his successor, Adad-nirari II"
+    }
+  ]
+}

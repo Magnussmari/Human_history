@@ -1,0 +1,89 @@
+{
+  "year": -940,
+  "year_label": "940 BCE",
+  "era_context": "Early Iron Age II. Ashurnasirpal II's reign (883\u2013859 BCE) is in its middle phase. Kalhu (Nimrud) is under construction and becoming the center of Assyrian power. In the Levant, Phoenician city-states and Aramean kingdoms are under pressure from Assyrian expansion. Egypt is in the Twenty-second Dynasty under rulers like Osorkon I or his successors, a period of declining central authority and increasing fragmentation. Greece is in the Geometric period, with the development of the polis structure and the alphabet beginning.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (Chinese records may exist but specific year not verified)",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-940-001",
+      "title": "Ashurnasirpal II's consolidation of Assyrian imperial administration",
+      "region": "Assyria and vassal territories",
+      "coordinates_approx": "36.0, 41.0",
+      "category": "political",
+      "description": "Ashurnasirpal II continued the systematic reorganization of Assyrian administration and military structure. His reign was characterized by the creation of a professional standing army, the establishment of a provincial system with appointed governors, and the development of a sophisticated bureaucracy. By 940 BCE, these administrative reforms were well established, creating the institutional framework that would allow the Assyrian Empire to dominate the Near East for the next century. The reforms are documented in royal inscriptions and administrative texts.",
+      "key_figures": [
+        "Ashurnasirpal II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Royal inscriptions and administrative texts from Nimrud",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Nimrud and other Assyrian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashurnasirpal II's administrative reforms are well-documented, but specific events in 940 BCE cannot be isolated. The reforms occurred throughout his reign.",
+      "cross_references": [
+        "-943-001"
+      ]
+    },
+    {
+      "id": "-940-002",
+      "title": "Egyptian fragmentation under the Twenty-second Dynasty",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "By 940 BCE, Egypt was in a period of significant political fragmentation under the Twenty-second Dynasty (c. 945\u2013715 BCE). The central authority of the pharaoh had weakened considerably, and power was increasingly divided between the royal court in the north and the priesthood of Amun in Thebes in the south. This period saw the rise of Libyan military families who had settled in Egypt and gradually assumed positions of power. The fragmentation of central authority would characterize Egyptian history for the next two centuries.",
+      "key_figures": [
+        "Osorkon I (Pharaoh of Egypt, traditional dates c. 922\u2013887 BCE, overlapping this period)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists and temple inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Egyptian temples and tombs",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Later Egyptian historiographic tradition (Manetho, transmitted through Greek sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of Egyptian fragmentation in the Twenty-second Dynasty is well-established. The specific dating of individual pharaohs and events remains debated among Egyptologists, with chronological uncertainties of \u00b110\u201320 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the Twenty-second Dynasty remains one of the most debated issues in Egyptology. Traditional chronologies place Osorkon I's reign c. 922\u2013887 BCE, but some scholars argue for alternative chronologies that would shift these dates significantly. The extent of central authority and the nature of the relationship between the pharaonic court and the priesthood of Amun are subjects of ongoing scholarly debate. Additionally, the dating of the transition from the Twenty-first to Twenty-second Dynasty is uncertain by several decades.",
+  "historiographic_note": "The historical record for 940 BCE is sparse and heavily dependent on Assyrian sources and Egyptian temple inscriptions. The Egyptian record is biased toward royal and priestly contexts; the experiences of ordinary people are largely invisible. The record is also heavily biased toward the Mediterranean and Near East; Africa south of Egypt, northern Europe, and the Americas have no written records for this year. East Asian records may exist but are not well-represented in the available sources.",
+  "graph_edges": [
+    {
+      "from": "-940-001",
+      "to": "-859-001",
+      "relation": "led_to",
+      "note": "Ashurnasirpal II's administrative reforms established the foundation for Assyrian imperial dominance under his successors"
+    },
+    {
+      "from": "-940-002",
+      "to": "-715-001",
+      "relation": "led_to",
+      "note": "The fragmentation of Egypt under the Twenty-second Dynasty continued until the Nubian conquest in the 8th century BCE"
+    }
+  ]
+}

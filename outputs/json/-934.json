@@ -1,0 +1,93 @@
+{
+  "year": -934,
+  "year_label": "934 BCE",
+  "era_context": "The early Iron Age II in the Levant and Eastern Mediterranean. The Neo-Assyrian Empire is in its formative phase under Ashur-dan II (r. 934\u2013912 BCE), beginning a period of aggressive expansion. In Egypt, the 22nd Dynasty (Libyan) rules; the New Kingdom has ended. Greece is in the Early Iron Age, with the alphabet beginning to emerge from Phoenician models. China is in the early Western Zhou period, though dating remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written records)",
+    "Northern Europe (pre-literate)",
+    "Mesoamerica (Maya Classic collapse aftermath; limited dated inscriptions)",
+    "India (Vedic period; oral tradition dominates)"
+  ],
+  "events": [
+    {
+      "id": "-934-001",
+      "title": "Ashur-dan II's military campaigns and consolidation of Assyrian power",
+      "region": "Mesopotamia (Assyria)",
+      "coordinates_approx": "43.0, 36.2",
+      "category": "military",
+      "description": "Ashur-dan II (r. 934\u2013912 BCE) initiated a series of military campaigns to restore Assyrian dominance after a period of relative weakness. He campaigned against the Aramean tribes and other northern neighbors, establishing Assyrian hegemony over the Upper Mesopotamian region. These campaigns marked the beginning of the Neo-Assyrian Empire's expansion and set the template for later imperial conquest. The king also reorganized the military and administrative structure, laying groundwork for the empire's later dominance.",
+      "key_figures": [
+        "Ashur-dan II (King of Assyria, r. 934\u2013912 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian King List and royal inscriptions (clay tablets, cuneiform)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Synchronistic History (Babylonian-Assyrian chronicle)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ashur-dan II's reign dates are well-established in Assyrian chronology via king lists and dated inscriptions. The campaigns are attested in his own annals.",
+      "cross_references": [
+        "Follows from period of Assyrian weakness (c. 1050\u2013934 BCE)",
+        "Leads to continued expansion under Adad-nirari II (-911 to -891)"
+      ]
+    },
+    {
+      "id": "-934-002",
+      "title": "Shoshenq I's reign in Egypt (22nd Dynasty)",
+      "region": "Egypt",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Shoshenq I (r. c. 945\u2013924 BCE, dates disputed) ruled Egypt during the 22nd Dynasty, a period of Libyan-descended pharaohs. By 934 BCE, he was in the latter part of his reign. Shoshenq I is famous for his military campaign into the Levant (c. 925 BCE, recorded on the Bubastis Portal), though the exact dating and scale of this campaign remain debated. His reign represents a period of relative stability and renewed Egyptian military activity after the fragmentation of the late 21st Dynasty.",
+      "key_figures": [
+        "Shoshenq I (Pharaoh of Egypt, r. c. 945\u2013924 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Bubastis Portal inscriptions (temple reliefs, Karnak)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian king lists and temple records",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "1 Kings 14:25\u201326 (Hebrew Bible, later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shoshenq I's reign is well-attested, but absolute dating of his Levantine campaign varies by \u00b110\u201315 years depending on chronological system used (high vs. low chronology). The year 934 BCE places him in the latter part of his reign under most schemes.",
+      "cross_references": [
+        "Contemporary with Ashur-dan II's campaigns in Mesopotamia",
+        "Precedes or overlaps with Shoshenq I's Levantine campaign (c. 925 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Shoshenq I's Levantine campaign is highly contested. Some scholars place it c. 925 BCE (near the end of his reign), while others argue for c. 945 BCE (early reign). The biblical account in 1 Kings 14:25\u201326 mentions a campaign by 'Shishak' (Shoshenq I) against Judah and Israel, but the historicity and scale of this campaign are debated. Some scholars argue the biblical account exaggerates Egyptian military success. Additionally, the 'low chronology' vs. 'high chronology' debate affects all Iron Age Levantine dating by \u00b150\u2013100 years, creating uncertainty about whether events attributed to 934 BCE should be placed earlier or later.",
+  "historiographic_note": "The historical record for 934 BCE is heavily dependent on Assyrian and Egyptian royal inscriptions, which are inherently propagandistic and may exaggerate military success or minimize defeats. Egyptian sources from this period are less abundant than from the New Kingdom. The Hebrew Bible provides some corroboration for Levantine events but was compiled centuries later and reflects theological rather than purely historical concerns. Sub-Saharan Africa, northern Europe, and most of Asia have no written records for this year. Chinese sources for this period (Western Zhou) are problematic: the traditional chronology places events much earlier, while modern scholarship debates whether the Zhou dynasty began c. 1046 BCE or c. 1000 BCE, creating uncertainty about what was occurring in 934 BCE in China.",
+  "graph_edges": [
+    {
+      "from": "-934-001",
+      "to": "-911-ASHUR_DAN_II_SUCCESSION",
+      "relation": "led_to",
+      "note": "Ashur-dan II's military consolidation enabled the continued expansion of his successors, particularly Adad-nirari II"
+    },
+    {
+      "from": "-934-002",
+      "to": "-925-SHOSHENQ_I_LEVANTINE_CAMPAIGN",
+      "relation": "led_to",
+      "note": "Shoshenq I's reign culminated in a major military campaign into the Levant, possibly occurring c. 925 BCE"
+    }
+  ]
+}

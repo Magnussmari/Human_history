@@ -1,0 +1,82 @@
+{
+  "year": -924,
+  "year_label": "924 BCE",
+  "era_context": "The early Iron Age II in the Levant and Eastern Mediterranean. The Neo-Assyrian Empire is consolidating power under Ashurnasirpal II (883\u2013859 BCE), who is conducting military campaigns to expand Assyrian dominion. In Egypt, the 22nd Dynasty (Libyan) rules; in Greece, the Geometric period is well established; in China, the early Western Zhou dynasty is in its later phases. This is a period of state consolidation, military expansion, and the emergence of alphabetic writing systems.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse written sources)",
+    "Mesoamerica (limited chronological precision for this era)",
+    "Oceania (minimal archaeological dating)"
+  ],
+  "events": [
+    {
+      "id": "-924-001",
+      "title": "Ashurnasirpal II's campaigns in northern Syria and Mesopotamia",
+      "region": "Assyria, northern Syria, upper Mesopotamia",
+      "coordinates_approx": "36.0,43.0",
+      "category": "military",
+      "description": "Ashurnasirpal II, king of Assyria (883\u2013859 BCE), continues his systematic military campaigns to subjugate and extract tribute from kingdoms in Syria, Phoenicia, and northern Mesopotamia. These campaigns are documented in his annals and palace reliefs at Kalhu (Nimrud). The campaigns establish Assyrian hegemony over the region and generate substantial tribute, which funds the construction of his new capital at Kalhu. The brutality of these campaigns\u2014including mass deportations and siege warfare\u2014becomes a hallmark of Neo-Assyrian imperial strategy.",
+      "key_figures": [
+        "Ashurnasirpal II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Ashurnasirpal II (inscribed on palace walls at Kalhu/Nimrud)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Kalhu (Nimrud excavations, British Museum)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ashurnasirpal II's reign is well-documented through contemporary royal inscriptions and archaeological remains. His campaigns are dated to his regnal years; 924 BCE falls within his reign (883\u2013859 BCE).",
+      "cross_references": []
+    },
+    {
+      "id": "-924-002",
+      "title": "Construction and expansion of Kalhu (Nimrud) as Assyrian capital",
+      "region": "Assyria (modern Iraq)",
+      "coordinates_approx": "36.1,43.3",
+      "category": "cultural",
+      "description": "Ashurnasirpal II establishes Kalhu (biblical Calah, modern Nimrud) as a new royal capital and administrative center, replacing Ashur as the primary seat of power. The construction of monumental palaces, temples, and administrative buildings begins during his reign and continues through the 9th century BCE. Kalhu becomes a showcase of Neo-Assyrian power, featuring massive stone reliefs, cuneiform inscriptions, and a royal library. The city serves as a military and administrative hub for Assyrian expansion.",
+      "key_figures": [
+        "Ashurnasirpal II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Nimrud (1845\u20131963, primarily British Museum expeditions)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Royal inscriptions of Ashurnasirpal II",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The founding and construction of Kalhu under Ashurnasirpal II is well-established through archaeological evidence and contemporary inscriptions. Construction began early in his reign (883 BCE) and continued throughout.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No significant disconfirming evidence identified for events listed. However, the exact chronology of Ashurnasirpal II's individual campaigns within his 24-year reign remains subject to scholarly debate regarding the precise year-by-year sequence, though his overall military program and capital construction are well-attested.",
+  "historiographic_note": "The historical record for 924 BCE is heavily weighted toward Mesopotamia and the Levant, where written sources (royal inscriptions, chronicles) and archaeological evidence are abundant. Egyptian sources from the 22nd Dynasty exist but are less detailed for this specific year. Greek sources are minimal and largely mythological. Chinese sources (oracle bones, early Zhou records) exist but are difficult to correlate precisely with the Gregorian calendar. Sub-Saharan Africa, northern Europe, and the Americas have virtually no written records for this period; knowledge of these regions relies on archaeology, which rarely provides year-specific dating. The surviving record is heavily biased toward imperial courts and military campaigns; economic, social, and cultural life outside elite circles is poorly documented.",
+  "graph_edges": [
+    {
+      "from": "-924-001",
+      "to": "-924-002",
+      "relation": "contemporary_with",
+      "note": "Military campaigns and capital construction were concurrent aspects of Ashurnasirpal II's consolidation of power"
+    },
+    {
+      "from": "-924-001",
+      "to": "-883-REIGN_START",
+      "relation": "part_of",
+      "note": "These campaigns are part of Ashurnasirpal II's broader 24-year reign of military expansion"
+    }
+  ]
+}

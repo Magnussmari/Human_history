@@ -1,0 +1,87 @@
+{
+  "year": -944,
+  "year_label": "944 BCE",
+  "era_context": "The early Iron Age II in the Levant and Eastern Mediterranean. The Neo-Assyrian Empire under Ashurnasirpal II (883\u2013859 BCE) is in its consolidation phase, conducting military campaigns to expand territorial control. In Greece, the Geometric period is transitioning toward the Archaic period; the Olympic Games tradition is being established (traditional date 776 BCE, but athletic competitions predate this). Egypt is in the late Twenty-second Dynasty under Shoshenq II or his successors, a period of declining central authority. The Phoenician city-states (Tyre, Sidon, Byblos) are at the height of their maritime and commercial power.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "East Asia (Chinese records exist but may not be fully accessible in training data for this specific year)",
+    "Mesoamerica (no written records contemporary with this period)"
+  ],
+  "events": [
+    {
+      "id": "-944-001",
+      "title": "Ashurnasirpal II's campaigns in northern Syria and Mesopotamia",
+      "region": "Assyria, northern Syria, upper Mesopotamia",
+      "coordinates_approx": "36.0, 41.0",
+      "category": "military",
+      "description": "Ashurnasirpal II, king of Assyria (883\u2013859 BCE), continued his systematic military campaigns to consolidate Assyrian power and extract tribute from vassal states. In the mid-880s BCE, he campaigned extensively in Syria and northern Mesopotamia, subduing cities and establishing Assyrian hegemony. By 944 BCE, these campaigns were ongoing or recently concluded, establishing the military infrastructure that would define the Neo-Assyrian Empire. These campaigns were documented in royal inscriptions and reliefs.",
+      "key_figures": [
+        "Ashurnasirpal II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Royal Inscriptions of Ashurnasirpal II (cuneiform texts from Kalhu/Nimrud)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Palace reliefs and annals from Nimrud",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ashurnasirpal II's reign is well-documented, but specific events in 944 BCE cannot be pinpointed precisely. The campaigns occurred within his reign (883\u2013859 BCE); this year falls within the documented period of active military expansion.",
+      "cross_references": []
+    },
+    {
+      "id": "-944-002",
+      "title": "Phoenician maritime expansion and trade networks",
+      "region": "Phoenicia (modern Lebanon/Syria coast), Mediterranean",
+      "coordinates_approx": "33.5, 35.5",
+      "category": "economic",
+      "description": "During the 10th\u20139th centuries BCE, Phoenician city-states, particularly Tyre under kings like Abibaal and Hiram I, were at the peak of their maritime and commercial dominance. By 944 BCE, Phoenician traders had established trading posts and colonies throughout the Mediterranean, including in North Africa, Cyprus, and the Aegean. This period saw the expansion of Phoenician alphabet and commercial practices that would influence Greek and later Mediterranean civilizations.",
+      "key_figures": [
+        "Hiram I of Tyre (traditional dates c. 969\u2013936 BCE, overlapping this period)"
+      ],
+      "sources": [
+        {
+          "name": "Biblical references (1 Kings 5\u20137, describing Hiram's reign)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Phoenician settlements (Carthage, Motya, Tyre excavations)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Greek sources (Herodotus, later accounts of Phoenician colonization)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad pattern of Phoenician expansion in this era is well-established archaeologically. Specific dating to 944 BCE is approximate; the expansion occurred over decades.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Phoenician kings and the precise chronology of their reigns remains debated among scholars. Traditional biblical chronology places Hiram I's reign c. 969\u2013936 BCE, but some scholars argue for lower chronologies that would shift these dates. Additionally, the extent of Phoenician colonial activity in the 10th century BCE versus the 9th century BCE is subject to ongoing archaeological debate. No specific events can be confidently assigned to 944 BCE alone.",
+  "historiographic_note": "The historical record for 944 BCE is heavily dependent on Assyrian royal inscriptions, which are propagandistic and focus on military achievements. Egyptian records from this period are fragmentary. Phoenician written records are sparse; most evidence is archaeological or comes from later Greek and biblical sources. The record is biased toward political and military history; economic, social, and cultural developments are underrepresented. Sub-Saharan Africa, northern Europe, and the Americas have no written records for this year.",
+  "graph_edges": [
+    {
+      "from": "-944-001",
+      "to": "-930-001",
+      "relation": "part_of",
+      "note": "Ashurnasirpal II's campaigns were part of a sustained military expansion throughout his reign"
+    },
+    {
+      "from": "-944-002",
+      "to": "-800-001",
+      "relation": "led_to",
+      "note": "Phoenician expansion in this period established networks that persisted and expanded through the 8th century BCE"
+    }
+  ]
+}

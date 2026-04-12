@@ -1,0 +1,95 @@
+{
+  "year": -921,
+  "year_label": "921 BCE",
+  "era_context": "Early Iron Age II. Ashurnasirpal II continues his reign in Assyria. Osorkon I is in the early years of his reign in Egypt. Jeroboam I is consolidating his rule over the northern kingdom of Israel. In the Levant, various city-states and kingdoms exist in a complex political landscape, some under Assyrian pressure or influence. In Greece, the Geometric period continues; in China, the Western Zhou dynasty is in its later phases.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "India",
+    "Greece (limited written sources for this year)"
+  ],
+  "events": [
+    {
+      "id": "-921-001",
+      "title": "Jeroboam I consolidates the northern kingdom of Israel",
+      "region": "Israel (northern Levant)",
+      "coordinates_approx": "35.2,32.0",
+      "category": "political",
+      "description": "Jeroboam I, having established the northern kingdom of Israel following the division of the united monarchy, consolidates his rule and establishes administrative and religious institutions. According to biblical sources, Jeroboam I establishes shrines at Bethel and Dan to provide religious centers for his kingdom, independent of the Jerusalem temple in Judah. He also establishes a new capital at Tirzah (after initially ruling from Shechem). These actions are designed to create a distinct political and religious identity for the northern kingdom, separate from Judah. The consolidation of Israel as an independent state is a significant development in Levantine politics.",
+      "key_figures": [
+        "Jeroboam I (King of Israel)"
+      ],
+      "sources": [
+        {
+          "name": "1 Kings 12\u201314 (Hebrew Bible/Old Testament)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "2 Chronicles 11\u201313 (Hebrew Bible/Old Testament)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Iron Age Levantine sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "The consolidation of Israel under Jeroboam I is recorded in biblical sources, which were compiled centuries after the events. Archaeological evidence for Jeroboam I's reign is limited and debated. The date is traditional rather than confirmed by contemporary sources.",
+      "cross_references": [
+        "-922-001"
+      ]
+    },
+    {
+      "id": "-921-002",
+      "title": "Ashurnasirpal II's military campaigns in the Levant and Mesopotamia",
+      "region": "Assyria, Mesopotamia, Levant",
+      "coordinates_approx": "36.0,43.0",
+      "category": "military",
+      "description": "Ashurnasirpal II continues his military campaigns, extending Assyrian control and extracting tribute from various kingdoms and city-states. His campaigns are documented in royal inscriptions and palace reliefs. The campaigns are characterized by siege warfare, mass deportations, and the installation of Assyrian governors or loyal vassal rulers. By this point in his reign, Ashurnasirpal II has established Assyria as the dominant military power in the Near East, and his campaigns are generating substantial tribute and booty.",
+      "key_figures": [
+        "Ashurnasirpal II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Ashurnasirpal II",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Kalhu (Nimrud) and other Assyrian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ashurnasirpal II's military campaigns are well-documented through contemporary inscriptions and archaeological evidence. 921 BCE falls within his reign.",
+      "cross_references": [
+        "-924-001",
+        "-923-001",
+        "-922-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The biblical account of Jeroboam I's consolidation of Israel is not confirmed by contemporary sources. Archaeological evidence for Jeroboam I's reign is limited and debated among scholars. Some scholars question the extent and nature of Jeroboam I's religious reforms as described in biblical sources. The chronology of the early Israelite monarchy remains subject to scholarly debate.",
+  "historiographic_note": "Documentation for 921 BCE is sparse. The Near East (Assyria, Egypt, Levant) has some written sources and archaeological evidence, but year-specific information is limited. The biblical account of Israel is a later compilation and should not be treated as a contemporary source. For other regions, sources are virtually absent. The surviving record is heavily biased toward political and military history; economic, social, and cultural life is poorly documented.",
+  "graph_edges": [
+    {
+      "from": "-921-001",
+      "to": "-922-001",
+      "relation": "led_to",
+      "note": "Consolidation of Israel following its division from Judah"
+    },
+    {
+      "from": "-921-002",
+      "to": "-922-003",
+      "relation": "led_to",
+      "note": "Continuation of Ashurnasirpal II's military expansion program"
+    }
+  ]
+}
