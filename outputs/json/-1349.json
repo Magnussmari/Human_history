@@ -1,0 +1,111 @@
+{
+  "year": -1349,
+  "year_label": "1350 BCE",
+  "era_context": "The late Bronze Age, during the reign of Amenhotep III of Egypt's 18th Dynasty. The Mycenaean civilization is flourishing in Greece; the Hittite Empire dominates Anatolia under \u0160uppiluliuma I; the Shang Dynasty controls the Yellow River valley in China. This is a period of international trade, diplomatic correspondence (Amarna Letters), and relative stability before the Late Bronze Age collapse.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (Maya civilization developing but sparse contemporary records for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-1349-001",
+      "title": "Reign of Amenhotep III continues; height of Egyptian power and prosperity",
+      "region": "Egypt (18th Dynasty)",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Amenhotep III rules during a period of unprecedented Egyptian wealth and artistic achievement. His reign (c. 1390\u20131352 BCE) represents the apex of the 18th Dynasty's power. Extensive building programs, including the Colossi of Memnon and Malkata palace complex, demonstrate Egypt's economic dominance. Diplomatic correspondence with Mitanni, Hittites, and Babylonian kingdoms shows Egypt's central role in international relations.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh)",
+        "Tiye (Great Royal Wife)"
+      ],
+      "sources": [
+        {
+          "name": "Amarna Letters (diplomatic correspondence)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Malkata palace complex (archaeological evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Colossi of Memnon (monumental inscriptions)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Amenhotep III's reign is well-documented through contemporary inscriptions, palace remains, and diplomatic records. Dating within his reign is secure to \u00b12 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1349-002",
+      "title": "\u0160uppiluliuma I consolidates Hittite power in Anatolia and Syria",
+      "region": "Hittite Empire (Anatolia and Levant)",
+      "coordinates_approx": "40.0\u00b0N, 34.5\u00b0E",
+      "category": "military",
+      "description": "\u0160uppiluliuma I (r. c. 1370\u20131330 BCE) continues his military campaigns to expand Hittite dominion. By this period, he has secured control over much of Anatolia and is competing with Egypt for influence in Syria and the Levant. His reign marks the height of Hittite imperial power before the Late Bronze Age collapse.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and annals",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Amarna Letters (Egyptian diplomatic records mentioning Hittite threats)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "\u0160uppiluliuma's reign is attested in Hittite archives and Egyptian correspondence. Dating is secure within \u00b13 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1349-003",
+      "title": "Mycenaean palatial civilization at its height in Greece",
+      "region": "Mycenaean Greece",
+      "coordinates_approx": "37.7\u00b0N, 23.0\u00b0E",
+      "category": "cultural",
+      "description": "The Mycenaean civilization in mainland Greece reaches its peak during the Late Helladic IIIA period. Major palace centers at Mycenae, Pylos, and Tiryns are fully developed and engaged in extensive trade networks across the Mediterranean. Linear B script is in use for administrative records. This represents the height of Mycenaean power before the Late Bronze Age collapse.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mycenae, Pylos, and Tiryns",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Linear B tablets from palace archives",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mycenaean palace archaeology and Linear B records provide strong contemporary evidence. Dating to LHIIIA is secure within \u00b110 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for the events listed. However, the precise dating of Amenhotep III's reign has been subject to scholarly debate, with some chronologies placing his death as early as 1352 BCE and others as late as 1345 BCE. The conventional dating used here (c. 1390\u20131352 BCE) represents the most widely accepted scholarly consensus but is not universally agreed upon.",
+  "historiographic_note": "The historical record for 1350 BCE is relatively rich due to Egyptian administrative records, Hittite archives, and Mycenaean palace archaeology. However, the record is heavily weighted toward elite political and military history. The perspectives of non-elite populations, women (except royal figures), and regions outside the major imperial centers are underrepresented. Egyptian and Hittite sources reflect official court narratives and may overstate their respective powers. Sub-Saharan Africa, northern Europe, and much of Asia beyond the Hittite and Egyptian spheres remain largely invisible in surviving written records.",
+  "graph_edges": [
+    {
+      "from": "-1349-001",
+      "to": "-1349-002",
+      "relation": "contemporary_with",
+      "note": "Amenhotep III and \u0160uppiluliuma I were contemporaries engaged in diplomatic and military competition for regional dominance."
+    },
+    {
+      "from": "-1349-001",
+      "to": "-1349-003",
+      "relation": "contemporary_with",
+      "note": "Mycenaean civilization flourished during Amenhotep III's reign, with trade connections to Egypt and the Levant."
+    }
+  ]
+}

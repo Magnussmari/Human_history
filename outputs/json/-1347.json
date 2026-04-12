@@ -1,0 +1,108 @@
+{
+  "year": -1347,
+  "year_label": "1348 BCE",
+  "era_context": "Late Bronze Age, final years of Amenhotep III's reign in Egypt. The Hittite Empire continues to expand under \u0160uppiluliuma I. Mycenaean civilization remains at its height. This year falls within the period of relative stability before the Late Bronze Age collapse, though tensions between major powers are increasing.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-1347-001",
+      "title": "Amenhotep III's reign nears its end; succession preparations",
+      "region": "Egypt",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Amenhotep III's reign is approaching its end (he will die c. 1352 BCE). His son, the future Amenhotep IV (Akhenaten), is being prepared for succession. The transition of power is a critical moment in Egyptian history, as Amenhotep IV will initiate radical religious and political reforms that will transform Egyptian society.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh)",
+        "Amenhotep IV / Akhenaten (Crown Prince)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Amarna Letters",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The succession of Amenhotep IV is well-documented, but the precise timing of preparations within Amenhotep III's reign is less certain. Dating within \u00b12 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1347-002",
+      "title": "Hittite-Egyptian tensions escalate in Syria",
+      "region": "Syria, Levant, and surrounding regions",
+      "coordinates_approx": "35.0\u00b0N, 36.0\u00b0E",
+      "category": "military",
+      "description": "Tensions between the Hittite Empire and Egypt over control of Syria and the Levant continue to escalate. \u0160uppiluliuma I's aggressive expansion threatens Egyptian interests in the region. These tensions will lead to direct military confrontation in the following decades, culminating in the Battle of Kadesh (c. 1274 BCE) under Ramesses II.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite King)",
+        "Amenhotep III (Egyptian Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Amarna Letters (Egyptian diplomatic correspondence)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Hittite royal inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The escalation of tensions is documented in diplomatic correspondence, though the precise chronology of individual incidents is sometimes uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "-1347-003",
+      "title": "Mycenaean palace centers continue to flourish",
+      "region": "Mycenaean Greece",
+      "coordinates_approx": "37.7\u00b0N, 23.0\u00b0E",
+      "category": "cultural",
+      "description": "The major Mycenaean palace centers at Mycenae, Pylos, Tiryns, and Thebes continue to thrive. Linear B records show complex administrative systems managing agriculture, trade, and military resources. The palatial economy is at its height, with extensive storage facilities for grain, oil, and wine.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets from palace archives",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from palace excavations",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mycenaean palace archaeology and Linear B records provide strong contemporary evidence.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified. The dating of Amenhotep III's death and the succession of Amenhotep IV remains subject to scholarly debate, with some chronologies placing these events a few years earlier or later than the conventional dating used here.",
+  "historiographic_note": "The historical record for 1348 BCE is similar to previous years in this period. The Amarna Letters provide detailed information about diplomatic relations and tensions between major powers, but the perspectives of non-elite populations and regions outside the major imperial centers remain largely absent from the surviving record.",
+  "graph_edges": [
+    {
+      "from": "-1347-001",
+      "to": "-1347-002",
+      "relation": "contemporary_with",
+      "note": "The succession of Amenhotep IV occurred during a period of escalating tensions with the Hittites."
+    },
+    {
+      "from": "-1347-002",
+      "to": "-1347-003",
+      "relation": "contemporary_with",
+      "note": "Mycenaean civilization flourished during the period of Hittite-Egyptian tensions."
+    }
+  ]
+}

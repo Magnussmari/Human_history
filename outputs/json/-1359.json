@@ -1,0 +1,105 @@
+{
+  "year": -1359,
+  "year_label": "1360 BCE",
+  "era_context": "The Late Bronze Age, mid-18th Dynasty Egypt under Amenhotep II. The Hittite Empire under \u0160uppiluliuma I was at its zenith in Anatolia. The Mycenaean civilization was flourishing in Greece. In China, the Shang Dynasty was in its mature phase. This period marks the height of international diplomacy and trade networks across the Eastern Mediterranean and Near East.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this specific year)",
+    "Northern Europe (sparse written records)",
+    "Central Asia (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1359-001",
+      "title": "Amenhotep II's military campaigns in the Levant",
+      "region": "Egypt, Levant, Syria",
+      "coordinates_approx": "30.0,31.0",
+      "category": "military",
+      "description": "Amenhotep II conducted military campaigns in the Levant, consolidating Egyptian control over vassal territories. These campaigns are documented in temple inscriptions at Karnak and Amada, recording the subjugation of Nubian and Asiatic territories. The campaigns reinforced Egyptian hegemony in the region and secured trade routes. The Amada stela provides detailed accounts of military victories and tribute collection.",
+      "key_figures": [
+        "Amenhotep II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Amada Temple stela of Amenhotep II",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Karnak temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Contemporary temple inscriptions provide direct evidence. Dating to Amenhotep II's reign is secure based on regnal chronology.",
+      "cross_references": []
+    },
+    {
+      "id": "-1359-002",
+      "title": "Hittite consolidation under \u0160uppiluliuma I",
+      "region": "Anatolia, Syria, Mesopotamia",
+      "coordinates_approx": "35.5,33.0",
+      "category": "political",
+      "description": "\u0160uppiluliuma I continued his expansion of Hittite power, consolidating control over northern Syria and challenging Egyptian interests in the region. His reign marked the peak of Hittite imperial power. The Hittite state apparatus was highly organized with sophisticated administrative and military structures. This period saw intensive diplomatic correspondence with Egypt and other powers.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal annals and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Amarna Letters (Egyptian diplomatic correspondence)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensive contemporary documentation from Hittite archives and Egyptian diplomatic records.",
+      "cross_references": []
+    },
+    {
+      "id": "-1359-003",
+      "title": "Mycenaean palace culture at its height",
+      "region": "Greece, Aegean",
+      "coordinates_approx": "37.7,23.0",
+      "category": "cultural",
+      "description": "The Mycenaean civilization in Greece was flourishing during this period, with palace centers at Mycenae, Tiryns, and Pylos functioning as administrative and religious hubs. Linear B script was in use for administrative purposes. Extensive trade networks connected the Mycenaean world to Egypt, the Levant, and Anatolia. Palatial architecture, pottery, and religious practices show sophisticated organization.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Mycenaean palace sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Linear B tablets from Knossos and Pylos",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensive archaeological evidence from excavations at major Mycenaean sites.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Amenhotep II's reign remains subject to scholarly debate, with some chronologies placing him slightly earlier or later. The relationship between Egyptian and Hittite power in Syria during this period is complex; while both powers claimed dominance, the actual territorial control was likely more fluid and contested than traditional narratives suggest. Some scholars debate whether \u0160uppiluliuma I's major Syrian campaigns occurred in this specific year or slightly later.",
+  "historiographic_note": "Documentation for 1360 BCE is relatively strong due to Egyptian temple inscriptions, Hittite archives, and Mycenaean archaeological evidence. However, the record is heavily weighted toward elite political and military history. The perspective is predominantly from palace archives and monumental inscriptions, which tend to emphasize royal achievements and may distort actual historical significance. Economic and social history of non-elite populations is largely invisible. Chronological precision is limited to \u00b12-3 years for most events.",
+  "graph_edges": [
+    {
+      "from": "-1359-001",
+      "to": "-1359-002",
+      "relation": "contemporary_with",
+      "note": "Amenhotep II's Levantine campaigns occurred simultaneously with \u0160uppiluliuma I's expansion, creating a period of great power competition in the region."
+    },
+    {
+      "from": "-1359-003",
+      "to": "-1359-001",
+      "relation": "contemporary_with",
+      "note": "Mycenaean civilization was contemporaneous with Egyptian and Hittite dominance; trade networks connected these civilizations."
+    }
+  ]
+}

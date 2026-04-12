@@ -1,0 +1,113 @@
+{
+  "year": -1346,
+  "year_label": "1347 BCE",
+  "era_context": "Late Bronze Age, final years of Amenhotep III's reign and the beginning of Amenhotep IV's (Akhenaten's) reign in Egypt. The Hittite Empire continues to expand. Mycenaean civilization remains at its height. This period marks the transition from the stable international order of the mid-14th century to the more turbulent late 14th century.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-1346-001",
+      "title": "Death of Amenhotep III and accession of Amenhotep IV (Akhenaten)",
+      "region": "Egypt",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Amenhotep III dies and is succeeded by his son Amenhotep IV, who will become known as Akhenaten. This marks a major turning point in Egyptian history. Akhenaten will initiate radical religious reforms, promoting the worship of the Aten (sun disk) over the traditional polytheistic religion centered on Amun. He will also move the capital from Thebes to a new city, Akhetaten (modern-day Amarna). These reforms will have profound effects on Egyptian society, art, and politics.",
+      "key_figures": [
+        "Amenhotep III (deceased Pharaoh)",
+        "Amenhotep IV / Akhenaten (new Pharaoh)",
+        "Nefertiti (Great Royal Wife)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Amarna Letters",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Amarna palace and temple remains (archaeological evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The death of Amenhotep III and accession of Akhenaten are well-documented, but the precise dating is subject to scholarly debate. Conventional chronology places this c. 1353 BCE, but some scholars argue for dates as late as 1345 BCE. Dating within \u00b15 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1346-002",
+      "title": "\u0160uppiluliuma I continues to consolidate Hittite power",
+      "region": "Hittite Empire",
+      "coordinates_approx": "40.0\u00b0N, 34.5\u00b0E",
+      "category": "military",
+      "description": "\u0160uppiluliuma I continues his military campaigns and diplomatic maneuvering to consolidate Hittite power in Anatolia and expand influence in Syria and the Levant. The transition of power in Egypt from Amenhotep III to Akhenaten may have created an opportunity for Hittite expansion, as the new Egyptian pharaoh focuses on internal religious reforms.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and annals",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Amarna Letters (Egyptian records of Hittite activities)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "\u0160uppiluliuma's activities are well-attested in contemporary sources.",
+      "cross_references": []
+    },
+    {
+      "id": "-1346-003",
+      "title": "Mycenaean civilization continues to flourish",
+      "region": "Mycenaean Greece",
+      "coordinates_approx": "37.7\u00b0N, 23.0\u00b0E",
+      "category": "cultural",
+      "description": "The Mycenaean civilization continues to thrive during the Late Helladic IIIA period. Palace centers maintain their administrative and economic systems. Trade networks remain active, connecting Mycenaean Greece to Egypt, the Levant, and other Mediterranean regions.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets from palace archives",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from palace excavations",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mycenaean civilization is well-attested through archaeological evidence and Linear B records.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Amenhotep III's death and Akhenaten's accession is one of the most debated issues in Egyptian chronology. Conventional chronology places this c. 1353 BCE, but some scholars, particularly those using astronomical data from Akhenaten's reign, argue for dates as late as 1345 BCE or even later. This uncertainty of \u00b15\u20138 years affects the precise dating of events in this period. Some scholars also dispute the significance of Akhenaten's religious reforms, arguing that they were less revolutionary than traditionally portrayed and that the worship of the Aten may have had precedents in earlier Egyptian religion.",
+  "historiographic_note": "The historical record for 1347 BCE is relatively rich for Egypt due to the extensive documentation of Akhenaten's reign and the Amarna Letters. However, Akhenaten's reign is viewed through the lens of later Egyptian historiography, which was often hostile to his memory. The Amarna Letters provide detailed information about diplomatic relations, but they reflect the perspectives of royal courts. The record for the Hittite Empire and Mycenaean Greece is less detailed but still substantial. Regions outside these major civilizations remain largely invisible in surviving written records.",
+  "graph_edges": [
+    {
+      "from": "-1346-001",
+      "to": "-1346-002",
+      "relation": "contemporary_with",
+      "note": "The accession of Akhenaten coincided with continued Hittite expansion under \u0160uppiluliuma I."
+    },
+    {
+      "from": "-1346-001",
+      "to": "-1346-003",
+      "relation": "contemporary_with",
+      "note": "Akhenaten's accession occurred during the height of Mycenaean civilization."
+    }
+  ]
+}

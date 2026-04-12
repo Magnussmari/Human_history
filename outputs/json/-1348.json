@@ -1,0 +1,112 @@
+{
+  "year": -1348,
+  "year_label": "1349 BCE",
+  "era_context": "Late Bronze Age, continuing the reign of Amenhotep III in Egypt. The Hittite Empire under \u0160uppiluliuma I remains a major power. Mycenaean civilization continues to flourish. This period represents the final decades of the stable international order that characterized the mid-14th century BCE before the disruptions of the late 14th century.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-1348-001",
+      "title": "Amenhotep III's reign continues; Egyptian diplomatic activity with foreign powers",
+      "region": "Egypt and Eastern Mediterranean",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Amenhotep III maintains Egypt's position as a major diplomatic power. The Amarna Letters, written during and shortly after his reign, document extensive correspondence with rulers of Mitanni, Babylon, Assyria, and the Hittites. Egypt's wealth, derived from Nubian gold and agricultural surplus, allows for extensive building programs and the maintenance of a large military establishment.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Amarna Letters",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian temple inscriptions and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Amenhotep III's diplomatic activities are well-documented in contemporary correspondence and inscriptions.",
+      "cross_references": [
+        "-1349-001"
+      ]
+    },
+    {
+      "id": "-1348-002",
+      "title": "\u0160uppiluliuma I's military campaigns in Syria and the Levant",
+      "region": "Hittite Empire, Syria, Levant",
+      "coordinates_approx": "35.0\u00b0N, 36.0\u00b0E",
+      "category": "military",
+      "description": "\u0160uppiluliuma I continues to expand Hittite influence in Syria and the Levant, challenging Egyptian dominance in the region. His military campaigns and diplomatic maneuvering establish the Hittites as a major imperial power. The conflict between Hittite and Egyptian interests in Syria will become increasingly acute in the following decades.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Amarna Letters (Egyptian records of Hittite activities)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "\u0160uppiluliuma's military activities are attested in both Hittite and Egyptian sources.",
+      "cross_references": [
+        "-1349-002"
+      ]
+    },
+    {
+      "id": "-1348-003",
+      "title": "Mycenaean trade networks at their peak",
+      "region": "Mycenaean Greece and Mediterranean",
+      "coordinates_approx": "37.7\u00b0N, 23.0\u00b0E",
+      "category": "economic",
+      "description": "Mycenaean merchants and traders maintain extensive networks throughout the Mediterranean, trading pottery, olive oil, wine, and other goods with Egypt, the Levant, Anatolia, and Cyprus. Archaeological evidence shows Mycenaean pottery in Egypt and the Levant, and foreign goods in Mycenaean contexts. This trade is a major source of wealth for the Mycenaean palatial centers.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Mycenaean pottery in Egypt and the Levant",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Linear B tablets recording trade goods and transactions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mycenaean trade networks are well-attested through archaeological evidence of pottery distribution and Linear B records.",
+      "cross_references": [
+        "-1349-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified. The dating of Amenhotep III's reign remains subject to scholarly debate, as noted for the previous year.",
+  "historiographic_note": "The historical record for 1349 BCE is similar to that for 1350 BCE: relatively rich for elite political and military history in Egypt, the Hittite Empire, and Mycenaean Greece, but sparse for other regions and for non-elite populations. The Amarna Letters provide an exceptional window into diplomatic relations but reflect the perspectives of royal courts.",
+  "graph_edges": [
+    {
+      "from": "-1348-001",
+      "to": "-1348-002",
+      "relation": "contemporary_with",
+      "note": "Amenhotep III and \u0160uppiluliuma I were engaged in diplomatic and military competition."
+    },
+    {
+      "from": "-1348-003",
+      "to": "-1348-001",
+      "relation": "contemporary_with",
+      "note": "Mycenaean trade networks connected to Egyptian and Levantine markets during Amenhotep III's reign."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "year": -1356,
+  "year_label": "1357 BCE",
+  "era_context": "The Late Bronze Age international system remained stable, with Egypt, the Hittite Empire, and Mycenaean Greece as dominant powers. This period is characterized by extensive diplomatic correspondence, trade networks, and cultural exchange. The Amarna Letters archive provides valuable documentation of international relations during this era. In China, the Shang Dynasty continued its mature phase.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "East Asia (limited specific year documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1356-001",
+      "title": "Egyptian military presence in the Levant under Amenhotep II",
+      "region": "Egypt, Levant",
+      "coordinates_approx": "32.0,35.0",
+      "category": "military",
+      "description": "Amenhotep II maintained Egyptian military garrisons and administrative control in the Levant, including territories in modern-day Syria, Lebanon, and Palestine. Egyptian officials oversaw vassal states and collected tribute. The military presence was crucial to maintaining Egyptian hegemony in the region and protecting trade routes.",
+      "key_figures": [
+        "Amenhotep II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Amarna Letters",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "General pattern is well-documented; specific events of this year are less clearly attested.",
+      "cross_references": [
+        "-1359-001",
+        "-1358-001",
+        "-1357-001"
+      ]
+    },
+    {
+      "id": "-1356-002",
+      "title": "Hittite-Egyptian diplomatic negotiations",
+      "region": "Anatolia, Egypt",
+      "coordinates_approx": "35.0,30.0",
+      "category": "political",
+      "description": "Diplomatic negotiations between the Hittite court and Egypt continued, with both powers seeking to establish spheres of influence and maintain peaceful relations. The Amarna Letters document these negotiations, which dealt with territorial boundaries, trade agreements, and mutual recognition. Both powers recognized each other as equals in the international system.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite Great King)",
+        "Amenhotep II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Amarna Letters",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Hittite royal correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Diplomatic activity is well-attested for this period, though specific negotiations may be difficult to date precisely to this year.",
+      "cross_references": [
+        "-1359-002",
+        "-1358-002",
+        "-1357-002"
+      ]
+    },
+    {
+      "id": "-1356-003",
+      "title": "Mycenaean pottery production and distribution",
+      "region": "Greece, Eastern Mediterranean",
+      "coordinates_approx": "37.0,23.0",
+      "category": "economic",
+      "description": "Mycenaean pottery workshops continued to produce high-quality ceramics for both domestic use and export. Archaeological evidence shows Mycenaean pottery at sites throughout the Eastern Mediterranean, indicating extensive trade networks. The pottery industry was a significant component of the Mycenaean economy.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Mycenaean pottery",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensive archaeological evidence for Mycenaean pottery production and distribution during this period.",
+      "cross_references": [
+        "-1359-003",
+        "-1358-003",
+        "-1357-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Amarna Letters are difficult to date precisely to individual years, and some scholars debate whether all correspondence attributed to Amenhotep II's reign actually belongs to this period. The extent of Egyptian control in the Levant may have been less absolute than monumental inscriptions suggest; local elites likely maintained significant autonomy. The significance of Mycenaean pottery trade may be overstated in modern scholarship.",
+  "historiographic_note": "The historical record for 1357 BCE relies heavily on Egyptian and Hittite elite sources, with the Amarna Letters providing valuable diplomatic information. However, these letters are difficult to date precisely to individual years. Archaeological evidence is abundant for this period, particularly for Mycenaean pottery. The record is heavily weighted toward elite political and military history, with limited information about non-elite populations. Chronological uncertainty remains \u00b12-3 years.",
+  "graph_edges": [
+    {
+      "from": "-1356-001",
+      "to": "-1356-002",
+      "relation": "contemporary_with",
+      "note": "Egyptian military presence in the Levant and diplomatic negotiations with the Hittites were parallel aspects of Egyptian imperial strategy."
+    },
+    {
+      "from": "-1356-003",
+      "to": "-1356-001",
+      "relation": "contemporary_with",
+      "note": "Mycenaean trade networks operated within the broader context of Egyptian and Hittite imperial systems."
+    }
+  ]
+}

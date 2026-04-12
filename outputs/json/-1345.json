@@ -1,0 +1,112 @@
+{
+  "year": -1345,
+  "year_label": "1346 BCE",
+  "era_context": "Late Bronze Age, early reign of Akhenaten in Egypt. The Hittite Empire under \u0160uppiluliuma I continues to expand. Mycenaean civilization remains at its height. This period marks the beginning of Akhenaten's radical religious and political reforms, which will transform Egyptian society.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-1345-001",
+      "title": "Akhenaten initiates religious reforms promoting the Aten",
+      "region": "Egypt",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "religious",
+      "description": "Akhenaten begins to promote the worship of the Aten (sun disk) as the supreme or sole deity, challenging the traditional polytheistic religion centered on Amun. This represents a radical departure from Egyptian religious tradition. Akhenaten will eventually move the capital from Thebes to a new city, Akhetaten (modern-day Amarna), dedicated to the Aten. These reforms have profound effects on Egyptian art, literature, and politics, though they are ultimately reversed after Akhenaten's death.",
+      "key_figures": [
+        "Akhenaten (Pharaoh)",
+        "Nefertiti (Great Royal Wife)"
+      ],
+      "sources": [
+        {
+          "name": "Amarna temple and palace remains (archaeological evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Amarna art and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Amarna Letters",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Akhenaten's religious reforms are well-documented through archaeological evidence and contemporary inscriptions. However, the precise chronology of the reforms within his reign is uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "-1345-002",
+      "title": "\u0160uppiluliuma I's military campaigns in Syria and Amurru",
+      "region": "Syria, Levant, and Amurru",
+      "coordinates_approx": "35.0\u00b0N, 36.0\u00b0E",
+      "category": "military",
+      "description": "\u0160uppiluliuma I continues his military campaigns in Syria and the Levant, expanding Hittite control over the region of Amurru and other territories previously under Egyptian influence. The Hittite expansion is facilitated by Akhenaten's focus on internal religious reforms and apparent lack of interest in maintaining Egyptian military dominance in the Levant.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and annals",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Amarna Letters (Egyptian records of Hittite activities)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "\u0160uppiluliuma's military activities are well-attested in contemporary sources.",
+      "cross_references": []
+    },
+    {
+      "id": "-1345-003",
+      "title": "Mycenaean palace centers at their height",
+      "region": "Mycenaean Greece",
+      "coordinates_approx": "37.7\u00b0N, 23.0\u00b0E",
+      "category": "cultural",
+      "description": "The Mycenaean civilization continues to flourish during the Late Helladic IIIA period. The major palace centers at Mycenae, Pylos, Tiryns, and Thebes maintain their administrative and economic systems. Linear B records show complex bureaucratic organization and extensive trade networks.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets from palace archives",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from palace excavations",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mycenaean civilization is well-attested through archaeological evidence and Linear B records.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Akhenaten's accession and the chronology of his religious reforms remain subject to scholarly debate. Some scholars argue that the Aten worship may have had precedents in earlier Egyptian religion and that Akhenaten's reforms were less revolutionary than traditionally portrayed. The extent to which Akhenaten's focus on religious reform contributed to the loss of Egyptian influence in the Levant is also debated; some scholars argue that the loss of territory was due to broader geopolitical factors rather than Akhenaten's policies.",
+  "historiographic_note": "The historical record for 1346 BCE is relatively rich for Egypt due to the extensive documentation of Akhenaten's reign and the Amarna Letters. However, Akhenaten's reign is viewed through the lens of later Egyptian historiography, which was often hostile to his memory. The Amarna Letters provide detailed information about diplomatic relations and Egyptian concerns about Hittite expansion, but they reflect the perspectives of royal courts and may overstate the extent of Egyptian military weakness. The record for the Hittite Empire and Mycenaean Greece is less detailed but still substantial.",
+  "graph_edges": [
+    {
+      "from": "-1345-001",
+      "to": "-1345-002",
+      "relation": "led_to",
+      "note": "Akhenaten's focus on religious reforms and apparent lack of interest in maintaining Egyptian military dominance in the Levant facilitated Hittite expansion under \u0160uppiluliuma I."
+    },
+    {
+      "from": "-1345-001",
+      "to": "-1345-003",
+      "relation": "contemporary_with",
+      "note": "Akhenaten's religious reforms occurred during the height of Mycenaean civilization."
+    }
+  ]
+}

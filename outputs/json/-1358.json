@@ -1,0 +1,113 @@
+{
+  "year": -1358,
+  "year_label": "1359 BCE",
+  "era_context": "Continuation of the Late Bronze Age international system. Egypt under Amenhotep II maintained its imperial reach. The Hittite Empire under \u0160uppiluliuma I was consolidating its position as a major Near Eastern power. Mycenaean Greece continued its palace-centered civilization. This was a period of relative stability in the Eastern Mediterranean, though with underlying tensions between Egyptian and Hittite spheres of influence.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "East Asia (limited contemporary written records for specific year)"
+  ],
+  "events": [
+    {
+      "id": "-1358-001",
+      "title": "Continuation of Egyptian administrative control in Nubia",
+      "region": "Egypt, Nubia",
+      "coordinates_approx": "20.0,32.0",
+      "category": "political",
+      "description": "Amenhotep II maintained firm control over Nubian territories, with administrative centers established at Napata and other strategic locations. Nubian gold, ivory, and other resources flowed to Egypt. The viceroy of Kush administered these territories on behalf of the pharaoh. This period saw the consolidation of Egyptian colonial administration in Nubia.",
+      "key_figures": [
+        "Amenhotep II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian administrative records and temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Nubian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "General pattern is well-documented; specific events of this year are less clearly attested.",
+      "cross_references": [
+        "-1359-001"
+      ]
+    },
+    {
+      "id": "-1358-002",
+      "title": "Hittite diplomatic correspondence with Egypt",
+      "region": "Anatolia, Egypt",
+      "coordinates_approx": "35.0,30.0",
+      "category": "political",
+      "description": "Diplomatic correspondence between the Hittite court and Egypt continued, reflecting the complex relationship between these two superpowers. Letters exchanged between rulers dealt with territorial boundaries, trade agreements, and mutual recognition of spheres of influence. This diplomatic activity is attested in the Amarna Letters archive and Hittite records.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite Great King)",
+        "Amenhotep II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Amarna Letters",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Hittite royal correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Diplomatic activity is well-attested for this period, though specific letters may be difficult to date precisely to this year.",
+      "cross_references": [
+        "-1359-002"
+      ]
+    },
+    {
+      "id": "-1358-003",
+      "title": "Mycenaean trade expansion in the Eastern Mediterranean",
+      "region": "Greece, Eastern Mediterranean",
+      "coordinates_approx": "37.0,25.0",
+      "category": "economic",
+      "description": "Mycenaean merchants expanded their trading networks throughout the Eastern Mediterranean, exchanging pottery, olive oil, and wine for tin, copper, and luxury goods. Archaeological evidence shows Mycenaean pottery at sites in Egypt, the Levant, and Anatolia. This trade was crucial to the Mycenaean economy and facilitated cultural exchange.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Mycenaean pottery distribution",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Linear B tablets recording trade goods",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Extensive archaeological evidence for Mycenaean trade networks during this period.",
+      "cross_references": [
+        "-1359-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The extent of Egyptian control in Nubia during this period may have been less absolute than monumental inscriptions suggest; local Nubian elites likely maintained significant autonomy. The Amarna Letters, while providing valuable diplomatic information, are difficult to date precisely to individual years, and some scholars debate whether all correspondence attributed to Amenhotep II's reign actually belongs to this period. The significance of Mycenaean trade may be overstated in modern scholarship relative to other economic systems.",
+  "historiographic_note": "The historical record for 1359 BCE relies heavily on Egyptian and Hittite elite sources, which emphasize political and military matters. Nubian and Mycenaean perspectives are largely absent from written records. The Amarna Letters provide valuable diplomatic information but are difficult to date precisely. Archaeological evidence is more abundant for this period than for earlier years, but still provides limited insight into non-elite life. Chronological uncertainty remains \u00b12-3 years.",
+  "graph_edges": [
+    {
+      "from": "-1358-001",
+      "to": "-1358-002",
+      "relation": "contemporary_with",
+      "note": "Egyptian control of Nubia and diplomatic relations with the Hittites were parallel aspects of Egyptian imperial strategy."
+    },
+    {
+      "from": "-1358-003",
+      "to": "-1358-002",
+      "relation": "contemporary_with",
+      "note": "Mycenaean trade networks operated within the broader context of Late Bronze Age international relations."
+    }
+  ]
+}
