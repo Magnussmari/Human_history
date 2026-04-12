@@ -1,0 +1,112 @@
+{
+  "year": -575,
+  "year_label": "575 BCE",
+  "era_context": "The late Archaic period in Greece; the height of the Lydian Empire under Croesus in Asia Minor; the early Neo-Babylonian Empire under Nabonidus; the Eastern Zhou period in China (Spring and Autumn period), marked by fragmentation of authority and interstate conflict; the early Iron Age in the Mediterranean and Near East.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Greek/Roman contact zones",
+    "Mesoamerica (no written records of this period survive in detail)",
+    "Pacific Islands and Oceania"
+  ],
+  "events": [
+    {
+      "id": "-575-001",
+      "title": "Croesus rules Lydia at peak power",
+      "region": "Lydia (modern-day western Turkey)",
+      "coordinates_approx": "38.5, 28.5",
+      "category": "political",
+      "description": "Croesus, king of Lydia, is at the height of his reign, controlling wealthy territories in Asia Minor and commanding vast resources in gold and silver. His court becomes legendary in Greek tradition for its opulence and wisdom. Croesus maintains diplomatic relations with Greek city-states and Egyptian pharaohs. His reign represents the apex of Lydian power before the rise of Persia under Cyrus II.",
+      "key_figures": [
+        "Croesus (King of Lydia)"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories (Book I)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Croesus's reign is traditionally dated to c. 595\u2013546 BCE. The exact year 575 BCE falls within his documented reign, but no specific events are recorded for this particular year. Dating relies on later Greek historiography.",
+      "cross_references": [
+        "-546-001 (Fall of Lydia to Persia)"
+      ]
+    },
+    {
+      "id": "-575-002",
+      "title": "Nabonidus consolidates Neo-Babylonian rule",
+      "region": "Babylonia (modern-day Iraq)",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "Nabonidus, king of Babylon (r. 556\u2013539 BCE), is in the early phase of his reign, consolidating power after the death of Nebuchadnezzar II's successors. He undertakes military campaigns to secure Babylonian borders and control trade routes. Nabonidus is known for his antiquarian interests and religious reforms, including his controversial elevation of the moon god Sin.",
+      "key_figures": [
+        "Nabonidus (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicle (cuneiform tablets)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Berossus, Babyloniaca (via Josephus)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Nabonidus's reign is well-attested in cuneiform sources. The year 575 BCE falls within his reign (556\u2013539 BCE), though no specific events are recorded for this exact year.",
+      "cross_references": [
+        "-539-001 (Fall of Babylon to Cyrus II)"
+      ]
+    },
+    {
+      "id": "-575-003",
+      "title": "Spring and Autumn period: Interstate warfare in China",
+      "region": "China (Eastern Zhou, Spring and Autumn period)",
+      "coordinates_approx": "35.0, 115.0",
+      "category": "military",
+      "description": "During the Spring and Autumn period (770\u2013476 BCE), the Chinese states are engaged in ongoing territorial conflicts and diplomatic maneuvering. By 575 BCE, the state of Jin is a dominant power in northern China, while southern states like Chu compete for hegemony. Interstate warfare, feudal fragmentation, and the rise of military strategists characterize this era. The period sees the development of iron weapons and changes in military tactics.",
+      "key_figures": [
+        "Duke Xian of Jin (or successor rulers)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Chunqiu (Spring and Autumn Annals)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Spring and Autumn Annals provide year-by-year records, but specific events for 575 BCE are not distinctly memorable or well-preserved in surviving sources. The broader context of interstate conflict is certain; specific events for this year are uncertain.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Croesus's reign and his exact chronology remain debated among scholars. Some modern chronologies place his reign slightly earlier or later than the traditional 595\u2013546 BCE. The significance of Croesus in Greek tradition may reflect later Hellenistic idealization rather than historical reality. No disconfirming evidence identified for other events listed.",
+  "historiographic_note": "The historical record for 575 BCE is uneven. Greek sources are abundant but written centuries after the events (Herodotus wrote in the 5th century BCE). Mesopotamian cuneiform sources are contemporary and reliable for Babylonia. Chinese sources (Chunqiu) are near-contemporary but highly selective and often symbolic rather than comprehensive. Sub-Saharan Africa, the Americas, and Northern Europe have no written records for this period. The surviving record is heavily weighted toward the Mediterranean, Near East, and China.",
+  "graph_edges": [
+    {
+      "from": "-575-001",
+      "to": "-546-001",
+      "relation": "led_to",
+      "note": "Croesus's reign ends with the Persian conquest of Lydia under Cyrus II"
+    },
+    {
+      "from": "-575-002",
+      "to": "-539-001",
+      "relation": "led_to",
+      "note": "Nabonidus's reign ends with the Persian conquest of Babylon"
+    }
+  ]
+}

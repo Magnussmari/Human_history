@@ -1,0 +1,87 @@
+{
+  "year": -590,
+  "year_label": "590 BCE",
+  "era_context": "Archaic Greece; Neo-Babylonian Empire under Nebuchadnezzar II; Spring and Autumn period in China. This year falls within the period following Solon's reforms in Athens (if dated to 594 BCE) or possibly during the reforms themselves (if dated to 590 BCE or later). The broader Mediterranean and Near East are characterized by the consolidation of imperial powers and the development of legal and political institutions.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania",
+    "Mesoamerica",
+    "Most of Asia outside China and the Near East"
+  ],
+  "events": [
+    {
+      "id": "-590-001",
+      "title": "Possible Dating of Solon's Archonship (Later Alternative Chronology)",
+      "region": "Attica, Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political | legal",
+      "description": "Some scholars place Solon's archonship as late as 590 BCE, based on alternative chronological reconstructions. If this dating is correct, then 590 BCE marks the year of Solon's reforms: debt cancellation, freeing of debt slaves, land redistribution, and the establishment of new property classes. This represents the latest proposed date for Solon's archonship and is less widely accepted than the traditional 594 BCE or the alternative 592 BCE.",
+      "key_figures": [
+        "Solon (archon and reformer, if this dating is correct)"
+      ],
+      "sources": [
+        {
+          "name": "Aristotle, Constitution of the Athenians",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Modern scholarly debate (minority view)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "This dating is a minority view among modern scholars. The traditional date of 594 BCE and the alternative 592 BCE are more widely accepted. The uncertainty reflects the difficulty of dating events in the Archaic period without contemporary documentation.",
+      "cross_references": [
+        "Alternative dating of -594-001 and -592-001"
+      ]
+    },
+    {
+      "id": "-590-002",
+      "title": "Nebuchadnezzar II's Continued Levantine Campaigns",
+      "region": "Mesopotamia, Levant, Syria-Palestine",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "military | political",
+      "description": "Nebuchadnezzar II continues military campaigns in the Levant to consolidate Babylonian control and secure tribute from vassal states. These campaigns are part of his broader strategy to establish Babylonian hegemony in the region. The campaigns are attested in Babylonian chronicles and biblical sources.",
+      "key_figures": [
+        "Nebuchadnezzar II (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicles (cuneiform tablets)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Biblical accounts (2 Kings, Jeremiah)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Nebuchadnezzar's reign and military campaigns are well-documented in cuneiform sources. The specific events of 590 BCE are less precisely dated; this year falls within his known period of Levantine campaigns (605\u2013562 BCE).",
+      "cross_references": [
+        "Continuation of -594-002; leads to the siege of Jerusalem in -587"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Solon's archonship to 590 BCE is disputed by most modern scholars, who prefer 594 BCE or 592 BCE. The later dating (590 BCE) is a minority view and is not well-supported by the available evidence. The traditional Aristotelian chronology (594 BCE) remains the most widely accepted, despite its limitations.",
+  "historiographic_note": "590 BCE is poorly documented. The historical record for this year is dominated by the uncertain dating of Solon's archonship. No contemporary Athenian sources record events for this year. For Babylon, cuneiform sources are more reliable, but they do not provide year-by-year detail for 590 BCE specifically. For other regions, documentation is sparse or absent.",
+  "graph_edges": [
+    {
+      "from": "-590-001",
+      "to": "-507-001",
+      "relation": "led_to",
+      "note": "If Solon's reforms are dated to 590 BCE, they still lead to the development of Athenian democracy under Cleisthenes"
+    },
+    {
+      "from": "-590-002",
+      "to": "-587-001",
+      "relation": "led_to",
+      "note": "Nebuchadnezzar's Levantine campaigns culminate in the siege and destruction of Jerusalem"
+    }
+  ]
+}

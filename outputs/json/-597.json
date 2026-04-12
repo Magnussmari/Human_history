@@ -1,0 +1,107 @@
+{
+  "year": -597,
+  "year_label": "597 BCE",
+  "era_context": "Late Archaic Greece; the Peisistratid tyranny continues in Athens. Sparta dominates the Peloponnese. The Persian Empire controls Asia Minor and the eastern Mediterranean. In Mesopotamia, Nebuchadnezzar II has just conquered Jerusalem and is consolidating Babylonian control over the Levant. In India, the early Vedic period is transitioning toward the Upanishadic age. In China, the Spring and Autumn period continues with competing warring states.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (limited Chinese sources)",
+    "Mesoamerica",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-597-001",
+      "title": "Destruction of the First Temple in Jerusalem and mass deportation of Judeans",
+      "region": "Kingdom of Judah, Levant",
+      "coordinates_approx": "31.78\u00b0N, 35.23\u00b0E",
+      "category": "military",
+      "description": "Following the conquest of Jerusalem in 598 BCE, Nebuchadnezzar II orders the destruction of the First Temple (Solomon's Temple) and the deportation of the remaining Judean elite, including the prophet Ezekiel. The Temple's treasures are looted and transported to Babylon. This event marks a watershed in Jewish history: the loss of the Temple, the center of Jewish religious life, and the beginning of the Babylonian Exile, a period of diaspora that would profoundly shape Jewish identity and theology. The destruction is attested in biblical sources and is consistent with Babylonian administrative practice of removing potential sources of resistance. However, the exact date (597 vs. 586 BCE for the final destruction) is debated among scholars.",
+      "key_figures": [
+        "Nebuchadnezzar II (king of Babylon)",
+        "Jehoiachin (king of Judah, deported)",
+        "Ezekiel (prophet, deported to Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "2 Kings 25:1\u201321 (biblical account, later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "2 Chronicles 36:17\u201321 (parallel biblical account)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Lamentations (biblical poetry, traditionally attributed to Jeremiah, reflecting the destruction)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Josephus, Antiquities of the Jews (1st century CE compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The destruction of the Temple is attested in biblical sources, but the exact date is debated. Some scholars place the final destruction in 586 BCE rather than 597 BCE. The Babylonian Chronicles do not explicitly mention the Temple's destruction, only the conquest of the city. The dating relies on biblical chronology, which is subject to uncertainty.",
+      "cross_references": [
+        "-598-001 (conquest of Jerusalem)",
+        "-586-001 (alternative date for Temple destruction)"
+      ]
+    },
+    {
+      "id": "-597-002",
+      "title": "Babylonian Exile begins: deportation of Judean elite to Mesopotamia",
+      "region": "Mesopotamia, Babylon",
+      "coordinates_approx": "32.5\u00b0N, 44.4\u00b0E",
+      "category": "demographic",
+      "description": "The deportation of Judean nobility, priests, scribes, and skilled craftspeople to Babylon marks the beginning of the Babylonian Exile, a period of diaspora lasting until the Persian conquest of Babylon in 539 BCE. The exiled community, including the prophet Ezekiel, settles in Mesopotamia and maintains its religious and cultural identity despite displacement. This exile profoundly influences Jewish theology and literature; many biblical texts (including portions of the Book of Isaiah, the Book of Jeremiah, and the Book of Ezekiel) are traditionally dated to this period. The exile also establishes a Jewish diaspora community in Mesopotamia that persists for centuries.",
+      "key_figures": [
+        "Ezekiel (prophet)",
+        "Jehoiachin (deported king)",
+        "Nebuchadnezzar II (king of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Book of Ezekiel (biblical text, traditionally dated to the Babylonian Exile period)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "2 Kings 24:14\u201316 (biblical account of deportation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Josephus, Antiquities of the Jews (1st century CE compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The deportation of Judean elites is attested in biblical sources and is consistent with Babylonian administrative practice. The scale and composition of the deportation are debated, but the event itself is well-established.",
+      "cross_references": [
+        "-539-001 (end of Babylonian Exile with Persian conquest)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Temple's destruction is disputed. Some scholars argue for 586 BCE rather than 597 BCE, based on a different interpretation of biblical chronology and Babylonian records. The Babylonian Chronicles do not explicitly mention the Temple's destruction, only the conquest of Jerusalem. The scale of the deportation is also debated; some scholars argue that only the elite were deported, while others suggest a larger population movement. The biblical account may exaggerate the numbers for theological effect.",
+  "historiographic_note": "The Babylonian Exile is one of the most significant events in Jewish history, but it is known almost entirely through biblical sources compiled centuries after the events. The Babylonian Chronicles provide some corroboration but are fragmentary. Archaeological evidence from Mesopotamia has identified some Judean names in cuneiform documents from the Babylonian period, confirming the presence of a Judean diaspora community, but these documents do not provide a detailed chronology of the exile. The biblical account reflects theological concerns (divine punishment, hope for restoration) as well as historical memory. The exact date of the Temple's destruction remains uncertain.",
+  "graph_edges": [
+    {
+      "from": "-597-001",
+      "to": "-597-002",
+      "relation": "part_of",
+      "note": "The destruction of the Temple and the deportation of the Judean elite are closely related events marking the beginning of the Babylonian Exile"
+    },
+    {
+      "from": "-597-002",
+      "to": "-539-001",
+      "relation": "led_to",
+      "note": "The Babylonian Exile lasted until the Persian conquest of Babylon in 539 BCE, when the exiled Judeans were permitted to return"
+    }
+  ]
+}

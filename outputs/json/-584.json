@@ -1,0 +1,95 @@
+{
+  "year": -584,
+  "year_label": "584 BCE",
+  "era_context": "The late Archaic period in Greece; the early Neo-Babylonian Empire under Nebuchadnezzar II at its height; the Eastern Zhou period in China (Spring and Autumn period); the early phase of the Axial Age, marked by the emergence of philosophical and religious movements across multiple civilisations. Iron Age societies dominate the Mediterranean and Near East; writing systems are well-established across Eurasia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (Maya and Olmec records are sparse for this specific year)",
+    "Southeast Asia (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-584-001",
+      "title": "Nebuchadnezzar II's continued consolidation of Babylonian power",
+      "region": "Mesopotamia (Neo-Babylonian Empire)",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "Nebuchadnezzar II, having ruled since 605 BCE, continues his military campaigns and administrative consolidation. This year falls within his long reign (605\u2013562 BCE), during which he expanded Babylonian territory, rebuilt the city of Babylon, and established it as the dominant Near Eastern power. His reign is marked by military campaigns against Egypt, Judah, and other neighbours, though specific events for 584 BCE are not individually documented in surviving sources.",
+      "key_figures": [
+        "Nebuchadnezzar II (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Berossus, Babyloniaca (later compilation, 3rd century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Babylonian Chronicles (cuneiform tablets)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Nebuchadnezzar's reign is well-attested, but specific events within individual years are often not recorded. This entry reflects the broader context of his rule rather than a discrete event.",
+      "cross_references": []
+    },
+    {
+      "id": "-584-002",
+      "title": "Siege of Jerusalem (ongoing or recent conclusion)",
+      "region": "Judah / Levant",
+      "coordinates_approx": "31.77, 35.23",
+      "category": "military",
+      "description": "Nebuchadnezzar II's siege of Jerusalem, which began in 589 BCE, concludes in 586 BCE with the destruction of the First Temple and the exile of the Judahite elite to Babylon. The year 584 BCE falls within or shortly after this critical event. The siege lasted approximately 18\u201330 months and resulted in the destruction of the city, the deportation of the population, and the end of the Kingdom of Judah as an independent state. This event is foundational to Jewish history and theology.",
+      "key_figures": [
+        "Nebuchadnezzar II (King of Babylon)",
+        "Zedekiah (King of Judah)"
+      ],
+      "sources": [
+        {
+          "name": "Book of Kings (Hebrew Bible / Old Testament)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Book of Jeremiah (Hebrew Bible / Old Testament)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Babylonian Chronicles (cuneiform tablets)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Jerusalem excavations",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The siege and destruction are attested in both Babylonian and Hebrew sources, as well as archaeological evidence. The dating to 586 BCE is widely accepted, placing 584 BCE within the aftermath or final stages.",
+      "cross_references": [
+        "-589-001 (beginning of siege)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of the fall of Jerusalem is debated among scholars. Some scholars argue for 587 BCE rather than 586 BCE based on Babylonian chronology, which would place 584 BCE further from the event. Additionally, the biblical account and Babylonian records differ in some details regarding the siege's duration and the fate of specific individuals. The extent of destruction and deportation has been reassessed by modern archaeology, with some scholars suggesting a less total destruction than traditionally portrayed.",
+  "historiographic_note": "Documentation for 584 BCE is sparse and indirect. Specific events are rarely dated to individual years in this period. The Babylonian Chronicles provide near-contemporary records but are fragmentary. Hebrew biblical texts were compiled centuries later and reflect theological as well as historical concerns. Archaeological evidence from Jerusalem and Babylon provides material confirmation but not precise annual dating. The historical record is heavily weighted toward political and military events; economic, social, and cultural developments are poorly documented for this specific year.",
+  "graph_edges": [
+    {
+      "from": "-584-002",
+      "to": "-589-001",
+      "relation": "part_of",
+      "note": "The siege of Jerusalem (589\u2013586 BCE) is a multi-year event; 584 BCE falls within its aftermath."
+    },
+    {
+      "from": "-584-001",
+      "to": "-562-001",
+      "relation": "led_to",
+      "note": "Nebuchadnezzar's consolidation of power in 584 BCE contributed to the stability and prosperity of Babylon in subsequent decades."
+    }
+  ]
+}

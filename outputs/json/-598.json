@@ -1,0 +1,98 @@
+{
+  "year": -598,
+  "year_label": "598 BCE",
+  "era_context": "Late Archaic Greece; Athenian tyranny under Hippias and Hipparchus. Sparta is the dominant land power in Greece. The Persian Empire controls Asia Minor and the eastern Mediterranean coast. In Mesopotamia, Nebuchadnezzar II is in the final phase of his conquest of the Levant, preparing for or executing the siege of Jerusalem. In India, the early Vedic period is transitioning toward the age of the Upanishads and the rise of heterodox philosophical movements. In China, the Spring and Autumn period continues; various warring states compete for hegemony.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (limited Chinese sources)",
+    "Mesoamerica",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-598-001",
+      "title": "Nebuchadnezzar II's siege and conquest of Jerusalem",
+      "region": "Kingdom of Judah, Levant",
+      "coordinates_approx": "31.78\u00b0N, 35.23\u00b0E",
+      "category": "military",
+      "description": "Nebuchadnezzar II of Babylon besieges and conquers Jerusalem, the capital of the Kingdom of Judah. The city falls after a siege lasting several months (traditional sources suggest 18 months, though the exact duration is debated). King Jehoiachin of Judah is deported to Babylon along with the royal family, nobility, and skilled craftspeople. The Temple is plundered but not destroyed at this stage. This conquest marks the beginning of the Babylonian exile of the Judean elite and represents a major shift in the political geography of the Levant. The event is attested in both Babylonian administrative records and biblical sources, though with some discrepancies in detail.",
+      "key_figures": [
+        "Nebuchadnezzar II (king of Babylon)",
+        "Jehoiachin (king of Judah)",
+        "Necho II (king of Egypt, defeated earlier)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicles (cuneiform tablets, contemporary administrative record)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "2 Kings 24:10\u201317 (biblical account, later compilation but based on earlier sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "2 Chronicles 36:9\u201310 (parallel biblical account with variant details)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Josephus, Antiquities of the Jews (1st century CE compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The conquest is attested in the Babylonian Chronicles, a contemporary administrative record. Biblical sources corroborate the event but differ in some details (e.g., duration of siege, number of deportees). The Babylonian record is the most reliable contemporary source.",
+      "cross_references": [
+        "-597-001 (related event: destruction of Jerusalem and second deportation)"
+      ]
+    },
+    {
+      "id": "-598-002",
+      "title": "Continued Athenian tyranny under Hippias and Hipparchus",
+      "region": "Athens, Attica, Greece",
+      "coordinates_approx": "37.97\u00b0N, 23.73\u00b0E",
+      "category": "political",
+      "description": "Hippias and Hipparchus, sons of the tyrant Peisistratos, continue their rule over Athens. This period is marked by cultural flourishing (the Peisistratid court patronizes poets and artists) but also by the consolidation of tyrannical power and the suppression of aristocratic rivals. The tyranny will eventually be overthrown in 510 BCE, leading to the establishment of democratic institutions under Cleisthenes. For this year, no specific events are recorded in surviving sources, but the broader context of Athenian cultural and political development under the Peisistratids is relevant.",
+      "key_figures": [
+        "Hippias (tyrant of Athens)",
+        "Hipparchus (tyrant of Athens)"
+      ],
+      "sources": [
+        {
+          "name": "Aristotle, Constitution of the Athenians (4th century BCE, based on earlier sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Herodotus, Histories (5th century BCE, written ~100 years after events)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Peisistratid tyranny is well-attested, but no specific events are recorded for this particular year. The dating of the tyranny's duration is based on later sources and is subject to minor uncertainty.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The Babylonian Chronicles provide a date for the conquest of Jerusalem, but biblical sources offer variant accounts. The biblical account in 2 Kings 24:8 states that Jehoiachin was 18 years old when he became king and reigned for three months; 2 Chronicles 36:9 states he was 8 years old. This discrepancy raises questions about the reliability of biblical chronology. Modern scholars debate whether the conquest occurred in 598 or 597 BCE; the Babylonian Chronicles suggest 598 BCE (using the Babylonian calendar), but some scholars argue for 597 BCE based on biblical reckoning. The exact duration of the siege and the number of deportees are also disputed.",
+  "historiographic_note": "The conquest of Jerusalem is one of the few events from this year that is well-documented in contemporary sources (the Babylonian Chronicles). However, the interpretation of these sources is complicated by calendar differences and the fragmentary nature of the records. Biblical sources provide narrative detail but were compiled centuries later and reflect theological as well as historical concerns. For Athens, we have no contemporary records; all information comes from later Greek historians writing 100+ years after the events. The absence of contemporary documentation for most of the world means that this year's 'history' is heavily weighted toward the Near East, where administrative records survive.",
+  "graph_edges": [
+    {
+      "from": "-598-001",
+      "to": "-597-001",
+      "relation": "led_to",
+      "note": "The conquest of Jerusalem in 598 BCE led to the destruction of the Temple and the second deportation in 597 BCE"
+    },
+    {
+      "from": "-598-002",
+      "to": "-510-001",
+      "relation": "led_to",
+      "note": "The Peisistratid tyranny continued until its overthrow in 510 BCE, leading to the establishment of Athenian democracy"
+    }
+  ]
+}

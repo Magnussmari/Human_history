@@ -1,0 +1,110 @@
+{
+  "year": -589,
+  "year_label": "589 BCE",
+  "era_context": "The late 6th century BCE spans the final decades of the Neo-Babylonian Empire under Nebuchadnezzar II and his successors, the height of the Persian Achaemenid Empire under Darius I, the later Eastern Zhou period in China (Spring and Autumn period transitioning toward Warring States), and the early development of Greek city-states in the aftermath of the Archaic period. This is an era of imperial consolidation, philosophical ferment (Confucius, Zoroastrianism, early Greek philosophy), and significant military campaigns.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (limited synchronization with Old World calendars)"
+  ],
+  "events": [
+    {
+      "id": "-589-001",
+      "title": "Siege of Jerusalem by Nebuchadnezzar II",
+      "region": "Judah, Levant",
+      "coordinates_approx": "31.78, 35.24",
+      "category": "military",
+      "description": "Nebuchadnezzar II of Babylon besieged Jerusalem in response to Judean rebellion against Babylonian vassalage. The siege lasted approximately 18 months (beginning in 589 BCE according to most scholarly consensus, though some sources place the start in 588 BCE). The city fell in 586 BCE, resulting in the destruction of the First Temple, mass deportation of the Judean elite, and the beginning of the Babylonian Exile. This event fundamentally reshaped Jewish religious and cultural identity, leading to the development of Rabbinic Judaism and the canonization of Hebrew scriptures.",
+      "key_figures": [
+        "Nebuchadnezzar II (King of Babylon)",
+        "Zedekiah (King of Judah)",
+        "Jeremiah (Prophet)"
+      ],
+      "sources": [
+        {
+          "name": "Book of Jeremiah (Hebrew Bible)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Book of Kings (Hebrew Bible)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Babylonian Chronicles (cuneiform tablets)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Josephus, Antiquities of the Jews",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Babylonian Chronicles provide contemporary cuneiform documentation of the campaign. Hebrew biblical sources are later compilations but preserve reliable chronological anchors. The exact start date (589 vs. 588 BCE) remains debated; most modern scholars favor 589 BCE for the siege's beginning, with the fall in 586 BCE.",
+      "cross_references": [
+        "Follows from -597-001 (First Babylonian deportation under Jehoiachin)",
+        "Leads to -586-001 (Fall of Jerusalem and destruction of First Temple)"
+      ]
+    },
+    {
+      "id": "-589-002",
+      "title": "Darius I consolidates Persian control over Egypt",
+      "region": "Egypt, Achaemenid Empire",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Following the Egyptian rebellion of 486 BCE (or possibly earlier revolts in the 490s), Darius I reasserted Persian control over Egypt and reorganized its administrative structure. Egypt was incorporated as a satrapy with Persian governors overseeing local Egyptian officials. This period saw the construction of the Suez Canal precursor (the canal connecting the Nile to the Red Sea, begun under earlier dynasties and completed or restored under Persian rule). The integration of Egypt into the Achaemenid administrative system was a major consolidation of Persian imperial power.",
+      "key_figures": [
+        "Darius I (King of Persia)",
+        "Egyptian local administrators"
+      ],
+      "sources": [
+        {
+          "name": "Herodotus, Histories",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Demotic Egyptian papyri",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Behistun Inscription",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The chronology of Egyptian revolts and Persian reconquest in the early Achaemenid period is uncertain. Herodotus places major Egyptian rebellion in 486 BCE under Xerxes, but earlier disturbances may have occurred. The exact date of administrative reorganization in 589 BCE is approximate; this event may belong to the broader period of 490\u2013480 BCE.",
+      "cross_references": [
+        "Part of broader Achaemenid imperial consolidation (c. 520\u2013480 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Jerusalem siege's commencement is disputed. While the Babylonian Chronicles and most modern scholarship place the siege's beginning in 589 BCE, some scholars argue for 588 BCE based on alternative chronological reconstructions. The significance of the siege as a watershed moment in Jewish history is universally accepted, but the precise sequence of events during the 18-month siege remains partially reconstructed from later sources rather than contemporary documentation. The extent of Persian administrative change in Egypt in 589 BCE specifically is uncertain; the broader consolidation occurred across several decades.",
+  "historiographic_note": "The historical record for 589 BCE is heavily weighted toward the Near East (Babylon, Judah, Persia) due to cuneiform and Hebrew textual traditions. Egyptian sources exist but are less frequently cited in Western historiography. Greek sources (Herodotus) are later and sometimes unreliable for Near Eastern chronology. Chinese sources for this period are more abundant but rarely synchronized with Western chronologies in modern scholarship. The siege of Jerusalem is well-attested but filtered through religious and later Jewish historiographic traditions that emphasize theological significance over military detail. Sub-Saharan African, Mesoamerican, and Northern European events are essentially absent from the historical record for this year.",
+  "graph_edges": [
+    {
+      "from": "-589-001",
+      "to": "-586-001",
+      "relation": "led_to",
+      "note": "The siege that began in 589 BCE culminated in the fall of Jerusalem and destruction of the First Temple in 586 BCE"
+    },
+    {
+      "from": "-589-001",
+      "to": "-597-001",
+      "relation": "caused_by",
+      "note": "Continuation of Babylonian pressure on Judah following the earlier deportation of 597 BCE"
+    },
+    {
+      "from": "-589-002",
+      "to": "-480-001",
+      "relation": "part_of",
+      "note": "Part of broader Achaemenid imperial consolidation and administrative reorganization"
+    }
+  ]
+}

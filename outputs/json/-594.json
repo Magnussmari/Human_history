@@ -1,0 +1,91 @@
+{
+  "year": -594,
+  "year_label": "594 BCE",
+  "era_context": "The Archaic period in Greece; the early Iron Age in the Mediterranean and Near East. Athens is transitioning from aristocratic rule toward democratic reform under Solon. The Neo-Babylonian Empire under Nebuchadnezzar II dominates Mesopotamia. In China, the Spring and Autumn period continues with competing states; in India, the Vedic period is giving way to the Upanishadic age and early Mahajanapadas.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe beyond Greek and Roman contact zones",
+    "Oceania and Pacific regions",
+    "Mesoamerica (limited synchronous documentation)"
+  ],
+  "events": [
+    {
+      "id": "-594-001",
+      "title": "Solon's Archonship and Seisachtheia (Debt Cancellation) in Athens",
+      "region": "Attica, Greece",
+      "coordinates_approx": "37.97, 23.73",
+      "category": "political | legal | economic",
+      "description": "Solon, appointed archon of Athens, implements sweeping economic and social reforms to resolve a severe debt crisis and prevent civil conflict. He cancels debts (seisachtheia), frees those enslaved for debt, and redistributes land. These reforms lay the foundation for later Athenian democracy by breaking the power of the landed aristocracy and creating a broader citizen base. The reforms are traditionally dated to 594 BCE, though some scholars place them slightly later (c. 592\u2013590 BCE).",
+      "key_figures": [
+        "Solon (archon and reformer)"
+      ],
+      "sources": [
+        {
+          "name": "Aristotle, Constitution of the Athenians (Athenian Constitution)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Solon",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Solon's own elegiac poetry (fragments preserved in later sources)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The date 594 BCE is traditional and widely accepted, but ancient sources themselves show uncertainty. Aristotle gives 594 BCE; some modern scholars argue for 592\u2013590 BCE based on synchronisms with other events. The reforms themselves are well-attested; the precise year is less certain.",
+      "cross_references": [
+        "Relates to the broader development of Athenian democracy, which culminates in -507 (Cleisthenes' reforms)"
+      ]
+    },
+    {
+      "id": "-594-002",
+      "title": "Nebuchadnezzar II's Campaigns in the Levant",
+      "region": "Mesopotamia, Levant, Syria-Palestine",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "military | political",
+      "description": "Nebuchadnezzar II, king of the Neo-Babylonian Empire, continues military campaigns to consolidate Babylonian control over the Levant and Syria. These campaigns are part of his broader strategy to establish Babylonian hegemony in the region and secure trade routes. The campaigns lead to the subjugation of various Levantine kingdoms and the imposition of Babylonian tribute.",
+      "key_figures": [
+        "Nebuchadnezzar II (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicles (cuneiform tablets)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Biblical accounts (2 Kings, Jeremiah)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Nebuchadnezzar's reign and military campaigns are well-documented in cuneiform sources. The specific events of 594 BCE are less precisely dated in the sources; this year falls within his known period of Levantine campaigns (605\u2013562 BCE).",
+      "cross_references": [
+        "Part of the broader Neo-Babylonian expansion; leads to the siege of Jerusalem in -587"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Solon's archonship has been disputed by modern scholars. While the traditional date is 594 BCE (following Aristotle), some scholars, including those using astronomical calculations and synchronisms with other events, argue for dates as late as 592 or 590 BCE. The ancient sources themselves (Aristotle, Plutarch) were written centuries after the events and may reflect later chronological conventions. No contemporary Athenian inscription or document definitively confirms the year 594 BCE for Solon's reforms.",
+  "historiographic_note": "For Athens, the record relies heavily on Aristotle's Constitution of the Athenians, written in the 4th century BCE, and Plutarch's biography, written in the 1st\u20132nd century CE. Both are far removed from the events and may conflate or reorder details. For Babylon, cuneiform sources are contemporary and reliable, but they focus on royal ideology and military campaigns, not economic or social conditions. The perspective is elite and court-centered. For other regions (India, China), synchronous documentation is sparse or absent from Greek and Near Eastern sources.",
+  "graph_edges": [
+    {
+      "from": "-594-001",
+      "to": "-507-001",
+      "relation": "led_to",
+      "note": "Solon's reforms establish the legal and social framework that Cleisthenes later builds upon to create democratic institutions"
+    },
+    {
+      "from": "-594-002",
+      "to": "-587-001",
+      "relation": "led_to",
+      "note": "Nebuchadnezzar's Levantine campaigns culminate in the siege and destruction of Jerusalem"
+    }
+  ]
+}

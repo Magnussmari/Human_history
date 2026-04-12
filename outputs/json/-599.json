@@ -1,0 +1,90 @@
+{
+  "year": -599,
+  "year_label": "599 BCE",
+  "era_context": "Late Archaic Greece; the Ionian cities of Asia Minor are under Persian suzerainty following Cyrus II's conquests (c. 546 BCE). In mainland Greece, the Athenian tyrant Peisistratos has recently died (c. 527 BCE), and his sons Hippias and Hipparchus rule Athens. Sparta is consolidating power in the Peloponnese. In the Near East, the Neo-Babylonian Empire under Nebuchadnezzar II dominates Mesopotamia and the Levant. In India, the early Vedic period is transitioning toward the Upanishadic age; the Buddha (Siddhartha Gautama) is traditionally dated to have been born around this time or slightly later, though dating remains disputed.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "East Asia beyond fragmentary Chinese sources",
+    "Mesoamerica (limited contemporary records)"
+  ],
+  "events": [
+    {
+      "id": "-599-001",
+      "title": "Traditional birth year of Siddhartha Gautama (Buddha) \u2014 disputed dating",
+      "region": "Shakya kingdom, Nepal/northern India border region",
+      "coordinates_approx": "27.6\u00b0N, 85.1\u00b0E",
+      "category": "religious",
+      "description": "Buddhist tradition places the birth of Siddhartha Gautama, who would become the Buddha, in this year or nearby (traditional date varies: 623, 563, 560, or 544 BCE depending on school and calculation method). Modern scholarship places his life somewhere in the 6th\u20135th centuries BCE, with no consensus on exact dates. His birth in the Shakya kingdom near present-day Lumbini marked the beginning of a life that would lead to the founding of Buddhism, one of the world's major religions. The uncertainty in dating reflects the legendary nature of early Buddhist biographical sources and the absence of contemporary documentary evidence.",
+      "key_figures": [
+        "Siddhartha Gautama (future Buddha)",
+        "Suddhodana (father, Shakya king)"
+      ],
+      "sources": [
+        {
+          "name": "Buddhist canonical texts (Pali Canon, Sanskrit texts); various schools preserve different chronologies",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ashoka's edicts (3rd century BCE) \u2014 mention the Buddha but do not provide birth date",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "No contemporary documentary or archaeological evidence for the Buddha's birth date exists. Buddhist texts were compiled centuries after the events they describe. Modern scholars debate whether the Buddha lived in the 6th or 5th century BCE; this year is one of several traditional dates. The legendary status reflects the mythological elaboration in Buddhist sources.",
+      "cross_references": []
+    },
+    {
+      "id": "-599-002",
+      "title": "Nebuchadnezzar II's reign continues; consolidation of Neo-Babylonian power",
+      "region": "Mesopotamia, Levant, Egypt (contested)",
+      "coordinates_approx": "32.5\u00b0N, 44.4\u00b0E",
+      "category": "political",
+      "description": "Nebuchadnezzar II (r. 605\u2013562 BCE) continues his reign as king of the Neo-Babylonian Empire. By this year, he has already conquered Jerusalem (597 BCE), deported the Judean elite, and established Babylonian hegemony over the Levant. He is engaged in ongoing military campaigns and administrative consolidation. His reign represents the height of Babylonian power and cultural achievement, marked by monumental building projects (the Ishtar Gate, the Hanging Gardens \u2014 though their existence is debated) and the compilation of astronomical and mathematical knowledge.",
+      "key_figures": [
+        "Nebuchadnezzar II (king of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian Chronicles (cuneiform tablets, contemporary administrative records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Biblical books of Kings and Jeremiah (later compilation, but referencing contemporary events)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Josephus, Antiquities of the Jews (1st century CE compilation of earlier sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Nebuchadnezzar II's reign dates are well-established through Babylonian administrative records and astronomical diaries. His military campaigns and political consolidation are attested in multiple sources.",
+      "cross_references": [
+        "-597-001 (Jerusalem conquest)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Buddha's birth date is one of the most disputed dates in ancient history. No single year can be confidently assigned; modern scholarship ranges across a 79-year span (623\u2013544 BCE). Some scholars argue for a 5th-century BCE date based on comparative analysis with other early Indian texts and the Ashoka chronology, while others defend the traditional 6th-century date. The legendary elaboration in Buddhist texts (miraculous birth narratives, supernatural events) further complicates historical reconstruction. No archaeological evidence has definitively confirmed any specific birth location or date.",
+  "historiographic_note": "Documentation for this year is heavily skewed toward the Near East (Babylon, Levant) and Greece, where written records and later chronicles provide some framework. Indian sources are sparse and legendary. The dating of the Buddha exemplifies the challenge of ancient chronology: Buddhist tradition preserves a date, but modern scholarship cannot confirm it. Mesopotamian records are administrative and fragmentary. Greek sources for this period are largely lost; we rely on later compilations (Herodotus, Thucydides) written a century or more later. The absence of contemporary records for most of the world means that 'significant events' are heavily weighted toward literate civilisations with surviving archives.",
+  "graph_edges": [
+    {
+      "from": "-599-001",
+      "to": "-544-001",
+      "relation": "part_of",
+      "note": "Alternative traditional birth date for the Buddha; represents the range of uncertainty in Buddhist chronology"
+    },
+    {
+      "from": "-599-002",
+      "to": "-597-001",
+      "relation": "led_to",
+      "note": "Nebuchadnezzar's consolidation of power led to the conquest of Jerusalem two years later"
+    }
+  ]
+}
