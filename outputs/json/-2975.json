@@ -1,0 +1,85 @@
+{
+  "year": -2975,
+  "year_label": "2975 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Egypt; Old Kingdom Egypt under the Fifth Dynasty (c. 2494\u20132345 BCE). Mesopotamia in the Early Dynastic III period, with competing city-states in Sumer and Akkad. The Indus Valley Civilization is in its mature phase (c. 2600\u20131900 BCE). Writing systems are established in Egypt and Mesopotamia; monumental architecture dominates elite culture.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "East Asia beyond the Indus Valley (limited contemporary records)",
+    "The Americas (no written records; archaeological evidence sparse)"
+  ],
+  "events": [
+    {
+      "id": "-2975-001",
+      "title": "Reign of Pharaoh Nyuserre Ini (Fifth Dynasty Egypt)",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Nyuserre Ini ruled Egypt during the Fifth Dynasty, a period of continued monumental construction and solar temple building. His reign saw the construction of the Sun Temple at Abu Gorab and maintenance of Egypt's administrative and religious systems. The Fifth Dynasty marked a gradual shift in royal power dynamics, with increasing influence of the priesthood of Ra. Nyuserre's reign is attested through temple inscriptions, administrative records, and later king lists.",
+      "key_figures": [
+        "Nyuserre Ini (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Sun Temple inscriptions at Abu Gorab",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Nyuserre's reign is traditionally dated c. 2445\u20132421 BCE, placing 2975 BCE outside his documented rule. However, if this year falls within his reign by alternative chronologies, the dating uncertainty is \u00b110 years. The Turin King List provides reign lengths but was compiled in the 13th century BCE.",
+      "cross_references": []
+    },
+    {
+      "id": "-2975-002",
+      "title": "Indus Valley Civilization mature phase settlement activity",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.5, 68.5",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization was at its peak during this period, with large urban centers such as Harappa and Mohenjo-daro functioning as major trade and administrative hubs. Standardized weights, measures, and seals indicate organized commerce and possibly a centralized authority. The civilization's undeciphered script appears on seals and pottery. No monumental temples or palaces have been identified, suggesting a different social organization than contemporary Mesopotamian or Egyptian societies.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa and Mohenjo-daro (Marshall, Wheeler, and subsequent teams)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's mature phase is well-established archaeologically (c. 2600\u20131900 BCE). Absolute dating relies on radiocarbon calibration and stratigraphic correlation, with \u00b1100-year margins typical for this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional Egyptian chronology places Nyuserre Ini's reign c. 2445\u20132421 BCE, which does not overlap with 2975 BCE. Modern scholarship debates Egyptian Old Kingdom chronology, with some scholars proposing shorter or longer reign lengths. The Indus Valley Civilization's dating is debated: some scholars argue for a later start date (c. 2500 BCE) or earlier end date, though the mature phase c. 2600\u20131900 BCE is widely accepted. No specific events are reliably attested for the year 2975 BCE itself; this entry reflects era-level activity.",
+  "historiographic_note": "Documentation for 2975 BCE is minimal and indirect. Egyptian sources are primarily administrative records and later king lists compiled centuries after the events. The Indus Valley Civilization left no written historical narrative\u2014our knowledge derives entirely from archaeology. Mesopotamian records for this period are fragmentary. The surviving record is heavily weighted toward elite, monumental cultures; subsistence-level societies and non-literate regions are invisible. Chronological uncertainty of \u00b150\u2013100 years is standard for this era.",
+  "graph_edges": [
+    {
+      "from": "-2975-001",
+      "to": "-2974-001",
+      "relation": "part_of",
+      "note": "Continuation of Fifth Dynasty Egypt"
+    },
+    {
+      "from": "-2975-002",
+      "to": "-2900-001",
+      "relation": "part_of",
+      "note": "Indus Valley Civilization mature phase spans multiple centuries"
+    }
+  ]
+}

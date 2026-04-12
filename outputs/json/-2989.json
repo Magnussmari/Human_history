@@ -1,0 +1,85 @@
+{
+  "year": -2989,
+  "year_label": "2989 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. The Old Kingdom of Egypt is in its later phases (Dynasty 5\u20136 transition, c. 2494\u20132181 BCE). In Mesopotamia, the Early Dynastic III period is underway; city-states like Lagash, Umma, and Uruk are competing for regional dominance. The Indus Valley Civilisation is in its mature phase (c. 2600\u20131900 BCE). Writing systems are established in Egypt and Mesopotamia; monumental architecture is flourishing.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "Central Asia (limited contemporary documentation)",
+    "Oceania and the Pacific (no written records; archaeological evidence sparse)"
+  ],
+  "events": [
+    {
+      "id": "-2989-001",
+      "title": "Reign of Pepi II (or Neferkare) \u2014 Old Kingdom Egypt",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Pepi II, sixth pharaoh of Dynasty 6, is traditionally dated to have reigned for 64 years (c. 2278\u20132184 BCE by some chronologies, though this dating is disputed). By 2989 BCE, if this chronology is accepted, Pepi II would be in the middle of his reign. His long reign is associated with the gradual decline of central authority, increased power of provincial governors (nomarchs), and economic strain. The Old Kingdom's centralised state apparatus began fragmenting during this period, setting the stage for the First Intermediate Period.",
+      "key_figures": [
+        "Pepi II (Neferkare), Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho, Aegyptiaca (via Josephus and Eusebius)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Pepi II's reign length and absolute dating are highly disputed. The 64-year reign is likely legendary or exaggerated. Chronological systems (high, middle, low) place him anywhere from c. 2278\u20132184 BCE to c. 2250\u20132150 BCE. Assignment to 2989 BCE is speculative and depends on which chronological framework is adopted. Egyptian chronology for the Old Kingdom remains uncertain by \u00b1100\u2013200 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-2989-002",
+      "title": "Indus Valley Civilisation \u2014 Mature Phase Urban Centres",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilisation is at its height during the Mature Harappan phase (c. 2600\u20131900 BCE). Major urban centres such as Harappa, Mohenjo-daro, Dholavira, and Kalibangan are fully developed, with standardised weights, measures, and undeciphered script. Trade networks extend to Mesopotamia, the Persian Gulf, and Central Asia. The civilisation is characterised by planned urban layouts, advanced drainage systems, and a sophisticated administrative apparatus, though the nature of political organisation remains unclear.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus script seals and tablets",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Mature Harappan phase is well-established archaeologically. Absolute dating relies on radiocarbon calibration and stratigraphic correlation; the phase is dated c. 2600\u20131900 BCE with reasonable confidence (\u00b1100 years).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Pepi II's 64-year reign, as reported in later king lists, is widely considered legendary or exaggerated by modern Egyptologists. Some scholars argue for a much shorter reign (20\u201330 years). The absolute chronology of the Old Kingdom remains contested; different chronological systems (high, middle, low) can shift dates by 100\u2013200 years. The Indus Valley Civilisation's political structure and the nature of its collapse remain debated; no clear evidence of centralised kingship has been identified, contradicting assumptions of a unified state.",
+  "historiographic_note": "For 2989 BCE, documentation is extremely sparse and heavily dependent on later compilations and archaeological inference. Egyptian chronology relies on king lists written centuries or millennia after the events, combined with astronomical calculations and radiocarbon dating\u2014all of which have significant margins of error. The Indus Valley Civilisation left no deciphered written records of historical events; our knowledge comes entirely from material culture. Mesopotamian records for this specific year are not well-preserved. The historical record is heavily biased toward literate, monumental civilisations (Egypt, Mesopotamia, Indus Valley); vast regions of the world leave no written trace.",
+  "graph_edges": [
+    {
+      "from": "-2989-001",
+      "to": "-2181-001",
+      "relation": "led_to",
+      "note": "Pepi II's reign (if accurately dated) preceded the First Intermediate Period and the collapse of Old Kingdom centralised authority."
+    },
+    {
+      "from": "-2989-002",
+      "to": "-1900-001",
+      "relation": "part_of",
+      "note": "The Mature Harappan phase continued until c. 1900 BCE, when the civilisation began to decline."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "year": -2987,
+  "year_label": "2987 BCE",
+  "era_context": "Early Bronze Age III. Old Kingdom Egypt (Dynasty 6) continues its gradual decline. Mesopotamian Early Dynastic III period; city-state competition and warfare persist. The Indus Valley Civilisation remains in its Mature phase, with established urban centres and trade networks. This period is characterised by the coexistence of multiple literate civilisations with limited direct contact.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Oceania",
+    "East Asia",
+    "Mesoamerica and South America"
+  ],
+  "events": [
+    {
+      "id": "-2987-001",
+      "title": "Old Kingdom Egypt \u2014 Continued Decline of Central Authority",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "During the reign of Pepi II (or in the transition to his successors, depending on chronology), the Old Kingdom's centralised state apparatus continued to weaken. Provincial governors (nomarchs) accumulated power and resources, reducing the pharaoh's ability to command labour and tribute. Monumental construction projects declined. This period of gradual decentralisation set the stage for the First Intermediate Period (c. 2181\u20132055 BCE), when Egypt fragmented into competing regional powers. The causes of this decline are debated: climate change (Nile flood failures), economic exhaustion, or administrative overextension.",
+      "key_figures": [
+        "Pepi II (Neferkare), Pharaoh of Egypt (if reign extended to this year)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of provincial governors (e.g., Uni, Harkhuf)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Decline in monumental construction records",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho, Aegyptiaca",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The decline of Old Kingdom authority is well-documented archaeologically and epigraphically. The specific timing and causes remain debated. Assignment to 2987 BCE depends on chronological frameworks with \u00b1100\u2013200 year uncertainty.",
+      "cross_references": []
+    },
+    {
+      "id": "-2987-002",
+      "title": "Mesopotamian Early Dynastic III \u2014 Scribal and Administrative Development",
+      "region": "Mesopotamia (modern Iraq)",
+      "coordinates_approx": "32.0, 45.0",
+      "category": "technological",
+      "description": "During the Early Dynastic III period, cuneiform writing evolved from pictographic to increasingly abstract forms. Administrative texts (temple records, land transactions, labour assignments) became more standardised. The Akkadian language began to appear alongside Sumerian in official inscriptions. This period saw the development of more sophisticated bureaucratic systems to manage temple economies, labour forces, and trade. These administrative innovations were foundational to later Mesopotamian civilisation.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Cuneiform tablets from Lagash, Uruk, and other sites",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of temple complexes and administrative centres",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The development of cuneiform and administrative systems is well-documented through surviving tablets. The Early Dynastic III period is dated c. 2600\u20132334 BCE, with reasonable confidence.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The causes of Old Kingdom decline are disputed. Some scholars emphasise climate change (evidence from Nile flood records and paleoclimate data), while others stress administrative overextension or economic factors. The relative importance of these factors remains debated. The 'decline' narrative itself may be overstated; some regions of Egypt maintained prosperity and cultural continuity during this transition.",
+  "historiographic_note": "For 2987 BCE, documentation is sparse and unevenly distributed. Egyptian evidence comes from epigraphic sources (governor inscriptions) and archaeological inference (decline in construction). Mesopotamian evidence is richer, with thousands of cuneiform tablets providing detailed administrative records. The Indus Valley Civilisation is known only through material culture. The historical record is heavily skewed toward literate, monumental civilisations and administrative centres; rural populations, non-literate societies, and most of the world's regions are essentially invisible.",
+  "graph_edges": [
+    {
+      "from": "-2987-001",
+      "to": "-2181-001",
+      "relation": "led_to",
+      "note": "The gradual decline of Old Kingdom authority during this period culminated in the First Intermediate Period."
+    },
+    {
+      "from": "-2987-002",
+      "to": "-2334-001",
+      "relation": "led_to",
+      "note": "Administrative and scribal developments in Early Dynastic III laid the groundwork for the Akkadian Empire."
+    }
+  ]
+}

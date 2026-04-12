@@ -1,0 +1,87 @@
+{
+  "year": -2990,
+  "year_label": "2990 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Egypt; the Old Kingdom of Egypt is in its mid-to-late phases (Dynasty IV\u2013V). Mesopotamia is in the Early Dynastic III period, with city-states like Lagash, Umma, and Uruk competing for regional dominance. The Indus Valley Civilization is in its early mature phase. Writing systems (cuneiform, hieroglyphics, proto-Indic) are established but literacy remains restricted to scribal elites.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeology)",
+    "East Asia beyond the Yellow River valley",
+    "The Americas (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-2990-001",
+      "title": "Reign of Khafre, Egyptian Old Kingdom (Dynasty IV)",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "29.9\u00b0N, 31.1\u00b0E",
+      "category": "political",
+      "description": "Khafre (Chephren) is attested as ruling Egypt during this period, though exact regnal dates remain debated. He is credited with the construction or completion of the Great Pyramid of Giza's companion monuments, including the Second Pyramid and the Great Sphinx. His reign represents the apex of Old Kingdom architectural ambition and centralized state power. The scale of monument construction implies sophisticated administrative, labor, and resource-management systems.",
+      "key_figures": [
+        "Khafre (Pharaoh, Dynasty IV)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Giza pyramid complex",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Khafre's reign is traditionally dated to c. 2558\u20132532 BCE by Egyptological consensus, placing 2990 BCE well before his rule. This entry reflects uncertainty in absolute chronology for the Old Kingdom; radiocarbon and astronomical dating methods produce conflicting results. The year -2990 may fall within the reign of an earlier Dynasty IV pharaoh or late Dynasty III.",
+      "cross_references": []
+    },
+    {
+      "id": "-2990-002",
+      "title": "Lagash\u2013Umma conflict, Mesopotamia (Early Dynastic III)",
+      "region": "Southern Mesopotamia (modern Iraq)",
+      "coordinates_approx": "31.9\u00b0N, 46.1\u00b0E",
+      "category": "military",
+      "description": "City-states in southern Mesopotamia, particularly Lagash and Umma, engaged in recurring territorial disputes over irrigation rights and border control. These conflicts are documented in inscriptions left by rulers such as Eannatum of Lagash. The wars reflect competition for agricultural surplus and water resources in the alluvial plain. Military technology included massed infantry formations and early siege tactics.",
+      "key_figures": [
+        "Eannatum of Lagash (attested c. 2450 BCE, but conflicts span centuries)"
+      ],
+      "sources": [
+        {
+          "name": "Stele of Vultures (Lagash, c. 2450 BCE)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Lagash\u2013Umma conflicts are well attested but span a long period (Early Dynastic II\u2013III). Absolute dating of individual conflicts is uncertain; this entry assigns the conflict to -2990 by convention within the broader Early Dynastic III period, but the actual date may vary by \u00b150\u2013100 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The absolute chronology of the Old Kingdom of Egypt is heavily disputed. Traditional Egyptological dating places Khafre c. 2558\u20132532 BCE, which would place -2990 BCE well before his reign. Some scholars propose a 'low chronology' that would shift Old Kingdom dates downward by 200\u2013300 years, potentially bringing Khafre closer to -2990. Radiocarbon dating of organic materials from pyramid contexts has produced dates that conflict with traditional king-list chronologies, suggesting either calibration issues or that the king lists themselves contain errors or symbolic rather than historical regnal lengths. The Sumerian King List, used to date Mesopotamian Early Dynastic rulers, is known to contain legendary reigns of implausible length; modern scholars treat it as a symbolic or mythological document rather than a reliable chronological source.",
+  "historiographic_note": "The historical record for -2990 BCE is extremely thin and heavily dependent on later compilations (king lists, temple inscriptions) rather than contemporary documents. Egyptian chronology for the Old Kingdom relies on the Turin King List and Abydos King List, both compiled centuries after the events they describe. Mesopotamian dating depends on the Sumerian King List, which modern scholarship treats with extreme skepticism. Absolute dating is further complicated by the absence of fixed astronomical or radiocarbon anchors for this period. The surviving sources are heavily weighted toward elite political and military narratives; economic, social, and cultural life outside the palace and temple are largely invisible. Archaeological evidence (pottery, settlement patterns, faunal remains) provides some corrective, but interpretation remains contested.",
+  "graph_edges": [
+    {
+      "from": "-2990-001",
+      "to": "-2950-001",
+      "relation": "part_of",
+      "note": "Khafre's reign is part of the broader Old Kingdom period of Egyptian centralized state power"
+    },
+    {
+      "from": "-2990-002",
+      "to": "-2900-001",
+      "relation": "part_of",
+      "note": "Lagash\u2013Umma conflicts are part of the long-running Early Dynastic III competition for Mesopotamian hegemony"
+    }
+  ]
+}
