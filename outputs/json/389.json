@@ -1,0 +1,111 @@
+{
+  "year": 389,
+  "year_label": "389 BCE",
+  "era_context": "Continuation of the Classical Greek period and early 4th century BCE. The Corinthian War remains active; Sparta continues to assert hegemony over Greece despite opposition from Thebes, Athens, and Corinth. Rome is recovering from the Gallic sack and consolidating its position in Latium. The Persian Achaemenid Empire under Artaxerxes II is stabilizing after internal conflicts and the Anabasis of Cyrus the Younger.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Mesoamerica and South America",
+    "Detailed records from most of the Mediterranean beyond Greece and Rome"
+  ],
+  "events": [
+    {
+      "id": "389-001",
+      "title": "Corinthian War: continued military campaigns",
+      "region": "Greece, Corinth, Thebes, Attica",
+      "coordinates_approx": "38.5\u00b0N, 23.5\u00b0E",
+      "category": "military",
+      "description": "The Corinthian War continued with ongoing campaigns between Spartan forces and the anti-Spartan coalition (Thebes, Corinth, Athens, Argos). Naval operations in the Aegean and land campaigns in central Greece characterized this year. Persian financial support for anti-Spartan factions remained a key factor in sustaining the conflict. The war was approaching its resolution through diplomatic negotiation.",
+      "key_figures": [
+        "Agesilaus II (Spartan king)",
+        "Epaminondas (Theban general)",
+        "Conon (Athenian admiral)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Hellenica",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Xenophon's near-contemporary account confirms the continuation of the Corinthian War through this period.",
+      "cross_references": [
+        "Part of the Corinthian War (395\u2013387 BCE)",
+        "Preceded by 390-003"
+      ]
+    },
+    {
+      "id": "389-002",
+      "title": "Athenian naval operations in the Aegean",
+      "region": "Athens, Aegean Sea",
+      "coordinates_approx": "37.9\u00b0N, 23.7\u00b0E",
+      "category": "military",
+      "description": "Athens, supported by Persian gold, conducted naval operations in the Aegean to challenge Spartan naval dominance and support allied cities. These operations were part of the broader Corinthian War strategy to weaken Spartan hegemony. Athenian naval power, though diminished from its 5th-century peak, remained significant in regional politics.",
+      "key_figures": [
+        "Conon (Athenian admiral)",
+        "Artaxerxes II (Persian Great King, financial supporter)"
+      ],
+      "sources": [
+        {
+          "name": "Xenophon, Hellenica",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Diodorus Siculus, Bibliotheca historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Athenian naval activity during the Corinthian War is attested in sources, though specific operations in 389 BCE are not always clearly distinguished from adjacent years.",
+      "cross_references": [
+        "Part of the Corinthian War (395\u2013387 BCE)",
+        "Related to Persian support for anti-Spartan factions"
+      ]
+    },
+    {
+      "id": "389-003",
+      "title": "Roman consolidation in Latium and conflict with neighboring tribes",
+      "region": "Latium, Rome, Italy",
+      "coordinates_approx": "41.9\u00b0N, 12.5\u00b0E",
+      "category": "political",
+      "description": "Following the Gallic sack of 390 BCE, Rome was consolidating its position within the Latin League and managing relations with neighboring Italic tribes. This period saw Roman military reorganization and the beginning of Rome's gradual expansion beyond Latium. Specific military campaigns in 389 BCE are poorly documented, but the general trajectory of Roman consolidation and expansion is clear from later sources.",
+      "key_figures": [
+        "Camillus (Roman military leader and statesman, though his exact activities in 389 BCE are unclear)"
+      ],
+      "sources": [
+        {
+          "name": "Livy, History of Rome (Ab urbe condita)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general context of Roman consolidation is clear, but specific events in 389 BCE are not well-documented. Livy's account is written centuries after the fact and may conflate or misdate events.",
+      "cross_references": [
+        "Follows from the Gallic sack of 390 BCE",
+        "Part of Rome's gradual expansion in the 4th century BCE"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for events listed. However, the sparse documentation for Roman activities in 389 BCE reflects a broader historiographic problem: Roman history of the 4th century BCE is poorly attested, and much of what Livy reports may be legendary or misplaced chronologically. The Corinthian War is well-attested, but specific campaigns in individual years are sometimes difficult to distinguish in the sources.",
+  "historiographic_note": "The historical record for 389 BCE is dominated by Greek sources, particularly Xenophon's Hellenica, which provides a near-contemporary but Athenian-centric perspective. Roman history of this period is almost entirely dependent on Livy, written centuries later, and is therefore inherently unreliable for specific events and dates. Persian sources are minimal. The record is heavily weighted toward Greece and Rome; the broader Mediterranean, Near East, and all other regions are underrepresented or absent.",
+  "graph_edges": [
+    {
+      "from": "389-001",
+      "to": "387-002",
+      "relation": "led_to",
+      "note": "The Corinthian War continued toward its resolution in the King's Peace of 387 BCE"
+    },
+    {
+      "from": "389-003",
+      "to": "390-001",
+      "relation": "caused_by",
+      "note": "Roman consolidation followed the Gallic sack of 390 BCE"
+    }
+  ]
+}
