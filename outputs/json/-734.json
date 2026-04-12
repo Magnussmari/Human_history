@@ -1,0 +1,113 @@
+{
+  "year": -734,
+  "year_label": "734 BCE",
+  "era_context": "The Neo-Assyrian Empire under Tiglath-Pileser III is in its expansionist phase. In the Levant, Assyrian pressure on Syrian and Palestinian states is increasing. In Greece, the Archaic period continues. In China, the Spring and Autumn period sees ongoing state fragmentation.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-734-001",
+      "title": "Tiglath-Pileser III's campaign against Damascus and the Levantine coalition (earliest dating)",
+      "region": "Syria, Levant; Neo-Assyrian Empire",
+      "coordinates_approx": "33.5, 36.3",
+      "category": "military",
+      "description": "Some scholars date Tiglath-Pileser III's major campaign against Damascus and its allies to 734 BCE, making it the earliest of the proposed dates. This campaign results in the subjugation of Damascus and the imposition of tribute on Israel and other Levantine states. The campaign is a turning point in Levantine history, establishing Assyrian hegemony over the region. The exact year is debated among scholars, with estimates ranging from 734\u2013732 BCE.",
+      "key_figures": [
+        "Tiglath-Pileser III (King of Assyria)",
+        "Rezin of Damascus (King of Aram)",
+        "Ahaz of Judah (King of Judah, though his reign may not have begun by 734 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Tiglath-Pileser III (cuneiform inscriptions)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Hebrew Bible, 2 Kings 16, Isaiah 7",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Tiglath-Pileser III's annals are contemporary but do not always provide precise year-by-year dating. The campaign against Damascus is confirmed, but the exact year is debated (estimates range from 734\u2013732 BCE). Different scholarly traditions place it in different years.",
+      "cross_references": [
+        "Related to -733-001 and -732-001 (may be the same event with alternative dating)",
+        "Precedes the fall of Israel in -722 BCE"
+      ]
+    },
+    {
+      "id": "-734-002",
+      "title": "Possible early development of the Greek alphabet or adoption of Phoenician script",
+      "region": "Greece",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "cultural",
+      "description": "During the 8th century BCE, Greek city-states adopt and adapt the Phoenician alphabet, creating the Greek alphabet. This development is crucial for the spread of literacy and the recording of Greek literature. The exact dating of this adoption is uncertain, but it likely occurred during the 8th century BCE, with some scholars placing it as early as 800 BCE and others as late as 750 BCE. By 734 BCE, the Greek alphabet may already be in use, though widespread adoption likely occurred later.",
+      "key_figures": [
+        "Unknown Greek innovators (no contemporary names recorded)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Greek sites (inscriptions, pottery)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Later Greek sources (Herodotus) on the origins of the alphabet",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Archaeological evidence (inscriptions on pottery and other objects) confirms the adoption of the Greek alphabet during the 8th century BCE. The exact year 734 BCE is conventional; the adoption likely occurred gradually over several decades.",
+      "cross_references": [
+        "Part of broader Archaic Greek cultural development",
+        "Precedes the widespread use of writing in Greek literature"
+      ]
+    },
+    {
+      "id": "-734-003",
+      "title": "Spring and Autumn period: State competition and diplomatic activity in China",
+      "region": "China",
+      "coordinates_approx": "35.0, 110.0",
+      "category": "political",
+      "description": "The Spring and Autumn Annals records various diplomatic and military activities among Chinese states during this period. Specific events for 734 BCE are difficult to isolate, but the general trend is continued fragmentation of Zhou authority and competition among regional states. States like Qi, Jin, Chu, and Qin are expanding their territories and conducting independent foreign policy.",
+      "key_figures": [
+        "Various regional lords (specific names uncertain for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Spring and Autumn Annals (Chunqiu)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Spring and Autumn Annals provides a framework, but specific events for 734 BCE are not clearly distinguished in surviving sources.",
+      "cross_references": [
+        "Part of broader Spring and Autumn period"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Tiglath-Pileser III's campaign against Damascus is highly debated. Different scholarly traditions place it in 734, 733, or 732 BCE. The Assyrian annals do not provide precise year-by-year dating, and the Hebrew Bible's account is retrospective. The adoption of the Greek alphabet is not tied to a specific year; it occurred gradually over the 8th century BCE, with different regions adopting it at different times. The exact year 734 BCE is conventional rather than archaeologically confirmed.",
+  "historiographic_note": "The historical record for 734 BCE is dominated by Assyrian sources, which are contemporary but do not always provide precise dating. The Hebrew Bible provides a Judean perspective but is not contemporary. Greek sources on the alphabet are retrospective and may reflect later biases. Chinese sources (Spring and Autumn Annals) are structured as a chronicle but are not contemporary. The record is heavily weighted toward military and political events; economic, social, and cultural developments are underrepresented. The dating of events is often uncertain by \u00b11\u20132 years.",
+  "graph_edges": [
+    {
+      "from": "-734-001",
+      "to": "-733-001",
+      "relation": "contradicts",
+      "note": "Alternative dating of the same campaign; scholars debate whether it occurred in 734, 733, or 732 BCE"
+    },
+    {
+      "from": "-734-002",
+      "to": "-700-GREEK_LITERACY",
+      "relation": "led_to",
+      "note": "Adoption of the Greek alphabet enables the recording and spread of Greek literature"
+    }
+  ]
+}

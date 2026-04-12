@@ -1,0 +1,114 @@
+{
+  "year": -731,
+  "year_label": "731 BCE",
+  "era_context": "Continuation of the Neo-Assyrian expansion under Tiglath-Pileser III. In the Levant, Syrian and Palestinian states face increasing Assyrian pressure. In Greece, the Archaic period continues with city-state development and early colonisation. In China, the Spring and Autumn period sees ongoing state fragmentation.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Central Asia (limited written sources)"
+  ],
+  "events": [
+    {
+      "id": "-731-001",
+      "title": "Tiglath-Pileser III's continued siege or consolidation of Arpad",
+      "region": "Syria; Neo-Assyrian Empire",
+      "coordinates_approx": "36.2, 36.8",
+      "category": "military",
+      "description": "The siege of Arpad, which may have begun in 740 BCE or earlier, continues or concludes around this time. Tiglath-Pileser III's annals record a multi-year campaign against Arpad and its allies. The exact chronology is debated, but by 731 BCE, Assyrian forces are consolidating control over northern Syria. The fall of Arpad marks a major shift in the balance of power in the Levant, establishing Assyria as the dominant regional power.",
+      "key_figures": [
+        "Tiglath-Pileser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Tiglath-Pileser III",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The annals of Tiglath-Pileser III are contemporary but do not always provide precise year-by-year dating. The siege of Arpad is confirmed, but the exact year of its conclusion is debated among scholars (estimates range from 740\u2013730 BCE).",
+      "cross_references": [
+        "Continuation of -730-001"
+      ]
+    },
+    {
+      "id": "-731-002",
+      "title": "Possible Spartan military reforms or early hoplite development",
+      "region": "Sparta, Greece",
+      "coordinates_approx": "37.1, 22.4",
+      "category": "military",
+      "description": "During the Archaic period, Sparta undergoes military and social reforms that establish it as a martial power. The exact dating of these reforms is uncertain, but by the 8th\u20137th centuries BCE, Sparta is developing the hoplite phalanx system and establishing a militarised society. These reforms are traditionally attributed to the legendary lawgiver Lycurgus, but modern scholarship dates them to the Archaic period more broadly. The reforms include the creation of a citizen-soldier class and the subordination of the helot (serf) population.",
+      "key_figures": [
+        "Lycurgus (legendary lawgiver; historical existence and dating disputed)"
+      ],
+      "sources": [
+        {
+          "name": "Plutarch, Life of Lycurgus",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Xenophon, Constitution of the Lacedaemonians",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Sparta (pottery, settlement patterns)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "The reforms attributed to Lycurgus are legendary or semi-legendary. Modern scholarship suggests they occurred gradually over the Archaic period rather than at a specific moment. No contemporary sources confirm reforms in 731 BCE specifically.",
+      "cross_references": [
+        "Part of broader Archaic Greek development; precedes Spartan dominance in the Classical period"
+      ]
+    },
+    {
+      "id": "-731-003",
+      "title": "Spring and Autumn period: Continued state fragmentation in China",
+      "region": "China",
+      "coordinates_approx": "35.0, 110.0",
+      "category": "political",
+      "description": "The Spring and Autumn Annals records various diplomatic and military activities among Chinese states during this period. Specific events for 731 BCE are difficult to isolate, but the general trend is continued fragmentation of Zhou authority and consolidation of regional power. States like Qi, Jin, Chu, and Qin are expanding their territories and conducting independent foreign policy.",
+      "key_figures": [
+        "Various regional lords (specific names uncertain for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Spring and Autumn Annals (Chunqiu)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Shiji by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Spring and Autumn Annals provides a framework, but specific events for 731 BCE are not clearly distinguished from surrounding years in surviving sources.",
+      "cross_references": [
+        "Part of broader Spring and Autumn period"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Spartan reforms is highly disputed. Plutarch's attribution of reforms to Lycurgus is considered legendary by modern scholars. The actual development of Spartan military institutions likely occurred gradually over the 8th\u20137th centuries BCE rather than at a specific moment. No contemporary evidence confirms Spartan reforms in 731 BCE. The Arpad campaign dating is also debated; some scholars place the siege's conclusion earlier (740 BCE) or later (720 BCE).",
+  "historiographic_note": "For 731 BCE, the historical record is heavily dependent on later compilations and retrospective accounts. Assyrian sources remain the most reliable, but even they do not provide precise year-by-year dating for all events. Greek sources are sparse and legendary. Chinese sources (Spring and Autumn Annals) are structured as a year-by-year chronicle but are not contemporary and may reflect later editorial work. The record is biased toward military and political events; economic, social, and cultural developments are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-731-001",
+      "to": "-730-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of Arpad campaign from previous year"
+    },
+    {
+      "from": "-731-002",
+      "to": "-500-SPARTAN_DOMINANCE",
+      "relation": "led_to",
+      "note": "Archaic military reforms establish foundation for Spartan power in Classical period"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "year": -745,
+  "year_label": "745 BCE",
+  "era_context": "The mid-8th century BCE marks the height of the Assyrian Empire under Tiglath-Pileser III's military reforms and expansionist campaigns. In the Mediterranean, Greek city-states are consolidating power and beginning colonial expansion. In China, the Zhou Dynasty is fragmenting into the Spring and Autumn Period. In India, the Vedic period is transitioning toward the formation of early kingdoms.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (Maya records exist but are sparse for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-745-001",
+      "title": "Tiglath-Pileser III's Military Campaigns in Syria and Palestine",
+      "region": "Assyrian Empire, Syria, Levant",
+      "coordinates_approx": "35.5, 36.0",
+      "category": "military",
+      "description": "Tiglath-Pileser III, having consolidated power in Assyria around 745 BCE, launches systematic military campaigns to expand Assyrian dominion over Syria and the Levantine states. These campaigns establish the foundation for Assyrian hegemony in the Near East and introduce new military tactics including mass deportation policies to prevent rebellion. The campaigns are documented in Assyrian royal inscriptions and represent a turning point in Near Eastern geopolitics, establishing Assyria as the dominant regional power for the next century.",
+      "key_figures": [
+        "Tiglath-Pileser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Tiglath-Pileser III (cuneiform inscriptions from Kalhu/Nimrud)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Assyrian palace reliefs and administrative records",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Tiglath-Pileser III's reign is well-documented in contemporary Assyrian royal inscriptions. The exact year 745 BCE is the conventional dating of his accession and initial campaigns, though some sources place the beginning of his reign at 747 BCE.",
+      "cross_references": [
+        "-744-001",
+        "-743-001"
+      ]
+    },
+    {
+      "id": "-745-002",
+      "title": "Possible Eruption of Mount Etna",
+      "region": "Sicily, Mediterranean",
+      "coordinates_approx": "37.73, 15.00",
+      "category": "environmental",
+      "description": "Ancient sources, particularly later Greek historians, record a major eruption of Mount Etna around this period. The eruption may have caused significant disruption to early Greek settlements in Sicily, though the precise dating is uncertain. This event is relevant to understanding early Greek colonization patterns in the western Mediterranean.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Later Greek historians (Strabo, Diodorus Siculus) citing earlier sources",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Geological evidence from Etna stratigraphy",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ancient sources are inconsistent about the dating of Etna eruptions. Geological evidence suggests major activity in the mid-8th century BCE, but precise dating within a single year is not possible.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact year of Tiglath-Pileser III's accession is debated among scholars. Some sources place it at 747 BCE rather than 745 BCE, which would shift the dating of his early campaigns. The significance of the Etna eruption to Greek colonization is also disputed; some scholars argue that volcanic activity had minimal impact on settlement patterns compared to economic and political factors.",
+  "historiographic_note": "Documentation for this year is heavily weighted toward Assyrian sources, which are abundant and contemporary. Greek sources for this period are sparse and often transmitted through much later compilations. There is a significant bias toward Near Eastern and Mediterranean history; events in China, India, and other regions are less well-documented in surviving sources. The Assyrian record is also inherently propagandistic, emphasizing military victories and royal authority.",
+  "graph_edges": [
+    {
+      "from": "-745-001",
+      "to": "-744-001",
+      "relation": "led_to",
+      "note": "Tiglath-Pileser III's campaigns continue in subsequent years, establishing Assyrian dominance"
+    },
+    {
+      "from": "-745-001",
+      "to": "concept: Assyrian_Expansion",
+      "relation": "part_of",
+      "note": "Part of broader Assyrian imperial expansion in the 8th century BCE"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "year": -727,
+  "year_label": "727 BCE",
+  "era_context": "Shalmaneser V is in the third year of his reign. The Tyre siege is ongoing or nearing completion. In Israel, King Hoshea is under increasing Assyrian pressure and will soon attempt to break free. Greece continues its Archaic development. Egypt remains politically fragmented. China's Spring and Autumn period is well underway.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Greece (no specific events documented)",
+    "Egypt (limited sources)",
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe"
+  ],
+  "events": [
+    {
+      "id": "-727-001",
+      "title": "Hoshea of Israel becomes tributary to Assyria",
+      "region": "Kingdom of Israel (Levant)",
+      "coordinates_approx": "32.5, 35.5",
+      "category": "political",
+      "description": "Hoshea, King of Israel, submits to Assyrian overlordship under Shalmaneser V and becomes a tributary vassal. This submission follows Assyrian military pressure and the fate of neighbouring states. Hoshea will later attempt to break free by seeking Egyptian support, leading to renewed Assyrian invasion. The exact date of Hoshea's accession is debated (some sources place it at 732 BCE), but his tributary status to Shalmaneser V is established by this period.",
+      "key_figures": [
+        "Hoshea (King of Israel)",
+        "Shalmaneser V (Assyrian overlord)"
+      ],
+      "sources": [
+        {
+          "name": "2 Kings 17:1\u20133 (Hebrew Bible)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Assyrian royal inscriptions (fragmentary references)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hoshea's tributary status is confirmed, but the exact year of his accession and submission is uncertain. Biblical sources and Assyrian records differ slightly in chronology. 727 BCE is a conventional placement within the known period of Assyrian pressure.",
+      "cross_references": [
+        "-722-001 (Fall of Samaria, end of Hoshea's reign)"
+      ]
+    },
+    {
+      "id": "-727-002",
+      "title": "Tyre siege continues or concludes",
+      "region": "Phoenicia (Levant)",
+      "coordinates_approx": "33.27, 35.19",
+      "category": "military",
+      "description": "The Assyrian siege of Tyre, initiated in 729 BCE, continues into its third year. Some sources suggest the siege may have concluded by this year, with Tyre submitting to Assyrian tributary status. The exact end date is uncertain, with scholarly estimates ranging from 727 to 724 BCE. The siege represents a major Assyrian military achievement and consolidation of Levantine control.",
+      "key_figures": [
+        "Shalmaneser V (Assyrian commander)",
+        "Luli (King of Tyre, traditional attribution)"
+      ],
+      "sources": [
+        {
+          "name": "Josephus, Against Apion",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Assyrian royal inscriptions (fragmentary)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The duration and conclusion of the Tyre siege are debated. Josephus provides a five-year duration (729\u2013724 BCE), but Assyrian records are fragmentary. 727 BCE is a conventional midpoint in the siege period.",
+      "cross_references": [
+        "-729-002 (Siege initiation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Hoshea's accession and tributary submission is disputed. Some scholars place Hoshea's reign beginning in 732 BCE (under Tiglath-Pileser III), while others place it at 729 or 727 BCE. The biblical account in 2 Kings 17 is not entirely consistent with Assyrian chronology. The exact conclusion date of the Tyre siege is also contested, with some sources placing it as late as 724 BCE.",
+  "historiographic_note": "Documentation for 727 BCE is sparse and relies heavily on later compilations (Josephus, biblical texts) and fragmentary Assyrian records. The biblical account of Hoshea's reign is theologically framed and may not preserve precise chronological information. Assyrian records are propagandistic and focus on imperial achievements rather than vassal states' internal politics. The year-by-year reconstruction for this period is inherently uncertain.",
+  "graph_edges": [
+    {
+      "from": "-727-001",
+      "to": "-722-001",
+      "relation": "led_to",
+      "note": "Hoshea's tributary status and later rebellion lead to the fall of Samaria"
+    },
+    {
+      "from": "-727-002",
+      "to": "-729-002",
+      "relation": "part_of",
+      "note": "Continuation of the Tyre siege campaign"
+    }
+  ]
+}

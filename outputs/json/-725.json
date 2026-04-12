@@ -1,0 +1,83 @@
+{
+  "year": -725,
+  "year_label": "725 BCE",
+  "era_context": "Shalmaneser V is in the final year of his reign (he will die in 722 BCE). The Tyre siege has recently concluded. Israel remains under Assyrian tributary control, though Hoshea is beginning to consider rebellion. In Greece, the Archaic period continues with the development of the polis system. Egypt is fragmented. China's Spring and Autumn period is well underway.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Greece (no specific events documented)",
+    "Egypt (limited sources)",
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe"
+  ],
+  "events": [
+    {
+      "id": "-725-001",
+      "title": "Shalmaneser V consolidates Assyrian control in the Levant",
+      "region": "Levant (Syria, Palestine, Phoenicia)",
+      "coordinates_approx": "34.5, 36.0",
+      "category": "political",
+      "description": "Following the conclusion of the Tyre siege, Shalmaneser V consolidates Assyrian control over the Levant through administrative reorganisation and the establishment of tributary relationships. Vassal states, including Israel, Phoenicia, and Syria, are integrated into the Assyrian imperial system. This consolidation represents the culmination of Shalmaneser V's military campaigns and establishes the foundation for his successor's reign.",
+      "key_figures": [
+        "Shalmaneser V (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian King List and royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation of Assyrian control is inferred from the broader pattern of Shalmaneser V's reign and the known tributary relationships of Levantine states. No specific event is documented for 725 BCE itself.",
+      "cross_references": [
+        "-722-001 (End of Shalmaneser V's reign and fall of Samaria)"
+      ]
+    },
+    {
+      "id": "-725-002",
+      "title": "Hoshea of Israel begins to resist Assyrian overlordship",
+      "region": "Kingdom of Israel (Levant)",
+      "coordinates_approx": "32.5, 35.5",
+      "category": "political",
+      "description": "Hoshea, King of Israel, begins to resist Assyrian tributary demands and seeks alliances with Egypt to break free from Assyrian control. This resistance will lead to renewed Assyrian military intervention and ultimately the fall of Samaria in 722 BCE. The exact timing of Hoshea's rebellion is uncertain; some sources place it as early as 727 BCE, while others date it to 725 or later.",
+      "key_figures": [
+        "Hoshea (King of Israel)",
+        "Shalmaneser V (Assyrian overlord)"
+      ],
+      "sources": [
+        {
+          "name": "2 Kings 17:4\u20136 (Hebrew Bible)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Assyrian royal inscriptions (fragmentary references)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The timing of Hoshea's rebellion is debated. Biblical sources suggest it occurred during Shalmaneser V's reign, but the exact year is uncertain. 725 BCE is a conventional estimate based on the known chronology of Shalmaneser V's reign (726\u2013722 BCE).",
+      "cross_references": [
+        "-722-001 (Fall of Samaria, consequence of Hoshea's rebellion)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact timing of Hoshea's rebellion is disputed. Some scholars place it as early as 727 BCE (immediately after his accession), while others date it to 725 or even 724 BCE. The biblical account in 2 Kings 17 is not entirely consistent with Assyrian chronology and may conflate or misdate events. The relationship between Hoshea's rebellion and the fall of Samaria is clear, but the precise sequence of events remains uncertain.",
+  "historiographic_note": "Documentation for 725 BCE is extremely sparse. No contemporary sources document specific events for this year. Reconstruction relies on interpolation within the known period of Shalmaneser V's reign and the broader context of Assyrian-Levantine relations. The biblical account of Hoshea's rebellion is theologically framed and may not preserve precise chronological information. Assyrian records are fragmentary and do not provide year-by-year detail. The year-by-year reconstruction for this period is inherently uncertain and relies heavily on scholarly convention.",
+  "graph_edges": [
+    {
+      "from": "-725-002",
+      "to": "-722-001",
+      "relation": "led_to",
+      "note": "Hoshea's rebellion against Assyria leads to the fall of Samaria and the end of the Kingdom of Israel"
+    },
+    {
+      "from": "-725-001",
+      "to": "-722-001",
+      "relation": "led_to",
+      "note": "Shalmaneser V's consolidation of Assyrian control sets the stage for his successor's campaigns"
+    }
+  ]
+}

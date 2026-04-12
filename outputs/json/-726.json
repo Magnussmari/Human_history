@@ -1,0 +1,54 @@
+{
+  "year": -726,
+  "year_label": "726 BCE",
+  "era_context": "Shalmaneser V is in the fourth year of his reign. The Tyre siege is in its final stages or recently concluded. Israel remains under Assyrian tributary control. In Greece, the Archaic period continues with increasing urbanisation and colonisation. Egypt is fragmented under the late 22nd Dynasty. China's Spring and Autumn period is well established.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Greece (no specific events documented)",
+    "Egypt (limited sources)",
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe"
+  ],
+  "events": [
+    {
+      "id": "-726-001",
+      "title": "Tyre siege concludes; Phoenicia becomes Assyrian tributary",
+      "region": "Phoenicia (Levant)",
+      "coordinates_approx": "33.27, 35.19",
+      "category": "military",
+      "description": "The Assyrian siege of Tyre, which began in 729 BCE, concludes with the city's submission to Shalmaneser V. Tyre becomes a tributary state of the Neo-Assyrian Empire, securing Assyrian control over Levantine trade routes and Mediterranean access. The siege's conclusion marks a major Assyrian military and political achievement. The exact date remains debated among scholars, with estimates ranging from 727 to 724 BCE.",
+      "key_figures": [
+        "Shalmaneser V (Assyrian commander)",
+        "Luli (King of Tyre, traditional attribution)"
+      ],
+      "sources": [
+        {
+          "name": "Josephus, Against Apion (citing Phoenician records)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Assyrian royal inscriptions (fragmentary)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The siege's conclusion is traditionally dated to 724 BCE by Josephus, but some scholars place it earlier (726\u2013727 BCE) based on Assyrian chronology. 726 BCE is a conventional estimate within the disputed range.",
+      "cross_references": [
+        "-729-002 (Siege initiation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of the Tyre siege's conclusion is one of the most disputed chronological points in ancient Near Eastern history. Josephus explicitly states a five-year duration (729\u2013724 BCE), but Assyrian records are fragmentary and do not provide a clear end date. Some modern scholars argue for an earlier conclusion (726\u2013727 BCE), while others support Josephus's later date. This uncertainty propagates through the entire chronology of Shalmaneser V's reign.",
+  "historiographic_note": "The historical record for 726 BCE is extremely sparse. No contemporary sources document specific events for this year. Reconstruction relies entirely on interpolation within the known Tyre siege period and Shalmaneser V's reign. The reliance on Josephus (writing in the 1st century CE) for Phoenician history introduces significant chronological uncertainty. Assyrian records, while contemporary, are fragmentary and do not provide year-by-year detail.",
+  "graph_edges": [
+    {
+      "from": "-726-001",
+      "to": "-729-002",
+      "relation": "part_of",
+      "note": "Conclusion of the Tyre siege campaign initiated in 729 BCE"
+    }
+  ]
+}

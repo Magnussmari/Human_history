@@ -1,0 +1,94 @@
+{
+  "year": -747,
+  "year_label": "747 BCE",
+  "era_context": "The mid-8th century BCE is a period of significant political transformation in the Near East. Tiglath-Pileser III's accession marks the beginning of Assyrian imperial expansion. In Greece, the Archaic period is characterized by the development of the polis system and the beginning of colonial expansion. In China, the Zhou Dynasty is fragmenting into the Spring and Autumn Period. In India, early kingdoms are forming.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-747-001",
+      "title": "Accession of Tiglath-Pileser III to the Assyrian Throne",
+      "region": "Assyrian Empire, Mesopotamia",
+      "coordinates_approx": "36.0, 43.0",
+      "category": "political",
+      "description": "Tiglath-Pileser III (also known as Pul in some sources) accedes to the Assyrian throne, either in 747 or 745 BCE depending on scholarly chronology. His accession marks a turning point in Assyrian history, initiating a period of military reform, imperial expansion, and administrative reorganization. He establishes a professional standing army, implements systematic deportation policies to prevent rebellion, and reorganizes the empire into provinces under direct royal control. These reforms transform Assyria into the ancient world's first true territorial empire.",
+      "key_figures": [
+        "Tiglath-Pileser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Tiglath-Pileser III (cuneiform inscriptions from Kalhu/Nimrud)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Babylonian Chronicle and other Mesopotamian sources",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Assyrian palaces and administrative centers",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The accession of Tiglath-Pileser III is well-documented in Assyrian sources, but the exact year is debated. Scholars disagree between 747 and 745 BCE, with some proposing 746 BCE. The uncertainty reflects different chronological systems used to synchronize Assyrian and other Near Eastern chronologies.",
+      "cross_references": [
+        "-745-001",
+        "-746-001"
+      ]
+    },
+    {
+      "id": "-747-002",
+      "title": "Possible Dating of Early Greek Alphabet Development",
+      "region": "Greece, Phoenicia, Mediterranean",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "cultural",
+      "description": "The Greek alphabet, adapted from the Phoenician script, is developing during the mid-8th century BCE. The earliest known Greek inscriptions date to around this period, though the exact chronology is uncertain. The adoption of the alphabet represents a major cultural and technological shift, enabling the recording of Greek language and facilitating the development of Greek literature and administration.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from early Greek inscriptions (e.g., Dipylon Amphora)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Later Greek historians on the origins of the alphabet",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The dating of the Greek alphabet's adoption is uncertain, with estimates ranging from the 9th to 8th century BCE. The earliest inscriptions are dated to around 750-700 BCE, but the process of adoption likely began earlier.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Tiglath-Pileser III's accession is one of the most debated issues in ancient Near Eastern chronology. Different scholars propose 747, 746, or 745 BCE, and this uncertainty cascades through the dating of subsequent events. Some scholars argue that the 'high chronology' (placing events earlier) is more accurate, while others prefer the 'low chronology' (placing events later). This debate affects the reliability of dating for the entire period. Additionally, the significance of individual years in Tiglath-Pileser III's reign is difficult to assess because the annals are often compiled retrospectively.",
+  "historiographic_note": "This year is documented primarily through Assyrian royal inscriptions, which are propagandistic and emphasize military achievements. The chronological uncertainty reflects the challenges of synchronizing Assyrian chronology with other ancient chronological systems (Egyptian, Babylonian, Greek). The historical record is heavily weighted toward the Near East; events in other regions are poorly documented or absent from surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-747-001",
+      "to": "-745-001",
+      "relation": "led_to",
+      "note": "Tiglath-Pileser III's accession initiates the military campaigns documented in subsequent years"
+    },
+    {
+      "from": "-747-001",
+      "to": "concept: Assyrian_Empire_Formation",
+      "relation": "part_of",
+      "note": "Marks the beginning of Assyrian imperial expansion and reorganization"
+    },
+    {
+      "from": "-747-002",
+      "to": "concept: Greek_Alphabet_Development",
+      "relation": "part_of",
+      "note": "Part of the broader process of Greek alphabet adoption in the 8th century BCE"
+    }
+  ]
+}

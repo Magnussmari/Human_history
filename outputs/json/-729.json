@@ -1,0 +1,86 @@
+{
+  "year": -729,
+  "year_label": "729 BCE",
+  "era_context": "The Neo-Assyrian Empire under Shalmaneser V (726\u2013722 BCE) is consolidating control over the Levant and Mesopotamia. The Kingdom of Israel faces increasing Assyrian pressure. In Greece, the Archaic period is underway; city-states are developing written law codes and colonising the Mediterranean. Egypt is fragmented under the late 22nd Dynasty. China's Spring and Autumn period has begun (770 BCE onwards).",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Mesoamerica (no written records for this specific year)",
+    "Northern Europe (pre-literate societies)"
+  ],
+  "events": [
+    {
+      "id": "-729-001",
+      "title": "Shalmaneser V becomes King of Assyria",
+      "region": "Neo-Assyrian Empire (Mesopotamia)",
+      "coordinates_approx": "36.1, 43.2",
+      "category": "political",
+      "description": "Shalmaneser V ascends to the Assyrian throne following the death of his father Tiglath-Pileser III. He continues aggressive expansion policy, particularly targeting the northern Levant and Israel. His reign marks intensification of Assyrian imperial consolidation through military campaigns and mass deportation policies. He will reign until 722 BCE.",
+      "key_figures": [
+        "Shalmaneser V (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Assyrian King List and royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "2 Kings 17:3 (Hebrew Bible)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Shalmaneser V's accession is well-attested in Assyrian administrative records and king lists. Exact year placement follows standard Assyrian chronology.",
+      "cross_references": [
+        "-722-001 (Fall of Samaria, end of his reign)"
+      ]
+    },
+    {
+      "id": "-729-002",
+      "title": "Assyrian siege and subjugation of Tyre begins",
+      "region": "Phoenicia (Levant)",
+      "coordinates_approx": "33.27, 35.19",
+      "category": "military",
+      "description": "Shalmaneser V initiates a major military campaign against the Phoenician city of Tyre, which had resisted Assyrian tributary status. The siege will last approximately five years (729\u2013724 BCE), representing one of the longest sieges of the ancient Near East. Tyre's resistance and eventual submission mark a critical moment in Assyrian consolidation of Mediterranean trade routes.",
+      "key_figures": [
+        "Shalmaneser V (Assyrian commander)",
+        "Luli (King of Tyre, traditional attribution)"
+      ],
+      "sources": [
+        {
+          "name": "Josephus, Against Apion (citing Phoenician records)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Assyrian royal inscriptions (fragmentary)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The siege is attested in later sources and Assyrian records, but exact start date (729 vs. 727 BCE) is debated. Josephus provides the most detailed account, though written centuries later.",
+      "cross_references": [
+        "-724-001 (Likely conclusion of Tyre siege)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact chronology of Shalmaneser V's reign and campaigns remains contested. Some scholars place the Tyre siege under Tiglath-Pileser III (745\u2013727 BCE) rather than Shalmaneser V. The fragmentary nature of Shalmaneser V's own inscriptions (fewer survive than his predecessors) creates uncertainty about the precise sequence and dating of his campaigns.",
+  "historiographic_note": "Documentation for 729 BCE is dominated by Assyrian administrative and military records, which are inherently propagandistic and focus on imperial achievements. Levantine and Phoenician perspectives are largely absent from surviving sources. Egyptian and Greek sources for this period are sparse. The reliability of later compilations (Josephus, biblical texts) for precise dating is moderate; they preserve genuine historical memory but may conflate or misdate events.",
+  "graph_edges": [
+    {
+      "from": "-729-001",
+      "to": "-722-001",
+      "relation": "led_to",
+      "note": "Shalmaneser V's reign culminates in the fall of Samaria and the end of the Kingdom of Israel"
+    },
+    {
+      "from": "-729-002",
+      "to": "-724-001",
+      "relation": "part_of",
+      "note": "Tyre siege is part of broader Assyrian Levantine consolidation campaign"
+    }
+  ]
+}

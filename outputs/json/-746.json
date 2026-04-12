@@ -1,0 +1,83 @@
+{
+  "year": -746,
+  "year_label": "746 BCE",
+  "era_context": "The mid-8th century BCE continues with Assyrian consolidation under Tiglath-Pileser III. In Greece, the Archaic period is well underway with city-states developing distinct political systems. The Zhou Dynasty in China is fragmenting, with regional states gaining autonomy. In the Mediterranean, Phoenician and Greek trade networks are expanding.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica (limited specific records for this year)"
+  ],
+  "events": [
+    {
+      "id": "-746-001",
+      "title": "Tiglath-Pileser III's Consolidation of Assyrian Power",
+      "region": "Assyrian Empire, Mesopotamia",
+      "coordinates_approx": "36.0, 43.0",
+      "category": "political",
+      "description": "Following his accession (dated variously to 747 or 745 BCE), Tiglath-Pileser III continues consolidating internal Assyrian power and reorganizing the military and administrative structure. He implements major reforms including the creation of a standing army, systematic deportation policies, and centralized bureaucratic control. These reforms transform Assyria from a regional power into an imperial superpower capable of controlling vast territories.",
+      "key_figures": [
+        "Tiglath-Pileser III (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Tiglath-Pileser III (cuneiform inscriptions)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative records and correspondence from Assyrian archives",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The reforms are well-documented, but the precise year-by-year chronology of Tiglath-Pileser III's reign remains debated among scholars. Dating is uncertain by \u00b12 years.",
+      "cross_references": [
+        "-745-001",
+        "-747-001"
+      ]
+    },
+    {
+      "id": "-746-002",
+      "title": "Greek Colonization Expansion in the Western Mediterranean",
+      "region": "Greece, Sicily, Southern Italy, Mediterranean",
+      "coordinates_approx": "38.0, 15.0",
+      "category": "exploration",
+      "description": "Greek city-states, particularly Corinth and other Dorian cities, continue establishing colonies in Sicily and southern Italy during the mid-8th century BCE. This period marks the intensification of Greek colonial expansion, driven by population pressure, land scarcity, and commercial opportunity. The establishment of colonies like Syracuse (traditionally dated to 733 BCE, but settlement may have begun earlier) represents the beginning of Greek dominance in the western Mediterranean.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Later Greek historians (Thucydides, Strabo) on colonization dates",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from early Greek settlements in Sicily and Italy",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The dating of early Greek colonization is uncertain. Traditional dates from ancient sources are often later than archaeological evidence suggests. Settlement likely began earlier than traditionally recorded.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional chronology of Tiglath-Pileser III's reign has been challenged by some scholars who argue for a different dating system (the 'low chronology' vs. 'high chronology' debate). This affects the precise dating of events in this year. Additionally, the significance of individual years in Tiglath-Pileser III's reign is difficult to assess because the annals are often compiled retrospectively and may not reflect year-by-year events accurately.",
+  "historiographic_note": "This year is documented primarily through Assyrian royal inscriptions, which are propagandistic in nature and emphasize military achievements and royal authority. Greek sources are sparse and often transmitted through much later compilations. The historical record is heavily biased toward the Near East and Mediterranean; events in other regions are poorly documented or absent.",
+  "graph_edges": [
+    {
+      "from": "-746-001",
+      "to": "-745-001",
+      "relation": "contemporary_with",
+      "note": "Part of the same period of Tiglath-Pileser III's consolidation and expansion"
+    },
+    {
+      "from": "-746-002",
+      "to": "-733-001",
+      "relation": "led_to",
+      "note": "Leads to the establishment of major Greek colonies like Syracuse"
+    }
+  ]
+}

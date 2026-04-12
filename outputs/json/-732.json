@@ -1,0 +1,123 @@
+{
+  "year": -732,
+  "year_label": "732 BCE",
+  "era_context": "The Neo-Assyrian Empire under Tiglath-Pileser III is at the height of its expansionist phase. In the Levant, Assyrian hegemony is consolidating. In Greece, the Archaic period continues. In China, the Spring and Autumn period sees ongoing state competition.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-732-001",
+      "title": "Tiglath-Pileser III's campaign against Damascus and the Levantine coalition",
+      "region": "Syria, Levant; Neo-Assyrian Empire",
+      "coordinates_approx": "33.5, 36.3",
+      "category": "military",
+      "description": "Tiglath-Pileser III launches a major campaign against Damascus (Aram) and its allies, including Israel and other Levantine states. This campaign is part of his broader strategy to establish Assyrian hegemony over the region. The campaign results in the subjugation of Damascus and the imposition of tribute on Israel and other states. This marks a turning point in Levantine history, establishing Assyrian dominance that will persist for over a century.",
+      "key_figures": [
+        "Tiglath-Pileser III (King of Assyria)",
+        "Rezin of Damascus (King of Aram)",
+        "Ahaz of Judah (King of Judah, though his reign may not have begun by 732 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Tiglath-Pileser III (cuneiform inscriptions)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Hebrew Bible, 2 Kings 16, Isaiah 7",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Damascus and Levantine sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Tiglath-Pileser III's annals provide contemporary accounts. The Hebrew Bible references this campaign, though from a later perspective. The dating to 732 BCE is widely accepted by scholars, though some sources place it slightly earlier or later.",
+      "cross_references": [
+        "Precedes the fall of the northern kingdom of Israel in -722 BCE",
+        "Related to -730-001 (Arpad campaign)"
+      ]
+    },
+    {
+      "id": "-732-002",
+      "title": "Possible founding or early development of Corinth as a major Greek city-state",
+      "region": "Corinth, Greece",
+      "coordinates_approx": "37.9, 23.1",
+      "category": "cultural",
+      "description": "Corinth emerges as a major Greek city-state during the Archaic period. By the 8th century BCE, Corinth is developing as a significant trading and cultural centre, with distinctive pottery (Corinthian ware) becoming widely distributed throughout the Mediterranean. The exact dating of Corinth's rise is uncertain, but by 732 BCE, it is likely already a significant power. Corinth's location on the isthmus connecting mainland Greece and the Peloponnese makes it a crucial trading hub.",
+      "key_figures": [
+        "Bacchiad family (ruling aristocracy of Corinth, though specific individuals for 732 BCE are uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Corinth (pottery, settlement layers, temple remains)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Archaeological evidence (pottery typology, settlement patterns) confirms Corinth's development as a major centre during the Archaic period. The exact year 732 BCE is conventional; the rise of Corinth occurred gradually over the 8th century BCE.",
+      "cross_references": [
+        "Part of broader Archaic Greek development",
+        "Precedes Corinth's role in colonisation and the Corinthian War"
+      ]
+    },
+    {
+      "id": "-732-003",
+      "title": "Spring and Autumn period: Possible conflict or diplomatic activity among Chinese states",
+      "region": "China",
+      "coordinates_approx": "35.0, 110.0",
+      "category": "political",
+      "description": "The Spring and Autumn Annals records various events for this period, though specific details for 732 BCE are difficult to isolate. The general context is continued fragmentation of Zhou authority and competition among regional states. Diplomatic missions, alliances, and minor conflicts characterise this era.",
+      "key_figures": [
+        "Various regional lords (specific names uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Spring and Autumn Annals (Chunqiu)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Spring and Autumn Annals provides a framework, but specific events for 732 BCE are not clearly distinguished in surviving sources.",
+      "cross_references": [
+        "Part of broader Spring and Autumn period"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Tiglath-Pileser III's campaign against Damascus is debated. Some scholars place it in 733 BCE or 734 BCE rather than 732 BCE. The Hebrew Bible's account of this campaign (in 2 Kings 16 and Isaiah 7) is retrospective and may conflate multiple campaigns or events. The rise of Corinth is not tied to a specific year; it occurred gradually over the 8th century BCE.",
+  "historiographic_note": "The historical record for 732 BCE is dominated by Assyrian sources, which are contemporary and detailed. The Hebrew Bible provides a Judean perspective but is not contemporary. Greek sources are sparse and retrospective. Chinese sources (Spring and Autumn Annals) are structured as a chronicle but are not contemporary. The record is heavily weighted toward military and political events; economic, social, and cultural developments are underrepresented. The dating of events is often uncertain by \u00b11\u20132 years.",
+  "graph_edges": [
+    {
+      "from": "-732-001",
+      "to": "-722-FALL_OF_ISRAEL",
+      "relation": "led_to",
+      "note": "Tiglath-Pileser III's campaign against Israel establishes Assyrian dominance; leads to Israel's fall a decade later"
+    },
+    {
+      "from": "-732-002",
+      "to": "-600-CORINTHIAN_COLONISATION",
+      "relation": "part_of",
+      "note": "Corinth's rise as a major centre enables its later role in colonisation"
+    }
+  ]
+}

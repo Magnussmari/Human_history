@@ -1,0 +1,113 @@
+{
+  "year": -733,
+  "year_label": "733 BCE",
+  "era_context": "The Neo-Assyrian Empire under Tiglath-Pileser III is in its expansionist phase, consolidating control over Mesopotamia and the Levant. In Greece, the Archaic period continues with city-state development. In China, the Spring and Autumn period sees ongoing state fragmentation and competition.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-733-001",
+      "title": "Tiglath-Pileser III's campaign against Damascus and the Levantine coalition (alternative dating)",
+      "region": "Syria, Levant; Neo-Assyrian Empire",
+      "coordinates_approx": "33.5, 36.3",
+      "category": "military",
+      "description": "Some scholars date Tiglath-Pileser III's major campaign against Damascus and its allies (including Israel) to 733 BCE rather than 732 BCE. This campaign results in the subjugation of Damascus and the imposition of tribute on Israel and other Levantine states. The campaign is a turning point in Levantine history, establishing Assyrian hegemony over the region. The exact year is debated among scholars, with estimates ranging from 734\u2013732 BCE.",
+      "key_figures": [
+        "Tiglath-Pileser III (King of Assyria)",
+        "Rezin of Damascus (King of Aram)",
+        "Ahaz of Judah (King of Judah, though his reign may not have begun by 733 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Annals of Tiglath-Pileser III (cuneiform inscriptions)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Hebrew Bible, 2 Kings 16, Isaiah 7",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Tiglath-Pileser III's annals are contemporary but do not always provide precise year-by-year dating. The campaign against Damascus is confirmed, but the exact year is debated (estimates range from 734\u2013732 BCE). Different scholarly traditions place it in different years.",
+      "cross_references": [
+        "Related to -732-001 (may be the same event with alternative dating)",
+        "Precedes the fall of Israel in -722 BCE"
+      ]
+    },
+    {
+      "id": "-733-002",
+      "title": "Possible early Etruscan settlement or cultural development in Italy",
+      "region": "Etruria, Italy",
+      "coordinates_approx": "42.5, 11.5",
+      "category": "cultural",
+      "description": "During the 8th century BCE, Etruscan culture is developing in central Italy. The Etruscans, whose origins are debated (indigenous development vs. migration from Anatolia), are establishing settlements and developing a distinctive culture characterised by advanced metalworking, urban planning, and religious practices. By 733 BCE, Etruscan settlements are likely already established, though the exact chronology is uncertain. The Etruscans will become a major power in Italy during the Archaic and Classical periods.",
+      "key_figures": [
+        "Unknown Etruscan leaders (no contemporary names recorded)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Etruscan sites (Villanovan culture, settlement patterns, artefacts)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Later Greek and Roman sources (Herodotus, Livy) on Etruscan origins",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Archaeological evidence confirms Etruscan cultural development during the 8th century BCE, but the exact year 733 BCE is conventional. The origins of the Etruscans are debated; ancient sources suggest migration from Anatolia, but modern archaeology suggests indigenous development or a combination of factors.",
+      "cross_references": [
+        "Part of broader Iron Age development in Italy",
+        "Precedes Etruscan dominance in the 6th\u20135th centuries BCE"
+      ]
+    },
+    {
+      "id": "-733-003",
+      "title": "Spring and Autumn period: State competition and diplomatic activity in China",
+      "region": "China",
+      "coordinates_approx": "35.0, 110.0",
+      "category": "political",
+      "description": "The Spring and Autumn Annals records various diplomatic and military activities among Chinese states during this period. Specific events for 733 BCE are difficult to isolate, but the general trend is continued fragmentation of Zhou authority and competition among regional states. States like Qi, Jin, Chu, and Qin are expanding their territories and conducting independent foreign policy.",
+      "key_figures": [
+        "Various regional lords (specific names uncertain for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Spring and Autumn Annals (Chunqiu)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Spring and Autumn Annals provides a framework, but specific events for 733 BCE are not clearly distinguished in surviving sources.",
+      "cross_references": [
+        "Part of broader Spring and Autumn period"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Tiglath-Pileser III's campaign against Damascus is highly debated. Different scholarly traditions place it in 734, 733, or 732 BCE. The Assyrian annals do not provide precise year-by-year dating, and the Hebrew Bible's account is retrospective. The origins of the Etruscans are disputed; ancient sources (Herodotus) suggest migration from Anatolia, but modern archaeology suggests indigenous development or a combination of factors. No contemporary Etruscan sources exist for this period.",
+  "historiographic_note": "The historical record for 733 BCE is dominated by Assyrian sources, which are contemporary but do not always provide precise dating. The Hebrew Bible provides a Judean perspective but is not contemporary. Greek and Roman sources on the Etruscans are retrospective and may reflect later biases. Chinese sources (Spring and Autumn Annals) are structured as a chronicle but are not contemporary. The record is heavily weighted toward military and political events; economic, social, and cultural developments are underrepresented. The dating of events is often uncertain by \u00b11\u20132 years.",
+  "graph_edges": [
+    {
+      "from": "-733-001",
+      "to": "-732-001",
+      "relation": "contradicts",
+      "note": "Alternative dating of the same campaign; scholars debate whether it occurred in 733 or 732 BCE"
+    },
+    {
+      "from": "-733-002",
+      "to": "-500-ETRUSCAN_DOMINANCE",
+      "relation": "led_to",
+      "note": "Early Etruscan cultural development establishes foundation for later Etruscan power in Italy"
+    }
+  ]
+}
