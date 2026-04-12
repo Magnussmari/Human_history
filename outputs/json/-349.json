@@ -1,0 +1,87 @@
+{
+  "year": -349,
+  "year_label": "349 BCE",
+  "era_context": "The mid-4th century BCE saw the rise of Macedon under Philip II, who was consolidating power and expanding northward and westward. In Greece proper, the city-states remained fractious; Athens was recovering from the Social War (357\u2013355 BCE) and facing Persian diplomatic pressure. The Persian Empire under Artaxerxes III was reasserting control over rebellious satrapies. In the East, the Warring States period in China was intensifying, with Qin beginning its ascendancy. In the Mediterranean, Syracuse under Dionysius II was in decline.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Greek/Roman contact",
+    "Mesoamerica (no contemporary written records in Greek/Roman tradition)"
+  ],
+  "events": [
+    {
+      "id": "-349-001",
+      "title": "Philip II of Macedon campaigns in Thrace and Illyria",
+      "region": "Macedon, Thrace, Illyria",
+      "coordinates_approx": "41.0,22.0",
+      "category": "military",
+      "description": "Philip II continued his military expansion northward and westward, securing Macedonian borders against Thracian and Illyrian tribes. These campaigns consolidated his power base and provided military training for the Macedonian phalanx. Success in these regions allowed Philip to turn his attention southward toward Greek affairs within the next decade. The campaigns were part of Philip's systematic reorganization of Macedonian military and administrative structures.",
+      "key_figures": [
+        "Philip II of Macedon (King)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica (later compilation, 1st century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Justin, Epitoma Historiarum Philippicarum (2nd century CE compilation of Pompeius Trogus)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Philip's northern campaigns are attested in later sources but lack precise annual dating. The period 349\u2013346 BCE is generally assigned to these campaigns based on chronological reconstruction.",
+      "cross_references": [
+        "Follows from -352-001 (Philip's rise to power)",
+        "Precedes -346-001 (Peace of Philocrates)"
+      ]
+    },
+    {
+      "id": "-349-002",
+      "title": "Artaxerxes III suppresses Egyptian rebellion",
+      "region": "Egypt, Persian Empire",
+      "coordinates_approx": "26.0,30.0",
+      "category": "military",
+      "description": "Artaxerxes III of Persia led a military campaign to reassert control over Egypt, which had rebelled under Nectanebo II. The campaign was part of Artaxerxes III's broader effort to restore Persian authority over satrapies that had become semi-independent during the reign of his predecessors. The suppression was brutal and successful, temporarily reincorporating Egypt into the Persian Empire. This reassertion of Persian power was significant for regional stability in the eastern Mediterranean.",
+      "key_figures": [
+        "Artaxerxes III (Persian Great King)",
+        "Nectanebo II (Egyptian Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica, Book XVI",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho, Aegyptiaca (Egyptian king-list, preserved in later sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The dating of Artaxerxes III's Egyptian campaign is debated; some sources place it in 345 BCE. The campaign occurred in the late 340s BCE with high probability, but the exact year is uncertain.",
+      "cross_references": [
+        "Part of -345-001 (broader Persian reassertion)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise chronology of Philip II's Thracian campaigns and Artaxerxes III's Egyptian campaign is disputed among modern scholars. Some sources compress these events into fewer years or assign them to adjacent years. The dating of Artaxerxes III's Egyptian campaign is particularly contested, with some scholars placing it in 345 BCE rather than 349 BCE. No contemporary written records from Macedon or Persia for this specific year have been identified.",
+  "historiographic_note": "The historical record for 349 BCE is heavily dependent on later Greek and Roman compilations (Diodorus, Justin, Plutarch) that drew on earlier sources now lost. These sources often lack precise annual dating and may conflate or reorder events. Egyptian sources are fragmentary. Persian sources are largely lost; our knowledge comes through Greek accounts, which may be biased. The absence of contemporary Macedonian written records is a significant gap.",
+  "graph_edges": [
+    {
+      "from": "-349-001",
+      "to": "-346-001",
+      "relation": "led_to",
+      "note": "Philip's northern campaigns secured his position, enabling him to negotiate the Peace of Philocrates with Athens"
+    },
+    {
+      "from": "-349-002",
+      "to": "-345-001",
+      "relation": "part_of",
+      "note": "Part of Artaxerxes III's broader campaign to reassert Persian imperial authority"
+    }
+  ]
+}

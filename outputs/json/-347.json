@@ -1,0 +1,123 @@
+{
+  "year": -347,
+  "year_label": "347 BCE",
+  "era_context": "Following the fall of Olynthus, Athens was weakened and divided. Philip II was consolidating his power in northern Greece and preparing to move southward. The Persian Empire under Artaxerxes III remained strong but was facing internal challenges. In China, the Warring States period was intensifying, with Qin's power growing. The Mediterranean world was entering a period of rapid change that would culminate in Alexander's conquests within two decades.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "India"
+  ],
+  "events": [
+    {
+      "id": "-347-001",
+      "title": "Aristotle leaves Athens for Macedon",
+      "region": "Athens, Macedon",
+      "coordinates_approx": "40.6,22.9",
+      "category": "cultural",
+      "description": "Aristotle, the most famous student of Plato, left Athens and traveled to Macedon, where he became tutor to the young Alexander (then about 13 years old). Aristotle's departure from the Academy marked a significant transition in Greek philosophy. His move to Macedon was politically significant, as it represented a connection between the intellectual world of Athens and the rising power of Macedon. Aristotle would remain in Macedon for several years before returning to Athens after Alexander's conquests. His tutorship of Alexander profoundly influenced the young prince's worldview and ambitions.",
+      "key_figures": [
+        "Aristotle (Philosopher)",
+        "Philip II of Macedon (King)",
+        "Alexander (Young prince, later Alexander the Great)"
+      ],
+      "sources": [
+        {
+          "name": "Diogenes La\u00ebrtius, Lives and Opinions of Eminent Philosophers, Book V",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Alexander",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Strabo, Geography, Book XIII (references to Aristotle's life)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Aristotle's departure from Athens and arrival in Macedon is traditionally dated to 347 BCE, but some sources suggest 346 BCE. The date is uncertain by \u00b11 year. Ancient sources agree on the general sequence but lack precision.",
+      "cross_references": [
+        "Follows from -348-003 (Plato's death)",
+        "Precedes -343-001 (Aristotle's tutorship of Alexander)"
+      ]
+    },
+    {
+      "id": "-347-002",
+      "title": "Artaxerxes III consolidates Persian control over Egypt",
+      "region": "Egypt, Persian Empire",
+      "coordinates_approx": "26.0,30.0",
+      "category": "political",
+      "description": "Following the military campaign of 349\u2013348 BCE, Artaxerxes III established firm Persian administrative control over Egypt. Egyptian resistance was suppressed, and Persian governors were installed. This consolidation represented the peak of Artaxerxes III's power and the height of the Persian Empire's territorial extent. However, the harsh measures used to suppress Egypt created resentment that would contribute to renewed Egyptian resistance after Artaxerxes III's death. The consolidation of Egypt was significant for Persian imperial stability and Mediterranean geopolitics.",
+      "key_figures": [
+        "Artaxerxes III (Persian Great King)",
+        "Nectanebo II (Egyptian Pharaoh, in exile)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica, Book XVI",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho, Aegyptiaca (Egyptian king-list, preserved in later sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The consolidation of Persian control over Egypt occurred in the late 340s BCE, but the exact year is uncertain. The campaign itself is dated to 349\u2013345 BCE by various sources; consolidation would have followed.",
+      "cross_references": [
+        "Follows from -349-002 (Artaxerxes III's Egyptian campaign)"
+      ]
+    },
+    {
+      "id": "-347-003",
+      "title": "Speusippus leads the Academy in Athens",
+      "region": "Athens",
+      "coordinates_approx": "37.97,23.73",
+      "category": "cultural",
+      "description": "Speusippus, Plato's nephew, formally assumed leadership of the Academy following Plato's death in 348 BCE. Speusippus maintained the Academy's philosophical traditions while introducing his own modifications to Platonic doctrine, particularly regarding the theory of forms. His leadership marked a transition in the Academy's intellectual direction. Speusippus would lead the Academy for approximately eight years until his death in 339 BCE. The Academy remained one of the most important intellectual institutions in the Greek world during this period.",
+      "key_figures": [
+        "Speusippus (Philosopher, Plato's nephew)"
+      ],
+      "sources": [
+        {
+          "name": "Diogenes La\u00ebrtius, Lives and Opinions of Eminent Philosophers, Book IV",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Aristotle, Metaphysics (references to Speusippus' doctrines)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Speusippus' assumption of leadership of the Academy is dated to 347 BCE based on Plato's death in 348 BCE. The date is reasonably secure, though some sources suggest 348 BCE.",
+      "cross_references": [
+        "Follows from -348-003 (Plato's death)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Aristotle's departure from Athens is disputed; some scholars place it in 346 BCE. The extent of Aristotle's influence on the young Alexander is debated by modern scholars; some argue that the tutorship was shorter or less influential than later tradition suggests. The dating of Artaxerxes III's consolidation of Egypt is uncertain and may belong to 346 or 345 BCE.",
+  "historiographic_note": "The year 347 BCE is moderately well-documented for Athens and Macedon through later biographical and historical sources, but contemporary written records are sparse. The information about Aristotle comes from later biographical compilations written centuries after the events. Persian sources are largely lost; our knowledge comes through Greek accounts. The Academy's activities are known through later philosophical sources and references in Aristotle's works. Information about other regions is minimal.",
+  "graph_edges": [
+    {
+      "from": "-347-001",
+      "to": "-343-001",
+      "relation": "led_to",
+      "note": "Aristotle's arrival in Macedon led to his tutorship of Alexander"
+    },
+    {
+      "from": "-347-003",
+      "to": "-339-001",
+      "relation": "led_to",
+      "note": "Speusippus' leadership of the Academy continued until his death in 339 BCE"
+    }
+  ]
+}

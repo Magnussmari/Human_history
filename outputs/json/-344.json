@@ -1,0 +1,124 @@
+{
+  "year": -344,
+  "year_label": "344 BCE",
+  "era_context": "The mid-4th century BCE saw the rise of Macedon under Philip II, who was consolidating power in the Balkans and threatening Greek city-state independence. The Persian Achaemenid Empire under Artaxerxes III was experiencing renewed centralization after decades of satrapal rebellion. In China, the Warring States period was intensifying, with Qi, Chu, and other powers competing for hegemony. Egypt was under Persian rule following the reconquest of 343 BCE.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond Greek and Roman awareness",
+    "Mesoamerica and South America",
+    "Southeast Asia beyond fragmentary Chinese records"
+  ],
+  "events": [
+    {
+      "id": "-344-001",
+      "title": "Philip II of Macedon defeats Illyrians and consolidates northern frontier",
+      "region": "Macedon, Illyria",
+      "coordinates_approx": "41.5, 21.0",
+      "category": "military",
+      "description": "Philip II secured Macedon's northern borders by defeating Illyrian tribes, a crucial step in his broader strategy to unify the Balkans and establish Macedonian hegemony. This victory removed a persistent threat to Macedonian stability and freed Philip to focus on southern Greek affairs. The campaign demonstrated the effectiveness of his reformed phalanx and cavalry tactics, which would become the model for later Hellenistic warfare.",
+      "key_figures": [
+        "Philip II of Macedon (King)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica (later compilation, 1st century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Justin, Epitome of Pompeius Trogus (2nd century CE compilation of earlier sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "No contemporary Macedonian records survive. Dating relies on later Greek and Roman historians whose chronologies for this period have minor uncertainties (\u00b11\u20132 years). The campaign is attested in multiple sources but exact year is conventional.",
+      "cross_references": [
+        "Relates to -342-001 (Philip's Thracian campaigns)",
+        "Part of broader Macedonian expansion -359 to -336"
+      ]
+    },
+    {
+      "id": "-344-002",
+      "title": "Artaxerxes III consolidates Persian control over Egypt",
+      "region": "Egypt, Persian Empire",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Following the reconquest of Egypt in 343 BCE, Artaxerxes III worked to consolidate Persian administrative control and suppress remaining Egyptian resistance. The year 344 BCE represents the stabilization phase after the military campaign, with Persian governors and tax collectors establishing themselves in the Nile Valley. This reassertion of Persian hegemony over Egypt was significant but ultimately temporary, as Egyptian nationalism would resurge within a decade.",
+      "key_figures": [
+        "Artaxerxes III Ochus (Persian Great King)",
+        "Nectanebo II (deposed Egyptian pharaoh, in exile)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica, Book XVI",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho, Aegyptiaca (Egyptian priest-historian, 3rd century BCE, preserved in later sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The reconquest itself (343 BCE) is well-attested; the consolidation phase in 344 is inferred from administrative patterns. Dating is approximate within \u00b11 year.",
+      "cross_references": [
+        "Follows from -343-001 (reconquest campaign)",
+        "Precedes -341-001 (Egyptian rebellion)"
+      ]
+    },
+    {
+      "id": "-344-003",
+      "title": "Qi state reaches peak power in Warring States China",
+      "region": "Qi (Eastern China)",
+      "coordinates_approx": "36.5, 118.0",
+      "category": "political",
+      "description": "The state of Qi, under King Xuan, was at the height of its power and influence during this period, having defeated Yan in 344 BCE and expanded its territory. Qi's military innovations, including the use of crossbows and coordinated chariot-and-infantry tactics, made it one of the most formidable powers in the Warring States period. However, this peak would prove temporary; internal instability and overextension would lead to Qi's decline within a generation.",
+      "key_figures": [
+        "King Xuan of Qi (r. -356 to -320)"
+      ],
+      "sources": [
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled 2nd century BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Bamboo Annals (Zhushu Jinian), recovered from tomb, 4th century BCE original",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Chinese chronology for this period is based on the Bamboo Annals and Shiji, which generally agree but have minor discrepancies. The year 344 BCE is the conventional date for Qi's victory over Yan, though some sources place it at -343 or -345.",
+      "cross_references": [
+        "Part of Warring States period intensification",
+        "Precedes Qi's decline in -320s"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The significance of Philip II's Illyrian campaign in 344 BCE is sometimes overstated in popular accounts as a turning point; modern scholarship suggests it was one of several consolidation efforts rather than a singular transformative moment. The exact dating of Qi's victory over Yan is disputed: some sources place it in 343 or 345 BCE rather than 344. The extent of Persian administrative consolidation in Egypt in 344 BCE is inferred rather than directly documented; some scholars argue the process was slower and more contested than traditional accounts suggest.",
+  "historiographic_note": "For this year, documentation is heavily skewed toward Mediterranean and East Asian sources. Greek and Roman historians writing centuries later provide most information about Macedon and Persia, introducing potential bias toward Greek perspectives and court-sponsored narratives. Chinese sources (Shiji, Bamboo Annals) are more contemporary but themselves compiled from earlier records with their own editorial biases. Egyptian sources are sparse; the Persian perspective is almost entirely lost. Sub-Saharan Africa, the Indian subcontinent, and the Americas are essentially absent from surviving records, reflecting both the limits of long-distance communication and the preservation bias of literate, centralized states.",
+  "graph_edges": [
+    {
+      "from": "-344-001",
+      "to": "-342-001",
+      "relation": "part_of",
+      "note": "Philip's Illyrian campaign is part of his broader Balkan consolidation strategy, which continued with Thracian campaigns"
+    },
+    {
+      "from": "-344-002",
+      "to": "-343-001",
+      "relation": "caused_by",
+      "note": "Consolidation follows the reconquest campaign of 343 BCE"
+    },
+    {
+      "from": "-344-003",
+      "to": "-320-001",
+      "relation": "led_to",
+      "note": "Qi's peak power in 344 BCE precedes its rapid decline in the 320s"
+    }
+  ]
+}
