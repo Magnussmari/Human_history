@@ -1,0 +1,123 @@
+{
+  "year": -2787,
+  "year_label": "2787 BCE",
+  "era_context": "The Akkadian Empire continues to dominate Mesopotamia under Naram-Sin, though external pressures are mounting. Egypt's Old Kingdom is in its final phase, with power increasingly decentralized to provincial governors. The Indus Valley Civilization remains in its mature, stable phase. This period represents the apex of several early state systems before major transitions and collapses in the following centuries.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands",
+    "East Asia (beyond traditional Xia Dynasty accounts)"
+  ],
+  "events": [
+    {
+      "id": "-2787-001",
+      "title": "Naram-Sin's military campaigns against the Gutians and mountain peoples",
+      "region": "Mesopotamia, Zagros Mountains, Akkadian Empire",
+      "coordinates_approx": "34.0, 46.0",
+      "category": "military",
+      "description": "Naram-Sin's inscriptions record military campaigns against the Gutians and other mountain peoples threatening Akkadian control. These campaigns were costly and ultimately unsuccessful in permanently subduing the external threat. The military pressure from the Gutians and other groups would eventually contribute to the Akkadian Empire's collapse within a generation or two. Despite these challenges, Naram-Sin maintained control over Mesopotamian heartland and continued to project power.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin's military inscriptions and stele",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative records documenting military mobilization",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's military campaigns are well-attested in his inscriptions, but precise dating of individual campaigns is uncertain.",
+      "cross_references": [
+        "-2789-001",
+        "-2200-001"
+      ]
+    },
+    {
+      "id": "-2787-002",
+      "title": "Harappan urban centers at peak population and development",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization's major urban centers\u2014Mohenjo-daro, Harappa, Dholavira, and others\u2014are at their peak in terms of population, architectural sophistication, and economic integration. Archaeological evidence suggests populations in the tens of thousands at major centers. The civilization's apparent egalitarianism (lack of monumental palaces or temples) and sophisticated urban planning remain distinctive features. This is the height of the mature Harappan phase before the civilization's gradual decline in the following centuries.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations and settlement surveys",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Radiocarbon dating and stratigraphic analysis",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan civilization's existence and general chronology are well-established through archaeology.",
+      "cross_references": [
+        "-2789-002",
+        "-2788-002"
+      ]
+    },
+    {
+      "id": "-2787-003",
+      "title": "Sixth Dynasty Egypt under Teti and early successors",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "The Sixth Dynasty (c. 2345\u20132181 BCE) is well-established, with Teti and his successors ruling from Memphis. The dynasty is characterized by continued pyramid construction, though on a smaller scale than earlier dynasties, and increasing administrative decentralization. Pyramid Texts continue to be inscribed in royal tombs, providing evidence of religious beliefs and royal ideology. The reign of Pepi II (c. 2278\u20132184 BCE) is traditionally dated to this period and is associated with the beginning of the Old Kingdom's final decline.",
+      "key_figures": [
+        "Teti (Sixth Dynasty pharaoh, c. 2345\u20132323 BCE)",
+        "Pepi I (Sixth Dynasty pharaoh, c. 2323\u20132291 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists and chronologies",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pyramid Texts and tomb inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from pyramid complexes",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Sixth Dynasty's existence and general chronology are well-established, but absolute dating is uncertain by \u00b150\u2013100 years.",
+      "cross_references": [
+        "-2789-003",
+        "-2181-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional view of the Akkadian Empire as uniformly powerful and centralized is complicated by evidence of persistent military pressure and administrative challenges. Similarly, the Old Kingdom's 'decline' may have been more gradual and less uniform across Egypt than older narratives suggest, with some regions maintaining stability and prosperity.",
+  "historiographic_note": "Documentation for -2787 is sparse and heavily weighted toward Egypt and Mesopotamia. The historical record is dominated by monumental inscriptions and administrative records from literate civilizations. Other regions are known only through archaeology or are entirely absent from written sources. Chronological precision remains limited.",
+  "graph_edges": [
+    {
+      "from": "-2787-001",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Naram-Sin's military struggles foreshadowed Akkadian collapse"
+    },
+    {
+      "from": "-2787-003",
+      "to": "-2181-001",
+      "relation": "part_of",
+      "note": "Sixth Dynasty continued until Old Kingdom collapse"
+    }
+  ]
+}

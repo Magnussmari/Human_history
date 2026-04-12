@@ -1,0 +1,96 @@
+{
+  "year": -2794,
+  "year_label": "2794 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. The Old Kingdom of Egypt (c. 2686\u20132181 BCE) is in its later phases, with the 6th Dynasty ruling. In Mesopotamia, the Early Dynastic Period III is transitioning toward the Akkad period. City-states in the Levant and Mesopotamia are consolidating power; writing systems (cuneiform, hieroglyphics) are well-established. This is an era of monumental construction, inter-city conflict, and expanding trade networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "East Asia (Xia Dynasty dating remains disputed; Chinese historical records are later compilations)",
+    "Americas (no written records; archaeological evidence is sparse and undated to specific years)",
+    "Oceania (no written records; settlement patterns inferred from archaeology)"
+  ],
+  "events": [
+    {
+      "id": "-2794-001",
+      "title": "Reign of Pepi II (or Neferkare) continues in Egypt",
+      "region": "Egypt (Old Kingdom, 6th Dynasty)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Pepi II, one of Egypt's longest-reigning pharaohs, is attested to have ruled for either 64 or 94 years depending on the source tradition. By 2794 BCE, he is in the later decades of his reign. His long rule saw continued monumental construction, trade expeditions to Nubia and the Levant, and the gradual decentralization of power to provincial governors (nomarchs), which would eventually contribute to the collapse of the Old Kingdom. The exact length and dating of his reign remain debated among Egyptologists.",
+      "key_figures": [
+        "Pepi II (Neferkare), Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (preserved in later Greek sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Autobiographical inscriptions from officials' tombs (e.g., Weni, Harkhuf)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Pepi II's reign is historically attested, but the exact dating and length are uncertain. Egyptologists debate whether he reigned 64 or 94 years, and the absolute chronology for the 6th Dynasty varies by \u00b150\u2013100 years depending on the chronological system used (conventional, low, or high chronology). 2794 BCE is assigned by convention within the conventional chronology.",
+      "cross_references": [
+        "Relates to broader Old Kingdom decline; see -2181 for end of Old Kingdom"
+      ]
+    },
+    {
+      "id": "-2794-002",
+      "title": "Akkadian Empire consolidation under Naram-Sin or successor",
+      "region": "Mesopotamia (Akkad and surrounding city-states)",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "The Akkadian Empire, founded by Sargon of Akkad (c. 2334\u20132279 BCE), is in its mature phase. By 2794 BCE, the empire is either under Naram-Sin (c. 2254\u20132218 BCE) or his successor Shar-kali-sharri, depending on chronological reconstruction. The Akkadians have imposed cuneiform writing and Semitic language across Mesopotamia, displacing Sumerian as the administrative language. Military campaigns, trade, and administrative consolidation characterize this period. However, the empire faces increasing pressure from external groups (Gutians from the Zagros, Amorites from the west) and internal fragmentation.",
+      "key_figures": [
+        "Naram-Sin or Shar-kali-sharri, Akkadian rulers"
+      ],
+      "sources": [
+        {
+          "name": "Cuneiform administrative texts and inscriptions from Akkadian sites (Nippur, Lagash, Ur)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List (later compilation with traditional dating)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Royal inscriptions of Naram-Sin (e.g., Victory Stele of Naram-Sin)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Akkadian Empire is well-attested archaeologically and epigraphically. However, the absolute dating of Akkadian rulers is debated; conventional chronology places Naram-Sin c. 2254\u20132218 BCE, but low and high chronologies shift this by \u00b150\u2013100 years. The assignment of 2794 BCE to this period is approximate.",
+      "cross_references": [
+        "Part of broader Akkadian Empire narrative; see -2334 for Sargon's founding"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of both Egyptian and Mesopotamian chronologies for this period is contested. The conventional chronology (used here) is based on astronomical calculations and king list synchronisms, but alternative chronologies (low and high) shift dates significantly. Some scholars argue that Pepi II's reign length (64 vs. 94 years) is exaggerated in later sources and may reflect symbolic or religious significance rather than historical fact. The Akkadian Empire's exact territorial extent and the dating of Naram-Sin's reign are also debated, with some scholars proposing shorter reign lengths and different synchronisms with Egyptian chronology.",
+  "historiographic_note": "The historical record for 2794 BCE is heavily dependent on later compilations (king lists, chronicles written centuries or millennia after the events) and on archaeological/epigraphic evidence that is often undated to specific years. Egyptian chronology relies on the Turin King List and Manetho, both of which are problematic: the Turin List is fragmentary, and Manetho's work survives only in quotations by later Greek and Roman authors. Mesopotamian chronology is better anchored by cuneiform texts, but absolute dating remains uncertain. Both regions' records are elite-focused (royal inscriptions, administrative texts) and likely omit or minimize internal dissent, military defeats, or social upheaval. The absence of records from Africa, East Asia, and the Americas reflects both the state of preservation and the geographic bias of surviving written sources.",
+  "graph_edges": [
+    {
+      "from": "-2794-001",
+      "to": "-2181-001",
+      "relation": "led_to",
+      "note": "Pepi II's long reign and decentralization of power to nomarchs contributed to the fragmentation that ended the Old Kingdom c. 2181 BCE"
+    },
+    {
+      "from": "-2794-002",
+      "to": "-2154-001",
+      "relation": "led_to",
+      "note": "Akkadian Empire's internal fragmentation and external pressure from Gutians led to its collapse c. 2154 BCE"
+    }
+  ]
+}

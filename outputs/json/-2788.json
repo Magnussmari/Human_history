@@ -1,0 +1,118 @@
+{
+  "year": -2788,
+  "year_label": "2788 BCE",
+  "era_context": "Continuation of the late Old Kingdom in Egypt, the Akkadian Empire's dominance in Mesopotamia, and the mature Harappan civilization in the Indus Valley. This is a period of established state structures, long-distance trade, and monumental architecture across multiple civilizations. In China, the traditional Xia Dynasty may be in its early centuries, though archaeological evidence remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-2788-001",
+      "title": "Continuation of Akkadian imperial administration under Naram-Sin",
+      "region": "Mesopotamia, Akkadian Empire",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "Naram-Sin's reign continues with consolidation of Akkadian control over Mesopotamian territories. Administrative records show the organization of tribute collection, military recruitment, and trade regulation. The Akkadian language and cuneiform script are increasingly standardized across the empire, facilitating bureaucratic communication. However, evidence suggests growing pressure from external groups, particularly the Gutians from the Zagros Mountains.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian administrative tablets and correspondence",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Royal inscriptions and stele",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-documented, but precise dating of administrative developments within his reign is uncertain.",
+      "cross_references": [
+        "-2789-001"
+      ]
+    },
+    {
+      "id": "-2788-002",
+      "title": "Harappan trade networks and standardized weights system",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "Archaeological evidence shows the Indus Valley Civilization maintained sophisticated trade networks extending to Mesopotamia, the Persian Gulf, and Central Asia. Standardized weights and measures, found across multiple sites, suggest centralized economic regulation or at least widespread commercial conventions. Seals bearing undeciphered inscriptions were likely used for trade transactions and administrative purposes. This economic integration is remarkable for its apparent lack of coercive military infrastructure.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations revealing standardized weights and measures",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and trade goods found in Mesopotamian contexts",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian records mentioning trade with Meluhha",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence of standardized weights and long-distance trade is well-established through archaeological evidence.",
+      "cross_references": [
+        "-2789-002"
+      ]
+    },
+    {
+      "id": "-2788-003",
+      "title": "Egyptian provincial autonomy and nomarch power consolidation",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "During the late Fifth and early Sixth Dynasty, Egyptian provincial governors (nomarchs) accumulated increasing wealth and authority, as evidenced by their elaborate tombs and inscriptions. This decentralization of power from the pharaonic center weakened central authority and contributed to the eventual collapse of the Old Kingdom. Nomarchs began to style themselves as semi-independent rulers, controlling local resources and military forces.",
+      "key_figures": [
+        "Various nomarchs (provincial governors)"
+      ],
+      "sources": [
+        {
+          "name": "Nomarch tomb inscriptions and biographical texts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from provincial administrative centers",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The trend of nomarch power consolidation is well-attested in tomb inscriptions and archaeological evidence, though the precise chronology of this process is uncertain.",
+      "cross_references": [
+        "-2789-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The narrative of a simple, linear decline of Old Kingdom Egypt is challenged by evidence suggesting that provincial autonomy was not necessarily destabilizing\u2014some regions may have maintained prosperity and stability under nomarch rule. Similarly, the Akkadian Empire's apparent strength masks internal tensions and external pressures that would soon lead to its fragmentation.",
+  "historiographic_note": "This year, like -2789, is poorly documented in terms of specific events. The historical record is dominated by Egypt and Mesopotamia; other regions are known only through archaeology or are entirely absent from written sources. Chronological precision is limited to \u00b150\u2013100 years for absolute dating.",
+  "graph_edges": [
+    {
+      "from": "-2788-001",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Akkadian administrative consolidation was followed by rapid collapse"
+    },
+    {
+      "from": "-2788-003",
+      "to": "-2181-001",
+      "relation": "led_to",
+      "note": "Nomarch autonomy contributed to Old Kingdom collapse"
+    }
+  ]
+}

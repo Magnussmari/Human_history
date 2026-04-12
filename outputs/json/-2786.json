@@ -1,0 +1,123 @@
+{
+  "year": -2786,
+  "year_label": "2786 BCE",
+  "era_context": "The Akkadian Empire under Naram-Sin remains dominant in Mesopotamia, though facing increasing external pressure. Egypt's Old Kingdom continues its gradual decentralization. The Indus Valley Civilization is in its mature phase. This period represents relative stability across multiple civilizations before major transitions in the following centuries.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2786-001",
+      "title": "Akkadian administrative consolidation and standardization",
+      "region": "Mesopotamia, Akkadian Empire",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "Naram-Sin's reign saw the standardization of Akkadian administrative practices across the empire. Clay tablets document the organization of tribute, military service, and trade. The Akkadian language and cuneiform script became the lingua franca of administration, facilitating communication across diverse regions. This administrative sophistication was remarkable for its time but ultimately could not prevent the empire's fragmentation in the following generation.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian administrative tablets",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Royal inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Akkadian administrative practices are well-documented in clay tablets, but precise dating within Naram-Sin's reign is uncertain.",
+      "cross_references": [
+        "-2789-001",
+        "-2788-001"
+      ]
+    },
+    {
+      "id": "-2786-002",
+      "title": "Indus Valley trade with Mesopotamia and the Persian Gulf",
+      "region": "Indus Valley, Mesopotamia, Persian Gulf",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "Archaeological evidence shows active trade between the Indus Valley and Mesopotamia during this period. Indus seals and trade goods appear in Mesopotamian contexts, while Mesopotamian goods are found in Indus sites. This trade was facilitated by maritime routes through the Persian Gulf and overland routes through the Levant. The trade suggests economic integration across vast distances and the existence of merchant networks or state-sponsored trade missions.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of trade goods in both regions",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian records mentioning Meluhha",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Trade between the Indus Valley and Mesopotamia is well-established through archaeological evidence.",
+      "cross_references": [
+        "-2789-002",
+        "-2788-002",
+        "-2787-002"
+      ]
+    },
+    {
+      "id": "-2786-003",
+      "title": "Egyptian Old Kingdom administrative structure under Sixth Dynasty",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "The Sixth Dynasty continues with the reign of Pepi I (c. 2323\u20132291 BCE), who maintained the administrative structure of the Old Kingdom while dealing with increasing provincial autonomy. Pepi I's reign is documented through inscriptions and administrative records, showing continued pyramid construction and religious activities. However, evidence suggests that central authority was gradually weakening as nomarchs accumulated power and resources.",
+      "key_figures": [
+        "Pepi I (Sixth Dynasty pharaoh, c. 2323\u20132291 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pyramid Texts and tomb inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from pyramid complexes and administrative centers",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Pepi I's reign is documented in king lists and inscriptions, but absolute dating is uncertain by \u00b150\u2013100 years.",
+      "cross_references": [
+        "-2787-003",
+        "-2181-001"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of the Akkadian Empire as a unified, centralized state is complicated by evidence of persistent regional resistance and administrative challenges. The Old Kingdom's decline is often portrayed as sudden, but evidence suggests a more gradual process of decentralization.",
+  "historiographic_note": "Documentation for -2786 remains sparse and heavily weighted toward Egypt and Mesopotamia. Chronological precision is limited to \u00b150\u2013100 years for absolute dating. The historical record is dominated by monumental inscriptions and administrative records from literate civilizations.",
+  "graph_edges": [
+    {
+      "from": "-2786-001",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Akkadian administrative system collapsed within a generation"
+    },
+    {
+      "from": "-2786-002",
+      "to": "-1900-001",
+      "relation": "part_of",
+      "note": "Indus-Mesopotamian trade continued until Harappan decline"
+    }
+  ]
+}

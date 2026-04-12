@@ -1,0 +1,96 @@
+{
+  "year": -2799,
+  "year_label": "2799 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. The Old Kingdom of Egypt (Dynasty 6) is in its final phase under weak successors to Pepi II; centralized authority is fragmenting. In Mesopotamia, the Akkad Empire has collapsed (~2154 BCE), and Sumerian city-states are reasserting independence under the Ur III dynasty (c. 2112\u20132004 BCE), though this is slightly later. In the Indus Valley, the Early Harappan period is transitioning toward the mature Harappan civilization. Bronze-working is established across the Near East; writing systems (cuneiform, hieroglyphics) are mature.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written records; archaeological record thin for this specific year)",
+    "East Asia (Chinese Bronze Age Xia dynasty traditionally dated to this era, but dating is highly disputed; no contemporary written records)",
+    "Americas (no written records; archaeological context poorly resolved to single years)",
+    "Northern Europe (no written records; archaeological record sparse)"
+  ],
+  "events": [
+    {
+      "id": "-2799-001",
+      "title": "Reign of Pepi II of Egypt (traditional dating) \u2014 late phase or succession crisis",
+      "region": "Egypt, Old Kingdom",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Pepi II, traditionally the longest-reigning pharaoh of Dynasty 6, is either in his final years or recently deceased by this date (traditional chronology places his reign c. 2278\u20132184 BCE, but this is heavily debated). His successors are weak, and the centralized authority of the Old Kingdom is fragmenting. Regional governors (nomarchs) are accumulating power. This period marks the transition toward the First Intermediate Period, characterized by political decentralization and loss of royal prestige.",
+      "key_figures": [
+        "Pepi II (Pharaoh, Dynasty 6)",
+        "Merenre II (possible successor, Dynasty 6)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho's Aegyptiaca (via Josephus and Eusebius)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Autobiographical inscriptions from nomarchs (e.g., Ankhtifi, Siut tombs)",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian chronology for the Old Kingdom is contested. Traditional dates place Pepi II's reign c. 2278\u20132184 BCE, but some scholars argue for dates up to 200 years earlier or later. The year -2799 is assigned by convention to this era, but the specific events of this single year are not attested.",
+      "cross_references": [
+        "Relates to broader collapse of Old Kingdom authority; see First Intermediate Period context"
+      ]
+    },
+    {
+      "id": "-2799-002",
+      "title": "Ur III dynasty consolidation in southern Mesopotamia (approximate era)",
+      "region": "Mesopotamia, Sumer",
+      "coordinates_approx": "30.96, 46.10",
+      "category": "political",
+      "description": "The Ur III dynasty (c. 2112\u20132004 BCE in traditional chronology) is in its early-to-middle phase, consolidating control over southern Mesopotamia after the collapse of the Akkad Empire. Ur-Nammu and his successors are rebuilding temples, establishing a centralized bureaucracy, and creating the first large-scale written administrative archives (cuneiform tablets). This period is marked by intensive state organization, monumental construction (ziggurats), and the development of standardized weights, measures, and accounting systems.",
+      "key_figures": [
+        "Ur-Nammu (founder of Ur III, c. 2112\u20132095 BCE)",
+        "Shulgi (successor, c. 2094\u20132047 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ur III administrative tablets (cuneiform archives from Nippur, Ur, Lagash)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Inscriptions on the Great Ziggurat of Ur",
+          "type": "epigraphic",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ur III chronology is debated; traditional dates place the dynasty c. 2112\u20132004 BCE, but some scholars propose dates 100\u2013200 years earlier. The year -2799 falls within this era by convention, but no specific events for this single year are attested.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "Egyptian Old Kingdom chronology is one of the most disputed areas in ancient history. The traditional 'long chronology' (placing Pepi II c. 2278\u20132184 BCE) is challenged by the 'short chronology' and intermediate proposals, which could shift this year entirely outside the reign of Pepi II or into a different dynasty. Similarly, Mesopotamian chronology (especially the length of the Akkad Empire and the dating of Ur III) remains contested, with some scholars proposing dates 100\u2013300 years earlier than the traditional framework. No specific events for the year -2799 are attested in any source; this entry describes era context only.",
+  "historiographic_note": "The historical record for 2799 BCE is negligible. No contemporary written sources describe specific events of this year. Our knowledge derives from king lists (compiled centuries or millennia later), administrative archives (which do not date individual years precisely), and archaeological stratigraphy (which provides broad chronological frameworks but not year-by-year resolution). Egyptian chronology is heavily dependent on astronomical calculations (Sothic cycles) and king list lengths, both of which are debated. Mesopotamian chronology relies on king list lengths and synchronisms with Egypt, which are uncertain. The surviving sources are biased toward elite, state-sponsored narratives; the experiences of common people, women, and non-literate societies are invisible. Archaeological evidence is unevenly distributed geographically.",
+  "graph_edges": [
+    {
+      "from": "-2799-001",
+      "to": "-2750-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "Fragmentation of Old Kingdom authority leads to the First Intermediate Period"
+    },
+    {
+      "from": "-2799-002",
+      "to": "-2700-UR_III_PEAK",
+      "relation": "part_of",
+      "note": "Ur III consolidation continues through the 3rd millennium BCE"
+    }
+  ]
+}

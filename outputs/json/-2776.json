@@ -1,0 +1,85 @@
+{
+  "year": -2776,
+  "year_label": "2776 BCE",
+  "era_context": "The Old Kingdom of Egypt (c. 2686\u20132181 BCE) continues under the Fifth Dynasty. In Mesopotamia, the Early Dynastic Period III persists, with city-states competing for dominance. The Indus Valley Civilization remains in its mature urban phase. In China, the traditional Xia Dynasty period continues, though archaeological evidence is lacking.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-2776-001",
+      "title": "Fifth Dynasty Egypt administrative consolidation",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "The Fifth Dynasty continues its reign, characterized by the gradual shift of power from the central pharaonic authority to provincial governors and the priesthood of Ra. This period sees the construction of smaller pyramids and sun temples, reflecting both economic constraints and ideological shifts. The administrative apparatus of the Old Kingdom remains functional, with records of tax collection, military organization, and trade.",
+      "key_figures": [
+        "Pharaoh of the Fifth Dynasty (identity uncertain)"
+      ],
+      "sources": [
+        {
+          "name": "Pyramid Texts and tomb inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Egyptian chronology for this period is uncertain by \u00b150\u2013100 years. The Fifth Dynasty is well-attested, but the specific year is assigned by convention.",
+      "cross_references": [
+        "-2775-001"
+      ]
+    },
+    {
+      "id": "-2776-002",
+      "title": "Indus Valley trade networks active",
+      "region": "Indus Valley and broader trade networks",
+      "coordinates_approx": "27.5, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains extensive trade networks with Mesopotamia, the Persian Gulf, and Central Asia. Archaeological evidence of Indus seals and artifacts found in Mesopotamian sites (such as Ur and Lagash) attests to active commerce. The nature of this trade\u2014whether direct or through intermediaries\u2014remains debated, but the exchange of goods, ideas, and possibly people is evident.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Indus seals in Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus Valley artifacts and weights",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Trade networks are well-attested archaeologically for the mature Indus phase (c. 2600\u20131900 BCE), though specific annual events are not documented.",
+      "cross_references": [
+        "-2775-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific events are documented for this year in any tradition. The assignment of this year to the Fifth Dynasty of Egypt and the mature Indus Valley phase is based on conventional chronology, which is disputed. The Xia Dynasty remains unconfirmed archaeologically.",
+  "historiographic_note": "This year, like -2775, falls in a period with sparse written documentation outside Egypt and Mesopotamia. The historical record is heavily dependent on king lists (which are later compilations with uncertain accuracy), inscriptions on monuments (which are biased toward royal and religious subjects), and archaeological evidence (which provides material culture but limited narrative detail). The absence of documented events for this specific year is not evidence of historical inactivity but rather a reflection of the limitations of surviving sources.",
+  "graph_edges": [
+    {
+      "from": "-2776-001",
+      "to": "-2775-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of Fifth Dynasty rule"
+    },
+    {
+      "from": "-2776-002",
+      "to": "-2775-002",
+      "relation": "contemporary_with",
+      "note": "Ongoing Indus Valley trade"
+    }
+  ]
+}
