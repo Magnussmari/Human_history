@@ -1,0 +1,113 @@
+{
+  "year": 505,
+  "year_label": "505 CE",
+  "era_context": "The early 6th century CE spans the late Eastern Roman (Byzantine) Empire under Anastasius I, the Ostrogothic Kingdom in Italy under Theodoric, the Sassanid Persian Empire under Kavadh I, and the early phase of the Northern Wei Dynasty in China. This period marks the transition from Late Antiquity toward the early medieval world, with significant religious, political, and military upheaval across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources; archaeological record incomplete)",
+    "Northern Europe beyond the Rhine and Danube (sparse written documentation)",
+    "Central Asia (limited detailed records; primarily known through Chinese and Persian sources)"
+  ],
+  "events": [
+    {
+      "id": "505-001",
+      "title": "Earthquake and tsunami in the Eastern Mediterranean",
+      "region": "Eastern Mediterranean, Levant, Egypt",
+      "coordinates_approx": "32.0, 35.0",
+      "category": "environmental",
+      "description": "A major seismic event struck the Eastern Mediterranean region, causing significant damage to coastal settlements and inland cities. The earthquake was felt across the Levant, Egypt, and parts of Asia Minor. Contemporary sources report widespread destruction and loss of life, with particular impact on port cities and fortified settlements. This event disrupted trade networks and required substantial reconstruction efforts across the Byzantine Empire.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "John of Malalas, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Theophanes the Confessor, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Multiple later Byzantine chronicles attest to a major earthquake in this period, though exact dating varies between sources (505\u2013507 range). Archaeological evidence of destruction layers in Levantine sites supports the occurrence, though precise year assignment remains uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "505-002",
+      "title": "Nika Riots precursor tensions in Constantinople",
+      "region": "Byzantine Empire, Constantinople",
+      "coordinates_approx": "41.0, 28.9",
+      "category": "political",
+      "description": "Growing factional tensions between the Blues and Greens circus factions in Constantinople intensified during this period, reflecting deeper social and religious divisions within the Byzantine capital. While the major Nika Riots would not occur until 532 CE, the roots of these conflicts were already evident in the early 500s, with violent clashes between supporters and imperial authorities. These tensions foreshadowed the larger civil unrest that would characterize the reign of Justinian I.",
+      "key_figures": [
+        "Anastasius I (Byzantine Emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Procopius of Caesarea, History of the Wars",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "John of Malalas, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Blues-Greens factions are well-attested from the early 6th century onward, but specific incidents in 505 are not clearly documented. This entry reflects the broader context of factional activity during Anastasius I's reign (491\u2013518 CE).",
+      "cross_references": [
+        "532-001 (Nika Riots)"
+      ]
+    },
+    {
+      "id": "505-003",
+      "title": "Kavadh I's military campaigns in the Caucasus",
+      "region": "Sassanid Persia, Caucasus region",
+      "coordinates_approx": "42.0, 48.0",
+      "category": "military",
+      "description": "The Sassanid Persian King Kavadh I (r. 488\u2013531 CE) conducted military operations in the Caucasus region, consolidating control over the mountain passes and subjugating local kingdoms. These campaigns were part of Kavadh's broader strategy to secure Persia's northern frontier and maintain dominance over the Silk Road trade routes. The campaigns involved both direct military action and diplomatic pressure on regional rulers.",
+      "key_figures": [
+        "Kavadh I (Sassanid King)"
+      ],
+      "sources": [
+        {
+          "name": "Procopius of Caesarea, History of the Wars",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Tabari, History of the Prophets and Kings",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Kavadh I's Caucasus campaigns are attested in Byzantine and later Persian sources, but precise dating of individual campaigns is difficult. The period 505\u2013510 CE saw sustained Sassanid activity in this region.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the major earthquake to 505 CE is not universally agreed upon; some sources place it in 506 or 507 CE. The significance of factional tensions in 505 specifically is difficult to establish from contemporary sources\u2014most detailed accounts of Blues-Greens conflicts come from later chronicles and may conflate events across multiple years. Kavadh I's Caucasus campaigns are poorly dated in surviving sources, and attributing specific operations to 505 rather than adjacent years is largely conventional.",
+  "historiographic_note": "The historical record for 505 CE is heavily dependent on later Byzantine and Persian compilations, particularly the works of Procopius (writing in the 550s) and John of Malalas (6th\u20137th century). Contemporary primary sources are sparse. The Byzantine perspective dominates surviving documentation; Sassanid sources are known primarily through later Islamic historiography. Archaeological evidence for this specific year is limited, though geological and stratigraphic data support the occurrence of seismic activity in the Eastern Mediterranean during the early 6th century. The record is biased toward major political and military events; economic, social, and cultural developments are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "505-001",
+      "to": "506-001",
+      "relation": "contemporary_with",
+      "note": "Part of a broader seismic sequence affecting the Eastern Mediterranean in the early 6th century"
+    },
+    {
+      "from": "505-002",
+      "to": "532-001",
+      "relation": "led_to",
+      "note": "Factional tensions of the early 500s escalated into the major Nika Riots of 532 CE"
+    },
+    {
+      "from": "505-003",
+      "to": "527-001",
+      "relation": "part_of",
+      "note": "Sassanid-Byzantine competition in the Caucasus continued throughout the early 6th century"
+    }
+  ]
+}
