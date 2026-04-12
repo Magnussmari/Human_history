@@ -3,10 +3,10 @@
 import { useEffect, useState, useCallback, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "motion/react";
-import { Search } from "lucide-react";
+import { Search, ArrowRight } from "lucide-react";
 import type { YearData } from "@/types/history";
 import { searchEvents } from "@/lib/data";
-import { CATEGORY_CONFIG, safeCategoryConfig } from "@/lib/constants";
+import { safeCategoryConfig } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 interface SearchCommandProps {
@@ -28,6 +28,34 @@ function highlightMatch(text: string, query: string): React.ReactNode {
   );
 }
 
+/** Parse a query string as a historical year number. Returns the year integer or null. */
+function parseYearQuery(query: string): number | null {
+  const q = query.trim();
+  // "476 BCE" or "476 BC"
+  const bce = q.match(/^(\d{1,4})\s*(bce|bc)$/i);
+  if (bce) {
+    const n = parseInt(bce[1], 10);
+    if (n >= 1 && n <= 3200) return -n;
+  }
+  // "-776" (raw negative)
+  const neg = q.match(/^-(\d{1,4})$/);
+  if (neg) {
+    const n = parseInt(neg[1], 10);
+    if (n >= 1 && n <= 3200) return -n;
+  }
+  // "476" or "476 CE" or "476 AD"
+  const ce = q.match(/^(\d{1,4})\s*(ce|ad)?$/i);
+  if (ce) {
+    const n = parseInt(ce[1], 10);
+    if (n >= 1 && n <= 2025) return n;
+  }
+  return null;
+}
+
+function formatYear(year: number): string {
+  return year < 0 ? `${Math.abs(year)} BCE` : `${year} CE`;
+}
+
 export function SearchCommand({ years }: SearchCommandProps) {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
@@ -35,6 +63,7 @@ export function SearchCommand({ years }: SearchCommandProps) {
   const router = useRouter();
 
   const results = searchEvents(years, query);
+  const yearJump = parseYearQuery(query);
 
   // Group results by century
   const groupedResults = results.reduce<Record<string, typeof results>>((acc, r) => {
@@ -73,38 +102,37 @@ export function SearchCommand({ years }: SearchCommandProps) {
     [router]
   );
 
+  const hasResults = yearJump !== null || Object.keys(groupedResults).length > 0;
+
   return (
     <>
       {/* Trigger button */}
       <motion.button
         onClick={() => setOpen(true)}
-        className="flex items-center gap-2 rounded-lg px-3 py-1.5 text-sm text-muted-foreground transition-all"
-        style={{
-          background: "#111111",
-          border: "1px solid #222222",
-        }}
-        whileHover={{ scale: 1.02 }}
-        whileTap={{ scale: 0.97 }}
+        className="flex items-center gap-2 rounded-lg px-3 py-1.5 text-sm text-muted-foreground transition-all flex-1 sm:flex-none sm:min-w-[220px]"
+        style={{ background: "#111111", border: "1px solid #222222" }}
+        whileHover={{ scale: 1.01 }}
+        whileTap={{ scale: 0.98 }}
       >
-        <Search size={14} />
-        <span className="hidden sm:inline">Search the Codex...</span>
+        <Search size={14} className="shrink-0" />
+        <span className="hidden sm:inline text-left flex-1">Search or jump to a year…</span>
         <span className="inline sm:hidden">Search</span>
         <kbd
-          className="hidden sm:inline ml-2 rounded px-1.5 py-0.5 text-[10px] font-mono"
+          className="hidden sm:inline ml-auto rounded px-1.5 py-0.5 text-[10px] font-mono shrink-0"
           style={{
-            background: "rgba(232,200,138,0.1)",
-            border: "1px solid rgba(232,200,138,0.2)",
+            background: "rgba(232,200,138,0.08)",
+            border: "1px solid rgba(232,200,138,0.15)",
             color: "var(--gold)",
           }}
         >
-          Cmd K
+          ⌘K
         </kbd>
       </motion.button>
 
       {/* Overlay */}
       <AnimatePresence>
         {open && (
-          <div className="fixed inset-0 z-50 flex items-start justify-center pt-[15vh] px-4">
+          <div className="fixed inset-0 z-50 flex items-start justify-center pt-[12vh] px-4">
             {/* Backdrop */}
             <motion.div
               key="search-backdrop"
@@ -112,53 +140,42 @@ export function SearchCommand({ years }: SearchCommandProps) {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.15 }}
-              className="fixed inset-0 bg-black/60 backdrop-blur-md"
+              className="fixed inset-0 bg-black/65 backdrop-blur-md"
               onClick={() => setOpen(false)}
             />
 
             {/* Dialog */}
             <motion.div
               key="search-dialog"
-              initial={{ opacity: 0, scale: 0.95, y: -12 }}
+              initial={{ opacity: 0, scale: 0.96, y: -16 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
-              exit={{ opacity: 0, scale: 0.95, y: -12 }}
-              transition={{ type: "spring", stiffness: 350, damping: 30 }}
+              exit={{ opacity: 0, scale: 0.96, y: -16 }}
+              transition={{ type: "spring", stiffness: 380, damping: 32 }}
               className="relative w-full max-w-xl rounded-2xl overflow-hidden shadow-2xl"
-              style={{
-                background: "#111111",
-                border: "1px solid #222222",
-              }}
+              style={{ background: "#0d0d0d", border: "1px solid #222222" }}
               onClick={(e) => e.stopPropagation()}
             >
-              {/* Header */}
-              <div
-                className="px-5 pt-5 pb-2 border-b"
-                style={{ borderColor: "#222222" }}
-              >
-                <h2
-                  className="text-lg font-semibold mb-3"
-                  style={{ fontFamily: "var(--font-heading), serif", color: "var(--gold)" }}
-                >
-                  Search the Codex
-                </h2>
-                <div className="flex items-center gap-3 rounded-lg border px-3 py-2"
+              {/* Search input */}
+              <div className="px-5 pt-5 pb-3" style={{ borderBottom: "1px solid #1a1a1a" }}>
+                <div
+                  className="flex items-center gap-3 rounded-xl border px-4 py-3"
                   style={{
-                    borderColor: "rgba(232,200,138,0.25)",
-                    background: "rgba(232,200,138,0.04)",
+                    borderColor: "rgba(232,200,138,0.2)",
+                    background: "rgba(232,200,138,0.03)",
                   }}
                 >
-                  <Search size={15} className="text-muted-foreground shrink-0" />
+                  <Search size={16} className="text-muted-foreground/50 shrink-0" />
                   <input
                     ref={inputRef}
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
-                    placeholder="Search events, figures, years..."
-                    className="flex-1 bg-transparent text-sm text-foreground placeholder:text-muted-foreground/50 outline-none border-0"
+                    placeholder="Search events, people, places… or type a year (e.g. 476, 776 BCE)"
+                    className="flex-1 bg-transparent text-sm text-foreground placeholder:text-muted-foreground/40 outline-none border-0"
                   />
                   {query && (
                     <button
                       onClick={() => setQuery("")}
-                      className="text-muted-foreground/50 hover:text-muted-foreground text-xs"
+                      className="text-muted-foreground/40 hover:text-muted-foreground text-xs transition-colors"
                     >
                       Clear
                     </button>
@@ -167,70 +184,106 @@ export function SearchCommand({ years }: SearchCommandProps) {
               </div>
 
               {/* Results */}
-              <div className="max-h-[52vh] overflow-y-auto p-2">
-                {query.length < 2 ? (
-                  <p className="py-10 text-center text-sm text-muted-foreground">
-                    Type at least 2 characters to search across all {years.length.toLocaleString()} years...
-                  </p>
-                ) : Object.keys(groupedResults).length === 0 ? (
-                  <p className="py-10 text-center text-sm text-muted-foreground">
-                    No results found for <span style={{ color: "var(--gold)" }}>"{query}"</span>
+              <div className="max-h-[54vh] overflow-y-auto">
+                {query.length < 1 ? (
+                  <div className="py-12 text-center">
+                    <p className="text-sm text-muted-foreground/50 mb-2">Search across {years.length.toLocaleString()} years of history</p>
+                    <p className="text-xs text-muted-foreground/30">
+                      Try "Julius Caesar", "Black Death", or type a year like "1453"
+                    </p>
+                  </div>
+                ) : !hasResults ? (
+                  <p className="py-12 text-center text-sm text-muted-foreground/50">
+                    No results for <span style={{ color: "var(--gold)" }}>"{query}"</span>
                   </p>
                 ) : (
-                  Object.entries(groupedResults).map(([century, items]) => (
-                    <div key={century} className="mb-3">
-                      <div className="px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.18em] text-muted-foreground/60">
-                        {century}
-                      </div>
-                      {items.map((r) => (
+                  <div className="p-2">
+                    {/* Year jump — always first when query looks like a year */}
+                    {yearJump !== null && (
+                      <div className="mb-1">
                         <motion.button
-                          key={r.event.id}
-                          onClick={() => handleSelect(r.year)}
-                          className="flex w-full items-start gap-3 rounded-xl px-3 py-2.5 text-left hover:bg-muted/30 transition-colors"
+                          onClick={() => handleSelect(yearJump)}
+                          className="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-left transition-colors hover:bg-muted/20"
+                          style={{
+                            border: "1px solid rgba(232,200,138,0.15)",
+                            background: "rgba(232,200,138,0.03)",
+                          }}
                           whileHover={{ x: 2 }}
                           transition={{ type: "spring", stiffness: 400, damping: 30 }}
                         >
-                          <span
-                            className="shrink-0 font-mono text-xs tabular-nums mt-0.5"
-                            style={{ color: "var(--gold)" }}
+                          <div
+                            className="flex h-8 w-8 items-center justify-center rounded-lg shrink-0"
+                            style={{ background: "rgba(232,200,138,0.1)", color: "var(--gold)" }}
                           >
-                            {r.yearLabel}
-                          </span>
-                          <div className="min-w-0">
-                            <p className="text-sm font-medium text-foreground truncate">
-                              {highlightMatch(r.event.title, query)}
+                            <ArrowRight size={15} />
+                          </div>
+                          <div>
+                            <p
+                              className="text-sm font-semibold"
+                              style={{ fontFamily: "var(--font-heading), serif", color: "var(--gold)" }}
+                            >
+                              Jump to {formatYear(yearJump)}
                             </p>
-                            <div className="flex items-center gap-1.5 mt-0.5 flex-wrap">
-                              <span
-                                className={cn(
-                                  "rounded px-1.5 py-0 text-[10px] font-medium",
-                                  safeCategoryConfig(r.event.category).color
-                                )}
-                              >
-                                {safeCategoryConfig(r.event.category).label}
-                              </span>
-                              <span className="text-[10px] text-muted-foreground truncate max-w-[200px]">
-                                {r.event.region}
-                              </span>
-                            </div>
+                            <p className="text-[11px] text-muted-foreground/50 mt-0.5">
+                              View all events for this year
+                            </p>
                           </div>
                         </motion.button>
-                      ))}
-                    </div>
-                  ))
+                      </div>
+                    )}
+
+                    {/* Event results grouped by century */}
+                    {Object.entries(groupedResults).map(([century, items]) => (
+                      <div key={century} className="mb-2">
+                        <div className="px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.18em] text-muted-foreground/40">
+                          {century}
+                        </div>
+                        {items.map((r) => (
+                          <motion.button
+                            key={r.event.id}
+                            onClick={() => handleSelect(r.year)}
+                            className="flex w-full items-start gap-3 rounded-xl px-3 py-2.5 text-left hover:bg-muted/25 transition-colors"
+                            whileHover={{ x: 2 }}
+                            transition={{ type: "spring", stiffness: 400, damping: 30 }}
+                          >
+                            <span
+                              className="shrink-0 font-mono text-xs tabular-nums mt-0.5 w-16 text-right"
+                              style={{ color: "var(--gold)", opacity: 0.7 }}
+                            >
+                              {r.yearLabel}
+                            </span>
+                            <div className="min-w-0">
+                              <p className="text-sm font-medium text-foreground/90 leading-snug">
+                                {highlightMatch(r.event.title, query)}
+                              </p>
+                              <div className="flex items-center gap-1.5 mt-0.5">
+                                <span className="text-[10px] text-muted-foreground/50">
+                                  {safeCategoryConfig(r.event.category).label}
+                                </span>
+                                <span className="text-muted-foreground/25 text-[10px]">·</span>
+                                <span className="text-[10px] text-muted-foreground/40 truncate max-w-[180px]">
+                                  {r.event.region}
+                                </span>
+                              </div>
+                            </div>
+                          </motion.button>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
                 )}
               </div>
 
               {/* Footer */}
               <div
-                className="px-4 py-2 border-t flex items-center justify-between"
-                style={{ borderColor: "#222222" }}
+                className="px-4 py-2 flex items-center justify-between"
+                style={{ borderTop: "1px solid #1a1a1a" }}
               >
-                <span className="text-[10px] text-muted-foreground/50">
-                  {results.length > 0 && `${results.length} result${results.length !== 1 ? "s" : ""}`}
+                <span className="text-[10px] text-muted-foreground/35">
+                  {results.length > 0 && `${results.length} event${results.length !== 1 ? "s" : ""} found`}
                 </span>
-                <span className="text-[10px] text-muted-foreground/50">
-                  Press <kbd className="font-mono">Esc</kbd> to close
+                <span className="text-[10px] text-muted-foreground/35">
+                  <kbd className="font-mono">Esc</kbd> to close
                 </span>
               </div>
             </motion.div>

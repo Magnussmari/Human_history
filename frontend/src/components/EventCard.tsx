@@ -2,36 +2,11 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import {
-  Landmark, Swords, FlaskConical, Palette, Coins, Users, Cog,
-  Church, Leaf, Compass, Scale, ChevronDown, Shield, Flame, BookOpen, Link2
-} from "lucide-react";
-import type { HistoryEvent, EventCategory, CertaintyLevel } from "@/types/history";
-import { CATEGORY_CONFIG, CERTAINTY_CONFIG, safeCategoryConfig, safeCertaintyConfig } from "@/lib/constants";
+import { ChevronDown, BookOpen, Link2 } from "lucide-react";
+import type { HistoryEvent } from "@/types/history";
+import { safeCategoryConfig, safeCertaintyConfig } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-
-const CATEGORY_ICONS: Record<EventCategory, React.ReactNode> = {
-  political: <Landmark size={13} />,
-  military: <Swords size={13} />,
-  scientific: <FlaskConical size={13} />,
-  cultural: <Palette size={13} />,
-  economic: <Coins size={13} />,
-  demographic: <Users size={13} />,
-  technological: <Cog size={13} />,
-  religious: <Church size={13} />,
-  environmental: <Leaf size={13} />,
-  exploration: <Compass size={13} />,
-  legal: <Scale size={13} />,
-};
-
-const CERTAINTY_ICONS: Record<CertaintyLevel, React.ReactNode> = {
-  confirmed: <Shield size={11} />,
-  probable: <Shield size={11} />,
-  approximate: <Flame size={11} />,
-  traditional: <Flame size={11} />,
-  legendary: <Flame size={11} />,
-};
 
 interface EventCardProps {
   event: HistoryEvent;
@@ -44,109 +19,99 @@ export function EventCard({ event }: EventCardProps) {
   const certConfig = safeCertaintyConfig(event.certainty);
 
   function handleToggle() {
-    if (expanded) {
-      setSourcesOpen(false);
-    }
+    if (expanded) setSourcesOpen(false);
     setExpanded((e) => !e);
   }
 
+  const certaintyColor =
+    event.certainty === "confirmed" ? "#4ade80"
+    : event.certainty === "probable" ? "#60a5fa"
+    : "#e8c88a";
+
   return (
     <motion.div
-      className="overflow-hidden transition-all"
-      style={{
-        background: "#111111",
-        border: "1px solid #222222",
-        borderRadius: "16px",
-      }}
-      initial={{ opacity: 0, y: 12 }}
+      style={{ background: "#0d0d0d", border: "1px solid #1e1e1e", borderRadius: 16 }}
+      initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.3, type: "spring" as const, stiffness: 250, damping: 28 }}
-      whileHover={{ boxShadow: "0 4px 20px -4px rgba(232,200,138,0.08)" }}
+      whileHover={{ borderColor: "rgba(232,200,138,0.18)" }}
     >
-      {/* Clickable header area */}
+      {/* Clickable header — title first, description second, metadata last */}
       <div
-        className="p-5 sm:p-7 cursor-pointer select-none"
-        style={{ paddingLeft: "clamp(20px, 5vw, 32px)", paddingRight: "clamp(20px, 5vw, 32px)" }}
+        className="px-6 pt-6 pb-5 cursor-pointer"
         onClick={handleToggle}
         role="button"
         aria-expanded={expanded}
         tabIndex={0}
-        onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); handleToggle(); } }}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            handleToggle();
+          }
+        }}
       >
-        {/* Header row: badges + region + chevron */}
-        <div className="flex flex-wrap items-center gap-2 mb-3">
-          <span
-            className="inline-flex items-center gap-1.5"
+        {/* Title row */}
+        <div className="flex items-start justify-between gap-4 mb-3">
+          <h3
+            className="leading-snug"
             style={{
-              fontSize: 11,
-              padding: "3px 10px",
-              borderRadius: 6,
-              background: "#1a1a1a",
-              border: "1px solid #222222",
-              color: "#d1c2a8",
+              fontFamily: "var(--font-heading), serif",
+              fontSize: "1.2rem",
               fontWeight: 600,
-              letterSpacing: "0.06em",
-              textTransform: "uppercase" as const,
+              color: "#f4e9d8",
+              letterSpacing: "-0.01em",
             }}
           >
-            {CATEGORY_ICONS[event.category]}
-            {catConfig.label}
-          </span>
-
-          <span
-            className="inline-flex items-center gap-1"
-            style={{
-              fontSize: 11,
-              padding: "3px 10px",
-              borderRadius: 999,
-              background: event.certainty === "confirmed" ? "rgba(34,197,94,0.1)" : event.certainty === "probable" ? "rgba(59,130,246,0.1)" : "rgba(232,200,138,0.08)",
-              border: `1px solid ${event.certainty === "confirmed" ? "rgba(34,197,94,0.25)" : event.certainty === "probable" ? "rgba(59,130,246,0.25)" : "rgba(232,200,138,0.2)"}`,
-              color: event.certainty === "confirmed" ? "#4ade80" : event.certainty === "probable" ? "#60a5fa" : "#e8c88a",
-              fontWeight: 600,
-              letterSpacing: "0.06em",
-              textTransform: "uppercase" as const,
-            }}
+            {event.title}
+          </h3>
+          <motion.div
+            animate={{ rotate: expanded ? 180 : 0 }}
+            transition={{ duration: 0.2 }}
+            className="shrink-0 mt-1 text-muted-foreground/35"
           >
-            {CERTAINTY_ICONS[event.certainty]}
-            {certConfig.label}
-          </span>
-
-          <span className="text-xs text-muted-foreground ml-auto flex items-center gap-2">
-            {event.region}
-            <motion.span
-              animate={{ rotate: expanded ? 180 : 0 }}
-              transition={{ duration: 0.2 }}
-              className="text-muted-foreground/50"
-            >
-              <ChevronDown size={14} />
-            </motion.span>
-          </span>
+            <ChevronDown size={16} />
+          </motion.div>
         </div>
 
-        {/* Title — smaller in collapsed state */}
-        <h3
-          className="font-semibold mb-2 leading-snug"
-          style={{
-            fontFamily: "var(--font-heading), serif",
-            fontSize: "1.1rem",
-            color: "#f4e9d8",
-            letterSpacing: "-0.01em",
-          }}
-        >
-          {event.title}
-        </h3>
-
-        {/* Description — clamped when collapsed */}
+        {/* Description — the actual content, readable */}
         <p
           className={cn(!expanded && "line-clamp-3")}
-          style={{ color: "#a8998a", fontSize: "15px", lineHeight: 1.65 }}
+          style={{
+            color: "#c8b99a",
+            fontSize: "15px",
+            lineHeight: 1.8,
+            maxWidth: "68ch",
+          }}
         >
           {event.description}
         </p>
 
-        {!expanded && (
-          <span className="text-xs text-muted-foreground/60 mt-1.5 inline-block">Show more</span>
-        )}
+        {/* Metadata strip — last, not first */}
+        <div
+          className="flex flex-wrap items-center gap-x-2.5 gap-y-1 mt-4 pt-3"
+          style={{ borderTop: "1px solid #1e1e1e" }}
+        >
+          <span className="text-xs text-muted-foreground/60">{event.region}</span>
+          <span className="text-muted-foreground/25 text-xs">·</span>
+          <span className="text-xs text-muted-foreground/60">{catConfig.label}</span>
+          <span className="text-muted-foreground/25 text-xs">·</span>
+          <span className="text-xs font-medium" style={{ color: certaintyColor, opacity: 0.8 }}>
+            {certConfig.label}
+          </span>
+          {event.sources.length > 0 && (
+            <>
+              <span className="text-muted-foreground/25 text-xs">·</span>
+              <span className="text-xs text-muted-foreground/45">
+                {event.sources.length} source{event.sources.length !== 1 ? "s" : ""}
+              </span>
+            </>
+          )}
+          {!expanded && event.key_figures.length > 0 && (
+            <span className="text-xs text-muted-foreground/35 ml-auto truncate max-w-[180px] hidden sm:block">
+              {event.key_figures.slice(0, 3).join(", ")}
+            </span>
+          )}
+        </div>
       </div>
 
       {/* Expandable body */}
@@ -160,129 +125,135 @@ export function EventCard({ event }: EventCardProps) {
             className="overflow-hidden"
           >
             <div
-              className="px-5 sm:px-7 pb-5 sm:pb-7 space-y-4"
-              style={{ paddingLeft: "clamp(20px, 5vw, 32px)", paddingRight: "clamp(20px, 5vw, 32px)" }}
+              className="px-6 pb-6"
+              style={{ borderTop: "1px solid #1e1e1e" }}
             >
-              {/* Key figures */}
-              {event.key_figures.length > 0 && (
-                <div>
-                  <span className="text-[10px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
-                    Key Figures
-                  </span>
-                  <div className="flex flex-wrap gap-1.5 mt-1.5">
-                    {event.key_figures.map((fig) => (
-                      <span
-                        key={fig}
-                        className="rounded-full border px-3 py-1 font-medium"
-                        style={{ background: "#1a1a1a", borderColor: "#222222", fontSize: "0.95rem", color: "#d1c2a8" }}
-                      >
-                        {fig}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              )}
+              <div className="pt-5 space-y-5">
 
-              {/* Cross-references */}
-              {event.cross_references.length > 0 && (
-                <div className="flex flex-wrap gap-1.5 items-center">
-                  <Link2 size={11} className="text-muted-foreground/60" />
-                  {event.cross_references.map((ref) => {
-                    const refYear = parseInt(ref.split("_")[0], 10);
-                    if (!isNaN(refYear)) {
-                      return (
+                {/* Key figures */}
+                {event.key_figures.length > 0 && (
+                  <div>
+                    <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-muted-foreground/45 mb-2.5">
+                      Key Figures
+                    </p>
+                    <div className="flex flex-wrap gap-1.5">
+                      {event.key_figures.map((fig) => (
+                        <span
+                          key={fig}
+                          className="rounded-full px-3 py-1 text-sm"
+                          style={{ background: "#181818", border: "1px solid #252525", color: "#d1c2a8" }}
+                        >
+                          {fig}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Cross-references */}
+                {event.cross_references.length > 0 && (
+                  <div className="flex flex-wrap gap-1.5 items-center">
+                    <Link2 size={11} className="text-muted-foreground/35 shrink-0" />
+                    {event.cross_references.map((ref) => {
+                      const refYear = parseInt(ref.split("_")[0], 10);
+                      return !isNaN(refYear) ? (
                         <Link
                           key={ref}
                           href={`/year/${refYear}`}
-                          className="text-[10px] font-mono rounded px-1.5 py-0.5 transition-colors hover:text-primary"
+                          onClick={(e) => e.stopPropagation()}
+                          className="text-[10px] font-mono rounded px-1.5 py-0.5 hover:opacity-75 transition-opacity"
                           style={{
-                            background: "rgba(232,200,138,0.08)",
-                            border: "1px solid rgba(232,200,138,0.2)",
+                            background: "rgba(232,200,138,0.06)",
+                            border: "1px solid rgba(232,200,138,0.12)",
                             color: "var(--gold)",
                           }}
-                          onClick={(e) => e.stopPropagation()}
                         >
                           {ref}
                         </Link>
+                      ) : (
+                        <span
+                          key={ref}
+                          className="text-[10px] font-mono rounded px-1.5 py-0.5"
+                          style={{
+                            background: "rgba(232,200,138,0.04)",
+                            border: "1px solid rgba(232,200,138,0.08)",
+                            color: "var(--gold)",
+                            opacity: 0.65,
+                          }}
+                        >
+                          {ref}
+                        </span>
                       );
-                    }
-                    return (
-                      <span
-                        key={ref}
-                        className="text-[10px] font-mono rounded px-1.5 py-0.5"
-                        style={{
-                          background: "rgba(232,200,138,0.06)",
-                          border: "1px solid rgba(232,200,138,0.15)",
-                          color: "var(--gold)",
-                          opacity: 0.8,
-                        }}
-                      >
-                        {ref}
-                      </span>
-                    );
-                  })}
-                </div>
-              )}
+                    })}
+                  </div>
+                )}
 
-              {/* Certainty note */}
-              {event.certainty_note && (
-                <p
-                  className="text-xs text-muted-foreground italic border-l-2 pl-3"
-                  style={{ borderColor: "rgba(232,200,138,0.3)" }}
-                >
-                  {event.certainty_note}
-                </p>
-              )}
-
-              {/* Sources toggle */}
-              {event.sources.length > 0 && (
-                <div className="pt-3 border-t border-border/30">
-                  <button
-                    onClick={(e) => { e.stopPropagation(); setSourcesOpen((s) => !s); }}
-                    className="flex items-center gap-1.5 text-[11px] font-medium text-muted-foreground hover:text-foreground transition-colors"
+                {/* Certainty note */}
+                {event.certainty_note && (
+                  <p
+                    className="text-xs italic leading-relaxed"
+                    style={{
+                      color: "#a8998a",
+                      borderLeft: "2px solid rgba(232,200,138,0.2)",
+                      paddingLeft: 12,
+                    }}
                   >
-                    <BookOpen size={11} />
-                    {event.sources.length} source{event.sources.length !== 1 ? "s" : ""}
-                    <motion.span
-                      animate={{ rotate: sourcesOpen ? 180 : 0 }}
-                      transition={{ duration: 0.2 }}
-                    >
-                      <ChevronDown size={11} />
-                    </motion.span>
-                  </button>
+                    {event.certainty_note}
+                  </p>
+                )}
 
-                  <AnimatePresence>
-                    {sourcesOpen && (
-                      <motion.div
-                        initial={{ height: 0, opacity: 0 }}
-                        animate={{ height: "auto", opacity: 1 }}
-                        exit={{ height: 0, opacity: 0 }}
-                        transition={{ duration: 0.2, ease: "easeInOut" }}
-                        className="overflow-hidden"
+                {/* Sources */}
+                {event.sources.length > 0 && (
+                  <div>
+                    <button
+                      onClick={(e) => { e.stopPropagation(); setSourcesOpen((s) => !s); }}
+                      className="flex items-center gap-1.5 text-[11px] text-muted-foreground hover:text-foreground transition-colors"
+                    >
+                      <BookOpen size={11} />
+                      <span className="font-medium">
+                        {event.sources.length} source{event.sources.length !== 1 ? "s" : ""}
+                      </span>
+                      <motion.span
+                        animate={{ rotate: sourcesOpen ? 180 : 0 }}
+                        transition={{ duration: 0.2 }}
                       >
-                        <div className="mt-2 space-y-1.5">
-                          {event.sources.map((src, i) => (
-                            <div key={i} className="flex items-start gap-2 text-xs">
-                              <span
-                                className={cn(
-                                  "shrink-0 rounded px-1.5 py-0.5 font-mono text-[10px] whitespace-nowrap",
-                                  src.contemporary
-                                    ? "bg-green-900/20 text-green-400 dark:bg-green-900/30"
-                                    : "bg-muted text-muted-foreground"
-                                )}
-                              >
-                                {src.type.replace(/_/g, " ")}
-                                {src.contemporary && " •"}
-                              </span>
-                              <span className="text-foreground/60 leading-relaxed">{src.name}</span>
-                            </div>
-                          ))}
-                        </div>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
-                </div>
-              )}
+                        <ChevronDown size={11} />
+                      </motion.span>
+                    </button>
+                    <AnimatePresence>
+                      {sourcesOpen && (
+                        <motion.div
+                          initial={{ height: 0, opacity: 0 }}
+                          animate={{ height: "auto", opacity: 1 }}
+                          exit={{ height: 0, opacity: 0 }}
+                          transition={{ duration: 0.2, ease: "easeInOut" }}
+                          className="overflow-hidden"
+                        >
+                          <div className="mt-3 space-y-2">
+                            {event.sources.map((src, i) => (
+                              <div key={i} className="flex items-start gap-2 text-xs">
+                                <span
+                                  className={cn(
+                                    "shrink-0 rounded px-1.5 py-0.5 font-mono text-[10px] whitespace-nowrap",
+                                    src.contemporary
+                                      ? "bg-green-900/20 text-green-400"
+                                      : "bg-muted text-muted-foreground"
+                                  )}
+                                >
+                                  {src.type.replace(/_/g, " ")}
+                                  {src.contemporary && " •"}
+                                </span>
+                                <span className="text-foreground/50 leading-relaxed">{src.name}</span>
+                              </div>
+                            ))}
+                          </div>
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  </div>
+                )}
+
+              </div>
             </div>
           </motion.div>
         )}
