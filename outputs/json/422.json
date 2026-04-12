@@ -1,0 +1,110 @@
+{
+  "year": 422,
+  "year_label": "422 BCE",
+  "era_context": "The Peloponnesian War continues in its ninth year. The one-year truce of 423 BCE has broken down, and fighting resumes. The Sicilian Expedition is in its third year (launched 415 BCE). In China, the Warring States period sees continued fragmentation. The Achaemenid Empire remains stable.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Detailed records of non-Greek Mediterranean regions"
+  ],
+  "events": [
+    {
+      "id": "422-001",
+      "title": "Battle of Amphipolis; deaths of Cleon and Brasidas",
+      "region": "Amphipolis / Thrace",
+      "coordinates_approx": "40.82, 23.85",
+      "category": "military",
+      "description": "The Athenian general Cleon and the Spartan general Brasidas (or his successor) clash at Amphipolis in a major battle. Both commanders are killed in the fighting. The battle is indecisive militarily but has significant political consequences: Cleon's death removes a major warmonger from Athenian politics, and Brasidas' death (if not already dead in 423 BCE) removes a capable Spartan commander. The battle paves the way for peace negotiations.",
+      "key_figures": [
+        "Cleon (Athenian general, killed)",
+        "Brasidas (Spartan general, killed or already dead)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book V.6\u201311",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Thucydides provides detailed narrative of the battle. The deaths of Cleon and Brasidas are well-attested, though the exact date (422 or 423 BCE) is debated.",
+      "cross_references": [
+        "423-002 (Brasidas' death or Cleon's assumption of command)",
+        "421-001 (Peace of Nicias)"
+      ]
+    },
+    {
+      "id": "422-002",
+      "title": "Athenian and Spartan negotiations for peace intensify",
+      "region": "Greece",
+      "coordinates_approx": "38.5, 23.0",
+      "category": "political",
+      "description": "Following the Battle of Amphipolis and the deaths of Cleon and Brasidas, both Athens and Sparta become more willing to negotiate peace. The removal of the two most aggressive commanders opens the door to diplomatic settlement. Negotiations intensify, setting the stage for the Peace of Nicias in 421 BCE.",
+      "key_figures": [
+        "Nicias (Athenian general and negotiator)",
+        "Pleistoanax (Spartan king)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book V.17\u201324",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Thucydides attests the intensification of peace negotiations, but the exact timeline is sometimes unclear.",
+      "cross_references": [
+        "421-001 (Peace of Nicias)"
+      ]
+    },
+    {
+      "id": "422-003",
+      "title": "Continued Sicilian Expedition; Athenian forces advance",
+      "region": "Sicily",
+      "coordinates_approx": "37.5, 14.0",
+      "category": "military",
+      "description": "The Athenian Sicilian Expedition, now under the command of Nicias and Alcibiades (who has since defected to Sparta), continues its campaigns. Athenian forces achieve some tactical successes, but the campaign is becoming increasingly costly and difficult. The expedition will ultimately fail catastrophically in 413 BCE.",
+      "key_figures": [
+        "Nicias (Athenian general)",
+        "Alcibiades (Athenian general, defected to Sparta)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book VI\u2013VII",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Thucydides attests the continuation of the Sicilian Expedition, but specific events in 422 BCE are not always clearly dated.",
+      "cross_references": [
+        "415-001 (Sicilian Expedition launch)",
+        "413-001 (Sicilian Expedition disaster)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of the Battle of Amphipolis is disputed. Some sources place it in 422 BCE, others in 423 BCE. Thucydides' account may be incomplete or biased regarding the battle's significance. The deaths of Cleon and Brasidas are well-attested, but the exact circumstances are sometimes unclear. The role of Brasidas in the battle is uncertain if he died in 423 BCE rather than 422 BCE.",
+  "historiographic_note": "The historical record for 422 BCE is moderate. Thucydides provides detailed narrative, but his account is shaped by his Athenian perspective. The Battle of Amphipolis is a turning point in the war, but its exact significance is debated. The intensification of peace negotiations is well-attested. Non-Greek regions remain poorly documented.",
+  "graph_edges": [
+    {
+      "from": "422-001",
+      "to": "421-001",
+      "relation": "led_to",
+      "note": "The Battle of Amphipolis and the deaths of Cleon and Brasidas directly led to the Peace of Nicias in 421 BCE"
+    },
+    {
+      "from": "422-002",
+      "to": "421-001",
+      "relation": "led_to",
+      "note": "Intensified peace negotiations in 422 BCE resulted in the Peace of Nicias in 421 BCE"
+    },
+    {
+      "from": "422-003",
+      "to": "413-001",
+      "relation": "led_to",
+      "note": "The continuation of the Sicilian Expedition in 422 BCE eventually led to its catastrophic failure in 413 BCE"
+    }
+  ]
+}

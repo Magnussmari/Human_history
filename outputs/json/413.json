@@ -1,0 +1,131 @@
+{
+  "year": 413,
+  "year_label": "413 CE",
+  "era_context": "The Western Roman Empire is in advanced political and military crisis following the sack of Rome (410 CE). Honorius rules a fragmented realm where barbarian kingdoms are establishing themselves as de facto independent powers. The Eastern Roman Empire under Theodosius II is more stable but faces its own challenges. Christianity is now the dominant religion, and ecclesiastical institutions are becoming increasingly important as secular Roman authority weakens. The classical economic and urban systems are under severe strain.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond the Rhine",
+    "Central Asia and the Silk Road",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "413-001",
+      "title": "Visigothic consolidation in Aquitaine continues",
+      "region": "Aquitaine and Hispania (Western Roman Empire)",
+      "coordinates_approx": "45.0, 0.0",
+      "category": "military",
+      "description": "Visigothic forces under King Wallia continue their campaigns to consolidate control over Aquitaine and southern Hispania. By 413, the Visigoths have effectively displaced Roman provincial authority in much of southwestern Gaul and are establishing a territorial kingdom. These campaigns are nominally conducted as a Roman foederati arrangement, but in practice represent the emergence of an independent barbarian kingdom within the former Roman Empire.",
+      "key_figures": [
+        "Wallia (Visigothic king)",
+        "Constantius III (Western Roman general)"
+      ],
+      "sources": [
+        {
+          "name": "Hydatius, Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Orosius, History Against the Pagans",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broad outline of Visigothic expansion is well-attested, but precise dating of individual campaigns is uncertain. 413 is assigned by convention as part of the broader consolidation process (410\u2013420 CE).",
+      "cross_references": [
+        "Part of the post-410 CE barbarian settlement pattern",
+        "Related to the broader fragmentation of the Western Roman Empire"
+      ]
+    },
+    {
+      "id": "413-002",
+      "title": "Augustine begins writing The City of God",
+      "region": "Hippo Regius, North Africa (Eastern Roman Empire)",
+      "coordinates_approx": "36.9, 0.6",
+      "category": "cultural",
+      "description": "Augustine of Hippo begins composing The City of God (De Civitate Dei), a monumental theological and philosophical work written in response to pagan accusations that Christianity caused the fall of Rome (following the sack of 410 CE). The work will take over a decade to complete and will become one of the most influential texts in Western Christian thought, reframing history as a conflict between the earthly city (human society) and the City of God (the church and the elect). The work reflects the intellectual and spiritual crisis of the late Roman world.",
+      "key_figures": [
+        "Augustine of Hippo (bishop and theologian)"
+      ],
+      "sources": [
+        {
+          "name": "Augustine, The City of God, Preface and Books 1\u20135 (contemporary primary text)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Augustine, Letters (contemporary references to the work's composition)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Possidius, Life of Augustine (5th-century biography)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Augustine's own references in his letters and the preface to The City of God confirm that he began the work around 413 CE, shortly after the sack of Rome. The date is well-established in Augustine scholarship.",
+      "cross_references": [
+        "Directly responds to the sack of Rome (410 CE)",
+        "Influences Christian theology and philosophy for over a millennium",
+        "Related to the broader intellectual response to the crisis of the Western Roman Empire"
+      ]
+    },
+    {
+      "id": "413-003",
+      "title": "Vandal and Alanic raids continue in Hispania",
+      "region": "Hispania (Western Roman Empire)",
+      "coordinates_approx": "40.0, -3.0",
+      "category": "military",
+      "description": "Vandal and Alanic forces continue to raid and settle in Hispania, competing with the Visigoths for territorial control. By 413, the peninsula is fragmented among multiple barbarian groups, with Roman provincial authority reduced to isolated enclaves. The Vandals, in particular, are establishing themselves as a major power and will eventually cross to North Africa.",
+      "key_figures": [
+        "Gaiseric (Vandal leader, though he may not have assumed full power until ~428 CE)",
+        "Wallia (Visigothic king)"
+      ],
+      "sources": [
+        {
+          "name": "Hydatius, Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Orosius, History Against the Pagans",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general pattern of Vandal and Alanic activity in Hispania is well-attested in Hydatius, but precise dating of individual raids is uncertain.",
+      "cross_references": [
+        "Part of the broader barbarian settlement pattern in the Western Empire",
+        "Leads to the Vandal crossing to North Africa (c. 435 CE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of 'barbarian invasions' has been substantially revised by modern scholarship to emphasize negotiation, foederati arrangements, and gradual settlement rather than violent conquest. The Visigothic campaigns under Wallia, while militarily significant, were nominally conducted on behalf of the Western Roman Empire against other barbarian groups. Augustine's composition of The City of God is sometimes portrayed as a direct response to pagan accusations, but modern scholarship suggests the work was more broadly a theological synthesis responding to the crisis of the late Roman world. The work's influence on medieval Christianity, while substantial, was not immediate; it took centuries for it to become canonical.",
+  "historiographic_note": "The year 413 CE is poorly documented. Most information comes from Hydatius's Chronicle, which is fragmentary. Augustine's letters and the preface to The City of God provide contemporary documentation of intellectual and ecclesiastical life, but military and political events are sparsely attested. Archaeological evidence is limited. The perspective of non-elite populations and non-Christian groups is almost entirely absent.",
+  "graph_edges": [
+    {
+      "from": "413-001",
+      "to": "410-001",
+      "relation": "caused_by",
+      "note": "The sack of Rome (410 CE) destabilized the Western Empire and enabled Visigothic consolidation"
+    },
+    {
+      "from": "413-002",
+      "to": "410-001",
+      "relation": "caused_by",
+      "note": "Augustine began The City of God in response to the sack of Rome and pagan accusations against Christianity"
+    },
+    {
+      "from": "413-003",
+      "to": "435-001",
+      "relation": "led_to",
+      "note": "Vandal activity in Hispania in 413 eventually leads to the Vandal crossing to North Africa"
+    }
+  ]
+}

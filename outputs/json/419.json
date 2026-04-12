@@ -1,0 +1,123 @@
+{
+  "year": 419,
+  "year_label": "419 BCE",
+  "era_context": "The Peloponnesian War continues in its second decade. Athens, despite setbacks in the Peloponnese, maintains its maritime empire and continues to project power through naval expeditions. Alcibiades remains influential in Athenian politics. Sparta consolidates its position as the dominant land power. The Persian Empire under Darius II watches Greek affairs with interest, aware that Persian gold can be leveraged to influence the outcome of the war.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Persia (Achaemenid Empire) \u2014 limited Greek sources on Persian internal affairs during this year",
+    "Sicily and southern Italy \u2014 limited sources on local affairs during this period"
+  ],
+  "events": [
+    {
+      "id": "419-001",
+      "title": "Athenian naval operations in the Aegean; maintenance of maritime empire",
+      "region": "Aegean Sea, Greek islands",
+      "coordinates_approx": "39.0,25.0",
+      "category": "military",
+      "description": "Athens continues to conduct naval operations throughout the Aegean to maintain control of its island allies and prevent Spartan-allied naval powers from challenging Athenian dominance at sea. These operations are part of the broader strategy to preserve the Athenian Empire while the land war remains stalemated.",
+      "key_figures": [
+        "Athenian naval commanders (names not specified in surviving sources)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book 5",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Thucydides mentions ongoing Athenian naval activity, but specific operations for 419 BCE are not detailed.",
+      "cross_references": []
+    },
+    {
+      "id": "419-002",
+      "title": "Spartan-Argive peace treaty; diplomatic realignment in the Peloponnese",
+      "region": "Peloponnese, Greece",
+      "coordinates_approx": "37.5,23.0",
+      "category": "political",
+      "description": "Following the Battle of Mantinea (418 BCE), Sparta and Argos formalize their peace agreement. This treaty represents a major diplomatic victory for Sparta and further isolates Athens in the Peloponnese. The treaty includes provisions for mutual defense and effectively removes Argos from the anti-Spartan coalition.",
+      "key_figures": [
+        "Agis II (Spartan king)",
+        "Argive magistrates"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book 5.76\u201381",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Thucydides mentions the Spartan-Argive peace; the exact date is not specified, but it occurred shortly after Mantinea (418 BCE).",
+      "cross_references": [
+        "420-004 (Argos withdraws from coalition)"
+      ]
+    },
+    {
+      "id": "419-003",
+      "title": "Athenian diplomatic missions to Sicily; preliminary planning for western expansion",
+      "region": "Athens, Sicily",
+      "coordinates_approx": "37.97,23.73",
+      "category": "political",
+      "description": "Athens sends diplomatic missions to Sicily to explore the possibility of alliances with Sicilian Greek cities and to assess the feasibility of military intervention in the western Mediterranean. These missions are part of Alcibiades' broader strategy to expand Athenian power and find new theaters of operation as the Peloponnesian War remains stalemated. These preliminary contacts will eventually lead to the Sicilian Expedition of 415 BCE.",
+      "key_figures": [
+        "Alcibiades (Athenian general and politician)",
+        "Athenian ambassadors (names not specified)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book 6.1\u20135",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, Life of Alcibiades",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Thucydides indicates that Athenian interest in Sicily developed gradually in the years before 415 BCE. The exact timing of initial diplomatic contacts is not specified.",
+      "cross_references": [
+        "415-001 (Sicilian Expedition launched)"
+      ]
+    },
+    {
+      "id": "419-004",
+      "title": "Continued Athenian military operations in Thrace and the northern Aegean",
+      "region": "Thrace, northern Aegean",
+      "coordinates_approx": "41.0,25.0",
+      "category": "military",
+      "description": "Athens maintains military pressure in Thrace and the northern Aegean to preserve its control over this strategically important region. These operations are less glamorous than the Peloponnesian campaigns but are crucial to maintaining Athenian power and access to grain supplies from the Black Sea region.",
+      "key_figures": [
+        "Athenian generals (names not specified)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book 5",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Thucydides mentions ongoing Athenian activity in the north, but specific operations for 419 BCE are not detailed.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise chronology of Athenian diplomatic missions to Sicily is uncertain. Thucydides does not provide a clear date for when these missions began; modern scholars debate whether they occurred in 419 BCE or slightly later. The extent to which Alcibiades personally initiated these contacts versus responding to Sicilian requests for Athenian support is also debated. Additionally, the surviving sources may overstate the coherence and long-term planning of Athenian strategy; much of what appears as deliberate policy may have been reactive and opportunistic.",
+  "historiographic_note": "The historical record for 419 BCE is less detailed than for 420 BCE. Thucydides' narrative becomes more summary-like for this year, with fewer specific events recorded. This may reflect the relative lack of dramatic military or political events in this year, or it may reflect gaps in Thucydides' own sources. The record remains heavily Athenian-centric. No contemporary non-Greek sources survive for this year.",
+  "graph_edges": [
+    {
+      "from": "419-002",
+      "to": "420-004",
+      "relation": "contemporary_with",
+      "note": "Formalization of the Spartan-Argive peace agreement that began in 420 BCE"
+    },
+    {
+      "from": "419-003",
+      "to": "415-001",
+      "relation": "led_to",
+      "note": "Preliminary Athenian diplomatic missions to Sicily led to the Sicilian Expedition"
+    }
+  ]
+}

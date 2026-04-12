@@ -1,0 +1,110 @@
+{
+  "year": 416,
+  "year_label": "416 BCE",
+  "era_context": "The Peloponnesian War continues in its second decade. Athens, weakened by the failure of its Peloponnesian strategy, intensifies its preparations for a major military expedition to Sicily. Alcibiades remains influential in Athenian politics and continues to advocate for aggressive expansion. Sparta consolidates its position as the dominant land power. The Persian Empire continues to watch Greek affairs, with Persian gold becoming an increasingly important factor in the war's dynamics. This is a period of transition, as Athens shifts its strategic focus from the Peloponnese to the western Mediterranean.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Persia (Achaemenid Empire) \u2014 limited Greek sources on Persian internal affairs",
+    "Sicily and southern Italy \u2014 limited sources on local affairs",
+    "Thrace and the northern Aegean \u2014 limited sources on local affairs"
+  ],
+  "events": [
+    {
+      "id": "416-001",
+      "title": "Athenian assembly debates and approves the Sicilian Expedition",
+      "region": "Athens, Greece",
+      "coordinates_approx": "37.97,23.73",
+      "category": "political",
+      "description": "The Athenian assembly holds a major debate on whether to launch a military expedition to Sicily. Alcibiades advocates strongly for the expedition, arguing that it will bring wealth, power, and manpower to Athens. Nicias, a more cautious general, argues against the expedition, warning of the dangers and costs. Despite Nicias' objections, the assembly votes to approve the expedition. The decision to launch the Sicilian Expedition is one of the most consequential decisions in Athenian history and will ultimately lead to the destruction of a major Athenian fleet and army.",
+      "key_figures": [
+        "Alcibiades (Athenian general and politician, advocate for the expedition)",
+        "Nicias (Athenian general, opponent of the expedition)",
+        "Lamachus (Athenian general)",
+        "Athenian assembly members"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book 6.1\u201326",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, Life of Alcibiades",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Nicias",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Thucydides provides a detailed account of the assembly debate, but the exact date is not specified. Modern scholars place the debate in either 416 or 415 BCE, with 415 BCE being more commonly accepted.",
+      "cross_references": [
+        "415-001 (Sicilian Expedition launched)"
+      ]
+    },
+    {
+      "id": "416-002",
+      "title": "Athenian military preparations for the Sicilian Expedition",
+      "region": "Athens, Piraeus, Greece",
+      "coordinates_approx": "37.93,23.64",
+      "category": "military",
+      "description": "Athens begins intensive military preparations for the Sicilian Expedition. Ships are built or refitted, troops are recruited and trained, and supplies are gathered. The scale of the preparations is enormous, involving a significant portion of Athenian resources. The expedition will eventually consist of over 100 ships and tens of thousands of troops.",
+      "key_figures": [
+        "Athenian generals and military commanders",
+        "Athenian shipwrights and craftsmen"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book 6.24\u201326",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Thucydides mentions Athenian preparations for the expedition, but specific details for 416 BCE are not provided.",
+      "cross_references": [
+        "415-001 (Sicilian Expedition launched)"
+      ]
+    },
+    {
+      "id": "416-003",
+      "title": "Athenian naval operations in the Aegean; maintenance of maritime empire",
+      "region": "Aegean Sea, Greek islands",
+      "coordinates_approx": "39.0,25.0",
+      "category": "military",
+      "description": "Athens continues to conduct naval operations throughout the Aegean to maintain control of its island allies and prevent Spartan-allied naval powers from challenging Athenian dominance at sea. These operations are part of the broader strategy to preserve the Athenian Empire while the land war remains stalemated.",
+      "key_figures": [
+        "Athenian naval commanders (names not specified in surviving sources)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book 6",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Thucydides mentions ongoing Athenian naval activity, but specific operations for 416 BCE are not detailed.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact date of the Athenian assembly debate on the Sicilian Expedition is uncertain. Thucydides does not provide a specific date, and modern scholars debate whether the debate occurred in 416 or 415 BCE. The majority of modern scholarship places the debate in 415 BCE, with the expedition launching later that same year. Additionally, Thucydides' account of the debate is likely a literary composition rather than a verbatim record of actual speeches. The extent to which Alcibiades personally advocated for the expedition versus responding to broader Athenian sentiment is debated.",
+  "historiographic_note": "The historical record for 416 BCE is sparse and largely reconstructed from Thucydides' narrative. Thucydides does not provide detailed accounts of specific events for this year, which may indicate that no major military or political events occurred, or it may reflect gaps in Thucydides' own sources. The record remains heavily Athenian-centric. No contemporary non-Greek sources survive for this year. The surviving sources are heavily weighted toward military and political events; economic and social history of this year are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "416-001",
+      "to": "415-001",
+      "relation": "led_to",
+      "note": "Athenian assembly approval of the Sicilian Expedition led to its launch in 415 BCE"
+    },
+    {
+      "from": "416-002",
+      "to": "415-001",
+      "relation": "led_to",
+      "note": "Military preparations for the Sicilian Expedition led to its launch in 415 BCE"
+    }
+  ]
+}

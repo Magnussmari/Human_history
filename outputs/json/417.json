@@ -1,0 +1,95 @@
+{
+  "year": 417,
+  "year_label": "417 BCE",
+  "era_context": "The Peloponnesian War continues in its second decade. Athens, weakened by the failure of its Peloponnesian strategy, begins to focus increasingly on naval operations and western expansion. Alcibiades remains influential in Athenian politics and continues to advocate for aggressive expansion. Sparta consolidates its position as the dominant land power. The Persian Empire continues to watch Greek affairs, with Persian gold becoming an increasingly important factor in the war's dynamics. This is a period of relative quiet in the historical record, with fewer dramatic military or political events recorded.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Persia (Achaemenid Empire) \u2014 limited Greek sources on Persian internal affairs",
+    "Sicily and southern Italy \u2014 limited sources on local affairs",
+    "Thrace and the northern Aegean \u2014 limited sources on local affairs"
+  ],
+  "events": [
+    {
+      "id": "417-001",
+      "title": "Athenian naval operations in the Aegean; maintenance of maritime empire",
+      "region": "Aegean Sea, Greek islands",
+      "coordinates_approx": "39.0,25.0",
+      "category": "military",
+      "description": "Athens continues to conduct naval operations throughout the Aegean to maintain control of its island allies and prevent Spartan-allied naval powers from challenging Athenian dominance at sea. These operations are part of the broader strategy to preserve the Athenian Empire while the land war remains stalemated.",
+      "key_figures": [
+        "Athenian naval commanders (names not specified in surviving sources)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book 6",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Thucydides mentions ongoing Athenian naval activity, but specific operations for 417 BCE are not detailed.",
+      "cross_references": []
+    },
+    {
+      "id": "417-002",
+      "title": "Athenian diplomatic and military preparations for Sicilian Expedition",
+      "region": "Athens, Sicily",
+      "coordinates_approx": "37.97,23.73",
+      "category": "political",
+      "description": "Athens intensifies its preparations for a major military expedition to Sicily. Alcibiades and other Athenian leaders advocate for the expedition as a means of expanding Athenian power and finding new sources of wealth and manpower. The expedition is approved by the Athenian assembly and preparations begin in earnest. The expedition will launch in 415 BCE.",
+      "key_figures": [
+        "Alcibiades (Athenian general and politician)",
+        "Nicias (Athenian general, skeptical of the expedition)",
+        "Lamachus (Athenian general)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book 6.1\u201326",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Plutarch, Life of Alcibiades",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Thucydides indicates that Athenian preparations for the Sicilian Expedition began in the years before 415 BCE. The exact timing of when preparations began is not specified.",
+      "cross_references": [
+        "415-001 (Sicilian Expedition launched)"
+      ]
+    },
+    {
+      "id": "417-003",
+      "title": "Continued Athenian military operations in Thrace and the northern Aegean",
+      "region": "Thrace, northern Aegean",
+      "coordinates_approx": "41.0,25.0",
+      "category": "military",
+      "description": "Athens maintains military pressure in Thrace and the northern Aegean to preserve its control over this strategically important region. These operations are less glamorous than the Peloponnesian campaigns but are crucial to maintaining Athenian power and access to grain supplies from the Black Sea region.",
+      "key_figures": [
+        "Athenian generals (names not specified)"
+      ],
+      "sources": [
+        {
+          "name": "Thucydides, History of the Peloponnesian War, Book 6",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Thucydides mentions ongoing Athenian activity in the north, but specific operations for 417 BCE are not detailed.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The historical record for 417 BCE is sparse and largely reconstructed from Thucydides' summary narrative. Thucydides does not provide detailed accounts of specific events for this year, which may indicate that no major military or political events occurred, or it may reflect gaps in Thucydides' own sources. The exact timing of when Athenian preparations for the Sicilian Expedition began is uncertain; modern scholars debate whether preparations began in 417 BCE or slightly later.",
+  "historiographic_note": "The historical record for 417 BCE is significantly less detailed than for 418 BCE or 420 BCE. Thucydides' narrative becomes more summary-like for this year, with fewer specific events recorded. This may reflect the relative lack of dramatic military or political events in this year, or it may reflect gaps in Thucydides' own sources. The record remains heavily Athenian-centric. No contemporary non-Greek sources survive for this year. The surviving sources are heavily weighted toward military and political events; economic and social history of this year are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "417-002",
+      "to": "415-001",
+      "relation": "led_to",
+      "note": "Athenian preparations for the Sicilian Expedition led to its launch in 415 BCE"
+    }
+  ]
+}

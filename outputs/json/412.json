@@ -1,0 +1,133 @@
+{
+  "year": 412,
+  "year_label": "412 CE",
+  "era_context": "The Western Roman Empire is in severe crisis following the sack of Rome (410 CE). Honorius rules a fragmented realm where barbarian kingdoms are establishing themselves as de facto independent powers. The Eastern Roman Empire under Theodosius II is more stable. Christianity is now dominant, and ecclesiastical institutions are becoming increasingly important as secular Roman authority weakens. The classical economic and urban systems are collapsing.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond the Rhine",
+    "Central Asia and the Silk Road",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "412-001",
+      "title": "Visigothic campaigns in Hispania and Aquitaine",
+      "region": "Hispania and Aquitaine (Western Roman Empire)",
+      "coordinates_approx": "40.0, -3.0",
+      "category": "military",
+      "description": "Visigothic forces under King Wallia continue their campaigns to consolidate control over Hispania and Aquitaine. By 412, the Visigoths have become the dominant military power in the western Mediterranean and are effectively establishing an independent kingdom, though nominally operating as Roman foederati. These campaigns displace other barbarian groups (Vandals, Alans) and establish Visigothic hegemony in the region.",
+      "key_figures": [
+        "Wallia (Visigothic king)",
+        "Constantius III (Western Roman general)"
+      ],
+      "sources": [
+        {
+          "name": "Hydatius, Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Orosius, History Against the Pagans",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The broad outline of Visigothic expansion is well-attested, but precise dating of individual campaigns is uncertain. 412 is assigned by convention as part of the broader consolidation process.",
+      "cross_references": [
+        "Part of the post-410 CE barbarian settlement pattern",
+        "Related to the broader fragmentation of the Western Roman Empire"
+      ]
+    },
+    {
+      "id": "412-002",
+      "title": "Constantius III becomes Western Roman Emperor",
+      "region": "Western Roman Empire",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "political",
+      "description": "Constantius III, a powerful Western Roman general who has been effectively ruling the Western Empire on behalf of the weak Emperor Honorius, is formally elevated to the rank of co-emperor. Constantius has been the dominant military and political figure in the West since around 410 CE, orchestrating campaigns against barbarian groups and attempting to restore Roman authority. His elevation to emperor reflects the reality of power in the fragmented Western Empire, though his reign will be brief (he dies in 421 CE).",
+      "key_figures": [
+        "Constantius III (Western Roman general and emperor)",
+        "Honorius (Western Roman Emperor)",
+        "Galla Placidia (imperial princess)"
+      ],
+      "sources": [
+        {
+          "name": "Orosius, History Against the Pagans 7.42",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Hydatius, Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Prosper of Aquitaine, Chronicle",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Constantius III's elevation to emperor is attested in multiple sources, but the precise date is debated. Some sources place it in 411, others in 412 or 413. 412 is a conventional assignment.",
+      "cross_references": [
+        "Reflects the political instability of the Western Roman Empire",
+        "Precedes Constantius III's death in 421 CE"
+      ]
+    },
+    {
+      "id": "412-003",
+      "title": "Pelagian controversy escalates in the Western Church",
+      "region": "Western Roman Empire (Mediterranean)",
+      "coordinates_approx": "40.0, 10.0",
+      "category": "religious",
+      "description": "The Pelagian theological dispute continues to escalate, with Augustine and other Western bishops intensifying their opposition to Pelagius and his followers. The controversy reflects fundamental disagreements about human nature, free will, and divine grace. By 412, the dispute has become a major ecclesiastical and political issue, with different factions within the Church aligning with different theological positions.",
+      "key_figures": [
+        "Augustine of Hippo (anti-Pelagian theologian)",
+        "Pelagius (theologian)",
+        "Jerome (theologian)"
+      ],
+      "sources": [
+        {
+          "name": "Augustine, Letters and treatises against Pelagianism",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Jerome, Letters",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The intensity of the Pelagian controversy in 412 is well-documented in Augustine's and Jerome's writings. The theological positions and ecclesiastical responses are clearly attested.",
+      "cross_references": [
+        "Precedes the Council of Carthage (415 CE), which formally condemns Pelagianism",
+        "Related to broader ecclesiastical power consolidation"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The elevation of Constantius III to emperor is sometimes portrayed as a straightforward political event, but modern scholarship emphasizes the complexity of power dynamics in the fragmented Western Empire. Constantius III's authority was contested and limited; his elevation did not resolve the underlying political instability. The Pelagian controversy, while theologically important, affected a relatively small educated elite and did not immediately change the beliefs of most Christians.",
+  "historiographic_note": "The year 412 CE is poorly documented. Most information comes from Hydatius's Chronicle and later compilations. Augustine's and Jerome's letters provide contemporary documentation of ecclesiastical disputes, but military and political events are sparsely attested. Archaeological evidence is limited. The perspective of non-elite populations and non-Christian groups is almost entirely absent.",
+  "graph_edges": [
+    {
+      "from": "412-001",
+      "to": "410-001",
+      "relation": "caused_by",
+      "note": "The sack of Rome (410 CE) destabilized the Western Empire and enabled Visigothic consolidation"
+    },
+    {
+      "from": "412-002",
+      "to": "410-001",
+      "relation": "caused_by",
+      "note": "The sack of Rome (410 CE) and the resulting political crisis led to Constantius III's rise to power"
+    },
+    {
+      "from": "412-003",
+      "to": "415-003",
+      "relation": "led_to",
+      "note": "The escalation of the Pelagian controversy in 412 led to formal condemnation at the Council of Carthage in 415"
+    }
+  ]
+}
