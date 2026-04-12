@@ -1,0 +1,98 @@
+{
+  "year": -1240,
+  "year_label": "1241 BCE",
+  "era_context": "Late Bronze Age, mid-13th century BCE. The international system of the Late Bronze Age is functioning: Egypt, the Hittite Empire, Mycenaean Greece, Assyria, and other polities maintain diplomatic and trade networks. The Shang Dynasty dominates East Asia. This period is often characterized as the 'height' of Bronze Age civilization, though recent scholarship has identified early signs of systemic stress, including climate variability and resource scarcity.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-1240-001",
+      "title": "Ramesses II's reign; Egyptian hegemony in the eastern Mediterranean",
+      "region": "Egypt, Nubia, and the Levant",
+      "coordinates_approx": "26.0, 32.0",
+      "category": "political",
+      "description": "Ramesses II (r. c. 1279\u20131213 BCE) was approximately 38\u201339 years into his reign. He maintained Egypt's position as the dominant power in the eastern Mediterranean and Near East. His military campaigns, diplomatic relationships (particularly with the Hittites), and extensive building programs continued to shape the geopolitical landscape of the region.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions, administrative papyri, and correspondence",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Ramesses II's reign is well-established; specific events within individual years are rarely dated precisely.",
+      "cross_references": []
+    },
+    {
+      "id": "-1240-002",
+      "title": "Hittite Empire under Muwatalli II's successors; Anatolian stability",
+      "region": "Anatolia (Hittite Empire)",
+      "coordinates_approx": "35.5, 33.0",
+      "category": "political",
+      "description": "The Hittite Empire maintained its territorial integrity and diplomatic networks. Following Muwatalli II's reign (c. 1295\u20131272 BCE), his successors continued to assert Hittite dominance in Anatolia and maintain the peace treaty with Egypt. The empire's administrative and military structures remained robust.",
+      "key_figures": [
+        "Hittite ruler (likely Muwatalli II's successor)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions and administrative texts from Bo\u011fazk\u00f6y archives",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Hittite chronology for this period is secure within \u00b15 years based on king lists and synchronisms with Egyptian records.",
+      "cross_references": []
+    },
+    {
+      "id": "-1240-003",
+      "title": "Mycenaean Greece in Late Helladic IIIB; palatial economies and trade",
+      "region": "Mainland Greece and the Aegean",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "economic",
+      "description": "Mycenaean palatial centers (Mycenae, Pylos, Tiryns) were functioning as administrative and economic hubs. Linear B records document complex bureaucratic systems managing agriculture, textiles, and trade. Mycenaean goods were distributed throughout the Mediterranean and Near East, indicating robust trade networks.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos and Knossos; archaeological evidence of pottery distribution",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Late Helladic IIIB (c. 1300\u20131200 BCE) is well-attested archaeologically. Trade patterns are inferred from pottery distribution and Linear B records.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, recent scholarship on climate and systemic collapse (particularly work by Sturt Manning, Eric Cline, and others) suggests that by 1241 BCE, early signs of environmental stress, resource scarcity, and systemic fragmentation were already affecting the Late Bronze Age world-system, complicating the narrative of 'stability' often attributed to this period. Some scholars argue that the seeds of the Late Bronze Age collapse were already present in the mid-13th century BCE.",
+  "historiographic_note": "1241 BCE is not marked by any major documented event in surviving sources. The year is reconstructed through the broader context of known reigns, diplomatic relationships, and archaeological phases. Egyptian and Hittite sources dominate; Mycenaean evidence is primarily archaeological. The historical record is heavily biased toward the Mediterranean and Near East; most of the world remains undocumented for this specific year. The assumption of 'stability' during this period is increasingly questioned by scholars who point to evidence of systemic vulnerabilities.",
+  "graph_edges": [
+    {
+      "from": "-1240-001",
+      "to": "-1240-002",
+      "relation": "contemporary_with",
+      "note": "Egyptian and Hittite powers coexist during this period"
+    },
+    {
+      "from": "-1240-003",
+      "to": "-1200-XXX",
+      "relation": "led_to",
+      "note": "Mycenaean palatial system collapses within ~41 years"
+    },
+    {
+      "from": "-1240-001",
+      "to": "-1200-XXX",
+      "relation": "led_to",
+      "note": "Egyptian hegemony is disrupted by the Late Bronze Age collapse within ~41 years"
+    }
+  ]
+}

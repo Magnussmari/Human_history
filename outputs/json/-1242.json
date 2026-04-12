@@ -1,0 +1,79 @@
+{
+  "year": -1242,
+  "year_label": "1243 BCE",
+  "era_context": "Late Bronze Age, mid-13th century BCE. The international system of the Late Bronze Age is functioning: Egypt, the Hittite Empire, Mycenaean Greece, Assyria, Babylon, and other polities maintain diplomatic and trade networks. The Shang Dynasty dominates East Asia. This period is often characterized as the 'height' of Bronze Age civilization, though recent scholarship has identified early signs of systemic stress.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia",
+    "Central Asia and the Steppe"
+  ],
+  "events": [
+    {
+      "id": "-1242-001",
+      "title": "Hittite-Egyptian diplomatic relations; Late Bronze Age international system",
+      "region": "Anatolia, Egypt, and the Levant",
+      "coordinates_approx": "35.0, 32.0",
+      "category": "political",
+      "description": "The Hittite Empire and Egypt maintained a complex diplomatic relationship during this period, formalized by the peace treaty between Ramesses II and Hattusili III (c. 1259 BCE). By 1243 BCE, this treaty was approximately 16 years old and had established a framework for coexistence and trade. Both powers continued to assert influence in the Levant and maintained correspondence with other regional powers.",
+      "key_figures": [
+        "Ramesses II (Egypt)",
+        "Hittite ruler (likely successor to Hattusili III)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and papyri; Hittite royal archives",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Late Bronze Age diplomacy",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The peace treaty of c. 1259 BCE is well-attested. The continuation of diplomatic relations in 1243 BCE is inferred from the broader pattern of Late Bronze Age international relations.",
+      "cross_references": [
+        "-1259-XXX (Peace treaty between Ramesses II and Hattusili III)"
+      ]
+    },
+    {
+      "id": "-1242-002",
+      "title": "Mycenaean trade networks; Late Helladic IIIB pottery and commerce",
+      "region": "Aegean and Eastern Mediterranean",
+      "coordinates_approx": "38.0, 23.0",
+      "category": "economic",
+      "description": "Mycenaean pottery and goods were widely distributed throughout the Mediterranean and Near East during this period, indicating robust trade networks. Linear B records document the organization of trade, storage, and redistribution of goods. Mycenaean merchants and craftspeople maintained connections with Egypt, the Levant, and Anatolia.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets; archaeological evidence of pottery distribution",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Late Helladic IIIB (c. 1300\u20131200 BCE) is well-attested archaeologically. Trade patterns are inferred from pottery distribution and Linear B records.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, recent scholarship (particularly work by Sturt Manning and others on climate and systemic collapse) suggests that by 1243 BCE, early signs of environmental stress and resource scarcity were already affecting the Late Bronze Age world-system, complicating the narrative of 'stability' often attributed to this period.",
+  "historiographic_note": "1243 BCE is not marked by any major documented event. The year is reconstructed through the broader context of known diplomatic relationships, trade patterns, and archaeological phases. The historical record is dominated by Egyptian and Hittite sources; Mycenaean evidence is primarily archaeological. Most regions of the world are undocumented for this specific year.",
+  "graph_edges": [
+    {
+      "from": "-1242-001",
+      "to": "-1259-XXX",
+      "relation": "caused_by",
+      "note": "Diplomatic relations follow from the peace treaty of c. 1259 BCE"
+    },
+    {
+      "from": "-1242-002",
+      "to": "-1200-XXX",
+      "relation": "led_to",
+      "note": "Mycenaean trade networks collapse within ~43 years"
+    }
+  ]
+}

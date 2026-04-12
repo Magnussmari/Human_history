@@ -1,0 +1,112 @@
+{
+  "year": -1258,
+  "year_label": "1259 BCE",
+  "era_context": "Late Bronze Age collapse period, continuing. Egypt under Ramesses III is consolidating power after military victories but facing long-term economic strain. The Hittite Empire is in its final phase of political dissolution. Mycenaean Greece continues fragmenting. The Eastern Mediterranean is experiencing unprecedented disruption of trade networks, population displacement, and state collapse.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-1258-001",
+      "title": "Continued Sea Peoples settlement in Levantine coast",
+      "region": "Levant, Eastern Mediterranean",
+      "coordinates_approx": "33.5, 35.0",
+      "category": "military",
+      "description": "Following military defeats in Egypt, Sea Peoples groups (particularly the Peleset, later known as Philistines) establish permanent settlements along the Levantine coast, particularly in what is now southern Palestine. Archaeological evidence shows the establishment of new settlements with distinctive material culture (Philistine pottery, architecture). This marks the beginning of Philistine settlement in the Levant, which will have profound consequences for the region's political and cultural development.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Ashdod, Ashkelon, Gath, and other Philistine sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian temple inscriptions mentioning Peleset settlement",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Archaeological evidence for Philistine settlement is clear, but the precise dating and sequence of settlement waves is debated. Conventional dating places major settlement c. 1150 BCE, but some scholars argue for earlier dates.",
+      "cross_references": [
+        "Related to -1259-001 (Sea Peoples invasion)"
+      ]
+    },
+    {
+      "id": "-1258-002",
+      "title": "Cyprus experiences disruption and settlement change",
+      "region": "Cyprus, Eastern Mediterranean",
+      "coordinates_approx": "35.1, 33.4",
+      "category": "political",
+      "description": "Cyprus, a major Bronze Age trade hub, experiences significant disruption. Some sites show destruction layers; others show evidence of population displacement and resettlement. The Late Cypriot IIIA period is marked by the abandonment of some centres and the establishment of new settlements, possibly by refugees from the collapsing Mycenaean world or by Sea Peoples groups. The island's role in Eastern Mediterranean trade networks is severely disrupted.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological stratigraphy from Cypriot sites (Enkomi, Kition, Sinda, etc.)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Archaeological evidence is clear for disruption and settlement change, but the causes and precise dating remain debated.",
+      "cross_references": [
+        "Part of broader Bronze Age collapse"
+      ]
+    },
+    {
+      "id": "-1258-003",
+      "title": "Egypt experiences economic strain and labour unrest",
+      "region": "Egypt",
+      "coordinates_approx": "25.7, 32.6",
+      "category": "economic",
+      "description": "Egypt under Ramesses III, despite military victories, faces mounting economic difficulties. The cost of military campaigns, temple building, and administration strains the royal treasury. Evidence from papyri suggests labour unrest, including strikes by workers in the Theban necropolis (the first recorded labour strikes in history). The state's ability to maintain its bureaucracy and military is increasingly challenged.",
+      "key_figures": [
+        "Ramesses III (Pharaoh)",
+        "Necropolis workers (unnamed in records)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Papyri documenting worker strikes and administrative responses",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Contemporary papyri provide detailed evidence of economic strain and labour unrest. Dating is secure.",
+      "cross_references": [
+        "Related to broader decline of New Kingdom Egypt"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Philistine settlement remains contested. Some scholars argue for a gradual settlement process beginning earlier (c. 1200 BCE or before), while others maintain a more concentrated settlement phase c. 1150 BCE. The term 'Philistines' itself is a modern historiographic category; the Peleset of Egyptian records may not be identical to the later Iron Age Philistines. Additionally, the extent to which Philistine settlement was 'invasion' versus 'migration' versus 'settlement by agreement' is debated.",
+  "historiographic_note": "Sources for this year are primarily Egyptian administrative and temple records, supplemented by archaeology. The perspective is heavily weighted toward Egypt; Levantine and Cypriot evidence is primarily archaeological. The causes of disruption and settlement change are inferred from material evidence rather than contemporary narrative accounts. There is significant scholarly debate about the relative importance of climate stress, systems collapse, invasion, and migration in driving the Bronze Age collapse.",
+  "graph_edges": [
+    {
+      "from": "-1258-001",
+      "to": "-1259-001",
+      "relation": "led_to",
+      "note": "Sea Peoples settlement follows military defeats in Egypt"
+    },
+    {
+      "from": "-1258-002",
+      "to": "-1258-001",
+      "relation": "contemporary_with",
+      "note": "Cyprus disruption is part of the same Sea Peoples migration and Eastern Mediterranean crisis"
+    },
+    {
+      "from": "-1258-003",
+      "to": "-1259-001",
+      "relation": "contemporary_with",
+      "note": "Egyptian economic strain and military campaigns are concurrent"
+    }
+  ]
+}

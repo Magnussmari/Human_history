@@ -1,0 +1,112 @@
+{
+  "year": -1256,
+  "year_label": "1257 BCE",
+  "era_context": "Late Bronze Age collapse period, advanced stage. The major state systems of the Eastern Mediterranean have largely collapsed or are in severe crisis. Egypt remains a major power but is economically strained and facing internal challenges. The Hittite Empire has ceased to exist as a unified state. Mycenaean Greece has entered the Dark Ages. The Eastern Mediterranean trade network has been severely disrupted. This is a period of profound transformation and uncertainty.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Central Asia",
+    "Mesoamerica",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-1256-001",
+      "title": "Ramesses III's reign continues amid economic and political challenges",
+      "region": "Egypt",
+      "coordinates_approx": "25.7, 32.6",
+      "category": "political",
+      "description": "Ramesses III, despite his military victories against the Sea Peoples, faces mounting challenges to his authority. Economic strain from military campaigns and temple building continues. There is evidence of internal unrest, including a conspiracy against the pharaoh (the Harem Conspiracy, dated to late in his reign). The state's ability to maintain control over its territories and bureaucracy is increasingly challenged. This period marks the beginning of the decline of pharaonic authority that will characterise the late New Kingdom.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Papyri documenting the Harem Conspiracy",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Contemporary papyri provide detailed evidence of Ramesses III's reign and the challenges he faced. Dating is secure.",
+      "cross_references": [
+        "Related to -1258-003 (Egyptian economic strain)"
+      ]
+    },
+    {
+      "id": "-1256-002",
+      "title": "Philistine settlement consolidates in southern Levant",
+      "region": "Levant (modern Palestine/Israel)",
+      "coordinates_approx": "31.9, 34.8",
+      "category": "political",
+      "description": "Philistine settlements in the southern Levant (Ashdod, Ashkelon, Gath, Gaza, Ekron) are consolidating and expanding. Archaeological evidence shows the development of a distinctive Philistine material culture, including pottery, architecture, and settlement patterns. The Philistines are establishing themselves as a major political and military force in the region, which will have profound consequences for the development of the Iron Age Levant.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Philistine sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian temple inscriptions mentioning Peleset",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Archaeological evidence for Philistine settlement is clear, but the precise dating and sequence of settlement consolidation is debated.",
+      "cross_references": [
+        "Related to -1258-001 (Sea Peoples settlement)"
+      ]
+    },
+    {
+      "id": "-1256-003",
+      "title": "Iron Age begins in some regions of the Near East",
+      "region": "Levant, Anatolia, Near East",
+      "coordinates_approx": "35.0, 35.0",
+      "category": "technological",
+      "description": "Iron working technology, which had been known but rare in the Bronze Age, begins to become more widespread in some regions of the Near East and Levant. This is not a sudden transition but a gradual process that will accelerate over the next few centuries. The availability of iron, which is more abundant than tin (required for bronze), will eventually transform metallurgy and warfare. However, iron tools and weapons are initially inferior to bronze and do not immediately replace bronze technology.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of iron artefacts from Near Eastern sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The transition to iron working is archaeologically attested, but the precise dating and regional variation is significant. Iron working becomes common at different times in different regions.",
+      "cross_references": [
+        "Part of broader technological transition from Bronze Age to Iron Age"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Harem Conspiracy against Ramesses III is dated to late in his reign, not necessarily to this specific year. The precise dating of the conspiracy is debated. Additionally, the transition to iron working was gradual and uneven; iron did not immediately replace bronze, and the 'Iron Age' is a historiographic periodisation that does not reflect a sudden technological shift.",
+  "historiographic_note": "Sources for this year are primarily Egyptian administrative and temple records, supplemented by archaeology. The perspective is heavily weighted toward Egypt; other regions are less well documented. The causes and consequences of the Bronze Age collapse are inferred from fragmentary evidence rather than contemporary narrative accounts. There is significant scholarly debate about the relative importance of military invasion, climate stress, systems collapse, and other factors in driving the collapse.",
+  "graph_edges": [
+    {
+      "from": "-1256-001",
+      "to": "-1258-003",
+      "relation": "led_to",
+      "note": "Economic strain and political challenges continue and intensify"
+    },
+    {
+      "from": "-1256-002",
+      "to": "-1258-001",
+      "relation": "led_to",
+      "note": "Philistine settlement consolidates following initial settlement"
+    },
+    {
+      "from": "-1256-003",
+      "to": "-1257-002",
+      "relation": "contemporary_with",
+      "note": "Iron working technology emerges during the same period as the Bronze Age collapse"
+    }
+  ]
+}
