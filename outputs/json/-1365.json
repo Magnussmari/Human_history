@@ -1,0 +1,108 @@
+{
+  "year": -1365,
+  "year_label": "1366 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Amenhotep III. The New Kingdom is at its height; Egypt controls Nubia and maintains hegemony over the Levant. The Hittite Empire under \u0160uppiluliuma I dominates Anatolia and northern Syria. Mycenaean Greece is in the Late Bronze Age IIIA period. China is in the Shang Dynasty, with oracle bone divination and bronze technology flourishing.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse written sources)",
+    "Mesoamerica (limited synchronisation with Old World chronologies)"
+  ],
+  "events": [
+    {
+      "id": "-1365-001",
+      "title": "Amenhotep III continues reign; Nubian campaigns and temple construction",
+      "region": "Egypt, Nubia",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Amenhotep III, now in his mid-reign (r. ~1390\u20131352 BCE), consolidates Egyptian power in Nubia and continues the massive building programme that defines his reign. The Luxor Temple and Colossi of Memnon are under construction or recently completed. Egyptian hegemony over the Levant remains secure through diplomatic marriage alliances and military presence. This year falls within a period of unprecedented Egyptian prosperity and cultural achievement.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh of Egypt)",
+        "Tiye (Great Royal Wife)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak Temple inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Amarna Letters (later archive, but references contemporary diplomatic relations)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Amenhotep III's reign is well-dated through astronomical observations and king lists, but specific events within the reign are often assigned to approximate years within a \u00b15-year window.",
+      "cross_references": []
+    },
+    {
+      "id": "-1365-002",
+      "title": "\u0160uppiluliuma I consolidates Hittite control over northern Syria",
+      "region": "Anatolia, Syria, Levant",
+      "coordinates_approx": "36.9\u00b0N, 34.6\u00b0E",
+      "category": "military",
+      "description": "\u0160uppiluliuma I (r. ~1370\u20131330 BCE) is in the midst of his military campaigns to expand Hittite dominion. By this period, he has secured control over much of northern Syria and Mesopotamia, challenging Egyptian interests in the region. The Hittite Empire is at its territorial peak. Diplomatic tensions with Egypt are managed through the balance of power and occasional military confrontations.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal annals and treaties (Bo\u011fazk\u00f6y archives)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian records mentioning Hittite conflicts",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "\u0160uppiluliuma's reign is well-attested in Hittite archives, though the precise chronology of individual campaigns remains debated (\u00b15\u201310 years).",
+      "cross_references": []
+    },
+    {
+      "id": "-1365-003",
+      "title": "Shang Dynasty oracle bone divination and bronze production in China",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.3\u00b0N, 114.5\u00b0E",
+      "category": "cultural",
+      "description": "During the Shang Dynasty (c. 1600\u20131046 BCE), oracle bone divination is a central religious and administrative practice. Bones are inscribed with questions about harvests, warfare, and divine will, then heated and interpreted. Bronze technology is highly developed, with ritual vessels and weapons produced in sophisticated foundries. This year represents the continuation of Shang cultural and technological practices that define the period.",
+      "key_figures": [
+        "Shang kings (specific ruler uncertain for this year)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions (Yinxu archaeological site)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Bronze vessels and inscriptions",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Shang chronology is debated; this year is assigned within the broader Shang period based on archaeological stratigraphy, but specific events are not documented for individual years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Amenhotep III's reign has been subject to revision; some scholars place his reign slightly earlier (c. 1390\u20131352 BCE) while others propose alternative chronologies. The 'Hittite-Egyptian balance of power' narrative, while traditional, may overstate the degree of direct military confrontation; much of the competition was indirect, through control of vassal states. Shang chronology remains one of the most contested areas in East Asian history; absolute dating for this period relies heavily on later textual sources and astronomical calculations rather than contemporary written records.",
+  "historiographic_note": "Documentation for 1366 BCE is heavily skewed toward Egypt and the Hittite Empire, where written records and inscriptions are abundant. The Levantine perspective is filtered through Egyptian and Hittite sources, creating a potential bias toward great-power narratives. China's Shang Dynasty is well-attested archaeologically but lacks contemporary written records for specific years; dating relies on oracle bones and later historiographic tradition. Sub-Saharan Africa, northern Europe, and the Americas are essentially absent from the historical record for this year, not because nothing happened but because sources are either non-existent or not yet retrieved.",
+  "graph_edges": [
+    {
+      "from": "-1365-001",
+      "to": "-1365-002",
+      "relation": "contemporary_with",
+      "note": "Amenhotep III and \u0160uppiluliuma I were contemporaries; their reigns overlapped and their diplomatic/military policies were mutually influential."
+    },
+    {
+      "from": "-1365-002",
+      "to": "-1350-001",
+      "relation": "led_to",
+      "note": "\u0160uppiluliuma's consolidation of Syrian control eventually led to the Battle of Kadesh (c. 1274 BCE) between his successors and Ramesses II."
+    }
+  ]
+}

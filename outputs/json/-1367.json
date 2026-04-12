@@ -1,0 +1,107 @@
+{
+  "year": -1367,
+  "year_label": "1368 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Amenhotep III. The New Kingdom is at its height; Egypt controls Nubia and maintains hegemony over the Levant. The Hittite Empire under \u0160uppiluliuma I dominates Anatolia and northern Syria. Mycenaean Greece is in the Late Bronze Age IIIA period. China is in the Shang Dynasty.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia"
+  ],
+  "events": [
+    {
+      "id": "-1367-001",
+      "title": "Amenhotep III's building programme; Luxor Temple and Colossi of Memnon",
+      "region": "Egypt (Thebes/Luxor)",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "cultural",
+      "description": "Amenhotep III's reign is marked by an unprecedented building programme. The Luxor Temple (dedicated to Amun-Ra) and the Colossi of Memnon (monumental statues) are either completed or nearing completion during this period. These monuments represent the height of Egyptian artistic and architectural achievement and reflect the wealth and power of the 18th Dynasty. The construction of these monuments required vast resources, skilled labor, and centralized organization.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh)",
+        "Amenhotep, son of Hapu (architect and official)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions and reliefs at Luxor",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from temple sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The construction of these monuments is well-attested, though the precise dates of completion are debated within a \u00b15-year window.",
+      "cross_references": []
+    },
+    {
+      "id": "-1367-002",
+      "title": "\u0160uppiluliuma I's military campaigns in Syria; expansion of Hittite hegemony",
+      "region": "Syria, Levant, Anatolia",
+      "coordinates_approx": "35.5\u00b0N, 36.0\u00b0E",
+      "category": "military",
+      "description": "\u0160uppiluliuma I continues his aggressive expansion into Syria, challenging Egyptian control of the region. The Hittite military, equipped with advanced chariot technology and iron weapons, proves superior to local forces. By this period, Hittite control extends from Anatolia into northern Syria, and \u0160uppiluliuma is consolidating his gains through vassal relationships and military garrisons. This expansion sets the stage for later conflicts with Egypt.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal annals (Bo\u011fazk\u00f6y archives)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian records mentioning Hittite activities",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hittite chronology is well-established, though the precise dating of individual campaigns may vary by \u00b15 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1367-003",
+      "title": "Shang Dynasty bronze technology and ritual practices in China",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.3\u00b0N, 114.5\u00b0E",
+      "category": "technological",
+      "description": "The Shang Dynasty continues to develop sophisticated bronze-working techniques, producing ritual vessels, weapons, and tools. Oracle bone divination remains central to religious and administrative practice. The Shang state is organized around a royal court that controls bronze production, agricultural surplus, and military forces. This period represents the height of Shang technological and cultural achievement.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions (Yinxu archaeological site)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Bronze vessels and inscriptions",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Shang chronology is debated; this year is assigned within the broader Shang period based on archaeological evidence, but specific events are not documented for individual years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Luxor Temple's construction has been revised by some scholars; recent analysis suggests construction may have begun earlier or later than traditionally assumed. The Colossi of Memnon are often attributed to Amenhotep III, but some inscriptions suggest they may have been completed or modified by later rulers. \u0160uppiluliuma I's campaigns in Syria are well-attested, but the extent of his control and the nature of his vassal relationships remain debated among scholars.",
+  "historiographic_note": "The historical record for 1368 BCE is dominated by Egyptian and Hittite sources. Egyptian temple inscriptions and reliefs provide detailed information about Amenhotep III's building programme, but these sources are inherently biased toward royal achievement and may not reflect the full complexity of the period. Hittite sources are similarly focused on royal military campaigns. Mycenaean evidence from Linear B tablets provides a third perspective, but the interpretation of these texts remains contested. The Levantine perspective is almost entirely absent from the historical record, filtered through Egyptian and Hittite sources.",
+  "graph_edges": [
+    {
+      "from": "-1367-001",
+      "to": "-1367-002",
+      "relation": "contemporary_with",
+      "note": "Amenhotep III's building programme and \u0160uppiluliuma I's military expansion were occurring simultaneously, reflecting the balance of power between Egypt and the Hittite Empire."
+    },
+    {
+      "from": "-1367-001",
+      "to": "-1350-001",
+      "relation": "led_to",
+      "note": "Amenhotep III's building programme established Thebes as the religious and political center of Egypt, a status that continued under his successors."
+    }
+  ]
+}

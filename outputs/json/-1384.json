@@ -1,0 +1,83 @@
+{
+  "year": -1384,
+  "year_label": "1384 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Amenhotep III. The New Kingdom is at its height; Egypt controls Nubia and maintains hegemony over the Levant. In Anatolia, the Hittite Empire under Suppiluliuma I is consolidating power. In the Aegean, the Late Bronze Age palace cultures (Mycenaean Greece, Minoan Crete) are flourishing. This is an era of international diplomacy, monumental construction, and relative stability before the Late Bronze Age Collapse.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "East Asia beyond fragmentary oracle bone records",
+    "Mesoamerica (limited synchronisation with Old World chronology)"
+  ],
+  "events": [
+    {
+      "id": "-1384-001",
+      "title": "Amenhotep III continues monumental building programme at Thebes",
+      "region": "Egypt, Upper Egypt (Thebes/Waset)",
+      "coordinates_approx": "25.73, 32.64",
+      "category": "cultural",
+      "description": "Amenhotep III, in the 30th regnal year of his reign, continues the construction of the Mortuary Temple of Amenhotep III on the west bank of Thebes. This period marks the peak of New Kingdom architectural ambition and artistic refinement. The temple, known as the 'Temple of Millions of Years,' will become one of the largest mortuary temples in Egypt. The construction reflects Egypt's wealth and stable control of Nubian gold sources.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Mortuary Temple of Amenhotep III, archaeological evidence and inscriptions",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Amenhotep III's reign is well-dated to c. 1390\u20131352 BCE by Egyptological consensus. Year 30 of his reign places this event c. 1360 BCE, but the exact year is approximate within \u00b15 years. Architectural phases are difficult to assign to specific regnal years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1384-002",
+      "title": "Hittite-Egyptian diplomatic correspondence and power balance in the Levant",
+      "region": "Anatolia, Levant, Egypt",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "During this period, the Hittite Empire under Suppiluliuma I and Egypt under Amenhotep III maintain a balance of power in the eastern Mediterranean and Levant. Both powers conduct diplomatic correspondence (attested in the Amarna Letters archive, though that archive dates slightly later). Vassal states in the Levant navigate between Hittite and Egyptian spheres of influence. This is an era of international law and treaty-making.",
+      "key_figures": [
+        "Suppiluliuma I (Hittite Great King)",
+        "Amenhotep III (Egyptian Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Amarna Letters (diplomatic correspondence, c. 1350\u20131330 BCE)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Hittite royal archives and treaties",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Amarna Letters postdate this year by ~30 years, but the diplomatic system they reflect was already in place. Suppiluliuma I's reign is dated c. 1344\u20131322 BCE; Amenhotep III's to c. 1390\u20131352 BCE. The overlap is secure, but specific events in -1384 are inferred from the broader pattern.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The chronology of the 18th Dynasty remains debated. Some scholars propose a 'low chronology' that would place Amenhotep III's reign c. 1390\u20131352 BCE (standard), while others argue for a 'high chronology' shifting dates earlier by 50\u2013100 years. The Hittite chronology is similarly contested. No disconfirming evidence undermines the events listed, but their precise dating is uncertain by \u00b110\u201320 years.",
+  "historiographic_note": "The Late Bronze Age is well-documented through Egyptian temple inscriptions, Hittite archives, and the Amarna Letters. However, the historical record is heavily weighted toward elite political and military events. Economic, social, and demographic history is inferred from archaeological evidence (pottery, settlement patterns, faunal remains). Sub-Saharan Africa, northern Europe, and East Asia are poorly represented in surviving written records for this period.",
+  "graph_edges": [
+    {
+      "from": "-1384-001",
+      "to": "-1350-mortuary_temple_completion",
+      "relation": "part_of",
+      "note": "Continued construction phase of a multi-decade project"
+    },
+    {
+      "from": "-1384-002",
+      "to": "-1350-amarna_letters",
+      "relation": "led_to",
+      "note": "Diplomatic system that produced the Amarna Letters archive"
+    }
+  ]
+}

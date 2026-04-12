@@ -1,0 +1,121 @@
+{
+  "year": -1380,
+  "year_label": "1380 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Amenhotep III. The Hittite Empire is consolidating power under Suppiluliuma I. Mycenaean Greece is in the Late Helladic IIIA period. The Shang Dynasty in China continues (though dating is debated). This is an era of international diplomacy, monumental construction, and the development of international law and treaty-making. The Late Bronze Age is approaching its height before the disruptions of the 13th century BCE.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (oracle bone records are fragmentary and difficult to date precisely)",
+    "Mesoamerica",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-1380-001",
+      "title": "Amenhotep III's mortuary temple nearing completion; artistic and architectural achievements",
+      "region": "Egypt, Upper Egypt (Thebes)",
+      "coordinates_approx": "25.73, 32.64",
+      "category": "cultural",
+      "description": "The mortuary temple of Amenhotep III is nearing completion. The temple, known as the 'Temple of Millions of Years,' is one of the largest and most elaborate mortuary temples in Egypt. The temple features massive pylons, courtyards, and sanctuaries decorated with reliefs depicting the pharaoh's divine nature and his relationship with the gods. The temple also includes statuary, including the famous Colossi of Memnon (two massive seated statues of Amenhotep III). The temple reflects the height of New Kingdom artistic and architectural achievement.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological excavations and architectural analysis of the Mortuary Temple of Amenhotep III",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Temple inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The mortuary temple is archaeologically well-attested. The construction phases are difficult to assign to specific years, but the temple was largely completed during Amenhotep III's reign (c. 1390\u20131352 BCE).",
+      "cross_references": [
+        "-1384-001",
+        "-1383-001"
+      ]
+    },
+    {
+      "id": "-1380-002",
+      "title": "Hittite military campaigns in the Levant and consolidation of vassal states",
+      "region": "Anatolia, Levant, Syria",
+      "coordinates_approx": null,
+      "category": "military",
+      "description": "Suppiluliuma I continues military campaigns to consolidate Hittite control in the Levant. The Hittites are establishing vassal relationships with city-states in Syria and northern Mesopotamia. These campaigns are documented in Hittite royal annals and inscriptions. The Hittites are also engaged in diplomatic negotiations with Egypt and other powers to establish spheres of influence. The period is marked by the expansion of Hittite military and political power.",
+      "key_figures": [
+        "Suppiluliuma I (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal archives and annals",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian temple inscriptions mentioning Hittite conflicts",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Suppiluliuma I's reign is dated c. 1344\u20131322 BCE. His military campaigns are well-attested, but specific events in -1380 are inferred from the broader pattern of his reign.",
+      "cross_references": [
+        "-1382-002"
+      ]
+    },
+    {
+      "id": "-1380-003",
+      "title": "Mycenaean palace culture at its height; Linear B administrative records",
+      "region": "Aegean, Greece",
+      "coordinates_approx": null,
+      "category": "cultural",
+      "description": "Mycenaean palace cultures in Greece are at their height during the Late Helladic IIIA period. The palaces at Mycenae, Tiryns, Pylos, and other sites are centres of political, economic, and religious authority. These palaces are served by extensive administrative systems, documented in Linear B tablets (clay tablets inscribed with a syllabic script). The tablets record economic transactions, religious offerings, and administrative decisions. The palaces are also centres of craft production, including pottery, metalwork, and textile production.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets from Mycenaean palaces",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological excavations of Mycenaean palaces",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mycenaean palace culture and Linear B tablets are archaeologically well-attested for the Late Helladic IIIA period (c. 1425\u20131390 BCE). The dating of this period is secure within \u00b110 years.",
+      "cross_references": [
+        "-1383-002",
+        "-1381-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, the interpretation of Linear B tablets and the political organization of Mycenaean Greece remain subjects of scholarly debate. Some scholars argue for more centralized Mycenaean kingdoms; others emphasize the decentralized nature of Mycenaean polities. The relationship between Mycenaean palaces and the later Greek city-states is also debated.",
+  "historiographic_note": "The Late Bronze Age is well-documented through Egyptian inscriptions, Hittite archives, Linear B tablets, and archaeological evidence. However, the historical record privileges elite political, military, and religious events. The Mycenaean world is known primarily through archaeological evidence and Linear B tablets rather than narrative historical texts. Economic and social history is inferred from material culture and administrative records. The perspectives of non-elite populations are largely absent from the surviving record.",
+  "graph_edges": [
+    {
+      "from": "-1380-001",
+      "to": "-1384-001",
+      "relation": "part_of",
+      "note": "Continuation of Amenhotep III's building programme"
+    },
+    {
+      "from": "-1380-002",
+      "to": "-1350-hittite_egyptian_conflict",
+      "relation": "led_to",
+      "note": "Hittite expansion that eventually led to direct conflict with Egypt"
+    },
+    {
+      "from": "-1380-003",
+      "to": "-1200-late_bronze_age_collapse",
+      "relation": "led_to",
+      "note": "Mycenaean palace culture that will be disrupted by the Late Bronze Age Collapse"
+    }
+  ]
+}

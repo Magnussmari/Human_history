@@ -1,0 +1,101 @@
+{
+  "year": -1366,
+  "year_label": "1367 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Amenhotep III. The New Kingdom is at its height; Egypt controls Nubia and maintains hegemony over the Levant. The Hittite Empire under \u0160uppiluliuma I dominates Anatolia and northern Syria. Mycenaean Greece is in the Late Bronze Age IIIA period. China is in the Shang Dynasty.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-1366-001",
+      "title": "Amenhotep III's reign continues; diplomatic correspondence with foreign powers",
+      "region": "Egypt, Levant, Nubia",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Amenhotep III maintains Egypt's diplomatic network through correspondence with Hittite, Mitanni, and Levantine rulers. The Amarna Letters, though archived later, document the nature of these relationships. Egyptian military presence in the Levant is maintained through garrisons and vassal relationships. The reign is characterized by prosperity, cultural achievement, and relative peace compared to earlier and later periods.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh)",
+        "Tiye (Great Royal Wife)"
+      ],
+      "sources": [
+        {
+          "name": "Amarna Letters (later archive, but reflects contemporary diplomatic practices)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Temple inscriptions at Karnak and Luxor",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Amenhotep III's reign is well-dated, but specific events within individual years are often approximate.",
+      "cross_references": []
+    },
+    {
+      "id": "-1366-002",
+      "title": "Hittite expansion under \u0160uppiluliuma I; consolidation of Anatolian control",
+      "region": "Anatolia, northern Syria",
+      "coordinates_approx": "36.9\u00b0N, 34.6\u00b0E",
+      "category": "military",
+      "description": "\u0160uppiluliuma I continues his military campaigns to consolidate Hittite control over Anatolia and expand into Syria. The Hittite state is becoming the dominant power in the Near East, rivaling Egyptian influence. Military organization, iron-working technology, and chariot warfare are hallmarks of Hittite military superiority during this period.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal annals (Bo\u011fazk\u00f6y archives)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hittite chronology is well-established through king lists and dated treaties, though specific campaign dates within a reign may vary by \u00b15 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1366-003",
+      "title": "Mycenaean Greece in Late Bronze Age IIIA; palace economies and trade networks",
+      "region": "Greece, Aegean",
+      "coordinates_approx": "37.7\u00b0N, 23.0\u00b0E",
+      "category": "economic",
+      "description": "Mycenaean palace centers (Mycenae, Tiryns, Pylos) are at their height, controlling regional trade networks and producing Linear B administrative records. Trade with Egypt, the Levant, and Anatolia is active. Palatial economies are based on centralized control of agricultural production, craft production, and long-distance trade. This period represents the apex of Mycenaean civilization before the Late Bronze Age collapse.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos and Knossos",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from palace sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Mycenaean chronology is based on pottery typology and Egyptian synchronisms; absolute dating for individual years is uncertain (\u00b110\u201320 years).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Amenhotep III as a 'peaceful' pharaoh has been challenged by recent scholarship, which points to military campaigns in Nubia and the Levant. The Amarna Letters, often cited as evidence of Amenhotep III's diplomatic relations, were actually archived during his son Akhenaten's reign and may not accurately reflect Amenhotep III's own policies. Mycenaean chronology is highly debated; some scholars propose a 'low chronology' that would place this year significantly later in absolute terms.",
+  "historiographic_note": "The historical record for 1367 BCE is dominated by Egyptian and Hittite sources, with Mycenaean evidence from Linear B tablets providing a third perspective. However, the interpretation of Linear B is contested, and the relationship between Mycenaean and Near Eastern chronologies remains uncertain. The Levantine perspective is almost entirely filtered through Egyptian and Hittite sources, creating a significant bias. Sub-Saharan Africa, northern Europe, and the Americas remain absent from the documented record.",
+  "graph_edges": [
+    {
+      "from": "-1366-001",
+      "to": "-1366-002",
+      "relation": "contemporary_with",
+      "note": "Amenhotep III and \u0160uppiluliuma I were contemporaries; their policies toward the Levant were in competition."
+    },
+    {
+      "from": "-1366-003",
+      "to": "-1200-001",
+      "relation": "led_to",
+      "note": "Mycenaean palace economies documented in this period eventually collapsed during the Late Bronze Age collapse (c. 1200 BCE)."
+    }
+  ]
+}

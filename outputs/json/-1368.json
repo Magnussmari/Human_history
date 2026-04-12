@@ -1,0 +1,103 @@
+{
+  "year": -1368,
+  "year_label": "1369 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Amenhotep III. The New Kingdom is at its height; Egypt controls Nubia and maintains hegemony over the Levant. The Hittite Empire under \u0160uppiluliuma I dominates Anatolia and northern Syria. Mycenaean Greece is in the Late Bronze Age IIIA period. China is in the Shang Dynasty.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-1368-001",
+      "title": "Amenhotep III's reign; Egyptian hegemony in the Levant and Nubia",
+      "region": "Egypt, Levant, Nubia",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Amenhotep III's reign represents the apex of Egyptian power and prosperity in the New Kingdom. Egyptian control over Nubia is secure, with gold and other resources flowing to Egypt. In the Levant, Egyptian military garrisons and vassal relationships maintain Egyptian hegemony, though the Hittite Empire is increasingly challenging this dominance. The Egyptian court is wealthy and culturally sophisticated, with extensive diplomatic correspondence with foreign powers.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh)",
+        "Tiye (Great Royal Wife)"
+      ],
+      "sources": [
+        {
+          "name": "Temple inscriptions and reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Amarna Letters (later archive, but reflects contemporary diplomatic relations)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Amenhotep III's reign is well-dated through king lists and astronomical observations, but specific events within individual years are approximate.",
+      "cross_references": []
+    },
+    {
+      "id": "-1368-002",
+      "title": "\u0160uppiluliuma I's consolidation of Hittite power; treaty with Mitanni",
+      "region": "Anatolia, Syria, Mesopotamia",
+      "coordinates_approx": "36.9\u00b0N, 34.6\u00b0E",
+      "category": "political",
+      "description": "\u0160uppiluliuma I is consolidating Hittite power through military conquest and diplomatic treaties. The Hittite Empire is expanding its control over Anatolia and northern Syria. Diplomatic relations with the Mitanni kingdom are being negotiated, reflecting the balance of power in the Near East. The Hittite state is becoming the dominant military power in the region, rivaling Egyptian influence.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal annals and treaties (Bo\u011fazk\u00f6y archives)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hittite chronology is well-established, though the precise dating of individual events may vary by \u00b15 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1368-003",
+      "title": "Mycenaean palace economies; Linear B administrative records",
+      "region": "Greece, Aegean",
+      "coordinates_approx": "37.7\u00b0N, 23.0\u00b0E",
+      "category": "economic",
+      "description": "Mycenaean palace centers are producing Linear B administrative records that document the organization of palatial economies. These records show the centralized control of agricultural production, craft production, and long-distance trade. The palaces are engaged in extensive trade networks with Egypt, the Levant, and Anatolia. This period represents the height of Mycenaean economic organization before the Late Bronze Age collapse.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos and Knossos",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from palace sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Mycenaean chronology is based on pottery typology and Egyptian synchronisms; absolute dating for individual years is uncertain (\u00b110\u201320 years).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of Amenhotep III as a 'peaceful' pharaoh has been challenged by recent scholarship, which points to military campaigns in Nubia and the Levant. The extent of Egyptian control in the Levant during this period is debated; some scholars argue that Egyptian hegemony was more fragile than traditionally assumed. Mycenaean chronology remains highly contested, with some scholars proposing a 'low chronology' that would place this year significantly later in absolute terms.",
+  "historiographic_note": "The historical record for 1369 BCE is dominated by Egyptian and Hittite sources, with Mycenaean evidence from Linear B tablets providing a third perspective. Egyptian temple inscriptions and reliefs are biased toward royal achievement and may not reflect the full complexity of the period. Hittite sources are similarly focused on royal military campaigns. The Levantine perspective is almost entirely absent from the historical record, filtered through Egyptian and Hittite sources. Sub-Saharan Africa, northern Europe, and the Americas remain absent from the documented record.",
+  "graph_edges": [
+    {
+      "from": "-1368-001",
+      "to": "-1368-002",
+      "relation": "contemporary_with",
+      "note": "Amenhotep III and \u0160uppiluliuma I were contemporaries; their policies toward the Levant and Near East were in competition."
+    },
+    {
+      "from": "-1368-002",
+      "to": "-1350-001",
+      "relation": "led_to",
+      "note": "\u0160uppiluliuma I's consolidation of Hittite power eventually led to the Battle of Kadesh (c. 1274 BCE) between his successors and Ramesses II."
+    }
+  ]
+}

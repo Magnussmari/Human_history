@@ -1,0 +1,80 @@
+{
+  "year": -1379,
+  "year_label": "1379 BCE",
+  "era_context": "Late Bronze Age, Egypt's 18th Dynasty under Amenhotep III (r. 1390\u20131352 BCE). The New Kingdom is at its zenith: Egypt controls Nubia, the Levant, and maintains diplomatic relations with Mitanni, Babylon, and the Hittite Empire. Mycenaean Greece is in the Late Bronze Age IIIA period; the Shang Dynasty dominates China; the Indus Valley Civilization has collapsed, replaced by Vedic cultures in the Indian subcontinent.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Oceania and the Pacific",
+    "The Americas (no direct synchronization with Old World calendars)"
+  ],
+  "events": [
+    {
+      "id": "-1379-001",
+      "title": "Reign of Amenhotep III continues; diplomatic correspondence with foreign powers",
+      "region": "Egypt (18th Dynasty)",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Amenhotep III, one of Egypt's most powerful pharaohs, continues his reign in the mid-14th century BCE. This period is marked by extensive diplomatic correspondence with Mitanni, Babylon, Assyria, and the Hittite Empire, preserved in the Amarna Letters archive (though those letters are primarily from his son Akhenaten's reign, they reflect the diplomatic networks established under Amenhotep III). Egypt's wealth and military dominance are at their peak, with control over Nubian gold, Levantine tribute, and extensive trade networks.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Amarna Letters (14th century BCE diplomatic correspondence); Egyptian temple inscriptions and administrative records",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Malkata palace complex and Theban temples",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Amenhotep III's reign is well-attested through monumental inscriptions, temple reliefs, and administrative records. The exact year 1379 BCE is assigned by Egyptological consensus dating, with uncertainty of \u00b15\u201310 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1379-002",
+      "title": "Shang Dynasty in China; oracle bone divination and bronze casting",
+      "region": "China (Shang Dynasty)",
+      "coordinates_approx": "34.3\u00b0N, 114.5\u00b0E",
+      "category": "cultural",
+      "description": "The Shang Dynasty (c. 1600\u20131046 BCE) is in its mature phase. Oracle bones (scapulae and plastrons inscribed with divination records) are in active use for royal decision-making. Bronze technology is highly developed, with ritual vessels, weapons, and chariots produced in sophisticated foundries. The Shang court maintains a complex bureaucracy and engages in military campaigns against neighboring peoples.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions (jiaguwen); Shang bronze vessels and archaeological stratigraphy from Yinxu (Anyang)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian, compiled c. 109 BCE",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shang chronology is debated. Traditional dates place this period within the Shang dynasty; however, absolute dating of individual years within the Shang is uncertain by \u00b120\u201350 years. Oracle bone evidence confirms the cultural and religious practices described.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact dating of Amenhotep III's reign and the synchronization with Shang chronology remain subjects of scholarly debate. Some Egyptologists place Amenhotep III's reign slightly earlier (1390\u20131352 BCE) or later depending on the chronological system used (conventional, low, or high chronology). Shang chronology is particularly contested: some scholars argue for a longer Shang dynasty extending earlier, while others support a shorter chronology. The assignment of events to 1379 BCE is conventional but carries inherent uncertainty.",
+  "historiographic_note": "For Egypt, the record is rich: temple inscriptions, administrative papyri, and monumental art provide detailed information. However, the perspective is heavily pharaonic and elite-centered; the lives of common people are underrepresented. For China, oracle bones provide direct evidence of Shang religious and political concerns, but the historical record is filtered through later compilations like the Shiji, which may contain legendary elements. Sub-Saharan Africa, the Americas, and Northern Europe have no written records for this period, leaving them absent from this account despite significant cultural developments occurring.",
+  "graph_edges": [
+    {
+      "from": "-1379-001",
+      "to": "-1352-001",
+      "relation": "led_to",
+      "note": "Amenhotep III's reign ends c. 1352 BCE; succeeded by Akhenaten, who inherits the diplomatic networks and wealth established by his father."
+    },
+    {
+      "from": "-1379-002",
+      "to": "-1046-001",
+      "relation": "part_of",
+      "note": "Shang Dynasty continues until c. 1046 BCE, when it is replaced by the Zhou Dynasty."
+    }
+  ]
+}

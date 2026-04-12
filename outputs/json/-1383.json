@@ -1,0 +1,77 @@
+{
+  "year": -1383,
+  "year_label": "1383 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt. Amenhotep III's reign continues at its height. The Hittite Empire is consolidating control in Anatolia and the Levant. Mycenaean palace cultures in Greece are in their Late Helladic IIIA period, with active trade networks connecting the Aegean, Egypt, and the Levant. This is an era of international commerce, diplomatic marriage alliances, and monumental architecture.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (oracle bone records are fragmentary)",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-1383-001",
+      "title": "Continued construction of Amenhotep III's mortuary temple and palace complexes",
+      "region": "Egypt, Upper Egypt (Thebes)",
+      "coordinates_approx": "25.73, 32.64",
+      "category": "cultural",
+      "description": "Amenhotep III's building programme continues. In addition to the mortuary temple, the pharaoh is constructing or completing the palace complex at Malkata on the west bank of Thebes. This palace served as a royal residence and administrative centre. The scale and decoration of these structures reflect Egypt's economic power and the pharaoh's divine authority. Artisans and labourers, both conscripted and paid, work on these projects.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Malkata and the Mortuary Temple of Amenhotep III",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Malkata palace complex is archaeologically attested and dated to Amenhotep III's reign. Specific construction phases are difficult to assign to individual years.",
+      "cross_references": [
+        "-1384-001"
+      ]
+    },
+    {
+      "id": "-1383-002",
+      "title": "Mycenaean trade networks active in the eastern Mediterranean",
+      "region": "Aegean, Levant, Egypt",
+      "coordinates_approx": null,
+      "category": "economic",
+      "description": "Mycenaean Greek merchants and craftspeople are actively engaged in trade throughout the eastern Mediterranean. Mycenaean pottery is found in Egypt, the Levant, and Cyprus. Mycenaean warriors and mercenaries are attested in Egyptian service. This trade network facilitates the exchange of goods (tin, copper, cedar, lapis lazuli, ivory) and ideas. The Late Helladic IIIA period is marked by increasing Mycenaean influence in the eastern Mediterranean.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence: Mycenaean pottery in Egypt and the Levant",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian temple inscriptions mentioning 'Keftiu' (Crete/Aegean peoples)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mycenaean pottery and trade are archaeologically well-attested for the Late Helladic IIIA period (c. 1425\u20131390 BCE). The dating of this period is secure within \u00b110 years.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, the extent of Mycenaean political organization and the nature of their interactions with Egypt remain debated. Some scholars argue for more centralized Mycenaean kingdoms; others emphasize the decentralized nature of Mycenaean polities.",
+  "historiographic_note": "The Late Bronze Age is well-documented through Egyptian inscriptions, Hittite archives, and archaeological evidence. However, the historical record privileges elite political and military events. The Mycenaean world is known primarily through archaeological evidence (pottery, Linear B tablets, palace remains) rather than contemporary written narratives. Economic and social history is inferred from material culture.",
+  "graph_edges": [
+    {
+      "from": "-1383-001",
+      "to": "-1384-001",
+      "relation": "contemporary_with",
+      "note": "Ongoing construction projects in Egypt"
+    },
+    {
+      "from": "-1383-002",
+      "to": "-1350-amarna_letters",
+      "relation": "part_of",
+      "note": "Trade networks that are documented in later diplomatic correspondence"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "year": -1381,
+  "year_label": "1381 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt under Amenhotep III. The Hittite Empire is consolidating power under Suppiluliuma I. Mycenaean Greece is in the Late Helladic IIIA period. The Shang Dynasty in China continues (though dating is debated). This is an era of international diplomacy, monumental construction, and the development of international law and treaty-making.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (oracle bone records are fragmentary)",
+    "Mesoamerica",
+    "South Asia"
+  ],
+  "events": [
+    {
+      "id": "-1381-001",
+      "title": "Amenhotep III's reign at its height; diplomatic correspondence with foreign powers",
+      "region": "Egypt, Levant, Anatolia, Aegean",
+      "coordinates_approx": null,
+      "category": "political",
+      "description": "Amenhotep III's reign is at its height. The pharaoh is engaged in diplomatic correspondence with foreign rulers, including the Hittite Great King, the kings of Babylon and Mitanni, and rulers of Levantine city-states. These letters (later compiled in the Amarna Letters archive) reveal a sophisticated system of international diplomacy, including marriage alliances, gift exchanges, and trade agreements. Egypt's wealth and military power allow Amenhotep III to maintain a position of prestige in the international system.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Amarna Letters (diplomatic correspondence, c. 1350\u20131330 BCE)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Egyptian temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Amenhotep III's diplomatic activities are well-attested, though the Amarna Letters postdate this year by ~30 years. The diplomatic system they reflect was already in place during Amenhotep III's reign.",
+      "cross_references": [
+        "-1384-002"
+      ]
+    },
+    {
+      "id": "-1381-002",
+      "title": "Mycenaean pottery production and trade in the eastern Mediterranean",
+      "region": "Aegean, Levant, Egypt",
+      "coordinates_approx": null,
+      "category": "economic",
+      "description": "Mycenaean pottery workshops are producing large quantities of pottery for both local use and export. Mycenaean pottery is found throughout the eastern Mediterranean, including Egypt, the Levant, Cyprus, and Anatolia. This pottery trade is part of a broader network of exchange that includes metals (tin, copper), luxury goods (lapis lazuli, ivory), and possibly people (merchants, craftspeople, warriors). The Late Helladic IIIA period is marked by increasing Mycenaean economic influence.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence: Mycenaean pottery in Egypt and the Levant",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Mycenaean pottery and trade are archaeologically well-attested for the Late Helladic IIIA period. The dating of this period is secure within \u00b110 years.",
+      "cross_references": [
+        "-1383-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, the nature and extent of Mycenaean political organization remain debated. Some scholars argue for more centralized Mycenaean kingdoms; others emphasize decentralization.",
+  "historiographic_note": "The Late Bronze Age is well-documented through Egyptian inscriptions, Hittite archives, and archaeological evidence. However, the historical record privileges elite political and military events. The Mycenaean world is known primarily through archaeological evidence rather than contemporary written narratives. Economic and social history is inferred from material culture.",
+  "graph_edges": [
+    {
+      "from": "-1381-001",
+      "to": "-1384-002",
+      "relation": "contemporary_with",
+      "note": "Ongoing diplomatic system in the Late Bronze Age"
+    },
+    {
+      "from": "-1381-002",
+      "to": "-1383-002",
+      "relation": "contemporary_with",
+      "note": "Continued Mycenaean trade networks"
+    }
+  ]
+}

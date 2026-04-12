@@ -1,0 +1,102 @@
+{
+  "year": -1386,
+  "year_label": "1386 BCE",
+  "era_context": "Late Bronze Age, mid-18th Dynasty Egypt. Thutmose III's reign continues to dominate the eastern Mediterranean and Near East. The Hittite Empire under Suppiluliuma I is expanding. Mycenaean Greece is in Late Helladic IIIA. This is a period of relative stability and prosperity for the major palace-based civilisations, though regional conflicts persist.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia (oracle bone records are fragmentary)",
+    "Mesoamerica"
+  ],
+  "events": [
+    {
+      "id": "-1386-001",
+      "title": "Egyptian military campaigns in the Levant under Thutmose III",
+      "region": "Levant, Syria, Egypt",
+      "coordinates_approx": "33.0, 35.0",
+      "category": "military",
+      "description": "Thutmose III continues his systematic campaigns to maintain Egyptian control over the Levantine territories. These campaigns are documented in the Karnak temple inscriptions, which record annual military expeditions to suppress rebellions and collect tribute. The campaigns are characterized by rapid mobilization, siege warfare, and the establishment of Egyptian garrisons at strategic locations.",
+      "key_figures": [
+        "Thutmose III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Karnak temple inscriptions (Annals of Thutmose III)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The campaigns are attested in temple inscriptions, but the specific year-by-year sequence is difficult to establish with precision. The inscriptions are organized thematically rather than strictly chronologically, and the absolute dating depends on synchronisation with Egyptian chronology.",
+      "cross_references": [
+        "-1385-001"
+      ]
+    },
+    {
+      "id": "-1386-002",
+      "title": "Hittite-Mitanni conflict in northern Syria",
+      "region": "Anatolia, Syria, Northern Levant",
+      "coordinates_approx": "36.0, 35.5",
+      "category": "military",
+      "description": "Suppiluliuma I continues his campaigns against the Mitanni kingdom, seeking to expand Hittite control over northern Syria and the Euphrates region. These conflicts are part of a broader struggle for hegemony in the Near East, with Egypt also competing for influence. The Hittite victories gradually shift the balance of power away from Mitanni.",
+      "key_figures": [
+        "Suppiluliuma I (Hittite King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal inscriptions (Bo\u011fazk\u00f6y archives)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Hittite inscriptions document Suppiluliuma I's campaigns, but precise year-by-year dating is uncertain. The chronology depends on synchronisation with Egyptian records and astronomical calculations.",
+      "cross_references": [
+        "-1385-002"
+      ]
+    },
+    {
+      "id": "-1386-003",
+      "title": "Mycenaean trade networks expand in the Mediterranean",
+      "region": "Greece, Aegean, Eastern Mediterranean",
+      "coordinates_approx": "37.0, 24.0",
+      "category": "economic",
+      "description": "Mycenaean pottery and luxury goods are widely distributed throughout the Mediterranean, indicating extensive trade networks. Archaeological evidence shows Mycenaean presence in Egypt, the Levant, Anatolia, and Cyprus. This trade is facilitated by Mycenaean maritime capabilities and reflects the economic integration of the Late Bronze Age Mediterranean world.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological distribution of Mycenaean pottery",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian records mentioning 'Keftiu' (Crete/Aegean peoples)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The widespread distribution of Mycenaean pottery is archaeologically well-attested. However, the interpretation of this distribution as evidence of Mycenaean trade (rather than, e.g., imitation or gift exchange) is based on scholarly inference.",
+      "cross_references": [
+        "-1385-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The extent of Mycenaean trade and the nature of Mycenaean-Egyptian contact are debated. Some scholars argue that Mycenaean pottery found in Egypt represents actual Mycenaean traders or mercenaries; others suggest it was imported as prestige goods without direct Mycenaean presence. The identification of 'Keftiu' in Egyptian records with Crete and the Aegean is traditional but not universally accepted. Additionally, the scale and organization of Mycenaean trade networks may have been less centralized and less extensive than sometimes portrayed.",
+  "historiographic_note": "The record for 1386 BCE is dominated by Egyptian and Hittite elite sources, which emphasize military and political events. Economic and social history is reconstructed primarily from archaeological evidence (pottery distribution, settlement patterns). The Mycenaean record is heavily dependent on archaeological stratigraphy and Linear B tablets, which provide administrative rather than narrative information. Regions outside the Mediterranean and Near East are largely invisible in the surviving record.",
+  "graph_edges": [
+    {
+      "from": "-1386-001",
+      "to": "-1385-001",
+      "relation": "contemporary_with",
+      "note": "Thutmose III's campaigns continue throughout his reign"
+    },
+    {
+      "from": "-1386-002",
+      "to": "-1385-002",
+      "relation": "contemporary_with",
+      "note": "Suppiluliuma I's expansion against Mitanni is ongoing"
+    }
+  ]
+}

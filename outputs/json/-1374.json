@@ -1,0 +1,89 @@
+{
+  "year": -1374,
+  "year_label": "1374 BCE",
+  "era_context": "Late Bronze Age; the New Kingdom of Egypt under the 18th Dynasty (Thutmosid period). The Hittite Empire under \u0160uppiluliuma I was at its height in Anatolia. Mycenaean Greece was in the Late Helladic IIIA period. The Shang Dynasty dominated China. This was an era of major imperial consolidation, international diplomacy (including the Amarna Letters correspondence), and significant military campaigns across the Eastern Mediterranean and Near East.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological dating precision for this specific year)",
+    "Mesoamerica (no written records; archaeological chronology uncertain for this period)",
+    "Northern Europe (sparse archaeological evidence for specific year-level events)"
+  ],
+  "events": [
+    {
+      "id": "-1374-001",
+      "title": "Reign of Amenhotep III continues; possible regnal year 34\u201335",
+      "region": "Egypt (18th Dynasty)",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E",
+      "category": "political",
+      "description": "Amenhotep III, one of Egypt's most prosperous pharaohs, was in the later decades of his reign. This period saw continued diplomatic correspondence with Hittite, Mitanni, and Cypriot rulers (attested in the Amarna Letters archive, though those letters were compiled later). Egypt maintained control over Nubia and the Levantine territories. The reign was marked by extensive building programs and religious patronage, particularly toward Amun at Thebes.",
+      "key_figures": [
+        "Amenhotep III (Pharaoh of Egypt)",
+        "Tiye (Great Royal Wife)"
+      ],
+      "sources": [
+        {
+          "name": "Amarna Letters (EA 1\u2013382); compiled during reign of Akhenaten but referencing earlier diplomatic context",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Temple inscriptions and stelae from Thebes and Luxor",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Amenhotep III's regnal chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Amenhotep III's reign is well-attested, but precise year-by-year events for 1374 BCE are not independently documented. Regnal year assignment depends on accepted chronological frameworks, which vary by \u00b15\u201310 years among Egyptologists.",
+      "cross_references": [
+        "-1370-001 (Amenhotep III's death and succession)"
+      ]
+    },
+    {
+      "id": "-1374-002",
+      "title": "\u0160uppiluliuma I consolidates Hittite power in Syria",
+      "region": "Hittite Empire (Anatolia and northern Syria)",
+      "coordinates_approx": "37.5\u00b0N, 34.5\u00b0E",
+      "category": "military",
+      "description": "\u0160uppiluliuma I, the Hittite Great King, was in the midst of his major military campaigns to expand Hittite control over Syria and northern Mesopotamia. He defeated the Mitanni kingdom and secured Hittite dominance over the region, challenging Egyptian interests in the Levant. These campaigns are documented in the Hittite royal annals and indirectly referenced in Egyptian diplomatic correspondence.",
+      "key_figures": [
+        "\u0160uppiluliuma I (Great King of the Hittites)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite royal annals (cuneiform tablets from Bo\u011fazk\u00f6y)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Amarna Letters (Egyptian diplomatic correspondence)",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "\u0160uppiluliuma I's campaigns are well-documented in Hittite sources, but precise dating of individual campaigns within his reign remains debated. Chronological frameworks place his major Syrian campaigns in the 1340s\u20131330s BCE, making 1374 BCE placement approximate.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of Amenhotep III's reign and \u0160uppiluliuma I's campaigns is contested among scholars. Some chronological systems (the 'low chronology') place these events 10\u201315 years later than others (the 'high chronology'). Additionally, the significance of specific year-level events for 1374 BCE cannot be independently verified; the events listed represent broader contextual activity rather than documented occurrences for this specific year.",
+  "historiographic_note": "The historical record for 1374 BCE is heavily dependent on Egyptian and Hittite royal inscriptions and administrative records, which are biased toward court-sponsored narratives and military achievements. Nubian, Levantine, and Cypriot perspectives are underrepresented. The Amarna Letters, a crucial source for this era, were compiled during Akhenaten's reign (c. 1353\u20131336 BCE) and do not directly document 1374 BCE. Archaeological evidence (pottery, stratigraphy, radiocarbon dating) provides some independent verification but lacks year-level precision. The chronology of the Late Bronze Age remains one of the most contested issues in ancient history, with competing frameworks differing by up to 15 years.",
+  "graph_edges": [
+    {
+      "from": "-1374-001",
+      "to": "-1370-001",
+      "relation": "led_to",
+      "note": "Amenhotep III's reign ended c. 1370 BCE; succession of Akhenaten"
+    },
+    {
+      "from": "-1374-002",
+      "to": "-1370-002",
+      "relation": "part_of",
+      "note": "Continued Hittite expansion in Syria"
+    }
+  ]
+}
