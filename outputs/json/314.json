@@ -1,0 +1,103 @@
+{
+  "year": 314,
+  "year_label": "314 BCE",
+  "era_context": "The Wars of the Diadochi continue to reshape the Hellenistic world. Antigonus I is at the height of his power, controlling much of Anatolia, Syria, and the eastern Mediterranean. Ptolemy I consolidates Egypt and the Levantine coast. Seleucus I is establishing himself in Babylon. Cassander dominates Macedonia and Greece. This year marks a critical phase in the fragmentation of Alexander's empire into the major Hellenistic kingdoms.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Indian subcontinent (limited Greek sources)"
+  ],
+  "events": [
+    {
+      "id": "314-001",
+      "title": "Antigonus I's campaign in the Levant",
+      "region": "Levant and Syria",
+      "coordinates_approx": "34.0, 36.0",
+      "category": "military",
+      "description": "Antigonus I Monophthalmus continues his aggressive expansion, campaigning in Syria and the Levant against Ptolemaic forces. He seeks to consolidate control over the wealthy eastern Mediterranean coast and the trade routes connecting the Aegean to Mesopotamia. These campaigns are part of his broader strategy to dominate the eastern half of Alexander's former empire.",
+      "key_figures": [
+        "Antigonus I Monophthalmus",
+        "Demetrius Poliorcetes (his son)",
+        "Ptolemy I Soter"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica, Book 19",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Antigonus's campaigns in this period are well-attested in Diodorus, but precise year-by-year chronology is uncertain.",
+      "cross_references": [
+        "315-001",
+        "312-001"
+      ]
+    },
+    {
+      "id": "314-002",
+      "title": "Cassander's conflict with Antigonus",
+      "region": "Macedonia and the Aegean",
+      "coordinates_approx": "40.0, 24.0",
+      "category": "political",
+      "description": "Tensions escalate between Cassander (dominant in Macedonia and Greece) and Antigonus I (dominant in Asia). Both seek hegemony over the fragmented Hellenistic world. Diplomatic and military posturing characterizes their relationship. This conflict will eventually lead to the formation of coalitions against Antigonus.",
+      "key_figures": [
+        "Cassander",
+        "Antigonus I Monophthalmus"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The rivalry between Cassander and Antigonus is well-documented, but specific events in 314 BCE are not clearly delineated in surviving sources.",
+      "cross_references": [
+        "311-001 (Peace of the Diadochi)"
+      ]
+    },
+    {
+      "id": "314-003",
+      "title": "Lysimachus consolidates Thrace",
+      "region": "Thrace",
+      "coordinates_approx": "42.0, 25.0",
+      "category": "political",
+      "description": "Lysimachus, satrap of Thrace, continues to consolidate his control over the region and the adjacent territories. He is building a power base that will eventually rival Antigonus and Seleucus. By 314 BCE, he is establishing himself as a major player in the Diadochi conflicts.",
+      "key_figures": [
+        "Lysimachus (satrap of Thrace)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Lysimachus's consolidation is part of the broader Diadochi narrative, but specific events in 314 BCE are not well-documented.",
+      "cross_references": [
+        "301-001 (Battle of Ipsus)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The precise chronology of Antigonus's campaigns in 314 BCE versus 315 or 313 BCE is debated. Some modern scholars argue that Diodorus's account conflates or reorders events. The significance of individual military campaigns is sometimes exaggerated in ancient sources. Additionally, the extent to which these elite military conflicts affected the broader populations of the eastern Mediterranean is unclear.",
+  "historiographic_note": "The historical record for 314 BCE is derived from the same later Greek historiographers as 315 BCE (Diodorus, Plutarch, Appian). No contemporary primary texts survive. The sources are often vague about specific dates and events within individual years. The narrative is heavily weighted toward military and political events involving the Macedonian elite. The experiences of non-Greek populations, women, and common soldiers are largely absent. Archaeological evidence is limited.",
+  "graph_edges": [
+    {
+      "from": "314-001",
+      "to": "312-001",
+      "relation": "part_of",
+      "note": "Antigonus's campaigns continue as part of the broader Wars of the Diadochi."
+    },
+    {
+      "from": "314-002",
+      "to": "311-001",
+      "relation": "led_to",
+      "note": "Tensions between Cassander and Antigonus eventually lead to the Peace of the Diadochi in 311 BCE."
+    }
+  ]
+}

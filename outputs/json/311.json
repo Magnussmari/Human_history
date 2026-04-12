@@ -1,0 +1,113 @@
+{
+  "year": 311,
+  "year_label": "311 BCE",
+  "era_context": "The Wars of the Diadochi reach a temporary resolution with the Peace of the Diadochi. The major powers\u2014Antigonus I, Seleucus I, Ptolemy I, Cassander, and Lysimachus\u2014agree to a settlement that recognizes their respective spheres of influence. This peace is fragile and will be broken within a few years, but it marks a moment of stabilization in the Hellenistic world. The Hellenistic kingdoms are beginning to take their final form.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "Indian subcontinent"
+  ],
+  "events": [
+    {
+      "id": "311-001",
+      "title": "Peace of the Diadochi",
+      "region": "Eastern Mediterranean and Near East",
+      "coordinates_approx": "35.0, 30.0",
+      "category": "political",
+      "description": "The major Diadochi (Antigonus I, Seleucus I, Ptolemy I, Cassander, and Lysimachus) agree to a peace treaty that recognizes their respective spheres of influence. Antigonus I and his son Demetrius Poliorcetes are recognized as rulers of Asia Minor and Syria; Seleucus I is recognized as ruler of Babylon and the eastern satrapies; Ptolemy I is recognized as ruler of Egypt and the Levantine coast; Cassander is recognized as regent of Macedonia and Greece; Lysimachus is recognized as ruler of Thrace. The peace also includes provisions for the protection of Alexander's son, Philip Arrhidaeus, and his half-brother Heracles. This peace is a major turning point in the Diadochi wars, marking the beginning of the stabilization of the Hellenistic world.",
+      "key_figures": [
+        "Antigonus I Monophthalmus",
+        "Seleucus I Nicator",
+        "Ptolemy I Soter",
+        "Cassander",
+        "Lysimachus"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica, Book 19.105",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Demetrius",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Peace of the Diadochi is well-attested in multiple ancient sources. The date of 311 BCE is widely accepted in modern scholarship.",
+      "cross_references": [
+        "312-001",
+        "312-002",
+        "307-001 (Demetrius Poliorcetes' siege of Rhodes)"
+      ]
+    },
+    {
+      "id": "311-002",
+      "title": "Cassander's consolidation of Macedonia and Greece",
+      "region": "Macedonia and Greece",
+      "coordinates_approx": "40.0, 22.0",
+      "category": "political",
+      "description": "Following the Peace of the Diadochi, Cassander is formally recognized as regent of Macedonia and Greece. He consolidates his control over the Macedonian homeland and the Greek city-states. He is also involved in the protection of Alexander's young son, Philip Arrhidaeus, and his half-brother Heracles, though his commitment to their welfare is questionable.",
+      "key_figures": [
+        "Cassander",
+        "Philip Arrhidaeus (Alexander's son)",
+        "Heracles (Alexander's illegitimate son)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Cassander's consolidation is well-attested, but specific events in 311 BCE are not clearly documented.",
+      "cross_references": [
+        "310-001 (Cassander's murder of Philip Arrhidaeus)"
+      ]
+    },
+    {
+      "id": "311-003",
+      "title": "Seleucus I's consolidation of the eastern satrapies",
+      "region": "Mesopotamia and the eastern satrapies",
+      "coordinates_approx": "35.0, 50.0",
+      "category": "political",
+      "description": "Following the Peace of the Diadochi, Seleucus I is formally recognized as ruler of Babylon and the eastern satrapies. He consolidates his control over Mesopotamia, Persia, and the regions extending toward Central Asia and India. He is establishing the administrative and military foundations of the Seleucid Empire.",
+      "key_figures": [
+        "Seleucus I Nicator"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Seleucus's consolidation is well-attested, but specific events in 311 BCE are not clearly documented.",
+      "cross_references": [
+        "312-002",
+        "305-001 (Seleucus declares himself king)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Peace of the Diadochi is sometimes portrayed as a definitive settlement, but it was actually quite fragile and was broken within a few years (by 307 BCE at the latest). The peace did not resolve the fundamental tensions between the major powers, particularly between Antigonus and the coalition against him. Additionally, the treatment of Alexander's heirs (Philip Arrhidaeus and Heracles) under the peace agreement is unclear, and Cassander's role in their eventual deaths is disputed.",
+  "historiographic_note": "The historical record for 311 BCE is derived from later Greek historiographers (Diodorus, Plutarch) writing centuries after the events. No contemporary primary texts survive. The sources are generally clear about the fact of the Peace of the Diadochi, but details about its specific terms and implementation are vague. The narrative is heavily weighted toward military and political events involving the Macedonian elite. The experiences of non-Greek populations, women, and common soldiers are largely absent. Archaeological evidence is limited.",
+  "graph_edges": [
+    {
+      "from": "311-001",
+      "to": "307-001",
+      "relation": "led_to",
+      "note": "The Peace of the Diadochi is broken by Demetrius Poliorcetes' siege of Rhodes."
+    },
+    {
+      "from": "311-002",
+      "to": "310-001",
+      "relation": "led_to",
+      "note": "Cassander's consolidation of power leads to his eventual murder of Philip Arrhidaeus."
+    }
+  ]
+}

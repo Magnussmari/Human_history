@@ -1,0 +1,124 @@
+{
+  "year": 315,
+  "year_label": "315 BCE",
+  "era_context": "The Hellenistic world in the immediate aftermath of Alexander the Great's death (323 BCE). His empire is fragmenting among the Diadochi (successor generals). Antigonus I Monophthalmus controls Anatolia and Syria; Seleucus I is consolidating power in Babylon; Ptolemy I rules Egypt; Lysimachus holds Thrace; Cassander dominates Macedonia. This is a period of intense military competition, dynastic instability, and the rapid spread of Greek culture across the Near East and Central Asia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe beyond the Mediterranean",
+    "East Asia (China, India) \u2014 limited cross-cultural documentation"
+  ],
+  "events": [
+    {
+      "id": "315-001",
+      "title": "Battle of Gaza (or Raphia campaign)",
+      "region": "Levant (Gaza/southern Palestine)",
+      "coordinates_approx": "31.5, 34.5",
+      "category": "military",
+      "description": "Antigonus I Monophthalmus, seeking to consolidate control over the eastern Mediterranean, campaigns against Ptolemy I's forces in the Levant. The exact chronology of this campaign is debated, but 315 BCE marks a key phase in Antigonus's attempt to wrest control of Syria and Palestine from Ptolemaic Egypt. This conflict is part of the broader Wars of the Diadochi and demonstrates the fragility of Alexander's territorial inheritance.",
+      "key_figures": [
+        "Antigonus I Monophthalmus (Macedonian general, regent of Asia)",
+        "Ptolemy I Soter (Macedonian general, ruler of Egypt)",
+        "Demetrius Poliorcetes (son of Antigonus)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica (Books 19\u201320)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Demetrius",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Wars of the Diadochi are well-attested in later Greek historiography, but precise dating of individual campaigns within 315\u2013312 BCE is uncertain. Ancient sources (Diodorus, Plutarch) were written centuries later and sometimes conflate or reorder events.",
+      "cross_references": [
+        "312-001 (Battle of Gaza, alternative dating)",
+        "314-001 (Antigonus's broader campaigns)"
+      ]
+    },
+    {
+      "id": "315-002",
+      "title": "Seleucus I consolidates Babylon",
+      "region": "Mesopotamia (Babylon)",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "Seleucus I Nicator, having secured his position as satrap of Babylon after Alexander's death, continues to consolidate control over Mesopotamia and the eastern satrapies. By 315 BCE, he is establishing the administrative and military foundations of what will become the Seleucid Empire. He begins recruiting Greek settlers and reorganizing the Babylonian bureaucracy along Hellenistic lines.",
+      "key_figures": [
+        "Seleucus I Nicator (Macedonian general, satrap of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Appian, Syrian Wars",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad trajectory of Seleucus's rise is well-documented, but year-by-year details are sparse. 315 BCE is assigned as a representative date within his consolidation phase (c. 320\u2013312 BCE).",
+      "cross_references": [
+        "312-002 (Seleucus's victory at the Battle of the Tigers)"
+      ]
+    },
+    {
+      "id": "315-003",
+      "title": "Cassander's consolidation in Macedonia",
+      "region": "Macedonia",
+      "coordinates_approx": "40.5, 22.0",
+      "category": "political",
+      "description": "Cassander, son of Antipater, is consolidating his control over Macedonia and Greece following his father's death (319 BCE). He faces opposition from Polyperchon (Antipater's chosen successor) and the aging Macedonian regent Olympias (Alexander's mother). By 315 BCE, Cassander is the dominant power in the Macedonian homeland, though his position remains contested.",
+      "key_figures": [
+        "Cassander (Macedonian general, regent of Macedonia)",
+        "Polyperchon (rival regent)",
+        "Olympias (Alexander's mother)"
+      ],
+      "sources": [
+        {
+          "name": "Diodorus Siculus, Bibliotheca Historica",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Plutarch, Life of Olympias (fragmentary)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The conflict between Cassander and Polyperchon is well-attested, but precise chronology within 319\u2013315 BCE is uncertain.",
+      "cross_references": [
+        "314-002 (Cassander's conflicts with Antigonus)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact sequence and dating of campaigns during the Wars of the Diadochi (320\u2013301 BCE) remain contested among modern scholars. Some historians argue that the 'Battle of Gaza' traditionally dated to 312 BCE may have occurred earlier, possibly in 315 or 314 BCE. Additionally, the significance of individual campaigns is sometimes overstated in ancient sources, which were written to glorify particular generals. The extent to which these wars disrupted civilian populations versus remaining elite military contests is debated.",
+  "historiographic_note": "The historical record for 315 BCE derives almost entirely from later Greek historiographers (Diodorus Siculus, Plutarch, Appian) writing 300\u2013400 years after the events. No contemporary primary texts survive. The sources are often derivative, conflate events, and reflect the biases of their authors (e.g., pro-Ptolemaic or pro-Seleucid sympathies). Archaeological evidence from this period is limited. The narrative is heavily weighted toward military and political events involving the Macedonian elite; the experiences of non-Greek populations, women, and common soldiers are largely absent.",
+  "graph_edges": [
+    {
+      "from": "315-001",
+      "to": "312-001",
+      "relation": "part_of",
+      "note": "Both events are part of the broader Wars of the Diadochi; the Gaza campaign may span multiple years."
+    },
+    {
+      "from": "315-002",
+      "to": "312-002",
+      "relation": "led_to",
+      "note": "Seleucus's consolidation in Babylon leads to his major military victory in 312 BCE."
+    },
+    {
+      "from": "315-003",
+      "to": "314-002",
+      "relation": "led_to",
+      "note": "Cassander's consolidation in Macedonia leads to his conflict with Antigonus."
+    }
+  ]
+}
