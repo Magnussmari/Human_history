@@ -1,0 +1,119 @@
+{
+  "year": -2142,
+  "year_label": "2142 BCE",
+  "era_context": "Late Akkadian period; Egyptian Sixth Dynasty in advanced decline; Indus Valley Civilization at mature phase. Paleoclimate evidence suggests continued environmental stress. The broader era is characterized by the simultaneous decline of multiple major civilizations in Mesopotamia and Egypt, possibly linked to climate change, though causation remains debated.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia",
+    "Pacific Islands",
+    "Central Asia (limited documentation)"
+  ],
+  "events": [
+    {
+      "id": "-2142-001",
+      "title": "Akkadian Empire in advanced state of collapse; Gutian pressure intensifies",
+      "region": "Mesopotamia",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "The Akkadian Empire is fragmenting rapidly. Gutian raiders from the Zagros continue to press into Mesopotamia. Central authority from Akkad is minimal. Sumerian city-states are reasserting independence. This period represents the final phase of Akkadian hegemony before the Gutian occupation becomes dominant (traditionally dated c. 2154 BCE). The transition is gradual rather than a single catastrophic event.",
+      "key_figures": [
+        "Shar-kali-sharri (Akkadian king)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian administrative texts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The collapse of Akkadian authority is well-attested, but precise dating within the 22nd century BCE has a margin of error of \u00b110\u201320 years.",
+      "cross_references": [
+        "Part of Akkadian collapse sequence"
+      ]
+    },
+    {
+      "id": "-2142-002",
+      "title": "Egyptian Old Kingdom: Sixth Dynasty authority continues to erode",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Sixth Dynasty pharaohs are increasingly powerless. Nomarchs control their regions independently. The royal court at Memphis retains symbolic authority but little practical power. This period marks the transition from the Old Kingdom to the First Intermediate Period. Archaeological evidence shows a decline in monumental building and an increase in local elite burials.",
+      "key_figures": [
+        "Pepi II (traditional reign c. 2278\u20132184 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Nomarch autobiographical inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from provincial sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The political fragmentation is well-attested. Precise dating remains uncertain due to chronological disputes in Egyptology (\u00b150\u2013100 years depending on the chronological system used).",
+      "cross_references": [
+        "Part of Old Kingdom collapse"
+      ]
+    },
+    {
+      "id": "-2142-003",
+      "title": "Indus Valley Civilization: mature urban phase continues; no evidence of disruption",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization continues in its mature phase with no archaeological evidence of disruption or decline at this date. Urban centres remain fully developed and integrated. Trade networks continue to function. The civilization shows remarkable stability and continuity during this period when other major civilizations (Akkad, Egypt) are experiencing collapse. This suggests that the Indus Valley was either less affected by the climate stress of the 22nd century BCE or had developed adaptive strategies.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The continuity of the Indus Valley Civilization during this period is well-established through archaeology. The absence of disruption is as significant as the presence of it.",
+      "cross_references": [
+        "Contemporary with Akkadian and Egyptian collapses but shows no parallel decline"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The assumption that the 4.2 ka climate event affected all civilizations equally is contradicted by the Indus Valley Civilization's apparent stability during this period. This suggests that either the climate stress was regional (affecting the Near East more than South Asia) or that the Indus Valley had developed adaptive strategies. The causal link between climate and political collapse in Mesopotamia and Egypt remains debated; some scholars emphasize internal political and administrative factors.",
+  "historiographic_note": "This year is characterized by sparse documentation outside of Mesopotamia and Egypt. The Indus Valley Civilization is known almost entirely through archaeology, limiting our understanding of political events or ideological changes. The absence of written records from most of the world means that major developments in Africa, the Americas, and most of Asia are entirely unknown.",
+  "graph_edges": [
+    {
+      "from": "-2142-001",
+      "to": "-2142-002",
+      "relation": "contemporary_with",
+      "note": "Akkadian and Egyptian collapses occur in the same era"
+    },
+    {
+      "from": "-2142-003",
+      "to": "-2142-001",
+      "relation": "contemporary_with",
+      "note": "Indus Valley Civilization shows stability while Akkad collapses"
+    }
+  ]
+}

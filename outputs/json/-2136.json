@@ -1,0 +1,108 @@
+{
+  "year": -2136,
+  "year_label": "2136 BCE",
+  "era_context": "The Old Kingdom of Egypt is in its final years. Akkad remains powerful but faces mounting internal and external pressures. The Harappan civilization is stable and prosperous. This is a period of apparent continuity masking imminent transformations.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2136-001",
+      "title": "Pepi II's reign: final phase of Old Kingdom centralization",
+      "region": "Egypt (Old Kingdom, Dynasty VI)",
+      "coordinates_approx": "30.8\u00b0N, 31.1\u00b0E",
+      "category": "political",
+      "description": "Pepi II's reign continues, though he is now very elderly (if the traditional 94-year reign is accurate). The central government's authority is visibly weakened; provincial governors exercise increasing independence. The transition from the Old Kingdom to the First Intermediate Period is imminent. Pepi II's death will trigger a rapid collapse of centralized authority and the fragmentation of Egypt into competing regional powers.",
+      "key_figures": [
+        "Pepi II, Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "King lists and later chronicles",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Tomb inscriptions of provincial officials",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "traditional",
+      "certainty_note": "Pepi II's reign is attested in king lists, but the exact length and end date are disputed. -2136 is assigned based on traditional chronology.",
+      "cross_references": [
+        "Immediately precedes the First Intermediate Period (c. -2184 to -2055)"
+      ]
+    },
+    {
+      "id": "-2136-002",
+      "title": "Naram-Sin of Akkad: empire at maximum extent",
+      "region": "Mesopotamia, Levant, Anatolia, Persian Gulf (Akkad Empire)",
+      "coordinates_approx": "33.3\u00b0N, 44.4\u00b0E",
+      "category": "political",
+      "description": "Naram-Sin's empire reaches its maximum territorial extent, controlling Mesopotamia, the Levant, parts of Anatolia, and the Persian Gulf region. His inscriptions proclaim his divinity and military prowess. However, the empire is under increasing strain from rebellions and external threats. The Gutians are pressing from the northeast; conquered peoples are restless. The empire's administrative and military resources are stretched to maintain control over such vast territories.",
+      "key_figures": [
+        "Naram-Sin, King of Akkad"
+      ],
+      "sources": [
+        {
+          "name": "Royal inscriptions and administrative texts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Victory Stele of Naram-Sin",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign and imperial extent are well-attested. The specific year -2136 is assigned based on conventional chronology.",
+      "cross_references": [
+        "Precedes Akkad's rapid collapse c. -2154 to -2150"
+      ]
+    },
+    {
+      "id": "-2136-003",
+      "title": "Harappan civilization: mature phase stability",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0\u00b0N, 68.0\u00b0E",
+      "category": "cultural",
+      "description": "The Harappan civilization continues in its mature phase with no apparent disruption. Urban centers are fully developed, trade networks are extensive, and material culture shows continuity. Archaeological evidence reveals no signs of environmental stress, warfare, or social upheaval at this time. The civilization will remain stable for another 200+ years before beginning its gradual decline.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from excavations at Harappa, Mohenjo-daro, and other sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan civilization's stability during the mature phase is well-established through archaeology.",
+      "cross_references": [
+        "Part of the mature Harappan phase (c. 2600\u20131900 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, the dating of Pepi II's death and the end of the Old Kingdom is debated; some scholars place it earlier or later than traditional chronology suggests.",
+  "historiographic_note": "Sources for -2136 are similar to previous years: king lists, royal inscriptions, and archaeological evidence. The lack of precise year-by-year dating in ancient sources means that events are often assigned to periods or reigns. Egyptian sources are elite-focused and emphasize royal authority; the experiences of common people are largely invisible. Mesopotamian sources are similarly biased. The Indus Valley Civilization remains largely silent due to the undeciphered script.",
+  "graph_edges": [
+    {
+      "from": "-2136-001",
+      "to": "-2135-PEPI_II_DEATH",
+      "relation": "precedes",
+      "note": "Pepi II's death is imminent; the Old Kingdom will collapse shortly after"
+    },
+    {
+      "from": "-2136-002",
+      "to": "-2154-AKKAD_COLLAPSE",
+      "relation": "precedes",
+      "note": "Naram-Sin's empire will collapse within ~18 years"
+    }
+  ]
+}

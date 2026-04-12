@@ -1,0 +1,109 @@
+{
+  "year": -2137,
+  "year_label": "2137 BCE",
+  "era_context": "The Old Kingdom of Egypt is in its final decades. Akkad remains at the height of imperial power under Naram-Sin, though internal pressures are building. The Harappan civilization continues its mature phase. This period represents a moment of apparent stability before major transformations in the following decades.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2137-001",
+      "title": "Old Kingdom Egypt: continued provincial autonomy and elite tomb construction",
+      "region": "Egypt (Old Kingdom, Dynasty VI)",
+      "coordinates_approx": "30.8\u00b0N, 31.1\u00b0E",
+      "category": "cultural",
+      "description": "Provincial elites continue to commission elaborate tombs with detailed autobiographical inscriptions, indicating wealth and power independent of the pharaonic center. The style and content of these inscriptions reveal a society in which local governors exercise significant authority. Monumental construction at the center (pyramids, temples) continues but with less grandeur than earlier in the Old Kingdom. The contrast between central and provincial resources is increasingly visible in the archaeological record.",
+      "key_figures": [
+        "Pepi II, Pharaoh of Egypt",
+        "Provincial nomarchs"
+      ],
+      "sources": [
+        {
+          "name": "Tomb inscriptions and reliefs from provincial sites (Aswan, Abydos, Siut)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of tomb construction and decoration",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The trend is well-attested; specific dating to -2137 is conventional rather than precise.",
+      "cross_references": [
+        "Part of Old Kingdom decline"
+      ]
+    },
+    {
+      "id": "-2137-002",
+      "title": "Akkad Empire: Naram-Sin's reign continues; internal strains emerge",
+      "region": "Mesopotamia (Akkad Empire)",
+      "coordinates_approx": "33.3\u00b0N, 44.4\u00b0E",
+      "category": "political",
+      "description": "Naram-Sin's reign continues, but evidence from later chronicles and inscriptions suggests that internal rebellions and external pressures are mounting. The Gutians, a people from the Zagros Mountains, are increasingly active on Akkad's borders. Rebellions in conquered territories require repeated military campaigns. The empire's resources are stretched thin, though its military power remains formidable. This period represents the empire at its maximum territorial extent but with growing internal instability.",
+      "key_figures": [
+        "Naram-Sin, King of Akkad"
+      ],
+      "sources": [
+        {
+          "name": "Royal inscriptions and administrative texts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List and later chronicles",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested, but the specific timing of internal strains is not precisely dated in contemporary sources.",
+      "cross_references": [
+        "Precedes Akkad's collapse c. -2154 to -2150"
+      ]
+    },
+    {
+      "id": "-2137-003",
+      "title": "Harappan civilization: continued urban prosperity and standardization",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0\u00b0N, 68.0\u00b0E",
+      "category": "cultural",
+      "description": "The Harappan civilization maintains its characteristic features: planned urban centers, standardized weights and measures, craft specialization, and extensive trade networks. Archaeological evidence shows no signs of major disruption or decline at this time. The civilization appears stable and prosperous, with no indication of the environmental or social stresses that will lead to its decline in the following centuries.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations and material culture analysis",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan civilization's stability during the mature phase is well-established through archaeology. -2137 falls securely within this period.",
+      "cross_references": [
+        "Part of the mature Harappan phase (c. 2600\u20131900 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, the interpretation of Akkadian 'internal strains' is inferred from later sources and the eventual collapse; contemporary inscriptions emphasize Naram-Sin's military successes and divine status rather than difficulties.",
+  "historiographic_note": "Sources remain sparse and elite-focused. Egyptian sources emphasize royal and provincial elite perspectives; the lives of common people are largely invisible. Mesopotamian sources are similarly biased toward royal and administrative records. The Indus Valley Civilization's lack of deciphered writing means that understanding is based entirely on material culture, which is subject to multiple interpretations. No sources exist for most of the world outside these three civilizations.",
+  "graph_edges": [
+    {
+      "from": "-2137-001",
+      "to": "-2100-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "Provincial autonomy will increase dramatically after Pepi II's death"
+    },
+    {
+      "from": "-2137-002",
+      "to": "-2154-AKKAD_COLLAPSE",
+      "relation": "precedes",
+      "note": "Internal strains will lead to Akkad's collapse within ~17 years"
+    }
+  ]
+}

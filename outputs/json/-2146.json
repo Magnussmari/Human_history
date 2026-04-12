@@ -1,0 +1,126 @@
+{
+  "year": -2146,
+  "year_label": "2146 BCE",
+  "era_context": "The Old Kingdom of Egypt under the Sixth Dynasty is in its final decades of centralized rule. The Akkadian Empire in Mesopotamia is experiencing internal strain and external pressure from Gutian incursions. The Indus Valley Civilization continues its mature urban phase. This period falls within the broader context of the late third millennium BCE, characterized by significant political transitions across multiple civilizations.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe and the Steppe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-2146-001",
+      "title": "Continued reign of Pepi II of Egypt; provincial autonomy increases",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.5, 30.5",
+      "category": "political",
+      "description": "Pepi II, the last significant pharaoh of the Sixth Dynasty, continues his reign (if the traditional chronology of a 64-year reign is accepted). However, his authority over provincial governors (nomarchs) continues to erode. Inscriptions from provincial tombs increasingly assert local autonomy and reduce references to royal authority. The economic resources of the state are stretched thin by continued monument-building and military campaigns. This year represents the ongoing transition toward the First Intermediate Period.",
+      "key_figures": [
+        "Pepi II (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Provincial tomb inscriptions from Aswan, Abydos, and other sites",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Pyramid texts and administrative papyri",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The dating of Pepi II's reign is highly contested. If his reign was indeed 64 years (c. 2278\u20132184 BCE), then -2146 falls within it. However, some scholars argue for a much shorter reign, which would place this year after his death. The archaeological evidence for provincial autonomy is clear; the precise year is less certain.",
+      "cross_references": [
+        "Part of broader Sixth Dynasty decline",
+        "Leads to -2100-001 (First Intermediate Period)"
+      ]
+    },
+    {
+      "id": "-2146-002",
+      "title": "Akkadian Empire fragmentation; Gutian pressure continues",
+      "region": "Mesopotamia",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "The Akkadian Empire continues to fragment under pressure from Gutian invasions and internal rebellion. City-states such as Lagash and Uruk assert increasing independence. The central authority of the Akkadian kings weakens further. This period represents the gradual transition from Akkadian hegemony to the Gutian Interregnum, a process that unfolds over several decades rather than a single catastrophic collapse.",
+      "key_figures": [
+        "Gutian leaders (unnamed in contemporary sources)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform inscriptions from Lagash",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological destruction layers",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The chronology of the Akkadian collapse is debated. The process is attested archaeologically and in later texts, but the precise dating of individual years within this period is uncertain.",
+      "cross_references": [
+        "Part of broader Akkadian decline",
+        "Contemporary with -2145-002"
+      ]
+    },
+    {
+      "id": "-2146-003",
+      "title": "Indus Valley Civilization: mature urban phase continues; standardized systems in use",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization remains in its mature phase, with sophisticated urban planning, standardized weights and measures, and extensive trade networks. Archaeological evidence indicates continued prosperity and stability. The civilization's administrative systems, reflected in seals and inscriptions, suggest a highly organized society, though the absence of deciphered written records limits understanding of political structures.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Indus sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and standardized weights",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The archaeological evidence for the Indus Valley Civilization's mature phase is robust and well-dated through stratigraphic analysis.",
+      "cross_references": [
+        "Contemporary with -2146-001 and -2146-002",
+        "Part of broader Indus Valley Civilization period (c. 2600\u20131900 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional chronology of Pepi II's 64-year reign is increasingly questioned by modern scholars. Some argue for a much shorter reign (20\u201330 years), which would place this year after his death. The Akkadian collapse is often portrayed as a sudden catastrophe, but archaeological evidence suggests a more gradual process. The role of climate change (the 4.2 ka event) in the collapse is debated; some scholars emphasize internal political factors.",
+  "historiographic_note": "The historical record for -2146 is sparse and heavily dependent on later compilations and archaeological evidence. Egyptian chronology remains contested. Mesopotamian sources are limited to inscriptions and archaeological evidence. The Indus Valley Civilization is known only through archaeology. All three regions lack detailed contemporary narratives of specific events in this year.",
+  "graph_edges": [
+    {
+      "from": "-2146-001",
+      "to": "-2145-001",
+      "relation": "led_to",
+      "note": "Continued erosion of royal authority in -2146 led to the collapse of the Sixth Dynasty in -2145."
+    },
+    {
+      "from": "-2146-002",
+      "to": "-2145-002",
+      "relation": "led_to",
+      "note": "Continued Akkadian fragmentation in -2146 accelerated the empire's collapse in -2145."
+    }
+  ]
+}

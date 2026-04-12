@@ -1,0 +1,126 @@
+{
+  "year": -2147,
+  "year_label": "2147 BCE",
+  "era_context": "The Old Kingdom of Egypt is in its final phase under the Sixth Dynasty. The Akkadian Empire in Mesopotamia faces mounting internal and external pressures. The Indus Valley Civilization is at its height. This period falls within the late third millennium BCE, a time of significant political and possibly climatic transitions.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe and the Steppe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Pacific Islands"
+  ],
+  "events": [
+    {
+      "id": "-2147-001",
+      "title": "Sixth Dynasty Egypt: provincial fragmentation accelerates; royal authority weakens",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.5, 30.5",
+      "category": "political",
+      "description": "The Sixth Dynasty of Egypt continues its decline as provincial governors (nomarchs) consolidate power and reduce their dependence on the central authority. Inscriptions from provincial tombs increasingly emphasize local achievements and autonomy. The royal treasury is strained by continued monument-building and military campaigns. This period represents the gradual transition from centralized Old Kingdom rule to the decentralized First Intermediate Period.",
+      "key_figures": [
+        "Pepi II (Pharaoh, if traditional chronology is accepted)"
+      ],
+      "sources": [
+        {
+          "name": "Provincial tomb inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pyramid texts",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The dating of the Sixth Dynasty's decline is approximate. The archaeological evidence for provincial autonomy is clear, but the precise year is uncertain due to chronological debates.",
+      "cross_references": [
+        "Part of broader Sixth Dynasty decline",
+        "Leads to -2100-001 (First Intermediate Period)"
+      ]
+    },
+    {
+      "id": "-2147-002",
+      "title": "Akkadian Empire: internal collapse and Gutian invasions intensify",
+      "region": "Mesopotamia",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "The Akkadian Empire experiences accelerating internal collapse as Gutian raiders from the Zagros Mountains intensify their incursions into Mesopotamia. City-states assert independence. The central authority of the Akkadian kings continues to weaken. Archaeological evidence of destruction layers at multiple sites suggests widespread conflict and instability during this period.",
+      "key_figures": [
+        "Gutian leaders (unnamed)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform inscriptions from Lagash and other city-states",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological destruction layers",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Akkadian collapse is attested archaeologically and in later texts, but precise dating within this period is uncertain.",
+      "cross_references": [
+        "Part of broader Akkadian decline",
+        "Contemporary with -2147-001"
+      ]
+    },
+    {
+      "id": "-2147-003",
+      "title": "Indus Valley Civilization: mature urban phase; extensive trade networks",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization continues in its mature phase with large urban centres, standardized administrative systems, and extensive trade networks connecting to Mesopotamia, the Persian Gulf, and Central Asia. Archaeological evidence indicates prosperity and stability.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Indus sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and standardized weights",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The archaeological evidence for the Indus Valley Civilization's mature phase is well-established.",
+      "cross_references": [
+        "Contemporary with -2147-001 and -2147-002",
+        "Part of broader Indus Valley Civilization period"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional chronology of the Sixth Dynasty and Pepi II's reign is contested. Some scholars argue for a much shorter reign for Pepi II, which would place this year after his death. The Akkadian collapse is sometimes portrayed as a sudden catastrophe, but archaeological evidence suggests a more gradual process of fragmentation and infiltration.",
+  "historiographic_note": "The historical record for -2147 is sparse. Egyptian chronology remains debated. Mesopotamian sources are limited to inscriptions and archaeological evidence. The Indus Valley Civilization is known only through archaeology. All three regions lack detailed contemporary narratives of specific events in this year.",
+  "graph_edges": [
+    {
+      "from": "-2147-001",
+      "to": "-2146-001",
+      "relation": "led_to",
+      "note": "The fragmentation of the Sixth Dynasty continued from -2147 into -2146."
+    },
+    {
+      "from": "-2147-002",
+      "to": "-2146-002",
+      "relation": "led_to",
+      "note": "The Akkadian collapse continued from -2147 into -2146."
+    }
+  ]
+}

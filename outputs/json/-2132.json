@@ -1,0 +1,127 @@
+{
+  "year": -2132,
+  "year_label": "2132 BCE",
+  "era_context": "The late Old Kingdom of Egypt is in its final phase of centralized authority. Akkad under Naram-Sin is approaching the end of its imperial dominance. The Harappan civilization continues in its mature phase. This period represents a critical juncture in the ancient Near East, with major political transitions imminent.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2132-001",
+      "title": "Egyptian Old Kingdom authority reaches critical weakness; transition toward First Intermediate Period",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "By 2132 BCE, the Sixth Dynasty pharaoh's authority is severely compromised. Regional nomarchs operate with near-complete autonomy. The central government's ability to levy taxes, conscript labor, and maintain a unified military has collapsed. This marks the threshold of the First Intermediate Period (c. 2181\u20132055 BCE), when Egypt will fragment into competing regional dynasties. The causes remain debated: climate stress (Nile low-flow periods), administrative overextension, or ideological loss of legitimacy.",
+      "key_figures": [
+        "Pepi II (Pharaoh, Sixth Dynasty; traditional dates c. 2278\u20132184 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions from provincial tombs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of reduced monument construction and administrative activity",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho, Aegyptiaca (later compilation, 3rd century BCE)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad trajectory is well-attested; precise dating within the Sixth Dynasty is uncertain due to overlapping regnal dates and lack of contemporary king lists.",
+      "cross_references": [
+        "Part of Old Kingdom decline (-2134 onwards)",
+        "Leads to First Intermediate Period (-2130 to -2055)"
+      ]
+    },
+    {
+      "id": "-2132-002",
+      "title": "Akkad Empire under severe military and administrative stress; Gutian pressure intensifies",
+      "region": "Mesopotamia, Zagros Mountains",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Naram-Sin's reign is in its final years (he dies c. 2218 BCE in traditional chronology, though some scholars propose c. 2200 BCE). The Akkad Empire faces mounting pressure from Gutian invasions and internal rebellion. Military campaigns are becoming increasingly defensive rather than expansionist. The empire's administrative apparatus is straining under the costs of frontier defense and suppressing internal dissent. This period represents the beginning of the end for Akkadian hegemony.",
+      "key_figures": [
+        "Naram-Sin (Akkad Emperor, r. c. 2254\u20132218 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Cuneiform administrative and military records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List (later compilation with traditional elements)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The general pattern of Akkad's decline is well-documented; specific events in 2132 BCE are inferred from the broader trajectory of Naram-Sin's reign.",
+      "cross_references": [
+        "Part of Akkad Empire decline (c. 2200\u20132154 BCE)",
+        "Leads to Gutian conquest and Akkad collapse (-2154 onwards)"
+      ]
+    },
+    {
+      "id": "-2132-003",
+      "title": "Harappan civilization maintains mature urban phase; evidence of sophisticated urban planning",
+      "region": "Indus Valley (modern Pakistan, northwest India)",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization continues in its mature phase, with major cities like Mohenjo-daro and Harappa displaying sophisticated urban planning, standardized brick sizes, advanced drainage systems, and organized craft production. The civilization's undeciphered script appears on seals and pottery, suggesting a complex administrative and possibly religious system. Trade networks remain active, connecting the Indus Valley to Mesopotamia, the Persian Gulf, and Central Asia.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals and standardized weights",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and characteristics of the Harappan civilization in this period are well-established through archaeology. Absolute dating relies on radiocarbon and stratigraphic correlation.",
+      "cross_references": [
+        "Contemporary with Akkad and Egyptian decline",
+        "Part of Harappan mature phase (c. 2600\u20131900 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Old Kingdom's end and the First Intermediate Period's beginning is debated; some scholars place the transition earlier (c. 2150 BCE) or later (c. 2100 BCE). The extent of Naram-Sin's military problems in 2132 BCE specifically is uncertain; some sources suggest the empire remained relatively stable until the final years of his reign or the reign of his successor. The Harappan civilization's decline is sometimes attributed to environmental factors (climate change, river course changes) rather than internal collapse, and the timing of this decline is debated (some scholars propose c. 1900 BCE, others c. 1800 BCE).",
+  "historiographic_note": "This year is poorly documented in contemporary sources. Egyptian records are fragmentary and elite-focused. Mesopotamian sources concentrate on Akkadian imperial narratives and later Sumerian retrospectives. The Indus Valley Civilization's undeciphered script prevents direct historical narrative. Chronological precision is limited to \u00b110\u201320 years. The vast majority of human societies left no written records, making global history invisible.",
+  "graph_edges": [
+    {
+      "from": "-2132-001",
+      "to": "-2130-001",
+      "relation": "led_to",
+      "note": "Old Kingdom collapse leads to First Intermediate Period"
+    },
+    {
+      "from": "-2132-002",
+      "to": "-2154-001",
+      "relation": "led_to",
+      "note": "Akkad's military stress leads to Gutian conquest"
+    },
+    {
+      "from": "-2132-003",
+      "to": "-1900-001",
+      "relation": "led_to",
+      "note": "Harappan mature phase leads to decline and fragmentation"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "year": -2143,
+  "year_label": "2143 BCE",
+  "era_context": "Late Akkadian period; Egyptian Sixth Dynasty in decline; Indus Valley Civilization at mature phase. Paleoclimate evidence suggests environmental stress in the 22nd century BCE. This year falls within the broader period of simultaneous decline of major civilizations in Mesopotamia and Egypt.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia",
+    "Pacific Islands",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-2143-001",
+      "title": "Akkadian Empire: continued fragmentation and loss of territorial control",
+      "region": "Mesopotamia",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "The Akkadian Empire continues to lose territorial control and administrative coherence. Gutian pressure from the Zagros is ongoing. Sumerian city-states are reasserting independence. This period represents the gradual transition from Akkadian hegemony to the fragmented political landscape of the subsequent period. The process is not a single catastrophic collapse but a prolonged decline over several decades.",
+      "key_figures": [
+        "Shar-kali-sharri (Akkadian king, r. c. 2217\u20132193 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian administrative texts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The collapse of Akkadian authority is well-attested, but precise year-by-year events are not documented. Dating has a margin of error of \u00b110\u201320 years.",
+      "cross_references": [
+        "Part of Akkadian collapse sequence (c. 2200\u20132154 BCE)"
+      ]
+    },
+    {
+      "id": "-2143-002",
+      "title": "Egyptian Sixth Dynasty: continued political fragmentation",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Sixth Dynasty pharaohs continue to lose authority to provincial governors. The transition from the Old Kingdom to the First Intermediate Period is underway. Monumental building projects have ceased. Local elite culture is rising at the expense of centralized court culture.",
+      "key_figures": [
+        "Pepi II (traditional reign c. 2278\u20132184 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Nomarch autobiographical inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The political fragmentation is well-attested. Precise dating remains uncertain (\u00b150\u2013100 years depending on chronological system).",
+      "cross_references": [
+        "Part of Old Kingdom collapse"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the broader narrative of climate-driven collapse remains contested; some scholars emphasize internal political factors.",
+  "historiographic_note": "This year falls in a period of sparse documentation. Mesopotamian and Egyptian records are the primary sources, but they are often propagandistic or compiled much later. The absence of written records from most regions means that major developments outside the Near East are entirely unknown.",
+  "graph_edges": [
+    {
+      "from": "-2143-001",
+      "to": "-2143-002",
+      "relation": "contemporary_with",
+      "note": "Akkadian and Egyptian collapses occur in the same era"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "year": -2153,
+  "year_label": "2153 BCE",
+  "era_context": "Continuation of the late Sixth Dynasty in Egypt under Pepi II; Akkadian Empire at its territorial zenith under Naram-Sin; Indus Valley Civilization in mature phase. This year falls within a period of relative stability in Mesopotamia and the Indus Valley, but Egypt's central authority continues to erode.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania",
+    "Americas",
+    "Central Asia (limited written records; archaeological data sparse)"
+  ],
+  "events": [
+    {
+      "id": "-2153-001",
+      "title": "Continued fragmentation of Egyptian provincial authority under Pepi II",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "During Pepi II's reign, the power of provincial governors (nomarchs) continues to increase at the expense of central authority. Nomarchs like Harkhuf (governor of Aswan) conduct independent military and trade expeditions into Nubia, suggesting that the pharaoh's control over resource extraction and foreign policy is fragmenting. Harkhuf's autobiographical inscriptions document his expeditions to Nubia to obtain luxury goods (ivory, incense, ebony), indicating that provincial elites are accumulating wealth and prestige independently of the crown.",
+      "key_figures": [
+        "Harkhuf (Governor of Aswan, Sixth Dynasty)",
+        "Pepi II Neferkare (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of Harkhuf (rock-cut tomb at Aswan)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Inscriptions of other nomarchs (Uni, Ankhtifi)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Harkhuf's expeditions are dated to the reign of Pepi II, but the exact year is uncertain. The inscriptions are contemporary, but their precise chronological placement within Pepi II's reign is debated (\u00b15\u201310 years).",
+      "cross_references": [
+        "Part of -2154-001 (Pepi II's reign and the decline of Old Kingdom authority)"
+      ]
+    },
+    {
+      "id": "-2153-002",
+      "title": "Akkadian military campaigns in the Zagros and Taurus regions",
+      "region": "Mesopotamia, Zagros Mountains, Anatolia",
+      "coordinates_approx": "35.0, 45.0",
+      "category": "military",
+      "description": "Naram-Sin continues military campaigns to consolidate and expand Akkadian control. Inscriptions document campaigns against the Lullubi (Zagros region) and other highland peoples. These campaigns are partly motivated by resource acquisition (timber, metals, stone) and partly by the need to suppress rebellions and maintain hegemony over trade routes. The Victory Stele of Naram-Sin, though undated, likely commemorates campaigns from this period.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Victory Stele of Naram-Sin",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Akkadian royal inscriptions (cuneiform)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Naram-Sin's campaigns are well-attested, but the specific year 2153 BCE is assigned by convention within his reign (c. 2254\u20132218 BCE). The exact chronology of individual campaigns is uncertain.",
+      "cross_references": [
+        "Part of -2154-002 (Akkadian hegemony)"
+      ]
+    },
+    {
+      "id": "-2153-003",
+      "title": "Indus Valley trade networks: exchange with Mesopotamia and the Persian Gulf",
+      "region": "Indus Valley, Mesopotamia, Persian Gulf",
+      "coordinates_approx": "27.2, 71.4",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains extensive trade networks with Mesopotamia and the Persian Gulf. Indus seals and weights have been found in Mesopotamian sites (Ur, Lagash, Uruk), and Mesopotamian texts refer to trade with 'Meluhha' (likely the Indus Valley). This trade involves the exchange of Indus Valley goods (carnelian, lapis lazuli, cotton, timber) for Mesopotamian products (tin, oils, textiles). The trade is facilitated by maritime routes through the Persian Gulf and possibly overland routes through the Levant.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Indus seals found in Mesopotamian sites (archaeological evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian cuneiform texts mentioning Meluhha",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Standardized Indus weights and measures (archaeological evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence of Indus-Mesopotamian trade is confirmed by archaeological evidence (seals, weights) and contemporary Mesopotamian texts. The specific year 2153 BCE is assigned by convention within the mature Indus phase (c. 2600\u20131900 BCE).",
+      "cross_references": [
+        "Part of -2154-003 (Indus Valley Civilization)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No major disconfirming evidence identified for events listed. However, the interpretation of Harkhuf's expeditions as evidence of provincial independence is debated; some scholars argue that Harkhuf was acting as an agent of the pharaoh, not independently. The exact nature of Akkadian 'control' over the Zagros and Taurus regions remains contested\u2014some scholars argue these were tributary relationships rather than direct rule.",
+  "historiographic_note": "The historical record for 2153 BCE is dominated by elite inscriptions and administrative records. Egyptian sources are biased toward the perspective of provincial elites and the royal court; the experiences of the broader population are largely absent. Mesopotamian sources are similarly elite-focused. The Indus Valley record is purely archaeological, limiting interpretation. The year 2153 BCE is not marked by any specific documented event; the events listed are inferred from broader patterns and assigned to this year by convention.",
+  "graph_edges": [
+    {
+      "from": "-2153-001",
+      "to": "-2150-001",
+      "relation": "led_to",
+      "note": "Provincial fragmentation accelerates toward the First Intermediate Period"
+    },
+    {
+      "from": "-2153-002",
+      "to": "-2154-002",
+      "relation": "contemporary_with",
+      "note": "Continuation of Akkadian military consolidation"
+    }
+  ]
+}

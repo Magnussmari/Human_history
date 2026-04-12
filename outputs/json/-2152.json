@@ -1,0 +1,115 @@
+{
+  "year": -2152,
+  "year_label": "2152 BCE",
+  "era_context": "Late Sixth Dynasty Egypt under Pepi II; Akkadian Empire under Naram-Sin approaching the end of its territorial expansion; Indus Valley Civilization in mature phase. This year falls within a period of relative stability in Mesopotamia and the Indus Valley, but Egypt's political fragmentation is accelerating.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania",
+    "Americas",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-2152-001",
+      "title": "Pepi II's reign: continued decline of Old Kingdom centralization",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "Pepi II's reign continues to be marked by the erosion of central authority. The pharaoh's ability to command resources, levy taxes, and control provincial governors is diminishing. This period sees the rise of powerful nomarchs who build elaborate tombs and commission their own monuments, a sign of accumulated wealth and independence. The Old Kingdom's characteristic centralized bureaucracy is fragmenting into regional power bases. This process will culminate in the First Intermediate Period (c. 2180\u20132055 BCE) within a generation.",
+      "key_figures": [
+        "Pepi II Neferkare (Pharaoh, Sixth Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Nomarch autobiographical inscriptions (Harkhuf, Ankhtifi, Uni)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Decline in royal monument construction (archaeological evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The decline of Old Kingdom authority is well-attested in the archaeological record and nomarch inscriptions. The specific year 2152 BCE is assigned by convention within Pepi II's reign.",
+      "cross_references": [
+        "Part of -2154-001 (Pepi II's reign)",
+        "Precedes -2150-001 (First Intermediate Period)"
+      ]
+    },
+    {
+      "id": "-2152-002",
+      "title": "Akkadian Empire: internal tensions and early signs of decline",
+      "region": "Mesopotamia",
+      "coordinates_approx": "33.3, 44.4",
+      "category": "political",
+      "description": "By the mid-to-late reign of Naram-Sin, the Akkadian Empire is beginning to show signs of internal strain. Rebellions in peripheral regions (Sumer, the Levant) are becoming more frequent and difficult to suppress. The cost of maintaining military control over such a vast territory is straining resources. Additionally, there are indications of climate stress (possibly drought) affecting agricultural production in Mesopotamia. These factors will contribute to the empire's collapse within ~30 years.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions documenting rebellions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Paleoclimatic evidence (ice cores, tree rings) suggesting drought c. 2200 BCE",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The decline of the Akkadian Empire is well-attested, but the specific causes and timeline are debated. Climate stress is inferred from paleoclimatic evidence, not contemporary sources. The year 2152 BCE is assigned by convention.",
+      "cross_references": [
+        "Part of -2154-002 (Akkadian Empire)",
+        "Precedes -2200-001 (Akkadian collapse)"
+      ]
+    },
+    {
+      "id": "-2152-003",
+      "title": "Indus Valley Civilization: standardization and long-distance trade",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.2, 71.4",
+      "category": "economic",
+      "description": "The Indus Valley Civilization continues to maintain standardized systems of weights, measures, and seals that facilitate long-distance trade. Archaeological evidence shows that Indus weights are remarkably consistent across different sites, suggesting a centralized system of standardization. This standardization is unique for the Bronze Age and indicates a high degree of economic organization and coordination, though the political structure that enforced this standardization remains unclear.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Indus weights and measures (archaeological evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals (archaeological evidence)",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The standardization of Indus weights and measures is confirmed by archaeological evidence. The year 2152 BCE is assigned by convention within the mature Indus phase.",
+      "cross_references": [
+        "Part of -2154-003 (Indus Valley Civilization)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The interpretation of Akkadian 'decline' in this period is debated. Some scholars argue that the empire remained stable until c. 2200 BCE, when a combination of internal rebellion and external invasion (possibly by Gutians) caused rapid collapse. The role of climate stress is inferred from paleoclimatic evidence, not contemporary sources, and its impact on Akkadian society is speculative.",
+  "historiographic_note": "The historical record for 2152 BCE is sparse and dominated by elite sources. Egyptian sources are biased toward provincial elites; Mesopotamian sources are similarly elite-focused. The Indus Valley record is purely archaeological. No specific events are documented for this year; the events listed are inferred from broader patterns and assigned by convention.",
+  "graph_edges": [
+    {
+      "from": "-2152-001",
+      "to": "-2150-001",
+      "relation": "led_to",
+      "note": "Continued fragmentation of Egyptian authority"
+    },
+    {
+      "from": "-2152-002",
+      "to": "-2200-001",
+      "relation": "precedes",
+      "note": "Internal tensions foreshadow Akkadian collapse"
+    }
+  ]
+}
