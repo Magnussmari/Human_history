@@ -1,0 +1,114 @@
+{
+  "year": 695,
+  "year_label": "695 CE",
+  "era_context": "The late 7th century CE saw the Umayyad Caliphate consolidating control over the eastern Mediterranean and Near East following the Arab conquests. The Byzantine Empire, weakened by decades of warfare and plague, was entering a period of administrative and military reorganization under the Isaurian dynasty. In East Asia, the Tang Dynasty was at its height under Empress Wu Zetian's rule, while the Silla Kingdom dominated the Korean peninsula. This was an era of religious ferment: Islam was expanding rapidly, Christianity remained dominant in Byzantine territories, and Buddhism flourished across Asia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe beyond Byzantine/Frankish borders",
+    "Pre-Columbian Americas (no written records for this period)"
+  ],
+  "events": [
+    {
+      "id": "695-001",
+      "title": "Empress Wu Zetian Issues Coinage Reform",
+      "region": "Tang Dynasty, China",
+      "coordinates_approx": "34.3\u00b0N, 109.3\u00b0E",
+      "category": "economic",
+      "description": "Empress Wu Zetian, ruling as the only female emperor in Chinese history, implemented significant monetary reforms to stabilize the Tang economy. These reforms included standardization of coin weights and the promotion of copper coinage to reduce reliance on precious metals. The reforms reflected Wu's broader administrative competence and her efforts to consolidate centralized control over the empire's economic apparatus.",
+      "key_figures": [
+        "Wu Zetian (Empress of Tang Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Jiu Tangshu (Old Book of Tang) and Xin Tangshu (New Book of Tang)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Tang-era coin hoards",
+          "type": "numismatic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Coinage reforms are attested in Tang chronicles, though precise dating to 695 CE is approximate. Numismatic evidence confirms the period of reform but does not pinpoint the exact year.",
+      "cross_references": []
+    },
+    {
+      "id": "695-002",
+      "title": "Byzantine-Arab Naval Conflict in the Eastern Mediterranean",
+      "region": "Byzantine Empire and Umayyad Caliphate",
+      "coordinates_approx": "35.0\u00b0N, 30.0\u00b0E",
+      "category": "military",
+      "description": "Ongoing naval warfare between Byzantine and Umayyad forces continued in the eastern Mediterranean, with both powers competing for control of maritime trade routes and island territories. The Umayyads, having recently consolidated their naval capabilities, posed an increasing threat to Byzantine hegemony. These conflicts were part of the broader Arab-Byzantine struggle that had characterized the 7th century.",
+      "key_figures": [
+        "Emperor Leontius (Byzantine Empire)",
+        "Caliph Abd al-Malik ibn Marwan (Umayyad Caliphate)"
+      ],
+      "sources": [
+        {
+          "name": "Theophanes the Confessor, Chronographia",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Arabic historical sources (later compilations)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naval conflicts in this period are well-attested, but specific engagements in 695 CE are not always precisely dated in surviving sources.",
+      "cross_references": []
+    },
+    {
+      "id": "695-003",
+      "title": "Silla Kingdom Consolidates Control of Korean Peninsula",
+      "region": "Silla Kingdom, Korean Peninsula",
+      "coordinates_approx": "35.8\u00b0N, 129.2\u00b0E",
+      "category": "political",
+      "description": "The Silla Kingdom, having defeated its rivals Baekje (660 CE) and Goguryeo (668 CE), continued consolidating its control over the Korean peninsula during the reign of King Sinmun. Administrative reforms and the establishment of a centralized bureaucratic system modeled partly on Tang Dynasty practices strengthened Silla's governance. This period marked the beginning of the Unified Silla era, which would last until the 10th century.",
+      "key_figures": [
+        "King Sinmun of Silla (r. 681\u2013692 CE) / King Hyoso of Silla (r. 692\u2013702 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Samguk Sagi (History of the Three Kingdoms)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Silla-era sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Samguk Sagi was compiled in the 12th century, centuries after these events. Dating is approximate based on reign periods and archaeological stratigraphy.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of many 7th-century events relies on later chronicles rather than contemporary documentation. For instance, the exact year of Wu Zetian's coinage reforms is not definitively established in primary sources; scholars assign it to this period based on indirect evidence. Similarly, specific naval engagements between Byzantines and Arabs are often conflated or misdated in surviving accounts.",
+  "historiographic_note": "The historical record for 695 CE is heavily dependent on later compilations, particularly Chinese chronicles (compiled centuries after the Tang Dynasty) and Byzantine sources (often written generations after events). Arabic sources for the Umayyad period are similarly late. Korean history relies almost entirely on the Samguk Sagi, compiled in 1145 CE, which introduces significant dating uncertainty. Western European sources for this period are sparse. The surviving record is biased toward court-sponsored narratives and administrative achievements; economic and social history is underrepresented.",
+  "graph_edges": [
+    {
+      "from": "695-001",
+      "to": "Tang Dynasty economic development",
+      "relation": "part_of",
+      "note": "Coinage reforms were part of broader Tang economic consolidation"
+    },
+    {
+      "from": "695-002",
+      "to": "Arab-Byzantine conflict (7th century)",
+      "relation": "part_of",
+      "note": "Naval warfare was ongoing throughout this period"
+    },
+    {
+      "from": "695-003",
+      "to": "Unified Silla era (668\u2013935 CE)",
+      "relation": "part_of",
+      "note": "Consolidation of Silla control was a gradual process spanning decades"
+    }
+  ]
+}
