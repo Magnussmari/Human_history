@@ -1,0 +1,110 @@
+{
+  "year": -1800,
+  "year_label": "1800 BCE",
+  "era_context": "The Middle Bronze Age in the Eastern Mediterranean and Near East. The Old Babylonian Empire under Hammurabi's successors was consolidating power in Mesopotamia. Egypt was in the Second Intermediate Period, with weakened central authority and Asiatic (Hyksos) infiltration into the Delta. The Indus Valley Civilization was in its mature phase. Mycenaean Greece was in the Early Bronze Age. This was an era of palace-based economies, cuneiform literacy, and long-distance trade networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse written records; archaeology is primary source)",
+    "Oceania and Pacific (no written records; oral traditions not preserved)",
+    "Pre-Columbian Americas (no written records; archaeological evidence limited)"
+  ],
+  "events": [
+    {
+      "id": "-1800-001",
+      "title": "Reign of Samsu-iluna, Hammurabi's successor, in Babylon",
+      "region": "Mesopotamia (Babylon)",
+      "coordinates_approx": "32.54, 44.42",
+      "category": "political",
+      "description": "Samsu-iluna ascended to the Babylonian throne following his father Hammurabi's death. His reign was marked by military campaigns to maintain Babylonian hegemony in southern Mesopotamia and struggles against the Kassites and Elamites. He continued the administrative and legal traditions of his father but faced increasing pressure from external enemies. His reign lasted approximately 38 years and saw the gradual erosion of Babylonian power in the region.",
+      "key_figures": [
+        "Samsu-iluna (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "Babylonian King List (later compilation, but based on contemporary records)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative tablets from Babylon",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Samsu-iluna's reign is well-attested in cuneiform sources and the Babylonian King List. Dating to 1800 BCE is conventional; some scholars place it slightly earlier (1812\u20131774 BCE). The exact year of accession is uncertain by \u00b15\u201310 years.",
+      "cross_references": []
+    },
+    {
+      "id": "-1800-002",
+      "title": "Mature phase of Indus Valley Civilization",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization was at its peak, with major urban centers like Harappa and Mohenjo-daro functioning as sophisticated trading hubs. These cities featured planned street grids, standardized weights and measures, and extensive trade networks extending to Mesopotamia, the Persian Gulf, and Central Asia. The civilization's undeciphered script appears on seals and pottery. The economy was based on agriculture, pastoralism, and craft production. No monumental temples or palaces have been identified, suggesting a different political organization than contemporary Mesopotamian or Egyptian societies.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals with undeciphered script",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Indus Valley Civilization's mature phase is archaeologically well-attested. Radiocarbon dating and stratigraphic evidence place the mature phase circa 2600\u20131900 BCE, with 1800 BCE falling squarely within this period.",
+      "cross_references": []
+    },
+    {
+      "id": "-1800-003",
+      "title": "Hyksos presence in Egypt's Nile Delta",
+      "region": "Egypt (Nile Delta)",
+      "coordinates_approx": "30.5, 31.0",
+      "category": "political",
+      "description": "During the Second Intermediate Period, Asiatic peoples known as the Hyksos (from Egyptian 'Hekau Khasut,' 'rulers of foreign lands') were establishing settlements and gradually gaining control over the Nile Delta and Lower Egypt. By 1800 BCE, their presence was significant, though they had not yet achieved full political dominance. They introduced new military technologies, including the horse-drawn chariot, composite bow, and new fortification techniques. The Egyptian central authority was fragmented, with the Middle Kingdom having collapsed around 1650 BCE.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Egyptian New Kingdom historical texts (later accounts of the Hyksos period)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Tell el-Dab'a (Avaris)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Hyksos presence in the Delta is archaeologically confirmed, but the exact timeline of their arrival and consolidation is debated. Traditional Egyptian chronology places their dominance later (circa 1650\u20131550 BCE), but some scholars argue for earlier infiltration. The date 1800 BCE represents the period of increasing Hyksos presence before full political control.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional narrative of the Hyksos as foreign invaders has been complicated by modern scholarship. Archaeological evidence suggests a more gradual process of settlement and integration rather than a sudden military conquest. Additionally, the Hyksos were not uniformly foreign; many were Asiatic peoples already integrated into Egyptian society. The dating of Hyksos dominance remains contested, with some scholars placing the peak of their power later than traditionally assumed.",
+  "historiographic_note": "The historical record for 1800 BCE is heavily dependent on cuneiform sources from Mesopotamia and archaeological evidence from the Indus Valley and Egypt. Egyptian written records are sparse for this period due to the political fragmentation of the Second Intermediate Period. Mesopotamian sources are more abundant but often focus on political and military events rather than broader social or economic conditions. The Indus Valley Civilization left no deciphered written records, so understanding of this civilization relies entirely on archaeology. There is a significant Western bias in the surviving sources, with Mesopotamian and Egyptian records being better preserved and more extensively studied than those from Asia or Africa.",
+  "graph_edges": [
+    {
+      "from": "-1800-001",
+      "to": "-1750-001",
+      "relation": "led_to",
+      "note": "Samsu-iluna's reign set the stage for the gradual decline of Babylonian power, which accelerated under his successors."
+    },
+    {
+      "from": "-1800-002",
+      "to": "-1750-001",
+      "relation": "contemporary_with",
+      "note": "The Indus Valley Civilization continued to flourish during this period, contemporary with Babylonian and Egyptian developments."
+    },
+    {
+      "from": "-1800-003",
+      "to": "-1650-001",
+      "relation": "led_to",
+      "note": "The Hyksos presence in the Delta during this period eventually led to their full political dominance of Lower Egypt by 1650 BCE."
+    }
+  ]
+}
