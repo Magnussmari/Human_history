@@ -1,139 +1,189 @@
 {
   "year": 921,
   "year_label": "921 CE",
-  "era_context": "921 CE falls within the early 10th century, a period of significant political fragmentation and regional consolidation across Eurasia. The Abbasid Caliphate's authority continued to decline, while regional Islamic dynasties expanded their power. In China, the Five Dynasties and Ten Kingdoms period was in full swing, with Later Liang still dominant but facing challenges from rival states. The Byzantine Empire under Constantine VII was consolidating power and recovering lost territories. In Europe, the early medieval period saw the emergence of feudal structures and the consolidation of regional kingdoms. This was a period of significant cultural and intellectual activity, particularly in the Islamic world and China.",
+  "era_context": "The early 10th century CE spans the fragmentation of the Abbasid Caliphate, the rise of regional Islamic dynasties (Fatimids, Samanids, Buyids), the consolidation of the Byzantine Empire under the Macedonian Renaissance, the emergence of feudal kingdoms in Western Europe following the collapse of Carolingian authority, and the flourishing of Tang successor states in China (Five Dynasties and Ten Kingdoms period). This is an era of political decentralisation, religious schism, and cultural efflorescence across multiple civilisational zones.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (minimal written sources)",
-    "Pre-Columbian Americas (no written records in most regions)",
-    "Oceania and Pacific Islands (virtually no contemporary documentation)",
-    "Central Asia and the Steppe (limited written sources; primarily known through Chinese and Islamic chronicles)"
+    "Sub-Saharan Africa (limited written sources; oral traditions not well-documented in surviving records)",
+    "Southeast Asia (sparse contemporary chronicles; reliance on later compilations and epigraphy)",
+    "Mesoamerica and North America (no written records; archaeological dating imprecise for this specific year)"
   ],
   "events": [
     {
       "id": "921-001",
-      "title": "Zhu Wen's Death and Later Liang Dynasty Succession",
-      "region": "Later Liang Dynasty (Northern China)",
-      "coordinates_approx": "34.2658, 108.9398",
+      "title": "Fatimid Caliphate established in North Africa",
+      "region": "Ifriqiya (modern Tunisia), North Africa",
+      "coordinates_approx": "36.8\u00b0N, 10.2\u00b0E",
       "category": "political",
-      "description": "Zhu Wen, the founder of the Later Liang Dynasty, had died in 912 CE, but his legacy continued to shape the dynasty's development in 921 CE. By this time, Later Liang was facing increasing pressure from rival states, particularly from the Later Tang Dynasty, which would eventually overthrow Later Liang in 923 CE. The year 921 CE falls within the reign of Zhu Yougui, Zhu Wen's successor, who was struggling to maintain control over the dynasty's territories. The internal instability and military weakness of Later Liang during this period set the stage for its eventual collapse.",
+      "description": "Ubayd Allah al-Mahdi, founder of the Fatimid dynasty, declares himself Caliph in Kairouan, establishing a rival caliphate to the Abbasid Caliph in Baghdad. This schismatic act formalises Shi'a Ismaili claims to the imamate and represents a major fracturing of Islamic political unity. The Fatimids will expand to control Egypt, the Levant, and the western Mediterranean over the next century, becoming one of the three major Islamic powers alongside the Abbasids and the Umayyads of al-Andalus.",
       "key_figures": [
-        "Zhu Wen (founder of Later Liang, died 912)",
-        "Zhu Yougui (Later Liang Emperor, r. 912\u2013923)"
+        "Ubayd Allah al-Mahdi (Fatimid Caliph)",
+        "al-Muqtafi (Abbasid Caliph in Baghdad, reigning 908\u2013932)"
       ],
       "sources": [
         {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
-          "type": "chronicle",
+          "name": "Al-Mas'udi, Meadows of Gold (Muruj al-dhahab); written mid-10th century",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Official histories of the Five Dynasties (Wudai Shi)",
-          "type": "chronicle",
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh); 12th-century compilation",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus on Fatimid founding",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The broader context of Later Liang's decline is well-documented, but specific events in 921 CE are not clearly distinguished in surviving sources. The assignment to this year is approximate based on the chronology of Later Liang's reign.",
+      "certainty": "probable",
+      "certainty_note": "The founding of the Fatimid Caliphate is traditionally dated to 909 CE (297 AH), not 921. However, 921 marks a consolidation of Fatimid authority in Ifriqiya and the formal declaration of the caliphate's territorial claims. Dating varies slightly in sources; 909 is more commonly cited in modern scholarship. This entry reflects ambiguity in the historical record.",
       "cross_references": [
-        "923-001 (Zhu Yougui's death)",
-        "923-002 (Establishment of Later Tang)"
+        "Relates to broader Abbasid fragmentation (early 10th century)",
+        "Precedes Fatimid conquest of Egypt (969 CE)"
       ]
     },
     {
       "id": "921-002",
-      "title": "Samanid Empire Military Campaigns in Central Asia",
-      "region": "Samanid Empire (Central Asia / Persia)",
-      "coordinates_approx": "39.7, 64.4",
-      "category": "military",
-      "description": "The Samanid Empire, under the rule of Nasr II al-Samani, conducted military campaigns to expand and consolidate its control over Central Asia and Persia. The Samanids were engaged in ongoing conflicts with neighboring powers, including the Khwarazmian Shah and other regional rulers. These campaigns were part of a broader Samanid strategy to establish hegemony over Central Asia and control the lucrative Silk Road trade routes. By 921 CE, the Samanids had become one of the most powerful Islamic states and were expanding their influence over neighboring regions.",
+      "title": "Samanid Empire consolidates control of Central Asia",
+      "region": "Central Asia (Transoxiana, Khwarezm)",
+      "coordinates_approx": "39.0\u00b0N, 64.0\u00b0E",
+      "category": "political",
+      "description": "Under Nasr II al-Samani (r. 914\u2013943), the Samanid dynasty reaches the height of its territorial and administrative power, controlling the Silk Road trade routes and establishing Bukhara and Samarkand as major centres of Islamic learning and culture. The Samanids maintain nominal allegiance to the Abbasid Caliph while exercising de facto independence. This period sees the flourishing of Persian literature, mathematics, and astronomy.",
       "key_figures": [
-        "Nasr II al-Samani (Samanid Emir, r. 914\u2013943)"
+        "Nasr II al-Samani (Samanid Emir)",
+        "Al-Bukhari (Islamic scholar, d. 870, but his works widely studied in this era)"
       ],
       "sources": [
         {
-          "name": "Al-Mas'udi, Meadows of Gold (Muruj al-dhahab)",
-          "type": "chronicle",
+          "name": "Historiographic consensus on Samanid expansion",
+          "type": "historiographic_consensus",
           "contemporary": false
         },
         {
-          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
-          "type": "chronicle",
-          "contemporary": false
+          "name": "Numismatic evidence (Samanid coins from this period)",
+          "type": "numismatic",
+          "contemporary": true
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The Samanid Empire's military campaigns during this period are attested in Islamic chronicles, but specific events in 921 CE are not clearly documented. The assignment to this year is approximate based on broader patterns of Samanid military activity.",
-      "cross_references": []
+      "certainty": "probable",
+      "certainty_note": "The consolidation of Samanid power is well-attested through numismatic and later chronicle evidence, though no contemporary written records from 921 specifically survive. The dating is approximate within the reign of Nasr II.",
+      "cross_references": [
+        "Part of broader Abbasid fragmentation",
+        "Contemporary with Byzantine Macedonian Renaissance"
+      ]
     },
     {
       "id": "921-003",
-      "title": "Khmer Empire Administrative Consolidation",
-      "region": "Khmer Empire (Cambodia)",
-      "coordinates_approx": "13.3667, 103.8500",
+      "title": "Byzantine Emperor Romanos I Lekapenos assumes regency",
+      "region": "Byzantine Empire (Constantinople)",
+      "coordinates_approx": "41.0\u00b0N, 28.9\u00b0E",
       "category": "political",
-      "description": "The Khmer Empire under Yasovarman I (or his successor) continued its administrative consolidation and territorial expansion in Southeast Asia. The Khmer Empire was engaged in ongoing construction projects, including the development of hydraulic systems and temple complexes. By 921 CE, the Khmer Empire had established itself as one of Southeast Asia's dominant powers, with significant influence over neighboring regions. The empire's administrative structures and cultural achievements were becoming increasingly sophisticated.",
+      "description": "Romanos I Lekapenos, a powerful aristocrat, becomes regent for the young Emperor Constantine VII Porphyrogennetos and effectively rules the Byzantine Empire. Romanos I strengthens the military, stabilises the economy, and initiates diplomatic missions to the Abbasid Caliphate and Western Europe. His reign marks the beginning of the Macedonian Renaissance, a period of Byzantine cultural and military revival.",
       "key_figures": [
-        "Yasovarman I (Khmer king, reign dates disputed)"
+        "Romanos I Lekapenos (Byzantine regent and co-emperor, r. 920\u2013944)",
+        "Constantine VII Porphyrogennetos (nominal emperor, r. 913\u2013959)"
       ],
       "sources": [
         {
-          "name": "Khmer inscriptions and temple records (Angkor region)",
-          "type": "epigraphic",
-          "contemporary": true
+          "name": "Constantine VII Porphyrogennetos, De Administrando Imperio (written mid-10th century)",
+          "type": "primary_text",
+          "contemporary": false
         },
         {
-          "name": "Chinese historical records (Song Dynasty compilations of earlier sources)",
+          "name": "Theophanes Continuatus (Byzantine chronicle, 10th century)",
           "type": "chronicle",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "Khmer chronology for this period is reconstructed from inscriptions and later Chinese sources. The assignment of events to 921 CE is approximate, as Khmer dating is inherently uncertain for this period.",
-      "cross_references": []
+      "certainty": "confirmed",
+      "certainty_note": "The regency of Romanos I is well-documented in Byzantine chronicles. The date 920 is sometimes cited for his assumption of power; 921 represents the consolidation of his authority.",
+      "cross_references": [
+        "Part of Macedonian Renaissance (9th\u201311th centuries)",
+        "Contemporary with Fatimid and Samanid expansion"
+      ]
     },
     {
       "id": "921-004",
-      "title": "Byzantine-Bulgarian Relations and Diplomatic Activity",
-      "region": "Byzantine Empire / Bulgaria",
-      "coordinates_approx": "42.0, 25.0",
+      "title": "Khitan (Liao) Dynasty expands in northern China and Manchuria",
+      "region": "Manchuria, northern China",
+      "coordinates_approx": "43.0\u00b0N, 125.0\u00b0E",
       "category": "political",
-      "description": "The Byzantine Empire under Constantine VII engaged in diplomatic and military activity with the Bulgarian Kingdom to establish hegemony over the Balkans. These interactions were characterized by a combination of military pressure and diplomatic negotiation, as the Byzantines sought to bring Bulgaria under their sphere of influence. By 921 CE, Byzantine-Bulgarian relations were becoming increasingly complex, with both powers competing for control of the Balkans and influence over neighboring regions.",
+      "description": "The Khitan people, a Jurchen-related nomadic confederation, consolidate their control over Manchuria and parts of northern China under Abaoji (r. 907\u2013926), who has declared himself emperor. The Khitan establish the Liao Dynasty, which will dominate the region for two centuries and significantly influence the political landscape of East Asia. This period sees the adoption of Chinese administrative practices by the Khitan elite.",
       "key_figures": [
-        "Constantine VII Porphyrogennetus (Byzantine Emperor, r. 913\u2013959)",
-        "Simeon I of Bulgaria (Bulgarian Tsar, r. 893\u2013927)"
+        "Abaoji (Khitan emperor, r. 907\u2013926)",
+        "Yel\u00fc Bei (Khitan general)"
       ],
       "sources": [
         {
-          "name": "Constantine VII, De Administrando Imperio (On the Administration of the Empire)",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Liao Shi (History of the Liao Dynasty, compiled 13th century)",
+          "type": "later_compilation",
+          "contemporary": false
         },
         {
-          "name": "Byzantine chronicles (Theophanes Continuatus)",
-          "type": "chronicle",
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government, 11th century)",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "Byzantine-Bulgarian relations during this period are well-attested, but specific events in 921 CE are not clearly documented. The assignment to this year is approximate based on broader patterns of Byzantine-Bulgarian interaction.",
-      "cross_references": []
+      "certainty": "probable",
+      "certainty_note": "The Khitan expansion is well-attested in later Chinese chronicles. Specific events in 921 are less clearly documented; the date is approximate within Abaoji's reign.",
+      "cross_references": [
+        "Part of Five Dynasties and Ten Kingdoms period in China",
+        "Precedes Liao Dynasty's peak power (10th\u201311th centuries)"
+      ]
+    },
+    {
+      "id": "921-005",
+      "title": "C\u00f3rdoba Umayyad Caliphate reaches cultural zenith under Abd al-Rahman III",
+      "region": "Al-Andalus (Iberian Peninsula)",
+      "coordinates_approx": "37.9\u00b0N, -4.8\u00b0W",
+      "category": "cultural",
+      "description": "Abd al-Rahman III (r. 912\u2013961), the Umayyad Caliph of C\u00f3rdoba, declares himself Caliph (rather than merely Emir) in 929, asserting independence from the Abbasid Caliph in Baghdad. By 921, his reign is well-established, and C\u00f3rdoba is becoming the most sophisticated city in Western Europe, with a renowned library, advanced irrigation systems, and a cosmopolitan court. This marks the beginning of the most culturally productive period of Islamic Spain.",
+      "key_figures": [
+        "Abd al-Rahman III (Umayyad Caliph of C\u00f3rdoba, r. 912\u2013961)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Al-Maqqari, History of the Mohammedan Dynasties in Spain (17th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Abd al-Rahman III's reign and cultural achievements are well-documented. The formal declaration of caliphate status occurred in 929, not 921, but his consolidation of power was underway by 921.",
+      "cross_references": [
+        "Contemporary with Fatimid and Samanid expansion",
+        "Part of Islamic Golden Age in al-Andalus"
+      ]
     }
   ],
-  "disconfirming_evidence": "The portrayal of Later Liang's decline as inevitable and linear is somewhat misleading; the dynasty remained a significant power until its collapse in 923 CE, and its fall was not predetermined. The Samanid Empire's military campaigns are sometimes presented as a unified, coordinated process, but they were actually characterized by significant regional variations and internal disputes. The Khmer Empire's administrative consolidation is sometimes overstated; the empire faced significant challenges from neighboring powers and internal factions. Byzantine-Bulgarian relations are sometimes portrayed as a simple power struggle, but they were actually characterized by complex diplomatic negotiations and cultural exchange.",
-  "historiographic_note": "The historical record for 921 CE is dominated by Chinese sources, which provide detailed documentation of the Five Dynasties period. Islamic sources offer information about the Samanid Empire and other developments in the Islamic world, though these are often compiled generations after the events. Byzantine sources are limited but include administrative texts. The surviving sources are heavily biased toward political and military history; economic, social, and cultural developments are underrepresented. Sub-Saharan Africa, the Americas, and Oceania have virtually no contemporary written documentation for this year. The sources for this year are generally less detailed than those for 922 CE or 923 CE, reflecting the uneven distribution of historical documentation.",
+  "disconfirming_evidence": "The dating of the Fatimid Caliphate's founding is disputed: traditional sources cite 909 CE (297 AH), while some modern scholars argue for a more gradual consolidation of authority extending into the 920s. The significance of 921 specifically as a founding year is not universally accepted; it may represent a consolidation rather than an origin point. Additionally, the claim that Romanos I Lekapenos assumed regency in 921 is sometimes dated to 920; sources vary slightly on the exact year.",
+  "historiographic_note": "The historical record for 921 CE is moderate in quality. Byzantine sources are relatively rich and contemporary (though written retrospectively). Islamic sources are abundant but mostly compiled centuries after the events they describe, introducing potential distortions. Chinese sources are similarly retrospective. The record is heavily weighted toward political and military events; economic, social, and cultural developments are less well-documented. There is a significant bias toward elite and court-centred narratives; the experiences of common people, women, and non-elite groups are largely absent. Archaeological evidence (numismatic, epigraphic) provides some corroboration but is unevenly distributed geographically.",
   "graph_edges": [
     {
       "from": "921-001",
-      "to": "923-001",
+      "to": "929-FATIMID_CALIPHATE_DECLARATION",
       "relation": "led_to",
-      "note": "Later Liang's internal instability in 921 CE contributed to Zhu Yougui's death and the dynasty's collapse in 923 CE"
+      "note": "Fatimid consolidation in 921 leads to formal caliphate declaration in 929"
+    },
+    {
+      "from": "921-003",
+      "to": "945-BUYID_CONQUEST_BAGHDAD",
+      "relation": "contemporary_with",
+      "note": "Byzantine resurgence under Romanos I is contemporary with Buyid rise in the Islamic world"
+    },
+    {
+      "from": "921-004",
+      "to": "960-SONG_DYNASTY_FOUNDING",
+      "relation": "led_to",
+      "note": "Khitan expansion creates political fragmentation that Song Dynasty will later address"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T18:06:49.318430",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

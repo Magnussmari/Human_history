@@ -1,63 +1,91 @@
 {
   "year": 915,
   "year_label": "915 CE",
-  "era_context": "The early 10th century CE continues to be characterized by political fragmentation and state consolidation across Eurasia. The Ottonian dynasty is establishing itself in East Francia. The Islamic world remains divided among competing caliphates and regional dynasties. East Asia is in the midst of the Five Dynasties and Ten Kingdoms period, with the Liao dynasty recently established. Southeast Asia sees the continued development of the Khmer Empire. This is an era of military competition, religious expansion, and the gradual development of feudal and bureaucratic systems.",
+  "era_context": "The early 10th century CE continues the period of fragmentation and reorganization across Eurasia. The Abbasid Caliphate's authority is increasingly challenged by regional dynasties. In Europe, feudalism is consolidating in the West, while the Byzantine Empire experiences a period of military and cultural revival. In East Asia, the Five Dynasties and Ten Kingdoms period continues in China, with competing regional powers. The Islamic world is experiencing significant religious and political ferment, with Shi'a and Sunni dynasties competing for legitimacy.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (minimal written sources)",
-    "Northern Europe beyond the Frankish sphere (sparse documentation)",
-    "Pre-Columbian Americas (no written records)",
-    "Oceania (limited archaeological dating precision)"
+    "Sub-Saharan Africa (very limited written sources)",
+    "Northern Europe beyond major kingdoms",
+    "Central Asian steppe (sparse documentation)",
+    "Mesoamerica and South America (no written records in this era)"
   ],
   "events": [
     {
       "id": "915-001",
-      "title": "Byzantine-Arab naval conflicts; Byzantine consolidation in the Mediterranean",
-      "region": "Mediterranean Sea (Byzantine and Arab territories)",
-      "coordinates_approx": "35.0, 20.0",
-      "category": "military",
-      "description": "In 915 CE, the Byzantine Empire under Constantine VII was engaged in ongoing naval conflicts with Arab raiders and pirates in the Mediterranean. The Byzantine navy was working to secure trade routes and protect coastal settlements from Arab attacks. These conflicts were part of the broader struggle for control of the Mediterranean that had characterized the 9th and 10th centuries. Byzantine victories in naval warfare contributed to the empire's consolidation of power in the eastern Mediterranean.",
+      "title": "Umayyad Caliphate of al-Andalus consolidates power under Abd al-Rahman III",
+      "region": "Al-Andalus (Iberian Peninsula)",
+      "coordinates_approx": "37.5\u00b0N, -3.5\u00b0W",
+      "category": "political | military",
+      "description": "Abd al-Rahman III, having consolidated power in al-Andalus, continued to strengthen the Umayyad state in Iberia. In 915, he was in the process of expanding Umayyad control and establishing al-Andalus as a major Mediterranean power. His reign (912\u2013961) represented a golden age of Umayyad rule in Iberia, characterized by cultural flourishing, military strength, and economic prosperity. He would eventually proclaim himself caliph in 929, rivaling both the Abbasid and Fatimid caliphates.",
       "key_figures": [
-        "Constantine VII Porphyrogennetus (Byzantine Emperor)",
-        "Byzantine naval commanders"
+        "Abd al-Rahman III (Umayyad emir/caliph, r. 912\u2013961)"
       ],
       "sources": [
         {
-          "name": "Theophanes Continuatus (continuation of Theophanes' chronicle)",
-          "type": "chronicle",
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Constantine VII, De administrando imperio",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Al-Mas'udi, Meadows of Gold",
+          "type": "later_compilation",
+          "contemporary": false
         },
         {
-          "name": "Historiographic consensus on Byzantine naval history",
+          "name": "Historiographic consensus on Abd al-Rahman III's reign",
           "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Byzantine-Arab naval conflicts were ongoing throughout this period, but specific events for the year 915 are not always clearly documented. The general pattern of Byzantine naval activity is well-attested.",
+      "certainty_note": "Abd al-Rahman III's reign and general consolidation of power are well-documented, but specific events of 915 are less precisely dated. The year falls within his consolidation period; specific military or political actions are inferred from broader historical patterns.",
       "cross_references": [
-        "Part of broader Byzantine-Arab conflicts (7th\u201310th centuries)",
-        "Contemporary with Byzantine consolidation in the Mediterranean"
+        "Precedes proclamation as caliph in 929",
+        "Contemporary with Fatimid and Liao expansions"
       ]
     },
     {
       "id": "915-002",
-      "title": "Later Liang dynasty continues; military competition in northern China",
-      "region": "China (Later Liang territory)",
-      "coordinates_approx": "34.5, 114.5",
-      "category": "political",
-      "description": "In 915 CE, the Later Liang dynasty under Emperor Taizong (r. 912\u2013923) continued to rule northern China amid ongoing fragmentation and military competition. The dynasty faced pressure from rival states, particularly the Later Tang and the newly established Liao dynasty. The Later Liang period was characterized by military instability, with power concentrated in the hands of military governors and eunuchs. The Later Liang would fall to the Later Tang in 923.",
+      "title": "Khmer Empire under Yasovarman I (or successor) continues cultural development",
+      "region": "Khmer Empire (Cambodia)",
+      "coordinates_approx": "13.3\u00b0N, 103.8\u00b0E",
+      "category": "cultural | political",
+      "description": "The Khmer Empire continued its period of cultural and architectural development. Temple construction, hydraulic engineering projects, and administrative consolidation characterized this period. The exact ruler in 915 is uncertain due to dating ambiguities in Khmer chronology, but the broader pattern of cultural flourishing and territorial consolidation continued.",
       "key_figures": [
-        "Zhu Youzhen / Emperor Taizong of Later Liang (r. 912\u2013923)"
+        "Yasovarman I or successor (Khmer ruler)"
       ],
       "sources": [
         {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "name": "Khmer inscriptions and temple records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Chinese historical records",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Khmer chronology for this period is uncertain. The succession and exact dates of rulers are debated among scholars. Dating uncertainty of \u00b15\u201310 years is reasonable for this period.",
+      "cross_references": [
+        "Part of Khmer classical period"
+      ]
+    },
+    {
+      "id": "915-003",
+      "title": "Five Dynasties and Ten Kingdoms period in China continues",
+      "region": "China",
+      "coordinates_approx": "35.0\u00b0N, 110.0\u00b0E",
+      "category": "political | military",
+      "description": "In 915, China remained fragmented among competing regional dynasties and kingdoms following the collapse of the Tang Dynasty. The Later Liang Dynasty (907\u2013923) controlled the central plains, while various other kingdoms controlled other regions. This period of fragmentation was characterized by constant warfare, economic disruption, and cultural decline compared to the Tang period. The fragmentation would eventually be resolved by the Northern Song Dynasty in 960.",
+      "key_figures": [
+        "Zhu Wen/Emperor Taizu of Later Liang (r. 907\u2013912, died 912)",
+        "Zhu You/Emperor Taizong of Later Liang (r. 912\u2013923)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government), compiled by Sima Guang",
           "type": "later_compilation",
           "contemporary": false
         },
@@ -68,187 +96,56 @@
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Later Liang dynasty's existence and general chronology are well-established. The year 915 falls within Emperor Taizong's reign.",
+      "certainty_note": "The Five Dynasties and Ten Kingdoms period is well-documented in Chinese historical sources. The general political situation in 915 is clear, though specific events of that year are less precisely recorded.",
       "cross_references": [
-        "Part of Five Dynasties and Ten Kingdoms period (907\u2013979)",
-        "Led to Later Tang conquest in 923-001"
-      ]
-    },
-    {
-      "id": "915-003",
-      "title": "Liao dynasty consolidation under Abaoji; Khitan expansion",
-      "region": "Manchuria and Mongolia (Liao territory)",
-      "coordinates_approx": "45.0, 120.0",
-      "category": "political",
-      "description": "The Liao dynasty (916\u20131125), founded by the Khitan people under Abaoji (Emperor Taizu of Liao, r. 916\u2013926), was in its early years of consolidation in 915 CE (or just before its formal establishment in 916). Abaoji was unifying the Khitan tribes and establishing a state that would rival and eventually dominate parts of northern China. The Liao dynasty developed a sophisticated dual administrative system that combined Khitan and Chinese elements. The establishment of the Liao dynasty marked a significant shift in the balance of power in East Asia.",
-      "key_figures": [
-        "Abaoji / Emperor Taizu of Liao (r. 916\u2013926)"
-      ],
-      "sources": [
-        {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Liao Shi (History of the Liao)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus on Liao chronology",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "approximate",
-      "certainty_note": "The founding of the Liao dynasty is dated to 916 CE, so the year 915 falls just before the formal establishment. However, Abaoji's consolidation of Khitan power was ongoing in 915. The exact chronology of events in 915 is less certain than the formal founding date of 916.",
-      "cross_references": [
-        "Led to Liao expansion and dominance in northern China (10th\u201311th centuries)",
-        "Contemporary with Later Liang and other Five Dynasties"
+        "Part of Five Dynasties and Ten Kingdoms period (907\u2013960)",
+        "Precedes Northern Song unification (960)"
       ]
     },
     {
       "id": "915-004",
-      "title": "Samanid Empire consolidation in Central Asia and Persia",
-      "region": "Central Asia and Persia (Samanid territories)",
-      "coordinates_approx": "37.0, 68.0",
-      "category": "political",
-      "description": "The Samanid Empire (819\u2013999) was in a period of consolidation and cultural flourishing in 915 CE. Under rulers like Nasr II (r. 914\u2013943), the Samanids established a sophisticated bureaucracy, patronized scholars and poets, and controlled major trade routes. The Samanids represented a revival of Persian cultural and political identity within the Islamic world and were known for their support of the Persian language and literature. Their capital at Bukhara became a major center of learning and culture.",
+      "title": "Byzantine naval operations against Arab pirates in the Mediterranean",
+      "region": "Byzantine Empire (Mediterranean)",
+      "coordinates_approx": "38.0\u00b0N, 20.0\u00b0E",
+      "category": "military",
+      "description": "The Byzantine Empire, under Constantine VII and the regency of Zoe Karbonopsina, continued naval operations against Arab pirates and raiders in the Mediterranean. These operations were part of the broader Byzantine military revival and the effort to secure Mediterranean trade routes and coastal territories.",
       "key_figures": [
-        "Nasr II (Samanid Emir, r. 914\u2013943)"
+        "Constantine VII Porphyrogennetos (Byzantine emperor)",
+        "Zoe Karbonopsina (regent)"
       ],
       "sources": [
         {
-          "name": "Al-Mas'udi, Meadows of Gold",
+          "name": "Theophanes Continuatus (Byzantine chronicle)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Ibn al-Athir, Complete History",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus on Samanid chronology",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Samanid Empire's existence and chronology are well-attested in Islamic historical sources. Nasr II's reign is securely dated to 914\u2013943.",
-      "cross_references": [
-        "Part of broader Samanid Empire period (819\u2013999)",
-        "Contemporary with Abbasid fragmentation"
-      ]
-    },
-    {
-      "id": "915-005",
-      "title": "Fatimid Caliphate consolidation in North Africa",
-      "region": "North Africa (Ifriqiya, modern Tunisia/Algeria)",
-      "coordinates_approx": "35.0, 3.0",
-      "category": "political",
-      "description": "The Fatimid Caliphate, founded in 909 CE, was consolidating its power in North Africa in 915 CE. The Fatimids claimed descent from Fatima, daughter of the Prophet Muhammad, and represented a Shi'ite challenge to the Sunni Abbasid Caliphate. By 915, the Fatimids controlled much of the Maghreb and were beginning to expand their naval power in the Mediterranean. Their establishment of a rival caliphate marked a major schism in the Islamic world.",
-      "key_figures": [
-        "Abdallah al-Mahdi (Fatimid Caliph, r. 909\u2013934)"
-      ],
-      "sources": [
-        {
-          "name": "Al-Mas'udi, Meadows of Gold",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Ibn al-Athir, Complete History",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Historiographic consensus on Fatimid chronology",
-          "type": "historiographic_consensus",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Fatimid Caliphate's existence and general chronology are well-attested in Islamic historical sources. The year 915 falls within the reign of Abdallah al-Mahdi.",
-      "cross_references": [
-        "Founded in 909-001",
-        "Led to expansion into Egypt in 969-001"
-      ]
-    },
-    {
-      "id": "915-006",
-      "title": "Khmer Empire; continued temple construction and cultural development",
-      "region": "Southeast Asia (Cambodia/Angkor region)",
-      "coordinates_approx": "13.4, 103.8",
-      "category": "cultural",
-      "description": "In 915 CE, the Khmer Empire was in a period of cultural and architectural flourishing. The period saw continued construction of temples and hydraulic infrastructure, including reservoirs (barays) that supported intensive agriculture and population growth. The Khmer developed sophisticated irrigation systems and integrated Hindu and Buddhist religious traditions. The period is marked by the development of a distinctive Khmer architectural style that would reach its peak at Angkor Wat in the 12th century.",
-      "key_figures": [
-        "Khmer ruler (identity uncertain due to disputed chronology)"
-      ],
-      "sources": [
-        {
-          "name": "Khmer inscriptions and temple records (epigraphy)",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Chinese diplomatic records",
+          "name": "Constantine VII, De Administrando Imperio",
           "type": "primary_text",
           "contemporary": true
-        },
-        {
-          "name": "Modern Khmer chronology scholarship",
-          "type": "historiographic_consensus",
-          "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "Khmer chronology for this period is based on epigraphic evidence and Chinese records, which are not always precise for specific years. The identity of the reigning Khmer ruler in 915 is uncertain due to disputed dating of Yasovarman I's reign.",
+      "certainty": "probable",
+      "certainty_note": "Byzantine naval activity in this period is well-documented in general terms, but specific operations in 915 are less clearly dated. The broader context of Byzantine military revival is confirmed.",
       "cross_references": [
-        "Part of Khmer Empire's classical period (9th\u201313th centuries)",
-        "Led to Angkor Wat construction in 12th century"
+        "Part of Byzantine Macedonian Renaissance"
       ]
     }
   ],
-  "disconfirming_evidence": "No major disconfirming evidence identified for the events listed for 915 CE. However, the exact chronology of the Khmer Empire remains disputed, and the identity of the reigning Khmer ruler in 915 is uncertain. The Liao dynasty is formally dated to 916, so events in 915 fall just before its establishment, though Abaoji's consolidation of Khitan power was ongoing.",
-  "historiographic_note": "The year 915 CE is moderately well-documented for Western Europe, the Byzantine Empire, and the Islamic world, with good documentation for East Asia (particularly the pre-establishment period of the Liao dynasty). Byzantine sources on Constantine VII are abundant. Islamic sources are rich but often written centuries after the events. Chinese sources on the Five Dynasties are comprehensive. Southeast Asian history relies heavily on epigraphic evidence, which can be difficult to date precisely. The surviving sources are biased toward political and military events; economic, social, and cultural developments are underrepresented. Court-sponsored chronicles dominate, potentially obscuring alternative perspectives.",
+  "disconfirming_evidence": "The exact succession and dating of Khmer rulers in this period remains uncertain, with some scholars proposing different chronologies. The specific events of 915 in the Five Dynasties period are not as precisely documented as later periods. No major disconfirming evidence undermines the general historical narrative for this year.",
+  "historiographic_note": "The historical record for 915 CE is moderate in quality. Chinese sources provide good documentation of the Five Dynasties period, though specific events of individual years are sometimes conflated or imprecisely dated. Islamic sources are available but are later compilations. Byzantine sources are relatively contemporary. Southeast Asian history relies on epigraphic evidence with inherent dating uncertainties. The surviving sources emphasize political and military events; economic, social, and cultural developments are underrepresented. Sub-Saharan Africa and much of Northern Europe remain poorly documented.",
   "graph_edges": [
     {
       "from": "915-001",
-      "to": "945-001",
+      "to": "929-CALIPHATE_PROCLAMATION",
       "relation": "led_to",
-      "note": "Byzantine naval consolidation led to the empire's dominance in the Mediterranean"
-    },
-    {
-      "from": "915-002",
-      "to": "923-001",
-      "relation": "led_to",
-      "note": "Later Liang's continued instability led to its conquest by Later Tang in 923"
+      "note": "Abd al-Rahman III's consolidation in 915 led to his proclamation as caliph in 929"
     },
     {
       "from": "915-003",
-      "to": "916-003",
+      "to": "960-SONG_UNIFICATION",
       "relation": "led_to",
-      "note": "Abaoji's consolidation of Khitan power led to the formal establishment of the Liao dynasty in 916"
-    },
-    {
-      "from": "915-003",
-      "to": "915-002",
-      "relation": "contemporary_with",
-      "note": "Abaoji's consolidation of Khitan power was contemporary with Later Liang's rule in northern China"
-    },
-    {
-      "from": "915-004",
-      "to": "945-001",
-      "relation": "contemporary_with",
-      "note": "Samanid consolidation was contemporary with the rise of the Buyid dynasty"
+      "note": "Five Dynasties fragmentation eventually resolved by Northern Song unification"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T18:08:30.394812",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

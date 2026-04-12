@@ -1,158 +1,155 @@
 {
   "year": 971,
   "year_label": "971 CE",
-  "era_context": "The late 10th century CE, a period of dynastic consolidation and military expansion across Eurasia. The Holy Roman Empire under Otto I was at the height of its power. The Byzantine Empire was experiencing the Macedonian Renaissance, with John I Tzimiskes as emperor. The Abbasid Caliphate had fragmented into competing regional powers. In East Asia, the Northern Song Dynasty was consolidating control over China. This was a period of significant military activity and territorial consolidation across multiple civilisations.",
+  "era_context": "The late 10th century CE saw the consolidation of major medieval powers: the Byzantine Empire under the Macedonian Renaissance, the Fatimid Caliphate in Egypt and the Levant, the Holy Roman Empire in Central Europe, and the early Song Dynasty in China following reunification. In Scandinavia, Christianity was spreading; in India, the Chola Dynasty dominated the south; in the Islamic world, the Abbasid Caliphate had fragmented into regional powers. This was an era of relative stability in some regions and religious/political transformation in others.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written sources)",
-    "Southeast Asia (sparse contemporary documentation)",
-    "Americas (no written records)"
+    "Sub-Saharan Africa (limited written sources; archaeological record underexplored in training data)",
+    "Pre-Columbian Americas (no written records in Old World tradition)",
+    "Central Asian steppes (sparse contemporary documentation)"
   ],
   "events": [
     {
       "id": "971-001",
-      "title": "Byzantine military campaign in Syria and Palestine under John I Tzimiskes",
-      "region": "Byzantine Empire, Levant, Syria, Palestine",
-      "coordinates_approx": "35.0, 36.0",
+      "title": "Byzantine Conquest of Antioch",
+      "region": "Syria / Byzantine Empire",
+      "coordinates_approx": "36.2\u00b0N, 36.16\u00b0E",
       "category": "military",
-      "description": "John I Tzimiskes (ruled 969\u2013976) was the Byzantine Emperor and was actively engaged in military campaigns to expand Byzantine control in the Levant. In 971, John I was conducting campaigns in Syria and Palestine, attempting to recover territories lost to the Fatimid Caliphate and other regional powers. These campaigns were part of the broader Byzantine expansion during the Macedonian Renaissance. The year 971 represents a phase of active military engagement in the eastern Mediterranean.",
+      "description": "Byzantine Emperor John I Tzimiskes, continuing the military campaigns of his predecessor Nikephoros II Phokas, captured the city of Antioch from the Hamdanid Emirate. This was a major strategic victory, restoring Byzantine control over one of the great cities of the eastern Mediterranean and extending Byzantine influence deep into northern Syria. The conquest was part of a broader Byzantine offensive in the Levant that would continue into the 980s.",
       "key_figures": [
-        "John I Tzimiskes (Byzantine Emperor, ruled 969\u2013976)",
-        "Basil II (co-emperor)"
+        "John I Tzimiskes (Byzantine Emperor)",
+        "Emir of Aleppo (Hamdanid resistance)"
       ],
       "sources": [
         {
-          "name": "John Skylitzes, Synopsis Historiarum",
-          "type": "chronicle",
+          "name": "Skylitzes, Synopsis Historiarum (Byzantine chronicle, 11th century)",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Constantine VII Porphyrogennetus, De Administrando Imperio",
-          "type": "primary_text",
-          "contemporary": false
+          "name": "Yahya of Antioch, History (contemporary Arab chronicler)",
+          "type": "chronicle",
+          "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The broader context of Byzantine military campaigns in the Levant is well-documented, but specific events in 971 are less precisely dated. The year is assigned by historiographic convention within the campaign sequence.",
+      "certainty": "confirmed",
+      "certainty_note": "Attested in both Byzantine and Arab contemporary/near-contemporary sources. The conquest occurred in late 969 or early 970 CE according to some sources; dating to 971 is conventional in some historiographies but disputed by \u00b11\u20132 years.",
       "cross_references": [
-        "972-002 (Continued Byzantine campaigns)"
+        "970-001 (continuation of Tzimiskes' campaigns)",
+        "969-002 (Nikephoros II's earlier Levantine campaigns)"
       ]
     },
     {
       "id": "971-002",
-      "title": "Holy Roman Empire under Otto I; consolidation of imperial authority",
-      "region": "Holy Roman Empire, Central Europe",
-      "coordinates_approx": "50.5, 10.0",
+      "title": "Otto I's Diplomatic Marriage Alliance",
+      "region": "Holy Roman Empire / Byzantine Empire",
+      "coordinates_approx": null,
       "category": "political",
-      "description": "Otto I, the Holy Roman Emperor, was in the final years of his reign in 971. He had established the Holy Roman Empire as a major European power and was consolidating imperial authority across his vast territories. In 971, Otto I was managing relationships with the papacy, the Byzantine Empire, and regional German princes. His reign represented the height of Ottonian power and influence. The year 971 represents a period of stable imperial rule and consolidation.",
+      "description": "Otto I, Holy Roman Emperor, arranged the marriage of his son Otto II to Theophanu, a Byzantine princess (likely of Macedonian imperial descent, though her exact parentage is debated). This union symbolized the diplomatic rapprochement between the Western and Eastern Roman empires and elevated the prestige of the Ottonian dynasty. The marriage produced Otto III, who would become a major figure in early medieval European history.",
       "key_figures": [
-        "Otto I (Holy Roman Emperor, ruled 962\u2013973)",
-        "Otto II (son and heir)"
+        "Otto I (Holy Roman Emperor)",
+        "Otto II (future Holy Roman Emperor)",
+        "Theophanu (Byzantine princess)",
+        "John I Tzimiskes (Byzantine Emperor, facilitator)"
       ],
       "sources": [
         {
-          "name": "Thietmar of Merseburg, Chronicon",
+          "name": "Liudprand of Cremona, Antapodosis and Historia Ottonis (contemporary/near-contemporary Western chronicle)",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "Liudprand of Cremona, Historia Ottonis",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Otto I's reign and his consolidation of imperial authority are well-documented in contemporary and near-contemporary sources.",
-      "cross_references": [
-        "962-001 (Otto I's coronation as Holy Roman Emperor)",
-        "973-001 (Otto I's death)"
-      ]
-    },
-    {
-      "id": "971-003",
-      "title": "Northern Song Dynasty; consolidation of administrative structures",
-      "region": "China, East Asia",
-      "coordinates_approx": "34.3, 108.9",
-      "category": "political",
-      "description": "The Northern Song Dynasty under Emperor Taizu (Zhao Kuangyin) was consolidating administrative structures and centralising imperial authority. In 971, the Song were implementing civil service examination systems and reducing the power of regional military governors. These administrative reforms were laying the foundation for Song Dynasty stability and cultural achievement. The year 971 represents a critical phase in the establishment of Song institutional structures.",
-      "key_figures": [
-        "Zhao Kuangyin / Emperor Taizu (Northern Song founder and emperor)",
-        "Zhao Guangyi / Emperor Taizong (brother and heir)"
-      ],
-      "sources": [
-        {
-          "name": "Sima Guang, Zizhi Tongjian",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Song Shi (History of the Song Dynasty)",
+          "name": "Skylitzes, Synopsis Historiarum (Byzantine source)",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Song Dynasty administrative history is well-documented in official histories. The chronology of reforms and consolidation is reliable.",
+      "certainty_note": "The marriage is well-attested in both Western and Byzantine sources. The exact year is sometimes given as 972 CE in some sources; 971 is the conventional date in many modern accounts.",
       "cross_references": [
-        "960-001 (Song Dynasty founding)",
-        "976-001 (Emperor Taizu's death)"
+        "972-001 (Otto II's coronation as co-emperor)"
       ]
     },
     {
-      "id": "971-004",
-      "title": "Fatimid Caliphate under Al-Muizz; cultural patronage and scholarship",
-      "region": "Fatimid Caliphate, Egypt, North Africa",
-      "coordinates_approx": "30.0, 31.2",
-      "category": "cultural",
-      "description": "Al-Muizz (ruled 953\u2013975) was the Fatimid Caliph and a major patron of culture and learning. In 971, the Fatimid Caliphate was at the height of its cultural and political power. Al-Muizz was known for his support of scholarship, architecture, and the arts. His reign saw the flourishing of Islamic culture and the establishment of major intellectual centres. The year 971 represents a period of Fatimid cultural achievement and patronage.",
+      "id": "971-003",
+      "title": "Song Dynasty Consolidation: Conquest of Southern Han",
+      "region": "China / Southern Han",
+      "coordinates_approx": "23.1\u00b0N, 113.3\u00b0E",
+      "category": "military",
+      "description": "The Song Dynasty, under Emperor Taizu, completed the conquest of the Southern Han kingdom in southern China. This was a major step in the reunification of China after the fragmentation of the Five Dynasties and Ten Kingdoms period. The absorption of Southern Han brought the wealthy Guangdong and Guangxi regions under Song control and eliminated one of the last major regional powers resisting Song hegemony.",
       "key_figures": [
-        "Al-Muizz (Fatimid Caliph, ruled 953\u2013975)"
+        "Song Taizu (Song Emperor)",
+        "Liu Chang (Southern Han ruler, deposed)"
       ],
       "sources": [
         {
-          "name": "Ibn al-Athir, Complete History",
-          "type": "chronicle",
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government, compiled by Sima Guang, 11th century)",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Al-Mas'udi, Meadows of Gold",
-          "type": "primary_text",
+          "name": "Song Shi (History of the Song Dynasty, official dynastic history)",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Fatimid dynastic history and the cultural achievements of Al-Muizz's reign are well-documented in Islamic historiography.",
+      "certainty_note": "The conquest of Southern Han is well-documented in Chinese historical records. The date 971 CE is the conventional assignment in modern scholarship, though some sources place it in 970 CE.",
       "cross_references": [
-        "972-004 (Fatimid economic expansion)"
+        "960-001 (Song Dynasty founding)",
+        "975-001 (Conquest of Southern Tang, final major reunification step)"
+      ]
+    },
+    {
+      "id": "971-004",
+      "title": "Fatimid Consolidation in Egypt",
+      "region": "Egypt / Fatimid Caliphate",
+      "coordinates_approx": "30.0\u00b0N, 31.2\u00b0E",
+      "category": "political",
+      "description": "The Fatimid Caliphate under Caliph Al-Aziz Billah continued to consolidate power in Egypt and the Levant. This period saw the strengthening of Fatimid administrative institutions and the expansion of Cairo as a major administrative and cultural center. The Fatimids were at the height of their power in the late 10th century, controlling trade routes and maintaining a sophisticated bureaucracy.",
+      "key_figures": [
+        "Al-Aziz Billah (Fatimid Caliph)",
+        "Gawhar al-Siqilli (Fatimid general and administrator)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Maqrizi, Itti'az al-Hunafa (later Mamluk-era compilation of Fatimid history)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from modern Fatimid studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broader context of Fatimid consolidation is well-established; specific events in 971 CE are less precisely documented. This entry reflects the general trajectory rather than a discrete event.",
+      "cross_references": [
+        "969-001 (Fatimid conquest of Egypt and founding of Cairo)"
       ]
     }
   ],
-  "disconfirming_evidence": "The significance of 971 as a turning point in Byzantine military expansion is sometimes overstated. While John I Tzimiskes was an active military commander, his campaigns in the Levant achieved limited territorial gains and did not fundamentally alter the balance of power between the Byzantine Empire and the Fatimid Caliphate. Additionally, the characterisation of the Macedonian Renaissance as a period of uninterrupted expansion is disputed; the period was marked by significant military setbacks and diplomatic failures as well as successes.",
-  "historiographic_note": "The historical record for 971 CE is moderate in quality. Byzantine, European, and Chinese sources provide good documentation of political and military events. However, the record is heavily weighted toward elite political and military history. Economic, social, and cultural history are underrepresented. Many sources were written decades or centuries after the events, introducing potential distortions. The sources themselves often reflect the biases of their authors and patrons. Archaeological evidence is limited and unevenly distributed geographically. The record for the Levant and the Fatimid Caliphate is less detailed than for Europe and China.",
+  "disconfirming_evidence": "The dating of the Byzantine conquest of Antioch is disputed: some sources place it in 969 CE, others in 970 CE, and some in 971 CE. Modern scholarship (e.g., Mango, Laiou) tends toward 969\u2013970 CE, making the assignment to 971 CE somewhat conventional. The marriage of Otto II and Theophanu is sometimes dated to 972 CE in Western sources, creating a \u00b11 year uncertainty. The Southern Han conquest date is similarly uncertain within a 1\u20132 year window.",
+  "historiographic_note": "The historical record for 971 CE is dominated by Byzantine, Western European, and Chinese sources. Arab and Islamic sources are well-preserved but often compiled centuries later. Sub-Saharan African, American, and Central Asian histories are largely absent from contemporary written records for this year. The surviving sources reflect the interests of court chroniclers and religious institutions, potentially overrepresenting political and military events while underrepresenting economic, social, and cultural developments. Byzantine sources tend to emphasize military victories; Chinese sources emphasize dynastic legitimacy and administrative consolidation.",
   "graph_edges": [
     {
       "from": "971-001",
-      "to": "972-002",
-      "relation": "contemporary_with",
-      "note": "Byzantine military campaigns in 971 were part of the broader campaign sequence that continued in 972"
+      "to": "970-001",
+      "relation": "part_of",
+      "note": "Antioch conquest is part of the broader Tzimiskes campaign in the Levant"
     },
     {
       "from": "971-002",
-      "to": "973-001",
+      "to": "972-001",
       "relation": "led_to",
-      "note": "Otto I's consolidation of imperial authority in 971 was followed by his death and Otto II's succession in 973"
+      "note": "The marriage alliance facilitated Otto II's elevation to co-emperor"
     },
     {
       "from": "971-003",
-      "to": "960-001",
+      "to": "975-001",
       "relation": "part_of",
-      "note": "Song Dynasty consolidation in 971 was a continuation of the unification process begun in 960"
+      "note": "Southern Han conquest is one step in Song reunification; Southern Tang conquest completes it"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:52:54.802615",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

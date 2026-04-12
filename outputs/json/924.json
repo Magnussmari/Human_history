@@ -1,145 +1,119 @@
 {
   "year": 924,
   "year_label": "924 CE",
-  "era_context": "The early 10th century CE spans the fragmentation of the Abbasid Caliphate, the rise of regional Islamic dynasties (Fatimids, Buyids, Umayyads of al-Andalus), the consolidation of the Byzantine Empire under Constantine VII, the emergence of the Khmer Empire in Southeast Asia, and the Viking Age in Northern Europe. In East Asia, the Five Dynasties and Ten Kingdoms period in China follows the collapse of the Tang Dynasty. This is an era of political decentralization, religious diversity, and significant technological and cultural exchange across Eurasia.",
-  "documentation_level": "moderate",
+  "era_context": "The year 924 CE falls within the early 10th century, a period of significant political fragmentation across Eurasia. The Abbasid Caliphate's authority was declining; regional Islamic dynasties were consolidating. In Europe, feudalism was solidifying and the Holy Roman Empire was emerging. In East Asia, the Five Dynasties and Ten Kingdoms period was ongoing, with Khitan Liao expanding. This was an era of transition and regional consolidation.",
+  "documentation_level": "sparse",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written sources; oral traditions and archaeological evidence underrepresented in training data)",
-    "Pre-Columbian Americas (no written records in most regions; archaeological evidence sparse for this specific year)",
-    "Oceania and Pacific Islands (minimal contemporary documentation)"
+    "Sub-Saharan Africa (minimal written sources)",
+    "Mesoamerica and South America (no written records)",
+    "Northern Europe and Scandinavia (sparse documentation)",
+    "Central Asia (limited sources)"
   ],
   "events": [
     {
       "id": "924-001",
-      "title": "Death of Ahmad ibn Ismail al-Ikhshid; Succession Crisis in Egypt",
-      "region": "Fatimid Egypt / Ikhshidid Dynasty",
-      "coordinates_approx": "30.0444, 31.2357",
+      "title": "Henry I (the Fowler) consolidates East Frankish power",
+      "region": "Holy Roman Empire (Germany)",
+      "coordinates_approx": "51.0,10.0",
       "category": "political",
-      "description": "Ahmad ibn Ismail al-Ikhshid, founder of the Ikhshidid Dynasty and de facto ruler of Egypt and the Levant, died in 924 CE. His death triggered a succession crisis that weakened Ikhshidid control and created opportunities for the expanding Fatimid Caliphate to increase its influence in the region. The Ikhshidids, though nominally subordinate to the Abbasid Caliph, had established effective autonomy over Egypt and parts of the Levant. Ahmad's death marked the beginning of the dynasty's gradual decline, though it would persist until the Fatimid conquest in 969 CE.",
+      "description": "Henry I (r. 919\u2013936), known as 'the Fowler,' was consolidating his rule over the East Frankish Kingdom in 924. He had become king in 919 and was systematically strengthening royal authority, building fortifications, and organizing military campaigns against external threats (Slavic tribes, Hungarians, and other rivals). By 924, Henry had established himself as a strong ruler and was laying the foundation for his son Otto I's later dominance. His reign marked the transition from the weak Carolingian successor states to a more centralized Germanic kingdom.",
       "key_figures": [
-        "Ahmad ibn Ismail al-Ikhshid (founder, died 924)",
-        "Muhammad ibn Ahmad al-Ikhshid (son, successor)"
+        "Henry I (king of East Frankia)"
       ],
       "sources": [
         {
-          "name": "Al-Mas'udi, Meadows of Gold (Muruj al-dhahab)",
+          "name": "Liudprand of Cremona, Antapodosis",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         },
         {
-          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
-          "type": "chronicle",
+          "name": "Historiographic consensus on Henry I",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Death date of Ahmad al-Ikhshid is attested in multiple Islamic chronicles, though these were compiled generations after the event. The year 924 CE is the conventional dating in modern scholarship, with minor variations (\u00b11 year) in some sources.",
-      "cross_references": [
-        "Relates to 969-001 (Fatimid conquest of Egypt)"
-      ]
+      "certainty_note": "Henry I's reign dates (919\u2013936) are well-established. Specific events within 924 are not precisely documented; this reflects his broader consolidation process.",
+      "cross_references": []
     },
     {
       "id": "924-002",
-      "title": "Khmer Empire Expansion under Yasovarman I",
-      "region": "Khmer Empire (Cambodia)",
-      "coordinates_approx": "13.3667, 103.8500",
+      "title": "Later Tang Dynasty continues under Li Cunxu",
+      "region": "China",
+      "coordinates_approx": "34.0,108.0",
       "category": "political",
-      "description": "Yasovarman I, king of the Khmer Empire, continued his reign and consolidation of power in Southeast Asia. He is credited with establishing Yasodharapura (modern Angkor) as the capital and undertaking major hydraulic engineering projects, including the construction of the East Baray (reservoir). Yasovarman's reign (889\u2013910 CE according to some sources, though dating is disputed) represents a period of territorial expansion and cultural flourishing, with significant temple construction and administrative reorganization. By 924 CE, the Khmer Empire had become one of Southeast Asia's dominant powers.",
+      "description": "In 924, the Later Tang Dynasty (923\u2013936) was in its second year under Li Cunxu (r. 923\u2013926). Li Cunxu was consolidating control over northern China following the fall of the Later Liang Dynasty. The Later Tang was one of the Five Dynasties that ruled northern China during the fragmentation of the post-Tang period. Li Cunxu's reign involved military campaigns and administrative reorganization, though his rule remained unstable.",
       "key_figures": [
-        "Yasovarman I (Khmer king)"
+        "Li Cunxu (emperor of Later Tang)"
       ],
       "sources": [
         {
-          "name": "Khmer inscriptions and temple records (Angkor region)",
-          "type": "epigraphic",
-          "contemporary": true
-        },
-        {
-          "name": "Chinese historical records (Song Dynasty compilations of earlier sources)",
-          "type": "chronicle",
+          "name": "Zizhi Tongjian",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "Khmer chronology for this period is reconstructed from inscriptions and later Chinese sources. Yasovarman I's reign dates are debated among scholars; the assignment of events to 924 CE is approximate. Some sources place his death as early as 910 CE, others as late as 925 CE.",
+      "certainty": "confirmed",
+      "certainty_note": "Li Cunxu's reign dates are well-established. The year 924 falls securely within his reign.",
       "cross_references": []
     },
     {
       "id": "924-003",
-      "title": "Zhu Wen's Consolidation of Later Liang Dynasty",
-      "region": "Later Liang Dynasty (Northern China)",
-      "coordinates_approx": "34.2658, 108.9398",
-      "category": "political",
-      "description": "Zhu Wen (Emperor Taizu of Later Liang), founder of the Later Liang Dynasty, continued his consolidation of power in northern China during the Five Dynasties and Ten Kingdoms period. By 924 CE, Zhu Wen had established Later Liang as the dominant power in the Yellow River valley, though his control remained contested by rival warlords. Zhu Wen's reign (907\u2013912 CE) had formally ended the Tang Dynasty and established Later Liang, but his successors faced continued military pressure from neighboring states. The year 924 CE falls within the reign of Zhu Wen's successor, Zhu Yougui.",
+      "title": "Khitan Liao expansion under Abaoji",
+      "region": "Manchuria and Mongolia",
+      "coordinates_approx": "43.5,125.0",
+      "category": "military",
+      "description": "In 924, the Khitan Liao state under Abaoji (r. 907\u2013926) was expanding its power in Manchuria and Mongolia. Abaoji had declared himself emperor in 916 and was consolidating Khitan confederation under centralized rule. By 924, Liao was becoming a major regional power, threatening the Later Tang Dynasty in China and preparing for the conquest of the Bohai Kingdom (which would occur in 926). This period saw the development of Liao's administrative and military structures.",
       "key_figures": [
-        "Zhu Wen / Emperor Taizu of Later Liang (r. 907\u2013912)",
-        "Zhu Yougui (successor, r. 912\u2013923)"
+        "Abaoji (Khitan Liao emperor)"
       ],
       "sources": [
         {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government), compiled by Sima Guang",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Official histories of the Five Dynasties (Wudai Shi)",
-          "type": "chronicle",
+          "name": "Liao Shi",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "Chinese historical records for the Five Dynasties period are relatively well-preserved in official compilations, though these were written centuries after the events. Dating is generally reliable to within a year.",
-      "cross_references": [
-        "Part of broader Five Dynasties and Ten Kingdoms fragmentation (907\u2013960 CE)"
-      ]
+      "certainty_note": "Abaoji's reign dates (907\u2013926) are well-established. Specific events within 924 are not precisely documented.",
+      "cross_references": []
     },
     {
       "id": "924-004",
-      "title": "Byzantine-Arab Naval Conflict in the Eastern Mediterranean",
-      "region": "Byzantine Empire / Eastern Mediterranean",
-      "coordinates_approx": "39.0, 25.0",
-      "category": "military",
-      "description": "The Byzantine Empire under Constantine VII Porphyrogennetus engaged in ongoing naval conflicts with Arab raiders and the Fatimid Caliphate in the Eastern Mediterranean. These conflicts were part of the broader struggle for control of Mediterranean trade routes and island territories. Byzantine naval power was gradually reasserting itself after earlier Arab dominance, though specific engagements in 924 CE are not well-documented in surviving sources. The period saw Byzantine recovery of lost territories and increased military pressure on Arab-held regions.",
+      "title": "Goryeo consolidation continues under Wang Geon",
+      "region": "Korea",
+      "coordinates_approx": "37.5,127.0",
+      "category": "political",
+      "description": "In 924, Wang Geon (877\u2013943) was consolidating the Goryeo Kingdom in Korea. Goryeo had been established in 918 and by 924 was in its seventh year of existence. Wang Geon was absorbing remaining Later Three Kingdoms territories and establishing administrative structures. This period saw the cultural and political foundation of medieval Korea, with Buddhism playing a central role in state ideology.",
       "key_figures": [
-        "Constantine VII Porphyrogennetus (Byzantine Emperor, r. 913\u2013959)"
+        "Wang Geon (founder and king of Goryeo)"
       ],
       "sources": [
         {
-          "name": "Constantine VII, De Administrando Imperio (On the Administration of the Empire)",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Byzantine chronicles (Theophanes Continuatus)",
-          "type": "chronicle",
+          "name": "Goryeosa",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "General Byzantine-Arab naval conflicts are well-attested for this period, but specific events in 924 CE are not clearly documented. The assignment to this year is approximate based on broader patterns of Byzantine military activity.",
+      "certainty": "probable",
+      "certainty_note": "Wang Geon's reign dates (918\u2013943) are well-established. Specific events within 924 are not precisely documented.",
       "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The dating of Yasovarman I's reign and the precise chronology of the Khmer Empire in the early 10th century remain disputed among scholars. Some sources place Yasovarman I's death significantly earlier (c. 910 CE) or later (c. 925 CE), which would affect the attribution of events to 924 CE specifically. Additionally, the significance of Ahmad al-Ikhshid's death in 924 CE as a major turning point is somewhat overstated in some sources; the Ikhshidid Dynasty remained stable for several decades after his death, and the Fatimid conquest did not occur until 969 CE\u201445 years later.",
-  "historiographic_note": "The historical record for 924 CE is uneven. Islamic sources (chronicles compiled in the 10th\u201312th centuries) provide relatively detailed information about the Ikhshidid Dynasty and Abbasid politics. Chinese sources offer substantial documentation of the Five Dynasties period, though these were compiled centuries later. Byzantine sources are more limited but include contemporary administrative texts. Southeast Asian history relies heavily on inscriptions and later Chinese records, introducing significant dating uncertainty. Sub-Saharan Africa, the Americas, and Oceania have virtually no contemporary written documentation for this year. The surviving sources are biased toward political and military history; economic, social, and cultural developments are underrepresented.",
+  "disconfirming_evidence": "No major disconfirming evidence identified for events listed. The historical record for 924 is sparse; most events are inferred from broader reign contexts rather than specific annual documentation.",
+  "historiographic_note": "The year 924 is sparsely documented. Most information comes from later compilations (11th\u201313th centuries) that provide reign-level rather than year-level detail. Specific events within 924 are rarely documented in contemporary sources. The record is dominated by political and dynastic history; economic, cultural, and social developments are largely absent. Non-literate regions are entirely absent from documentation.",
   "graph_edges": [
     {
       "from": "924-001",
-      "to": "969-001",
-      "relation": "led_to",
-      "note": "Ahmad al-Ikhshid's death and the succession crisis weakened the Ikhshidid Dynasty, eventually leading to Fatimid conquest of Egypt in 969 CE"
+      "to": "936-HENRY_DEATH",
+      "relation": "part_of",
+      "note": "924 falls within Henry I's reign (919\u2013936)"
     },
     {
       "from": "924-003",
-      "to": "960-001",
-      "relation": "part_of",
-      "note": "Later Liang's struggles during the Five Dynasties period contributed to the eventual reunification of China under the Northern Song Dynasty in 960 CE"
+      "to": "926-BOHAI_CONQUEST",
+      "relation": "led_to",
+      "note": "Liao expansion in 924 led to Bohai conquest in 926"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T18:06:49.315708",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

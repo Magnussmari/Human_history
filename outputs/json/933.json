@@ -1,89 +1,146 @@
 {
   "year": 933,
   "year_label": "933 CE",
-  "era_context": "The early 10th century CE continues the fragmentation of the Abbasid Caliphate and the rise of regional Islamic dynasties. In Europe, the Ottonian Renaissance is beginning under Otto I in the Holy Roman Empire. The Song Dynasty is consolidating control over southern China. The Viking Age remains active in the North Atlantic and Mediterranean.",
-  "documentation_level": "sparse",
+  "era_context": "The early 10th century CE continues the era of political fragmentation and regional consolidation. The Holy Roman Empire under Otto I is consolidating German power; the Fatimid Caliphate is expanding in North Africa; the Abbasid Caliphate is fragmenting into regional dynasties; and East Asia sees the rise of regional powers (Liao, Later Zhou, Goryeo) before eventual Song unification. This is a period of military competition, trade route control, and the emergence of new political entities.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (no contemporary written sources)",
-    "Southeast Asia (sparse records)",
-    "Americas (no written records)",
-    "Oceania (no written records)"
+    "Sub-Saharan Africa (minimal written sources)",
+    "Southeast Asia (sparse contemporary records)",
+    "Pre-Columbian Americas (no written records for this year)"
   ],
   "events": [
     {
       "id": "933-001",
-      "title": "Otto I becomes Duke of Saxony",
-      "region": "Saxony / Holy Roman Empire",
-      "coordinates_approx": "51.5, 10.0",
+      "title": "Otto I consolidates power in Germany; regional magnates resist centralization",
+      "region": "Holy Roman Empire (Germany)",
+      "coordinates_approx": "51.17, 10.45",
       "category": "political",
-      "description": "Otto I (later Otto the Great) became Duke of Saxony in 933 following the death of his father Henry the Fowler. Otto inherited a strong position in the German lands and would go on to become the first Holy Roman Emperor (crowned 962). His early reign focused on consolidating power in Saxony and the broader German territories, establishing the foundation for the Ottonian Renaissance and the revival of imperial authority in Western Europe.",
+      "description": "Otto I continued his consolidation of royal authority in Germany during the early 930s, facing resistance from regional dukes and magnates who sought to maintain their independence. Otto's strategy combined military force, diplomatic negotiation, and the support of the Church. By the early 930s, Otto had established himself as the dominant force in the German kingdom, though full consolidation would take several more years.",
       "key_figures": [
-        "Otto I (Duke of Saxony, later Holy Roman Emperor, r. 933\u2013973)",
-        "Henry the Fowler (his father, d. 936)"
+        "Otto I (King of the Germans)",
+        "German dukes and regional magnates (various)"
       ],
       "sources": [
         {
-          "name": "Liudprand of Cremona, Antapodosis (10th century chronicle)",
+          "name": "Widukind of Corvey, Res gestae Saxonicae",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Widukind of Corvey, Res gestae Saxonicae (10th century)",
+          "name": "Liudprand of Cremona, Antapodosis",
           "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Otto's succession to the Duchy of Saxony is well-attested in contemporary and near-contemporary chronicles. The date 933 is standard in modern historiography.",
-      "cross_references": []
-    },
-    {
-      "id": "933-002",
-      "title": "Abbasid Caliphate fragmentation: Ikhshidid Dynasty in Egypt",
-      "region": "Egypt / Levant",
-      "coordinates_approx": "30.0, 31.0",
-      "category": "political",
-      "description": "The Ikhshidid Dynasty, founded by Muhammad ibn Tughj al-Ikhshidi, controlled Egypt and the Levant during this period. By 933, the Ikhshidids had established themselves as a semi-independent power within the nominal Abbasid Caliphate, controlling trade routes and maintaining a sophisticated administrative system. This dynasty would rule until the Fatimid conquest in 969. The Ikhshidids represented the fragmentation of central Abbasid authority and the rise of regional military dynasties.",
-      "key_figures": [
-        "Muhammad ibn Tughj al-Ikhshidi (founder, d. 946)"
-      ],
-      "sources": [
-        {
-          "name": "Akhbar al-Duwal al-Munqati'a (by al-Mas'udi)",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Kitab al-Aghani (by al-Isfahani, 10th century)",
-          "type": "primary_text",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The Ikhshidid Dynasty's control of Egypt is well-attested in Islamic sources, though specific events in 933 are less precisely dated.",
-      "cross_references": []
+      "certainty_note": "Otto I's consolidation of German power is well-attested in near-contemporary chronicles, though specific events within 933 are not always precisely dated.",
+      "cross_references": [
+        "Part of Otto I's consolidation (919\u2013962)",
+        "Precedes Otto's coronation as King of the Germans in 936"
+      ]
+    },
+    {
+      "id": "933-002",
+      "title": "Fatimid Caliphate expands naval power in the Mediterranean",
+      "region": "Fatimid Caliphate (North Africa, Mediterranean)",
+      "coordinates_approx": "36.76, 3.06",
+      "category": "military",
+      "description": "The Fatimid Caliphate, established in 909 CE, continued its expansion of naval power in the Mediterranean during the 930s. The Fatimids built a powerful navy to protect their trade routes and project power across the Mediterranean, challenging the Byzantine Empire and other regional powers. This naval expansion was part of the Fatimids' broader strategy to establish themselves as a major Mediterranean power.",
+      "key_figures": [
+        "Al-Qahir (Fatimid Caliph, r. 934\u2013946)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Mas'udi, Meadows of Gold",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Complete History",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Fatimid naval expansion is well-documented in Islamic chronicles, though specific events within 933 are not always precisely dated.",
+      "cross_references": [
+        "Part of Fatimid expansion (909\u20131171)",
+        "Contemporary with Abbasid fragmentation"
+      ]
+    },
+    {
+      "id": "933-003",
+      "title": "Khitan Liao Dynasty expands territorial control in Northeast Asia",
+      "region": "Khitan Liao (Northeast Asia, modern Manchuria/Mongolia)",
+      "coordinates_approx": "43.00, 125.00",
+      "category": "military",
+      "description": "The Khitan Liao Dynasty continued its expansion and consolidation of power in Northeast Asia during the 930s. The Liao controlled vast territories in Manchuria, Mongolia, and parts of northern China, establishing themselves as a major regional power. The Liao maintained a sophisticated administrative system blending Khitan and Chinese elements and controlled important trade routes connecting East Asia with Central Asia and the Islamic world.",
+      "key_figures": [
+        "Taizong of Liao (r. 926\u2013947)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Liao Shi (History of the Liao Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Liao Dynasty's expansion is well-documented in Chinese historical sources, though specific events within 933 are not always precisely dated.",
+      "cross_references": [
+        "Part of Liao expansion (907\u20131125)",
+        "Contemporary with Song Dynasty consolidation in southern China"
+      ]
+    },
+    {
+      "id": "933-004",
+      "title": "Goryeo continues consolidation of Korean peninsula",
+      "region": "Goryeo (medieval Korea)",
+      "coordinates_approx": "37.57, 126.98",
+      "category": "political",
+      "description": "Goryeo continued its consolidation of the Korean peninsula during the 930s, gradually absorbing the remaining territories of Later Baekje and Later Silla. The process involved both military campaigns and the integration of regional elites into the Goryeo administrative system. By the mid-930s, Goryeo had achieved effective control over most of the peninsula.",
+      "key_figures": [
+        "Wang Geon (Goryeo founder, r. 918\u2013943)"
+      ],
+      "sources": [
+        {
+          "name": "Samguk Sagi (History of the Three Kingdoms)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Goryeosa (History of Goryeo)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The consolidation of Goryeo is well-attested in Korean historical sources, but the precise dating of specific events within 933 is uncertain.",
+      "cross_references": [
+        "Part of Goryeo unification (918\u2013935)",
+        "Contemporary with Later Baekje's absorption"
+      ]
     }
   ],
-  "disconfirming_evidence": "No significant disconfirming evidence identified for the events listed. However, the historiographic record for 933 is thin; many sources conflate events across the 930s without precise annual dating.",
-  "historiographic_note": "The year 933 is sparsely documented in surviving sources. Most information comes from chronicles compiled decades or centuries after the events. Western European sources (particularly German chronicles) are relatively abundant, but Islamic sources are less detailed for this specific year. The record is heavily skewed toward political and military events; economic, social, and cultural developments are largely invisible. No contemporary written sources exist for most of the world outside Europe and the Islamic Middle East.",
+  "disconfirming_evidence": "The traditional narrative of Otto I's 'consolidation' of German power in the early 930s has been revised by modern scholars, who emphasize that the process was more gradual and contested than earlier accounts suggest. Some historians question the reliability of the chronicles' accounts of specific battles and campaigns. Additionally, the Fatimid naval expansion is sometimes overstated in traditional accounts; modern scholarship emphasizes that Fatimid naval power was significant but not unchallenged in the Mediterranean.",
+  "historiographic_note": "The year 933 CE is moderately well-documented for the Islamic world, East Asia, and Western Europe through near-contemporary chronicles and later compilations. However, sources remain heavily weighted toward political and military events involving elites. Economic, social, and cultural history are underrepresented. For regions outside the Islamic world and East Asia, documentation is sparse. Sub-Saharan Africa, Southeast Asia, and the Americas have minimal written documentation for this year. The surviving sources reflect the interests of literate elites and may omit or distort events of significance to non-elite populations.",
   "graph_edges": [
     {
       "from": "933-001",
-      "to": "962-OTTO_CROWNED_EMPEROR",
+      "to": "936-001",
       "relation": "led_to",
-      "note": "Otto's consolidation of power as Duke of Saxony in 933 enabled his later coronation as Holy Roman Emperor in 962."
+      "note": "Otto I's consolidation of German power in the early 930s led to his coronation as King of the Germans in 936."
     },
     {
       "from": "933-002",
-      "to": "969-FATIMID_CONQUEST_EGYPT",
+      "to": "945-001",
       "relation": "led_to",
-      "note": "The Ikhshidid Dynasty's rule in Egypt (933\u2013969) preceded the Fatimid conquest."
+      "note": "Fatimid naval expansion in the 930s contributed to their emergence as a major Mediterranean power by the mid-10th century."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T18:04:14.197943",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

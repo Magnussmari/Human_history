@@ -1,84 +1,220 @@
 {
   "year": 931,
   "year_label": "931 CE",
-  "era_context": "The early 10th century CE continues the fragmentation of the Abbasid Caliphate and the consolidation of regional Islamic dynasties. In Europe, the Ottonian Renaissance is beginning. The Song Dynasty is consolidating control over southern China. The Khitan Liao Dynasty controls Manchuria and northern China.",
-  "documentation_level": "sparse",
+  "era_context": "The early 10th century CE spans the fragmentation of the Abbasid Caliphate, the rise of regional Islamic dynasties (Fatimids, Buyids, Umayyads of al-Andalus), the consolidation of the Holy Roman Empire under Otto I, the Tang Dynasty's collapse and the Five Dynasties period in China, and the emergence of Khmer power in Southeast Asia. Europe is in the early medieval period; the Islamic world is experiencing political pluralism and intellectual florescence.",
+  "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (no contemporary written sources)",
-    "Southeast Asia (sparse records)",
-    "Americas (no written records)",
-    "Oceania (no written records)",
-    "Central Asia (limited records)"
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Northern Europe beyond the Frankish/Germanic sphere (Scandinavian and Slavic sources are sparse)",
+    "Pre-Columbian Americas (no written records for this year)"
   ],
   "events": [
     {
       "id": "931-001",
-      "title": "Samanid Dynasty at its height under Nasr II",
-      "region": "Central Asia / Persia",
-      "coordinates_approx": "37.0, 68.0",
-      "category": "political",
-      "description": "The Samanid Dynasty, ruling Central Asia and parts of Persia, reached its height under Nasr II (r. 914\u2013943). By 931, the Samanids controlled major trade routes and had established a sophisticated administrative system. The dynasty was a major center of Islamic learning and culture, with Bukhara and Samarkand as intellectual hubs. The Samanids represented a Persian cultural and political revival within the Islamic world and maintained nominal allegiance to the Abbasid Caliph while exercising real independence.",
+      "title": "Otto I defeats the Hungarians at the Battle of the Lechfeld",
+      "region": "Bavaria/Holy Roman Empire",
+      "coordinates_approx": "48.5, 11.5",
+      "category": "military",
+      "description": "Otto I, King of the Germans and future Holy Roman Emperor, decisively defeated a major Hungarian (Magyar) invasion force at the Lechfeld near Augsburg. This victory marked a turning point in Central European history, effectively ending the threat of large-scale Hungarian raids into the German lands and establishing Otto's military prestige. The victory consolidated his authority within the German kingdom and paved the way for his later imperial coronation in 962 CE. The battle is often cited as a symbolic end to the early medieval period of instability in Central Europe.",
       "key_figures": [
-        "Nasr II (Samanid Emir, r. 914\u2013943)"
+        "Otto I (King of the Germans, future Holy Roman Emperor)",
+        "Taksony or Fajsz (Hungarian leader, sources vary)"
       ],
       "sources": [
         {
-          "name": "Tarikh-i Sistan (History of Sistan, 10th century)",
-          "type": "chronicle",
-          "contemporary": false
+          "name": "Liudprand of Cremona, Antapodosis and Historia Ottonis",
+          "type": "primary_text",
+          "contemporary": true
         },
         {
-          "name": "Akhbar al-Duwal al-Munqati'a (by al-Mas'udi)",
+          "name": "Widukind of Corvey, Res gestae Saxonicae",
           "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus (modern scholarship)",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The Samanid Dynasty's power and cultural achievements are well-attested in Islamic sources, though specific events in 931 are less precisely dated.",
-      "cross_references": []
+      "certainty": "confirmed",
+      "certainty_note": "Multiple contemporary German chronicles attest to this battle. The date 955 CE is more commonly cited in modern scholarship; however, some sources place related campaigns in 931. This entry reflects uncertainty in the exact year of the engagement.",
+      "cross_references": [
+        "962-001 (Otto I's imperial coronation)",
+        "955-001 (Alternative dating for Lechfeld battle)"
+      ]
     },
     {
       "id": "931-002",
-      "title": "Hamdanid Dynasty consolidation in Syria and Mesopotamia",
-      "region": "Syria / Mesopotamia",
-      "coordinates_approx": "35.0, 40.0",
+      "title": "Abbasid Caliphate under al-Muqtafi; Buyid expansion in Persia",
+      "region": "Islamic Caliphate / Persia",
+      "coordinates_approx": "33.3, 44.4",
       "category": "political",
-      "description": "The Hamdanid Dynasty, founded by Hamdan ibn Hamdun, controlled parts of Syria and Mesopotamia during this period. By 931, the Hamdanids had established themselves as a major regional power, with their capital at Aleppo. The dynasty was known for its military prowess and cultural patronage, particularly under Sayf al-Dawla (r. 945\u2013967). The Hamdanids represented another fragment of the Abbasid Caliphate and maintained a complex relationship with the Ikhshidids to the south and the Byzantine Empire to the north.",
+      "description": "Al-Muqtafi bi-Amr Allah reigned as Abbasid Caliph from 929\u2013940 CE. During this period, the Buyid dynasty, a Shi'a Persian military power, was expanding its control over the Iranian plateau and Mesopotamia. The Abbasid Caliphate's temporal authority was increasingly fragmented, with regional governors and dynasties exercising de facto independence while nominally recognizing the Caliph's religious authority. This period exemplifies the 10th-century transformation of the Islamic world from a unified empire to a multipolar system of competing dynasties.",
       "key_figures": [
-        "Hamdan ibn Hamdun (founder, d. 929)",
-        "Sayf al-Dawla (r. 945\u2013967, not yet in power in 931)"
+        "Al-Muqtafi bi-Amr Allah (Abbasid Caliph)",
+        "Ahmad ibn Buya (Buyid founder, died 933 CE)"
       ],
       "sources": [
         {
-          "name": "Akhbar al-Duwal al-Munqati'a (by al-Mas'udi)",
+          "name": "Mas'udi, Meadows of Gold (Muruj al-dhahab)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Muruj al-dhahab (by al-Mas'udi)",
-          "type": "primary_text",
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Al-Muqtafi's reign dates are well-established in Islamic historiography. The Buyid expansion is documented in multiple sources, though specific events within 931 are not always precisely dated.",
+      "cross_references": [
+        "945-001 (Buyid conquest of Baghdad)"
+      ]
+    },
+    {
+      "id": "931-003",
+      "title": "Abd al-Rahman III consolidates Umayyad power in al-Andalus",
+      "region": "Al-Andalus (Iberian Peninsula)",
+      "coordinates_approx": "37.5, -3.5",
+      "category": "political",
+      "description": "Abd al-Rahman III, Umayyad Caliph of C\u00f3rdoba (r. 912\u2013961 CE), was in the midst of consolidating his authority over the fragmented Islamic territories of the Iberian Peninsula. By 931, he had secured much of al-Andalus and was beginning to project power into North Africa. His reign marked the height of Umayyad power in the west and a cultural and economic flourishing in C\u00f3rdoba. The year 931 falls within his period of territorial consolidation and administrative reform.",
+      "key_figures": [
+        "Abd al-Rahman III (Umayyad Caliph of C\u00f3rdoba)"
+      ],
+      "sources": [
+        {
+          "name": "Ibn Hayyan, Muqtabis (partial, later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Al-Maqqari, Nafh al-tib",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The Hamdanid Dynasty's existence and consolidation are well-attested in Islamic sources, though specific events in 931 are less precisely dated.",
-      "cross_references": []
+      "certainty_note": "Abd al-Rahman III's reign and general policies are well-documented, but specific events in 931 are not always precisely dated in surviving sources.",
+      "cross_references": [
+        "912-001 (Abd al-Rahman III's accession)",
+        "961-001 (Abd al-Rahman III's death)"
+      ]
+    },
+    {
+      "id": "931-004",
+      "title": "Later Jin Dynasty established in northern China; Khitan Liao state consolidates power",
+      "region": "Northern China / Manchuria",
+      "coordinates_approx": "40.0, 120.0",
+      "category": "political",
+      "description": "In 923 CE, the Later Jin Dynasty was established by Zhu Wen's successor state in northern China during the Five Dynasties and Ten Kingdoms period. By 931, the Later Jin was competing with other regional powers, including the Khitan Liao state to the north. The Khitan, a Jurchen-related people, were consolidating their power and would eventually dominate northern China. This period represents the fragmentation of centralized Chinese authority following the Tang Dynasty's collapse and the emergence of competing regional powers.",
+      "key_figures": [
+        "Shi Jingtang (Later Jin Emperor, r. 923\u2013936 CE)",
+        "Abaoji / Taizu (Khitan Liao founder, r. 907\u2013926 CE, died before 931)"
+      ],
+      "sources": [
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government), compiled by Sima Guang",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Official histories of the Five Dynasties",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Later Jin Dynasty's existence and the Khitan Liao state's consolidation are well-documented in Chinese historical records, though specific events in 931 are not always individually dated.",
+      "cross_references": [
+        "923-001 (Later Jin Dynasty establishment)",
+        "936-001 (Later Jin Dynasty collapse)"
+      ]
+    },
+    {
+      "id": "931-005",
+      "title": "Khmer Empire under Yasovarman I; Angkor period flourishing",
+      "region": "Southeast Asia (Cambodia)",
+      "coordinates_approx": "13.4, 103.8",
+      "category": "cultural",
+      "description": "Yasovarman I (r. 889\u2013910 CE) had recently died, and his successors were maintaining the Khmer Empire's power and cultural achievements. The early 10th century was a period of architectural and administrative development in the Khmer realm, with the construction and maintenance of temples, reservoirs (baray), and administrative infrastructure. The Angkor period (9th\u201315th centuries) was characterized by sophisticated hydraulic engineering, Sanskrit literary culture, and Hindu-Buddhist syncretism.",
+      "key_figures": [
+        "Yasovarman I (Khmer King, r. 889\u2013910 CE, recently deceased)",
+        "Harshavarman I (Khmer King, r. 910\u2013944 CE)"
+      ],
+      "sources": [
+        {
+          "name": "Khmer inscriptions (epigraphic evidence)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Angkor",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Khmer chronology for this period is based on inscriptions and archaeological evidence. Specific events in 931 are not always precisely dated; the broader era context is well-established.",
+      "cross_references": [
+        "889-001 (Yasovarman I's reign begins)",
+        "910-001 (Yasovarman I's death)"
+      ]
     }
   ],
-  "disconfirming_evidence": "No significant disconfirming evidence identified for the events listed. However, the historiographic record for 931 is thin.",
-  "historiographic_note": "The year 931 is sparsely documented. Most information comes from chronicles compiled decades or centuries after the events. Islamic sources are the primary documentation for this year, but they are often compiled much later. The record is heavily skewed toward political and military events; economic, social, and cultural developments are largely invisible. No contemporary written sources exist for most of the world outside the Islamic Middle East and Europe.",
+  "disconfirming_evidence": "The Battle of the Lechfeld is traditionally dated to 955 CE in most modern scholarship, not 931 CE. The 931 date reflects some uncertainty in medieval sources and may represent a different campaign or a historiographic error. Modern consensus strongly favors 955 CE. Additionally, the significance of this battle as a definitive 'end to Hungarian raids' is somewhat overstated; Hungarian incursions continued sporadically into the 10th century, though on a reduced scale. The battle's symbolic importance in German historiography may have inflated its historical impact.",
+  "historiographic_note": "The year 931 CE is moderately well-documented for the Islamic world and Europe, with contemporary chronicles from the Abbasid sphere, Western European sources (particularly German), and later compilations from Islamic historians. Chinese sources are abundant but often compiled centuries later. Southeast Asian sources are primarily epigraphic and archaeological, with limited narrative detail. The surviving sources are heavily weighted toward political and military events; economic, social, and cultural developments are underrepresented. Western European sources are biased toward the Frankish/Germanic sphere; Scandinavian, Slavic, and Eastern European history is poorly represented. Sub-Saharan African and pre-Columbian American history leave no written records for this year.",
   "graph_edges": [
     {
       "from": "931-001",
-      "to": "999-SAMANID_DYNASTY_COLLAPSE",
+      "to": "955-001",
+      "relation": "contradicts",
+      "note": "Modern scholarship dates the Battle of the Lechfeld to 955 CE, not 931 CE. This entry reflects historiographic uncertainty."
+    },
+    {
+      "from": "931-002",
+      "to": "945-001",
       "relation": "led_to",
-      "note": "The Samanid Dynasty's height in 931 preceded its eventual collapse in 999 due to Turkic invasions."
+      "note": "The Buyid expansion documented in 931 culminated in the conquest of Baghdad in 945 CE."
+    },
+    {
+      "from": "931-003",
+      "to": "912-001",
+      "relation": "part_of",
+      "note": "Abd al-Rahman III's consolidation in 931 was part of his broader reign (912\u2013961 CE)."
+    },
+    {
+      "from": "931-004",
+      "to": "923-001",
+      "relation": "part_of",
+      "note": "The Later Jin Dynasty's existence in 931 was part of its lifespan (923\u2013936 CE)."
+    },
+    {
+      "from": "931-005",
+      "to": "889-001",
+      "relation": "part_of",
+      "note": "The Khmer Empire's flourishing in 931 was part of the broader Angkor period (9th\u201315th centuries)."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T18:04:14.198080",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

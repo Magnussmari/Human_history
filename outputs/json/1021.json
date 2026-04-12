@@ -1,26 +1,60 @@
 {
   "year": 1021,
   "year_label": "1021 CE",
-  "era_context": "The early 11th century continues with the Byzantine Empire under Basil II's final years, the Salian dynasty rising to power in the Holy Roman Empire, the Song Dynasty at its height in China, and the Chola Empire dominating South India. This is a period of relative stability in many regions, though underlying tensions between religious and secular authority, between nomadic and settled peoples, and between competing dynasties would intensify in coming decades.",
+  "era_context": "The early 11th century CE spans the High Middle Ages in Europe, the Fatimid Caliphate's zenith in the Mediterranean and Near East, the Song Dynasty's consolidation in China, and the early Chola Empire's expansion in South India. This period marks the transition from early medieval fragmentation toward more centralised state structures, increased long-distance trade, and the maturation of feudal institutions in Western Europe.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (minimal written records)",
-    "Mesoamerica (post-Classic Maya period; limited documentation)",
-    "Southeast Asia (sparse contemporary records)",
-    "Northern Europe beyond the Holy Roman Empire (limited sources)",
-    "Central Asia (limited written records; oral traditions underrepresented)"
+    "Sub-Saharan Africa (limited written sources; archaeological record underexplored in training data)",
+    "Mesoamerica and North America (sparse contemporary documentation)",
+    "Southeast Asia (reliance on later compilations and inscriptions; limited primary texts in Western archives)"
   ],
   "events": [
     {
       "id": "1021-001",
-      "title": "Death of Al-Hakim bi-Amr Allah and succession of Al-Zahir li-Izaz Din Allah",
-      "region": "Fatimid Caliphate, Egypt and Levant",
-      "coordinates_approx": "30.0, 31.0",
+      "title": "Death of Caliph al-Hakim bi-Amr Allah",
+      "region": "Fatimid Caliphate (Egypt, Levant, North Africa)",
+      "coordinates_approx": "30.0444, 31.2357",
       "category": "political",
-      "description": "Al-Hakim bi-Amr Allah, the sixth Fatimid Caliph, died in 1021 after a 25-year reign marked by religious extremism, persecution of Christians and Jews, and erratic governance. He was succeeded by his young son Al-Zahir li-Izaz Din Allah, who would rule for 15 years. Al-Hakim's death marked a turning point in Fatimid history; his successor immediately began reversing many of his father's most extreme policies, restoring normal relations with Christian and Jewish communities, and stabilizing the state. Al-Hakim's reign had been characterized by the destruction of the Church of the Holy Sepulchre in Jerusalem (1009) and the persecution of religious minorities, but his death allowed the Fatimid state to recover from the turmoil of his rule.",
+      "description": "Al-Hakim bi-Amr Allah, the sixth Fatimid caliph, died on 13 February 1021 CE after a reign marked by religious extremism, persecution of Christians and Jews, and the destruction of the Church of the Holy Sepulchre in Jerusalem (1009 CE). His death ended a period of internal instability and eccentric governance. He was succeeded by his young son al-Zahir li-Izaz Din Allah, whose regency was dominated by the eunuch vizier al-Darazi and later by the powerful general Anushtegin. His death marked a turning point toward more pragmatic governance under his successors.",
       "key_figures": [
-        "Al-Hakim bi-Amr Allah (Fatimid Caliph, r. 996\u20131021)",
-        "Al-Zahir li-Izaz Din Allah (Fatimid Caliph, r. 1021\u20131036)"
+        "Al-Hakim bi-Amr Allah (Fatimid Caliph)",
+        "Al-Zahir li-Izaz Din Allah (successor, young son)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Maqrizi, Itti'az al-Hunafa bi-Akhbar al-A'imma al-Khulafa (History of the Fatimid Caliphs)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Ibn al-Athir, Al-Kamil fi al-Tarikh (The Complete History)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Yahya of Antioch, Chronicle (contemporary or near-contemporary)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Death date of 13 February 1021 CE is well-attested in multiple Islamic chronicles and historiographic consensus. Al-Hakim's reign is extensively documented in later Fatimid histories.",
+      "cross_references": [
+        "Relates to 1009-001 (destruction of Church of the Holy Sepulchre)",
+        "Precedes regency crisis of al-Zahir's minority"
+      ]
+    },
+    {
+      "id": "1021-002",
+      "title": "Regency of al-Darazi and political instability in Fatimid Egypt",
+      "region": "Fatimid Caliphate (Egypt)",
+      "coordinates_approx": "30.0444, 31.2357",
+      "category": "political",
+      "description": "Following al-Hakim's death, his young son al-Zahir li-Izaz Din Allah (born 1005 CE) became caliph at age 16. Real power fell to the eunuch vizier al-Darazi and the military strongman Anushtegin. This period saw factional struggles between the palace, the military elite, and the bureaucracy. The regency was marked by administrative instability, competing claims to authority, and the gradual erosion of central control in outlying provinces. These tensions would persist throughout al-Zahir's reign and contributed to the Fatimid Caliphate's eventual decline.",
+      "key_figures": [
+        "Al-Zahir li-Izaz Din Allah (Fatimid Caliph, minor)",
+        "Al-Darazi (eunuch vizier)",
+        "Anushtegin (military commander)"
       ],
       "sources": [
         {
@@ -32,146 +66,176 @@
           "name": "Ibn al-Athir, Al-Kamil fi al-Tarikh",
           "type": "later_compilation",
           "contemporary": false
-        },
-        {
-          "name": "Coptic Christian sources (contemporary accounts of persecution)",
-          "type": "primary_text",
-          "contemporary": true
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "Al-Hakim's death in 1021 is well-documented in Islamic and Christian sources. Al-Zahir's succession is confirmed in contemporary chronicles.",
-      "cross_references": []
-    },
-    {
-      "id": "1021-002",
-      "title": "Basil II's continued dominance of Byzantine Empire",
-      "region": "Byzantine Empire",
-      "coordinates_approx": "39.0, 35.0",
-      "category": "political",
-      "description": "In 1021, Basil II, now in his 60s, remained the dominant figure in the Byzantine Empire. His reign had seen the conquest of Bulgaria, the subjugation of the Caucasus, and the expansion of Byzantine territory to its greatest extent since the Arab conquests. Basil's authority was unchallenged within the empire, and his military campaigns had earned him the epithet 'Bulgar-Slayer.' In his final years, Basil focused on consolidating these gains and ensuring the stability of the empire's borders. His reign represented the height of Byzantine power and influence in the Eastern Mediterranean.",
-      "key_figures": [
-        "Basil II (Byzantine Emperor, r. 976\u20131025)"
-      ],
-      "sources": [
-        {
-          "name": "Skylitzes, Synopsis Historiarum",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Psellos, Chronographia",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Basil II's dominance of the Byzantine Empire in 1021 is well-documented in Byzantine sources.",
-      "cross_references": []
+      "certainty": "probable",
+      "certainty_note": "The broad outlines of regency politics are attested in multiple sources, though specific events and dates within 1021 are sometimes conflated with adjacent years in later compilations.",
+      "cross_references": [
+        "Part of broader Fatimid political fragmentation in early 11th century"
+      ]
     },
     {
       "id": "1021-003",
-      "title": "Song Dynasty consolidation and administrative reform",
-      "region": "Song Dynasty, China",
-      "coordinates_approx": "34.0, 108.0",
-      "category": "political",
-      "description": "In 1021, the Song Dynasty under the regency of Empress Liu continued its administrative consolidation and economic expansion. The Song had developed a sophisticated civil service examination system that selected officials based on merit rather than aristocratic birth. This system allowed the Song to maintain a highly educated and efficient bureaucracy. The Song Dynasty's administrative innovations included the development of a complex system of checks and balances that prevented any single official from accumulating too much power. The Song's administrative system became a model for later dynasties and represented a significant advancement in governmental organization.",
+      "title": "Completion of the Brihadesvara Temple, Thanjavur",
+      "region": "Chola Empire (South India, Tamil Nadu)",
+      "coordinates_approx": "10.7870, 79.1378",
+      "category": "cultural",
+      "description": "The Brihadesvara Temple (also called Rajarajesvara Temple) in Thanjavur was completed under the patronage of the Chola emperor Rajendra I (r. 1014\u20131044 CE). This monumental Hindu temple, dedicated to Shiva, stands as one of the finest examples of Dravidian architecture. Its 216-foot granite tower (vimana) was the tallest structure in South Asia at the time. The temple's construction reflects the Chola Empire's wealth, artistic sophistication, and religious patronage during its imperial zenith. The temple remains a UNESCO World Heritage Site and continues to function as an active place of worship.",
       "key_figures": [
-        "Emperor Shenzong (nominal ruler, but still a child)",
-        "Empress Liu (regent)"
+        "Rajendra I (Chola Emperor)",
+        "Rajaraja I (predecessor; initiated construction)"
       ],
       "sources": [
         {
-          "name": "Zizhi Tongjian",
-          "type": "chronicle",
-          "contemporary": false
+          "name": "Archaeological evidence and temple inscriptions (Tamil and Sanskrit epigraphs)",
+          "type": "epigraphic",
+          "contemporary": true
         },
         {
-          "name": "Song Shi",
+          "name": "Chola-period copper-plate grants and administrative records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Later Tamil literary sources (Periya Puranam, Tirukkural commentaries)",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "General trajectory of Song administrative consolidation is well-documented; specific events of 1021 are less precisely dated.",
-      "cross_references": []
+      "certainty_note": "The temple's completion date is traditionally assigned to 1010 CE (some sources) or 1021 CE (others). Epigraphic evidence and architectural analysis support completion in the early 1010s\u20131020s CE. The exact year remains debated among scholars, but 1021 CE is a reasonable approximation within the reign of Rajendra I.",
+      "cross_references": [
+        "Part of Chola cultural and religious patronage under Rajendra I",
+        "Reflects broader South Indian temple-building tradition"
+      ]
     },
     {
       "id": "1021-004",
-      "title": "Rajendra I's consolidation of Chola power",
-      "region": "Chola Empire, South India",
-      "coordinates_approx": "10.78, 79.13",
-      "category": "political",
-      "description": "Rajendra I, who had succeeded his father Rajaraja I in 1014, continued the consolidation of Chola power in South India. By 1021, Rajendra had established the Chola Empire as the dominant force in South India and had extended Chola influence into Southeast Asia through naval expeditions. Rajendra's reign saw the peak of Chola military and naval power. His administrative reforms strengthened the Chola state and made it one of the most powerful and prosperous kingdoms in South Asia. Rajendra's patronage of temples and arts continued the cultural flowering that had begun under his father.",
+      "title": "Rajendra I's Chola naval expansion and Gangaikonda Cholapuram campaign",
+      "region": "Chola Empire (South India, Bay of Bengal)",
+      "coordinates_approx": "11.5, 79.5",
+      "category": "military",
+      "description": "Rajendra I (r. 1014\u20131044 CE) conducted major military campaigns in the early 1020s CE, including naval expeditions to the Maldives, Sri Lanka, and possibly the Andaman Islands. These campaigns expanded Chola maritime dominance in the Indian Ocean and secured trade routes. Rajendra I also campaigned northward into the Deccan and Gangetic plains, earning the title 'Gangaikonda' (conqueror of the Ganges). He founded the new capital city Gangaikonda Cholapuram to commemorate these victories. These campaigns established the Chola Empire as the dominant maritime and military power in South Asia during the 11th century.",
       "key_figures": [
-        "Rajendra I (Chola Emperor, r. 1014\u20131044)"
+        "Rajendra I (Chola Emperor)",
+        "Chola naval commanders and generals"
       ],
       "sources": [
         {
-          "name": "Chola inscriptions and temple records",
+          "name": "Chola copper-plate grants and inscriptions (Tamil and Sanskrit)",
           "type": "epigraphic",
           "contemporary": true
         },
         {
-          "name": "Archaeological evidence from Chola-era sites",
-          "type": "archaeological",
+          "name": "Rajendra I's own inscriptions and royal records",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Later Tamil literary sources (Periya Puranam, Chola-period poetry)",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "General trajectory of Rajendra I's reign is documented in inscriptions; specific events of 1021 are less precisely dated.",
-      "cross_references": []
+      "certainty_note": "The broad scope of Rajendra I's campaigns is well-attested in epigraphic sources. The exact chronology of individual campaigns within his reign (1014\u20131044 CE) is less certain; campaigns are often dated to the 1010s\u20131020s CE based on inscriptional evidence and later literary accounts.",
+      "cross_references": [
+        "Part of Chola imperial expansion under Rajendra I",
+        "Precedes foundation of Gangaikonda Cholapuram"
+      ]
     },
     {
       "id": "1021-005",
-      "title": "Henry III's death and succession crisis in Holy Roman Empire",
-      "region": "Holy Roman Empire / Germany",
-      "coordinates_approx": "50.0, 10.0",
+      "title": "Song Dynasty consolidation and administrative reforms under Emperor Zhenzong",
+      "region": "Song Dynasty (China)",
+      "coordinates_approx": "34.3416, 108.9398",
       "category": "political",
-      "description": "Henry III, the last of the Ottonian line of Holy Roman Emperors, died in 1021 or 1022 (sources vary on the exact date). His death created a succession crisis in the Holy Roman Empire, as there was no clear heir from the Ottonian dynasty. The German princes elected Henry II, Duke of Bavaria, as the new King of Germany. Henry II's election marked the beginning of the Salian dynasty's rule in the Holy Roman Empire. The succession was contested by some German nobles, but Henry II ultimately secured his position through military strength and diplomatic skill. His election represented a significant shift in the balance of power within the Holy Roman Empire.",
+      "description": "Emperor Zhenzong of Song (r. 997\u20131022 CE) continued the administrative consolidation of the Song Dynasty in the early 1020s CE. His reign saw the refinement of the civil service examination system, the expansion of the imperial bureaucracy, and efforts to centralise military authority under civilian control. Zhenzong also pursued diplomatic relations with the Liao Dynasty (Khitan) to the north, culminating in the Treaty of Shanyuan (1005 CE), which established a fragile peace and regular tribute payments. By 1021 CE, the Song Dynasty had achieved unprecedented administrative sophistication and economic integration, laying the foundation for the Song's cultural and technological flourishing in the 11th century.",
       "key_figures": [
-        "Henry III (Holy Roman Emperor, r. 1002\u20131024)",
-        "Henry II (future Holy Roman Emperor, r. 1024\u20131025)"
+        "Emperor Zhenzong of Song (r. 997\u20131022 CE)",
+        "Cao Bin (military general and reformer, died 1015 CE)",
+        "Wang Qinruo (chancellor and scholar)"
       ],
       "sources": [
         {
-          "name": "Thietmar of Merseburg, Chronicon",
-          "type": "chronicle",
-          "contemporary": true
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government) by Sima Guang",
+          "type": "later_compilation",
+          "contemporary": false
         },
         {
-          "name": "Annales Altahenses Maiores",
-          "type": "chronicle",
+          "name": "Song Shi (History of the Song Dynasty)",
+          "type": "later_compilation",
           "contemporary": false
+        },
+        {
+          "name": "Official Song court records and administrative documents",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "Henry III's death is traditionally dated to 1024, but some sources place it in 1021 or 1022. The exact date is uncertain.",
+      "certainty": "confirmed",
+      "certainty_note": "Song Dynasty administrative history is extensively documented in official histories and court records. Zhenzong's reign and policies are well-attested in multiple sources.",
       "cross_references": [
-        "1022-002"
+        "Part of broader Song Dynasty consolidation (960\u20131279 CE)",
+        "Precedes Zhenzong's death in 1022 CE"
+      ]
+    },
+    {
+      "id": "1021-006",
+      "title": "Byzantine-Arab frontier conflicts and Basil II's military campaigns",
+      "region": "Byzantine Empire and Arab Caliphates (Eastern Mediterranean, Anatolia)",
+      "coordinates_approx": "39.0, 35.0",
+      "category": "military",
+      "description": "In the early 1020s CE, the Byzantine Empire under Emperor Basil II (r. 976\u20131025 CE) continued military campaigns against Arab forces in Mesopotamia and Syria, as well as against the Fatimid Caliphate. Basil II's reign was marked by aggressive military expansion and the reconquest of lost territories. By 1021 CE, Basil II was in his late 60s and nearing the end of his reign, but Byzantine forces remained active in frontier warfare. These campaigns contributed to Byzantine military dominance in the eastern Mediterranean during the early 11th century, though they also strained the empire's resources.",
+      "key_figures": [
+        "Emperor Basil II (r. 976\u20131025 CE)",
+        "Byzantine military commanders"
+      ],
+      "sources": [
+        {
+          "name": "Skylitzes, Synopsis Historiarum (Byzantine chronicle)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Psellos, Chronographia (Byzantine history)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Byzantine administrative records and military documents",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Basil II's military campaigns are well-documented in Byzantine sources, though specific events in 1021 CE are sometimes conflated with adjacent years. The broad pattern of frontier warfare is confirmed.",
+      "cross_references": [
+        "Part of Basil II's reign (976\u20131025 CE)",
+        "Precedes Basil II's death in 1025 CE"
       ]
     }
   ],
-  "disconfirming_evidence": "The traditional dating of Henry III's death is disputed; most sources place it in 1024, not 1021. The characterization of Al-Hakim bi-Amr Allah's reign as uniformly 'erratic' has been challenged by modern scholarship, which suggests his policies were more systematically motivated by theological and political considerations. The extent of Rajendra I's naval expeditions to Southeast Asia is sometimes overstated in popular accounts; the Chola presence in Southeast Asia was primarily commercial rather than military.",
-  "historiographic_note": "Documentation for 1021 is similar to previous years: heavily weighted toward Mediterranean and East Asian sources, with limited documentation from other regions. The sources are predominantly elite-focused and may underrepresent economic and social conditions. Islamic sources from this period are often written significantly after the events they describe and may reflect later editorial choices. Byzantine sources are similarly affected by retrospective compilation. Chinese sources are more contemporary but still reflect court-centered perspectives.",
+  "disconfirming_evidence": "The traditional dating of the Brihadesvara Temple's completion to 1010 CE (some sources) versus 1021 CE (others) reflects ongoing scholarly debate. Some epigraphic evidence and architectural analysis suggest completion in the early 1010s rather than 1021 CE. Additionally, the exact chronology of Rajendra I's campaigns is debated; some scholars place major campaigns earlier in his reign (1014\u20131020 CE) rather than in 1021 CE specifically. The regency politics of the Fatimid Caliphate under al-Zahir are sometimes conflated with events of adjacent years in later compilations, making precise dating difficult.",
+  "historiographic_note": "The historical record for 1021 CE is moderately rich for the Islamic world, Byzantine Empire, and Song Dynasty China, where official chronicles and administrative records are abundant. South Indian history relies heavily on epigraphic evidence (temple inscriptions and copper-plate grants), which is generally reliable but sometimes ambiguous regarding exact dates. Western European history for this year is sparse in surviving documentation; monastic chronicles are the primary sources. Sub-Saharan Africa, Mesoamerica, and Southeast Asia are underrepresented in the surviving record. The sources for this year are biased toward elite political and military history; economic, social, and cultural history of non-elite populations is largely absent.",
   "graph_edges": [
     {
       "from": "1021-001",
-      "to": "1023-005",
+      "to": "1022-001",
       "relation": "led_to",
-      "note": "Al-Hakim's death and Al-Zahir's succession led to the stabilization of Fatimid Egypt in the following years"
+      "note": "Al-Hakim's death in 1021 CE directly led to the regency crisis and succession of al-Zahir in early 1021 CE"
+    },
+    {
+      "from": "1021-003",
+      "to": "1021-004",
+      "relation": "contemporary_with",
+      "note": "Brihadesvara Temple completion and Rajendra I's military campaigns occurred during the same period of Chola imperial expansion"
     },
     {
       "from": "1021-005",
-      "to": "1024-002",
+      "to": "1022-001",
       "relation": "led_to",
-      "note": "Henry III's death led to Henry II's election and eventual coronation as Holy Roman Emperor in 1024"
+      "note": "Zhenzong's administrative consolidation in 1021 CE preceded his death in 1022 CE and the succession of Emperor Shenzong"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:37:26.718506",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

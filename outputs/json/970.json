@@ -1,198 +1,162 @@
 {
   "year": 970,
   "year_label": "970 CE",
-  "era_context": "The late 10th century CE, a period of dynastic consolidation and military expansion across Eurasia. The Holy Roman Empire under Otto I was at the height of its power and territorial extent. The Byzantine Empire was experiencing the Macedonian Renaissance under John I Tzimiskes. The Abbasid Caliphate had fragmented into competing regional powers, with the Fatimids and Buyids as major players. In East Asia, the Northern Song Dynasty was consolidating control over China. This was a period of significant military activity, cultural flourishing, and dynastic consolidation across multiple civilisations.",
+  "era_context": "The late 10th century CE: Byzantine military resurgence under the Macedonian Renaissance; Fatimid Caliphate at its zenith in Egypt and the Levant; the Song Dynasty consolidating control over China; the Ottonian Holy Roman Empire expanding in Central Europe; Scandinavian Christianization accelerating; the Chola Dynasty dominant in South India. This was an era of relative political stability in major civilizations, though regional conflicts and religious transformations were ongoing.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
     "Sub-Saharan Africa (limited written sources)",
-    "Southeast Asia (sparse contemporary documentation)",
-    "Americas (no written records)"
+    "Pre-Columbian Americas (no Old World written records)",
+    "Central Asian steppes (sparse documentation)",
+    "Southeast Asia (limited contemporary written sources in training data)"
   ],
   "events": [
     {
       "id": "970-001",
-      "title": "Byzantine military campaign in Anatolia and the Caucasus under John I Tzimiskes",
-      "region": "Byzantine Empire, Anatolia, Caucasus",
-      "coordinates_approx": "39.0, 35.0",
+      "title": "Byzantine Levantine Campaign Continues",
+      "region": "Syria / Byzantine Empire",
+      "coordinates_approx": "35.5\u00b0N, 36.5\u00b0E",
       "category": "military",
-      "description": "John I Tzimiskes (ruled 969\u2013976) was the Byzantine Emperor and was actively engaged in military campaigns to expand Byzantine control in Anatolia and the Caucasus. In 970, John I was conducting campaigns against the Rus' and other regional powers. These campaigns were part of the broader Byzantine expansion during the Macedonian Renaissance. The year 970 represents a phase of active military engagement in the eastern Mediterranean and the Black Sea region.",
+      "description": "Emperor John I Tzimiskes continued his military campaigns in the Levant, consolidating Byzantine gains and pushing further into northern Syria. These campaigns were part of a sustained Byzantine offensive that would culminate in the capture of Antioch (dated variously to 969\u2013971 CE). The campaigns represented the height of Byzantine military power in the eastern Mediterranean during the 10th century.",
       "key_figures": [
-        "John I Tzimiskes (Byzantine Emperor, ruled 969\u2013976)",
-        "Basil II (co-emperor)",
-        "Vladimir I of Kiev (Rus' prince, would convert to Christianity in 988)"
+        "John I Tzimiskes (Byzantine Emperor)",
+        "Nikephoros II Phokas (predecessor, whose campaigns Tzimiskes continued)"
       ],
       "sources": [
         {
-          "name": "John Skylitzes, Synopsis Historiarum",
-          "type": "chronicle",
+          "name": "Skylitzes, Synopsis Historiarum",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Constantine VII Porphyrogennetus, De Administrando Imperio",
-          "type": "primary_text",
-          "contemporary": false
-        },
-        {
-          "name": "Primary Chronicle (Povest' vremennykh let)",
+          "name": "Yahya of Antioch, History",
           "type": "chronicle",
-          "contemporary": false
+          "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The broader context of Byzantine military campaigns is well-documented, but specific events in 970 are less precisely dated. The year is assigned by historiographic convention within the campaign sequence.",
+      "certainty_note": "The broader campaign is well-attested; specific events in 970 CE are less precisely dated. The chronology of Tzimiskes' Levantine campaigns spans 969\u2013976 CE with some uncertainty in year-by-year attribution.",
       "cross_references": [
-        "988-001 (Christianisation of Rus' under Vladimir I)"
+        "971-001 (Antioch conquest, likely outcome of this campaign)",
+        "969-002 (Nikephoros II's earlier campaigns)"
       ]
     },
     {
       "id": "970-002",
-      "title": "Holy Roman Empire under Otto I; diplomatic relations with the papacy",
-      "region": "Holy Roman Empire, Papal States, Italy",
-      "coordinates_approx": "50.5, 10.0",
-      "category": "political",
-      "description": "Otto I, the Holy Roman Emperor, was managing diplomatic relations with the papacy and consolidating imperial authority in Italy. In 970, Otto I was in the final years of his reign and was ensuring the stability of his empire. His relationship with the papacy was complex, involving both cooperation and conflict over the control of the Church and Italian territories. The year 970 represents a period of stable imperial rule and diplomatic activity.",
-      "key_figures": [
-        "Otto I (Holy Roman Emperor, ruled 962\u2013973)",
-        "Pope John XIII (ruled 965\u2013972)"
-      ],
-      "sources": [
-        {
-          "name": "Thietmar of Merseburg, Chronicon",
-          "type": "chronicle",
-          "contemporary": false
-        },
-        {
-          "name": "Liudprand of Cremona, Historia Ottonis",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Otto I's reign and his diplomatic relations with the papacy are well-documented in contemporary and near-contemporary sources.",
-      "cross_references": [
-        "962-001 (Otto I's coronation as Holy Roman Emperor)"
-      ]
-    },
-    {
-      "id": "970-003",
-      "title": "Northern Song Dynasty; military campaigns in southern China",
-      "region": "China, East Asia",
-      "coordinates_approx": "34.3, 108.9",
+      "title": "Song Dynasty Consolidation: Conquest of Wuyue",
+      "region": "China / Wuyue Kingdom",
+      "coordinates_approx": "30.3\u00b0N, 120.2\u00b0E",
       "category": "military",
-      "description": "The Northern Song Dynasty under Emperor Taizu (Zhao Kuangyin) was actively engaged in military campaigns to consolidate control over southern China. In 970, the Song were conducting campaigns against the remaining independent southern kingdoms. These military campaigns were part of the broader process of unifying China under Song rule. The year 970 represents a critical phase in the military consolidation of the Song Dynasty.",
+      "description": "The Song Dynasty, under Emperor Taizu, conquered the Wuyue kingdom in the Yangtze River Delta region. This was a crucial step in Song reunification, bringing the wealthy and economically advanced Wuyue territories under Song control. The conquest was largely peaceful, with the Wuyue ruler surrendering to avoid destruction. This region would become one of the most economically productive areas of the Song Empire.",
       "key_figures": [
-        "Zhao Kuangyin / Emperor Taizu (Northern Song founder and emperor)",
-        "Zhao Guangyi / Emperor Taizong (brother and heir)"
+        "Song Taizu (Song Emperor)",
+        "Qian Shu (Wuyue ruler, surrendered)"
       ],
       "sources": [
         {
-          "name": "Sima Guang, Zizhi Tongjian",
-          "type": "chronicle",
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
           "name": "Song Shi (History of the Song Dynasty)",
-          "type": "later_compilation",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Song Dynasty military campaigns and the unification of China are well-documented in official histories. The chronology of campaigns is reliable.",
+      "certainty_note": "The conquest of Wuyue is well-documented in Chinese historical records. The date 970 CE is the conventional assignment in modern scholarship.",
       "cross_references": [
         "960-001 (Song Dynasty founding)",
-        "979-001 (Final unification of China under Song)"
+        "971-003 (Southern Han conquest)",
+        "975-001 (Southern Tang conquest)"
       ]
     },
     {
-      "id": "970-004",
-      "title": "Fatimid Caliphate under Al-Muizz; expansion of territorial control",
-      "region": "Fatimid Caliphate, Egypt, North Africa, Mediterranean",
-      "coordinates_approx": "30.0, 31.2",
-      "category": "political",
-      "description": "Al-Muizz (ruled 953\u2013975) was the Fatimid Caliph and was actively expanding Fatimid territorial control and political influence. In 970, the Fatimid Caliphate controlled Egypt, North Africa, Sicily, and parts of the Levant, making it a major Mediterranean and Islamic power. Al-Muizz was consolidating Fatimid authority and expanding trade networks. The year 970 represents a period of Fatimid political and economic expansion.",
+      "id": "970-003",
+      "title": "Christianization of Poland: Baptism of Mieszko I",
+      "region": "Poland / Central Europe",
+      "coordinates_approx": "52.2\u00b0N, 21.0\u00b0E",
+      "category": "religious",
+      "description": "Mieszko I, Duke of Poland, was baptized into Christianity, marking the formal Christianization of Poland. This event was politically motivated\u2014Mieszko sought to align Poland with Western Christendom and to secure his position against rivals. The baptism led to the rapid spread of Christianity throughout Poland and the integration of Poland into the Western European political and cultural sphere. This was a transformative moment for Central European history.",
       "key_figures": [
-        "Al-Muizz (Fatimid Caliph, ruled 953\u2013975)"
+        "Mieszko I (Duke of Poland)",
+        "Dobrawa of Bohemia (wife, Christian influence)",
+        "Pope John XIII (ecclesiastical authority)"
       ],
       "sources": [
         {
-          "name": "Ibn al-Athir, Complete History",
-          "type": "chronicle",
+          "name": "Thietmar of Merseburg, Chronicon (early 11th century chronicle)",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Al-Mas'udi, Meadows of Gold",
-          "type": "primary_text",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Fatimid dynastic history and the territorial expansion of the Caliphate are well-documented in Islamic historiography.",
-      "cross_references": [
-        "971-004 (Fatimid cultural patronage)"
-      ]
-    },
-    {
-      "id": "970-005",
-      "title": "Khazar Khaganate decline; Rus' expansion in the Black Sea region",
-      "region": "Khazar Khaganate, Rus', Black Sea region",
-      "coordinates_approx": "45.0, 45.0",
-      "category": "political",
-      "description": "The Khazar Khaganate, a major power in the Black Sea and Caucasus region, was in decline in 970. The rise of the Rus' principalities, particularly Kiev under Vladimir I, was challenging Khazar authority. In 970, the Khazars were losing control over their traditional territories and trade routes. The year 970 represents a critical phase in the transition of power in the Black Sea region from the Khazars to the Rus'. This process would culminate in the Christianisation of Rus' in 988 and the final decline of the Khazar Khaganate.",
-      "key_figures": [
-        "Vladimir I of Kiev (Rus' prince)",
-        "Khazar Khagan (identity uncertain)"
-      ],
-      "sources": [
-        {
-          "name": "Primary Chronicle (Povest' vremennykh let)",
-          "type": "chronicle",
+          "name": "Gallus Anonymus, Gesta Polonorum (12th century Polish chronicle)",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "John Skylitzes, Synopsis Historiarum",
-          "type": "chronicle",
+          "name": "Historiographic consensus from Polish medieval studies",
+          "type": "historiographic_consensus",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The decline of the Khazar Khaganate and the rise of the Rus' are well-documented in later chronicles, but the precise chronology of events in 970 is less certain. The year is assigned by historiographic convention within the broader process of transition.",
+      "certainty_note": "The baptism of Mieszko I is traditionally dated to 966 CE in some sources and 970 CE in others. Modern scholarship (e.g., Gieysztor) tends toward 966 CE, making the assignment to 970 CE disputed. The event itself is confirmed; the precise year is uncertain by \u00b14 years.",
       "cross_references": [
-        "988-001 (Christianisation of Rus')"
+        "966-001 (Alternative dating for Mieszko's baptism)",
+        "1000-001 (Establishment of Polish archbishopric)"
+      ]
+    },
+    {
+      "id": "970-004",
+      "title": "Fatimid Naval Expansion in the Mediterranean",
+      "region": "Egypt / Mediterranean / Fatimid Caliphate",
+      "coordinates_approx": "31.2\u00b0N, 29.9\u00b0E",
+      "category": "military",
+      "description": "The Fatimid Caliphate, under Caliph Al-Aziz Billah, expanded its naval power in the Mediterranean, challenging Byzantine naval dominance and protecting Fatimid trade routes. The Fatimid fleet was one of the most powerful in the Mediterranean during this period, and its expansion reflected the Caliphate's economic and military strength.",
+      "key_figures": [
+        "Al-Aziz Billah (Fatimid Caliph)",
+        "Gawhar al-Siqilli (Fatimid admiral and general)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Maqrizi, Itti'az al-Hunafa",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Historiographic consensus from Fatimid naval studies",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Fatimid naval expansion is well-documented in the broader context of the late 10th century; specific events in 970 CE are less precisely dated. This entry reflects the general trajectory of Fatimid naval power during this decade.",
+      "cross_references": [
+        "969-001 (Fatimid consolidation in Egypt)"
       ]
     }
   ],
-  "disconfirming_evidence": "The characterisation of 970 as a turning point in Byzantine-Rus' relations is somewhat overstated. While John I Tzimiskes was conducting military campaigns in the region, the actual impact on Rus' political development was limited. The Christianisation of Rus' in 988 is often portrayed as a direct result of Byzantine military pressure, but modern scholarship suggests that internal Rus' political dynamics and economic factors were equally important. Additionally, the decline of the Khazar Khaganate is sometimes portrayed as a sudden collapse, but it was actually a gradual process spanning several decades.",
-  "historiographic_note": "The historical record for 970 CE is moderate in quality. Byzantine, European, and Chinese sources provide good documentation of political and military events. However, the record is heavily weighted toward elite political and military history. Economic, social, and cultural history are underrepresented. Many sources were written decades or centuries after the events, introducing potential distortions. The sources themselves often reflect the biases of their authors and patrons. Archaeological evidence is limited and unevenly distributed geographically. The record for the Khazar Khaganate and the Rus' principalities is less detailed than for Europe, Byzantium, and China, and much of what we know comes from later chronicles rather than contemporary sources.",
+  "disconfirming_evidence": "The baptism of Mieszko I is traditionally dated to 966 CE in many modern sources (e.g., Gieysztor, Manteuffel), not 970 CE. The assignment to 970 CE is based on some medieval chronicles but is disputed by contemporary scholarship. The dating of specific Byzantine campaigns in 970 CE is uncertain; the broader campaign is confirmed, but year-by-year attribution is problematic.",
+  "historiographic_note": "The historical record for 970 CE is dominated by Byzantine, Western European, and Chinese sources. Arab and Islamic sources are well-preserved but often compiled centuries later. The baptism of Mieszko I is attested in later chronicles (11th\u201312th century) rather than contemporary sources, introducing dating uncertainty. Polish medieval history is heavily influenced by later nationalist historiography, which may have shaped the dating and significance of Christianization. Byzantine sources emphasize military campaigns; Chinese sources emphasize administrative consolidation. Sub-Saharan African, American, and Central Asian histories remain largely absent from contemporary written records.",
   "graph_edges": [
     {
       "from": "970-001",
-      "to": "988-001",
+      "to": "971-001",
       "relation": "led_to",
-      "note": "Byzantine military campaigns in 970 contributed to the conditions that led to the Christianisation of Rus' in 988"
+      "note": "Tzimiskes' 970 campaign led to the conquest of Antioch in 971"
     },
     {
       "from": "970-002",
-      "to": "973-001",
-      "relation": "led_to",
-      "note": "Otto I's consolidation of imperial authority in 970 was followed by his death and Otto II's succession in 973"
+      "to": "971-003",
+      "relation": "part_of",
+      "note": "Wuyue conquest is part of broader Song reunification"
     },
     {
       "from": "970-003",
-      "to": "960-001",
-      "relation": "part_of",
-      "note": "Song Dynasty military campaigns in 970 were part of the broader unification process begun in 960"
-    },
-    {
-      "from": "970-005",
-      "to": "988-001",
+      "to": "1000-001",
       "relation": "led_to",
-      "note": "The decline of the Khazar Khaganate in 970 contributed to the rise of Rus' and the Christianisation of Rus' in 988"
+      "note": "Mieszko's baptism led to the establishment of the Polish archbishopric in 1000 CE"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:52:54.802947",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

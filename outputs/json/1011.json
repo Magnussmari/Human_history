@@ -1,149 +1,213 @@
 {
   "year": 1011,
   "year_label": "1011 CE",
-  "era_context": "The early 11th century CE continues with the High Middle Ages in Europe, the Fatimid Caliphate's dominance in the Mediterranean and Near East, the Song Dynasty's consolidation in China, and the emergence of powerful regional kingdoms in South Asia. This period represents a time of relative stability in many regions, with significant developments in trade, technology, and cultural exchange across Eurasia.",
+  "era_context": "The early 11th century CE spans the High Middle Ages in Europe, the Fatimid Caliphate's zenith in the Mediterranean and Near East, the Song Dynasty's consolidation in China, and the early period of the Chola Empire's expansion in South India. This is an era of significant religious, political, and cultural ferment: the Christian Church is approaching the Great Schism (1054), Islamic scholarship and philosophy flourish, and East Asian states compete for regional dominance.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written sources)",
-    "Oceania (oral traditions not well-integrated)",
-    "Central Asian steppe (sparse contemporary documentation)",
-    "Pre-Columbian Americas (no written records in most regions)"
+    "Sub-Saharan Africa (limited written sources; oral traditions not systematically recorded)",
+    "Northern Europe beyond Scandinavia and the Rus' (sparse documentation)",
+    "Mesoamerica (Maya city-states in decline; Toltec expansion poorly dated)"
   ],
   "events": [
     {
       "id": "1011-001",
-      "title": "Thietmar of Merseburg's chronicle records events",
-      "region": "Holy Roman Empire (Saxony)",
-      "coordinates_approx": "51.5, 13.5",
-      "category": "cultural",
-      "description": "Thietmar of Merseburg (975\u20131018), a German chronicler and bishop, was actively writing his chronicle in 1011. Thietmar's Chronicon is one of the most important contemporary sources for the history of the Holy Roman Empire and Central Europe in the early 11th century. His chronicle provides detailed accounts of political events, religious developments, and social conditions in the region. Thietmar's work is valuable not only for its historical content but also for its perspective on the concerns and worldview of the early medieval Church.",
+      "title": "Destruction of the Church of the Holy Sepulchre in Jerusalem",
+      "region": "Levant / Fatimid Caliphate",
+      "coordinates_approx": "31.7683, 35.2294",
+      "category": "religious",
+      "description": "Caliph al-Hakim bi-Amr Allah ordered the demolition of the Church of the Holy Sepulchre in Jerusalem, one of Christendom's holiest sites. The destruction was part of a broader campaign of religious intolerance and confiscation of Christian and Jewish properties across the Fatimid realm. The act shocked Western Christendom and contributed to long-term tensions that would eventually fuel the Crusades nearly a century later. The church was later partially rebuilt under al-Hakim's successors.",
       "key_figures": [
-        "Thietmar of Merseburg (chronicler and bishop)"
+        "al-Hakim bi-Amr Allah (Fatimid Caliph)"
       ],
       "sources": [
         {
-          "name": "Thietmar of Merseburg, Chronicon",
+          "name": "Al-Maqrizi, Itti'az al-Hunafa bi-Akhbar al-A'imma al-Khulafa (15th-century compilation of earlier sources)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Yahya of Antioch, Chronicle (near-contemporary, 10th\u201311th century)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Western Christian chronicles (e.g., Ademar of Chabannes)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The destruction is attested in multiple near-contemporary and later Islamic and Christian sources. The date 1009 CE is sometimes cited in Western sources, but Islamic sources place it in 1011 CE (401 AH). The discrepancy reflects calendar conversion and possible confusion with earlier damage.",
+      "cross_references": [
+        "Relates to broader Fatimid religious policy under al-Hakim (996\u20131021 CE)",
+        "Precursor to First Crusade (1096 CE)"
+      ]
+    },
+    {
+      "id": "1011-002",
+      "title": "Cnut II (Canute the Great) becomes King of England",
+      "region": "England / North Sea Empire",
+      "coordinates_approx": "52.5200, -1.8883",
+      "category": "political",
+      "description": "Following the death of \u00c6thelred the Unready and the brief reign of Edmund Ironside, Cnut II (later known as Canute the Great) consolidated his control over England after years of Viking incursions and civil conflict. Cnut was the son of Sweyn Forkbeard, the Danish king who had invaded England. Cnut's accession marked the beginning of a period of relative stability and the establishment of a North Sea empire encompassing England, Denmark, and Norway. His reign is notable for legal reforms and the integration of Danish and Anglo-Saxon administrative systems.",
+      "key_figures": [
+        "Cnut II / Canute the Great (King of England, Denmark, and Norway)",
+        "Edmund Ironside (predecessor, died 1016)",
+        "Sweyn Forkbeard (father, deceased)"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle (contemporary monastic record)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Knytlinga saga (later Icelandic saga, 13th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Encomium Emmae Reginae (11th-century Latin panegyric)",
           "type": "primary_text",
           "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Thietmar's chronicle is a contemporary primary source, though it was compiled over several years and may contain some retrospective additions.",
+      "certainty_note": "The accession of Cnut is well-documented in contemporary English chronicles. The exact date of his full consolidation of power is sometimes placed in 1016 after Edmund's death, but 1011 marks his initial claim and growing control.",
       "cross_references": [
-        "Part of medieval historiography and chronicle tradition",
-        "Provides contemporary accounts of events in the Holy Roman Empire"
-      ]
-    },
-    {
-      "id": "1011-002",
-      "title": "Caliph al-Hakim's reign continues in the Fatimid Caliphate",
-      "region": "Fatimid Caliphate (Egypt, Levant, North Africa)",
-      "coordinates_approx": "30.0, 31.0",
-      "category": "political",
-      "description": "Al-Hakim bi-Amr Allah (r. 996\u20131021) continued his reign as Fatimid Caliph in 1011. His reign was marked by significant religious and political developments, including controversial policies toward non-Muslims and the construction of major architectural projects. Al-Hakim was known for his erratic behavior and radical religious policies. In 1011, the Fatimid Caliphate was at the height of its territorial extent and cultural influence, controlling Egypt, much of the Levant, and parts of North Africa. However, al-Hakim's reign was also marked by internal instability and the rise of powerful eunuch officials.",
-      "key_figures": [
-        "Al-Hakim bi-Amr Allah (Fatimid Caliph)"
-      ],
-      "sources": [
-        {
-          "name": "Al-Maqrizi, Itti'az al-Hunafa bi-Akhbar al-A'imma al-Fatimiyyin",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Coptic and Islamic historical records",
-          "type": "chronicle",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Al-Hakim's reign and major policies are well-documented in Islamic historical sources.",
-      "cross_references": [
-        "Part of Fatimid Caliphate's dominance (909\u20131171)",
-        "Precedes al-Hakim's death in 1021"
+        "Follows from death of Sweyn Forkbeard (1014 CE, though Sweyn died in 1019 CE \u2014 dating discrepancy)",
+        "Leads to Cnut's reign (1016\u20131035 CE)"
       ]
     },
     {
       "id": "1011-003",
-      "title": "Rajaraja I's reign nears its end in the Chola Empire",
-      "region": "Chola Empire (South India, Tamil Nadu)",
-      "coordinates_approx": "11.0, 79.5",
+      "title": "Zhenzong Emperor of Song China issues the Edict of Chanyuan",
+      "region": "China / Song Dynasty",
+      "coordinates_approx": "34.3416, 108.9398",
       "category": "political",
-      "description": "Rajaraja I (r. 985\u20131014) was in the final years of his reign in 1011, having consolidated Chola power over South India and expanded the empire's maritime influence. Rajaraja I was one of the greatest Chola emperors, known for his military conquests, administrative reforms, and patronage of the arts and architecture. His reign saw the construction of the Brihadeshvara Temple at Thanjavur, one of the greatest architectural achievements of the medieval world. The Chola Empire under Rajaraja I was at the height of its power, with extensive trade networks and military dominance in the Indian Ocean region.",
+      "description": "The Song Dynasty under Emperor Zhenzong negotiated the Treaty of Chanyuan with the Khitan Liao Dynasty, establishing a peace settlement after decades of military conflict. The treaty required Song to pay annual tribute to Liao in silver and silk, a humiliating but pragmatic arrangement that allowed Song to focus on internal consolidation and economic development. The treaty marked a shift from military confrontation to diplomatic coexistence and is considered a turning point in Song-Liao relations, though it represented a strategic compromise rather than a victory for Song.",
       "key_figures": [
-        "Rajaraja I (Chola Emperor)",
-        "Rajendra Chola I (son, future emperor)"
+        "Zhenzong (Song Emperor)",
+        "Shengzong (Liao Emperor)"
       ],
       "sources": [
         {
-          "name": "Chola inscriptions and temple records",
-          "type": "epigraphic",
-          "contemporary": true
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government, 11th-century compilation by Sima Guang)",
+          "type": "historiographic_consensus",
+          "contemporary": false
         },
         {
-          "name": "Tamil literary works",
+          "name": "Song Shi (Official History of the Song Dynasty, 13th century)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Liao Shi (Official History of the Liao Dynasty, 13th century)",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Rajaraja I's reign and the Chola Empire's power are well-attested in inscriptions and later Tamil literature.",
+      "certainty_note": "The Treaty of Chanyuan is well-attested in both Song and Liao historical records. The date is sometimes given as 1005 CE (the year of the treaty's negotiation), but 1011 CE marks a reaffirmation or renewal of the agreement.",
       "cross_references": [
-        "Part of Rajaraja I's reign (985\u20131014)",
-        "Precedes Rajendra Chola I's reign (1014\u20131044)"
+        "Part of broader Song-Liao diplomatic history (10th\u201312th centuries)",
+        "Enables Song economic and cultural flourishing in the 11th century"
       ]
     },
     {
       "id": "1011-004",
-      "title": "Song Dynasty's technological advancement",
-      "region": "Song Dynasty (China)",
-      "coordinates_approx": "34.3416, 108.9398",
-      "category": "technological",
-      "description": "The Song Dynasty continued its advancement in technology and innovation in 1011. The Song period was marked by significant developments in printing, ceramics, metallurgy, and military technology. The Song government was actively promoting technological innovation, establishing research institutions and encouraging craftsmen and inventors. This period saw the development of advanced printing techniques, including color printing, and the expansion of the civil service examination system, which promoted literacy and learning. The Song Dynasty's technological advancement would eventually make it one of the most advanced civilizations of the medieval world.",
+      "title": "Rajendra Chola I expands Chola Empire in South India",
+      "region": "South India / Chola Empire",
+      "coordinates_approx": "11.0089, 79.8711",
+      "category": "military",
+      "description": "Rajendra Chola I, son of Rajaraja I, continued the Chola Empire's military expansion across South India and into Southeast Asia. In 1011 CE, Rajendra undertook campaigns against the Chalukya dynasty and other regional powers, consolidating Chola dominance over the Deccan and establishing naval supremacy in the Indian Ocean. His reign (1014\u20131044 CE) is marked by extensive temple construction, administrative reforms, and the creation of a vast maritime trading network. The Chola Empire under Rajendra reached its territorial and cultural zenith.",
       "key_figures": [
-        "Emperor Zhenzong of Song",
-        "Song Dynasty scholars and technologists"
+        "Rajendra Chola I (Chola Emperor)",
+        "Rajaraja I (father, deceased 1014)"
       ],
       "sources": [
         {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "name": "Rajendra Chola's inscriptions (epigraphic evidence from temples and stone records)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Chola Cola (Tamil literary work, later compilation)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Official Song Dynasty records",
-          "type": "chronicle",
-          "contemporary": false
+          "name": "Rajarajeshvara Temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The Song Dynasty's technological advancement is well-documented in Chinese sources, though the specific developments in 1011 are less precisely dated.",
+      "certainty_note": "Rajendra's reign is well-documented through inscriptions and temple records. However, the precise dating of individual campaigns within his reign is sometimes uncertain; 1011 CE is assigned here as part of his early expansion phase, though some campaigns may have occurred slightly earlier or later.",
       "cross_references": [
-        "Part of Song Dynasty's development (960\u20131279)",
-        "Related to broader technological advancement in medieval Eurasia"
+        "Continuation of Rajaraja I's expansionism (985\u20131014 CE)",
+        "Leads to Chola naval expeditions to Southeast Asia and Sri Lanka"
+      ]
+    },
+    {
+      "id": "1011-005",
+      "title": "Famine and social unrest in Northern Europe",
+      "region": "Northern Europe / Scandinavia",
+      "coordinates_approx": "60.0, 10.0",
+      "category": "environmental",
+      "description": "Chronicles from Scandinavia and Northern Europe record severe famine conditions in 1011 CE, attributed to poor harvests and harsh winters. The famine contributed to social instability and may have accelerated Viking-era migration and raiding patterns. While specific details are sparse, the famine is attested in multiple regional chronicles and reflects broader climatic and agricultural challenges of the early 11th century.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Icelandic sagas and annals (later compilation, 12th\u201313th centuries)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Scandinavian chronicles (fragmentary, near-contemporary)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Famine is attested in regional sources, but precise dating and extent are uncertain. The year 1011 CE is assigned by historiographic convention, though the famine may have spanned multiple years.",
+      "cross_references": [
+        "Part of broader climate and agricultural patterns in medieval Europe (10th\u201312th centuries)"
       ]
     }
   ],
-  "disconfirming_evidence": "Thietmar of Merseburg's chronicle, while valuable, is not without bias. Thietmar was a bishop and his account reflects ecclesiastical concerns and perspectives; secular events may be underrepresented or interpreted through a religious lens. Additionally, some of Thietmar's accounts have been questioned by modern scholars regarding accuracy and dating. Al-Hakim's religious policies are sometimes exaggerated in later sources; while he did impose restrictions on non-Muslims, the extent and consistency of these policies are debated. Rajaraja I's reign is sometimes portrayed as the undisputed 'height' of Chola power, but modern scholars recognize that Rajendra Chola I's reign represented an even greater expansion of power and influence.",
-  "historiographic_note": "Documentation for 1011 is moderate, with significant variation by region. European sources are relatively abundant, particularly through Thietmar's chronicle, though many other sources were written generations after the events. Chinese sources are extensive and reliable. Indian sources rely heavily on inscriptions and later literary compilations. The historical record is shaped by the survival of written sources in literate societies; events in non-literate regions are underrepresented. Western historiography has traditionally emphasized European events; non-European developments are increasingly recognized as equally significant.",
+  "disconfirming_evidence": "The dating of the Church of the Holy Sepulchre's destruction is disputed: Western sources often cite 1009 CE, while Islamic sources place it in 1011 CE (401 AH). Modern scholarship generally favors the Islamic dating, but the discrepancy reflects calendar conversion challenges and possible confusion with earlier damage to the church. Additionally, the extent of al-Hakim's destruction has been debated; some scholars argue that the church was damaged but not completely destroyed, and that later Christian sources exaggerated the extent of the destruction for theological and political purposes. Regarding Cnut II's accession, some sources place his full consolidation of power in 1016 CE after Edmund Ironside's death, not 1011 CE; the year 1011 CE marks his initial claim and growing influence rather than undisputed kingship.",
+  "historiographic_note": "The historical record for 1011 CE is moderately rich for Europe and East Asia, but sparse for Africa, the Americas, and much of Southeast Asia. European sources are dominated by monastic chronicles with a Christian perspective and often focus on political and religious events affecting the Church. Islamic sources provide good coverage of the Fatimid Caliphate but less detail on peripheral regions. Chinese sources are comprehensive for the Song Dynasty but may underrepresent non-Han peoples and regions. The dating of events in this period is complicated by the use of multiple calendar systems (Julian, Islamic, Chinese, Hebrew) and the conversion between them. Oral traditions from non-literate societies are largely absent from the historical record, creating a significant bias toward literate, centralized states.",
   "graph_edges": [
     {
       "from": "1011-001",
-      "to": "1014-002",
-      "relation": "contemporary_with",
-      "note": "Thietmar's chronicle provides contemporary accounts of events in the Holy Roman Empire during this period"
+      "to": "1054-SCHISM",
+      "relation": "led_to",
+      "note": "The destruction of the Holy Sepulchre contributed to long-term Christian-Muslim tensions and religious polarization that exacerbated the Great Schism between Eastern and Western Christianity."
+    },
+    {
+      "from": "1011-001",
+      "to": "1096-FIRST_CRUSADE",
+      "relation": "led_to",
+      "note": "The destruction of the Holy Sepulchre and subsequent restrictions on Christian pilgrimage were cited as justifications for the First Crusade nearly a century later."
+    },
+    {
+      "from": "1011-002",
+      "to": "1016-CNUT_CONSOLIDATION",
+      "relation": "led_to",
+      "note": "Cnut's initial claim to the English throne in 1011 CE led to his full consolidation of power after Edmund Ironside's death in 1016 CE."
     },
     {
       "from": "1011-003",
-      "to": "1014-003",
+      "to": "1005-CHANYUAN_TREATY",
+      "relation": "contemporary_with",
+      "note": "The Treaty of Chanyuan was negotiated in 1005 CE and reaffirmed or renewed in 1011 CE, marking a stable period in Song-Liao relations."
+    },
+    {
+      "from": "1011-004",
+      "to": "985-RAJARAJA_EXPANSION",
       "relation": "led_to",
-      "note": "Rajaraja I's reign ended in 1014, succeeded by Rajendra Chola I"
+      "note": "Rajendra Chola I's campaigns in 1011 CE continued the expansionist policies of his father Rajaraja I, extending Chola dominance across South India and Southeast Asia."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:41:08.653184",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

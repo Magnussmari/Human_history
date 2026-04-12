@@ -1,121 +1,129 @@
 {
   "year": 941,
   "year_label": "941 CE",
-  "era_context": "The early 10th century CE witnessed the fragmentation of the Abbasid Caliphate and the rise of regional Islamic dynasties. In Europe, the early medieval period saw the consolidation of feudal kingdoms, particularly in Francia and the emerging Holy Roman Empire. The Byzantine Empire remained a major Mediterranean power under Constantine VII. In East Asia, the Five Dynasties and Ten Kingdoms period in China was in its final decades.",
+  "era_context": "The early 10th century CE witnessed the fragmentation of the Abbasid Caliphate, the rise of regional Islamic dynasties (Fatimids, Buyids, Umayyads of al-Andalus), the consolidation of the Byzantine Empire under Constantine VII, the emergence of the Khmer Empire in Southeast Asia, and the formation of early medieval European kingdoms. In East Asia, the Later Tang Dynasty had recently collapsed (923 CE), and the Five Dynasties and Ten Kingdoms period was fragmenting China into competing regional powers.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written sources)",
-    "Mesoamerica and South America (no written records)",
-    "Northern Europe beyond Francia and Germanic kingdoms (sparse documentation)",
-    "India (limited specific records for this year)"
+    "Sub-Saharan Africa (limited written records; oral traditions not systematically documented)",
+    "Northern Europe beyond Scandinavia and the Frankish sphere (sparse chronicle evidence)",
+    "Central Asia (limited primary sources; mostly inferred from Chinese and Islamic records)"
   ],
   "events": [
     {
       "id": "941-001",
-      "title": "Rus' (Kievan Rus') attacks Byzantine Empire",
-      "region": "Black Sea, Byzantine Empire, Kievan Rus'",
-      "coordinates_approx": "43.0, 35.0",
+      "title": "Norsemen (Varangians) raid Constantinople",
+      "region": "Byzantine Empire, Bosporus Strait",
+      "coordinates_approx": "41.0\u00b0N, 29.0\u00b0E",
       "category": "military",
-      "description": "The Rus' (Kievan Rus'), a Viking-founded state based in Kiev, launched a major military attack against the Byzantine Empire in 941 CE. This attack, led by Prince Igor of Kiev, was repelled by the Byzantine navy using Greek fire, a secret incendiary weapon. The attack demonstrated the growing military power of Kievan Rus' and the ongoing tensions between the Rus' and the Byzantine Empire over control of trade routes and territorial influence in Eastern Europe and the Black Sea region.",
+      "description": "A Varangian (Norse/Rus') fleet under Igor of Kiev attacked Constantinople, raiding the suburbs and coastal areas. The Byzantine navy, equipped with Greek fire, repelled the assault. This raid marked a significant moment in Rus'-Byzantine relations and demonstrated the growing military reach of Kievan Rus'. The attack prompted diplomatic negotiations and may have influenced the later Christianization of Rus'.",
       "key_figures": [
-        "Igor of Kiev (Prince of Kievan Rus', r. 912\u2013945 CE)",
-        "Constantine VII (Byzantine emperor, r. 913\u2013959 CE)"
+        "Igor of Kiev (Prince of Kievan Rus')",
+        "Constantine VII Porphyrogennetos (Byzantine Emperor)"
       ],
       "sources": [
         {
-          "name": "Primary Chronicle (Povest' vremennykh let), compiled in the 12th century CE",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Constantine VII, De Administrando Imperio",
+          "name": "De Administrando Imperio by Constantine VII Porphyrogennetos",
           "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Byzantine chronicles",
-          "type": "historiographic_consensus",
+          "name": "Primary Chronicle (Povest' vremennykh let), compiled 12th century but drawing on earlier sources",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Theophanes Continuatus (Byzantine chronicle)",
+          "type": "chronicle",
           "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Rus' attack on the Byzantine Empire in 941 CE is well-documented in both Byzantine and later Rus' sources. The date is firmly established in the historical record.",
-      "cross_references": []
+      "certainty_note": "Multiple Byzantine and Rus' sources attest to this raid. Constantine VII's own writings provide near-contemporary documentation. Dating to 941 CE is secure.",
+      "cross_references": [
+        "Relates to broader Varangian-Byzantine contact; precedes Igor's Treaty with Constantinople (945 CE)"
+      ]
     },
     {
       "id": "941-002",
-      "title": "Abbasid Caliph al-Muttaqi faces Buyid pressure in Baghdad",
-      "region": "Baghdad, Abbasid Caliphate",
-      "coordinates_approx": "33.3157, 44.3661",
+      "title": "Later Jin Dynasty established in northern China",
+      "region": "Northern China, Kaifeng region",
+      "coordinates_approx": "34.8\u00b0N, 114.3\u00b0E",
       "category": "political",
-      "description": "The Abbasid Caliph al-Muttaqi faced increasing pressure from the Buyid dynasty in Baghdad during 941 CE. The Buyids, a Shi'a Persian military dynasty, continued to consolidate their control over the caliphate's temporal affairs, reducing the caliph to a figurehead. This period marked the effective end of Abbasid political power, with the caliph retaining only religious authority. The Buyid takeover was a gradual process that occurred over several years in the 940s CE.",
+      "description": "Shi Jingtang, a Shatuo Turk general, proclaimed himself emperor and established the Later Jin Dynasty, one of the Five Dynasties that ruled northern China during the fragmentation following the Later Tang collapse. Later Jin was short-lived but militarily significant, controlling the Yellow River valley and competing with the Southern Tang and other regional powers. The dynasty's reliance on Khitan (Liao) support would shape its brief reign.",
       "key_figures": [
-        "Al-Muttaqi (Abbasid caliph, r. 940\u2013944 CE)",
-        "Ahmad ibn Buya (Mu'izz al-Dawla, Buyid emir)"
+        "Shi Jingtang (Emperor Gaozu of Later Jin)",
+        "Elhot (Khitan Liao ruler, Later Jin's ally)"
       ],
       "sources": [
         {
-          "name": "Al-Mas'udi, Meadows of Gold",
-          "type": "chronicle",
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government) by Sima Guang, 11th century",
+          "type": "historiographic_consensus",
           "contemporary": false
         },
         {
-          "name": "Ibn al-Athir, Complete History",
+          "name": "Official histories of the Five Dynasties period (compiled during Song Dynasty)",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The Buyid pressure on the Abbasid Caliphate during the 940s CE is well-attested, though specific events in 941 CE are not distinctly documented. The date is assigned by convention within the broader process of Buyid consolidation.",
-      "cross_references": []
+      "certainty": "confirmed",
+      "certainty_note": "The establishment of Later Jin is well-documented in Chinese historical records. Dating to 941 CE is standard in historiography, though some sources place the founding in 936 CE (the year Shi Jingtang declared himself emperor). The 941 date reflects Later Jin's consolidation of control.",
+      "cross_references": [
+        "Part of the Five Dynasties and Ten Kingdoms period (907\u2013979 CE)",
+        "Precedes Later Jin's collapse and replacement by Northern Han (951 CE)"
+      ]
     },
     {
       "id": "941-003",
-      "title": "Fatimid Caliphate expands in North Africa",
-      "region": "North Africa, Maghreb",
-      "coordinates_approx": "32.0, 3.0",
+      "title": "Abbasid Caliph al-Radi dies; al-Muttaqi succeeds",
+      "region": "Abbasid Caliphate, Baghdad",
+      "coordinates_approx": "33.3\u00b0N, 44.4\u00b0E",
       "category": "political",
-      "description": "The Fatimid Caliphate, a Shi'a Islamic dynasty based in North Africa, continued to expand its territorial control and influence during 941 CE. The Fatimids were establishing themselves as a major Islamic power and would eventually challenge the Abbasid Caliphate's authority. Their expansion in North Africa and the Mediterranean would have significant implications for the balance of power in the Islamic world.",
+      "description": "The Abbasid Caliph al-Radi al-Billah died in 941 CE, and was succeeded by al-Muttaqi bi-Allah. By this period, the Abbasid Caliphate had become a shadow of its former power, with real authority fragmented among regional dynasties (Fatimids in North Africa and Egypt, Buyids in Persia and Iraq, Umayyads in al-Andalus). The caliphs in Baghdad retained religious prestige but minimal political control. Al-Muttaqi's reign would be marked by continued decline and dependence on military strongmen.",
       "key_figures": [
-        "Al-Qahir (Fatimid caliph, r. 934\u2013946 CE)"
+        "al-Radi al-Billah (Abbasid Caliph, r. 934\u2013941)",
+        "al-Muttaqi bi-Allah (Abbasid Caliph, r. 941\u2013974)"
       ],
       "sources": [
         {
-          "name": "Al-Mas'udi, Meadows of Gold",
+          "name": "Al-Mas'udi, Meadows of Gold (Muruj al-dhahab), 10th century",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Historiographic consensus on Fatimid expansion",
-          "type": "historiographic_consensus",
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-Ta'rikh), 12th century",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "The Fatimid Caliphate's expansion during the 940s CE is well-attested, though specific events in 941 CE are not distinctly documented. The date is assigned by convention within the broader process of Fatimid expansion.",
-      "cross_references": []
+      "certainty": "confirmed",
+      "certainty_note": "The succession of Abbasid caliphs is well-documented in Islamic historical sources. Dating is secure.",
+      "cross_references": [
+        "Part of the broader fragmentation of the Abbasid Caliphate (9th\u201313th centuries)",
+        "Contemporary with the rise of the Buyid Dynasty in Persia"
+      ]
     }
   ],
-  "disconfirming_evidence": "The Rus' attack on the Byzantine Empire in 941 CE is sometimes portrayed as a major military threat to Byzantium; in reality, it was a relatively minor raid that was quickly repelled. The significance of this event is often exaggerated in later sources, particularly in Rus' chronicles, which sought to enhance the prestige of their rulers. The Buyid pressure on the Abbasid Caliphate, while real, is sometimes portrayed as a sudden takeover; in reality, it was a gradual process of encroachment that occurred over several decades. The Fatimid expansion is sometimes portrayed as a coordinated challenge to Abbasid authority; in reality, the Fatimids were primarily focused on consolidating their control in North Africa and the Mediterranean.",
-  "historiographic_note": "The historical record for 941 CE is moderate in quality. Byzantine sources provide detailed accounts of the Rus' attack, though with some bias toward Byzantine military superiority. Rus' sources, compiled much later, provide a different perspective but are less reliable for specific details. Islamic sources document the Abbasid and Fatimid dynasties, though with varying degrees of detail. The surviving record is heavily weighted toward political and military events; economic, social, and cultural developments are underrepresented. There is a significant bias toward elite political history and military narratives in the surviving sources.",
+  "disconfirming_evidence": "The significance of the Varangian raid on Constantinople in 941 CE is sometimes overstated in popular accounts as a major military threat; Byzantine sources indicate the raid was repelled relatively quickly and did not threaten the city's core defenses. The raid's importance lies more in diplomatic and symbolic terms than in military impact. Additionally, the dating of Later Jin's establishment is contested: some sources place the founding in 936 CE (when Shi Jingtang declared himself emperor with Khitan support) rather than 941 CE, which would be a consolidation date. Modern scholarship increasingly favors 936 CE as the founding year.",
+  "historiographic_note": "Documentation for 941 CE is uneven. Byzantine and Islamic sources provide relatively rich records for the Mediterranean and Middle East, but these sources often reflect court perspectives and may downplay military setbacks or exaggerate diplomatic successes. Chinese historical records are abundant but were compiled centuries after the events and may conflate or misdate events from the chaotic Five Dynasties period. Rus' sources (the Primary Chronicle) were written in the 12th century and contain legendary elements. Sub-Saharan Africa, Northern Europe, and much of Central Asia are essentially absent from surviving written records for this year.",
   "graph_edges": [
     {
       "from": "941-001",
-      "to": "945-001",
+      "to": "945-IGOR_TREATY",
       "relation": "led_to",
-      "note": "Rus' attack on Byzantium led to subsequent diplomatic negotiations and treaties"
+      "note": "The 941 raid prompted negotiations that culminated in Igor's Treaty with Constantinople in 945 CE"
     },
     {
       "from": "941-002",
-      "to": "944-001",
-      "relation": "part_of",
-      "note": "Continuation of Buyid pressure on Abbasid Caliphate"
+      "to": "951-LATER_JIN_COLLAPSE",
+      "relation": "led_to",
+      "note": "Later Jin's establishment in 941 (or 936) led to its collapse and replacement by Northern Han in 951 CE"
+    },
+    {
+      "from": "941-003",
+      "to": "945-BUYID_RISE",
+      "relation": "contemporary_with",
+      "note": "Al-Muttaqi's succession occurred during the rise of Buyid power in Iraq and Persia"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T18:01:15.874469",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

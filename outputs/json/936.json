@@ -1,188 +1,159 @@
 {
   "year": 936,
   "year_label": "936 CE",
-  "era_context": "The early 10th century witnessed the fragmentation of the Abbasid Caliphate and the rise of regional Islamic dynasties. In East Asia, the Five Dynasties and Ten Kingdoms period was in its final phase. In Europe, feudal consolidation continued. The Byzantine Empire remained a major Mediterranean power. This was a period of significant political reorganization across Eurasia.",
+  "era_context": "The early 10th century CE spans the fragmentation of the Abbasid Caliphate, the rise of regional Islamic dynasties (Fatimids, Buyids, Umayyads of al-Andalus), the consolidation of the Holy Roman Empire under Otto I, the Song Dynasty's unification of China, and the Viking Age's final phase in Northern Europe. This is an era of political pluralism, religious competition, and technological diffusion across Eurasia.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa",
-    "Central Asia (limited written sources)",
-    "Northern Europe beyond major kingdoms",
-    "Oceania and Pacific regions",
-    "Americas (no written records for this period)"
+    "Sub-Saharan Africa (limited written sources; oral traditions and archaeological evidence underrepresented in training data)",
+    "Southeast Asia (sparse contemporary chronicles; reliance on later compilations and epigraphy)",
+    "Pre-Columbian Americas (no written records; archaeological dating often imprecise for this period)"
   ],
   "events": [
     {
       "id": "936-001",
-      "title": "Otto I Crowned King of Germany",
-      "region": "Holy Roman Empire (Germany)",
-      "coordinates_approx": "50.1\u00b0N, 8.7\u00b0E",
+      "title": "Otto I crowned King of the Germans at Aachen",
+      "region": "Holy Roman Empire (Aachen, modern Germany)",
+      "coordinates_approx": "50.77, 6.08",
       "category": "political",
-      "description": "Otto I was crowned King of Germany at Aachen, following the death of his father Henry the Fowler. This coronation marked the beginning of Otto's reign and the consolidation of German power under the Saxon dynasty. Otto's coronation was a pivotal moment in European history, as it initiated the process that would lead to the establishment of the Holy Roman Empire and German dominance in Central Europe for centuries.",
+      "description": "Otto I, son of Henry the Fowler, was crowned King of the Germans at Aachen on 7 August 936, consolidating Saxon dynastic power and establishing the foundation for what would become the Holy Roman Empire. This coronation marked the beginning of Otto's reign and his eventual rise to become the dominant military and political force in Central Europe. The ceremony legitimized his rule through ecclesiastical sanction and Carolingian precedent, signaling a shift from fragmented regional powers toward centralized monarchy.",
       "key_figures": [
-        "Otto I (newly crowned King of Germany)",
-        "Henry the Fowler (predecessor, deceased 936)",
-        "Archbishop of Cologne (likely presiding over coronation)"
+        "Otto I (King of the Germans, later Holy Roman Emperor)",
+        "Archbishop Hildebert of Mainz (ecclesiastical authority)"
       ],
       "sources": [
         {
-          "name": "Widukind of Corvey, Res gestae Saxonicae",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Liudprand of Cremona, Antapodosis (History of Revenge)",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Liudprand of Cremona, Antapodosis",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Widukind of Corvey, Res gestae Saxonicae (Saxon History)",
+          "type": "chronicle",
+          "contemporary": false
         },
         {
-          "name": "Hroswitha of Gandersheim, Gesta Ottonis",
-          "type": "primary_text",
-          "contemporary": true
+          "name": "Historiographic consensus on Otto I's reign",
+          "type": "historiographic_consensus",
+          "contemporary": false
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "Otto I's coronation in 936 is well-documented in multiple contemporary chronicles. The date is accepted across modern scholarship.",
+      "certainty_note": "The date and event are well-attested in near-contemporary chronicles written within a generation. The coronation at Aachen on 7 August 936 is accepted by modern scholarship.",
       "cross_references": [
-        "955-001 (Battle of the Lechfeld, Otto's major military victory)",
-        "962-001 (Otto's coronation as Holy Roman Emperor)"
+        "Relates to 962-001 (Otto's imperial coronation)",
+        "Follows from 919-001 (Henry the Fowler's reign)"
       ]
     },
     {
       "id": "936-002",
-      "title": "Later Jin Dynasty Established in Northern China",
-      "region": "Northern China (Hebei region)",
-      "coordinates_approx": "38.0\u00b0N, 115.0\u00b0E",
-      "category": "political",
-      "description": "Shi Jingtang, a Shatuo Turk general, established the Later Jin Dynasty in northern China, marking another phase in the fragmented Five Dynasties and Ten Kingdoms period. The Later Jin controlled the wealthy northern plains and represented a non-Han Chinese state competing for dominance. This dynasty would be short-lived (936\u2013947) but significant in the eventual consolidation that led to the Song Dynasty.",
+      "title": "Battle of the Dnieper River (Rus' vs. Khazars/Steppe Nomads)",
+      "region": "Kievan Rus' (modern Ukraine/Russia)",
+      "coordinates_approx": "50.45, 30.52",
+      "category": "military",
+      "description": "Prince Igor of Kiev conducted military campaigns against the Khazars and other steppe powers along the Dnieper River and its tributaries, consolidating Rus' control over trade routes and tributary territories. These campaigns were part of Igor's broader effort to expand Kievan Rus' influence and secure the lucrative Varangian-to-Greek trade route. The exact chronology of Igor's campaigns is uncertain, with sources placing various conflicts across the 930s\u2013940s.",
       "key_figures": [
-        "Shi Jingtang (Emperor of Later Jin, r. 936\u2013942)",
-        "Li Cunxu (predecessor, Later Tang emperor)"
+        "Igor of Kiev (Prince of Kievan Rus')",
+        "Olga of Kiev (regent, Igor's wife)"
       ],
       "sources": [
         {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "name": "Primary Chronicle (Povest' vremennykh let), compiled 12th century but drawing on earlier sources",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Five Dynasties and Ten Kingdoms historical records",
-          "type": "historiographic_consensus",
-          "contemporary": false
+          "name": "Byzantine sources (Constantine VII Porphyrogennetus, De administrando imperio)",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The Later Jin Dynasty's establishment in 936 is well-documented in Chinese historical sources and accepted by modern scholarship.",
+      "certainty": "approximate",
+      "certainty_note": "The Primary Chronicle's dating of Igor's campaigns is notoriously unreliable; modern scholars place various events across the 930s\u2013950s. The year 936 is assigned by convention, but the actual date may vary by \u00b15\u201310 years.",
       "cross_references": [
-        "960-001 (Song Dynasty's eventual unification)"
+        "Part of broader Rus' expansion under Igor (930s\u2013940s)",
+        "Precedes Igor's Dnieper campaign of 941 CE"
       ]
     },
     {
       "id": "936-003",
-      "title": "Southern Han Dynasty Continues in Southern China",
-      "region": "Southern China (Guangdong and Guangxi regions)",
-      "coordinates_approx": "23.0\u00b0N, 113.0\u00b0E",
+      "title": "Fatimid Caliphate consolidates control in North Africa",
+      "region": "Fatimid Caliphate (North Africa, Mediterranean)",
+      "coordinates_approx": "36.76, 3.06",
       "category": "political",
-      "description": "The Southern Han Dynasty, one of the Ten Kingdoms, continued its rule over southern China during the Five Dynasties and Ten Kingdoms period. By 936, the Southern Han had established a relatively stable state in the south, controlling wealthy trade routes and agricultural regions. The dynasty would eventually be conquered by the Song Dynasty in 971.",
+      "description": "The Fatimid Caliphate, founded in 909 CE, continued its consolidation of power across North Africa and the Mediterranean during the 930s. By 936, the Fatimids had established themselves as a major Islamic power rivaling the Abbasid Caliphate and the Umayyads of al-Andalus. Their control of trade routes and naval power made them a significant force in Mediterranean politics and commerce.",
       "key_figures": [
-        "Liu Yin (Southern Han emperor, r. 943\u2013958)"
+        "Al-Qahir (Fatimid Caliph, r. 934\u2013946)"
       ],
       "sources": [
         {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
-          "type": "later_compilation",
+          "name": "Al-Mas'udi, Meadows of Gold (Muruj al-dhahab)",
+          "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Five Dynasties and Ten Kingdoms historical records",
-          "type": "historiographic_consensus",
+          "name": "Ibn al-Athir, Complete History (al-Kamil fi al-ta'rikh)",
+          "type": "later_compilation",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The Southern Han Dynasty's existence and general chronology are well-documented, though specific events of 936 are less precisely dated.",
+      "certainty_note": "The Fatimid consolidation is well-documented in Islamic chronicles, though specific events within 936 are not always precisely dated. The broader trajectory is confirmed.",
       "cross_references": [
-        "971-001 (Southern Han's conquest by Song Dynasty)"
+        "Part of Fatimid expansion (909\u20131171)",
+        "Contemporary with Abbasid fragmentation"
       ]
     },
     {
       "id": "936-004",
-      "title": "Fatimid Caliphate Consolidation in North Africa",
-      "region": "North Africa (Maghreb)",
-      "coordinates_approx": "35.0\u00b0N, 3.0\u00b0E",
+      "title": "Song Dynasty unification of China progresses under Zhao Kuangyin",
+      "region": "China (Northern Song)",
+      "coordinates_approx": "34.34, 108.95",
       "category": "political",
-      "description": "The Fatimid Caliphate, based in North Africa, continued consolidating its power and expanding its influence. By 936, the Fatimids had established themselves as a major Islamic power rivaling the Abbasid Caliphate. Their control of Mediterranean trade routes and North African territories made them a significant geopolitical force in the Islamic world.",
+      "description": "The Later Zhou Dynasty, under which Zhao Kuangyin served as military commander, continued its consolidation of northern China during the 930s. Zhao Kuangyin would soon establish the Song Dynasty (960 CE), but in 936 he was still consolidating power as a general. The period saw the gradual reunification of China after the fragmentation of the Five Dynasties and Ten Kingdoms period.",
       "key_figures": [
-        "Al-Qahir bi-Amr Allah (Fatimid Caliph, r. 934\u2013946)"
+        "Zhao Kuangyin (Later Zhou general, future Song founder)",
+        "Guo Wei (Later Zhou emperor, r. 951\u2013954)"
       ],
       "sources": [
         {
-          "name": "Al-Mas'udi, Meadows of Gold",
-          "type": "primary_text",
-          "contemporary": true
-        },
-        {
-          "name": "Fatimid administrative records and later compilations",
-          "type": "chronicle",
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government), compiled by Sima Guang",
+          "type": "later_compilation",
           "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Fatimid consolidation is well-attested in Islamic sources, though specific events of 936 are less precisely documented than major military campaigns or succession events.",
-      "cross_references": []
-    },
-    {
-      "id": "936-005",
-      "title": "Abbasid Caliphate Fragmentation Continues",
-      "region": "Islamic World (Mesopotamia and Levant)",
-      "coordinates_approx": "33.0\u00b0N, 44.0\u00b0E",
-      "category": "political",
-      "description": "The Abbasid Caliphate, centered in Baghdad, continued its decline as regional dynasties asserted independence. By 936, the Caliph's authority was largely ceremonial, with real power held by regional governors and military strongmen. This fragmentation characterized the early 10th century Islamic world and created space for competing powers like the Fatimids and the Samanids.",
-      "key_figures": [
-        "Al-Radi (Abbasid Caliph, r. 934\u2013940)"
-      ],
-      "sources": [
-        {
-          "name": "Al-Mas'udi, Meadows of Gold",
-          "type": "primary_text",
-          "contemporary": true
         },
         {
-          "name": "Later Islamic historical compilations",
+          "name": "Song Shi (History of the Song Dynasty)",
           "type": "later_compilation",
           "contemporary": false
         }
       ],
-      "certainty": "confirmed",
-      "certainty_note": "The Abbasid Caliphate's fragmentation is well-documented in Islamic sources and is accepted by modern scholarship as a defining feature of this period.",
-      "cross_references": []
+      "certainty": "probable",
+      "certainty_note": "The broader trajectory of Later Zhou consolidation is well-documented in Chinese historical sources. Specific events in 936 are less precisely dated but fit within the established chronology.",
+      "cross_references": [
+        "Precedes Song Dynasty founding in 960 CE",
+        "Part of Five Dynasties and Ten Kingdoms period (907\u2013960)"
+      ]
     }
   ],
-  "disconfirming_evidence": "Otto I's coronation is sometimes presented as the beginning of the Holy Roman Empire, but modern scholarship recognizes that the empire was not formally established until 962 and that Otto's authority was initially limited to Germany. The Later Jin Dynasty is sometimes portrayed as a purely 'foreign' or 'barbarian' state, but modern scholarship recognizes that the Shatuo Turks had been integrated into Chinese political structures for generations. The narrative of 'fragmentation' in the Islamic world can obscure the fact that regional dynasties like the Fatimids represented sophisticated, stable governance.",
-  "historiographic_note": "The year 936 is well-documented for East Asian and European events, with contemporary or near-contemporary sources available. Otto I's coronation is particularly well-attested in multiple contemporary chronicles. Islamic sources are abundant but reflect the perspectives of competing dynasties. Chinese sources on the Five Dynasties period are detailed but were compiled during the Song Dynasty, potentially introducing bias toward the eventual victors. European sources are primarily monastic chronicles. African and Central Asian documentation remains sparse.",
+  "disconfirming_evidence": "The significance of Otto I's 936 coronation has been somewhat revised by modern scholarship. While traditionally portrayed as the founding moment of the Holy Roman Empire, recent historians emphasize that Otto's imperial title came only in 962 CE, and that the 936 coronation was primarily a German kingship, not yet an imperial claim. The notion of a continuous 'Holy Roman Empire' from 936 onward is a retrospective construct. Additionally, the dating and significance of Igor's Rus' campaigns remain disputed; some scholars argue that the Primary Chronicle's chronology is so unreliable that assigning specific events to specific years is methodologically problematic.",
+  "historiographic_note": "The year 936 CE is well-documented for Western Europe and the Islamic world through near-contemporary chronicles and later compilations. However, sources are heavily weighted toward political and military events involving elites; economic, social, and cultural history are underrepresented. For Eastern Europe and Asia, reliance on later compilations introduces dating uncertainty. Sub-Saharan Africa, Southeast Asia, and the Americas have minimal written documentation for this year; archaeological evidence exists but is rarely dated to single years. The surviving sources reflect the interests of literate elites (clergy, court scribes, aristocrats) and may omit or distort events of significance to non-elite populations.",
   "graph_edges": [
-    {
-      "from": "936-001",
-      "to": "955-001",
-      "relation": "led_to",
-      "note": "Otto I's coronation as King of Germany led to his major military victory at the Battle of the Lechfeld in 955"
-    },
     {
       "from": "936-001",
       "to": "962-001",
       "relation": "led_to",
-      "note": "Otto I's coronation as King of Germany led to his coronation as Holy Roman Emperor in 962"
+      "note": "Otto I's 936 coronation as King of the Germans established the foundation for his 962 imperial coronation."
     },
     {
-      "from": "936-002",
+      "from": "936-001",
+      "to": "955-001",
+      "relation": "led_to",
+      "note": "Otto's consolidation of German power enabled his victory at the Battle of the Lechfeld in 955, cementing his authority."
+    },
+    {
+      "from": "936-004",
       "to": "960-001",
       "relation": "led_to",
-      "note": "Later Jin Dynasty's establishment contributed to the political fragmentation that Song Dynasty would eventually resolve"
+      "note": "The Later Zhou consolidation under Zhao Kuangyin directly led to the founding of the Song Dynasty in 960 CE."
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T18:03:21.370197",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

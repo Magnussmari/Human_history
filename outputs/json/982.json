@@ -1,55 +1,90 @@
 {
   "year": 982,
   "year_label": "982 CE",
-  "era_context": "The late 10th century CE continues with the same major powers and dynamics. The Byzantine Empire under Basil II is consolidating power and expanding militarily. The Fatimid Caliphate remains a major Mediterranean power. In Western Europe, Otto II is still emperor, but his health is declining; he will die in 983. The Song Dynasty in China is consolidating its control. Scandinavian expansion and Viking settlement continue.",
+  "era_context": "The late 10th century, a period of state consolidation, religious transformation, and the transition from the Viking Age to medieval state formation. The Byzantine Empire under Basil II was consolidating its military power. The Northern Song dynasty in China was establishing sophisticated administrative systems. Western Europe was developing feudal structures and experiencing monastic reform movements. The Islamic world was intellectually vibrant despite political fragmentation. Scandinavia was transitioning from pagan Viking culture to Christian kingdoms.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (limited written sources)",
-    "Southeast Asia (sparse contemporary documentation)",
-    "Pre-Columbian Americas (no written records)"
+    "Sub-Saharan Africa",
+    "Pre-Columbian Americas",
+    "Central Asian nomadic confederations",
+    "Southeast Asian kingdoms"
   ],
   "events": [
     {
       "id": "982-001",
-      "title": "Otto II's Campaign in Southern Italy",
-      "region": "Holy Roman Empire, Southern Italy, Byzantine Empire",
-      "coordinates_approx": "40.0, 16.0",
+      "title": "Otto II's military campaign in southern Italy against Byzantine forces",
+      "region": "Southern Italy, Byzantine Empire",
+      "coordinates_approx": "40.5, 16.0",
       "category": "military",
-      "description": "Otto II, Holy Roman Emperor, launches a military campaign in Southern Italy to consolidate imperial control and challenge Byzantine and Arab influence in the region. The campaign is part of Otto II's broader strategy to expand imperial authority in Italy and the Mediterranean. However, the campaign encounters significant resistance from Byzantine forces and Arab raiders. In July 982, Otto II suffers a major military defeat at the Battle of Stilo (or Carigliano) against a combined Byzantine-Arab force, a humiliating setback that damages his prestige and contributes to his declining health. The defeat marks a turning point in Otto II's reign and weakens the Holy Roman Empire's position in Southern Italy.",
+      "description": "Holy Roman Emperor Otto II conducted a military campaign in southern Italy to expand his territorial control and challenge Byzantine dominance in the region. The campaign was part of Otto II's broader strategy to consolidate imperial authority and expand the Holy Roman Empire's territorial base. The campaign resulted in initial successes but ultimately ended in defeat at the Battle of Stilo in July 982, where Otto II's forces were defeated by Byzantine and Arab forces. This defeat was a significant setback for Otto II and demonstrated the limits of Holy Roman imperial power in the Mediterranean region. The defeat contributed to Otto II's declining health and may have accelerated his death the following year.",
       "key_figures": [
         "Otto II (Holy Roman Emperor)",
         "Basil II (Byzantine Emperor)",
-        "Arab raiders and mercenaries"
+        "Emir of Sicily (Arab forces)"
       ],
       "sources": [
         {
           "name": "Thietmar of Merseburg, Chronicle",
           "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Liudprand of Cremona, Antapodosis (earlier period, but context)",
+          "type": "primary_text",
           "contemporary": false
         },
         {
-          "name": "Liudprand of Cremona, Antapodosis (10th-century Italian chronicle)",
+          "name": "Byzantine sources",
           "type": "primary_text",
-          "contemporary": false
+          "contemporary": true
         }
       ],
       "certainty": "confirmed",
-      "certainty_note": "The Battle of Stilo in July 982 is well-documented in contemporary and near-contemporary sources. The date and general outcome are certain.",
+      "certainty_note": "Otto II's Italian campaign and the Battle of Stilo are well-documented in contemporary sources.",
       "cross_references": [
-        "973-001 (Otto II's accession)",
         "983-001 (Otto II's death)"
       ]
     },
     {
       "id": "982-002",
-      "title": "Basil II's Consolidation of Power in the Balkans",
-      "region": "Byzantine Empire, Bulgaria, Balkans",
-      "coordinates_approx": "42.5, 25.0",
+      "title": "Battle of Stilo (July 13, 982)",
+      "region": "Southern Italy (Calabria)",
+      "coordinates_approx": "38.8, 16.2",
       "category": "military",
-      "description": "Following his victory at Stilo (or as a result of the broader geopolitical situation), Basil II continues to consolidate Byzantine control over the Balkans. The campaigns against Samuel of Bulgaria and other local rulers continue, with Byzantine forces gradually expanding their territorial control. Basil's military strategy combines direct military action with diplomatic maneuvering and the use of mercenary forces. The consolidation of Byzantine control in the Balkans is a long-term process that will continue throughout Basil's reign.",
+      "description": "On July 13, 982, Holy Roman Emperor Otto II's forces were defeated by a combined Byzantine and Arab force at the Battle of Stilo in Calabria, southern Italy. The battle was a significant military engagement that demonstrated the limits of Holy Roman imperial power in the Mediterranean region. Otto II's defeat was a major setback for his Italian ambitions and contributed to the eventual withdrawal of Holy Roman forces from southern Italy. The battle also demonstrated the continued military strength of the Byzantine Empire and the complexity of Mediterranean geopolitics in the late 10th century, where Byzantine, Arab, and Western European powers competed for control.",
+      "key_figures": [
+        "Otto II (Holy Roman Emperor)",
+        "Basil II (Byzantine Emperor)",
+        "Arab forces from Sicily"
+      ],
+      "sources": [
+        {
+          "name": "Thietmar of Merseburg, Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Byzantine sources",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Battle of Stilo is well-documented in contemporary sources with specific dating.",
+      "cross_references": [
+        "982-001 (Otto II's Italian campaign)"
+      ]
+    },
+    {
+      "id": "982-003",
+      "title": "Basil II's continued military consolidation in the Balkans",
+      "region": "Byzantine Empire, Balkans",
+      "coordinates_approx": "41.0, 21.0",
+      "category": "military",
+      "description": "Byzantine Emperor Basil II continued his military campaigns to consolidate control over the Balkans and suppress rival powers. These campaigns were part of a systematic strategy to restore Byzantine territorial dominance. Basil II's military successes established him as one of the most formidable Byzantine emperors. The campaigns involved both direct military engagement and diplomatic maneuvering, gradually bringing Bulgarian and other Balkan territories under Byzantine control.",
       "key_figures": [
         "Basil II (Byzantine Emperor)",
-        "Samuel of Bulgaria (Bulgarian rebel leader)"
+        "Samuel of Bulgaria (Bulgarian ruler)"
       ],
       "sources": [
         {
@@ -58,100 +93,78 @@
           "contemporary": false
         },
         {
-          "name": "Kedrenos, Compendium Historiarum",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Byzantine administrative and military records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Basil II's Balkan campaigns are well-attested in Byzantine sources, but specific events for 982 are not always clearly delineated. The general characterization of 982 as part of the broader campaign period is probable.",
-      "cross_references": [
-        "984-001 (Basil II's Balkan campaigns)"
-      ]
-    },
-    {
-      "id": "982-003",
-      "title": "Al-Aziz bi-Allah's Continued Rule of the Fatimid Caliphate",
-      "region": "Fatimid Caliphate, Egypt, North Africa, Levant",
-      "coordinates_approx": "30.0, 31.0",
-      "category": "political",
-      "description": "Al-Aziz bi-Allah continues his reign as Fatimid Caliph, overseeing a period of relative stability and economic prosperity. The Fatimid navy remains a dominant force in the Mediterranean, and trade networks are robust. Al-Aziz's administration is characterized by competent governance and military strength. The Fatimid Caliphate is at the height of its power and influence in the late 10th century.",
-      "key_figures": [
-        "Al-Aziz bi-Allah (Fatimid Caliph)"
-      ],
-      "sources": [
-        {
-          "name": "Al-Maqrizi, Itti'az al-Hunafa",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Ibn al-Athir, Al-Kamil fi al-Ta'rikh",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "probable",
-      "certainty_note": "Al-Aziz's reign is well-documented in Islamic historiography, though specific events for 982 are not always individually attested.",
-      "cross_references": [
-        "984-003 (Fatimid Caliphate under Al-Aziz bi-Allah)"
-      ]
+      "certainty": "confirmed",
+      "certainty_note": "Basil II's military campaigns are well-documented in Byzantine sources.",
+      "cross_references": []
     },
     {
       "id": "982-004",
-      "title": "Song Dynasty Consolidation in China",
-      "region": "Song Dynasty, China",
-      "coordinates_approx": "35.0, 110.0",
+      "title": "Northern Song dynasty consolidation in China",
+      "region": "China",
+      "coordinates_approx": "34.3, 108.9",
       "category": "political",
-      "description": "The Northern Song Dynasty, which unified much of China in 960 CE under Taizu, continues to consolidate its control under Emperor Taizong (r. 976\u2013997). Taizong's reign is marked by efforts to strengthen central authority, reform the military, and promote Confucian scholarship. The Song Dynasty is establishing itself as a major power in East Asia, with a sophisticated bureaucracy and a strong economy. The consolidation of Song control is part of a broader process of state-building and cultural flourishing in late 10th-century China.",
+      "description": "Emperor Taizong of Northern Song continued his reign, overseeing administrative reforms, military reorganization, and economic development. The Song dynasty was establishing sophisticated bureaucratic systems based on civil service examinations and Confucian principles. The period saw significant technological advancement, including developments in printing, naval technology, and commerce. Song China maintained military pressure against the Khitan Liao dynasty to the north while consolidating internal control and economic prosperity.",
       "key_figures": [
-        "Taizong (Song Emperor, r. 976\u2013997)"
+        "Taizong (Northern Song Emperor)"
       ],
       "sources": [
         {
-          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government), compiled by Sima Guang (11th century)",
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
           "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Song Shi (History of the Song Dynasty), compiled 13th\u201314th century",
-          "type": "later_compilation",
-          "contemporary": false
+          "name": "Song administrative records",
+          "type": "primary_text",
+          "contemporary": true
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Taizong's reign and the consolidation of Song control are well-documented in Chinese historiography, though specific events for 982 are not always individually attested.",
-      "cross_references": [
-        "960-001 (Taizu's unification of China and founding of Song Dynasty)"
-      ]
+      "certainty": "confirmed",
+      "certainty_note": "Song dynasty activities are well-documented in Chinese historical records.",
+      "cross_references": []
+    },
+    {
+      "id": "982-005",
+      "title": "Continued Viking raids on England and Western Europe",
+      "region": "England, Normandy, coastal Western Europe",
+      "coordinates_approx": "51.5, 0.0",
+      "category": "military",
+      "description": "Scandinavian raiders, operating from bases in Normandy and Denmark, continued systematic raids on English coastal settlements and monasteries. These raids were part of the broader pattern of Viking incursions that characterized the 980s. The raids targeted wealthy monasteries and trading centers, generating significant plunder and forcing English authorities to negotiate tribute payments.",
+      "key_figures": [
+        "Sweyn I Forkbeard (Danish king)",
+        "Ethelred II (English king)"
+      ],
+      "sources": [
+        {
+          "name": "Anglo-Saxon Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Viking raids in this period are well-attested in English chronicles.",
+      "cross_references": []
     }
   ],
-  "disconfirming_evidence": "The Battle of Stilo in 982 is sometimes portrayed in Western sources as a more significant defeat for Otto II than it actually was. Some scholars argue that the battle was a tactical setback rather than a strategic catastrophe, and that Otto II's declining health was due to other factors (possibly malaria or other illness) rather than the psychological impact of the defeat. Additionally, the extent of Byzantine involvement in the battle is debated; some sources suggest that the Byzantine Empire was not directly involved, but rather that Arab raiders and local Italian forces were the primary opponents.",
-  "historiographic_note": "The historical record for 982 is dominated by Byzantine, Islamic, and Western European sources. The Battle of Stilo is well-documented in Western European chronicles, but these sources often reflect the perspectives of the imperial court and may exaggerate the significance of the defeat. Eastern European and Scandinavian history relies on later compilations. Chinese history is well-documented in official histories compiled centuries later. Sub-Saharan Africa, Southeast Asia, and the Americas have no contemporary written records for this year.",
+  "disconfirming_evidence": "Modern scholarship has debated the exact significance of the Battle of Stilo and its impact on Otto II's health and subsequent death. Some scholars argue that the defeat was less catastrophic than contemporary chroniclers suggested, while others emphasize its role in Otto II's declining fortunes. The battle's strategic importance has also been reassessed, with some historians questioning whether it was as decisive as traditionally portrayed.",
+  "historiographic_note": "Documentation for 982 CE is relatively rich for Western Europe and the Byzantine Empire, with contemporary sources available. Chinese sources are abundant and sophisticated. The Battle of Stilo is well-documented in multiple contemporary sources, though interpretations of its significance vary. The historical record privileges literate, centralized states and underrepresents non-literate societies.",
   "graph_edges": [
     {
       "from": "982-001",
-      "to": "983-001",
+      "to": "982-002",
       "relation": "led_to",
-      "note": "Otto II's defeat at Stilo contributes to his declining health and death in 983"
+      "note": "Otto II's Italian campaign culminated in the Battle of Stilo"
     },
     {
       "from": "982-002",
-      "to": "1014-001",
+      "to": "983-001",
       "relation": "led_to",
-      "note": "Basil II's 982 campaigns are part of the broader Balkan conquest"
-    },
-    {
-      "from": "982-001",
-      "to": "982-002",
-      "relation": "contemporary_with",
-      "note": "Otto II's campaign in Southern Italy and Basil II's Balkan campaigns occur simultaneously, reflecting broader geopolitical competition in the Mediterranean and Eastern Europe"
+      "note": "The Battle of Stilo defeat contributed to Otto II's declining health and death in 983"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:50:07.247280",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }

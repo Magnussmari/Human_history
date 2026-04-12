@@ -1,76 +1,97 @@
 {
   "year": 1000,
   "year_label": "1000 CE",
-  "era_context": "The year 1000 CE marked a symbolic threshold in the Christian calendar, though it held no particular significance in most non-Christian societies. The early 11th century was a period of significant political and cultural transformation across Eurasia. In Western Europe, feudal kingdoms were consolidating power following the collapse of Carolingian authority. The Islamic world was divided among competing caliphates and emirates. The Song Dynasty in China was at the height of its power and cultural achievement. In South Asia, the Chola Empire was expanding its naval and territorial power. This was a period of technological innovation, religious ferment, and the reshaping of trade networks.",
+  "era_context": "The year 1000 CE marks a symbolic threshold in the Christian calendar, though its historical significance is more cultural than epochal. The Byzantine Empire is recovering under the Macedonian Renaissance; the Abbasid Caliphate is fragmented but the Fatimid Caliphate controls the eastern Mediterranean; the Song Dynasty dominates China; the Chola Empire is at its height in South India; and the Viking Age is in its final phase. This is a period of religious consolidation, with Christianity, Islam, and Buddhism establishing institutional structures across Eurasia. Feudalism is solidifying in Europe; the Islamic world is experiencing a flowering of mathematics, astronomy, and philosophy.",
   "documentation_level": "moderate",
   "geographic_coverage_gaps": [
-    "Sub-Saharan Africa (minimal written sources; archaeology and oral traditions underrepresented)",
-    "Northern and Eastern Europe beyond the Frankish sphere (limited literacy and documentation)",
-    "Southeast Asia (sparse contemporary written sources; reliance on later chronicles and epigraphy)",
-    "The Americas (no written sources; archaeology limited)"
+    "Sub-Saharan Africa (minimal written records)",
+    "Northern Europe beyond Scandinavia",
+    "Central Asian steppe (sparse documentation)",
+    "Pre-Columbian Americas (no written records in Old World sources)"
   ],
   "events": [
     {
       "id": "1000-001",
-      "title": "Symbolic significance of the year 1000 in Christian Europe",
-      "region": "Western Europe (Christian kingdoms)",
-      "coordinates_approx": "48.0, 10.0",
-      "category": "cultural",
-      "description": "The year 1000 CE held symbolic significance in Christian Europe as the millennium of the Christian era. Some contemporary sources suggest that there was anticipation of apocalyptic events or divine judgment, though the extent of millennial anxiety has been debated by modern scholars. The year 1000 was marked by religious fervor, pilgrimages to holy sites, and renewed commitment to Christian reform movements. However, the significance of the year 1000 was primarily symbolic and religious rather than marking any major political or military event. The year served as a marker of Christian chronology and identity in Western Europe.",
-      "key_figures": [],
+      "title": "Erik the Red's Greenland settlement established",
+      "region": "Greenland (North Atlantic)",
+      "coordinates_approx": "64.0, -37.0",
+      "category": "exploration",
+      "description": "Erik the Red (Erik Thorvaldsson), a Norse explorer exiled from Iceland, establishes a permanent Norse settlement in Greenland. He names the land 'Greenland' (Gr\u00e6nland) to attract settlers, and founds the Eastern Settlement (\u00d8sterbygden) and Western Settlement (Vesterbygden). The settlement thrives initially, with a population reaching several thousand by the 11th century. Greenland becomes a Norse commonwealth, trading walrus ivory, seal skins, and other Arctic goods with Europe. The settlement persists for nearly 500 years before being abandoned in the 15th century, likely due to climate change (the Little Ice Age) and economic decline. This settlement serves as the launching point for Leif Erikson's voyage to Vinland (North America) around 1001 CE.",
+      "key_figures": [
+        "Erik the Red / Erik Thorvaldsson (Norse explorer and settler)",
+        "Leif Erikson (son, future explorer of Vinland)"
+      ],
       "sources": [
         {
-          "name": "Thietmar of Merseburg, Chronicon",
-          "type": "chronicle",
+          "name": "Eir\u00edks saga rau\u00f0a (Erik the Red's Saga)",
+          "type": "later_compilation",
           "contemporary": false
         },
         {
-          "name": "Annales Hildesheimenses",
-          "type": "chronicle",
+          "name": "Gr\u00e6nlendinga saga (Saga of the Greenlanders)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Greenland Norse settlements",
+          "type": "archaeological",
           "contemporary": false
         }
       ],
       "certainty": "probable",
-      "certainty_note": "The symbolic significance of the year 1000 in Christian Europe is attested in contemporary and near-contemporary sources, but the extent of millennial anxiety and apocalyptic expectations has been debated by modern scholars. Some sources suggest that the millennium was not widely celebrated or feared, while others emphasize its religious significance.",
-      "cross_references": []
+      "certainty_note": "The sagas place Erik's settlement around 985 CE, but some sources suggest 1000 CE or later. Archaeological evidence confirms Norse settlement in Greenland from the late 10th century onward, but the exact founding date is uncertain. The sagas were written 200+ years after the events.",
+      "cross_references": [
+        "1001-001 (Leif Erikson's voyage to Vinland)",
+        "1450-001 (Abandonment of Greenland Norse settlements)"
+      ]
     },
     {
       "id": "1000-002",
-      "title": "Otto III's pilgrimage to Rome and consolidation of imperial authority",
-      "region": "Holy Roman Empire (Germany, Italy)",
-      "coordinates_approx": "41.9028, 12.4964",
-      "category": "political",
-      "description": "Otto III, Holy Roman Emperor and King of Germany, made a pilgrimage to Rome in the year 1000 to visit the tomb of Saint Peter and to consolidate his imperial authority. Otto III was known for his intellectual pursuits and his ambitious vision of reviving the Roman Empire. His pilgrimage to Rome was a symbolic affirmation of his imperial authority and his commitment to Christian reform. However, Otto's authority was contested in both Germany and Italy, and his reign was marked by significant challenges. The pilgrimage reflected Otto's ideological vision of empire but did not resolve the underlying political tensions.",
+      "title": "Vladimir the Great's Christianization of Kievan Rus",
+      "region": "Kievan Rus (Eastern Europe)",
+      "coordinates_approx": "50.45, 30.52",
+      "category": "religious",
+      "description": "Vladimir I (Vladimir the Great), Prince of Kievan Rus, formally adopts Orthodox Christianity as the state religion of Kievan Rus, marking a watershed moment in Eastern European history. Vladimir had been a pagan ruler but converted to Christianity, reportedly after a diplomatic marriage to the Byzantine princess Anna. He orders the baptism of his subjects and the destruction of pagan idols, most famously the statue of Perun in Kiev. This Christianization aligns Kievan Rus with the Byzantine Empire and the Orthodox Church, establishing a religious and cultural orientation that persists to the present day. The event is celebrated in Orthodox tradition as the Christianization of Rus and is foundational to Russian, Ukrainian, and Belarusian national identities.",
       "key_figures": [
-        "Otto III (Holy Roman Emperor)",
-        "Pope Sylvester II (Gerbert of Aurillac)"
+        "Vladimir I / Vladimir the Great (Prince of Kievan Rus)",
+        "Anna Porphyrogenneta (Byzantine princess, Vladimir's wife)",
+        "Patriarch of Constantinople (Orthodox Church authority)"
       ],
       "sources": [
         {
-          "name": "Thietmar of Merseburg, Chronicon",
+          "name": "Primary Chronicle (Povest vremennykh let)",
           "type": "chronicle",
           "contemporary": false
         },
         {
-          "name": "Vita Odonis (Life of Otto III)",
-          "type": "later_compilation",
+          "name": "Byzantine sources (Constantine VII, De administrando imperio)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Kiev and other Rus cities",
+          "type": "archaeological",
           "contemporary": false
         }
       ],
-      "certainty": "probable",
-      "certainty_note": "Otto III's pilgrimage to Rome in 1000 is attested in contemporary and near-contemporary sources, but the precise details and significance of the pilgrimage are debated by modern scholars. The year 1000 is securely dated.",
-      "cross_references": []
+      "certainty": "confirmed",
+      "certainty_note": "The Christianization of Kievan Rus is well-attested in both Rus and Byzantine sources. The date is traditionally given as 988 CE (the baptism of Vladimir and his army), but the formal state adoption and mass conversion continued through the 990s and into the 1000s. The year 1000 CE is used here to mark the consolidation of this process, though 988 CE is the more commonly cited date for the initial conversion.",
+      "cross_references": [
+        "988-001 (Vladimir's baptism and initial conversion)",
+        "1015-001 (Vladimir's death and succession disputes)"
+      ]
     },
     {
       "id": "1000-003",
-      "title": "Song Dynasty at the height of its power and cultural achievement",
-      "region": "China (Song Dynasty)",
-      "coordinates_approx": "34.3416, 108.9398",
-      "category": "cultural",
-      "description": "The Song Dynasty, under Emperor Zhenzong (r. 997\u20131022), was at the height of its power and cultural achievement in the year 1000. The Song Dynasty was known for its technological innovations, including advances in printing, naval technology, and military engineering. The Song period saw the flourishing of Neo-Confucian philosophy, the development of a sophisticated merchant class, and the growth of major cities. The Song Dynasty was also engaged in military campaigns against the Khitan Liao Dynasty in the north, though these campaigns were ultimately unsuccessful in reconquering the northern territories. The Song Dynasty represented one of the highest points of medieval Chinese civilization.",
+      "title": "Song Dynasty consolidates control over China",
+      "region": "Song Dynasty (China)",
+      "coordinates_approx": "34.0, 108.0",
+      "category": "political",
+      "description": "The Song Dynasty, founded in 960 CE, has by 1000 CE consolidated control over most of China, ending the fragmentation of the Five Dynasties and Ten Kingdoms period. Under Emperor Taizong (r. 976\u2013997 CE) and his successor Emperor Zhenzong (r. 997\u20131022 CE), the Song state has established a centralized bureaucracy, a powerful military, and a sophisticated system of civil service examinations. The Song Dynasty is characterized by remarkable technological innovation (printing, gunpowder weapons, naval technology), economic growth, and cultural flourishing. By 1000 CE, the Song controls the wealthy Yangtze River valley and most of southern China, though the northern frontier remains contested with the Liao Dynasty (Khitan). The Song period represents one of the highest points of Chinese civilization in terms of technological advancement and cultural achievement.",
       "key_figures": [
-        "Emperor Zhenzong of Song",
-        "Empress Dowager Liu (regent)"
+        "Emperor Zhenzong (Song Emperor, r. 997\u20131022 CE)",
+        "Cao Cao (military strategist and administrator, historical reference)",
+        "Wang Anshi (future reformer, not yet in power)"
       ],
       "sources": [
         {
@@ -79,121 +100,114 @@
           "contemporary": false
         },
         {
-          "name": "Song Shi (History of the Song Dynasty)",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "The Song Dynasty's power and cultural achievement in 1000 are well-documented in Chinese historical records. The year 1000 falls within the well-attested period of Zhenzong's reign.",
-      "cross_references": []
-    },
-    {
-      "id": "1000-004",
-      "title": "Rajaraja I of the Chola Empire consolidates power in South India",
-      "region": "South India (Chola Empire)",
-      "coordinates_approx": "11.1271, 79.8711",
-      "category": "political",
-      "description": "Rajaraja I (r. 985\u20131014) of the Chola Empire was consolidating his power over much of South India in the year 1000. Rajaraja's reign was marked by military conquests, administrative reforms, and extensive patronage of Hindu temples and arts. In 1000, Rajaraja was engaged in consolidating his control over the Deccan and preparing for the naval expansion that would characterize his reign. His reign saw the construction of major temples, including the Brihadeshvara Temple, and the development of a sophisticated administrative system. The Chola Empire was at the height of its power and influence in South Asia.",
-      "key_figures": [
-        "Rajaraja I (Chola Emperor)"
-      ],
-      "sources": [
-        {
-          "name": "Chola inscriptions and temple records (epigraphic evidence)",
-          "type": "epigraphic",
+          "name": "Song Dynasty official records and imperial edicts",
+          "type": "primary_text",
           "contemporary": true
         },
         {
-          "name": "Later Tamil chronicles and literary works",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Rajaraja I's reign and major achievements are well-documented through inscriptions and later chronicles. The year 1000 falls within the well-attested period of his reign.",
-      "cross_references": []
-    },
-    {
-      "id": "1000-005",
-      "title": "Fatimid Caliphate under Al-Hakim bi-Amr Allah",
-      "region": "Fatimid Caliphate (Egypt, North Africa, Levant)",
-      "coordinates_approx": "30.0444, 31.2357",
-      "category": "political",
-      "description": "Al-Hakim bi-Amr Allah (r. 996\u20131021) was the sixth Fatimid Caliph and ruled over a vast empire stretching from North Africa to the Levant. In 1000, Al-Hakim was consolidating his power and implementing policies designed to strengthen the Fatimid state. His reign was marked by religious fervor, administrative reforms, and military campaigns. Al-Hakim was known for his eccentric personality and his controversial religious policies, which included the persecution of Christians and other non-Muslim minorities. His reign had profound effects on the religious and political landscape of the Islamic world.",
-      "key_figures": [
-        "Al-Hakim bi-Amr Allah (Fatimid Caliph)"
-      ],
-      "sources": [
-        {
-          "name": "Al-Maqrizi, Itti'az al-Hunafa",
-          "type": "later_compilation",
-          "contemporary": false
-        },
-        {
-          "name": "Coptic Christian chronicles",
-          "type": "later_compilation",
-          "contemporary": false
-        }
-      ],
-      "certainty": "confirmed",
-      "certainty_note": "Al-Hakim's reign and major policies are well-documented in Islamic and Coptic sources. The year 1000 falls within the well-attested period of his reign.",
-      "cross_references": []
-    },
-    {
-      "id": "1000-006",
-      "title": "Leif Erikson's voyage to North America (traditional dating)",
-      "region": "North Atlantic and North America",
-      "coordinates_approx": "41.0, -71.0",
-      "category": "exploration",
-      "description": "According to Norse sagas (the Vinland Sagas), Leif Erikson, son of Erik the Red, led an expedition from Greenland to North America around the year 1000. Leif's voyage is traditionally dated to 1000 CE, though modern scholarship suggests the voyage may have occurred somewhat earlier or later. Leif's expedition reached a land he called 'Vinland,' which is believed to correspond to parts of present-day Newfoundland and the northeastern coast of North America. The Norse established a temporary settlement at a place called 'Leifsbudir' (Leif's Camp), though the settlement was abandoned after a few years. The Norse voyages to North America represent the first documented European contact with the Americas, predating Columbus by nearly 500 years.",
-      "key_figures": [
-        "Leif Erikson (Norse explorer)",
-        "Erik the Red (father of Leif)"
-      ],
-      "sources": [
-        {
-          "name": "Vinland Sagas (Gr\u00e6nlendinga saga and Eir\u00edks saga rau\u00f0a)",
-          "type": "oral_tradition",
-          "contemporary": false
-        },
-        {
-          "name": "Archaeological evidence from L'Anse aux Meadows, Newfoundland",
+          "name": "Archaeological evidence from Song cities and sites",
           "type": "archaeological",
           "contemporary": false
         }
       ],
-      "certainty": "approximate",
-      "certainty_note": "The Vinland Sagas are the primary source for Leif Erikson's voyage, but they were composed centuries after the events they describe and contain legendary elements. Archaeological evidence from L'Anse aux Meadows confirms Norse presence in North America, but the dating of the site is uncertain (approximately 1000 CE, with a range of \u00b150 years). The year 1000 is a traditional dating based on the sagas, but modern scholarship suggests the voyage may have occurred in the late 10th or early 11th century.",
-      "cross_references": []
+      "certainty": "confirmed",
+      "certainty_note": "The Song Dynasty's consolidation of power is well-documented in Chinese historical records. The year 1000 CE falls within Emperor Zhenzong's reign, and the empire's status at this time is clearly established through official records and later historiography.",
+      "cross_references": [
+        "960-001 (Song Dynasty founding)",
+        "1022-001 (Emperor Zhenzong's death)"
+      ]
+    },
+    {
+      "id": "1000-004",
+      "title": "Anund Jacob becomes King of Sweden",
+      "region": "Kingdom of Sweden (Scandinavia)",
+      "coordinates_approx": "60.0, 18.0",
+      "category": "political",
+      "description": "Anund Jacob (Anund Jacobsson) becomes King of Sweden following the death of his father Eric the Victorious. Anund Jacob rules during a period of Christian consolidation in Scandinavia and maintains Sweden's independence against Norwegian and Danish pressure. He is remembered as a Christian king who supported the Church and maintained diplomatic relations with other Scandinavian kingdoms. His reign marks the continuation of the Christianization process begun by his predecessors and the establishment of Sweden as a stable Christian kingdom in Northern Europe.",
+      "key_figures": [
+        "Anund Jacob (King of Sweden)",
+        "Eric the Victorious (father, previous king)"
+      ],
+      "sources": [
+        {
+          "name": "Snorri Sturluson, Heimskringla (Kings' Sagas)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Swedish royal chronicles and genealogies",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The date of Anund Jacob's accession is traditionally given as 1000 CE, but some sources place it slightly earlier or later. The sagas are written centuries after the events and may contain chronological errors. The succession itself is confirmed, but the exact year is approximate.",
+      "cross_references": [
+        "1022-001 (Anund Jacob's death and succession)"
+      ]
+    },
+    {
+      "id": "1000-005",
+      "title": "Al-Aziz Nizar rules Fatimid Caliphate at height of power",
+      "region": "Fatimid Caliphate (North Africa, Levant, Egypt)",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "The Fatimid Caliph Al-Aziz Nizar (r. 975\u2013996 CE) has recently died, and his son Al-Hakim bi-Amr Allah (r. 996\u20131021 CE) rules the Fatimid Caliphate at the height of its territorial and economic power. The Fatimids control Egypt, North Africa, the Levant, and parts of the Arabian Peninsula, making them one of the most powerful Islamic states of the era. The Fatimid navy dominates the Mediterranean, and Cairo is one of the world's largest and most prosperous cities. The Fatimids are known for their sophisticated administration, their patronage of learning and the arts, and their religious tolerance (despite periodic persecution of Christians and other minorities). The year 1000 CE marks the Fatimid Caliphate at its zenith before internal instability and external pressures begin to erode its power.",
+      "key_figures": [
+        "Al-Hakim bi-Amr Allah (Fatimid Caliph, r. 996\u20131021 CE)",
+        "Al-Aziz Nizar (previous caliph, recently deceased)"
+      ],
+      "sources": [
+        {
+          "name": "Al-Maqrizi, Itti'az al-Hunafa (Islamic chronicle)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Fatimid administrative records and papyri",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Byzantine and Western sources on Fatimid power",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Fatimid Caliphate's status and power in 1000 CE are well-documented in both Islamic and Western sources. The succession of Al-Hakim bi-Amr Allah is confirmed, and the empire's territorial extent and economic strength are clearly established.",
+      "cross_references": [
+        "1001-004 (Al-Hakim's destruction of the Church of the Holy Sepulchre)",
+        "1021-001 (Al-Hakim's death and succession)"
+      ]
     }
   ],
-  "disconfirming_evidence": "The significance of the year 1000 as a turning point in European history has been greatly exaggerated in popular historiography. Modern scholarship suggests that millennial anxiety was not widespread in medieval Europe, and that the year 1000 did not mark any major political, military, or cultural transformation. The symbolic significance of the year 1000 was primarily retrospective, imposed by later historians rather than experienced by contemporaries. Additionally, the dating of Leif Erikson's voyage to 1000 CE is traditional but uncertain; modern scholarship suggests the voyage may have occurred in the late 10th or early 11th century, and the sagas themselves contain legendary elements that complicate their historical reliability. The Norse settlement in North America was short-lived and had no lasting impact on European-American relations until the 15th century.",
-  "historiographic_note": "The year 1000 is moderately well-documented in European and East Asian sources, but with significant gaps and biases. Western European sources are dominated by monastic chronicles with limited perspective on political and military events, and the significance of the year 1000 is often overstated. Chinese sources are detailed and reliable for court politics and military campaigns. Islamic sources for the Fatimid period are often later compilations, and contemporary documentation is sparse. South Asian sources are primarily epigraphic and architectural. Sub-Saharan Africa, Southeast Asia, and the Americas are virtually absent from contemporary documentation, with the exception of the Norse sagas regarding North America, which are legendary and unreliable. The surviving record is heavily biased toward elite political, military, and religious events; economic, social, and technological developments are underrepresented. The year 1000 has been invested with symbolic significance by later historians that may not reflect its actual importance to contemporaries.",
+  "disconfirming_evidence": "The date of Erik the Red's settlement of Greenland is traditionally given as 985 CE in the sagas, not 1000 CE. The inclusion here under 1000 CE is somewhat arbitrary and reflects uncertainty in the sources. Vladimir the Great's Christianization is more accurately dated to 988 CE (his baptism) rather than 1000 CE, though the consolidation of Christian rule continued through the 990s. Anund Jacob's accession date is uncertain and may not be precisely 1000 CE. The year 1000 CE itself has no particular historical significance in most regions; it is primarily a symbolic threshold in the Christian calendar.",
+  "historiographic_note": "The year 1000 CE is moderately well-documented in European, Islamic, and East Asian sources, but the documentation is unevenly distributed. European sources (sagas, chronicles) are often written centuries after the events and contain chronological uncertainties. Islamic sources from the Fatimid and Abbasid courts are more contemporary but reflect court perspectives. Chinese sources are detailed and contemporary. The record is heavily weighted toward political and military events; economic, social, and demographic changes are underrepresented. Sub-Saharan Africa, the Americas, and much of Central Asia are absent from the surviving record. The symbolic significance of the year 1000 CE in Christian Europe may have led to retrospective dating of events to this year.",
   "graph_edges": [
     {
-      "from": "1000-002",
-      "to": "1002-001",
+      "from": "1000-001",
+      "to": "1001-001",
       "relation": "led_to",
-      "note": "Otto III's pilgrimage and consolidation of authority in 1000 preceded his death in 1002"
+      "note": "Erik the Red's Greenland settlement enables Leif Erikson's voyage to Vinland"
+    },
+    {
+      "from": "1000-002",
+      "to": "1015-001",
+      "relation": "led_to",
+      "note": "Vladimir's Christianization of Rus leads to succession disputes after his death"
     },
     {
       "from": "1000-003",
-      "to": "1005-001",
+      "to": "1022-001",
       "relation": "led_to",
-      "note": "Song Dynasty military campaigns in 1000 led to the Shanyuan Treaty with the Liao in 1005"
+      "note": "Song Dynasty consolidation continues under Emperor Zhenzong"
     },
     {
-      "from": "1000-006",
-      "to": "1492-001",
+      "from": "1000-005",
+      "to": "1001-004",
       "relation": "led_to",
-      "note": "Norse exploration of North America around 1000 CE preceded European colonization by nearly 500 years"
+      "note": "Al-Hakim bi-Amr Allah's rule leads to destruction of Church of the Holy Sepulchre"
     }
-  ],
-  "_meta": {
-    "processed_at": "2026-04-11T17:44:18.749642",
-    "model": "claude-sonnet-4-6",
-    "method": "claude-code-cli",
-    "note": "Produced via Claude Code CLI (Max subscription) before API migration"
-  }
+  ]
 }
