@@ -1,0 +1,90 @@
+{
+  "year": -2464,
+  "year_label": "2464 BCE",
+  "era_context": "The Old Kingdom of Egypt is in its final phase (c. 2686\u20132181 BCE), specifically the late Fifth Dynasty (c. 2494\u20132345 BCE). Simultaneously, the Akkad Empire under Naram-Sin dominates Mesopotamia (c. 2254\u20132218 BCE). In the Indus Valley, the mature Harappan civilization is at its height (c. 2500\u20131900 BCE). The Bronze Age is well established across the Eastern Mediterranean and Near East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe (sparse Bronze Age documentation)",
+    "East Asia beyond the Indus Valley (limited contemporary records)",
+    "The Americas (no written records; archaeological context limited)"
+  ],
+  "events": [
+    {
+      "id": "-2464-001",
+      "title": "Reign of Naram-Sin of Akkad (approximate middle period)",
+      "region": "Mesopotamia (Akkad Empire)",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "Naram-Sin (r. c. 2254\u20132218 BCE) continues his consolidation of the Akkad Empire, which at this point spans much of Mesopotamia and parts of the Levant. He is the first Akkadian ruler to declare himself divine during his lifetime, a significant theological and political innovation. His reign is marked by military campaigns, administrative reorganization, and the promotion of Akkadian language and culture over Sumerian traditions. The empire reaches its territorial zenith during this period.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad, self-deified)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin Stele (Victory Stele of Naram-Sin), limestone relief from Susa",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Akkadian royal inscriptions and administrative texts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested in contemporary inscriptions and the Naram-Sin Stele. However, precise year-by-year chronology for the Akkad Empire remains debated; this year falls within his documented reign (c. 2254\u20132218 BCE) but the exact regnal year is uncertain by \u00b15\u201310 years depending on chronological system used.",
+      "cross_references": []
+    },
+    {
+      "id": "-2464-002",
+      "title": "Mature Harappan urban civilization at peak",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (c. 2500\u20131900 BCE) is at its height during this period. Major urban centers such as Mohenjo-daro and Harappa are fully developed, with sophisticated urban planning, standardized weights and measures, and extensive trade networks extending to Mesopotamia and the Persian Gulf. The civilization is characterized by undeciphered script, advanced drainage systems, and a largely peaceful, egalitarian social structure (based on archaeological evidence). No monumental palaces or temples have been identified, suggesting a different social organization than contemporary civilizations.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, and other Indus sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and script (undeciphered)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian trade records mentioning 'Meluhha' (likely Indus Valley)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature Harappan phase is well-established archaeologically with radiocarbon dating and stratigraphic evidence. The civilization's peak is generally dated c. 2500\u20131900 BCE, placing -2464 solidly within this period.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Naram-Sin's reign depends heavily on which chronological system is adopted (short, middle, or long chronology for Mesopotamia). The 'middle chronology' places him c. 2254\u20132218 BCE, but the 'short chronology' would place him later (c. 2154\u20132118 BCE). This introduces \u00b1100-year uncertainty for this specific year. Additionally, some scholars debate whether Naram-Sin's self-deification occurred early or late in his reign, affecting the significance of events in any given year.",
+  "historiographic_note": "Documentation for -2464 is heavily skewed toward Mesopotamia and the Indus Valley, where written records and extensive archaeology exist. Egyptian records from the Fifth Dynasty are available but sparse for specific years. The Akkad Empire's chronology remains one of the most contested issues in ancient Near Eastern studies, with three competing chronological systems producing \u00b1100-year variations. Sub-Saharan Africa, northern Europe, and East Asia are essentially undocumented for this year in written sources. The Indus Valley script remains undeciphered, limiting understanding of Harappan political and religious life.",
+  "graph_edges": [
+    {
+      "from": "-2464-001",
+      "to": "-2218-END_AKKAD",
+      "relation": "part_of",
+      "note": "Naram-Sin's reign is part of the Akkad Empire's existence; the empire collapses c. 2218 BCE"
+    },
+    {
+      "from": "-2464-002",
+      "to": "-1900-HARAPPAN_DECLINE",
+      "relation": "led_to",
+      "note": "The mature Harappan civilization eventually declines around 1900 BCE; causes remain debated"
+    }
+  ]
+}

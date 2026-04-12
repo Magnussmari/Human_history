@@ -1,0 +1,123 @@
+{
+  "year": -2467,
+  "year_label": "2467 BCE",
+  "era_context": "The Old Kingdom of Egypt is in its final decades (Dynasty VI, c. 2345\u20132181 BCE). The Akkadian Empire under Naram-Sin is approaching its collapse, which will occur within the next 10\u201320 years. The Harappan civilization continues its mature phase. This period marks the transition from the height of Bronze Age urban civilization toward a period of fragmentation and change.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Oceania",
+    "Americas"
+  ],
+  "events": [
+    {
+      "id": "-2467-001",
+      "title": "Pepi II's reign in its final phase; Egypt's central authority weakens",
+      "region": "Egypt, Nile Valley",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "political",
+      "description": "Pepi II's reign is approaching its end (he will die within the next 10\u201315 years according to conventional chronology). By this point, provincial governors have accumulated substantial independent power, and the central authority of the pharaoh is significantly diminished. The transition to the First Intermediate Period is imminent. Archaeological evidence shows that local elites are increasingly independent, and the unified state structure of the Old Kingdom is fragmenting.",
+      "key_figures": [
+        "Pepi II (Neferkare) \u2014 Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Autobiographical inscriptions of provincial officials",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of provincial autonomy",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Pepi II's reign is attested, but the specific year 2467 BCE is assigned by convention with \u00b150-year uncertainty.",
+      "cross_references": [
+        "-2468-001"
+      ]
+    },
+    {
+      "id": "-2467-002",
+      "title": "Akkadian Empire faces collapse; Gutian invasions intensify",
+      "region": "Mesopotamia, Akkad",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Naram-Sin's Akkadian Empire is in severe crisis. Gutian tribes from the Zagros Mountains are conducting increasingly successful raids and invasions. Internal rebellions are weakening central control. The empire that reached its height under Naram-Sin is now fragmenting. Within the next 5\u201310 years, the Akkadian Empire will collapse, and Gutian rule will dominate Mesopotamia for a period. This represents one of the major political collapses of the ancient world.",
+      "key_figures": [
+        "Naram-Sin \u2014 King of Akkad (in final years of reign)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian inscriptions describing military campaigns",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List (later compilation describing Gutian period)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of destruction layers at Akkadian sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The collapse of the Akkadian Empire is well-attested, though the precise dating of individual years within this collapse is uncertain. The year 2467 BCE is assigned by convention to the period of acute crisis.",
+      "cross_references": [
+        "-2468-002"
+      ]
+    },
+    {
+      "id": "-2467-003",
+      "title": "Harappan civilization shows signs of environmental stress",
+      "region": "Indus Valley, South Asia",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "environmental",
+      "description": "Archaeological evidence suggests that by this period, the Harappan civilization may be experiencing environmental stress, possibly related to climate change (reduced monsoon rainfall) or tectonic activity affecting river systems. While the civilization remains materially intact, some scholars identify this period as the beginning of the processes that would lead to the civilization's decline and eventual collapse around 1900 BCE. However, this interpretation is debated, and the civilization continues to function normally in most respects.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Paleoclimatic evidence from sediment cores and geological studies",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of settlement patterns and subsistence changes",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The environmental stress hypothesis is based on paleoclimatic reconstruction and is debated among scholars. The precise timing and impact are uncertain.",
+      "cross_references": [
+        "-2468-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The collapse of the Akkadian Empire is traditionally attributed to Gutian invasions, but some scholars argue that internal factors (administrative overextension, resource depletion) were equally or more important. The environmental stress hypothesis for the Harappan civilization is contested; some scholars argue that the civilization's decline was due to internal factors or that the decline was more gradual than environmental stress models suggest.",
+  "historiographic_note": "The historical record for 2467 BCE remains sparse and geographically limited. The sources are elite-focused and do not capture broader social or economic realities. The dating of events to this specific year carries significant uncertainty (\u00b150 years). The Akkadian collapse is better documented than most events of this period, but even this major historical event is known primarily through later chronicles and archaeological evidence rather than contemporary records.",
+  "graph_edges": [
+    {
+      "from": "-2467-001",
+      "to": "-2466-001",
+      "relation": "led_to",
+      "note": "Pepi II's reign ends; First Intermediate Period begins"
+    },
+    {
+      "from": "-2467-002",
+      "to": "-2466-002",
+      "relation": "led_to",
+      "note": "Akkadian Empire collapses; Gutian period begins"
+    },
+    {
+      "from": "-2467-003",
+      "to": "-2466-003",
+      "relation": "led_to",
+      "note": "Environmental stress continues; Harappan civilization begins gradual decline"
+    }
+  ]
+}

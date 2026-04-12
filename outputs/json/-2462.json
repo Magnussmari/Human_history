@@ -1,0 +1,79 @@
+{
+  "year": -2462,
+  "year_label": "2462 BCE",
+  "era_context": "The Akkad Empire under Naram-Sin remains at its height. The Egyptian Fifth Dynasty continues its gradual decline in centralized authority. The Indus Valley Civilization maintains its mature urban phase. This period represents the apex of several Old World civilizations before the climate and political disruptions of the late 3rd millennium BCE.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-2462-001",
+      "title": "Akkad Empire at territorial zenith",
+      "region": "Mesopotamia, Levant, and surrounding regions",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "political",
+      "description": "The Akkad Empire under Naram-Sin reaches its maximum territorial extent, encompassing Mesopotamia, parts of the Levant, the Zagros Mountains, and possibly extending toward Anatolia and the Persian Gulf. The empire's administration is centralized under Akkadian officials, and Akkadian language and culture are promoted throughout the realm. Trade networks extend to the Indus Valley, Egypt, and Anatolia. This represents the first true multi-ethnic empire in the Near East.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions and administrative texts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of Akkadian administrative presence across the region",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The extent and nature of the Akkad Empire are well-documented in inscriptions and archaeology, but the precise year of maximum territorial extent is not recorded. This year falls within Naram-Sin's reign when the empire is known to have been at its largest.",
+      "cross_references": []
+    },
+    {
+      "id": "-2462-002",
+      "title": "Indus Valley trade networks at peak activity",
+      "region": "Indus Valley and trade routes to Mesopotamia",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains extensive trade networks with Mesopotamia, the Persian Gulf, and possibly Egypt and Anatolia. Indus seals and weights are found in Mesopotamian sites, indicating regular commercial contact. The standardized weights and measures of the Indus civilization facilitate long-distance trade. Goods exchanged likely include lapis lazuli, carnelian, timber, and agricultural products from the Indus Valley in exchange for Mesopotamian goods and luxury items.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Indus seals found in Mesopotamian sites (Ur, Lagash, etc.)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian texts mentioning trade with 'Meluhha'",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of standardized weights and measures",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence of Indus-Mesopotamian trade is confirmed by archaeological evidence (seals, weights, pottery). The peak of this trade is generally dated to the mature Harappan phase (c. 2500\u20131900 BCE), which includes this year.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, the extent of Akkadian territorial control is debated by scholars; some argue that 'control' was more nominal or indirect in peripheral regions than the royal inscriptions suggest.",
+  "historiographic_note": "The historical record for -2462 remains sparse and regionally fragmented. Mesopotamian sources are the most detailed, but they are royal propaganda. Egyptian sources are administrative. The Indus Valley is archaeologically rich but textually silent. The rest of the world is essentially undocumented in written sources.",
+  "graph_edges": [
+    {
+      "from": "-2462-001",
+      "to": "-2218-AKKAD_COLLAPSE",
+      "relation": "led_to",
+      "note": "The Akkad Empire's territorial zenith is followed by rapid collapse c. 2218 BCE, possibly due to climate change and internal rebellion"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "year": -2460,
+  "year_label": "2460 BCE",
+  "era_context": "The Akkad Empire under Naram-Sin is at or near its height. The Egyptian Fifth Dynasty continues its gradual decline toward the First Intermediate Period. The Indus Valley Civilization remains in its mature, prosperous phase. This is a period of established imperial structures, long-distance trade, and the beginning of significant political transitions in Egypt.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "East Asia",
+    "The Americas"
+  ],
+  "events": [
+    {
+      "id": "-2460-001",
+      "title": "Akkad Empire's military and administrative consolidation",
+      "region": "Mesopotamia and the Near East",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "Naram-Sin continues to consolidate Akkadian control over Mesopotamia and surrounding regions through military campaigns and administrative reorganization. The empire's military is well-organized, with standing armies and professional soldiers. Akkadian officials are placed in conquered territories to ensure loyalty and extract tribute. The empire's reach extends from the Persian Gulf to the Mediterranean and from Anatolia to the Arabian Peninsula. This represents an unprecedented level of imperial organization in the ancient Near East.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions and administrative texts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of Akkadian administrative presence",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The consolidation of the Akkad Empire is well-documented in inscriptions and archaeology, but specific year-by-year events are not recorded. This year falls within Naram-Sin's reign (c. 2254\u20132218 BCE) when such consolidation is known to have occurred.",
+      "cross_references": []
+    },
+    {
+      "id": "-2460-002",
+      "title": "Indus Valley Civilization mature phase stability",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization continues in its mature phase, characterized by stable urban centers, standardized weights and measures, extensive trade networks, and a largely peaceful society. Major cities like Mohenjo-daro and Harappa are fully developed with sophisticated drainage systems, public baths, and planned street layouts. The civilization's undeciphered script is used for administrative and commercial purposes. The absence of monumental palaces or temples suggests a different social organization than contemporary civilizations, possibly with more egalitarian or merchant-based governance.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and script",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian trade records mentioning 'Meluhha'",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature Harappan phase is well-established archaeologically. The civilization's stability and prosperity during this period are confirmed by extensive archaeological evidence.",
+      "cross_references": []
+    },
+    {
+      "id": "-2460-003",
+      "title": "Egyptian Fifth Dynasty late period administrative challenges",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Fifth Dynasty of Egypt faces increasing administrative challenges as provincial governors accumulate power and resources. The central government's ability to mobilize labor for monumental construction projects diminishes. The priesthood of Ra becomes increasingly wealthy and influential, with temple lands expanding. The king's authority, while still nominally supreme, is increasingly challenged by the decentralization of power. This period represents the final phase of the Old Kingdom before the collapse of central authority in the First Intermediate Period.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Egyptian administrative records and tomb inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of provincial development",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The general trend of Fifth Dynasty decline is well-documented, but specific events in -2460 are not individually attested. The dating of the Fifth Dynasty has some uncertainty (\u00b110\u201320 years).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, some scholars debate the extent of Akkadian territorial control; inscriptions may exaggerate the degree of direct control versus nominal suzerainty in peripheral regions. Additionally, the stability of the Indus Valley Civilization is sometimes questioned by scholars who point to evidence of environmental stress and gradual decline beginning in this period, though the civilization does not collapse until c. 1900 BCE.",
+  "historiographic_note": "The historical record for -2460 is sparse and regionally fragmented. Mesopotamian sources (Akkadian inscriptions) are the most detailed but are propagandistic. Egyptian sources are administrative and religious. The Indus Valley is archaeologically rich but textually silent. The rest of the world is essentially undocumented in written sources. The chronology of this period remains debated, with different scholarly systems producing \u00b1100-year variations for Mesopotamia.",
+  "graph_edges": [
+    {
+      "from": "-2460-001",
+      "to": "-2218-AKKAD_COLLAPSE",
+      "relation": "led_to",
+      "note": "The Akkad Empire's consolidation is followed by rapid collapse c. 2218 BCE"
+    },
+    {
+      "from": "-2460-003",
+      "to": "-2181-FIRST_INTERMEDIATE_PERIOD",
+      "relation": "led_to",
+      "note": "The Fifth Dynasty's decline leads to the First Intermediate Period c. 2181 BCE"
+    },
+    {
+      "from": "-2460-002",
+      "to": "-1900-HARAPPAN_DECLINE",
+      "relation": "led_to",
+      "note": "The mature Harappan civilization eventually declines around 1900 BCE"
+    }
+  ]
+}

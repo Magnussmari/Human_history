@@ -1,0 +1,97 @@
+{
+  "year": -2475,
+  "year_label": "2475 BCE",
+  "era_context": "The Old Kingdom of Egypt (c. 2686\u20132181 BCE) is in its mature phase, with the Fourth Dynasty recently concluded and the Fifth Dynasty established. The Great Pyramids of Giza are already 200+ years old. In Mesopotamia, the Early Dynastic Period III is underway; city-states compete for regional dominance. The Indus Valley Civilization is in its mature phase (c. 2600\u20131900 BCE), with planned cities like Harappa and Mohenjo-daro at their height. In China, the Xia Dynasty (traditional dates c. 2070\u20131600 BCE) may be emerging or still legendary; archaeological evidence remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; archaeological evidence sparse for this specific year)",
+    "Northern Europe (no written records; archaeological context only)",
+    "Mesoamerica (no written records; archaeological dating imprecise for this period)",
+    "Southeast Asia (limited archaeological precision for this year)"
+  ],
+  "events": [
+    {
+      "id": "-2475-001",
+      "title": "Reign of Userkaf, Fifth Dynasty Egypt",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "30.0, 31.0",
+      "category": "political",
+      "description": "Userkaf (c. 2494\u20132487 BCE, traditional dating) is established as the founder of Egypt's Fifth Dynasty, marking a shift in royal ideology and religious emphasis toward the sun god Ra. His reign consolidates power after the Fourth Dynasty and initiates a period of increased administrative decentralization. The Fifth Dynasty is characterized by the construction of smaller pyramids and the rise of the priesthood of Ra. This transition reflects changing political and religious priorities in the Old Kingdom.",
+      "key_figures": [
+        "Userkaf (Pharaoh, Fifth Dynasty)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List (Temple of Seti I)",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Manetho, Aegyptiaca (preserved in Josephus and Eusebius)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from pyramid complexes at Abusir",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Userkaf's reign is well-attested in king lists and archaeological remains, but absolute dating relies on astronomical calculations and radiocarbon dating with margins of \u00b150\u2013100 years. Traditional Egyptological dating places him c. 2494\u20132487 BCE; some scholars argue for dates 50\u2013100 years later.",
+      "cross_references": [
+        "Follows from -2500-era Fourth Dynasty conclusion"
+      ]
+    },
+    {
+      "id": "-2475-002",
+      "title": "Mature phase of Indus Valley Civilization urban centers",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization is at its peak, with major urban centers like Harappa, Mohenjo-daro, Dholavira, and Kalibangan fully developed and functioning. These cities exhibit sophisticated urban planning, standardized weights and measures, and extensive trade networks extending to Mesopotamia, the Persian Gulf, and Central Asia. The civilization's undeciphered script appears on seals and pottery. No evidence of monumental temples or palaces suggests a different social organization than contemporary Mesopotamian or Egyptian societies.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and Dholavira",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Indus seals with undeciphered script",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Radiocarbon dating (AMS) from multiple sites",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The mature Indus Valley Civilization is archaeologically well-attested. Radiocarbon dating places the mature phase c. 2600\u20131900 BCE; this year falls within that range with high confidence.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional Egyptian chronology used here (Userkaf c. 2494\u20132487 BCE) is disputed. Some scholars, following the 'low chronology,' place the Fifth Dynasty 50\u2013100 years later. Radiocarbon dating of Old Kingdom materials has produced conflicting results, with some studies suggesting dates closer to 2400 BCE for Userkaf's reign. The Indus Valley Civilization's script remains undeciphered, so claims about its political organization, religious beliefs, or written language are speculative; the absence of monumental temples or palaces may reflect preservation bias or genuinely different social structures.",
+  "historiographic_note": "For 2475 BCE, documentation is heavily skewed toward Egypt and the Indus Valley, where archaeological evidence is rich. Mesopotamian records from this period are fragmentary and often lack precise dating. Chinese sources are entirely legendary or much later. African, European, and American histories are archaeologically attested but not precisely datable to individual years. The surviving record reflects the preservation bias of arid climates (Egypt, Indus) and the accident of which civilizations left written records. Royal chronologies are constructed retrospectively and contain systematic uncertainties of \u00b150\u2013100 years.",
+  "graph_edges": [
+    {
+      "from": "-2475-001",
+      "to": "-2470-era Fifth Dynasty consolidation",
+      "relation": "part_of",
+      "note": "Userkaf's reign initiates the Fifth Dynasty, which continues for ~150 years"
+    },
+    {
+      "from": "-2475-002",
+      "to": "-2300-era Indus Valley decline",
+      "relation": "led_to",
+      "note": "The mature Indus civilization eventually declines; causes remain debated"
+    }
+  ]
+}
