@@ -1,0 +1,113 @@
+{
+  "year": -2256,
+  "year_label": "2256 BCE",
+  "era_context": "The Old Kingdom of Egypt is in its final years (Dynasty VI, c. 2278\u20132184 BCE). The Akkadian Empire is in its final phase, with Naram-Sin possibly deceased and his successor Shar-kali-sharri ruling a fragmenting state. The Harappan civilization remains stable but may be experiencing early environmental or social stresses. This is a period of transition and instability in the Near East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "East Asia beyond legendary sources"
+  ],
+  "events": [
+    {
+      "id": "-2256-001",
+      "title": "End of Pepi II's reign or transition to Dynasty VIIa (uncertain)",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "This year may mark the end of Pepi II's reign and the transition to Dynasty VIIa, though the exact date is highly uncertain. The Turin King List suggests Pepi II's reign ended around this time, but the list's reliability is debated. After Pepi II, Egypt enters the First Intermediate Period, characterized by political fragmentation, the rise of provincial powers, and a decline in monumental construction. However, the transition may have been gradual rather than abrupt.",
+      "key_figures": [
+        "Pepi II, Pharaoh of Egypt (possibly deceased)",
+        "Merenre II, Pharaoh of Egypt (possibly)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Abydos King List",
+          "type": "epigraphic",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of decline in royal construction",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The end of Pepi II's reign is traditionally dated to around this time, but the uncertainty is \u00b120\u201350 years. The transition to Dynasty VIIa is poorly documented; some scholars question whether Dynasty VIIa existed as a distinct entity.",
+      "cross_references": [
+        "-2259-001 (Pepi II's reign begins)"
+      ]
+    },
+    {
+      "id": "-2256-002",
+      "title": "Akkadian Empire under Shar-kali-sharri; continued fragmentation",
+      "region": "Mesopotamia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "political",
+      "description": "Shar-kali-sharri (r. c. 2217\u20132193 BCE, traditional dating) rules the Akkadian Empire during a period of increasing fragmentation. His inscriptions suggest he is fighting on multiple fronts\u2014against Gutians in the north, Elamites in the east, and rebellious governors within the empire. His reign is characterized by military campaigns and attempts to maintain control, but the empire is clearly in decline. The exact chronology of his reign and the specific events of this year are uncertain.",
+      "key_figures": [
+        "Shar-kali-sharri, King of Akkad"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Shar-kali-sharri's reign is attested in contemporary inscriptions, but the absolute chronology is uncertain (\u00b120\u201330 years). The specific events of this year cannot be determined from available sources.",
+      "cross_references": [
+        "-2259-002 (Naram-Sin's reign)"
+      ]
+    },
+    {
+      "id": "-2256-003",
+      "title": "Harappan civilization; possible changes in settlement patterns",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "cultural",
+      "description": "The Harappan civilization continues, but some scholars argue that subtle changes in settlement patterns and material culture begin to appear during this period. These changes may reflect social reorganization, environmental adaptation, or trade disruptions. However, the interpretation of these changes is debated; some scholars see continuity rather than change. The civilization will not show clear signs of decline until several centuries later.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of settlement patterns and material culture",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Changes in Harappan settlement patterns are inferred from archaeology, but their dating and interpretation are uncertain. The chronology of Harappan phases is debated, with uncertainty of \u00b150\u2013100 years.",
+      "cross_references": [
+        "-2259-003 (Harappan civilization)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The end of Pepi II's reign is not definitively dated to this year; some scholars place it 20\u201350 years earlier or later. The existence and duration of Dynasty VIIa is disputed; some scholars argue it did not exist as a distinct entity. Shar-kali-sharri's reign length and chronology are uncertain; some scholars argue his reign was shorter than traditionally dated. The interpretation of changes in Harappan settlement patterns is debated; some scholars argue the civilization remained stable until a later period.",
+  "historiographic_note": "This year is poorly documented. Egyptian sources are limited to king lists and tomb inscriptions; no contemporary royal inscriptions provide a narrative of events. Akkadian sources are more abundant but are heavily propagandistic and do not provide a comprehensive historical narrative. The Harappan civilization is known only through archaeology; no written historical records exist. The historical record is biased toward elite activities and neglects the experiences of common people, women, and non-elite groups. Environmental and social history must be inferred from indirect evidence.",
+  "graph_edges": [
+    {
+      "from": "-2256-001",
+      "to": "-2255-001",
+      "relation": "led_to",
+      "note": "The end of Pepi II's reign leads to the First Intermediate Period in Egypt."
+    },
+    {
+      "from": "-2256-002",
+      "to": "-2250-001",
+      "relation": "led_to",
+      "note": "Shar-kali-sharri's fragmented rule leads to the collapse of the Akkadian Empire within 10\u201320 years."
+    }
+  ]
+}

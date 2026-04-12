@@ -1,0 +1,93 @@
+{
+  "year": -2267,
+  "year_label": "2267 BCE",
+  "era_context": "Late Old Kingdom Egypt (Dynasty VI, Pepi II). Post-Akkadian Mesopotamia. Indus Valley Civilization at mature phase. The 4.2 ka event is intensifying, causing widespread aridification and agricultural stress. This period marks the beginning of a global climate crisis that would contribute to the collapse of several civilizations over the next century.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Americas",
+    "Northern Europe",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-2267-001",
+      "title": "Pepi II's reign: evidence of climate stress and Nile low floods",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 30.0",
+      "category": "environmental",
+      "description": "While no specific events are documented for 2267 BCE, paleoclimatic evidence suggests that the 4.2 ka event was beginning to impact Egypt during Pepi II's reign. Lower Nile flood levels would have reduced agricultural productivity, contributing to economic stress and the weakening of central authority. Some scholars argue that climate stress was a significant factor in the Old Kingdom's collapse, though this remains debated. The administrative fragmentation visible in inscriptions may have been exacerbated by environmental pressure.",
+      "key_figures": [
+        "Pepi II (Pharaoh)"
+      ],
+      "sources": [
+        {
+          "name": "Paleoclimatic evidence from Nile sediment cores, ice cores, and tree rings; scholarly synthesis by Weiss, deMenocal, and others",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The 4.2 ka event is well-documented in paleoclimatic records. Its impact on Egypt during Pepi II's reign is inferred from climate data and the timing of the Old Kingdom's collapse, but no contemporary Egyptian source explicitly documents climate stress for 2267 BCE.",
+      "cross_references": []
+    },
+    {
+      "id": "-2267-002",
+      "title": "Mesopotamia: Gutian pressure and state fragmentation",
+      "region": "Mesopotamia",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Following the Akkadian collapse, Gutian tribes from the Zagros Mountains were exerting pressure on Mesopotamian city-states. The Sumerian King List records a period of Gutian dominance, though the exact chronology is disputed. By 2267 BCE, Mesopotamia was highly fragmented, with competing city-states and external pressure from the Gutians. This period of instability would last until the rise of the Ur III state.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Sumerian King List; cuneiform inscriptions from Lagash and other city-states",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Gutian period is attested in the Sumerian King List, but its chronology is highly uncertain. The year 2267 BCE is assigned by convention; the broader process of fragmentation and Gutian pressure is well-attested.",
+      "cross_references": [
+        "-2269-002"
+      ]
+    },
+    {
+      "id": "-2267-003",
+      "title": "Indus Valley Civilization: possible early signs of environmental stress",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "environmental",
+      "description": "Paleoclimatic evidence suggests that the 4.2 ka event was beginning to impact the Indus Valley by this period. Some scholars argue that declining monsoon rainfall contributed to the eventual decline of the Indus Valley Civilization, though the civilization would persist for several more centuries. Archaeological evidence for 2267 BCE shows continued urban development, but subtle changes in settlement patterns and resource use may reflect early environmental stress. This remains a matter of scholarly debate.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Paleoclimatic evidence from lake sediments, tree rings, and ice cores; archaeological analysis of settlement patterns and resource use",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The 4.2 ka event's impact on the Indus Valley is inferred from paleoclimatic data and archaeological evidence. The timing and severity of its effects are debated among scholars.",
+      "cross_references": [
+        "-2269-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The role of climate change in the collapse of the Old Kingdom and other civilizations around 2200 BCE is increasingly accepted, but some scholars argue that political and social factors were more important than environmental stress. The Gutian period's chronology is highly disputed; some scholars place it much later or question its historical reality. The decline of the Indus Valley Civilization is traditionally attributed to environmental factors, but recent scholarship suggests that social and economic changes may have been equally important.",
+  "historiographic_note": "The historical record for 2267 BCE is extremely sparse. Paleoclimatic evidence is more reliable than written sources for understanding environmental conditions, but contemporary sources do not explicitly document climate stress. The surviving written sources are biased toward elite activities and do not reflect broader environmental or social changes. Chronological uncertainty remains high, particularly for Mesopotamia.",
+  "graph_edges": [
+    {
+      "from": "-2267-001",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Climate stress during Pepi II's reign contributed to the collapse of the Old Kingdom around 2180 BCE."
+    },
+    {
+      "from": "-2267-003",
+      "to": "-1900-001",
+      "relation": "led_to",
+      "note": "Early environmental stress in the Indus Valley contributed to the civilization's eventual decline around 1900 BCE."
+    }
+  ]
+}

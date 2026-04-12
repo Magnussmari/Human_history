@@ -1,0 +1,113 @@
+{
+  "year": -2257,
+  "year_label": "2257 BCE",
+  "era_context": "The Old Kingdom of Egypt is in its final decades (Dynasty VI approaching its end, c. 2184 BCE). The Akkadian Empire under Naram-Sin is beginning to face internal and external pressures that will lead to its collapse within the next 30\u201340 years. The Harappan civilization remains stable. This period marks a transition toward the First Intermediate Period in Egypt and the post-Akkadian period in Mesopotamia.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "East Asia beyond legendary sources"
+  ],
+  "events": [
+    {
+      "id": "-2257-001",
+      "title": "Pepi II's reign continues; possible decline of centralized authority",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 30.5",
+      "category": "political",
+      "description": "By this point in Pepi II's traditional reign, evidence suggests a gradual weakening of centralized pharaonic authority. Provincial governors (nomarchs) accumulate power and wealth, as evidenced by increasingly elaborate private tombs. However, the exact timeline of this decentralization is debated. Some scholars argue the decline was gradual over decades; others suggest a more abrupt collapse. The causes\u2014climate change, administrative overextension, or internal conflict\u2014remain speculative.",
+      "key_figures": [
+        "Pepi II, Pharaoh of Egypt"
+      ],
+      "sources": [
+        {
+          "name": "Tomb inscriptions of provincial officials",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Decline in royal monument construction (archaeological evidence)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The decline of Old Kingdom authority is well-attested archaeologically, but its precise chronology is uncertain. The assignment to Pepi II's reign is based on stylistic analysis and king list synchronisms.",
+      "cross_references": [
+        "-2259-001 (Pepi II's reign begins)"
+      ]
+    },
+    {
+      "id": "-2257-002",
+      "title": "Akkadian Empire faces increasing pressure from Gutian and Amorite incursions",
+      "region": "Mesopotamia, Zagros Mountains",
+      "coordinates_approx": "33.0, 44.0",
+      "category": "military",
+      "description": "Toward the end of Naram-Sin's reign (or during the reign of his successor Shar-kali-sharri), the Akkadian Empire faces mounting pressure from external groups. The Gutians, a highland people from the Zagros Mountains, begin to encroach on Akkadian territory. Amorite groups from the Syrian desert also press against Akkadian borders. These pressures, combined with possible internal administrative breakdown, will lead to the empire's collapse within 20\u201330 years. However, the precise dating of these incursions to this specific year is uncertain.",
+      "key_figures": [
+        "Naram-Sin, King of Akkad (possibly)",
+        "Shar-kali-sharri, King of Akkad (possibly)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Akkadian royal inscriptions mentioning Gutian threats",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Gutian and Amorite pressures on the Akkadian Empire are well-attested, but the specific chronology is uncertain. The Sumerian King List provides a sequence of rulers but not absolute dates.",
+      "cross_references": [
+        "-2259-002 (Naram-Sin's reign)"
+      ]
+    },
+    {
+      "id": "-2257-003",
+      "title": "Harappan civilization continues; possible early signs of environmental stress",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "environmental",
+      "description": "The Harappan civilization remains at its height, but some scholars argue that environmental changes\u2014possibly related to shifts in monsoon patterns or tectonic activity affecting river courses\u2014begin to stress the civilization's agricultural base. However, this interpretation is debated; some scholars see no evidence of environmental crisis until several centuries later. The civilization's decline is a complex process, not a sudden collapse.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Paleoclimatic and geological evidence (sediment cores, river courses)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence of settlement patterns and subsistence",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The timing and nature of environmental changes affecting the Harappan civilization are debated. Paleoclimatic evidence is indirect and subject to multiple interpretations.",
+      "cross_references": [
+        "-2259-003 (Harappan civilization)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The decline of Old Kingdom authority is not uniformly dated; some scholars argue it occurred earlier (during Pepi I's reign) or later (after Pepi II's death). The Gutian invasion narrative in the Sumerian King List is now recognized as a literary construct; the Gutians may have been a gradual infiltration rather than a sudden invasion. The environmental stress hypothesis for the Harappan civilization's decline is contested; some scholars argue the civilization was resilient to environmental change and that its decline was primarily social or political.",
+  "historiographic_note": "This year is poorly documented. Egyptian sources are limited to tomb inscriptions and administrative records; no royal inscriptions from Pepi II's reign provide a narrative of events. Akkadian sources are more abundant but are heavily propagandistic; they emphasize military victories and downplay internal problems. The Harappan civilization is known only through archaeology; no written historical records exist. The historical record is biased toward elite activities and neglects the experiences of common people, women, and non-elite groups. Environmental and social history must be inferred from indirect evidence.",
+  "graph_edges": [
+    {
+      "from": "-2257-001",
+      "to": "-2255-001",
+      "relation": "led_to",
+      "note": "The decline of Old Kingdom authority during Pepi II's reign leads to the First Intermediate Period."
+    },
+    {
+      "from": "-2257-002",
+      "to": "-2250-001",
+      "relation": "led_to",
+      "note": "Gutian and Amorite pressures lead to the collapse of the Akkadian Empire within 20\u201330 years."
+    }
+  ]
+}

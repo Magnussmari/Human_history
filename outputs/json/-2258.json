@@ -1,0 +1,118 @@
+{
+  "year": -2258,
+  "year_label": "2258 BCE",
+  "era_context": "Continuation of the Old Kingdom's decline in Egypt (Dynasty VI). The Akkadian Empire under Naram-Sin remains at or near its territorial peak. The Harappan civilization continues its mature phase. This year falls within a period of relative stability in the Near East, though the Akkadian Empire will face increasing pressure from external groups (Gutians, Amorites) within the next few decades.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "East Asia beyond legendary sources"
+  ],
+  "events": [
+    {
+      "id": "-2258-001",
+      "title": "Continued reign of Pepi II; possible military campaigns in Nubia",
+      "region": "Egypt, Nubia",
+      "coordinates_approx": "22.0, 32.0",
+      "category": "military",
+      "description": "During the traditional reign of Pepi II, Egyptian military expeditions into Nubia are attested in later inscriptions and autobiographies of officials. These campaigns aimed to secure gold, incense, and other luxury goods. However, the dating of specific campaigns to this year is speculative; later sources conflate events across decades or centuries. The reliability of these accounts is compromised by their propagandistic intent and distance from the events they describe.",
+      "key_figures": [
+        "Pepi II, Pharaoh of Egypt",
+        "Harkhuf, Egyptian official (possibly contemporary)"
+      ],
+      "sources": [
+        {
+          "name": "Autobiography of Harkhuf (rock-cut tomb inscription, Aswan)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Autobiography of Sabni (rock-cut tomb inscription, Aswan)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The autobiographies of Harkhuf and Sabni are contemporary inscriptions, but they do not provide absolute dates. Their assignment to Pepi II's reign is based on stylistic and paleographic analysis, with uncertainty of \u00b120\u201350 years.",
+      "cross_references": [
+        "-2259-001 (Pepi II's reign)"
+      ]
+    },
+    {
+      "id": "-2258-002",
+      "title": "Akkadian administrative and military activity in the Levant",
+      "region": "Levant, Syria, Mesopotamia",
+      "coordinates_approx": "34.0, 36.0",
+      "category": "political",
+      "description": "Naram-Sin's administration maintains control over the Levantine territories conquered during his reign. Administrative texts from this period document the collection of tribute, the organization of military garrisons, and trade in cedar and other resources. The Akkadian presence in the Levant is attested through inscriptions and administrative seals found at sites such as Ebla (though Ebla's relationship to Akkad is debated).",
+      "key_figures": [
+        "Naram-Sin, King of Akkad"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian administrative texts and seals",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Ebla archives (though dating and interpretation are disputed)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Akkadian control of the Levant is well-attested, but the specific year-by-year chronology is uncertain. The Ebla archives' relationship to Akkad remains debated; some scholars argue Ebla was destroyed by Naram-Sin, others that it was independent or briefly conquered.",
+      "cross_references": [
+        "-2259-002 (Naram-Sin's reign)"
+      ]
+    },
+    {
+      "id": "-2258-003",
+      "title": "Harappan trade networks active; seals and goods distributed across Indian Ocean",
+      "region": "Indus Valley, Persian Gulf, Mesopotamia",
+      "coordinates_approx": "27.0, 72.0",
+      "category": "economic",
+      "description": "The Harappan civilization maintains extensive trade networks. Indus seals and weights are found in Mesopotamian sites, indicating regular commercial contact. Harappan goods (carnelian, lapis lazuli, cotton) are traded westward; Mesopotamian goods (lapis lazuli from Afghanistan, cedar from the Levant) are found in Indus sites. This trade is mediated through the Persian Gulf and possibly overland routes. The standardization of Harappan weights and measures facilitates long-distance commerce.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Indus seals at Mesopotamian sites (Ur, Lagash, Susa)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus weights and measures",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian texts mentioning 'Meluhha' merchants",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence of Harappan-Mesopotamian trade is well-established through archaeological evidence. However, the specific chronology and year-by-year fluctuations in trade volume cannot be determined from available sources.",
+      "cross_references": [
+        "-2259-003 (Harappan civilization)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The assignment of specific Nubian campaigns to Pepi II's reign is speculative; the autobiographies of Harkhuf and Sabni do not provide absolute dates and may refer to campaigns by earlier or later rulers. The Ebla archives' relationship to Akkad is highly disputed: some scholars argue Ebla was destroyed by Naram-Sin, others that it was independent or that the 'Akkadian' destruction layer is misidentified. The extent of Akkadian control over the Levant is debated; some sites show no clear evidence of Akkadian occupation.",
+  "historiographic_note": "This year is poorly documented. Egyptian sources are limited to tomb inscriptions and king lists; no contemporary royal inscriptions from Pepi II's reign survive. Akkadian sources are more abundant but focus on royal propaganda and administrative records; they do not provide a comprehensive historical narrative. The Harappan civilization is known only through archaeology; no written historical records exist. The historical record is heavily biased toward elite activities (military campaigns, trade) and neglects the lives of common people, women, and non-elite groups.",
+  "graph_edges": [
+    {
+      "from": "-2258-001",
+      "to": "-2259-001",
+      "relation": "part_of",
+      "note": "Continuation of Pepi II's reign."
+    },
+    {
+      "from": "-2258-002",
+      "to": "-2259-002",
+      "relation": "part_of",
+      "note": "Continuation of Naram-Sin's Akkadian Empire."
+    }
+  ]
+}
