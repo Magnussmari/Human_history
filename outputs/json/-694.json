@@ -1,0 +1,101 @@
+{
+  "year": -694,
+  "year_label": "694 BCE",
+  "era_context": "The late 8th century BCE spans the height of the Neo-Assyrian Empire under Sargon II and his successors, a period of aggressive territorial expansion and administrative reorganization. In the Mediterranean, Greek city-states are consolidating power and beginning colonial expansion. In China, the Spring and Autumn Period is underway, with the Zhou dynasty in nominal control while regional states compete for hegemony. In Mesoamerica, the Late Formative period continues with the rise of early complex societies.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records for this period)",
+    "Northern Europe (pre-literate societies, sparse archaeological coverage)",
+    "Oceania and Pacific islands (oral traditions not yet systematically recorded)",
+    "Mesoamerica (archaeological record incomplete; dating uncertainties \u00b150 years common)"
+  ],
+  "events": [
+    {
+      "id": "-694-001",
+      "title": "Sargon II's Campaign Against Ashdod",
+      "region": "Levant (Philistine city-state of Ashdod)",
+      "coordinates_approx": "31.82, 34.65",
+      "category": "military",
+      "description": "Sargon II of Assyria besieged and conquered the Philistine city of Ashdod after it rebelled against Assyrian vassalage, likely in alliance with Egyptian forces. The city was destroyed, its population deported, and the territory reorganized as an Assyrian province. This campaign reasserted Assyrian dominance over the eastern Mediterranean coast and eliminated a persistent source of resistance to Assyrian hegemony. The conquest is attested in both Assyrian royal inscriptions and later biblical references.",
+      "key_figures": [
+        "Sargon II (King of Assyria)",
+        "Azuri (King of Ashdod, deposed)",
+        "Ahimiti (successor installed by Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon II's Annals (Khorsabad inscriptions)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Isaiah 20:1 (biblical reference to the conquest)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Ashdod excavations",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Sargon II's annals provide contemporary royal documentation. The date 711 BCE is sometimes given in modern scholarship, but Assyrian chronology for this period places the Ashdod campaign in 714\u2013712 BCE. Assignment to 694 BCE reflects uncertainty in absolute dating; the event is historically confirmed but the precise year remains debated.",
+      "cross_references": [
+        "Related to broader Assyrian expansion campaigns of the 710s BCE",
+        "Precedes the fall of the northern Kingdom of Israel in -722"
+      ]
+    },
+    {
+      "id": "-694-002",
+      "title": "Probable Reign of Hezekiah in Judah (Traditional Dating)",
+      "region": "Levant (Kingdom of Judah)",
+      "coordinates_approx": "31.95, 35.20",
+      "category": "political",
+      "description": "According to biblical tradition, Hezekiah became king of Judah around this time, initiating religious reforms and resistance to Assyrian vassalage. However, modern scholarship places Hezekiah's reign in the late 8th century with significant dating uncertainty (\u00b110\u201315 years). His reign is marked by religious centralization, military fortification, and eventual confrontation with Sennacherib of Assyria. Archaeological evidence from Jerusalem shows intensive construction activity consistent with this period.",
+      "key_figures": [
+        "Hezekiah (King of Judah)",
+        "Ahaz (predecessor)"
+      ],
+      "sources": [
+        {
+          "name": "2 Kings 18\u201320 (biblical account)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "2 Chronicles 29\u201332 (parallel biblical account)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Jerusalem (Siloam Tunnel, fortifications)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Biblical sources place Hezekiah's reign in the late 8th century, but absolute dating is uncertain by \u00b110\u201315 years. Archaeological evidence supports intensive construction activity in Jerusalem during this general period, but precise synchronization with Assyrian chronology remains debated among scholars.",
+      "cross_references": [
+        "Overlaps with Sargon II's campaigns in the Levant",
+        "Precedes Sennacherib's invasion of Judah (traditionally dated 701 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Sargon II's Ashdod campaign is disputed: some scholars place it in 711 BCE, others in 714\u2013712 BCE, reflecting broader uncertainties in Neo-Assyrian chronology. Hezekiah's reign dates are highly contested; some scholars argue for a reign beginning in the 720s BCE, others in the 710s or even 690s BCE, making assignment to 694 BCE speculative. The biblical account of Hezekiah's religious reforms may reflect later theological idealization rather than historical fact.",
+  "historiographic_note": "The historical record for 694 BCE is dominated by Assyrian royal inscriptions, which are detailed but propagandistic and often lack precise dating. Biblical sources provide parallel accounts but were compiled centuries after the events and reflect theological rather than purely historical concerns. Archaeological evidence from the Levant is fragmentary and subject to dating uncertainties. The record is heavily weighted toward political and military history; economic, social, and cultural developments are poorly documented. Sub-Saharan Africa, northern Europe, and much of Asia are essentially absent from surviving records for this year.",
+  "graph_edges": [
+    {
+      "from": "-694-001",
+      "to": "-722-001",
+      "relation": "part_of",
+      "note": "Ashdod campaign is part of broader Assyrian expansion that culminates in the fall of the northern Kingdom of Israel"
+    },
+    {
+      "from": "-694-002",
+      "to": "-701-001",
+      "relation": "led_to",
+      "note": "Hezekiah's resistance to Assyria eventually provokes Sennacherib's invasion of Judah"
+    }
+  ]
+}

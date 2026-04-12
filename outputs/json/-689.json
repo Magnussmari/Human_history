@@ -1,0 +1,85 @@
+{
+  "year": -689,
+  "year_label": "689 BCE",
+  "era_context": "The late 8th century BCE spans the height of the Neo-Assyrian Empire under Sargon II and his successors, a period of aggressive territorial expansion and administrative reorganisation. In the Mediterranean, Greek city-states are consolidating power and beginning colonial expansion. In China, the Spring and Autumn Period is underway, with the Zhou dynasty in nominal authority while regional states compete for hegemony. In India, the Vedic period is transitioning toward the formation of early kingdoms.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (Maya records exist but are sparse for this specific year)",
+    "Oceania (no written records)"
+  ],
+  "events": [
+    {
+      "id": "-689-001",
+      "title": "Sargon II's Campaign Against Ashdod",
+      "region": "Levant (Philistine city-state of Ashdod)",
+      "coordinates_approx": "31.82, 34.65",
+      "category": "military",
+      "description": "Sargon II of Assyria besieged and conquered the Philistine city of Ashdod after it rebelled against Assyrian vassalage, likely in alliance with Egypt. The city was destroyed, its population deported, and the territory reorganised as an Assyrian province. This campaign reinforced Assyrian dominance over the Levantine coast and demonstrated the empire's capacity to suppress coordinated resistance from smaller states.",
+      "key_figures": [
+        "Sargon II (King of Assyria)",
+        "Azuri (King of Ashdod, deposed)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon II's Annals (inscribed on palace walls at Dur-Sharrukin)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Prism of Sargon II",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Ashdod excavations",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Sargon's own inscriptions provide contemporary documentation. Archaeological layers at Ashdod show destruction consistent with this period, though precise dating to 689 BCE involves some uncertainty (\u00b12 years).",
+      "cross_references": [
+        "Related to broader Assyrian expansion campaigns of the 8th century BCE"
+      ]
+    },
+    {
+      "id": "-689-002",
+      "title": "Possible Hezekiah's Illness and Recovery (Traditional Dating)",
+      "region": "Kingdom of Judah",
+      "coordinates_approx": "31.77, 35.23",
+      "category": "religious",
+      "description": "According to biblical tradition, King Hezekiah of Judah fell gravely ill and was healed by the prophet Isaiah. The event is recorded in 2 Kings 20 and Isaiah 38. The dating of this event is highly uncertain; some scholars place it around 689 BCE, others much earlier or later. The narrative emphasises divine intervention and Hezekiah's piety, and may reflect theological rather than strictly historical concerns.",
+      "key_figures": [
+        "Hezekiah (King of Judah)",
+        "Isaiah (Prophet)"
+      ],
+      "sources": [
+        {
+          "name": "Hebrew Bible, 2 Kings 20:1\u201311",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Hebrew Bible, Isaiah 38:1\u20138",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "legendary",
+      "certainty_note": "The event is recorded only in biblical texts compiled centuries after the alleged occurrence. No contemporary external sources corroborate it. The dating to 689 BCE is traditional but disputed; some scholars place Hezekiah's reign earlier (early 8th century) or later (late 8th century).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of Hezekiah's reign and the chronology of Judean kings in the 8th century BCE remains contested among scholars. Some place Hezekiah's illness much earlier or later than 689 BCE. Additionally, the biblical account of Sennacherib's invasion and the miraculous deliverance of Jerusalem (2 Kings 19) is not corroborated by Assyrian sources and may conflate multiple historical events or reflect theological narrative rather than strict historical record.",
+  "historiographic_note": "The historical record for 689 BCE is dominated by Assyrian administrative and military records, which are detailed but reflect the perspective of the imperial centre. Levantine and Egyptian sources are sparse. Biblical texts provide information about Judah but are compiled much later and reflect theological concerns. The absence of contemporary records from many regions means that significant events in China, India, and elsewhere are not documented for this specific year.",
+  "graph_edges": [
+    {
+      "from": "-689-001",
+      "to": "-701-SARGON_CAMPAIGNS",
+      "relation": "part_of",
+      "note": "Part of Sargon II's broader campaign to consolidate Assyrian control over the Levant"
+    }
+  ]
+}

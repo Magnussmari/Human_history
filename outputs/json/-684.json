@@ -1,0 +1,74 @@
+{
+  "year": -684,
+  "year_label": "684 BCE",
+  "era_context": "The late 8th century BCE spans the height of the Neo-Assyrian Empire under Sargon II and his successors, the early Greek Archaic period with the emergence of the polis system, the Iron Age in the Mediterranean and Near East, and the early Zhou Dynasty in China. This is a period of imperial consolidation in Mesopotamia, colonisation and alphabet adoption in Greece, and technological advancement in iron-working across Eurasia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited archaeological record for this period)",
+    "Northern Europe beyond Greek and Etruscan contact zones",
+    "Central Asia and the Steppe (sparse written sources; primarily archaeological)",
+    "Mesoamerica (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-684-001",
+      "title": "Sargon II's campaigns in the Levant and consolidation of Assyrian hegemony",
+      "region": "Mesopotamia, Levant, Syria",
+      "coordinates_approx": "35.5, 36.0",
+      "category": "military",
+      "description": "Sargon II (r. 722\u2013705 BCE) continued aggressive military campaigns to secure Assyrian dominance over the Levantine states. By 684 BCE, Assyrian control over former kingdoms including Israel, Phoenicia, and parts of Syria was consolidated through deportation policies and direct administration. These campaigns were documented in royal inscriptions and reliefs, establishing Assyria as the dominant Near Eastern power. The systematic deportation of conquered populations became a hallmark of Assyrian imperial policy.",
+      "key_figures": [
+        "Sargon II (King of Assyria)"
+      ],
+      "sources": [
+        {
+          "name": "Sargon II's Annals and Palace Inscriptions (Khorsabad)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Assyrian palace reliefs and administrative records",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Sargon II's reign is well-documented through contemporary royal inscriptions and archaeological evidence from his palace at Khorsabad. Specific campaigns in 684 BCE fall within his documented reign (722\u2013705 BCE).",
+      "cross_references": []
+    },
+    {
+      "id": "-684-002",
+      "title": "Greek colonisation and alphabet adoption in the Western Mediterranean",
+      "region": "Greece, Italy, Sicily, Mediterranean",
+      "coordinates_approx": "38.0, 15.0",
+      "category": "exploration",
+      "description": "During the late 8th century BCE, Greek city-states intensified colonisation efforts in the Western Mediterranean, establishing settlements in Sicily, southern Italy, and the Adriatic. This period saw the consolidation of the Greek alphabet (adapted from Phoenician script), which facilitated record-keeping and cultural transmission. By 684 BCE, the alphabet was becoming standardised across Greek poleis, enabling the development of written law codes and literature. These colonies became centres of trade and cultural exchange.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Greek colonial sites (pottery, inscriptions, settlement patterns)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Later Greek historians (Herodotus, Strabo) on colonisation",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Colonisation is archaeologically attested; dating of specific settlements varies by \u00b110\u201320 years. Alphabet adoption is confirmed by epigraphic evidence from the 8th century BCE, though standardisation was gradual.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The precise dating of individual Greek colonial foundations is debated; some traditionally dated to the 8th century may belong to the 7th century based on pottery analysis. Sargon II's specific campaigns in 684 BCE are inferred from his annals, which are not always chronologically precise and may conflate events across multiple years.",
+  "historiographic_note": "The Neo-Assyrian period is well-documented through royal inscriptions, palace reliefs, and administrative records, though these sources are inherently propagandistic and may exaggerate military successes. Greek history of this period relies heavily on later literary sources and archaeology; contemporary written records are sparse. The dating of Greek colonisation depends on ceramic typology, which carries inherent uncertainty of \u00b110\u201320 years.",
+  "graph_edges": [
+    {
+      "from": "-684-001",
+      "to": "-680-001",
+      "relation": "part_of",
+      "note": "Sargon II's campaigns continued through the early 680s BCE"
+    }
+  ]
+}
