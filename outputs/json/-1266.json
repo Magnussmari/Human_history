@@ -1,0 +1,75 @@
+{
+  "year": -1266,
+  "year_label": "1267 BCE",
+  "era_context": "Late Bronze Age, mid-collapse period. The systemic crisis of the eastern Mediterranean and Near East is deepening. Egypt under Ramesses III is the dominant power but facing increasing pressure. The Hittite Empire has been extinct for over a decade. Mycenaean Greece is in its final palatial phase, with signs of stress increasing. The Levantine coast is a contested zone. In China, the Shang dynasty is in its final century.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-1266-001",
+      "title": "Egyptian military campaigns and fortification maintenance",
+      "region": "Egypt and Levantine coast",
+      "coordinates_approx": "33.0, 35.0",
+      "category": "military",
+      "description": "Egypt under Ramesses III continues to maintain military presence in the Levant and to defend against incursions by the Sea Peoples and Libyan groups. Fortifications are being maintained and reinforced. The costs of these military operations are substantial, and the strain on the royal treasury is becoming evident in administrative records. The Egyptian military is still formidable, but the era of Egyptian imperial expansion is over; the focus is now on defence and the maintenance of existing territories.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple reliefs and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri from Deir el-Medina",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "General pattern of Egyptian military activity is well-attested; specific events in 1267 BCE are not individually documented.",
+      "cross_references": []
+    },
+    {
+      "id": "-1266-002",
+      "title": "Mycenaean palatial centres under increasing stress",
+      "region": "Greece (Aegean)",
+      "coordinates_approx": "38.5, 23.0",
+      "category": "political",
+      "description": "Archaeological evidence from Mycenaean palace sites shows increasing signs of stress and instability. Fortification walls are being reinforced, suggesting military concerns. Settlement hierarchies are becoming more pronounced, with power concentrating in fewer centres. Long-distance trade networks are fragmenting, reducing access to tin and other critical resources. Within a generation or two, these palatial centres will be destroyed or abandoned, though the causes remain debated (invasion, climate change, internal conflict, or systems failure).",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological stratigraphy from palace sites (Mycenae, Pylos, Tiryns)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Linear B tablets",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The archaeological evidence for stress is clear; the specific date 1267 BCE is assigned by convention within the late palatial phase.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The 'collapse' of Mycenaean civilisation is often portrayed as sudden and catastrophic, but recent scholarship emphasises gradual decline and transformation. Some sites show evidence of reoccupation and continuity. The causes remain debated; the 'invasion' narrative (Dorians, Sea Peoples) has been largely discredited. Climate change (volcanic eruptions, drought) and systems failure are now favoured explanations, but the evidence does not point to a single cause.",
+  "historiographic_note": "Documentation for 1267 BCE is sparse and regionally uneven. Egyptian sources are abundant; Aegean sources are archaeological and epigraphic. Mesopotamia is poorly documented in this period. The Levantine coast is known primarily through Egyptian records. Chinese sources are abundant but retrospective. The 'Late Bronze Age collapse' is a Western-centric historiographic construct. Chronological precision is impossible; all dating is conventional and subject to \u00b15\u201310 year uncertainty.",
+  "graph_edges": [
+    {
+      "from": "-1266-002",
+      "to": "-1200-MYCENAEAN_COLLAPSE",
+      "relation": "led_to",
+      "note": "Increasing stress in the palatial phase precedes the collapse of Mycenaean civilisation."
+    }
+  ]
+}

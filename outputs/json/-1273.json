@@ -1,0 +1,93 @@
+{
+  "year": -1273,
+  "year_label": "1273 BCE",
+  "era_context": "The Late Bronze Age is at a point of apparent stability. Egypt under Ramesses II is consolidating power in the aftermath of the Battle of Kadesh (c. 1274 BCE). The Hittite Empire under Muwatalli II controls Anatolia and northern Syria. Mycenaean Greece is prosperous and integrated into Mediterranean trade networks. Long-distance trade connects Egypt, the Levant, Anatolia, Cyprus, and the Aegean. However, environmental pressures and resource competition are building beneath the surface.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written records; archaeological evidence sparse and not precisely dated)",
+    "East Asia (Chinese records exist but are not well-integrated into Western historical synthesis)",
+    "Mesoamerica (no written records; archaeological dating imprecise)",
+    "Oceania (no written records; archaeological evidence limited)"
+  ],
+  "events": [
+    {
+      "id": "-1273-001",
+      "title": "Battle of Kadesh aftermath: Egyptian-Hittite relations stabilise",
+      "region": "Levant, Anatolia, Egypt",
+      "coordinates_approx": "34.8\u00b0N, 36.4\u00b0E (Kadesh region)",
+      "category": "military",
+      "description": "In the year following the Battle of Kadesh (c. 1274 BCE), Egyptian and Hittite forces consolidate their positions in the Levant. The battle itself was inconclusive, but both powers now recognise the futility of further large-scale conflict. Diplomatic correspondence between Ramesses II and Muwatalli II (or his successor) begins to establish a modus vivendi. Egyptian forces maintain control of southern Canaan and southern Syria, while Hittite influence remains strong in northern Syria and Anatolia. This marks the beginning of a period of relative peace between the two powers, lasting until the Bronze Age collapse.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)",
+        "Muwatalli II (Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian temple inscriptions and stelae (Karnak, Abu Simbel); Hittite cuneiform archives",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on New Kingdom chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Battle of Kadesh is dated to c. 1274 BCE, but the exact year is debated (\u00b15\u201310 years). The consolidation described here is inferred from the pattern of Egyptian and Hittite activity over the following decades.",
+      "cross_references": [
+        "Related to -1274-001 (Battle of Kadesh)",
+        "Leads to -1270-001 (consolidation of Egyptian control)"
+      ]
+    },
+    {
+      "id": "-1273-002",
+      "title": "Mycenaean palatial centres continue administrative and economic activity",
+      "region": "Greece (Peloponnese, Crete)",
+      "coordinates_approx": "37.7\u00b0N, 23.4\u00b0E (Mycenae)",
+      "category": "economic",
+      "description": "The Mycenaean palace centres (Mycenae, Tiryns, Pylos, Knossos) continue their administrative and economic activities. Linear B tablets record the management of agricultural production, textile manufacturing, and religious offerings. Palatial workshops produce fine pottery and metalwork for both local use and export. Long-distance trade with Egypt, the Levant, and Anatolia remains robust. This period represents the height of Mycenaean economic and administrative sophistication.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos, Mycenae, and Knossos",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Pottery and architectural remains from Mycenaean sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The palatial period is well-attested archaeologically. Linear B tablets provide direct evidence of administrative activity. Absolute dating relies on stratigraphic correlation with Egyptian chronology and radiocarbon calibration.",
+      "cross_references": [
+        "Part of Late Bronze Age Mediterranean trade networks",
+        "Related to -1270-002 (Mycenaean cultural peak)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific events are reliably dated to 1273 BCE. The year is essentially a placeholder within the broader Late Bronze Age period. The Battle of Kadesh, which occurred c. 1274 BCE, is the major geopolitical event of this era, but its exact date is disputed. Some scholars argue for dates as late as 1259 BCE or as early as 1286 BCE. The narrative of 'stabilisation' after Kadesh may overstate the degree of peaceful coexistence; recent scholarship emphasises ongoing military campaigns, resource competition, and environmental stress.",
+  "historiographic_note": "The historical record for 1273 BCE is extremely sparse. No major events are specifically dated to this year. The year is reconstructed through interpolation from broader patterns of Egyptian, Hittite, and Mycenaean activity. The absolute chronology of this period remains debated, with some scholars proposing dates 5\u201315 years earlier or later than conventional estimates. The surviving sources (Egyptian inscriptions, Hittite cuneiform tablets, Mycenaean Linear B tablets) are abundant for the broader period but do not provide year-by-year precision. Archaeological evidence is crucial but does not allow precise annual dating.",
+  "graph_edges": [
+    {
+      "from": "-1273-001",
+      "to": "-1274-001",
+      "relation": "caused_by",
+      "note": "Stabilisation follows from the Battle of Kadesh"
+    },
+    {
+      "from": "-1273-001",
+      "to": "-1270-001",
+      "relation": "led_to",
+      "note": "Aftermath of Kadesh leads to consolidation of Egyptian control"
+    },
+    {
+      "from": "-1273-002",
+      "to": "-1270-002",
+      "relation": "contemporary_with",
+      "note": "Mycenaean economic activity continues during the cultural peak"
+    }
+  ]
+}

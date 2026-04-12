@@ -1,0 +1,83 @@
+{
+  "year": -1269,
+  "year_label": "1270 BCE",
+  "era_context": "Late Bronze Age collapse period (c. 1200\u2013900 BCE). The eastern Mediterranean and Near East are experiencing severe disruption: the Mycenaean palace civilisations of Greece are in terminal decline, the Hittite Empire has recently collapsed (c. 1180 BCE), Egypt under Ramesses III faces invasions by the Sea Peoples, and major trade networks are fragmenting. In China, the Shang dynasty is in its final century before Zhou conquest. This is an era of migration, warfare, climate stress, and the breakdown of palatial economies.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (limited synchronisation with Old World chronologies)",
+    "Southeast Asia (sparse contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-1269-001",
+      "title": "Ramesses III's reign consolidation and continued Sea Peoples conflicts",
+      "region": "Egypt (New Kingdom)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "military",
+      "description": "Ramesses III (r. c. 1186\u20131155 BCE) is in the early-to-middle phase of his reign, actively defending Egypt against incursions by the Sea Peoples and Libyan groups. By this date, he has already repelled major invasions (notably the Year 8 campaign, c. 1178 BCE, though dating remains debated). Egypt maintains control of Nubia and parts of the Levantine coast, but the costs of these military campaigns are straining the treasury and contributing to the decline of royal authority that will characterise the later Twentieth Dynasty.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple reliefs and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Papyrus Harris I",
+          "type": "primary_text",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses III's reign is well-attested, but precise dating of individual campaigns within his reign varies by \u00b15 years depending on chronological system used (conventional vs. low chronology).",
+      "cross_references": []
+    },
+    {
+      "id": "-1269-002",
+      "title": "Shang dynasty in terminal decline; Zhou consolidation",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.5, 108.0",
+      "category": "political",
+      "description": "The Shang dynasty, which has ruled the Yellow River valley for over 500 years, is in its final decades before the Zhou conquest (traditionally dated to 1046 BCE, though modern scholarship places it c. 1050\u20131040 BCE). By 1270 BCE, Shang authority is fragmenting; the Zhou, a vassal state in the Wei River valley, are consolidating power and preparing the military and ideological apparatus for conquest. Oracle bone records from this period show increasing concern with divination and omens, suggesting political instability.",
+      "key_figures": [
+        "Shang rulers (late Shang period)",
+        "Zhou rulers (pre-conquest phase)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions from Anyang",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Shang\u2013Zhou transition is traditionally dated to 1046 BCE, but modern radiocarbon and stratigraphic evidence suggests c. 1050\u20131040 BCE. Assignment to 1270 BCE is contextual (late Shang period) rather than event-specific.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Shang\u2013Zhou transition remains contested. Traditional Chinese chronology places it at 1046 BCE; modern scholarship using radiocarbon dating and stratigraphic analysis suggests c. 1050\u20131040 BCE. Some scholars argue for even later dates (c. 1020 BCE). The 'Bronze Age collapse' narrative, while widely accepted for the Mediterranean, is increasingly questioned for its universality\u2014some regions (e.g., Egypt, Mesopotamia) show continuity rather than collapse. The 'Sea Peoples' themselves remain enigmatic; their origins, composition, and role in the collapse are debated, and some scholars argue they were a symptom rather than a cause of systemic breakdown.",
+  "historiographic_note": "Documentation for 1270 BCE is heavily skewed toward Egypt and the eastern Mediterranean, where monumental inscriptions and papyri survive. Chinese sources are abundant but compiled centuries later (Shiji, c. 100 BCE). Sub-Saharan Africa, northern Europe, and the Americas have no written records for this period. The 'Late Bronze Age collapse' narrative is shaped by the prominence of Mediterranean sources in Western scholarship; non-Mediterranean regions may have experienced different trajectories. Chronological uncertainty is endemic: Egyptian dates depend on astronomical calculations and king-list synchronisation; Chinese dates rest on traditional records and radiocarbon calibration. No single 'world chronology' for 1270 BCE commands universal assent.",
+  "graph_edges": [
+    {
+      "from": "-1269-001",
+      "to": "-1200-SEA_PEOPLES_INVASIONS",
+      "relation": "part_of",
+      "note": "Ramesses III's campaigns are part of the broader Sea Peoples crisis of the late Bronze Age."
+    },
+    {
+      "from": "-1269-002",
+      "to": "-1046-ZHOU_CONQUEST",
+      "relation": "led_to",
+      "note": "Shang decline in this period culminates in Zhou conquest c. 1046 BCE."
+    }
+  ]
+}

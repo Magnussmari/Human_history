@@ -1,0 +1,89 @@
+{
+  "year": -1272,
+  "year_label": "1272 BCE",
+  "era_context": "The Late Bronze Age is at a point of apparent stability but underlying stress. Egypt under Ramesses II is in the middle of his long reign, consolidating power after the Battle of Kadesh. The Hittite Empire under Muwatalli II (or possibly his successor Hattusili III, depending on chronological scheme) controls Anatolia and northern Syria. Mycenaean Greece remains prosperous. Trade networks link the Mediterranean, Near East, and Anatolia. However, environmental pressures and resource competition are intensifying.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (no written records; archaeological evidence sparse and not precisely dated)",
+    "East Asia (Chinese records exist but are not well-integrated into Western historical synthesis)",
+    "Mesoamerica (no written records; archaeological dating imprecise)",
+    "Oceania (no written records; archaeological evidence limited)"
+  ],
+  "events": [
+    {
+      "id": "-1272-001",
+      "title": "Hittite succession: Muwatalli II's reign ends; Hattusili III assumes power",
+      "region": "Anatolia, Hittite Empire",
+      "coordinates_approx": "40.7\u00b0N, 34.6\u00b0E (Hattusa)",
+      "category": "political",
+      "description": "Muwatalli II's reign ends (c. 1272 BCE according to some chronologies), and Hattusili III assumes control of the Hittite Empire. Hattusili III is known for his diplomatic acumen and for formalising peaceful relations with Egypt through the famous Egyptian-Hittite peace treaty (dated variously to c. 1259 or 1269 BCE depending on chronological scheme). The transition of power is documented in Hittite cuneiform texts, including Hattusili III's own 'Apology' (a justification of his rule).",
+      "key_figures": [
+        "Muwatalli II (outgoing Hittite Great King)",
+        "Hattusili III (incoming Hittite Great King)"
+      ],
+      "sources": [
+        {
+          "name": "Hittite cuneiform tablets from Bo\u011fazk\u00f6y, including Hattusili III's 'Apology'",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Historiographic consensus on Hittite chronology",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The date of Muwatalli II's death and Hattusili III's accession is debated. Some scholars place it c. 1272 BCE, others c. 1279 or c. 1265 BCE. The uncertainty reflects broader debates about Hittite chronology (\u00b15\u201310 years). Hattusili III's reign is well-documented, but its absolute dating is uncertain.",
+      "cross_references": [
+        "Leads to -1259-001 (Egyptian-Hittite peace treaty, if dated to 1259 BCE) or contemporary with it (if dated to 1269 BCE)",
+        "Part of Late Bronze Age political transitions"
+      ]
+    },
+    {
+      "id": "-1272-002",
+      "title": "Ramesses II's building programme continues; temples and monuments constructed",
+      "region": "Egypt",
+      "coordinates_approx": "25.7\u00b0N, 32.6\u00b0E (Memphis, Egypt)",
+      "category": "cultural",
+      "description": "Ramesses II's extensive building programme continues throughout his reign. Major temples, monuments, and administrative structures are constructed or expanded, including work on Abu Simbel, the Ramesseum, and various temples in Thebes and Memphis. These projects serve both religious and propagandistic purposes, celebrating the pharaoh's power and piety. The construction requires vast resources and labour, reflecting Egypt's economic strength during this period.",
+      "key_figures": [
+        "Ramesses II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Archaeological evidence from Egyptian temples and monuments; inscriptions recording construction",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative papyri recording labour and resource allocation",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Ramesses II's building programme is well-attested archaeologically and epigraphically. However, the specific dating of individual construction projects to particular years is often uncertain.",
+      "cross_references": [
+        "Part of broader Egyptian imperial expansion and cultural achievement under Ramesses II",
+        "Related to -1270-001 (consolidation of power)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating of Muwatalli II's death and Hattusili III's accession to 1272 BCE is speculative and depends on a particular chronological scheme. Other scholars place this transition several years earlier or later. The Egyptian-Hittite peace treaty, often associated with Hattusili III's reign, is dated variously to c. 1259 BCE or c. 1269 BCE, creating uncertainty about whether this transition occurred in 1272 BCE or at a different time. No other major events are reliably dated to this specific year.",
+  "historiographic_note": "The historical record for 1272 BCE is extremely sparse. The only potentially significant event\u2014the Hittite succession\u2014is itself uncertain in its dating. The year is essentially reconstructed through interpolation from broader patterns of Egyptian and Hittite activity. The absolute chronology of this period remains one of the most debated issues in ancient Near Eastern studies, with different scholars proposing chronologies that differ by 10\u201320 years. The surviving sources (Egyptian inscriptions, Hittite cuneiform tablets) are abundant for the broader period but do not provide year-by-year precision. Archaeological evidence (pottery, stratigraphy) is crucial but also does not allow precise annual dating.",
+  "graph_edges": [
+    {
+      "from": "-1272-001",
+      "to": "-1259-001",
+      "relation": "led_to",
+      "note": "Hattusili III's accession leads to formalisation of Egyptian-Hittite peace treaty (if dated to 1259 BCE)"
+    },
+    {
+      "from": "-1272-002",
+      "to": "-1270-001",
+      "relation": "part_of",
+      "note": "Continuation of Ramesses II's imperial consolidation"
+    }
+  ]
+}

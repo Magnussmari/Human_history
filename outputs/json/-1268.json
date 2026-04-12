@@ -1,0 +1,81 @@
+{
+  "year": -1268,
+  "year_label": "1269 BCE",
+  "era_context": "Late Bronze Age, mid-collapse period. Egypt under Ramesses III continues to face external and internal pressures. The Hittite Empire has been defunct for over a decade. Mycenaean Greece is in its final palatial phase, with Linear B administration still functioning but under stress. The Levantine coast is a contested zone of Egyptian, Hittite successor-state, and Sea Peoples influence. In China, the Shang dynasty persists but with diminishing authority.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia (Steppe regions)"
+  ],
+  "events": [
+    {
+      "id": "-1268-001",
+      "title": "Continued Egyptian military operations in the Levant",
+      "region": "Egypt and Levantine coast",
+      "coordinates_approx": "33.0, 35.0",
+      "category": "military",
+      "description": "Egypt under Ramesses III maintains garrisons and military presence in the Levant, though control is increasingly contested. The collapse of Hittite authority has created a power vacuum; Egyptian forces attempt to maintain influence over former Hittite vassal states and trade routes. However, the costs of these operations and the drain on resources are becoming unsustainable, contributing to the eventual withdrawal of Egyptian forces from the Levant by the end of the Twentieth Dynasty.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Medinet Habu temple reliefs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Administrative papyri from Deir el-Medina",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "General pattern of Egyptian military activity is well-attested; specific events in 1269 BCE are not individually documented.",
+      "cross_references": []
+    },
+    {
+      "id": "-1268-002",
+      "title": "Mycenaean palatial administration in late phase",
+      "region": "Greece (Aegean)",
+      "coordinates_approx": "38.5, 23.0",
+      "category": "political",
+      "description": "The Mycenaean palace centres (Mycenae, Pylos, Tiryns, Thebes) are still functioning, with Linear B administration recording economic transactions, religious offerings, and military organisation. However, archaeological evidence suggests increasing stress: fortification walls are being reinforced, settlement hierarchies are becoming more pronounced, and long-distance trade is becoming more fragmented. Within a generation or two, these palatial centres will be destroyed or abandoned, marking the end of the Bronze Age in Greece.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos and Mycenae",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological stratigraphy from palace sites",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The existence of Linear B administration in this period is confirmed; the specific date 1269 BCE is assigned by convention within the late palatial phase (c. 1300\u20131200 BCE).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The 'Mycenaean collapse' is often portrayed as sudden and catastrophic, but recent scholarship suggests a more gradual process of palatial decline and reorganisation. Some sites show evidence of reoccupation and continuity rather than abandonment. The causes of the collapse remain debated: climate change (volcanic eruptions, drought), invasion, internal conflict, and systems failure have all been proposed, and the evidence does not point to a single cause. The narrative of 'invasion' (whether by Dorians or Sea Peoples) has been largely discredited by modern archaeology.",
+  "historiographic_note": "For 1269 BCE, the historical record is dominated by Egyptian and Aegean sources. Mesopotamia is poorly documented in this period (post-Hittite, pre-Assyrian resurgence). The Levantine coast is known primarily through Egyptian records and later Phoenician traditions. Chinese sources are abundant but retrospective. The 'Late Bronze Age collapse' remains a Western-centric historiographic construct; other regions experienced different trajectories. Chronological precision is impossible for this year; all dating is conventional and subject to \u00b15\u201310 year uncertainty.",
+  "graph_edges": [
+    {
+      "from": "-1268-001",
+      "to": "-1200-EGYPTIAN_WITHDRAWAL_LEVANT",
+      "relation": "led_to",
+      "note": "Continued military strain contributes to eventual Egyptian withdrawal from the Levant."
+    },
+    {
+      "from": "-1268-002",
+      "to": "-1200-MYCENAEAN_COLLAPSE",
+      "relation": "led_to",
+      "note": "Late palatial phase precedes the collapse of Mycenaean civilisation c. 1200 BCE."
+    }
+  ]
+}

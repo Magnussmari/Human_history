@@ -1,0 +1,114 @@
+{
+  "year": -1265,
+  "year_label": "1266 BCE",
+  "era_context": "Late Bronze Age, mid-collapse period. The eastern Mediterranean and Near East are in a state of systemic stress. Egypt under Ramesses III is the dominant power but increasingly defensive. The Hittite Empire has been extinct for over a decade. Mycenaean Greece is in its final palatial phase. The Levantine coast is contested. In China, the Shang dynasty is in its final century before the Zhou conquest.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-1265-001",
+      "title": "Ramesses III's Year 5 or 6 administrative records",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "Ramesses III is in the early-to-middle phase of his reign (r. c. 1186\u20131155 BCE). Administrative papyri from this period record the organisation of labour, military recruitment, and the management of temple estates. The Medinet Habu temple complex is under construction, requiring substantial resources. The royal treasury is under strain, but Egypt remains a major power. The priesthood of Amun is growing in wealth and influence, a trend that will eventually undermine royal authority.",
+      "key_figures": [
+        "Ramesses III (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Administrative papyri from Deir el-Medina",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Medinet Habu temple inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Ramesses III's reign is well-attested; specific administrative actions in 1266 BCE are not individually documented but are consistent with the broader pattern of his reign.",
+      "cross_references": []
+    },
+    {
+      "id": "-1265-002",
+      "title": "Shang dynasty in final century; Zhou consolidation",
+      "region": "China (Yellow River valley)",
+      "coordinates_approx": "34.5, 108.0",
+      "category": "political",
+      "description": "The Shang dynasty, which has ruled for over 500 years, is in its final century before the Zhou conquest (traditionally dated to 1046 BCE, though modern scholarship places it c. 1050\u20131040 BCE). By 1266 BCE, Shang authority is fragmenting; the Zhou, a vassal state in the Wei River valley, are consolidating power. Oracle bone records show increasing divination about military and agricultural matters, suggesting political instability. The Shang are aware of the Zhou threat, though the full extent of the danger may not yet be clear.",
+      "key_figures": [
+        "Shang rulers (late Shang period)",
+        "Zhou rulers (pre-conquest phase)"
+      ],
+      "sources": [
+        {
+          "name": "Oracle bone inscriptions from Anyang",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Shang\u2013Zhou transition is traditionally dated to 1046 BCE, but modern scholarship suggests c. 1050\u20131040 BCE. Assignment to 1266 BCE is contextual (late Shang period) rather than event-specific.",
+      "cross_references": []
+    },
+    {
+      "id": "-1265-003",
+      "title": "Mycenaean palatial administration and trade networks",
+      "region": "Greece (Aegean)",
+      "coordinates_approx": "38.5, 23.0",
+      "category": "economic",
+      "description": "The Mycenaean palace centres are still functioning, with Linear B administration recording economic transactions, military organisation, and religious offerings. However, long-distance trade networks are fragmenting, reducing access to tin and other critical resources. The palace economies are becoming more inward-looking and less connected to the broader Mediterranean trade system. Within a generation or two, these palatial centres will be destroyed or abandoned, marking the end of the Bronze Age in Greece.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Linear B tablets from Pylos and Mycenae",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of trade goods and settlement patterns",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The existence of Linear B administration and the fragmentation of trade networks are confirmed; the specific date 1266 BCE is assigned by convention within the late palatial phase.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The 'Late Bronze Age collapse' is often portrayed as a sudden, catastrophic event caused by invasion (Dorians, Sea Peoples) or a single environmental trigger (volcanic eruption, drought). Modern scholarship increasingly emphasises gradual decline, systems failure, and multiple interacting causes. The 'invasion' narrative has been largely discredited by archaeology. Some regions show evidence of continuity and reoccupation rather than abandonment. The Shang\u2013Zhou transition is often portrayed as a conquest, but some scholars argue it was a gradual process of cultural assimilation and political transition.",
+  "historiographic_note": "Documentation for 1266 BCE is sparse and regionally uneven. Egyptian sources are abundant and contemporary; Aegean sources are archaeological and epigraphic (Linear B); Chinese sources are epigraphic (oracle bones) but undated within the Shang period. No written sources exist for most of the world. The 'Late Bronze Age collapse' narrative is a Western-centric historiographic construct that may not reflect the experiences of regions outside the Mediterranean and Near East. Chronological precision is impossible; all dates are conventional and subject to \u00b15\u201310 year uncertainty. The historical record for this year is shaped by the survival of monumental inscriptions and administrative papyri in Egypt and the Aegean, while most of the world is invisible to written history.",
+  "graph_edges": [
+    {
+      "from": "-1265-001",
+      "to": "-1200-RAMESSES_III_LEGACY",
+      "relation": "led_to",
+      "note": "Ramesses III's administrative efforts and the strain on the royal treasury set the stage for the later decline of royal authority."
+    },
+    {
+      "from": "-1265-002",
+      "to": "-1046-ZHOU_CONQUEST",
+      "relation": "led_to",
+      "note": "Shang decline in this period culminates in Zhou conquest c. 1046 BCE."
+    },
+    {
+      "from": "-1265-003",
+      "to": "-1200-MYCENAEAN_COLLAPSE",
+      "relation": "led_to",
+      "note": "Fragmentation of trade networks and palatial stress precedes the collapse of Mycenaean civilisation."
+    }
+  ]
+}
