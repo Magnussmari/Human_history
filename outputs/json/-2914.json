@@ -1,0 +1,107 @@
+{
+  "year": -2914,
+  "year_label": "2914 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. The Old Kingdom of Egypt is in its final phase (Dynasty VI, c. 2278\u20132184 BCE); central authority is fragmenting. In Mesopotamia, the Akkadian Empire under Naram-Sin (r. c. 2254\u20132218 BCE) is at or near its territorial apex. The Indus Valley Civilization is in its mature phase (c. 2600\u20131900 BCE). In China, the Xia Dynasty is traditionally dated to this period, though archaeological confirmation remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate)",
+    "Mesoamerica (no writing system yet)",
+    "Pacific Islands (oral tradition only)",
+    "Central Asia (limited archaeological survey)"
+  ],
+  "events": [
+    {
+      "id": "-2914-001",
+      "title": "Akkadian Empire under Naram-Sin at territorial maximum",
+      "region": "Mesopotamia (modern Iraq, Syria, southeastern Turkey)",
+      "coordinates_approx": "34.5, 43.0",
+      "category": "political",
+      "description": "Naram-Sin of Akkad (r. c. 2254\u20132218 BCE) continues military campaigns consolidating Akkadian control over Mesopotamia and surrounding regions. By this period, he has declared himself a god and established one of the ancient world's first multi-ethnic empires. His reign represents the apex of Akkadian power before internal instability and external pressure from the Gutians begin to erode central authority.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions and the Naram-Sin Stele",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Sumerian King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is well-attested in contemporary inscriptions. The exact year -2914 is assigned by conventional chronology (Middle Chronology), but absolute dating of this period remains debated; Low Chronology would place this c. 100 years later.",
+      "cross_references": []
+    },
+    {
+      "id": "-2914-002",
+      "title": "Egyptian Old Kingdom (Dynasty VI) in decline",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The reign of Pepi II (c. 2278\u20132184 BCE, traditional dating) continues in the final phase of the Old Kingdom. Central authority is weakening; provincial governors (nomarchs) are accumulating power and wealth. The pyramid-building projects that defined earlier dynasties are becoming smaller and less ambitious. This period marks the transition toward the First Intermediate Period.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists and inscriptions from tombs of nomarchs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Turin King List (later compilation)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Pepi II's reign is attested in contemporary inscriptions, but the exact length and chronology of Dynasty VI remain debated. Dating varies by \u00b150\u2013100 years depending on chronological system used.",
+      "cross_references": []
+    },
+    {
+      "id": "-2914-003",
+      "title": "Indus Valley Civilization at mature phase",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization (c. 2600\u20131900 BCE) is in its mature phase, with major urban centers like Harappa and Mohenjo-daro at their height. These cities feature planned street grids, standardized weights and measures, and a still-undeciphered writing system. Trade networks extend to Mesopotamia and the Persian Gulf. No evidence of large-scale warfare or centralized political authority has been identified.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and other sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus script seals and tablets",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and characteristics of the Indus Valley Civilization are well-established through archaeology. Absolute dating relies on radiocarbon and stratigraphic analysis; the mature phase is conventionally dated c. 2600\u20131900 BCE.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of Pepi II's reign to c. 2278\u20132184 BCE is disputed; some scholars argue for a significantly shorter reign (c. 64 years vs. the traditional 94 years claimed in the Turin King List). The chronology of the Old Kingdom remains one of Egyptology's most contentious issues, with competing systems (High, Middle, Low Chronology) differing by up to 150 years. For Mesopotamia, the absolute dating of Naram-Sin's reign depends on the chosen chronological system; the Low Chronology places him c. 100 years later than the Middle Chronology used here.",
+  "historiographic_note": "This period is documented primarily through royal inscriptions, administrative records, and archaeological remains. Egyptian sources are biased toward royal and elite perspectives; the decline of central authority is inferred from the reduced scale of royal monuments and the increased prominence of provincial tombs. Mesopotamian sources are similarly elite-focused. The Indus Valley Civilization presents a unique challenge: its writing system remains undeciphered, so understanding of its political and social organization relies entirely on material culture. Absolute chronology for all three regions is uncertain by \u00b150\u2013100 years, depending on the system chosen. Sub-Saharan Africa, Europe, and most of Asia are essentially absent from written records at this date.",
+  "graph_edges": [
+    {
+      "from": "-2914-001",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Akkadian Empire's collapse c. 2200 BCE follows from internal instability and Gutian invasions that began during Naram-Sin's reign"
+    },
+    {
+      "from": "-2914-002",
+      "to": "-2180-001",
+      "relation": "led_to",
+      "note": "Decline of Old Kingdom authority leads to First Intermediate Period c. 2180 BCE"
+    }
+  ]
+}

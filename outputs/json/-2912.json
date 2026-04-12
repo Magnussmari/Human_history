@@ -1,0 +1,80 @@
+{
+  "year": -2912,
+  "year_label": "2912 BCE",
+  "era_context": "Early Bronze Age III. Akkadian Empire under Naram-Sin. Egyptian Old Kingdom (Dynasty VI) in final phase. Indus Valley Civilization at mature phase. Traditional dating places the Xia Dynasty in China during this period, though archaeological confirmation is contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2912-001",
+      "title": "Akkadian administrative consolidation and deification of Naram-Sin",
+      "region": "Mesopotamia",
+      "coordinates_approx": "34.5, 43.0",
+      "category": "religious",
+      "description": "Naram-Sin declares himself a god, a radical departure from earlier Akkadian practice. This is attested in inscriptions and represented in art (e.g., the Victory Stele of Naram-Sin, which shows him wearing a horned crown, the symbol of divinity). This deification serves to consolidate his authority and legitimize his rule over a multi-ethnic empire. The practice influences later Mesopotamian kingship ideology.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions and the Victory Stele of Naram-Sin",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Artistic representations in seals and sculpture",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Naram-Sin's deification is well-attested in contemporary inscriptions and artistic evidence. The exact year is assigned by conventional chronology.",
+      "cross_references": [
+        "-2914-001"
+      ]
+    },
+    {
+      "id": "-2912-002",
+      "title": "Indus Valley trade networks extend to Mesopotamia",
+      "region": "Indus Valley, Mesopotamia, Persian Gulf",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "Archaeological evidence indicates that Indus Valley merchants maintain active trade with Mesopotamia and the Persian Gulf during this period. Indus seals have been found in Mesopotamian sites, and Mesopotamian goods appear in Indus contexts. This trade is facilitated by maritime routes and possibly overland routes through the Persian Gulf region. The trade reflects the economic sophistication of the Indus civilization.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological evidence of Indus seals in Mesopotamian sites (e.g., Ur, Lagash)",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus Valley settlement patterns and harbor facilities",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence of Indus-Mesopotamian trade is well-established through archaeological evidence. The dating to the mature phase of the Indus civilization (c. 2600\u20131900 BCE) is secure.",
+      "cross_references": [
+        "-2914-003"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No disconfirming evidence identified for events listed. However, the extent and nature of Indus-Mesopotamian trade is debated: some scholars argue for direct maritime trade, while others suggest intermediaries (possibly in the Persian Gulf or Oman). The political implications of this trade for the Indus civilization remain unclear, as no evidence of centralized control over trade has been identified.",
+  "historiographic_note": "Documentation remains sparse and elite-focused. Akkadian sources celebrate Naram-Sin's deification; the extent to which this was accepted by conquered populations or resisted is unknown. Indus Valley evidence is entirely archaeological; the absence of deciphered writing limits understanding of the civilization's political and economic organization. Absolute chronology is uncertain by \u00b150\u2013100 years.",
+  "graph_edges": [
+    {
+      "from": "-2912-001",
+      "to": "-2912-002",
+      "relation": "contemporary_with",
+      "note": "Akkadian imperial consolidation and Indus Valley trade occur simultaneously in the early 29th century BCE"
+    }
+  ]
+}

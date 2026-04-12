@@ -1,0 +1,84 @@
+{
+  "year": -2911,
+  "year_label": "2911 BCE",
+  "era_context": "Early Bronze Age III. Akkadian Empire under Naram-Sin at or near its territorial maximum. Egyptian Old Kingdom (Dynasty VI) in its final phase. Indus Valley Civilization at mature phase. In China, the Xia Dynasty is traditionally dated to this period.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2911-001",
+      "title": "Akkadian Empire faces resistance from Gutian and Lullubi populations",
+      "region": "Mesopotamia, Zagros Mountains",
+      "coordinates_approx": "35.0, 45.0",
+      "category": "military",
+      "description": "While Naram-Sin's inscriptions celebrate military victories, evidence suggests that the Akkadian Empire faces increasing resistance from populations in the Zagros Mountains (Lullubi, Guti) and possibly from within conquered territories. These conflicts may reflect both genuine military resistance and the strain of maintaining a far-flung empire. The Gutians, in particular, will eventually contribute to the empire's collapse after Naram-Sin's death.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions recording campaigns against mountain peoples",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Later Mesopotamian chronicles describing Gutian invasions",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's campaigns against mountain peoples are attested in contemporary inscriptions. The interpretation of these as signs of imperial strain is a modern scholarly inference, not explicitly stated in ancient sources.",
+      "cross_references": [
+        "-2914-001",
+        "-2200-001"
+      ]
+    },
+    {
+      "id": "-2911-002",
+      "title": "Egyptian Old Kingdom authority continues to fragment",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The reign of Pepi II continues with ongoing decentralization of power. Provincial governors maintain and expand their authority. The construction of royal monuments declines further, reflecting reduced central resources or authority. This period is transitional between the Old Kingdom and the First Intermediate Period.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Tomb inscriptions and administrative records from provincial centers",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of reduced royal monument construction",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The decline of Old Kingdom central authority is well-documented in contemporary and archaeological evidence.",
+      "cross_references": [
+        "-2914-002",
+        "-2913-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The narrative of Akkadian imperial strength is complicated by evidence of internal strain and external pressure. Some scholars argue that the empire was already destabilizing during Naram-Sin's reign, not merely after his death. The 4.2 kya event (a period of climate stress c. 2200 BCE) may have contributed to the empire's collapse, though the exact timing and impact remain debated.",
+  "historiographic_note": "Documentation is sparse and elite-focused. Akkadian sources celebrate military victories but may obscure underlying instability. Egyptian sources similarly emphasize elite achievements. Absolute chronology remains uncertain by \u00b150\u2013100 years.",
+  "graph_edges": [
+    {
+      "from": "-2911-001",
+      "to": "-2200-001",
+      "relation": "led_to",
+      "note": "Resistance from Gutian and other populations contributes to Akkadian Empire's collapse c. 2200 BCE"
+    }
+  ]
+}

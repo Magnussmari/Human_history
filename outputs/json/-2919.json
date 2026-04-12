@@ -1,0 +1,85 @@
+{
+  "year": -2919,
+  "year_label": "2919 BCE",
+  "era_context": "Early Bronze Age III in the Levant and Mesopotamia. The Old Kingdom of Egypt (c. 2686\u20132181 BCE) is in its later phases, with the Fifth Dynasty (c. 2494\u20132345 BCE) ruling. In Mesopotamia, the Early Dynastic Period III (c. 2600\u20132334 BCE) sees competing city-states in Sumer and Akkad. The Indus Valley Civilization is in its mature phase (c. 2500\u20131900 BCE). Writing systems are well-established in Egypt and Mesopotamia; cuneiform and hieroglyphic records provide documentation, though gaps remain for peripheral regions.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "East Asia (Shang dynasty records begin c. 1250 BCE; earlier periods poorly documented)",
+    "Americas",
+    "Northern Europe and the Steppe (limited archaeological context for this specific year)"
+  ],
+  "events": [
+    {
+      "id": "-2919-001",
+      "title": "Reign of Pharaoh Djedkare Isesi (Fifth Dynasty Egypt) \u2014 continued administration",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.5, 30.5",
+      "category": "political",
+      "description": "Djedkare Isesi (c. 2414\u20132375 BCE, though dating varies \u00b120 years) continues his reign during this period. His administration is marked by the construction of his pyramid complex at Saqqara and the maintenance of Old Kingdom bureaucratic structures. The Fifth Dynasty shows signs of decentralization, with provincial governors (nomarchs) gaining power relative to the central crown. This period precedes the rapid collapse of Old Kingdom authority in the Sixth Dynasty.",
+      "key_figures": [
+        "Djedkare Isesi (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Turin King List (Papyrus Turin 1874)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Pyramid Texts and inscriptions from Saqqara",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Manetho's Aegyptiaca (via Eusebius and Josephus)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "Djedkare's reign is dated c. 2414\u20132375 BCE by conventional Egyptology, but absolute chronology for the Old Kingdom remains debated (\u00b120\u201350 years). This year falls within his reign by most estimates, but the specific events of -2919 are not individually documented.",
+      "cross_references": []
+    },
+    {
+      "id": "-2919-002",
+      "title": "Indus Valley Civilization \u2014 mature urban phase",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization is at its height during this period (mature phase c. 2500\u20131900 BCE). Major cities such as Harappa, Mohenjo-daro, and Dholavira are fully developed with standardized weights, measures, and undeciphered script. Trade networks extend to Mesopotamia and the Persian Gulf. No specific events are documented for this year, but the civilization's sophisticated urban planning, drainage systems, and long-distance trade represent a major Bronze Age achievement.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Harappa, Mohenjo-daro, and Dholavira",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and weights (undeciphered script)",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The existence and dating of the mature Indus Valley Civilization is well-established through archaeology. However, the absence of deciphered written records means specific events for individual years cannot be documented.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The conventional dating of the Fifth Dynasty pharaohs, including Djedkare Isesi, has been challenged by some scholars who propose alternative chronologies (e.g., the 'low chronology' would place these events 100\u2013200 years later). Additionally, the significance of Djedkare's reign as a period of decline is partly a modern historiographic construct based on later sources; contemporary evidence does not explicitly describe a 'crisis.' The Indus Valley Civilization's script remains undeciphered, so claims about its political organization, religious beliefs, or specific historical events are speculative.",
+  "historiographic_note": "For this year, documentation is heavily skewed toward Egypt and the Indus Valley, where archaeological evidence and administrative records (in Egypt's case) survive. Mesopotamian records from this period are abundant but do not typically record specific events for individual years in the way later chronicles do. The dating of all events is approximate, relying on king lists (which are themselves problematic), astronomical calculations, and radiocarbon dating with calibration uncertainties. Sub-Saharan Africa, East Asia, and the Americas have virtually no documented history for this year in surviving sources. The historical record is shaped by the survival of monumental architecture (pyramids, urban sites) and the bias toward literate civilizations.",
+  "graph_edges": [
+    {
+      "from": "-2919-001",
+      "to": "-2345-001",
+      "relation": "led_to",
+      "note": "The decentralization of power during the Fifth Dynasty contributed to the collapse of the Old Kingdom at the end of the Sixth Dynasty (c. 2181 BCE)."
+    },
+    {
+      "from": "-2919-002",
+      "to": "-1900-001",
+      "relation": "part_of",
+      "note": "The Indus Valley Civilization's mature phase continues until its decline around 1900 BCE."
+    }
+  ]
+}

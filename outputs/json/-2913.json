@@ -1,0 +1,77 @@
+{
+  "year": -2913,
+  "year_label": "2913 BCE",
+  "era_context": "Early Bronze Age III. Akkadian Empire under Naram-Sin continues to dominate Mesopotamia. Egyptian Old Kingdom (Dynasty VI) is in its final decades of decline. Indus Valley Civilization remains in its mature urban phase. In China, the Xia Dynasty is traditionally dated to this period, though archaeological evidence is contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Pacific Islands",
+    "Central Asia",
+    "East Asia (limited contemporary written records)"
+  ],
+  "events": [
+    {
+      "id": "-2913-001",
+      "title": "Naram-Sin's military campaigns continue in northern Mesopotamia and Anatolia",
+      "region": "Mesopotamia, Anatolia, Syria",
+      "coordinates_approx": "36.0, 40.0",
+      "category": "military",
+      "description": "Naram-Sin's reign continues with ongoing military consolidation. Inscriptions record campaigns against the Lullubi in the Zagros Mountains and expansion into Anatolia. These campaigns are part of the broader Akkadian imperial project, though they also provoke resistance from local populations and may strain resources.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian royal inscriptions, including the Victory Stele of Naram-Sin",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's military campaigns are well-attested in contemporary inscriptions. The exact year is assigned by conventional chronology; absolute dating remains uncertain by \u00b150\u2013100 years.",
+      "cross_references": [
+        "-2914-001"
+      ]
+    },
+    {
+      "id": "-2913-002",
+      "title": "Egyptian provincial governors consolidate local power",
+      "region": "Egypt (Nile Valley)",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "During the reign of Pepi II, provincial governors (nomarchs) continue to accumulate wealth and authority. Inscriptions in their tombs record their local administrative achievements and military activities, suggesting that central pharaonic authority is increasingly delegated or contested. This decentralization is a hallmark of the late Old Kingdom.",
+      "key_figures": [
+        "Pepi II (Pharaoh of Egypt)"
+      ],
+      "sources": [
+        {
+          "name": "Tomb inscriptions of nomarchs from Upper Egypt",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from provincial administrative centers",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The rise of provincial authority during Dynasty VI is well-documented in contemporary tomb inscriptions and archaeological remains.",
+      "cross_references": [
+        "-2914-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No specific disconfirming evidence identified for events listed. However, the broader narrative of Akkadian imperial strength in this period is complicated by evidence of internal strain: some scholars argue that resource depletion, climate stress (possibly linked to the 4.2 kya event, though this is debated), and resistance from conquered populations were already destabilizing the empire by Naram-Sin's reign, not merely after his death.",
+  "historiographic_note": "Documentation for -2913 is sparse and elite-focused. Akkadian inscriptions celebrate military victories but may obscure logistical strain or resistance. Egyptian sources similarly emphasize elite achievements. No contemporary written records exist for most of the world outside Mesopotamia and Egypt. Absolute chronology remains uncertain.",
+  "graph_edges": [
+    {
+      "from": "-2913-001",
+      "to": "-2914-001",
+      "relation": "contemporary_with",
+      "note": "Continuation of Naram-Sin's reign and imperial consolidation"
+    }
+  ]
+}
