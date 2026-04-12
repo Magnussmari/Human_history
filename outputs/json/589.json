@@ -1,0 +1,130 @@
+{
+  "year": 589,
+  "year_label": "589 CE",
+  "era_context": "Late 6th century CE. The Eastern Roman Empire under Emperor Maurice is engaged in active military campaigns against the Sasanian Persian Empire. The Sui Dynasty in China has recently completed the reunification of the country (581 CE). In Western Europe, the Frankish kingdoms continue internal fragmentation; the Visigothic Kingdom is experiencing internal instability. This is a period of religious transformation: Christianity is consolidating in Europe; Buddhism dominates East Asia; Zoroastrianism remains the state religion of Persia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written documentation)",
+    "Mesoamerica (archaeological record only)",
+    "Northern Europe beyond Frankish territories",
+    "Central Asia (limited contemporary sources)"
+  ],
+  "events": [
+    {
+      "id": "589-001",
+      "title": "Roman-Persian War: Byzantine forces advance in Mesopotamia and Armenia",
+      "region": "Eastern Roman Empire, Sasanian Empire, Mesopotamia, Armenia",
+      "coordinates_approx": "35.5, 42.0",
+      "category": "military",
+      "description": "Emperor Maurice's forces, under the command of General Narses, conduct major military operations against the Sasanian Persian Empire. Roman armies advance in Mesopotamia and Armenia, capturing key fortifications and territory. This campaign is part of the broader Roman-Persian conflict that dominated the late 6th century. The Roman victories are enabled by internal instability in the Sasanian Empire following the death of Khosrau I (579 CE) and the succession disputes that followed. These military gains will eventually lead to the peace treaty of 591.",
+      "key_figures": [
+        "Emperor Maurice (Eastern Roman Emperor)",
+        "Narses (Roman general)",
+        "Khosrau II (Sasanian Shah, recently secured power)"
+      ],
+      "sources": [
+        {
+          "name": "Theophylact Simocatta, History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Menander Protector, History (fragments)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outline of campaigns in 589 is attested in Byzantine sources, but precise dating and sequence of engagements are sometimes uncertain. The year 589 is assigned as a conventional date for major operations in this campaign.",
+      "cross_references": [
+        "Led to 590-001 (continuation of Roman victories)",
+        "Led to 591-001 (Peace treaty)"
+      ]
+    },
+    {
+      "id": "589-002",
+      "title": "Sui Dynasty defeats Chen Dynasty, completing reunification of China",
+      "region": "China, Southern China",
+      "coordinates_approx": "30.3, 120.2",
+      "category": "military",
+      "description": "The Sui Dynasty, under Emperor Wen (Yang Jian), launches a major military campaign against the Chen Dynasty, which ruled southern China. The Chen Dynasty, weakened by internal instability and military pressure, is defeated. This conquest completes the Sui reunification of China, ending the period of fragmentation known as the Northern and Southern Dynasties (which lasted from 420 to 589 CE). The fall of the Chen Dynasty is a pivotal moment in Chinese history, marking the end of centuries of division and the beginning of a new era of centralized imperial rule.",
+      "key_figures": [
+        "Emperor Wen of Sui (Yang Jian)",
+        "Chen Shubao (last emperor of Chen Dynasty)",
+        "Yang Guang (Sui general, later Emperor Yang)"
+      ],
+      "sources": [
+        {
+          "name": "Sui Shu (History of the Sui Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        },
+        {
+          "name": "Chen Shu (History of the Chen Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The fall of the Chen Dynasty and the completion of Sui reunification in 589 is firmly established in Chinese historical records. Multiple sources confirm this date.",
+      "cross_references": [
+        "Follows from 581-001 (Sui Dynasty founded)",
+        "Led to 605-001 (Grand Canal construction)"
+      ]
+    },
+    {
+      "id": "589-003",
+      "title": "Third Council of Constantinople convenes",
+      "region": "Constantinople, Eastern Roman Empire",
+      "coordinates_approx": "41.0, 28.9",
+      "category": "religious",
+      "description": "The Third Council of Constantinople (also known as the Fifth Ecumenical Council) convenes under the authority of Emperor Maurice. This council addresses theological disputes, particularly regarding Christological controversies that had divided the Eastern Church. The council reaffirms orthodox positions and attempts to reconcile various Christian factions within the Byzantine Empire. The council's decisions have lasting impact on Christian theology and church governance in the Eastern Roman Empire.",
+      "key_figures": [
+        "Emperor Maurice",
+        "Patriarch John IV of Constantinople"
+      ],
+      "sources": [
+        {
+          "name": "Acts of the Council of Constantinople (official council records)",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Theophylact Simocatta, History",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The council is attested in Byzantine sources, though some details about its exact date and proceedings are debated. The year 589 is the traditional date, though some sources place it slightly earlier or later.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The exact date of the Third Council of Constantinople is disputed among scholars. Some sources place it in 588, others in 589 or 590. The council's historical significance and its specific theological outcomes are also debated, with some modern scholars questioning the extent of its immediate impact. The dating of specific Roman military engagements in 589 is uncertain; some campaigns may have occurred in 588 or 590 instead.",
+  "historiographic_note": "Documentation for 589 CE is moderate. Byzantine sources provide detailed accounts of military campaigns, though these were written decades or centuries later. Chinese sources are comprehensive and contemporary (or near-contemporary) for the fall of the Chen Dynasty. Religious sources (council records) are primary but sometimes fragmentary. The historical record is shaped by the preservation of institutional archives and the loss of local narratives. Western European sources are minimal.",
+  "graph_edges": [
+    {
+      "from": "589-001",
+      "to": "590-001",
+      "relation": "led_to",
+      "note": "Roman military successes in 589 continued into 590"
+    },
+    {
+      "from": "589-002",
+      "to": "590-003",
+      "relation": "part_of",
+      "note": "Completion of Sui reunification, consolidation continued in 590"
+    },
+    {
+      "from": "589-003",
+      "to": "590-002",
+      "relation": "contemporary_with",
+      "note": "Religious developments under Maurice's reign"
+    }
+  ]
+}

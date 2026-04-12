@@ -1,0 +1,127 @@
+{
+  "year": 588,
+  "year_label": "588 CE",
+  "era_context": "Late 6th century CE. The Eastern Roman Empire under Emperor Maurice is consolidating power and engaging in military campaigns against the Sasanian Persian Empire. The Sui Dynasty in China is in the process of completing its reunification of the country. In Western Europe, the Frankish kingdoms are fragmented; the Visigothic Kingdom is experiencing internal conflict. This is an era of religious ferment and institutional development: Christianity is spreading and organizing; Buddhism is dominant in East Asia; Zoroastrianism remains the state religion of Persia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written sources)",
+    "Mesoamerica (archaeological record only)",
+    "Northern Europe beyond Frankish territories",
+    "Central Asia and the Steppe (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "588-001",
+      "title": "Emperor Maurice assumes full imperial authority in Eastern Roman Empire",
+      "region": "Eastern Roman Empire, Constantinople",
+      "coordinates_approx": "41.0, 28.9",
+      "category": "political",
+      "description": "Emperor Maurice, who had been co-emperor since 582 CE under Tiberius II, assumes full imperial authority following the death of Tiberius II. Maurice is a military officer who brings a more aggressive foreign policy, particularly toward the Sasanian Persian Empire. His reign is marked by military campaigns, administrative reforms, and theological engagement with the Church. Maurice's assumption of full power represents a transition in Byzantine governance and sets the stage for his military initiatives in the 590s.",
+      "key_figures": [
+        "Emperor Maurice",
+        "Tiberius II (predecessor)",
+        "Empress Constantina (wife)"
+      ],
+      "sources": [
+        {
+          "name": "Theophylact Simocatta, History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Liber Pontificalis",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Maurice's assumption of full imperial authority in 588 is well-documented in Byzantine sources. The date is firmly established.",
+      "cross_references": [
+        "Led to 589-001 (military campaigns)",
+        "Led to 590-001 (continued military success)"
+      ]
+    },
+    {
+      "id": "588-002",
+      "title": "Sui Dynasty continues military campaigns to complete reunification of China",
+      "region": "China, Southern China",
+      "coordinates_approx": "30.3, 120.2",
+      "category": "military",
+      "description": "The Sui Dynasty, under Emperor Wen (Yang Jian), continues its military campaigns against the Chen Dynasty in southern China. These campaigns are part of the broader effort to reunify China after centuries of fragmentation. The Sui forces are gradually overwhelming the Chen Dynasty's military resistance. By 589, these campaigns will culminate in the complete conquest of the Chen Dynasty and the reunification of China under Sui rule.",
+      "key_figures": [
+        "Emperor Wen of Sui (Yang Jian)",
+        "Yang Guang (Sui general, later Emperor Yang)",
+        "Chen Shubao (Chen Dynasty emperor)"
+      ],
+      "sources": [
+        {
+          "name": "Sui Shu (History of the Sui Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outline of Sui military campaigns in 588 is attested in Chinese sources, though specific details for this particular year are less granular. The campaigns culminated in 589 with the fall of the Chen Dynasty.",
+      "cross_references": [
+        "Led to 589-002 (fall of Chen Dynasty)"
+      ]
+    },
+    {
+      "id": "588-003",
+      "title": "Visigothic Kingdom experiences internal conflict and succession disputes",
+      "region": "Iberian Peninsula, Visigothic Kingdom",
+      "coordinates_approx": "40.0, -3.0",
+      "category": "political",
+      "description": "The Visigothic Kingdom in Iberia is experiencing internal instability and succession disputes. King Leovigild, who had ruled since 568 CE, dies in 586 CE, and his succession is contested. His son Reccared I assumes power but faces resistance from factions within the nobility. These internal conflicts weaken the kingdom and create opportunities for external threats. The period is marked by religious tensions between Arian and Catholic factions within the Visigothic elite.",
+      "key_figures": [
+        "Reccared I (Visigothic King)",
+        "Leovigild (predecessor)",
+        "Hermenegild (rival claimant, son of Leovigild)"
+      ],
+      "sources": [
+        {
+          "name": "Isidore of Seville, History of the Goths (written early 7th century)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "John of Biclaro, Chronicle (near-contemporary)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outline of Visigothic internal conflicts in this period is attested in sources, though specific dating of events within 588 is sometimes uncertain. The succession of Reccared I is confirmed, but the extent of resistance and the precise timeline of internal conflicts are debated.",
+      "cross_references": [
+        "Led to 589-004 (Third Council of Toledo, religious reconciliation)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Tiberius II's death and Maurice's assumption of full imperial authority is sometimes placed in 587 rather than 588 in some sources. The significance of Maurice's early reign is sometimes overstated; his major military successes came later (590s). The extent of Visigothic internal conflict in 588 is debated; some sources suggest the kingdom was more stable than others indicate.",
+  "historiographic_note": "Documentation for 588 CE is moderate. Byzantine sources are relatively rich but were written decades or centuries later. Chinese sources are comprehensive for the Sui campaigns. Western European sources are sparse and often fragmentary. The historical record is shaped by the survival of institutional archives (imperial, ecclesiastical) and the loss of local narratives. Visigothic sources are particularly limited and often preserved only through later compilations.",
+  "graph_edges": [
+    {
+      "from": "588-001",
+      "to": "589-001",
+      "relation": "led_to",
+      "note": "Maurice's assumption of power enabled aggressive military campaigns"
+    },
+    {
+      "from": "588-002",
+      "to": "589-002",
+      "relation": "led_to",
+      "note": "Sui campaigns in 588 culminated in the fall of Chen Dynasty in 589"
+    },
+    {
+      "from": "588-003",
+      "to": "589-004",
+      "relation": "led_to",
+      "note": "Internal Visigothic conflicts led to religious reconciliation efforts"
+    }
+  ]
+}

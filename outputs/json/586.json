@@ -1,0 +1,130 @@
+{
+  "year": 586,
+  "year_label": "586 CE",
+  "era_context": "Late 6th century CE. The Eastern Roman Empire under Emperor Tiberius II is in the final years of his reign; Emperor Maurice is rising in power. The Sui Dynasty in China, founded in 581 CE, is consolidating control over the north and preparing for the conquest of the south. In Western Europe, the Frankish kingdoms are fragmented; the Visigothic Kingdom is experiencing succession crisis following the death of King Leovigild. This is an era of religious transformation: Christianity is spreading in Europe; Buddhism dominates East Asia; Zoroastrianism remains the state religion of Persia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written documentation)",
+    "Mesoamerica (archaeological record only)",
+    "Northern Europe beyond Frankish territories",
+    "Central Asia and the Steppe (limited contemporary sources)"
+  ],
+  "events": [
+    {
+      "id": "586-001",
+      "title": "King Leovigild of the Visigothic Kingdom dies; succession crisis ensues",
+      "region": "Iberian Peninsula, Visigothic Kingdom",
+      "coordinates_approx": "40.0, -3.0",
+      "category": "political",
+      "description": "King Leovigild of the Visigothic Kingdom dies after a reign of approximately 18 years (568-586 CE). Leovigild had been a strong military ruler who expanded Visigothic territory and consolidated power. His death triggers a succession crisis. His son Reccared I is designated as his successor, but his other son Hermenegild, who had been in rebellion against Leovigild, contests the succession. The succession dispute will be resolved in favor of Reccared I, who will consolidate power and initiate a process of religious reconciliation within the kingdom.",
+      "key_figures": [
+        "Leovigild (Visigothic King, died 586)",
+        "Reccared I (designated successor)",
+        "Hermenegild (rival claimant)"
+      ],
+      "sources": [
+        {
+          "name": "Isidore of Seville, History of the Goths",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "John of Biclaro, Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Gregory of Tours, History of the Franks (mentions Visigothic affairs)",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Leovigild's death in 586 CE is well-documented in multiple contemporary and near-contemporary sources. The date is firmly established.",
+      "cross_references": [
+        "Led to 587-001 (Reccared I becomes king)"
+      ]
+    },
+    {
+      "id": "586-002",
+      "title": "Sui Dynasty continues consolidation of northern China; preparations for southern conquest",
+      "region": "China, Northern China",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "The Sui Dynasty, founded in 581 CE by Yang Jian (Emperor Wen), continues its consolidation of power over northern China. By 586, Sui control over the north is firmly established. The dynasty is now preparing for the final military campaign against the Chen Dynasty in the south. Administrative reforms are being implemented to strengthen central authority and military organization. The Sui period is characterized by the extension of the Great Wall and the beginning of planning for the Grand Canal project.",
+      "key_figures": [
+        "Emperor Wen of Sui (Yang Jian)",
+        "Yang Guang (crown prince, later Emperor Yang)"
+      ],
+      "sources": [
+        {
+          "name": "Sui Shu (History of the Sui Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The consolidation of Sui control over northern China by 586 is well-established in Chinese historical records. The broad timeline is secure.",
+      "cross_references": [
+        "Led to 588-002 (military campaigns against Chen Dynasty)"
+      ]
+    },
+    {
+      "id": "586-003",
+      "title": "Eastern Roman Empire continues military campaigns against Sasanian Persia",
+      "region": "Eastern Roman Empire, Sasanian Empire, Mesopotamia, Armenia",
+      "coordinates_approx": "35.5, 42.0",
+      "category": "military",
+      "description": "The Eastern Roman Empire under Emperor Tiberius II continues military campaigns against the Sasanian Persian Empire. These campaigns are part of a broader conflict that has dominated the late 6th century. The Roman forces are engaged in operations in Mesopotamia and Armenia. The campaigns are led by experienced generals and are part of a strategy to contain Sasanian expansion and maintain Roman influence in the eastern frontier. These military operations will intensify under Emperor Maurice in the late 580s and 590s.",
+      "key_figures": [
+        "Emperor Tiberius II",
+        "Emperor Maurice (co-emperor)",
+        "Khosrau II (Sasanian Shah)"
+      ],
+      "sources": [
+        {
+          "name": "Theophylact Simocatta, History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Menander Protector, History (fragments)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The continuation of Roman-Persian military campaigns in 586 is attested in Byzantine sources, though specific details for this particular year are less granular. The broader context of the conflict is well-established.",
+      "cross_references": [
+        "Led to 589-001 (intensification of Roman campaigns)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Leovigild's death is sometimes placed in 585 rather than 586 in some sources. The extent of the succession dispute and the degree of Hermenegild's resistance are debated. The significance of Sui military preparations in 586 may be overstated; the actual campaigns against the Chen Dynasty did not begin until 588.",
+  "historiographic_note": "Documentation for 586 CE is moderate. Visigothic and Byzantine sources provide accounts of political events, though these were often written decades or centuries later. Chinese sources are comprehensive for Sui consolidation. Western European sources are sparse and often fragmentary. The historical record is shaped by the survival of institutional archives (imperial, ecclesiastical) and the loss of local narratives. Visigothic sources are particularly limited and often preserved only through later compilations.",
+  "graph_edges": [
+    {
+      "from": "586-001",
+      "to": "587-001",
+      "relation": "led_to",
+      "note": "Leovigild's death led to Reccared I's accession"
+    },
+    {
+      "from": "586-002",
+      "to": "588-002",
+      "relation": "led_to",
+      "note": "Sui consolidation in 586 enabled military campaigns in 588-589"
+    },
+    {
+      "from": "586-003",
+      "to": "589-001",
+      "relation": "led_to",
+      "note": "Continued Roman-Persian conflict intensified under Maurice"
+    }
+  ]
+}

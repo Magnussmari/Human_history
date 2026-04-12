@@ -1,0 +1,125 @@
+{
+  "year": 587,
+  "year_label": "587 CE",
+  "era_context": "Late 6th century CE. The Eastern Roman Empire is transitioning leadership; Emperor Tiberius II is aging and Emperor Maurice is rising in power. The Sui Dynasty in China is consolidating control following its founding in 581 CE. In Western Europe, the Frankish kingdoms are fragmented; the Visigothic Kingdom is experiencing succession disputes following the death of King Leovigild. This is an era of religious transformation: Christianity is spreading in Europe; Buddhism dominates East Asia; Zoroastrianism remains the state religion of Persia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (minimal written documentation)",
+    "Mesoamerica (archaeological record only)",
+    "Northern Europe beyond Frankish territories",
+    "Central Asia and the Steppe (limited contemporary sources)"
+  ],
+  "events": [
+    {
+      "id": "587-001",
+      "title": "Reccared I becomes King of the Visigothic Kingdom",
+      "region": "Iberian Peninsula, Visigothic Kingdom",
+      "coordinates_approx": "40.0, -3.0",
+      "category": "political",
+      "description": "Reccared I assumes the throne of the Visigothic Kingdom following the death of his father, King Leovigild (who died in 586 CE). Reccared's succession is contested by his brother Hermenegild, who had been in rebellion against Leovigild. Reccared consolidates power and begins a process of religious reconciliation, moving toward the conversion of the Visigothic elite from Arian Christianity to Catholic Christianity. This religious shift will be formalized at the Third Council of Toledo in 589 CE.",
+      "key_figures": [
+        "Reccared I (Visigothic King)",
+        "Leovigild (predecessor, died 586)",
+        "Hermenegild (rival claimant)"
+      ],
+      "sources": [
+        {
+          "name": "Isidore of Seville, History of the Goths",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "John of Biclaro, Chronicle",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Reccared I's accession to the throne is well-documented in Visigothic and Byzantine sources. The date of 587 CE is firmly established, though some sources place it in 586.",
+      "cross_references": [
+        "Led to 589-004 (Third Council of Toledo)"
+      ]
+    },
+    {
+      "id": "587-002",
+      "title": "Sui Dynasty consolidates control over northern China",
+      "region": "China, Northern China",
+      "coordinates_approx": "39.9, 116.4",
+      "category": "political",
+      "description": "The Sui Dynasty, founded in 581 CE by Yang Jian (Emperor Wen), continues its consolidation of power over northern China. By 587, Sui control over the north is firmly established. The dynasty is now preparing for the final military campaign against the Chen Dynasty in the south, which will be launched in 588-589 CE. The Sui period is characterized by administrative centralization, military reorganization, and the beginning of large-scale infrastructure projects.",
+      "key_figures": [
+        "Emperor Wen of Sui (Yang Jian)",
+        "Yang Guang (crown prince, later Emperor Yang)"
+      ],
+      "sources": [
+        {
+          "name": "Sui Shu (History of the Sui Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The consolidation of Sui control over northern China by 587 is well-established in Chinese historical records. The broad timeline is secure.",
+      "cross_references": [
+        "Led to 588-002 (military campaigns against Chen Dynasty)"
+      ]
+    },
+    {
+      "id": "587-003",
+      "title": "Emperor Tiberius II of Eastern Roman Empire is aging; Maurice gains influence",
+      "region": "Eastern Roman Empire, Constantinople",
+      "coordinates_approx": "41.0, 28.9",
+      "category": "political",
+      "description": "Emperor Tiberius II, who has ruled since 578 CE, is aging and in declining health. His co-emperor and designated successor, Maurice, is gaining increasing influence over imperial affairs. Maurice is a military officer with experience in campaigns against the Sasanian Persian Empire. The transition of power from Tiberius II to Maurice is gradual but accelerating. By 588, Maurice will assume full imperial authority following Tiberius II's death.",
+      "key_figures": [
+        "Emperor Tiberius II",
+        "Emperor Maurice (co-emperor, designated successor)",
+        "Empress Constantina"
+      ],
+      "sources": [
+        {
+          "name": "Theophylact Simocatta, History",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Liber Pontificalis",
+          "type": "chronicle",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The aging of Tiberius II and the rise of Maurice's influence are attested in Byzantine sources, though the precise timeline of the transition is sometimes uncertain. The year 587 is assigned as a conventional date for this process.",
+      "cross_references": [
+        "Led to 588-001 (Maurice assumes full imperial authority)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The exact date of Reccared I's accession is sometimes placed in 586 rather than 587 in some sources. The extent of his early consolidation of power and the degree of resistance from Hermenegild are debated. The significance of Maurice's influence in 587 may be overstated; his major military successes came later.",
+  "historiographic_note": "Documentation for 587 CE is moderate. Byzantine sources provide accounts of political transitions, though these were written decades or centuries later. Chinese sources are comprehensive for Sui consolidation. Western European sources are sparse and often fragmentary. The historical record is shaped by the survival of institutional archives and the loss of local narratives. Visigothic sources are particularly limited.",
+  "graph_edges": [
+    {
+      "from": "587-001",
+      "to": "589-004",
+      "relation": "led_to",
+      "note": "Reccared I's accession enabled religious reconciliation at the Third Council of Toledo"
+    },
+    {
+      "from": "587-002",
+      "to": "588-002",
+      "relation": "led_to",
+      "note": "Sui consolidation in the north enabled campaigns against the south"
+    },
+    {
+      "from": "587-003",
+      "to": "588-001",
+      "relation": "led_to",
+      "note": "Maurice's growing influence led to his assumption of full imperial authority"
+    }
+  ]
+}

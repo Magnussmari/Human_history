@@ -1,0 +1,125 @@
+{
+  "year": 590,
+  "year_label": "590 CE",
+  "era_context": "Late 6th century CE. The Eastern Roman (Byzantine) Empire under Emperor Maurice is consolidating power after the reign of Tiberius II. The Sasanian Persian Empire under Khosrau II is in the early phase of his reign. In Western Europe, the Frankish kingdoms are fragmenting; the Visigothic Kingdom controls Iberia. In China, the Northern and Southern Dynasties period is ending; the Sui Dynasty (founded 581) is consolidating control. This is an era of religious ferment: Christianity is spreading in Europe and Asia; Buddhism is dominant in East Asia; Zoroastrianism remains the state religion of Persia.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written sources for this period)",
+    "Mesoamerica and the Maya Classic period (archaeological record exists but is sparse for specific years)",
+    "Northern Europe beyond Frankish territories (limited contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "590-001",
+      "title": "Emperor Maurice defeats Sasanian forces and restores Roman control of Mesopotamia",
+      "region": "Eastern Roman Empire, Mesopotamia, Sasanian Empire",
+      "coordinates_approx": "35.5, 42.0",
+      "category": "military",
+      "description": "Emperor Maurice of the Eastern Roman Empire, through his general Narses, achieves a decisive military victory against the Sasanian Persian Empire under Khosrau II. This campaign results in the restoration of Roman control over parts of Mesopotamia and Armenia, reversing earlier Sasanian gains. The victory is part of a broader Roman-Persian conflict that had intensified in the 580s. This military success strengthens Maurice's position domestically and establishes a period of relative Roman ascendancy in the East.",
+      "key_figures": [
+        "Emperor Maurice (Eastern Roman Emperor)",
+        "Narses (Roman general)",
+        "Khosrau II (Sasanian Shah)"
+      ],
+      "sources": [
+        {
+          "name": "Theophylact Simocatta, History (written early 7th century, covering Maurice's reign)",
+          "type": "chronicle",
+          "contemporary": false
+        },
+        {
+          "name": "Menander Protector, History (fragments covering this period)",
+          "type": "chronicle",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The broad outline of Maurice's military campaigns is well-attested in Byzantine sources, though precise dating of individual engagements within the 580s-590s is sometimes uncertain. The year 590 is assigned as a conventional date for major victories in this campaign.",
+      "cross_references": [
+        "Follows from 589-001 (continuation of Roman-Persian conflict)",
+        "Led to 591-001 (Peace of 591 between Rome and Persia)"
+      ]
+    },
+    {
+      "id": "590-002",
+      "title": "Pope Gregory I (Gregory the Great) elected to the papacy",
+      "region": "Papal States, Rome, Western Europe",
+      "coordinates_approx": "41.9, 12.5",
+      "category": "religious",
+      "description": "Gregory, a Roman aristocrat and former prefect of Rome, is elected Pope in 590 CE. He becomes one of the most influential popes of the medieval period, known for his administrative reforms, missionary activities, and theological writings. Gregory's papacy marks a shift toward greater papal independence and authority in Western Europe, particularly as secular Roman authority declines. He initiates missionary efforts to convert pagan Anglo-Saxon kingdoms and strengthens the Church's institutional structure.",
+      "key_figures": [
+        "Gregory I (Pope Gregory the Great)",
+        "Pelagius II (predecessor)"
+      ],
+      "sources": [
+        {
+          "name": "Liber Pontificalis (official papal biography collection, compiled over centuries but contemporary for this period)",
+          "type": "chronicle",
+          "contemporary": true
+        },
+        {
+          "name": "Gregory's own writings and letters (Registrum Gregorii)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Gregory's election date is well-documented in papal records and his own correspondence. The date of 590 CE is firmly established.",
+      "cross_references": [
+        "Led to 597-001 (Augustine's mission to Anglo-Saxon England, sent by Gregory)"
+      ]
+    },
+    {
+      "id": "590-003",
+      "title": "Sui Dynasty consolidates control over China following Northern and Southern Dynasties period",
+      "region": "China",
+      "coordinates_approx": "34.3, 108.9",
+      "category": "political",
+      "description": "The Sui Dynasty, founded in 581 CE by Yang Jian (Emperor Wen), continues its consolidation of power over all of China, formally ending the period of fragmentation known as the Northern and Southern Dynasties. By 590, Sui control is firmly established over both northern and southern territories. This reunification represents a major political achievement and sets the stage for the subsequent Tang Dynasty. The Sui period is characterized by administrative reforms, the extension of the Great Wall, and the beginning of the Grand Canal project.",
+      "key_figures": [
+        "Emperor Wen of Sui (Yang Jian)",
+        "Yang Guang (crown prince, later Emperor Yang)"
+      ],
+      "sources": [
+        {
+          "name": "Sui Shu (History of the Sui Dynasty, compiled in the Tang Dynasty)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Zizhi Tongjian (Comprehensive Mirror for Aid in Government, compiled by Sima Guang in 11th century)",
+          "type": "historiographic_consensus",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The consolidation of Sui control by 590 is well-established in Chinese historical records. The broad timeline is secure, though specific administrative details for this particular year are less granular.",
+      "cross_references": [
+        "Part of broader Sui unification (581-589)",
+        "Led to 605-001 (Grand Canal construction begins)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The dating and significance of specific military engagements between Rome and Persia in 590 are debated among scholars. Some sources place major victories earlier (589) or later (591), and the precise sequence of campaigns is reconstructed from fragmentary sources. Gregory I's election is firmly dated, but the extent of his immediate influence in 590 (versus his growing authority in subsequent years) may be overstated in some popular accounts.",
+  "historiographic_note": "Documentation for 590 CE is moderate but unevenly distributed. Byzantine and papal sources are relatively rich; Chinese sources are comprehensive but compiled centuries later. Sasanian sources are sparse and often preserved only through Byzantine or later Islamic accounts. Western European sources outside the papacy are minimal. The historical record is shaped by the survival of institutional archives (Church, imperial courts) and the loss of local or non-elite narratives.",
+  "graph_edges": [
+    {
+      "from": "590-001",
+      "to": "591-001",
+      "relation": "led_to",
+      "note": "Roman military victories in 590 contributed to the negotiated peace of 591"
+    },
+    {
+      "from": "590-002",
+      "to": "597-001",
+      "relation": "led_to",
+      "note": "Gregory I's election enabled his later missionary initiatives"
+    },
+    {
+      "from": "590-003",
+      "to": "605-001",
+      "relation": "part_of",
+      "note": "Sui consolidation enabled large-scale infrastructure projects like the Grand Canal"
+    }
+  ]
+}
