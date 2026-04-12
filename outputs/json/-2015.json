@@ -1,0 +1,103 @@
+{
+  "year": -2015,
+  "year_label": "2015 BCE",
+  "era_context": "The Middle Bronze Age in the Levant and Egypt; the Old Babylonian period in Mesopotamia under Hammurabi's successors; the Shang dynasty in China; the Mycenaean Early Bronze Age in Greece. This is a period of established state formation, long-distance trade networks, and the consolidation of territorial kingdoms. Writing systems are well-established in Egypt, Mesopotamia, and China.",
+  "documentation_level": "moderate",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; archaeological evidence sparse in training data)",
+    "Southeast Asia (limited contemporary documentation)",
+    "The Americas (no written records; archaeological dating uncertain)"
+  ],
+  "events": [
+    {
+      "id": "-2015-001",
+      "title": "Reign of Samsu-iluna of Babylon",
+      "region": "Mesopotamia (Babylonia)",
+      "coordinates_approx": "32.5, 44.4",
+      "category": "political",
+      "description": "Samsu-iluna, son of Hammurabi, continues the Old Babylonian dynasty. His reign is marked by military campaigns against the Kassites and other peripheral territories, though his control over Babylonian territory is less secure than his father's. He maintains the legal and administrative systems established under Hammurabi's Code. His reign represents the gradual decline of Babylonian hegemony in Mesopotamia.",
+      "key_figures": [
+        "Samsu-iluna (King of Babylon)"
+      ],
+      "sources": [
+        {
+          "name": "King List A and Babylonian King List (later compilation, but based on contemporary records)",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Cuneiform administrative tablets from Babylon",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Samsu-iluna's reign is dated to approximately 1686\u20131650 BCE in the Middle Chronology, placing this year within his rule. Exact year-by-year events are not well-documented; this represents the general political context.",
+      "cross_references": []
+    },
+    {
+      "id": "-2015-002",
+      "title": "Hyksos expansion in Egypt",
+      "region": "Egypt (Nile Delta)",
+      "coordinates_approx": "30.8, 31.3",
+      "category": "political",
+      "description": "During the Second Intermediate Period, Asiatic peoples (Hyksos) continue to establish settlements and political control in the Nile Delta and Lower Egypt. By this period, Hyksos rulers have consolidated power in the north while Egyptian dynasties (the 13th Dynasty) maintain nominal control in Upper Egypt. This represents a significant demographic and political shift in Egypt, though the extent of Hyksos 'invasion' versus gradual settlement remains debated.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Egyptian King Lists (Abydos, Turin Papyrus); later accounts by Manetho",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Tell el-Dab'a (Avaris)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The chronology of Hyksos settlement is debated. The Middle Chronology places major Hyksos expansion in the 17th\u201316th centuries BCE. This year falls within the period of their consolidation, though exact dating is uncertain.",
+      "cross_references": []
+    },
+    {
+      "id": "-2015-003",
+      "title": "Shang dynasty oracle bone divination practices",
+      "region": "China (Yellow River valley, Henan)",
+      "coordinates_approx": "34.6, 114.3",
+      "category": "cultural",
+      "description": "During the Shang dynasty, oracle bone divination (scapulimancy) is a well-established practice used by the royal court to consult ancestors and deities on matters of state, agriculture, and warfare. Bones are inscribed with questions and heated until they crack; the patterns are interpreted as divine responses. This practice generates some of the earliest Chinese written records, with characters inscribed on oracle bones providing evidence of early Chinese language and administrative concerns.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Oracle bones excavated from Anyang (Yinxu)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Shiji (Records of the Grand Historian) by Sima Qian",
+          "type": "later_compilation",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Oracle bones are directly dated through stratigraphy and radiocarbon analysis. The practice is confirmed across multiple Shang sites. This year falls within the well-documented Shang period (c. 1600\u20131046 BCE).",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The dating of the Hyksos period and their relationship to Egyptian political collapse is contested. Some scholars argue for a more gradual settlement process rather than a military 'invasion,' and chronological disagreement persists between the High, Middle, and Low Chronologies of ancient Egypt. The extent of Hyksos political control versus cultural influence remains debated. No disconfirming evidence identified for Shang oracle bone practices or Babylonian political continuity.",
+  "historiographic_note": "Documentation for 2015 BCE is uneven. Mesopotamian and Egyptian records are relatively rich but often indirect (administrative tablets, king lists compiled centuries later). Chinese oracle bones provide direct written evidence but are limited to royal concerns. Sub-Saharan Africa, the Americas, and much of Southeast Asia have minimal written documentation; archaeological evidence is sparse in available training data. The historical record is heavily skewed toward literate, state-level societies in the Old World.",
+  "graph_edges": [
+    {
+      "from": "-2015-001",
+      "to": "-2000-001",
+      "relation": "led_to",
+      "note": "Samsu-iluna's reign marks the beginning of Babylonian decline; within a century, Kassite conquest follows."
+    },
+    {
+      "from": "-2015-002",
+      "to": "-1550-001",
+      "relation": "led_to",
+      "note": "Hyksos consolidation in the Delta eventually provokes the 17th Dynasty Egyptian resistance and the New Kingdom expulsion."
+    }
+  ]
+}

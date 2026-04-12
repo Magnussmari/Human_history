@@ -1,0 +1,131 @@
+{
+  "year": -2029,
+  "year_label": "2029 BCE",
+  "era_context": "The Akkadian Empire under Naram-Sin is at or near its maximum territorial extent. Egypt is in the First Intermediate Period with fragmented regional authority. The Indus Valley Civilisation is in its mature phase with extensive trade networks. In Anatolia, various city-states and kingdoms exist without a dominant centralised power. The Eastern Mediterranean Bronze Age is characterised by interconnected trade networks, cultural exchange, and occasional military conflict.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2029-001",
+      "title": "Akkadian Empire at Maximum Territorial Extent",
+      "region": "Mesopotamia, Levant, and surrounding regions",
+      "coordinates_approx": "32.5, 40.0",
+      "category": "political",
+      "description": "Under Naram-Sin, the Akkadian Empire reaches its maximum territorial extent, controlling Mesopotamia, parts of the Levant, the Zagros Mountains, and trade routes extending to the Persian Gulf and beyond. The empire is organised as a centralised state with the king as a deified figure. Akkadian language and administrative practices are imposed across the empire. This period represents the height of Akkadian power before the empire's rapid collapse in the following decades.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Royal Inscriptions of Naram-Sin",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Akkadian administrative texts and seals",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of Akkadian presence across the empire",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is dated to approximately 2254\u20132218 BCE; this year falls within that period. The maximum extent of the empire is attested in inscriptions and archaeological evidence, though precise year-by-year dating is not available.",
+      "cross_references": [
+        "-2025-001",
+        "-2028-001"
+      ]
+    },
+    {
+      "id": "-2029-002",
+      "title": "Indus Valley Civilisation: Standardised Urban Culture",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilisation exhibits remarkable cultural and economic standardisation across a vast geographical area. Cities are planned with standardised street grids, drainage systems, and public buildings. Weights and measures are standardised across the civilisation. Harappan seals with undeciphered script are produced in large quantities and used for trade and administration. The civilisation shows no obvious signs of centralised political control, suggesting a decentralised network of city-states or a sophisticated administrative system not yet understood.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, and other sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Harappan seals, weights, and urban remains",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The standardisation of the Indus Valley Civilisation is well-attested archaeologically. The mature phase is dated to approximately 2600\u20131900 BCE.",
+      "cross_references": [
+        "-2025-002",
+        "-2027-002"
+      ]
+    },
+    {
+      "id": "-2029-003",
+      "title": "Egyptian First Intermediate Period: Regional Conflicts and Competition",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "During the First Intermediate Period, regional nomarchs compete for power and resources. Some evidence suggests military conflicts between Upper and Lower Egypt and between competing regional powers. The Heracleopolitan Kingdom emerges as a significant power in Lower Egypt, while various nomarchs control Upper Egypt. This period is characterised by political fragmentation, reduced monumental construction, and a shift in cultural and religious practices away from Old Kingdom norms.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Nomarch tomb inscriptions and autobiographies",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Egyptian administrative and religious texts",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of reduced monumental construction",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The First Intermediate Period is dated to approximately 2181\u20132055 BCE. The specific timing of regional conflicts is not precisely datable from surviving sources.",
+      "cross_references": [
+        "-2026-002",
+        "-2028-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The causes of the Akkadian Empire's collapse (which occurs shortly after this period) are debated. Some scholars emphasise external military pressure from the Gutians; others emphasise internal administrative breakdown or climate change. The exact nature of Akkadian political control in peripheral regions is disputed; some scholars argue for direct military administration, while others suggest more limited influence. The political organisation of the Indus Valley Civilisation remains unclear despite extensive archaeological evidence; the absence of obvious centralised authority has led to various interpretations, from decentralised city-states to a sophisticated administrative system not yet understood.",
+  "historiographic_note": "This period is documented through Akkadian royal inscriptions (propagandistic), Egyptian funerary and administrative texts (fragmentary and elite-focused), and archaeological evidence of trade goods and urban remains. The Indus Valley's undeciphered script severely limits understanding of political, religious, and social structures. The historical record is heavily weighted toward Mesopotamia and Egypt; other regions are largely absent from written sources. The First Intermediate Period in Egypt was long viewed as a 'dark age,' but modern scholarship recognises it as a period of significant cultural and political change. The reliability of dating for this period depends heavily on the chronological system used (Short, Middle, or Long Chronology), which can shift dates by several decades.",
+  "graph_edges": [
+    {
+      "from": "-2029-001",
+      "to": "-2200-AKKAD_COLLAPSE",
+      "relation": "led_to",
+      "note": "The Akkadian Empire's maximum extent is followed by rapid collapse within a few decades"
+    },
+    {
+      "from": "-2029-003",
+      "to": "-2055-MIDDLE_KINGDOM",
+      "relation": "led_to",
+      "note": "The First Intermediate Period's regional conflicts eventually give way to the Middle Kingdom's reunification"
+    },
+    {
+      "from": "-2029-001",
+      "to": "-2029-002",
+      "relation": "contemporary_with",
+      "note": "The Akkadian Empire and Indus Valley Civilisation are operating simultaneously with possible trade connections"
+    }
+  ]
+}

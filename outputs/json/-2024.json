@@ -1,0 +1,97 @@
+{
+  "year": -2024,
+  "year_label": "2024 BCE",
+  "era_context": "The Old Kingdom of Egypt is in decline; the Sixth Dynasty (c. 2345\u20132181 BCE) is fragmenting into regional power centers. In Mesopotamia, the Akkadian Empire under Naram-Sin's successors faces internal instability and external pressure from Gutian incursions. The Indus Valley Civilization is in its mature phase (Harappan period, c. 2600\u20131900 BCE), with large urban centers at Mohenjo-daro and Harappa. In the Aegean, Early Bronze Age II cultures are developing; in China, the Xia Dynasty (traditional dates 2070\u20131600 BCE) is in its early phase according to some chronologies, though archaeological confirmation remains contested.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records; archaeological evidence sparse for this specific year)",
+    "Northern Europe (pre-literate; only archaeological inference possible)",
+    "Mesoamerica (no written records; archaeological dating imprecise for this period)",
+    "Southeast Asia (minimal contemporary documentation)"
+  ],
+  "events": [
+    {
+      "id": "-2024-001",
+      "title": "Decline of Akkadian central authority; Gutian invasions intensify",
+      "region": "Mesopotamia (Akkad, Sumer)",
+      "coordinates_approx": "32.5, 44.0",
+      "category": "political",
+      "description": "The Akkadian Empire, established by Sargon of Akkad c. 2334 BCE, experiences accelerating fragmentation. Naram-Sin's successors lose control over peripheral territories. Gutian peoples from the Zagros Mountains raid and settle in Mesopotamian lowlands, contributing to the empire's collapse. This period marks the transition from centralized Akkadian rule to a fragmented landscape of city-states and regional powers. The process spans several decades but is traditionally dated to the late 22nd century BCE.",
+      "key_figures": [
+        "Naram-Sin (Akkadian emperor, r. c. 2254\u20132218 BCE)",
+        "Shar-kali-sharri (Naram-Sin's successor, r. c. 2217\u20132193 BCE)"
+      ],
+      "sources": [
+        {
+          "name": "Sumerian King List",
+          "type": "later_compilation",
+          "contemporary": false
+        },
+        {
+          "name": "Akkadian royal inscriptions and administrative texts",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from Akkadian sites (Tell Brak, Nippur)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The Akkadian collapse is well-attested in cuneiform sources and archaeological stratigraphy, but precise year-by-year dating is uncertain. Chronologies vary by \u00b120\u201330 years depending on synchronization with Egyptian records.",
+      "cross_references": [
+        "Follows from broader Akkadian imperial overreach (c. 2254\u20132218 BCE)",
+        "Precedes the Ur III renaissance (c. 2112\u20132004 BCE)"
+      ]
+    },
+    {
+      "id": "-2024-002",
+      "title": "Indus Valley Civilization: mature urban phase",
+      "region": "Indus Valley (modern Pakistan and northwest India)",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization is at its peak during the Harappan period. Major cities like Mohenjo-daro and Harappa exhibit sophisticated urban planning, standardized weights and measures, and extensive trade networks extending to Mesopotamia and the Persian Gulf. Seals with undeciphered script are produced in large quantities. The civilization shows remarkable cultural uniformity across a vast area, suggesting centralized administration or shared cultural norms, though the nature of political organization remains unclear.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro, Harappa, and subsidiary sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian trade records mentioning 'Meluhha' (likely Indus Valley)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan mature phase is well-established archaeologically. Absolute dating relies on radiocarbon and stratigraphic correlation; c. 2600\u20131900 BCE is the consensus range, with 2024 BCE falling within this period.",
+      "cross_references": [
+        "Contemporary with Egyptian Old Kingdom decline",
+        "Precedes Indus Valley Civilization decline (c. 1900 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional Sumerian King List assigns implausibly long reigns to Akkadian rulers; modern scholarship discounts these and relies on synchronisms with Egyptian chronology and radiocarbon dating, which introduce their own uncertainties. The nature and extent of Gutian settlement is debated: some scholars view it as a gradual infiltration rather than a sudden invasion. The 'Akkadian collapse' narrative may overstate the speed and totality of political change; some regional continuity likely persisted.",
+  "historiographic_note": "Documentation for this year is heavily dependent on cuneiform sources from Mesopotamia and archaeology. Egyptian records are sparse for this period of Old Kingdom decline. The Indus Valley Civilization leaves no deciphered written records, limiting understanding of political events. Chronological precision is \u00b120\u201330 years at best. Bias toward Mesopotamian and Egyptian sources means events in other regions are underrepresented or invisible.",
+  "graph_edges": [
+    {
+      "from": "-2024-001",
+      "to": "-2112-001",
+      "relation": "led_to",
+      "note": "Akkadian collapse creates power vacuum; Ur III dynasty eventually consolidates control"
+    },
+    {
+      "from": "-2024-002",
+      "to": "-1900-001",
+      "relation": "part_of",
+      "note": "Harappan mature phase continues until civilization's decline c. 1900 BCE"
+    }
+  ]
+}

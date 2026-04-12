@@ -1,0 +1,91 @@
+{
+  "year": -2021,
+  "year_label": "2021 BCE",
+  "era_context": "Mesopotamia is in the Gutian period; Akkadian political structures have collapsed. Egypt's Old Kingdom has ended; the First Intermediate Period (c. 2181\u20132055 BCE) is underway, with Egypt fragmented into competing regional powers. The Indus Valley Civilization is in its mature phase. In the Aegean, Early Bronze Age II continues. Chinese chronology for this period remains unverified.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia"
+  ],
+  "events": [
+    {
+      "id": "-2021-001",
+      "title": "Egypt: First Intermediate Period fragmentation",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The First Intermediate Period (c. 2181\u20132055 BCE) is well underway. Egypt is divided into competing regional powers, with the Seventh and Eighth Dynasties ruling from Memphis with limited authority, while powerful nomarchs control Upper Egypt. The Ninth and Tenth Dynasties (Heracleopolitan period) emerge as a rival power center in Lower Egypt. This period is characterized by political fragmentation, reduced monumental building, and economic strain. However, it is also a period of cultural innovation and the development of new literary forms (e.g., the Coffin Texts).",
+      "key_figures": [
+        "Nomarchs of Upper Egypt (names vary by region; Ankhtifi of Hierakonpolis is a notable figure from this era)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists (Turin Papyrus, Abydos list)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Autobiographical inscriptions of nomarchs",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Coffin Texts and other religious literature",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from provincial sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The First Intermediate Period is well-documented in Egyptian sources. However, precise dating of individual reigns and events is uncertain; chronologies vary by \u00b120\u201330 years.",
+      "cross_references": [
+        "Follows Old Kingdom decline (c. 2181 BCE)",
+        "Precedes Middle Kingdom reunification (c. 2055 BCE)"
+      ]
+    },
+    {
+      "id": "-2021-002",
+      "title": "Indus Valley Civilization: continued urban development",
+      "region": "Indus Valley",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilization continues its mature phase with no apparent decline. Urban centers like Mohenjo-daro and Harappa remain fully occupied and economically active. Standardized weights, measures, and seals continue to be produced. The civilization shows remarkable cultural and economic stability, with no evidence of major disruption or decline at this time. This stability contrasts sharply with the political fragmentation occurring in Egypt and Mesopotamia.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Indus Valley sites",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Indus seals and inscriptions",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "The Harappan mature phase is archaeologically well-attested. Absolute dating is less precise but falls within c. 2600\u20131900 BCE.",
+      "cross_references": [
+        "Part of Harappan mature phase",
+        "Precedes Indus Valley decline (c. 1900 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The First Intermediate Period was long viewed as a 'dark age' of decline and chaos, but modern scholarship recognizes it as a period of cultural innovation and regional development. The political fragmentation may not have been as severe or uniform as traditional narratives suggest; some continuity with Old Kingdom institutions likely persisted. The Indus Valley Civilization's apparent stability during this period contrasts with the instability in Egypt and Mesopotamia, suggesting different historical trajectories.",
+  "historiographic_note": "Egyptian sources for the First Intermediate Period are abundant but often propagandistic (nomarchs exaggerating their power; later Middle Kingdom sources portraying the period negatively). Mesopotamian sources are sparse. The Indus Valley leaves no deciphered written records. Chronological precision is \u00b120\u201330 years. The narrative is heavily weighted toward Egypt; other regions are underrepresented.",
+  "graph_edges": [
+    {
+      "from": "-2021-001",
+      "to": "-2055-001",
+      "relation": "led_to",
+      "note": "First Intermediate Period fragmentation eventually leads to Middle Kingdom reunification"
+    }
+  ]
+}

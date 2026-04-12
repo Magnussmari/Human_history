@@ -1,0 +1,80 @@
+{
+  "year": -2028,
+  "year_label": "2028 BCE",
+  "era_context": "The Akkadian Empire under Naram-Sin is approaching the height of its territorial expansion. Egypt remains fragmented in the First Intermediate Period. The Indus Valley Civilisation is in its mature phase. In Anatolia, the Old Hittite Kingdom has not yet emerged; various city-states dominate. The Eastern Mediterranean and Near East are characterised by interconnected Bronze Age societies with active trade networks.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "East Asia"
+  ],
+  "events": [
+    {
+      "id": "-2028-001",
+      "title": "Akkadian Military Campaigns Against the Lullubi and Zagros Peoples",
+      "region": "Mesopotamia and Zagros Mountains",
+      "coordinates_approx": "34.0, 46.0",
+      "category": "military",
+      "description": "Naram-Sin conducts military campaigns against the Lullubi and other mountain peoples of the Zagros region. These campaigns are documented in inscriptions and on the famous Victory Stele of Naram-Sin, which depicts the king in a triumphant pose with enemies beneath his feet. The campaigns aim to secure trade routes and access to mountain resources, including metals and timber. The stele represents a significant artistic and ideological statement of Akkadian power and divine kingship.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Victory Stele of Naram-Sin",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Royal Inscriptions of Naram-Sin",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's Zagros campaigns are well-attested in inscriptions and artistic evidence. Precise year-by-year dating is not available.",
+      "cross_references": [
+        "-2025-001"
+      ]
+    },
+    {
+      "id": "-2028-002",
+      "title": "Egyptian Nomarchs Consolidate Regional Power",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "During the First Intermediate Period, regional governors (nomarchs) in Upper and Lower Egypt consolidate their power and establish semi-independent principalities. Tomb inscriptions from this period show nomarchs claiming titles and achievements previously reserved for the pharaoh. This decentralisation of power reflects the breakdown of Old Kingdom centralised authority and the rise of local elites. Some nomarchs begin to accumulate significant wealth and military resources.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Nomarch tomb inscriptions and autobiographies",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of regional administrative centres",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The First Intermediate Period is dated to approximately 2181\u20132055 BCE. The consolidation of nomarch power is a gradual process occurring throughout this period.",
+      "cross_references": [
+        "-2026-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The Victory Stele of Naram-Sin is sometimes dated to slightly different points within his reign depending on the chronological system used. The extent of Akkadian control in the Zagros is debated; some scholars argue for temporary military victories rather than permanent territorial control. The causes of the First Intermediate Period in Egypt are disputed, with some scholars emphasising climate change (Nile flood failures) and others emphasising internal administrative breakdown.",
+  "historiographic_note": "This period is documented through Akkadian royal inscriptions and Egyptian funerary texts. Both sources are heavily shaped by the interests of the ruling elites and may not reflect the full complexity of political and social reality. The Akkadian sources are propagandistic in nature, emphasising military victories and divine favour. Egyptian sources from this period are fragmentary and primarily come from provincial tombs rather than centralised archives. The historical record is heavily weighted toward elite political and military narratives.",
+  "graph_edges": [
+    {
+      "from": "-2028-001",
+      "to": "-2200-AKKAD_DECLINE",
+      "relation": "part_of",
+      "note": "Naram-Sin's military campaigns represent the height of Akkadian expansion before the empire's collapse"
+    }
+  ]
+}

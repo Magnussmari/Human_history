@@ -1,0 +1,97 @@
+{
+  "year": -2023,
+  "year_label": "2023 BCE",
+  "era_context": "Continuation of the late Akkadian period in Mesopotamia, with ongoing Gutian pressure and regional fragmentation. Egypt's Old Kingdom is in its final phase; the Sixth Dynasty is weakening. The Indus Valley Civilization remains in its mature, urban phase. In the Aegean, Early Bronze Age II continues. Chinese chronology for this period is highly contested; some traditions place the Xia Dynasty in this era, but archaeological confirmation is lacking.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Southeast Asia",
+    "Central Asia (limited written records)"
+  ],
+  "events": [
+    {
+      "id": "-2023-001",
+      "title": "Egyptian Old Kingdom: final Sixth Dynasty decline",
+      "region": "Egypt",
+      "coordinates_approx": "26.0, 31.0",
+      "category": "political",
+      "description": "The Sixth Dynasty of Egypt (c. 2345\u20132181 BCE) continues its decline. Royal authority weakens as provincial governors (nomarchs) accumulate power and resources. The pyramid-building program, which had defined earlier Old Kingdom pharaohs, becomes less ambitious. Economic strain from maintaining the state apparatus and military campaigns in Nubia and the Sinai contributes to centralization failure. This period foreshadows the First Intermediate Period (c. 2181\u20132055 BCE), when Egypt fragments into competing regional powers.",
+      "key_figures": [
+        "Pepi II (Sixth Dynasty pharaoh, r. c. 2278\u20132184 BCE, traditional dates)"
+      ],
+      "sources": [
+        {
+          "name": "Egyptian king lists (Turin Papyrus, Abydos list)",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Autobiographical inscriptions of nomarchs (e.g., Ankhtifi, Sirenput)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence from pyramid complexes and provincial sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The decline of the Sixth Dynasty is well-documented in inscriptions and archaeological evidence. However, precise dating of individual reigns is uncertain; Pepi II's reign length is disputed (some sources claim 64 years, others 20\u201330 years). Absolute dating relies on astronomical calculations and synchronization with other chronologies.",
+      "cross_references": [
+        "Precedes First Intermediate Period (c. 2181 BCE)",
+        "Contemporary with Akkadian collapse in Mesopotamia"
+      ]
+    },
+    {
+      "id": "-2023-002",
+      "title": "Indus Valley trade networks: continued expansion",
+      "region": "Indus Valley and Persian Gulf",
+      "coordinates_approx": "27.0, 68.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains and expands its maritime and overland trade networks. Seals and artifacts of Indus origin appear in Mesopotamian sites, and Mesopotamian goods are found in Indus cities. This trade is facilitated by merchant communities and possibly state-sponsored expeditions. The exchange includes raw materials (lapis lazuli, carnelian, timber) and finished goods. This period represents the height of Indus Valley economic integration with the broader ancient world.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Indus seals found in Mesopotamian contexts (Ur, Lagash, Uruk)",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian texts mentioning 'Meluhha' merchants",
+          "type": "primary_text",
+          "contemporary": true
+        },
+        {
+          "name": "Archaeological evidence of port sites (Lothal, Dholavira)",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Trade between the Indus Valley and Mesopotamia is archaeologically well-attested. The timing of peak trade activity is less precisely dated but falls within the Harappan mature phase (c. 2600\u20131900 BCE).",
+      "cross_references": [
+        "Part of broader Harappan economic system",
+        "Precedes disruption of trade networks (c. 1900 BCE)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The traditional Egyptian chronology places Pepi II's reign at 64 years, which modern scholars consider implausible and likely a scribal error or conflation. Recent scholarship suggests a reign of 20\u201330 years. The extent of nomarch independence in the late Sixth Dynasty is debated; some inscriptions may exaggerate local authority for propaganda purposes. The 'collapse' narrative for the Old Kingdom may overstate the speed of change; continuity in some regions and institutions likely persisted.",
+  "historiographic_note": "Egyptian sources are abundant for this period but are often propagandistic or retrospective. Mesopotamian sources are sparse for this specific year. The Indus Valley leaves no deciphered written records. Chronological precision is \u00b120\u201330 years. The narrative is heavily weighted toward Egypt and Mesopotamia; events in other regions are largely invisible.",
+  "graph_edges": [
+    {
+      "from": "-2023-001",
+      "to": "-2181-001",
+      "relation": "led_to",
+      "note": "Sixth Dynasty decline culminates in First Intermediate Period fragmentation"
+    },
+    {
+      "from": "-2023-002",
+      "to": "-1900-001",
+      "relation": "part_of",
+      "note": "Trade networks continue until Indus Valley civilization's decline"
+    }
+  ]
+}

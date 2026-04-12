@@ -1,0 +1,106 @@
+{
+  "year": -2006,
+  "year_label": "2006 BCE",
+  "era_context": "Mesopotamia is in the late Ur III period under Ibbi-Sin, facing mounting external and internal pressures. Egypt remains fragmented in the First Intermediate Period. The Indus Valley Civilization continues at its mature phase. In China, the traditional Xia dynasty is in its early-to-middle period (unconfirmed). The Bronze Age is well-established across Eurasia; long-distance trade networks connect distant regions.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Mesoamerica",
+    "Northern Europe",
+    "Southeast Asia",
+    "Oceania"
+  ],
+  "events": [
+    {
+      "id": "-2006-001",
+      "title": "Ur III administrative system under strain; provincial fragmentation accelerates",
+      "region": "Mesopotamia (Sumer)",
+      "coordinates_approx": "32.0\u00b0N, 46.1\u00b0E",
+      "category": "political",
+      "description": "Cuneiform administrative texts from Ur and other Mesopotamian cities show increasing evidence of provincial governors (ensi) acting with greater autonomy. The central authority of Ibbi-Sin is weakening as Elamite pressure from the east intensifies and Amorite groups infiltrate from the west. Tax collection and labor mobilization records show declining compliance from outlying regions. The bureaucratic apparatus that had unified Mesopotamia under the Ur III state is fragmenting, presaging the dynasty's collapse within a few years.",
+      "key_figures": [
+        "Ibbi-Sin (King of Ur III)"
+      ],
+      "sources": [
+        {
+          "name": "Ur III cuneiform administrative texts (tablets from Ur, Nippur, Lagash, and other cities)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The administrative texts are contemporary and abundant, but absolute dating to -2006 specifically relies on conventional Mesopotamian chronology (\u00b150 years). The trend of fragmentation is clear; the precise year is approximate.",
+      "cross_references": [
+        "Part of -2005-001 (Ur III crisis)"
+      ]
+    },
+    {
+      "id": "-2006-002",
+      "title": "Harappan trade networks at peak activity",
+      "region": "Indus Valley and beyond (Mesopotamia, Persian Gulf, Central Asia)",
+      "coordinates_approx": "27.0\u00b0N, 71.5\u00b0E",
+      "category": "economic",
+      "description": "The Indus Valley Civilization maintains extensive trade connections with Mesopotamia (attested in cuneiform texts mentioning 'Meluhha'), the Persian Gulf, and Central Asia. Harappan seals, weights, and standardized measures facilitate commerce. Lapis lazuli from Afghanistan, carnelian from Gujarat, and other luxury goods flow through Harappan ports and trading posts. This economic integration suggests a sophisticated merchant class and administrative oversight of trade.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Harappan seals and weights from archaeological contexts",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Mesopotamian cuneiform texts mentioning Meluhha trade",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "confirmed",
+      "certainty_note": "Trade networks are well-attested archaeologically and in Mesopotamian texts. The mature Harappan phase (c. 2600\u20131900 BCE) is the period of peak trade; -2006 falls within this period with high confidence.",
+      "cross_references": [
+        "Part of -2005-002 (Harappan civilization at peak)"
+      ]
+    },
+    {
+      "id": "-2006-003",
+      "title": "Egyptian First Intermediate Period: regional fragmentation continues",
+      "region": "Egypt (Upper and Lower Egypt)",
+      "coordinates_approx": "26.0\u00b0N, 31.0\u00b0E",
+      "category": "political",
+      "description": "Egypt remains divided among regional governors (nomarchs) and local rulers. The collapse of Old Kingdom central authority (c. 2181 BCE) has left Egypt without a unified pharaonic state. Regional powers in Upper Egypt (Thebes, Herakleopolis) and Lower Egypt compete for influence. This period is marked by reduced monumental construction, localized warfare, and economic contraction compared to the Old Kingdom. The First Intermediate Period (c. 2181\u20132055 BCE) is characterized by cultural and political fragmentation, though local artistic and literary traditions flourish.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Egyptian king lists and administrative records",
+          "type": "primary_text",
+          "contemporary": false
+        },
+        {
+          "name": "Archaeological evidence from Egyptian sites",
+          "type": "archaeological",
+          "contemporary": false
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The First Intermediate Period is well-attested archaeologically and in later Egyptian records. Absolute dating to -2006 relies on conventional Egyptian chronology (\u00b150\u2013100 years). The general condition of fragmentation is certain; the specific year is approximate.",
+      "cross_references": [
+        "Contemporary with -2005-001 (Ur III crisis) and -2005-002 (Harappan peak)"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "No significant disconfirming evidence identified for events listed. However, the dating of the Ur III collapse and the First Intermediate Period in Egypt is subject to ongoing scholarly debate regarding absolute chronology. Some scholars propose alternative chronologies that would shift these events by 50\u2013100 years.",
+  "historiographic_note": "Documentation for -2006 is sparse and regionally uneven. Mesopotamian cuneiform sources are abundant but administrative and court-centric. Egyptian sources are later compilations and archaeological evidence. The Indus Valley is known only through archaeology and undeciphered inscriptions. China is known only through traditional historiography. Large regions of the world (Africa, the Americas, northern Europe, Southeast Asia) are absent from the historical record, reflecting both genuine documentation gaps and the bias of surviving sources toward literate, urban civilizations in Eurasia and North Africa.",
+  "graph_edges": [
+    {
+      "from": "-2006-001",
+      "to": "-2005-001",
+      "relation": "contemporary_with",
+      "note": "Ur III fragmentation is ongoing"
+    },
+    {
+      "from": "-2006-002",
+      "to": "-2005-002",
+      "relation": "contemporary_with",
+      "note": "Harappan trade networks continue at peak"
+    }
+  ]
+}

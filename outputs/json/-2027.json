@@ -1,0 +1,80 @@
+{
+  "year": -2027,
+  "year_label": "2027 BCE",
+  "era_context": "The Akkadian Empire under Naram-Sin is at its territorial zenith. Egypt is in the First Intermediate Period with fragmented regional power. The Indus Valley Civilisation continues its mature phase with extensive trade networks. In the Levant and Anatolia, various city-states and kingdoms interact through trade and occasional conflict. The Eastern Mediterranean Bronze Age is characterised by interconnected trade networks and cultural exchange.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa",
+    "Northern Europe",
+    "Mesoamerica",
+    "Oceania",
+    "Central Asia",
+    "East Asia (beyond traditional Chinese sources)"
+  ],
+  "events": [
+    {
+      "id": "-2027-001",
+      "title": "Akkadian Trade and Military Dominance in the Levant",
+      "region": "Levant and Mesopotamia",
+      "coordinates_approx": "34.0, 40.0",
+      "category": "economic",
+      "description": "Under Naram-Sin, Akkadian merchants and military forces extend control over trade routes in the Levant, including access to cedar from the mountains of what is now Lebanon. Akkadian seals and administrative texts appear in Levantine sites, indicating direct Akkadian presence or strong commercial influence. This expansion integrates the Levant into the Akkadian economic sphere and facilitates the movement of goods, including timber, metals, and luxury items.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Akkadian seals and administrative texts found in Levantine sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Royal Inscriptions of Naram-Sin",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's Levantine campaigns and trade expansion are attested in inscriptions and archaeological evidence, but precise year-by-year dating is not available.",
+      "cross_references": [
+        "-2025-001"
+      ]
+    },
+    {
+      "id": "-2027-002",
+      "title": "Indus Valley Trade Networks at Peak Extent",
+      "region": "Indus Valley and beyond",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "economic",
+      "description": "The Indus Valley Civilisation's trade networks extend from Mesopotamia to the Persian Gulf and into Central Asia. Harappan seals and artefacts appear in Mesopotamian sites, and Mesopotamian goods are found in the Indus Valley. This trade is facilitated by maritime routes and overland caravan routes. The standardisation of weights, measures, and seals suggests a sophisticated commercial system, though the political organisation behind this trade remains unclear.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Harappan seals and artefacts found in Mesopotamian sites",
+          "type": "archaeological",
+          "contemporary": true
+        },
+        {
+          "name": "Mesopotamian texts mentioning 'Meluhha' (likely the Indus Valley)",
+          "type": "primary_text",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "The existence of Indus-Mesopotamian trade is well-attested archaeologically and textually. Precise dating of individual years is not possible.",
+      "cross_references": [
+        "-2025-002"
+      ]
+    }
+  ],
+  "disconfirming_evidence": "The nature and extent of Akkadian political control in the Levant is debated. Some scholars argue for direct military conquest and administration; others suggest more limited commercial influence. The identity of 'Meluhha' in Mesopotamian texts is traditionally identified with the Indus Valley, but some scholars have proposed alternative identifications. The mechanisms of Indus-Mesopotamian trade and whether it involved direct contact or intermediaries remain unclear.",
+  "historiographic_note": "This period is documented through Akkadian inscriptions (heavily propagandistic), archaeological evidence of trade goods, and later Mesopotamian texts. The Indus Valley's undeciphered script limits understanding of the political and social organisation behind the trade networks. Egyptian sources from this period are fragmentary. The historical record is heavily weighted toward Mesopotamia and the Indus Valley; other regions are largely absent from written sources.",
+  "graph_edges": [
+    {
+      "from": "-2027-001",
+      "to": "-2027-002",
+      "relation": "contemporary_with",
+      "note": "Akkadian and Indus Valley trade networks are operating simultaneously and may be connected"
+    }
+  ]
+}

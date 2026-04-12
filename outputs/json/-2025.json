@@ -1,0 +1,80 @@
+{
+  "year": -2025,
+  "year_label": "2025 BCE",
+  "era_context": "The Old Kingdom of Egypt is in decline; the First Intermediate Period is beginning or underway depending on chronological system. In Mesopotamia, the Akkad Empire under Naram-Sin is at its height, controlling vast territories from the Persian Gulf to the Mediterranean. The Indus Valley Civilisation is in its mature phase (Harappan period). In China, the Xia Dynasty is traditionally dated to this era, though archaeological confirmation remains contested. Bronze Age societies dominate the Eastern Mediterranean and Near East.",
+  "documentation_level": "sparse",
+  "geographic_coverage_gaps": [
+    "Sub-Saharan Africa (limited written records)",
+    "Northern Europe (pre-literate societies)",
+    "Mesoamerica (limited chronological precision for this period)",
+    "Oceania (oral traditions not yet recorded)"
+  ],
+  "events": [
+    {
+      "id": "-2025-001",
+      "title": "Naram-Sin's Military Campaigns and Akkadian Expansion",
+      "region": "Mesopotamia (Akkad Empire)",
+      "coordinates_approx": "32.5, 44.5",
+      "category": "military",
+      "description": "Naram-Sin, grandson of Sargon of Akkad, continues aggressive military expansion, consolidating Akkadian control over Mesopotamia and surrounding regions. He campaigns against the Lullubi in the Zagros Mountains and claims victories over Elam. These campaigns are documented in inscriptions and victory stelae. Naram-Sin declares himself a god, marking a significant shift in Mesopotamian political theology and royal ideology.",
+      "key_figures": [
+        "Naram-Sin (King of Akkad)"
+      ],
+      "sources": [
+        {
+          "name": "Naram-Sin Victory Stele (Susa)",
+          "type": "epigraphic",
+          "contemporary": true
+        },
+        {
+          "name": "Royal Inscriptions of Naram-Sin",
+          "type": "epigraphic",
+          "contemporary": true
+        }
+      ],
+      "certainty": "probable",
+      "certainty_note": "Naram-Sin's reign is dated to approximately 2254\u20132218 BCE in the Middle Chronology; this year falls within his reign. Exact year-by-year events are not precisely datable from surviving sources.",
+      "cross_references": []
+    },
+    {
+      "id": "-2025-002",
+      "title": "Harappan Civilisation at Peak Urban Development",
+      "region": "Indus Valley (modern Pakistan and India)",
+      "coordinates_approx": "27.0, 71.0",
+      "category": "cultural",
+      "description": "The Indus Valley Civilisation (Harappan phase) is at or near its peak of urban development and standardisation. Major cities like Mohenjo-daro and Harappa show evidence of sophisticated urban planning, standardised weights and measures, and extensive trade networks. Seals with undeciphered script are produced in large quantities. The civilisation shows remarkable uniformity across a vast geographical area without obvious centralised political control.",
+      "key_figures": [],
+      "sources": [
+        {
+          "name": "Archaeological excavations at Mohenjo-daro and Harappa",
+          "type": "archaeological",
+          "contemporary": false
+        },
+        {
+          "name": "Harappan seals and artefacts",
+          "type": "archaeological",
+          "contemporary": true
+        }
+      ],
+      "certainty": "approximate",
+      "certainty_note": "The Harappan mature phase is dated to approximately 2600\u20131900 BCE; this year falls within that range. Precise year-by-year chronology is not available from archaeological evidence alone.",
+      "cross_references": []
+    }
+  ],
+  "disconfirming_evidence": "The traditional dating of the Xia Dynasty to this period (or earlier) remains unconfirmed by archaeological evidence. No contemporary written records from the Xia have been definitively identified, and the earliest confirmed Chinese dynasty is the Shang (c. 1600 BCE). The Akkadian Empire's exact territorial extent and the precise chronology of Naram-Sin's reign are debated; some scholars place his reign slightly earlier or later depending on the chronological system used (Short vs. Middle Chronology).",
+  "historiographic_note": "This period is documented primarily through Mesopotamian inscriptions and Indus Valley archaeology. Egyptian records from this era are fragmentary due to the decline of Old Kingdom centralised record-keeping. Mesopotamian sources are heavily weighted toward royal propaganda and military narratives. The Indus Valley Civilisation's undeciphered script limits understanding of political, religious, and social structures. Chinese history for this period relies on later textual traditions (Shiji) rather than contemporary evidence. Sub-Saharan Africa, Northern Europe, and the Americas are essentially absent from the written record.",
+  "graph_edges": [
+    {
+      "from": "-2025-001",
+      "to": "-2200-AKKAD_DECLINE",
+      "relation": "part_of",
+      "note": "Naram-Sin's reign represents the height of Akkadian power before the empire's collapse"
+    },
+    {
+      "from": "-2025-002",
+      "to": "-1900-HARAPPAN_DECLINE",
+      "relation": "led_to",
+      "note": "The mature Harappan phase eventually transitions to the Late Harappan period"
+    }
+  ]
+}
