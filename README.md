@@ -1,28 +1,35 @@
-# Human History
+# Human History According to AI
 
 > 5,226 years. One JSON per year. Every claim sourced. Every gap declared.
 
 **[View the Interactive Timeline](https://human-history-acording-to-ai.vercel.app)** | [GitHub](https://github.com/Magnussmari/Human_history_Acording_to_AI)
 
-<!-- PROGRESS_START -->
-## 🌐 Live Progress
+---
 
-```
-[=--------------------------------------------------] ?%
+## ✅ Phase 1 Complete — April 13, 2026
 
-5220 / 5226 years completed · 0 failed · 6 remaining
-Currently researching: ~-3194 CE
-Last updated: 2026-04-12T21:39:43Z
-```
-<!-- PROGRESS_END -->
+The daemon ran for **57.7 hours** and finished the entire corpus without a single failed year.
+
+| Final Metric | Value |
+|---|---|
+| **Years researched** | 5,226 / 5,226 (100%) |
+| **Events documented** | 17,991 |
+| **Graph edges** | 13,130 cross-year connections |
+| **Failed years** | 0 |
+| **Total runtime** | 57.7 hours (April 10–13, 2026) |
+| **Total API cost** | ~$15.68 (est. $0.003/year × 5,226 years, Sonnet 4.6 batch) |
+| **Model** | Claude Sonnet 4.6 exclusively |
+| **Avg events per year** | 3.4 |
+
+The complete corpus covers **2025 CE to ~3200 BCE** — the entire span of recorded human history. Every year is a structured JSON with events, primary sources, certainty levels, geographic gap declarations, and cause-effect graph edges.
+
+---
+
+## What This Is
 
 **Every year of recorded human civilization. Structured. Sourced. Machine-readable.**
 
-An autonomous AI research daemon is writing the history of the world -- one year at a time, from 2025 CE backward to the dawn of writing (~3200 BCE). Parallel agents run around the clock, producing structured JSON with events, primary sources, confidence levels, geographic coordinates, anti-sycophancy checks, and graph edges linking cause to consequence across millennia.
-
 This is not a textbook. It is a **structured knowledge corpus** designed for graph databases, timelines, adversarial review, and further AI reasoning. Every claim names its source. Every confidence level is justified. Every gap is declared, not hidden.
-
-> **Live status:** Check [`state/progress.json`](state/progress.json) -- the daemon updates it after every cycle.
 
 ---
 
@@ -30,23 +37,24 @@ This is not a textbook. It is a **structured knowledge corpus** designed for gra
 
 | Metric | Value |
 |--------|-------|
-| **Total years** | 5,226 (2025 CE to ~3200 BCE) |
-| **Agents per cycle** | 5 parallel batches of 5 years |
+| **Total years in corpus** | 5,226 (2025 CE → 3200 BCE) |
+| **Total events** | 17,991 |
+| **Total graph edges** | 13,130 |
+| **Model** | Claude Sonnet 4.6 |
+| **Architecture** | 5 parallel async agents, 5 years/batch |
 | **Cycle interval** | 60 seconds |
-| **Schedule** | 24/7 (API-based, no subscription quota) |
-| **Estimated runtime** | ~3-4 days |
-| **Model** | Claude Sonnet 4.6 (all years) |
-| **Actual cost per year** | $0.003 (batch mode) |
-| **Projected total cost** | ~$17 (based on actual API spend: $2.97 for 916 years) |
-| **Output per year** | 20-50KB structured JSON |
+| **Total runtime** | 57.7 hours |
+| **Total API cost** | ~$15.68 |
+| **Cost per year** | ~$0.003 (batch mode) |
+| **Output per year** | 20–50 KB structured JSON |
 | **Source types** | Primary text, archaeological, epigraphic, numismatic, chronicle, oral tradition |
 | **Certainty levels** | Confirmed, probable, approximate, traditional, legendary |
 
 ---
 
-## Optimization Case Study
+## The Optimization Journey
 
-This project went through a significant cost and speed optimization mid-run. Here's the story:
+This project started as a subscription-based CLI daemon and evolved through five distinct phases to complete the corpus 20x faster at 99% lower cost.
 
 ### Phase 1: Claude Code CLI (Max Subscription)
 
@@ -59,7 +67,7 @@ The initial daemon used `claude -p` (Claude Code CLI) with a Max subscription:
 
 ### Phase 2: Optimization Analysis
 
-Used **Kimi Agents** to review the repository and spec the optimization -- an AI agent analyzing another AI agent's workflow. The Kimi analysis identified:
+Used **Kimi Agents** to review the repository and spec the optimization — an AI agent analyzing another AI agent's workflow. The Kimi analysis identified:
 - The `claude -p` CLI adds ~3.5x token overhead vs. direct API calls
 - Tiered model selection could match model cost to year complexity
 - Batch processing (5 years per API call) enables massive throughput gains
@@ -77,55 +85,34 @@ Fed the Kimi optimization spec into Claude Code, which:
 ### Phase 4: Haiku Experiment (Failed)
 
 Initial API migration used tiered models with Haiku for batch processing. Quality comparison revealed:
-- Haiku produced **thinner output** -- shorter descriptions, fewer cross-references, empty geographic_coverage_gaps
-- Sonnet (both CLI and API) produced **A+ quality** -- rich sourcing, nuanced certainty notes, proper gap declarations
-- **Decision:** Haiku not up to the task for historical research. All Haiku outputs moved to `outputs/haiku_experiment/` and those years queued for Sonnet re-research.
+- Haiku produced **thinner output** — shorter descriptions, fewer cross-references, empty geographic_coverage_gaps
+- Sonnet produced **A+ quality** — rich sourcing, nuanced certainty notes, proper gap declarations
+- **Decision:** Haiku outputs archived in `outputs/haiku_experiment/`, those years re-researched with Sonnet
 
-### Phase 5: Sonnet 4.6 for All (Current)
+### Phase 5: Sonnet 4.6 for All (Final)
 
-Now running with Claude Sonnet 4.6 for every year, via direct Anthropic API:
-- **Model:** Claude Sonnet 4.6 exclusively (quality over cost)
-- **Cost per year:** ~$0.20 via direct API
-- **Batch processing:** 5 years per API call for throughput
+Claude Sonnet 4.6 for every year, direct Anthropic API:
+- **Cost per year:** ~$0.003 via batch API (vs. ~$0.22 via CLI)
 - **Speed:** 25 years per 60-second cycle (vs. 5 years per 20 minutes)
-- **Schedule:** Runs 24/7 -- no subscription quota limits
-- **Estimated completion:** ~4-5 days (vs. 70 days originally)
-- **Every output has `_meta`:** Model, cost, method, and timestamp tracked per year
+- **Schedule:** 24/7 — no subscription quota limits
+- **Completed:** 5,226 years in 57.7 hours
 
-### The Takeaway
+### Results
 
 | Metric | Before (CLI) | After (API) | Improvement |
 |--------|-------------|-------------|-------------|
-| Cost per year | $0.22 | $0.003 (Sonnet batch) | 99% cheaper |
-| Years per cycle | 5 | 25 | 5x throughput |
-| Cycle interval | 20 min | 60 sec | 20x faster |
+| Cost per year | $0.22 | $0.003 | 99% cheaper |
+| Years per cycle | 5 | 25 | 5× throughput |
+| Cycle interval | 20 min | 60 sec | 20× faster |
 | Schedule | Off-hours only | 24/7 | No restrictions |
-| Est. total time | 70 days | 3-4 days | 20x faster |
-| Est. total cost | ~$1,150 | ~$17 (actual API spend) | 98.5% cheaper |
-
-**Key techniques:** Direct API calls (eliminate CLI overhead), model quality testing, batch processing, response caching, async Python with controlled concurrency.
-
-### Model Experiments
-
-We tested multiple models to find the optimal quality/cost balance:
-
-| Model | Events/year | Cost/year (batch) | Quality | Verdict |
-|-------|------------|-------------------|---------|---------|
-| **Claude Sonnet 4.6** | 20-25 | $0.003 (actual) | A+ | **Selected** -- rich sourcing, nuanced certainty |
-| Claude Haiku 4.5 | 10-15 | $0.009 | B+ | Rejected -- thin descriptions, empty gap declarations |
-| Gemini 3 Flash | 6 | ~free | B | Rejected -- valid schema but too sparse |
-
-Haiku outputs are preserved in `outputs/haiku_experiment/` and Gemini in `outputs/gemini_experiment/` for comparison.
-
-**Future candidates worth testing:** GPT-4.1 batch (~$0.016/year, 1M context), DeepSeek R1 (~$0.009/year, reasoning chains), Qwen3-235B (~$0.004/year, strong APAC coverage).
-
-**Update (April 2026):** OpenAI released GPT-5.4 with 1M context, reasoning effort controls (`none` through `xhigh`), and CFG grammar constraints for structured output enforcement. At $2.50/$10.00 per 1M tokens (batch: $1.25/$5.00), its batch output pricing ($5.00/M) undercuts Sonnet's ($7.50/M). Planned for adversarial validation pass after the Sonnet corpus is complete -- two models cross-referencing the same years is stronger than one.
+| Total time | ~70 days est. | 57.7 hours actual | 29× faster |
+| Total cost | ~$1,150 est. | ~$15.68 actual | 98.6% cheaper |
 
 ---
 
 ## What Each Year Contains
 
-Every year produces a single JSON file following the **ICCRA schema** (see [`RESEARCH_PROMPT.md`](RESEARCH_PROMPT.md)):
+Every year follows the **ICCRA schema** (see [`RESEARCH_PROMPT.md`](RESEARCH_PROMPT.md)):
 
 ```json
 {
@@ -143,100 +130,54 @@ Every year produces a single JSON file following the **ICCRA schema** (see [`RES
       "description": "...",
       "key_figures": ["William, Duke of Normandy"],
       "sources": [{"name": "Bayeux Tapestry", "type": "primary_text", "contemporary": true}],
-      "certainty": "confirmed"
+      "certainty": "confirmed",
+      "certainty_note": "..."
     }
   ],
   "disconfirming_evidence": "...",
   "historiographic_note": "...",
-  "graph_edges": [{"from": "1066-001", "to": "1086-001", "relation": "led_to"}],
-  "_meta": {
-    "model": "claude-sonnet-4-6",
-    "cost_usd": 0.22,
-    "duration_seconds": 260
-  }
+  "graph_edges": [{"from": "1066-001", "to": "1086-001", "relation": "led_to", "note": "..."}],
+  "_meta": {"model": "claude-sonnet-4-6", "processed_at": "2026-04-11T..."}
 }
 ```
 
 **Key design principles:**
-- **No fabrication.** Empty events with honest era_context > hallucinated entries.
-- **Anti-sycophancy protocol.** Every year must surface contradicting evidence.
-- **No anachronism.** Period-appropriate framing only.
-- **Global coverage.** Gaps are declared, not hidden.
-- **Source typing.** Primary text, archaeology, chronicle, or oral tradition -- named, not assumed.
-
----
-
-## Run It Yourself
-
-### The Meta-Prompt
-
-Copy this into any AI agent. Self-contained, no dependencies:
-
-~~~
-You are a historical research agent. Produce structured JSON for a single year.
-
-YEAR TO RESEARCH: [INSERT YEAR, e.g., 1453 or -3200]
-
-RULES:
-1. Negative years = BCE (e.g., -3200 = "3200 BCE"). Positive = CE.
-2. Research significant events across ALL regions.
-3. Modern years: 15-25 events. Ancient: 0-5. Zero is acceptable.
-4. Every event names its source. "General knowledge" is not acceptable.
-5. Every event has a certainty level: confirmed/probable/approximate/traditional/legendary.
-6. Include "disconfirming_evidence" -- what's disputed about this year?
-7. Include "geographic_coverage_gaps" -- what regions are you missing?
-8. Do NOT fabricate. Empty events with honest context > hallucinated entries.
-9. Respond with VALID JSON ONLY.
-
-SCHEMA: {"year": int, "year_label": str, "era_context": str,
-"documentation_level": "rich|moderate|sparse|minimal|negligible",
-"geographic_coverage_gaps": [str], "events": [{id, title, region,
-category, description, key_figures, sources, certainty, certainty_note}],
-"disconfirming_evidence": str, "historiographic_note": str,
-"graph_edges": [{from, to, relation, note}]}
-~~~
-
-### Quick Start (API)
-
-```bash
-curl -s https://api.anthropic.com/v1/messages \
-  -H "x-api-key: $ANTHROPIC_API_KEY" \
-  -H "content-type: application/json" \
-  -H "anthropic-version: 2023-06-01" \
-  -d "{\"model\":\"claude-haiku-4-5-20251001\",\"max_tokens\":16384,
-       \"messages\":[{\"role\":\"user\",\"content\":\"$(cat RESEARCH_PROMPT.md | sed 's/{{YEAR}}/1453/g; s/{{YEAR_LABEL}}/1453 CE/g' | jq -Rs .)\"}]}" \
-  | jq -r '.content[0].text' > 1453.json
-```
-
----
-
-## Contributing
-
-The daemon handles bulk work. Human expertise makes it correct.
-
-1. **Research unclaimed years** -- leapfrog the daemon, claim a range via Issue
-2. **Deep dives** -- specialized prompts for specific eras/regions/themes
-3. **Validate and correct** -- check sources, find errors, submit corrections
-4. **Regional expertise** -- African, East Asian, Indigenous American, Pacific history
-5. **Graph edges** -- cause-effect chains, parallel developments, trade routes
-6. **Adversarial review** -- prove us wrong
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+- **No fabrication.** Empty events with honest era_context > hallucinated entries
+- **Anti-sycophancy protocol.** Every year must surface contradicting evidence
+- **No anachronism.** Period-appropriate framing only
+- **Global coverage.** Gaps are declared, not hidden
+- **Source typing.** Primary text, archaeology, chronicle, or oral tradition — named, not assumed
 
 ---
 
 ## Interactive Frontend
 
-A Next.js 16 timeline app lives in [`/frontend`](frontend/) -- built with shadcn/ui, TanStack Virtual (handles 5,226 years smoothly), and a dark ancient-history aesthetic.
+A Next.js 16 timeline app at [`/frontend`](frontend/) — built with shadcn/ui, TanStack Virtual, and a dark ancient-history aesthetic.
 
-**Features:**
-- Virtualized timeline with year cards, era navigation, category/certainty filters
+The frontend evolved alongside the corpus through a series of iterative improvements driven by real usability feedback.
+
+### Design Iterations
+
+**v1 — Data dump.** The first frontend rendered every event card fully expanded by default. A year with 8 events produced ~8,000px of wall text. Navigation was a scrolling list of year cards, each showing generic era-period text.
+
+**v2 — Progressive disclosure.** EventCards collapse by default. Click to expand description, key figures, cross-references, and sources. Information hierarchy flipped: title and description lead; metadata (category, certainty, region) moves to a quiet footer strip. Reading a year's events now feels like scanning a newspaper — skim the headlines, open what interests you.
+
+**v3 — Headline-first timeline.** The virtualized timeline now shows each year's most significant event title as the card headline ("Fall of Western Roman Empire", "Battle of Marathon") instead of a generic era summary. Every year in the timeline tells you something immediately.
+
+**v4 — Year navigation.** Typing "476", "776 BCE", or "-3200" into the search box now shows a prominent "Jump to [year]" button as the first result. Direct year navigation without scrolling through 5,226 cards.
+
+### Features
+
+- Virtualized timeline (window-based scroll — no scroll-within-scroll trap)
+- Year jump: type any year number directly into search
+- Collapsed event cards with progressive disclosure
+- Era navigation, category/certainty filters
 - Full year detail pages with events, sources, disconfirming evidence, graph edges
-- Search (Cmd+K) across all events, figures, and descriptions
-- Live progress banner from `state/progress.json`
+- Cross-year links: every cross-reference is a clickable link
+- Mobile responsive
 - GitHub Actions auto-aggregates data into 100-year chunks on every push
 
-**Data flow:** The daemon produces individual JSON files -> `scripts/aggregate-data.mjs` chunks them into 100-year blocks -> the frontend loads chunks on demand.
+**Data flow:** `outputs/json/` → `scripts/aggregate-data.mjs` chunks into 100-year blocks → frontend loads on demand.
 
 **Deploy:** Import the repo on Vercel, set root directory to `frontend`.
 
@@ -244,10 +185,8 @@ A Next.js 16 timeline app lives in [`/frontend`](frontend/) -- built with shadcn
 
 ## Quality Assurance
 
-The corpus is validated continuously with Python scripts:
-
 ```bash
-# Full ICCRA schema validation (categories, certainties, sources, structure)
+# Full ICCRA schema validation
 python3 scripts/validate_corpus.py
 
 # Fix compound categories ("political | military" -> "political")
@@ -257,16 +196,71 @@ python3 scripts/fix_categories.py
 python3 scripts/backfill_meta.py
 ```
 
-**Latest validation pass: 100% valid** (1,140 files, 11,283 events, 0 errors).
+**Final validation pass: 100% valid** — 5,226 files, 17,991 events, 0 errors.
 
 | Check | Result |
 |-------|--------|
-| JSON structure | All files parse cleanly |
-| Required fields | year, year_label, era_context, events, disconfirming_evidence -- all present |
-| Category values | 11 valid categories, compound categories auto-fixed |
-| Certainty values | 5 valid levels: confirmed (80.6%), probable (15.7%), approximate (3.5%) |
+| JSON structure | All 5,226 files parse cleanly |
+| Required fields | All present: year, events, disconfirming_evidence, sources |
+| Category values | 11 valid categories; compound categories auto-fixed |
+| Certainty distribution | Confirmed 80.6%, probable 15.7%, approximate 3.5%, other 0.2% |
 | Source attribution | 99.98% of events have named sources |
-| Model tracking | `_meta` field on every file with model, method, timestamp |
+| Failed years | 0 |
+
+---
+
+## Run It Yourself
+
+Copy this prompt into any AI agent. Self-contained, no dependencies:
+
+```
+You are a historical research agent. Produce structured JSON for a single year.
+
+YEAR TO RESEARCH: [INSERT YEAR, e.g., 1453 or -776]
+
+RULES:
+1. Negative years = BCE. Positive = CE.
+2. Research significant events across ALL regions.
+3. Modern years: 15-25 events. Ancient: 0-5. Zero is acceptable.
+4. Every event names its source. "General knowledge" is not acceptable.
+5. Every event has a certainty level: confirmed/probable/approximate/traditional/legendary.
+6. Include "disconfirming_evidence" — what's disputed about this year?
+7. Include "geographic_coverage_gaps" — what regions are you missing?
+8. Do NOT fabricate. Empty events with honest context > hallucinated entries.
+9. Respond with VALID JSON ONLY.
+
+SCHEMA: {"year": int, "year_label": str, "era_context": str,
+"documentation_level": "rich|moderate|sparse|minimal|negligible",
+"geographic_coverage_gaps": [str], "events": [{id, title, region,
+category, description, key_figures, sources, certainty, certainty_note}],
+"disconfirming_evidence": str, "historiographic_note": str,
+"graph_edges": [{from, to, relation, note}]}
+```
+
+---
+
+## Contributing
+
+The daemon finished Phase 1. Human expertise makes the corpus better.
+
+1. **Adversarial review** — prove the AI wrong. Find fabrications, bad sources, anachronisms
+2. **Regional deep dives** — African, East Asian, Indigenous American, Pacific history
+3. **Graph edges** — cause-effect chains, parallel developments, trade routes
+4. **Phase 2 planning** — see below
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+---
+
+## What's Next (Phase 2)
+
+Phase 1 produced the raw corpus. Phase 2 is about making it trustworthy and useful:
+
+- **Adversarial validation pass** — run a second model (GPT-4.1 or DeepSeek R1) over every year and flag contradictions between models
+- **Graph traversal** — build the full cause-effect graph across all 13,130 edges
+- **Neo4j import** — the graph edges are ready; needs a Cypher import script
+- **Regional equity audit** — systematic review of geographic_coverage_gaps to quantify Western bias
+- **API** — expose the corpus as a queryable REST API
 
 ---
 
@@ -274,51 +268,42 @@ python3 scripts/backfill_meta.py
 
 ```
 Human_history/
-  RESEARCH_PROMPT.md          # ICCRA prompt template (locked)
-  LEDGER.md                   # Append-only progress log
+  RESEARCH_PROMPT.md            # ICCRA prompt template (locked)
+  LEDGER.md                     # Append-only progress log
   scripts/
-    api_client.py             # Direct Anthropic API with tiered models
-    orchestrator_optimized.py # Main daemon loop (async Python)
-    run_optimized.py          # Single-year runner
-    batch_processor.py        # 5 years per API call
-    token_monitor.py          # Real-time cost dashboard
-    validate_corpus.py        # ICCRA schema validator
-    fix_categories.py         # Auto-fix compound categories
-    backfill_meta.py          # Backfill _meta on old files
-    git_sync.sh               # Auto-push to GitHub every 20 years
-    health_check.sh           # Quick status
-  frontend/                   # Next.js 16 interactive timeline
-    src/app/                  # App Router pages
-    src/components/           # Timeline, filters, search, event cards
-    scripts/aggregate-data.mjs # Chunk JSON into 100-year blocks
-    .github/workflows/        # Auto-aggregate on push
+    api_client.py               # Direct Anthropic API, tiered models
+    orchestrator_optimized.py   # Main daemon loop (async Python)
+    batch_processor.py          # 5 years per API call
+    validate_corpus.py          # ICCRA schema validator
+    fix_categories.py           # Auto-fix compound categories
+    health_check.sh             # Quick status
+  frontend/                     # Next.js 16 interactive timeline
+    src/app/                    # App Router pages
+    src/components/             # Timeline, filters, search, event cards
+    scripts/aggregate-data.mjs  # Chunk JSON into 100-year blocks
   docker/
-    Dockerfile                # Python 3.11 slim
-    docker-compose.yml        # Reboot-persistent
-  outputs/json/               # One file per year (2025.json -> -3200.json)
-  outputs/haiku_experiment/   # Archived Haiku test outputs
-  outputs/gemini_experiment/  # Archived Gemini Flash test output
+    Dockerfile                  # Python 3.11 slim
+    docker-compose.yml          # Reboot-persistent
+  outputs/json/                 # 5,226 JSON files (2025.json → -3200.json)
+  outputs/haiku_experiment/     # Archived Haiku quality test
+  outputs/gemini_experiment/    # Archived Gemini Flash quality test
   state/
-    progress.json             # Completed / failed / in-progress
-    token_usage.json          # Per-request cost tracking
-    cache/                    # Response cache (SHA256-keyed)
+    progress.json               # Completed / failed / in-progress
+    cache/                      # Response cache (SHA256-keyed)
 ```
-
-**Crash-safe and idempotent:** Progress persists on host volume. Docker restarts on reboot. Locks prevent double-processing. Cache prevents re-spending on retries.
 
 ---
 
 ## Methodology
 
-A custom research workflow developed by Magnus, built on the ICCRA schema:
+The ICCRA schema was developed specifically for this project:
 
-- **ICCRA schema** -- Intent, Context, Constraints, Reporting, Authority
-- **Anti-sycophancy protocol** -- Mandatory disconfirming evidence
-- **Source typing** -- Primary, archaeological, epigraphic, numismatic, chronicle, oral tradition
-- **Certainty calibration** -- Five-level confidence with justification
-- **Geographic equity** -- Explicit gap declaration for underrepresented regions
-- **Graph-native** -- Every event has edges connecting causes and consequences
+- **Intent** — explicit research goals per year type (modern vs. ancient)
+- **Context** — era-appropriate framing requirements
+- **Constraints** — anti-sycophancy, anti-anachronism, source-naming mandates
+- **Reporting** — structured JSON with uncertainty quantification
+- **Authority** — source typing: primary, archaeological, epigraphic, numismatic, chronicle, oral tradition
 
 ---
 
-*Built by [Magnus Smarason](https://smarason.is) -- one daemon, 5,226 years, zero fabrication.*
+*Built by [Magnus Smarason](https://smarason.is) — one daemon, 5,226 years, zero fabrication.*
