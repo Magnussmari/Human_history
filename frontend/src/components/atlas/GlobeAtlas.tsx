@@ -703,11 +703,10 @@ function Globe({
       const dy = e.clientY - dragRef.current.y;
       dragRef.current.moved = Math.hypot(dx, dy);
       const k = 0.35 / zoom;
-      // d3-geo orthographic: viewer center = [-rot[0], -rot[1]]. Drag right
-      // should reveal east (higher lon), drag down should reveal south.
-      // Use imperative setter — updates rotRef + redraws canvas without a
-      // React re-render. React catches up on pointerup via setDragging(false).
-      setImperative(dragRef.current.rot[0] - dx * k, dragRef.current.rot[1] + dy * k);
+      // Canonical d3-geo globe drag: rot[0] += dx, rot[1] -= dy. This
+      // matches Google Maps / Leaflet / Mapbox: drag in a direction and
+      // the sphere follows your cursor as if you grabbed and pulled it.
+      setImperative(dragRef.current.rot[0] + dx * k, dragRef.current.rot[1] - dy * k);
       return;
     }
     // Throttle hover scan to ~1 per animation frame. With 1000s of clusters

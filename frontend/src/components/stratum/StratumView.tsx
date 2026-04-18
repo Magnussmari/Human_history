@@ -94,21 +94,18 @@ function StratumRibbon({ years, selected, onSelect, yearMin, yearMax }: StratumR
     return out;
   }, [yearMin, yearMax]);
 
-  // Show a sparse set of pins (every Nth researched year) so the ribbon
-  // doesn't render 5,226 buttons.
-  const pins = useMemo(() => {
-    if (years.length === 0) return [];
-    const target = 60;
-    const stride = Math.max(1, Math.floor(years.length / target));
-    const sampled = years.filter((_, i) => i % stride === 0);
-    if (sampled[sampled.length - 1] !== years[years.length - 1]) {
-      sampled.push(years[years.length - 1]);
-    }
-    if (!sampled.includes(selected)) sampled.push(selected);
-    return Array.from(new Set(sampled)).sort((a, b) => a - b);
-  }, [years, selected]);
-
   const selectedPct = ((selected - yearMin) / span) * 100;
+
+  const handleBarClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const pct = (e.clientX - rect.left) / rect.width;
+    const target = Math.round(yearMin + pct * span);
+    if (years.length === 0) return;
+    const nearest = years.reduce((best, y) =>
+      Math.abs(y - target) < Math.abs(best - target) ? y : best,
+    years[0]);
+    onSelect(nearest);
+  };
 
   const idx = years.indexOf(selected);
   const prev = idx > 0 ? years[idx - 1] : null;
@@ -146,7 +143,11 @@ function StratumRibbon({ years, selected, onSelect, yearMin, yearMax }: StratumR
           {years.length.toLocaleString()} entries on file
         </span>
       </div>
-      <div className="stratum-ribbon-bar">
+      <div
+        className="stratum-ribbon-bar"
+        onClick={handleBarClick}
+        title="Click anywhere on the strip to jump to that year"
+      >
         <div className="stratum-ribbon-ticks">
           {ticks.map((t) => (
             <div
@@ -159,28 +160,14 @@ function StratumRibbon({ years, selected, onSelect, yearMin, yearMax }: StratumR
           ))}
         </div>
         <div
-          className="stratum-ribbon-selected-indicator"
+          className="stratum-ribbon-marker"
           style={{ left: `${selectedPct}%` }}
           aria-hidden="true"
-        />
-        {pins.map((y) => {
-          const isSelected = y === selected;
-          return (
-            <button
-              key={y}
-              type="button"
-              onClick={() => onSelect(y)}
-              className={"stratum-ribbon-pin" + (isSelected ? " on" : "")}
-              style={{ left: `${((y - yearMin) / span) * 100}%` }}
-              title={formatYear(y)}
-              aria-pressed={isSelected}
-            >
-              {isSelected && (
-                <span className="stratum-ribbon-pin-label">{formatYear(y)}</span>
-              )}
-            </button>
-          );
-        })}
+        >
+          <span className="stratum-ribbon-marker-label">
+            {formatYear(selected)}
+          </span>
+        </div>
       </div>
       <div className="stratum-ribbon-nav">
         <button

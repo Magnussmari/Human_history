@@ -66,13 +66,24 @@
 
 .stratum-ribbon-bar {
   position: relative;
-  height: 56px;
+  height: 44px;
+  margin-bottom: 36px;
   border-top: 1px solid var(--rule);
   border-bottom: 1px solid var(--rule);
   background: linear-gradient(
     180deg,
     transparent,
     color-mix(in oklab, var(--bg-2) 80%, transparent),
+    transparent
+  );
+  cursor: pointer;
+}
+
+.stratum-ribbon-bar:hover {
+  background: linear-gradient(
+    180deg,
+    transparent,
+    color-mix(in oklab, var(--accent) 6%, var(--bg-2)),
     transparent
   );
 }
@@ -100,60 +111,51 @@
   letter-spacing: 0.08em;
 }
 
-.stratum-ribbon-selected-indicator {
+/* Single clean marker — no more 60-pin disco ball */
+.stratum-ribbon-marker {
   position: absolute;
-  top: -3px;
-  bottom: -3px;
-  width: 2px;
+  top: -6px;
+  bottom: -6px;
+  width: 3px;
   background: var(--accent);
   transform: translateX(-50%);
-  box-shadow: 0 0 8px color-mix(in oklab, var(--accent) 60%, transparent);
+  box-shadow: 0 0 12px color-mix(in oklab, var(--accent) 70%, transparent);
+  pointer-events: none;
 }
 
-.stratum-ribbon-pin {
+.stratum-ribbon-marker::before,
+.stratum-ribbon-marker::after {
+  content: "";
   position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  left: 50%;
   width: 10px;
   height: 10px;
-  border-radius: 50%;
-  border: 2px solid var(--fg-mute);
-  background: var(--bg);
-  cursor: pointer;
-  transition: all .2s;
-  padding: 0;
-}
-
-.stratum-ribbon-pin:hover {
-  border-color: var(--accent);
-}
-
-.stratum-ribbon-pin.on {
-  width: 14px;
-  height: 14px;
-  border-color: var(--accent);
+  transform: translateX(-50%) rotate(45deg);
   background: var(--accent);
-  box-shadow: 0 0 0 4px color-mix(in oklab, var(--accent) 25%, transparent);
 }
 
-.stratum-ribbon-pin-label {
+.stratum-ribbon-marker::before { top: -8px; }
+.stratum-ribbon-marker::after { bottom: -8px; }
+
+.stratum-ribbon-marker-label {
   position: absolute;
-  top: calc(100% + 8px);
+  top: calc(100% + 14px);
   left: 50%;
   transform: translateX(-50%);
-  font-family: var(--font-mono);
-  font-size: var(--notebook-text-small);
-  letter-spacing: 0.08em;
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
   white-space: nowrap;
   color: var(--accent);
-  font-weight: 600;
+  font-feature-settings: "tnum";
 }
 
 .stratum-ribbon-nav {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-top: 36px;
+  margin-top: 28px;
   flex-wrap: wrap;
 }
 
