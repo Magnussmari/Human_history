@@ -4,6 +4,10 @@
  * @source: Claude Design handoff bundle (Globe_S_tier.html) — ported to Next.js
  */
 
+/* The sphere surface is intentionally dark regardless of the outer theme —
+   the globe reads as an astronomical plate, not as the surrounding page. But
+   the outer shell (border, rail, tooltip) pulls from the shared Notebook
+   tokens so it sits inside a cream parchment without looking foreign. */
 .gs-root {
   --gs-bg: #06090d;
   --gs-bg-2: #0b1116;
@@ -14,9 +18,9 @@
   --gs-fg-mute: #6a7180;
   --gs-accent: #f0a878;
   --gs-accent-dim: rgba(240, 168, 120, 0.22);
-  --gs-font-body: "Inter Tight", ui-sans-serif, system-ui, sans-serif;
-  --gs-font-display: "Newsreader", Georgia, serif;
-  --gs-font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --gs-font-body: var(--font-sans), "Inter Tight", ui-sans-serif, system-ui, sans-serif;
+  --gs-font-display: var(--font-display), "Newsreader", Georgia, serif;
+  --gs-font-mono: var(--font-mono), "JetBrains Mono", ui-monospace, monospace;
 
   --gs-cat-political: #f0a878;
   --gs-cat-military: #e06666;
@@ -39,9 +43,10 @@
   background: var(--gs-bg);
   color: var(--gs-fg);
   font-family: var(--gs-font-body);
-  border: 1px solid var(--gs-rule);
-  border-radius: 12px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
   overflow: hidden;
+  box-shadow: 0 20px 50px -28px rgba(36, 28, 24, 0.18);
 }
 
 .gs-root *,
