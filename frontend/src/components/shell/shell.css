@@ -3,80 +3,100 @@
  * @created: 2026-04-18
  */
 
+/* Two-layer shell.
+   Primary (always): brand + site links — sticky, full-width, thin rule.
+   Secondary (interactive routes only): subtitle + view switcher — sits
+   directly under the primary, slightly sunken tone. */
 .chronograph-chrome {
-  position: sticky;
-  top: 0;
-  z-index: 40;
   display: flex;
   align-items: center;
   gap: 20px;
-  padding: 14px 24px;
+  padding: 12px 28px;
+  font-family: var(--font-sans);
+}
+
+.chronograph-chrome-primary {
+  position: sticky;
+  top: 0;
+  z-index: 41;
   background: var(--bg);
   border-bottom: 1px solid var(--rule);
-  font-family: var(--font-sans);
   box-shadow: 0 4px 16px -12px color-mix(in oklab, var(--fg) 40%, transparent);
 }
 
+.chronograph-chrome-secondary {
+  position: sticky;
+  top: 54px;
+  z-index: 40;
+  padding: 10px 28px;
+  background: color-mix(in oklab, var(--bg) 94%, var(--fg) 2%);
+  border-bottom: 1px solid var(--rule);
+}
+
 .chronograph-brand-link {
-  display: flex;
-  align-items: baseline;
+  display: inline-flex;
+  align-items: center;
   gap: 10px;
   text-decoration: none;
   color: var(--fg);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: -0.01em;
 }
+
+.chronograph-brand-link:hover { color: var(--stamp); }
 
 .chronograph-brand-dot {
   width: 10px;
   height: 10px;
   border-radius: 2px;
   background: var(--stamp);
-  align-self: center;
   flex-shrink: 0;
 }
 
-.chronograph-brand-name {
+.chronograph-subtitle {
   font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 17px;
-  letter-spacing: -0.01em;
-  color: var(--fg);
-}
-
-.chronograph-brand-sub {
-  font-family: var(--font-sans);
-  font-size: var(--notebook-text-meta);
-  letter-spacing: 0.02em;
-  color: var(--fg-mute);
-  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  color: var(--fg-2);
+  letter-spacing: 0.01em;
 }
 
 @media (max-width: 720px) {
-  .chronograph-brand-sub { display: none; }
+  .chronograph-subtitle { display: none; }
+  .chronograph-chrome { padding: 12px 18px; }
+  .chronograph-chrome-secondary { padding: 8px 18px; top: 50px; }
 }
 
 .chronograph-links {
   display: flex;
-  gap: 12px;
-  margin-left: 12px;
+  gap: 22px;
+  align-items: center;
 }
 
 .chronograph-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   font-family: var(--font-mono);
   font-size: var(--notebook-text-small);
-  letter-spacing: 0.18em;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--fg-mute);
-  padding: 6px 4px;
+  color: var(--fg-2);
+  padding: 6px 2px;
   text-decoration: none;
   transition: color .15s;
-  border-bottom: 1px solid transparent;
+  border-bottom: 1.5px solid transparent;
 }
 
-.chronograph-link:hover { color: var(--fg); }
+.chronograph-link:hover { color: var(--stamp); }
 .chronograph-link.on {
   color: var(--stamp);
   border-bottom-color: var(--stamp);
 }
+
+.chronograph-link-external svg { opacity: 0.6; }
 
 .chronograph-spacer { flex: 1 1 auto; min-width: 10px; }
 

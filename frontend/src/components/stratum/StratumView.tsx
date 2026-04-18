@@ -138,7 +138,9 @@ function StratumRibbon({ years, selected, onSelect, yearMin, yearMax }: StratumR
   return (
     <section className="stratum-ribbon">
       <div className="stratum-ribbon-meta">
-        <span className="stratum-ribbon-label">Stratum · instrument view</span>
+        <span className="stratum-ribbon-label">
+          Year strip · click anywhere to jump
+        </span>
         <span className="stratum-ribbon-count">
           {years.length.toLocaleString()} entries on file
         </span>

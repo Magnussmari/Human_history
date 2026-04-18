@@ -6,89 +6,114 @@
 
 import Link from "next/link";
 import { useEffect } from "react";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { usePathname } from "next/navigation";
+import { ExternalLink } from "lucide-react";
 import { useVariant, type Variant } from "./VariantContext";
 
-const VARIANTS: { key: Variant; label: string; href: string }[] = [
-  { key: "a", label: "Notebook", href: "/" },
-  { key: "b", label: "Stratum", href: "/stratum" },
-  { key: "c", label: "Atlas", href: "/?view=map" },
+const VIEWS: { key: Variant; label: string; href: string; path: string }[] = [
+  { key: "a", label: "Notebook", href: "/", path: "/" },
+  { key: "b", label: "Stratum", href: "/stratum", path: "/stratum" },
+  { key: "c", label: "Atlas", href: "/atlas", path: "/atlas" },
 ];
 
-function deriveVariant(pathname: string | null): Variant {
+function deriveBodyVariant(pathname: string | null): Variant {
   if (pathname?.startsWith("/stratum")) return "b";
-  // Atlas view keeps the page on variant A (cream parchment) — only the
-  // globe surface is dark. Swapping the whole body to variant C would make
-  // the page feel like a different product.
+  // Atlas page keeps the surrounding shell on Notebook tokens; only the
+  // globe canvas inside is dark.
   return "a";
 }
 
-function deriveActiveVariant(pathname: string | null, view: string | null): Variant {
+function deriveActiveView(pathname: string | null): Variant {
   if (pathname?.startsWith("/stratum")) return "b";
-  if (pathname === "/" && view === "map") return "c";
+  if (pathname?.startsWith("/atlas")) return "c";
   return "a";
+}
+
+/** Routes where the view switcher applies. On year/era/methodology/error
+ * routes the switcher is hidden because it would push the user out of the
+ * current reading context. */
+function showsViewSwitcher(pathname: string | null): boolean {
+  if (!pathname) return false;
+  return (
+    pathname === "/" ||
+    pathname.startsWith("/stratum") ||
+    pathname.startsWith("/atlas")
+  );
 }
 
 export function ChronographShell() {
   const { setVariant } = useVariant();
   const pathname = usePathname();
-  const searchParams = useSearchParams();
-  const router = useRouter();
-  const view = searchParams.get("view");
 
-  const bodyVariant = deriveVariant(pathname);
-  const activeVariant = deriveActiveVariant(pathname, view);
+  const bodyVariant = deriveBodyVariant(pathname);
+  const activeView = deriveActiveView(pathname);
+  const switcherVisible = showsViewSwitcher(pathname);
 
-  // Bind body class to the body-variant (drives token swaps for the page
-  // surrounding the active surface). The switcher highlights the *active*
-  // variant (which can be "c" when the globe is open even though the page
-  // shell stays on "a").
   useEffect(() => {
     const body = document.body;
     body.classList.remove("variant-a", "variant-b", "variant-c");
     body.classList.add("variant-" + bodyVariant);
-    setVariant(activeVariant);
-  }, [bodyVariant, activeVariant, setVariant]);
+    setVariant(activeView);
+  }, [bodyVariant, activeView, setVariant]);
 
   const onMethodology = pathname?.startsWith("/methodology");
 
   return (
-    <header className="chronograph-chrome">
-      <div className="chronograph-brand">
+    <>
+      {/* Primary nav — brand + site-wide links. Always visible, one layer. */}
+      <header className="chronograph-chrome chronograph-chrome-primary">
         <Link href="/" className="chronograph-brand-link">
           <span className="chronograph-brand-dot" aria-hidden="true" />
           <span className="chronograph-brand-name">Chronograph</span>
-          <span className="chronograph-brand-sub">
-            Human History According to AI
-          </span>
         </Link>
-      </div>
 
-      <nav className="chronograph-links" aria-label="Sections">
-        <Link
-          href="/methodology"
-          className={"chronograph-link" + (onMethodology ? " on" : "")}
-        >
-          Methodology
-        </Link>
-      </nav>
+        <div className="chronograph-spacer" />
 
-      <div className="chronograph-spacer" />
-
-      <nav className="chronograph-variants" aria-label="View">
-        {VARIANTS.map((v) => (
-          <button
-            key={v.key}
-            type="button"
-            className={
-              "chronograph-variant" + (activeVariant === v.key ? " active" : "")
-            }
-            onClick={() => router.push(v.href)}
+        <nav className="chronograph-links" aria-label="Site">
+          <Link
+            href="/methodology"
+            className={"chronograph-link" + (onMethodology ? " on" : "")}
           >
-            {v.label}
-          </button>
-        ))}
-      </nav>
-    </header>
+            Methodology
+          </Link>
+          <a
+            href="https://github.com/Magnussmari/Human_history_Acording_to_AI"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="chronograph-link chronograph-link-external"
+            aria-label="View source on GitHub"
+          >
+            GitHub <ExternalLink size={12} aria-hidden="true" />
+          </a>
+        </nav>
+      </header>
+
+      {/* Secondary nav — view switcher. Only on the three interactive
+          section routes (home, stratum, atlas). Reading routes — year, era,
+          methodology — don't show it. */}
+      {switcherVisible && (
+        <div className="chronograph-chrome chronograph-chrome-secondary">
+          <div className="chronograph-subtitle">
+            Human History According to AI
+          </div>
+          <div className="chronograph-spacer" />
+          <nav className="chronograph-variants" aria-label="View">
+            {VIEWS.map((v) => (
+              <Link
+                key={v.key}
+                href={v.href}
+                className={
+                  "chronograph-variant" + (activeView === v.key ? " active" : "")
+                }
+                scroll={false}
+                prefetch
+              >
+                {v.label}
+              </Link>
+            ))}
+          </nav>
+        </div>
+      )}
+    </>
   );
 }

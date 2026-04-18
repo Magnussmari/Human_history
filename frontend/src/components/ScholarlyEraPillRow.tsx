@@ -6,6 +6,7 @@
 
 import { useRouter } from "next/navigation";
 import { motion } from "motion/react";
+import { GraduationCap } from "lucide-react";
 import type { EraIndex, EraRegistryEntry } from "@/types/evidence";
 import { findErasForBroadEra } from "@/lib/evidence";
 
@@ -94,21 +95,16 @@ export function ScholarlyEraPillRow({
               </span>
               {era.educationStatus === "pilot-complete" && (
                 <span
+                  title="Education pilot complete — teaching materials available"
+                  aria-label="Education pilot complete"
                   style={{
-                    fontFamily: "var(--font-mono)",
-                    fontSize: 14,
+                    display: "inline-flex",
+                    alignItems: "center",
                     color: "var(--leaf)",
-                    background:
-                      "color-mix(in oklab, var(--leaf) 16%, transparent)",
-                    border:
-                      "1px solid color-mix(in oklab, var(--leaf) 35%, transparent)",
-                    padding: "1px 6px",
-                    borderRadius: 99,
-                    letterSpacing: "0.12em",
-                    textTransform: "uppercase",
+                    marginLeft: 2,
                   }}
                 >
-                  edu
+                  <GraduationCap size={14} aria-hidden="true" />
                 </span>
               )}
             </motion.button>

@@ -28,6 +28,12 @@ const nextConfig: NextConfig = {
     "127.0.0.1",
     "192.168.0.54",
   ],
+  async redirects() {
+    return [
+      // Legacy view-toggle URL — the Globe moved to its own /atlas route.
+      { source: "/", has: [{ type: "query", key: "view", value: "map" }], destination: "/atlas", permanent: false },
+    ];
+  },
 };
 
 export default nextConfig;

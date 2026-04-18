@@ -4,11 +4,10 @@
  */
 "use client";
 
-import { Suspense, useState, useMemo, useRef, useCallback, useEffect } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { motion, AnimatePresence } from "motion/react";
-import { SlidersHorizontal } from "lucide-react";
-import { useSearchParams, useRouter, usePathname } from "next/navigation";
+import { SlidersHorizontal, ChevronDown, Info } from "lucide-react";
 import {
   fetchManifest,
   fetchAllYears,
@@ -18,61 +17,42 @@ import {
 import { fetchEraIndex } from "@/lib/evidence";
 import type { FilterState } from "@/lib/data";
 import { ERAS } from "@/lib/constants";
-import { HeroSection } from "@/components/HeroSection";
+import { IntroCard } from "@/components/IntroCard";
 import { NotebookTimeline } from "@/components/notebook/NotebookTimeline";
 import { SearchCommand } from "@/components/SearchCommand";
 import { FilterPanel } from "@/components/FilterPanel";
-import { ViewToggle, type ViewMode } from "@/components/ViewToggle";
 import { ScholarlyEraPillRow } from "@/components/ScholarlyEraPillRow";
-import { GlobeAtlas } from "@/components/atlas/GlobeAtlas";
+
+const INTRO_STORAGE_KEY = "chronograph-intro-dismissed";
+
+// Show 6 primary eras up front, collapse the rest behind "More eras".
+const PRIMARY_ERA_COUNT = 6;
 
 export default function HomePage() {
-  return (
-    <Suspense fallback={null}>
-      <HomeInner />
-    </Suspense>
-  );
-}
-
-function HomeInner() {
-  const searchParams = useSearchParams();
-  const router = useRouter();
-  const pathname = usePathname();
-
-  // URL is the source of truth for the view toggle — avoids state duplication
-  // and the matching "sync" effects that used to bridge them.
-  const view: ViewMode = searchParams.get("view") === "map" ? "map" : "timeline";
-
-  const setView = useCallback(
-    (next: ViewMode) => {
-      if (next === "map") {
-        router.replace(`${pathname}?view=map`, { scroll: false });
-      } else {
-        router.replace(pathname, { scroll: false });
-      }
-    },
-    [router, pathname],
-  );
-
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
   const [activeEra, setActiveEra] = useState<string | null>(null);
   const [showFilters, setShowFilters] = useState(false);
-  const timelineSectionRef = useRef<HTMLDivElement>(null);
-
-  // Deep-links to /?view=map should not dump the user at the hero.
-  // Scrolling into view isn't enough because there's still ~400px of
-  // section chrome (view-toggle, filter button, era pills) between the
-  // section top and the globe canvas. Just hide the hero in map view.
-  const showHero = view !== "map";
+  const [showAllEras, setShowAllEras] = useState(false);
+  const [introOpen, setIntroOpen] = useState(true);
 
   useEffect(() => {
-    if (view === "map" && timelineSectionRef.current) {
-      timelineSectionRef.current.scrollIntoView({
-        behavior: "instant" as ScrollBehavior,
-        block: "start",
-      });
+    try {
+      if (localStorage.getItem(INTRO_STORAGE_KEY) === "1") {
+        setIntroOpen(false);
+      }
+    } catch {
+      /* noop */
     }
-  }, [view]);
+  }, []);
+
+  const dismissIntro = () => {
+    setIntroOpen(false);
+    try {
+      localStorage.setItem(INTRO_STORAGE_KEY, "1");
+    } catch {
+      /* noop */
+    }
+  };
 
   const { data: manifest } = useQuery({
     queryKey: ["manifest"],
@@ -109,80 +89,92 @@ function HomeInner() {
     filters.certainties.length +
     (filters.region ? 1 : 0);
 
-  const handleExplore = useCallback(() => {
-    timelineSectionRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, []);
+  const visibleEras = showAllEras ? ERAS : ERAS.slice(0, PRIMARY_ERA_COUNT);
+  const hiddenEraCount = ERAS.length - PRIMARY_ERA_COUNT;
 
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 0.4 }}
+      transition={{ duration: 0.35 }}
     >
-      {showHero && <HeroSection onExplore={handleExplore} />}
-
-      <section
-        ref={timelineSectionRef}
-        className={
-          view === "map"
-            ? "mx-auto max-w-6xl px-5 sm:px-8 py-4 sm:py-6"
-            : "mx-auto max-w-6xl px-5 sm:px-8 py-10 sm:py-16"
-        }
-      >
-        {view !== "map" && (
-          <header className="notebook-section-head">
-            <span
-              className="notebook-section-num"
-              style={{
-                fontFamily: "var(--font-mono)",
-                fontSize: "var(--notebook-text-meta)",
-                color: "var(--stamp)",
-                letterSpacing: "0.14em",
-                fontWeight: 700,
-                textTransform: "uppercase",
-              }}
-            >
-              § Timeline
-            </span>
-            <h2
-              style={{
-                fontFamily: "var(--font-display)",
-                fontSize: "clamp(28px, 4vw, 38px)",
-                fontWeight: 500,
-                letterSpacing: "-0.01em",
-                color: "var(--fg)",
-                margin: "4px 0 6px",
-              }}
-            >
-              The folio, chronologically
-            </h2>
-            <p
-              style={{
-                fontFamily: "var(--font-sans)",
-                fontSize: 14,
-                color: "var(--fg-mute)",
-                margin: 0,
-                letterSpacing: "0.04em",
-              }}
-            >
-              {filteredYears.length.toLocaleString()} entr
-              {filteredYears.length === 1 ? "y" : "ies"} displayed
-              {activeEra && ` · ${activeEra} era`}
-              {filters.search && ` · matching "${filters.search}"`}
-            </p>
-            <span
-              className="notebook-rule notebook-section-rule"
-              style={{
-                display: "block",
-                height: 1,
-                background: "var(--rule)",
-                marginTop: 18,
-              }}
-            />
-          </header>
+      <section className="mx-auto max-w-6xl px-5 sm:px-8 py-8 sm:py-10">
+        {introOpen && manifest && (
+          <IntroCard
+            manifest={manifest}
+            onDismiss={dismissIntro}
+          />
         )}
 
-        <div className={view === "map" ? "flex items-center gap-3 mb-4 flex-wrap" : "flex items-center gap-3 mt-6 mb-6 flex-wrap"}>
+        {!introOpen && (
+          <button
+            type="button"
+            onClick={() => setIntroOpen(true)}
+            className="inline-flex items-center gap-2 text-sm mb-6"
+            style={{
+              color: "var(--fg-mute)",
+              fontFamily: "var(--font-sans)",
+              border: "1px solid var(--rule)",
+              background: "transparent",
+              padding: "6px 12px",
+              borderRadius: 999,
+              cursor: "pointer",
+            }}
+          >
+            <Info size={13} /> What is this?
+          </button>
+        )}
+
+        <header className="notebook-section-head mb-6">
+          <span
+            style={{
+              fontFamily: "var(--font-mono)",
+              fontSize: "var(--notebook-text-meta)",
+              color: "var(--stamp)",
+              letterSpacing: "0.14em",
+              fontWeight: 700,
+              textTransform: "uppercase",
+            }}
+          >
+            § Timeline
+          </span>
+          <h2
+            style={{
+              fontFamily: "var(--font-display)",
+              fontSize: "clamp(28px, 4vw, 38px)",
+              fontWeight: 500,
+              letterSpacing: "-0.01em",
+              color: "var(--fg)",
+              margin: "4px 0 6px",
+            }}
+          >
+            The folio, chronologically
+          </h2>
+          <p
+            style={{
+              fontFamily: "var(--font-sans)",
+              fontSize: 14,
+              color: "var(--fg-mute)",
+              margin: 0,
+              letterSpacing: "0.04em",
+            }}
+          >
+            {filteredYears.length.toLocaleString()} entr
+            {filteredYears.length === 1 ? "y" : "ies"} displayed
+            {activeEra && ` · ${activeEra} era`}
+            {filters.search && ` · matching "${filters.search}"`}
+          </p>
+          <span
+            style={{
+              display: "block",
+              height: 1,
+              background: "var(--rule)",
+              marginTop: 18,
+            }}
+          />
+        </header>
+
+        <div className="flex items-center gap-3 mb-6 flex-wrap">
           <SearchCommand years={years ?? []} />
 
           <motion.button
@@ -213,21 +205,16 @@ function HomeInner() {
               </span>
             )}
           </motion.button>
-
-          <div className="ml-auto">
-            <ViewToggle active={view} onChange={setView} />
-          </div>
         </div>
 
-        {view !== "map" && (
-        <div className="flex gap-2 flex-wrap pb-3 mb-5">
+        <div className="flex gap-2 flex-wrap pb-3 mb-5 items-center">
           <EraPill
             active={activeEra === null}
             onClick={() => setActiveEra(null)}
           >
             All Eras
           </EraPill>
-          {ERAS.map((era) => (
+          {visibleEras.map((era) => (
             <EraPill
               key={era.label}
               active={activeEra === era.label}
@@ -241,64 +228,58 @@ function HomeInner() {
               </span>
             </EraPill>
           ))}
+          {hiddenEraCount > 0 && (
+            <button
+              type="button"
+              onClick={() => setShowAllEras((v) => !v)}
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 4,
+                padding: "6px 14px",
+                borderRadius: 999,
+                background: "transparent",
+                border: "1px dashed var(--rule)",
+                color: "var(--fg-2)",
+                fontFamily: "var(--font-mono)",
+                fontSize: "var(--notebook-text-meta)",
+                fontWeight: 500,
+                letterSpacing: "0.08em",
+                textTransform: "uppercase",
+                cursor: "pointer",
+              }}
+            >
+              {showAllEras
+                ? "Fewer"
+                : `+ ${hiddenEraCount} earlier`}
+              <ChevronDown
+                size={13}
+                style={{
+                  transform: showAllEras ? "rotate(180deg)" : "none",
+                  transition: "transform .15s",
+                }}
+              />
+            </button>
+          )}
         </div>
-        )}
 
-        {eraIndex && view === "timeline" && (
+        {eraIndex && (
           <ScholarlyEraPillRow index={eraIndex} activeBroadEra={activeEra} />
         )}
 
         <AnimatePresence mode="wait">
-          {view === "timeline" ? (
-            <motion.div
-              key="timeline"
-              initial={{ opacity: 0, y: 12 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -12 }}
-              transition={{
-                duration: 0.25,
-                type: "spring",
-                stiffness: 300,
-                damping: 30,
-              }}
-            >
-              <NotebookTimeline
-                years={filteredYears}
-                isLoading={isLoading}
-              />
-            </motion.div>
-          ) : (
-            <motion.div
-              key="map"
-              initial={{ opacity: 0, y: 12 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -12 }}
-              transition={{ duration: 0.25 }}
-              className="relative left-1/2 right-1/2 -mx-[50vw] w-screen px-4 sm:px-6 lg:px-10"
-            >
-              {manifest ? (
-                <GlobeAtlas
-                  years={filteredYears}
-                  yearRange={{
-                    oldest: manifest.year_range.oldest,
-                    newest: manifest.year_range.newest,
-                  }}
-                />
-              ) : (
-                <div
-                  className="py-24 text-center text-sm"
-                  style={{
-                    color: "var(--fg-mute)",
-                    fontFamily: "var(--font-mono)",
-                    letterSpacing: "0.12em",
-                    textTransform: "uppercase",
-                  }}
-                >
-                  Loading globe…
-                </div>
-              )}
-            </motion.div>
-          )}
+          <motion.div
+            key="timeline"
+            initial={{ opacity: 0, y: 6 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -6 }}
+            transition={{ duration: 0.2 }}
+          >
+            <NotebookTimeline
+              years={filteredYears}
+              isLoading={isLoading}
+            />
+          </motion.div>
         </AnimatePresence>
       </section>
 
