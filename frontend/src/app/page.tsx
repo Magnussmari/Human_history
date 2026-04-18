@@ -251,6 +251,7 @@ function HomeInner() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -12 }}
               transition={{ duration: 0.25 }}
+              className="relative left-1/2 right-1/2 -mx-[50vw] w-screen px-4 sm:px-6 lg:px-10"
             >
               {manifest ? (
                 <GlobeAtlas
