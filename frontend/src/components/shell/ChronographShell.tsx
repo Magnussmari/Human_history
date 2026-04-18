@@ -15,7 +15,15 @@ const VARIANTS: { key: Variant; label: string; href: string }[] = [
   { key: "c", label: "Atlas", href: "/?view=map" },
 ];
 
-function deriveVariant(pathname: string | null, view: string | null): Variant {
+function deriveVariant(pathname: string | null): Variant {
+  if (pathname?.startsWith("/stratum")) return "b";
+  // Atlas view keeps the page on variant A (cream parchment) — only the
+  // globe surface is dark. Swapping the whole body to variant C would make
+  // the page feel like a different product.
+  return "a";
+}
+
+function deriveActiveVariant(pathname: string | null, view: string | null): Variant {
   if (pathname?.startsWith("/stratum")) return "b";
   if (pathname === "/" && view === "map") return "c";
   return "a";
@@ -28,15 +36,19 @@ export function ChronographShell() {
   const router = useRouter();
   const view = searchParams.get("view");
 
-  const currentVariant = deriveVariant(pathname, view);
+  const bodyVariant = deriveVariant(pathname);
+  const activeVariant = deriveActiveVariant(pathname, view);
 
-  // Bind body class to variant (drives token swaps)
+  // Bind body class to the body-variant (drives token swaps for the page
+  // surrounding the active surface). The switcher highlights the *active*
+  // variant (which can be "c" when the globe is open even though the page
+  // shell stays on "a").
   useEffect(() => {
     const body = document.body;
     body.classList.remove("variant-a", "variant-b", "variant-c");
-    body.classList.add("variant-" + currentVariant);
-    setVariant(currentVariant);
-  }, [currentVariant, setVariant]);
+    body.classList.add("variant-" + bodyVariant);
+    setVariant(activeVariant);
+  }, [bodyVariant, activeVariant, setVariant]);
 
   const onMethodology = pathname?.startsWith("/methodology");
 
@@ -69,7 +81,7 @@ export function ChronographShell() {
             key={v.key}
             type="button"
             className={
-              "chronograph-variant" + (currentVariant === v.key ? " active" : "")
+              "chronograph-variant" + (activeVariant === v.key ? " active" : "")
             }
             onClick={() => router.push(v.href)}
           >
