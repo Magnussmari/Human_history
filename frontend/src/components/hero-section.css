@@ -1,0 +1,223 @@
+/* @provenance: BORG-PROVENANCE-STANDARD-2026-03
+ * @orchestrator: Magnus Smárason | smarason.is
+ * @created: 2026-04-18
+ */
+
+.notebook-hero {
+  position: relative;
+  padding: 80px 40px 64px;
+  min-height: auto;
+}
+
+.notebook-hero-inner {
+  position: relative;
+  max-width: 960px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 200px;
+  column-gap: 48px;
+  align-items: start;
+}
+
+@media (max-width: 960px) {
+  .notebook-hero-inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+.notebook-hero-eyebrow {
+  grid-column: 1;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--fg-2);
+  letter-spacing: 0.04em;
+}
+
+.notebook-hero-meta {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  color: var(--fg-mute);
+  text-transform: uppercase;
+}
+
+.notebook-hero-title {
+  grid-column: 1;
+  font-family: var(--font-display);
+  font-size: clamp(48px, 8vw, 96px);
+  font-weight: 500;
+  line-height: 0.98;
+  letter-spacing: -0.02em;
+  margin: 0 0 24px;
+  color: var(--fg);
+  max-width: 16ch;
+}
+
+.notebook-hero-title em {
+  display: block;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--fg-2);
+  font-size: 0.55em;
+  margin-top: 10px;
+  letter-spacing: -0.01em;
+}
+
+.notebook-hero-lede {
+  grid-column: 1;
+  font-family: var(--font-serif);
+  font-size: clamp(17px, 1.9vw, 19px);
+  line-height: 1.65;
+  color: var(--fg);
+  max-width: 52ch;
+  margin: 0 0 36px;
+}
+
+.notebook-hero-figure {
+  font-variant-numeric: tabular-nums oldstyle-nums;
+  color: var(--stamp);
+  font-weight: 500;
+}
+
+.notebook-hero-sidenote {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  border-left: 1px solid var(--rule);
+  padding: 4px 0 4px 18px;
+  align-self: start;
+  margin-top: 6px;
+}
+
+@media (max-width: 960px) {
+  .notebook-hero-sidenote {
+    grid-column: 1;
+    grid-row: auto;
+    border-left: 0;
+    border-top: 1px solid var(--rule);
+    padding: 16px 0 0;
+    margin: 0 0 28px;
+  }
+}
+
+.notebook-hero-sidenote-label {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--stamp);
+  margin-bottom: 8px;
+}
+
+.notebook-hero-sidenote p {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--fg-2);
+}
+
+.notebook-hero-stats {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px 40px;
+  border-top: 1.5px solid var(--fg);
+  border-bottom: 1px solid var(--rule);
+  padding: 20px 0 24px;
+  margin: 0 0 32px;
+}
+
+.notebook-hero-stat {
+  min-width: 0;
+  margin: 0;
+}
+
+.notebook-hero-stat dt {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--fg-mute);
+  margin-bottom: 6px;
+}
+
+.notebook-hero-stat dd {
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.notebook-hero-stat-num {
+  font-family: var(--font-display);
+  font-size: clamp(30px, 4vw, 42px);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--fg);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.notebook-hero-stat-unit {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  color: var(--fg-mute);
+  letter-spacing: 0.04em;
+}
+
+.notebook-hero-actions {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  font-family: var(--font-sans);
+}
+
+.notebook-hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  background: var(--fg);
+  color: var(--bg);
+  border: 0;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: transform .15s, background .15s;
+}
+
+.notebook-hero-cta:hover {
+  background: var(--stamp);
+  transform: translateY(-1px);
+}
+.notebook-hero-cta:active { transform: translateY(0); }
+
+.notebook-hero-link {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--fg-2);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 2px;
+  transition: color .15s, border-color .15s;
+}
+
+.notebook-hero-link:hover {
+  color: var(--stamp);
+  border-bottom-color: var(--stamp);
+}

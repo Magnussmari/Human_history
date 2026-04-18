@@ -1,23 +1,16 @@
+/* @provenance: BORG-PROVENANCE-STANDARD-2026-03
+ * @orchestrator: Magnus Smárason | smarason.is
+ * @created: 2026-04-18
+ */
 "use client";
 
-import Link from "next/link";
 import { useQuery } from "@tanstack/react-query";
 import { motion } from "motion/react";
-import { ChevronDown, BookOpen, ExternalLink } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import { fetchManifest, fetchProgress } from "@/lib/data";
 import { TOTAL_YEARS } from "@/lib/constants";
-import { ProgressRing } from "./ProgressRing";
 
-const stagger = {
-  container: {
-    hidden: {},
-    show: { transition: { staggerChildren: 0.12, delayChildren: 0.1 } },
-  },
-  item: {
-    hidden: { opacity: 0, y: 28 },
-    show: { opacity: 1, y: 0, transition: { type: "spring" as const, stiffness: 200, damping: 28 } },
-  },
-};
+import "./hero-section.css";
 
 interface HeroSectionProps {
   onExplore: () => void;
@@ -37,168 +30,104 @@ export function HeroSection({ onExplore }: HeroSectionProps) {
 
   const completed = progress?.completed?.length ?? 0;
   const totalEvents = manifest?.total_events ?? 0;
+  const range = manifest?.year_range;
+  const span = range ? range.newest - range.oldest : TOTAL_YEARS;
 
   return (
-    <section className="relative min-h-[100svh] flex flex-col items-center justify-center px-4 overflow-hidden">
-      {/* Background radial glow -- very subtle */}
-      <div
-        className="pointer-events-none absolute inset-0 z-0"
-        style={{
-          background: `radial-gradient(ellipse 70% 50% at 50% 35%, rgba(232,200,138,0.04) 0%, transparent 70%)`,
-        }}
-      />
-
+    <section className="notebook-hero" aria-labelledby="notebook-hero-title">
       <motion.div
-        variants={stagger.container}
-        initial="hidden"
-        animate="show"
-        className="relative z-10 text-center max-w-4xl mx-auto"
+        className="notebook-hero-inner"
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
       >
-        {/* Eyebrow */}
-        <motion.div variants={stagger.item} className="mb-6">
-          <span
-            className="inline-flex items-center gap-2 rounded-full border px-4 py-1.5 text-xs font-medium uppercase tracking-[0.2em]"
-            style={{
-              borderColor: "rgba(232,200,138,0.3)",
-              color: "var(--gold)",
-              background: "rgba(232,200,138,0.06)",
-            }}
-          >
-            <span className="h-1.5 w-1.5 rounded-full bg-current animate-pulse" />
-            AI-Generated Historical Record
+        <div className="notebook-hero-eyebrow">
+          <span className="notebook-stamp">Folio</span>
+          <span className="notebook-hero-meta">
+            Vol. I · {completed.toLocaleString()} of{" "}
+            {TOTAL_YEARS.toLocaleString()} entries filed
           </span>
-        </motion.div>
+        </div>
 
-        {/* Main heading */}
-        <motion.h1
-          variants={stagger.item}
-          className="glow-title text-4xl sm:text-7xl lg:text-9xl font-bold tracking-[-0.02em] leading-none mb-3"
-          style={{
-            fontFamily: "var(--font-heading), Georgia, serif",
-            color: "var(--gold)",
-          }}
-        >
-          ETERNAL
-        </motion.h1>
-        <motion.h1
-          variants={stagger.item}
-          className="text-4xl sm:text-7xl lg:text-9xl font-bold tracking-[-0.02em] leading-none mb-6"
-          style={{
-            fontFamily: "var(--font-heading), Georgia, serif",
-            color: "var(--foreground)",
-            opacity: 0.9,
-          }}
-        >
-          CODEX
-        </motion.h1>
+        <h1 id="notebook-hero-title" className="notebook-hero-title">
+          Human History
+          <em>according to AI</em>
+        </h1>
 
-        {/* Subtitle */}
-        <motion.p
-          variants={stagger.item}
-          className="text-lg sm:text-xl text-muted-foreground max-w-xl mx-auto mb-4 leading-relaxed"
-        >
-          Human History According to AI
-        </motion.p>
+        <p className="notebook-hero-lede">
+          A year-by-year editorial chronicle of{" "}
+          <span className="notebook-hero-figure">{span.toLocaleString()}</span>{" "}
+          years of human civilisation — from{" "}
+          {range ? yearLabel(range.oldest) : "3200 BCE"} to{" "}
+          {range ? yearLabel(range.newest) : "2025 CE"} — assembled by Claude
+          Sonnet under the ICCRA schema. Every entry carries its sources, its
+          certainty, and the gaps it couldn&apos;t fill.
+        </p>
 
-        {/* Description */}
-        <motion.p
-          variants={stagger.item}
-          className="text-sm text-muted-foreground/70 max-w-2xl mx-auto mb-10 leading-relaxed"
-        >
-          Every year from 2025 CE to 3200 BCE, researched year-by-year by Claude Sonnet using the
-          ICCRA schema. Structured JSON with events, sources, certainty levels, and cross-references.{" "}
+        <aside className="notebook-hero-sidenote">
+          <div className="notebook-hero-sidenote-label">Editor&apos;s note</div>
+          <p>
+            Read with the same scepticism you would bring to any secondary
+            source. The record is structured, sourced, and machine-readable —
+            it is not infallible.
+          </p>
+        </aside>
+
+        <dl className="notebook-hero-stats">
+          <div className="notebook-hero-stat">
+            <dt>Entries filed</dt>
+            <dd>
+              <span className="notebook-hero-stat-num">
+                {completed.toLocaleString()}
+              </span>
+              <span className="notebook-hero-stat-unit">
+                of {TOTAL_YEARS.toLocaleString()}
+              </span>
+            </dd>
+          </div>
+          <div className="notebook-hero-stat">
+            <dt>Events documented</dt>
+            <dd>
+              <span className="notebook-hero-stat-num">
+                {totalEvents.toLocaleString()}
+              </span>
+            </dd>
+          </div>
+          <div className="notebook-hero-stat">
+            <dt>Span</dt>
+            <dd>
+              <span className="notebook-hero-stat-num">
+                {span.toLocaleString()}
+              </span>
+              <span className="notebook-hero-stat-unit">years</span>
+            </dd>
+          </div>
+        </dl>
+
+        <div className="notebook-hero-actions">
+          <button
+            type="button"
+            onClick={onExplore}
+            className="notebook-hero-cta"
+          >
+            Open the folio
+            <ChevronDown size={14} aria-hidden="true" />
+          </button>
           <a
             href="https://github.com/Magnussmari/Human_history_Acording_to_AI"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline underline-offset-4 hover:text-primary transition-colors"
+            className="notebook-hero-link"
           >
-            Open source. Contribute.
+            Source &amp; corpus on GitHub ↗
           </a>
-        </motion.p>
-
-        {/* Progress Ring + Stats */}
-        <motion.div
-          variants={stagger.item}
-          className="flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-12 mb-10"
-        >
-          <ProgressRing size={100} strokeWidth={6} />
-
-          <div className="grid grid-cols-3 gap-4 sm:gap-6 text-center">
-            <div>
-              <div
-                className="text-3xl sm:text-4xl font-bold tabular-nums mb-1"
-                style={{ fontFamily: "var(--font-heading), serif", color: "var(--gold)" }}
-              >
-                {completed.toLocaleString()}
-              </div>
-              <div className="text-[11px] text-muted-foreground uppercase tracking-widest">
-                Years<br />Researched
-              </div>
-            </div>
-            <div>
-              <div
-                className="text-3xl sm:text-4xl font-bold tabular-nums mb-1"
-                style={{ fontFamily: "var(--font-heading), serif", color: "var(--gold)" }}
-              >
-                {totalEvents.toLocaleString()}
-              </div>
-              <div className="text-[11px] text-muted-foreground uppercase tracking-widest">
-                Events<br />Documented
-              </div>
-            </div>
-            <div>
-              <div
-                className="text-3xl sm:text-4xl font-bold tabular-nums mb-1"
-                style={{ fontFamily: "var(--font-heading), serif", color: "var(--gold)" }}
-              >
-                {TOTAL_YEARS.toLocaleString()}
-              </div>
-              <div className="text-[11px] text-muted-foreground uppercase tracking-widest">
-                Total Years<br />in Scope
-              </div>
-            </div>
-          </div>
-        </motion.div>
-
-        {/* CTA Buttons */}
-        <motion.div
-          variants={stagger.item}
-          className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-16"
-        >
-          <motion.button
-            onClick={onExplore}
-            className="gold-button rounded-lg px-8 py-3 text-sm font-semibold tracking-wide uppercase flex items-center gap-2"
-            whileHover={{ scale: 1.03 }}
-            whileTap={{ scale: 0.97 }}
-          >
-            <BookOpen size={15} />
-            Explore the Timeline
-          </motion.button>
-          <motion.a
-            href="https://github.com/Magnussmari/Human_history_Acording_to_AI"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 rounded-lg px-6 py-3 text-sm text-muted-foreground border border-border/50 hover:border-border hover:text-foreground transition-colors"
-            whileHover={{ scale: 1.03 }}
-            whileTap={{ scale: 0.97 }}
-          >
-            <ExternalLink size={15} />
-            Contribute on GitHub
-          </motion.a>
-        </motion.div>
-
-        {/* Scroll indicator */}
-        <motion.button
-          variants={stagger.item}
-          onClick={onExplore}
-          className="inline-flex flex-col items-center gap-2 text-muted-foreground/50 hover:text-muted-foreground transition-colors"
-          aria-label="Scroll to timeline"
-        >
-          <span className="text-[10px] uppercase tracking-[0.25em]">Scroll to explore</span>
-          <ChevronDown size={18} className="animate-chevron-bounce" />
-        </motion.button>
+        </div>
       </motion.div>
     </section>
   );
+}
+
+function yearLabel(y: number): string {
+  if (y < 0) return `${Math.abs(y).toLocaleString()} BCE`;
+  return `${y} CE`;
 }
