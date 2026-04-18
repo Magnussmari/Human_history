@@ -4,7 +4,7 @@
  */
 "use client";
 
-import { Suspense, useState, useMemo, useRef, useCallback } from "react";
+import { Suspense, useState, useMemo, useRef, useCallback, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { motion, AnimatePresence } from "motion/react";
 import { SlidersHorizontal } from "lucide-react";
@@ -59,6 +59,21 @@ function HomeInner() {
   const [showFilters, setShowFilters] = useState(false);
   const timelineSectionRef = useRef<HTMLDivElement>(null);
 
+  // Deep-links to /?view=map should not dump the user at the hero.
+  // Scrolling into view isn't enough because there's still ~400px of
+  // section chrome (view-toggle, filter button, era pills) between the
+  // section top and the globe canvas. Just hide the hero in map view.
+  const showHero = view !== "map";
+
+  useEffect(() => {
+    if (view === "map" && timelineSectionRef.current) {
+      timelineSectionRef.current.scrollIntoView({
+        behavior: "instant" as ScrollBehavior,
+        block: "start",
+      });
+    }
+  }, [view]);
+
   const { data: manifest } = useQuery({
     queryKey: ["manifest"],
     queryFn: fetchManifest,
@@ -104,64 +119,70 @@ function HomeInner() {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.4 }}
     >
-      <HeroSection onExplore={handleExplore} />
+      {showHero && <HeroSection onExplore={handleExplore} />}
 
       <section
         ref={timelineSectionRef}
-        className="mx-auto max-w-6xl px-5 sm:px-8 py-10 sm:py-16"
+        className={
+          view === "map"
+            ? "mx-auto max-w-6xl px-5 sm:px-8 py-4 sm:py-6"
+            : "mx-auto max-w-6xl px-5 sm:px-8 py-10 sm:py-16"
+        }
       >
-        <header className="notebook-section-head">
-          <span
-            className="notebook-section-num"
-            style={{
-              fontFamily: "var(--font-mono)",
-              fontSize: "var(--notebook-text-meta)",
-              color: "var(--stamp)",
-              letterSpacing: "0.14em",
-              fontWeight: 700,
-              textTransform: "uppercase",
-            }}
-          >
-            § Timeline
-          </span>
-          <h2
-            style={{
-              fontFamily: "var(--font-display)",
-              fontSize: "clamp(28px, 4vw, 38px)",
-              fontWeight: 500,
-              letterSpacing: "-0.01em",
-              color: "var(--fg)",
-              margin: "4px 0 6px",
-            }}
-          >
-            The folio, chronologically
-          </h2>
-          <p
-            style={{
-              fontFamily: "var(--font-sans)",
-              fontSize: 14,
-              color: "var(--fg-mute)",
-              margin: 0,
-              letterSpacing: "0.04em",
-            }}
-          >
-            {filteredYears.length.toLocaleString()} entr
-            {filteredYears.length === 1 ? "y" : "ies"} displayed
-            {activeEra && ` · ${activeEra} era`}
-            {filters.search && ` · matching "${filters.search}"`}
-          </p>
-          <span
-            className="notebook-rule notebook-section-rule"
-            style={{
-              display: "block",
-              height: 1,
-              background: "var(--rule)",
-              marginTop: 18,
-            }}
-          />
-        </header>
+        {view !== "map" && (
+          <header className="notebook-section-head">
+            <span
+              className="notebook-section-num"
+              style={{
+                fontFamily: "var(--font-mono)",
+                fontSize: "var(--notebook-text-meta)",
+                color: "var(--stamp)",
+                letterSpacing: "0.14em",
+                fontWeight: 700,
+                textTransform: "uppercase",
+              }}
+            >
+              § Timeline
+            </span>
+            <h2
+              style={{
+                fontFamily: "var(--font-display)",
+                fontSize: "clamp(28px, 4vw, 38px)",
+                fontWeight: 500,
+                letterSpacing: "-0.01em",
+                color: "var(--fg)",
+                margin: "4px 0 6px",
+              }}
+            >
+              The folio, chronologically
+            </h2>
+            <p
+              style={{
+                fontFamily: "var(--font-sans)",
+                fontSize: 14,
+                color: "var(--fg-mute)",
+                margin: 0,
+                letterSpacing: "0.04em",
+              }}
+            >
+              {filteredYears.length.toLocaleString()} entr
+              {filteredYears.length === 1 ? "y" : "ies"} displayed
+              {activeEra && ` · ${activeEra} era`}
+              {filters.search && ` · matching "${filters.search}"`}
+            </p>
+            <span
+              className="notebook-rule notebook-section-rule"
+              style={{
+                display: "block",
+                height: 1,
+                background: "var(--rule)",
+                marginTop: 18,
+              }}
+            />
+          </header>
+        )}
 
-        <div className="flex items-center gap-3 mt-6 mb-6 flex-wrap">
+        <div className={view === "map" ? "flex items-center gap-3 mb-4 flex-wrap" : "flex items-center gap-3 mt-6 mb-6 flex-wrap"}>
           <SearchCommand years={years ?? []} />
 
           <motion.button
@@ -198,6 +219,7 @@ function HomeInner() {
           </div>
         </div>
 
+        {view !== "map" && (
         <div className="flex gap-2 flex-wrap pb-3 mb-5">
           <EraPill
             active={activeEra === null}
@@ -220,6 +242,7 @@ function HomeInner() {
             </EraPill>
           ))}
         </div>
+        )}
 
         {eraIndex && view === "timeline" && (
           <ScholarlyEraPillRow index={eraIndex} activeBroadEra={activeEra} />
