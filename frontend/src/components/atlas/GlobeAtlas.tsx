@@ -157,15 +157,23 @@ function resolveToRgba(color: string, alpha: number): string {
 // ------------------------------------------------------------------
 // Rotation hook — smooth drag + auto-center target
 // ------------------------------------------------------------------
-function useRotation(targetLonLat: [number, number] | null, autoSpin: boolean) {
+function useRotation(
+  targetLonLat: [number, number] | null,
+  autoSpin: boolean,
+  drawRef: React.MutableRefObject<(() => void) | null>,
+) {
+  // rot state = the "settled" rotation. React only re-renders the SVG
+  // overlay + HUD when rotation stops moving, so clusters/pins aren't
+  // recomputed 60 times a second. rotRef = the live rotation, read by
+  // the imperative canvas draw every RAF frame.
   const [rot, setRot] = useState<Rotation>([20, -15, 0]);
   const rotRef = useRef<Rotation>(rot);
   const targetRef = useRef<Rotation | null>(null);
   const draggingRef = useRef(false);
 
-  useEffect(() => {
-    rotRef.current = rot;
-  }, [rot]);
+  const commit = useCallback(() => {
+    setRot([rotRef.current[0], rotRef.current[1], rotRef.current[2]]);
+  }, []);
 
   const targetLon = targetLonLat?.[0] ?? null;
   const targetLat = targetLonLat?.[1] ?? null;
@@ -187,6 +195,7 @@ function useRotation(targetLonLat: [number, number] | null, autoSpin: boolean) {
         let l = rotRef.current[0];
         let p = rotRef.current[1];
         const g = rotRef.current[2];
+        let moved = false;
         if (targetRef.current) {
           const [tl, tp] = targetRef.current;
           const dl = ((tl - l + 540) % 360) - 180;
@@ -194,34 +203,55 @@ function useRotation(targetLonLat: [number, number] | null, autoSpin: boolean) {
           const speed = 0.007 * dt;
           if (Math.abs(dl) < 0.04 && Math.abs(dp) < 0.04) {
             targetRef.current = null;
+            commit(); // snap SVG overlay to final position
           } else {
             l += dl * speed;
             p += dp * speed;
             rotRef.current = [l, p, g];
-            setRot([l, p, g]);
+            moved = true;
           }
         } else if (autoSpin) {
           l += 0.035 * dt;
           rotRef.current = [l, p, g];
-          setRot([l, p, g]);
+          moved = true;
         }
+        if (moved) drawRef.current?.();
       }
       raf = requestAnimationFrame(tick);
     };
     raf = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(raf);
-  }, [autoSpin]);
+  }, [autoSpin, drawRef, commit]);
 
-  const setDragging = useCallback((v: boolean) => {
-    draggingRef.current = v;
-  }, []);
+  const setDragging = useCallback(
+    (v: boolean) => {
+      draggingRef.current = v;
+      if (!v) commit();
+    },
+    [commit],
+  );
 
-  const setAbsolute = useCallback((l: number, p: number) => {
-    const np = Math.max(-85, Math.min(85, p));
-    rotRef.current = [l, np, 0];
-    setRot([l, np, 0]);
-    targetRef.current = null;
-  }, []);
+  const setAbsolute = useCallback(
+    (l: number, p: number) => {
+      const np = Math.max(-85, Math.min(85, p));
+      rotRef.current = [l, np, 0];
+      setRot([l, np, 0]);
+      targetRef.current = null;
+    },
+    [],
+  );
+
+  // Used during active drag: update rotation ref and redraw imperatively
+  // without triggering React re-render.
+  const setImperative = useCallback(
+    (l: number, p: number) => {
+      const np = Math.max(-85, Math.min(85, p));
+      rotRef.current = [l, np, 0];
+      targetRef.current = null;
+      drawRef.current?.();
+    },
+    [drawRef],
+  );
 
   const nudge = useCallback(
     (dl: number, dp: number) => {
@@ -231,7 +261,7 @@ function useRotation(targetLonLat: [number, number] | null, autoSpin: boolean) {
     [setAbsolute],
   );
 
-  return { rot, setDragging, setAbsolute, nudge };
+  return { rot, rotRef, setDragging, setAbsolute, setImperative, nudge };
 }
 
 // ------------------------------------------------------------------
@@ -427,8 +457,16 @@ function Globe({
 
   const accentColor = useCssColor("--gs-accent");
 
+  // drawRef holds the imperative draw function; useRotation's RAF loop
+  // calls it. Populated by a useEffect below (see "imperative draw").
+  const drawRef = useRef<(() => void) | null>(null);
+
   const selectedLL = selected ? ([selected.lon, selected.lat] as [number, number]) : null;
-  const { rot, setDragging, setAbsolute, nudge } = useRotation(selectedLL, autoSpin);
+  const { rot, rotRef, setDragging, setAbsolute, setImperative, nudge } = useRotation(
+    selectedLL,
+    autoSpin,
+    drawRef,
+  );
 
   useEffect(() => {
     if (!wrapRef.current) return;
@@ -446,16 +484,6 @@ function Globe({
     return Math.max(80, baseR * zoom);
   }, [size.w, size.h, zoom]);
 
-  const projection = useMemo(
-    () =>
-      geoOrthographic()
-        .scale(R)
-        .translate([size.w / 2, size.h / 2])
-        .rotate(rot)
-        .clipAngle(90),
-    [R, size.w, size.h, rot],
-  );
-
   const renderMode: RenderMode = useMemo(() => {
     const n = filtered.length;
     if (zoom >= 2.6) return "pin";
@@ -463,9 +491,17 @@ function Globe({
     return "heat";
   }, [filtered.length, zoom]);
 
+  // Project + cluster for the SETTLED rot state — used by SVG overlay +
+  // hover hit-test. Regenerated only when rot state changes (= on drag end,
+  // target reached, manual nudge), not on every autospin/drag tick.
   const rotLon = rot[0];
   const rotLat = rot[1];
   const projected: Projected[] = useMemo(() => {
+    const projection = geoOrthographic()
+      .scale(R)
+      .translate([size.w / 2, size.h / 2])
+      .rotate(rot)
+      .clipAngle(90);
     const center: [number, number] = [-rotLon, -rotLat];
     const HALF_PI = Math.PI / 2;
     const out: Projected[] = [];
@@ -478,7 +514,7 @@ function Globe({
       out.push({ ev: e, x: p[0], y: p[1], z });
     }
     return out;
-  }, [filtered, projection, rotLon, rotLat]);
+  }, [filtered, R, size.w, size.h, rotLon, rotLat, rot]);
 
   const clusters: Cluster[] = useMemo(() => {
     if (renderMode === "pin") {
@@ -520,17 +556,33 @@ function Globe({
     });
   }, [projected, renderMode]);
 
-  // Canvas draw
-  useEffect(() => {
+  // Imperative draw — reads rotRef each call, re-projects all visible events,
+  // paints canvas. Called by the RAF loop (during autospin/target animation)
+  // and by the pointerMove drag handler, without touching React state.
+  const drawCanvas = useCallback(() => {
     const canvas = canvasRef.current;
     if (!canvas || !land) return;
-    const dpr = window.devicePixelRatio || 1;
-    canvas.width = size.w * dpr;
-    canvas.height = size.h * dpr;
-    canvas.style.width = size.w + "px";
-    canvas.style.height = size.h + "px";
+
+    const currentRot = rotRef.current;
+    const projection = geoOrthographic()
+      .scale(R)
+      .translate([size.w / 2, size.h / 2])
+      .rotate(currentRot)
+      .clipAngle(90);
+
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
+
+    // Resize canvas to DPR when needed (once per size change, not per frame).
+    const dpr = window.devicePixelRatio || 1;
+    const neededW = Math.round(size.w * dpr);
+    const neededH = Math.round(size.h * dpr);
+    if (canvas.width !== neededW || canvas.height !== neededH) {
+      canvas.width = neededW;
+      canvas.height = neededH;
+      canvas.style.width = size.w + "px";
+      canvas.style.height = size.h + "px";
+    }
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     ctx.clearRect(0, 0, size.w, size.h);
 
@@ -587,17 +639,22 @@ function Globe({
     ctx.strokeStyle = "rgba(235, 245, 250, 0.55)";
     ctx.stroke();
 
-    // dot density at heat zoom
-    if (renderMode === "heat") {
-      for (const p of projected) {
-        const t = Math.min(1, p.z * 2.2);
-        const edgeFade = t * t;
-        if (edgeFade < 0.06) continue;
-        ctx.fillStyle = catColor(p.ev.cat, 0.85 * edgeFade);
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, 1.4, 0, Math.PI * 2);
-        ctx.fill();
-      }
+    // In all modes, draw small category-tinted dots so the sphere stays
+    // populated during drag (without relying on SVG overlay updates).
+    const center: [number, number] = [-currentRot[0], -currentRot[1]];
+    const HALF_PI = Math.PI / 2;
+    for (const e of filtered) {
+      const dist = geoDistance([e.lon, e.lat], center);
+      if (dist >= HALF_PI - 0.02) continue;
+      const pt = projection([e.lon, e.lat]);
+      if (!pt || Number.isNaN(pt[0]) || Number.isNaN(pt[1])) continue;
+      const z = 1 - dist / HALF_PI;
+      const edgeFade = Math.min(1, z * 2.2) ** 2;
+      if (edgeFade < 0.06) continue;
+      ctx.fillStyle = catColor(e.cat, 0.85 * edgeFade);
+      ctx.beginPath();
+      ctx.arc(pt[0], pt[1], 1.4, 0, Math.PI * 2);
+      ctx.fill();
     }
 
     // sphere highlight / shadow
@@ -617,7 +674,15 @@ function Globe({
     ctx.strokeStyle = accentColor(0.35);
     ctx.lineWidth = 1;
     ctx.stroke();
-  }, [land, projection, R, size.w, size.h, projected, renderMode, accentColor]);
+  }, [land, filtered, R, size.w, size.h, accentColor, rotRef]);
+
+  // Keep drawRef pointing at the latest drawCanvas so the RAF loop inside
+  // useRotation always calls the up-to-date projection.
+  useEffect(() => {
+    drawRef.current = drawCanvas;
+    // Paint once whenever dependencies (size, filtered, land, zoom) change.
+    drawCanvas();
+  }, [drawCanvas]);
 
   // Pointer interactions
   const dragRef = useRef<{ x: number; y: number; rot: Rotation; moved: number } | null>(null);
@@ -626,6 +691,7 @@ function Globe({
     dragRef.current = { x: e.clientX, y: e.clientY, rot: [...rot] as Rotation, moved: 0 };
     setDragging(true);
   };
+  const hoverRafRef = useRef(0);
   const pointerMove = (e: ReactPointerEvent<HTMLCanvasElement>) => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -639,19 +705,27 @@ function Globe({
       const k = 0.35 / zoom;
       // d3-geo orthographic: viewer center = [-rot[0], -rot[1]]. Drag right
       // should reveal east (higher lon), drag down should reveal south.
-      setAbsolute(dragRef.current.rot[0] - dx * k, dragRef.current.rot[1] + dy * k);
+      // Use imperative setter — updates rotRef + redraws canvas without a
+      // React re-render. React catches up on pointerup via setDragging(false).
+      setImperative(dragRef.current.rot[0] - dx * k, dragRef.current.rot[1] + dy * k);
       return;
     }
-    let best: Cluster | null = null;
-    let bestD = 22;
-    for (const c of clusters) {
-      const d = Math.hypot(c.x - mx, c.y - my);
-      if (d < bestD) {
-        bestD = d;
-        best = c;
+    // Throttle hover scan to ~1 per animation frame. With 1000s of clusters
+    // Math.hypot on every mousemove was causing jank.
+    if (hoverRafRef.current) return;
+    hoverRafRef.current = requestAnimationFrame(() => {
+      hoverRafRef.current = 0;
+      let best: Cluster | null = null;
+      let bestD = 22;
+      for (const c of clusters) {
+        const d = Math.hypot(c.x - mx, c.y - my);
+        if (d < bestD) {
+          bestD = d;
+          best = c;
+        }
       }
-    }
-    setHover(best ? { x: mx, y: my, target: best } : null);
+      setHover(best ? { x: mx, y: my, target: best } : null);
+    });
   };
   const pointerUp = () => {
     const wasDragging = dragRef.current;
