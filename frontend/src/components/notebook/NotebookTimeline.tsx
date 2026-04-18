@@ -35,7 +35,12 @@ export function NotebookTimeline({ years, isLoading }: NotebookTimelineProps) {
   useEffect(() => {
     const update = () => {
       if (containerRef.current) {
-        setScrollMargin(containerRef.current.offsetTop);
+        // Use document-relative offset, NOT offsetTop (which is relative to
+        // the nearest positioned ancestor). With a hero + filter row +
+        // era-pill row above the timeline, offsetTop miscounts and the
+        // virtualizer places rows ~500px too low, leaving a huge blank band.
+        const rect = containerRef.current.getBoundingClientRect();
+        setScrollMargin(rect.top + window.scrollY);
       }
     };
     update();
