@@ -3,6 +3,7 @@
  * @created: 2026-04-18
  */
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { Newsreader, Inter_Tight, IBM_Plex_Mono } from "next/font/google";
 import { Providers } from "@/lib/providers";
 import { Toaster } from "sonner";
@@ -49,6 +50,16 @@ export const metadata: Metadata = {
   },
 };
 
+function ShellFallback() {
+  return (
+    <header
+      className="chronograph-chrome"
+      aria-hidden="true"
+      style={{ minHeight: 54 }}
+    />
+  );
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -64,7 +75,9 @@ export default function RootLayout({
       <body className="variant-a min-h-full flex flex-col">
         <Providers>
           <VariantProvider>
-            <ChronographShell />
+            <Suspense fallback={<ShellFallback />}>
+              <ChronographShell />
+            </Suspense>
             <main className="flex-1">{children}</main>
             <ChronographFooter />
           </VariantProvider>

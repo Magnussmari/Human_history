@@ -6,25 +6,37 @@
 
 import Link from "next/link";
 import { useEffect } from "react";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useVariant, type Variant } from "./VariantContext";
 
-const VARIANTS: { key: Variant; label: string }[] = [
-  { key: "a", label: "Notebook" },
-  { key: "b", label: "Stratum" },
-  { key: "c", label: "Atlas" },
+const VARIANTS: { key: Variant; label: string; href: string }[] = [
+  { key: "a", label: "Notebook", href: "/" },
+  { key: "b", label: "Stratum", href: "/stratum" },
+  { key: "c", label: "Atlas", href: "/?view=map" },
 ];
 
-export function ChronographShell() {
-  const { variant, setVariant } = useVariant();
-  const pathname = usePathname();
+function deriveVariant(pathname: string | null, view: string | null): Variant {
+  if (pathname?.startsWith("/stratum")) return "b";
+  if (pathname === "/" && view === "map") return "c";
+  return "a";
+}
 
-  // Bind body class to variant
+export function ChronographShell() {
+  const { setVariant } = useVariant();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const view = searchParams.get("view");
+
+  const currentVariant = deriveVariant(pathname, view);
+
+  // Bind body class to variant (drives token swaps)
   useEffect(() => {
     const body = document.body;
     body.classList.remove("variant-a", "variant-b", "variant-c");
-    body.classList.add("variant-" + variant);
-  }, [variant]);
+    body.classList.add("variant-" + currentVariant);
+    setVariant(currentVariant);
+  }, [currentVariant, setVariant]);
 
   const onMethodology = pathname?.startsWith("/methodology");
 
@@ -56,8 +68,10 @@ export function ChronographShell() {
           <button
             key={v.key}
             type="button"
-            className={"chronograph-variant" + (variant === v.key ? " active" : "")}
-            onClick={() => setVariant(v.key)}
+            className={
+              "chronograph-variant" + (currentVariant === v.key ? " active" : "")
+            }
+            onClick={() => router.push(v.href)}
           >
             {v.label}
           </button>

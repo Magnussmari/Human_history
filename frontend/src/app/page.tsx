@@ -4,10 +4,11 @@
  */
 "use client";
 
-import { useState, useMemo, useRef, useCallback } from "react";
+import { Suspense, useState, useMemo, useRef, useCallback, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { motion, AnimatePresence } from "motion/react";
 import { SlidersHorizontal } from "lucide-react";
+import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import {
   fetchManifest,
   fetchAllYears,
@@ -26,11 +27,42 @@ import { ScholarlyEraPillRow } from "@/components/ScholarlyEraPillRow";
 import { GlobeAtlas } from "@/components/atlas/GlobeAtlas";
 
 export default function HomePage() {
+  return (
+    <Suspense fallback={null}>
+      <HomeInner />
+    </Suspense>
+  );
+}
+
+function HomeInner() {
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const urlView = searchParams.get("view");
+  const initialView: ViewMode = urlView === "map" ? "map" : "timeline";
+
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
   const [activeEra, setActiveEra] = useState<string | null>(null);
   const [showFilters, setShowFilters] = useState(false);
-  const [view, setView] = useState<ViewMode>("timeline");
+  const [view, setView] = useState<ViewMode>(initialView);
   const timelineSectionRef = useRef<HTMLDivElement>(null);
+
+  // Keep URL in sync with view toggle (so the shell's Atlas button works)
+  useEffect(() => {
+    const current = searchParams.get("view");
+    if (view === "map" && current !== "map") {
+      router.replace(`${pathname}?view=map`, { scroll: false });
+    } else if (view === "timeline" && current === "map") {
+      router.replace(pathname, { scroll: false });
+    }
+  }, [view, pathname, router, searchParams]);
+
+  // React to external URL changes (variant switcher)
+  useEffect(() => {
+    if (urlView === "map" && view !== "map") setView("map");
+    if (urlView !== "map" && view === "map") setView("timeline");
+  }, [urlView, view]);
 
   const { data: manifest } = useQuery({
     queryKey: ["manifest"],
