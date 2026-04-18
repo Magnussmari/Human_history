@@ -24,8 +24,7 @@ const OUT_DIR = path.join(REPO_ROOT, "frontend/public/data/eras");
 // ─── Schema validation ──────────────────────────────────────────────────────
 
 const ajv = new Ajv({ strict: false, allErrors: true });
-const schema = JSON.parse(fs.readFileSync(SCHEMA_PATH, "utf8"));
-const validateSchema = ajv.compile(schema);
+let validateSchema = null;
 
 // ─── Helpers ────────────────────────────────────────────────────────────────
 
@@ -337,7 +336,19 @@ function parseValorMap(raw) {
 // ─── Main ───────────────────────────────────────────────────────────────────
 
 function main() {
+  // Source data lives in evidence-layer/ at the repo root. On Vercel the
+  // directory is absent (it's awaiting commander review), but the aggregated
+  // outputs in frontend/public/data/eras/ are committed. No-op gracefully so
+  // the production build can use the committed JSON as-is.
+  if (!fs.existsSync(EVIDENCE_ROOT)) {
+    console.log("evidence-layer/ not present — using committed eras/ as-is.");
+    return;
+  }
+
   ensureDir(OUT_DIR);
+
+  const schema = JSON.parse(fs.readFileSync(SCHEMA_PATH, "utf8"));
+  validateSchema = ajv.compile(schema);
 
   // Load shared assets
   const bibliography = fs.existsSync(BIB_PATH) ? parseBibtex(fs.readFileSync(BIB_PATH, "utf8")) : {};
