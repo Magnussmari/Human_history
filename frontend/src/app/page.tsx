@@ -9,7 +9,7 @@ import { fetchEraIndex } from "@/lib/evidence";
 import type { FilterState } from "@/lib/data";
 import { ERAS } from "@/lib/constants";
 import { HeroSection } from "@/components/HeroSection";
-import { TimelineView } from "@/components/TimelineView";
+import { NotebookTimeline } from "@/components/notebook/NotebookTimeline";
 import { SearchCommand } from "@/components/SearchCommand";
 import { FilterPanel } from "@/components/FilterPanel";
 import { ViewToggle, type ViewMode } from "@/components/ViewToggle";
@@ -164,7 +164,7 @@ export default function HomePage() {
               exit={{ opacity: 0, y: -12 }}
               transition={{ duration: 0.25, type: "spring", stiffness: 300, damping: 30 }}
             >
-              <TimelineView years={filteredYears} isLoading={isLoading} />
+              <NotebookTimeline years={filteredYears} isLoading={isLoading} />
             </motion.div>
           ) : view === "map" ? (
             <motion.div

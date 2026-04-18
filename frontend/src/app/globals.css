@@ -81,6 +81,19 @@
   --cert-probable:   #3a4a6b;
   --cert-confirmed:  #2a5237;
 
+  /* Category accents — muted, editorial, readable on parchment */
+  --cat-political:      #3a4a6b;
+  --cat-military:       #8a2b22;
+  --cat-scientific:     #3e6b74;
+  --cat-cultural:       #65487a;
+  --cat-economic:       #486b4a;
+  --cat-demographic:    #7b5e3f;
+  --cat-technological:  #4a6b87;
+  --cat-religious:      #8a6434;
+  --cat-environmental:  #4c6a3d;
+  --cat-exploration:    #70545c;
+  --cat-legal:          #4c4f6b;
+
   /* structure */
   --radius: 4px;
   --maxw-reading: 900px;
@@ -164,6 +177,18 @@ body.variant-b {
   --stamp-soft:    oklch(0.82 0.17 var(--accent-h) / 0.18);
   --leaf:          oklch(0.78 0.12 220);
 
+  --cat-political:      oklch(0.72 0.14 250);
+  --cat-military:       oklch(0.68 0.20 25);
+  --cat-scientific:     oklch(0.78 0.12 200);
+  --cat-cultural:       oklch(0.72 0.16 300);
+  --cat-economic:       oklch(0.76 0.14 165);
+  --cat-demographic:    oklch(0.78 0.10 180);
+  --cat-technological:  oklch(0.76 0.12 215);
+  --cat-religious:      oklch(0.76 0.14 55);
+  --cat-environmental:  oklch(0.76 0.14 145);
+  --cat-exploration:    oklch(0.70 0.16 280);
+  --cat-legal:          oklch(0.70 0.06 240);
+
   --background: var(--bg);
   --foreground: var(--fg);
   --border: var(--rule);
@@ -204,6 +229,18 @@ body.variant-c {
   --stamp:         var(--accent);
   --stamp-soft:    oklch(0.78 0.12 var(--accent-h) / 0.16);
   --leaf:          #33474f;
+
+  --cat-political:      #f0a878;
+  --cat-military:       #e06666;
+  --cat-scientific:     #7dcdd4;
+  --cat-cultural:       #b88cd1;
+  --cat-economic:       #8fc6a8;
+  --cat-demographic:    #c9a78f;
+  --cat-technological:  #6fb0c9;
+  --cat-religious:      #d4b483;
+  --cat-environmental:  #86a968;
+  --cat-exploration:    #d9a0a0;
+  --cat-legal:          #9c9ec6;
 
   --background: var(--bg);
   --foreground: var(--fg);
