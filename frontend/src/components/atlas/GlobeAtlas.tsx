@@ -637,7 +637,9 @@ function Globe({
       const dy = e.clientY - dragRef.current.y;
       dragRef.current.moved = Math.hypot(dx, dy);
       const k = 0.35 / zoom;
-      setAbsolute(dragRef.current.rot[0] + dx * k, dragRef.current.rot[1] + dy * k);
+      // d3-geo orthographic: viewer center = [-rot[0], -rot[1]]. Drag right
+      // should reveal east (higher lon), drag down should reveal south.
+      setAbsolute(dragRef.current.rot[0] - dx * k, dragRef.current.rot[1] + dy * k);
       return;
     }
     let best: Cluster | null = null;
