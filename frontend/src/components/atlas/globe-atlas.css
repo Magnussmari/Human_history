@@ -12,12 +12,15 @@
   --gs-bg: #06090d;
   --gs-bg-2: #0b1116;
   --gs-panel: #10171e;
-  --gs-rule: #1d2830;
-  --gs-fg: #e7e3d6;
-  --gs-fg-2: #a3a598;
-  --gs-fg-mute: #6a7180;
-  --gs-accent: #f0a878;
-  --gs-accent-dim: rgba(240, 168, 120, 0.22);
+  --gs-rule: #2a3844;
+  /* Raised contrast: on the dark panel, #6a7180 meta text fell below
+     WCAG AA (3.1:1). fg-mute bumped to #b4bac6 (7.5:1), fg-2 to #d5d2c6
+     (11:1), fg-secondary remains cream. All meta labels now legible. */
+  --gs-fg: #f2efe3;
+  --gs-fg-2: #d5d2c6;
+  --gs-fg-mute: #b4bac6;
+  --gs-accent: #f5b58a;
+  --gs-accent-dim: rgba(245, 181, 138, 0.3);
   --gs-font-body: var(--font-sans), "Inter Tight", ui-sans-serif, system-ui, sans-serif;
   --gs-font-display: var(--font-display), "Newsreader", Georgia, serif;
   --gs-font-mono: var(--font-mono), "JetBrains Mono", ui-monospace, monospace;
@@ -208,7 +211,21 @@
   backdrop-filter: blur(10px);
   font-family: var(--gs-font-mono); font-size: var(--notebook-text-small);
   letter-spacing: 0.04em;
-  max-width: 280px;
+  max-width: 320px;
+}
+.gs-legend-rule {
+  height: 1px;
+  background: var(--gs-rule);
+  margin: 8px 0 6px;
+}
+.gs-legend-offearth {
+  display: flex !important;
+  width: 100%;
+  padding: 4px 0 !important;
+}
+.gs-legend-offearth:not(.off) .gs-legend-swatch {
+  background: var(--gs-accent) !important;
+  border-color: var(--gs-accent) !important;
 }
 .gs-legend-title { color: var(--gs-fg-mute); text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 6px; }
 .gs-legend-grid {

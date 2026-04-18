@@ -34,6 +34,26 @@ interface FlatEvent {
   title: string;
   region: string;
   description: string;
+  /** Event is off-Earth / orbital / lunar / Martian — the terrestrial lat/lon
+   * was filled in by the AI at a launch site, splashdown point, or ground
+   * station, but the EVENT itself isn't a terrestrial location. Hidden
+   * from the globe by default. */
+  offEarth: boolean;
+}
+
+/** Detect space / orbital / planetary events by keyword signal in the
+ * title + region + description. The ICCRA schema is locked so we can't add
+ * a corpus-level flag — this is a derived UI classification. */
+const SPACE_KEYWORD_RE =
+  /\b(orbit|orbital|outer\s*space|spaceflight|space\s*station|space\s*race|spacecraft|space\s*shuttle|space\s*telescope|satellite|sputnik|iss\b|mir\b|skylab|apollo\s*\d|gemini\s*\d|mercury\s*(program|capsule)|vostok|soyuz|artemis\s*(i|1|ii|2|iii)|voyager|viking|curiosity\s*rover|perseverance|mars\s*(rover|lander|mission)|lunar\s*(lander|orbiter|surface|mission)|moon\s*landing|moonshot|hubble|jwst|james\s*webb|starlink|falcon\s*(9|heavy)|spacex|cosmonaut|astronaut\s*(walked|stepped|landed)|geostationary|heliocentric|interplanetary|extravehicular)\b/i;
+
+function detectOffEarth(ev: HistoryEvent): boolean {
+  const blob = `${ev.title} ${ev.region} ${ev.description ?? ""}`;
+  if (SPACE_KEYWORD_RE.test(blob)) return true;
+  // Region string literally names space
+  const r = ev.region.toLowerCase();
+  if (/\b(orbit|space|moon|lunar|mars|venus|jupiter)\b/.test(r)) return true;
+  return false;
 }
 
 interface Projected {
@@ -101,6 +121,7 @@ function flattenEvents(years: YearData[]): FlatEvent[] {
         title: ev.title,
         region: ev.region,
         description: ev.description,
+        offEarth: detectOffEarth(ev),
       });
     }
   }
@@ -427,6 +448,9 @@ interface GlobeProps {
   setSelected: (e: FlatEvent | null) => void;
   autoSpin: boolean;
   setAutoSpin: (u: (prev: boolean) => boolean) => void;
+  showOffEarth: boolean;
+  setShowOffEarth: (u: (prev: boolean) => boolean) => void;
+  offEarthCount: number;
 }
 
 type RenderMode = "heat" | "cluster" | "pin";
@@ -440,6 +464,9 @@ function Globe({
   setSelected,
   autoSpin,
   setAutoSpin,
+  showOffEarth,
+  setShowOffEarth,
+  offEarthCount,
 }: GlobeProps) {
   const wrapRef = useRef<HTMLDivElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -936,6 +963,35 @@ function Globe({
               </button>
             ))}
           </div>
+
+          <div className="gs-legend-rule" />
+          <button
+            type="button"
+            className={"gs-legend-item gs-legend-offearth" + (showOffEarth ? "" : " off")}
+            onClick={() => setShowOffEarth((v) => !v)}
+            title="Orbital / lunar / planetary events use launch-site or splashdown coordinates; their lat/lon is not a terrestrial location."
+          >
+            <span
+              className="gs-legend-swatch"
+              style={{
+                background: "transparent",
+                border: "1.5px solid var(--gs-fg-2)",
+                borderRadius: "50%",
+              }}
+            />
+            <span>
+              Off-Earth &amp; orbital
+              <span
+                style={{
+                  marginLeft: 6,
+                  color: "var(--gs-fg-mute)",
+                  fontWeight: 500,
+                }}
+              >
+                · {offEarthCount.toLocaleString()} {showOffEarth ? "shown" : "hidden"}
+              </span>
+            </span>
+          </button>
         </div>
       </div>
 
@@ -1020,7 +1076,7 @@ function Rail({
           <h2 className="gs-rail-title">Select an event</h2>
         </div>
         <div className="gs-rail-body">
-          <p style={{ color: "var(--gs-fg-2)", fontSize: 14, lineHeight: 1.6, margin: 0 }}>
+          <p style={{ color: "var(--gs-fg)", fontSize: 14, lineHeight: 1.7, margin: 0 }}>
             Tap any dot or cluster. At low zoom you&apos;ll see density blooms across the sphere;
             zoom in or click a cluster to drill into individual events.
           </p>
@@ -1075,7 +1131,15 @@ function Rail({
         </div>
 
         {selected.description && (
-          <p style={{ color: "var(--gs-fg-2)", fontSize: 14, lineHeight: 1.55, marginTop: 14 }}>
+          <p
+            style={{
+              color: "var(--gs-fg)",
+              fontSize: 15,
+              lineHeight: 1.7,
+              marginTop: 16,
+              fontFamily: "var(--gs-font-display)",
+            }}
+          >
             {selected.description}
           </p>
         )}
@@ -1161,6 +1225,15 @@ export function GlobeAtlas({ years, yearRange }: GlobeAtlasProps) {
   const [categories, setCategories] = useState<Partial<Record<EventCategory, boolean>>>({});
   const [selected, setSelected] = useState<FlatEvent | null>(null);
   const [autoSpin, setAutoSpin] = useState(false);
+  // Off-Earth (orbital / lunar / planetary) events default OFF because their
+  // lat/lon is a launch site or splashdown point, not the actual event.
+  // Dots for Apollo 11 shouldn't bloom over mid-Pacific coordinates.
+  const [showOffEarth, setShowOffEarth] = useState(false);
+
+  const offEarthCount = useMemo(
+    () => allEvents.reduce((n, e) => n + (e.offEarth ? 1 : 0), 0),
+    [allEvents],
+  );
 
   // Clamp window in render so it never exceeds the corpus bounds
   const clampedWindow = useMemo<[number, number]>(
@@ -1174,9 +1247,13 @@ export function GlobeAtlas({ years, yearRange }: GlobeAtlasProps) {
   const filtered = useMemo(
     () =>
       allEvents.filter(
-        (e) => e.y >= clampedWindow[0] && e.y <= clampedWindow[1] && categories[e.cat] !== false,
+        (e) =>
+          e.y >= clampedWindow[0] &&
+          e.y <= clampedWindow[1] &&
+          categories[e.cat] !== false &&
+          (showOffEarth || !e.offEarth),
       ),
-    [allEvents, clampedWindow, categories],
+    [allEvents, clampedWindow, categories, showOffEarth],
   );
 
   if (landError) {
@@ -1233,6 +1310,9 @@ export function GlobeAtlas({ years, yearRange }: GlobeAtlasProps) {
           setSelected={setSelected}
           autoSpin={autoSpin}
           setAutoSpin={setAutoSpin}
+          showOffEarth={showOffEarth}
+          setShowOffEarth={setShowOffEarth}
+          offEarthCount={offEarthCount}
         />
         <Rail
           selected={selected}
