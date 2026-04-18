@@ -1,0 +1,179 @@
+/* @provenance: BORG-PROVENANCE-STANDARD-2026-03
+ * @orchestrator: Magnus Smárason | smarason.is
+ * @created: 2026-04-18
+ */
+
+.chronograph-chrome {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 14px 24px;
+  backdrop-filter: blur(10px) saturate(1.1);
+  -webkit-backdrop-filter: blur(10px) saturate(1.1);
+  background: color-mix(in oklab, var(--bg) 78%, transparent);
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--font-sans);
+}
+
+.chronograph-brand-link {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--fg);
+}
+
+.chronograph-brand-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background: var(--stamp);
+  align-self: center;
+  flex-shrink: 0;
+}
+
+.chronograph-brand-name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: -0.01em;
+  color: var(--fg);
+}
+
+.chronograph-brand-sub {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  color: var(--fg-mute);
+  font-weight: 400;
+}
+
+@media (max-width: 720px) {
+  .chronograph-brand-sub { display: none; }
+}
+
+.chronograph-links {
+  display: flex;
+  gap: 12px;
+  margin-left: 12px;
+}
+
+.chronograph-link {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--fg-mute);
+  padding: 6px 4px;
+  text-decoration: none;
+  transition: color .15s;
+  border-bottom: 1px solid transparent;
+}
+
+.chronograph-link:hover { color: var(--fg); }
+.chronograph-link.on {
+  color: var(--stamp);
+  border-bottom-color: var(--stamp);
+}
+
+.chronograph-spacer { flex: 1 1 auto; min-width: 10px; }
+
+.chronograph-variants {
+  display: flex;
+  gap: 2px;
+  background: var(--bg-2);
+  padding: 3px;
+  border-radius: 8px;
+  border: 1px solid var(--rule);
+}
+
+.chronograph-variant {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  padding: 6px 12px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--fg-mute);
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  transition: color .15s, background .15s;
+}
+
+.chronograph-variant:hover:not(.active) { color: var(--fg); }
+
+.chronograph-variant.active {
+  background: var(--fg);
+  color: var(--bg);
+}
+
+body.variant-b .chronograph-variant.active {
+  background: var(--accent);
+  color: #0e0e0e;
+}
+
+body.variant-c .chronograph-variant.active {
+  background: var(--accent);
+  color: #0f1a1e;
+}
+
+/* ---- Editorial footer ---- */
+.chronograph-footer {
+  border-top: 3px double var(--rule);
+  padding: 28px 24px 36px;
+  margin-top: 80px;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  color: var(--fg-mute);
+  letter-spacing: 0.02em;
+  background: transparent;
+}
+
+.chronograph-footer-inner {
+  max-width: var(--maxw-reading);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.chronograph-footer-brand {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 13px;
+  color: var(--fg-2);
+}
+
+.chronograph-footer-link {
+  color: var(--fg-2);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 0.5px;
+  transition: color .15s;
+}
+.chronograph-footer-link:hover { color: var(--stamp); }
+
+.chronograph-footer-meta {
+  margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--fg-mute);
+}
+
+.chronograph-footer-colophon {
+  width: 100%;
+  padding-top: 14px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  color: var(--fg-mute);
+  text-transform: uppercase;
+}
