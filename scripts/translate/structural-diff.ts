@@ -21,8 +21,18 @@ const IMMUTABLE_ENUM_FIELDS = new Set([
 ]);
 
 const IMMUTABLE_ID_FIELDS = new Set([
-  "id", "from", "to", "coordinates_approx",
+  "id", "from", "to",
 ]);
+
+// coordinates_approx often carries an English parenthetical ("69.4°S, 32.3°E
+// (lunar surface)"). Require the numeric prefix to match; allow the
+// parenthetical annotation to translate.
+const COORDINATE_PREFIX_FIELDS = new Set(["coordinates_approx"]);
+
+function extractCoordPrefix(s: string): string {
+  const paren = s.indexOf("(");
+  return paren === -1 ? s.trim() : s.slice(0, paren).trim();
+}
 
 // cross_references items are "<id>" or "<id> (English parenthetical)".
 // The ID prefix is immutable; the parenthetical may be translated.
@@ -116,6 +126,12 @@ function walk(src: unknown, tgt: unknown, path: string, issues: DiffIssue[]): vo
     }
     if (IMMUTABLE_ID_FIELDS.has(leafField) && src !== tgt) {
       issues.push({ path, kind: "id_changed", source: src, target: tgt });
+      return;
+    }
+    if (COORDINATE_PREFIX_FIELDS.has(leafField) && typeof tgt === "string") {
+      if (extractCoordPrefix(src as string) !== extractCoordPrefix(tgt)) {
+        issues.push({ path, kind: "id_changed", source: src, target: tgt });
+      }
       return;
     }
     return;

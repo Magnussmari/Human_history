@@ -19,6 +19,7 @@
 | **Layer 1 — Corpus** | 5,226 ICCRA-schema JSON files, one per year, 2025 CE → 3,200 BCE | ✅ 2026-04-13 |
 | **Layer 2 — Evidence** | Scholarly deep-dives per scholarly era via the Scite MCP; 7 eras validated, 13 more migration-pending | ✅ 2026-04-17 |
 | **Frontend — Chronograph** | Notebook editorial folio (reading), Stratum instrument view (per-year dashboard), Atlas orthographic globe (spatial) — Next.js 16 + React 19 | ✅ 2026-04-18 |
+| **Translation layer (EN → IS)** | Production-grade, CI-integrated pipeline localizing the corpus into Icelandic. Locked verbatim Icelandic system prompt, Gemini Flash 3 Preview pinned, six-guard correctness chain, idempotent SHA256 manifest, GitHub Action auto-translates on push | ✅ 2026-04-18 (pipeline), IS backfill running |
 
 ---
 
@@ -80,6 +81,43 @@ Three coordinated surfaces, one navigation:
 - Proper Open Graph card rendering a cream folio preview (not the Vercel ▲).
 
 **Tech:** Next.js 16.2, React 19.2, Tailwind v4, TanStack Virtual + Query, motion/react, d3-geo + topojson-client. All visual tokens from a single 3-variant system (`--fg / --stamp / --rule / --accent`) with WCAG AA contrast verified by `scripts/qa-contrast.mjs`.
+
+---
+
+## Translation layer — EN → IS (2026-04-18)
+
+The corpus is being localized into Icelandic via a production-grade, CI-integrated pipeline at [`scripts/translate/`](scripts/translate/). The architecture is generic and supports additional locales; Italian is planned.
+
+**Model:** `gemini-3-flash-preview` (pinned — `-latest` tags are forbidden in production runs so dialect/format doesn't shift mid-backfill).
+
+**Strategy:** The model is prompted *in Icelandic* — the full system prompt is written in Icelandic to lock the model into the Icelandic latent space. Prompt is verbatim at [`scripts/translate/prompts/system.is.md`](scripts/translate/prompts/system.is.md) and content-hash-pinned in the manifest so any edit invalidates the entire locale cache.
+
+**Six-guard correctness chain** (every translated file must pass all six or it's not written):
+
+1. Locked verbatim Icelandic system prompt (rule #1: translate values only, keep keys in English).
+2. Glossary preamble in the user message listing every JSON key + every ICCRA enum value that must be preserved.
+3. API-level `responseMimeType: "application/json"` forcing strict JSON output.
+4. **Structural diff** rejecting any file where keys, enums, IDs, numerics, or array lengths differ from source. `cross_references` and `coordinates_approx` allow English parenthetical annotations to translate but require the ID/numeric prefix to match.
+5. **Deterministic key-rename auto-repair** for the mechanical `extra_key + missing_key with same ICCRA-enum value` class of model errors (e.g. model produces `"certain": "confirmed"` instead of `"certainty": "confirmed"` — schema is authoritative, rename is logged, content is untouched).
+6. **Ajv schema validator** rejecting any file that breaks ICCRA.
+
+Atomic `.tmp` → `rename` ensures no partial writes ever land on disk. Idempotent via SHA256(source) + SHA256(prompt) per file per locale in `.translation-manifest.json`.
+
+**Fixed Icelandic terms** (from [`scripts/translate/glossary.json`](scripts/translate/glossary.json)): BCE → f.Kr., CE → e.Kr., *Antiquities of the Jews* → *Fornsögur Gyðinga*, *Proleptic Gregorian* → *fyrirframreiknað gregorískt tímatal*. Canonical Icelandic forms for historical names (Ágústus, Heródes mikli, Parþaveldið, Silkivegurinn, Jósefus) handled by the locked prompt.
+
+**Automation:** [`.github/workflows/translate-is.yml`](.github/workflows/translate-is.yml) — on push to `main` touching `outputs/json/**` or `scripts/translate/**`, runs the IS pipeline (manifest-skipped for cached files), re-aggregates frontend chunks, opens a PR via peter-evans/create-pull-request. `workflow_dispatch` supports a `reset_manifest` flag for forced full re-translation. Concurrency group prevents overlapping runs.
+
+**Frontend consumption:** [`frontend/scripts/aggregate-data.mjs`](frontend/scripts/aggregate-data.mjs) emits per-locale chunk trees at `frontend/public/data/<locale>/{chunks,manifest.json}`. Missing-locale years fall back to English with a `_locale_fallback: "en"` marker so the UI never sees a hole in the timeline. [`frontend/src/i18n/`](frontend/src/i18n/) provides a `hasLocale()` typeguard, dictionary loader, and native-speaker-authored EN / IS dictionaries for chrome, category labels, certainty labels, and era names. The `app/[lang]/` route restructure is scheduled as a follow-up session.
+
+Run locally:
+
+```bash
+cd scripts/translate
+npm install
+echo "GOOGLE_AI_API_KEY=..." >> ../../.env
+npm run dry-run:is            # 3-file smoke
+npm run run:is                # full 5,226-year backfill (resumable)
+```
 
 ---
 
@@ -192,13 +230,23 @@ Human_history/
 ├── LEDGER.md                      append-only progress log
 ├── CONTRIBUTING.md                how to do adversarial review
 │
-├── scripts/                       Python 3.11 async daemon (Phase 1)
+├── scripts/                       Python 3.11 async daemon (Phase 1) + TS translate
 │   ├── api_client.py              direct Anthropic API, tiered models
 │   ├── orchestrator_optimized.py  main daemon loop
 │   ├── batch_processor.py         5 years per API call
 │   ├── validate_corpus.py         ICCRA schema validator
 │   ├── fix_categories.py          auto-fix compound categories
-│   └── health_check.sh            quick status
+│   ├── health_check.sh            quick status
+│   └── translate/                 EN → IS translation pipeline (2026-04-18)
+│       ├── gemini.ts              @google/genai client, pinned flash-3-preview
+│       ├── schema.ts              Ajv ICCRA validator (mirrors Python)
+│       ├── structural-diff.ts     post-translation keys/enums/IDs guard
+│       ├── key-repair.ts          deterministic schema-key auto-repair
+│       ├── translate.ts           per-file orchestration
+│       ├── manifest.ts            SHA256 idempotency
+│       ├── run.ts                 CLI entrypoint
+│       ├── prompts/system.is.md   locked verbatim Icelandic prompt
+│       └── glossary.json          DO_NOT_TRANSLATE + fixed IS terms
 │
 ├── docker/                        reboot-persistent daemon container
 │
@@ -227,12 +275,13 @@ Human_history/
 │   │   ├── stratum/               instrument dashboard
 │   │   └── atlas/                 globe + imperative draw loop
 │   ├── scripts/
-│   │   ├── aggregate-data.mjs     Layer 1: chunk JSON into 100-year blocks
+│   │   ├── aggregate-data.mjs     Layer 1: chunk JSON (+ per-locale trees)
 │   │   ├── aggregate-evidence.mjs Layer 2: flatten evidence to per-era JSON
 │   │   ├── qa-tour.mjs            Playwright screenshot sweep
 │   │   ├── qa-font-audit.mjs      DOM sweep for <14px text
 │   │   └── qa-contrast.mjs        WCAG AA computed-contrast checker
-│   └── public/data/               aggregated year chunks + era bundles
+│   ├── src/i18n/                  locale loader + en/is dictionaries
+│   └── public/data/               aggregated chunks + era bundles + locale trees
 │
 └── state/
     ├── progress.json              daemon progress (completed/failed/in_progress)

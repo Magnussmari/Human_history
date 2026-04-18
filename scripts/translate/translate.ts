@@ -12,6 +12,7 @@ import { dirname } from "node:path";
 import { GeminiTranslator } from "./gemini.js";
 import { validateYearDoc, type YearDoc } from "./schema.js";
 import { diffStructure, type DiffIssue } from "./structural-diff.js";
+import { repairKeys, type Repair } from "./key-repair.js";
 import { sha256, type Locale } from "./manifest.js";
 
 export interface TranslateFileInput {
@@ -55,6 +56,13 @@ export async function translateFile(input: TranslateFileInput): Promise<Translat
   }
 
   const target = raw as YearDoc;
+
+  const repairs = repairKeys(source, target);
+  if (repairs.length > 0) {
+    for (const r of repairs) {
+      console.warn(`[repair] ${input.sourcePath} — key "${r.from}" → "${r.to}" at ${r.path} (value="${r.value}")`);
+    }
+  }
 
   const structuralIssues = diffStructure(source, target);
   if (structuralIssues.length > 0) {
