@@ -150,7 +150,7 @@ export function SearchCommand({ years }: SearchCommandProps) {
       <motion.button
         onClick={openDialog}
         type="button"
-        className="flex items-center gap-2 rounded-sm px-3 py-1.5 text-[13px] flex-1 sm:flex-none sm:min-w-[240px]"
+        className="flex items-center gap-2 rounded-sm px-3 py-1.5 text-sm flex-1 sm:flex-none sm:min-w-[240px]"
         style={{
           background: "var(--card)",
           border: "1px solid var(--rule)",
@@ -166,7 +166,7 @@ export function SearchCommand({ years }: SearchCommandProps) {
         </span>
         <span className="inline sm:hidden">Search</span>
         <kbd
-          className="hidden sm:inline ml-auto rounded px-1.5 py-0.5 text-[10px] shrink-0"
+          className="hidden sm:inline ml-auto rounded px-1.5 py-0.5 text-sm shrink-0"
           style={{
             background: "var(--bg-2)",
             border: "1px solid var(--rule)",
@@ -240,7 +240,7 @@ export function SearchCommand({ years }: SearchCommandProps) {
                   {query && (
                     <button
                       onClick={() => setQuery("")}
-                      className="text-[11px] transition-colors"
+                      className="text-sm transition-colors"
                       style={{
                         color: "var(--fg-mute)",
                         fontFamily: "var(--font-mono)",
@@ -258,14 +258,14 @@ export function SearchCommand({ years }: SearchCommandProps) {
                 {query.length < 1 ? (
                   <div className="py-12 text-center">
                     <p
-                      className="text-[13px] mb-2"
+                      className="text-sm mb-2"
                       style={{ color: "var(--fg-mute)" }}
                     >
                       Search across {years.length.toLocaleString()} years of
                       history.
                     </p>
                     <p
-                      className="text-[11px]"
+                      className="text-sm"
                       style={{
                         color: "var(--fg-mute)",
                         fontStyle: "italic",
@@ -278,7 +278,7 @@ export function SearchCommand({ years }: SearchCommandProps) {
                   </div>
                 ) : !hasResults ? (
                   <p
-                    className="py-12 text-center text-[13px]"
+                    className="py-12 text-center text-sm"
                     style={{ color: "var(--fg-mute)" }}
                   >
                     No results for{" "}
@@ -317,7 +317,7 @@ export function SearchCommand({ years }: SearchCommandProps) {
                           </div>
                           <div>
                             <p
-                              className="text-[13px] font-semibold"
+                              className="text-sm font-semibold"
                               style={{
                                 fontFamily: "var(--font-display)",
                                 color: "var(--stamp)",
@@ -326,7 +326,7 @@ export function SearchCommand({ years }: SearchCommandProps) {
                               Open folio for {formatYear(yearJump)}
                             </p>
                             <p
-                              className="text-[10px] mt-0.5"
+                              className="text-sm mt-0.5"
                               style={{ color: "var(--fg-mute)" }}
                             >
                               View all events for this year
@@ -339,7 +339,7 @@ export function SearchCommand({ years }: SearchCommandProps) {
                     {eraResults.length > 0 && (
                       <div className="mb-2">
                         <div
-                          className="px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.2em]"
+                          className="px-3 py-1.5 text-sm font-semibold uppercase tracking-[0.2em]"
                           style={{
                             color: "var(--fg-mute)",
                             fontFamily: "var(--font-mono)",
@@ -382,14 +382,14 @@ export function SearchCommand({ years }: SearchCommandProps) {
                               </div>
                               <div className="min-w-0 flex-1">
                                 <p
-                                  className="text-[13px] font-medium leading-snug"
+                                  className="text-sm font-medium leading-snug"
                                   style={{ color: "var(--fg)" }}
                                 >
                                   {highlightMatch(era.label, query)}
                                 </p>
                                 <div className="flex items-center gap-1.5 mt-0.5">
                                   <span
-                                    className="inline-flex items-center gap-1 text-[10px]"
+                                    className="inline-flex items-center gap-1 text-sm"
                                     style={{ color: "var(--fg-mute)" }}
                                   >
                                     <span
@@ -399,13 +399,13 @@ export function SearchCommand({ years }: SearchCommandProps) {
                                     {phase.label}
                                   </span>
                                   <span
-                                    className="text-[10px]"
+                                    className="text-sm"
                                     style={{ color: "var(--fg-mute)" }}
                                   >
                                     ·
                                   </span>
                                   <span
-                                    className="text-[10px]"
+                                    className="text-sm"
                                     style={{ color: "var(--fg-mute)" }}
                                   >
                                     {formatEraRange(era)}
@@ -421,7 +421,7 @@ export function SearchCommand({ years }: SearchCommandProps) {
                     {Object.entries(groupedResults).map(([century, items]) => (
                       <div key={century} className="mb-2">
                         <div
-                          className="px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.2em]"
+                          className="px-3 py-1.5 text-sm font-semibold uppercase tracking-[0.2em]"
                           style={{
                             color: "var(--fg-mute)",
                             fontFamily: "var(--font-mono)",
@@ -450,7 +450,7 @@ export function SearchCommand({ years }: SearchCommandProps) {
                             }
                           >
                             <span
-                              className="shrink-0 text-[11px] tabular-nums mt-0.5 w-16 text-right"
+                              className="shrink-0 text-sm tabular-nums mt-0.5 w-16 text-right"
                               style={{
                                 color: "var(--stamp)",
                                 fontFamily: "var(--font-mono)",
@@ -461,14 +461,14 @@ export function SearchCommand({ years }: SearchCommandProps) {
                             </span>
                             <div className="min-w-0">
                               <p
-                                className="text-[13px] font-medium leading-snug"
+                                className="text-sm font-medium leading-snug"
                                 style={{ color: "var(--fg)" }}
                               >
                                 {highlightMatch(r.event.title, query)}
                               </p>
                               <div className="flex items-center gap-1.5 mt-0.5">
                                 <span
-                                  className="text-[10px]"
+                                  className="text-sm"
                                   style={{
                                     color: "var(--fg-mute)",
                                     fontFamily: "var(--font-mono)",
@@ -479,13 +479,13 @@ export function SearchCommand({ years }: SearchCommandProps) {
                                   {safeCategoryConfig(r.event.category).label}
                                 </span>
                                 <span
-                                  className="text-[10px]"
+                                  className="text-sm"
                                   style={{ color: "var(--fg-mute)" }}
                                 >
                                   ·
                                 </span>
                                 <span
-                                  className="text-[10px] truncate max-w-[180px]"
+                                  className="text-sm truncate max-w-[180px]"
                                   style={{ color: "var(--fg-mute)" }}
                                 >
                                   {r.event.region}
@@ -508,7 +508,7 @@ export function SearchCommand({ years }: SearchCommandProps) {
                 }}
               >
                 <span
-                  className="text-[10px]"
+                  className="text-sm"
                   style={{
                     color: "var(--fg-mute)",
                     fontFamily: "var(--font-mono)",
@@ -519,7 +519,7 @@ export function SearchCommand({ years }: SearchCommandProps) {
                     `${results.length} event${results.length !== 1 ? "s" : ""} found`}
                 </span>
                 <span
-                  className="text-[10px]"
+                  className="text-sm"
                   style={{
                     color: "var(--fg-mute)",
                     fontFamily: "var(--font-mono)",

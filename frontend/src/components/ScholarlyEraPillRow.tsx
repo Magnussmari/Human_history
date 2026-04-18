@@ -70,7 +70,7 @@ export function ScholarlyEraPillRow({
                 border: "1px solid var(--rule)",
                 color: "var(--fg)",
                 fontFamily: "var(--font-sans)",
-                fontSize: 13,
+                fontSize: 14,
                 fontWeight: 500,
                 cursor: "pointer",
               }}
@@ -85,7 +85,7 @@ export function ScholarlyEraPillRow({
               <span
                 style={{
                   fontFamily: "var(--font-mono)",
-                  fontSize: 12,
+                  fontSize: 14,
                   color: "var(--fg-mute)",
                   letterSpacing: "0.06em",
                 }}

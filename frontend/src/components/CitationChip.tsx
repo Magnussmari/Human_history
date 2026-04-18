@@ -17,7 +17,7 @@ export function CitationChip({ doi, label, className }: CitationChipProps) {
       target="_blank"
       rel="noopener noreferrer"
       className={cn(
-        "inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[11px] font-mono transition-colors",
+        "inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-sm font-mono transition-colors",
         "bg-muted text-muted-foreground hover:text-primary hover:opacity-80",
         "border border-border",
         className

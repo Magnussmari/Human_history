@@ -14,7 +14,7 @@ export function EraNav({ activeEra, onSelect }: EraNavProps) {
       <button
         onClick={() => onSelect(null)}
         className={cn(
-          "shrink-0 rounded-full px-4 py-1.5 text-xs font-medium transition-all",
+          "shrink-0 rounded-full px-4 py-1.5 text-sm font-medium transition-all",
           activeEra === null
             ? "bg-primary text-primary-foreground"
             : "bg-muted text-muted-foreground hover:bg-muted/80"
@@ -27,7 +27,7 @@ export function EraNav({ activeEra, onSelect }: EraNavProps) {
           key={era.label}
           onClick={() => onSelect(era.label)}
           className={cn(
-            "shrink-0 rounded-full px-4 py-1.5 text-xs font-medium transition-all",
+            "shrink-0 rounded-full px-4 py-1.5 text-sm font-medium transition-all",
             activeEra === era.label
               ? "bg-primary text-primary-foreground"
               : "bg-muted text-muted-foreground hover:bg-muted/80"

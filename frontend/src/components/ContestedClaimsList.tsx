@@ -22,12 +22,12 @@ export function ContestedClaimsList({ claims }: ContestedClaimsListProps) {
             style={{ background: "var(--card)", border: "1px solid var(--rule)" }}
           >
             <div className="flex items-start gap-2 mb-2">
-              <span className={cn("text-[10px] font-semibold rounded-full px-2 py-0.5 shrink-0", status.color)}>
+              <span className={cn("text-sm font-semibold rounded-full px-2 py-0.5 shrink-0", status.color)}>
                 {status.label}
               </span>
               <p className="text-sm font-medium text-foreground/90 leading-snug">{c.claim}</p>
             </div>
-            <p className="text-xs text-muted-foreground leading-relaxed">{c.evidentiary_basis}</p>
+            <p className="text-sm text-muted-foreground leading-relaxed">{c.evidentiary_basis}</p>
             {c.key_citations && c.key_citations.length > 0 && (
               <div className="mt-3 flex flex-wrap gap-1.5">
                 {c.key_citations.map(doi => (

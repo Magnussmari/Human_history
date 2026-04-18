@@ -338,7 +338,7 @@ export default function EraPage() {
                 margin: 0,
                 paddingLeft: 24,
                 fontFamily: "var(--font-serif)",
-                fontSize: 13,
+                fontSize: 14,
                 lineHeight: 1.7,
                 color: "var(--fg-2)",
               }}
@@ -444,7 +444,7 @@ function Pill({
         style={{
           margin: 0,
           fontFamily: "var(--font-mono)",
-          fontSize: 12,
+          fontSize: 14,
           letterSpacing: "0.2em",
           textTransform: "uppercase",
           color: "var(--fg-mute)",

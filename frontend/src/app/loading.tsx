@@ -12,7 +12,7 @@ export default function Loading() {
         margin: "0 auto",
         fontFamily: "var(--font-mono)",
         color: "var(--fg-mute)",
-        fontSize: 12,
+        fontSize: 14,
         letterSpacing: "0.18em",
         textTransform: "uppercase",
       }}

@@ -43,8 +43,11 @@
   --atlas-font-mono: var(--font-plex-mono), "IBM Plex Mono", ui-monospace, monospace;
 
   /* Type ramp, base 16px, ratio 1.2 */
-  --atlas-text-micro: 0.688rem;
-  --atlas-text-small: 0.813rem;
+  /* Raised floor: the methodology + editorial pages must read like a
+     magazine, not a footnote. All three small sizes bumped so eyebrows
+     and data labels land at 14-15px, never below 13. */
+  --atlas-text-micro: 0.875rem;   /* 14px — was 11px */
+  --atlas-text-small: 0.9375rem;  /* 15px — was 13px */
   --atlas-text-base: 1rem;
   --atlas-text-reading: 1.0625rem;
   --atlas-text-lede: 1.25rem;

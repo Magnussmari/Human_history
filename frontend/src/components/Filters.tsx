@@ -34,7 +34,7 @@ export function Filters({ filters, onChange }: FiltersProps) {
   return (
     <div className="space-y-3">
       <div className="flex items-center justify-between">
-        <span className="text-xs font-medium text-muted-foreground uppercase tracking-wider">
+        <span className="text-sm font-medium text-muted-foreground uppercase tracking-wider">
           Filters
         </span>
         {hasActiveFilters && (
@@ -42,7 +42,7 @@ export function Filters({ filters, onChange }: FiltersProps) {
             onClick={() =>
               onChange({ categories: [], certainties: [], search: filters.search, region: "" })
             }
-            className="text-xs text-primary hover:underline"
+            className="text-sm text-primary hover:underline"
           >
             Clear all
           </button>
@@ -55,7 +55,7 @@ export function Filters({ filters, onChange }: FiltersProps) {
             key={cat}
             onClick={() => toggleCategory(cat)}
             className={cn(
-              "rounded-full px-2.5 py-1 text-[10px] font-medium transition-all",
+              "rounded-full px-2.5 py-1 text-sm font-medium transition-all",
               filters.categories.includes(cat)
                 ? CATEGORY_CONFIG[cat].color
                 : "bg-muted text-muted-foreground hover:bg-muted/80"
@@ -72,7 +72,7 @@ export function Filters({ filters, onChange }: FiltersProps) {
             key={cert}
             onClick={() => toggleCertainty(cert)}
             className={cn(
-              "rounded-full px-2.5 py-1 text-[10px] font-medium transition-all",
+              "rounded-full px-2.5 py-1 text-sm font-medium transition-all",
               filters.certainties.includes(cert)
                 ? CERTAINTY_CONFIG[cert].color
                 : "bg-muted text-muted-foreground hover:bg-muted/80"
@@ -87,7 +87,7 @@ export function Filters({ filters, onChange }: FiltersProps) {
         placeholder="Filter by region..."
         value={filters.region}
         onChange={(e) => onChange({ ...filters, region: e.target.value })}
-        className="h-8 text-xs"
+        className="h-8 text-sm"
       />
     </div>
   );

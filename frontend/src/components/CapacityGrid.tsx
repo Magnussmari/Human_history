@@ -13,7 +13,7 @@ export function CapacityGrid({ capacities, constants }: CapacityGridProps) {
   return (
     <div className="space-y-6">
       <div>
-        <p className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground mb-3">
+        <p className="text-sm uppercase tracking-[0.18em] text-muted-foreground mb-3">
           7 capacity categories
         </p>
         <div className="grid sm:grid-cols-2 gap-2">
@@ -29,12 +29,12 @@ export function CapacityGrid({ capacities, constants }: CapacityGridProps) {
                   <span className="text-sm font-medium text-foreground/90 leading-tight">
                     {c.name}
                   </span>
-                  <span className={cn("shrink-0 text-[10px] font-semibold rounded-full px-2 py-0.5", level.color)}>
+                  <span className={cn("shrink-0 text-sm font-semibold rounded-full px-2 py-0.5", level.color)}>
                     {c.level || "—"}
                   </span>
                 </div>
                 {c.evidence && (
-                  <p className="text-xs text-muted-foreground leading-relaxed">{c.evidence}</p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{c.evidence}</p>
                 )}
               </div>
             );
@@ -44,7 +44,7 @@ export function CapacityGrid({ capacities, constants }: CapacityGridProps) {
 
       {constants.length > 0 && (
         <div>
-          <p className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground mb-3">
+          <p className="text-sm uppercase tracking-[0.18em] text-muted-foreground mb-3">
             5 civilisational constants
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-2">
@@ -55,7 +55,7 @@ export function CapacityGrid({ capacities, constants }: CapacityGridProps) {
                 style={{ background: "#111111", border: "1px solid #222222" }}
               >
                 <p className="text-sm font-medium text-foreground/90 mb-1">{k.name}</p>
-                <p className="text-xs text-muted-foreground">{k.state || "—"}</p>
+                <p className="text-sm text-muted-foreground">{k.state || "—"}</p>
               </div>
             ))}
           </div>

@@ -7,7 +7,7 @@ export function CertaintyIndicator({ level }: { level: CertaintyLevel }) {
   return (
     <span
       className={cn(
-        "inline-flex items-center rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider",
+        "inline-flex items-center rounded-full px-2 py-0.5 text-sm font-semibold uppercase tracking-wider",
         config.color
       )}
     >

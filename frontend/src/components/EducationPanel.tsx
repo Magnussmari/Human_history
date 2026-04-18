@@ -12,7 +12,7 @@ export function EducationPanel({ data }: EducationPanelProps) {
     <div className="space-y-8">
       {data.coreQuestion && (
         <div>
-          <p className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground mb-2">
+          <p className="text-sm uppercase tracking-[0.18em] text-muted-foreground mb-2">
             Core question
           </p>
           <p
@@ -44,7 +44,7 @@ export function EducationPanel({ data }: EducationPanelProps) {
             </table>
           </div>
           {data.pedagogicalForm && (
-            <p className="mt-3 text-xs text-muted-foreground italic leading-relaxed">
+            <p className="mt-3 text-sm text-muted-foreground italic leading-relaxed">
               <span className="font-semibold not-italic">Pedagogical form:</span> {data.pedagogicalForm}
             </p>
           )}
@@ -84,12 +84,12 @@ export function EducationPanel({ data }: EducationPanelProps) {
                   {d.position}
                 </p>
                 {d.knowledge && (
-                  <p className="text-xs text-muted-foreground leading-relaxed mb-1">
+                  <p className="text-sm text-muted-foreground leading-relaxed mb-1">
                     <span className="text-foreground/80">Knowledge: </span>{d.knowledge}
                   </p>
                 )}
                 {d.aiQuestion && (
-                  <p className="text-xs italic text-foreground/60 leading-relaxed">
+                  <p className="text-sm italic text-foreground/60 leading-relaxed">
                     {d.aiQuestion}
                   </p>
                 )}
@@ -133,7 +133,7 @@ export function EducationPanel({ data }: EducationPanelProps) {
                 {data.canonicalTexts.map((row, i) => (
                   <tr key={i} className="border-b border-border/30 last:border-0">
                     {row.map((cell, j) => (
-                      <td key={j} className="p-2 align-top text-foreground/75 leading-relaxed text-xs">
+                      <td key={j} className="p-2 align-top text-foreground/75 leading-relaxed text-sm">
                         {cell}
                       </td>
                     ))}

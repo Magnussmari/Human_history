@@ -94,7 +94,7 @@ export function FilterPanel({
               <div className="flex items-center gap-2">
                 <SlidersHorizontal size={14} style={{ color: "var(--stamp)" }} />
                 <span
-                  className="text-[11px] font-bold uppercase"
+                  className="text-sm font-bold uppercase"
                   style={{
                     fontFamily: "var(--font-mono)",
                     letterSpacing: "0.22em",
@@ -105,7 +105,7 @@ export function FilterPanel({
                 </span>
                 {activeCount > 0 && (
                   <span
-                    className="inline-flex h-5 min-w-[20px] px-1 items-center justify-center rounded-full text-[10px] font-bold"
+                    className="inline-flex h-5 min-w-[20px] px-1 items-center justify-center rounded-full text-sm font-bold"
                     style={{
                       background: "var(--stamp)",
                       color: "var(--bg)",
@@ -120,7 +120,7 @@ export function FilterPanel({
                 {activeCount > 0 && (
                   <button
                     onClick={handleClear}
-                    className="text-[11px] uppercase tracking-[0.14em] transition-colors"
+                    className="text-sm uppercase tracking-[0.14em] transition-colors"
                     style={{
                       color: "var(--fg-mute)",
                       fontFamily: "var(--font-mono)",
@@ -157,7 +157,7 @@ export function FilterPanel({
             <div className="px-5 py-5 space-y-7">
               <div>
                 <h3
-                  className="text-[10px] font-bold uppercase tracking-[0.2em] mb-3"
+                  className="text-sm font-bold uppercase tracking-[0.2em] mb-3"
                   style={{
                     color: "var(--fg-mute)",
                     fontFamily: "var(--font-mono)",
@@ -174,7 +174,7 @@ export function FilterPanel({
                           key={cat}
                           onClick={() => toggleCategory(cat)}
                           className={cn(
-                            "w-full flex items-center gap-2.5 rounded-sm px-3 py-2 text-[13px] transition-all text-left",
+                            "w-full flex items-center gap-2.5 rounded-sm px-3 py-2 text-sm transition-all text-left",
                           )}
                           style={{
                             background: active ? "var(--stamp-soft)" : "transparent",
@@ -209,7 +209,7 @@ export function FilterPanel({
 
               <div>
                 <h3
-                  className="text-[10px] font-bold uppercase tracking-[0.2em] mb-3"
+                  className="text-sm font-bold uppercase tracking-[0.2em] mb-3"
                   style={{
                     color: "var(--fg-mute)",
                     fontFamily: "var(--font-mono)",
@@ -225,7 +225,7 @@ export function FilterPanel({
                         <motion.button
                           key={cert}
                           onClick={() => toggleCertainty(cert)}
-                          className="rounded-full px-3 py-1 text-[11px] font-semibold transition-colors"
+                          className="rounded-full px-3 py-1 text-sm font-semibold transition-colors"
                           style={{
                             background: active ? "var(--fg)" : "transparent",
                             color: active ? "var(--bg)" : "var(--fg-2)",
@@ -249,7 +249,7 @@ export function FilterPanel({
 
               <div>
                 <h3
-                  className="text-[10px] font-bold uppercase tracking-[0.2em] mb-3"
+                  className="text-sm font-bold uppercase tracking-[0.2em] mb-3"
                   style={{
                     color: "var(--fg-mute)",
                     fontFamily: "var(--font-mono)",
@@ -263,7 +263,7 @@ export function FilterPanel({
                   onChange={(e) =>
                     onChange({ ...filters, region: e.target.value })
                   }
-                  className="h-9 text-[13px]"
+                  className="h-9 text-sm"
                   style={{
                     background: "var(--bg-2)",
                     border: "1px solid var(--rule)",

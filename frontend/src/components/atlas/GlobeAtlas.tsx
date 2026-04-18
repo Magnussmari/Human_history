@@ -1021,7 +1021,7 @@ function Rail({
           <h2 className="gs-rail-title">Select an event</h2>
         </div>
         <div className="gs-rail-body">
-          <p style={{ color: "var(--gs-fg-2)", fontSize: 13, lineHeight: 1.6, margin: 0 }}>
+          <p style={{ color: "var(--gs-fg-2)", fontSize: 14, lineHeight: 1.6, margin: 0 }}>
             Tap any dot or cluster. At low zoom you&apos;ll see density blooms across the sphere;
             zoom in or click a cluster to drill into individual events.
           </p>
@@ -1076,7 +1076,7 @@ function Rail({
         </div>
 
         {selected.description && (
-          <p style={{ color: "var(--gs-fg-2)", fontSize: 13, lineHeight: 1.55, marginTop: 14 }}>
+          <p style={{ color: "var(--gs-fg-2)", fontSize: 14, lineHeight: 1.55, marginTop: 14 }}>
             {selected.description}
           </p>
         )}
@@ -1087,7 +1087,7 @@ function Rail({
               style={{
                 marginTop: 18,
                 fontFamily: "var(--gs-font-mono)",
-                fontSize: 13,
+                fontSize: 14,
                 letterSpacing: "0.14em",
                 textTransform: "uppercase",
                 color: "var(--gs-fg-mute)",

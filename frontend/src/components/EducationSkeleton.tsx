@@ -30,7 +30,7 @@ export function EducationSkeleton({ valorSource, reason }: EducationSkeletonProp
                 : `No VALOR source mapped to this era. Education layer will be added when the tradition is researched.`)}
           </p>
           {valorSource && (
-            <p className="mt-2 text-[11px] font-mono text-muted-foreground/60">
+            <p className="mt-2 text-sm font-mono text-muted-foreground/60">
               Source: research/phase_1/{valorSource}
             </p>
           )}

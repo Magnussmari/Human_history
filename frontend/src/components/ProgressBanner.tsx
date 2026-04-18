@@ -33,7 +33,7 @@ export function ProgressBanner() {
           style={{ width: `${pct}%` }}
         />
       </div>
-      <div className="mt-2 flex justify-between text-xs text-muted-foreground">
+      <div className="mt-2 flex justify-between text-sm text-muted-foreground">
         <span>{pct}% complete</span>
         <span>Currently researching ~{formatYear(oldest)}</span>
       </div>

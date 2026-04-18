@@ -188,7 +188,7 @@
   border-radius: 4px;
   color: var(--gs-fg-2);
   cursor: pointer;
-  font-family: var(--gs-font-mono); font-size: 12px;
+  font-family: var(--gs-font-mono); font-size: 14px;
   display: flex; align-items: center; justify-content: center;
   transition: background .12s, color .12s, border-color .12s;
 }
@@ -240,7 +240,7 @@
   border: 1px solid var(--gs-rule);
   border-radius: 6px;
   padding: 10px 12px;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--gs-fg);
   backdrop-filter: blur(10px);
   pointer-events: none;
@@ -302,7 +302,7 @@
 }
 .gs-rail-row {
   display: grid; grid-template-columns: 70px 1fr;
-  gap: 12px; font-size: 12px;
+  gap: 12px; font-size: 14px;
   padding: 6px 0;
   border-top: 1px solid var(--gs-rule);
 }
@@ -343,7 +343,7 @@
   grid-template-columns: 50px 1fr auto;
   gap: 8px;
   align-items: baseline;
-  font-size: 12px;
+  font-size: 14px;
   transition: background .1s;
   background: transparent;
   border-left: 0;
@@ -479,7 +479,7 @@
   height: 100%;
   color: var(--gs-fg-mute);
   font-family: var(--gs-font-mono);
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0.1em;
   text-align: center;
   padding: 32px;

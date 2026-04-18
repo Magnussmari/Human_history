@@ -37,7 +37,7 @@ export function ViewToggle({ active, onChange }: ViewToggleProps) {
             key={view.id}
             onClick={() => onChange(view.id)}
             className={cn(
-              "relative inline-flex items-center gap-1.5 rounded-[3px] px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.14em] transition-colors",
+              "relative inline-flex items-center gap-1.5 rounded-[3px] px-3 py-1.5 text-sm font-semibold uppercase tracking-[0.14em] transition-colors",
               isActive ? "" : "hover:opacity-80"
             )}
             style={{

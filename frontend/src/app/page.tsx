@@ -188,7 +188,7 @@ function HomeInner() {
           <motion.button
             onClick={() => setShowFilters(true)}
             type="button"
-            className="flex items-center gap-2 rounded-sm px-3 py-1.5 text-[13px] relative"
+            className="flex items-center gap-2 rounded-sm px-3 py-1.5 text-sm relative"
             style={{
               background: "var(--card)",
               border: "1px solid var(--rule)",
@@ -202,7 +202,7 @@ function HomeInner() {
             Filters
             {activeFilterCount > 0 && (
               <span
-                className="inline-flex h-5 min-w-[20px] px-1 items-center justify-center rounded-full text-[10px] font-bold"
+                className="inline-flex h-5 min-w-[20px] px-1 items-center justify-center rounded-full text-sm font-bold"
                 style={{
                   background: "var(--stamp)",
                   color: "var(--bg)",
@@ -286,7 +286,7 @@ function HomeInner() {
                 />
               ) : (
                 <div
-                  className="py-24 text-center text-[13px]"
+                  className="py-24 text-center text-sm"
                   style={{
                     color: "var(--fg-mute)",
                     fontFamily: "var(--font-mono)",

@@ -38,17 +38,17 @@ function EvidenceRow({ evidence: e }: { evidence: SciteEvidence }) {
       <div className="flex items-start gap-3 flex-wrap">
         <div className="flex-1 min-w-0">
           <div className="flex flex-wrap items-center gap-2 mb-1">
-            <span className={cn("text-[10px] font-semibold rounded-full px-2 py-0.5", tier.color)}>
+            <span className={cn("text-sm font-semibold rounded-full px-2 py-0.5", tier.color)}>
               {tier.label}
             </span>
             {hasNotices && (
-              <span className="inline-flex items-center gap-1 text-[10px] font-semibold rounded-full px-2 py-0.5 bg-rose-900/40 text-rose-200 border border-rose-800/40">
+              <span className="inline-flex items-center gap-1 text-sm font-semibold rounded-full px-2 py-0.5 bg-rose-900/40 text-rose-200 border border-rose-800/40">
                 <AlertTriangle size={9} />
                 {e.editorial_notices.map(n => n.type).join(", ")}
               </span>
             )}
             {e.publication_type && (
-              <span className="text-[10px] uppercase tracking-wider text-muted-foreground">
+              <span className="text-sm uppercase tracking-wider text-muted-foreground">
                 {e.publication_type}
               </span>
             )}
@@ -59,7 +59,7 @@ function EvidenceRow({ evidence: e }: { evidence: SciteEvidence }) {
           >
             {e.title}
           </h4>
-          <p className="text-xs text-muted-foreground">
+          <p className="text-sm text-muted-foreground">
             {e.authors?.join("; ")}
             {e.journal && <> · <em>{e.journal}</em></>}
             {e.year != null && <> · {e.year}</>}
@@ -72,7 +72,7 @@ function EvidenceRow({ evidence: e }: { evidence: SciteEvidence }) {
               href={e.access.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[10px] font-medium bg-muted/50 text-muted-foreground hover:text-primary transition-colors"
+              className="inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-sm font-medium bg-muted/50 text-muted-foreground hover:text-primary transition-colors"
             >
               {e.access.status} <ExternalLink size={10} />
             </a>
@@ -84,7 +84,7 @@ function EvidenceRow({ evidence: e }: { evidence: SciteEvidence }) {
         {e.key_finding}
       </p>
 
-      <div className="mt-3 flex flex-wrap items-center gap-4 text-[10px] font-mono text-muted-foreground">
+      <div className="mt-3 flex flex-wrap items-center gap-4 text-sm font-mono text-muted-foreground">
         <span>supporting: {fmtCount(e.supporting_count)}</span>
         <span>contrasting: {fmtCount(e.contrasting_count)}</span>
         <span>mentioning: {fmtCount(e.mentioning_count)}</span>
@@ -98,20 +98,20 @@ function EvidenceRow({ evidence: e }: { evidence: SciteEvidence }) {
         <button
           type="button"
           onClick={() => setOpen(v => !v)}
-          className="mt-3 inline-flex items-center gap-1 text-[10px] uppercase tracking-wider text-muted-foreground hover:text-primary transition-colors"
+          className="mt-3 inline-flex items-center gap-1 text-sm uppercase tracking-wider text-muted-foreground hover:text-primary transition-colors"
         >
           {open ? "Hide excerpt" : "Show excerpt"}
           <ChevronDown size={10} className={cn("transition-transform", open && "rotate-180")} />
         </button>
       )}
       {open && e.excerpt && (
-        <blockquote className="mt-2 pl-3 border-l-2 border-primary/30 text-xs italic text-foreground/70 leading-relaxed">
+        <blockquote className="mt-2 pl-3 border-l-2 border-primary/30 text-sm italic text-foreground/70 leading-relaxed">
           {e.excerpt}
         </blockquote>
       )}
 
       {e.tier_rule_applied && (
-        <p className="mt-2 text-[10px] font-mono text-muted-foreground/50 leading-relaxed">
+        <p className="mt-2 text-sm font-mono text-muted-foreground/50 leading-relaxed">
           {e.tier_rule_applied}
         </p>
       )}
