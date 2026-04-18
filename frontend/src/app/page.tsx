@@ -108,7 +108,7 @@ function HomeInner() {
 
       <section
         ref={timelineSectionRef}
-        className="mx-auto max-w-5xl px-5 sm:px-8 py-10 sm:py-16"
+        className="mx-auto max-w-6xl px-5 sm:px-8 py-10 sm:py-16"
       >
         <header className="notebook-section-head">
           <span
@@ -198,7 +198,7 @@ function HomeInner() {
           </div>
         </div>
 
-        <div className="flex gap-2 overflow-x-auto scrollbar-hide pb-3 mb-5">
+        <div className="flex gap-2 flex-wrap pb-3 mb-5">
           <EraPill
             active={activeEra === null}
             onClick={() => setActiveEra(null)}
