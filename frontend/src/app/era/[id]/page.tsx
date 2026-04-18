@@ -444,7 +444,7 @@ function Pill({
         style={{
           margin: 0,
           fontFamily: "var(--font-mono)",
-          fontSize: 9,
+          fontSize: 12,
           letterSpacing: "0.2em",
           textTransform: "uppercase",
           color: "var(--fg-mute)",

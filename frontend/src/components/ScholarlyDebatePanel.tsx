@@ -19,7 +19,7 @@ export function ScholarlyDebatePanel({ debate }: ScholarlyDebatePanelProps) {
       <p
         style={{
           fontFamily: "var(--font-mono)",
-          fontSize: 10,
+          fontSize: 13,
           letterSpacing: "0.2em",
           textTransform: "uppercase",
           color: "var(--fg-mute)",
@@ -57,7 +57,7 @@ export function ScholarlyDebatePanel({ debate }: ScholarlyDebatePanelProps) {
           <p
             style={{
               fontFamily: "var(--font-mono)",
-              fontSize: 10,
+              fontSize: 13,
               letterSpacing: "0.16em",
               textTransform: "uppercase",
               color: "var(--cert-confirmed)",
@@ -90,7 +90,7 @@ export function ScholarlyDebatePanel({ debate }: ScholarlyDebatePanelProps) {
           <p
             style={{
               fontFamily: "var(--font-mono)",
-              fontSize: 10,
+              fontSize: 13,
               letterSpacing: "0.16em",
               textTransform: "uppercase",
               color: "var(--stamp)",
@@ -127,7 +127,7 @@ export function ScholarlyDebatePanel({ debate }: ScholarlyDebatePanelProps) {
           <p
             style={{
               fontFamily: "var(--font-mono)",
-              fontSize: 10,
+              fontSize: 13,
               letterSpacing: "0.16em",
               textTransform: "uppercase",
               color: "var(--fg-mute)",
@@ -153,7 +153,7 @@ export function ScholarlyDebatePanel({ debate }: ScholarlyDebatePanelProps) {
           <p
             style={{
               fontFamily: "var(--font-mono)",
-              fontSize: 10,
+              fontSize: 13,
               letterSpacing: "0.16em",
               textTransform: "uppercase",
               color: "var(--fg-mute)",

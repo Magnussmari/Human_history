@@ -71,7 +71,7 @@ export default function Error({
           style={{
             marginTop: 32,
             fontFamily: "var(--font-mono)",
-            fontSize: 10,
+            fontSize: 13,
             color: "var(--fg-mute)",
             letterSpacing: "0.12em",
           }}

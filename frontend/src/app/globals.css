@@ -101,9 +101,13 @@
   --font-scale: 1;
 
   /* Chrome type ramp — readable floor for dense UI */
-  --notebook-text-micro: 11px;   /* suffixes, compact mono indices */
-  --notebook-text-small: 12px;   /* meta rows, category lists, stat labels */
-  --notebook-text-meta: 13px;    /* filter/search/nav buttons, legend items */
+  /* 12px is the absolute minimum for any text a user needs to READ.
+     Decorative suffixes (BCE/CE after a large year number) get 12px;
+     eyebrows / meta rows / category labels live at 14px; nav + CTA meta
+     at 15px. No more 10-11px apologies. */
+  --notebook-text-micro: 12px;
+  --notebook-text-small: 14px;
+  --notebook-text-meta: 15px;
 
   /* shadcn compat fallback — expose common shadcn token names */
   --background: var(--bg);

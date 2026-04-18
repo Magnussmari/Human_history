@@ -48,7 +48,7 @@ export function ScholarlyEraPillRow({
           </span>
         )}
       </p>
-      <div className="flex gap-2 overflow-x-auto scrollbar-hide pb-2">
+      <div className="flex gap-2 flex-wrap pb-2">
         {visible.map((era) => {
           const rangeLabel =
             era.start < 0 ? `${Math.abs(era.start)} BCE` : `${era.start} CE`;
@@ -96,7 +96,7 @@ export function ScholarlyEraPillRow({
                 <span
                   style={{
                     fontFamily: "var(--font-mono)",
-                    fontSize: 11,
+                    fontSize: 14,
                     color: "var(--leaf)",
                     background:
                       "color-mix(in oklab, var(--leaf) 16%, transparent)",

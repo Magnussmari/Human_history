@@ -1087,7 +1087,7 @@ function Rail({
               style={{
                 marginTop: 18,
                 fontFamily: "var(--gs-font-mono)",
-                fontSize: 10,
+                fontSize: 13,
                 letterSpacing: "0.14em",
                 textTransform: "uppercase",
                 color: "var(--gs-fg-mute)",

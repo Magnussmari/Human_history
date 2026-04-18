@@ -50,7 +50,7 @@ export function ScholarlyEraCard({ year }: ScholarlyEraCardProps) {
         <p
           style={{
             fontFamily: "var(--font-mono)",
-            fontSize: 10,
+            fontSize: 13,
             color: "var(--fg-mute)",
             letterSpacing: "0.2em",
             textTransform: "uppercase",
@@ -103,7 +103,7 @@ export function ScholarlyEraCard({ year }: ScholarlyEraCardProps) {
         <span
           style={{
             fontFamily: "var(--font-mono)",
-            fontSize: 10,
+            fontSize: 13,
             color: "var(--fg-mute)",
             letterSpacing: "0.2em",
             textTransform: "uppercase",
@@ -115,7 +115,7 @@ export function ScholarlyEraCard({ year }: ScholarlyEraCardProps) {
           className="ml-auto flex items-center gap-1.5"
           style={{
             fontFamily: "var(--font-mono)",
-            fontSize: 10,
+            fontSize: 13,
             color: "var(--fg-2)",
             letterSpacing: "0.08em",
             textTransform: "uppercase",
@@ -145,7 +145,7 @@ export function ScholarlyEraCard({ year }: ScholarlyEraCardProps) {
         <span
           style={{
             fontFamily: "var(--font-mono)",
-            fontSize: 11,
+            fontSize: 14,
             color: "var(--fg-mute)",
             letterSpacing: "0.04em",
           }}
@@ -177,7 +177,7 @@ export function ScholarlyEraCard({ year }: ScholarlyEraCardProps) {
           <span
             style={{
               fontFamily: "var(--font-mono)",
-              fontSize: 10,
+              fontSize: 13,
               padding: "3px 10px",
               borderRadius: 99,
               background: "var(--stamp-soft)",
@@ -196,7 +196,7 @@ export function ScholarlyEraCard({ year }: ScholarlyEraCardProps) {
           <span
             style={{
               fontFamily: "var(--font-mono)",
-              fontSize: 10,
+              fontSize: 13,
               padding: "3px 10px",
               borderRadius: 99,
               background:
@@ -216,7 +216,7 @@ export function ScholarlyEraCard({ year }: ScholarlyEraCardProps) {
           className="ml-auto inline-flex items-center gap-1 transition-colors"
           style={{
             fontFamily: "var(--font-sans)",
-            fontSize: 11,
+            fontSize: 14,
             color: "var(--stamp)",
             fontWeight: 600,
             letterSpacing: "0.04em",
