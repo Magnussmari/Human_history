@@ -12,6 +12,7 @@
  */
 
 import type { Metadata } from "next";
+import Link from "next/link";
 import {
   EditorialPage,
   Eyebrow,
@@ -196,6 +197,21 @@ export default function MethodologyPage() {
               say about the core claims of this period. Currently covers
               eras 01–20 of a planned 50, with zero hallucinated citations
               across 10 agent runs.
+            </p>
+            <p style={{ marginTop: "var(--atlas-space-5)" }}>
+              <Link
+                href="/methodology/scite-mcp"
+                style={{
+                  color: "var(--atlas-leaf)",
+                  fontFamily: "var(--atlas-font-sans)",
+                  fontSize: "var(--atlas-text-small)",
+                  textTransform: "uppercase",
+                  letterSpacing: "var(--atlas-tracking-eyebrow)",
+                  textDecoration: "none",
+                }}
+              >
+                Read the Scite MCP whitepaper →
+              </Link>
             </p>
           </Reading>
         </Section>
