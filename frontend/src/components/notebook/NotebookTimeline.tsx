@@ -45,9 +45,10 @@ export function NotebookTimeline({ years, isLoading }: NotebookTimelineProps) {
 
   const virtualizer = useWindowVirtualizer({
     count: years.length,
-    estimateSize: () => 128,
+    estimateSize: () => 168,
     overscan: 6,
     scrollMargin,
+    measureElement: (el) => el.getBoundingClientRect().height,
   });
 
   if (isLoading) {
@@ -94,6 +95,8 @@ export function NotebookTimeline({ years, isLoading }: NotebookTimelineProps) {
             return (
               <div
                 key={year.year}
+                data-index={vr.index}
+                ref={virtualizer.measureElement}
                 style={{
                   position: "absolute",
                   top: 0,
