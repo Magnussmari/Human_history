@@ -305,11 +305,25 @@
   letter-spacing: 0.16em; text-transform: uppercase;
   color: var(--gs-accent);
 }
+/* Override the global h1-h6 { color: var(--fg) } — --fg inherits from the
+   Notebook variant outside the globe (indigo #161b2e on cream), which on
+   the globe's dark panel renders invisibly blue-on-blue. Every heading
+   INSIDE the globe must use gs-fg. */
+.gs-root h1,
+.gs-root h2,
+.gs-root h3,
+.gs-root h4,
+.gs-root h5,
+.gs-root h6 {
+  color: var(--gs-fg);
+}
+
 .gs-rail-title {
   font-family: var(--gs-font-display); font-size: 22px;
   font-weight: 500; letter-spacing: -0.01em;
   line-height: 1.2;
   margin: 6px 0 0;
+  color: var(--gs-fg);
 }
 .gs-rail-body {
   padding: 16px 20px;
